@@ -1,0 +1,86 @@
+# Moodle Course Repository - Ignore Patterns
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Moodle backup files (large binaries)
+*.mbz
+*.zip
+
+# Large media files (use Git LFS instead)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.pptx
+*.pdf
+*.docx
+*.xlsx
+*.psd
+*.ai
+*.sketch
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Local configuration
+.local.env
+config.local.yaml
+secrets.json
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Node modules (if using JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log

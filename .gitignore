@@ -1,4 +1,58 @@
 ```
-# Documentation files
-*.md
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+*.so
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.noserc
+.tox/
+.cover/
+
+# Environment specific
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```

@@ -1,0 +1,42 @@
+# Moodle Course Repository - Requirements
+
+# Core dependencies for course building
+PyYAML>=6.0
+jsonschema>=4.20.0
+
+# Moodle backup/restore handling
+moodle-parser>=1.0.0
+lxml>=5.1.0
+
+# Markdown processing
+markdown>=3.5.0
+pymdown-extensions>=10.4
+
+# Validation and testing
+pytest>=8.0.0
+pytest-cov>=4.1.0
+jsonschema>=4.20.0
+
+# CI/CD utilities
+click>=8.1.0
+rich>=13.7.0
+
+# File handling and compression
+tarfile>=1.0.0
+gzip>=1.0.0
+
+# Optional: Git LFS for large files
+# git-lfs>=3.0.0
+
+# Optional: PDF generation
+# reportlab>=4.0.0
+# weasyprint>=60.0
+
+# Optional: Video processing
+# ffmpeg-python>=0.2.0
+
+# Development dependencies
+# black>=24.1.0
+# flake8>=7.0.0
+# mypy>=1.8.0
+# pre-commit>=3.6.0

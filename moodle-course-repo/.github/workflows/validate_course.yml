@@ -1,0 +1,68 @@
+name: Validate Course Structure
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'course-metadata/**'
+      - 'sections/**'
+      - 'question-banks/**'
+      - 'scripts/**'
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run structure validation
+      run: python scripts/validate_course.py --course ./ --strict --report validation-report.json
+    
+    - name: Upload validation report
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: validation-report
+        path: validation-report.json
+        retention-days: 7
+    
+    - name: Check GIFT syntax
+      run: |
+        for file in question-banks/*/*.gift; do
+          echo "Validating $file"
+          python -c "import sys; from scripts.validate_course import validate_gift; validate_gift('$file')" || exit 1
+        done
+    
+    - name: Validate YAML files
+      run: |
+        python -c "
+import yaml
+import sys
+from pathlib import Path
+
+errors = []
+for yaml_file in Path('.').rglob('*.yaml'):
+    try:
+        with open(yaml_file) as f:
+            yaml.safe_load(f)
+        print(f'✓ {yaml_file}')
+    except Exception as e:
+        errors.append(f'{yaml_file}: {e}')
+        print(f'✗ {yaml_file}: {e}')
+
+if errors:
+    sys.exit(1)
+"
