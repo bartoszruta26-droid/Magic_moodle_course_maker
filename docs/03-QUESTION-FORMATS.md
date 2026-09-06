@@ -16,6 +16,10 @@
 5. [Format Moodle XML – pytania](#xml-questions)
 6. [Format Aiken – prosty multichoice](#aiken)
 7. [Porównanie formatów](#comparison)
+8. [Struktura quizów – metadane i konfiguracja](#quiz-structure)
+   - [Plik `quiz.yaml` – metadane quizu](#quiz-yaml-meta)
+   - [Plik `feedback.md` – informacja zwrotna](#feedback-md)
+   - [Bank pytań – struktura katalogów](#question-bank)
 
 ---
 
@@ -837,6 +841,224 @@ ANSWER: B
 | **Import do Moodle** | Bezpośredni | Wymaga konwersji | Bezpośredni | Bezpośredni |
 | **Eksport z Moodle** | Tak | Wymaga konwersji | Tak | Nie |
 
+---
+
+<a id="quiz-structure"></a>
+## 8. Struktura quizów – metadane i konfiguracja
+
+### 8.1. Plik `quiz.yaml` – metadane quizu
+
+Plik `quiz.yaml` zawiera kompletną konfigurację modułu quizu w Moodle, 
+w tym ustawienia czasu, prób, oceniania, bezpieczeństwa oraz źródła pytań.
+
+```yaml
+# ============================================================
+# Plik: quiz-01/quiz.yaml
+# Typ modułu: quiz
+# ============================================================
+
+quiz:
+  # --- Identyfikacja ---
+  name: "Test: Podstawy Prawdy"
+  intro: |
+    Ten test sprawdza wiedzę zdobytą w pierwszej sekcji kursu.
+
+    **Zasady:**
+    - Czas: 30 minut
+    - Liczba prób: 3
+    - Ocena: najwyższy wynik z prób
+    - Można wrócić do poprzednich pytań
+  intro_format: "html"
+
+  # --- Ustawienia czasu ---
+  timeopen: "2025-09-01T00:00:00Z"    # Data otwarcia (null = brak)
+  timeclose: null                      # Data zamknięcia (null = brak)
+  timelimit: 1800                      # Limit czasu w sekundach (30 min)
+  overduehandling: "autoabandon"       # autoabandon | autosubmit | graceful
+  gracetimeout: 300                    # Dodatkowy czas (sekundy)
+
+  # --- Ustawienia prób ---
+  attempts: 3                          # Liczba prób (0 = nieskończona)
+  grademethod: "highest"               # highest | first | last | average
+  canredoquestions: false
+
+  # --- Kolejność i nawigacja ---
+  shuffleanswers: true                 # Losowa kolejność odpowiedzi
+  questionsperpage: 5                  # Pytań na stronę (0 = wszystkie)
+  navmethod: "free"                    # free | sequential
+
+  # --- Ocenianie ---
+  sumgrades: 10.0                      # Suma punktów
+  grade: 10.0                          # Maksymalna ocena
+  passgrade: 60                        # Procent zaliczenia (null = brak)
+  decimalpoints: 2                     # Miejsca dziesiętne
+
+  # --- Feedback ---
+  overallfeedback:
+    - grade: 100
+      text: "Doskonale! Opanowałeś materiał w pełni."
+    - grade: 80
+      text: "Bardzo dobrze! Solidna wiedza."
+    - grade: 60
+      text: "Zaliczone, ale warto powtórzyć materiał."
+    - grade: 0
+      text: "Nie zaliczyłeś. Wróć do materiałów i spróbuj ponownie."
+
+  # --- Bezpieczeństwo ---
+  password: null                       # Hasło dostępu (null = brak)
+  subnet: null                         # Ograniczenie IP (null = brak)
+  browsersecurity: ""                  # "" | "safebrowser"
+
+  # --- Ukończenie ---
+  completion:
+    enabled: true
+    type: "pass"                       # pass | view | attempt
+
+  # --- Źródła pytań ---
+  question_sources:
+    - type: "local_file"
+      format: "gift"
+      path: "questions.gift"
+    - type: "local_file"
+      format: "yaml"
+      path: "questions.yaml"
+    - type: "local_file"
+      format: "xml"
+      path: "questions.xml"
+    - type: "question_bank"
+      category: "Prawda"
+      count: 5                         # Losuj 5 pytań z kategorii
+    - type: "random"
+      from_category: "Prawo naturalne"
+      count: 3
+
+  # --- Pytania (jeśli definiowane bezpośrednio) ---
+  # Uwaga: Zwykle pytania są w osobnych plikach GIFT/YAML/XML
+  # Ale można je zdefiniować bezpośrednio tutaj:
+  questions_inline: false              # true = pytania w tym pliku
+
+  # --- Tagi i kategorie ---
+  tags:
+    - "test"
+    - "sekcja-01"
+    - "prawda"
+```
+
+#### Opis plików konfiguracyjnych quizu
+
+| Pole | Typ | Wartości domyślne | Opis |
+|---|---|---|---|
+| `timeopen` | ISO 8601 | `null` | Data i godzina otwarcia quizu |
+| `timeclose` | ISO 8601 | `null` | Data i godzina zamknięcia quizu |
+| `timelimit` | integer | `0` | Limit czasu w sekundach (0 = bez limitu) |
+| `overduehandling` | string | `autoabandon` | Obsługa przekroczenia czasu |
+| `attempts` | integer | `1` | Liczba dozwolonych prób (0 = nieskończona) |
+| `grademethod` | string | `highest` | Metoda obliczania oceny końcowej |
+| `shuffleanswers` | boolean | `true` | Losowa kolejność odpowiedzi |
+| `questionsperpage` | integer | `0` | Liczba pytań na stronie |
+| `navmethod` | string | `free` | Metoda nawigacji (free/sequential) |
+| `passgrade` | float | `null` | Minimalny procent zaliczenia |
+| `browsersecurity` | string | `""` | Zabezpieczenia przeglądarki |
+
+#### Metody oceniania (`grademethod`)
+
+| Wartość | Opis |
+|---|---|
+| `highest` | Najwyższy wynik ze wszystkich prób |
+| `first` | Pierwsza próba |
+| `last` | Ostatnia próba |
+| `average` | Średnia ze wszystkich prób |
+
+#### Obsługa przekroczenia czasu (`overduehandling`)
+
+| Wartość | Opis |
+|---|---|
+| `autoabandon` | Automatyczne porzucenie próby po czasie |
+| `autosubmit` | Automatyczne przesłanie próby po czasie |
+| `graceful` | Grace period z dodatkowym czasem |
+
+### 8.2. Plik `feedback.md` – informacja zwrotna quizu
+
+Plik Markdown zawierający spersonalizowane komunikaty dla różnych zakresów wyników.
+
+```markdown
+<!-- Plik: quiz-01/feedback.md -->
+<!-- Konwersja: Markdown → HTML → Moodle Overall Feedback -->
+
+# Informacja zwrotna
+
+## Wynik 90-100%
+🎉 **Doskonale!** Opanowałeś materiał sekcji pierwszej w pełni.
+Jesteś gotowy, aby przejść do sekcji drugiej.
+
+## Wynik 70-89%
+👍 **Bardzo dobrze!** Masz solidną wiedzę, ale warto powtórzyć
+kilka zagadnień. Zwróć uwagę na pytania, które sprawiły Ci trudność.
+
+## Wynik 60-69%
+📖 **Zaliczone**, ale zachęcam do powtórzenia materiału.
+Przeczytaj ponownie strony sekcji i spróbuj quizu jeszcze raz.
+
+## Wynik poniżej 60%
+🔄 **Nie zaliczyłeś.** Nie martw się – wróć do materiałów,
+przeczytaj je uważnie i spróbuj ponownie. Masz jeszcze próby.
+
+---
+
+> *„Nie lękaj się! Wypłyń na głębię."* (Łk 5, 4)
+```
+
+### 8.3. Bank pytań – struktura katalogów
+
+Bank pytań kursu organizowany jest w katalogach według typów pytań:
+
+```
+courses/01-prawda-i-natura/question-bank/
+├── categories.yaml                  # Kategorie pytań
+├── multichoice/
+│   ├── set-01.gift
+│   ├── set-02.gift
+│   └── set-01.yaml
+├── truefalse/
+│   └── set-01.gift
+├── shortanswer/
+│   └── set-01.gift
+├── numerical/
+│   └── set-01.gift
+├── matching/
+│   └── set-01.gift
+├── essay/
+│   └── set-01.yaml
+└── mixed/
+    └── set-01.gift
+```
+
+#### Plik `categories.yaml` – definicja kategorii
+
+```yaml
+# Plik: question-bank/categories.yaml
+
+categories:
+  - name: "Prawda"
+    description: "Pytania dotyczące pojęcia prawdy"
+    parent: "$course$"
+    info: "Kategoria zawiera pytania z filozofii prawdy"
+    
+  - name: "Prawo naturalne"
+    description: "Pytania dotyczące prawa naturalnego"
+    parent: "$course$"
+    info: "Kategoria zawiera pytania z etyki i prawa naturalnego"
+    
+  - name: "Godność człowieka"
+    description: "Pytania dotyczące godności osoby"
+    parent: "$course$"
+    info: "Kategoria zawiera pytania z antropologii filozoficznej"
+    
+  - name: "Wolność"
+    description: "Pytania dotyczące wolności ludzkiej"
+    parent: "$course$/Prawda"
+    info: "Podkategoria prawdy - wymiar wolności"
+```
 
 ---
 
