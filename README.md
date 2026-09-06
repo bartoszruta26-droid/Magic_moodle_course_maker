@@ -174,43 +174,42 @@ qwen-moodle-courses/
 │       ├── generate-quiz-questions.md
 │       └── review-content-ethics.md
 │
-├── scripts/                           # Skrypty narzędziowe Python
-│   ├── __init__.py
-│   ├── requirements.txt
-│   ├── config.py
+├── scripts/                           # Skrypty narzędziowe Bash, C, C++, PHP
+│   ├── config.sh
+│   ├── config.sh
 │   │
 │   ├── validators/
-│   │   ├── validate_course.py
-│   │   ├── validate_yaml.py
-│   │   ├── validate_gift.py
-│   │   ├── validate_links.py
-│   │   ├── validate_media.py
-│   │   ├── validate_accessibility.py
-│   │   └── validate_ethics.py
+│   │   ├── validate_course.sh
+│   │   ├── validate_yaml.sh
+│   │   ├── validate_gift.sh
+│   │   ├── validate_links.sh
+│   │   ├── validate_media.sh
+│   │   ├── validate_accessibility.sh
+│   │   └── validate_ethics.sh
 │   │
 │   ├── converters/
-│   │   ├── yaml_to_moodle_xml.py
-│   │   ├── yaml_to_gift.py
-│   │   ├── md_to_html.py
-│   │   ├── gift_to_moodle_xml.py
-│   │   └── moodle_xml_to_mbz.py
+│   │   ├── yaml_to_moodle_xml.php
+│   │   ├── yaml_to_gift.php
+│   │   ├── md_to_html.php
+│   │   ├── gift_to_moodle_xml.php
+│   │   └── moodle_xml_to_mbz.php
 │   │
 │   ├── builders/
-│   │   ├── build_course.py
-│   │   ├── build_quiz.py
-│   │   └── build_mbz.py
+│   │   ├── build_course.c
+│   │   ├── build_quiz.cpp
+│   │   └── build_mbz.c
 │   │
 │   ├── importers/
-│   │   ├── moodle_api_client.py
-│   │   └── import_course.py
+│   │   ├── moodle_api_client.php
+│   │   └── import_course.php
 │   │
 │   └── utilities/
-│       ├── slugify.py
-│       └── link_checker.py
+│       ├── slugify.sh
+│       └── link_checker.sh
 │
 ├── tests/                             # Testy automatyczne
-│   ├── test_validators.py
-│   ├── test_converters.py
+│   ├── test_validators.sh
+│   ├── test_converters.sh
 │   └── fixtures/
 │       └── sample-course/
 │
@@ -333,31 +332,30 @@ nano courses/01-nowy-kurs/course.yaml
 
 ```bash
 # Instalacja zależności
-pip install -r scripts/requirements.txt
 
 # Budowanie wszystkich formatów
-python scripts/builders/build_course.py courses/01-nowy-kurs --format all
+./scripts/builders/build_course courses/01-nowy-kurs --format all
 
 # Lub konkretny format
-python scripts/builders/build_course.py courses/01-nowy-kurs --format xml
-python scripts/builders/build_course.py courses/01-nowy-kurs --format gift
-python scripts/builders/build_course.py courses/01-nowy-kurs --format mbz
+./scripts/builders/build_course courses/01-nowy-kurs --format xml
+./scripts/builders/build_course courses/01-nowy-kurs --format gift
+./scripts/builders/build_course courses/01-nowy-kurs --format mbz
 ```
 
 ### 3. Walidacja
 
 ```bash
 # Walidacja YAML
-python scripts/validators/validate_yaml.py courses/
+./scripts/validators/validate_yaml.sh courses/
 
 # Walidacja GIFT
-python scripts/validators/validate_gift.py courses/
+./scripts/validators/validate_gift.sh courses/
 
 # Walidacja dostępności
-python scripts/validators/validate_accessibility.py courses/
+./scripts/validators/validate_accessibility.sh courses/
 
 # Walidacja etyczna
-python scripts/validators/validate_ethics.py courses/
+./scripts/validators/validate_ethics.sh courses/
 ```
 
 ### 4. Eksport do Moodle
@@ -372,7 +370,7 @@ Wygenerowany plik `.mbz` można zaimportować do Moodle przez:
 
 **CLI Moodle:**
 ```bash
-php admin/cli/backup.py --file=/path/to/course.mbz
+php admin/cli/backup --file=/path/to/course.mbz
 ```
 
 **Import pytań GIFT:**
@@ -385,17 +383,17 @@ php admin/cli/backup.py --file=/path/to/course.mbz
 
 | Skrypt | Opis |
 |--------|------|
-| `scripts/builders/build_course.py` | Główny skrypt budujący kurs w formatach XML/GIFT/MBZ |
-| `scripts/validators/validate_yaml.py` | Walidacja plików YAML względem schematów JSON Schema |
-| `scripts/validators/validate_gift.py` | Walidacja składni plików GIFT |
-| `scripts/validators/validate_links.py` | Sprawdzenie poprawności linków wewnętrznych |
-| `scripts/validators/validate_media.py` | Walidacja plików multimedialnych |
-| `scripts/validators/validate_accessibility.py` | Sprawdzenie zgodności z WCAG 2.1 AA |
-| `scripts/validators/validate_ethics.py` | Walidacja zgodności etycznej treści |
-| `scripts/converters/yaml_to_moodle_xml.py` | Konwersja YAML → Moodle XML |
-| `scripts/converters/yaml_to_gift.py` | Konwersja YAML → GIFT |
-| `scripts/converters/md_to_html.py` | Konwersja Markdown → HTML |
-| `scripts/importers/import_course.py` | Import kursu do Moodle przez REST API |
+| `scripts/builders/build_course.c` | Główny skrypt budujący kurs w formatach XML/GIFT/MBZ |
+| `scripts/validators/validate_yaml.sh` | Walidacja plików YAML względem schematów JSON Schema |
+| `scripts/validators/validate_gift.sh` | Walidacja składni plików GIFT |
+| `scripts/validators/validate_links.sh` | Sprawdzenie poprawności linków wewnętrznych |
+| `scripts/validators/validate_media.sh` | Walidacja plików multimedialnych |
+| `scripts/validators/validate_accessibility.sh` | Sprawdzenie zgodności z WCAG 2.1 AA |
+| `scripts/validators/validate_ethics.sh` | Walidacja zgodności etycznej treści |
+| `scripts/converters/yaml_to_moodle_xml.php` | Konwersja YAML → Moodle XML |
+| `scripts/converters/yaml_to_gift.php` | Konwersja YAML → GIFT |
+| `scripts/converters/md_to_html.php` | Konwersja Markdown → HTML |
+| `scripts/importers/import_course.php` | Import kursu do Moodle przez REST API |
 
 ## 📄 Zasady etyczne
 
@@ -441,19 +439,22 @@ Projekt wykorzystuje GitHub Actions do automatyzacji:
 
 ## 🛠️ Wymagania
 
-- Python 3.11+
+- GCC/G++ (kompilator C/C++)
 - Moodle 4.0+ (do importu)
+- PHP 8.0+ (CLI)
+- Bash 5.0+
 - Node.js (opcjonalnie, do narzędzi frontend)
 
-### Zależności Python
+### NarzД™dzia budowania
 
 ```txt
-# scripts/requirements.txt
-pyyaml>=6.0
-jsonschema>=4.17.0
-markdown>=3.4.0
-requests>=2.28.0
-jinja2>=3.1.0
+# Wymagane pakiety systemowe
+gcc >= 11.0
+g++ >= 11.0
+php-cli >= 8.0
+php-xml >= 8.0
+php-mbstring >= 8.0
+bash >= 5.0
 ```
 
 ## 📄 Licencja
