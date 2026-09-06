@@ -15,7 +15,7 @@ Oto szczegółowy przewodnik, jak to zrobić, z podziałem na aspekty techniczne
 *   **Modele Qwen (Alibaba Cloud / Hugging Face):** 
     *   *Opcja API:* Platforma Alibaba Cloud (DashScope) oraz Hugging Face oferują darmowe limity tokenów dla modeli z rodziny Qwen (np. Qwen-Coder, Qwen-Plus, Qwen-Max). Wystarczą one do generowania kodu i treści kursów na potrzeby misyjne i edukacyjne.
     *   *Opcja Lokalna (100% darmowa i prywatna):* Możesz pobrać modele Qwen (np. Qwen2.5-Coder) i uruchomić je lokalnie na własnym komputerze za pomocą narzędzia **Ollama**. Nie ma wtedy żadnych limitów, a dane nie opuszczają Twojego komputera, co jest zgodne z zasadą dobrej stewardii (zarządzania tym, co powierzone).
-*   **Qwen Coder:** Służy do napisania skryptu integrującego. Możesz go użyć w darmowym interfejsie (np. Hugging Face Chat) lub lokalnie, aby wygenerował dla Ciebie gotowy kod w Pythonie.
+*   **Qwen Coder:** Służy do napisania skryptu integrującego. Możesz go użyć w darmowym interfejsie (np. Hugging Face Chat) lub lokalnie, aby wygenerował dla Ciebie gotowy kod w Bash/C/C++/PHPie.
 
 ### 2. Jak to zrobić? (Krok po kroku)
 
@@ -31,10 +31,10 @@ Najlepszym podejściem jest podzielenie zadania na dwa etapy: użycie **Qwen Cod
 #### Krok 2: Architektura rozwiązania
 Zamiast tworzyć każdą stronę kursu ręcznie przez API (co jest skomplikowane), najefektywniej jest użyć Qwen do wygenerowania pliku w formacie **Moodle XML** (który zawiera pytania, lekcje i strukturę) lub użycie API do stworzenia "szkieletu" kursu, a następnie dodawania zasobów. Poniżej przedstawiam przykład użycia API REST do tworzenia kursów.
 
-#### Krok 3: Przykładowy kod integracyjny (Python)
+#### Krok 3: Przykładowy kod integracyjny (Bash/C/C++/PHP)
 Użyj Qwen Coder, aby dostosować poniższy kod do swoich potrzeb. Skrypt ten łączy się z Qwen (przez kompatybilne API OpenAI), prosi o wygenerowanie opisu kursu zgodnego z Twoimi wartościami, a następnie tworzy kurs w Moodle.
 
-```python
+```bash
 import requests
 import json
 from openai import OpenAI
@@ -180,10 +180,10 @@ moodle-courses/
 │       └── quiz.schema.json
 │
 ├── scripts/                           # Skrypty narzędziowe
-│   ├── build.py                       # Konwersja YAML/MD → Moodle XML
-│   ├── package.py                     # Pakowanie XML → .mbz
-│   ├── import-to-moodle.py            # Import przez API Moodle
-│   ├── validate.py                    # Walidacja zgodności ze schematem
+│   ├── build.sh                       # Konwersja YAML/MD → Moodle XML
+│   ├── package.sh                     # Pakowanie XML → .mbz
+│   ├── import-to-moodle.sh            # Import przez API Moodle
+│   ├── validate.sh                    # Walidacja zgodności ze schematem
 │   └── requirements.txt
 │
 └── docs/
@@ -207,7 +207,7 @@ moodle-courses/
 | Szablony XML | `.xml` | Szablony konwersji do formatu Moodle |
 | Schematy walidacji | `.json` (JSON Schema) | Automatyczna walidacja struktury |
 | Wynikowy plik Moodle | `.mbz` lub `.xml` | Gotowy do importu do Moodle |
-| Skrypty | `.py` (Python) | Automatyzacja budowania i importu |
+| Skrypty | `.sh` (Bash/C/C++/PHP) | Automatyzacja budowania i importu |
 
 ---
 
@@ -315,7 +315,7 @@ quiz:
 Moodle akceptuje import w kilku formatach. Najbardziej odpowiednie dla tego podejścia:
 
 ### Opcja A: Moodle XML (najprostsza)
-Skrypt `build.py` konwertuje YAML + Markdown → plik XML zgodny z formatem importu Moodle.
+Skrypt `build.sh` konwertuje YAML + Markdown → plik XML zgodny z formatem importu Moodle.
 
 Przykładowy fragment wygenerowanego XML dla quizu:
 ```xml
@@ -364,13 +364,13 @@ Standard branżowy obsługiwany przez Moodle. Bardziej złożony, ale przenośny
 
 ---
 
-## 5. Skrypt budujący (`scripts/build.py`)
+## 5. Skrypt budujący (`scripts/build.sh`)
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Konwersja YAML/MD → Moodle XML
-Użycie: python build.py courses/01-prawda-i-natura
+Użycie: bash build.sh courses/01-prawda-i-natura
 """
 
 import os
@@ -449,7 +449,7 @@ def build_course_xml(course_dir):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Użycie: python build.py <sciezka_do_kursu>")
+        print("Użycie: bash build.sh <sciezka_do_kursu>")
         sys.exit(1)
     build_course_xml(sys.argv[1])
 ```
@@ -474,21 +474,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
       
       - name: Install dependencies
-        run: pip install pyyaml markdown
+        run: kompiluj make pyyaml markdown
       
       - name: Validate courses
-        run: python scripts/validate.py courses/
+        run: bash scripts/validate.sh courses/
       
       - name: Build Moodle packages
         run: |
           for course_dir in courses/*/; do
-            python scripts/build.py "$course_dir"
+            bash scripts/build.sh "$course_dir"
           done
       
       - name: Upload artifacts
@@ -526,7 +526,7 @@ Generuje pliki YAML + MD w repozytorium GitHub
 GitHub Actions: walidacja + budowanie
       │
       ▼
-Skrypt build.py → Moodle XML / .mbz
+Skrypt build.sh → Moodle XML / .mbz
       │
       ▼
 Import do Moodle (ręcznie przez UI lub skryptem API)
@@ -878,78 +878,78 @@ moodle-courses/
 │       └── convert-to-gift.md
 │
 ├── scripts/                                   # Skrypty narzędziowe
-│   ├── __init__.py
-│   ├── requirements.txt                       # Zależności Python
-│   ├── config.py                              # Konfiguracja globalna
+│   ├── __init__.sh
+│   ├── requirements.txt                       # Zależności Bash/C/C++/PHP
+│   ├── config.sh                              # Konfiguracja globalna
 │   │
 │   ├── validators/                            # Walidatory
-│   │   ├── validate_course.py
-│   │   ├── validate_yaml.py
-│   │   ├── validate_gift.py
-│   │   ├── validate_xml.py
-│   │   ├── validate_links.py
-│   │   ├── validate_media.py
-│   │   └── validate_accessibility.py
+│   │   ├── validate_course.sh
+│   │   ├── validate_yaml.sh
+│   │   ├── validate_gift.sh
+│   │   ├── validate_xml.sh
+│   │   ├── validate_links.sh
+│   │   ├── validate_media.sh
+│   │   └── validate_accessibility.sh
 │   │
 │   ├── converters/                            # Konwertery formatów
-│   │   ├── yaml_to_moodle_xml.py
-│   │   ├── yaml_to_gift.py
-│   │   ├── md_to_html.py
-│   │   ├── gift_to_moodle_xml.py
-│   │   ├── moodle_xml_to_mbz.py
-│   │   ├── yaml_to_imscc.py
-│   │   ├── latex_to_mathjax.py
-│   │   └── asciidoc_to_html.py
+│   │   ├── yaml_to_moodle_xml.sh
+│   │   ├── yaml_to_gift.sh
+│   │   ├── md_to_html.sh
+│   │   ├── gift_to_moodle_xml.sh
+│   │   ├── moodle_xml_to_mbz.sh
+│   │   ├── yaml_to_imscc.sh
+│   │   ├── latex_to_mathjax.sh
+│   │   └── asciidoc_to_html.sh
 │   │
 │   ├── builders/                              # Buildery pakietów
-│   │   ├── build_course.py
-│   │   ├── build_quiz.py
-│   │   ├── build_question_bank.py
-│   │   ├── build_mbz.py
-│   │   ├── build_imscc.py
-│   │   └── build_scorm.py
+│   │   ├── build_course.sh
+│   │   ├── build_quiz.sh
+│   │   ├── build_question_bank.sh
+│   │   ├── build_mbz.sh
+│   │   ├── build_imscc.sh
+│   │   └── build_scorm.sh
 │   │
 │   ├── importers/                             # Importerzy do Moodle
-│   │   ├── moodle_api_client.py               # Klient REST API Moodle
-│   │   ├── import_course.py
-│   │   ├── import_quiz.py
-│   │   ├── import_questions.py
-│   │   ├── import_users.py
-│   │   └── import_grades.py
+│   │   ├── moodle_api_client.sh               # Klient REST API Moodle
+│   │   ├── import_course.sh
+│   │   ├── import_quiz.sh
+│   │   ├── import_questions.sh
+│   │   ├── import_users.sh
+│   │   └── import_grades.sh
 │   │
 │   ├── exporters/                             # Eksporterzy z Moodle
-│   │   ├── export_course.py
-│   │   ├── export_quiz.py
-│   │   └── export_grades.py
+│   │   ├── export_course.sh
+│   │   ├── export_quiz.sh
+│   │   └── export_grades.sh
 │   │
 │   ├── generators/                            # Generatory AI
-│   │   ├── qwen_client.py                     # Klient API Qwen
-│   │   ├── generate_course.py
-│   │   ├── generate_questions.py
-│   │   ├── generate_content.py
-│   │   └── review_content.py
+│   │   ├── qwen_client.sh                     # Klient API Qwen
+│   │   ├── generate_course.sh
+│   │   ├── generate_questions.sh
+│   │   ├── generate_content.sh
+│   │   └── review_content.sh
 │   │
 │   ├── utilities/                             # Narzędzia pomocnicze
-│   │   ├── slugify.py
-│   │   ├── media_optimizer.py
-│   │   ├── link_checker.py
-│   │   ├── accessibility_checker.py
-│   │   └── changelog_generator.py
+│   │   ├── slugify.sh
+│   │   ├── media_optimizer.sh
+│   │   ├── link_checker.sh
+│   │   ├── accessibility_checker.sh
+│   │   └── changelog_generator.sh
 │   │
-│   ├── cli.py                                 # Interfejs CLI
+│   ├── cli.sh                                 # Interfejs CLI
 │   └── Makefile                               # Skróty poleceń
 │
 ├── tests/                                     # Testy automatyczne
-│   ├── test_validators.py
-│   ├── test_converters.py
-│   ├── test_builders.py
+│   ├── test_validators.sh
+│   ├── test_converters.sh
+│   ├── test_builders.sh
 │   ├── fixtures/                              # Dane testowe
 │   │   ├── sample-course/
 │   │   ├── sample-quiz.gift
 │   │   └── expected-output/
 │   └── integration/
-│       ├── test_moodle_api.py
-│       └── test_import_export.py
+│       ├── test_moodle_api.sh
+│       └── test_import_export.sh
 │
 ├── docs/                                      # Dokumentacja
 │   ├── architecture.md                        # Architektura systemu
@@ -995,9 +995,9 @@ courses/*/output/
 *.mbz
 *.imscc
 
-# Środowisko Python
+# Środowisko Bash/C/C++/PHP
 __pycache__/
-*.py[cod]
+*.sh[cod]
 *$py.class
 .env
 .venv/
@@ -1302,7 +1302,7 @@ settings:
 ```markdown
 <!-- 
 Plik: courses/01-prawda-i-natura/sections/01-wprowadzenie/section.md
-Konwersja: Markdown → HTML (przy użyciu pandoc lub python-markdown)
+Konwersja: Markdown → HTML (przy użyciu pandoc lub bash-markdown)
 -->
 
 # Wprowadzenie: Czym jest Prawda?
@@ -3133,18 +3133,18 @@ media_manifest:
 <a id="10"></a>
 ## 10. Skrypty budowania i eksportu
 
-### 10.1. Główny skrypt budujący (`scripts/builders/build_course.py`)
+### 10.1. Główny skrypt budujący (`scripts/builders/build_course.sh`)
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Główny skrypt budujący kurs Moodle z plików YAML/MD/GIFT.
 
 Użycie:
-    python build_course.py courses/01-prawda-i-natura --format xml
-    python build_course.py courses/01-prawda-i-natura --format gift
-    python build_course.py courses/01-prawda-i-natura --format mbz
-    python build_course.py courses/01-prawda-i-natura --format all
+    bash build_course.sh courses/01-prawda-i-natura --format xml
+    bash build_course.sh courses/01-prawda-i-natura --format gift
+    bash build_course.sh courses/01-prawda-i-natura --format mbz
+    bash build_course.sh courses/01-prawda-i-natura --format all
 
 Wynik:
     courses/01-prawda-i-natura/output/moodle-xml/course.xml
@@ -3260,15 +3260,15 @@ if __name__ == "__main__":
     build_course(args.course_dir, args.format)
 ```
 
-### 10.2. Konwerter YAML → GIFT (`scripts/converters/yaml_to_gift.py`)
+### 10.2. Konwerter YAML → GIFT (`scripts/converters/yaml_to_gift.sh`)
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Konwerter pytań YAML → format GIFT.
 
 Użycie:
-    python yaml_to_gift.py quiz-01/questions.yaml -o output.gift
+    bash yaml_to_gift.sh quiz-01/questions.yaml -o output.gift
 """
 
 import yaml
@@ -3459,10 +3459,10 @@ class YamlToGift:
         return '\n'.join(self.gift_lines)
 ```
 
-### 10.3. Skrypt importu do Moodle (`scripts/importers/import_course.py`)
+### 10.3. Skrypt importu do Moodle (`scripts/importers/import_course.sh`)
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Import kursu do Moodle przez REST API.
 
@@ -3472,7 +3472,7 @@ Wymagania:
     - Plik .mbz lub .xml gotowy do importu
 
 Użycie:
-    python import_course.py --url https://moodle.example.com \
+    bash import_course.sh --url https://moodle.example.com \
                             --token YOUR_TOKEN \
                             --file courses/01/output/mbz/course.mbz
 """
@@ -3613,19 +3613,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
       
       - name: Install dependencies
         run: |
-          pip install pyyaml jsonschema markdown
+          kompiluj make pyyaml jsonschema markdown
       
       - name: Validate YAML files
         run: |
-          python scripts/validators/validate_yaml.py courses/
-          python scripts/validators/validate_course.py courses/
+          bash scripts/validators/validate_yaml.sh courses/
+          bash scripts/validators/validate_course.sh courses/
   
   validate-gift:
     name: Walidacja plików GIFT
@@ -3633,16 +3633,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
       
       - name: Install dependencies
-        run: pip install pyyaml
+        run: kompiluj make pyyaml
       
       - name: Validate GIFT files
-        run: python scripts/validators/validate_gift.py courses/
+        run: bash scripts/validators/validate_gift.sh courses/
   
   validate-links:
     name: Walidacja linków i zasobów
@@ -3651,10 +3651,10 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Check internal links
-        run: python scripts/validators/validate_links.py courses/
+        run: bash scripts/validators/validate_links.sh courses/
       
       - name: Check media files
-        run: python scripts/validators/validate_media.py courses/
+        run: bash scripts/validators/validate_media.sh courses/
   
   validate-accessibility:
     name: Walidacja dostępności (WCAG)
@@ -3663,7 +3663,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Check accessibility
-        run: python scripts/validators/validate_accessibility.py courses/
+        run: bash scripts/validators/validate_accessibility.sh courses/
   
   validate-ethics:
     name: Walidacja zgodności etycznej
@@ -3673,7 +3673,7 @@ jobs:
       
       - name: Check ethical compliance
         run: |
-          python scripts/validators/validate_ethics.py courses/
+          bash scripts/validators/validate_ethics.sh courses/
           # Sprawdza:
           # - Brak manipulacji w treściach
           # - Poszanowanie godności człowieka
@@ -3687,19 +3687,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
       
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: kompiluj make -r scripts/requirements.txt
       
       - name: Build all courses
         run: |
           for course_dir in courses/*/; do
             if [ -d "$course_dir" ]; then
-              python scripts/builders/build_course.py "$course_dir" --format all
+              bash scripts/builders/build_course.sh "$course_dir" --format all
             fi
           done
       
@@ -3729,19 +3729,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
       
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: kompiluj make -r scripts/requirements.txt
       
       - name: Build all courses
         run: |
           for course_dir in courses/*/; do
             if [ -d "$course_dir" ]; then
-              python scripts/builders/build_course.py "$course_dir" --format all
+              bash scripts/builders/build_course.sh "$course_dir" --format all
             fi
           done
       
@@ -3821,10 +3821,10 @@ Wszystkie treści kursów muszą być zgodne z:
 - [ ] AI jest narzędziem wspierającym, nie zastępującym ludzki osąd
 ```
 
-### 12.2. Skrypt walidacji etycznej (`scripts/validators/validate_ethics.py`)
+### 12.2. Skrypt walidacji etycznej (`scripts/validators/validate_ethics.sh`)
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Walidator zgodności etycznej treści kursów.
 
@@ -3934,7 +3934,7 @@ if __name__ == '__main__':
     import sys
     
     if len(sys.argv) < 2:
-        print("Użycie: python validate_ethics.py <ścieżka_do_kursów>")
+        print("Użycie: bash validate_ethics.sh <ścieżka_do_kursów>")
         sys.exit(1)
     
     courses_dir = Path(sys.argv[1])
@@ -4330,78 +4330,78 @@ moodle-courses/
 │       └── convert-to-gift.md
 │
 ├── scripts/
-│   ├── __init__.py
+│   ├── __init__.sh
 │   ├── requirements.txt
-│   ├── config.py
+│   ├── config.sh
 │   │
 │   ├── validators/
-│   │   ├── validate_course.py
-│   │   ├── validate_yaml.py
-│   │   ├── validate_gift.py
-│   │   ├── validate_xml.py
-│   │   ├── validate_links.py
-│   │   ├── validate_media.py
-│   │   └── validate_accessibility.py
+│   │   ├── validate_course.sh
+│   │   ├── validate_yaml.sh
+│   │   ├── validate_gift.sh
+│   │   ├── validate_xml.sh
+│   │   ├── validate_links.sh
+│   │   ├── validate_media.sh
+│   │   └── validate_accessibility.sh
 │   │
 │   ├── converters/
-│   │   ├── yaml_to_moodle_xml.py
-│   │   ├── yaml_to_gift.py
-│   │   ├── md_to_html.py
-│   │   ├── gift_to_moodle_xml.py
-│   │   ├── moodle_xml_to_mbz.py
-│   │   ├── yaml_to_imscc.py
-│   │   ├── latex_to_mathjax.py
-│   │   └── asciidoc_to_html.py
+│   │   ├── yaml_to_moodle_xml.sh
+│   │   ├── yaml_to_gift.sh
+│   │   ├── md_to_html.sh
+│   │   ├── gift_to_moodle_xml.sh
+│   │   ├── moodle_xml_to_mbz.sh
+│   │   ├── yaml_to_imscc.sh
+│   │   ├── latex_to_mathjax.sh
+│   │   └── asciidoc_to_html.sh
 │   │
 │   ├── builders/
-│   │   ├── build_course.py
-│   │   ├── build_quiz.py
-│   │   ├── build_question_bank.py
-│   │   ├── build_mbz.py
-│   │   ├── build_imscc.py
-│   │   └── build_scorm.py
+│   │   ├── build_course.sh
+│   │   ├── build_quiz.sh
+│   │   ├── build_question_bank.sh
+│   │   ├── build_mbz.sh
+│   │   ├── build_imscc.sh
+│   │   └── build_scorm.sh
 │   │
 │   ├── importers/
-│   │   ├── moodle_api_client.py
-│   │   ├── import_course.py
-│   │   ├── import_quiz.py
-│   │   ├── import_questions.py
-│   │   ├── import_users.py
-│   │   └── import_grades.py
+│   │   ├── moodle_api_client.sh
+│   │   ├── import_course.sh
+│   │   ├── import_quiz.sh
+│   │   ├── import_questions.sh
+│   │   ├── import_users.sh
+│   │   └── import_grades.sh
 │   │
 │   ├── exporters/
-│   │   ├── export_course.py
-│   │   ├── export_quiz.py
-│   │   └── export_grades.py
+│   │   ├── export_course.sh
+│   │   ├── export_quiz.sh
+│   │   └── export_grades.sh
 │   │
 │   ├── generators/
-│   │   ├── qwen_client.py
-│   │   ├── generate_course.py
-│   │   ├── generate_questions.py
-│   │   ├── generate_content.py
-│   │   └── review_content.py
+│   │   ├── qwen_client.sh
+│   │   ├── generate_course.sh
+│   │   ├── generate_questions.sh
+│   │   ├── generate_content.sh
+│   │   └── review_content.sh
 │   │
 │   ├── utilities/
-│   │   ├── slugify.py
-│   │   ├── media_optimizer.py
-│   │   ├── link_checker.py
-│   │   ├── accessibility_checker.py
-│   │   └── changelog_generator.py
+│   │   ├── slugify.sh
+│   │   ├── media_optimizer.sh
+│   │   ├── link_checker.sh
+│   │   ├── accessibility_checker.sh
+│   │   └── changelog_generator.sh
 │   │
-│   ├── cli.py
+│   ├── cli.sh
 │   └── Makefile
 │
 ├── tests/
-│   ├── test_validators.py
-│   ├── test_converters.py
-│   ├── test_builders.py
+│   ├── test_validators.sh
+│   ├── test_converters.sh
+│   ├── test_builders.sh
 │   ├── fixtures/
 │   │   ├── sample-course/
 │   │   ├── sample-quiz.gift
 │   │   └── expected-output/
 │   └── integration/
-│       ├── test_moodle_api.py
-│       └── test_import_export.py
+│       ├── test_moodle_api.sh
+│       └── test_import_export.sh
 │
 ├── docs/
 │   ├── 01-ARCHITECTURE.md
@@ -4446,9 +4446,9 @@ courses/*/output/
 *.mbz
 *.imscc
 
-# Środowisko Python
+# Środowisko Bash/C/C++/PHP
 __pycache__/
-*.py[cod]
+*.sh[cod]
 *$py.class
 .env
 .venv/
@@ -6326,7 +6326,7 @@ ANSWER: B
 1. [JSON Schema dla course.yaml](#schema-course)
 2. [JSON Schema dla pytań](#schema-question)
 3. [Szablon Jinja2 – konwersja YAML → XML](#jinja2)
-4. [Główny skrypt budujący (build_course.py)](#build-script)
+4. [Główny skrypt budujący (build_course.sh)](#build-script)
 5. [Konwerter YAML → GIFT](#yaml-to-gift)
 6. [Skrypt importu do Moodle](#import-script)
 7. [Pipeline CI/CD – walidacja](#ci-validate)
@@ -6578,18 +6578,18 @@ Plik: `templates/moodle-xml/question-types/multichoice.xml.j2`
 ---
 
 <a id="build-script"></a>
-## 4. Główny skrypt budujący – `scripts/builders/build_course.py`
+## 4. Główny skrypt budujący – `scripts/builders/build_course.sh`
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Główny skrypt budujący kurs Moodle z plików YAML/MD/GIFT.
 
 Użycie:
-    python build_course.py courses/01-prawda-i-natura --format xml
-    python build_course.py courses/01-prawda-i-natura --format gift
-    python build_course.py courses/01-prawda-i-natura --format mbz
-    python build_course.py courses/01-prawda-i-natura --format all
+    bash build_course.sh courses/01-prawda-i-natura --format xml
+    bash build_course.sh courses/01-prawda-i-natura --format gift
+    bash build_course.sh courses/01-prawda-i-natura --format mbz
+    bash build_course.sh courses/01-prawda-i-natura --format all
 """
 
 import argparse
@@ -6700,10 +6700,10 @@ if __name__ == "__main__":
 ---
 
 <a id="yaml-to-gift"></a>
-## 5. Konwerter YAML → GIFT – `scripts/converters/yaml_to_gift.py`
+## 5. Konwerter YAML → GIFT – `scripts/converters/yaml_to_gift.sh`
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Konwerter pytań YAML → format GIFT.
 """
@@ -6883,15 +6883,15 @@ class YamlToGift:
 ---
 
 <a id="import-script"></a>
-## 6. Skrypt importu do Moodle – `scripts/importers/import_course.py`
+## 6. Skrypt importu do Moodle – `scripts/importers/import_course.sh`
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Import kursu do Moodle przez REST API.
 
 Użycie:
-    python import_course.py --url https://moodle.example.com \
+    bash import_course.sh --url https://moodle.example.com \
                             --token YOUR_TOKEN \
                             --file courses/01/output/mbz/course.mbz
 """
@@ -7002,19 +7002,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
 
       - name: Install dependencies
         run: |
-          pip install pyyaml jsonschema markdown
+          kompiluj make pyyaml jsonschema markdown
 
       - name: Validate YAML files
         run: |
-          python scripts/validators/validate_yaml.py courses/
-          python scripts/validators/validate_course.py courses/
+          bash scripts/validators/validate_yaml.sh courses/
+          bash scripts/validators/validate_course.sh courses/
 
   validate-gift:
     name: Walidacja plików GIFT
@@ -7022,16 +7022,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: kompiluj make pyyaml
 
       - name: Validate GIFT files
-        run: python scripts/validators/validate_gift.py courses/
+        run: bash scripts/validators/validate_gift.sh courses/
 
   validate-links:
     name: Walidacja linków i zasobów
@@ -7040,10 +7040,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Check internal links
-        run: python scripts/validators/validate_links.py courses/
+        run: bash scripts/validators/validate_links.sh courses/
 
       - name: Check media files
-        run: python scripts/validators/validate_media.py courses/
+        run: bash scripts/validators/validate_media.sh courses/
 
   validate-accessibility:
     name: Walidacja dostępności (WCAG)
@@ -7052,7 +7052,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Check accessibility
-        run: python scripts/validators/validate_accessibility.py courses/
+        run: bash scripts/validators/validate_accessibility.sh courses/
 
   validate-ethics:
     name: Walidacja zgodności etycznej
@@ -7062,7 +7062,7 @@ jobs:
 
       - name: Check ethical compliance
         run: |
-          python scripts/validators/validate_ethics.py courses/
+          bash scripts/validators/validate_ethics.sh courses/
 
   build-test:
     name: Test budowania
@@ -7071,19 +7071,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: kompiluj make -r scripts/requirements.txt
 
       - name: Build all courses
         run: |
           for course_dir in courses/*/; do
             if [ -d "$course_dir" ]; then
-              python scripts/builders/build_course.py "$course_dir" --format all
+              bash scripts/builders/build_course.sh "$course_dir" --format all
             fi
           done
 
@@ -7115,19 +7115,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Bash/C/C++/PHP
+        uses: actions/setup-bash@v5
         with:
-          python-version: '3.11'
+          bash-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: kompiluj make -r scripts/requirements.txt
 
       - name: Build all courses
         run: |
           for course_dir in courses/*/; do
             if [ -d "$course_dir" ]; then
-              python scripts/builders/build_course.py "$course_dir" --format all
+              bash scripts/builders/build_course.sh "$course_dir" --format all
             fi
           done
 
@@ -7199,10 +7199,10 @@ Wszystkie treści kursów muszą być zgodne z:
 ---
 
 <a id="ethics-validator"></a>
-## 10. Walidator etyczny – `scripts/validators/validate_ethics.py`
+## 10. Walidator etyczny – `scripts/validators/validate_ethics.sh`
 
-```python
-#!/usr/bin/env python3
+```bash
+#!/usr/bin/env bash3
 """
 Walidator zgodności etycznej treści kursów.
 
@@ -7303,7 +7303,7 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) < 2:
-        print("Użycie: python validate_ethics.py <ścieżka_do_kursów>")
+        print("Użycie: bash validate_ethics.sh <ścieżka_do_kursów>")
         sys.exit(1)
 
     courses_dir = Path(sys.argv[1])
