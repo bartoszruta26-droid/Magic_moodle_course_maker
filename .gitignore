@@ -1,1 +1,5 @@
-(docs/01-ARCHITECTURE.md)
+(docs/02-CONTENT-FORMATS.md is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+
+```markdown
+# No changes needed - only source/config files were modified
+```

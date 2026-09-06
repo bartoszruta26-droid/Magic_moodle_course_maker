@@ -25,6 +25,9 @@
 13. [Treść H5P (h5p.yaml)](#h5p)
 14. [Narzędzie zewnętrzne LTI (lti.yaml)](#lti)
 15. [Zasoby multimedialne](#media)
+16. [Pakiet SCORM](#scorm)
+17. [Common Cartridge (IMS CC)](#imscc)
+18. [Dodatkowe aktywności Moodle](#additional-activities)
 
 ---
 
@@ -940,6 +943,534 @@ media_manifest:
       license: "CC BY-SA 4.0"
 
 
+---
+
+<a id="scorm"></a>
+## 16. Pakiet SCORM – `scorm.yaml`
+
+SCORM (Sharable Content Object Reference Model) to standard pakietów e-learningowych z możliwością śledzenia postępów użytkownika. Moodle obsługuje SCORM 1.2 i SCORM 2004.
+
+### 16.1. Struktura katalogu SCORM
+
+```
+scorm-01/
+├── scorm.yaml          # Metadane pakietu
+├── package.zip         # Plik ZIP z zawartością SCORM
+└── media/              # Dodatkowe zasoby (opcjonalnie)
+    ├── image.png
+    └── video.mp4
+```
+
+### 16.2. Plik `scorm.yaml` – metadane pakietu SCORM
+
+```yaml
+# ============================================================
+# Metadane pakietu SCORM
+# Plik: scorm-01/scorm.yaml
+# Format: YAML 1.2
+# Kodowanie: UTF-8
+# ============================================================
+
+scorm:
+  # --- Identyfikacja ---
+  name: "Interaktywny moduł: Prawda i Wolność"
+  intro: |
+    Interaktywny pakiet e-learningowy zawierający prezentacje,
+    quizy i symulacje dotyczące relacji między prawdą a wolnością.
+  intro_format: "html"
+
+  # --- Wersja SCORM ---
+  version: "1.2"                     # 1.2 | 2004_3ed | 2004_4ed
+  
+  # --- Wyświetlanie ---
+  display: "embed"                   # embed | new_window | popup
+  width: 800
+  height: 600
+  auto_continue: true                # Automatyczna kontynuacja
+  force_complete: true               # Wymuś ukończenie
+  force_new_window: false
+  
+  # --- Ocenianie ---
+  grade_method: "highest"            # highest | lowest | average | first | last
+  max_grade: 100
+  what_grade: "completed"            # completed | passed | completed_or_passed
+  
+  # --- Śledzenie ---
+  tracking:
+    track_views: true
+    track_score: true
+    track_status: true
+    track_time: true
+  
+  # --- Dostępność ---
+  available_from: "2025-09-01T00:00:00Z"
+  available_until: "2025-12-31T23:59:59Z"
+  
+  # --- Ukończenie ---
+  completion_enabled: true
+  completion_view: true              # Ukończ po wyświetleniu
+  completion_score: 70               # Minimalny wynik do ukończenia
+  completion_status: "completed"     # Status wymagany do ukończenia
+  
+  # --- Plik pakietu ---
+  package_file: "package.zip"
+  package_size: "2.5MB"
+  package_hash: "sha256:abc123..."   # Hash SHA256 dla integralności
+  
+  # --- Zawartość pakietu ---
+  contents:
+    - type: "sco"                    # SCO = Sharable Content Object
+      identifier: "SCO_001"
+      title: "Wprowadzenie do prawa naturalnego"
+      file: "intro/index.html"
+      launch: "intro/index.html"
+    
+    - type: "sco"
+      identifier: "SCO_002"
+      title: "Quiz: Prawda i Wolność"
+      file: "quiz/index.html"
+      launch: "quiz/index.html"
+    
+    - type: "asset"                  # Asset = zasób bez śledzenia
+      identifier: "ASSET_001"
+      title: "Diagram relacji"
+      file: "media/diagram.png"
+  
+  # --- Manifest IMS ---
+  manifest:
+    schema_version: "1.2"
+    organization: "Zespół Misyjny"
+    organization_id: "MISSION_TEAM_001"
+```
+
+### 16.3. Struktura pliku `package.zip` (SCORM 1.2)
+
+Plik ZIP musi zawierać:
+
+```
+package.zip
+├── imsmanifest.xml          # Manifest pakietu (wymagany)
+├── intro/
+│   ├── index.html           # Strona startowa SCO
+│   ├── styles.css
+│   └── script.js
+├── quiz/
+│   ├── index.html
+│   └── questions.js
+└── media/
+    ├── diagram.png
+    └── video.mp4
+```
+
+### 16.4. Przykład `imsmanifest.xml` (SCORM 1.2)
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+          identifier="MANIFEST_001">
+  
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <imsmd:lom>
+      <imsmd:general>
+        <imsmd:title>
+          <imsmd:string>Prawda i Wolność - Moduł Interaktywny</imsmd:string>
+        </imsmd:title>
+        <imsmd:description>
+          <imsmd:string>Interaktywny moduł e-learningowy dotyczący relacji między prawdą a wolnością.</imsmd:string>
+        </imsmd:description>
+      </imsmd:general>
+    </imsmd:lom>
+  </metadata>
+  
+  <organizations default="ORG_001">
+    <organization identifier="ORG_001">
+      <title>Prawda i Wolność</title>
+      <item identifier="ITEM_001" identifierref="SCO_001">
+        <title>Wprowadzenie</title>
+      </item>
+      <item identifier="ITEM_002" identifierref="SCO_002">
+        <title>Quiz</title>
+      </item>
+    </organization>
+  </organizations>
+  
+  <resources>
+    <resource identifier="SCO_001" type="webcontent" adlcp:scormtype="sco" href="intro/index.html">
+      <file href="intro/index.html"/>
+      <file href="intro/styles.css"/>
+      <file href="intro/script.js"/>
+    </resource>
+    <resource identifier="SCO_002" type="webcontent" adlcp:scormtype="sco" href="quiz/index.html">
+      <file href="quiz/index.html"/>
+      <file href="quiz/questions.js"/>
+    </resource>
+  </resources>
+</manifest>
+```
+
+### 16.5. Skrypt budujący pakiet SCORM (`build_scorm.py`)
+
+```python
+#!/usr/bin/env python3
+"""
+Budowanie pakietu SCORM 1.2 z plików źródłowych
+Użycie: python build_scorm.py scorm-01/
+"""
+
+import os
+import sys
+import yaml
+import zipfile
+from pathlib import Path
+from xml.etree.ElementTree import Element, SubElement, tostring
+from xml.dom.minidom import parseString
+
+def load_yaml(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        return yaml.safe_load(f)
+
+def build_manifest(scorm_data):
+    """Buduje imsmanifest.xml z danych YAML"""
+    manifest = Element('manifest', {
+        'xmlns': 'http://www.imsproject.org/xsd/imscp_rootv1p1p2',
+        'xmlns:adlcp': 'http://www.adlnet.org/xsd/adlcp_rootv1p2',
+        'identifier': 'MANIFEST_001'
+    })
+    
+    # Metadata
+    metadata = SubElement(manifest, 'metadata')
+    SubElement(metadata, 'schema').text = 'ADL SCORM'
+    SubElement(metadata, 'schemaversion').text = scorm_data['scorm']['version']
+    
+    # Organizations
+    orgs = SubElement(manifest, 'organizations', {'default': 'ORG_001'})
+    org = SubElement(orgs, 'organization', {'identifier': 'ORG_001'})
+    SubElement(org, 'title').text = scorm_data['scorm']['name']
+    
+    for content in scorm_data['scorm']['contents']:
+        if content['type'] == 'sco':
+            item = SubElement(org, 'item', {
+                'identifier': content['identifier'],
+                'identifierref': content['identifier']
+            })
+            SubElement(item, 'title').text = content['title']
+    
+    # Resources
+    resources = SubElement(manifest, 'resources')
+    for content in scorm_data['scorm']['contents']:
+        if content['type'] == 'sco':
+            res = SubElement(resources, 'resource', {
+                'identifier': content['identifier'],
+                'type': 'webcontent',
+                'adlcp:scormtype': 'sco',
+                'href': content['launch']
+            })
+            SubElement(res, 'file', {'href': content['launch']})
+    
+    return parseString(tostring(manifest, encoding='unicode')).toprettyxml()
+
+def create_scorm_package(source_dir, output_zip):
+    """Tworzy pakiet ZIP SCORM"""
+    source = Path(source_dir)
+    
+    # Load metadata
+    scorm_data = load_yaml(source / 'scorm.yaml')
+    
+    # Build manifest
+    manifest_xml = build_manifest(scorm_data)
+    
+    # Create ZIP
+    with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        # Add manifest
+        zipf.writestr('imsmanifest.xml', manifest_xml)
+        
+        # Add content files
+        for content in scorm_data['scorm']['contents']:
+            if 'file' in content:
+                file_path = source / content['file']
+                if file_path.exists():
+                    zipf.write(file_path, content['file'])
+        
+        # Add additional files from directories
+        for dir_path in source.iterdir():
+            if dir_path.is_dir() and dir_path.name not in ['__pycache__']:
+                for file_path in dir_path.rglob('*'):
+                    if file_path.is_file():
+                        arcname = file_path.relative_to(source)
+                        zipf.write(file_path, str(arcname))
+    
+    print(f"Pakiet SCORM utworzony: {output_zip}")
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("Użycie: python build_scorm.py <source_dir>")
+        sys.exit(1)
+    
+    source_dir = sys.argv[1]
+    output_zip = f"{source_dir}/package.zip"
+    create_scorm_package(source_dir, output_zip)
+```
+
+---
+
+<a id="imscc"></a>
+## 17. Common Cartridge (IMS CC)
+
+Common Cartridge to standard IMS Global Learning Consortium umożliwiający przenośność treści edukacyjnych między różnymi platformami LMS.
+
+### 17.1. Struktura katalogu IMS CC
+
+```
+imscc-01/
+├── imscc.yaml              # Metadane pakietu
+├── package.imscc           # Plik ZIP z rozszerzeniem .imscc
+└── resources/
+    ├── content/
+    │   ├── index.html
+    │   └── styles.css
+    └── assessments/
+        └── quiz.xml
+```
+
+### 17.2. Plik `imscc.yaml` – metadane pakietu
+
+```yaml
+# ============================================================
+# Metadane pakietu Common Cartridge
+# Plik: imscc-01/imscc.yaml
+# Format: YAML 1.2
+# Kodowanie: UTF-8
+# ============================================================
+
+imscc:
+  # --- Identyfikacja ---
+  title: "Prawda i Natura - Moduł 1"
+  description: |
+    Pierwszy moduł kursu antropologii chrześcijańskiej
+    obejmujący wprowadzenie do prawa naturalnego.
+  
+  # --- Wersja standardu ---
+  version: "1.1.0"             # 1.0.0 | 1.1.0 | 1.2.0 | 1.3.0
+  
+  # --- Autorzy i licencja ---
+  authors:
+    - name: "Zespół Misyjny"
+      email: "team@example.org"
+  license: "CC BY-SA 4.0"
+  
+  # --- Zawartość ---
+  content_types:
+    - "web_content"
+    - "assessment"
+    - "discussion"
+  
+  # --- Oceny ---
+  grading:
+    enabled: true
+    scale: "percentage"
+    passing_score: 70
+  
+  # --- Pliki ---
+  package_file: "package.imscc"
+  manifest_file: "imsmanifest.xml"
+```
+
+### 17.3. Porównanie formatów pakietów
+
+| Cecha | SCORM 1.2 | SCORM 2004 | Common Cartridge | Moodle Backup (.mbz) |
+|-------|-----------|------------|------------------|---------------------|
+| Śledzenie postępów | Tak | Tak (rozszerzone) | Ograniczone | Pełne |
+| Przenośność | Wysoka | Wysoka | Bardzo wysoka | Tylko Moodle |
+| Wsparcie Moodle | Tak | Tak | Tak | Natywne |
+| Złożoność | Średnia | Wysoka | Wysoka | Średnia |
+| Quizy | Tak | Tak | Tak | Tak |
+| Forum dyskusyjne | Nie | Nie | Tak | Tak |
+| Wersjonowanie | Nie | Nie | Tak | Nie |
+
+---
+
+<a id="additional-activities"></a>
+## 18. Dodatkowe aktywności Moodle
+
+Oprócz opisanych powyżej, Moodle obsługuje dodatkowe typy aktywności:
+
+### 18.1. Ankieta (Feedback) – `feedback.yaml`
+
+```yaml
+# Plik: feedback-01/feedback.yaml
+feedback:
+  name: "Ankieta ewaluacyjna kursu"
+  intro: "Prosimy o wypełnienie ankiety oceniającej kurs."
+  intro_format: "html"
+  
+  # --- Ustawienia ---
+  anonymous: "full"              # full | partial | none
+  submit_multiple: false
+  submit_numbers: true
+  show_analysis: "student"       # student | teacher | none
+  
+  # --- Pytania ---
+  questions:
+    - type: "label"
+      label: "Oceń następujące aspekty kursu:"
+    
+    - type: "multichoicerated"
+      label: "Jak oceniasz jakość materiałów?"
+      options:
+        - "Bardzo dobrze"
+        - "Dobrze"
+        - "Średnio"
+        - "Źle"
+      required: true
+    
+    - type: "textarea"
+      label: "Twoje sugestie:"
+      required: false
+```
+
+### 18.2. Baza danych – `database.yaml`
+
+```yaml
+# Plik: database-01/database.yaml
+database:
+  name: "Baza zasobów edukacyjnych"
+  intro: "Wspólna baza materiałów dydaktycznych."
+  intro_format: "html"
+  
+  # --- Pola ---
+  fields:
+    - name: "title"
+      type: "text"
+      required: true
+    
+    - name: "description"
+      type: "textarea"
+      required: true
+    
+    - name: "file"
+      type: "file"
+      required: false
+    
+    - name: "category"
+      type: "menu"
+      options:
+        - "Artykuły"
+        - "Wideo"
+        - "Prezentacje"
+  
+  # --- Szablon ---
+  template_file: "template.html"
+  css_file: "styles.css"
+  js_file: "script.js"
+  
+  # --- Dostęp ---
+  entries_required: 1
+  comments_allowed: true
+  rating_enabled: true
+  rating_scale: "scale_1_5"
+```
+
+### 18.3. Głosowanie (Choice) – `choice.yaml`
+
+```yaml
+# Plik: choice-01/choice.yaml
+choice:
+  name: "Wybór terminu konsultacji"
+  intro: "Wybierz dogodny termin spotkania."
+  intro_format: "html"
+  
+  # --- Opcje ---
+  options:
+    - "Poniedziałek 15:00-16:00"
+    - "Środa 10:00-11:00"
+    - "Piątek 14:00-15:00"
+  
+  # --- Ustawienia ---
+  allow_multiple: false
+  limit_answers: true
+  limits:
+    - option: 0
+      limit: 10
+    - option: 1
+      limit: 15
+    - option: 2
+      limit: 8
+  
+  # --- Czas ---
+  timeopen: "2025-09-01T00:00:00Z"
+  timeclose: "2025-09-15T23:59:59Z"
+  
+  # --- Wyniki ---
+  show_results: "after_answer"    # after_answer | after_close | never
+  privacy: "anonymous"            # anonymous | names
+```
+
+### 18.4. Warsztat (Workshop) – rozszerzenie `workshop.yaml`
+
+```yaml
+# Plik: workshop-01/workshop.yaml (rozszerzenie)
+workshop:
+  name: "Warsztat: Esej o godności"
+  
+  # --- Fazy ---
+  phases:
+    setup:
+      submission_enabled: true
+      assessment_enabled: false
+    
+    submission:
+      submission_enabled: true
+      assessment_enabled: false
+      deadline: "2025-10-15T23:59:59Z"
+    
+    assessment:
+      submission_enabled: false
+      assessment_enabled: true
+      deadline: "2025-10-30T23:59:59Z"
+    
+    grading_evaluation:
+      submission_enabled: false
+      assessment_enabled: false
+    
+    grading_complete:
+      grades_released: true
+  
+  # --- Strategia oceny ---
+  strategy: "rubric"
+  rubric:
+    criteria:
+      - id: 1
+        description: "Trafność argumentacji"
+        levels:
+          - score: 10
+            description: "Argumentacja bardzo trafna"
+          - score: 7
+            description: "Argumentacja trafna"
+          - score: 4
+            description: "Argumentacja częściowo trafna"
+          - score: 1
+            description: "Argumentacja nietrafna"
+      
+      - id: 2
+        description: "Struktura eseju"
+        levels:
+          - score: 5
+            description: "Struktura bardzo dobra"
+          - score: 3
+            description: "Struktura dobra"
+          - score: 1
+            description: "Struktura słaba"
+  
+  # --- Przydział recenzji ---
+  allocation:
+    mode: "random"               # random | manual | scheduled
+    reviews_per_submission: 3
+    reviews_per_reviewer: 3
+```
 
 ---
 
