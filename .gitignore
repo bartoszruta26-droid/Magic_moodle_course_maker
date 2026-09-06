@@ -1,31 +1,37 @@
-```
-# Build artifacts and outputs
-courses/*/output/
-*.imscc
-*.mbz
-*.xml
+# Documentation builds and generated files
+docs/_build/
+docs/build/
+*.log
+*.tmp
+*.swp
 
-# Environment and config files
+# Environment and cache
 .env
 .env.local
 .env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Logs
-*.log
+# Dependencies
+node_modules/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
 
-# Temporary files
-*.tmp
-*~
+# Editors
+.vscode/
+.idea/
 
-# OS-specific files
+# System
 .DS_Store
 Thumbs.db
 
-# Backup files
-*.bak
-*.backup
-
-# Compressed archives
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -44,4 +50,21 @@ Thumbs.db
 *.Z
 *.lz
 *.lzo
-```
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Build artifacts
+dist/
+build/
+target/
+.gradle/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
