@@ -1,1 +1,47 @@
-Nothing to output - the modified file is just README.md which is a source/config file and doesn't require any gitignore entries.
+```
+# Build artifacts and outputs
+courses/*/output/
+*.imscc
+*.mbz
+*.xml
+
+# Environment and config files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Compressed archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+```
