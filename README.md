@@ -1,6 +1,6 @@
 # Qwen Moodle Course Generator
 
-Repozytorium do automatycznego generowania kompletnych kursów Moodle przy wykorzystaniu agentów AI (Qwen Code i Qwen Coder). Projekt umożliwia tworzenie, walidację i eksport kursów w formacie gotowym do importu do platformy Moodle.
+Repozytorium do automatycznego generowania kompletnych kursów Moodle przy wykorzystaniu agentów AI (Qwen Code i Qwen Coder). Projekt umożliwia tworzenie, walidację i eksport kursów w formacie gotowym do importu do platformy Moodle, wykorzystując wyłącznie skrypty Bash, C, C#, C++, Apache2 i PHP.
 
 ## 📚 Struktura Repozytorium
 
