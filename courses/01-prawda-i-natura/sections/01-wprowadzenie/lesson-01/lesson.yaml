@@ -1,0 +1,139 @@
+# ============================================================
+# Lekcja rozgałęziona: Droga do Prawdy
+# Plik: lesson-01/lesson.yaml
+# Typ modułu: lesson
+# ============================================================
+
+lesson:
+  # --- Identyfikacja ---
+  name: "Droga do Prawdy – Lekcja interaktywna"
+  
+  # --- Wprowadzenie ---
+  intro: |
+    Interaktywna lekcja prowadząca przez podstawowe pojęcia
+    związane z prawdą. Twoje wybory wpływają na przebieg lekcji.
+    
+    **Czas realizacji:** 15-20 minut
+    
+    **Instrukcje:**
+    - Przeczytaj uważnie treści na każdej stronie
+    - Odpowiadaj na pytania testowe
+    - Możesz wracać do pytań, jeśli odpowiedź była błędna
+  intro_format: "html"
+  
+  # --- Ustawienia ogólne ---
+  practice: false              # Czy lekcja jest trybu ćwiczeniowego (bez ocen)
+  modattempts: 2               # Liczba dozwolonych prób
+  usepassword: false           # Czy wymagane jest hasło
+  password: ""
+  
+  # --- Ocenianie ---
+  grade:
+    type: "point"
+    value: 100
+    passmark: 60
+  customscoring: true          # Włącz własny system punktacji
+  retakesallowed: true         # Dozwolone powtórzenia
+  handlingofretakes: "average" # Średnia z wszystkich prób
+  
+  # --- Wyświetlanie ---
+  slideshow: false             # Tryb pokazu slajdów
+  displayleft: true            # Wyświetl menu nawigacyjne po lewej
+  displayleftif: 0             # Wyświetl menu od pierwszej strony
+  progressbar: true            # Pasek postępu
+  displayreview: false         # Wyświetl podsumowanie po zakończeniu
+  ongoing: true                # Wyświetl aktualny wynik w trakcie
+  
+  # --- Ograniczenia czasowe i ilościowe ---
+  maxtime: 1800                # Maksymalny czas w sekundach (30 min)
+  maxpages: 0                  # Maksymalna liczba stron (0 = bez limitu)
+  
+  # --- Strony lekcji (kolejność ma znaczenie) ---
+  pages:
+    # === STRONA 1: Strona startowa ===
+    - id: "page-01"
+      type: "content"
+      title: "Witaj w lekcji!"
+      content_file: "pages/01-start.md"
+      jumps:
+        - label: "Rozpocznij naukę →"
+          target: "page-02"
+    
+    # === STRONA 2: Rozwinięcie tematu ===
+    - id: "page-02"
+      type: "content"
+      title: "Prawda obiektywna i subiektywna"
+      content_file: "pages/02-rozwinięcie.md"
+      jumps:
+        - label: "Sprawdź swoją wiedzę →"
+          target: "question-01"
+    
+    # === STRONA 3: Pytanie sprawdzające ===
+    - id: "question-01"
+      type: "question"
+      qtype: "multichoice"
+      title: "Sprawdź zrozumienie"
+      questiontext: |
+        **Czym różni się prawda obiektywna od subiektywnej?**
+        
+        Wybierz jedną poprawną odpowiedź.
+      answers:
+        - text: "Prawda obiektywna istnieje niezależnie od ludzkich opinii"
+          fraction: 100
+          jump: "page-03a"
+          feedback: |
+            **✅ Doskonale!**
+            
+            Prawda obiektywna istnieje niezależnie od tego, co ludzie o niej myślą.
+            Przykład: Ziemia krąży wokół Słońca, nawet jeśli ktoś twierdzi inaczej.
+        - text: "Prawda obiektywna jest ustalana przez głosowanie większości"
+          fraction: 0
+          jump: "page-03b"
+          feedback: |
+            **❌ Niepoprawnie.**
+            
+            Prawda nie zależy od głosowania. Większość może się mylić.
+            Spróbuj ponownie lub przejdź dalej z tą wiedzą.
+        - text: "Każdy człowiek ma swoją własną prawdę i wszystkie są równoważne"
+          fraction: 0
+          jump: "page-03b"
+          feedback: |
+            **❌ To relatywizm.**
+            
+            Relatywizm zaprzecza istnieniu prawdy obiektywnej.
+            Wróć do pytania lub kontynuuj naukę.
+    
+    # === STRONA 4a: Gałąź pozytywna (poprawna odpowiedź) ===
+    - id: "page-03a"
+      type: "content"
+      title: "Głębsze zrozumienie prawdy"
+      content_file: "pages/03-branch-a.md"
+      jumps:
+        - label: "Przejdź do podsumowania →"
+          target: "page-04"
+    
+    # === STRONA 4b: Gałąź negatywna (błędna odpowiedź) ===
+    - id: "page-03b"
+      type: "content"
+      title: "Wyjaśnienie: Dlaczego to nieprawda?"
+      content_file: "pages/03-branch-b.md"
+      jumps:
+        - label: "Wróć do pytania"
+          target: "question-01"
+        - label: "Kontynuuj mimo wszystko →"
+          target: "page-04"
+    
+    # === STRONA 5: Podsumowanie ===
+    - id: "page-04"
+      type: "content"
+      title: "Podsumowanie lekcji"
+      content_file: "pages/04-zakończenie.md"
+      jumps:
+        - label: "Zakończ lekcję"
+          target: "endoflesson"
+  
+  # --- Ukończenie lekcji ---
+  completion:
+    enabled: true
+    type: "complete"
+    timetocomplete: 900        # Minimalny czas do uznania ukończenia (15 min)
