@@ -1,0 +1,51 @@
+# ============================================================
+# Metadane forum dyskusyjnego
+# Plik: courses/01-prawda-i-natura/sections/01-wprowadzenie/forum-01/forum.yaml
+# Typ modułu: forum
+# ============================================================
+
+forum:
+  # --- Identyfikacja ---
+  name: "Dyskusja: Prawda w życiu codziennym"
+  
+  # --- Wprowadzenie ---
+  intro: |
+    Podziel się swoimi przemyśleniami na temat roli prawdy
+    w życiu codziennym. Odpowiedz na pytanie i skomentuj
+    wypowiedzi minimum dwóch innych uczestników.
+  intro_format: "html"
+
+  # --- Typ forum ---
+  type: "general"              # general | separate | single | qanda | blog
+  forcesubscribe: 0            # 0=opcjonalne, 1=wymuszone
+  trackingtype: 1              # 0=off, 1=optional, 2=forced
+  displaymode: 1               # 0=flat, 1=threaded, 2=nested
+  maxattachments: 3
+  maxbytes: 5242880            # 5 MB
+
+  # --- Ocenianie ---
+  assessed: true
+  scale: 100                   # skala punktowa 0-100
+  assesstimestart: null
+  assesstimefinish: null
+  assessthreshold: null
+
+  # --- Blokady czasowe ---
+  blockperiod: 0               # 0 = brak blokad
+  blockafter: 0                # 0 = brak limitu postów
+
+  # --- Ukończenie aktywności ---
+  completion:
+    enabled: true
+    type: "posts"
+    posts: 1
+    discussions: 1
+    replies: 2
+
+  # --- Pierwszy post (inicjujący) ---
+  first_post:
+    subject: "Zaproszenie do dyskusji"
+    message_file: "first-post.md"
+    message_format: "html"
+    created: "2025-09-01T08:00:00Z"
+    mailnow: true
