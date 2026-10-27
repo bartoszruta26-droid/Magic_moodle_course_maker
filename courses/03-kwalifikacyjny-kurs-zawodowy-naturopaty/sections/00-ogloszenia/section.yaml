@@ -1,0 +1,12 @@
+# Metadane sekcji
+id: 0
+name: "Ogłoszenia i administracja kursu"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page.md"
+  - type: forum
+    ref: forum-01

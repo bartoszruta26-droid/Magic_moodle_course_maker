@@ -1,0 +1,18 @@
+# Metadane sekcji
+id: 23
+name: "Moduł 23: PRAWO I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-17-1-podstawy-prawne.md"
+    name: "17.1. Podstawy prawne"
+  - type: page
+    ref: "page-17-2-organizacja-prowadzenie-praktyki.md"
+    name: "17.2. Organizacja i prowadzenie praktyki"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

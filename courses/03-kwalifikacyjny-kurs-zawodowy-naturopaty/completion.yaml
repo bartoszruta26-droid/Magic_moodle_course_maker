@@ -1,0 +1,133 @@
+# Reguły ukończenia kursu
+course_completion:
+  enabled: 1
+  required_all: true
+  criteria:
+    - type: activity_completion
+    - type: grade
+      min_grade: 60
+section_completion:
+  default_enabled: 1
+activity_completion_default:
+  tracked: 1
+modules:
+  - section: "01-anatomia-fizjologia-czlowieka"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "02-patofizjologia-podstawy-chorob"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "03-medyczna-diagnostyka-konwencjonalna"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "04-medyczna-diagnostyka-komplementarna-tradycyjna"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "05-higiena-profilaktyka-zdrowia"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "06-masaz-klasyczny-teoria-techniki"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "07-masaz-segmentarny"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "08-drenaz-limfatyczny"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "09-masaz-wybranych-jednostkach-chorobowych"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "10-terapia-manualna-mobilizacje"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "11-kinezyterapia-medyczne-treningi-personalne"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "12-medyczna-pielegnacja-opieka-naturopatyczna"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "13-medyczne-zielarstwo-fitoterapia"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "14-medycyna-zywienia-dietetyka-naturopatyczna"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "15-medycyna-fizykalna-zabiegi-fizykoterapeutyczne"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "16-medycyna-komplementarna-tradycyjna-integracyjna"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "17-medyczne-mentorstwo-coaching-zdrowotny"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "18-prawo-etyka-organizacja-praktyki-naturopatycznej"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "19-praktyka-zawodowa-staze-kliniczne"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "20-metodologia-pracy-naukowej-rozwoj-zawodowy"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "21-praca-dyplomowa-egzamin-koncowy"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "22-cyrulika-medyczna-felczerstwo"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "23-prawo-organizacja-praktyki-naturopatycznej"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+final:
+  - type: assignment_submitted
+    module_ref: "21-praca-dyplomowa-egzamin-koncowy"
+  - type: exam_passed
+    name: "Egzamin końcowy kwalifikacyjny"

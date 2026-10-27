@@ -1,0 +1,60 @@
+# Metadane sekcji
+id: 9
+name: "Moduł 9: MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-7-1-choroby-reumatyczne-masaz-rehabilitacja.md"
+    name: "7.1. Choroby reumatyczne – masaż i rehabilitacja"
+  - type: page
+    ref: "page-7-2-urazy-masaz-rehabilitacja.md"
+    name: "7.2. Urazy – masaż i rehabilitacja"
+  - type: page
+    ref: "page-7-3-znieksztalcenia-masaz-korekcja.md"
+    name: "7.3. Zniekształcenia – masaż i korekcja"
+  - type: page
+    ref: "page-7-4-choroby-ukladu-oddechowego-masaz-rehabilitacja.md"
+    name: "7.4. Choroby układu oddechowego – masaż i rehabilitacja"
+  - type: page
+    ref: "page-7-5-choroby-ukladu-krazenia-masaz-rehabilitacja.md"
+    name: "7.5. Choroby układu krążenia – masaż i rehabilitacja"
+  - type: page
+    ref: "page-7-6-choroby-ukladu-nerwowego-masaz-rehabilitacja.md"
+    name: "7.6. Choroby układu nerwowego – masaż i rehabilitacja"
+  - type: page
+    ref: "page-7-7-choroby-ukladu-pokarmowego-moczowo-plciowego.md"
+    name: "7.7. Choroby układu pokarmowego i moczowo-płciowego – masaż"
+  - type: page
+    ref: "page-7-8-zasady-wykonywania-masazu-osob-starszych.md"
+    name: "7.8. Zasady wykonywania masażu u osób starszych"
+  - type: page
+    ref: "page-9-1-choroby-reumatyczne-masaz-rehabilitacja.md"
+    name: "9.1. Choroby reumatyczne – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-2-urazy-masaz-rehabilitacja.md"
+    name: "9.2. Urazy – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-3-znieksztalcenia-masaz-korekcja.md"
+    name: "9.3. Zniekształcenia – masaż i korekcja"
+  - type: page
+    ref: "page-9-4-choroby-ukladu-oddechowego-masaz-rehabilitacja.md"
+    name: "9.4. Choroby układu oddechowego – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-5-choroby-ukladu-krazenia-masaz-rehabilitacja.md"
+    name: "9.5. Choroby układu krążenia – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-6-choroby-ukladu-nerwowego-masaz-rehabilitacja.md"
+    name: "9.6. Choroby układu nerwowego – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-7-choroby-ukladu-pokarmowego-moczowo-plciowego.md"
+    name: "9.7. Choroby układu pokarmowego i moczowo-płciowego – masaż"
+  - type: page
+    ref: "page-9-8-zasady-wykonywania-masazu-osob-starszych.md"
+    name: "9.8. Zasady wykonywania masażu u osób starszych"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

@@ -1,0 +1,9 @@
+# Metadane forum
+name: "Forum ogłoszeń i komunikatów kursowych"
+introduction:
+  format: markdown
+  markdown_file: first-post.md
+type: "standard-forum-course"
+subscription_optional: 1
+maxattachments: 5
+tracking_type: optional

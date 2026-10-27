@@ -1,0 +1,21 @@
+# Ustawienia zaawansowane kursu
+enrollment:
+  method: "manual"
+  self_enrolment:
+    enabled: 1
+    password_required: 0
+groups:
+  mode: "separate"
+roles:
+  teacher: "Opiekun modułu / wykładowca"
+  editingteacher: "Koordynator kursu"
+completion:
+  tracking: 1
+  report: 1
+grade_display_type: "points"
+calendar_type: "course"
+maxbytes: 52428800
+auth_instructions: |
+  Kurs realizowany w trybie mieszanym (wykłady, ćwiczenia praktyczne, staże).
+  Warunkiem zaliczenia jest uzyskanie pozytywnej oceny z każdego modułu
+  oraz zrealizowanie wymaganej liczby godzin praktyki zawodowej.

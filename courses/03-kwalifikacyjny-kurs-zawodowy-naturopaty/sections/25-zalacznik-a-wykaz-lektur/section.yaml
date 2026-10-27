@@ -1,0 +1,10 @@
+# Metadane sekcji
+id: 25
+name: "Załącznik A: Wykaz lektur obowiązkowych i uzupełniających"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-zawartosc.md"

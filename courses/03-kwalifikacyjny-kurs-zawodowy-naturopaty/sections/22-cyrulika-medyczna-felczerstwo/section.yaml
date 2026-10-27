@@ -1,0 +1,42 @@
+# Metadane sekcji
+id: 22
+name: "Moduł 22: CYRULIKA MEDYCZNA – FELCZERSTWO"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-14-1-podstawy-cyruliki-medycznej-felczerstwa.md"
+    name: "14.1. Podstawy cyruliki medycznej i felczerstwa"
+  - type: page
+    ref: "page-14-2-diagnostyka-ocena-stanu-zdrowia-warunkach.md"
+    name: "14.2. Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych"
+  - type: page
+    ref: "page-14-3-zabiegi-ranach-tkankach-miekkich.md"
+    name: "14.3. Zabiegi na ranach i tkankach miękkich"
+  - type: page
+    ref: "page-14-4-zabiegi-ortopedyczne-unieruchomienie.md"
+    name: "14.4. Zabiegi ortopedyczne i unieruchomienie"
+  - type: page
+    ref: "page-14-5-iniekcje-podawanie-lekow.md"
+    name: "14.5. Iniekcje i podawanie leków"
+  - type: page
+    ref: "page-14-6-zabiegi-ukladzie-oddechowym.md"
+    name: "14.6. Zabiegi na układzie oddechowym"
+  - type: page
+    ref: "page-14-7-zabiegi-ukladzie-pokarmowym-moczowym.md"
+    name: "14.7. Zabiegi na układzie pokarmowym i moczowym"
+  - type: page
+    ref: "page-14-8-zabiegi-ambulatoryjne-drobna-chirurgia.md"
+    name: "14.8. Zabiegi ambulatoryjne i drobna chirurgia"
+  - type: page
+    ref: "page-14-9-szczepienia-immunoprofilaktyka.md"
+    name: "14.9. Szczepienia i immunoprofilaktyka"
+  - type: page
+    ref: "page-14-10-pierwsza-pomoc-stany-nagle-praktyce.md"
+    name: "14.10. Pierwsza pomoc i stany nagłe w praktyce felczerskiej"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

@@ -1,0 +1,51 @@
+# Metadane sekcji
+id: 19
+name: "Moduł 19: PRAKTYKA ZAWODOWA I STAŻE KLINICZNE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-18-1-praktyka-gabinetowa-masaz-terapie-manualne.md"
+    name: "18.1. Praktyka gabinetowa – masaż i terapie manualne"
+  - type: page
+    ref: "page-18-2-praktyka-kinezyterapia-trening-medyczny.md"
+    name: "18.2. Praktyka – kinezyterapia i trening medyczny"
+  - type: page
+    ref: "page-18-3-praktyka-fitoterapia-dietetyka-pielegnacja.md"
+    name: "18.3. Praktyka – fitoterapia, dietetyka i pielęgnacja"
+  - type: page
+    ref: "page-18-4-praktyka-cyrulika-medyczna-felczerstwo.md"
+    name: "18.4. Praktyka – cyrulika medyczna (felczerstwo)"
+  - type: page
+    ref: "page-18-5-praktyka-diagnostyka-konsultacja-integracyjna.md"
+    name: "18.5. Praktyka – diagnostyka i konsultacja integracyjna"
+  - type: page
+    ref: "page-18-6-praktyka-mentorstwo-coaching-zdrowotny.md"
+    name: "18.6. Praktyka – mentorstwo i coaching zdrowotny"
+  - type: page
+    ref: "page-18-7-staz-obserwacyjny.md"
+    name: "18.7. Staż obserwacyjny"
+  - type: page
+    ref: "page-19-1-praktyka-gabinetowa-masaz-terapie-manualne.md"
+    name: "19.1. Praktyka gabinetowa – masaż i terapie manualne"
+  - type: page
+    ref: "page-19-2-praktyka-kinezyterapia-trening-medyczny.md"
+    name: "19.2. Praktyka – kinezyterapia i trening medyczny"
+  - type: page
+    ref: "page-19-3-praktyka-fitoterapia-dietetyka-pielegnacja.md"
+    name: "19.3. Praktyka – fitoterapia, dietetyka i pielęgnacja"
+  - type: page
+    ref: "page-19-4-praktyka-diagnostyka-konsultacja-integracyjna.md"
+    name: "19.4. Praktyka – diagnostyka i konsultacja integracyjna"
+  - type: page
+    ref: "page-19-5-praktyka-mentorstwo-coaching-zdrowotny.md"
+    name: "19.5. Praktyka – mentorstwo i coaching zdrowotny"
+  - type: page
+    ref: "page-19-6-staz-obserwacyjny.md"
+    name: "19.6. Staż obserwacyjny"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

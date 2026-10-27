@@ -1,0 +1,18 @@
+# Metadane sekcji
+id: 21
+name: "Moduł 21: PRACA DYPLOMOWA I EGZAMIN KOŃCOWY"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-21-1-praca-dyplomowa.md"
+    name: "21.1. Praca dyplomowa"
+  - type: page
+    ref: "page-21-2-egzamin-koncowy.md"
+    name: "21.2. Egzamin końcowy"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

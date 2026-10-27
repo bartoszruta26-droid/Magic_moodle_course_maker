@@ -1,0 +1,48 @@
+# Metadane sekcji
+id: 11
+name: "Moduł 11: KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-9-1-podstawy-kinezyterapii-treningu-medycznego.md"
+    name: "9.1. Podstawy kinezyterapii i treningu medycznego"
+  - type: page
+    ref: "page-9-2-kinezyterapia-chorobach-ukladu-ruchu.md"
+    name: "9.2. Kinezyterapia w chorobach układu ruchu"
+  - type: page
+    ref: "page-9-3-kinezyterapia-chorobach-wewnetrznych.md"
+    name: "9.3. Kinezyterapia w chorobach wewnętrznych"
+  - type: page
+    ref: "page-9-4-kinezyterapia-neurologii-geriatrii.md"
+    name: "9.4. Kinezyterapia w neurologii i geriatrii"
+  - type: page
+    ref: "page-9-5-trening-oddechowy-relaksacyjny.md"
+    name: "9.5. Trening oddechowy i relaksacyjny"
+  - type: page
+    ref: "page-9-6-trening-funkcjonalny-medyczny-trening-personalny.md"
+    name: "9.6. Trening funkcjonalny i medyczny trening personalny"
+  - type: page
+    ref: "page-11-1-podstawy-kinezyterapii-treningu-medycznego.md"
+    name: "11.1. Podstawy kinezyterapii i treningu medycznego"
+  - type: page
+    ref: "page-11-2-kinezyterapia-chorobach-ukladu-ruchu.md"
+    name: "11.2. Kinezyterapia w chorobach układu ruchu"
+  - type: page
+    ref: "page-11-3-kinezyterapia-chorobach-wewnetrznych.md"
+    name: "11.3. Kinezyterapia w chorobach wewnętrznych"
+  - type: page
+    ref: "page-11-4-kinezyterapia-neurologii-geriatrii.md"
+    name: "11.4. Kinezyterapia w neurologii i geriatrii"
+  - type: page
+    ref: "page-11-5-trening-oddechowy-relaksacyjny.md"
+    name: "11.5. Trening oddechowy i relaksacyjny"
+  - type: page
+    ref: "page-11-6-trening-funkcjonalny-medyczny-trening-personalny.md"
+    name: "11.6. Trening funkcjonalny i medyczny trening personalny"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

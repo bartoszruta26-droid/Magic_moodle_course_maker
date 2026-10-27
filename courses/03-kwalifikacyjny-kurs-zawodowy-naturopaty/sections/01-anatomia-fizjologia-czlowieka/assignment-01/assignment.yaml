@@ -1,0 +1,5 @@
+# Metadane zadania
+name: "Zadanie modułowe 1"
+submission_types: ["file", "text"]
+graded: 1
+markdown_file: instructions.md

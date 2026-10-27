@@ -1,0 +1,36 @@
+# Metadane sekcji
+id: 13
+name: "Moduł 13: MEDYCZNE ZIELARSTWO I FITOTERAPIA"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-11-1-podstawy-botaniki-farmaceutycznej-zielarstwa.md"
+    name: "11.1. Podstawy botaniki farmaceutycznej i zielarstwa"
+  - type: page
+    ref: "page-11-2-fitoterapia-ukladow-narzadowych.md"
+    name: "11.2. Fitoterapia układów narządowych"
+  - type: page
+    ref: "page-11-3-fitoterapia-medycynie-tradycyjnej-integracyjnej.md"
+    name: "11.3. Fitoterapia w medycynie tradycyjnej i integracyjnej"
+  - type: page
+    ref: "page-11-4-praktyka-zielarska.md"
+    name: "11.4. Praktyka zielarska"
+  - type: page
+    ref: "page-13-1-podstawy-botaniki-farmaceutycznej-zielarstwa.md"
+    name: "13.1. Podstawy botaniki farmaceutycznej i zielarstwa"
+  - type: page
+    ref: "page-13-2-fitoterapia-ukladow-narzadowych.md"
+    name: "13.2. Fitoterapia układów narządowych"
+  - type: page
+    ref: "page-13-3-fitoterapia-medycynie-tradycyjnej-integracyjnej.md"
+    name: "13.3. Fitoterapia w medycynie tradycyjnej i integracyjnej"
+  - type: page
+    ref: "page-13-4-praktyka-zielarska.md"
+    name: "13.4. Praktyka zielarska"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

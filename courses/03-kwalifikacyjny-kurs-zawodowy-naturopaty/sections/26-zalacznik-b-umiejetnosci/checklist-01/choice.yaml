@@ -1,0 +1,15 @@
+# Samoocena umiejętności praktycznych (checklist)
+name: "Checklist umiejętności praktycznych do opanowania"
+options:
+  - "Techniki masażu klasycznego – głaskanie (5 odmian), rozcieranie (6 odmian), ugni"
+  - "Masaż klasyczny okolic – kończyna górna, kończyna dolna, grzbiet, kręgosłup, mię"
+  - "Techniki masażu segmentarnego – chwyty diagnostyczne (7), chwyty lecznicze grzbi"
+  - "Techniki drenażu limfatycznego – metoda polska i niemiecka; sekwencje dla twarzy"
+  - "Techniki terapii manualnej i mobilizacji – 15 technik"
+  - "Masaż specjalistyczny – izometryczny, łącznotkankowy, bańką, kamieniami, stempla"
+  - "Ćwiczenia lecznicze – bierne, czynno-bierne, wspomagane, czynne wolne, czynne z "
+  - "Ćwiczenia oddechowe i relaksacyjne – 10 technik"
+  - "Trening medyczny – planowanie, prowadzenie, monitorowanie (5 schematów dla różny"
+  - "Zabiegi hydro- i fizykoterapeutyczne – 15 zabiegów"
+publish: 1
+showreports: 1

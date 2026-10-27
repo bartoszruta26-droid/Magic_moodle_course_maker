@@ -1,0 +1,164 @@
+# Konfiguracja oceniania (kategoria: Kwalifikacyjny Kurs Zawodowy – Naturopata)
+scale:
+  type: "value"
+  min: 0
+  max: 100
+items:
+  - name: "Moduł 1: ANATOMIA I FIZJOLOGIA CZŁOWIEKA"
+    itemname: "modul-01"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 2: PATOFIZJOLOGIA I PODSTAWY CHORÓB"
+    itemname: "modul-02"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 3: MEDYCZNA DIAGNOSTYKA KONWENCJONALNA"
+    itemname: "modul-03"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 4: MEDYCZNA DIAGNOSTYKA KOMPLEMENTARNA I TRADYCYJNA"
+    itemname: "modul-04"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 5: HIGIENA I PROFILAKTYKA ZDROWIA"
+    itemname: "modul-05"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 6: MASAŻ KLASYCZNY – TEORIA I TECHNIKI"
+    itemname: "modul-06"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 7: MASAŻ SEGMENTARNY"
+    itemname: "modul-07"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 8: DRENAŻ LIMFATYCZNY"
+    itemname: "modul-08"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 9: MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH"
+    itemname: "modul-09"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 10: TERAPIA MANUALNA I MOBILIZACJE"
+    itemname: "modul-10"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 11: KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE"
+    itemname: "modul-11"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 12: MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA"
+    itemname: "modul-12"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 13: MEDYCZNE ZIELARSTWO I FITOTERAPIA"
+    itemname: "modul-13"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 14: MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA"
+    itemname: "modul-14"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 15: MEDYCYNA FIZYKALNA I ZABIEGI FIZYKOTERAPEUTYCZNE"
+    itemname: "modul-15"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 16: MEDYCYNA KOMPLEMENTARNA, TRADYCYJNA I INTEGRACYJNA"
+    itemname: "modul-16"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 17: MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY"
+    itemname: "modul-17"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 18: PRAWO, ETYKA I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ"
+    itemname: "modul-18"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 19: PRAKTYKA ZAWODOWA I STAŻE KLINICZNE"
+    itemname: "modul-19"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 20: METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY"
+    itemname: "modul-20"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 21: PRACA DYPLOMOWA I EGZAMIN KOŃCOWY"
+    itemname: "modul-21"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 22: CYRULIKA MEDYCZNA – FELCZERSTWO"
+    itemname: "modul-22"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 23: PRAWO I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ"
+    itemname: "modul-23"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Praktyka zawodowa i staże kliniczne"
+    itemname: "praktyka-zawodowa"
+    itemtype: "manual"
+    itemmodule: "assign"
+    grademax: 100
+    weight: 2
+  - name: "Część praktyczna egzaminu końcowego"
+    itemname: "egzamin-praktyczny"
+    itemtype: "manual"
+    itemmodule: "assign"
+    grademax: 100
+    weight: 2
+  - name: "Część pisemna egzaminu końcowego"
+    itemname: "egzamin-pisemny"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 2
+passing_grade: 60
+aggregation: "weighted_mean"
