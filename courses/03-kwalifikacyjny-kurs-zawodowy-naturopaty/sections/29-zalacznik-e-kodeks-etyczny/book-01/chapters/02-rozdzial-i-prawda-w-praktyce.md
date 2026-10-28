@@ -21,3 +21,28 @@ Kodeks nie jest listą zakazów — jest portretem człowieka, którym masz się
 ---
 
 *Pełny tekst kodeksu obowiązuje wszystkich uczestników kursu od dnia immatrykulacji. Złamanie kodeksu poddaję ocenie komisji etyki.*
+
+---
+
+## Pogłębienie tematu
+### Jak stosować zasadę prawdy — sytuacje trudne
+
+1. **«Inna metoda mnie uzdrowiła»** — odpowiadam: «Cieszę się, że Pan/Pani
+   lepiej się czuje; opiszę, co zrobiłem, i co mówi piśmiennictwo». Nie
+   przywłaszczam sobie efektów, których nie mogę wykazać. Rokowanie oparte
+   na dowodach oznaczam źródłem; hipotezy — jako hipotezy.
+2. **Pacjent prosi o «potwierdzenie» diagnozy znalezionej w internecie** —
+   nie potwierdzam i nie zaprzeczam diagnozy (to nie moja kompetencja);
+   tłumaczę, jakie badania ją weryfikują, i kieruję do lekarza.
+3. **Błąd własny** (np. zbyt intensywna technika, siniak) — mówię otwarcie,
+   przepraszam, dokumentuję, proponuję postępowanie naprawcze. Ukrywanie
+   błędu jest drugim, cięższym przewinieniem wobec pacjenta.
+4. **Reklama i social media** — nie używam słów «gwarantuję», «skutecznie
+   leczy nowotwory», «detoksykuje»; nie publikuję wizerunku pacjenta bez
+   pisemnej zgody i bez anonimizacji kontekstu klinicznego.
+5. **Granice komplementarności** — jeśli pacjent kończy leczenie konwencjonalne
+   «bo zioła wystarczą», informuję o ryzyku i namawiam do rozmowy z lekarzem;
+   milczenie byłoby współwiną.
+
+Prawda zawodowa ma trzy wymiary: zgodność słów z faktami, słów z intencją
+oraz czynów ze słowami. Kodeks wymaga wszystkich trzech.

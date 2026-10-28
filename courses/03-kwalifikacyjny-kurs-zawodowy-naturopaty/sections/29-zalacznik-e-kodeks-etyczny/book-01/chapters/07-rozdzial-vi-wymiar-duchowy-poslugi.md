@@ -21,3 +21,29 @@ Kodeks nie jest listą zakazów — jest portretem człowieka, którym masz się
 ---
 
 *Pełny tekst kodeksu obowiązuje wszystkich uczestników kursu od dnia immatrykulacji. Złamanie kodeksu poddaję ocenie komisji etyki.*
+
+---
+
+## Pogłębienie tematu
+### Wymiar duchowy — jak przeżywać go profesjonalnie i nienachalnie
+
+1. **Źródło postawy.** Dla wierzącego naturopaty służba choremu jest
+   uczestnictwem w miłości Boga do człowieka («Byłem chory, a odwiedziliście
+   Mnie» — Mt 25,36). Dla niewierzącego — ta sama postawa wyraża się jako
+   bezwarunkowy szacunek dla godności osoby. Kodeks respektuje obie drogi;
+   żadnej nie narzuca pacjentowi.
+2. **Co wolno, czego nie:** wolno zapytać chorego, czy życzy się modlitwy
+   lub obecności kapłana; wolno samemu zachować chwilę ciszy przed zabiegiem.
+   Nie wolno uzależniać usługi od wyznania, nie wolno moralizować przy stole
+   zabiegowym, nie wolno twierdzić, że choroba jest «karą» lub «lekcją» —
+   to słowa, które ranią bardziej niż niosą pocieszenie.
+3. **Troska o duszę terapeuty.** Regularny odpoczynek, sakramenty lub praktyka
+   wewnętrzna według własnej tradycji, kierownictwo duchowe/superwizja —
+   to nie luksus, lecz zabezpieczenie pacjenta przed moim wypaleniem.
+4. **U kresu życia.** Gdy pacjent umiera mimo opieki — towarzyszenie, wsparcie
+   rodziny, odsunięcie własnej bezradności na bok. Naturopata nie jest
+   heroldem sukcesu; jest sługą także w chorobie nieuleczalnej, zgodnie
+   z zasadą *ambulare cum patiente* — iść z chorym do końca.
+5. **Pokora wobec tajemnicy.** Nie wszystko w medycynie da się wyjaśnić;
+   uzdrowienie bywa większe niż nasza procedura. Dziękczynienie po dobrej pracy
+   i westchnienie po pracy daremnej należą do tego samego rzemiosła miłości.

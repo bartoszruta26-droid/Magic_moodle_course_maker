@@ -17,3 +17,31 @@ Odmowa wykonania zabiegu, gdy oceniasz, że mógłby zaszkodzić, nigdy nie jest
 ---
 
 *Zespół dydaktyczny kursu*
+
+---
+
+## Pogłębienie tematu
+### Procedury bezpieczeństwa — wersja skrócona do gabinetu
+
+1. **Przed pierwszym dotykiem:** wywiad przesiewowy (gorączka, leki, ciąża,
+   nowotwór, zakrzepica, choroby skóry), zgoda świadoma, warunki lokalowe
+   (temperatura 22–24 °C, oświetlenie, dostęp do wyjścia).
+2. **W trakcie:** stały kontakt słowny z pacjentem przy technikach głębokich;
+   objawy alarmowe (ból ostry, zawrót głowy, kołatanie serca, drętwienie)
+   → natychmiastowe przerwanie, pozycja bezpieczna, ocena, decyzja: dalszy
+   ciąg / zakończenie / pomoc.
+3. **Stany nagłe:** utrata przytomności z oddechem → pozycja boczna
+   bezpieczna, obserwacja oddechu, 112; brak oddechu → BLS wg Załącznika
+   K.10 i modułu 12.4; duszność, ból w klatce, objawy udaru (Zespół FAST) →
+   112 bez zwłoki. Apteczka i telefon z numerami alarmowymi muszą być
+   dostępne w każdym gabinecie, w którym pracujesz.
+4. **Po incydencie:** wpis do książki zdarzeń, informacja do przełożonego/
+   prowadzącego, analiza przyczyn — nie szukanie winnych.
+5. **Ergonomia terapeuty:** zasada ciężaru ciała zamiast siły palców,
+   przerwy co drugi zabieg, rotacja okolic; zmęczona ręka jest ręką
+   niebezpieczną.
+6. **Farmakologiczne i zielarskie:** żadnego preparatu nie podajesz bez
+   sprawdzenia interakcji z lekami pacjenta (Załącznik A.9) i bez zapisu
+   dawki; przy alergiach w wywiadzie — test śladowy i obserwacja.
+
+Bezpieczeństwo nie jest dodatkiem do zabiegu — jest jego pierwszą częścią.
