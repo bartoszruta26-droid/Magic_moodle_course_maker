@@ -75,7 +75,7 @@ Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie m
 
 ### 8.5.9. Ocena skuteczności działania
 
-Ocena skuteczności działania (interwencji masażu): miary: ból (NRS/VAS), funkcja (ROM, ODI, DASH, Timed Up-and-Go), jakość życia (SF-12/EQ-5D przy dłuższych seriach), subiektywna skala Global (patient global impression), obiektywnie: obrzęk (obwód), sen, zużycie leków (za zgodą lekarza). Projekt: baseline → seria (np. 8 zabiegów) → ocena natychmiastowa i 24–72 h → follow-up 2–4 tyg. Interpretacja: MCID (minimalna istotna zmiana) dla bólu ~2 pkt NRS; brak zmiany = rewizja hipotezy (zły dobór, przyczyna lekarska nieleczona). Publikuj内部 wnioski (anonimowe case series) — ucz się zespołowo. Uczciwość: nie przypisuj masażowi efektów placebo/regresji do średniej; nie manipuluj metrykami. Skuteczność mierzona = dowód troski, nie marketingu.
+Ocena skuteczności działania (interwencji masażu): miary: ból (NRS/VAS), funkcja (ROM, ODI, DASH, Timed Up-and-Go), jakość życia (SF-12/EQ-5D przy dłuższych seriach), subiektywna skala Global (patient global impression), obiektywnie: obrzęk (obwód), sen, zużycie leków (za zgodą lekarza). Projekt: baseline → seria (np. 8 zabiegów) → ocena natychmiastowa i 24–72 h → follow-up 2–4 tyg. Interpretacja: MCID (minimalna istotna zmiana) dla bólu ~2 pkt NRS; brak zmiany = rewizja hipotezy (zły dobór, przyczyna lekarska nieleczona). Publikujwewnętrzne wnioski (anonimowe case series) — ucz się zespołowo. Uczciwość: nie przypisuj masażowi efektów placebo/regresji do średniej; nie manipuluj metrykami. Skuteczność mierzona = dowód troski, nie marketingu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

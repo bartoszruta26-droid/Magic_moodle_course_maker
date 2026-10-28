@@ -14,7 +14,6 @@ Moduł dotyczy wykonywania masażu w medycynie: masażu klasycznego leczniczego,
 
 | Nr tematu | Książka (book) | Quiz | Zadanie | Liczba zagadnień |
 |-----------|--------|------|---------|------------------|
-| 4.1 | book-01 | quiz-01 | assignment-01 | 10 |
 | 4.2 | book-02 | quiz-02 | assignment-02 | 10 |
 | 4.3 | book-03 | quiz-03 | assignment-03 | 10 |
 | 4.4 | book-04 | quiz-04 | assignment-04 | 10 |

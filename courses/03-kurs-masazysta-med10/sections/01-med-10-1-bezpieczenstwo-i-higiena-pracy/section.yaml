@@ -51,9 +51,6 @@ modules:
   - type: book
     ref: book-15-bezpieczenstwo-w-kontakcie-z-pacjentem-szczegolnie-wraz
     name: "1.15. Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.1"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 1.1. Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty"

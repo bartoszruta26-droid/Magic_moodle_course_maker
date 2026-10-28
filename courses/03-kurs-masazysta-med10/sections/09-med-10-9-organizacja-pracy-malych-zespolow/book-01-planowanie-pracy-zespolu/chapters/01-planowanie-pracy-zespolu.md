@@ -35,7 +35,7 @@ Analiza przydzielonych zadań (job analysis) w praktyce: rozbij zadanie na: cel 
 
 ### 9.1.3. Harmonogram pracy
 
-Harmonogram pracy gabinetu: reguły: limity (maks. 6–8 masaży głębokich/dzień per terapeuta, przerwy 10–15 min co 2 h, dni bez nocnych zmian), rotacja obciążeń (duży–mały klient,区域 ciała), priorytet kwalifikacji (nowy pacjent = dłuższy slot 60 min), rezerwa 10% na pilne, czas administracji w grafiku (nie „po godzinach”), zgodność z KP (normy, odpoczynki dobowe/tygodniowe, badania, szkolenia wliczone). Publikacja z wyprzedzeniem (2 tyg.), wymiana zmian regulaminowa, uwzględnienie orzeczeń lekarskich (ciąża,限制). Optymalizacja sezonowa (przed świętami wellness↑, po kolonii sport↑). Grafolog humanistyczny: pytaj preferencji rytmu (rano/wieczór). Harmonogram służy bezpieczeństwu pacjenta i trwałości terapeuty — projektuj go jak instrument.
+Harmonogram pracy gabinetu: reguły: limity (maks. 6–8 masaży głębokich/dzień per terapeuta, przerwy 10–15 min co 2 h, dni bez nocnych zmian), rotacja obciążeń (duży–mały klient,obszar ciała), priorytet kwalifikacji (nowy pacjent = dłuższy slot 60 min), rezerwa 10% na pilne, czas administracji w grafiku (nie „po godzinach”), zgodność z KP (normy, odpoczynki dobowe/tygodniowe, badania, szkolenia wliczone). Publikacja z wyprzedzeniem (2 tyg.), wymiana zmian regulaminowa, uwzględnienie orzeczeń lekarskich (ciąża,ograniczenia). Optymalizacja sezonowa (przed świętami wellness↑, po kolonii sport↑). Grafolog humanistyczny: pytaj preferencji rytmu (rano/wieczór). Harmonogram służy bezpieczeństwu pacjenta i trwałości terapeuty — projektuj go jak instrument.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

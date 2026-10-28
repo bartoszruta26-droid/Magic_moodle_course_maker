@@ -21,9 +21,6 @@ modules:
   - type: book
     ref: book-05-wprowadzanie-rozwiazan-technicznych-i-organizacyjnych
     name: "9.5. Wprowadzanie rozwiązań technicznych i organizacyjnych"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.9"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 9.1. Planowanie pracy zespołu"

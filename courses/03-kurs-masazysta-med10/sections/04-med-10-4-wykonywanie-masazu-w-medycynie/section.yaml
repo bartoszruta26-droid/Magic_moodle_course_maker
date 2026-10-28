@@ -78,9 +78,6 @@ modules:
   - type: book
     ref: book-24-bezpieczenstwo-podczas-trwania-zabiegu
     name: "4.24. Bezpieczeństwo podczas trwania zabiegu"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.4"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 4.1. Ocena pacjenta na potrzeby wykonania masażu"

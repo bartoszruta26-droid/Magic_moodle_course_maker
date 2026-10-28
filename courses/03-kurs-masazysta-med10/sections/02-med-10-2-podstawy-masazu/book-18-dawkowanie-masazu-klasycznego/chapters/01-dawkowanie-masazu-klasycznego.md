@@ -59,7 +59,7 @@ Tolerancja bólu i próg dyskomfortu: różnice indywidualne (genetyka COMT, pł
 
 ### 2.18.7. Reakcja pacjenta w trakcie zabiegu
 
-Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycjabezpieczna, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

@@ -53,7 +53,7 @@ Ochrona intymności w gabinecie: drzwi zamknięte i zakomunikowane („nikt nie 
 
 ### 4.24.6. Ochrona przed zimnem
 
-Ochrona przed wychłodzeniem: gabinet 22–24°C (termometr!), ogrzewanie punktowe (mata pod stołem, koc na części nieobrabiniane), czas ekspozycji skóry ≤ kilku minut per region, szybkie okrywanie po technice, ciepłe ręce masażysty (mycie w ciepłej wodzie, rozgrzanie dłoni), przy masażach długich — podgrzewane podkłady; pacjenci wrażliwi (seniorzy, dzieci, niedowaga, β-blokery, choroba Raynauda — zimno = skurcz naczyń i ból!) — priorytet ciepła. Objawy: gęsia skórka, drżenie, skulenie, marudzenie „proszę skracać”. Zimno obniża korzyści masażu (napięcie反射owe). Komfort termiczny jest elementem sztuki, nie fanaberią — piękno troski widać w kocu.
+Ochrona przed wychłodzeniem: gabinet 22–24°C (termometr!), ogrzewanie punktowe (mata pod stołem, koc na części nieobrabiniane), czas ekspozycji skóry ≤ kilku minut per region, szybkie okrywanie po technice, ciepłe ręce masażysty (mycie w ciepłej wodzie, rozgrzanie dłoni), przy masażach długich — podgrzewane podkłady; pacjenci wrażliwi (seniorzy, dzieci, niedowaga, β-blokery, choroba Raynauda — zimno = skurcz naczyń i ból!) — priorytet ciepła. Objawy: gęsia skórka, drżenie, skulenie, marudzenie „proszę skracać”. Zimno obniża korzyści masażu (napięcieodruchowe). Komfort termiczny jest elementem sztuki, nie fanaberią — piękno troski widać w kocu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

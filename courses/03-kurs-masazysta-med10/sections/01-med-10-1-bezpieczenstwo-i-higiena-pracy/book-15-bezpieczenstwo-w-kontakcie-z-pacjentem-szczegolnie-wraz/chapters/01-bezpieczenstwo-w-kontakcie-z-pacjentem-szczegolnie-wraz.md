@@ -15,7 +15,7 @@ Temat „1.15. Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym�
 - Stosujesz zdobytą wiedzę w planowaniu działania, uwzględniając przeciwwskazania i granice kompetencji — **1.15.5 1.15.5. Osoby w ciąży — ograniczenia i konsultacja lekarska**.
 - Oceniasz jakość własnego wykonania według check-listy i formułujesz plan doskonalenia — **1.15.6 1.15.6. Osoby z chorobami nowotworowymi — tylko za zgodą lekarza**.
 - Rozpoznajesz strukturę, mechanizm i kolejność czynności opisanych w tym zagadnieniu — **1.15.7 1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja**.
-- Omawiasz przebieg postępowania krok po kroku, wskazując etapy kluczowe dla bezpieczeństwa klienta — **1.15.8 1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne**.
+- Omawiasz przebieg postępowania krok po kroku, wskazując etapy kluczowe dla bezpieczeństwa klienta — **1.15.8 1.15.8. Osoby z chorobami skóry — przeciwwskazaniamiejscowe**.
 - Wykonujesz ćwiczenie praktyczne w warunkach szkolnych, przestrzegając zasad higieny i ergonomii — **1.15.9 1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń**.
 - Analizujesz przykłady z literatury zawodowej i omawiasz wnioski na forum grupy — **1.15.10 1.15.10. Zasada: zgoda może być cofnięta w każdej chwili**.
 
@@ -71,7 +71,7 @@ Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne
+### 1.15.8. Osoby z chorobami skóry — przeciwwskazaniamiejscowe
 
 Choroby skóry — przeciwwskazania miejscowe i ogólne: bezwzględnie nie masujemy zmian ropnych (liszajec, czyraki, róża — ogólnoustrojowe ryzyko), wirusowych aktywnych (half zoster w wysiewie, brodawki w dużej liczbie — rozsiew), grzybic (autoinokulacja, sprzęt!), pasożytów (świerzb — izolacja i leczenie, dezynfekcja tekstyliów 60°C). Łuszczyca/egzema w fazie stabilnej: masaż możliwy poza ogniskami, emolienty bezzapachowe, siła lekka (objaw Koebnera — uraz → nowa zmiana!). Czerniak/atypowy pieprzyk: nie „smarować” i nie drażnić — skierować dermatologa. Dokumentuj: lokalizacja, charakter, decyzja. Higiena: jednorazowe podkłady, dezynfekcja stołu, mycie rąk. Zasada: lepiej odmówić i wytłumaczyć niż zainfekować i zniszczyć zaufanie.
 

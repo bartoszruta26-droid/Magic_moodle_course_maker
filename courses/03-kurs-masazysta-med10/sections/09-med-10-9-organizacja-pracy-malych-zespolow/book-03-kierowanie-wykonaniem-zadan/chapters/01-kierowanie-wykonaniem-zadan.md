@@ -47,7 +47,7 @@ Nadzór bez kontroli upokarzającej: zasada pomocniczości i godności: obserwuj
 
 ### 9.3.5. Rozwiązywanie problemów na bieżąco
 
-Rozwiązywanie problemów na bieżąco (operacyjne): model: zdefiniuj fakt (co, gdzie, kiedy, wpływ), przyczynę (5 Why), rozwiązanie (opcje → kryteria: bezpieczeństwo, koszt, czas), wdróż, sprawdź po 7 dniach, uspójnij (SOP). Przykład: stół gaśnie w połowie sesji → przyczyna: przeciążony obwód → rozwiązanie: dedykowany obwód + lista urządzeń. Eskalacja: problemy powtarzalne >2× → spotkanie jakościowe;涉及 pacjenta → natychmiast przełożony + dokumentacja zdarzenia. Kultura: zgłaszaj szybko, nie bohateruj się; nagradzaj szczerość. Nie rozwiązuj „na opiniach” — dane i obserwacja. Proste narzędzia (arkusz A3) wystarczą. Problemy są darmowymi lekcjami systemu — korzystaj.
+Rozwiązywanie problemów na bieżąco (operacyjne): model: zdefiniuj fakt (co, gdzie, kiedy, wpływ), przyczynę (5 Why), rozwiązanie (opcje → kryteria: bezpieczeństwo, koszt, czas), wdróż, sprawdź po 7 dniach, uspójnij (SOP). Przykład: stół gaśnie w połowie sesji → przyczyna: przeciążony obwód → rozwiązanie: dedykowany obwód + lista urządzeń. Eskalacja: problemy powtarzalne >2× → spotkanie jakościowe;dotyczy pacjenta → natychmiast przełożony + dokumentacja zdarzenia. Kultura: zgłaszaj szybko, nie bohateruj się; nagradzaj szczerość. Nie rozwiązuj „na opiniach” — dane i obserwacja. Proste narzędzia (arkusz A3) wystarczą. Problemy są darmowymi lekcjami systemu — korzystaj.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -59,7 +59,7 @@ Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz ch
 
 ### 9.3.7. Ocena procesu pracy
 
-Ocena procesu pracy (nie tylko wyniku): metryki: zgodność z SOP (audyt check-listą), czas cyklu (przygotowanie→zabieg→dokumentacja), jakość dokumentacji (kompletność kart), zdarzenia niepożądane i near-miss, powtórne konsultacje/reklamacje, ergonomia (bóle terapeuty), satysfakcja pacjenta. Analiza przyczyn źródłowych (5 Why, Ishikawa) przy odchyleń; usprawnienia PDSA. Ocena formacyjna co miesiąc, sumująca kwartalnie — wiąż z rozwojem, nie karą. Dane zbieraj etycznie (anonimizacja, zgody). Prezentuj zespołowi wykresy trendów —透明ność buduje motywację. Wynik (efekt u pacjenta) zależy od procesu; dbałość o proces jest aktem sprawiedliwości wobec przyszłych pacjentów.
+Ocena procesu pracy (nie tylko wyniku): metryki: zgodność z SOP (audyt check-listą), czas cyklu (przygotowanie→zabieg→dokumentacja), jakość dokumentacji (kompletność kart), zdarzenia niepożądane i near-miss, powtórne konsultacje/reklamacje, ergonomia (bóle terapeuty), satysfakcja pacjenta. Analiza przyczyn źródłowych (5 Why, Ishikawa) przy odchyleń; usprawnienia PDSA. Ocena formacyjna co miesiąc, sumująca kwartalnie — wiąż z rozwojem, nie karą. Dane zbieraj etycznie (anonimizacja, zgody). Prezentuj zespołowi wykresy trendów —przejrzystość buduje motywację. Wynik (efekt u pacjenta) zależy od procesu; dbałość o proces jest aktem sprawiedliwości wobec przyszłych pacjentów.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

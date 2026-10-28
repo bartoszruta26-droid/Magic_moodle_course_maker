@@ -1,4 +1,4 @@
-# 1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne
+# 1.15.8. Osoby z chorobami skóry — przeciwwskazaniamiejscowe
 
 *Rozdział szczegółowy (podrozdział) tematu 1.15 — Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym*
 
@@ -38,7 +38,7 @@ Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. 
 
 ## Pytania utrwalające
 
-1. Omów mechanizmy leżące u podstaw: Osoby z chorobami skóry — przeciwwskazania局部ne. Co z tego wynika dla techniki masażu?
+1. Omów mechanizmy leżące u podstaw: Osoby z chorobami skóry — przeciwwskazaniamiejscowe. Co z tego wynika dla techniki masażu?
 2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
 3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
 4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?

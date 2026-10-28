@@ -14,7 +14,6 @@ Moduł przedstawia podstawy masażu w medycynie: procesy patologiczne i objawy c
 
 | Nr tematu | Książka (book) | Quiz | Zadanie | Liczba zagadnień |
 |-----------|--------|------|---------|------------------|
-| 3.1 | book-01 | quiz-01 | assignment-01 | 10 |
 | 3.2 | book-02 | quiz-02 | assignment-02 | 10 |
 | 3.3 | book-03 | quiz-03 | assignment-03 | 10 |
 | 3.4 | book-04 | quiz-04 | assignment-04 | 10 |

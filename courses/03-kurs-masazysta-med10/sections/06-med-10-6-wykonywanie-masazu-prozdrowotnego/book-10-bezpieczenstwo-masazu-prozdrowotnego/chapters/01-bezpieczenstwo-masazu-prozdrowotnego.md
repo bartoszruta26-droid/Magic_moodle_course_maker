@@ -53,7 +53,7 @@ Niezamierzona utrata masy ciała: >5% w 6–12 miesięcy bez diety/wysiłku = cz
 
 ### 6.10.6. Krwawienia i siniki samoistne
 
-Krwawienia i samoistne siniki: łatwe出现owanie wybroczyn, krwawienia dziąsłowe, nosowe, miesiączki obfitsze niż zwykle → podejrzenie trombocytopenii, zaburzeń krzepnięcia, terapii antykoagulacyjnej, chorób wątroby, białaczki. Masażysta: przy lekach (warfaryna, heparyna, DOAC, aspiryna/NSAID) — siła lekka, zakaz głębokiego/baniek/oklepywania intensywnego; przy objawach nowych/nasileniu — wstrzymaj i skieruj (INR!, morfologia). Ekspozycja na krew: środki standardowe, rękawiczki, dezynfekcja, utylizacja odpadów medycznych. Po zabiegu obserwuj krwiaki >2 cm, ból narastający — interwencja. Notuj wszystkie leki OTC — pacjenci nie uważają ich za „leki”. Ostrożność ratuje życie przy małopłytkowości <50k.
+Krwawienia i samoistne siniki: łatwepojawianie wybroczyn, krwawienia dziąsłowe, nosowe, miesiączki obfitsze niż zwykle → podejrzenie trombocytopenii, zaburzeń krzepnięcia, terapii antykoagulacyjnej, chorób wątroby, białaczki. Masażysta: przy lekach (warfaryna, heparyna, DOAC, aspiryna/NSAID) — siła lekka, zakaz głębokiego/baniek/oklepywania intensywnego; przy objawach nowych/nasileniu — wstrzymaj i skieruj (INR!, morfologia). Ekspozycja na krew: środki standardowe, rękawiczki, dezynfekcja, utylizacja odpadów medycznych. Po zabiegu obserwuj krwiaki >2 cm, ból narastający — interwencja. Notuj wszystkie leki OTC — pacjenci nie uważają ich za „leki”. Ostrożność ratuje życie przy małopłytkowości <50k.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

@@ -30,9 +30,6 @@ modules:
   - type: book
     ref: book-08-bezpieczenstwo-i-etyka-w-sporcie
     name: "5.8. Bezpieczeństwo i etyka w sporcie"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.5"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 5.1. Wprowadzenie do masażu sportowego"

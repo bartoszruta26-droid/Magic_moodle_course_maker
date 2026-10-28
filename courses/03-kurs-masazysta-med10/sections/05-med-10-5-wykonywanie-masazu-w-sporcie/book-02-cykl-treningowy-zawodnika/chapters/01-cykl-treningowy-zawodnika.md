@@ -75,7 +75,7 @@ Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol,
 
 ### 5.2.9. Monitorowanie samopoczucia
 
-Monitorowanie samopoczucia zawodnika: narzędzia codzienne — ankieta wellness (sen 0–10, zmęczenie, bóle, nastrój, stres), RPE sesji × czas = ładność wewnętrzna, tętno spoczynkowe (wzrost >5–7 uderzeń = przeciążenie/choroba), HRV (trend, nie pojedynczy odczyt), masaż-karta z NRS przed/po. Progi eskalacji: 3 dni spadku wellness lub ból >4/10 utrzymujący się 72 h → konsylium (trener, lekarz, fizjo). Masażysta raportuje tendencje, nie diagnozy. Kontekst: podróż/strefa czasowa, dieta, infekcje rodzinne, sesje egzaminacyjne (młodzi!). Dane chronimy (RODO, club policy). Regularność pomiaru > wyrafinowanie narzędzia. Zapobiegawczo:调整uj plan serii, nie „czekaj aż zaboli” — profilaktyka jest tańsza niż rehabilitacja.
+Monitorowanie samopoczucia zawodnika: narzędzia codzienne — ankieta wellness (sen 0–10, zmęczenie, bóle, nastrój, stres), RPE sesji × czas = ładność wewnętrzna, tętno spoczynkowe (wzrost >5–7 uderzeń = przeciążenie/choroba), HRV (trend, nie pojedynczy odczyt), masaż-karta z NRS przed/po. Progi eskalacji: 3 dni spadku wellness lub ból >4/10 utrzymujący się 72 h → konsylium (trener, lekarz, fizjo). Masażysta raportuje tendencje, nie diagnozy. Kontekst: podróż/strefa czasowa, dieta, infekcje rodzinne, sesje egzaminacyjne (młodzi!). Dane chronimy (RODO, club policy). Regularność pomiaru > wyrafinowanie narzędzia. Zapobiegawczo:koryguj plan serii, nie „czekaj aż zaboli” — profilaktyka jest tańsza niż rehabilitacja.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

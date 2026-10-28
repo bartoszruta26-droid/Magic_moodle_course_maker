@@ -53,7 +53,7 @@ Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie m
 
 ### 8.3.6. Plan B przy reakcji pacjenta
 
-Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycjabezpieczna, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -65,7 +65,7 @@ Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja)
 
 ### 8.3.8. Ocena realizacji planu
 
-Ocena procesu pracy (nie tylko wyniku): metryki: zgodność z SOP (audyt check-listą), czas cyklu (przygotowanie→zabieg→dokumentacja), jakość dokumentacji (kompletność kart), zdarzenia niepożądane i near-miss, powtórne konsultacje/reklamacje, ergonomia (bóle terapeuty), satysfakcja pacjenta. Analiza przyczyn źródłowych (5 Why, Ishikawa) przy odchyleń; usprawnienia PDSA. Ocena formacyjna co miesiąc, sumująca kwartalnie — wiąż z rozwojem, nie karą. Dane zbieraj etycznie (anonimizacja, zgody). Prezentuj zespołowi wykresy trendów —透明ność buduje motywację. Wynik (efekt u pacjenta) zależy od procesu; dbałość o proces jest aktem sprawiedliwości wobec przyszłych pacjentów.
+Ocena procesu pracy (nie tylko wyniku): metryki: zgodność z SOP (audyt check-listą), czas cyklu (przygotowanie→zabieg→dokumentacja), jakość dokumentacji (kompletność kart), zdarzenia niepożądane i near-miss, powtórne konsultacje/reklamacje, ergonomia (bóle terapeuty), satysfakcja pacjenta. Analiza przyczyn źródłowych (5 Why, Ishikawa) przy odchyleń; usprawnienia PDSA. Ocena formacyjna co miesiąc, sumująca kwartalnie — wiąż z rozwojem, nie karą. Dane zbieraj etycznie (anonimizacja, zgody). Prezentuj zespołowi wykresy trendów —przejrzystość buduje motywację. Wynik (efekt u pacjenta) zależy od procesu; dbałość o proces jest aktem sprawiedliwości wobec przyszłych pacjentów.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 

@@ -20,7 +20,7 @@ Utrwalenie wiedzy i umiejętności z zakresu: Bezpieczeństwo w kontakcie z pacj
 - [ ] 1.15.5 1.15.5. Osoby w ciąży — ograniczenia i konsultacja lekarska
 - [ ] 1.15.6 1.15.6. Osoby z chorobami nowotworowymi — tylko za zgodą lekarza
 - [ ] 1.15.7 1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja
-- [ ] 1.15.8 1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne
+- [ ] 1.15.8 1.15.8. Osoby z chorobami skóry — przeciwwskazaniamiejscowe
 - [ ] 1.15.9 1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń
 - [ ] 1.15.10 1.15.10. Zasada: zgoda może być cofnięta w każdej chwili
 

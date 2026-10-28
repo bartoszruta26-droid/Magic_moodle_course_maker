@@ -36,9 +36,6 @@ modules:
   - type: book
     ref: book-10-strategie-komunikacyjne-i-kompensacyjne
     name: "7.10. Strategie komunikacyjne i kompensacyjne"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.7"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 7.1. Wprowadzenie do języka obcego zawodowego masażysty"

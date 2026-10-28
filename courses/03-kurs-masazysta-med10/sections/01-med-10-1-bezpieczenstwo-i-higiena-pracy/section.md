@@ -14,7 +14,6 @@ Moduł wprowadza w bezpieczeństwo i higienę pracy masażysty: przepisy prawa p
 
 | Nr tematu | Książka (book) | Quiz | Zadanie | Liczba zagadnień |
 |-----------|--------|------|---------|------------------|
-| 1.1 | book-01 | quiz-01 | assignment-01 | 10 |
 | 1.2 | book-02 | quiz-02 | assignment-02 | 10 |
 | 1.3 | book-03 | quiz-03 | assignment-03 | 10 |
 | 1.4 | book-04 | quiz-04 | assignment-04 | 10 |

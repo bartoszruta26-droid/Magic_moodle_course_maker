@@ -36,9 +36,6 @@ modules:
   - type: book
     ref: book-10-postawa-egzaminacyjna-w-duchu-prawdy-i-pokoju
     name: "11.10. Postawa egzaminacyjna w duchu prawdy i pokoju"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: Moduł 11"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 11.1. Wymagania egzaminacyjne i zasady oceny"

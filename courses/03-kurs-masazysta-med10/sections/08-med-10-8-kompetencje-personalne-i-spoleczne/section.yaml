@@ -33,9 +33,6 @@ modules:
   - type: book
     ref: book-09-konflikty-i-ich-rozwiazywanie
     name: "8.9. Konflikty i ich rozwiązywanie"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.8"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 8.1. Wysoka jakość usług masażu"

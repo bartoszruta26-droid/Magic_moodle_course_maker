@@ -21,9 +21,6 @@ modules:
   - type: book
     ref: book-05-portfolio-praktykant
     name: "10.5. Portfolio praktykant"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: Moduł 10"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 10.1. Cele praktyki zawodowej"

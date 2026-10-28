@@ -69,9 +69,6 @@ modules:
   - type: book
     ref: book-21-korelacja-masazu-z-fizykoterapia-i-kinezyterapia-w-chor
     name: "3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.3"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne"

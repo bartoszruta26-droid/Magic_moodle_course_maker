@@ -47,7 +47,7 @@ Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz ch
 
 ### 9.2.5. Rozpoznawanie mocnych stron
 
-Rozpoznawanie mocnych stron współpracowników: narzędzia — obserwacja w działaniu (co przychodzi łatwo, co daje energię), rozmowa mocna (VIA, Gallup-lite: „przy czym tracisz poczucie czasu?”), wyniki (które zabiegi/role kończą się najlepszym feedbackiem pacjenta). Zastosowanie: przydzielaj zadania wg talentów (empatyk → trudni emocjonalnie pacjenci; skrupulat → sterylizacja i dokumentacja; dynamiczny → sportowe quick-massage); łącz互补arne pary na szkolenia. Pisz profile kompetencji zespołu (macierz) — widoczna sprawiedliwość awansu i grafiku. Uwaga: mocna strona w nadmiarze = słabość (perfekcjonista spóźnia sesje). Rotuj, by rozwijać rezerwy. Lider widzi potencjał, nie tylko bieżące błędy — to szacunek dla osoby i jej powołania.
+Rozpoznawanie mocnych stron współpracowników: narzędzia — obserwacja w działaniu (co przychodzi łatwo, co daje energię), rozmowa mocna (VIA, Gallup-lite: „przy czym tracisz poczucie czasu?”), wyniki (które zabiegi/role kończą się najlepszym feedbackiem pacjenta). Zastosowanie: przydzielaj zadania wg talentów (empatyk → trudni emocjonalnie pacjenci; skrupulat → sterylizacja i dokumentacja; dynamiczny → sportowe quick-massage); łączkomplementarne pary na szkolenia. Pisz profile kompetencji zespołu (macierz) — widoczna sprawiedliwość awansu i grafiku. Uwaga: mocna strona w nadmiarze = słabość (perfekcjonista spóźnia sesje). Rotuj, by rozwijać rezerwy. Lider widzi potencjał, nie tylko bieżące błędy — to szacunek dla osoby i jej powołania.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
