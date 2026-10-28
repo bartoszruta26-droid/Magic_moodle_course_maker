@@ -312,9 +312,10 @@ protokołem bezpieczeństwa i kryteriami odstąpienia (ACSM red flags).""",
   lecznicze — tylko pod nadzorem fizykoterapeuty.
 
 **Kryteria:** przeprowadzenie zabiegu z kartą parametrów (C.2) oraz edukacja
-pacjenta o zagrożeniach (oparzenia, odmrożenia, poparzenia słonecz
+pacjenta o zagrożeniach (oparzenia, odmrożenia, poparzenia słoneczne, fotouczulenia ziołowe — dziurawiec, pasternak!),
+przeciwwskazania (F.5) oraz zapis parametrów w karcie zabiegowej (C.2).
 """,
-    "b-11": """ """# B.11. Przygotowanie przetworów zielarskich
+    "b-11": """# B.11. Przygotowanie przetworów zielarskich
 
 Techniki laboratoryjne (gabinet/school-botanika):
 
@@ -331,9 +332,9 @@ Techniki laboratoryjne (gabinet/school-botanika):
 
 **Kryteria:** wykonanie trzech przetworów z pełną etykietą i kartą
 bezpieczeństwa; surowce wyłącznie ze źródeł badanych mikrobiologicznie
-i pod kątem metali c
+i pod kątem metali ciężkich oraz pozostałości pestycydów.
 """,
-    "b-12": """12": """# B.12. Czynności przesiewowe i pomiarowe — co wolno naturopacie
+    "b-12": """# B.12. Czynności przesiewowe i pomiarowe — co wolno naturopacie
 
 Naturopata **nie stawia rozpoznań**. Może wykonywać pomiary przesiewowe,
 obserwacje i edukację:
@@ -347,9 +348,9 @@ obserwacje i edukację:
 
 **Kryteria zaliczenia:** przeprowadzenie kompletu pomiarów na modelu w ≤ 30 min,
 wpisanie wyników do karty C.1 i sformułowanie wniosku w formie «co mieści się
-w normach, co wymaga konsultacji 
+w normach, co wymaga konsultacji lekarskiej» (bez stawiania rozpoznań).
 """,
-    "b-13": """ "b-13": """# B.13. Sesja coachingu zdrowotnego — struktura GROW
+    "b-13": """# B.13. Sesja coachingu zdrowotnego — struktura GROW
 
 Demonstracja pełnej 45-minutowej sesji:
 
@@ -378,9 +379,8 @@ Mentoring zdrowotny (pacjent przewlekły, opiekun rodzinny):
    telefon zaufania 116 123, pomoc doraźna.
 
 **Kryteria:** przedstawienie planu 6 spotkań dla przypadku astmy u dziecka
-(opiekun = rodzic) wraz z własnoręcznie przygotowanym materia
+(opiekun = rodzic) wraz z własnoręcznie przygotowanym materiałem edukacyjnym (ulotka o inhalatorze).
 """,
-    "b-15": """
     "b-15": """# B.15. Pierwsza pomoc — algorytmy ERC 2021
 
 Obowiązkowe opanowanie (symulator + AED szkoleniowy):
@@ -400,10 +400,8 @@ Obowiązkowe opanowanie (symulator + AED szkoleniowy):
    boczna, 112).
 
 **Kryteria:** zdany egzamin praktyczny BLS+AED na manekinie (preferowany
-certyfikat zewnęt
+certyfikat zewnętrzny, np. pierwszej pomocy medycznej).
 """,
-    "b-16": """a).
-
     "b-16": """# B.16. Zabiegi felczerskie (cyrulika) — historyczne i współczesne
 
 Zakres dopuszczalny **tylko** w granicach prawa polskiego (usługi pielęgnowania
@@ -411,7 +409,7 @@ ciała; żadne procedury naruszające ciągłość tkanek bez uprawnień medyczn
 
 - Opatrunki proste na skaleczenia powierzchowne (dezynfekcja, plastry, rękawiczki jednorazowe, złom igieł do pojemnika).
 - Usuwanie odcisków nagniotków TYLKO keratolitycznie (moczenie, salicylowa pasta, frezowanie przez wykwalifikowanego podologa — współpraca).
-- Plaster/mieszanka rozgrzewająca wg receptury安全 (bez otwartych ran).
+- Plaster/mieszanka rozgrzewająca wg receptury bezpiecznej (bez otwartych ran).
 - Bańki suche/ogniowe — ograniczenia: nie na żylaki, nie > 10 min, nie codziennie; bańki «ślad» nie jest dowodem «toksyn» (mit — wyjaśniaj pacjentom).
 - Upust krwi, nacinanie ropni, nastawianie złamań, «łamanie kości» — **BEZWZGLĘDNIE POZA ZAKRESEM** (to czyny medyczne; art. 65 KW/ Kodeks karny — wykonywanie zawodu medycznego bez uprawnień).
 
