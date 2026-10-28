@@ -1,0 +1,21 @@
+# Metadane sekcji
+id: 18
+name: "Moduł 18: PRAWO, ETYKA I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-18-1-podstawy-prawne.md"
+    name: "18.1. Podstawy prawne"
+  - type: page
+    ref: "page-18-2-etyka-zawodowa.md"
+    name: "18.2. Etyka zawodowa"
+  - type: page
+    ref: "page-18-3-organizacja-i-prowadzenie-praktyki.md"
+    name: "18.3. Organizacja i prowadzenie praktyki"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

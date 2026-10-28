@@ -1,0 +1,27 @@
+// === Temat 21.1: Praca dyplomowa ===
+::tf-s21-211-q1:: Zagadnienie „Wybór tematu – związek z praktyką kliniczną, aktualność, użyteczność” wchodzi w zakres tematu „Praca dyplomowa” (21.1). {TRUE} //
+::tf-s21-211-q2:: Zagadnienie „Studium przypadku (case study) – opis pacjenta, diagnostyka, plan terapii, realizacja, wyniki, wnioski” jest elementem zagadnienia „Wybór tematu – związek z praktyką kliniczną, aktualność, użyteczność”, a nie tematu „Praca dyplomowa” (21.1). {FALSE} //
+::tf-s21-211-q3:: Zagadnienie „Praca przeglądowa – przegląd literatury na wybrany temat z zakresu medycyny integracyjnej” wchodzi w zakres tematu „Praca dyplomowa” (21.1). {TRUE} //
+::tf-s21-211-q4:: Zagadnienie „Projekt programu profilaktycznego lub edukacyjnego – cele, grupa docelowa, metody, ewaluacja” jest elementem zagadnienia „Praca przeglądowa – przegląd literatury na wybrany temat z zakresu medycyny integracyjnej”, a nie tematu „Praca dyplomowa” (21.1). {FALSE} //
+::tf-s21-211-q5:: Zagadnienie „Projekt programu coachingowego/mentoringowego – struktura, narzędzia, cele, ewaluacja” wchodzi w zakres tematu „Praca dyplomowa” (21.1). {TRUE} //
+::tf-s21-211-q6:: Zagadnienie „Prezentacja i obrona pracy dyplomowej” jest elementem zagadnienia „Projekt programu coachingowego/mentoringowego – struktura, narzędzia, cele, ewaluacja”, a nie tematu „Praca dyplomowa” (21.1). {FALSE} //
+::mc-s21-211:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praca dyplomowa” (21.1)? {
+    = Wybór tematu – związek z praktyką kliniczną, aktualność, użyteczność
+    ~ Studium przypadku (case study) – opis pacjenta, diagnostyka, plan terapii, realizacja, wyniki, wnioski
+    ~ Praca przeglądowa – przegląd literatury na wybrany temat z zakresu medycyny integracyjnej
+    ~ Modlitwa, medytacja, kontemplacja jako wsparcie zdrowienia
+}
+// === Temat 21.2: Egzamin końcowy ===
+::tf-s21-212-q1:: Zagadnienie „Egzamin teoretyczny – test pisemny (anatomia, fizjologia, patologia, diagnostyka, masaż klasyczny i segmentarny, drenaż limfatyczny, fitoterapia, dietetyka, kinezyterapia, trening, pielęgnacja, fizykoterapia, mentorstwo/coaching, prawo, etyka)” wchodzi w zakres tematu „Egzamin końcowy” (21.2). {TRUE} //
+::tf-s21-212-q2:: Zagadnienie „Egzamin praktyczny I – wykonanie zabiegu masażu klasycznego / segmentarnego / drenażu limfatycznego na pacjencie (wg schematów Zborowskiego)” jest elementem zagadnienia „Egzamin teoretyczny – test pisemny (anatomia, fizjologia, patologia, diagnostyka, masaż klasyczny i segmentarny, drenaż limfatyczny, fitoterapia, dietetyka, kinezyterapia, trening, pielęgnacja, fizykoterapia, mentorstwo/coaching, prawo, etyka)”, a nie tematu „Egzamin końcowy” (21.2). {FALSE} //
+::tf-s21-212-q3:: Zagadnienie „Egzamin praktyczny II – prowadzenie sesji kinezyterapii / treningu medycznego (dobór ćwiczeń, technika, bezpieczeństwo)” wchodzi w zakres tematu „Egzamin końcowy” (21.2). {TRUE} //
+::tf-s21-212-q4:: Zagadnienie „Egzamin praktyczny III – konsultacja naturopatyczna (wywiad, diagnostyka, plan terapii integracyjnej)” jest elementem zagadnienia „Egzamin praktyczny II – prowadzenie sesji kinezyterapii / treningu medycznego (dobór ćwiczeń, technika, bezpieczeństwo)”, a nie tematu „Egzamin końcowy” (21.2). {FALSE} //
+::tf-s21-212-q5:: Zagadnienie „Egzamin praktyczny IV – sesja coachingu zdrowotnego / mentoringu (struktura, kompetencje, etyka)” wchodzi w zakres tematu „Egzamin końcowy” (21.2). {TRUE} //
+::tf-s21-212-q6:: Zagadnienie „Egzamin ustny – obrona pracy dyplomowej i odpowiedzi na pytania komisji” jest elementem zagadnienia „Egzamin praktyczny IV – sesja coachingu zdrowotnego / mentoringu (struktura, kompetencje, etyka)”, a nie tematu „Egzamin końcowy” (21.2). {FALSE} //
+::tf-s21-212-q7:: Zagadnienie „Kryteria oceny i warunki uzyskania dyplomu naturopaty” wchodzi w zakres tematu „Egzamin końcowy” (21.2). {TRUE} //
+::mc-s21-212:: Które z poniższych zagadnień należy bezpośrednio do tematu „Egzamin końcowy” (21.2)? {
+    = Egzamin teoretyczny – test pisemny (anatomia, fizjologia, patologia, diagnostyka, masaż klasyczny i segmentarny, drenaż limfatyczny, fitoterapia, dietetyka, kinezyterapia, trening, pielęgnacja, fizykoterapia, mentorstwo/coaching, prawo, etyka)
+    ~ Egzamin praktyczny I – wykonanie zabiegu masażu klasycznego / segmentarnego / drenażu limfatycznego na pacjencie (wg schematów Zborowskiego)
+    ~ Egzamin praktyczny II – prowadzenie sesji kinezyterapii / treningu medycznego (dobór ćwiczeń, technika, bezpieczeństwo)
+    ~ Kompetencje mentora zdrowotnego – wiedza, doświadczenie, empatia, cierpliwość, pokora
+}

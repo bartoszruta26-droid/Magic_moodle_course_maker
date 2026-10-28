@@ -1,0 +1,30 @@
+# Metadane sekcji
+id: 19
+name: "Moduł 19: PRAKTYKA ZAWODOWA I STAŻE KLINICZNE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-19-1-praktyka-gabinetowa-masaz-i-terapie-manualne.md"
+    name: "19.1. Praktyka gabinetowa – masaż i terapie manualne"
+  - type: page
+    ref: "page-19-2-praktyka-kinezyterapia-i-trening-medyczny.md"
+    name: "19.2. Praktyka – kinezyterapia i trening medyczny"
+  - type: page
+    ref: "page-19-3-praktyka-fitoterapia-dietetyka-i-pielegnacja.md"
+    name: "19.3. Praktyka – fitoterapia, dietetyka i pielęgnacja"
+  - type: page
+    ref: "page-19-4-praktyka-diagnostyka-i-konsultacja-integracyjna.md"
+    name: "19.4. Praktyka – diagnostyka i konsultacja integracyjna"
+  - type: page
+    ref: "page-19-5-praktyka-mentorstwo-i-coaching-zdrowotny.md"
+    name: "19.5. Praktyka – mentorstwo i coaching zdrowotny"
+  - type: page
+    ref: "page-19-6-staz-obserwacyjny.md"
+    name: "19.6. Staż obserwacyjny"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

@@ -1,0 +1,4 @@
+# Metadane słownika
+name: "Słownik terminów medycznych i naturopatycznych"
+introduction: "Łacina, greka i terminologia kliniczna wg spisu treści kursu; wykaz diagnoz wg ICD."
+entries_file: entries.yaml

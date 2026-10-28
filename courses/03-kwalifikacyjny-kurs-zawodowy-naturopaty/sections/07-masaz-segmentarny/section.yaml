@@ -1,0 +1,21 @@
+# Metadane sekcji
+id: 7
+name: "Moduł 7: MASAŻ SEGMENTARNY"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-7-1-podstawy-teoretyczne-masazu-segmentarnego.md"
+    name: "7.1. Podstawy teoretyczne masażu segmentarnego"
+  - type: page
+    ref: "page-7-2-techniki-masazu-segmentarnego.md"
+    name: "7.2. Techniki masażu segmentarnego"
+  - type: page
+    ref: "page-7-3-masaz-segmentarny-w-jednostkach-chorobowych.md"
+    name: "7.3. Masaż segmentarny w jednostkach chorobowych"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01
