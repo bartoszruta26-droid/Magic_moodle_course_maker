@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "11.2. Powtórka wiadomości z BHP"
+  intro: |
+    Materiał dydaktyczny tematu 11.2 — Powtórka wiadomości z BHP.
+    Moduł przygotowuje do egzaminu potwierdzającego kwalifikację MED.10: powtórzenie i usystematyzowanie wiedzy, próby egzaminacyjne (część pisemna i praktyczna) oraz analiza arkuszy egzaminacyjnych CKE.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "11.2. Powtórka wiadomości z BHP"
+      subchapter: false
+      content_file: "chapters/01-powtorka-wiadomosci-z-bhp.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

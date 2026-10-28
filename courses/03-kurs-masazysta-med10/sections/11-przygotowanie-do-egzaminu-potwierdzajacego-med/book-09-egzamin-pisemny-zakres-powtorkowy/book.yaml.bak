@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "11.9. Egzamin pisemny — zakres powtórkowy"
+  intro: |
+    Materiał dydaktyczny tematu 11.9 — Egzamin pisemny — zakres powtórkowy.
+    Moduł przygotowuje do egzaminu potwierdzającego kwalifikację MED.10: powtórzenie i usystematyzowanie wiedzy, próby egzaminacyjne (część pisemna i praktyczna) oraz analiza arkuszy egzaminacyjnych CKE.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "11.9. Egzamin pisemny — zakres powtórkowy"
+      subchapter: false
+      content_file: "chapters/01-egzamin-pisemny-zakres-powtorkowy.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

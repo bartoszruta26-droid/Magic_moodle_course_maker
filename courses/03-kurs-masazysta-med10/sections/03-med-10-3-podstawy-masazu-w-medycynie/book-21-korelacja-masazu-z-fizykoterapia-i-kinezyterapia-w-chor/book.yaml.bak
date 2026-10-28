@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"
+  intro: |
+    Materiał dydaktyczny tematu 3.21 — Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych.
+    Moduł przedstawia podstawy masażu w medycynie: procesy patologiczne i objawy chorób, zaburzenia poszczególnych układów oraz zasady dobierania rodzajów masażu (limfatycznego, tensegracyjnego, w środowisku wodnym, Shantala i innych) z uwzględnieniem wskazań i przeciwwskazań.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"
+      subchapter: false
+      content_file: "chapters/01-korelacja-masazu-z-fizykoterapia-i-kinezyterapia-w-chor.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

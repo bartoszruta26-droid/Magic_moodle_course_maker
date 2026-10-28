@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "10.3. Zadania ucznia/słuchacza na praktyce"
+  intro: |
+    Materiał dydaktyczny tematu 10.3 — Zadania ucznia/słuchacza na praktyce.
+    Moduł praktyki zawodowej to zajęcia praktyczne u pracodawcy lub w innej instytucji — bezpośrednia służba drugiemu człowiekowi pod okiem opiekuna praktyki, połączona z prowadzeniem dokumentacji i autoewaluacją.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "10.3. Zadania ucznia/słuchacza na praktyce"
+      subchapter: false
+      content_file: "chapters/01-zadania-ucznia-sluchacza-na-praktyce.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view
