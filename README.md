@@ -174,9 +174,17 @@ qwen-moodle-courses/
 │       ├── generate-quiz-questions.md
 │       └── review-content-ethics.md
 │
-├── scripts/                           # Skrypty narzędziowe Bash, C, C++, PHP
-│   ├── config.sh
-│   ├── config.sh
+├── scripts/                           # Skrypty narzędziowe Bash, C, C++, PHP, Python
+│   ├── config.sh                      # Zmienne wspólne (ścieżki, wersje)
+│   ├── course_toc.py                  # Biblioteka: parser spisu treści kursu
+│   ├── scaffold_course.py             # Uniwersalny generator szkicu kursu z TOC
+│   ├── scaffold.sh                    # One-shot: szkic + stuby + quizy + kontrola
+│   ├── toc_outline.py                 # Eksport struktury TOC do JSON/YAML/Markdown
+│   ├── toc_prompts.py                 # Prompty AI per temat (do generowania treści)
+│   ├── gen_page_stubs.py              # Szkielety stron .md z podtematami ze spisu
+│   ├── gen_quiz_templates.py          # Szablony pytań GIFT/YAML + instrukcje zadań
+│   ├── gen_masaz_skeleton.py          # (hist.) jednorazowy szkic kursu masażu
+│   ├── scaffold-kurs-masazu.py        # (hist.) jednorazowy szkic kursu masażu
 │   │
 │   ├── validators/
 │   │   ├── validate_course.sh
@@ -328,6 +336,24 @@ cp -r courses/_templates/basic-course courses/01-nowy-kurs
 nano courses/01-nowy-kurs/course.yaml
 ```
 
+**Alternatywa — wygeneruj szkic struktury wprost ze spisu treści** (zamiast kopiować szablon):
+
+```bash
+# Cały pipeline jednym poleceniem: szkic pustych plików + stuby stron + szablony quizów
+./scripts/scaffold.sh kurs_masazu.txt "kurs masazysta med10"
+
+# ...albo krok po kroku:
+python3 scripts/toc_outline.py --toc kurs_masazu.txt --format markdown   # przejrzyj strukturę
+python3 scripts/scaffold_course.py --toc kurs_masazu.txt \
+    --base courses/03-kurs-masazysta-med10 --dry-run                      # pokaż plan plików
+python3 scripts/scaffold_course.py --toc kurs_masazu.txt \
+    --base courses/03-kurs-masazysta-med10                                # utwórz puste pliki
+python3 scripts/gen_page_stubs.py --base courses/03-kurs-masazysta-med10  # szkielety stron .md
+python3 scripts/gen_quiz_templates.py --base courses/03-kurs-masazysta-med10
+python3 scripts/toc_prompts.py --base courses/03-kurs-masazysta-med10 --out prompts-masaz
+python3 scripts/scaffold_course.py --base courses/03-kurs-masazysta-med10 --check
+```
+
 ### 2. Budowanie kursu
 
 ```bash
@@ -394,6 +420,32 @@ php admin/cli/backup --file=/path/to/course.mbz
 | `scripts/converters/yaml_to_gift.php` | Konwersja YAML → GIFT |
 | `scripts/converters/md_to_html.php` | Konwersja Markdown → HTML |
 | `scripts/importers/import_course.php` | Import kursu do Moodle przez REST API |
+| `scripts/builders/build_quiz.cpp` | Budowa pakietu pytań quizu (GIFT/YAML → XML) |
+| `scripts/builders/build_mbz.c` | Pakowanie wyniku budowania do formatu `.mbz` |
+| `scripts/validators/validate_course.sh` | Walidacja kompletności struktury katalogu kursu |
+| `scripts/converters/gift_to_moodle_xml.php` | Konwersja GIFT → Moodle XML |
+| `scripts/converters/moodle_xml_to_mbz.php` | Moodle XML → gotowy pakiet `.mbz` |
+| `scripts/importers/moodle_api_client.php` | Klient REST API Moodle (autoryzacja, wysyłka) |
+| `scripts/utilities/slugify.sh` | Slug nazwy katalogu/pliku wg konwencji repozytorium |
+| `scripts/utilities/link_checker.sh` | Batchowe sprawdzanie linków wewnętrznych |
+| `scripts/config.sh` | Zmienne wspólne dla wszystkich skryptów powłoki |
+
+### Skrypty generujące kurs ze spisu treści (Python, biblioteka `course_toc.py`)
+
+Punkt wejścia: **spis treści kursu** w formacie markdown-like (przykład: `kurs_masazu.txt`),
+czyli nagłówki `## MODUŁ N`, `### N.M. Temat`, listy `N.M.K. Podtemat`, `## Załącznik X`.
+Wszystkie poniższe skrypty działają dla **każdego** takiego spisu, nie tylko dla masażu.
+
+| Skrypt | Rola w pipeline | Opis |
+|--------|-----------------|------|
+| `scripts/course_toc.py` | biblioteka | Parser spisu treści: `parse_course()` → obiekty `Course/Module/Topic/Subtopic/Attachment/FrontSection`; `slugify()` (polskie znaki, skróty słownikowe, przycinanie po słowach); stałe konwencji (`TOP_FILES`, `MEDIA_SUBDIRS`, `QKINDS`); `Plan`/`build_course_files()` (idempotentne tworzenie pustych plików); `normalize_pages()` (renormalizacja nazw stron); `check_structure()` (stan dysku vs. spis). Uruchomiony bezpośrednio wypisuje podsumowanie parsed TOC. |
+| `scripts/scaffold_course.py` | 1. szkic struktury | Uniwersalny generator **pustego szkicu** kursu Moodle na bazie TOC (następca jednorazowego `scaffold-kurs-masazu.py`). Tworzy: pliki główne (`course.yaml|md`, `settings.yaml`, `tags.yaml`, `completion.yaml`, `grades.yaml`, `changelog.md`, `course.jpg`), `media/{images,videos,audio,documents}`, `question-bank/` (kategorie + zestawy per typ pytania), `sections/00-ogloszenia`, sekcje modułów z `page-NN-*.md`, `quiz-NN/`, `assignment-NN/` oraz załączniki A–M jako etykiety lub podkatalogi. Flagi: `--toc`, `--base` (domyślnie liczony `courses/NN-slug`), `--dry-run`, `--attachments labels|subdirs|none`, `--front` (część wstępna), `--first-module-section`, `--no-normalize`, `--check` (walidacja struktury bez tworzenia plików; kod wyjścia 1 przy rozbieżnościach). Idempotentny: nigdy nie nadpisuje plików z treścią. |
+| `scripts/gen_page_stubs.py` | 2. szkielety treści | Wypełnia **puste** strony `page-NN-*.md` minimalnym szkicem redakcyjnym: H1 z numerem i tytułem tematu, H2 per podtemat ze spisu + placeholder `TODO`; tworzy też `section.md` sekcji z listą tematów i linkami do stron. Plików z istniejącą treścią nie rusza. Flagi: `--toc`, `--base`, `--dry-run`. |
+| `scripts/gen_quiz_templates.py` | 3. szablony oceniania | Dla każdego tematu tworzy (tylko gdy plik pusty/nieistniejący): `quiz-NN/questions.yaml` i `questions.gift` z szablonami pytań wielokrotnego wyboru per podtemat (poprawna odpowiedź i dystraktory do uzupełnienia) oraz `assignment-NN/instructions.md` z checklistem przebiegu zadania wynikającym z podtematów. Flagi: `--toc`, `--base`, `--dry-run`, `--per-topic N`. |
+| `scripts/toc_outline.py` | wsparcie/podgląd | Eksport przeanalizowanej struktury TOC do `json`, `yaml` lub `markdown` (stdout lub `--output plik`). Zawiera statystyki (moduły/tematy/podtematy/załączniki) — przydatne do review spisu, diffowania wersji i jako kontekst dla agenta AI. |
+| `scripts/toc_prompts.py` | wsparcie/AI | Generuje katalog promptów markdown — po jednym na temat (+ `index.md`): numer i tytuł tematu, lista podtematów ze spisu, docelowa ścieżka pliku strony w kursie oraz reguły stylistyczne/etyczne/WCAG. Gotowy kontekst dla Qwen Code/Coder przy napełnianiu kursu treścią. Flagi: `--toc`, `--base`, `--out`, `--limit N`. |
+| `scripts/scaffold.sh` | one-shot | Pipeline pełnego szkicu: kolejny numer `NN` kursu w `courses/`, slug z nazwy (przez `course_toc.slugify`), następnie `scaffold_course.py` → `gen_page_stubs.py` → `gen_quiz_templates.py` → `--check`. Dokumentuje konwencję nazewnictwa kursów/sekcji/stron/quizów. |
+| `scripts/gen_masaz_skeleton.py`, `scripts/scaffold-kurs-masazu.py` | (historyczne) | Pierwsze, jednorazowe generatory szkicu kursu masażu (MED.10); zachowane dla historii — nowość: używaj `scaffold_course.py`, który je uogólnia. |
 
 ## 📄 Zasady etyczne
 
