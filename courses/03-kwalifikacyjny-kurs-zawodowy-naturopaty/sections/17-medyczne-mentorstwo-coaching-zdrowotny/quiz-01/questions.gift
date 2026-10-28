@@ -19,8 +19,8 @@
 
 ::mc-s17-171:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy mentorstwa medycznego” (17.1)? {
     = Definicja i rola mentora w kontekście zdrowia – prowadzenie, towarzyszenie, świadectwo
-    ~ Różnica między mentoringiem, coachingiem, terapią i poradnictwem
-    ~ Kompetencje mentora zdrowotnego – wiedza, doświadczenie, empatia, cierpliwość, pokora
+    ~ Drenaż twarzy – 16 etapów (doły nadobojczykowe, okolica podżuchwowa, żuchwa, warga dolna/górna, kąciki ust, nos, okolice oczu, czoło, skronie)
+    ~ Zioła w chorobach metabolicznych – morwa, cynamon, kozieradka, berberys, gurmar
     ~ Badanie pulsu ajurwedyjskiego (Nadi Pariksha) – technika i interpretacja
 }
 // === Temat 17.2: Coaching zdrowotny – metodyka ===
@@ -49,10 +49,10 @@
 
 
 ::mc-s17-172:: Które z poniższych zagadnień należy bezpośrednio do tematu „Coaching zdrowotny – metodyka” (17.2)? {
-    = Definicja i założenia coachingu zdrowotnego – podejście skoncentrowane na rozwiązaniach
-    ~ Modele coachingowe – GROW, CLEAR, koło zdrowia
-    ~ Kompetencje coacha zdrowotnego – aktywne słuchanie, pytania otwarte, parafraza, informacja zwrotna
     ~ Higiena środowiska – jakość powietrza, wody, promieniowanie, hałas
+    ~ Wpływ masażu na poszczególne tkanki – łączna, mięśniowa, skórna, kostna, tłuszczowa
+    ~ Zapalenie płuc (płatowe, odoskrzelowe) – okresy I–III; pozycje przeciwzrostowe wg Bruce’a
+    = Definicja i założenia coachingu zdrowotnego – podejście skoncentrowane na rozwiązaniach
 }
 // === Temat 17.3: Mentorstwo i coaching w praktyce naturopatycznej ===
 ::tf-s17-173-q1:: Zagadnienie „Coaching żywieniowy – prowadzenie pacjenta przez zmianę diety; edukacja bez narzucania” wchodzi w zakres tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {TRUE} //
@@ -81,9 +81,9 @@
 
 ::mc-s17-173:: Które z poniższych zagadnień należy bezpośrednio do tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3)? {
     = Coaching żywieniowy – prowadzenie pacjenta przez zmianę diety; edukacja bez narzucania
-    ~ Coaching ruchowy – motywowanie do regularnej aktywności; pokonywanie barier
-    ~ Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna
+    ~ Masaż okostnowy
     ~ Higiena psychiczna i emocjonalna – zarządzanie stresem, odpoczynek, kontemplacja
+    ~ Odsysanie wydzieliny z dróg oddechowych – technika, sprzęt, bezpieczeństwo
 }
 // === Temat 17.4: Psychologia zdrowia i komunikacja terapeutyczna ===
 ::tf-s17-174-q1:: Zagadnienie „Biopsychospołeczny model zdrowia i choroby” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
@@ -121,9 +121,9 @@
 
 ::mc-s17-174:: Które z poniższych zagadnień należy bezpośrednio do tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4)? {
     = Biopsychospołeczny model zdrowia i choroby
-    ~ Psychologiczne reakcje na chorobę – fazy (szok, zaprzeczanie, gniew, negocjacja, depresja, akceptacja)
-    ~ Stres, coping i rezyliencja – mechanizmy radzenia sobie
+    ~ Ciąża i połóg – masaż segmentarny (ograniczenia); opracowanie blizny po cesarskim cięciu; likwidowanie rozstępów; stymulacja wydzielania mleka
     ~ Wpływ masażu na układy – nerwowy (ośrodkowy, obwodowy, autonomiczny – współczulny i przywspółczulny), krążenia (mikrokrążenie, powrót żylny – gradient ciśnieniowy, ssące działanie serca i klatki piersiowej, zastawki żylne, pompa mięśniowa; regulacja miejscowa i humoralna, neuroregulacja), oddechowy (regulacja nerwowa i chemiczna, wpływ pośredni i bezpośredni), pokarmowy (wpływ pośredni przez krążenie i nerwy, bezpośredni przez powłoki brzuszne), moczowo-płciowy, wewnątrzwydzielniczy
+    ~ Rozwój zawodowy – kształcenie ustawiczne, specjalizacje, publikacje
 }
 // === Temat 17.5: Wypalenie zawodowe i higiena psychiczna naturopaty ===
 ::tf-s17-175-q1:: Zagadnienie „Rozpoznawanie objawów wypalenia i zmęczenia współczuciem” wchodzi w zakres tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5). {TRUE} //
@@ -143,9 +143,9 @@
 
 ::mc-s17-175:: Które z poniższych zagadnień należy bezpośrednio do tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5)? {
     = Rozpoznawanie objawów wypalenia i zmęczenia współczuciem
-    ~ Strategie profilaktyki – superwizja, odpoczynek, granice, wsparcie kolegialne
-    ~ Własna praktyka uważności i samopielęgnacja terapeuty
+    ~ Dokumentacja medyczna zabiegów felczerskich
     ~ Przesunięcia odruchowe – definicja, 16 typów (opis każdego z przeciwdziałaniem)
+    ~ Rodzaje ćwiczeń – bierne, czynno-bierne, wspomagane, czynne wolne, czynne z oporem, izometryczne, w odciążeniu, redresyjne
 }
 // === Temat 17.6: Mentoring zawodowy naturopatów ===
 ::tf-s17-176-q1:: Zagadnienie „Superwizja kliniczna – formy, częstotliwość, zasady” wchodzi w zakres tematu „Mentoring zawodowy naturopatów” (17.6). {TRUE} //
@@ -164,8 +164,8 @@
 
 
 ::mc-s17-176:: Które z poniższych zagadnień należy bezpośrednio do tematu „Mentoring zawodowy naturopatów” (17.6)? {
-    = Superwizja kliniczna – formy, częstotliwość, zasady
-    ~ Mentoring młodych naturopatów – przekazywanie wiedzy i doświadczenia
-    ~ Grupy Balinta i grupy wsparcia zawodowego
     ~ Drenaż twarzy – 16 etapów (doły nadobojczykowe, okolica podżuchwowa, żuchwa, warga dolna/górna, kąciki ust, nos, okolice oczu, czoło, skronie)
+    ~ Ocena obciążeń toksykologicznych i metabolicznych
+    ~ Fizjologia układu krążenia – hemodynamika, regulacja ciśnienia, powrót żylny
+    = Superwizja kliniczna – formy, częstotliwość, zasady
 }

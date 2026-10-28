@@ -18,10 +18,10 @@
 
 
 ::mc-s03-31:: Które z poniższych zagadnień należy bezpośrednio do tematu „Badanie podmiotowe (wywiad)” (3.1)? {
-    = Technika prowadzenia wywiadu medycznego – informacje stałe, zmienne i dodatkowe
-    ~ Wywiad chorobowy – obecny, przeszły, rodzinny, społeczny, zawodowy
-    ~ Wywiad w kierunku alergii, nietolerancji, interakcji lekowych
+    ~ Dieta w chorobach nerek i układu moczowego – ograniczenia białka, sodu, potasu
+    ~ Prawa pacjenta – informacja, zgoda, tajemnica, dokumentacja, godność
     ~ Topografia węzłów chłonnych – głowa i szyja (potyliczne, zamałżowinowe, przyusznicze, policzkowe, podżuchwowe – 4 grupy, podbródkowe, zagardłowe, podgnykowe, przedkrtaniowy, przedtchawicze, przytchawicze, nadmostkowe, szyjne głębokie górne i dolne, szyjne powierzchowne, nadobojczykowe 8–12), kończyna górna (łokciowy powierzchowny, ramienno-piersiowe, tylne powierzchowne barku, przedramienia i ramienia, pachowe – boczne, piersiowe w tym SORGIUSA, podłopatkowe, środkowe, szczytowe; nadłopatkowe), klatka piersiowa i grzbiet, brzuch i miednica, kończyna dolna (podkolanowe – tylna, środkowa, przednia; pachwinowe powierzchowne – pasmo pionowe i poziome 10–15; pachwinowe głębokie 1–7)
+    = Technika prowadzenia wywiadu medycznego – informacje stałe, zmienne i dodatkowe
 }
 // === Temat 3.2: Badanie przedmiotowe ===
 ::tf-s03-32-q1:: Zagadnienie „Inspekcja – ocena postawy, skóry, symetrii, ruchomości, obrzęków” wchodzi w zakres tematu „Badanie przedmiotowe” (3.2). {TRUE} //
@@ -49,10 +49,10 @@
 
 
 ::mc-s03-32:: Które z poniższych zagadnień należy bezpośrednio do tematu „Badanie przedmiotowe” (3.2)? {
+    ~ Zioła w tradycji europejskiej – hildegardiańska, klasztorna, ludowa słowiańska
     = Inspekcja – ocena postawy, skóry, symetrii, ruchomości, obrzęków
-    ~ Palpacja – techniki badania dotykiem, ocena temperatury, napięcia, bolesności tkanek
-    ~ Opukiwanie i osłuchiwanie – podstawy techniki i interpretacja
     ~ Stłuczenia i zmiażdżenia – fazy postępowania
+    ~ Coaching w chorobach przewlekłych – akceptacja, adaptacja, samzarządzanie
 }
 // === Temat 3.3: Diagnostyka laboratoryjna – interpretacja wyników ===
 ::tf-s03-33-q1:: Zagadnienie „Morfologia krwi obwodowej – interpretacja naturopatyczna” wchodzi w zakres tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {TRUE} //
@@ -84,9 +84,9 @@
 
 ::mc-s03-33:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3)? {
     = Morfologia krwi obwodowej – interpretacja naturopatyczna
-    ~ Biochemia krwi – glukoza, lipidogram, enzymy wątrobowe, kreatynina, elektrolity
-    ~ Badanie moczu – analiza ogólna, posiew, sediment
+    ~ Rozpoznawanie objawów wypalenia i zmęczenia współczuciem
     ~ Fibrositis (gościec pozastawowy) – lumbago (okres ostry i rekonwalescencji; masaż klasyczny – głaskania, rozcierania, ugniatania podłużne, wibracja poprzeczna, uciski punktowe; masaż segmentarny – grzbiet, miednica, wstrząsanie miednicy), pleurodynia, sztywny kark
+    ~ Choroby tętnic – miażdżyca (ostrożność, zakaz technik rozgrzewających), choroba Buergera (I i II stopień), choroba Raynauda, sinica kończyn
 }
 // === Temat 3.4: Diagnostyka obrazowa – interpretacja opisów ===
 ::tf-s03-34-q1:: Zagadnienie „RTG – podstawy interpretacji (złamania, zwyrodnienia, osteofity)” wchodzi w zakres tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4). {TRUE} //
@@ -103,9 +103,9 @@
 
 ::mc-s03-34:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4)? {
     = RTG – podstawy interpretacji (złamania, zwyrodnienia, osteofity)
-    ~ USG – zastosowania, możliwości i ograniczenia
-    ~ TK i MRI – wskazania, interpretacja opisów
     ~ Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego (drenaż limfatyczny, masaż klasyczny rozluźniający), automatyzmu, stabilizacji; kinezyterapia – ćwiczenia bierne, oddechowe, pionizacja
+    ~ Trening w otyłości – progresja, motywacja, interdyscyplinarność
+    ~ Trawienie i wchłanianie – fizjologia i zaburzenia
 }
 // === Temat 3.5: Diagnostyka funkcjonalna i różnicowa ===
 ::tf-s03-35-q1:: Zagadnienie „Analiza postawy ciała – statyczna i dynamiczna” wchodzi w zakres tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {TRUE} //
@@ -127,8 +127,8 @@
 
 
 ::mc-s03-35:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka funkcjonalna i różnicowa” (3.5)? {
-    = Analiza postawy ciała – statyczna i dynamiczna
-    ~ Ocena wzorców ruchowych i kompensacji – łańcuchy kinematyczne
-    ~ Diagnostyka bólu – skale (VAS, NRS), charakter, lokalizacja, promieniowanie
+    ~ Ścieżki rozwoju specjalizacyjnego naturopaty – masaż, fitoterapia, dietetyka, trening, coaching
     ~ Fizjologia wysiłku fizycznego – adaptacje, progi, strefy intensywności, dług tlenowy
+    = Analiza postawy ciała – statyczna i dynamiczna
+    ~ Różnica między mentoringiem, coachingiem, terapią i poradnictwem
 }

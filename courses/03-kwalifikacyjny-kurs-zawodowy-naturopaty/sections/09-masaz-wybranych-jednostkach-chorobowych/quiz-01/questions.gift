@@ -28,9 +28,9 @@
 
 ::mc-s09-91:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1)? {
     = Reumatoidalne zapalenie stawów (RZS) – okresy I–IV; techniki (głaskanie, wibracja → rozcieranie, ugniatanie podłużne); masaż segmentarny i drenaż limfatyczny jako metody nieobciążające
-    ~ Młodzieńcze przewlekłe zapalenie stawów (choroba Stilla, postać wielostawowa, skąpostawowa)
-    ~ Twardzina układowa – masaż klasyczny i drenaż limfatyczny; przeciwwskazanie do masażu segmentarnego
+    ~ Ocena układu limfatycznego – palpacja węzłów chłonnych, ocena obrzęków, testy diagnostyczne
     ~ Psychologia bólu – komponenty sensoryczny, emocjonalny, poznawczy; placebo i nocebo
+    ~ Refleksologia diagnostyczna – stopy, dłonie, małżowiny uszne
 }
 // === Temat 9.2: Urazy – masaż i rehabilitacja ===
 ::tf-s09-92-q1:: Zagadnienie „Stłuczenia i zmiażdżenia – fazy postępowania” wchodzi w zakres tematu „Urazy – masaż i rehabilitacja” (9.2). {TRUE} //
@@ -59,9 +59,9 @@
 
 ::mc-s09-92:: Które z poniższych zagadnień należy bezpośrednio do tematu „Urazy – masaż i rehabilitacja” (9.2)? {
     = Stłuczenia i zmiażdżenia – fazy postępowania
-    ~ Rany i blizny – okres I (rana) i II (blizna); opracowanie blizny liniowej i powierzchniowej; techniki rozcierania, rolowania, uruchamiania
-    ~ Oparzenia i odmrożenia – stopnie, postępowanie fizykalne
     ~ Trening funkcjonalny osób starszych – profilaktyka upadków, równowaga
+    ~ Grupy Balinta i grupy wsparcia zawodowego
+    ~ Dychawica oskrzelowa – okres napadu (masaż punktów) i międzynapadowy (masaż segmentarny, klasyczny rozluźniający)
 }
 // === Temat 9.3: Zniekształcenia – masaż i korekcja ===
 ::tf-s09-93-q1:: Zagadnienie „Dysplazja i wrodzone zwichnięcie biodra – postępowanie z niemowlęciem i dzieckiem” wchodzi w zakres tematu „Zniekształcenia – masaż i korekcja” (9.3). {TRUE} //
@@ -86,9 +86,9 @@
 
 
 ::mc-s09-93:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zniekształcenia – masaż i korekcja” (9.3)? {
+    ~ Terapia bańkami – sucha, mokra, ogniowa, próżniowa
+    ~ Sauna – fińska, parowa, infrared; zastosowanie lecznicze i przeciwwskazania
     = Dysplazja i wrodzone zwichnięcie biodra – postępowanie z niemowlęciem i dzieckiem
-    ~ Biodro szpotawe (coxa vara) – fazy masażu, kinezyterapia
-    ~ Kolano koślawe i szpotawe – czterofazowy schemat masażu
     ~ Prowadzenie zabiegów hydroterapeutycznych i fizykalnych – kąpiele, okłady, sauna, krioterapia, elektrostymulacja, jontoforeza
 }
 // === Temat 9.4: Choroby układu oddechowego – masaż i rehabilitacja ===
@@ -117,10 +117,10 @@
 
 
 ::mc-s09-94:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4)? {
-    = Przewlekły nieżyt oskrzeli – okres ostry i przewlekły; masaż segmentarny i klasyczny; oklepywanie, wibracja, sprężynowanie
-    ~ Rozstrzenie oskrzeli – drenaż ułożeniowy; techniki masażu
-    ~ Dychawica oskrzelowa – okres napadu (masaż punktów) i międzynapadowy (masaż segmentarny, klasyczny rozluźniający)
     ~ Projekt programu coachingowego/mentoringowego – struktura, narzędzia, cele, ewaluacja
+    ~ Zioła w tradycji europejskiej – hildegardiańska, klasztorna, ludowa słowiańska
+    = Przewlekły nieżyt oskrzeli – okres ostry i przewlekły; masaż segmentarny i klasyczny; oklepywanie, wibracja, sprężynowanie
+    ~ Medycyna ludowa słowiańska i europejska – tradycja, zioła, obrzędy zdrowotne
 }
 // === Temat 9.5: Choroby układu krążenia – masaż i rehabilitacja ===
 ::tf-s09-95-q1:: Zagadnienie „Choroby zastawek serca – zasady (odciążenie, dotlenienie, przerost); metoda pierwsza i druga; schematy ćwiczeń” wchodzi w zakres tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {TRUE} //
@@ -146,9 +146,9 @@
 
 ::mc-s09-95:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5)? {
     = Choroby zastawek serca – zasady (odciążenie, dotlenienie, przerost); metoda pierwsza i druga; schematy ćwiczeń
-    ~ Zapalenie mięśnia sercowego – ostrożność, stopniowanie
-    ~ Dusznica bolesna i niewydolność wieńcowa – masaż segmentarny; okres szpitalny i ambulatoryjny
     ~ Inhalacje i nebulizacje – technika, leki, wskazania
+    ~ Prawo dotyczące reklamy usług zdrowotnych – ograniczenia i etyka
+    ~ Komunikacja w zespole interdyscyplinarnym – lekarz, fizjoterapeuta, psycholog, naturopata
 }
 // === Temat 9.6: Choroby układu nerwowego – masaż i rehabilitacja ===
 ::tf-s09-96-q1:: Zagadnienie „Porażenie połowicze (hemiplegia) – okresy ostry, kompensacji, adaptacyjny; masaż (głaskania, delikatne rozcierania, ugniatanie podłużne; bez wibracji); metody Bobath, Kabata, Brunnstrom, Rood” wchodzi w zakres tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {TRUE} //
@@ -176,10 +176,10 @@
 
 
 ::mc-s09-96:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6)? {
-    = Porażenie połowicze (hemiplegia) – okresy ostry, kompensacji, adaptacyjny; masaż (głaskania, delikatne rozcierania, ugniatanie podłużne; bez wibracji); metody Bobath, Kabata, Brunnstrom, Rood
-    ~ Dziecięce porażenie mózgowe – typ kurczowy, atetotyczny, ataktyczny; masaż Shantala
-    ~ Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego, automatyzmu, stabilizacji; drenaż limfatyczny
     ~ Układ krążenia – serce, tętnice, żyły, mikrokrążenie
+    ~ Duchowość a zdrowie – badania naukowe i tradycja
+    = Porażenie połowicze (hemiplegia) – okresy ostry, kompensacji, adaptacyjny; masaż (głaskania, delikatne rozcierania, ugniatanie podłużne; bez wibracji); metody Bobath, Kabata, Brunnstrom, Rood
+    ~ Układ mięśniowy – miologia kończyn, tułowia, głowy i szyi
 }
 // === Temat 9.7: Choroby układu pokarmowego i moczowo-płciowego – masaż ===
 ::tf-s09-97-q1:: Zagadnienie „Nieżyt żołądka (nadkwaśność, niedokwaśność) – masaż segmentarny; specyficzna kolejność” wchodzi w zakres tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {TRUE} //
@@ -210,9 +210,9 @@
 
 
 ::mc-s09-97:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7)? {
+    ~ Rozwój zawodowy – kształcenie ustawiczne, specjalizacje, publikacje
+    ~ Zarządzanie ryzykiem w gabinecie naturopatycznym
     = Nieżyt żołądka (nadkwaśność, niedokwaśność) – masaż segmentarny; specyficzna kolejność
-    ~ Choroba wrzodowa – okres ostry (przeciwwskazanie) i remisji
-    ~ Zaburzenia napięcia ścian żołądka – podwyższone (9 technik masażu klasycznego) i obniżone
     ~ Zapalenie ostre i przewlekłe – mediatory, fazy, następstwa
 }
 // === Temat 9.8: Zasady wykonywania masażu u osób starszych ===
@@ -230,7 +230,7 @@
 
 ::mc-s09-98:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zasady wykonywania masażu u osób starszych” (9.8)? {
     = Zmiany fizjologiczne – skóra sucha i cienka, kruchość naczyń, zmniejszona elastyczność układu krążenia
-    ~ Modyfikacje techniki – mniejsza siła, krótszy czas, środki natłuszczające, brak masażu izometrycznego
-    ~ Częstotliwość – 2–3 razy w tygodniu
     ~ Diagnostyka bólu – skale (VAS, NRS), charakter, lokalizacja, promieniowanie
+    ~ Morfologia i systematyka roślin leczniczych
+    ~ Odpowiedzialność cywilna, karna i zawodowa naturopaty
 }

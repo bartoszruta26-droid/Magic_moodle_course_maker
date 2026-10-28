@@ -22,9 +22,9 @@
 
 ::mc-s07-71:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy teoretyczne masażu segmentarnego” (7.1)? {
     = Twórcy metody – O. Glaser i W.A. Dalicho; badacze: Head, Mackenzie, Hansen, Kohlrausch, Leube, Dicke
-    ~ Podstawy anatomiczne i fizjologiczne – listki zarodkowe, segmentacja (somity), sklerotom, miotom, dermatom
-    ~ Łuk odruchowy – monosynaptyczny, polisynaptyczny, autonomiczny (trzewno-skórny, trzewno-mięśniowy, trzewno-trzewny, skórno-trzewny)
     ~ Odsysanie wydzieliny z dróg oddechowych – technika, sprzęt, bezpieczeństwo
+    ~ Profilaktyka kardiologiczna – kontrola czynników ryzyka
+    ~ Wywiad chorobowy – obecny, przeszły, rodzinny, społeczny, zawodowy
 }
 // === Temat 7.2: Techniki masażu segmentarnego ===
 ::tf-s07-72-q1:: Zagadnienie „Głaskania segmentarne – oburącz, jodełkowe, piło we, jednorącz” wchodzi w zakres tematu „Techniki masażu segmentarnego” (7.2). {TRUE} //
@@ -49,9 +49,9 @@
 
 
 ::mc-s07-72:: Które z poniższych zagadnień należy bezpośrednio do tematu „Techniki masażu segmentarnego” (7.2)? {
+    ~ Suplementacja w sporcie i treningu medycznym
+    ~ Testy obciążeń i wydolności funkcjonalnej
     = Głaskania segmentarne – oburącz, jodełkowe, piło we, jednorącz
-    ~ Chwyty diagnostyczne – oglądanie, obmacywanie, opukiwanie metodą Grigurina, kresa diagnostyczna Dicke (30°, 60°, poziomo), płaszczyznowe przesuwanie tkanek, chwyt na mięsień najdłuższy grzbietu (powierzchowny i głęboki), chwyt myszki podłużnej i poprzecznej
-    ~ Chwyty lecznicze grzbietu – przyśrubowanie prawo- i lewostronne, chwyt na wyrostki kolczyste, chwyt piłowania, chwyt posuwu, chwyt ciągnięcia, chwyt okołołopatkowy, chwyt na mięsień nadgrzebieniowy/podgrzebieniowy/dolny kąt łopatki, wibracja grzbietu
     ~ Powłoka wspólna – naskórek, skóra właściwa, tkanka podskórna
 }
 // === Temat 7.3: Masaż segmentarny w jednostkach chorobowych ===
@@ -93,7 +93,7 @@
 
 ::mc-s07-73:: Które z poniższych zagadnień należy bezpośrednio do tematu „Masaż segmentarny w jednostkach chorobowych” (7.3)? {
     = Choroby serca – segmenty C3–L1, punkty maksymalne, strefy przeczulicy i mięśniowe, kolejność postępowania, przesunięcia odruchowe
-    ~ Choroby naczyń obwodowych (kończyny górne i dolne) – segmenty, wskazania, przeciwwskazania
-    ~ Choroby dróg oddechowych – segmenty C3–Th10, punkty maksymalne, kolejność postępowania
+    ~ Kończyna dolna – palce stóp, śródstopie, staw skokowy, podudzie, staw kolanowy (gimnastyka rzepki), udo, staw biodrowy, pośladki
+    ~ Rozpoznawanie stanów nagłych – algorytm postępowania
     ~ Palpacja – techniki badania dotykiem, ocena temperatury, napięcia, bolesności tkanek
 }

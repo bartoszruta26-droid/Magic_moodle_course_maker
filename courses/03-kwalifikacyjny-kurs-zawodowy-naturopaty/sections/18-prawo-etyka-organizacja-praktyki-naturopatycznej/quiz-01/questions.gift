@@ -21,10 +21,10 @@
 
 
 ::mc-s18-181:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy prawne” (18.1)? {
-    = Ustawodawstwo dotyczące zawodów medycznych i paramedycznych
-    ~ Prawa pacjenta – informacja, zgoda, tajemnica, dokumentacja, godność
-    ~ Odpowiedzialność cywilna, karna i zawodowa naturopaty
+    ~ Staż w gabinecie masażu leczniczego – obserwacja technik, praca z pacjentem
     ~ Opieka w bólu – niefarmakologiczne metody łagodzenia (pozycje, ciepło, zimno, masaż punktowy)
+    = Ustawodawstwo dotyczące zawodów medycznych i paramedycznych
+    ~ Higiena pracy – ergonomia stanowiska, przerwy, profilaktyka przeciążeń
 }
 // === Temat 18.2: Etyka zawodowa ===
 ::tf-s18-182-q1:: Zagadnienie „Kodeks etyczny naturopaty – zasady szczegółowe” wchodzi w zakres tematu „Etyka zawodowa” (18.2). {TRUE} //
@@ -49,10 +49,10 @@
 
 
 ::mc-s18-182:: Które z poniższych zagadnień należy bezpośrednio do tematu „Etyka zawodowa” (18.2)? {
-    = Kodeks etyczny naturopaty – zasady szczegółowe
-    ~ Zasada nieszkodzenia, dobroczynności, autonomii pacjenta, sprawiedliwości
-    ~ Świadoma zgoda – informowanie o korzyściach, ryzyku i alternatywach
+    ~ Trening proprioceptywny i stabilizacyjny
     ~ Ziołolecznictwo w TCM – formuły, energetyka ziół (smak, temperatura, tropizm), synergia
+    ~ Badania mikrobiologiczne – mikrobiom jelitowy, posiewy
+    = Kodeks etyczny naturopaty – zasady szczegółowe
 }
 // === Temat 18.3: Organizacja i prowadzenie praktyki ===
 ::tf-s18-183-q1:: Zagadnienie „Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (18.3). {TRUE} //
@@ -77,8 +77,8 @@
 
 
 ::mc-s18-183:: Które z poniższych zagadnień należy bezpośrednio do tematu „Organizacja i prowadzenie praktyki” (18.3)? {
-    = Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera
-    ~ Zarządzanie czasem i organizacja pracy z pacjentem – wizyty, harmonogram
-    ~ Dokumentacja medyczna – prowadzenie, przechowywanie, udostępnianie (karta pacjenta, karta zabiegowa, plan terapii)
+    ~ Unieruchomienie złamań kręgosłupa i miednicy – zasady transportu
     ~ Dieta w chorobach autoimmunologicznych – protokół AIP
+    = Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera
+    ~ Komunikacja w zespole interdyscyplinarnym – lekarz, fizjoterapeuta, psycholog, naturopata
 }

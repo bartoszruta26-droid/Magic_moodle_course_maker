@@ -25,8 +25,8 @@
 
 ::mc-s13-131:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1)? {
     = Morfologia i systematyka roślin leczniczych
-    ~ Surowce zielarskie – klasyfikacja, zbiór, suszenie, przechowywanie; zasady etycznego zbioru
-    ~ Substancje czynne – alkaloidy, glikozydy, flawonoidy, garbniki, saponiny, olejki eteryczne, śluzy, pektyny, kumaryny, terpeny
+    ~ Staż w ośrodku rehabilitacji kardiologicznej lub pulmonologicznej (opcjonalnie)
+    ~ Kompleksowa terapia przeciwobrzękowa – drenaż + kompresja + ruch
     ~ Bezpieczeństwo treningu – monitorowanie (tętno, ciśnienie, saturacja), sygnały alarmowe, pierwsza pomoc
 }
 // === Temat 13.2: Fitoterapia układów narządowych ===
@@ -61,9 +61,9 @@
 
 
 ::mc-s13-132:: Które z poniższych zagadnień należy bezpośrednio do tematu „Fitoterapia układów narządowych” (13.2)? {
+    ~ Budowanie nawyków zdrowotnych – neurobiologia nawyków, strategia małych kroków
     = Zioła w chorobach układu oddechowego – tymianek, podbiał, prawoślaz, sosna, eukaliptus, dziewanna, lukrecja
-    ~ Zioła w chorobach układu pokarmowego – rumianek, mięta, koper, kminek, krwawnik, melisa, tatarak
-    ~ Zioła w chorobach wątroby i dróg żółciowych – ostropest, karczoch, mniszek, kurkuma, glistnik
+    ~ Chwyty lecznicze klatki piersiowej – przyśrubowanie obustronne, chwyt na mostek (3 fazy), chwyt międzyżebrowy, chwyt okołołopatkowy, chwyt podłopatkowy (2 fazy), sprężynowanie klatki piersiowej, wibracja
     ~ Ćwiczenia w osteoporozie – obciążenie osiowe, równowaga, profilaktyka upadków
 }
 // === Temat 13.3: Fitoterapia w medycynie tradycyjnej i integracyjnej ===
@@ -90,9 +90,9 @@
 
 ::mc-s13-133:: Które z poniższych zagadnień należy bezpośrednio do tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3)? {
     = Ziołolecznictwo w TCM – formuły, energetyka ziół (smak, temperatura, tropizm), synergia
-    ~ Zioła ajurwedyjskie – tulsi, triphala, shatavari, neem, amla, ashwagandha
-    ~ Zioła w tradycji europejskiej – hildegardiańska, klasztorna, ludowa słowiańska
     ~ Opieka w bólu – niefarmakologiczne metody łagodzenia (pozycje, ciepło, zimno, masaż punktowy)
+    ~ Częstotliwość – codziennie lub 2–3 razy w tygodniu; liczba zabiegów nieograniczona
+    ~ Technika prowadzenia wywiadu medycznego – informacje stałe, zmienne i dodatkowe
 }
 // === Temat 13.4: Praktyka zielarska ===
 ::tf-s13-134-q1:: Zagadnienie „Identyfikacja roślin leczniczych w terenie – zajęcia praktyczne” wchodzi w zakres tematu „Praktyka zielarska” (13.4). {TRUE} //
@@ -115,7 +115,7 @@
 
 ::mc-s13-134:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka zielarska” (13.4)? {
     = Identyfikacja roślin leczniczych w terenie – zajęcia praktyczne
-    ~ Przygotowywanie przetworów zielarskich – warsztaty (napary, nalewki, maści, syropy)
-    ~ Sporządzanie maści, kremów i olejków ziołowych – receptury
     ~ Pielęgnacja osób starszych i leżących – kompleksowe podejście
+    ~ Lewatywa i wlew doodbytniczy – technika, wskazania, rodzaje (oczyszczająca, lecznicza, odżywcza)
+    ~ Zawał serca – okresy (szpitalny, rekonwalescencji, po rekonwalescencji); drenaż limfatyczny i masaż klasyczny/segmentarny
 }

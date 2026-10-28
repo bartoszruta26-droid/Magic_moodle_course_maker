@@ -18,10 +18,10 @@
 
 
 ::mc-s04-41:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1)? {
-    = Teoria Yin-Yang i Pięciu Przemian w diagnostyce
-    ~ Badanie pulsu – 28 jakości pulsu, technika trzech palców
-    ~ Diagnostyka z języka – kolor, kształt, nalot, wilgotność
     ~ Prawo do informacji, świadomej zgody i odmowy leczenia
+    = Teoria Yin-Yang i Pięciu Przemian w diagnostyce
+    ~ Masaż stemplami ziołowymi – technika i działanie fitoterapeutyczne
+    ~ Higiena psychiczna i emocjonalna – zarządzanie stresem, odpoczynek, kontemplacja
 }
 // === Temat 4.2: Diagnostyka w ajurwedzie ===
 ::tf-s04-42-q1:: Zagadnienie „Tridosza – Vata, Pitta, Kapha – typy konstytucjonalne (Prakriti)” wchodzi w zakres tematu „Diagnostyka w ajurwedzie” (4.2). {TRUE} //
@@ -40,10 +40,10 @@
 
 
 ::mc-s04-42:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka w ajurwedzie” (4.2)? {
-    = Tridosza – Vata, Pitta, Kapha – typy konstytucjonalne (Prakriti)
-    ~ Badanie pulsu ajurwedyjskiego (Nadi Pariksha)
-    ~ Diagnostyka z języka, oczu, paznokci, skóry
+    ~ Profilaktyka zakażeń – BHP, środki ochrony osobistej
     ~ Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna
+    ~ Dawkowanie masażu segmentarnego – stan reaktywności ustroju, siła bodźca, prawo wartości wyjściowych Wildera, reguła Arndta-Schulza
+    = Tridosza – Vata, Pitta, Kapha – typy konstytucjonalne (Prakriti)
 }
 // === Temat 4.3: Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej ===
 ::tf-s04-43-q1:: Zagadnienie „Irydologia – mapa tęczówki, znaki diagnostyczne, wskazania i ograniczenia” wchodzi w zakres tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3). {TRUE} //
@@ -62,10 +62,10 @@
 
 
 ::mc-s04-43:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3)? {
-    = Irydologia – mapa tęczówki, znaki diagnostyczne, wskazania i ograniczenia
-    ~ Refleksologia diagnostyczna – stopy, dłonie, małżowiny uszne
-    ~ Diagnostyka funkcjonalna w tradycji naturopatycznej – ocena konstytucji humoralnej
     ~ Asertywność i wyznaczanie granic w relacji terapeutycznej
+    = Irydologia – mapa tęczówki, znaki diagnostyczne, wskazania i ograniczenia
+    ~ Dermatomy, miotomy, sklerotomy – znaczenie diagnostyczne i terapeutyczne
+    ~ Przeprowadzenie pełnego wywiadu naturopatycznego – wymiar fizyczny, emocjonalny, duchowy
 }
 // === Temat 4.4: Diagnostyka integralna i holistyczna ===
 ::tf-s04-44-q1:: Zagadnienie „Wywiad naturopatyczny rozszerzony – wymiar fizyczny, emocjonalny, umysłowy, duchowy, społeczny” wchodzi w zakres tematu „Diagnostyka integralna i holistyczna” (4.4). {TRUE} //
@@ -87,8 +87,8 @@
 
 
 ::mc-s04-44:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka integralna i holistyczna” (4.4)? {
+    ~ Suplementacja w sporcie i treningu medycznym
     = Wywiad naturopatyczny rozszerzony – wymiar fizyczny, emocjonalny, umysłowy, duchowy, społeczny
-    ~ Ocena stylu życia i czynników środowiskowych
-    ~ Ocena obciążeń toksykologicznych i metabolicznych
+    ~ Ocena wzorców ruchowych i kompensacji – łańcuchy kinematyczne
     ~ Trening funkcjonalny osób starszych – profilaktyka upadków, równowaga
 }

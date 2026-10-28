@@ -18,9 +18,9 @@
 
 
 ::mc-s14-141:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy żywienia i biochemii żywności” (14.1)? {
+    ~ Choroby przewodu pokarmowego (żołądek, dwunastnica, jelita) – segmenty, strefy, specyficzne postępowanie w nadkwaśności i niedokwaśności
     = Makroskładniki – białka, tłuszcze, węglowodany – rola, trawienie, metabolizm
-    ~ Mikroskładniki – witaminy, minerały, pierwiastki śladowe; źródła i zapotrzebowanie
-    ~ Woda, błonnik, fitozwiązki – rola w zdrowiu i profilaktyce
+    ~ Higiena pracy – ergonomia stanowiska, przerwy, profilaktyka przeciążeń
     ~ Kinesiotaping – aplikacje kliniczne (stabilizacja, drenaż, korekcja)
 }
 // === Temat 14.2: Dietetyka kliniczna i naturopatyczna ===
@@ -52,10 +52,10 @@
 
 
 ::mc-s14-142:: Które z poniższych zagadnień należy bezpośrednio do tematu „Dietetyka kliniczna i naturopatyczna” (14.2)? {
-    = Dieta w chorobach układu krążenia – śródziemnomorska, DASH
-    ~ Dieta w cukrzycy i zespole metabolicznym – indeks glikemiczny, ładunek
-    ~ Dieta w chorobach przewodu pokarmowego – FODMAP, eliminacyjna, lekkostrawna
+    ~ Opatrywanie ran – opatrunki jałowe, opatrunki uciskowe, opatrunki unieruchamiające, opatrunki specjalistyczne (hydrożelowe, alginianowe, srebrne)
     ~ Publikacje i działalność edukacyjna – popularyzacja wiedzy, wykłady, artykuły
+    = Dieta w chorobach układu krążenia – śródziemnomorska, DASH
+    ~ Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja
 }
 // === Temat 14.3: Tradycyjne systemy żywieniowe ===
 ::tf-s14-143-q1:: Zagadnienie „Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja” wchodzi w zakres tematu „Tradycyjne systemy żywieniowe” (14.3). {TRUE} //
@@ -78,8 +78,8 @@
 
 ::mc-s14-143:: Które z poniższych zagadnień należy bezpośrednio do tematu „Tradycyjne systemy żywieniowe” (14.3)? {
     = Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja
-    ~ Dietetyka ajurwedyjska – pokarmy wg dosz, Agni, sześć smaków
-    ~ Dietetyka wg medycyny klasztornej i tradycji europejskiej – Hildegarda z Bingen
+    ~ Wywiad żywieniowy i styl życia – dieta, aktywność, sen, używki
+    ~ Meridiany i punkty akupunkturowe – lokalizacja, funkcja, znaczenie diagnostyczne
     ~ Drenaż ułożeniowy – pozycje wg segmentów płuc, technika oklepywania
 }
 // === Temat 14.4: Suplementacja i nutraceutyki ===
@@ -102,8 +102,8 @@
 
 
 ::mc-s14-144:: Które z poniższych zagadnień należy bezpośrednio do tematu „Suplementacja i nutraceutyki” (14.4)? {
-    = Witaminy i minerały – wskazania, dawkowanie, interakcje
-    ~ Kwasy tłuszczowe omega-3, probiotyki, prebiotyki, synbiotyki
-    ~ Amino- i fitosuplementy – zastosowanie kliniczne
+    ~ Budowa komórki, tkanek i narządów – przegląd systemowy
     ~ Układ pokarmowy – przewód pokarmowy, gruczoły trawienne
+    = Witaminy i minerały – wskazania, dawkowanie, interakcje
+    ~ Zioła ajurwedyjskie – tulsi, triphala, shatavari, neem, amla, ashwagandha
 }
