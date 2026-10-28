@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
+Udrożnienie dróg oddechowych sekwencją head tilt/chin lift (przeczulenie głowy/uniesienie żuchwy), ręczna ekspiracja przy ciele obcym; pozycja boczna ustalona przy wymiotach; u nieprzytomnego oddychającego — boczna, u nieoddychającego — natychmiast RKO 30:2. Praktyka: sprawdzać oddech 10 s, nie «na oko»; aspirator w wyposażeniu przy drenażach. Ćwiczenie: fantom — ocena przytomności, drożności, oddechu w 20 sekund x3.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

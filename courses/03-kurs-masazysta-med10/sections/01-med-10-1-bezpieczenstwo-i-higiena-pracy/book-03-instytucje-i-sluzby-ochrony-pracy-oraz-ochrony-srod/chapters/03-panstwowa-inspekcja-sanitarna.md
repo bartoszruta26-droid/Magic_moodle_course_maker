@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Państwowa Inspekcja Sanitarna (Sanepid) nadzoruje warunki higieniczne zakładów opieki zdrowotnej i gabinetów: dopuszcza pomieszczenia, kontroluje procedury dezynfekcji/sterylizacji, gospodarkę odpadami medycznymi, pobiera wymazy czystościowe, karze za narusienia i wydaje decyzje nakazowe. Praktyka: prowadź dokumentację dostępną «na żądanie» (procedury, rejestry środków, umowy na odpady, wyniki kontroli); reaguj na niezgodności przed, nie po kontroli. Zadanie: przygotuj teczkę «kontrola PPIS jutro» — wykaz 10 dokumentów i osób odpowiedzialnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

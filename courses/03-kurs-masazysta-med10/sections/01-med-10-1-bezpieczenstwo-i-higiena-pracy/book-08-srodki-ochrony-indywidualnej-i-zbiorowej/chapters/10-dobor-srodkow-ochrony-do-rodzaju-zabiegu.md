@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Dobór ŚOI do zadania: rękawiczki nitrylowe przy ranach/opatrunkach i chorobach skóry; fartuch/zapaska wodoszczelna przy hydroterapii i peelingu; maseczka przy infekcji; okulary przy aerozolach. Zasada: ŚOI nie zastępują procedury higieny rąk i nie nosimy rękawic «cały dzień». Zadanie: skompletuj «walizkę ŚOI» na dzień łączący zabieg kosmetyczny, limfatyczny i kąpiel stóp.
+Dobór ŚOI do zadania: rękawiczki nitrylowe przy ranach, zmianach skórnych i chorobach zakaźnych skóry; fartuch/zapaska wodoodporna przy masażu wodnym i parafinie; okulary przy ryzyku rozprysku; maska przy wskazaniach epidemiologicznych; obuwie antypoślizgowe wszędzie. Zasada: środek ochrony musi odpowiadać identyfikowanemu zagrożeniu z oceny ryzyka — «na wszelki wypadek» nie jest podstawą. Praktyka: przy każdym zabiegu 10-sekundowa decyzja «jakie ŚOI dziś?» i wpis do karty. Ćwiczenie: sparuj 8 rodzajów zabiegów z zestawem ŚOI i uzasadnij każdy wybór.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

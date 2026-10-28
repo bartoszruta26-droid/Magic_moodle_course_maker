@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Kryteria jakości usługi: bezpieczeństwo (brak zdarzeń niepożądanych), skuteczność wg celu (subiektywne i obiektywne miary), punktualność i ciągłość, komfort (temperatura, cisza, czystość), komunikacja i edukacja, dokumentacja. Praktyka: mierz — ankieta 3 pytań po zabiegu, rejestr zdarzeń, audyt kart co miesiąc; jakość to powtarzalność standardu, nie «genialny wyjątek». Ćwiczenie: opracuj kartę KPI gabinetu (5 wskaźników) i przeprowadź pierwszy pomiar.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

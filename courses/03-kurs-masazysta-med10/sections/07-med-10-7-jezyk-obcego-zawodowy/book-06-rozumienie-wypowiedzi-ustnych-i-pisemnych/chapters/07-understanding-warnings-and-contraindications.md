@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Rozpoznawanie ostrzeżeń i przeciwwskazań na opakowaniach i w materiałach: piktogramy GHS (wykrzyknik, płomień, korozja), hasła «Danger/Warning», zdania H/P (ryzyko/środki ostrożności). Praktyka: preparaty rozgrzewające z kapsaicyną — rękawiczki przy aplikacji, zakaz na skórę uszkodzoną i natychmiastowe zmycie przy pieczeniu; dezynfekanty — czas wentylacji. Ćwiczenie: dopasuj cztery produkty z sali do piktogramów i wypisz po jednym środku ochrony dla każdego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

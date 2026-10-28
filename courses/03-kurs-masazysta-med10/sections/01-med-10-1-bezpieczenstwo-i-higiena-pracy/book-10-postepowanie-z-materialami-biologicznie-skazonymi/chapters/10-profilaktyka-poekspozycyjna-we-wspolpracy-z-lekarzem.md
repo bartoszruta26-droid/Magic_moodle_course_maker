@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Profilaktyka poekspozycyjna (PPE) po kontakcie z materiałem potencjalnie zakaźnym (zakłucie, skaleczenie, pryskanie na śluzówki): natychmiast — zmyć wodą z mydłem / przepłukać śluzówki fizjologicznym roztworem soli, rany nie rozszerzać ani intensywnie uciskać, zgłosić przełożonemu, trafić do punktu ostrej ekspozycji w ciągu 2 h (im szybciej, tym skuteczniej — decyzja o leczeniu antyretrowirusowym — decyzja do 72 h). Praktyka: mieć adres telefonu punktu wklejony w regulamin i kartę wypadku. Zadanie: przeprowadź symulację «zakłucie igłą» od zdarzenia do wpisu w rejestrze.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

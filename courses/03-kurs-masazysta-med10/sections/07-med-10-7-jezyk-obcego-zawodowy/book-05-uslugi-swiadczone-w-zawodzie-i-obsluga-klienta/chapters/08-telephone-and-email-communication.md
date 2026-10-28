@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Telefon i e-mail zawodowo: telefon — powitanie z imieniem firmy i nazwiskiem, potwierdzenie ustaleń («So I’m booking you for Thursday, 5 pm, full-body 60 min»); e-mail — temat konkretny, jedno pytanie na wiadomość, stopka z danymi kontaktowymi i klauzulą poufności. Praktyka: przychylne, krótkie, bez żargonu medycznego; odpowiadamy w 24 h. Zadanie: nagraj 90-sekundową rozmowę rezerwacyjną i oceń wg checklisty 5 punktów (powitanie, potrzeby, termin, potwierdzenie, pożegnanie).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

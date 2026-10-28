@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Profilaktyka obrzęków nóg w pracy stojącej/siedzącej: pompowanie stopami (10 powtórzeń co godzinę), spacer 3 min po siedzeniu, unikanie skrzyżowanych nóg, podwyższenie kończyn 15–20 min po pracy, skarpetki uciskowe klasy I dobrane przez specjalistę przy żylakach, chłodna (nie lodowata) płukanka wieczorna. Alarm: ból + zaczerwienienie + ciepło → lekarz. Ćwiczenie: przeprowadź u kolegi «test pompy» — obwód kostki przed i po 5 min marszu w miejscu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

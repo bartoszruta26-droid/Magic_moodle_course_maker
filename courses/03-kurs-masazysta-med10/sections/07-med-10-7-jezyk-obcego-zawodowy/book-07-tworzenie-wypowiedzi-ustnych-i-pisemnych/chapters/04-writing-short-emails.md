@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Krótkie e-maile zawodowe: temat = rzeczownik + data («Rescheduling — Thu 17:00»), nagłówek «Dzień dobry», treść w 3 zdaniach (fakt, propozycja, pytanie), podpis z imieniem, stanowiskiem, telefonem. Praktyka: bez tajemnic zdrowotnych w mailu otwartym — dane medyczne przez kanał zabezpieczony lub zaproszenie do gabinetu; wysyłka po ponownym przeczytaniu. Zadanie: napisz trzy e-maile: potwierdzenie, przełożenie, przeprosiny za odwołanie — i oceń je wg zasady «jedna sprawa, jeden mail».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

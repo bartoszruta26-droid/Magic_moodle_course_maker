@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Nadmierna stymulacja (zwłaszcza u dzieci, osób starszych, z demencją, po udarze): pobudzenie > rozluźnienie → niepokój, bezsenność, wzrost tonusa. Praktyka: krótszy czas (10–20 min), wolne tempo, jedna okolica na raz, obserwacja zachowania PO zabiegu; następnym razem jeszcze łagodniej. Zadanie: dla dziecka z mózgowym porażeniu dziecięcym zaplanuj 12-min protokół «ciszy i ruchu» z udziałem rodzica.
+Nadmierna stymulacja (dzieci, seniorzy, demencja, po udarze): pobudzenie > rozluźnienie — bez fast percussions, krótkie serie, cisza, stały rytm, sygnały przeciążenia (płacz, drżenie, apatia po) = mniej czasu i siły. Praktyka: zasada «start low, go slow», obserwacja po 10 min i przy końcu. Ćwiczenie: porównaj dwie 5-min sekwencje (łagodna vs intensywna) na partnerze — oceń zachowanie pouderzeniowe.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

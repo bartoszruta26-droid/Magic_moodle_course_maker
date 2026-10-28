@@ -83,4 +83,4 @@ porównania wykonań („ten chwyt wymaga wolniejszego tempa”). Prawda powiedz
 z miłością buduje biegłość; kłamstwo z „życzliwości” wystawia przyszłego
 pacjenta na ryzyko.
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

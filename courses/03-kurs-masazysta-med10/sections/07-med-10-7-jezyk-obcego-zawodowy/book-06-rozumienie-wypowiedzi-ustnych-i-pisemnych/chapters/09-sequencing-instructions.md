@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Sekwencjonowanie poleceń: łącz spójniki czasu (first, then, while, finally) z logiczną kolejnością zabiegu — higiena rąk → przygotowanie stanowiska → wywiad → pozycja → technika → zakończenie → dokumentacja. Praktyka: przy uczuleniu klienta na zapach zmieniasz kolejność (najpierw próba zapachowa na przedramieniu, potem rozbiór). Ćwiczenie: ułóż 8-zdaniową instrukcję «masaż dłoni krok po kroku» po angielsku i przetestuj ją na osobie, która nigdy nie masowała.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

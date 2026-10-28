@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Granica profilaktyki i terapii: profilaktyka masażysty = zapobieganie następstwom przeciążenia/braku ruchu i promocja zdrowia w granicach kompetencji; terapia = realizacja zlecenia lekarza/fizjoterapeuty przy rozpoznanej chorobie. Praktyka: przy objawach chorobowych (gorączka, obrzęk zapalny, ból nocny, ubytki neurologiczne) — kierunek do lekarza, a nie «profilaktycznie jeszcze raz». Ćwiczenie: posortuj 12 sytuacji «to profilaktyka / to terapia / to nie moje kompetencje».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

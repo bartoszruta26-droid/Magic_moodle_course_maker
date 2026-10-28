@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Powłoki brzuszne: siła «jak dotyk śródpiersia» — bez głębokiego ugniatania u otyłych/blaszkowanych; celem perystaltyka i rozluźnienie; przeciwwskazania: przepuklina uwidoczniona, ciąża, ostry stan brzucha, niedawna operacja. Ćwiczenie: przeprowadź 10-min masaż wg kierunku okrężnicy z jednoczesnym oddechem pacjenta.
+Powłoki brzuszne: siła «jak dotyk śródpiersia» — bez głębokiego ugniatania u osób z bliznami przepuklinowymi; kierunki zgodne z okrężnicą (wstępująca → poprzecznica → zstępująca → esowata), prace oddechowe (ruch na wydechu), blizny po zagojeniu rozluźniane poprzecznie. Przeciwwskazania: przepuklina nieodprowadzalna, ostry ból brzucha, ciąża zaawansowana. Ćwiczenie: 10-min sekwencja «perystaltyka» + karta zaleceń domowych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

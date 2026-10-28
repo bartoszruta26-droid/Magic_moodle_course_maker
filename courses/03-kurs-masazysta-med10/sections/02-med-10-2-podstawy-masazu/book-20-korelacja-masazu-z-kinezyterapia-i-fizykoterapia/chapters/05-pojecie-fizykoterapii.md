@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Fizykoterapia: wykorzystanie bodźców fizycznych (ciepło, zimno, prąd, światło, ultradźwięk, pole magnetyczne) — zabiegi wykonuje elektrofizjoterapeuta/fizjoterapeuta. Masażysta zna zasady łączenia: np. po krioterapii odcinek nie masujemy głęboko zaraz; ciepło przed masażem ułatwia rozluźnienie. Granica: nie «dobieram fizio» bez zlecenia. Ćwiczenie: opisz kolejność «kąpiel wirowa → masaż → ćwiczenia» dla skrętego stawu skokowego w fazie podostrzej (za zgodą lekarza).
+Fizykoterapia wykorzystuje bodźce fizyczne: ciepło (parafina, IR), zimno, prąd (TENS, jonoforeza), światło (laser niskiego poziomu), ultradźwięk, pole magnetyczne — każdy z własnymi wskazaniami i przeciwwskazaniami (np. ciąża, metal, rozrusznik, nowotwór). Masażysta zna kolejność łączenia z masażem i nie dubluje procedur bez zlecenia. Ćwiczenie: dla obrzęku kostki stwórz protokół «zimno → kompresja → masaż odpływowy» z czasami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

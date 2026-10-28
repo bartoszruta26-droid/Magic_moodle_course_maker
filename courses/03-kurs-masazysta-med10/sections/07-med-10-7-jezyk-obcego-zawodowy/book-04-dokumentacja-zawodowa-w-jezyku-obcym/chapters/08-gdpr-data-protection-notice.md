@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Klauzula informacyjna RODO (GDPR / data protection notice) informuje pacjenta: kto jest administratorem, w jakim celu i na jakiej podstawie przetwarzamy dane zdrowotne (art. 9 ust. 2 lit. h RODO — opieka zdrowotna), przez jak długo, komu je przekazujemy i jakie ma prawa (dostęp, sprostowanie, ograniczenie). Praktyka: klauzula wisząca w gabinecie + zgoda pisemna lub elektroniczna; dane poza dokumentacją medyczną (np. zdjęcia) wyłącznie za odrębną zgodą. Ćwiczenie: wskaż w swoim regulaminie pięć elementów klauzuli informacyjnej i uzupełnij brakujące.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

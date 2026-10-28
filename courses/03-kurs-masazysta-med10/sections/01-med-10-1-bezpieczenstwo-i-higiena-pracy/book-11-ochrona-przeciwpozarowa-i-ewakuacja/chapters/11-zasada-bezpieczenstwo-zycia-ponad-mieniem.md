@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Hierarchia wartości w sytuacji zagrożenia: ŻYCIE I ZDROWIE człowieka > mienie > procedury formalne. Praktyka pożarowa/ewakuacyjna: najpierw wynieś/pomóż osobie (pacjent na stole, dziecko), potem wyłącz urządzenia, gaśnica tylko gdy bezpieczne. Nie wracaj po torbę czy laptopa. Ćwiczenie: przećwicz ewakuację «pacjenta» leżącego na stole z użyciem prześcieradła jako noszy — we dwie osoby.
+Hierarchia wartości w sytuacji zagrożenia: ŻYCIE I ZDROWIE człowieka > mienie > procedury formalne. W praktyce: ewakuujemy ludzi zanim zgasi się sprzęt, nie wracamy po portfel «bo nowy model», gasimy początkowy pożar tylko gdy nie stoi za nami już dym. Ćwiczenie: scenariusz «zapalił się agregat w sąsiedniej sali, pacjent na stole» — wypisz decyzje w kolejności minut i uzasadnij każdą.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż kończyny górnej: kolejność dosercowa — dłoń → przedramię → ramię → odpływ do dołu pachowego; omijaj doły z zmianami; techniki: głaskanie, rozcieranie spiralne, ugniatanie chwytane, wałeczkowanie; ROM sprawdzaj przed/po. Ćwiczenie: przeprowadź 15-min protokół prawej ręki i oceń temperaturę skóry oraz siłę chwytu.
+Masaż kończyny górnej: kolejność dosercowa — dłoń → przedramię → ramię → odpływ do dołu pachowego; obręcz barkowa łączona; techniki: głaskanie liniowe, rozcieranie kolistego grzbietu dłoni, ugniatanie mięśni ramienia, wałowanie przyśrodkowo-boczne, wibracje na koniec. Praktyka: 10–12 min standard, mniej przy obrzęku/kruchych naczyniach. Ćwiczenie: pełny przebieg z timerem i samooceną kierunku przepływu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

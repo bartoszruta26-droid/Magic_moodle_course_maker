@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
+Zakrztuszenie (ciało obce w drogach oddechowych): przy kaszlu skuteczny — zachęcamy do kaszlu; przy niedrożności pełnej — 5 uderzeń w plecy między łopatkami + 5 abdominalnych thrustów (Heimlich) na przemian, do uwolnienia lub utraty przytomności (wtedy RKO i szukanie ciała obcego w jamie). U kobiet w ciąży/otyłych — thrusty klatkowe. Praktyka: ćwiczenia fantom + scenki «stałem za plecami». Zadanie: przećwicz sekwencję na fantomie do perfekcji, zapisz czas reakcji.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

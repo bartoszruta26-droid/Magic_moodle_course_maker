@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Tablice anatomiczne jako pomoc edukacyjna: wskazujesz palcem strukturę i nazwę, tłumaczysz prostym językiem, nie przeciążasz terminami; przy kliencie anglojęzycznym — dwujęzyczna legenda. Praktyka: zawieś tablicę tylko tam, gdzie realnie z niej korzystasz (wywiad, objaśnienie bólu); rysunek „na kartce” bywa skuteczniejszy niż wielka plansza. Zadanie: przeprowadź 3-minutowe wyjaśnienie budowy odcinka lędźwiowego różnym odbiorcom: dziecko, sportowiec, senior.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

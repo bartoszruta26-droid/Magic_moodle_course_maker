@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Profilaktyka obrzęków i zaburzeń krążenia żylnego: unikanie długiego stania/siedzenia z opuszczonymi nogami, aktywacja pompy mięśniowej (marsz z pełnym przetaczaniem stopy, wspięcia na palce, rower), nawodnienie, kompresja profilaktyczna wg wskazań, redukcja ucisku (ciasne skarpetki, zapasowe opaski), pozycje drenujące z kończyną powyżej serca. Czerwona flaga: nagły, bolesny, asymetryczny obrzęk łydki → podejrzenie zakrzepicy → STOP masażu i lekarz. Ćwiczenie: zaprojektuj «godzinę antyobrzękową» dla pracownika stojącego i przeprowadź ją na sobie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

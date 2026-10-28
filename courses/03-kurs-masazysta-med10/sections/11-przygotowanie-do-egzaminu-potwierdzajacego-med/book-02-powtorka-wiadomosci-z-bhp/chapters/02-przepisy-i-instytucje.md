@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Przepisy i instytucje tworzące ramy zawodu: Kodeks pracy i BHP, ustawy o zawodach medycznych/podmiocie leczniczym, RODO + ustawa o ochronie danych, Prawo farmaceutyczne (dezynfekanty), ustawa o odpadach medycznych, PPIS, PIP, UOKiK, NFZ, samorządy i izby branżowe. Praktyka: prowadź «mapę aktów» aktualizowaną raz na kwartał; subskrybuj komunikaty jednej instytucji z branży. Zadanie: połącz 8 obowiązków gabinetu z instytucjami kontrolującymi i podstawą prawną.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

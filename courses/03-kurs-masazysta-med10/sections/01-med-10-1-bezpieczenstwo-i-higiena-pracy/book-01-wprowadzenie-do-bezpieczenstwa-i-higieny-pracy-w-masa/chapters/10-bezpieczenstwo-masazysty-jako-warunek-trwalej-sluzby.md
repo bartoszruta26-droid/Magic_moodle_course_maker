@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
+Masażysta służy pacjentowi własnym ciałem i rękoma — ich ochrona jest warunkiem trwałości zawodu: limit zabiegów intensywnych w dniu, rozgrzewka dłoni przed serią, rozciąganie przedramion po pracy, sen regeneracyjny, wcześniejsza reakcja na ból ścięgien («nie przepracować, tylko przeleczyć»). Praktyka: wprowadź osobisty limit «maks. X głębokich masaży dziennie» i grafik z buforem; zapisuj samopoczucie układu ruchu w dzienniczku. Ćwiczenie: zaprojektuj swój plan dnia pracy chroniący ręce i kręgosłup — skonsultuj z opiekunem praktyk.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

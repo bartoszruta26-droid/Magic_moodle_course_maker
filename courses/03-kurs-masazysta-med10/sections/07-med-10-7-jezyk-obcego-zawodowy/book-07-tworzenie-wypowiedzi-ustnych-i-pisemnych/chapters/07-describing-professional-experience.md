@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Mówienie o doświadczeniu zawodowym: konkrety zamiast chwalipięctwa — «prowadzę gabinet od 3 lat, wykonuję ok. 600 zabiegów miesięcznie, specjalizuję się w masażu sportowym i MLD po szkoleniu X». Praktyka: cytuj ukończone kursy z liczbą godzin i zakres stosowanych technik; nie przypisuj sobie kompetencji medycznych. Zadanie: przygotuj 60-sekundową autoprezentację PL/EN na rozmowę o pracę w sanatorium.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

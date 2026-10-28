@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praca w środowisku wodnym — praktyka bezpieczeństwa: temperatura wody 33–36°C sprawdzana miarownikiem, wejście i wyjście z asekuracją (maty antypoślizgowe, uchwyty), pacjent z padaczką lub chorobą wieńcową nigdy sam w wodzie; obserwacja co 3–5 minut: oddech, kolor skóry, pytanie o samopoczucie. Techniki w wodzie: głaskanie i rozcieranie prowadzone z falą hydrostatyczną (efekt odprowadzający), czas krótszy niż na sucho. Dezynfekcja wanien między osobami wg instrukcji producenta i sanepidu.
+Praca w środowisku wodnym — higiena wanny: dezynfekcja między klientami wg instrukcji producenta (środek + czas kontaktu), wymiana/pobór wody, test chloru/pH przy wannach z obiegiem, czyszczenie powierzchni dennej i przelewów; skóra pacjenta i masażysty bez zmian, rękawiczki/bariery przy ranach. Praktyka: karta wanny (obsada, parametry, czynności). Ćwiczenie: przeprowadź pełną procedurę «po pacjencie» z stoperem — <10 min bez skrótów.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

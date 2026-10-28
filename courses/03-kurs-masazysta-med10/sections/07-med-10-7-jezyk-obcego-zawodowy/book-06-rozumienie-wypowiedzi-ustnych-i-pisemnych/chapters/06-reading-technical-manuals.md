@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Praca z instrukcją obsługi technicznej: szukasz działów «Assembly/Setup», «Operation», «Cleaning & Maintenance», «Troubleshooting»; zapisujesz numery katalogowe części i warunki gwarancji. Praktyka: przegląd okresowy stołu/krzesła (luzy, siłownik, tapicerka) wpisany do książki urządzeń; naprawy tylko autoryzowane. Zadanie: wykonaj «audyt 10 minut» swojego stołu wg instrukcji i sporządź protokół trzech usterek lub stwierdzenia braku.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Profilaktyka stóp i chodu: codzienny ogląd podeszew i przestrzeni międzypalcowych (szczególnie cukrzyca!), skracanie paznokci na prosto, obuwie z szerokim przodem i amortyzacją, skarpetki bez szwów i rolujących się mankietów, nawilżanie pięt (bez alkoholu między palcami), ćwiczenia mobilności stawu skokowego i równowagi. Praktyka: przy zmianach hyperkeratotycznych/owrzodnieniach — podolog/lekarz, nie skalpel masażysty. Zadanie: zrób «audyt buta» uczestnika kursu i przedstaw 3 rekomendacje.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

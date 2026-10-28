@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena pracy własnej — praktyka: limit 8–10 masaży dziennie (głębokich maks. 4–5), mikroprzerwa 5–10 minut między klientami (dezynfekcja, oddech, woda), dni lżejsze w grafiku, debriefing trudnych sytuacji z superwizorem, ruch kompensacyjny po pracy (odwrotny do pozycji zabiegu), sen 7–8 h. Objawy wypalenia: cynizm, depersonalizacja, poczucie nieskuteczności — wcześniej szukaj pomocy (psycholog, lekarz medycyny pracy). Sprawiedliwość wobec siebie jest warunkiem sprawiedliwości wobec pacjenta.
+Stan urazowy w pierwszej pomocy masażysty: ocena bezpieczeństwa miejsca, przytomność, kręgosłup jako «niewzruszalny» przy podejrzeniu, tamowanie krwawienia uciskiem, unieruchomienie złamań «tak jak leży», rany — opatrunek czysty, amputowany fragment — zabezpieczony na lodzie «pośrednio». Praktyka: apteka z listą, kontrola ważności, szkolenie raz w roku. Zadanie: scenariusz «pacjent zsunął się ze stołu, skarży się na biodro, siniak rośnie» — twoje 5 decyzji w kolejności.
 
 ## Rozwinięcie zagadnienia
 
@@ -58,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

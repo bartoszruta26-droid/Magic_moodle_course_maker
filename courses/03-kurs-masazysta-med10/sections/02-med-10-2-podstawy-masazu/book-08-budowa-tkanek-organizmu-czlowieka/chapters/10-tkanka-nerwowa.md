@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Układ autonomiczny tłumaczy działanie masażu «na odległość»: techniki wolne, ciepłe i rytmiczne zwiększają tonus przywspółczulny (tętno spada, perystaltyka rośnie); szybkie i mocne — pobudzają współczulnie. Sfery Heada i strefy Mackenziego (odruchowe napięcia mięśni grzbietu pochodzące z trzewi) uczą praktyki: ból w «strefie» może mieć źródło narządowe — jeśli obraz nie pasuje do przeciążenia, kieruj do lekarza, nie «masuj nerki» na własną rękę.
+Tkanka nerwowa buduje sieć przewodzenia: neuron (ciało, dendryty, akson) z osłonką mielinową przyspieszającą impuls, synapsy jako połączenia, nerwy mieszane (czuciowe, ruchowe, autonomiczne). Znaczenie praktyczne: nerwy biegną w określonych trasach i na określonej głębokości — tam nie stosujemy mocnego ucisku ani rozciągania «na siłę» (np. nerw promieniowy w bruździe spiralnej kości ramiennej, nerw strzałkowy pod głową kości strzałkowej — uraz = opadająca stopa). Praktyka: palpacyjne «znajomość mapy» przed pracą głęboką; parestezje u pacjenta = natychmiastowa zmiana kierunku/siły. Ćwiczenie: wskaż na sobie trzy «punkty niebezpieczne» nerwów obwodowych i zademonstruj bezpieczny omijający chwyt.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

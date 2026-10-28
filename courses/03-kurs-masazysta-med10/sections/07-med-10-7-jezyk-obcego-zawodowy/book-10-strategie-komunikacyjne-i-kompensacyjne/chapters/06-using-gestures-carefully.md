@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Gest — narzędzie i pułapka: pokazanie kierunku ruchu, wielkości nacisku czy miejsca bólu jest uniwersalne; dotyk «uspokajający» bez zgody — narusza granice. Praktyka: gest demonstracyjny na WŁASNYM ciele lub fantomie, nie na pacjencie; kulturowo uważaj na znak «OK», kiwanie głową (w niektórych kulturach = przeczenie). Zadanie: przeprowadź 3-minutową instrukcję pozycji wyłącznie gestem i słowami neutralnymi — oceń zrozumienie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż kobiety w ciąży — praktyka bezpieczeństwa: I trymestr tylko za zgodą ginekologa; II/III trymestr: pozycja na boku (lewa optymalna), unikaj leżenia na plecach >5 min (zespół żyły głównej dolnej!), poduszki/półwałki pod brzuch i kolana, bez ucisku brzucha i oklepywania powłok; techniki łagodne, przewidywalne; obrzęki fizjologiczne — drenaż delikatny odpływowy; CZERWONE FLAGI: krwawienie, ból głowy z zaburzeniami widzenia, nagły duży obrzęk, ból brzucha — natychmiast pomoc położnicza. Dokumentuj zgodę i observations.
+Czynniki psychofizyczne pracy masażysty: stres kontaktu (emocje pacjenta, presja wyniku), monotypia ruchów, obciążenie postawy stojącej, zmiany godzinowe i praca wieczorna zaburzająca rytm snu. Praktyka: mikroprzerwy oddechowe między klientami (minuta przeponowego oddechu), rotacja okolic ciała w grafiku (nie pięć głębokich grzbietów z rzędu), granica «nie biorę kolejnego, bo jestem zmęczony» — to ochrona pacjenta. Zadanie: przez tydzień notuj szczyty zmęczenia i dopasuj jeden realny element grafiku, który je obniża.
 
 ## Rozwinięcie zagadnienia
 
@@ -58,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

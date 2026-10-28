@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena pracy dotyczy czynników, które działają powoli i kumulują skutki: przeciążenie statyczne dłoni i kręgosłupa, mikroklimat gabinetu, chemia (środki dezynfekcyjne, olejki), hałas, biologia. Praktyka masażysty: planuj dzień tak, by po 3–4 zabiegach głębokich wejść zabiegi lżejsze; przy pracy z chustkami dezynfekcyjnymi zapewnij wentylację i nie przekraczaj stężenia roboczego preparatu; noś odzież ochronną zgodnie z instrukcją producenta. Ćwiczenie: wypełnij kartę narażenia zawodowego dla własnego stanowiska i wskaż czynnik dominujący.
+Higiena pracy dotyczy czynników działających powoli i kumulujących skutki: przeciążenie statyczne dłoni i kręgosłupa, mikroklimat (temperatura 20–24°C, wilgotność 40–60%), hałas, kontakt z chemią (dezinfektanty, olejki), rytm dobowy pracy zmianowej. Praktyka: wentylacja przed wizytą, przerwy 5–10 min między zabiegami, napoje z elektrolitami przy serii wodnych masaży, badania profilaktyczne skóry rąk co kwartał. Zadanie: zmierz temperaturę i wilgotność swojej sali ćwiczeń o trzech porach dnia i oceń zgodność z normą.
 
 ## Rozwinięcie zagadnienia
 
@@ -58,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

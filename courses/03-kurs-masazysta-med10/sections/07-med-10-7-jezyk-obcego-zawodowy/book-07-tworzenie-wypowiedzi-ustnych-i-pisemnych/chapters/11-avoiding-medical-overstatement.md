@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Bez nadinterpretacji medycznej: masażysta nie stawia diagnoz, nie obiecuje «wyleczenia», nie mówi «masz zapalenie» — opisuje obserwacje («napięcie mięśnia jest zwiększone, zalecana ocena lekarska»). Praktyka: język faktów i granic kompetencji (Załącznik M); przy wątpliwości — skierowanie. Ćwiczenie: nagrywaj na dyktafon jedną rozmowę dziennie i szukaj zdań «diagnozujących»; przeredaguj je.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ból obronny to moment, w którym organizm pacjenta zaciska mięśnie i wstrzymuje oddech — sygnał STOP dla danej siły. Przekraczanie go powoduje wzrost tonusu, mikro-uszkodzenia i utratę zaufania. Praktyka: reguła «maks. 4–5/10 i malejąca»; jeśli pacjent «wyłącza się» emocjonalnie — przerwij i wyjaśnij. Ćwiczenie: w parach znajdź próg obronny partnera na mm. prostownikach grzbietu i ćwicz zatrzymanie TUŻ PRZED nim.
+Ból obronny to moment, w którym organizm zaciska mięśnie i wstrzymuje oddech — sygnał STOP dla siły; praca «przez niego» uruchamia protective guarding i psuje efekt. Praktyka: zasada «schodź poniżej progu, poczekaj adaptacji, spróbuj ponownie»; komunikat liczbowy 0–10 z limitem ≤4. Zadanie: eksperyment na własnym przedramieniu — znajdź próg bólu obronnego i opisz objawy towarzyszące.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

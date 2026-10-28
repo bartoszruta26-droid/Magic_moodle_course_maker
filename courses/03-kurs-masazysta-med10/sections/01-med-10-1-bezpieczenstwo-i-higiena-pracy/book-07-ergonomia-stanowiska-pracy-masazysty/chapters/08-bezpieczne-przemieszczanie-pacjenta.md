@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Transfer pacjenta to zadanie praktyczne: wstawanie metodą «na krawędzi» — obrót na bok → nogi poza → podparcie ramieniem, własny środek ciężkości nisko, buty antypoślizgowe pacjenta; przy wannie — mata, uchwyt, osoba towarzysząca przy niesamodzielnych. Ergonomia masażysty: nie ciągnij za kończynę «do siebie» — pracuj nogami i tułowiem. Ćwiczenie: trzykrotna symulacja transferu osoby starszej z oceną ryzyka upadku.
+Transfer pacjenta (z wózka, z fotela, na stół) wykonujemy metodą «najpierw plan, potem ręce»: hamulce, wysokość powierzchni wyrównana, pomocnik przy osobie niestabilnej, pasy/podkład ślizgowy zamiast siły; masażysta nie dźwiga samodzielnie dorosłego bez udziału chorego. Praktyka: ucz pacjenta wzorca «obrot na bok → nogi poza krawędź → podpór rąk → stanie»; przy osteoporozie i po udarze — asekuracja od strony słabszej. Ćwiczenie: przećwicz trzy transfery (wózek→stół, stół→fotel, podłoga→stół) z pozorantem i oceń bezpieczeństwo obu stron.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

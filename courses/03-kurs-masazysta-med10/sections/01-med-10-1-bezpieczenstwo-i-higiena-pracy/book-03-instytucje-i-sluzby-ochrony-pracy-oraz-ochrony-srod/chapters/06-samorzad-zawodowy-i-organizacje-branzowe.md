@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
+Samorząd zawodowy i organizacje branżowe (towarzystwa masażystów, izby, związki pracodawców) reprezentują środowisko: wydają standardy etyczne, opiniują przepisy, prowadzą rejestry czlonkostwa, organizują szkolenia i superwizje. Praktyka: wstąp do organizacji, weź udział w konsultacjach standardu usług, korzystaj z materiałów wypracowanych przez izbę — budujesz sieć wsparcia i wiarygodność. Zadanie: znajdź dwie organizacje branżowe, wypisz ich aktualne standardy i oceń, które obowiązki przyjmujesz dobrowolnie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Standard praktyki: pacjent pozostaje w bieliźnie lub ubraniu adekwatnym do techniki (masaż biurkowy — przez odzież); części nieobjęte zabiegiem okrywamy ręcznikiem OD PIERWSZEJ CHWILI, odsłaniamy tylko obszar pracy; ręczniki i prześcieradła — wymiana co pacjenta, podkład jednorazowy pod twarz i stopy. Rytuał wejścia: zapukaj, przedstaw się, wyjaśnij przebieg, zostaw intymność przy rozbieraniu, umów sygnał zatrzymania. To konkret szacunku, nie teoria.
+Ubiór roboczy masażysty: jasny (plamy widoczne), jednolity komplet zmieniany codziennie, zasłaniający ciało (krótki rękaw do łokcia lub długi, spodnie bez mankietów ciągnących po ziemi), obuwie pełne, antypoślizgowe, zmywalne; fartuch jednorazowy przy zabiegach «brudnych» (maści, parafina, pilingi). Praktyka: w szatni minimum dwa komplety na dzień + zapas dla niespodzianki (zalany olej, wypadek); biżuterii i zegarków nie nosimy. Ćwiczenie: przeprowadź wzajemną kontrolę stroju wg check-listy przed sesją praktyki i omów uchybienia bez ocen moralnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

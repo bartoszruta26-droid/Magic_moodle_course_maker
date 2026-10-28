@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Prawa konsumenta (rzetelna informacja, jawna cena, reklamacja, 14-dniowe odstąpienie przy umowach zawieranych poza lokalem — gdy dotyczy) i prawa pacjenta (UDPP: świadoma zgoda, intymność, poufność, informacja o zdrowiu, dostęp do dokumentacji) nakładają się w gabinecie. Praktyka: cennik widoczny, zgoda na zabieg, procedura reklamacji, wydanie kopii dokumentacji na wniosek. Zadanie: napisz regulamin gabinetu zawierający 8 praw pacjenta i 6 uprawnień konsumenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

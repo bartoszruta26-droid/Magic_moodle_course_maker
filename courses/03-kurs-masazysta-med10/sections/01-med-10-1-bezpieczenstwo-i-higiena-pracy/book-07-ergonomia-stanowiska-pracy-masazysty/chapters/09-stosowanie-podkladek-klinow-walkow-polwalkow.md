@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Pozycjonowanie praktyczne: na brzuchu — poduszka pod kostkami i otwór/wałek pod twarzą (neutralna szyja, rotacja głowy co kilka minut); na plecach — wałek pod kolanami (rozluźnienie zginaczy), pod głowę według kyfozy; na boku — półwałek pod plecy i poduszka między kolanami; siedząco — stabilne oparcie stóp. Po 2 minutach zawsze pytanie «czy wygodnie?»; profilaktyka spadania: nigdy nie zostawiaj pacjenta na wysokim stole bez asekuracji.
+Podkładki, kliny, wałki i półwałki stabilizują pozycję i otwierają okolice: wałek pod kostkami przy leżeniu przodem odciąża lędźwie, klin między kolanami w pozycji bocznej utrzymuje miednicę, półwałek pod klatką piersiową umożliwia swobodny oddech, podparcie pod czołem likwiduje skręt szyi. Praktyka: każda podpora sprawdzana dociskiem (nie może się zsunąć w trakcie ruchu), wysokości dobrane tak, by kończyna wisiała swobodnie. Zadanie: ustaw pozycję do masażu kończyny dolnej u osoby z bólem krzyża i opisz funkcję każdej podpory jednym zdaniem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

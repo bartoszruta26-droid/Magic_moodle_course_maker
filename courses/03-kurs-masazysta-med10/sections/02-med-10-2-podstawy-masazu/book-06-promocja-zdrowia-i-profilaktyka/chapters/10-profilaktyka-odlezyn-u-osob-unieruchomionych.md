@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Profilaktyka odleżyn u osób unieruchomionych: ocena ryzyka (skala Braden), zmiana pozycji co 2–3 h z odciążeniem punktów kostnych (pięty, krętarze, kość ogonowa), utrzymanie czystej i suchej skóry (nawilżanie emolientem, bariery przy nietrzymaniu), odżywianie (białko, kalorie, woda), materace przeciwodleżynowe, oglądanie skóry codziennie. Rozcierania i głęboki ucisk na nieblednącą zaczerwienioną skórę (I stopień odleżyny) są zakazane — nasilają uszkodzenie. Praktyka: mapa «punktów kostnych» w karcie pacjenta. Zadanie: ułóż grafik zmian pozycji i podpór dla leżącego seniora na dobę.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

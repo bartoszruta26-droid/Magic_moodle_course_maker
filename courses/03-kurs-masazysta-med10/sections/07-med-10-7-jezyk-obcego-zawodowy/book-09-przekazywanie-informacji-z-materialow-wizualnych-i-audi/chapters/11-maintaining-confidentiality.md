@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Zachowanie poufności: dane pacjenta są tajemnicą zawodową i chronione RODO; nie rozmawiamy o klientach w recepcji, windzie, mediach społecznościowych; nawet «bezimiennie» — opis rozpoznawalnej sytuacji już jest naruszeniem. Praktyka: dokumentacja w szafce z kluczem/zabezpieczeniu cyfrowym, ekran blokowany, brak zdjęć zabiegowych bez pisemnej zgody. Ćwiczenie: przeanalizuj 5 przykładów postów «z gabinetu» i wskaż, które naruszają poufność oraz dlaczego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

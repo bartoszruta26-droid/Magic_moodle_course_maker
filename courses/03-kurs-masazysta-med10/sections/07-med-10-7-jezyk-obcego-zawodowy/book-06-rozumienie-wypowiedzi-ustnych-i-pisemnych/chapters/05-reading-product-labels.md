@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Czytanie etykiet produktów: skład INCI (olej bazowy → olejki eteryczne ≤ dopuszczalnych stężeń), data ważności i PAO (period after opening), środki ostrożności («for external use only», «avoid contact with eyes»), kraj pochodzenia i dystrybutor. Praktyka: próba uczuleniowa (patch test) przy nowych olejkach 24–48 h przed użyciem na większym obszarze; przechowywanie z dala od światła i ciepła. Ćwiczenie: porównaj dwie oliwki «dla masażu» i wybierz tę bezpieczniejszą dla skóry wrażliwej, uzasadniając trzema argumentami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

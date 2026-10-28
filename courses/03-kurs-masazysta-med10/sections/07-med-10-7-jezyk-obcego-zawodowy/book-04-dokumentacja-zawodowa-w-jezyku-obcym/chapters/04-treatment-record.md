@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Karta zabiegu (treatment record) po angielsku operuje nazwami technik i parametrami: «effleurage, petrissage, friction — 10 min, moderate pressure, patient tolerated well». Praktyka: zapis zwięzły, chronologiczny, bez ocen («VAS 3→1», «no adverse reaction»); to dokument prawnie chroniony i narzędzie ciągłości opieki. Ćwiczenie: napisz trzy rekordy «one-liner» dla trzech różnych zabiegów i oceń, czy drugi terapeuta odtworzyłby przebieg tylko z nich.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

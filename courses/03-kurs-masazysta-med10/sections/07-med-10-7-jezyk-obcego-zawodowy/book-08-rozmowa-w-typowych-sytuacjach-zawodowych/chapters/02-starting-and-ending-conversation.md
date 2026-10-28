@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Rozpoczynanie i kończenie rozmowy: otwarcie — powitanie, imię, cel wizyty, ramy czasowe; zamknięcie — podsumowanie («pracowaliśmy nad barkiem, efekt: mniejsze napięcie»), zalecenia 3 punkty, ustalenie terminu, podziękowanie. Praktyka: pierwsze 60 sekund decyduje o poczuciu bezpieczeństwa pacjenta; ostatnie 60 sekund — o poczuciu zaopiekowania. Zadanie: przećwicz pary «open/close» dla trzech sytuacji: pierwsza wizyta, stały klient, osoba zdenerwowana.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

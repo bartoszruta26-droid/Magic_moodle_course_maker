@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Filmy instruktażowe: ucz się aktywnie — oglądaj fragment, zatrzymaj, odtwórz ruch na sobie, wróć do nagrania; selekcjonuj źródła (kursy uznanych szkół, wykładowcy z praktyką, publikacje towarzystw naukowych). Praktyka: kryteria jakości filmu — widać chwyt z bliska, słychać komentarz o sile i kierunku, autor podaje przeciwwskazania. Zadanie: obejrzyj dwa filmy o rozcieraniu i zrób notatkę porównawczą «co wspólne, co różne, co ryzykowne».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

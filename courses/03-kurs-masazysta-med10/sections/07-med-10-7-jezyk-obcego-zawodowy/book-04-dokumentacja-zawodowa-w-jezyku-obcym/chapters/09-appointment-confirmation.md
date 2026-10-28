@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Potwierdzenie wizyty (appointment confirmation) to profesjonalizm i bezpieczeństwo: SMS/mail z datą, godziną, adresem, informacją co zabrać i zasadą odwołania («please cancel at least 24 h in advance»). Praktyka: ton uprzejmy, jasny, bez żargonu; przypomnienie o posiłku/nawodnieniu przed masażem głębokim zmniejsza ryzyko osłabienia. Zadanie: napisz dwa warianty potwierdzenia — standard i dla pacjenta po raz pierwszy — i oceń, który lepiej redukuje lęk.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

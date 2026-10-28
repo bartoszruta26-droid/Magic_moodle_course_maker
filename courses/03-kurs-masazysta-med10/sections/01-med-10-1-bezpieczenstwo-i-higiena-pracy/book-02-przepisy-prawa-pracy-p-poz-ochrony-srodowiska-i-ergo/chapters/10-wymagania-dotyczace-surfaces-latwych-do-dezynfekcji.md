@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Powierzchnie w gabinecie muszą być gładkie, zmywalne, odporne na środki dezynfekcyjne i pozbawione spękań: stół z ekoskóry medycznej (bez przetarć!), blaty z laminatu/hpl, posadzka bez szczelin. Praktyka: każda powierzchnia kontaktu wysokiego (podłokietniki, uchwyty, włączniki) dezynfekowana między klientami z zachowaniem czasu kontaktu preparatu; test odporności materiału — przeczytaj kartę producenta przed zakupem. Zadanie: dobierz preparat i powierzchnię do scenariusza «pacjent z grzybicą stóp».
+Powierzchnie w gabinecie muszą być gładkie, zmywalne, odporne na środki dezynfekcyjne i pozbawione szczelin (stół z ekoskóry medycznej bez przetarć, blaty bez rys, brak tapet tekstylnych w strefie zabiegowej). Praktyka: test «chlapania» — rozlej symbolicznie wodę i sprawdź, czy wszystko da się osuszyć w 30 sekund; raz w tygodniu audyt powierzchni pod kątem spękań (niszczą dezynfekcję i chowają biofilm). Ćwiczenie: wypełnij kartę oceny nawierzchni stanowiska i wskaż jedną powierzchnię do wymiany wraz z uzasadnieniem kosztu/ryzyka.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

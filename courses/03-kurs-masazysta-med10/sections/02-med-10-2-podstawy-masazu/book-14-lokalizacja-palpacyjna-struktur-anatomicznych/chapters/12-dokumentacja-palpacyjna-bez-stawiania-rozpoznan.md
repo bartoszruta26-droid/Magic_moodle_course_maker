@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Dokumentacja palpacyjna bez stawiania rozpoznań: opisujemy to, co wyczuwalne i mierzalne — «napięcie części włókien m. czworobocznego po prawej, tkliwość VAS 4/10, ROM rotacji 70°», nie «ma dyskopatię». To granica kompetencji (Załącznik M) i warstwa prawna dokumentu. Praktyka: szablon pola «Obserwacje / Pomiar / Decyzja / Kierunek (lekarz/tak-nie)». Ćwiczenie: zamień pięć «rozpoznań» z własnych notatek na opisy obserwacyjne.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

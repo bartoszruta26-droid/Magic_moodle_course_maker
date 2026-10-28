@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-ROM czynny (AROM) vs bierny (PROM): AROM < PROM sugeruje osłabienie lub hamowanie bólem; AROM ≈ PROM ograniczone = przykurcz tkankowy. Masażysta mierzy oba (goniometr/okolicznościowo) i dobiera: rozluźnić (przykurcz) vs wzmocnić (osłabienie — do fizjoterapeuty). Ćwiczenie: zmierz AROM/PROM zgięcia kolana partnera i wpisz do karty z komentarzem.
+ROM: AROM (czynny) vs PROM (bierny) — AROM < PROM sugeruje osłabienie lub hamowanie bólem; AROM ≈ PROM z ograniczeniem = bariera tkankowa; asymetria stron = porównaj. Praktyka: zapis wartości orientacyjnych (np. flex/extend ° lub «ręka do ucha») przed/po serii; masaż planujemy tak, by wspierać uzyskane zakresy ruchem. Zadanie: zmierz i zapisz ROM barku partnera trzema sposobami (wzrok, liniał, gest).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Przerwać zabieg należy przy: bólu obronnym nieustępującym po zmniejszeniu siły, objawach ogólnoustrojowych (zawrót, duszność, kołatanie), niekontrolowanym drżeniu/lęku pacjenta, alarmującej zmianie skóry. Procedura: zatrzymaj techniki, przykryj, ułóż wygodnie, napój, obserwacja, dokumentacja, decyzja o kontynuacji/odstąpieniu. Ćwiczenie: przećwicz «miękkie zatrzymanie» z aktorem-pacjentem, który nagle poczuł mdłości.
+Przerwać zabieg należy przy: bólu obronnym nieustępującym po zmniejszeniu siły, objawach ogólnoustrojowych (zawrót, duszność, kołatanie), reakcji skórnej, naruszeniu zgody/granicy, awarii bezpieczeństwa. Praktyka: sekwencja «stop → stabilizuj → wyjaśnij → zdecyduj (dokończycie/inaczej/inny termin) → zapisz». Zadanie: scenariusz «pacjent mówi: boli bardziej niż na początku» — twoja reakcja słowo w słowo.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

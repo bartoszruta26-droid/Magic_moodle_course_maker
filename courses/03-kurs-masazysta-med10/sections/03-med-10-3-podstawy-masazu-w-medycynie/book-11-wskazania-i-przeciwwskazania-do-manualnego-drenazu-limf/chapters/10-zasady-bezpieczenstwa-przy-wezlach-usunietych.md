@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Usunięte węzły chłonne = upośledzony odpływ regionu: zakaz zabiegów cieplnych i głębokich na danym piętrze, profilaktyka zacięć i ukąszeń (rękawice!), unikanie ciasnych opasek, szybkie leczenie任何 infekcji skóry kończyny. Masaż: tylko techniki miękkie/limfatyczne wg protokołu. Ćwiczenie: dla pacjenta po usunięciu węzłów pachowych wypisz 6 zasad ochrony ręki i przeprowadź instruktaż teach-back.
+Usunięte węzły chłonne = upośledzony odpływ regionu: zakaz zabiegów cieplnych i głębokich na danym piętrze drenażu, ochrona przed urazami i infekcjami (skaleczenia!), rękawic kompresyjnych wg zaleceń, MLD wyłącznie po szkoleniu. Praktyka: oznaczenie strony w dokumentacji i przy stanowisku. Zadanie: lista 8 «nigdy» dla kończyny po limfadenektomii pachowej.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

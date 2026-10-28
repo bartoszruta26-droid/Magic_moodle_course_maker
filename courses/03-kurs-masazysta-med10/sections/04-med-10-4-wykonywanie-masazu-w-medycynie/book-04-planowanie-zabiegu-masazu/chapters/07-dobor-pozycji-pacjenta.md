@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Pozycja pacjenta: na brzuchu (pod kostki wałek, pod biodra przy lordozie), na bokach (kliny między kolanami), półsiedząca (duszność, refluks, ciąża późna), siedząca (kark, dłonie — krzesło z oparciem). Kryteria: bezpieczeństwo, dostęp terapeuty, komfort >2 min, stabilność. Zadanie: ustaw pozycję do masażu barków u kobiety w III trymestrze i uzasadnij wybór.
+Pozycja pacjenta: na brzuchu (wałek pod kostki, support pod biodra przy lordozie, otwór na twarz), na boku (kliny między kolanami i pod plecami), półsiedząc (refluks, ciąża późna, problemy oddechowe), na plecach (kończyny górne, twarz) — stabilność > elegancja, oddech wolny, kończyny nie zwisają. Praktyka: korekta podpór po 2 minutach (tkanka się «układa»). Ćwiczenie: ustaw trzy pozycje dla pacjenta z bólem krzyża i opisz funkcję każdej podpory.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

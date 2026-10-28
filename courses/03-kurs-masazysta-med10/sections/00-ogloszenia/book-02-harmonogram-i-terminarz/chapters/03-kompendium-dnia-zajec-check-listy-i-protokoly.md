@@ -61,4 +61,4 @@ Profesjonalizm w zawodzie masażysty nie objawia się w wielkich gestach, lecz w
 
 Rytuały nie są niewolą; są formą szacunku dla drugiego człowieka i dla własnego rozwoju. Staranność w drobiazgach — czyste ręce, aktualny wpis, dotrzymany termin — to codzienna, cicha wersja przykazania miłości bliźniego w tym zawodzie.
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Słowniki fachowe: sprawdzaj terminy dwukierunkowo (PL→EN i EN→PL) i kontekstowo — «pressure» to nacisk w technice, «blood pressure» to ciśnienie tętnicze. Praktyka: noś mini-słowniczek papierowy lub aplikację offline; przy tłumaczeniu terminów medycznych korzystaj ze źródeł zatwierdzonych (glosariusze NFZ, ICD, słowniki towarzystw). Zadanie: utwórz listę 30 terminów, których szukałeś w tym tygodniu, i opisz każdy jednym zdaniem praktycznym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

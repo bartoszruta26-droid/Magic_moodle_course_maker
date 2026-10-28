@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Dobrowolne ubezpieczenie zdrowotne (umowa z NFZ po zarejestrowaniu) daje dostęp do świadczeń osobom nieobjętym powszechnym systemem; praktycznie wpływa na to, czy pacjent może mieć zabiegi refundowane w twoim gabinecie. Polisy komercyjne (pakity medyczne) pokrywają często masaż prywatnie — wymagają faktury i dokumentacji. Praktyka: pytaj «ma Pan pakiet medyczny? Wystawię dokumenty do rozliczenia». Zadanie: przygotuj zestaw dwóch zaświadczeń/faktur wzorcowych pod różne źródła płatności.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

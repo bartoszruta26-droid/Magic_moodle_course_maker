@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Nie przesłuchuj pacjenta — rozmawiaj: otwarte pytania na początku («Co Pana dziś sprowadza?»), doprecyzowania zamknięte tylko gdy trzeba; nie oceniaj odpowiedzi («znów pan siedział cały dzień?»). Cisza też jest dopuszczalna. Praktyka: zasada 70/30 — pacjent mówi 70%. Ćwiczenie: nagraj 3-minutowy wywiad i policz ile razy przerwałeś/aś.
+Nie przesłuchuj pacjenta — rozmawiaj: otwarte pytanie na start («Co Pana dziś sprowadza?»), doprecyzowania selektywne, parafraza («Rozumiem, że…»), informacja o czasie rozmowy. Praktyka: zasada 3 pytań przed dotknięciem, potem pytania krótkie w trakcie zabiegu. Ćwiczenie: odegraj 3-minutowy wywiad, w którym pacjent mówi 70% czasu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

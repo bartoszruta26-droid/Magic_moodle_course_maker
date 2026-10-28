@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Słowa międzynarodowe (internationalisms) pomagają: «massage», «clinic», «therapy», «relaxation» — ale uwaga na fałszywych przyjaciół: «prescription» to recepta, nie «zlecenie» potoczne; «sympathetic» współczujący vs «nerwowy» w anatomii. Praktyka: buduj listę 50 «bezpiecznych» internacjonalizmów i 20 pułapek dla swojej branży. Zadanie: rozstrzygnij 10 par EN↔PL «prawda/fałsz znaczenia» w quizie grupowym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

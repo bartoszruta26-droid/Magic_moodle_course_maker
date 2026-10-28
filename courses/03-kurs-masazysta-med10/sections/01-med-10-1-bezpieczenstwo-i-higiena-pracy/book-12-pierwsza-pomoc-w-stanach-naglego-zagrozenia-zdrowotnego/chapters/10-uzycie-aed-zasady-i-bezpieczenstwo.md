@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
+AED — zasady i bezpieczeństwo: włącz, naklej elektrody wg obrazków na elektrodach (sucha skóra! odsłoń klatkę, usuń plastry lecznicze i biżuterię z szyi), analizuj przy ciszy i braku dotykania, wykonaj impuls jeśli urządzenie wskazuje, natychmiast wróć do RKO; dzieci <8 lat — elektrody pediatryczne lub przednio-tylna. AED nie raża «przez przypadek» — nie panikuj, że «dotknąłem pacjenta». Praktyka: lokalizacja AED w budynku znana każdemu pracownikowi, test raz w miesiącu. Ćwiczenie: pełny cykl na trenerze AED ≤90 s od pierwszego kliknięcia do pierwszego impulsu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

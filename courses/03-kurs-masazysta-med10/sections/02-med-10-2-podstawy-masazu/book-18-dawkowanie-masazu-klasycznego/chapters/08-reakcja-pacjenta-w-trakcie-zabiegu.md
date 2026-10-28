@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Monitorowanie reakcji pacjenta: oddech (płytki/wstrzymywany = za mocno), kolor skóry (blady/nierównomierny), napięcie mimiki, ruchy obronne, tętno (przy dłuższych zabiegach), komunikaty słowne. Praktyka: co 5 min pytanie otwarte «Jak Pan/Pani teraz?» i korekta parametrów. Zadanie: zapisz protokół obserwacyjny 30-min zabiegu z trzema interwencjami korygującymi.
+Monitorowanie reakcji pacjenta: oddech (płytki/wstrzymywany = za mocno), kolor skóry (bladość, plamista), napięcie mięśnia (obronny skurcz), zachowanie werbalne (westchnienie, protest), parametry przy dłuższych seriach (tętno, samopoczucie). Praktyka: co 2–3 min pytanie otwarte «jak znosisz?» i natychmiastowa odpowiedź na sygnał. Ćwiczenie: para pozorant-masażysta — 3 ukryte sygnały dyskomfortu, sprawdź czy zostały wychwycone.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Rozpoznawanie pilności w komunikatach: słowa-sygnały «immediately», «stop», «call emergency», «chest pain», «shortness of breath», «sudden swelling». Praktyka: procedury alarmowe masz wyuczone na pamięć (112, RKO, pozycja bezpieczna, AED) — reagujesz bez negocjacji z sytuacją; w tekście znalezionym w internecie filtrujesz treści «natychmiast jedź na SOR» vs «zgłoś się planowo». Zadanie: przeanalizuj trzy opisy przypadków i przyporządkuj: STOP i lekarz dziś / modyfikuj zabieg / kontynuuj obserwację.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

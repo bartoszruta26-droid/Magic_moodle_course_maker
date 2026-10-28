@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Wypełnianie formularzy (completing forms) w obrocie zawodowym: skierowanie, zgoda na zabieg, karta zlecenia fizjoterapeuty/lekarza — pola obowiązkowe (dane pacjenta, rozpoznanie/objaw, okolica, liczba zabiegów, podpis, pieczęć, data). Praktyka: brakującej informacji NIE wymyślasz — dzwonisz do wystawcy; kopię skanowanego dokumentu przechowujesz zgodnie z RODO. Ćwiczenie: zweryfikuj trzy przykładowe skierowania pod kątem 6 braków formalnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

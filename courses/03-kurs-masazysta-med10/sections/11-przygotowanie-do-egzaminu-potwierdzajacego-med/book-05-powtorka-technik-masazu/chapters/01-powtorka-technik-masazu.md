@@ -148,4 +148,4 @@ Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałac
 
 <!-- subch-v1 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+Dbałość o dokumentację: karta zabiegu (data, okoliczności, techniki, czasy, reakcje, podpis), skierowanie/zlecenie, zgody, rejistry (dezynfekcji, odpadów, sprzętu, szkoleń BHP). Dokumentacja jest dowodem staranności, podstawą rozliczeń i narzędziem ciągłości opieki; przechowywana zwykle przez lata wskazane przepisami (dokumentacja medyczna min. 20 lat po roku ostatniego wpisu, z wyjątkami). Praktyka: wpis tego samego dnia, bez luk «bo nie było czasu». Zadanie: audituj 10 swoich kart pod kątem 7 elementów kompletności.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

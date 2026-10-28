@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
+OC masażysty chroni przed roszczeniem za szkodę na osobie/mieniu wyrządzoną w związku z wykonywaniem usługi (np. otarcie skóry, upadek z niestabilnego stołu, uszkodzenie ubrania). Praktyka: suma gwarancyjna adekwatna do skali działalności, wyłączenia czytane PRZED podpisem (np. zabiegi spoza oferty), przechowywanie zgłoszeń szkód; przy placówce — OC podmiotu + Twoje osobiste domówienie. Ćwiczenie: sporządź «mapę ryzyk» gabinetu i przypisz każdemu ryzyku punkt polisy albo lukę ubezpieczeniową.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

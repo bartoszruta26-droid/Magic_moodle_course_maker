@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyczny język obcy zawodu: ucz się FRAZ, nie pojedynczych słówek — «Could you lie face down, please?», «Tell me if the pressure is too strong», «This area feels warm — shall I continue?»; słownik techniczny: effleurage (głaskanie), petrissage (ugniatanie), friction (rozcieranie), tapotement (oklepywanie), contraindication, referral note, adverse reaction. False friends: «massage» ≠ terapia manualna kręgosłupa; «physiotherapist» (UK) ≠ «physical therapist» (US) — sprawdź zakresy. Ćwiczenie: nagraj 3-minutową instrukcję przedzabiegową po angielsku i oceń zrozumiałość metodą teach-back na koledze.
+Przeciwwskazania i środki ostrożności po angielsku to konkretne zwroty odmowy modyfikującej zabieg: «absolute contraindication», «relative contraindication — modify pressure», «avoid the area». Praktyka: ćwicz formułę SAFE — State (co widzę), Ask (pytanie do klienta/lekarza), Find alternative (co zrobię zamiast), Explain & document (dlaczego i wpis). Ćwiczenie: odegraj scenkę «klient z zakrzewicą prosi o masaż nogi» — 5 zdań po angielsku, spokojnie i bez straszenia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

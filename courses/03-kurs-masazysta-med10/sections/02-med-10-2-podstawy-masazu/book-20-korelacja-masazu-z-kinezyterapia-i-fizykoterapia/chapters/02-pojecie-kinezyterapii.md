@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Kinezyterapia = leczenie ruchem ( ćwiczenia bierne, czynno-bierne, czynne, z oporem; masaż leczniczy bywa jej elementem). Rola masażysty: NIE zastępuje fizjoterapeuty w doborze obciążeń — współpracuje: po masażu rozluźnioną tkankę «utrwalaj» aktywnością pacjenta. Praktyka: pokaz 1–2 ćwiczeń domowych zgodnych z zaleceniami. Zadanie: ułóż mini-plan «masaż łydki + 2 ćwiczenia» dla osoby z przykurczem zgięciowym stopy.
+Kinezyterapia = leczenie ruchem: ćwiczenia bierne, czynno-bierne, czynne, z oporem, rozciągające, oddechowe; masaż jest jej wsparciem przygotowującym tkankę i zmniejszającym ból. Praktyka: po masażu natychmiast wykorzystujemy zdobyty zakres — delikatny ruch, stabilizacja, nauka domowa. Zadanie: ułóż mini-plan: 10 min masażu barku + 5 ćwiczeń dobranych do celu «unoszenie ramienia».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

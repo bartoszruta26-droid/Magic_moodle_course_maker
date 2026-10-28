@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
+Profilaktyka pierwotna zapobiega powstawaniu choroby (higiena, ergonomia, ruch, szczepienia), wtórna wykrywa wcześnie (bilanse, przesiewy), trzeciorzędna ogranicza skutki już istniejącej choroby (rehabilitacja, zapobieganie powikłaniom — np. odleżynom, przykurczom). Masażysta działa głównie na I i III poziomie: edukacja + praca z ciałem osoby chorej/unieruchomionej. Praktyka: dobieraj cele zabiegu do poziomu (prewencja vs wsparcie). Ćwiczenie: dla trzech pacjentów (senior, sportowiec, osoba po udarze) wypisz działania I/II/III.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

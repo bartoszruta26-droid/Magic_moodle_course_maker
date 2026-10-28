@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo pracy w gabinecie masażu to stan, w którym ryzyko wypadku i uszczerbku na zdrowiu — pacjenta, masażysty, osób postronnych — jest ograniczone do minimum akceptowalnego. Praktyka: przed każdym dniem pracy check-list 2 minut (stabilność stołu, brak plam oleju na podłodze, drożność dojścia ewakuacyjnego, stan kabli urządzeń); każde zdarzenie potencjalnie groźne (potknięcie, pęknięty uchwyt) zgłaszaj przełożonemu, zanim dojdzie do wypadku. Zadanie kursanta: przeprowadź ocenę ryzyka własnego stanowiska wg matrycy (częstość × ciężar) i zaproponuj 3 zabezpieczenia techniczne lub organizacyjne.
+Bezpieczeństwo pracy masażysty to stan, w którym ryzyko wypadku i uszczerbku na zdrowiu jest kontrolowane: ergonomia stołu i postawy, porządek w strefie ruchu, sprawne urządzenia, znane drogi ewakuacji. Praktyka: przed każdym dniem pracy «obiad bezpieczeństwa» w 60 sekund — sucho na posadzce, kabel bez uszkodzeń, hamulec wózka, gaśnica dostępna; po każdym zabiegu — ocena własnych dłoni i karku. Ćwiczenie kursanta: prowadź dziennik zagrożeń przez tydzień praktyk (3 zdarzenia/opis + wniosek naprawczy).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->

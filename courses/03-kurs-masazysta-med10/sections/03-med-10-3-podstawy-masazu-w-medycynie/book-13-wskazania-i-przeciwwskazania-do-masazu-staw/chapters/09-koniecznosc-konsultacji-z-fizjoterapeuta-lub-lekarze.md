@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Konsultuj, gdy: ból promieniuje z deficytem neurologicznym, obrzęk jednostronny/naprzemienny, podejrzenie DVT, gorączka, nowotwór w wywiadzie, ciąża wysokiego ryzyka, stan po operacji <6 tyg., jakakolwiek wątpliwość «czy wolno». Forma: pisemna/zapytanie telefoniczne + adnotacja w karcie. Ćwiczenie: napisz treść zapytania do lekarza POZ o pacjenta z bólem łydki i dusznością po podróży.
+Konsultuj, gdy: ból promieniuje z deficytem neurologicznym, obrzęk jednostronny/naprzemienny, podejrzenie DVT, gorączka, chudnięcie, zmiana skórna, ból nocny, uraz bez obrazu, brak poprawy w 3–5 zabiegach, ciąża high-risk. Praktyka: pisemna informacja dla pacjenta + wpis w karcie; nie «czekamy aż samo minie». Zadanie: sformułuj 3 zdania skierowania na konsultację lekarską — konkretnie i bez straszenia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v8 -->
+<!-- subch-v10 -->
