@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ostry ból nowy (np. łydki, klatki, brzucha, głowy) bez diagnozy = NIE MASUJEMY; kierujemy do lekarza. Maskowanie bólu mocnym masażem grozi pogłębieniem urazu i opóźnieniem rozpoznania. Ćwiczenie: napisz 3 zdania dla sportowca «dlaczego dziś nie masuję Achillesa» z planem badania.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

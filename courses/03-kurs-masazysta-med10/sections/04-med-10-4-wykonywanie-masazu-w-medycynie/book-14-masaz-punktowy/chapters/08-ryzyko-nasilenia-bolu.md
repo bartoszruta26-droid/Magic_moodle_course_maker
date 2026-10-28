@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Granica bólu: utrzymuj ≤4–5/10 i malejącą; ból narastający mimo zmniejszenia siły = STOP i rewizja (może źródłem jest struktura niemiesniowa). Ryzyko nasilenia: deep tissue przy fibromialgii, ostre punkty spustowe, nerwoból. Ćwiczenie: stwórz «mapę bólu» pacjenta-fibromialgika i przeprowadź 10-min sesję ultra-miłą.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

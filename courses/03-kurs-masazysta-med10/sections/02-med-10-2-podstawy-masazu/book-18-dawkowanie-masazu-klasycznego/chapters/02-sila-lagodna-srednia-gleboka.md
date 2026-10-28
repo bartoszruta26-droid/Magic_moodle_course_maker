@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Skala siły techniki: łagodna (do naskórka/skóry — głaskanie, kontakt limfatyczny), średnia (skóra właściwa i podskórze — rozcieranie, powierzchowne ugniatanie), głęboka (mięśnie, powięź — ucisk, głębokie ugniatanie, poprzeczne). Zasada: ZACZYNAJ OD ŁAGODNEJ i pytaj o skalę 0–10; «głęboki masaż» nie znaczy «bolesny». Ćwiczenie: przećwicz te same głaskania trzema poziomami siły — partner ocenia jakość bez patrzenia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

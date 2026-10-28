@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Bezpieczeństwo w wodzie: wyjście z kąpieli z asystą (podbicie pod pachy/uchwyty), maty antypoślizgowe, osuszenie natychmiast (zimno!), ocena skóry po (maceracja, rumień). Osoby z neuropatią/cukrzycą — krótszy czas i temperatura sprawdzana termometrem. Ćwiczenie: zorganizuj całą sekwencję «wyjście-osuszenie-okrycie» dla pacjenta starszego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

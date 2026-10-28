@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Uznawanie kwalifikacji zawodowych w UE: dyplom MED.10 potwierdzający kwalifikacje rynkowe kraju; przy pracy transgranicznej — nostryfikacja/uznanie wg procedury właściwej izby/Ministerstwa Zdrowia (dyrektywa 2005/36/WE). Praktyka: tłumaczone dokumenty certyfikowane, portfolio umiejętności, ubezpieczenie OC działalności. Ćwiczenie: znajdź oficjalną stronę organu uznającego kwalifikacje w wybranym kraju i wypisz 3 wymagane dokumenty.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

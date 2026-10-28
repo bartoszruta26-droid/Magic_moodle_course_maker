@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Skala 0–10 działa, gdy wytłumaczona: 0 = brak, 10 = najgorsy wyobrażalny; pytaj regularnie i ZAPISUJ wartości — trend > pojedynczy wynik. Dla dzieci/afazji: twarze Wong-Baker. Ćwiczenie: przeprowadź 3 pomiary VAS w trakcie jednego zabiegu i skoryguj siłę po każdym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

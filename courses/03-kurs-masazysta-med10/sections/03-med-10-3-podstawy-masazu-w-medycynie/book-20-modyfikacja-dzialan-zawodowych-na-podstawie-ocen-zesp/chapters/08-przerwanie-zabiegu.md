@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Przerwać zabieg należy przy: bólu obronnym nieustępującym po zmniejszeniu siły, objawach ogólnoustrojowych (zawrót, duszność, kołatanie), niekontrolowanym drżeniu/lęku pacjenta, alarmującej zmianie skóry. Procedura: zatrzymaj techniki, przykryj, ułóż wygodnie, napój, obserwacja, dokumentacja, decyzja o kontynuacji/odstąpieniu. Ćwiczenie: przećwicz «miękkie zatrzymanie» z aktorem-pacjentem, który nagle poczuł mdłości.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Doznanie legalności środka dezynfekcyjnego: produkt musi mieć pozwolenie/ zgłoszenie (pozwolenie PT-ior albo status wyrobu medycznego lub produkt biobójczy zarejestrowany), kartę charakterystyki, datę ważności i przypisany czas działania. Praktyka: nie rozcieńczaj «na oko», nie mieszaj preparatów (chlor + kwas = gaz!), przechowuj z dala od źródeł ciepła. Zadanie: przeczytaj etykietę używanego preparatu i wypisz: substancja czynna, stężenie, czas na bakterie/grzyby/wiry, uwagi BHP.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ugniatanie (petrissage): wałeczkowanie (chwyt «klawiaturowy» na mięśniach długich), zgarnianie (wzdłuż włókien ku przyczepowi), rolkowanie i szczypcowe (fałd tkanki). Cel praktyczny: mechaniczne «wyciskanie» krwi i chłonki, rozluźnienie brzuśca, poprawa trofiki. Technika: faza trzymania 2–4 s + puszczenie, rytm zgodny z oddechem; przeciwwskazania miejscowe: żylaki, obrzęk zapalny, świeża blizna.
+Techniki w wodzie (kąpiel częściowa/całosciowa): opór wody wzmacnia głaskanie i rozcieranie, wypór odciąża stawy; temperatura 34–37°C, czas 10–20 min, asekuracja przy wstawaniu (mokre podłoże!). Obserwuj: tętno, oddech, kolor skóry, oznaki zmęczenia. Zadanie: przeprowadź 10-min masaż dłoni/przedramion w wodzie i porównaj odczucia z wersją «na sucho».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

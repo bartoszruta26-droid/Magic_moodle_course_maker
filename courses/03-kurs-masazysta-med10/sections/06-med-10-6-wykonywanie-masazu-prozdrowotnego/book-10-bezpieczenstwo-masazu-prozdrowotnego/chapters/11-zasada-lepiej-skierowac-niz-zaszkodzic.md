@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zasada «lepiej skierować niż zaszkodzić» porządkuje decyzje zawodowe: gdy obraz kliniczny wykracza poza kompetencje masażysty (bóle nocne, objawy neurologiczne, obrzęk jednostronny, chudnięcie, gorączka, zmiana skórna, ból pourazowy bez diagnozy) — przerywamy/rezygnujemy z zabiegu i kierujemy do lekarza lub fizjoterapeuty. Praktyka: przygotuj gotowy «formularz skierowania» (datowany, z opisem obserwacji i pieczątką) — to chroni pacjenta i Ciebie; odmawiaj uprzejmie, tłumacząc przyczynę i termin powrotu. Ćwiczenie: napisz trzy zdania odmowy dla różnych sytuacji — sprawdź, czy są prawdziwe, życzliwe i konkretne.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

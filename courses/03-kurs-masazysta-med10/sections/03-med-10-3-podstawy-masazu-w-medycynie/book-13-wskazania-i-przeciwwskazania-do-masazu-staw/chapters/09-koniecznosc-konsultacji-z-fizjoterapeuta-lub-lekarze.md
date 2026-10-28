@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Konsultuj, gdy: ból promieniuje z deficytem neurologicznym, obrzęk jednostronny/naprzemienny, podejrzenie DVT, gorączka, nowotwór w wywiadzie, ciąża wysokiego ryzyka, stan po operacji <6 tyg., jakakolwiek wątpliwość «czy wolno». Forma: pisemna/zapytanie telefoniczne + adnotacja w karcie. Ćwiczenie: napisz treść zapytania do lekarza POZ o pacjenta z bólem łydki i dusznością po podróży.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

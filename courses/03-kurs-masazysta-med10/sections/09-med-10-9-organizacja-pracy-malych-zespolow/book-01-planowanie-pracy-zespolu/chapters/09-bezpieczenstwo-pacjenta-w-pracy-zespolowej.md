@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja pracy małego zespołu praktycznie: grafik z buforem (zabieg + 10 minut przerwy technicznej), SOP-y otwarcia i zamknięcia dnia, podział ról (kto odbiera telefony, kto dezynfekuje), poranny stand-up 10 minut (przypomnienie przypadków ryzykownych), ocena pracownika wg check-listy (bezpieczeństwo > szybkość > sprzedaż), miesięczna retrospektywa z rejestrem zdarzeń niepożądanych; wdrażanie zmian: pilotaż → ewaluacja → skala. Sprawiedliwość: te same kryteria oceny dla wszystkich i jawne ścieżki szkoleń.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Rozwinięcie zagadnienia
 
@@ -58,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

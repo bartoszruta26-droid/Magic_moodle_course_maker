@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Usunięte węzły chłonne = upośledzony odpływ regionu: zakaz zabiegów cieplnych i głębokich na danym piętrze, profilaktyka zacięć i ukąszeń (rękawice!), unikanie ciasnych opasek, szybkie leczenie任何 infekcji skóry kończyny. Masaż: tylko techniki miękkie/limfatyczne wg protokołu. Ćwiczenie: dla pacjenta po usunięciu węzłów pachowych wypisz 6 zasad ochrony ręki i przeprowadź instruktaż teach-back.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

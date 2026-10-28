@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Wsparcie emocjonalne matki (połóg, wcześniak, żałoba okołoporodowa): obecność, uważne słuchanie, krótkie formy dotyku dające regulację (drapanie karku, dłonie), kierowanie do psychologa/pielęgniarki środowiskowej przy objawach depresji/lęku. Granice: nie jesteś terapeutą — jesteś sojusznikiem. Zadanie: napisz 3 zdania wsparcia i 1 zdanie skierowania do specjalisty.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

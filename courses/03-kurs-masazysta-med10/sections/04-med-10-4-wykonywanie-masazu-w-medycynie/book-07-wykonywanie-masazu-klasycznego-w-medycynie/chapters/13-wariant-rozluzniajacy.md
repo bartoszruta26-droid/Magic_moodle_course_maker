@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Wariant rozluźniający masażu klasycznego: głaskania długie, rytmiczne, dosercowe; rozcieranie powolne, koliste, powierzchowne; ugniatanie z długą fazą trzymania i wolnym puszczaniem; wałowanie i wibracje łagodne; tempo niskie, nacisk ≤ granicy komfortu, światło przyciemnione, brak bodźców nowych w trakcie. Cel fizjologiczny: przewaga tonusu przywspółczulnego — spowolnienie oddechu i tętna, ustąpienie bólu czynnościowego. Praktyka dydaktyczna: prowadź oddech pacjenta własnym rytmem rąk («wydech = ruch odpływowy»). Ćwiczenie kursanta: wykonaj 10-min wariant rozluźniający kończyny górnej i oceń zmianę subiektywnego napięcia w skali VAS przed/po.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

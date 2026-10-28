@@ -8,7 +8,6 @@ Prześcieradła, ręczniki, podkłady: zmiana między klientami; pranie min. 60�
 
 **Pamiętaj:** prawda — nigdy nie zatajaj przeciwwskazań ani granic swoich kompetencji; piękno — dbałość o detal, higienę i szacunek dla ciała drugiego człowieka; sprawiedliwość — działaj wyłącznie w zakresie posiadanych uprawnień, a w razie wątpliwości pokieruj klienta do lekarza.
 
-
 ## Rozwinięcie profesjonalne
 
 Załącznik I prezentuje procedury aseptyki i antyseptyki wg wymagań sanitarnych i wiedzy o łańcuchu infekcji.
@@ -88,4 +87,4 @@ zdrowie i ulgę cierpiącemu bliźniemu.*
 
 <!-- deepen-v1 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja stanowiska masażysty praktycznie: stół na wysokości talii (łokcie ~90°), dostęp do pacjenta z obu stron, oświetlenie ciepłe i regulowane, temperatura 22–26°C bez przeciągów, środki i ręczniki w zasięgu (bez sięgania «zza pleców»), droga ewakuacyjna wolna. Warunki domowe i podróżne: mata na podłodze lub krzesło masażowe, uporządkowane kable, poszanowanie prywatności domowników; brak stołu to wyzwanie mobilności, nie wymówka dla ergonomii. Raz w miesiącu zrób audyt zdjęcia własnego stanowiska.
+Masaż domowy: sprawdź, czy łóżko/kanapa utrzyma masażystę (deska/matę pod pacjenta!), dostęp do światła i ciepła, zwierzęta i dzieci poza pokojem, pośpiech gospodarzy — ustal czas z góry. Bezpieczeństwo własne: znaj trasę wyjścia, nie pracuj w izolacji przy agresywnym kliencie (prośba o obecność opiekuna). Ćwiczenie: przeprowadź wizję lokalną «jak ustawić stół w kawalerce» i narysuj plan.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

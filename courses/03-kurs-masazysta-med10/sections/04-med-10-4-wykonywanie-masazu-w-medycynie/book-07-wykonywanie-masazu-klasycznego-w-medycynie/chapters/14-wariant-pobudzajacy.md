@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Trzy warianty tego samego schematu: ROZLUŹNIAJĄCY (wolne tempo, głaskania, uciski 30–90 s, cisza, muzyka niska), POBUDZAJĄCY (szybsze oklepywania, wibracje, krótszy czas, przed wysiłkiem), LECZNICZY wg zlecenia (celowana okolica + parametry). Ćwiczenie: wykonaj ten sam grzbiet w dwóch wariantach i oceń ROM/tętno/spokój pacjenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

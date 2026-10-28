@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyka przeciwpożarowa gabinetu: znajomość planu ewakuacji (dwie drogi, punkt zbiórki), gaśnica przy stanowisku (ABC lub CO2 do instalacji elektrycznych; PASS: wyciągnij zawleczkę, celuj w podstawę ognia, ściskaj, zamiataj), alarmowanie 112/998, ewakuacja klientów okrytych — NIE wracaj po olejki i sprzęt; rozszczelnione butle/chemikalia: priorytet evakuacja i wentylacja, nie heroizm. Ćwiczenia praktyczne minimum raz w roku, z zapisem w dokumentacji.
+Ochrona przeciwpożarowa gabinetu: karta gazowości/elektryczności pomieszczenia, gaśnica ABC min. 4 kg przy wyjściu (sprawdź przegląd!), znak F-kierunkowy i D-oświetlenie awaryjne, droga ewakuacyjna wolna od kartonów i leżaków. Praktyka: znać na pamięć procedurę T-R-R (wzywasz ratunek, alarmujesz, gasisz tylko we wczesnej fazie i mając drogę odwrotu); oleje i tekstylia to materiały palne — nie składować ich przy grzejnikach. Ćwiczenie: poprowadź próbną ewakuację grupy i rozlicz czas (< 3 min).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

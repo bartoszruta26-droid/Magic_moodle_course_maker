@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Higiena otoczenia to porządek przestrzeni, w której leży człowiek: wentylacja i wymiana powietrza przed każdym klientem, czysta i sucha posadzka (bez plam oleju — ryzyko poślizgu), wyprane i złożone tekstylia jednorazowo na jednego pacjenta, zamknięte kosmetyki, kosz na odpady z pokrywą i pedałem, brak jedzenia w strefie zabiegowej. Praktyka: wprowadź check-listę «stanowisko gotowe w 3 min» (stół, ręcznik, środki, kosz, woda dla klienta) i realizuj ją mechanicznie, niezależnie od nastroju. Ćwiczenie: audyt higieny sali ćwiczeń — wypełnij kartę, wskaż 3 niezgodności i propozycje naprawy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

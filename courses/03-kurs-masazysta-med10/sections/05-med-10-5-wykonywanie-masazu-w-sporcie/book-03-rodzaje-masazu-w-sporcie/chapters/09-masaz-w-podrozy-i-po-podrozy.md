@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Podróże (samolot >4 h, autokar): ryzyko obrzęku i DVT — masaż krótki dosercowy, ćwiczenia w pozycji siedzącej, nawodnienie, po przylocie spacer; przy podejrzeniu zakrzepicy (ból+obrzęk jednostronny) — LEKARZ, nie «rozmasowywanie». Zadanie: napisz kartę «protokół podróżny» dla reprezentacji juniorów.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

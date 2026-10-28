@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
+Kodeks pracy w praktyce masażysty-etata: umowa na piśmie w dniu rozpoczęcia pracy, normy czasu (podstawowa 8 h/dobę, średnio 40 h/tydzień), przerwa 15 min przy dobowym wymiarze >6 h, urlop 26 dni za pełny etat, badania profilaktyczne i szkolenia BHP płatne pracodawcy. Zadanie kursanta: przeczytaj wzór umowy i znajdź zapisy o wynagrodzeniu, wypoczynku i odpowiedzialności porządkowej — sporządź notatkę dla siebie jako przyszłego pracownika.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

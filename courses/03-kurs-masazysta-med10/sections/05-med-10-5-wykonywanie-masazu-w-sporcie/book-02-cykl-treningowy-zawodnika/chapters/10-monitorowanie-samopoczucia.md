@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Monitorowanie samopoczucia sportowca: dzienniczek RPE — subiektywna ocena wysiłku, jakość snu, tętno spoczynkowe, ból mięśni 0–10, nastrój; masażysta notuje i reaguje (jeśli tętno spoczynkowe rośnie 3 dni — mniej intensywnie!). Ćwiczenie: przez 7 dni prowadź kartę samopoczucia kolegi-trenera i przedstaw wnioski.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

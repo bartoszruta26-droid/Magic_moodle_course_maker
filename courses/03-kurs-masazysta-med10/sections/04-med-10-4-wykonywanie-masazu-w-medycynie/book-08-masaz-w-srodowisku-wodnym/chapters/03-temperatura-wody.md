@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo termiczne praktycznie: rozgrzewać krótko (okład 10–15 min, temperaturę nośnika sprawdzona na własnym nadgarstku), schładzać przez ściereczkę (krioterapia miejscowa 5–10 min, nigdy lód bezpośrednio na skórę bez kontroli); przeciwwskazania: zaburzenia czucia (neuropatia, cukrzyca), choroby naczyń obwodowych, odmrożenia w wywiadzie. Kamienie gorące: test temperatury każdej partii, obserwacja skóry po. Poparzenie preparatem = przerwać, chłodzić wodą 15–20 min, zgłosić, udokumentować.
+Temperatura wody w hydroterapii i kąpieli częściowej: letnia 30–36°C, obojętna 34–37°C (relaks), ciepła 37–39°C (rogrzewanie — ostrożnie!), chłodna <26°C (kompresja, urazy). Praktyka: ZAWSZE mierz termometrem wodnym, nie łokciem; sprawdź reakcję krążeniową pacjenta (tętno, kolor skóry) po 3 min i co 5 min; przeciwwskazania gorączki i zaburzeń czucia. Ćwiczenie: przygotuj kąpiel dłoni w dwóch temperaturach i opisz różnice odczuć oraz wskazań.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Biomechanika tkanek miękkich: lepko-sprężyste (viskoelastyczne) — reagują na tempo i czas: szybki mocny bodziec → tkanka «twardnieje» (odpowiedź obronna); wolny utrzymywany → pełzanie (creep) i wydłużenie. Praktyka: rozluźnianie = wolne prowadzenie i przytrzymanie 30–90 s; pobudzenie = szybkie, krótkie serie. Ćwiczenie: wykonaj obie wersje na mięśniu równoległym grzbietu u partnera i porównaj tonus po.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

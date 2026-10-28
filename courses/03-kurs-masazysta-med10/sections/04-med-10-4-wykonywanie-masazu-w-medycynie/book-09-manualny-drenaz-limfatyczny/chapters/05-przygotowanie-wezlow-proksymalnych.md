@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Przygotowanie proksymalne: delikatne pompowania/okrężne rozcierania nad dołami podobojczykowymi i przeponą (4–6 powtórzeń, nacisk «jak muśnięcie»), celem zwiększenie pochłaniania limfy. Ćwiczenie: wykonaj sekwencję «brzuch→podobojczykowe→ramię» i oceń subiektywny ucisk w kończynie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

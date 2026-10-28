@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena rąk w gabinecie (5 momentów WHO): przed kontaktem z pacjentem, przed czynnością aseptyczną, po ryzyku ekspozycji na płyny, po kontakcie z pacjentem, po kontakcie z otoczeniem. Mycie wodą z mydłem 40–60 s (paznokcie krótkie, bez pierścionków i zegarka), dezynfekcja preparatem alkoholowym 20–30 s do sucha — na zdrowej skórze. Kursant ćwiczy procedurę z checklistą; stany zapalne lub uszkodzenia dłoni masażysty = czasowe odsunięcie od zabiegów.
+Powierzchnie w gabinecie muszą być gładkie, zmywalne, odporne na środki dezynfekcyjne i pozbawione spękań: stół z ekoskóry medycznej (bez przetarć!), blaty z laminatu/hpl, posadzka bez szczelin. Praktyka: każda powierzchnia kontaktu wysokiego (podłokietniki, uchwyty, włączniki) dezynfekowana między klientami z zachowaniem czasu kontaktu preparatu; test odporności materiału — przeczytaj kartę producenta przed zakupem. Zadanie: dobierz preparat i powierzchnię do scenariusza «pacjent z grzybicą stóp».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

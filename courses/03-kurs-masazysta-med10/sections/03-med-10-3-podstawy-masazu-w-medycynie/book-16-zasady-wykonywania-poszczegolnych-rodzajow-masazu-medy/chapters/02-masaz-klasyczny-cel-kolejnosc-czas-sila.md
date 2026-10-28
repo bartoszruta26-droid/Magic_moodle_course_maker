@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż klasyczny całościowy: kolejność głaskanie → rozcieranie → ugniatanie → oklepywanie → wibracja; ciało: grzbiet → kończyny → pośladki/brzuch (wg celu i zgody); czas 45–60 min; tempa wolniejsze ku końcowi. Praktyka: rozpoczynaj od strony mniej bolesnej, kończ głaskaniem dosercowym i pozycją leżącą 2–3 min. Zadanie: przeprowadź pełny 45-min masaż grzbietu+kończyny i oceń się wg check-listy F.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ekspozycja zawodowa praktycznie: zakłucie/skalenie lub kontakt z krwią → natychmiast przerwij pracę, wyprowadź krwawienie pod bieżącą wodą z mydłem (nie zasysaj!), przemyj środkiem bakteriobójczym, sporządź protokół ekspozycji (data, godzina, źródło, mechanizm), zgłoś przełożonemu i jedź do punktu konsultacyjnego chorób zakaźnych w 2–4 h (decyzja o profilaktyce pEEH HIV/WZW B/tężec). Standard: szczepienia personelu (WZW B), rękawiczki, ostrożność przy narzędziach. Terminowość ratuje zdrowie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

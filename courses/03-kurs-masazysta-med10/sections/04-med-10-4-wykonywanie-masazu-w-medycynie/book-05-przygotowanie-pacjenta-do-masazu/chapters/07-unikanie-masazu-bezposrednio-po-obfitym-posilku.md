@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Po obfitym posiłku: masaż brzucha i intensywny całego ciała dopiero po 1,5–2 h (ryzyko refluksu, dyskomfortu, nudności); lekkie głaskanie karku/dłoni dopuszczalne. Praktyka: pytaj «kiedy ostatni posiłek?» przy zabiegach wieczornych i u diabetyków (hipoglikemia!). Ćwiczenie: ustaw grafik 3 klientów po obiedzie z mądrymi przerwami i protokołami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

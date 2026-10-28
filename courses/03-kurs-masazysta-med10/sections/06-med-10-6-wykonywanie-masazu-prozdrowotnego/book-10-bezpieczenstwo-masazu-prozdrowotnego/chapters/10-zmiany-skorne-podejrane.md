@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zmiany skórne podejrzane oceniamy schematem ABCDE znamion: A — asymetria, B — brzegi nieregularne, C — color (wielobarwność), D — diameter >6 mm, E — evolution (zmiana w czasie). Każda zmiana z tymi cechami, sącząca, krwawiąca, swędząca lub «nowa i inna niż reszta» to przeciwwskazanie miejscowe do masażu i powód do pilnej konsultacji dermatologicznej (dermatoskopia, wycięcie). Praktyka: nie interpretuj sam, nie «smaruj cudownymi maściami» — sfotografuj za zgodą do dokumentacji, skieruj, pracuj poza polem zmiany dopiero po opinii lekarza. Zadanie: przećwicz opis 5 znamion na zdjęciach dydaktycznych wg ABCDE.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

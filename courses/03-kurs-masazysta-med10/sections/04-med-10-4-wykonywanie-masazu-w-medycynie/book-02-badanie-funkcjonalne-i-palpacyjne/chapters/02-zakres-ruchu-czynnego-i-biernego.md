@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+ROM czynny (AROM) vs bierny (PROM): AROM < PROM sugeruje osłabienie lub hamowanie bólem; AROM ≈ PROM ograniczone = przykurcz tkankowy. Masażysta mierzy oba (goniometr/okolicznościowo) i dobiera: rozluźnić (przykurcz) vs wzmocnić (osłabienie — do fizjoterapeuty). Ćwiczenie: zmierz AROM/PROM zgięcia kolana partnera i wpisz do karty z komentarzem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

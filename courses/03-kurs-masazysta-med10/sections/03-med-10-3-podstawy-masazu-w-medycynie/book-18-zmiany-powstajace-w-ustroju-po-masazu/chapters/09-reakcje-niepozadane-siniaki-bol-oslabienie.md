@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Reakcje niepożądane: siniak (kruche naczynia, leki p/krzepliwe, za duży nacisk), ból potreningowy 24–48 h (intensywność), osłabienie/zawrót (za długo/za głęboko, odwodnienie, hipoglikemia). Postępowanie: zimno 10–15 min przy krwiaku, nawodnienie, lekki spacer, informacja «kiedy wróci normalność». Zadanie: przeprowadź rozmowę wyjaśniającą z niezadowoloną klientką po masażu deep tissue — bez bronienia się, z planem naprawy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

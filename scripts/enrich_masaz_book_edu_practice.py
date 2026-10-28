@@ -30,13 +30,15 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from knowledge_entries_v6 import V6_KNOWLEDGE  # noqa: E402
 from knowledge_entries_v7 import V7_KNOWLEDGE  # noqa: E402
+from knowledge_entries_v8 import V8_KNOWLEDGE  # noqa: E402
 
-# V7 sprawdzane jako pierwsze — celniejsze profile nowszej tur; potem V6.
-COMBINED_MAP = list(V7_KNOWLEDGE) + list(V6_KNOWLEDGE)
+# V8 -> V7 -> V6: najnowsze (celniejsze) mapy sprawdzane jako pierwsze.
+COMBINED_MAP = list(V8_KNOWLEDGE) + list(V7_KNOWLEDGE) + list(V6_KNOWLEDGE)
 
 BASE = ROOT / "courses" / "03-kurs-masazysta-med10" / "sections"
-MARKER = "<!-- subch-v7 -->"
-OLD_MARKER = "<!-- subch-v6 -->"
+MARKER = "<!-- subch-v8 -->"
+OLD_MARKER = "<!-- subch-v7 -->"
+PREV_MARKER = "<!-- subch-v6 -->"
 MIN_WORDS = 380
 
 # Początki akapitów, które NIGDY nie są treścią właściwą danemu podrozdziałowi
@@ -142,8 +144,8 @@ def process(path: Path, dry: bool, revisit_v6: bool = False) -> tuple[str, int]:
     text = path.read_text(encoding="utf-8")
     if MARKER in text:
         return "skip-marker", 0
-    if OLD_MARKER in text and not revisit_v6:
-        return "skip-v6", 0
+    if (OLD_MARKER in text or PREV_MARKER in text) and not revisit_v6:
+        return "skip-prev", 0
     lines = text.splitlines()
     title_low = clean_title(lines[0]) if lines else ""
     para = why_body(text)
@@ -173,9 +175,9 @@ def process(path: Path, dry: bool, revisit_v6: bool = False) -> tuple[str, int]:
             text = text.replace(bad, fixed)
             changed = True
 
-    if changed or actions or revisit_v6 or OLD_MARKER in text:
-        # usuwamy stary znacznik v6 i stawiamy nowy v7 (jeśli plik był przetwarzany)
-        text = text.replace(OLD_MARKER, "").rstrip()
+    if changed or actions or revisit_v6 or OLD_MARKER in text or PREV_MARKER in text:
+        # usuwamy stare znaczniki (v6/v7) i stawiamy nowy v8
+        text = text.replace(PREV_MARKER, "").replace(OLD_MARKER, "").rstrip()
         text = text + "\n\n" + MARKER + "\n"
         text = re.sub(r"\n{3,}", "\n\n", text)
         if not dry:

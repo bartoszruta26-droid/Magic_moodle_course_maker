@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena rąk w gabinecie (5 momentów WHO): przed kontaktem z pacjentem, przed czynnością aseptyczną, po ryzyku ekspozycji na płyny, po kontakcie z pacjentem, po kontakcie z otoczeniem. Mycie wodą z mydłem 40–60 s (paznokcie krótkie, bez pierścionków i zegarka), dezynfekcja preparatem alkoholowym 20–30 s do sucha — na zdrowej skórze. Kursant ćwiczy procedurę z checklistą; stany zapalne lub uszkodzenia dłoni masażysty = czasowe odsunięcie od zabiegów.
+Aseptyka = zespół działań zapobiegających wtargnięciu drobnoustrojów do organizmu (czyste ręki, jałowe materiały na rany), antyseptyka = niszczenie drobnoustrojów na skórze błonach (preparaty: octenidyna, chlorheksydyna, PVP-jod). Praktyka masażysty: rana otwarta klienta = opatrunek i przesunięcie zabiegu; własne mikrourazy zabezpiecz plastrem wodoodpornym + rękawiczka; dezynfekcja rąk trwa minimum tyle, ile podano na ulotce preparatu (zwykle 20–30 s). Zadanie: przeanalizuj ulotki trzech preparatów i porównaj spectrum oraz czas działania.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

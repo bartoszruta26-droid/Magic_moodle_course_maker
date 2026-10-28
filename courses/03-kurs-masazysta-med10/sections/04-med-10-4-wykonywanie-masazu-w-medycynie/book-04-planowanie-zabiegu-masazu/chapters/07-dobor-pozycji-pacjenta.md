@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Pozycja pacjenta: na brzuchu (pod kostki wałek, pod biodra przy lordozie), na bokach (kliny między kolanami), półsiedząca (duszność, refluks, ciąża późna), siedząca (kark, dłonie — krzesło z oparciem). Kryteria: bezpieczeństwo, dostęp terapeuty, komfort >2 min, stabilność. Zadanie: ustaw pozycję do masażu barków u kobiety w III trymestrze i uzasadnij wybór.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

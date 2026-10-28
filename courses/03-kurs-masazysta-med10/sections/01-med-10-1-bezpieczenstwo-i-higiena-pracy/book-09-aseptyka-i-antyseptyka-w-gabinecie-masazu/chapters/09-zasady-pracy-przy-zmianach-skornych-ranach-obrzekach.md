@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Skórne przeciwwskazania w kwalifikacji: grzybica (ryzyko przeniesienia na inne obszary i personel — najpierw dermatolog, potem masaż), świerzb i pasożyty (odsunięcie i leczenie), półpasiec w fazie pęcherzykowej (nie masować — szerzenie i ból neuropatyczny), egzema/liszaj aktywny (okolica omijana), rumień i gorączka (bezwzględne ogólne). Standard: oględziny pola pracy w dobrym świetle PRZED aplikacją środka poślizgowego; wątpliwość — zdjęcie do konsultacji (bez danych osobowych) lub kierowienie do lekarza.
+Zmiany skórne i obrzęki: miejscowo zmienione tkanki OMIJAMY (grzybica, liszaj, aktywna łuszczyca, ropne krosty, owrzodzenie, zakrzepica powierzchowna); obrzęk — różnicuj: limfatyczny (delikatny drenaż, jeśli brak przeciwwskazań!) vs zapalny vs żylny (bezwzględnie do lekarza!). Praktyka: palpacja «dołka» po ucisku 5 s, obwód kończyny taśmą co 10 cm, zapis w karcie. Ćwiczenie: oceń obrzęk podudzia modelowo i zdecyduj: masaż, modyfikacja, odstąpienie.
 
 ## Rozwinięcie zagadnienia
 
@@ -58,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

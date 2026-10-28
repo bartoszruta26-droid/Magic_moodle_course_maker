@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja stanowiska masażysty praktycznie: stół na wysokości talii (łokcie ~90°), dostęp do pacjenta z obu stron, oświetlenie ciepłe i regulowane, temperatura 22–26°C bez przeciągów, środki i ręczniki w zasięgu (bez sięgania «zza pleców»), droga ewakuacyjna wolna. Warunki domowe i podróżne: mata na podłodze lub krzesło masażowe, uporządkowane kable, poszanowanie prywatności domowników; brak stołu to wyzwanie mobilności, nie wymówka dla ergonomii. Raz w miesiącu zrób audyt zdjęcia własnego stanowiska.
+Pracodawca odpowiada za: ocenę ryzyka, szkolenia BHP, ŚOI, badania profilaktyczne, nadzór (przełożony sprawdza stosowanie procedur!), kulturę bezpieczeństwa. Pracownik: stosuje się i współtworzy. Praktyka: jeśli czegoś brakuje — pisemna prośba, eskalacja do PIP w razie ignorowania. Zadanie: napisz rzeczowe pismo do pracodawcy o brakującego nitrylowe rękawice w odpowiednim rozmiarze.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

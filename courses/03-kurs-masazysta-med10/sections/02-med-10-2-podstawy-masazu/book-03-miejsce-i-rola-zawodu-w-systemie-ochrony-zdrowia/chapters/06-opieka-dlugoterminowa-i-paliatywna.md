@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Opieka długoterminowa i paliatywna: pacjent leżący, wyniszczony, często z obrzękami, odleżynami, kruchością skóry. Masaż ma charakter komfortowy (pielęgnacyjny): głaskanie dosercowe kończyn, delikatne techniki limfatyczne (bez pracy na zmianach odleżynowych!), pozycjonowanie co 2 h wg zaleceń pielęgniarskich, obecność i cisza jako terapia. Praktyka: uzgadniaj zakres z zespołem hospicyjnym/pielęgniarką prowadzącą. Zadanie: przygotuj protokół 15-minutowego zabiegu «komfortowego» dla osoby z zaawansowaną chorobą nowotworową.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

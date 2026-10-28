@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Reakcja niepożądana po zabiegu: dokumentuj ją tego samego dnia (co, kiedy, jak silna, co zrobiłeś/aś), poinformuj pacjenta o oczekiwanej dynamice i «oknach» alarmowych; przy poważnej — zgłoś przełożonemu/rejestr IN. Ćwiczenie: wypełnij kartę reakcji niepożądanej dla «nasilenia bólu ramiennego po masażu deep tissue».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
-
-Aseptyka — zapobieganie wprowadzaniu drobnoustrojów do organizmu; antyseptyka — niszczenie drobnoustrojów na tkankach żywych. W gabinecie: mycie i dezynfekcja rąk (podstawowe 15–30 s, higieniczne wg EN 1500 — 60 s), dezynfekcja powierzchni preparatami zarejestrowanymi, działającymi na bakterie, prątki gruźlicy, grzyby i wirusy osłonkowe (EN 14476), z zachowaniem czasu kontaktu podanego przez producenta; narzędzia wielorazowe poddawane dezynfekcji wysokopoziomowej lub sterylizacji (autoklaw class B, wskaźniki chemiczne i biologiczne, archiwizacja zapisów cykli).
+Higiena rąk w gabinecie (5 momentów WHO): przed kontaktem z pacjentem, przed czynnością aseptyczną, po ryzyku ekspozycji na płyny, po kontakcie z pacjentem, po kontakcie z otoczeniem. Mycie wodą z mydłem 40–60 s (paznokcie krótkie, bez pierścionków i zegarka), dezynfekcja preparatem alkoholowym 20–30 s do sucha — na zdrowej skórze. Kursant ćwiczy procedurę z checklistą; stany zapalne lub uszkodzenia dłoni masażysty = czasowe odsunięcie od zabiegów.
 
 ## Rozwinięcie zagadnienia
 
@@ -60,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

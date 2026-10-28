@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyka przeciwpożarowa gabinetu: znajomość planu ewakuacji (dwie drogi, punkt zbiórki), gaśnica przy stanowisku (ABC lub CO2 do instalacji elektrycznych; PASS: wyciągnij zawleczkę, celuj w podstawę ognia, ściskaj, zamiataj), alarmowanie 112/998, ewakuacja klientów okrytych — NIE wracaj po olejki i sprzęt; rozszczelnione butle/chemikalia: priorytet evakuacja i wentylacja, nie heroizm. Ćwiczenia praktyczne minimum raz w roku, z zapisem w dokumentacji.
+Procedura pożarowa w placówce: zachowaj spokój, zawrzyj drzwi (opóźniają rozprzestrzenianie), prowadź pacjentów najkrótszą wolną drogą do punktu zbiórki, nie używaj wind, liczbę osób potwierdź listą obecności. Praktyka masażysty: PRZERWIJ zabieg natychmiast, odłącz zasilanie urządzeń, pomóż osobie leżącej na stole (najczęściej wystarczy pomóc zejść lub ewakuować na noszach miękkich). Zadanie: weź udział w ćwiczebnej ewakuacji i opisz swoją rolę oraz 2 rzeczy do poprawy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

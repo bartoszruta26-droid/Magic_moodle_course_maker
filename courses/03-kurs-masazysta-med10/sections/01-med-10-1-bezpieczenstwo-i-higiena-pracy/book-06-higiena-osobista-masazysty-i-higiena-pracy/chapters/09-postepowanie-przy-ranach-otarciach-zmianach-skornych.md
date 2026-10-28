@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Skórne przeciwwskazania w kwalifikacji: grzybica (ryzyko przeniesienia na inne obszary i personel — najpierw dermatolog, potem masaż), świerzb i pasożyty (odsunięcie i leczenie), półpasiec w fazie pęcherzykowej (nie masować — szerzenie i ból neuropatyczny), egzema/liszaj aktywny (okolica omijana), rumień i gorączka (bezwzględne ogólne). Standard: oględziny pola pracy w dobrym świetle PRZED aplikacją środka poślizgowego; wątpliwość — zdjęcie do konsultacji (bez danych osobowych) lub kierowienie do lekarza.
+Rana na ręce masażysty: zatrzymaj krwawienie, przemyj wodą z mydłem, zdezynfekuj, opatrz i ZAŁÓŻ rękawicę wodoodporną; rozległe/sączyzące — opuść stanowisko. Ekspozycja przez krew pacjenta: przemyj, dezynfekuj preparatem dezynfekcyjnym (alkohol/chlorheksydyna), zgłoś przełożonemu, ocena ryzyka u lekarza chorób zakaźnych (brak odporności na WZW B — immunoglobulina/szczepienie; profilaktyka poekspozycyjna HIV <2 h gdy wskazana). Zadanie: przećwicz scenariusz ekspozycji igłą/opatrunkiem i wypełnij kartę zdarzenia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

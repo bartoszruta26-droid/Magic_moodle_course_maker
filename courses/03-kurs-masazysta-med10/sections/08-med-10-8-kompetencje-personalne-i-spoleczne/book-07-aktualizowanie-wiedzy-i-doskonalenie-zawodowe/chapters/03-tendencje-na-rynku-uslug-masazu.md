@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Analiza rynku: rośnie segment wellness i «office massage», klienci chcą dowodów skuteczności (pomiary, opinie), specjalizacje (sport, limfa, prenatal) — różnicują. Praktyka: rozwijaj 1–2 nisze + podstawowa oferta klasyczna. Zadanie: zbadaj 5 gabinetów w swoim mieście i porównaj ceny/usługi.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

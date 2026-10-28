@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo termiczne praktycznie: rozgrzewać krótko (okład 10–15 min, temperaturę nośnika sprawdzona na własnym nadgarstku), schładzać przez ściereczkę (krioterapia miejscowa 5–10 min, nigdy lód bezpośrednio na skórę bez kontroli); przeciwwskazania: zaburzenia czucia (neuropatia, cukrzyca), choroby naczyń obwodowych, odmrożenia w wywiadzie. Kamienie gorące: test temperatury każdej partii, obserwacja skóry po. Poparzenie preparatem = przerwać, chłodzić wodą 15–20 min, zgłosić, udokumentować.
+Parametry środowiska gabinetu: temperatura zalecana 20–24°C (przy masażu relaksacyjnym 22–24, po rozbieraniu pacjent odczuwa chłód!), wilgotność 40–60%, wentylacja zapewniająca wymianę powietrza (usuwa opary olejków i dezynfekcji), oświetlenie regulowane (zabiegowe ± ogólne, ciepłe barwy do relaksu), hałas <50 dB poza muzyką tła. Praktyka: przy złym samopoczuciu pracowników lub częstych infekcjach dróg oddechowych klientów sprawdź te liczby przyrządami. Ćwiczenie: wykonaj pomiar temperatury/wilgotności/licznika luksów w sali ćwiczeń i porównaj z wymaganiami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

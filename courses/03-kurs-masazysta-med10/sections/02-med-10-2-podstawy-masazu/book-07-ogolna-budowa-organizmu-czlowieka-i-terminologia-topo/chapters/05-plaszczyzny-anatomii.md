@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Płaszczyzny anatomiczne w praktyce: strzałkowa (ruchy zginania/prostowania), czołowa (odwodzenie/przywodzenie), poprzeczna (rotacje). Masażysta używa ich do opisu linii pracy (np. głaskanie wzdłuż płaszczyzny strzałkowej grzbietu) i pomiarów ROM. Ćwiczenie: na partnerze pokaż trzy płaszczyzny przez ruchy w stawie barkowym i nazwij je «na głos»; zapisz które techniki pracują w której płaszczyźnie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

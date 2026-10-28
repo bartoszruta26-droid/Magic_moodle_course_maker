@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Praca w środowisku wodnym — praktyka bezpieczeństwa: temperatura wody 33–36°C sprawdzana miarownikiem, wejście i wyjście z asekuracją (maty antypoślizgowe, uchwyty), pacjent z padaczką lub chorobą wieńcową nigdy sam w wodzie; obserwacja co 3–5 minut: oddech, kolor skóry, pytanie o samopoczucie. Techniki w wodzie: głaskanie i rozcieranie prowadzone z falą hydrostatyczną (efekt odprowadzający), czas krótszy niż na sucho. Dezynfekcja wanien między osobami wg instrukcji producenta i sanepidu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Dobór środków i techniki do typu skóry i choroby: sucha/atopowa — emolient bogaty, bez alkoholu w preparatach, krótszy kontakt z detergentem; tłusta/trądzikowa — oliwka lekka/żel, dokładne zmycie; naczyniowa — bez intensywnego tarcia i ciepła; cukrzyca — minimalne tarcie, ochrona stóp. Ćwiczenie: dobierz środek poślizgowy i parametry dla trzech modeli pacjentów i uzasadnij.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

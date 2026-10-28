@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Transfer pacjenta to zadanie praktyczne: wstawanie metodą «na krawędzi» — obrót na bok → nogi poza → podparcie ramieniem, własny środek ciężkości nisko, buty antypoślizgowe pacjenta; przy wannie — mata, uchwyt, osoba towarzysząca przy niesamodzielnych. Ergonomia masażysty: nie ciągnij za kończynę «do siebie» — pracuj nogami i tułowiem. Ćwiczenie: trzykrotna symulacja transferu osoby starszej z oceną ryzyka upadku.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

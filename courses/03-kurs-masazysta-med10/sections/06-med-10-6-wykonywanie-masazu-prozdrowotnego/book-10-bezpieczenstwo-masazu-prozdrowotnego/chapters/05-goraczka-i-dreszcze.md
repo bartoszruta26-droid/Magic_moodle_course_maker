@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Gorączka i dreszcze oznaczają zwykle ogólnoustrojową reakcję zapalną/zakaźną — masaż jest przeciwwskazany bezwzględnie: przyspieszony krwiobieg może szerzyć patogeny, a organizm potrzebuje energii do walki, nie dodatknych bodźców; ryzyko odwodnienia i omdlenia na stole rośnie. Praktyka: zmierz temperaturę, gdy pacjent zgłasza «rozklejenie», odwołuj zabieg i przekładaj termin (do 24–48 h po bezgorączkowym powrocie do formy, a przy infekcjach zakaźnych — po zakończeniu okresu zaraźliwości); dezynfekuj salę po każdej wizycie chorego, który jednak przyszedł. Zadanie: ułóż procedurę «gorący pacjent w drzwiach» dla recepcji swojego przyszłego gabinetu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

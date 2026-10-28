@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Cykle treningowe a masaż: mikrocykl (tydzień) — masaż regeneracyjny po ciężkich jednostkach; mezo (miesiąc) — deload, wtedy więcej pracy rozluźniającej; makro (rok) — okres startowy: krótkie, pobudzające; roztrenowanie: dłuższe, relaksacyjne. Ćwiczenie: dopasuj 4-tygodniowy plan masaży do tygodniówki biegacza przygotowującego półmaraton.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

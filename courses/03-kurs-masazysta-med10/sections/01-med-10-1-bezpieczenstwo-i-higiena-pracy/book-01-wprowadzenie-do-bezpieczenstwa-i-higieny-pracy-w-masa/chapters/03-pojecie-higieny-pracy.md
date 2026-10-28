@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
-
-Higiena pracy bada wpływ środowiska pracy na zdrowie człowieka i ustala normy oraz zasady zapobiegania chorobom zawodowym i związanym z pracą (rozporządzenie MZ w sprawie najwyższych dopuszczalnych stężeń i natężeń czynników szkodliwych). Dla masażysty kluczowe są: higiena rąk i stanowiska, mikroklimat gabinetu (temperatura 20–24°C, wilgotność 40–65%, wymiana powietrza), oświetlenie (≥300 lx w strefie pracy), dopuszczalne obciążenia układu mięśniowego (normy ISO 11228) oraz czynniki biologiczne (klasy ryzyka 3–4 wg rozporządzenia MZ z 2009 r.).
+Higiena pracy dotyczy czynników, które działają powoli i kumulują skutki: przeciążenie statyczne dłoni i kręgosłupa, mikroklimat gabinetu, chemia (środki dezynfekcyjne, olejki), hałas, biologia. Praktyka masażysty: planuj dzień tak, by po 3–4 zabiegach głębokich wejść zabiegi lżejsze; przy pracy z chustkami dezynfekcyjnymi zapewnij wentylację i nie przekraczaj stężenia roboczego preparatu; noś odzież ochronną zgodnie z instrukcją producenta. Ćwiczenie: wypełnij kartę narażenia zawodowego dla własnego stanowiska i wskaż czynnik dominujący.
 
 ## Rozwinięcie zagadnienia
 
@@ -60,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

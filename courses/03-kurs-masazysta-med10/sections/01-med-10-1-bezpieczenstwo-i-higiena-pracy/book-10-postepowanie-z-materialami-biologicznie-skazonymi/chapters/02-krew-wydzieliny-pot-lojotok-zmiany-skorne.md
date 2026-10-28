@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Kontakt z krwią i wydzielinami: pot i łojotok nie stanowią istotnego ryzyka epidemicznego przy skórze całej; krew, wydzielina z ran, ślina z krwią — TAK: rękawiczki, dezynfekcja powierzchni po, utylizacja odpadów medycznych. Praktyka: drobne skaleczenie pacjenta (pęknięta pięta!) — opatrujemy, przerywamy pracę w tym miejscu, dezynfekujemy. Zadanie: przećwicz założenie opatrunku na piętę i procedurę po ekspozycji.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

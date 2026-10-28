@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Doskonalenie zawodowe praktycznie: plan roczny (1 kurs specjalistyczny + 2 warsztaty + lektura: Zborowski, Bochenek, Traczyk, aktualne wytyczne ERC/WHO), portfolio CPD (certyfikaty, godziny, refleksja «co zmieniłem w praktyce»), mentoring i superwizja przypadków; weryfikuj wiarygodność szkoleń (kadra, program, numer zaświadczenia). Prawda: dyplom MED.10 to start, nie sufit — wiedza medyczna zmienia się szybciej niż moda na techniki.
+Szkolenia BHP: wstępne (przed dopuszczeniem do pracy) i okresowe (etatowcy co najmniej raz na 5 lat, na stanowiskach robotniczych; administracja rzadziej). Zakres dla masażysty: czynniki szkodliwe, ŚOI, ergonomia, pierwsza pomoc, przeciwpożarowe. Praktyka: zaświadczenie noś w teczce osobowej; praca bez ważnego szkolenia grozi odpowiedzialnością obu stron. Zadanie kursanta: ułóż kalendarz szkoleń i badań na najbliższe 5 lat swojej kariery.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

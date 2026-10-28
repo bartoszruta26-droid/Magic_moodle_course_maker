@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena rąk w gabinecie (5 momentów WHO): przed kontaktem z pacjentem, przed czynnością aseptyczną, po ryzyku ekspozycji na płyny, po kontakcie z pacjentem, po kontakcie z otoczeniem. Mycie wodą z mydłem 40–60 s (paznokcie krótkie, bez pierścionków i zegarka), dezynfekcja preparatem alkoholowym 20–30 s do sucha — na zdrowej skórze. Kursant ćwiczy procedurę z checklistą; stany zapalne lub uszkodzenia dłoni masażysty = czasowe odsunięcie od zabiegów.
+Dezynfekcja praktycznie: preparat alkoholowy do rąk wcieramy w suchą skórę przez min. 30 s obejmując kciuki, przestrzenie międzypalcowe, opuszki i paznokcie; powierzchnie — spryskać/smear i ODCZEKAĆ czas kontaktu (np. 1 min), potem zetrzeć lub pozostawić do wyschnięcia. Ręka brudna mechanicznie (olej!) → mycie wodą z mydłem, potem dezynfekcja. Zadanie: wykonaj test UV-gelu zobrazujący pola pominięte przy dezynfekcji.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

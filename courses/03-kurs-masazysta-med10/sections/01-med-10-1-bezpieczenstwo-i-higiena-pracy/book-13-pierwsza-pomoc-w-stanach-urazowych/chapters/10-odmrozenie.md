@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Odmrożenie (lokalne): skóra blada, zimna, zdrętwiała, w cięższych fazach pęcherze. Pierwsza pomoc: przenieść w ciepło, zdjąć wilgotną odzież, ogrzewać letnią wodą 37–39°C (NIE gorącą!) 20–30 min do powrotu czucia i przekrwienia, nie rozcierać śniegiem, nie przebijać pęcherzy, jałowy opatrunek, ciepły płyn, konsultacja lekarska przy głębokich zmianach. Profilaktyka gabinetu krioterapii: zawsze bariera tkaninowa, limit czasu, kontrola skóry. Zadanie: przeprowadź symulację ogrzewania odmrożonego palca i opisz kryteria przekazania lekarzowi.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

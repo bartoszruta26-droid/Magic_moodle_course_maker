@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
+Medycyna pracy orzeka zdolność do wykonywania zawodu: badania wstępne (przed podjęciem pracy), okresowe (zwykle co 1–5 lat wg orzeczenia) i kontrolne (po zwolnieniu >30 dni). Masażysta zgłasza lekarzowi rzeczywisty profil pracy — obciążenie kończyn górnych, kontakt z chemią, pracę w kontakcie fizycznym. Praktyka: przeciwwskazania do zawodu (np. zaawansowane choroby skóry rąk, niektóre padaczki) omów otwarcie; orzeczenie przechowuj. Ćwiczenie: przygotuj listę pytań do lekarza medycyny pracy przed badaniem wstępnym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

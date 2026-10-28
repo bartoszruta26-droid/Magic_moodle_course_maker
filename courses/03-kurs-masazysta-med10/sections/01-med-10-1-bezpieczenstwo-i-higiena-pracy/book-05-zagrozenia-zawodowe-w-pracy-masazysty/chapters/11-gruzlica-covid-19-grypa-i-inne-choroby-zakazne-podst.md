@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy — granice i technika: praca na torebce, więzadłach i mięśniach okołostawowych; kolejność praktyczna: głaskanie kierunkowe → rozcieranie okrężne wokół szpary stawowej → (ZA SZKOLENIEM, ZLECENIEM I W GRANICACH ROM) trakcje, kompresje i ślizgi; end-feel i ból sterują całym ruchem; ostry wysięk, gorąca opuchlizna = STOP (reumatolog/ortopeda); endoproteza — typ w dokumentacji, żadnych rotacji ponad zakres fizjologiczny; współpraca z fizjoterapeutą obowiązkowa przy ograniczeniach mechanicznych.
+Patogeny istotne dla gabinetu: grypa/SARS-CoV-2 (droga kropelkowa/aerozolowa — maseczka, odstęp, wietrzenie), WZW B (krew — szczepienie personelu!), grzybice i wirus brodawek (kontakt bezpośredni — omijać zmiany), świerzb (bliski dłuższy kontakt — odsunięcie zabiegu do leczenia), półpasiec (do wyschnięcia pęcherzy). Ćwiczenie: dobierz procedurę postępowania dla 4 klientów z powyższym rozpoznaniem «na głos».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

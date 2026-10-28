@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Fizykoterapia: wykorzystanie bodźców fizycznych (ciepło, zimno, prąd, światło, ultradźwięk, pole magnetyczne) — zabiegi wykonuje elektrofizjoterapeuta/fizjoterapeuta. Masażysta zna zasady łączenia: np. po krioterapii odcinek nie masujemy głęboko zaraz; ciepło przed masażem ułatwia rozluźnienie. Granica: nie «dobieram fizio» bez zlecenia. Ćwiczenie: opisz kolejność «kąpiel wirowa → masaż → ćwiczenia» dla skrętego stawu skokowego w fazie podostrzej (za zgodą lekarza).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

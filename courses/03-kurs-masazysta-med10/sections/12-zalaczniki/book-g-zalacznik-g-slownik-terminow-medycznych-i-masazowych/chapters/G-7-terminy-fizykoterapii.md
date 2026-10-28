@@ -8,7 +8,6 @@ kondukcyjna/conwekcyjna transmisja, elektroterapia, galwanizacja, jonoforeza, pr
 
 **Pamiętaj:** prawda — nigdy nie zatajaj przeciwwskazań ani granic swoich kompetencji; piękno — dbałość o detal, higienę i szacunek dla ciała drugiego człowieka; sprawiedliwość — działaj wyłącznie w zakresie posiadanych uprawnień, a w razie wątpliwości pokieruj klienta do lekarza.
 
-
 ## Rozwinięcie profesjonalne
 
 Załącznik G jest słownikiem terminologii medycznej i masażowej — narzędziem egzaminu, komunikacji w zespole i dokumentacji.
@@ -88,4 +87,4 @@ zdrowie i ulgę cierpiącemu bliźniemu.*
 
 <!-- deepen-v1 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Techniki w wodzie (kąpiel częściowa/całosciowa): opór wody wzmacnia głaskanie i rozcieranie, wypór odciąża stawy; temperatura 34–37°C, czas 10–20 min, asekuracja przy wstawaniu (mokre podłoże!). Obserwuj: tętno, oddech, kolor skóry, oznaki zmęczenia. Zadanie: przeprowadź 10-min masaż dłoni/przedramion w wodzie i porównaj odczucia z wersją «na sucho».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

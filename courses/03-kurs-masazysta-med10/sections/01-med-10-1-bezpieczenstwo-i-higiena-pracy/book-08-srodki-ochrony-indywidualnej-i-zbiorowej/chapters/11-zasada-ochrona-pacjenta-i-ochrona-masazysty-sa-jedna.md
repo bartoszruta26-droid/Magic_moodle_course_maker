@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Równość ochrony: ten sam standard higieny i bezpieczeństwa obowiązuje wobec pacjenta i wobec masażysty — nie ma «niższej rangi» dla kontuzji ręki terapeuty. Praktyka: zgłaszaj każdy ból przetrwały > tydzień, korzystaj z rehabilitacji zawodowej, rotuj rodzaj zabiegów; nie przyjmuj od pacjenta «ratowania» Twojego zmęczenia dodatkową kawą i szybkim tempem. Ćwiczenie: ustal swój limit dzienny zabiegów i uzasadnij fizjologicznie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

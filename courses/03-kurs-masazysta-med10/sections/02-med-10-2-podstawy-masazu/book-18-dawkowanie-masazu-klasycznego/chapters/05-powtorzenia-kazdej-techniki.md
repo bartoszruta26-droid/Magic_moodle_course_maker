@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Powtórzenia: jednostajny rytm buduje odpowiedź nerwową (hamowanie lub aktywacja); typowo 4–8 powtórzeń na linię/okolica, techniki rozluźniające wolniej i dłużej, pobudzające szybciej i krócej. Praktyka: licz powtórzenia wewnętrznie («raz-dwa-trzy») by zachować symetrię stron ciała. Ćwiczenie: wykonaj serię 6 powtórzeń rozcierania na obu stronach grzbietu; partner wskazuje asymetrię tempa/czasu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo termiczne praktycznie: rozgrzewać krótko (okład 10–15 min, temperaturę nośnika sprawdzona na własnym nadgarstku), schładzać przez ściereczkę (krioterapia miejscowa 5–10 min, nigdy lód bezpośrednio na skórę bez kontroli); przeciwwskazania: zaburzenia czucia (neuropatia, cukrzyca), choroby naczyń obwodowych, odmrożenia w wywiadzie. Kamienie gorące: test temperatury każdej partii, obserwacja skóry po. Poparzenie preparatem = przerwać, chłodzić wodą 15–20 min, zgłosić, udokumentować.
+Bezpieczeństwo termiczne: zimno aplikujemy przez barierę (ręcznik) 10–15 min z obserwacją skóry (bielizna, «marmurkowatość» = stop); ciepło max 40–42°C na krótkie partie, nigdy na skórę znieczuloną lub z zaburzeniami czucia (cukrzyca, niedowłady) bez nadzoru. Praktyka gabinetu: kontrola wizualna co kilka minut, zapis temperatury i czasu w karcie. Zadanie: przeprowadź demonstrację kompresji lodowej i ciepłego okładu na partnerze, dokumentując reakcje.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

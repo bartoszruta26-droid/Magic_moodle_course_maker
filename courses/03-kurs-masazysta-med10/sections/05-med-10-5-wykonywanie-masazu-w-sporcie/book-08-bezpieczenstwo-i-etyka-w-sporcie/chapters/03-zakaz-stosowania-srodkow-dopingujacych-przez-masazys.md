@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zakaz stosowania środków dopingujących dotyczy też masażysty: nie nakładamy na skórę preparatów zawierających substancje z listy WADA (np. niektóre maści «przeciwbólowe» z składnikami zakazanymi w sporcie, domieszki stymulujące), nie podajemy suplementów «na pewny efekt», nie uczestniczymy w maskowaniu dopingu masażem «detoksykującym». Praktyka: czytaj składy, pytaj trenera/klienta o listę przyjmowanych preparatów, dokumentuj użyte medium w karcie; klient-SPORTOWIEC podlega kontrolom — Twoja odpowiedzialność jest realna. Zadanie: znajdź w wykazie WADA trzy substancje spotykane w kosmetykach/maściach i wyjaśnij konsekwencje ich użycia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Przygotowanie do egzaminu MED.10 — plan praktyczny: część pisemna: powtórki naprzemienne (anatomia↔patologia↔procedury) w rytmie 1/3/7/21 dnia, testy bankowe ≥30 pytań na quiz; część praktyczna: symulacje 1:1 z arkuszem oceniania (stoper, karta kwalifikacji, stanowisko «na brudno» → «na czysto»), przećwicz 3 pełne zabiegi okoliczne + kwalifikację «na głos» + sytuację awaryjną (omdlenie w scenariuszu); postawa: spokojna pewność wynikająca z powtarzalności procedury, nie z improwizacji. Pokora wobec błędu = punkt startu poprawy.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Rozwinięcie zagadnienia
 
@@ -58,4 +58,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

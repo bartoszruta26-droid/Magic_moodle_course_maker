@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Maseczka w gabinecie: wskazania epidemiologiczne (infekcja dróg oddechowych masażysty lub pacjenta, zalecenia sanitarne placówki, stan pandemii), typ chirurgiczny vs FFP2 (ta druga chroni noszącego, wymaga dopasowania i testu szczelności). Praktyka: wymiana co maks. godzinę lub po zawilgoceniu; nie dotykaj zewnętrznej strony; zdejmuj za gumki, wyrzuć, zdezynfekuj ręce. Zadanie: przećwicz zakładanie i zdejmowanie w parze, wskazując błędy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

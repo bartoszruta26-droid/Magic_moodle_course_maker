@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Kinezyterapia = leczenie ruchem ( ćwiczenia bierne, czynno-bierne, czynne, z oporem; masaż leczniczy bywa jej elementem). Rola masażysty: NIE zastępuje fizjoterapeuty w doborze obciążeń — współpracuje: po masażu rozluźnioną tkankę «utrwalaj» aktywnością pacjenta. Praktyka: pokaz 1–2 ćwiczeń domowych zgodnych z zaleceniami. Zadanie: ułóż mini-plan «masaż łydki + 2 ćwiczenia» dla osoby z przykurczem zgięciowym stopy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

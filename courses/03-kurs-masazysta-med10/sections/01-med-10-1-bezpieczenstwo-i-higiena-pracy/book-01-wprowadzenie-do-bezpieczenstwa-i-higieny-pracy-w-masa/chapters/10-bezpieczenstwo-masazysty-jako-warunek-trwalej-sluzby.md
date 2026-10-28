@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Trwała służba wymaga sprawnego terapeuty: profilaktyka obciążeń statycznych i dynamicznych (kręgosłup lędźwiowy, odcinek szyjny, nadgarstki — zespoły przeciążeniowe), rozgrzewka dłoni przed serią zabiegów, limity liczby masaży głębokich w dniu, rotacja technik i klientów, ergonomia transferu pacjenta, odpoczynek między sesjami. Zmęczony masażysta traci precyzję nacisku i czujność — dlatego dbałość o siebie jest elementem etyki zawodowej, nie egoizmem.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

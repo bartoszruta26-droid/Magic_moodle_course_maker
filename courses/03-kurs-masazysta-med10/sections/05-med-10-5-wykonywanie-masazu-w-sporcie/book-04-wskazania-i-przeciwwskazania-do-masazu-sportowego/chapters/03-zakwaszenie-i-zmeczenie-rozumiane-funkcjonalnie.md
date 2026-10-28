@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+«Zakwaszenie» w sensie potocznym = metabolity i mikrouszkodzenia po wysiłku; fizjologicznie laktat normalizuje się w ~1 h, DOMS — opóźniony ból mięśniowy — to mikrourazy + stan zapalny. Masaż łagodzi odczucia i poprawia komfort, nie «wypłukuje kwasu». Ćwiczenie: wyjaśnij pacjentowi DOMS i dobierz protokół 24 h po maratonie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

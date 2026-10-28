@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Siniaki (krwiaki podskórne): ryzyko przy lekach przeciwpłytkowych/przeciwkrzepowych, kortykosteroidach, starczej skórze, chorobach wątroby, niedoborach witaminy C i K. Profilaktyka: mniejsza siła, brak intensywnego ugniatania i wałkowania, krótszy czas. Po siniaku: zimno 48 h, potem ciepło, obserwacja. Zadanie: dla pacjenta na acenokumarolu ustal «limit nacisku» i protokół grzbietu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Dolegliwości menstruacyjne: masaż relaksacyjny okolicy lędźwiowo-krzyżowej (delikatny), oddech, ciepły okład na podbrzusze (jeśli pacjentka akceptuje), pozycje ulżeniowe; unikaj głębokiego masażu brzucha i intensywnych technik w pierwszych dniach u kobiet z obfitym krwawieniem. Szacunek: temat normalizujemy spokojnym językiem. Zadanie: przygotuj 20-min protokół «miesiączkowy ból pleców» i przeprowadź go na modelowej partnerce.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ból L-S: najczęstszy — wyklucz czerwone flagi (deficyt neuro, gorączka, trauma, nowotwór w wywiadzie, nocny nieustępujący); masaż rozluźnia mm. prostowniki, mm. prostowników grzbietu (QLR), pośladkowy średni, odciąża pozycją (kolana zgięte), uczyj ruchomości. Nie «nastawiaj kręgów» — to mit. Zadanie: przeprowadź 25-min sesję L-S z oceną VAS i ROM tułowia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

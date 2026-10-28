@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Działanie miejscowe na skórę: hiperemia (rumień) = lepsze odżywienie; usuwanie złuszczonego naskórka; wzrost temperatury o 1–2°C; przyspieszenie resorpcji obrzęków i wysięków; refleksyjne wpływy segmentarne (odruchy skórno-narządowe). Ćwiczenie: zmierz temperaturę skóry grzbietu termometrem przed i po 10 min masażu i opisz zależność od techniki.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

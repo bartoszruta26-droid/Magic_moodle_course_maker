@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż kończyny dolnej praktycznie: kolejność stopa → podudzie → udo → pośladek, kierunek dosercowy; żylaki i fałdy pachwinowe (węzły, tętnica udowa) — omijaj; łydka: wałeczkowanie trójgłowego łydki — przy bólu spoczynkowym i obrzęku NAJPIERW wyklucz zakrzepicę (stop i lekarz!); Achilles: rozcieranie podłużne i poprzeczne bez pracy «przez ból»; udo: czworogłowy (głębiej), przywodziciele delikatnie (bruzda przyśrodkowa — naczynia/nerwy), pasmo boczne — wałkowanie. Ćwiczenie: pełny protokół 20 min z pomiarem obwodu kostki przed i po.
+Urządzenia: sklerotom/dermatom (wibracja punktowa) — praca wg włókien, krótkie serie; miotom (oklepywanie mechaniczne) — przez podkład, nie na kostach/nerkach; wibratory — czas aplikacji maks. 5–7 min/okolica, przeciwwskazania jak przy termoelektryce. Ćwiczenie: wykonaj 3-min sekwencję wibracji na mm. czworoboczny i oceń tonus przed/po.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Negatywne czynniki stylu życia i środowiska: siedzący tryb, przewlekły stres, niedobór snu (<6 h), alkohol/tyton, zanieczyszczenie powietrza, dieta wysoko-przetworzona. Ich konsekwencje dla masażysty: gorsza regeneracja tkanek, wyższy tonus, szybsze nawroty dolegliwości. Praktyka: przy każdym zabiegu pytaj «co oprócz masażu może dziś pomóc?» i zapisuj odpowiedź w planie. Ćwiczenie: przeprowadź wywiad stylu życia 5-minutowy i sformułuj 3 realne rekomendacje behawioralne.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

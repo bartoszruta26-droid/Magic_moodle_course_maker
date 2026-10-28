@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja stanowiska masażysty praktycznie: stół na wysokości talii (łokcie ~90°), dostęp do pacjenta z obu stron, oświetlenie ciepłe i regulowane, temperatura 22–26°C bez przeciągów, środki i ręczniki w zasięgu (bez sięgania «zza pleców»), droga ewakuacyjna wolna. Warunki domowe i podróżne: mata na podłodze lub krzesło masażowe, uporządkowane kable, poszanowanie prywatności domowników; brak stołu to wyzwanie mobilności, nie wymówka dla ergonomii. Raz w miesiącu zrób audyt zdjęcia własnego stanowiska.
+Praca w terenie (zawody, plener): ocena bezpieczeństwa miejsca (nawierzchnia, dostęp do cienia, woda), apteczka mobilna, dezynfekcja rąk żelem bez wody, krótkie protokoły (5–10 min regeneracja), zasada: nie leczymy urazów — stabilizujemy, chłodzimy, kierujemy do medyka zawodów. Zadanie: spakuj «torbę polową» na dwudniowe zawody i opisz jej zawartość.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

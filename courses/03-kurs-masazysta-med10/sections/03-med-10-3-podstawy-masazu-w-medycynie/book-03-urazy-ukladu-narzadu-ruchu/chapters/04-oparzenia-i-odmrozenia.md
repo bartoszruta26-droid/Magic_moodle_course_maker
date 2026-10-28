@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Odmrożenie (lokalne): skóra blada, zimna, zdrętwiała, w cięższych fazach pęcherze. Pierwsza pomoc: przenieść w ciepło, zdjąć wilgotną odzież, ogrzewać letnią wodą 37–39°C (NIE gorącą!) 20–30 min do powrotu czucia i przekrwienia, nie rozcierać śniegiem, nie przebijać pęcherzy, jałowy opatrunek, ciepły płyn, konsultacja lekarska przy głębokich zmianach. Profilaktyka gabinetu krioterapii: zawsze bariera tkaninowa, limit czasu, kontrola skóry. Zadanie: przeprowadź symulację ogrzewania odmrożonego palca i opisz kryteria przekazania lekarzowi.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

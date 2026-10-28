@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Funkcjonalna anatomia limfy: kapilary limfatyczne → naczynia → węzły → pień piersiowy/prawy przewód limfatyczny → żyły podobojczykowe. Klucz: NIGDY nie zaczynaj od części obwodowej obrzękniętej kończyny — najpierw «otwierasz» proksymalne zbiorniki (podobojczykowe, brzuszny). Ćwiczenie: pokaż na sobie/modelu 4 stacje odpływu i wykonaj 3-min przygotowanie węzłów.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

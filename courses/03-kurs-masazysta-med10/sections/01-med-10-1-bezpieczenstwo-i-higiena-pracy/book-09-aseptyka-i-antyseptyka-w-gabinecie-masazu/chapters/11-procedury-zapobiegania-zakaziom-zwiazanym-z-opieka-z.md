@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zapobieganie ZZO (zakażeniom związanym z opieką): łańcuch przerywamy na każdym ogniwie — higiena rąk (najskuteczniejsze pojedyncze działanie), czyste/sterylnie materiały, asertywność wobec własnych objawów infekcji, segregacja odpadów, dezynfekcja poziomów ryzyka. Praktyka: wprowadź «moment zero» — dezynfekcja rąk przy pierwszym dotknięciu pacjenta i przy ostatnim. Ćwiczenie: audituj 3 kolejnych kolegów wg WHO 5 Moments i omów wyniki bez oceniania osoby, tylko czynność.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

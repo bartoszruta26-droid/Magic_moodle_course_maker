@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Doskonalenie zawodowe praktycznie: plan roczny (1 kurs specjalistyczny + 2 warsztaty + lektura: Zborowski, Bochenek, Traczyk, aktualne wytyczne ERC/WHO), portfolio CPD (certyfikaty, godziny, refleksja «co zmieniłem w praktyce»), mentoring i superwizja przypadków; weryfikuj wiarygodność szkoleń (kadra, program, numer zaświadczenia). Prawda: dyplom MED.10 to start, nie sufit — wiedza medyczna zmienia się szybciej niż moda na techniki.
+Kształcenie ustawiczne masażysty: minimum — odświeżenie BHP/pierwszej pomocy co kilka lat, plus rozwój fachowy (kursy specjalizacyjne, konferencje, superwizja praktyki, czytelnictwo piśmiennictwa). Praktyka: Indywidualny Plan Rozwoju — 2 cele roczne SMART, portfolio (certyfikaty, opisy przypadków, nagrania technik). Ćwiczenie: napisz swój IPR na 12 miesięcy i oszacuj koszt/godziny.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

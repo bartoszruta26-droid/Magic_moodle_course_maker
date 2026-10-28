@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zmiana zlecenia lekarskiego: masażysta NIE zmienia samodzielnie zakresu/obszaru/czasu zapisanego w zleceniu — każdą istotną modyfikację konsultuje z wystawiającym i notuje decyzję. Wyjątek: bezpieczeństwo wymaga natychmiastowego przerwania (i tak raportujesz). Ćwiczenie: zadzwoń (symulacja) do lekarza z prośbą o rozszerzenie zlecenia na drugą stronę ciała — sformułuj argumentację kliniczną.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

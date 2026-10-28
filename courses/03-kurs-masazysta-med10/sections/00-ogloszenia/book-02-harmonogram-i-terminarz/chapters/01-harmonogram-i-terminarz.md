@@ -76,4 +76,4 @@ pamięci człowieka: systematyczność zastępuje talent, a sumienność — szc
 Na miesiąc przed egzaminem MED.10 ruszają bloki powtórkowe modułu 11
 (symulacje, studia przypadków, kryteria wykonania praktycznego).
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ból obronny to moment, w którym organizm pacjenta zaciska mięśnie i wstrzymuje oddech — sygnał STOP dla danej siły. Przekraczanie go powoduje wzrost tonusu, mikro-uszkodzenia i utratę zaufania. Praktyka: reguła «maks. 4–5/10 i malejąca»; jeśli pacjent «wyłącza się» emocjonalnie — przerwij i wyjaśnij. Ćwiczenie: w parach znajdź próg obronny partnera na mm. prostownikach grzbietu i ćwicz zatrzymanie TUŻ PRZED nim.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

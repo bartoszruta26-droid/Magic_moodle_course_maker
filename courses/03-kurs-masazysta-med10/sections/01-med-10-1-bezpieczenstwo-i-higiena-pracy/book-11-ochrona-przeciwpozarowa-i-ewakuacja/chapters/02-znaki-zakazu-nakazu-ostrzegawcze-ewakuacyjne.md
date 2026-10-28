@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyka przeciwpożarowa gabinetu: znajomość planu ewakuacji (dwie drogi, punkt zbiórki), gaśnica przy stanowisku (ABC lub CO2 do instalacji elektrycznych; PASS: wyciągnij zawleczkę, celuj w podstawę ognia, ściskaj, zamiataj), alarmowanie 112/998, ewakuacja klientów okrytych — NIE wracaj po olejki i sprzęt; rozszczelnione butle/chemikalia: priorytet evakuacja i wentylacja, nie heroizm. Ćwiczenia praktyczne minimum raz w roku, z zapisem w dokumentacji.
+Znaki bezpieczeństwa rozpoznajesz natychmiast: zakazu (czerwony okrąg — np. «Nie pić», «Zakaz palenia»), nakazu (niebieski — «Obuwie ochronne»), ostrzegawczy (żółty trójkąt — «Napięcie» «Ślizgawa podłoga»), ewakuacyjny/informacyjny (zielony — «Wyjście ewakuacyjne», «Punkt pierwszej pomocy»). Praktyka gabinetu: sprawdź czytelność znaków przy oświetleniu awaryjnym; zadanie: narysuj plan gabinetu z rozmieszczeniem znaków i gaśnicy wg norm.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

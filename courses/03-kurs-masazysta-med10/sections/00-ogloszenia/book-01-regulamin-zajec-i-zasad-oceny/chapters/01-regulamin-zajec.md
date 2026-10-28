@@ -86,4 +86,4 @@ Kwalifikacyjny kurs zawodowy w zawodzie masażysty (MED.10) jest szkołą służ
   ćwiczebnej na obserwatora z kartą analizy. Nikt nie jest karany za
   uczciwe zgłoszenie — odwrotnie: milczenie byłoby zagrożeniem dla klienta.
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

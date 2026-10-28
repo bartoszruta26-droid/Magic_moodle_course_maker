@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ekspozycja zawodowa praktycznie: zakłucie/skalenie lub kontakt z krwią → natychmiast przerwij pracę, wyprowadź krwawienie pod bieżącą wodą z mydłem (nie zasysaj!), przemyj środkiem bakteriobójczym, sporządź protokół ekspozycji (data, godzina, źródło, mechanizm), zgłoś przełożonemu i jedź do punktu konsultacyjnego chorób zakaźnych w 2–4 h (decyzja o profilaktyce pEEH HIV/WZW B/tężec). Standard: szczepienia personelu (WZW B), rękawiczki, ostrożność przy narzędziach. Terminowość ratuje zdrowie.
+Myślenie kliniczne w granicach kompetencji: etiologia (przyczyna) → patogeneza (mechanizm powstawania dolegliwości) → objawy (co widzisz/badasz) → powikłania (czego unikać masażem). Masażysta nie stawia diagnozy, ale rozumie język lekarza i potrafi opisać obserwacje. Praktyka: w karcie zapisuj OBIEKTYWNY opis (rumień, temperatura skóry, tonus, ROM), nie «pacjent ma rwę». Zadanie: przełóż subiektywne «boli mnie noga» na 5 zdań obserwacyjnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

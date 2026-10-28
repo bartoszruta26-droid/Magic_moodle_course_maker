@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Zakaz biżuterii przy rękach masażysty ma podwójne uzasadnienie — bezpieczeństwa i higieny: pierścionki, obrączki z wystającymi elementami, zegarki na pasku czy bransoletki mogą rysować skórę pacjenta, zaczepiać się o naskórek i utrudniać dokładną dezynfekcję (pod kamieniem i w szczelinach osadza się biofilm). Praktyka gabinetu: do zabiegu przystępujemy z gołymi, krótko obciętymi paznokciami (≤2 mm), bez biżuterii na dłoniach i przedramionach; dopuszczalne są gładkie obrączki typu «comfort fit», jeśli nie przeszkadzają i nie mają ozdób — decyzję zapisuje regulamin wewnętrzny. Ćwiczenie kursanta: przeprowadź wzajemny audyt «strefy kontaktu» partnera wg check-listy (paznokcie, biżuteria, zegarek) przed symulacją zabiegu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

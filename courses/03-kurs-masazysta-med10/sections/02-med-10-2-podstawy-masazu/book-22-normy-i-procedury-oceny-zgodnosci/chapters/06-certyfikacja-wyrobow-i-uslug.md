@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Certyfikacja: wyrób medyczny/środek dezynfekcyjny musi mieć oznakowanie CE i deklarację producenta; usługa może być objęta normą jakości (ISO, znak bezpieczeństwa usługi). Praktyka masażysty: kupuj sprzęt i chemię z legalnego obrotu, przechowuj dokumenty; «no-name» z marketu ≠ preparat medyczny. Zadanie: sprawdź w etykiecie oliwki i dezynfekcji, który dokument potwierdza dopuszczenie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Kolejność technik w zabiegu (praktyczny kanon): głaskanie przygotowawcze → rozcieranie (ogrzanie pola) → ugniatanie (praca właściwa) → techniki pogłębione (uciski, rozciąganie) → oklepywanie/wibracja zależnie od celu (pobudzić lub wyciszyć) → głaskanie zakończenia. Na kończynach kierunek dosercowy. Ćwiczenie: przeprowadź pełny protokół grzbietu z timerem — każda zmiana techniki powinna być płynna i rytmiczna.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

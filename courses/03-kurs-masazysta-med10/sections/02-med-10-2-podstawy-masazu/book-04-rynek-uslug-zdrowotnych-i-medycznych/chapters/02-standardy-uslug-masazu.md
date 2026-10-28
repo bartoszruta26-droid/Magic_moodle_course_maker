@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Standard usługi masażu w placówce to opisany zestaw: kwalifikacja (wywiad, przeciwwskazania), czas i kolejność technik, środki higieny, dokumentacja karty zabiegu, procedura reklamacji i zdarzeń niepożądanych, kompetencje personelu. Praktyka: standard wdraża się szkoleniem i audytem (check-lista jakości); odstępstwa notuj z przyczyną. Zadanie: napisz jednostronicowy standard «masażu pleców 30 min» dla swojego przyszłego miejsca pracy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

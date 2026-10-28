@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Kompresjoterapia (rękawy uciskowe/bandażowanie wielowarstwowe): stosowana w obrzęku limfatycznym przez wykwalifikowaną osobę (terapeuta limfologiczny/fizjoterapeuta); masażysta asystuje w zakresie edukacji i pozycjonowania, NIE bandażuje bez uprawnień. Kontrola: tętno, czucie, kolor palców co 15 min początkowo. Zadanie: opisz 5 sygnałów «za ciasno» i procedurę zdjęcia bandaża.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

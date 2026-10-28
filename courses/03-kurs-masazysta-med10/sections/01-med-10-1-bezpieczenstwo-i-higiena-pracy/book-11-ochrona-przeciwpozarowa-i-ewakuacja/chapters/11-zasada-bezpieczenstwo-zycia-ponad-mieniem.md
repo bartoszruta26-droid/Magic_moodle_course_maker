@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Hierarchia wartości w sytuacji zagrożenia: ŻYCIE I ZDROWIE człowieka > mienie > procedury formalne. Praktyka pożarowa/ewakuacyjna: najpierw wynieś/pomóż osobie (pacjent na stole, dziecko), potem wyłącz urządzenia, gaśnica tylko gdy bezpieczne. Nie wracaj po torbę czy laptopa. Ćwiczenie: przećwicz ewakuację «pacjenta» leżącego na stole z użyciem prześcieradła jako noszy — we dwie osoby.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zmiana stanu klinicznego (gorączka, nowy ból, obrzęk, wysypka, pogorszenie sprawności) = wstrzymaj cykl i skieruj do lekarza; nie «doczytuj» zabiegów do nowej patologii. Praktyka: karta obserwacji z datą i opisem; feedback do placówki. Zadanie: napisz notatkę «zmiana stanu — odstąpienie zabiegu» dla pacjenta onkologicznego z gorączką 38,5°C.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

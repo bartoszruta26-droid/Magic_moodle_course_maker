@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Delikatność: przy dzieciach, osobach starszych, po urazach — nacisk «piórka», tempo ślimacze, krótkie serie; ruch bierny prowadź WOLNO, z asekuracją stawu, kończąc w komfortowym zakresie. Ćwiczenie: przeprowadź mobilizację stawu skokowego osoby starszej i oceń jej poczucie bezpieczeństwa.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Przeciwwskazania wspólne fizykoterapii i masażu: gorączka, ostre stany zapalne i pourazowe (I faza), zakrzepica żył głębokich, otwarte rany w polu zabiegu, niewyrównana cukrzyca z neuropatią (ciepło!), ciąża — ostrożnie okolica lędźwi/brzuch, nowotwór aktywny — tylko za zgodą onkologa, wszczepiony rozrusznik — bez diatermii/prądów. Praktyka: aktualizuj listę w karcie przy KAŻDYM spotkaniu. Zadanie: zaznacz na sylwetce 6 obszarów «stop» dla pacjenta z żylakami i świeżym zakrzepem w wywiadzie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

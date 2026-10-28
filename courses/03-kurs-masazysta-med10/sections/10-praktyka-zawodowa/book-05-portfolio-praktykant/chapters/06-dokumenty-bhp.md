@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
+Komplet dokumentów BHP gabinetu: ocena ryzyka zawodowego na każde stanowisko, instrukcja BHP obsługi stołu/wanny/krwiomierza, rejestr szkoleń, wypadków i chorób zawodowych, protokoły pomiarów środowiska (jeśli wymagane), ocena warunków pracy na wniosek PIP. Praktyka: dokumenty muszą być aktualne i dostępne dla pracownika — sprawdź raz na kwartał, czy ocena ryzyka obejmuje np. nowe urządzenie. Ćwiczenie: zrób audyt «co by pokazał inspektor w 10 minut».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

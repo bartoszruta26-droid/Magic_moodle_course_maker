@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ochrona intymności: odsłaniasz tylko pracowaną okolicę, drzwi zamknięte, pukanie, brak rozmów o ciele z osobami trzecimi, neutralny język; przy zabiegach okolic intymnych (np. pachwina) — zgoda imienna i obecność drugiej osoby gdy pacjent życzy. Zadanie: napisz zdanie zapraszające do «kontroli granic» przed zabiegiem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

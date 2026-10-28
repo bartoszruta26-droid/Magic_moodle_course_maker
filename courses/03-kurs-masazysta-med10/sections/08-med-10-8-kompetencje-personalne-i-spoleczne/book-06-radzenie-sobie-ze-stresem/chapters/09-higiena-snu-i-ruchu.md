@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Higiena snu to fundament regeneracji, której masaż jest wsparciem, nie substytutem. Praktyczny instruktaż dla pacjenta: stałe pory zasypiania i wstawania (także w weekendy), sypialnia chłodna (16–18°C), ciemna i cicha; ekrany bez niebieskiego światła przez ostatnią godzinę przed snem; kofeina tylko do godziny 12:00–14:00 (okres półtrwania 5–7 h); kolacja 2–3 h przed snem; łóżko skojarzone wyłącznie ze snem. Ćwiczenie kursanta: przeprowadź 3-minutowy instruktaż wieczorny dla osoby z bezsennością napięciową, dobierając masaż relaksacyjny jako element «mostu» do snu — i zapisz ustalenia w karcie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

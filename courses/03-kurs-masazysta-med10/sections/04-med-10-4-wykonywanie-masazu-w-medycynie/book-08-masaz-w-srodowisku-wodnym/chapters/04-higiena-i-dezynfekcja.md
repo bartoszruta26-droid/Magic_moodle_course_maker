@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Dezynfekcja praktycznie: preparat alkoholowy do rąk wcieramy w suchą skórę przez min. 30 s obejmując kciuki, przestrzenie międzypalcowe, opuszki i paznokcie; powierzchnie — spryskać/smear i ODCZEKAĆ czas kontaktu (np. 1 min), potem zetrzeć lub pozostawić do wyschnięcia. Ręka brudna mechanicznie (olej!) → mycie wodą z mydłem, potem dezynfekcja. Zadanie: wykonaj test UV-gelu zobrazujący pola pominięte przy dezynfekcji.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

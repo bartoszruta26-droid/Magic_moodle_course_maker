@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo termiczne praktycznie: rozgrzewać krótko (okład 10–15 min, temperaturę nośnika sprawdzona na własnym nadgarstku), schładzać przez ściereczkę (krioterapia miejscowa 5–10 min, nigdy lód bezpośrednio na skórę bez kontroli); przeciwwskazania: zaburzenia czucia (neuropatia, cukrzyca), choroby naczyń obwodowych, odmrożenia w wywiadzie. Kamienie gorące: test temperatury każdej partii, obserwacja skóry po. Poparzenie preparatem = przerwać, chłodzić wodą 15–20 min, zgłosić, udokumentować.
+Oświetlenie a komfort zabiegu: światło ogólne przyciemnione dla relaksu, punktowe (lampka zabiegowa) do kontroli czerwieni skóry i pracy szczegółowej; temperatura barwowa 3000–4000 K. Praktyka: ocena rumienia po masażu wymaga dobrego światła — nie oceniaj efektu w półmroku; lampy nie mogą świecić pacjentowi w oczy. Ćwiczenie: dobierz scenariusz oświetlenia do masażu twarzy vs sportowego i uzasadnij.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

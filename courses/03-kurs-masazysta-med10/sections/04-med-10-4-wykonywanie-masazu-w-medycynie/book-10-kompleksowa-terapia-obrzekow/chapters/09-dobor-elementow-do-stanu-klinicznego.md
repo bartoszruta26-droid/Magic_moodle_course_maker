@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Dobór elementów programu limfatycznego (MLD, bandaż, ćwiczenia, pielęgnacja) do stanu: faza i stopień obrzęku, stan skóry, motywacja, współistnienia (niewydolność serca — ostrożnie z objętością!). Praktyka: plan pisemny i ewaluacja co 2–4 tyg. Zadanie: dopasuj 4-elementowy program dla 2 różnych pacjentów z obrzękiem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

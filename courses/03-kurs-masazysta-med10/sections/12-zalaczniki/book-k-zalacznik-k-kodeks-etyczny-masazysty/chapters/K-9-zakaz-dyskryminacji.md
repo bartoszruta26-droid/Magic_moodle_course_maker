@@ -25,7 +25,6 @@ Sygnały niepokojące (ból klienta ignorowany, żarty o ciele, prośby o „wi�
 
 **Pamiętaj:** prawda — nigdy nie zatajaj przeciwwskazań ani granic swoich kompetencji; piękno — dbałość o detal, higienę i szacunek dla ciała drugiego człowieka; sprawiedliwość — działaj wyłącznie w zakresie posiadanych uprawnień, a w razie wątpliwości pokieruj klienta do lekarza.
 
-
 ## Rozwinięcie profesjonalne
 
 Załącznik K ustanawia kodeks etyczny masażysty oparty na trzech filarach: prawdzie, pięknie i sprawiedliwości.
@@ -105,4 +104,4 @@ zdrowie i ulgę cierpiącemu bliźniemu.*
 
 <!-- deepen-v1 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

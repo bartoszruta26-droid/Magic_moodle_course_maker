@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Kwalifikowana pierwsza pomoc w praktyce gabinetu: ocena bezpieczeństwamiejsca → przytomność → oddech; brak normalnego oddechu = wołaj pomoc, dzwoń 112, RKO 30:2 (uciśnięcia 5–6 cm, tempo 100–120/min, pełne rozprężenie), AED jak najszybciej: elektrody prawy podobojczyk / lewy bok klatki, analiza przy OPUSZCZONYCH rękach wszystkich, raż jeśli wskazany, natychmiast wróć do uciśnięć; prowadź do przyjazdu PRM lub powrotu krążenia. Ćwiczenie kursu: minimum dwukrotny trening na fantomie ze szkolnym AED.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

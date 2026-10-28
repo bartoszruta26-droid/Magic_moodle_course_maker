@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ekspozycja zawodowa praktycznie: zakłucie/skalenie lub kontakt z krwią → natychmiast przerwij pracę, wyprowadź krwawienie pod bieżącą wodą z mydłem (nie zasysaj!), przemyj środkiem bakteriobójczym, sporządź protokół ekspozycji (data, godzina, źródło, mechanizm), zgłoś przełożonemu i jedź do punktu konsultacyjnego chorób zakaźnych w 2–4 h (decyzja o profilaktyce pEEH HIV/WZW B/tężec). Standard: szczepienia personelu (WZW B), rękawiczki, ostrożność przy narzędziach. Terminowość ratuje zdrowie.
+Patogeny istotne dla gabinetu: grypa/SARS-CoV-2 (droga kropelkowa/aerozolowa — maseczka, odstęp, wietrzenie), WZW B (krew — szczepienie personelu!), grzybice i wirus brodawek (kontakt bezpośredni — omijać zmiany), świerzb (bliski dłuższy kontakt — odsunięcie zabiegu do leczenia), półpasiec (do wyschnięcia pęcherzy). Ćwiczenie: dobierz procedurę postępowania dla 4 klientów z powyższym rozpoznaniem «na głos».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

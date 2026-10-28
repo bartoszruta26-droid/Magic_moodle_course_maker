@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Wpływ masażu na skórę (udowodniony fizjologicznie): przekrwienie (rumień czynny), lepsza trofika i temperatura, zwiększona elastyczność, wspomaganie resorpcji obrzęków, złuszczanie martwych keratynocytów (poprzez tarcie + emolient), efekt neurofizjologiczny (bramka bólu, relaksacja). Nie udowodniono «detoksykacji wątrobowej» — nie mów tak pacjentom! Ćwiczenie: pokaż różnicę rumienia po głaskaniu vs po oklepywaniu i wyjaśnij mechanizm.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

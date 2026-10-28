@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż w chorobach narządów wewnętrznych: wyłącznie W GRANICACH ZLECENIA — jako wsparcie komfortu (refleksyjne techniki segmentarne, oddech, rozluźnienie powłok), nie «leczenie narządu». Obserwuj: tętno, ciśnienie, oddech, perystaltykę; alarmowo → lekarz. Zadanie: dla pacjenta z POChP ułóż 15-min plan wspomagający oddech.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

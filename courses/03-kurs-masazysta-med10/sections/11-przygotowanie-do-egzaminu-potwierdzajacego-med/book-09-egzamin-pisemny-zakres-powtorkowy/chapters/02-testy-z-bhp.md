@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
+Sprawdzian BHP to nie formalność: pytania dotyczą konkretów (droga ewakuacyjna, czas dezynfekcji, postępowanie po ekspozycji na krew). Praktyka nauki: ucz się na scenariuszach gabinetowych, tłumacz sobie KAŻDĄ odpowiedź. Zadanie: rozwiąż 10 pytań banku quizu 1.x i zapisz 3 zagadnienia do powtórki w rytmie 1/3/7/21.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

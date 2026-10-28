@@ -119,4 +119,4 @@ Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałac
 
 <!-- subch-v1 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

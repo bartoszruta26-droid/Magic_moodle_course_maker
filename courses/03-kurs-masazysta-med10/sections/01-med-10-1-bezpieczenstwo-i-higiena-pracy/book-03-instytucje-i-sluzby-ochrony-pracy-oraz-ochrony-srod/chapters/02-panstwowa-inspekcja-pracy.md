@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
+Państwowa Inspekcja Pracy kontroluje legalność i bezpieczeństwo zatrudnienia: może wejść do zakładu, żądać dokumentów, wstrzymać pracę urządzenia lub stanowiska, nakładać kary. Praktyka masażysty: znaj swoje prawa — prawo odmowy pracy bez szkolenia BHP i bez wymaganego wyposażenia; w razie wypadku pracodawca ma obowiązek powiadomić PIP przy ciężkich/zbiorowych. Ćwiczenie: odegraj scenkę rozmowy z inspektorem dotyczącą nielegalnej pracy «na czarno» kolegi.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

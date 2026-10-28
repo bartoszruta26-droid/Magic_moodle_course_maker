@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Praca nogami: pozycja «rozsadowiona» — stopy na szerokość bioder, jedna lekko wysunięta; przenoszenie ciężaru ciała z nogi na nogę daje napęd technikom bez siły barków; przy przestawianiu stołu i leżaków — chwyt pewny, plecy proste, ciężar nisko, w razie potrzeby druga osoba. Ćwiczenie: seria głaskań wykonanych TYLKO z przeniesieniem masy ciała; partner ocenia różnicę odczuć i zmęczenie masażysty.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Obowiązek używania ŚOI wynika z oceny ryzyka i polecenia pracodawcy: rękawice przy kontakcie z uszkodzoną skórą/wydzielinami, fartuch przy hydroterapii, maseczka przy objawach infekcji. Odmowa użycia = naruszenie obowiązków pracowniczych; brak zapewnionych ŚOI = naruszenie po stronie pracodawcy. Praktyka: zakładaj zdejmuj bez dotykania strony brudnej, utylizuj do właściwego pojemnika. Ćwiczenie: przećwicz pełny cykl «założenie – praca – zdjęcie – dezynfekcja rąk» na czas.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

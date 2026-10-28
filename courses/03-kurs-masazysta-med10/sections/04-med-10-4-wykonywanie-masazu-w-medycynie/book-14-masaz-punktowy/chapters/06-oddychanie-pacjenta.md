@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Oddech pacjenta w trakcie zabiegu: rytm swobodny = dobry znak; wstrzymywanie = za mocno lub lęk; przyspieszenie bez powodu = niepokój (ból, klimat, hipoglikemia). Techniki rozluźniające prowadź NA WYDECHU. Ćwiczenie: zsynchronizuj 10 głaskań z wydechem partnera i oceń różnicę napięcia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Praktyka przeciwpożarowa gabinetu: znajomość planu ewakuacji (dwie drogi, punkt zbiórki), gaśnica przy stanowisku (ABC lub CO2 do instalacji elektrycznych; PASS: wyciągnij zawleczkę, celuj w podstawę ognia, ściskaj, zamiataj), alarmowanie 112/998, ewakuacja klientów okrytych — NIE wracaj po olejki i sprzęt; rozszczelnione butle/chemikalia: priorytet evakuacja i wentylacja, nie heroizm. Ćwiczenia praktyczne minimum raz w roku, z zapisem w dokumentacji.
+Gaśnice w gabinecie: proszkowa ABC (uniwersalna, ale brudzi i ogranicza widoczność), śniegowa CO2 (do urządzeń elektrycznych — nie trzymaj za dyszę, grozi odmrożeniem!), wodna/pianowa (nie na instalacje pod napięciem). Praktyka: przegląd co najmniej raz w roku, manometr w zielonym polu, odblokowanie zawleczki → celowanie w podstawę ognia → ruch zamiatający; gasisz wyłącznie początkowy pożar, mając za plecami drogę ucieczki. Ćwiczenie: trening wyciągnąć zawleczkę, ścisnąć dźwignię, celować w podstawę ognia — na trenowanej gaśnicy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

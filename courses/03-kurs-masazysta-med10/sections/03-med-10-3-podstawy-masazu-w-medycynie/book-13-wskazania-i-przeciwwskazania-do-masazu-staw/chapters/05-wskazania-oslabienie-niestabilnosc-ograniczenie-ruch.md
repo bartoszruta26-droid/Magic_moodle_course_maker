@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Osłabienie i niestabilność stawu: masaż wspiera propriocepcję i gotowość tkanek, ale stabilizację buduje się ćwiczeniem (kinezyterapia/fizjoterapia). Kolejność praktyczna: rozgrzej → mobilizacje łagodne wg ROM → aktywacja wg zaleceń → zakończenie wyciszeniem. Granica: świeży uraz i niestabilność pourazowa = najpierw lekarz. Ćwiczenie: przeprowadź blok «kolano po artroskopii menisku, 6 tyg.» zgodnie z zleceniem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

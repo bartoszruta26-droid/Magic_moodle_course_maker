@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Utrata masy ciała bez przyczyny (niezamierzona, >5% w 3–6 miesięcy) to sygnał alarmowy wymagający diagnostyki lekarskiej: endokrynopatie, choroby nowotworowe, przewlekłe infekcje, zaburzenia wchłaniania, depresja. Masażysta nie diagnozuje — ale ma obowiązek zauważyć: porównuj sylwetki i deklaracje klientów z wizyty na wizytę, notuj w karcie. Praktyka: przy wychudzeniu i osłabieniu dobierz pozycje z pełnym podparciem, mniejszą siłę i krótszy czas (tkanka mniej chroniona!), a rozmowę zakończ życzliwą sugestią wizyty u lekarza POZ. Ćwiczenie: odegraj scenkę takiej rozmowy — fakt, troska, konkret, bez dramatu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

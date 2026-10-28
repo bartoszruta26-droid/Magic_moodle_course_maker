@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Przeciwwskazania uczymy warstwami: bezwzględne (gorączka i choroby zakaźne, zakrzepica żył głębokich, świeży uraz/krwiak, zmiany skórne ropne i grzybicze w polu zabiegu, Decompensatio cordis, nowotwór w trakcie aktywnej terapii bez zgody lekarza) — zabieg odstępuje się; względne (ciąża, osteoporoza, nadciśnienie nieuregulowane, żylaki, cukrzyca z neuropatią) — modyfikuje się pozycję, siłę, czas i kolejność. Praktyka gabinetu: przed każdym zabiegiem szybki wywiad «5 pytań bezpieczeństwa» i spojrzenie na pole zabiegowe; wątpliwość = stop i konsultacja. Zadanie kursanta: dla trzech różnych jednostek chorobowych wypisz przeciwwskazania bezwzględne i względne wraz ze swoim postępowaniem — sprawdź z Załącznikiem D.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

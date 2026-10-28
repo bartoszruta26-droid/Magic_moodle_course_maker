@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Nadmierna stymulacja (zwłaszcza u dzieci, osób starszych, z demencją, po udarze): pobudzenie > rozluźnienie → niepokój, bezsenność, wzrost tonusa. Praktyka: krótszy czas (10–20 min), wolne tempo, jedna okolica na raz, obserwacja zachowania PO zabiegu; następnym razem jeszcze łagodniej. Zadanie: dla dziecka z mózgowym porażeniu dziecięcym zaplanuj 12-min protokół «ciszy i ruchu» z udziałem rodzica.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

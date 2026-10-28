@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Na tkankę podskórną działają rozcieranie i ugniatanie: przesuwanie płynów (limfa), «rozklepywanie» zrostów powierzchownych, poprawa ruchomości fałdu; zbyt agresywnie → wybroczyny. Praktyka: ocena «jezdności» fałdu przed i po; u osób z obrzękiem — ruchy dosercowe i wolne. Zadanie: wykonaj 5-min pracę fałdową nad barkiem i zanotuj zmianę przesuwalności.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

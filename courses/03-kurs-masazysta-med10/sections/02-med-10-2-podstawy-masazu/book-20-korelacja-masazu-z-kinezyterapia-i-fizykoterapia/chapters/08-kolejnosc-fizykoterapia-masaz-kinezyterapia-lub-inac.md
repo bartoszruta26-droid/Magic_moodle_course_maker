@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Kolejność zabiegów wg zlecenia: zwykle najpierw zabieg przygotowujący (ciepło/kąpiel) → masaż → ćwiczenia (kinezyterapia); po krioterapii masaż powierzchniowy, nie głęboki; po masażu głębokim nie nakładaj intensywnego obciążenia treningowego tego samego dnia. Praktyka: zapisz w karcie jaką sekwencję zastosowałeś i dlaczego. Ćwiczenie: ułóż plan dwóch dni dla pacjenta z ZZSK w remisji (fizio+masaż+ruch).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

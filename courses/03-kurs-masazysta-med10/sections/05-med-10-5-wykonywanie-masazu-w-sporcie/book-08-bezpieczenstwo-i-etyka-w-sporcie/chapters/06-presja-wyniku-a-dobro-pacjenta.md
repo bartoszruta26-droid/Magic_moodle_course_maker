@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Presja wyniku (klub, sponsor, rodzic) kontra dobro zawodnika: Twoim mandatem jest bezpieczeństwo; ustal jasne granice współpracy z kadrą i raportuj niepokojące sygnały lekarzowi. Etos: służyć człowiekowi, nie medalowi za wszelką cenę. Ćwiczenie: napisz maila do lekarza klubowego z opisem presji trenera na zawodniczkę z bólem kolana.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

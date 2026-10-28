@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ryzyko termiczne i mechaniczne: przegrzanie okładem → oparzenie (szczególnie skóra z zaburzeniami czucia); zbyt długie tarcie → otarcie naskórka i pęcherz; zbyt mocne ugniatanie → krwiak. Praktyka: limit ciepła 15–20 min, kontrola co 5 min; po zabiegu ocena skóry «przed/po» na zdjęciu/w druku. Zadanie: przeprowadź demonstrację prawidłowego zabezpieczenia skóry przed okładem parafinowym (za zgodą instruktora).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

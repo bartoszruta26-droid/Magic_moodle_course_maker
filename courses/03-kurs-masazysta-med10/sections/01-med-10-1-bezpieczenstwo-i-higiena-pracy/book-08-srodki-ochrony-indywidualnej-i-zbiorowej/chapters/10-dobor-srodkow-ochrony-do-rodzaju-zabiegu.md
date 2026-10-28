@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Dobór ŚOI do zadania: rękawiczki nitrylowe przy ranach/opatrunkach i chorobach skóry; fartuch/zapaska wodoszczelna przy hydroterapii i peelingu; maseczka przy infekcji; okulary przy aerozolach. Zasada: ŚOI nie zastępują procedury higieny rąk i nie nosimy rękawic «cały dzień». Zadanie: skompletuj «walizkę ŚOI» na dzień łączący zabieg kosmetyczny, limfatyczny i kąpiel stóp.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Reakcja alarmowa: ból w klatce/potylicy z deficytem neurologicznym (udar?), duszność/kołatanie (EMBOLIA? astma?), omdlenie nieodwracające się szybko, wysypka generalizowana (anafilaksja na środek!), obrzęk+tętny ból łydki (DVT). Praktyka: NATYCHMIAST przerwij, wezwij 112/999, ułóż bezpiecznie, monitoruj oddech/świadomość, dokumentuj. Ćwiczenie: przećwicz scenariusz omdlenia na stole — pozycja Trendelenburga uproszczona, ABC, telefon.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -54,4 +54,4 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 
 <!-- subch-v2 -->
 
-<!-- subch-v6 -->
+<!-- subch-v8 -->
