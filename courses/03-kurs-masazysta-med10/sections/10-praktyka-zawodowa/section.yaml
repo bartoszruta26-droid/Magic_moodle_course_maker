@@ -6,20 +6,20 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-cele-praktyki-zawodowej.md"
+  - type: book
+    ref: book-01-cele-praktyki-zawodowej
     name: "10.1. Cele praktyki zawodowej"
-  - type: page
-    ref: "page-02-miejsca-realizacji-praktyki.md"
+  - type: book
+    ref: book-02-miejsca-realizacji-praktyki
     name: "10.2. Miejsca realizacji praktyki"
-  - type: page
-    ref: "page-03-zadania-ucznia-sluchacza-na-praktyce.md"
+  - type: book
+    ref: book-03-zadania-ucznia-sluchacza-na-praktyce
     name: "10.3. Zadania ucznia/słuchacza na praktyce"
-  - type: page
-    ref: "page-04-ocena-praktyki.md"
+  - type: book
+    ref: book-04-ocena-praktyki
     name: "10.4. Ocena praktyki"
-  - type: page
-    ref: "page-05-portfolio-praktykant.md"
+  - type: book
+    ref: book-05-portfolio-praktykant
     name: "10.5. Portfolio praktykant"
   - type: book
     ref: book-01

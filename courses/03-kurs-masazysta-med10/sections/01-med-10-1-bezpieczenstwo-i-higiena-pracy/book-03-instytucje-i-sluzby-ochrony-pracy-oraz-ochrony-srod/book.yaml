@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska"
+  intro: |
+    Materiał dydaktyczny tematu 1.3 — Instytucje i służby ochrony pracy oraz ochrony środowiska.
+    Moduł wprowadza w bezpieczeństwo i higienę pracy masażysty: przepisy prawa pracy, zagrożenia zawodowe, ergonomię stanowiska, aseptykę oraz pierwszą pomoc. To fundament, na którym opiera się cała dalsza praktyka zawodowa — bo troska o bliźniego zaczyna się od troski o jego bezpieczeństwo.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska"
+      subchapter: false
+      content_file: "chapters/01-instytucje-i-sluzby-ochrony-pracy-oraz-ochrony-srod.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

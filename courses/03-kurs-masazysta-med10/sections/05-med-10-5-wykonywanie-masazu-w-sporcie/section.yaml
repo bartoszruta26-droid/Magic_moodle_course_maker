@@ -6,29 +6,29 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-wprowadzenie-do-masazu-sportowego.md"
+  - type: book
+    ref: book-01-wprowadzenie-do-masazu-sportowego
     name: "5.1. Wprowadzenie do masażu sportowego"
-  - type: page
-    ref: "page-02-cykl-treningowy-zawodnika.md"
+  - type: book
+    ref: book-02-cykl-treningowy-zawodnika
     name: "5.2. Cykl treningowy zawodnika"
-  - type: page
-    ref: "page-03-rodzaje-masazu-w-sporcie.md"
+  - type: book
+    ref: book-03-rodzaje-masazu-w-sporcie
     name: "5.3. Rodzaje masażu w sporcie"
-  - type: page
-    ref: "page-04-wskazania-i-przeciwwskazania-do-masazu-sportowego.md"
+  - type: book
+    ref: book-04-wskazania-i-przeciwwskazania-do-masazu-sportowego
     name: "5.4. Wskazania i przeciwwskazania do masażu sportowego"
-  - type: page
-    ref: "page-05-metodyka-masazu-sportowego.md"
+  - type: book
+    ref: book-05-metodyka-masazu-sportowego
     name: "5.5. Metodyka masażu sportowego"
-  - type: page
-    ref: "page-06-protokoly-masazu-sportowego.md"
+  - type: book
+    ref: book-06-protokoly-masazu-sportowego
     name: "5.6. Protokoły masażu sportowego"
-  - type: page
-    ref: "page-07-najczestsze-problemy-sportowe-a-rola-masazysty.md"
+  - type: book
+    ref: book-07-najczestsze-problemy-sportowe-a-rola-masazysty
     name: "5.7. Najczęstsze problemy sportowe a rola masażysty"
-  - type: page
-    ref: "page-08-bezpieczenstwo-i-etyka-w-sporcie.md"
+  - type: book
+    ref: book-08-bezpieczenstwo-i-etyka-w-sporcie
     name: "5.8. Bezpieczeństwo i etyka w sporcie"
   - type: book
     ref: book-01

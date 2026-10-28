@@ -6,77 +6,77 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-ocena-pacjenta-na-potrzeby-wykonania-masazu.md"
+  - type: book
+    ref: book-01-ocena-pacjenta-na-potrzeby-wykonania-masazu
     name: "4.1. Ocena pacjenta na potrzeby wykonania masażu"
-  - type: page
-    ref: "page-02-badanie-funkcjonalne-i-palpacyjne.md"
+  - type: book
+    ref: book-02-badanie-funkcjonalne-i-palpacyjne
     name: "4.2. Badanie funkcjonalne i palpacyjne"
-  - type: page
-    ref: "page-03-ocena-obrzeku-i-kwalifikacja-do-drenazu.md"
+  - type: book
+    ref: book-03-ocena-obrzeku-i-kwalifikacja-do-drenazu
     name: "4.3. Ocena obrzęku i kwalifikacja do drenażu"
-  - type: page
-    ref: "page-04-planowanie-zabiegu-masazu.md"
+  - type: book
+    ref: book-04-planowanie-zabiegu-masazu
     name: "4.4. Planowanie zabiegu masażu"
-  - type: page
-    ref: "page-05-przygotowanie-pacjenta-do-masazu.md"
+  - type: book
+    ref: book-05-przygotowanie-pacjenta-do-masazu
     name: "4.5. Przygotowanie pacjenta do masażu"
-  - type: page
-    ref: "page-06-dobor-pozycji-pacjenta-i-przyborow.md"
+  - type: book
+    ref: book-06-dobor-pozycji-pacjenta-i-przyborow
     name: "4.6. Dobór pozycji pacjenta i przyborów"
-  - type: page
-    ref: "page-07-wykonywanie-masazu-klasycznego-w-medycynie.md"
+  - type: book
+    ref: book-07-wykonywanie-masazu-klasycznego-w-medycynie
     name: "4.7. Wykonywanie masażu klasycznego w medycynie"
-  - type: page
-    ref: "page-08-masaz-w-srodowisku-wodnym.md"
+  - type: book
+    ref: book-08-masaz-w-srodowisku-wodnym
     name: "4.8. Masaż w środowisku wodnym"
-  - type: page
-    ref: "page-09-manualny-drenaz-limfatyczny.md"
+  - type: book
+    ref: book-09-manualny-drenaz-limfatyczny
     name: "4.9. Manualny drenaż limfatyczny"
-  - type: page
-    ref: "page-10-kompleksowa-terapia-obrzekow.md"
+  - type: book
+    ref: book-10-kompleksowa-terapia-obrzekow
     name: "4.10. Kompleksowa terapia obrzęków"
-  - type: page
-    ref: "page-11-masaz-lacznotkankowy.md"
+  - type: book
+    ref: book-11-masaz-lacznotkankowy
     name: "4.11. Masaż łącznotkankowy"
-  - type: page
-    ref: "page-12-masaz-okostnowy.md"
+  - type: book
+    ref: book-12-masaz-okostnowy
     name: "4.12. Masaż okostnowy"
-  - type: page
-    ref: "page-13-masaz-segmentarny.md"
+  - type: book
+    ref: book-13-masaz-segmentarny
     name: "4.13. Masaż segmentarny"
-  - type: page
-    ref: "page-14-masaz-punktowy.md"
+  - type: book
+    ref: book-14-masaz-punktowy
     name: "4.14. Masaż punktowy"
-  - type: page
-    ref: "page-15-refleksoterapia-stop.md"
+  - type: book
+    ref: book-15-refleksoterapia-stop
     name: "4.15. Refleksoterapia stóp"
-  - type: page
-    ref: "page-16-masaz-tensegracyjny.md"
+  - type: book
+    ref: book-16-masaz-tensegracyjny
     name: "4.16. Masaż tensegracyjny"
-  - type: page
-    ref: "page-17-masaz-izometryczny.md"
+  - type: book
+    ref: book-17-masaz-izometryczny
     name: "4.17. Masaż izometryczny"
-  - type: page
-    ref: "page-18-masaz-stawowy.md"
+  - type: book
+    ref: book-18-masaz-stawowy
     name: "4.18. Masaż stawowy"
-  - type: page
-    ref: "page-19-masaz-shantala.md"
+  - type: book
+    ref: book-19-masaz-shantala
     name: "4.19. Masaż Shantala"
-  - type: page
-    ref: "page-20-masaz-kobiety-w-ciazy.md"
+  - type: book
+    ref: book-20-masaz-kobiety-w-ciazy
     name: "4.20. Masaż kobiety w ciąży"
-  - type: page
-    ref: "page-21-masaz-kobiety-w-pologu.md"
+  - type: book
+    ref: book-21-masaz-kobiety-w-pologu
     name: "4.21. Masaż kobiety w połogu"
-  - type: page
-    ref: "page-22-masaz-przyrzadowy-z-wykorzystaniem-urzadzenia.md"
+  - type: book
+    ref: book-22-masaz-przyrzadowy-z-wykorzystaniem-urzadzenia-wibr
     name: "4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego"
-  - type: page
-    ref: "page-23-reakcje-pacjenta-po-masazu-i-planowanie-kolejnych.md"
+  - type: book
+    ref: book-23-reakcje-pacjenta-po-masazu-i-planowanie-kolejnych-zabi
     name: "4.23. Reakcje pacjenta po masażu i planowanie kolejnych zabiegów"
-  - type: page
-    ref: "page-24-bezpieczenstwo-podczas-trwania-zabiegu.md"
+  - type: book
+    ref: book-24-bezpieczenstwo-podczas-trwania-zabiegu
     name: "4.24. Bezpieczeństwo podczas trwania zabiegu"
   - type: book
     ref: book-01

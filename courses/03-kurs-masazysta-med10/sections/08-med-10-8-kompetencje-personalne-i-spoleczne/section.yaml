@@ -6,32 +6,32 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-wysoka-jakosc-uslug-masazu.md"
+  - type: book
+    ref: book-01-wysoka-jakosc-uslug-masazu
     name: "8.1. Wysoka jakość usług masażu"
-  - type: page
-    ref: "page-02-kultura-osobista-i-etyka-zawodowa.md"
+  - type: book
+    ref: book-02-kultura-osobista-i-etyka-zawodowa
     name: "8.2. Kultura osobista i etyka zawodowa"
-  - type: page
-    ref: "page-03-planowanie-wykonania-zadania.md"
+  - type: book
+    ref: book-03-planowanie-wykonania-zadania
     name: "8.3. Planowanie wykonania zadania"
-  - type: page
-    ref: "page-04-odpowiedzialnosc-za-podejmowane-dzialania.md"
+  - type: book
+    ref: book-04-odpowiedzialnosc-za-podejmowane-dzialania
     name: "8.4. Odpowiedzialność za podejmowane działania"
-  - type: page
-    ref: "page-05-kreatywnosc-i-otwartosc-na-zmiany.md"
+  - type: book
+    ref: book-05-kreatywnosc-i-otwartosc-na-zmiany
     name: "8.5. Kreatywność i otwartość na zmiany"
-  - type: page
-    ref: "page-06-radzenie-sobie-ze-stresem.md"
+  - type: book
+    ref: book-06-radzenie-sobie-ze-stresem
     name: "8.6. Radzenie sobie ze stresem"
-  - type: page
-    ref: "page-07-aktualizowanie-wiedzy-i-doskonalenie-zawodowe.md"
+  - type: book
+    ref: book-07-aktualizowanie-wiedzy-i-doskonalenie-zawodowe
     name: "8.7. Aktualizowanie wiedzy i doskonalenie zawodowe"
-  - type: page
-    ref: "page-08-komunikacja-interpersonalna.md"
+  - type: book
+    ref: book-08-komunikacja-interpersonalna
     name: "8.8. Komunikacja interpersonalna"
-  - type: page
-    ref: "page-09-konflikty-i-ich-rozwiazywanie.md"
+  - type: book
+    ref: book-09-konflikty-i-ich-rozwiazywanie
     name: "8.9. Konflikty i ich rozwiązywanie"
   - type: book
     ref: book-01
