@@ -16,6 +16,12 @@ Cel skryptu (zgodny z zasadami projektu):
     Załączniku D) — prawdziwa terminologia łacińska/grecka wg ICD;
   * sekcja 00 (Ogłoszenia) otrzymuje książkę powitalną „Dobrze, że jesteś”.
 
+  * tryb ``--fill-short`` (domyślnie włączony przy drugim uruchomieniu)
+    rozbudowuje rozdziały książek, które istnieją, ale są krótkie
+    (< MIN_CHAPTER_BYTES bajtów) — dopisuje sekcję „Rozwinięcie treści”
+    z kontekstem praktycznym i odniesieniem do Kodeksu etycznego;
+    nigdy nie usuwa ani nie nadpisuje dotychczasowego tekstu.
+
 Treści są prawdziwe (oparte na uznanym piśmiennictwie — A. Zborowski,
 Bochenek/Traczyk, ICD-10), piękne i sprawiedliwe — ujęte w duchu Bożej
 miłości, poszanowania godności każdej osoby ludzkiej i zasady
@@ -23,8 +29,10 @@ miłości, poszanowania godności każdej osoby ludzkiej i zasady
 charakter dydaktyczny-przeglądowy, wskazuję źródła i granice kompetencji
 naturopaty (skierowanie do lekarza).
 
+Pełny opis skryptu znajduje się w README.md (rozdział „Skrypty”).
+
 Użycie:
-    python3 scripts/gen_naturopata_books.py [--base courses/03-kwalifikacyjny-kurs-zawodowy-naturopaty] [--dry-run]
+    python3 scripts/gen_naturopata_books.py [--base courses/03-kwalifikacyjny-kurs-zawodowy-naturopaty] [--dry-run] [--no-fill-short]
 """
 from __future__ import annotations
 
@@ -591,15 +599,105 @@ def put(path: Path, content: str, dry_run: bool, stats: dict, force: bool = Fals
         path.write_text(content, encoding="utf-8")
 
 
+MIN_CHAPTER_BYTES = 700
+FILL_MARKER = "## Rozwinięcie treści"
+
+# Stałe teksty rozwinięć — prawdziwe, piękne i sprawiedliwe.
+WELCOME_EXPANSIONS = {
+    "02-misja-naturopaty.md": """Każdy człowiek, którego przyjmujesz na sali zabiegowej, jest osobą niepowtarzalną — umiłowaną przez Boga i wezwaną do pełni życia. Twoja misja ma trzy filary:
+
+1. **Służba, nie władza.** Naturopata towarzyszy choremu w drodze do zdrowia; nie czyni pacjenta zależnym od siebie, lecz wzmacnia jego własne siły życiowe (vis medicatrix naturae) i odpowiedzialność za dar zdrowia.
+2. **Całość osoby.** Ciało, dusza i duch stanowią jedność (1 Tes 5,23). Dbasz o wymiar fizyczny — zabiegi, zioła, ruch, żywienie; o wymiar psychiczny — obecność, rozmowa, cierpliwość; o wymiar duchowy — szacunek dla sumienia pacjenta i gotność towarzyszenia mu, gdy sam o to poprosi.
+3. **Uczciwość wobec prawdy.** Nazywasz rzeczy po imieniu: co potwierdza nauka, co należy do tradycji, a czego nie wiesz. Nie przyrzekasz uzdrowienia — ofiarujesz rzetelną opiekę i kierunek do lekarza tam, gdzie kończą się twoje kompetencje.
+
+Pamiętaj: ręce, które leczą, muszą wcześniej służyć. Zanim nałożysz dłonie na ciało drugiego, uczyń to najpierw w modlitwie i pokorze.""",
+    "04-zasady-bezpieczenstwa.md": """Bezpieczeństwo pacjenta jest pierwszym warunkiem miłości bliźniego w praktyce zawodowej. Stosuj bezwzględnie procedurę pięciu kroków:
+
+1. **Wywiad** — zawsze przed zabiegiem: choroby przewlekłe, leki (zwłaszcza przeciwkrzepliwe), uczulenia, ciąża, stan ogólny, ostatnie badania.
+2. **Ocena przeciwwskazań** — sprawdź Załącznik F właściwy dla planowanego zabiegu (masaż, drenaż, fitoterapia, kinezyterapia, zabiegi felczerskie).
+3. **Świadoma zgoda** — wyjaśnij cel, przebieg, możliwe odczucia i ryzyko; uzyskaj zgodę pisemną (wzór w Załączniku C).
+4. **Obserwacja w trakcie** — kontroluj reakcje pacjenta; każdy niepokojący objaw (ból, zawroty głowy, duszność) przerywa zabieg.
+5. **Dokumentacja i kierowanie** — zapisz przebieg wizyty; znaki alarmowe (gorączka niewiadomego pochodzenia, krwawienia, ból w klatce piersiowej, objawy neurologiczne, podejrzenie nowotworu, stan nagły) bezzwłocznie kieruj do lekarza lub na SOR.
+
+Odmowa wykonania zabiegu, gdy oceniasz, że mógłby zaszkodzić, nigdy nie jest porażką — jest aktem miłości i profesjonalizmu.""",
+    "01-slowo-wstepne-dyrektora-kursu.md": """Zanim rozpoczniesz naukę, przyjmij trzy postanowienia, które towarzyszyć ci będą przez osiem semestrów:
+
+- **Postanowienie prawdy**: nie uczę się po to, by zaimponować, lecz by umieć pomóc. Każda poznana struktura anatomiczna, każda jednostka chorobowa to czyjeś konkretne cierpienie, któremu kiedyś stawię czoła.
+- **Postanowienie cierpliwości**: zawód naturopaty wymaga lat praktyki, superwizji i pokory. Nie skrótów, nie cudownych recept, nie obietnic bez pokrycia.
+- **Postanowienie służby**: traktuj pacjentów tak, jak chciałbyś, aby traktowano ciebie i twoją rodzinę — z uwagą, czułością i szacunkiem dla godności każdej osoby.
+
+Program kursu obejmuje medycynę leczniczą i pielęgnacyjną, higienę i profilaktykę, mentorstwo oraz coaching zdrowotny. Kończy go praktyka zawodowa, praca dyplomowa i egzamin końcowy przed komisją. Życzę ci wytrwałości i radości z każdej zdobytej umiejętności.""",
+    "03-jak-korzystac-z-kursu.md": """Porządek pracy z każdym modułem (sekcje 01–23):
+
+1. **Przeczytaj książkę modułową (book)** — wszystkie rozdziały, notując wątpliwości; książki zawierają pełny materiał nauczania wraz z podstawami teoretycznymi, wskazówkami praktycznymi i zasadami bezpieczeństwa.
+2. **Rozwiąż quiz** — próba kontrolna po lekturze; błędy potraktuj jako informację, do których rozdziałów wrócić.
+3. **Wykonaj zadanie praktyczne (assignment)** — opracowanie lub dokumentacja przypadku; oceniamy poprawność merytoryczną, bezpieczeństwo pacjenta i formę.
+4. **Uzupełnij dziennik praktyki** — każde ćwiczenie zabiegowe notuj zgodnie ze wzorami z Załącznika C.
+
+Załączniki A–K są narzędziami codziennej pracy: wykaz lektur (A), lista umiejętności (B), dokumentacja (C), słownik łaciński (D), kodeks etyczny (E), przeciwwskazania (F), mapy anatomiczne (G), schematy masażu (H), kinezyterapia (I), coaching (J), zabiegi felczerskie (K). W razie pytań korzystaj z forum sekcji 00 — nikt nie powinien błądzić w samotności.""",
+}
+
+CODEX_EXPANSION = """Rozwijając ten rozdział, pamiętaj o trzech źródłach, z których czerpie nasz kodeks:
+
+1. **Prawo naturalne** — napisane przez Stwórcę w sercu człowieka (Rz 2,15); stanowi fundament oceny, co służy życiu, a co mu szkodzi.
+2. **Nauczanie moralne Kościoła** — godność osoby ludzkiej od poczęcia do naturalnej śmierci, opcja preferencyjna na rzecz chorych i ubogich, nauka o cnocie umiarkowania i sprawiedliwości społecznej w dostępie do świadczeń zdrowotnych.
+3. **Etyka lekarska i pielęgniarska** — dziedzictwo Hipokratesa, *primum non nocere*, tajemnica zawodowa, świadoma zgoda; zasady deontologii fizjoterapeutów i regulacje prawa farmaceutycznego dotyczące preparatów ziołowych.
+
+Kodeks nie jest listą zakazów — jest portretem człowieka, którym masz się stać: specjalisty, któremu można powierzyć ciało bliskiej osoby bez obawy. Co semestr odczytuj ten tekst na nowo i rachuj sumienie z jego wymagań."""
+
+
+def expand_chapter(path: Path, expansion: str, dry_run: bool, stats: dict) -> None:
+    """Dopisuje rozwinięcie do krótkiego rozdziału (zachowuje istniejącą treść)."""
+    old = path.read_text(encoding="utf-8")
+    if FILL_MARKER in old or len(old.encode("utf-8")) >= MIN_CHAPTER_BYTES:
+        stats["skipped_nonempty"] += 1
+        return
+    # wstaw rozwinięcie przed stopką (linia po separatorze ---)
+    marker = "\n---\n"
+    idx = old.rfind(marker)
+    if idx != -1:
+        new = old[:idx].rstrip() + "\n\n" + FILL_MARKER + "\n\n" + expansion.strip() + "\n" + old[idx:]
+    else:
+        new = old.rstrip() + "\n\n" + FILL_MARKER + "\n\n" + expansion.strip() + "\n"
+    stats["written"] += 1
+    if not dry_run:
+        path.write_text(new, encoding="utf-8")
+
+
+def fill_short_chapters(sec: Path, dry_run: bool, stats: dict) -> None:
+    """Rozbudowuje wszystkie krótkie (< MIN_CHAPTER_BYTES) rozdziały książek sekcji."""
+    for bk in sorted(sec.glob("book-01/chapters/*.md")):
+        size = bk.stat().st_size
+        if size == 0 or size >= MIN_CHAPTER_BYTES:
+            continue
+        text = bk.read_text(encoding="utf-8")
+        if FILL_MARKER in text:
+            stats["skipped_nonempty"] += 1
+            continue
+        sec_key = sec.name.split("-", 1)[0]
+        if sec_key.startswith("00"):
+            exp = WELCOME_EXPANSIONS.get(bk.name)
+        elif sec_key.startswith("29"):
+            exp = CODEX_EXPANSION
+        else:
+            exp = None
+        if exp:
+            expand_chapter(bk, exp, dry_run, stats)
+        else:
+            stats["short_universal_pending"] += 1
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--base", type=Path, default=DEFAULT_BASE)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-fill-short", action="store_true",
+                    help="pomiń etap rozbudowy krótkich rozdziałów")
     args = ap.parse_args(argv)
 
     base = args.base if args.base.is_absolute() else ROOT / args.base
     sections = sorted(p for p in (base / "sections").iterdir() if p.is_dir())
-    stats = {"written": 0, "skipped_nonempty": 0}
+    stats = {"written": 0, "skipped_nonempty": 0, "short_universal_pending": 0}
 
     for sec in sections:
         key = sec.name.split("-", 1)[0]
@@ -615,8 +713,13 @@ def main(argv=None) -> int:
         else:
             build_module_book(sec, args.dry_run, stats)
 
+    if not args.no_fill_short:
+        for sec in sections:
+            fill_short_chapters(sec, args.dry_run, stats)
+
     print(f"Zapisano/uzupełniono: {stats['written']}, "
-          f"pominięto (miały treść): {stats['skipped_nonempty']}")
+          f"pominięto (miały treść): {stats['skipped_nonempty']}, "
+          f"krótkie bez dedykowanego rozwinięcia: {stats['short_universal_pending']}")
     return 0
 
 
