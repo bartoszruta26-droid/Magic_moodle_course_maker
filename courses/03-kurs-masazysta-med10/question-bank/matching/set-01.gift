@@ -1,0 +1,16 @@
+// Bank pytań łączenia par (matching)
+// Źródło: kurs_masazu.txt
+::match-moduly:: Połącz nazwę modułu z jego pierwszym tematem. {
+    =BEZPIECZEŃSTWO I HIGIENA PRACY
+    =PODSTAWY MASAŻU
+    =PODSTAWY MASAŻU W MEDYCYNIE
+    =WYKONYWANIE MASAŻU W MEDYCYNIE
+    =WYKONYWANIE MASAŻU W SPORCIE
+    =WYKONYWANIE MASAŻU PROZDROWOTNEGO
+    -=Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    -=Prawne i etyczne uwarunkowania zawodu masażysty
+    -=Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+    -=Ocena pacjenta na potrzeby wykonania masażu
+    -=Wprowadzenie do masażu sportowego
+    -=Pojęcie masażu prozdrowotnego
+}

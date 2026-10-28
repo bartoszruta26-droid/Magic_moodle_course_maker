@@ -6,35 +6,35 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-pojecie-masazu-prozdrowotnego.md"
+  - type: book
+    ref: book-01-pojecie-masazu-prozdrowotnego
     name: "6.1. Pojęcie masażu prozdrowotnego"
-  - type: page
-    ref: "page-02-rodzaje-masazu-prozdrowotnego.md"
+  - type: book
+    ref: book-02-rodzaje-masazu-prozdrowotnego
     name: "6.2. Rodzaje masażu prozdrowotnego"
-  - type: page
-    ref: "page-03-zasady-masazu-prozdrowotnego.md"
+  - type: book
+    ref: book-03-zasady-masazu-prozdrowotnego
     name: "6.3. Zasady masażu prozdrowotnego"
-  - type: page
-    ref: "page-04-masaz-relaksacyjny.md"
+  - type: book
+    ref: book-04-masaz-relaksacyjny
     name: "6.4. Masaż relaksacyjny"
-  - type: page
-    ref: "page-05-masaz-profilaktyczny.md"
+  - type: book
+    ref: book-05-masaz-profilaktyczny
     name: "6.5. Masaż profilaktyczny"
-  - type: page
-    ref: "page-06-masaz-goracymi-kamieniami-bazaltowymi.md"
+  - type: book
+    ref: book-06-masaz-goracymi-kamieniami-bazaltowymi
     name: "6.6. Masaż gorącymi kamieniami bazaltowymi"
-  - type: page
-    ref: "page-07-masaz-biurowy.md"
+  - type: book
+    ref: book-07-masaz-biurowy
     name: "6.7. Masaż biurowy"
-  - type: page
-    ref: "page-08-masaz-prozdrowotny-bez-przyrzadow.md"
+  - type: book
+    ref: book-08-masaz-prozdrowotny-bez-przyrzadow
     name: "6.8. Masaż prozdrowotny bez przyrządów"
-  - type: page
-    ref: "page-09-dzialania-edukacyjne-i-popularyzacja-zachowan.md"
+  - type: book
+    ref: book-09-dzialania-edukacyjne-i-popularyzacja-zachowan-proz
     name: "6.9. Działania edukacyjne i popularyzacja zachowań prozdrowotnych"
-  - type: page
-    ref: "page-10-bezpieczenstwo-masazu-prozdrowotnego.md"
+  - type: book
+    ref: book-10-bezpieczenstwo-masazu-prozdrowotnego
     name: "6.10. Bezpieczeństwo masażu prozdrowotnego"
   - type: book
     ref: book-01

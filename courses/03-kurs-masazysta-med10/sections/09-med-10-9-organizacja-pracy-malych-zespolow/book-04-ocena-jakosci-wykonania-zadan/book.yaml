@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "9.4. Ocena jakości wykonania zadań"
+  intro: |
+    Materiał dydaktyczny tematu 9.4 — Ocena jakości wykonania zadań.
+    Moduł wprowadza w organizację pracy małych zespołów: planowanie pracy zespołu, komunikację w zespole, rozwiązywanie konfliktów oraz współpracę interdyscyplinarną na rzecz dobra pacjenta.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "9.4. Ocena jakości wykonania zadań"
+      subchapter: false
+      content_file: "chapters/01-ocena-jakosci-wykonania-zadan.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

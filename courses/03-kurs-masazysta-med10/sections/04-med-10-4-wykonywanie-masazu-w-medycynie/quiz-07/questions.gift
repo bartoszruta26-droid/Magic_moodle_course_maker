@@ -1,2 +1,69 @@
 // Quiz: 4.7. Wykonywanie masażu klasycznego w medycynie — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
 // Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-47-q1:: Zagadnienie „Masaz konczyny gornej” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q1b:: Zagadnienie „Masaz konczyny dolnej” jest elementem zagadnienia „Masaz konczyny gornej”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q2:: Zagadnienie „Masaz konczyny dolnej” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q2b:: Zagadnienie „Masaz grzbietu” jest elementem zagadnienia „Masaz konczyny dolnej”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q3:: Zagadnienie „Masaz grzbietu” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q3b:: Zagadnienie „Masaz kregoslupa szyjnego” jest elementem zagadnienia „Masaz grzbietu”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q4:: Zagadnienie „Masaz kregoslupa szyjnego” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q4b:: Zagadnienie „Masaz kregoslupa piersiowego” jest elementem zagadnienia „Masaz kregoslupa szyjnego”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q5:: Zagadnienie „Masaz kregoslupa piersiowego” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q5b:: Zagadnienie „Masaz kregoslupa ledzwiowego” jest elementem zagadnienia „Masaz kregoslupa piersiowego”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q6:: Zagadnienie „Masaz kregoslupa ledzwiowego” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q6b:: Zagadnienie „Masaz karku” jest elementem zagadnienia „Masaz kregoslupa ledzwiowego”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q7:: Zagadnienie „Masaz karku” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q7b:: Zagadnienie „Masaz klatki piersiowej” jest elementem zagadnienia „Masaz karku”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q8:: Zagadnienie „Masaz klatki piersiowej” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q8b:: Zagadnienie „Masaz powlok brzusznych” jest elementem zagadnienia „Masaz klatki piersiowej”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q9:: Zagadnienie „Masaz powlok brzusznych” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q9b:: Zagadnienie „Masaz twarzy i glowy” jest elementem zagadnienia „Masaz powlok brzusznych”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q10:: Zagadnienie „Masaz twarzy i glowy” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q10b:: Zagadnienie „Masaz posladkow” jest elementem zagadnienia „Masaz twarzy i glowy”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q11:: Zagadnienie „Masaz posladkow” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q11b:: Zagadnienie „Wariant rozluzniajacy” jest elementem zagadnienia „Masaz posladkow”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q12:: Zagadnienie „Wariant rozluzniajacy” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q12b:: Zagadnienie „Wariant pobudzajacy” jest elementem zagadnienia „Wariant rozluzniajacy”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q13:: Zagadnienie „Wariant pobudzajacy” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q13b:: Zagadnienie „Wariant leczniczy wg zlecenia” jest elementem zagadnienia „Wariant pobudzajacy”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q14:: Zagadnienie „Wariant leczniczy wg zlecenia” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::tf-s04-47-q14b:: Zagadnienie „Zakonczenie zabiegu i odpoczynek pacjenta” jest elementem zagadnienia „Wariant leczniczy wg zlecenia”, a nie tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {FALSE} //
+
+::tf-s04-47-q15:: Zagadnienie „Zakonczenie zabiegu i odpoczynek pacjenta” wchodzi w zakres tematu „Wykonywanie masażu klasycznego w medycynie” (4.7). {TRUE} //
+
+::mc-s04-47:: Które zagadnienie należy bezpośrednio do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7)? {
+    = Masaz konczyny gornej
+    ~ Masaz konczyny dolnej
+    ~ Masaz grzbietu
+    ~ Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek
+    ~ Bezpieczenstwo wejscia i wyjscia z wanny
+    ~ Masaz regeneracyjny
+}

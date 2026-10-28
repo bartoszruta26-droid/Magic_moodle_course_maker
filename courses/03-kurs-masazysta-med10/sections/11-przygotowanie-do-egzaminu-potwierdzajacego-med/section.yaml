@@ -6,35 +6,35 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-wymagania-egzaminacyjne-i-zasady-oceny.md"
+  - type: book
+    ref: book-01-wymagania-egzaminacyjne-i-zasady-oceny
     name: "11.1. Wymagania egzaminacyjne i zasady oceny"
-  - type: page
-    ref: "page-02-powtorka-wiadomosci-z-bhp.md"
+  - type: book
+    ref: book-02-powtorka-wiadomosci-z-bhp
     name: "11.2. Powtórka wiadomości z BHP"
-  - type: page
-    ref: "page-03-powtorka-anatomii-i-fizjologii.md"
+  - type: book
+    ref: book-03-powtorka-anatomii-i-fizjologii
     name: "11.3. Powtórka anatomii i fizjologii"
-  - type: page
-    ref: "page-04-powtorka-patologii-i-wskazan-przeciwwskazan.md"
+  - type: book
+    ref: book-04-powtorka-patologii-i-wskazan-przeciwwskazan
     name: "11.4. Powtórka patologii i wskazań/przeciwwskazań"
-  - type: page
-    ref: "page-05-powtorka-technik-masazu.md"
+  - type: book
+    ref: book-05-powtorka-technik-masazu
     name: "11.5. Powtórka technik masażu"
-  - type: page
-    ref: "page-06-studia-przypadkow.md"
+  - type: book
+    ref: book-06-studia-przypadkow
     name: "11.6. Studia przypadków"
-  - type: page
-    ref: "page-07-symulacje-egzaminacyjne.md"
+  - type: book
+    ref: book-07-symulacje-egzaminacyjne
     name: "11.7. Symulacje egzaminacyjne"
-  - type: page
-    ref: "page-08-egzamin-praktyczny-kryteria-wykonania.md"
+  - type: book
+    ref: book-08-egzamin-praktyczny-kryteria-wykonania
     name: "11.8. Egzamin praktyczny — kryteria wykonania"
-  - type: page
-    ref: "page-09-egzamin-pisemny-zakres-powtorkowy.md"
+  - type: book
+    ref: book-09-egzamin-pisemny-zakres-powtorkowy
     name: "11.9. Egzamin pisemny — zakres powtórkowy"
-  - type: page
-    ref: "page-10-postawa-egzaminacyjna-w-duchu-prawdy-i-pokoju.md"
+  - type: book
+    ref: book-10-postawa-egzaminacyjna-w-duchu-prawdy-i-pokoju
     name: "11.10. Postawa egzaminacyjna w duchu prawdy i pokoju"
   - type: book
     ref: book-01

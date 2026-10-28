@@ -110,6 +110,16 @@ class Subtopic:
     num: str                 # np. "1.2.3"
     title: str
 
+    @property
+    def clean_title(self) -> str:
+        """Tytul bez numeru porzadkowego 'N.M.K.' (i ewent. podwojenia)."""
+        t = self.title.strip()
+        prev = None
+        while prev != t:                    # odporność na "4.8.1 4.8.1. Tytuł"
+            prev = t
+            t = re.sub(r"^\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\.?\s*", "", t).strip()
+        return t
+
 
 @dataclass
 class Topic:
@@ -339,7 +349,10 @@ def parse_course(path: str | Path) -> Course:
 
         msub = _RE_SUB.match(flat)
         if msub and cur_topic is not None and msub.group(1).startswith(cur_topic.num + "."):
-            cur_topic.subtopics.append(Subtopic(num=msub.group(1), title=text))
+            # podtemat: tytul bez numeru (linia to "N.M.K. Tytuł") — dawniej
+            # zapisywano cala linie, co dawalo podwojenia "4.8.1 4.8.1. Tytuł"
+            sub_title = flat[msub.end(1):].lstrip(". \t")
+            cur_topic.subtopics.append(Subtopic(num=msub.group(1), title=sub_title))
             continue
 
     # porzadkowanie
