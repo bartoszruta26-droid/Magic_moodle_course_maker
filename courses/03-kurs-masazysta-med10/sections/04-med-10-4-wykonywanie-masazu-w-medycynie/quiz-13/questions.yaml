@@ -1,128 +1,219 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.13. Masaż segmentarny"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.13 — zagadnienie 1"
+  - id: "tf-s04-413-q1"
+    type: "truefalse"
+    name: "tf-s04-413-q1"
     text: "Zagadnienie „4.13.1. Podstawy embriologiczne i neurofizjologiczne” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 1"
+  - id: "tf-s04-413-q1b"
+    type: "truefalse"
+    name: "tf-s04-413-q1b"
     text: "Zagadnienie „4.13.2. Sklerotom, miotom, dermatom” jest elementem zagadnienia „4.13.1. Podstawy embriologiczne i neurofizjologiczne”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 2"
+  - id: "tf-s04-413-q2"
+    type: "truefalse"
+    name: "tf-s04-413-q2"
     text: "Zagadnienie „4.13.2. Sklerotom, miotom, dermatom” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 2"
+  - id: "tf-s04-413-q2b"
+    type: "truefalse"
+    name: "tf-s04-413-q2b"
     text: "Zagadnienie „4.13.3. Sfery Heada i strefy Mackenziego” jest elementem zagadnienia „4.13.2. Sklerotom, miotom, dermatom”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 3"
+  - id: "tf-s04-413-q3"
+    type: "truefalse"
+    name: "tf-s04-413-q3"
     text: "Zagadnienie „4.13.3. Sfery Heada i strefy Mackenziego” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 3"
+  - id: "tf-s04-413-q3b"
+    type: "truefalse"
+    name: "tf-s04-413-q3b"
     text: "Zagadnienie „4.13.4. Chwyty diagnostyczne: oglądanie, obmacywanie, opukiwanie, przesuwanie tkanek” jest elementem zagadnienia „4.13.3. Sfery Heada i strefy Mackenziego”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 4"
+  - id: "tf-s04-413-q4"
+    type: "truefalse"
+    name: "tf-s04-413-q4"
     text: "Zagadnienie „4.13.4. Chwyty diagnostyczne: oglądanie, obmacywanie, opukiwanie, przesuwanie tkanek” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 4"
+  - id: "tf-s04-413-q4b"
+    type: "truefalse"
+    name: "tf-s04-413-q4b"
     text: "Zagadnienie „4.13.5. Kresa diagnostyczna Dicke” jest elementem zagadnienia „4.13.4. Chwyty diagnostyczne: oglądanie, obmacywanie, opukiwanie, przesuwanie tkanek”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 5"
+  - id: "tf-s04-413-q5"
+    type: "truefalse"
+    name: "tf-s04-413-q5"
     text: "Zagadnienie „4.13.5. Kresa diagnostyczna Dicke” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 5"
+  - id: "tf-s04-413-q5b"
+    type: "truefalse"
+    name: "tf-s04-413-q5b"
     text: "Zagadnienie „4.13.6. Chwyty lecznicze grzbietu” jest elementem zagadnienia „4.13.5. Kresa diagnostyczna Dicke”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 6"
+  - id: "tf-s04-413-q6"
+    type: "truefalse"
+    name: "tf-s04-413-q6"
     text: "Zagadnienie „4.13.6. Chwyty lecznicze grzbietu” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 6"
+  - id: "tf-s04-413-q6b"
+    type: "truefalse"
+    name: "tf-s04-413-q6b"
     text: "Zagadnienie „4.13.7. Chwyty lecznicze klatki piersiowej” jest elementem zagadnienia „4.13.6. Chwyty lecznicze grzbietu”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 7"
+  - id: "tf-s04-413-q7"
+    type: "truefalse"
+    name: "tf-s04-413-q7"
     text: "Zagadnienie „4.13.7. Chwyty lecznicze klatki piersiowej” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 7"
+  - id: "tf-s04-413-q7b"
+    type: "truefalse"
+    name: "tf-s04-413-q7b"
     text: "Zagadnienie „4.13.8. Chwyty lecznicze brzucha” jest elementem zagadnienia „4.13.7. Chwyty lecznicze klatki piersiowej”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 8"
+  - id: "tf-s04-413-q8"
+    type: "truefalse"
+    name: "tf-s04-413-q8"
     text: "Zagadnienie „4.13.8. Chwyty lecznicze brzucha” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 8"
+  - id: "tf-s04-413-q8b"
+    type: "truefalse"
+    name: "tf-s04-413-q8b"
     text: "Zagadnienie „4.13.9. Chwyty lecznicze miednicy” jest elementem zagadnienia „4.13.8. Chwyty lecznicze brzucha”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 9"
+  - id: "tf-s04-413-q9"
+    type: "truefalse"
+    name: "tf-s04-413-q9"
     text: "Zagadnienie „4.13.9. Chwyty lecznicze miednicy” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 9"
+  - id: "tf-s04-413-q9b"
+    type: "truefalse"
+    name: "tf-s04-413-q9b"
     text: "Zagadnienie „4.13.10. Chwyty lecznicze karku i głowy” jest elementem zagadnienia „4.13.9. Chwyty lecznicze miednicy”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 10"
+  - id: "tf-s04-413-q10"
+    type: "truefalse"
+    name: "tf-s04-413-q10"
     text: "Zagadnienie „4.13.10. Chwyty lecznicze karku i głowy” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 10"
+  - id: "tf-s04-413-q10b"
+    type: "truefalse"
+    name: "tf-s04-413-q10b"
     text: "Zagadnienie „4.13.11. Kolejność: od segmentów dolnych do górnych” jest elementem zagadnienia „4.13.10. Chwyty lecznicze karku i głowy”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 11"
+  - id: "tf-s04-413-q11"
+    type: "truefalse"
+    name: "tf-s04-413-q11"
     text: "Zagadnienie „4.13.11. Kolejność: od segmentów dolnych do górnych” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 11"
+  - id: "tf-s04-413-q11b"
+    type: "truefalse"
+    name: "tf-s04-413-q11b"
     text: "Zagadnienie „4.13.12. Czas i siła bodźca” jest elementem zagadnienia „4.13.11. Kolejność: od segmentów dolnych do górnych”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 12"
+  - id: "tf-s04-413-q12"
+    type: "truefalse"
+    name: "tf-s04-413-q12"
     text: "Zagadnienie „4.13.12. Czas i siła bodźca” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 12"
+  - id: "tf-s04-413-q12b"
+    type: "truefalse"
+    name: "tf-s04-413-q12b"
     text: "Zagadnienie „4.13.13. Przesunięcia odruchowe” jest elementem zagadnienia „4.13.12. Czas i siła bodźca”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 13"
+  - id: "tf-s04-413-q13"
+    type: "truefalse"
+    name: "tf-s04-413-q13"
     text: "Zagadnienie „4.13.13. Przesunięcia odruchowe” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 13"
+  - id: "tf-s04-413-q13b"
+    type: "truefalse"
+    name: "tf-s04-413-q13b"
     text: "Zagadnienie „4.13.14. Przeciwwskazania” jest elementem zagadnienia „4.13.13. Przesunięcia odruchowe”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 14"
+  - id: "tf-s04-413-q14"
+    type: "truefalse"
+    name: "tf-s04-413-q14"
     text: "Zagadnienie „4.13.14. Przeciwwskazania” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: truefalse
-    name: "4.13 — rozgraniczenie 14"
+  - id: "tf-s04-413-q14b"
+    type: "truefalse"
+    name: "tf-s04-413-q14b"
     text: "Zagadnienie „4.13.15. Zastosowanie w chorobach narządów wewnętrznych — w granicach zlecenia” jest elementem zagadnienia „4.13.14. Przeciwwskazania”, a nie tematu „Masaż segmentarny” (4.13)."
     answer: false
-  - type: truefalse
-    name: "4.13 — zagadnienie 15"
+  - id: "tf-s04-413-q15"
+    type: "truefalse"
+    name: "tf-s04-413-q15"
     text: "Zagadnienie „4.13.15. Zastosowanie w chorobach narządów wewnętrznych — w granicach zlecenia” wchodzi w zakres tematu „Masaż segmentarny” (4.13)."
     answer: true
-  - type: multichoice
-    name: "4.13 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-413"
+    type: "multichoice"
+    name: "mc-s04-413"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż segmentarny” (4.13)?"
     answers:
-      - text: "4.13.1. Podstawy embriologiczne i neurofizjologiczne"  fraction: 100
-      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"  fraction: 0
-      - text: "3.18.9. Kiedy reakcja jest alarmowa"  fraction: 0
-      - text: "5.8.9. Dokumentacja zdarzeń niepożądanych"  fraction: 0
+      - text: "4.13.1. Podstawy embriologiczne i neurofizjologiczne"
+        fraction: 100
+      - text: "4.13.2. Sklerotom, miotom, dermatom"
+        fraction: 0
+      - text: "4.13.3. Sfery Heada i strefy Mackenziego"
+        fraction: 0
+      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"
+        fraction: 0
+      - text: "3.18.9. Kiedy reakcja jest alarmowa"
+        fraction: 0
+      - text: "5.8.9. Dokumentacja zdarzeń niepożądanych"
+        fraction: 0
+  - id: "mc-s04-413-v1"
+    type: "multichoice"
+    name: "mc-s04-413-v1"
+    text: "Które zagadnienie należy do tematu „Masaż segmentarny” (4.13)?"
+    answers:
+      - text: "4.13.1 Podstawy embriologiczne i neurofizjologiczne"
+        fraction: 100
+      - text: "0.5# 4.13.2 Sklerotom, miotom, dermatom"
+        fraction: 0
+      - text: "0.5# 4.13.3 Sfery Heada i strefy Mackenziego"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-413-v2"
+    type: "multichoice"
+    name: "mc-s04-413-v2"
+    text: "Które zagadnienie NIE należy do tematu „Masaż segmentarny” (4.13), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.13.1 Podstawy embriologiczne i neurofizjologiczne"
+        fraction: 100
+      - text: "-0.25# 4.13.2 Sklerotom, miotom, dermatom"
+        fraction: 0
+      - text: "-0.25# 4.13.3 Sfery Heada i strefy Mackenziego"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-413-v3"
+    type: "multichoice"
+    name: "mc-s04-413-v3"
+    text: "Które zagadnienie należy do tematu „Masaż segmentarny” (4.13)?"
+    answers:
+      - text: "4.13.3 Sfery Heada i strefy Mackenziego"
+        fraction: 100
+      - text: "0.5# 4.13.1 Podstawy embriologiczne i neurofizjologiczne"
+        fraction: 0
+      - text: "0.5# 4.13.2 Sklerotom, miotom, dermatom"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-413-v4"
+    type: "multichoice"
+    name: "mc-s04-413-v4"
+    text: "Które zagadnienie NIE należy do tematu „Masaż segmentarny” (4.13), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.13.1 Podstawy embriologiczne i neurofizjologiczne"
+        fraction: 100
+      - text: "-0.25# 4.13.4 Chwyty diagnostyczne\\: ogladanie, obmacywanie, opukiwanie, przesuwanie tkanek"
+        fraction: 0
+      - text: "-0.25# 4.13.2 Sklerotom, miotom, dermatom"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

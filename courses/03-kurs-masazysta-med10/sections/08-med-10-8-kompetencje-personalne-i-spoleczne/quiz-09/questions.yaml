@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "8.9. Konflikty i ich rozwiązywanie"
 category: masaz
 questions:
-  - type: truefalse
-    name: "8.9 — zagadnienie 1"
+  - id: "tf-s08-89-q1"
+    type: "truefalse"
+    name: "tf-s08-89-q1"
     text: "Zagadnienie „8.9.1. Przyczyny konfliktów z pacjentem” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 1"
+  - id: "tf-s08-89-q1b"
+    type: "truefalse"
+    name: "tf-s08-89-q1b"
     text: "Zagadnienie „8.9.2. Przyczyny konfliktów ze współpracownikami” jest elementem zagadnienia „8.9.1. Przyczyny konfliktów z pacjentem”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 2"
+  - id: "tf-s08-89-q2"
+    type: "truefalse"
+    name: "tf-s08-89-q2"
     text: "Zagadnienie „8.9.2. Przyczyny konfliktów ze współpracownikami” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 2"
+  - id: "tf-s08-89-q2b"
+    type: "truefalse"
+    name: "tf-s08-89-q2b"
     text: "Zagadnienie „8.9.3. Fazy konfliktu” jest elementem zagadnienia „8.9.2. Przyczyny konfliktów ze współpracownikami”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 3"
+  - id: "tf-s08-89-q3"
+    type: "truefalse"
+    name: "tf-s08-89-q3"
     text: "Zagadnienie „8.9.3. Fazy konfliktu” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 3"
+  - id: "tf-s08-89-q3b"
+    type: "truefalse"
+    name: "tf-s08-89-q3b"
     text: "Zagadnienie „8.9.4. Skutki konfliktu dla jakości opieki” jest elementem zagadnienia „8.9.3. Fazy konfliktu”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 4"
+  - id: "tf-s08-89-q4"
+    type: "truefalse"
+    name: "tf-s08-89-q4"
     text: "Zagadnienie „8.9.4. Skutki konfliktu dla jakości opieki” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 4"
+  - id: "tf-s08-89-q4b"
+    type: "truefalse"
+    name: "tf-s08-89-q4b"
     text: "Zagadnienie „8.9.5. Asertywność” jest elementem zagadnienia „8.9.4. Skutki konfliktu dla jakości opieki”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 5"
+  - id: "tf-s08-89-q5"
+    type: "truefalse"
+    name: "tf-s08-89-q5"
     text: "Zagadnienie „8.9.5. Asertywność” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 5"
+  - id: "tf-s08-89-q5b"
+    type: "truefalse"
+    name: "tf-s08-89-q5b"
     text: "Zagadnienie „8.9.6. Mediacja i rozmowa naprawcza” jest elementem zagadnienia „8.9.5. Asertywność”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 6"
+  - id: "tf-s08-89-q6"
+    type: "truefalse"
+    name: "tf-s08-89-q6"
     text: "Zagadnienie „8.9.6. Mediacja i rozmowa naprawcza” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 6"
+  - id: "tf-s08-89-q6b"
+    type: "truefalse"
+    name: "tf-s08-89-q6b"
     text: "Zagadnienie „8.9.7. Dokumentowanie konfliktu” jest elementem zagadnienia „8.9.6. Mediacja i rozmowa naprawcza”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 7"
+  - id: "tf-s08-89-q7"
+    type: "truefalse"
+    name: "tf-s08-89-q7"
     text: "Zagadnienie „8.9.7. Dokumentowanie konfliktu” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 7"
+  - id: "tf-s08-89-q7b"
+    type: "truefalse"
+    name: "tf-s08-89-q7b"
     text: "Zagadnienie „8.9.8. Zasada: nie eskalować, nie upokarzać” jest elementem zagadnienia „8.9.7. Dokumentowanie konfliktu”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 8"
+  - id: "tf-s08-89-q8"
+    type: "truefalse"
+    name: "tf-s08-89-q8"
     text: "Zagadnienie „8.9.8. Zasada: nie eskalować, nie upokarzać” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 8"
+  - id: "tf-s08-89-q8b"
+    type: "truefalse"
+    name: "tf-s08-89-q8b"
     text: "Zagadnienie „8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu” jest elementem zagadnienia „8.9.8. Zasada: nie eskalować, nie upokarzać”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 9"
+  - id: "tf-s08-89-q9"
+    type: "truefalse"
+    name: "tf-s08-89-q9"
     text: "Zagadnienie „8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: truefalse
-    name: "8.9 — rozgraniczenie 9"
+  - id: "tf-s08-89-q9b"
+    type: "truefalse"
+    name: "tf-s08-89-q9b"
     text: "Zagadnienie „8.9.10. Ochrona dobra pacjenta ponad rację osobistą” jest elementem zagadnienia „8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu”, a nie tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: false
-  - type: truefalse
-    name: "8.9 — zagadnienie 10"
+  - id: "tf-s08-89-q10"
+    type: "truefalse"
+    name: "tf-s08-89-q10"
     text: "Zagadnienie „8.9.10. Ochrona dobra pacjenta ponad rację osobistą” wchodzi w zakres tematu „Konflikty i ich rozwiązywanie” (8.9)."
     answer: true
-  - type: multichoice
-    name: "8.9 — przyporządkowanie zagadnienia"
+  - id: "mc-s08-89"
+    type: "multichoice"
+    name: "mc-s08-89"
     text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
     answers:
-      - text: "8.9.1. Przyczyny konfliktów z pacjentem"  fraction: 100
-      - text: "2.1.10. Odpowiedzialność za słowo, dotyk i dokumentację"  fraction: 0
-      - text: "3.14.10. Dokumentacja temperatury, czasu i reakcji"  fraction: 0
-      - text: "5.4.9. Podejrzenie złamania, zwichnięcia, zerwa — pilna pomoc"  fraction: 0
+      - text: "8.9.1. Przyczyny konfliktów z pacjentem"
+        fraction: 100
+      - text: "8.9.2. Przyczyny konfliktów ze współpracownikami"
+        fraction: 0
+      - text: "8.9.3. Fazy konfliktu"
+        fraction: 0
+      - text: "2.1.10. Odpowiedzialność za słowo, dotyk i dokumentację"
+        fraction: 0
+      - text: "3.14.10. Dokumentacja temperatury, czasu i reakcji"
+        fraction: 0
+      - text: "5.4.9. Podejrzenie złamania, zwichnięcia, zerwa — pilna pomoc"
+        fraction: 0
+  - id: "mc-s08-89-q1"
+    type: "multichoice"
+    name: "mc-s08-89-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.1 Przyczyny konfliktow z pacjentem"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s08-89-q2"
+    type: "multichoice"
+    name: "mc-s08-89-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.2 Przyczyny konfliktow ze wspolpracownikami"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s08-89-q3"
+    type: "multichoice"
+    name: "mc-s08-89-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.3 Fazy konfliktu"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-89-q4"
+    type: "multichoice"
+    name: "mc-s08-89-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.4 Skutki konfliktu dla jakosci opieki"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s08-89-q5"
+    type: "multichoice"
+    name: "mc-s08-89-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.5 Asertywnosc"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s08-89-q6"
+    type: "multichoice"
+    name: "mc-s08-89-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.6 Mediacja i rozmowa naprawcza"
+        fraction: 100
+      - text: "Biomechanika ruchu i stabilizacja"
+        fraction: 0
+      - text: "Obrzek miekki i twardy"
+        fraction: 0
+      - text: "Dokumentacja"
+        fraction: 0
+  - id: "mc-s08-89-q7"
+    type: "multichoice"
+    name: "mc-s08-89-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.7 Dokumentowanie konfliktu"
+        fraction: 100
+      - text: "Znaczenie palpacji struktur ukladu ruchu"
+        fraction: 0
+      - text: "Proba Stemmera i inne objawy — w granicach edukacji"
+        fraction: 0
+      - text: "Granice: relaks nie zastepuje terapii psychologicznej"
+        fraction: 0
+  - id: "mc-s08-89-q8"
+    type: "multichoice"
+    name: "mc-s08-89-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.8 Zasada: nie eskalowac, nie upokarzac"
+        fraction: 100
+      - text: "Osrodkowy uklad nerwowy: mozgowie, rdzen kregowy"
+        fraction: 0
+      - text: "Pomiar obwodu co 5 lub 10 cm"
+        fraction: 0
+      - text: "Profilaktyka bolow kregoslupa"
+        fraction: 0
+  - id: "mc-s08-89-q9"
+    type: "multichoice"
+    name: "mc-s08-89-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.9 Przepraszanie i przebaczanie w granicach profesjonalizmu"
+        fraction: 100
+      - text: "Obwodowy uklad nerwowy: nerwy czaszkowe, nerwy rdzeniowe"
+        fraction: 0
+      - text: "Ocena symetrii"
+        fraction: 0
+      - text: "Profilaktyka napiecia barkow i karku"
+        fraction: 0
+  - id: "mc-s08-89-q10"
+    type: "multichoice"
+    name: "mc-s08-89-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.10 Ochrona dobra pacjenta ponad racje osobista"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s08-89-v1"
+    type: "multichoice"
+    name: "mc-s08-89-v1"
+    text: "Które zagadnienie należy do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.1 Przyczyny konfliktow z pacjentem"
+        fraction: 100
+      - text: "0.5# 8.9.2 Przyczyny konfliktow ze wspolpracownikami"
+        fraction: 0
+      - text: "0.5# 8.9.3 Fazy konfliktu"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s08-89-v2"
+    type: "multichoice"
+    name: "mc-s08-89-v2"
+    text: "Które zagadnienie NIE należy do tematu „Konflikty i ich rozwiązywanie” (8.9), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.9.1 Przyczyny konfliktow z pacjentem"
+        fraction: 100
+      - text: "-0.25# 8.9.2 Przyczyny konfliktow ze wspolpracownikami"
+        fraction: 0
+      - text: "-0.25# 8.9.3 Fazy konfliktu"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s08-89-v3"
+    type: "multichoice"
+    name: "mc-s08-89-v3"
+    text: "Które zagadnienie należy do tematu „Konflikty i ich rozwiązywanie” (8.9)?"
+    answers:
+      - text: "8.9.3 Fazy konfliktu"
+        fraction: 100
+      - text: "0.5# 8.9.1 Przyczyny konfliktow z pacjentem"
+        fraction: 0
+      - text: "0.5# 8.9.2 Przyczyny konfliktow ze wspolpracownikami"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s08-89-v4"
+    type: "multichoice"
+    name: "mc-s08-89-v4"
+    text: "Które zagadnienie NIE należy do tematu „Konflikty i ich rozwiązywanie” (8.9), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.9.1 Przyczyny konfliktow z pacjentem"
+        fraction: 100
+      - text: "-0.25# 8.9.4 Skutki konfliktu dla jakosci opieki"
+        fraction: 0
+      - text: "-0.25# 8.9.2 Przyczyny konfliktow ze wspolpracownikami"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

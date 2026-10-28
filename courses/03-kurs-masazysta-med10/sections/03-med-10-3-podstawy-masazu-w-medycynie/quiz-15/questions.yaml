@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.15. Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.15 — zagadnienie 1"
+  - id: "tf-s03-315-q1"
+    type: "truefalse"
+    name: "tf-s03-315-q1"
     text: "Zagadnienie „3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 1"
+  - id: "tf-s03-315-q1b"
+    type: "truefalse"
+    name: "tf-s03-315-q1b"
     text: "Zagadnienie „3.15.2. Zgoda opiekuna i obecność rodzica” jest elementem zagadnienia „3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 2"
+  - id: "tf-s03-315-q2"
+    type: "truefalse"
+    name: "tf-s03-315-q2"
     text: "Zagadnienie „3.15.2. Zgoda opiekuna i obecność rodzica” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 2"
+  - id: "tf-s03-315-q2b"
+    type: "truefalse"
+    name: "tf-s03-315-q2b"
     text: "Zagadnienie „3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza” jest elementem zagadnienia „3.15.2. Zgoda opiekuna i obecność rodzica”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 3"
+  - id: "tf-s03-315-q3"
+    type: "truefalse"
+    name: "tf-s03-315-q3"
     text: "Zagadnienie „3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 3"
+  - id: "tf-s03-315-q3b"
+    type: "truefalse"
+    name: "tf-s03-315-q3b"
     text: "Zagadnienie „3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa” jest elementem zagadnienia „3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 4"
+  - id: "tf-s03-315-q4"
+    type: "truefalse"
+    name: "tf-s03-315-q4"
     text: "Zagadnienie „3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 4"
+  - id: "tf-s03-315-q4b"
+    type: "truefalse"
+    name: "tf-s03-315-q4b"
     text: "Zagadnienie „3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza” jest elementem zagadnienia „3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 5"
+  - id: "tf-s03-315-q5"
+    type: "truefalse"
+    name: "tf-s03-315-q5"
     text: "Zagadnienie „3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 5"
+  - id: "tf-s03-315-q5b"
+    type: "truefalse"
+    name: "tf-s03-315-q5b"
     text: "Zagadnienie „3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha” jest elementem zagadnienia „3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 6"
+  - id: "tf-s03-315-q6"
+    type: "truefalse"
+    name: "tf-s03-315-q6"
     text: "Zagadnienie „3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 6"
+  - id: "tf-s03-315-q6b"
+    type: "truefalse"
+    name: "tf-s03-315-q6b"
     text: "Zagadnienie „3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim” jest elementem zagadnienia „3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 7"
+  - id: "tf-s03-315-q7"
+    type: "truefalse"
+    name: "tf-s03-315-q7"
     text: "Zagadnienie „3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 7"
+  - id: "tf-s03-315-q7b"
+    type: "truefalse"
+    name: "tf-s03-315-q7b"
     text: "Zagadnienie „3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu” jest elementem zagadnienia „3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 8"
+  - id: "tf-s03-315-q8"
+    type: "truefalse"
+    name: "tf-s03-315-q8"
     text: "Zagadnienie „3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 8"
+  - id: "tf-s03-315-q8b"
+    type: "truefalse"
+    name: "tf-s03-315-q8b"
     text: "Zagadnienie „3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu” jest elementem zagadnienia „3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 9"
+  - id: "tf-s03-315-q9"
+    type: "truefalse"
+    name: "tf-s03-315-q9"
     text: "Zagadnienie „3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: truefalse
-    name: "3.15 — rozgraniczenie 9"
+  - id: "tf-s03-315-q9b"
+    type: "truefalse"
+    name: "tf-s03-315-q9b"
     text: "Zagadnienie „3.15.10. Godność, intymność i prawo do obecności osoby bliskiej” jest elementem zagadnienia „3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu”, a nie tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: false
-  - type: truefalse
-    name: "3.15 — zagadnienie 10"
+  - id: "tf-s03-315-q10"
+    type: "truefalse"
+    name: "tf-s03-315-q10"
     text: "Zagadnienie „3.15.10. Godność, intymność i prawo do obecności osoby bliskiej” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)."
     answer: true
-  - type: multichoice
-    name: "3.15 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-315"
+    type: "multichoice"
+    name: "mc-s03-315"
     text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
     answers:
-      - text: "3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja"  fraction: 100
-      - text: "2.5.10. Rejestr zdarzeń niepożądanych"  fraction: 0
-      - text: "3.19.1. Lekarz specjalista"  fraction: 0
-      - text: "5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku"  fraction: 0
+      - text: "3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja"
+        fraction: 100
+      - text: "3.15.2. Zgoda opiekuna i obecność rodzica"
+        fraction: 0
+      - text: "3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza"
+        fraction: 0
+      - text: "2.5.10. Rejestr zdarzeń niepożądanych"
+        fraction: 0
+      - text: "3.19.1. Lekarz specjalista"
+        fraction: 0
+      - text: "5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku"
+        fraction: 0
+  - id: "mc-s03-315-q1"
+    type: "multichoice"
+    name: "mc-s03-315-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.1 Shantala: masaz niemowlecia jako kontakt i regulacja"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s03-315-q2"
+    type: "multichoice"
+    name: "mc-s03-315-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.2 Zgoda opiekuna i obecnosc rodzica"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s03-315-q3"
+    type: "multichoice"
+    name: "mc-s03-315-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.3 Przeciwwskazania u niemowlecia: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s03-315-q4"
+    type: "multichoice"
+    name: "mc-s03-315-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.4 Ciaza fizjologiczna: zasady bezpieczenstwa"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s03-315-q5"
+    type: "multichoice"
+    name: "mc-s03-315-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.5 Ciaza zagrozona: bez masazu lub tylko za zgoda lekarza"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s03-315-q6"
+    type: "multichoice"
+    name: "mc-s03-315-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.6 Pozycje bezpieczne: bok, polsiedzaca, unikanie ucisku brzucha"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s03-315-q7"
+    type: "multichoice"
+    name: "mc-s03-315-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.7 Polog: regeneracja, obrzek, bol krocza, blizna po cieciu cesarskim"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s03-315-q8"
+    type: "multichoice"
+    name: "mc-s03-315-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.8 Zakaz glebokiego masazu brzucha w ciazy i wczesnym pologu"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s03-315-q9"
+    type: "multichoice"
+    name: "mc-s03-315-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.9 Uwaga na stany zakrzepowe w ciazy i pologu"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy higieny snu"
+        fraction: 0
+  - id: "mc-s03-315-q10"
+    type: "multichoice"
+    name: "mc-s03-315-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.10 Godnosc, intymnosc i prawo do obecnosci osoby bliskiej"
+        fraction: 100
+      - text: "Talk"
+        fraction: 0
+      - text: "Pielegnacja skory"
+        fraction: 0
+      - text: "Connective tissue massage"
+        fraction: 0
+  - id: "mc-s03-315-v1"
+    type: "multichoice"
+    name: "mc-s03-315-v1"
+    text: "Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.1 Shantala\\: masaz niemowlecia jako kontakt i regulacja"
+        fraction: 100
+      - text: "0.5# 3.15.2 Zgoda opiekuna i obecnosc rodzica"
+        fraction: 0
+      - text: "0.5# 3.15.3 Przeciwwskazania u niemowlecia\\: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s03-315-v2"
+    type: "multichoice"
+    name: "mc-s03-315-v2"
+    text: "Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.15.1 Shantala\\: masaz niemowlecia jako kontakt i regulacja"
+        fraction: 100
+      - text: "-0.25# 3.15.2 Zgoda opiekuna i obecnosc rodzica"
+        fraction: 0
+      - text: "-0.25# 3.15.3 Przeciwwskazania u niemowlecia\\: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s03-315-v3"
+    type: "multichoice"
+    name: "mc-s03-315-v3"
+    text: "Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)?"
+    answers:
+      - text: "3.15.3 Przeciwwskazania u niemowlecia\\: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza"
+        fraction: 100
+      - text: "0.5# 3.15.1 Shantala\\: masaz niemowlecia jako kontakt i regulacja"
+        fraction: 0
+      - text: "0.5# 3.15.2 Zgoda opiekuna i obecnosc rodzica"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s03-315-v4"
+    type: "multichoice"
+    name: "mc-s03-315-v4"
+    text: "Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.15.1 Shantala\\: masaz niemowlecia jako kontakt i regulacja"
+        fraction: 100
+      - text: "-0.25# 3.15.4 Ciaza fizjologiczna\\: zasady bezpieczenstwa"
+        fraction: 0
+      - text: "-0.25# 3.15.2 Zgoda opiekuna i obecnosc rodzica"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.20. Modyfikacja działań zawodowych na podstawie ocen zespołu"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.20 — zagadnienie 1"
+    text: "Zagadnienie „3.20.1. Zmiana zlecenia lekarskiego” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 1"
+    text: "Zagadnienie „3.20.2. Zmiana stanu klinicznego pacjenta” jest elementem zagadnienia „3.20.1. Zmiana zlecenia lekarskiego”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 2"
+    text: "Zagadnienie „3.20.2. Zmiana stanu klinicznego pacjenta” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 2"
+    text: "Zagadnienie „3.20.3. Wystąpienie przeciwwskazania” jest elementem zagadnienia „3.20.2. Zmiana stanu klinicznego pacjenta”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 3"
+    text: "Zagadnienie „3.20.3. Wystąpienie przeciwwskazania” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 3"
+    text: "Zagadnienie „3.20.4. Brak poprawy lub pogorszenie” jest elementem zagadnienia „3.20.3. Wystąpienie przeciwwskazania”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 4"
+    text: "Zagadnienie „3.20.4. Brak poprawy lub pogorszenie” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 4"
+    text: "Zagadnienie „3.20.5. Reakcja niepożądana” jest elementem zagadnienia „3.20.4. Brak poprawy lub pogorszenie”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 5"
+    text: "Zagadnienie „3.20.5. Reakcja niepożądana” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 5"
+    text: "Zagadnienie „3.20.6. Konsultacja z przełożonym” jest elementem zagadnienia „3.20.5. Reakcja niepożądana”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 6"
+    text: "Zagadnienie „3.20.6. Konsultacja z przełożonym” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 6"
+    text: "Zagadnienie „3.20.7. Przerwanie zabiegu” jest elementem zagadnienia „3.20.6. Konsultacja z przełożonym”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 7"
+    text: "Zagadnienie „3.20.7. Przerwanie zabiegu” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 7"
+    text: "Zagadnienie „3.20.8. Skierowanie do lekarza” jest elementem zagadnienia „3.20.7. Przerwanie zabiegu”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 8"
+    text: "Zagadnienie „3.20.8. Skierowanie do lekarza” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 8"
+    text: "Zagadnienie „3.20.9. Dokumentacja zmiany planu” jest elementem zagadnienia „3.20.8. Skierowanie do lekarza”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 9"
+    text: "Zagadnienie „3.20.9. Dokumentacja zmiany planu” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: truefalse
+    name: "3.20 — rozgraniczenie 9"
+    text: "Zagadnienie „3.20.10. Zasada: pacjent jest ważniejszy niż plan zabiegów” jest elementem zagadnienia „3.20.9. Dokumentacja zmiany planu”, a nie tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: false
+  - type: truefalse
+    name: "3.20 — zagadnienie 10"
+    text: "Zagadnienie „3.20.10. Zasada: pacjent jest ważniejszy niż plan zabiegów” wchodzi w zakres tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)."
+    answer: true
+  - type: multichoice
+    name: "3.20 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Modyfikacja działań zawodowych na podstawie ocen zespołu” (3.20)?"
+    answers:
+      - text: "3.20.1. Zmiana zlecenia lekarskiego"  fraction: 100
+      - text: "2.5.6. Przechowywanie i archiwizacja"  fraction: 0
+      - text: "3.18.6. Poprawa propriocepcji"  fraction: 0
+      - text: "5.8.6. Małoletni: zgoda opiekuna"  fraction: 0

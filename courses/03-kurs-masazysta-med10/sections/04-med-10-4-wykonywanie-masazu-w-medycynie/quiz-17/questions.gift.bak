@@ -1,0 +1,49 @@
+// Quiz: 4.17. Masaż izometryczny — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-417-q1:: Zagadnienie „4.17.1. Zasada skurczu izometrycznego” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q1b:: Zagadnienie „4.17.2. Przygotowanie mięśnia” jest elementem zagadnienia „4.17.1. Zasada skurczu izometrycznego”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q2:: Zagadnienie „4.17.2. Przygotowanie mięśnia” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q2b:: Zagadnienie „4.17.3. Czas skurczu i odpoczynku” jest elementem zagadnienia „4.17.2. Przygotowanie mięśnia”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q3:: Zagadnienie „4.17.3. Czas skurczu i odpoczynku” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q3b:: Zagadnienie „4.17.4. Progresja obciążenia” jest elementem zagadnienia „4.17.3. Czas skurczu i odpoczynku”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q4:: Zagadnienie „4.17.4. Progresja obciążenia” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q4b:: Zagadnienie „4.17.5. Kontrola oddechu — zakaz bezdechu” jest elementem zagadnienia „4.17.4. Progresja obciążenia”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q5:: Zagadnienie „4.17.5. Kontrola oddechu — zakaz bezdechu” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q5b:: Zagadnienie „4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry” jest elementem zagadnienia „4.17.5. Kontrola oddechu — zakaz bezdechu”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q6:: Zagadnienie „4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q6b:: Zagadnienie „4.17.7. Zastosowanie w zanikach i osłabieniu” jest elementem zagadnienia „4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q7:: Zagadnienie „4.17.7. Zastosowanie w zanikach i osłabieniu” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q7b:: Zagadnienie „4.17.8. Ryzyko przeciążenia” jest elementem zagadnienia „4.17.7. Zastosowanie w zanikach i osłabieniu”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q8:: Zagadnienie „4.17.8. Ryzyko przeciążenia” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q8b:: Zagadnienie „4.17.9. Dokumentacja siły i powtórzeń” jest elementem zagadnienia „4.17.8. Ryzyko przeciążenia”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q9:: Zagadnienie „4.17.9. Dokumentacja siły i powtórzeń” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::tf-s04-417-q9b:: Zagadnienie „4.17.10. Zasada: wzmacnianie bez bólu obronnego” jest elementem zagadnienia „4.17.9. Dokumentacja siły i powtórzeń”, a nie tematu „Masaż izometryczny” (4.17). {FALSE} //
+
+::tf-s04-417-q10:: Zagadnienie „4.17.10. Zasada: wzmacnianie bez bólu obronnego” wchodzi w zakres tematu „Masaż izometryczny” (4.17). {TRUE} //
+
+::mc-s04-417:: Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)? {
+    = 4.17.1. Zasada skurczu izometrycznego
+    ~ 4.17.2. Przygotowanie mięśnia
+    ~ 4.17.3. Czas skurczu i odpoczynku
+    ~ 2.6.3. Czynniki negatywnie wpływające na zdrowie
+    ~ 3.19.3. Pielęgniarka i opiekun medyczny
+    ~ 6.1.3. Relaksacja a leczenie
+}

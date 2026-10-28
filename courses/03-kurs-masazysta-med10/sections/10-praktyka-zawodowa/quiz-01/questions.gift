@@ -47,3 +47,101 @@
     ~ 3.18.3. Zwiększenie zakresu ruchu
     ~ 5.8.2. Zakaz stosowania środków dopingujących przez masażystę
 }
+
+::mc-s10-101-q1:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.1 Zastosowanie wiedzy w warunkach rzeczywistych
+    ~ Narzady plciowe — aspekty anatomiczne istotne dla masazu
+    ~ Zapowiedz dotyku i pytanie o zgode
+    ~ Higiena rak i powierzchni
+}
+
+::mc-s10-101-q2:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.2 Ksztaltowanie postawy etycznej
+    ~ Gruczoly dokrewne i hormony
+    ~ Obserwacja leku, bolu, dyskomfortu
+    ~ Granice intymnosci
+}
+
+::mc-s10-101-q3:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.3 Nauka wspolpracy z zespolem
+    ~ Wplyw hormonow na tkanki i samopoczucie
+    ~ Pozycja na brzuchu
+    ~ Edukacja ergonomia
+}
+
+::mc-s10-101-q4:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.4 Rozwijanie umiejetnosci palpacyjnych
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na plecach
+    ~ Dokumentacja skrocona
+}
+
+::mc-s10-101-q5:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.5 Rozwijanie umiejetnosci komunikacyjnych
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s10-101-q6:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.6 Bezpieczne wykonywanie zabiegow pod nadzorem
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s10-101-q7:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.7 Dokumentowanie pracy
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s10-101-q8:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.8 Refleksja nad wlasnymi ograniczeniami
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s10-101-q9:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.9 Przygotowanie do egzaminu MED.10
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s10-101-q10:: Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.10 Sluzba pacjentowi w prawdzie i milosci
+    ~ Powtorzenia kazdej techniki
+    ~ Drenaz konczyny dolnej
+    ~ Vibrating device, hot stones
+}
+
+::mc-s10-101-v1:: Które zagadnienie należy do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.1 Zastosowanie wiedzy w warunkach rzeczywistych
+    ~0.5# 10.1.2 Ksztaltowanie postawy etycznej
+    ~0.5# 10.1.3 Nauka wspolpracy z zespolem
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s10-101-v2:: Które zagadnienie NIE należy do tematu „Cele praktyki zawodowej” (10.1), lecz jest częścią innego tematu kursu? {
+    = 10.1.1 Zastosowanie wiedzy w warunkach rzeczywistych
+    ~-0.25# 10.1.2 Ksztaltowanie postawy etycznej
+    ~-0.25# 10.1.3 Nauka wspolpracy z zespolem
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s10-101-v3:: Które zagadnienie należy do tematu „Cele praktyki zawodowej” (10.1)? {
+    = 10.1.3 Nauka wspolpracy z zespolem
+    ~0.5# 10.1.1 Zastosowanie wiedzy w warunkach rzeczywistych
+    ~0.5# 10.1.2 Ksztaltowanie postawy etycznej
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s10-101-v4:: Które zagadnienie NIE należy do tematu „Cele praktyki zawodowej” (10.1), lecz jest częścią innego tematu kursu? {
+    = 10.1.1 Zastosowanie wiedzy w warunkach rzeczywistych
+    ~-0.25# 10.1.4 Rozwijanie umiejetnosci palpacyjnych
+    ~-0.25# 10.1.2 Ksztaltowanie postawy etycznej
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.16. Zasady wykonywania poszczególnych rodzajów masażu w medycynie"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.16 — zagadnienie 1"
+  - id: "tf-s03-316-q1"
+    type: "truefalse"
+    name: "tf-s03-316-q1"
     text: "Zagadnienie „3.16.1. Masaż klasyczny: cel, kolejność, czas, siła” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 1"
+  - id: "tf-s03-316-q1b"
+    type: "truefalse"
+    name: "tf-s03-316-q1b"
     text: "Zagadnienie „3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo” jest elementem zagadnienia „3.16.1. Masaż klasyczny: cel, kolejność, czas, siła”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 2"
+  - id: "tf-s03-316-q2"
+    type: "truefalse"
+    name: "tf-s03-316-q2"
     text: "Zagadnienie „3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 2"
+  - id: "tf-s03-316-q2b"
+    type: "truefalse"
+    name: "tf-s03-316-q2b"
     text: "Zagadnienie „3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja” jest elementem zagadnienia „3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 3"
+  - id: "tf-s03-316-q3"
+    type: "truefalse"
+    name: "tf-s03-316-q3"
     text: "Zagadnienie „3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 3"
+  - id: "tf-s03-316-q3b"
+    type: "truefalse"
+    name: "tf-s03-316-q3b"
     text: "Zagadnienie „3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek” jest elementem zagadnienia „3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 4"
+  - id: "tf-s03-316-q4"
+    type: "truefalse"
+    name: "tf-s03-316-q4"
     text: "Zagadnienie „3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 4"
+  - id: "tf-s03-316-q4b"
+    type: "truefalse"
+    name: "tf-s03-316-q4b"
     text: "Zagadnienie „3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania” jest elementem zagadnienia „3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 5"
+  - id: "tf-s03-316-q5"
+    type: "truefalse"
+    name: "tf-s03-316-q5"
     text: "Zagadnienie „3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 5"
+  - id: "tf-s03-316-q5b"
+    type: "truefalse"
+    name: "tf-s03-316-q5b"
     text: "Zagadnienie „3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze” jest elementem zagadnienia „3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 6"
+  - id: "tf-s03-316-q6"
+    type: "truefalse"
+    name: "tf-s03-316-q6"
     text: "Zagadnienie „3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 6"
+  - id: "tf-s03-316-q6b"
+    type: "truefalse"
+    name: "tf-s03-316-q6b"
     text: "Zagadnienie „3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching” jest elementem zagadnienia „3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 7"
+  - id: "tf-s03-316-q7"
+    type: "truefalse"
+    name: "tf-s03-316-q7"
     text: "Zagadnienie „3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 7"
+  - id: "tf-s03-316-q7b"
+    type: "truefalse"
+    name: "tf-s03-316-q7b"
     text: "Zagadnienie „3.16.8. Refleksoterapia stóp: mapy, techniki, granice” jest elementem zagadnienia „3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 8"
+  - id: "tf-s03-316-q8"
+    type: "truefalse"
+    name: "tf-s03-316-q8"
     text: "Zagadnienie „3.16.8. Refleksoterapia stóp: mapy, techniki, granice” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 8"
+  - id: "tf-s03-316-q8b"
+    type: "truefalse"
+    name: "tf-s03-316-q8b"
     text: "Zagadnienie „3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga” jest elementem zagadnienia „3.16.8. Refleksoterapia stóp: mapy, techniki, granice”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 9"
+  - id: "tf-s03-316-q9"
+    type: "truefalse"
+    name: "tf-s03-316-q9"
     text: "Zagadnienie „3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: truefalse
-    name: "3.16 — rozgraniczenie 9"
+  - id: "tf-s03-316-q9b"
+    type: "truefalse"
+    name: "tf-s03-316-q9b"
     text: "Zagadnienie „3.16.10. Masaż izometryczny i stawowy: progresja, kontrola bólu” jest elementem zagadnienia „3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: false
-  - type: truefalse
-    name: "3.16 — zagadnienie 10"
+  - id: "tf-s03-316-q10"
+    type: "truefalse"
+    name: "tf-s03-316-q10"
     text: "Zagadnienie „3.16.10. Masaż izometryczny i stawowy: progresja, kontrola bólu” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
     answer: true
-  - type: multichoice
-    name: "3.16 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-316"
+    type: "multichoice"
+    name: "mc-s03-316"
     text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
     answers:
-      - text: "3.16.1. Masaż klasyczny: cel, kolejność, czas, siła"  fraction: 100
-      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 0
-      - text: "3.19.2. Fizjoterapeuta"  fraction: 0
-      - text: "6.1.1. Zdrowie jako dobro i zadanie"  fraction: 0
+      - text: "3.16.1. Masaż klasyczny: cel, kolejność, czas, siła"
+        fraction: 100
+      - text: "3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo"
+        fraction: 0
+      - text: "3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja"
+        fraction: 0
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"
+        fraction: 0
+      - text: "3.19.2. Fizjoterapeuta"
+        fraction: 0
+      - text: "6.1.1. Zdrowie jako dobro i zadanie"
+        fraction: 0
+  - id: "mc-s03-316-q1"
+    type: "multichoice"
+    name: "mc-s03-316-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.1 Masaz klasyczny: cel, kolejnosc, czas, sila"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s03-316-q2"
+    type: "multichoice"
+    name: "mc-s03-316-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.2 Masaz w srodowisku wodnym: przygotowanie, technika, bezpieczenstwo"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s03-316-q3"
+    type: "multichoice"
+    name: "mc-s03-316-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.3 Manualny drenaz limfatyczny: kierunek, tempo, pozycja"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s03-316-q4"
+    type: "multichoice"
+    name: "mc-s03-316-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.4 Masaz lacznotkankowy: strefy, technika, reakcja tkanek"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s03-316-q5"
+    type: "multichoice"
+    name: "mc-s03-316-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.5 Masaz okostnowy: ostroznosc, bol, przeciwwskazania"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s03-316-q6"
+    type: "multichoice"
+    name: "mc-s03-316-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.6 Masaz segmentarny: chwyty diagnostyczne i lecznicze"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s03-316-q7"
+    type: "multichoice"
+    name: "mc-s03-316-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.7 Masaz punktowy: punkty spustowe, kompresja, stretching"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s03-316-q8"
+    type: "multichoice"
+    name: "mc-s03-316-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.8 Refleksoterapia stop: mapy, techniki, granice"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy higieny snu"
+        fraction: 0
+  - id: "mc-s03-316-q9"
+    type: "multichoice"
+    name: "mc-s03-316-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.9 Masaz tensegracyjny: linie powieziowe, oddech, uwaga"
+        fraction: 100
+      - text: "Skurcz koncentryczny i ekscentryczny"
+        fraction: 0
+      - text: "Masaz kregoslupa ledzwiowego"
+        fraction: 0
+      - text: "Podstawy aktywnosci fizycznej"
+        fraction: 0
+  - id: "mc-s03-316-q10"
+    type: "multichoice"
+    name: "mc-s03-316-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.10 Masaz izometryczny i stawowy: progresja, kontrola bolu"
+        fraction: 100
+      - text: "Oliwki i oleje roslinne"
+        fraction: 0
+      - text: "Zapobieganie zakazeniom"
+        fraction: 0
+      - text: "Segmental massage"
+        fraction: 0
+  - id: "mc-s03-316-v1"
+    type: "multichoice"
+    name: "mc-s03-316-v1"
+    text: "Które zagadnienie należy do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.1 Masaz klasyczny\\: cel, kolejnosc, czas, sila"
+        fraction: 100
+      - text: "0.5# 3.16.2 Masaz w srodowisku wodnym\\: przygotowanie, technika, bezpieczenstwo"
+        fraction: 0
+      - text: "0.5# 3.16.3 Manualny drenaz limfatyczny\\: kierunek, tempo, pozycja"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s03-316-v2"
+    type: "multichoice"
+    name: "mc-s03-316-v2"
+    text: "Które zagadnienie NIE należy do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.16.1 Masaz klasyczny\\: cel, kolejnosc, czas, sila"
+        fraction: 100
+      - text: "-0.25# 3.16.2 Masaz w srodowisku wodnym\\: przygotowanie, technika, bezpieczenstwo"
+        fraction: 0
+      - text: "-0.25# 3.16.3 Manualny drenaz limfatyczny\\: kierunek, tempo, pozycja"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s03-316-v3"
+    type: "multichoice"
+    name: "mc-s03-316-v3"
+    text: "Które zagadnienie należy do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.3 Manualny drenaz limfatyczny\\: kierunek, tempo, pozycja"
+        fraction: 100
+      - text: "0.5# 3.16.1 Masaz klasyczny\\: cel, kolejnosc, czas, sila"
+        fraction: 0
+      - text: "0.5# 3.16.2 Masaz w srodowisku wodnym\\: przygotowanie, technika, bezpieczenstwo"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s03-316-v4"
+    type: "multichoice"
+    name: "mc-s03-316-v4"
+    text: "Które zagadnienie NIE należy do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.16.1 Masaz klasyczny\\: cel, kolejnosc, czas, sila"
+        fraction: 100
+      - text: "-0.25# 3.16.4 Masaz lacznotkankowy\\: strefy, technika, reakcja tkanek"
+        fraction: 0
+      - text: "-0.25# 3.16.2 Masaz w srodowisku wodnym\\: przygotowanie, technika, bezpieczenstwo"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

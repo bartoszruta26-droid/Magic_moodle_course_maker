@@ -47,3 +47,101 @@
     ~ 3.19.5. Terapeuta zajęciowy
     ~ 6.1.4. Masaż prozdrowotny u osoby zdrowej
 }
+
+::mc-s03-319-q1:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.1 Lekarz specjalista
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s03-319-q2:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.2 Fizjoterapeuta
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s03-319-q3:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.3 Pielegniarka i opiekun medyczny
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s03-319-q4:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.4 Psycholog i psychiatra
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s03-319-q5:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.5 Terapeuta zajeciowy
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz kregoslupa piersiowego
+    ~ Podstawy higieny snu
+}
+
+::mc-s03-319-q6:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.6 Dietetyk
+    ~ Skurcz koncentryczny i ekscentryczny
+    ~ Masaz kregoslupa ledzwiowego
+    ~ Podstawy aktywnosci fizycznej
+}
+
+::mc-s03-319-q7:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.7 Trener medyczny i trener sportowy
+    ~ Napiecie spoczynkowe miesnia
+    ~ Masaz karku
+    ~ Podstawy nawodnienia
+}
+
+::mc-s03-319-q8:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.8 Opiekun osoby starszej lub niepelnosprawnej
+    ~ Zmeczenie miesniowe
+    ~ Masaz klatki piersiowej
+    ~ Podstawy pielegnacji skory
+}
+
+::mc-s03-319-q9:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.9 Rola masazysty w zespole
+    ~ Przykurcze i oslabienie
+    ~ Masaz powlok brzusznych
+    ~ Profilaktyka przeciazen
+}
+
+::mc-s03-319-q10:: Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.10 Komunikacja: przekazywanie obserwacji bez przekraczania kompetencji
+    ~ Preparaty rozgrzewajace
+    ~ Monitorowanie obwodow
+    ~ Deep tissue work — within legal scope
+}
+
+::mc-s03-319-v1:: Które zagadnienie należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.1 Lekarz specjalista
+    ~0.5# 3.19.2 Fizjoterapeuta
+    ~0.5# 3.19.3 Pielegniarka i opiekun medyczny
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-319-v2:: Które zagadnienie NIE należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19), lecz jest częścią innego tematu kursu? {
+    = 3.19.1 Lekarz specjalista
+    ~-0.25# 3.19.2 Fizjoterapeuta
+    ~-0.25# 3.19.3 Pielegniarka i opiekun medyczny
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-319-v3:: Które zagadnienie należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)? {
+    = 3.19.3 Pielegniarka i opiekun medyczny
+    ~0.5# 3.19.1 Lekarz specjalista
+    ~0.5# 3.19.2 Fizjoterapeuta
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-319-v4:: Które zagadnienie NIE należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19), lecz jest częścią innego tematu kursu? {
+    = 3.19.1 Lekarz specjalista
+    ~-0.25# 3.19.4 Psycholog i psychiatra
+    ~-0.25# 3.19.2 Fizjoterapeuta
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

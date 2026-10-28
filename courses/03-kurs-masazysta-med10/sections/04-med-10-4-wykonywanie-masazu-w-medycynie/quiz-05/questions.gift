@@ -47,3 +47,101 @@
     ~ 3.14.2. Temperatura wody i jej wpływ
     ~ 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie
 }
+
+::mc-s04-45-q1:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.1 Informowanie o przebiegu zabiegu
+    ~ Unaczynienie skory
+    ~ Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie
+    ~ Komunikacja: zapowiedz dotyku
+}
+
+::mc-s04-45-q2:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.2 Zgoda na zabieg i prawo odmowy
+    ~ Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Pomiary dlugosci konczyn
+    ~ Prawo do przerwania
+}
+
+::mc-s04-45-q3:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.3 Higiena pacjenta: czysta skora, brak makijazu, zdjecie bizuterii
+    ~ Wplyw masazu na skore
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s04-45-q4:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.4 Ubranie lub bielizna — szacunek dla intymnosci
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s04-45-q5:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.5 Wyproznienie i nawodnienie przy zabiegach brzucha i drenazu
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s04-45-q6:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.6 Unikanie masazu bezposrednio po obfitym posilku
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s04-45-q7:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.7 Pozycja bezpieczna i komfortowa
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s04-45-q8:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.8 Okrycie czesci nieobszukiwanych
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s04-45-q9:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.9 Zapowiedz dotyku i pytanie o zgode
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Srodki poslizgowe
+}
+
+::mc-s04-45-q10:: Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.10 Obserwacja leku, bolu, dyskomfortu
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s04-45-v1:: Które zagadnienie należy do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.1 Informowanie o przebiegu zabiegu
+    ~0.5# 4.5.2 Zgoda na zabieg i prawo odmowy
+    ~0.5# 4.5.3 Higiena pacjenta\: czysta skora, brak makijazu, zdjecie bizuterii
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-45-v2:: Które zagadnienie NIE należy do tematu „Przygotowanie pacjenta do masażu” (4.5), lecz jest częścią innego tematu kursu? {
+    = 4.5.1 Informowanie o przebiegu zabiegu
+    ~-0.25# 4.5.2 Zgoda na zabieg i prawo odmowy
+    ~-0.25# 4.5.3 Higiena pacjenta\: czysta skora, brak makijazu, zdjecie bizuterii
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-45-v3:: Które zagadnienie należy do tematu „Przygotowanie pacjenta do masażu” (4.5)? {
+    = 4.5.3 Higiena pacjenta\: czysta skora, brak makijazu, zdjecie bizuterii
+    ~0.5# 4.5.1 Informowanie o przebiegu zabiegu
+    ~0.5# 4.5.2 Zgoda na zabieg i prawo odmowy
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-45-v4:: Które zagadnienie NIE należy do tematu „Przygotowanie pacjenta do masażu” (4.5), lecz jest częścią innego tematu kursu? {
+    = 4.5.1 Informowanie o przebiegu zabiegu
+    ~-0.25# 4.5.4 Ubranie lub bielizna — szacunek dla intymnosci
+    ~-0.25# 4.5.2 Zgoda na zabieg i prawo odmowy
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

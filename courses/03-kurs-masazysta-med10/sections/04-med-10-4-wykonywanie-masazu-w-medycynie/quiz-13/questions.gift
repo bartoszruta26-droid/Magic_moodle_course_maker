@@ -67,3 +67,31 @@
     ~ 3.18.9. Kiedy reakcja jest alarmowa
     ~ 5.8.9. Dokumentacja zdarzeń niepożądanych
 }
+
+::mc-s04-413-v1:: Które zagadnienie należy do tematu „Masaż segmentarny” (4.13)? {
+    = 4.13.1 Podstawy embriologiczne i neurofizjologiczne
+    ~0.5# 4.13.2 Sklerotom, miotom, dermatom
+    ~0.5# 4.13.3 Sfery Heada i strefy Mackenziego
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-413-v2:: Które zagadnienie NIE należy do tematu „Masaż segmentarny” (4.13), lecz jest częścią innego tematu kursu? {
+    = 4.13.1 Podstawy embriologiczne i neurofizjologiczne
+    ~-0.25# 4.13.2 Sklerotom, miotom, dermatom
+    ~-0.25# 4.13.3 Sfery Heada i strefy Mackenziego
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-413-v3:: Które zagadnienie należy do tematu „Masaż segmentarny” (4.13)? {
+    = 4.13.3 Sfery Heada i strefy Mackenziego
+    ~0.5# 4.13.1 Podstawy embriologiczne i neurofizjologiczne
+    ~0.5# 4.13.2 Sklerotom, miotom, dermatom
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-413-v4:: Które zagadnienie NIE należy do tematu „Masaż segmentarny” (4.13), lecz jest częścią innego tematu kursu? {
+    = 4.13.1 Podstawy embriologiczne i neurofizjologiczne
+    ~-0.25# 4.13.4 Chwyty diagnostyczne\: ogladanie, obmacywanie, opukiwanie, przesuwanie tkanek
+    ~-0.25# 4.13.2 Sklerotom, miotom, dermatom
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

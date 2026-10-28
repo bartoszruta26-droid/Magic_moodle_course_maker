@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "4.21. Masaż kobiety w połogu"
+category: masaz
+questions:
+  - type: truefalse
+    name: "4.21 — zagadnienie 1"
+    text: "Zagadnienie „4.21.1. Połóg fizjologiczny i powikłany” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 1"
+    text: "Zagadnienie „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność” jest elementem zagadnienia „4.21.1. Połóg fizjologiczny i powikłany”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 2"
+    text: "Zagadnienie „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 2"
+    text: "Zagadnienie „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza” jest elementem zagadnienia „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 3"
+    text: "Zagadnienie „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 3"
+    text: "Zagadnienie „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą” jest elementem zagadnienia „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 4"
+    text: "Zagadnienie „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 4"
+    text: "Zagadnienie „4.21.5. Masaż grzbietu i karku przy karmieniu” jest elementem zagadnienia „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 5"
+    text: "Zagadnienie „4.21.5. Masaż grzbietu i karku przy karmieniu” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 5"
+    text: "Zagadnienie „4.21.6. Drenaż obrzęków” jest elementem zagadnienia „4.21.5. Masaż grzbietu i karku przy karmieniu”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 6"
+    text: "Zagadnienie „4.21.6. Drenaż obrzęków” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 6"
+    text: "Zagadnienie „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja” jest elementem zagadnienia „4.21.6. Drenaż obrzęków”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 7"
+    text: "Zagadnienie „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 7"
+    text: "Zagadnienie „4.21.8. Wsparcie emocjonalne matki” jest elementem zagadnienia „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 8"
+    text: "Zagadnienie „4.21.8. Wsparcie emocjonalne matki” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 8"
+    text: "Zagadnienie „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu” jest elementem zagadnienia „4.21.8. Wsparcie emocjonalne matki”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 9"
+    text: "Zagadnienie „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: truefalse
+    name: "4.21 — rozgraniczenie 9"
+    text: "Zagadnienie „4.21.10. Dokumentacja i skierowania” jest elementem zagadnienia „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu”, a nie tematu „Masaż kobiety w połogu” (4.21)."
+    answer: false
+  - type: truefalse
+    name: "4.21 — zagadnienie 10"
+    text: "Zagadnienie „4.21.10. Dokumentacja i skierowania” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
+    answer: true
+  - type: multichoice
+    name: "4.21 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.1. Połóg fizjologiczny i powikłany"  fraction: 100
+      - text: "2.5.8. Błędy dokumentacyjne i ich konsekwencje"  fraction: 0
+      - text: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"  fraction: 0
+      - text: "5.8.8. Osoby z chorobami przewlekłymi"  fraction: 0

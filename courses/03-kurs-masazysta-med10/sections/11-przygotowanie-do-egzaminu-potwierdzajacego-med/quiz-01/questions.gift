@@ -47,3 +47,101 @@
     ~ 3.18.4. Redukcja obrzęku
     ~ 5.8.3. Ochrona prywatności zawodnika
 }
+
+::mc-s11-111-q1:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.1 Czesc pisemna
+    ~ Gruczoly dokrewne i hormony
+    ~ Obserwacja leku, bolu, dyskomfortu
+    ~ Granice intymnosci
+}
+
+::mc-s11-111-q2:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.2 Czesc praktyczna
+    ~ Wplyw hormonow na tkanki i samopoczucie
+    ~ Pozycja na brzuchu
+    ~ Edukacja ergonomia
+}
+
+::mc-s11-111-q3:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.3 Kryteria pozytywnej oceny
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na plecach
+    ~ Dokumentacja skrocona
+}
+
+::mc-s11-111-q4:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.4 Bledy dyskwalifikujace
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s11-111-q5:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.5 Bezpieczenstwo pacjenta jako kryterium egzaminacyjne
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s11-111-q6:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.6 Etyka i kultura zawodowa
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s11-111-q7:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.7 Dokumentacja zabiegowa
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s11-111-q8:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.8 Komunikacja z egzaminatorem
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s11-111-q9:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.9 Zarzadzanie czasem
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s11-111-q10:: Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.10 Zasada: egzamin sprawdza kompetencje, nie posluszenstwo
+    ~ Wiek, plec, budowa ciala, stan zdrowia
+    ~ Drenaz po usunieciu wezlow chlonnych
+    ~ Privacy screen
+}
+
+::mc-s11-111-v1:: Które zagadnienie należy do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.1 Czesc pisemna
+    ~0.5# 11.1.2 Czesc praktyczna
+    ~0.5# 11.1.3 Kryteria pozytywnej oceny
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-111-v2:: Które zagadnienie NIE należy do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1), lecz jest częścią innego tematu kursu? {
+    = 11.1.1 Czesc pisemna
+    ~-0.25# 11.1.2 Czesc praktyczna
+    ~-0.25# 11.1.3 Kryteria pozytywnej oceny
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-111-v3:: Które zagadnienie należy do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)? {
+    = 11.1.3 Kryteria pozytywnej oceny
+    ~0.5# 11.1.1 Czesc pisemna
+    ~0.5# 11.1.2 Czesc praktyczna
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-111-v4:: Które zagadnienie NIE należy do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1), lecz jest częścią innego tematu kursu? {
+    = 11.1.1 Czesc pisemna
+    ~-0.25# 11.1.4 Bledy dyskwalifikujace
+    ~-0.25# 11.1.2 Czesc praktyczna
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

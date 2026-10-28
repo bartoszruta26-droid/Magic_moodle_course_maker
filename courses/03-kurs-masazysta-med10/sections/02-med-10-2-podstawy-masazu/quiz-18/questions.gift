@@ -47,3 +47,101 @@
     ~ 3.19.3. Pielęgniarka i opiekun medyczny
     ~ 6.1.2. Profilaktyka a terapia
 }
+
+::mc-s02-218-q1:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.1 Sila: lagodna, srednia, gleboka
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s02-218-q2:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.2 Tempo: wolne, umiarkowane, szybkie
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s02-218-q3:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.3 Czas trwania zabiegu
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s02-218-q4:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.4 Powtorzenia kazdej techniki
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s02-218-q5:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.5 Wiek, plec, budowa ciala, stan zdrowia
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s02-218-q6:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.6 Tolerancja bolu i prog dyskomfortu
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s02-218-q7:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.7 Reakcja pacjenta w trakcie zabiegu
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz kregoslupa piersiowego
+    ~ Podstawy higieny snu
+}
+
+::mc-s02-218-q8:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.8 Zasada stopniowania bodzca
+    ~ Skurcz koncentryczny i ekscentryczny
+    ~ Masaz kregoslupa ledzwiowego
+    ~ Podstawy aktywnosci fizycznej
+}
+
+::mc-s02-218-q9:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.9 Zasada nieprzekraczania granicy bolu obronnego
+    ~ Napiecie spoczynkowe miesnia
+    ~ Masaz karku
+    ~ Podstawy nawodnienia
+}
+
+::mc-s02-218-q10:: Które zagadnienie należy bezpośrednio do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.10 Dokumentacja zastosowanych parametrow
+    ~ Kremy do masazu
+    ~ Edukacja pacjenta i rodziny
+    ~ Trigger point therapy
+}
+
+::mc-s02-218-v1:: Które zagadnienie należy do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.1 Sila\: lagodna, srednia, gleboka
+    ~0.5# 2.18.2 Tempo\: wolne, umiarkowane, szybkie
+    ~0.5# 2.18.3 Czas trwania zabiegu
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-218-v2:: Które zagadnienie NIE należy do tematu „Dawkowanie masażu klasycznego” (2.18), lecz jest częścią innego tematu kursu? {
+    = 2.18.1 Sila\: lagodna, srednia, gleboka
+    ~-0.25# 2.18.2 Tempo\: wolne, umiarkowane, szybkie
+    ~-0.25# 2.18.3 Czas trwania zabiegu
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-218-v3:: Które zagadnienie należy do tematu „Dawkowanie masażu klasycznego” (2.18)? {
+    = 2.18.3 Czas trwania zabiegu
+    ~0.5# 2.18.1 Sila\: lagodna, srednia, gleboka
+    ~0.5# 2.18.2 Tempo\: wolne, umiarkowane, szybkie
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-218-v4:: Które zagadnienie NIE należy do tematu „Dawkowanie masażu klasycznego” (2.18), lecz jest częścią innego tematu kursu? {
+    = 2.18.1 Sila\: lagodna, srednia, gleboka
+    ~-0.25# 2.18.4 Powtorzenia kazdej techniki
+    ~-0.25# 2.18.2 Tempo\: wolne, umiarkowane, szybkie
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

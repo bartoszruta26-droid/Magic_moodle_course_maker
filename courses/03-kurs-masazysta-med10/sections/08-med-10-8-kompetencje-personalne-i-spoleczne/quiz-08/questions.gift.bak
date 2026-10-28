@@ -1,0 +1,49 @@
+// Quiz: 8.8. Komunikacja interpersonalna — moduł 8 (08-med-10-8-kompetencje-personalne-i-spoleczne)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s08-88-q1:: Zagadnienie „8.8.1. Aktywne słuchanie” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q1b:: Zagadnienie „8.8.2. Parafraza i klaryfikacja” jest elementem zagadnienia „8.8.1. Aktywne słuchanie”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q2:: Zagadnienie „8.8.2. Parafraza i klaryfikacja” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q2b:: Zagadnienie „8.8.3. Język zrozumiały dla pacjenta” jest elementem zagadnienia „8.8.2. Parafraza i klaryfikacja”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q3:: Zagadnienie „8.8.3. Język zrozumiały dla pacjenta” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q3b:: Zagadnienie „8.8.4. Dostosowanie do wieku i stanu zdrowia” jest elementem zagadnienia „8.8.3. Język zrozumiały dla pacjenta”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q4:: Zagadnienie „8.8.4. Dostosowanie do wieku i stanu zdrowia” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q4b:: Zagadnienie „8.8.5. Komunikacja z osobą lękową” jest elementem zagadnienia „8.8.4. Dostosowanie do wieku i stanu zdrowia”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q5:: Zagadnienie „8.8.5. Komunikacja z osobą lękową” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q5b:: Zagadnienie „8.8.6. Komunikacja z osobą zniecierpliwioną” jest elementem zagadnienia „8.8.5. Komunikacja z osobą lękową”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q6:: Zagadnienie „8.8.6. Komunikacja z osobą zniecierpliwioną” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q6b:: Zagadnienie „8.8.7. Komunikacja z osobą w bólu” jest elementem zagadnienia „8.8.6. Komunikacja z osobą zniecierpliwioną”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q7:: Zagadnienie „8.8.7. Komunikacja z osobą w bólu” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q7b:: Zagadnienie „8.8.8. Komunikacja z rodziną pacjenta” jest elementem zagadnienia „8.8.7. Komunikacja z osobą w bólu”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q8:: Zagadnienie „8.8.8. Komunikacja z rodziną pacjenta” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q8b:: Zagadnienie „8.8.9. Podstawy języka migowego — jeśli przewidziano” jest elementem zagadnienia „8.8.8. Komunikacja z rodziną pacjenta”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q9:: Zagadnienie „8.8.9. Podstawy języka migowego — jeśli przewidziano” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::tf-s08-88-q9b:: Zagadnienie „8.8.10. Milczenie jako szacunek” jest elementem zagadnienia „8.8.9. Podstawy języka migowego — jeśli przewidziano”, a nie tematu „Komunikacja interpersonalna” (8.8). {FALSE} //
+
+::tf-s08-88-q10:: Zagadnienie „8.8.10. Milczenie jako szacunek” wchodzi w zakres tematu „Komunikacja interpersonalna” (8.8). {TRUE} //
+
+::mc-s08-88:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.1. Aktywne słuchanie
+    ~ 8.8.2. Parafraza i klaryfikacja
+    ~ 8.8.3. Język zrozumiały dla pacjenta
+    ~ 2.1.9. Zakaz kontaktów seksualnych z pacjentem
+    ~ 3.14.9. Asysta drugiej osoby przy osobach niesamodzielnych
+    ~ 5.4.8. Otwarta rana — przeciwwskazanie miejscowe
+}

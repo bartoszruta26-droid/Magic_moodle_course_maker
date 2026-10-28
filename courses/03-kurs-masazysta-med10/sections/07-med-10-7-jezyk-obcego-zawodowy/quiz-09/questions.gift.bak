@@ -1,0 +1,49 @@
+// Quiz: 7.9. Przekazywanie informacji z materiałów wizualnych i audiowizualnych — moduł 7 (07-med-10-7-jezyk-obcego-zawodowy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s07-79-q1:: Zagadnienie „7.9.1. Anatomy charts” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q1b:: Zagadnienie „7.9.2. Muscle maps” jest elementem zagadnienia „7.9.1. Anatomy charts”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q2:: Zagadnienie „7.9.2. Muscle maps” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q2b:: Zagadnienie „7.9.3. Lymphatic pathways” jest elementem zagadnienia „7.9.2. Muscle maps”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q3:: Zagadnienie „7.9.3. Lymphatic pathways” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q3b:: Zagadnienie „7.9.4. Treatment flowcharts” jest elementem zagadnienia „7.9.3. Lymphatic pathways”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q4:: Zagadnienie „7.9.4. Treatment flowcharts” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q4b:: Zagadnienie „7.9.5. Safety pictograms” jest elementem zagadnienia „7.9.4. Treatment flowcharts”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q5:: Zagadnienie „7.9.5. Safety pictograms” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q5b:: Zagadnienie „7.9.6. Instructional videos” jest elementem zagadnienia „7.9.5. Safety pictograms”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q6:: Zagadnienie „7.9.6. Instructional videos” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q6b:: Zagadnienie „7.9.7. Summarizing visual information” jest elementem zagadnienia „7.9.6. Instructional videos”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q7:: Zagadnienie „7.9.7. Summarizing visual information” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q7b:: Zagadnienie „7.9.8. Translating key messages into Polish” jest elementem zagadnienia „7.9.7. Summarizing visual information”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q8:: Zagadnienie „7.9.8. Translating key messages into Polish” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q8b:: Zagadnienie „7.9.9. Presenting to a group” jest elementem zagadnienia „7.9.8. Translating key messages into Polish”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q9:: Zagadnienie „7.9.9. Presenting to a group” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::tf-s07-79-q9b:: Zagadnienie „7.9.10. Maintaining confidentiality” jest elementem zagadnienia „7.9.9. Presenting to a group”, a nie tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {FALSE} //
+
+::tf-s07-79-q10:: Zagadnienie „7.9.10. Maintaining confidentiality” wchodzi w zakres tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9). {TRUE} //
+
+::mc-s07-79:: Które zagadnienie należy bezpośrednio do tematu „Przekazywanie informacji z materiałów wizualnych i audiowizualnych” (7.9)? {
+    = 7.9.1. Anatomy charts
+    ~ 7.9.2. Muscle maps
+    ~ 7.9.3. Lymphatic pathways
+    ~ 2.1.9. Zakaz kontaktów seksualnych z pacjentem
+    ~ 3.14.9. Asysta drugiej osoby przy osobach niesamodzielnych
+    ~ 5.4.8. Otwarta rana — przeciwwskazanie miejscowe
+}

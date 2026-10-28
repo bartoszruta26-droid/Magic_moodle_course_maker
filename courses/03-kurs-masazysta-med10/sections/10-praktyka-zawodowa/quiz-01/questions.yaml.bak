@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "10.1. Cele praktyki zawodowej"
+category: masaz
+questions:
+  - type: truefalse
+    name: "10.1 — zagadnienie 1"
+    text: "Zagadnienie „10.1.1. Zastosowanie wiedzy w warunkach rzeczywistych” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 1"
+    text: "Zagadnienie „10.1.2. Kształtowanie postawy etycznej” jest elementem zagadnienia „10.1.1. Zastosowanie wiedzy w warunkach rzeczywistych”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 2"
+    text: "Zagadnienie „10.1.2. Kształtowanie postawy etycznej” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 2"
+    text: "Zagadnienie „10.1.3. Nauka współpracy z zespołem” jest elementem zagadnienia „10.1.2. Kształtowanie postawy etycznej”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 3"
+    text: "Zagadnienie „10.1.3. Nauka współpracy z zespołem” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 3"
+    text: "Zagadnienie „10.1.4. Rozwijanie umiejętności palpacyjnych” jest elementem zagadnienia „10.1.3. Nauka współpracy z zespołem”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 4"
+    text: "Zagadnienie „10.1.4. Rozwijanie umiejętności palpacyjnych” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 4"
+    text: "Zagadnienie „10.1.5. Rozwijanie umiejętności komunikacyjnych” jest elementem zagadnienia „10.1.4. Rozwijanie umiejętności palpacyjnych”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 5"
+    text: "Zagadnienie „10.1.5. Rozwijanie umiejętności komunikacyjnych” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 5"
+    text: "Zagadnienie „10.1.6. Bezpieczne wykonywanie zabiegów pod nadzorem” jest elementem zagadnienia „10.1.5. Rozwijanie umiejętności komunikacyjnych”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 6"
+    text: "Zagadnienie „10.1.6. Bezpieczne wykonywanie zabiegów pod nadzorem” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 6"
+    text: "Zagadnienie „10.1.7. Dokumentowanie pracy” jest elementem zagadnienia „10.1.6. Bezpieczne wykonywanie zabiegów pod nadzorem”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 7"
+    text: "Zagadnienie „10.1.7. Dokumentowanie pracy” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 7"
+    text: "Zagadnienie „10.1.8. Refleksja nad własnymi ograniczeniami” jest elementem zagadnienia „10.1.7. Dokumentowanie pracy”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 8"
+    text: "Zagadnienie „10.1.8. Refleksja nad własnymi ograniczeniami” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 8"
+    text: "Zagadnienie „10.1.9. Przygotowanie do egzaminu MED.10” jest elementem zagadnienia „10.1.8. Refleksja nad własnymi ograniczeniami”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 9"
+    text: "Zagadnienie „10.1.9. Przygotowanie do egzaminu MED.10” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: truefalse
+    name: "10.1 — rozgraniczenie 9"
+    text: "Zagadnienie „10.1.10. Służba pacjentowi w prawdzie i miłości” jest elementem zagadnienia „10.1.9. Przygotowanie do egzaminu MED.10”, a nie tematu „Cele praktyki zawodowej” (10.1)."
+    answer: false
+  - type: truefalse
+    name: "10.1 — zagadnienie 10"
+    text: "Zagadnienie „10.1.10. Służba pacjentowi w prawdzie i miłości” wchodzi w zakres tematu „Cele praktyki zawodowej” (10.1)."
+    answer: true
+  - type: multichoice
+    name: "10.1 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Cele praktyki zawodowej” (10.1)?"
+    answers:
+      - text: "10.1.1. Zastosowanie wiedzy w warunkach rzeczywistych"  fraction: 100
+      - text: "2.5.3. Zgoda na przetwarzanie danych"  fraction: 0
+      - text: "3.18.3. Zwiększenie zakresu ruchu"  fraction: 0
+      - text: "5.8.2. Zakaz stosowania środków dopingujących przez masażystę"  fraction: 0

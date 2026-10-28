@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "7.3. Technologie i procedury masażu w języku obcym"
 category: masaz
 questions:
-  - type: truefalse
-    name: "7.3 — zagadnienie 1"
+  - id: "tf-s07-73-q1"
+    type: "truefalse"
+    name: "tf-s07-73-q1"
     text: "Zagadnienie „7.3.1. Effleurage, petrissage, friction, tapotement, vibration” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 1"
+  - id: "tf-s07-73-q1b"
+    type: "truefalse"
+    name: "tf-s07-73-q1b"
     text: "Zagadnienie „7.3.2. Classical massage, medical massage, sports massage” jest elementem zagadnienia „7.3.1. Effleurage, petrissage, friction, tapotement, vibration”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 2"
+  - id: "tf-s07-73-q2"
+    type: "truefalse"
+    name: "tf-s07-73-q2"
     text: "Zagadnienie „7.3.2. Classical massage, medical massage, sports massage” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 2"
+  - id: "tf-s07-73-q2b"
+    type: "truefalse"
+    name: "tf-s07-73-q2b"
     text: "Zagadnienie „7.3.3. Lymphatic drainage” jest elementem zagadnienia „7.3.2. Classical massage, medical massage, sports massage”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 3"
+  - id: "tf-s07-73-q3"
+    type: "truefalse"
+    name: "tf-s07-73-q3"
     text: "Zagadnienie „7.3.3. Lymphatic drainage” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 3"
+  - id: "tf-s07-73-q3b"
+    type: "truefalse"
+    name: "tf-s07-73-q3b"
     text: "Zagadnienie „7.3.4. Connective tissue massage” jest elementem zagadnienia „7.3.3. Lymphatic drainage”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 4"
+  - id: "tf-s07-73-q4"
+    type: "truefalse"
+    name: "tf-s07-73-q4"
     text: "Zagadnienie „7.3.4. Connective tissue massage” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 4"
+  - id: "tf-s07-73-q4b"
+    type: "truefalse"
+    name: "tf-s07-73-q4b"
     text: "Zagadnienie „7.3.5. Segmental massage” jest elementem zagadnienia „7.3.4. Connective tissue massage”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 5"
+  - id: "tf-s07-73-q5"
+    type: "truefalse"
+    name: "tf-s07-73-q5"
     text: "Zagadnienie „7.3.5. Segmental massage” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 5"
+  - id: "tf-s07-73-q5b"
+    type: "truefalse"
+    name: "tf-s07-73-q5b"
     text: "Zagadnienie „7.3.6. Trigger point therapy” jest elementem zagadnienia „7.3.5. Segmental massage”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 6"
+  - id: "tf-s07-73-q6"
+    type: "truefalse"
+    name: "tf-s07-73-q6"
     text: "Zagadnienie „7.3.6. Trigger point therapy” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 6"
+  - id: "tf-s07-73-q6b"
+    type: "truefalse"
+    name: "tf-s07-73-q6b"
     text: "Zagadnienie „7.3.7. Reflexology” jest elementem zagadnienia „7.3.6. Trigger point therapy”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 7"
+  - id: "tf-s07-73-q7"
+    type: "truefalse"
+    name: "tf-s07-73-q7"
     text: "Zagadnienie „7.3.7. Reflexology” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 7"
+  - id: "tf-s07-73-q7b"
+    type: "truefalse"
+    name: "tf-s07-73-q7b"
     text: "Zagadnienie „7.3.8. Deep tissue work — within legal scope” jest elementem zagadnienia „7.3.7. Reflexology”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 8"
+  - id: "tf-s07-73-q8"
+    type: "truefalse"
+    name: "tf-s07-73-q8"
     text: "Zagadnienie „7.3.8. Deep tissue work — within legal scope” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 8"
+  - id: "tf-s07-73-q8b"
+    type: "truefalse"
+    name: "tf-s07-73-q8b"
     text: "Zagadnienie „7.3.9. Contraindications and precautions” jest elementem zagadnienia „7.3.8. Deep tissue work — within legal scope”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 9"
+  - id: "tf-s07-73-q9"
+    type: "truefalse"
+    name: "tf-s07-73-q9"
     text: "Zagadnienie „7.3.9. Contraindications and precautions” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: truefalse
-    name: "7.3 — rozgraniczenie 9"
+  - id: "tf-s07-73-q9b"
+    type: "truefalse"
+    name: "tf-s07-73-q9b"
     text: "Zagadnienie „7.3.10. Explaining procedure step by step” jest elementem zagadnienia „7.3.9. Contraindications and precautions”, a nie tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: false
-  - type: truefalse
-    name: "7.3 — zagadnienie 10"
+  - id: "tf-s07-73-q10"
+    type: "truefalse"
+    name: "tf-s07-73-q10"
     text: "Zagadnienie „7.3.10. Explaining procedure step by step” wchodzi w zakres tematu „Technologie i procedury masażu w języku obcym” (7.3)."
     answer: true
-  - type: multichoice
-    name: "7.3 — przyporządkowanie zagadnienia"
+  - id: "mc-s07-73"
+    type: "multichoice"
+    name: "mc-s07-73"
     text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
     answers:
-      - text: "7.3.1. Effleurage, petrissage, friction, tapotement, vibration"  fraction: 100
-      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"  fraction: 0
-      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"  fraction: 0
-      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"  fraction: 0
+      - text: "7.3.1. Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 100
+      - text: "7.3.2. Classical massage, medical massage, sports massage"
+        fraction: 0
+      - text: "7.3.3. Lymphatic drainage"
+        fraction: 0
+      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"
+        fraction: 0
+      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"
+        fraction: 0
+      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"
+        fraction: 0
+  - id: "mc-s07-73-q1"
+    type: "multichoice"
+    name: "mc-s07-73-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.1 Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s07-73-q2"
+    type: "multichoice"
+    name: "mc-s07-73-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.2 Classical massage, medical massage, sports massage"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s07-73-q3"
+    type: "multichoice"
+    name: "mc-s07-73-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.3 Lymphatic drainage"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s07-73-q4"
+    type: "multichoice"
+    name: "mc-s07-73-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.4 Connective tissue massage"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s07-73-q5"
+    type: "multichoice"
+    name: "mc-s07-73-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.5 Segmental massage"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s07-73-q6"
+    type: "multichoice"
+    name: "mc-s07-73-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.6 Trigger point therapy"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s07-73-q7"
+    type: "multichoice"
+    name: "mc-s07-73-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.7 Reflexology"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s07-73-q8"
+    type: "multichoice"
+    name: "mc-s07-73-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.8 Deep tissue work — within legal scope"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s07-73-q9"
+    type: "multichoice"
+    name: "mc-s07-73-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.9 Contraindications and precautions"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s07-73-q10"
+    type: "multichoice"
+    name: "mc-s07-73-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.10 Explaining procedure step by step"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s07-73-v1"
+    type: "multichoice"
+    name: "mc-s07-73-v1"
+    text: "Które zagadnienie należy do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.1 Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 100
+      - text: "0.5# 7.3.2 Classical massage, medical massage, sports massage"
+        fraction: 0
+      - text: "0.5# 7.3.3 Lymphatic drainage"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s07-73-v2"
+    type: "multichoice"
+    name: "mc-s07-73-v2"
+    text: "Które zagadnienie NIE należy do tematu „Technologie i procedury masażu w języku obcym” (7.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "7.3.1 Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 100
+      - text: "-0.25# 7.3.2 Classical massage, medical massage, sports massage"
+        fraction: 0
+      - text: "-0.25# 7.3.3 Lymphatic drainage"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s07-73-v3"
+    type: "multichoice"
+    name: "mc-s07-73-v3"
+    text: "Które zagadnienie należy do tematu „Technologie i procedury masażu w języku obcym” (7.3)?"
+    answers:
+      - text: "7.3.3 Lymphatic drainage"
+        fraction: 100
+      - text: "0.5# 7.3.1 Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 0
+      - text: "0.5# 7.3.2 Classical massage, medical massage, sports massage"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s07-73-v4"
+    type: "multichoice"
+    name: "mc-s07-73-v4"
+    text: "Które zagadnienie NIE należy do tematu „Technologie i procedury masażu w języku obcym” (7.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "7.3.1 Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 100
+      - text: "-0.25# 7.3.4 Connective tissue massage"
+        fraction: 0
+      - text: "-0.25# 7.3.2 Classical massage, medical massage, sports massage"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

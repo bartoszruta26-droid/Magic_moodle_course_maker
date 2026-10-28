@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "9.2. Dobór osób do zadań"
 category: masaz
 questions:
-  - type: truefalse
-    name: "9.2 — zagadnienie 1"
+  - id: "tf-s09-92-q1"
+    type: "truefalse"
+    name: "tf-s09-92-q1"
     text: "Zagadnienie „9.2.1. Identyfikacja kompetencji członków zespołu” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 1"
+  - id: "tf-s09-92-q1b"
+    type: "truefalse"
+    name: "tf-s09-92-q1b"
     text: "Zagadnienie „9.2.2. Umiejętności praktyczne” jest elementem zagadnienia „9.2.1. Identyfikacja kompetencji członków zespołu”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 2"
+  - id: "tf-s09-92-q2"
+    type: "truefalse"
+    name: "tf-s09-92-q2"
     text: "Zagadnienie „9.2.2. Umiejętności praktyczne” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 2"
+  - id: "tf-s09-92-q2b"
+    type: "truefalse"
+    name: "tf-s09-92-q2b"
     text: "Zagadnienie „9.2.3. Kompetencje komunikacyjne” jest elementem zagadnienia „9.2.2. Umiejętności praktyczne”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 3"
+  - id: "tf-s09-92-q3"
+    type: "truefalse"
+    name: "tf-s09-92-q3"
     text: "Zagadnienie „9.2.3. Kompetencje komunikacyjne” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 3"
+  - id: "tf-s09-92-q3b"
+    type: "truefalse"
+    name: "tf-s09-92-q3b"
     text: "Zagadnienie „9.2.4. Odpowiedzialność i rzetelność” jest elementem zagadnienia „9.2.3. Kompetencje komunikacyjne”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 4"
+  - id: "tf-s09-92-q4"
+    type: "truefalse"
+    name: "tf-s09-92-q4"
     text: "Zagadnienie „9.2.4. Odpowiedzialność i rzetelność” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 4"
+  - id: "tf-s09-92-q4b"
+    type: "truefalse"
+    name: "tf-s09-92-q4b"
     text: "Zagadnienie „9.2.5. Rozpoznawanie mocnych stron” jest elementem zagadnienia „9.2.4. Odpowiedzialność i rzetelność”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 5"
+  - id: "tf-s09-92-q5"
+    type: "truefalse"
+    name: "tf-s09-92-q5"
     text: "Zagadnienie „9.2.5. Rozpoznawanie mocnych stron” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 5"
+  - id: "tf-s09-92-q5b"
+    type: "truefalse"
+    name: "tf-s09-92-q5b"
     text: "Zagadnienie „9.2.6. Rozpoznawanie ograniczeń” jest elementem zagadnienia „9.2.5. Rozpoznawanie mocnych stron”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 6"
+  - id: "tf-s09-92-q6"
+    type: "truefalse"
+    name: "tf-s09-92-q6"
     text: "Zagadnienie „9.2.6. Rozpoznawanie ograniczeń” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 6"
+  - id: "tf-s09-92-q6b"
+    type: "truefalse"
+    name: "tf-s09-92-q6b"
     text: "Zagadnienie „9.2.7. Delegowanie zadań” jest elementem zagadnienia „9.2.6. Rozpoznawanie ograniczeń”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 7"
+  - id: "tf-s09-92-q7"
+    type: "truefalse"
+    name: "tf-s09-92-q7"
     text: "Zagadnienie „9.2.7. Delegowanie zadań” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 7"
+  - id: "tf-s09-92-q7b"
+    type: "truefalse"
+    name: "tf-s09-92-q7b"
     text: "Zagadnienie „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje” jest elementem zagadnienia „9.2.7. Delegowanie zadań”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 8"
+  - id: "tf-s09-92-q8"
+    type: "truefalse"
+    name: "tf-s09-92-q8"
     text: "Zagadnienie „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 8"
+  - id: "tf-s09-92-q8b"
+    type: "truefalse"
+    name: "tf-s09-92-q8b"
     text: "Zagadnienie „9.2.9. Wsparcie słabszych członków zespołu” jest elementem zagadnienia „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 9"
+  - id: "tf-s09-92-q9"
+    type: "truefalse"
+    name: "tf-s09-92-q9"
     text: "Zagadnienie „9.2.9. Wsparcie słabszych członków zespołu” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: truefalse
-    name: "9.2 — rozgraniczenie 9"
+  - id: "tf-s09-92-q9b"
+    type: "truefalse"
+    name: "tf-s09-92-q9b"
     text: "Zagadnienie „9.2.10. Sprawiedliwy podział pracy” jest elementem zagadnienia „9.2.9. Wsparcie słabszych członków zespołu”, a nie tematu „Dobór osób do zadań” (9.2)."
     answer: false
-  - type: truefalse
-    name: "9.2 — zagadnienie 10"
+  - id: "tf-s09-92-q10"
+    type: "truefalse"
+    name: "tf-s09-92-q10"
     text: "Zagadnienie „9.2.10. Sprawiedliwy podział pracy” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
     answer: true
-  - type: multichoice
-    name: "9.2 — przyporządkowanie zagadnienia"
+  - id: "mc-s09-92"
+    type: "multichoice"
+    name: "mc-s09-92"
     text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
     answers:
-      - text: "9.2.1. Identyfikacja kompetencji członków zespołu"  fraction: 100
-      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
-      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
-      - text: "5.4.3. Drobne przeciążenia"  fraction: 0
+      - text: "9.2.1. Identyfikacja kompetencji członków zespołu"
+        fraction: 100
+      - text: "9.2.2. Umiejętności praktyczne"
+        fraction: 0
+      - text: "9.2.3. Kompetencje komunikacyjne"
+        fraction: 0
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"
+        fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"
+        fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"
+        fraction: 0
+  - id: "mc-s09-92-q1"
+    type: "multichoice"
+    name: "mc-s09-92-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.1 Identyfikacja kompetencji czlonkow zespolu"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s09-92-q2"
+    type: "multichoice"
+    name: "mc-s09-92-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.2 Umiejetnosci praktyczne"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s09-92-q3"
+    type: "multichoice"
+    name: "mc-s09-92-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.3 Kompetencje komunikacyjne"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s09-92-q4"
+    type: "multichoice"
+    name: "mc-s09-92-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.4 Odpowiedzialnosc i rzetelnosc"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s09-92-q5"
+    type: "multichoice"
+    name: "mc-s09-92-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.5 Rozpoznawanie mocnych stron"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s09-92-q6"
+    type: "multichoice"
+    name: "mc-s09-92-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.6 Rozpoznawanie ograniczen"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s09-92-q7"
+    type: "multichoice"
+    name: "mc-s09-92-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.7 Delegowanie zadan"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s09-92-q8"
+    type: "multichoice"
+    name: "mc-s09-92-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.8 Zasada: nie obciazaj osoby poza jej kompetencje"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s09-92-q9"
+    type: "multichoice"
+    name: "mc-s09-92-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.9 Wsparcie slabszych czlonkow zespolu"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s09-92-q10"
+    type: "multichoice"
+    name: "mc-s09-92-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.10 Sprawiedliwy podzial pracy"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s09-92-v1"
+    type: "multichoice"
+    name: "mc-s09-92-v1"
+    text: "Które zagadnienie należy do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.1 Identyfikacja kompetencji czlonkow zespolu"
+        fraction: 100
+      - text: "0.5# 9.2.2 Umiejetnosci praktyczne"
+        fraction: 0
+      - text: "0.5# 9.2.3 Kompetencje komunikacyjne"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s09-92-v2"
+    type: "multichoice"
+    name: "mc-s09-92-v2"
+    text: "Które zagadnienie NIE należy do tematu „Dobór osób do zadań” (9.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "9.2.1 Identyfikacja kompetencji czlonkow zespolu"
+        fraction: 100
+      - text: "-0.25# 9.2.2 Umiejetnosci praktyczne"
+        fraction: 0
+      - text: "-0.25# 9.2.3 Kompetencje komunikacyjne"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s09-92-v3"
+    type: "multichoice"
+    name: "mc-s09-92-v3"
+    text: "Które zagadnienie należy do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.3 Kompetencje komunikacyjne"
+        fraction: 100
+      - text: "0.5# 9.2.1 Identyfikacja kompetencji czlonkow zespolu"
+        fraction: 0
+      - text: "0.5# 9.2.2 Umiejetnosci praktyczne"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s09-92-v4"
+    type: "multichoice"
+    name: "mc-s09-92-v4"
+    text: "Które zagadnienie NIE należy do tematu „Dobór osób do zadań” (9.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "9.2.1 Identyfikacja kompetencji czlonkow zespolu"
+        fraction: 100
+      - text: "-0.25# 9.2.4 Odpowiedzialnosc i rzetelnosc"
+        fraction: 0
+      - text: "-0.25# 9.2.2 Umiejetnosci praktyczne"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

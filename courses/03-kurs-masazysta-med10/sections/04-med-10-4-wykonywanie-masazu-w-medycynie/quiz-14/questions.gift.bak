@@ -1,0 +1,49 @@
+// Quiz: 4.14. Masaż punktowy — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-414-q1:: Zagadnienie „4.14.1. Punkty spustowe aktywne i utajone” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q1b:: Zagadnienie „4.14.2. Palpacja punktów” jest elementem zagadnienia „4.14.1. Punkty spustowe aktywne i utajone”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q2:: Zagadnienie „4.14.2. Palpacja punktów” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q2b:: Zagadnienie „4.14.3. Kompresja ischemiczna” jest elementem zagadnienia „4.14.2. Palpacja punktów”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q3:: Zagadnienie „4.14.3. Kompresja ischemiczna” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q3b:: Zagadnienie „4.14.4. Stretching po kompresji” jest elementem zagadnienia „4.14.3. Kompresja ischemiczna”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q4:: Zagadnienie „4.14.4. Stretching po kompresji” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q4b:: Zagadnienie „4.14.5. Oddychanie pacjenta” jest elementem zagadnienia „4.14.4. Stretching po kompresji”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q5:: Zagadnienie „4.14.5. Oddychanie pacjenta” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q5b:: Zagadnienie „4.14.6. Granica bólu” jest elementem zagadnienia „4.14.5. Oddychanie pacjenta”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q6:: Zagadnienie „4.14.6. Granica bólu” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q6b:: Zagadnienie „4.14.7. Ryzyko nasilenia bólu” jest elementem zagadnienia „4.14.6. Granica bólu”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q7:: Zagadnienie „4.14.7. Ryzyko nasilenia bólu” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q7b:: Zagadnienie „4.14.8. Dokumentacja reakcji” jest elementem zagadnienia „4.14.7. Ryzyko nasilenia bólu”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q8:: Zagadnienie „4.14.8. Dokumentacja reakcji” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q8b:: Zagadnienie „4.14.9. Przeciwwskazania” jest elementem zagadnienia „4.14.8. Dokumentacja reakcji”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q9:: Zagadnienie „4.14.9. Przeciwwskazania” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::tf-s04-414-q9b:: Zagadnienie „4.14.10. Zastosowanie w bólach mięśniowo-powięziowych” jest elementem zagadnienia „4.14.9. Przeciwwskazania”, a nie tematu „Masaż punktowy” (4.14). {FALSE} //
+
+::tf-s04-414-q10:: Zagadnienie „4.14.10. Zastosowanie w bólach mięśniowo-powięziowych” wchodzi w zakres tematu „Masaż punktowy” (4.14). {TRUE} //
+
+::mc-s04-414:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.1. Punkty spustowe aktywne i utajone
+    ~ 4.14.2. Palpacja punktów
+    ~ 4.14.3. Kompresja ischemiczna
+    ~ 2.5.10. Rejestr zdarzeń niepożądanych
+    ~ 3.18.10. Dokumentacja i planowanie kolejnych zabiegów
+    ~ 5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku
+}

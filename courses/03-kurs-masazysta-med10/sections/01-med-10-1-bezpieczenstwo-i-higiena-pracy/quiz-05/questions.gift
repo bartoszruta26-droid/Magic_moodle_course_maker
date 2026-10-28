@@ -47,3 +47,101 @@
     ~ 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
     ~ 5.3.9. Masaż przy obniżonej odporności — ostrożność
 }
+
+::mc-s01-15-q1:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.1 Czynniki fizyczne: halas, drgania, temperatura, wilgotnosc
+    ~ Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe
+    ~ Wywiad funkcjonalny: chod, sen, praca, aktywnosc
+    ~ Intymnosc i okrycie
+}
+
+::mc-s01-15-q2:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.2 Czynniki chemiczne: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~ Unerwienie skory
+    ~ Ocena postawy ciala w pozycji stojacej i lezacej
+    ~ Muzyka, oswietlenie, zapach — bez manipulacji
+}
+
+::mc-s01-15-q3:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.3 Czynniki biologiczne: bakterie, wirusy, grzyby, pasozyty
+    ~ Unaczynienie skory
+    ~ Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie
+    ~ Tempo i sila dostosowane do oczekiwan
+}
+
+::mc-s01-15-q4:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.4 Czynniki psychofizyczne: stres, obciazenie postawy, praca zmianowa
+    ~ Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Pomiary dlugosci konczyn
+    ~ Komunikacja: zapowiedz dotyku
+}
+
+::mc-s01-15-q5:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.5 Czynniki ergonomiczne: przeciazenia ukladu miesniowo-powieziowego masazysty
+    ~ Wplyw masazu na skore
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Prawo do przerwania
+}
+
+::mc-s01-15-q6:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.6 Zagrozenia zwiazane z kontaktem z krwia i plynami ustrojowymi
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s01-15-q7:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.7 Zagrozenia epidemiczne i patogeny alarmowe
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s01-15-q8:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.8 Wirusowe zapalenie watroby typu A, B, C — zasady profilaktyki
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s01-15-q9:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.9 HIV/AIDS — fakty, mity, postepowanie, ochrona godnosci pacjenta
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s01-15-q10:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.10 Gruzlica, COVID-19, grypa i inne choroby zakazne — podstawowe zasady bezpieczenstwa
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s01-15-v1:: Które zagadnienie należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~0.5# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~0.5# 1.5.3 Czynniki biologiczne\: bakterie, wirusy, grzyby, pasozyty
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-15-v2:: Które zagadnienie NIE należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5), lecz jest częścią innego tematu kursu? {
+    = 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~-0.25# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~-0.25# 1.5.3 Czynniki biologiczne\: bakterie, wirusy, grzyby, pasozyty
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-15-v3:: Które zagadnienie należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.3 Czynniki biologiczne\: bakterie, wirusy, grzyby, pasozyty
+    ~0.5# 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~0.5# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-15-v4:: Które zagadnienie NIE należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5), lecz jest częścią innego tematu kursu? {
+    = 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~-0.25# 1.5.4 Czynniki psychofizyczne\: stres, obciazenie postawy, praca zmianowa
+    ~-0.25# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

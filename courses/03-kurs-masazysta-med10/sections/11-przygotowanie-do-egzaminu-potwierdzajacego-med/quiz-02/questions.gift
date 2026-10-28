@@ -47,3 +47,101 @@
     ~ 3.18.5. Zmiana odczuwania bólu
     ~ 5.8.4. Relacja z trenerem: asertywność
 }
+
+::mc-s11-112-q1:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.1 Przepisy i instytucje
+    ~ Wplyw hormonow na tkanki i samopoczucie
+    ~ Pozycja na brzuchu
+    ~ Edukacja ergonomia
+}
+
+::mc-s11-112-q2:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.2 Zagrozenia zawodowe
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na plecach
+    ~ Dokumentacja skrocona
+}
+
+::mc-s11-112-q3:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.3 Aseptyka i antyseptyka
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s11-112-q4:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.4 Pierwsza pomoc
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s11-112-q5:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.5 Ergonomia
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s11-112-q6:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.6 Ochrona przeciwpozarowa
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s11-112-q7:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.7 Odpady medyczne
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s11-112-q8:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.8 Srodki ochrony
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s11-112-q9:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.9 Sytuacje nagle
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s11-112-q10:: Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.10 Testy i scenariusze
+    ~ Tolerancja bolu i prog dyskomfortu
+    ~ Zasada podwojnego opracowania stawow
+    ~ Wardrobe and storage
+}
+
+::mc-s11-112-v1:: Które zagadnienie należy do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.1 Przepisy i instytucje
+    ~0.5# 11.2.2 Zagrozenia zawodowe
+    ~0.5# 11.2.3 Aseptyka i antyseptyka
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-112-v2:: Które zagadnienie NIE należy do tematu „Powtórka wiadomości z BHP” (11.2), lecz jest częścią innego tematu kursu? {
+    = 11.2.1 Przepisy i instytucje
+    ~-0.25# 11.2.2 Zagrozenia zawodowe
+    ~-0.25# 11.2.3 Aseptyka i antyseptyka
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-112-v3:: Które zagadnienie należy do tematu „Powtórka wiadomości z BHP” (11.2)? {
+    = 11.2.3 Aseptyka i antyseptyka
+    ~0.5# 11.2.1 Przepisy i instytucje
+    ~0.5# 11.2.2 Zagrozenia zawodowe
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-112-v4:: Które zagadnienie NIE należy do tematu „Powtórka wiadomości z BHP” (11.2), lecz jest częścią innego tematu kursu? {
+    = 11.2.1 Przepisy i instytucje
+    ~-0.25# 11.2.4 Pierwsza pomoc
+    ~-0.25# 11.2.2 Zagrozenia zawodowe
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

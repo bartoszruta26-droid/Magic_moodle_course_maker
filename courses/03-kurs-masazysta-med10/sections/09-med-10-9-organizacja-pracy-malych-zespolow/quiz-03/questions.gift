@@ -47,3 +47,101 @@
     ~ 3.14.5. Higiena wanny i ryzyko zakażeń
     ~ 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej
 }
+
+::mc-s09-93-q1:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.1 Ustalanie kolejnosci dzialan
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s09-93-q2:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.2 Mobilizowanie wspolpracownikow
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s09-93-q3:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.3 Komunikacja instruktazowa
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s09-93-q4:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.4 Nadzor bez kontroli upokarzajacej
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s09-93-q5:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.5 Rozwiazywanie problemow na biezaco
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s09-93-q6:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.6 Bezpieczenstwo jako priorytet kierowania
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s09-93-q7:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.7 Ocena procesu pracy
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s09-93-q8:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.8 Informacja zwrotna
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s09-93-q9:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.9 Dokumentowanie decyzji
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s09-93-q10:: Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.10 Odpowiedzialnosc lidera i zespolu
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s09-93-v1:: Które zagadnienie należy do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.1 Ustalanie kolejnosci dzialan
+    ~0.5# 9.3.2 Mobilizowanie wspolpracownikow
+    ~0.5# 9.3.3 Komunikacja instruktazowa
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s09-93-v2:: Które zagadnienie NIE należy do tematu „Kierowanie wykonaniem zadań” (9.3), lecz jest częścią innego tematu kursu? {
+    = 9.3.1 Ustalanie kolejnosci dzialan
+    ~-0.25# 9.3.2 Mobilizowanie wspolpracownikow
+    ~-0.25# 9.3.3 Komunikacja instruktazowa
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s09-93-v3:: Które zagadnienie należy do tematu „Kierowanie wykonaniem zadań” (9.3)? {
+    = 9.3.3 Komunikacja instruktazowa
+    ~0.5# 9.3.1 Ustalanie kolejnosci dzialan
+    ~0.5# 9.3.2 Mobilizowanie wspolpracownikow
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s09-93-v4:: Które zagadnienie NIE należy do tematu „Kierowanie wykonaniem zadań” (9.3), lecz jest częścią innego tematu kursu? {
+    = 9.3.1 Ustalanie kolejnosci dzialan
+    ~-0.25# 9.3.4 Nadzor bez kontroli upokarzajacej
+    ~-0.25# 9.3.2 Mobilizowanie wspolpracownikow
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

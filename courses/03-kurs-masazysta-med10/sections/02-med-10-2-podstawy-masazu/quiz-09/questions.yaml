@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "2.9. Powłoka wspólna: skóra i jej przydatki"
 category: masaz
 questions:
-  - type: truefalse
-    name: "2.9 — zagadnienie 1"
+  - id: "tf-s02-29-q1"
+    type: "truefalse"
+    name: "tf-s02-29-q1"
     text: "Zagadnienie „2.9.1. Naskórek: warstwy” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 1"
+  - id: "tf-s02-29-q1b"
+    type: "truefalse"
+    name: "tf-s02-29-q1b"
     text: "Zagadnienie „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata” jest elementem zagadnienia „2.9.1. Naskórek: warstwy”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 2"
+  - id: "tf-s02-29-q2"
+    type: "truefalse"
+    name: "tf-s02-29-q2"
     text: "Zagadnienie „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 2"
+  - id: "tf-s02-29-q2b"
+    type: "truefalse"
+    name: "tf-s02-29-q2b"
     text: "Zagadnienie „2.9.3. Tkanka podskórna” jest elementem zagadnienia „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 3"
+  - id: "tf-s02-29-q3"
+    type: "truefalse"
+    name: "tf-s02-29-q3"
     text: "Zagadnienie „2.9.3. Tkanka podskórna” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 3"
+  - id: "tf-s02-29-q3b"
+    type: "truefalse"
+    name: "tf-s02-29-q3b"
     text: "Zagadnienie „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe” jest elementem zagadnienia „2.9.3. Tkanka podskórna”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 4"
+  - id: "tf-s02-29-q4"
+    type: "truefalse"
+    name: "tf-s02-29-q4"
     text: "Zagadnienie „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 4"
+  - id: "tf-s02-29-q4b"
+    type: "truefalse"
+    name: "tf-s02-29-q4b"
     text: "Zagadnienie „2.9.5. Unerwienie skóry” jest elementem zagadnienia „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 5"
+  - id: "tf-s02-29-q5"
+    type: "truefalse"
+    name: "tf-s02-29-q5"
     text: "Zagadnienie „2.9.5. Unerwienie skóry” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 5"
+  - id: "tf-s02-29-q5b"
+    type: "truefalse"
+    name: "tf-s02-29-q5b"
     text: "Zagadnienie „2.9.6. Unaczynienie skóry” jest elementem zagadnienia „2.9.5. Unerwienie skóry”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 6"
+  - id: "tf-s02-29-q6"
+    type: "truefalse"
+    name: "tf-s02-29-q6"
     text: "Zagadnienie „2.9.6. Unaczynienie skóry” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 6"
+  - id: "tf-s02-29-q6b"
+    type: "truefalse"
+    name: "tf-s02-29-q6b"
     text: "Zagadnienie „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna” jest elementem zagadnienia „2.9.6. Unaczynienie skóry”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 7"
+  - id: "tf-s02-29-q7"
+    type: "truefalse"
+    name: "tf-s02-29-q7"
     text: "Zagadnienie „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 7"
+  - id: "tf-s02-29-q7b"
+    type: "truefalse"
+    name: "tf-s02-29-q7b"
     text: "Zagadnienie „2.9.8. Wpływ masażu na skórę” jest elementem zagadnienia „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 8"
+  - id: "tf-s02-29-q8"
+    type: "truefalse"
+    name: "tf-s02-29-q8"
     text: "Zagadnienie „2.9.8. Wpływ masażu na skórę” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 8"
+  - id: "tf-s02-29-q8b"
+    type: "truefalse"
+    name: "tf-s02-29-q8b"
     text: "Zagadnienie „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa” jest elementem zagadnienia „2.9.8. Wpływ masażu na skórę”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 9"
+  - id: "tf-s02-29-q9"
+    type: "truefalse"
+    name: "tf-s02-29-q9"
     text: "Zagadnienie „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: truefalse
-    name: "2.9 — rozgraniczenie 9"
+  - id: "tf-s02-29-q9b"
+    type: "truefalse"
+    name: "tf-s02-29-q9b"
     text: "Zagadnienie „2.9.10. Przeciwwskazania skórne do masażu” jest elementem zagadnienia „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: false
-  - type: truefalse
-    name: "2.9 — zagadnienie 10"
+  - id: "tf-s02-29-q10"
+    type: "truefalse"
+    name: "tf-s02-29-q10"
     text: "Zagadnienie „2.9.10. Przeciwwskazania skórne do masażu” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)."
     answer: true
-  - type: multichoice
-    name: "2.9 — przyporządkowanie zagadnienia"
+  - id: "mc-s02-29"
+    type: "multichoice"
+    name: "mc-s02-29"
     text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
     answers:
-      - text: "2.9.1. Naskórek: warstwy"  fraction: 100
-      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
-      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"  fraction: 0
-      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"  fraction: 0
+      - text: "2.9.1. Naskórek: warstwy"
+        fraction: 100
+      - text: "2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata"
+        fraction: 0
+      - text: "2.9.3. Tkanka podskórna"
+        fraction: 0
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"
+        fraction: 0
+      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"
+        fraction: 0
+      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"
+        fraction: 0
+  - id: "mc-s02-29-q1"
+    type: "multichoice"
+    name: "mc-s02-29-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.1 Naskorek: warstwy"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s02-29-q2"
+    type: "multichoice"
+    name: "mc-s02-29-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.2 Skora wlasciwa: warstwa brodawkowata i siateczkowata"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s02-29-q3"
+    type: "multichoice"
+    name: "mc-s02-29-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.3 Tkanka podskorna"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s02-29-q4"
+    type: "multichoice"
+    name: "mc-s02-29-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.4 Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s02-29-q5"
+    type: "multichoice"
+    name: "mc-s02-29-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.5 Unerwienie skory"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s02-29-q6"
+    type: "multichoice"
+    name: "mc-s02-29-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.6 Unaczynienie skory"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s02-29-q7"
+    type: "multichoice"
+    name: "mc-s02-29-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.7 Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s02-29-q8"
+    type: "multichoice"
+    name: "mc-s02-29-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.8 Wplyw masazu na skore"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s02-29-q9"
+    type: "multichoice"
+    name: "mc-s02-29-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.9 Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s02-29-q10"
+    type: "multichoice"
+    name: "mc-s02-29-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.10 Przeciwwskazania skorne do masazu"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s02-29-v1"
+    type: "multichoice"
+    name: "mc-s02-29-v1"
+    text: "Które zagadnienie należy do tematu „Powłoka wspólna\\: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.1 Naskorek\\: warstwy"
+        fraction: 100
+      - text: "0.5# 2.9.2 Skora wlasciwa\\: warstwa brodawkowata i siateczkowata"
+        fraction: 0
+      - text: "0.5# 2.9.3 Tkanka podskorna"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-29-v2"
+    type: "multichoice"
+    name: "mc-s02-29-v2"
+    text: "Które zagadnienie NIE należy do tematu „Powłoka wspólna\\: skóra i jej przydatki” (2.9), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.9.1 Naskorek\\: warstwy"
+        fraction: 100
+      - text: "-0.25# 2.9.2 Skora wlasciwa\\: warstwa brodawkowata i siateczkowata"
+        fraction: 0
+      - text: "-0.25# 2.9.3 Tkanka podskorna"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-29-v3"
+    type: "multichoice"
+    name: "mc-s02-29-v3"
+    text: "Które zagadnienie należy do tematu „Powłoka wspólna\\: skóra i jej przydatki” (2.9)?"
+    answers:
+      - text: "2.9.3 Tkanka podskorna"
+        fraction: 100
+      - text: "0.5# 2.9.1 Naskorek\\: warstwy"
+        fraction: 0
+      - text: "0.5# 2.9.2 Skora wlasciwa\\: warstwa brodawkowata i siateczkowata"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-29-v4"
+    type: "multichoice"
+    name: "mc-s02-29-v4"
+    text: "Które zagadnienie NIE należy do tematu „Powłoka wspólna\\: skóra i jej przydatki” (2.9), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.9.1 Naskorek\\: warstwy"
+        fraction: 100
+      - text: "-0.25# 2.9.4 Przydatki skory\\: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 0
+      - text: "-0.25# 2.9.2 Skora wlasciwa\\: warstwa brodawkowata i siateczkowata"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

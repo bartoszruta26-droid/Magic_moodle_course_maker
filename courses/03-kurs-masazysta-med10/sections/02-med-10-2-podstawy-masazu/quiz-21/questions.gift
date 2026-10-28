@@ -47,3 +47,101 @@
     ~ 3.18.7. Wpływ na sen i samopoczucie
     ~ 5.8.6. Małoletni: zgoda opiekuna
 }
+
+::mc-s02-221-q1:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.1 Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s02-221-q2:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.2 Przemoc wobec dziecka
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s02-221-q3:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.3 Przemoc wobec osoby starszej
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s02-221-q4:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.4 Przemoc wobec osoby z niepelnosprawnoscia
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s02-221-q5:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.5 Procedury zglaszania podejrzenia przemocy
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s02-221-q6:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.6 Nieinterrogowanie pacjenta
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s02-221-q7:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.7 Ochrona dowodow i dokumentacja faktow
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s02-221-q8:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.8 Kierowanie do odpowiednich sluzb i instytucji
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s02-221-q9:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.9 Zachowanie tajemnicy w granicach prawa
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s02-221-q10:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.10 Etyka: nie byc obojetnym wobec krzywdy
+    ~ Reakcja pacjenta w trakcie zabiegu
+    ~ Terapia ulozeniowa
+    ~ Reading instructions and labels
+}
+
+::mc-s02-221-v1:: Które zagadnienie należy do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.1 Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+    ~0.5# 2.21.2 Przemoc wobec dziecka
+    ~0.5# 2.21.3 Przemoc wobec osoby starszej
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-221-v2:: Które zagadnienie NIE należy do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21), lecz jest częścią innego tematu kursu? {
+    = 2.21.1 Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+    ~-0.25# 2.21.2 Przemoc wobec dziecka
+    ~-0.25# 2.21.3 Przemoc wobec osoby starszej
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-221-v3:: Które zagadnienie należy do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.3 Przemoc wobec osoby starszej
+    ~0.5# 2.21.1 Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+    ~0.5# 2.21.2 Przemoc wobec dziecka
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-221-v4:: Które zagadnienie NIE należy do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21), lecz jest częścią innego tematu kursu? {
+    = 2.21.1 Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+    ~-0.25# 2.21.4 Przemoc wobec osoby z niepelnosprawnoscia
+    ~-0.25# 2.21.2 Przemoc wobec dziecka
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.17. Masaż izometryczny"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.17 — zagadnienie 1"
+  - id: "tf-s04-417-q1"
+    type: "truefalse"
+    name: "tf-s04-417-q1"
     text: "Zagadnienie „4.17.1. Zasada skurczu izometrycznego” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 1"
+  - id: "tf-s04-417-q1b"
+    type: "truefalse"
+    name: "tf-s04-417-q1b"
     text: "Zagadnienie „4.17.2. Przygotowanie mięśnia” jest elementem zagadnienia „4.17.1. Zasada skurczu izometrycznego”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 2"
+  - id: "tf-s04-417-q2"
+    type: "truefalse"
+    name: "tf-s04-417-q2"
     text: "Zagadnienie „4.17.2. Przygotowanie mięśnia” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 2"
+  - id: "tf-s04-417-q2b"
+    type: "truefalse"
+    name: "tf-s04-417-q2b"
     text: "Zagadnienie „4.17.3. Czas skurczu i odpoczynku” jest elementem zagadnienia „4.17.2. Przygotowanie mięśnia”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 3"
+  - id: "tf-s04-417-q3"
+    type: "truefalse"
+    name: "tf-s04-417-q3"
     text: "Zagadnienie „4.17.3. Czas skurczu i odpoczynku” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 3"
+  - id: "tf-s04-417-q3b"
+    type: "truefalse"
+    name: "tf-s04-417-q3b"
     text: "Zagadnienie „4.17.4. Progresja obciążenia” jest elementem zagadnienia „4.17.3. Czas skurczu i odpoczynku”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 4"
+  - id: "tf-s04-417-q4"
+    type: "truefalse"
+    name: "tf-s04-417-q4"
     text: "Zagadnienie „4.17.4. Progresja obciążenia” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 4"
+  - id: "tf-s04-417-q4b"
+    type: "truefalse"
+    name: "tf-s04-417-q4b"
     text: "Zagadnienie „4.17.5. Kontrola oddechu — zakaz bezdechu” jest elementem zagadnienia „4.17.4. Progresja obciążenia”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 5"
+  - id: "tf-s04-417-q5"
+    type: "truefalse"
+    name: "tf-s04-417-q5"
     text: "Zagadnienie „4.17.5. Kontrola oddechu — zakaz bezdechu” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 5"
+  - id: "tf-s04-417-q5b"
+    type: "truefalse"
+    name: "tf-s04-417-q5b"
     text: "Zagadnienie „4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry” jest elementem zagadnienia „4.17.5. Kontrola oddechu — zakaz bezdechu”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 6"
+  - id: "tf-s04-417-q6"
+    type: "truefalse"
+    name: "tf-s04-417-q6"
     text: "Zagadnienie „4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 6"
+  - id: "tf-s04-417-q6b"
+    type: "truefalse"
+    name: "tf-s04-417-q6b"
     text: "Zagadnienie „4.17.7. Zastosowanie w zanikach i osłabieniu” jest elementem zagadnienia „4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 7"
+  - id: "tf-s04-417-q7"
+    type: "truefalse"
+    name: "tf-s04-417-q7"
     text: "Zagadnienie „4.17.7. Zastosowanie w zanikach i osłabieniu” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 7"
+  - id: "tf-s04-417-q7b"
+    type: "truefalse"
+    name: "tf-s04-417-q7b"
     text: "Zagadnienie „4.17.8. Ryzyko przeciążenia” jest elementem zagadnienia „4.17.7. Zastosowanie w zanikach i osłabieniu”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 8"
+  - id: "tf-s04-417-q8"
+    type: "truefalse"
+    name: "tf-s04-417-q8"
     text: "Zagadnienie „4.17.8. Ryzyko przeciążenia” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 8"
+  - id: "tf-s04-417-q8b"
+    type: "truefalse"
+    name: "tf-s04-417-q8b"
     text: "Zagadnienie „4.17.9. Dokumentacja siły i powtórzeń” jest elementem zagadnienia „4.17.8. Ryzyko przeciążenia”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 9"
+  - id: "tf-s04-417-q9"
+    type: "truefalse"
+    name: "tf-s04-417-q9"
     text: "Zagadnienie „4.17.9. Dokumentacja siły i powtórzeń” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: truefalse
-    name: "4.17 — rozgraniczenie 9"
+  - id: "tf-s04-417-q9b"
+    type: "truefalse"
+    name: "tf-s04-417-q9b"
     text: "Zagadnienie „4.17.10. Zasada: wzmacnianie bez bólu obronnego” jest elementem zagadnienia „4.17.9. Dokumentacja siły i powtórzeń”, a nie tematu „Masaż izometryczny” (4.17)."
     answer: false
-  - type: truefalse
-    name: "4.17 — zagadnienie 10"
+  - id: "tf-s04-417-q10"
+    type: "truefalse"
+    name: "tf-s04-417-q10"
     text: "Zagadnienie „4.17.10. Zasada: wzmacnianie bez bólu obronnego” wchodzi w zakres tematu „Masaż izometryczny” (4.17)."
     answer: true
-  - type: multichoice
-    name: "4.17 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-417"
+    type: "multichoice"
+    name: "mc-s04-417"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
     answers:
-      - text: "4.17.1. Zasada skurczu izometrycznego"  fraction: 100
-      - text: "2.6.3. Czynniki negatywnie wpływające na zdrowie"  fraction: 0
-      - text: "3.19.3. Pielęgniarka i opiekun medyczny"  fraction: 0
-      - text: "6.1.3. Relaksacja a leczenie"  fraction: 0
+      - text: "4.17.1. Zasada skurczu izometrycznego"
+        fraction: 100
+      - text: "4.17.2. Przygotowanie mięśnia"
+        fraction: 0
+      - text: "4.17.3. Czas skurczu i odpoczynku"
+        fraction: 0
+      - text: "2.6.3. Czynniki negatywnie wpływające na zdrowie"
+        fraction: 0
+      - text: "3.19.3. Pielęgniarka i opiekun medyczny"
+        fraction: 0
+      - text: "6.1.3. Relaksacja a leczenie"
+        fraction: 0
+  - id: "mc-s04-417-q1"
+    type: "multichoice"
+    name: "mc-s04-417-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.1 Zasada skurczu izometrycznego"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-417-q2"
+    type: "multichoice"
+    name: "mc-s04-417-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.2 Przygotowanie miesnia"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-417-q3"
+    type: "multichoice"
+    name: "mc-s04-417-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.3 Czas skurczu i odpoczynku"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s04-417-q4"
+    type: "multichoice"
+    name: "mc-s04-417-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.4 Progresja obciazenia"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s04-417-q5"
+    type: "multichoice"
+    name: "mc-s04-417-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.5 Kontrola oddechu — zakaz bezdechu"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s04-417-q6"
+    type: "multichoice"
+    name: "mc-s04-417-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.6 Przeciwwskazania: nadcisnienie nieuregulowane, przepuklina, stan ostry"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "Podstawy higieny snu"
+        fraction: 0
+  - id: "mc-s04-417-q7"
+    type: "multichoice"
+    name: "mc-s04-417-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.7 Zastosowanie w zanikach i oslabieniu"
+        fraction: 100
+      - text: "Skurcz koncentryczny i ekscentryczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy aktywnosci fizycznej"
+        fraction: 0
+  - id: "mc-s04-417-q8"
+    type: "multichoice"
+    name: "mc-s04-417-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.8 Ryzyko przeciazenia"
+        fraction: 100
+      - text: "Napiecie spoczynkowe miesnia"
+        fraction: 0
+      - text: "Masaz kregoslupa ledzwiowego"
+        fraction: 0
+      - text: "Podstawy nawodnienia"
+        fraction: 0
+  - id: "mc-s04-417-q9"
+    type: "multichoice"
+    name: "mc-s04-417-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.9 Dokumentacja sily i powtorzen"
+        fraction: 100
+      - text: "Zmeczenie miesniowe"
+        fraction: 0
+      - text: "Masaz karku"
+        fraction: 0
+      - text: "Podstawy pielegnacji skory"
+        fraction: 0
+  - id: "mc-s04-417-q10"
+    type: "multichoice"
+    name: "mc-s04-417-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.10 Zasada: wzmacnianie bez bolu obronnego"
+        fraction: 100
+      - text: "Kremy do masazu"
+        fraction: 0
+      - text: "Edukacja pacjenta i rodziny"
+        fraction: 0
+      - text: "Reflexology"
+        fraction: 0
+  - id: "mc-s04-417-v1"
+    type: "multichoice"
+    name: "mc-s04-417-v1"
+    text: "Które zagadnienie należy do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.1 Zasada skurczu izometrycznego"
+        fraction: 100
+      - text: "0.5# 4.17.2 Przygotowanie miesnia"
+        fraction: 0
+      - text: "0.5# 4.17.3 Czas skurczu i odpoczynku"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-417-v2"
+    type: "multichoice"
+    name: "mc-s04-417-v2"
+    text: "Które zagadnienie NIE należy do tematu „Masaż izometryczny” (4.17), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.17.1 Zasada skurczu izometrycznego"
+        fraction: 100
+      - text: "-0.25# 4.17.2 Przygotowanie miesnia"
+        fraction: 0
+      - text: "-0.25# 4.17.3 Czas skurczu i odpoczynku"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-417-v3"
+    type: "multichoice"
+    name: "mc-s04-417-v3"
+    text: "Które zagadnienie należy do tematu „Masaż izometryczny” (4.17)?"
+    answers:
+      - text: "4.17.3 Czas skurczu i odpoczynku"
+        fraction: 100
+      - text: "0.5# 4.17.1 Zasada skurczu izometrycznego"
+        fraction: 0
+      - text: "0.5# 4.17.2 Przygotowanie miesnia"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-417-v4"
+    type: "multichoice"
+    name: "mc-s04-417-v4"
+    text: "Które zagadnienie NIE należy do tematu „Masaż izometryczny” (4.17), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.17.1 Zasada skurczu izometrycznego"
+        fraction: 100
+      - text: "-0.25# 4.17.4 Progresja obciazenia"
+        fraction: 0
+      - text: "-0.25# 4.17.2 Przygotowanie miesnia"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

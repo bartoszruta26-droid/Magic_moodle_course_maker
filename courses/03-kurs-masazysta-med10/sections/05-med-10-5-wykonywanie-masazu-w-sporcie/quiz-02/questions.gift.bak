@@ -1,0 +1,49 @@
+// Quiz: 5.2. Cykl treningowy zawodnika — moduł 5 (05-med-10-5-wykonywanie-masazu-w-sporcie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s05-52-q1:: Zagadnienie „5.2.1. Okres przygotowawczy” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q1b:: Zagadnienie „5.2.2. Okres startowy” jest elementem zagadnienia „5.2.1. Okres przygotowawczy”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q2:: Zagadnienie „5.2.2. Okres startowy” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q2b:: Zagadnienie „5.2.3. Okres przejściowy” jest elementem zagadnienia „5.2.2. Okres startowy”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q3:: Zagadnienie „5.2.3. Okres przejściowy” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q3b:: Zagadnienie „5.2.4. Mikrocykl, mezo cykl, makrocykl” jest elementem zagadnienia „5.2.3. Okres przejściowy”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q4:: Zagadnienie „5.2.4. Mikrocykl, mezo cykl, makrocykl” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q4b:: Zagadnienie „5.2.5. Obciążenie treningowe i regeneracja” jest elementem zagadnienia „5.2.4. Mikrocykl, mezo cykl, makrocykl”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q5:: Zagadnienie „5.2.5. Obciążenie treningowe i regeneracja” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q5b:: Zagadnienie „5.2.6. Przeciążenie i przetrenowanie” jest elementem zagadnienia „5.2.5. Obciążenie treningowe i regeneracja”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q6:: Zagadnienie „5.2.6. Przeciążenie i przetrenowanie” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q6b:: Zagadnienie „5.2.7. Kontuzje przetrenowaniowe” jest elementem zagadnienia „5.2.6. Przeciążenie i przetrenowanie”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q7:: Zagadnienie „5.2.7. Kontuzje przetrenowaniowe” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q7b:: Zagadnienie „5.2.8. Sen, odżywianie, nawodnienie” jest elementem zagadnienia „5.2.7. Kontuzje przetrenowaniowe”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q8:: Zagadnienie „5.2.8. Sen, odżywianie, nawodnienie” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q8b:: Zagadnienie „5.2.9. Monitorowanie samopoczucia” jest elementem zagadnienia „5.2.8. Sen, odżywianie, nawodnienie”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q9:: Zagadnienie „5.2.9. Monitorowanie samopoczucia” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::tf-s05-52-q9b:: Zagadnienie „5.2.10. Dobór masażu do fazy cyklu” jest elementem zagadnienia „5.2.9. Monitorowanie samopoczucia”, a nie tematu „Cykl treningowy zawodnika” (5.2). {FALSE} //
+
+::tf-s05-52-q10:: Zagadnienie „5.2.10. Dobór masażu do fazy cyklu” wchodzi w zakres tematu „Cykl treningowy zawodnika” (5.2). {TRUE} //
+
+::mc-s05-52:: Które zagadnienie należy bezpośrednio do tematu „Cykl treningowy zawodnika” (5.2)? {
+    = 5.2.1. Okres przygotowawczy
+    ~ 5.2.2. Okres startowy
+    ~ 5.2.3. Okres przejściowy
+    ~ 1.15.10. Zasada: zgoda może być cofnięta w każdej chwili
+    ~ 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
+    ~ 5.3.10. Przeciwwskazania w sporcie
+}

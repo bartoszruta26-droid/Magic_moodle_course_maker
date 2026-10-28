@@ -1,0 +1,45 @@
+// Quiz: 6.8. Masaż prozdrowotny bez przyrządów — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-68-q1:: Zagadnienie „6.8.1. Dłonie, przedramiona, kciuki” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q1b:: Zagadnienie „6.8.3. Brak sprzętu jako przewaga dostępności” jest elementem zagadnienia „6.8.1. Dłonie, przedramiona, kciuki”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q2:: Zagadnienie „6.8.3. Brak sprzętu jako przewaga dostępności” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q2b:: Zagadnienie „6.8.4. Bezpieczeństwo w warunkach domowych” jest elementem zagadnienia „6.8.3. Brak sprzętu jako przewaga dostępności”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q3:: Zagadnienie „6.8.4. Bezpieczeństwo w warunkach domowych” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q3b:: Zagadnienie „6.8.5. Higiena otoczenia” jest elementem zagadnienia „6.8.4. Bezpieczeństwo w warunkach domowych”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q4:: Zagadnienie „6.8.5. Higiena otoczenia” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q4b:: Zagadnienie „6.8.6. Oświetlenie i temperatura” jest elementem zagadnienia „6.8.5. Higiena otoczenia”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q5:: Zagadnienie „6.8.6. Oświetlenie i temperatura” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q5b:: Zagadnienie „6.8.7. Pozycja pacjenta” jest elementem zagadnienia „6.8.6. Oświetlenie i temperatura”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q6:: Zagadnienie „6.8.7. Pozycja pacjenta” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q6b:: Zagadnienie „6.8.8. Komunikacja” jest elementem zagadnienia „6.8.7. Pozycja pacjenta”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q7:: Zagadnienie „6.8.8. Komunikacja” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q7b:: Zagadnienie „6.8.9. Przeciwwskazania” jest elementem zagadnienia „6.8.8. Komunikacja”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q8:: Zagadnienie „6.8.9. Przeciwwskazania” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::tf-s06-68-q8b:: Zagadnienie „6.8.10. Etyka: nie masuj w warunkach niebezpiecznych” jest elementem zagadnienia „6.8.9. Przeciwwskazania”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8). {FALSE} //
+
+::tf-s06-68-q9:: Zagadnienie „6.8.10. Etyka: nie masuj w warunkach niebezpiecznych” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8). {TRUE} //
+
+::mc-s06-68:: Które zagadnienie należy bezpośrednio do tematu „Masaż prozdrowotny bez przyrządów” (6.8)? {
+    = 6.8.1. Dłonie, przedramiona, kciuki
+    ~ 6.8.3. Brak sprzętu jako przewaga dostępności
+    ~ 6.8.4. Bezpieczeństwo w warunkach domowych
+    ~ 2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu
+    ~ 3.14.7. Ryzyko poślizgnięcia
+    ~ 5.4.6. Stan zapalny — przeciwwskazanie
+}

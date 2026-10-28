@@ -1,0 +1,49 @@
+// Quiz: 2.5. Dokumentacja związana z wykonywaniem zadań zawodowych — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-25-q1:: Zagadnienie „2.5.1. Karta zabiegów masażu” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q1b:: Zagadnienie „2.5.2. Dane osobowe pacjenta i RODO” jest elementem zagadnienia „2.5.1. Karta zabiegów masażu”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q2:: Zagadnienie „2.5.2. Dane osobowe pacjenta i RODO” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q2b:: Zagadnienie „2.5.3. Zgoda na przetwarzanie danych” jest elementem zagadnienia „2.5.2. Dane osobowe pacjenta i RODO”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q3:: Zagadnienie „2.5.3. Zgoda na przetwarzanie danych” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q3b:: Zagadnienie „2.5.4. Zgoda na zabieg masażu” jest elementem zagadnienia „2.5.3. Zgoda na przetwarzanie danych”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q4:: Zagadnienie „2.5.4. Zgoda na zabieg masażu” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q4b:: Zagadnienie „2.5.5. Poufność dokumentacji” jest elementem zagadnienia „2.5.4. Zgoda na zabieg masażu”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q5:: Zagadnienie „2.5.5. Poufność dokumentacji” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q5b:: Zagadnienie „2.5.6. Przechowywanie i archiwizacja” jest elementem zagadnienia „2.5.5. Poufność dokumentacji”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q6:: Zagadnienie „2.5.6. Przechowywanie i archiwizacja” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q6b:: Zagadnienie „2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom” jest elementem zagadnienia „2.5.6. Przechowywanie i archiwizacja”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q7:: Zagadnienie „2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q7b:: Zagadnienie „2.5.8. Błędy dokumentacyjne i ich konsekwencje” jest elementem zagadnienia „2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q8:: Zagadnienie „2.5.8. Błędy dokumentacyjne i ich konsekwencje” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q8b:: Zagadnienie „2.5.9. Dokumentacja elektroniczna i papierowa” jest elementem zagadnienia „2.5.8. Błędy dokumentacyjne i ich konsekwencje”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q9:: Zagadnienie „2.5.9. Dokumentacja elektroniczna i papierowa” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::tf-s02-25-q9b:: Zagadnienie „2.5.10. Rejestr zdarzeń niepożądanych” jest elementem zagadnienia „2.5.9. Dokumentacja elektroniczna i papierowa”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {FALSE} //
+
+::tf-s02-25-q10:: Zagadnienie „2.5.10. Rejestr zdarzeń niepożądanych” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5). {TRUE} //
+
+::mc-s02-25:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.1. Karta zabiegów masażu
+    ~ 2.5.2. Dane osobowe pacjenta i RODO
+    ~ 2.5.3. Zgoda na przetwarzanie danych
+    ~ 1.15.10. Zasada: zgoda może być cofnięta w każdej chwili
+    ~ 3.14.1. Odciążenie grawitacyjne
+    ~ 5.3.10. Przeciwwskazania w sporcie
+}

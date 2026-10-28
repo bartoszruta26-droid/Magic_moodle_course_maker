@@ -47,3 +47,101 @@
     ~ 3.14.8. Obciążenie termiczne
     ~ 5.4.7. Gorączka i infekcja — przeciwwskazanie
 }
+
+::mc-s06-69-q1:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.1 Jak mowic o zdrowiu bez straszenia
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s06-69-q2:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.2 Jak mowic o ciele bez wstydu
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s06-69-q3:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.3 Jak motywowac bez manipulacji
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s06-69-q4:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.4 Podstawy higieny snu
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s06-69-q5:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.5 Podstawy aktywnosci fizycznej
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s06-69-q6:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.6 Podstawy nawodnienia
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s06-69-q7:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.7 Podstawy pielegnacji skory
+    ~ Linie anatomiczne i lancuchy miesniowo-powieziowe
+    ~ Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s06-69-q8:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.8 Profilaktyka przeciazen
+    ~ Biomechanika ruchu i stabilizacja
+    ~ Obrzek miekki i twardy
+    ~ Dokumentacja
+}
+
+::mc-s06-69-q9:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.9 Materialy edukacyjne dla pacjenta
+    ~ Znaczenie palpacji struktur ukladu ruchu
+    ~ Proba Stemmera i inne objawy — w granicach edukacji
+    ~ Granice: relaks nie zastepuje terapii psychologicznej
+}
+
+::mc-s06-69-q10:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.10 Wspolpraca z lekarzem, dietetykiem, fizjoterapeuta
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s06-69-v1:: Które zagadnienie należy do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.1 Jak mowic o zdrowiu bez straszenia
+    ~0.5# 6.9.2 Jak mowic o ciele bez wstydu
+    ~0.5# 6.9.3 Jak motywowac bez manipulacji
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s06-69-v2:: Które zagadnienie NIE należy do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9), lecz jest częścią innego tematu kursu? {
+    = 6.9.1 Jak mowic o zdrowiu bez straszenia
+    ~-0.25# 6.9.2 Jak mowic o ciele bez wstydu
+    ~-0.25# 6.9.3 Jak motywowac bez manipulacji
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s06-69-v3:: Które zagadnienie należy do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.3 Jak motywowac bez manipulacji
+    ~0.5# 6.9.1 Jak mowic o zdrowiu bez straszenia
+    ~0.5# 6.9.2 Jak mowic o ciele bez wstydu
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s06-69-v4:: Które zagadnienie NIE należy do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9), lecz jest częścią innego tematu kursu? {
+    = 6.9.1 Jak mowic o zdrowiu bez straszenia
+    ~-0.25# 6.9.4 Podstawy higieny snu
+    ~-0.25# 6.9.2 Jak mowic o ciele bez wstydu
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

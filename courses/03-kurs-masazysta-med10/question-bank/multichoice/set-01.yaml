@@ -5,43 +5,63 @@ questions:
     category: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
     text: "Do którego modułu kursu MED.10 należy temat „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty”?"
     answers:
-      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"  fraction: 100
-      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"  fraction: 0
-      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"  fraction: 0
-      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"  fraction: 0
+      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+        fraction: 100
+      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+        fraction: 0
+      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+        fraction: 0
+      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+        fraction: 0
   - type: multichoice
     name: "Przyporządkowanie modułowe 2"
     category: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
     text: "Do którego modułu kursu MED.10 należy temat „Prawne i etyczne uwarunkowania zawodu masażysty”?"
     answers:
-      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"  fraction: 100
-      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"  fraction: 0
-      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"  fraction: 0
-      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"  fraction: 0
+      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+        fraction: 100
+      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+        fraction: 0
+      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+        fraction: 0
+      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+        fraction: 0
   - type: multichoice
     name: "Przyporządkowanie modułowe 3"
     category: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
     text: "Do którego modułu kursu MED.10 należy temat „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne”?"
     answers:
-      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"  fraction: 100
-      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"  fraction: 0
-      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"  fraction: 0
-      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"  fraction: 0
+      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+        fraction: 100
+      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+        fraction: 0
+      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+        fraction: 0
+      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+        fraction: 0
   - type: multichoice
     name: "Przyporządkowanie modułowe 4"
     category: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
     text: "Do którego modułu kursu MED.10 należy temat „Ocena pacjenta na potrzeby wykonania masażu”?"
     answers:
-      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"  fraction: 100
-      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"  fraction: 0
-      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"  fraction: 0
-      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"  fraction: 0
+      - text: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+        fraction: 100
+      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+        fraction: 0
+      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+        fraction: 0
+      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+        fraction: 0
   - type: multichoice
     name: "Przyporządkowanie modułowe 5"
     category: "Moduł 5: MED.10.5. WYKONYWANIE MASAŻU W SPORCIE"
     text: "Do którego modułu kursu MED.10 należy temat „Wprowadzenie do masażu sportowego”?"
     answers:
-      - text: "Moduł 5: MED.10.5. WYKONYWANIE MASAŻU W SPORCIE"  fraction: 100
-      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"  fraction: 0
-      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"  fraction: 0
-      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"  fraction: 0
+      - text: "Moduł 5: MED.10.5. WYKONYWANIE MASAŻU W SPORCIE"
+        fraction: 100
+      - text: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+        fraction: 0
+      - text: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+        fraction: 0
+      - text: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+        fraction: 0

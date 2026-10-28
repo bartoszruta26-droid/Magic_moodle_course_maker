@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.7. Zaburzenia układu pokarmowego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.7 — zagadnienie 1"
+  - id: "tf-s03-37-q1"
+    type: "truefalse"
+    name: "tf-s03-37-q1"
     text: "Zagadnienie „3.7.1. Choroba wrzodowa żołądka i dwunastnicy” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 1"
+  - id: "tf-s03-37-q1b"
+    type: "truefalse"
+    name: "tf-s03-37-q1b"
     text: "Zagadnienie „3.7.2. Nieżyt żołądka” jest elementem zagadnienia „3.7.1. Choroba wrzodowa żołądka i dwunastnicy”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 2"
+  - id: "tf-s03-37-q2"
+    type: "truefalse"
+    name: "tf-s03-37-q2"
     text: "Zagadnienie „3.7.2. Nieżyt żołądka” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 2"
+  - id: "tf-s03-37-q2b"
+    type: "truefalse"
+    name: "tf-s03-37-q2b"
     text: "Zagadnienie „3.7.3. Zaburzenia motoryki przewodu pokarmowego” jest elementem zagadnienia „3.7.2. Nieżyt żołądka”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 3"
+  - id: "tf-s03-37-q3"
+    type: "truefalse"
+    name: "tf-s03-37-q3"
     text: "Zagadnienie „3.7.3. Zaburzenia motoryki przewodu pokarmowego” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 3"
+  - id: "tf-s03-37-q3b"
+    type: "truefalse"
+    name: "tf-s03-37-q3b"
     text: "Zagadnienie „3.7.4. Zaparcia nawykowe” jest elementem zagadnienia „3.7.3. Zaburzenia motoryki przewodu pokarmowego”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 4"
+  - id: "tf-s03-37-q4"
+    type: "truefalse"
+    name: "tf-s03-37-q4"
     text: "Zagadnienie „3.7.4. Zaparcia nawykowe” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 4"
+  - id: "tf-s03-37-q4b"
+    type: "truefalse"
+    name: "tf-s03-37-q4b"
     text: "Zagadnienie „3.7.5. Biegunki przewlekłe” jest elementem zagadnienia „3.7.4. Zaparcia nawykowe”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 5"
+  - id: "tf-s03-37-q5"
+    type: "truefalse"
+    name: "tf-s03-37-q5"
     text: "Zagadnienie „3.7.5. Biegunki przewlekłe” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 5"
+  - id: "tf-s03-37-q5b"
+    type: "truefalse"
+    name: "tf-s03-37-q5b"
     text: "Zagadnienie „3.7.6. Zespół jelita drażliwego” jest elementem zagadnienia „3.7.5. Biegunki przewlekłe”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 6"
+  - id: "tf-s03-37-q6"
+    type: "truefalse"
+    name: "tf-s03-37-q6"
     text: "Zagadnienie „3.7.6. Zespół jelita drażliwego” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 6"
+  - id: "tf-s03-37-q6b"
+    type: "truefalse"
+    name: "tf-s03-37-q6b"
     text: "Zagadnienie „3.7.7. Choroby wątroby i dróg żółciowych” jest elementem zagadnienia „3.7.6. Zespół jelita drażliwego”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 7"
+  - id: "tf-s03-37-q7"
+    type: "truefalse"
+    name: "tf-s03-37-q7"
     text: "Zagadnienie „3.7.7. Choroby wątroby i dróg żółciowych” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 7"
+  - id: "tf-s03-37-q7b"
+    type: "truefalse"
+    name: "tf-s03-37-q7b"
     text: "Zagadnienie „3.7.8. Stan po operacjach jamy brzusznej” jest elementem zagadnienia „3.7.7. Choroby wątroby i dróg żółciowych”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 8"
+  - id: "tf-s03-37-q8"
+    type: "truefalse"
+    name: "tf-s03-37-q8"
     text: "Zagadnienie „3.7.8. Stan po operacjach jamy brzusznej” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 8"
+  - id: "tf-s03-37-q8b"
+    type: "truefalse"
+    name: "tf-s03-37-q8b"
     text: "Zagadnienie „3.7.9. Przepukliny — ostrożność i przeciwwskazania” jest elementem zagadnienia „3.7.8. Stan po operacjach jamy brzusznej”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 9"
+  - id: "tf-s03-37-q9"
+    type: "truefalse"
+    name: "tf-s03-37-q9"
     text: "Zagadnienie „3.7.9. Przepukliny — ostrożność i przeciwwskazania” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: truefalse
-    name: "3.7 — rozgraniczenie 9"
+  - id: "tf-s03-37-q9b"
+    type: "truefalse"
+    name: "tf-s03-37-q9b"
     text: "Zagadnienie „3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo” jest elementem zagadnienia „3.7.9. Przepukliny — ostrożność i przeciwwskazania”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: false
-  - type: truefalse
-    name: "3.7 — zagadnienie 10"
+  - id: "tf-s03-37-q10"
+    type: "truefalse"
+    name: "tf-s03-37-q10"
     text: "Zagadnienie „3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
     answer: true
-  - type: multichoice
-    name: "3.7 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-37"
+    type: "multichoice"
+    name: "mc-s03-37"
     text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
     answers:
-      - text: "3.7.1. Choroba wrzodowa żołądka i dwunastnicy"  fraction: 100
-      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"  fraction: 0
-      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
-      - text: "5.4.3. Drobne przeciążenia"  fraction: 0
+      - text: "3.7.1. Choroba wrzodowa żołądka i dwunastnicy"
+        fraction: 100
+      - text: "3.7.2. Nieżyt żołądka"
+        fraction: 0
+      - text: "3.7.3. Zaburzenia motoryki przewodu pokarmowego"
+        fraction: 0
+      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"
+        fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"
+        fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"
+        fraction: 0
+  - id: "mc-s03-37-q1"
+    type: "multichoice"
+    name: "mc-s03-37-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.1 Choroba wrzodowa zoladka i dwunastnicy"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s03-37-q2"
+    type: "multichoice"
+    name: "mc-s03-37-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.2 Niezyt zoladka"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s03-37-q3"
+    type: "multichoice"
+    name: "mc-s03-37-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.3 Zaburzenia motoryki przewodu pokarmowego"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s03-37-q4"
+    type: "multichoice"
+    name: "mc-s03-37-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.4 Zaparcia nawykowe"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s03-37-q5"
+    type: "multichoice"
+    name: "mc-s03-37-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.5 Biegunki przewlekle"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s03-37-q6"
+    type: "multichoice"
+    name: "mc-s03-37-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.6 Zespol jelita drazliwego"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s03-37-q7"
+    type: "multichoice"
+    name: "mc-s03-37-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.7 Choroby watroby i drog zolciowych"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s03-37-q8"
+    type: "multichoice"
+    name: "mc-s03-37-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.8 Stan po operacjach jamy brzusznej"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s03-37-q9"
+    type: "multichoice"
+    name: "mc-s03-37-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.9 Przepukliny — ostroznosc i przeciwwskazania"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s03-37-q10"
+    type: "multichoice"
+    name: "mc-s03-37-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.10 Masaz brzucha: zasady, granice, bezpieczenstwo"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s03-37-v1"
+    type: "multichoice"
+    name: "mc-s03-37-v1"
+    text: "Które zagadnienie należy do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.1 Choroba wrzodowa zoladka i dwunastnicy"
+        fraction: 100
+      - text: "0.5# 3.7.2 Niezyt zoladka"
+        fraction: 0
+      - text: "0.5# 3.7.3 Zaburzenia motoryki przewodu pokarmowego"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s03-37-v2"
+    type: "multichoice"
+    name: "mc-s03-37-v2"
+    text: "Które zagadnienie NIE należy do tematu „Zaburzenia układu pokarmowego” (3.7), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.7.1 Choroba wrzodowa zoladka i dwunastnicy"
+        fraction: 100
+      - text: "-0.25# 3.7.2 Niezyt zoladka"
+        fraction: 0
+      - text: "-0.25# 3.7.3 Zaburzenia motoryki przewodu pokarmowego"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s03-37-v3"
+    type: "multichoice"
+    name: "mc-s03-37-v3"
+    text: "Które zagadnienie należy do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.3 Zaburzenia motoryki przewodu pokarmowego"
+        fraction: 100
+      - text: "0.5# 3.7.1 Choroba wrzodowa zoladka i dwunastnicy"
+        fraction: 0
+      - text: "0.5# 3.7.2 Niezyt zoladka"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s03-37-v4"
+    type: "multichoice"
+    name: "mc-s03-37-v4"
+    text: "Które zagadnienie NIE należy do tematu „Zaburzenia układu pokarmowego” (3.7), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.7.1 Choroba wrzodowa zoladka i dwunastnicy"
+        fraction: 100
+      - text: "-0.25# 3.7.4 Zaparcia nawykowe"
+        fraction: 0
+      - text: "-0.25# 3.7.2 Niezyt zoladka"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

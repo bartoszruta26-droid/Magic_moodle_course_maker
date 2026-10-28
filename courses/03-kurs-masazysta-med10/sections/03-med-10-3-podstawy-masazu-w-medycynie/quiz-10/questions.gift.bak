@@ -1,0 +1,49 @@
+// Quiz: 3.10. Wskazania i przeciwwskazania do masażu klasycznego — moduł 3 (03-med-10-3-podstawy-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s03-310-q1:: Zagadnienie „3.10.1. Wskazania ortopedyczne i reumatologiczne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q1b:: Zagadnienie „3.10.2. Wskazania neurologiczne” jest elementem zagadnienia „3.10.1. Wskazania ortopedyczne i reumatologiczne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q2:: Zagadnienie „3.10.2. Wskazania neurologiczne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q2b:: Zagadnienie „3.10.3. Wskazania kardiologiczne — tylko stabilne, za zgodą lekarza” jest elementem zagadnienia „3.10.2. Wskazania neurologiczne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q3:: Zagadnienie „3.10.3. Wskazania kardiologiczne — tylko stabilne, za zgodą lekarza” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q3b:: Zagadnienie „3.10.4. Wskazania pulmonologiczne” jest elementem zagadnienia „3.10.3. Wskazania kardiologiczne — tylko stabilne, za zgodą lekarza”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q4:: Zagadnienie „3.10.4. Wskazania pulmonologiczne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q4b:: Zagadnienie „3.10.5. Wskazania gastroenterologiczne” jest elementem zagadnienia „3.10.4. Wskazania pulmonologiczne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q5:: Zagadnienie „3.10.5. Wskazania gastroenterologiczne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q5b:: Zagadnienie „3.10.6. Wskazania urologiczne i ginekologiczne” jest elementem zagadnienia „3.10.5. Wskazania gastroenterologiczne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q6:: Zagadnienie „3.10.6. Wskazania urologiczne i ginekologiczne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q6b:: Zagadnienie „3.10.7. Wskazania dermatologiczne — ograniczone” jest elementem zagadnienia „3.10.6. Wskazania urologiczne i ginekologiczne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q7:: Zagadnienie „3.10.7. Wskazania dermatologiczne — ograniczone” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q7b:: Zagadnienie „3.10.8. Przeciwwskazania bezwzględne” jest elementem zagadnienia „3.10.7. Wskazania dermatologiczne — ograniczone”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q8:: Zagadnienie „3.10.8. Przeciwwskazania bezwzględne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q8b:: Zagadnienie „3.10.9. Przeciwwskazania względne” jest elementem zagadnienia „3.10.8. Przeciwwskazania bezwzględne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q9:: Zagadnienie „3.10.9. Przeciwwskazania względne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::tf-s03-310-q9b:: Zagadnienie „3.10.10. Przeciwwskazania miejscowe” jest elementem zagadnienia „3.10.9. Przeciwwskazania względne”, a nie tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {FALSE} //
+
+::tf-s03-310-q10:: Zagadnienie „3.10.10. Przeciwwskazania miejscowe” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10). {TRUE} //
+
+::mc-s03-310:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu klasycznego” (3.10)? {
+    = 3.10.1. Wskazania ortopedyczne i reumatologiczne
+    ~ 3.10.2. Wskazania neurologiczne
+    ~ 3.10.3. Wskazania kardiologiczne — tylko stabilne, za zgodą lekarza
+    ~ 2.5.5. Poufność dokumentacji
+    ~ 3.18.6. Poprawa propriocepcji
+    ~ 5.8.5. Presja wyniku a dobro pacjenta
+}

@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "5.5. Metodyka masażu sportowego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "5.5 — zagadnienie 1"
+  - id: "tf-s05-55-q1"
+    type: "truefalse"
+    name: "tf-s05-55-q1"
     text: "Zagadnienie „5.5.1. Czas trwania” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 1"
+  - id: "tf-s05-55-q1b"
+    type: "truefalse"
+    name: "tf-s05-55-q1b"
     text: "Zagadnienie „5.5.2. Siła i tempo” jest elementem zagadnienia „5.5.1. Czas trwania”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 2"
+  - id: "tf-s05-55-q2"
+    type: "truefalse"
+    name: "tf-s05-55-q2"
     text: "Zagadnienie „5.5.2. Siła i tempo” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 2"
+  - id: "tf-s05-55-q2b"
+    type: "truefalse"
+    name: "tf-s05-55-q2b"
     text: "Zagadnienie „5.5.3. Kolejność technik” jest elementem zagadnienia „5.5.2. Siła i tempo”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 3"
+  - id: "tf-s05-55-q3"
+    type: "truefalse"
+    name: "tf-s05-55-q3"
     text: "Zagadnienie „5.5.3. Kolejność technik” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 3"
+  - id: "tf-s05-55-q3b"
+    type: "truefalse"
+    name: "tf-s05-55-q3b"
     text: "Zagadnienie „5.5.4. Środki poślizgowe i wspomagające” jest elementem zagadnienia „5.5.3. Kolejność technik”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 4"
+  - id: "tf-s05-55-q4"
+    type: "truefalse"
+    name: "tf-s05-55-q4"
     text: "Zagadnienie „5.5.4. Środki poślizgowe i wspomagające” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 4"
+  - id: "tf-s05-55-q4b"
+    type: "truefalse"
+    name: "tf-s05-55-q4b"
     text: "Zagadnienie „5.5.5. Chłodzenie i rozgrzewanie — bezpieczeństwo” jest elementem zagadnienia „5.5.4. Środki poślizgowe i wspomagające”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 5"
+  - id: "tf-s05-55-q5"
+    type: "truefalse"
+    name: "tf-s05-55-q5"
     text: "Zagadnienie „5.5.5. Chłodzenie i rozgrzewanie — bezpieczeństwo” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 5"
+  - id: "tf-s05-55-q5b"
+    type: "truefalse"
+    name: "tf-s05-55-q5b"
     text: "Zagadnienie „5.5.6. Masaż tkanek głębokich w granicach kompetencji” jest elementem zagadnienia „5.5.5. Chłodzenie i rozgrzewanie — bezpieczeństwo”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 6"
+  - id: "tf-s05-55-q6"
+    type: "truefalse"
+    name: "tf-s05-55-q6"
     text: "Zagadnienie „5.5.6. Masaż tkanek głębokich w granicach kompetencji” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 6"
+  - id: "tf-s05-55-q6b"
+    type: "truefalse"
+    name: "tf-s05-55-q6b"
     text: "Zagadnienie „5.5.7. Praca na punktach spustowych” jest elementem zagadnienia „5.5.6. Masaż tkanek głębokich w granicach kompetencji”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 7"
+  - id: "tf-s05-55-q7"
+    type: "truefalse"
+    name: "tf-s05-55-q7"
     text: "Zagadnienie „5.5.7. Praca na punktach spustowych” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 7"
+  - id: "tf-s05-55-q7b"
+    type: "truefalse"
+    name: "tf-s05-55-q7b"
     text: "Zagadnienie „5.5.8. Mobilizacje i stretching — tylko bezpieczne” jest elementem zagadnienia „5.5.7. Praca na punktach spustowych”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 8"
+  - id: "tf-s05-55-q8"
+    type: "truefalse"
+    name: "tf-s05-55-q8"
     text: "Zagadnienie „5.5.8. Mobilizacje i stretching — tylko bezpieczne” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 8"
+  - id: "tf-s05-55-q8b"
+    type: "truefalse"
+    name: "tf-s05-55-q8b"
     text: "Zagadnienie „5.5.9. Masaż przyrządowy w sporcie” jest elementem zagadnienia „5.5.8. Mobilizacje i stretching — tylko bezpieczne”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 9"
+  - id: "tf-s05-55-q9"
+    type: "truefalse"
+    name: "tf-s05-55-q9"
     text: "Zagadnienie „5.5.9. Masaż przyrządowy w sporcie” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: truefalse
-    name: "5.5 — rozgraniczenie 9"
+  - id: "tf-s05-55-q9b"
+    type: "truefalse"
+    name: "tf-s05-55-q9b"
     text: "Zagadnienie „5.5.10. Dokumentacja i ocena subiektywna” jest elementem zagadnienia „5.5.9. Masaż przyrządowy w sporcie”, a nie tematu „Metodyka masażu sportowego” (5.5)."
     answer: false
-  - type: truefalse
-    name: "5.5 — zagadnienie 10"
+  - id: "tf-s05-55-q10"
+    type: "truefalse"
+    name: "tf-s05-55-q10"
     text: "Zagadnienie „5.5.10. Dokumentacja i ocena subiektywna” wchodzi w zakres tematu „Metodyka masażu sportowego” (5.5)."
     answer: true
-  - type: multichoice
-    name: "5.5 — przyporządkowanie zagadnienia"
+  - id: "mc-s05-55"
+    type: "multichoice"
+    name: "mc-s05-55"
     text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
     answers:
-      - text: "5.5.1. Czas trwania"  fraction: 100
-      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"  fraction: 0
-      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"  fraction: 0
-      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"  fraction: 0
+      - text: "5.5.1. Czas trwania"
+        fraction: 100
+      - text: "5.5.2. Siła i tempo"
+        fraction: 0
+      - text: "5.5.3. Kolejność technik"
+        fraction: 0
+      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"
+        fraction: 0
+      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"
+        fraction: 0
+      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"
+        fraction: 0
+  - id: "mc-s05-55-q1"
+    type: "multichoice"
+    name: "mc-s05-55-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.1 Czas trwania"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s05-55-q2"
+    type: "multichoice"
+    name: "mc-s05-55-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.2 Sila i tempo"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s05-55-q3"
+    type: "multichoice"
+    name: "mc-s05-55-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.3 Kolejnosc technik"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s05-55-q4"
+    type: "multichoice"
+    name: "mc-s05-55-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.4 Srodki poslizgowe i wspomagajace"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s05-55-q5"
+    type: "multichoice"
+    name: "mc-s05-55-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.5 Chlodzenie i rozgrzewanie — bezpieczenstwo"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s05-55-q6"
+    type: "multichoice"
+    name: "mc-s05-55-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.6 Masaz tkanek glebokich w granicach kompetencji"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s05-55-q7"
+    type: "multichoice"
+    name: "mc-s05-55-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.7 Praca na punktach spustowych"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s05-55-q8"
+    type: "multichoice"
+    name: "mc-s05-55-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.8 Mobilizacje i stretching — tylko bezpieczne"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s05-55-q9"
+    type: "multichoice"
+    name: "mc-s05-55-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.9 Masaz przyrzadowy w sporcie"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s05-55-q10"
+    type: "multichoice"
+    name: "mc-s05-55-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.10 Dokumentacja i ocena subiektywna"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s05-55-v1"
+    type: "multichoice"
+    name: "mc-s05-55-v1"
+    text: "Które zagadnienie należy do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.1 Czas trwania"
+        fraction: 100
+      - text: "0.5# 5.5.2 Sila i tempo"
+        fraction: 0
+      - text: "0.5# 5.5.3 Kolejnosc technik"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s05-55-v2"
+    type: "multichoice"
+    name: "mc-s05-55-v2"
+    text: "Które zagadnienie NIE należy do tematu „Metodyka masażu sportowego” (5.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "5.5.1 Czas trwania"
+        fraction: 100
+      - text: "-0.25# 5.5.2 Sila i tempo"
+        fraction: 0
+      - text: "-0.25# 5.5.3 Kolejnosc technik"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s05-55-v3"
+    type: "multichoice"
+    name: "mc-s05-55-v3"
+    text: "Które zagadnienie należy do tematu „Metodyka masażu sportowego” (5.5)?"
+    answers:
+      - text: "5.5.3 Kolejnosc technik"
+        fraction: 100
+      - text: "0.5# 5.5.1 Czas trwania"
+        fraction: 0
+      - text: "0.5# 5.5.2 Sila i tempo"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s05-55-v4"
+    type: "multichoice"
+    name: "mc-s05-55-v4"
+    text: "Które zagadnienie NIE należy do tematu „Metodyka masażu sportowego” (5.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "5.5.1 Czas trwania"
+        fraction: 100
+      - text: "-0.25# 5.5.4 Srodki poslizgowe i wspomagajace"
+        fraction: 0
+      - text: "-0.25# 5.5.2 Sila i tempo"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -47,3 +47,101 @@
     ~ 3.14.9. Asysta drugiej osoby przy osobach niesamodzielnych
     ~ 5.4.8. Otwarta rana — przeciwwskazanie miejscowe
 }
+
+::mc-s08-88-q1:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.1 Aktywne sluchanie
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s08-88-q2:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.2 Parafraza i klaryfikacja
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s08-88-q3:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.3 Jezyk zrozumialy dla pacjenta
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s08-88-q4:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.4 Dostosowanie do wieku i stanu zdrowia
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s08-88-q5:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.5 Komunikacja z osoba lekowa
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s08-88-q6:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.6 Komunikacja z osoba zniecierpliwiona
+    ~ Linie anatomiczne i lancuchy miesniowo-powieziowe
+    ~ Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s08-88-q7:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.7 Komunikacja z osoba w bolu
+    ~ Biomechanika ruchu i stabilizacja
+    ~ Obrzek miekki i twardy
+    ~ Dokumentacja
+}
+
+::mc-s08-88-q8:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.8 Komunikacja z rodzina pacjenta
+    ~ Znaczenie palpacji struktur ukladu ruchu
+    ~ Proba Stemmera i inne objawy — w granicach edukacji
+    ~ Granice: relaks nie zastepuje terapii psychologicznej
+}
+
+::mc-s08-88-q9:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.9 Podstawy jezyka migowego — jesli przewidziano
+    ~ Osrodkowy uklad nerwowy: mozgowie, rdzen kregowy
+    ~ Pomiar obwodu co 5 lub 10 cm
+    ~ Profilaktyka bolow kregoslupa
+}
+
+::mc-s08-88-q10:: Które zagadnienie należy bezpośrednio do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.10 Milczenie jako szacunek
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s08-88-v1:: Które zagadnienie należy do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.1 Aktywne sluchanie
+    ~0.5# 8.8.2 Parafraza i klaryfikacja
+    ~0.5# 8.8.3 Jezyk zrozumialy dla pacjenta
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s08-88-v2:: Które zagadnienie NIE należy do tematu „Komunikacja interpersonalna” (8.8), lecz jest częścią innego tematu kursu? {
+    = 8.8.1 Aktywne sluchanie
+    ~-0.25# 8.8.2 Parafraza i klaryfikacja
+    ~-0.25# 8.8.3 Jezyk zrozumialy dla pacjenta
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s08-88-v3:: Które zagadnienie należy do tematu „Komunikacja interpersonalna” (8.8)? {
+    = 8.8.3 Jezyk zrozumialy dla pacjenta
+    ~0.5# 8.8.1 Aktywne sluchanie
+    ~0.5# 8.8.2 Parafraza i klaryfikacja
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s08-88-v4:: Które zagadnienie NIE należy do tematu „Komunikacja interpersonalna” (8.8), lecz jest częścią innego tematu kursu? {
+    = 8.8.1 Aktywne sluchanie
+    ~-0.25# 8.8.4 Dostosowanie do wieku i stanu zdrowia
+    ~-0.25# 8.8.2 Parafraza i klaryfikacja
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

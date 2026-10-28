@@ -47,3 +47,101 @@
     ~ 3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny
     ~ 5.4.5. Ból ostry — nie masować bez diagnozy
 }
+
+::mc-s06-67-q1:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s06-67-q2:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.2 Ubranie pacjenta
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s06-67-q3:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.3 Czas 10–20 minut
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s06-67-q4:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.4 Techniki: barki, kark, glowa, rece, plecy przez ubranie
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s06-67-q5:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.5 Bezpieczenstwo kregoslupa szyjnego
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s06-67-q6:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.6 Przeciwwskazania
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja miesni i powiezi
+    ~ Reakcje pacjenta
+}
+
+::mc-s06-67-q7:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.7 Higiena rak i powierzchni
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s06-67-q8:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.8 Granice intymnosci
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s06-67-q9:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.9 Edukacja ergonomia
+    ~ Linie anatomiczne i lancuchy miesniowo-powieziowe
+    ~ Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s06-67-q10:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.10 Dokumentacja skrocona
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s06-67-v1:: Które zagadnienie należy do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~0.5# 6.7.2 Ubranie pacjenta
+    ~0.5# 6.7.3 Czas 10–20 minut
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s06-67-v2:: Które zagadnienie NIE należy do tematu „Masaż biurowy” (6.7), lecz jest częścią innego tematu kursu? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~-0.25# 6.7.2 Ubranie pacjenta
+    ~-0.25# 6.7.3 Czas 10–20 minut
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s06-67-v3:: Które zagadnienie należy do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.3 Czas 10–20 minut
+    ~0.5# 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~0.5# 6.7.2 Ubranie pacjenta
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s06-67-v4:: Które zagadnienie NIE należy do tematu „Masaż biurowy” (6.7), lecz jest częścią innego tematu kursu? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~-0.25# 6.7.4 Techniki\: barki, kark, glowa, rece, plecy przez ubranie
+    ~-0.25# 6.7.2 Ubranie pacjenta
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

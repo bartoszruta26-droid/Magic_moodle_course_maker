@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "2.6. Promocja zdrowia i profilaktyka"
 category: masaz
 questions:
-  - type: truefalse
-    name: "2.6 — zagadnienie 1"
+  - id: "tf-s02-26-q1"
+    type: "truefalse"
+    name: "tf-s02-26-q1"
     text: "Zagadnienie „2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 1"
+  - id: "tf-s02-26-q1b"
+    type: "truefalse"
+    name: "tf-s02-26-q1b"
     text: "Zagadnienie „2.6.2. Czynniki warunkujące utrzymanie zdrowia” jest elementem zagadnienia „2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 2"
+  - id: "tf-s02-26-q2"
+    type: "truefalse"
+    name: "tf-s02-26-q2"
     text: "Zagadnienie „2.6.2. Czynniki warunkujące utrzymanie zdrowia” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 2"
+  - id: "tf-s02-26-q2b"
+    type: "truefalse"
+    name: "tf-s02-26-q2b"
     text: "Zagadnienie „2.6.3. Czynniki negatywnie wpływające na zdrowie” jest elementem zagadnienia „2.6.2. Czynniki warunkujące utrzymanie zdrowia”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 3"
+  - id: "tf-s02-26-q3"
+    type: "truefalse"
+    name: "tf-s02-26-q3"
     text: "Zagadnienie „2.6.3. Czynniki negatywnie wpływające na zdrowie” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 3"
+  - id: "tf-s02-26-q3b"
+    type: "truefalse"
+    name: "tf-s02-26-q3b"
     text: "Zagadnienie „2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa” jest elementem zagadnienia „2.6.3. Czynniki negatywnie wpływające na zdrowie”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 4"
+  - id: "tf-s02-26-q4"
+    type: "truefalse"
+    name: "tf-s02-26-q4"
     text: "Zagadnienie „2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 4"
+  - id: "tf-s02-26-q4b"
+    type: "truefalse"
+    name: "tf-s02-26-q4b"
     text: "Zagadnienie „2.6.5. Edukacja prozdrowotna pacjenta” jest elementem zagadnienia „2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 5"
+  - id: "tf-s02-26-q5"
+    type: "truefalse"
+    name: "tf-s02-26-q5"
     text: "Zagadnienie „2.6.5. Edukacja prozdrowotna pacjenta” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 5"
+  - id: "tf-s02-26-q5b"
+    type: "truefalse"
+    name: "tf-s02-26-q5b"
     text: "Zagadnienie „2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres” jest elementem zagadnienia „2.6.5. Edukacja prozdrowotna pacjenta”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 6"
+  - id: "tf-s02-26-q6"
+    type: "truefalse"
+    name: "tf-s02-26-q6"
     text: "Zagadnienie „2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 6"
+  - id: "tf-s02-26-q6b"
+    type: "truefalse"
+    name: "tf-s02-26-q6b"
     text: "Zagadnienie „2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego” jest elementem zagadnienia „2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 7"
+  - id: "tf-s02-26-q7"
+    type: "truefalse"
+    name: "tf-s02-26-q7"
     text: "Zagadnienie „2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 7"
+  - id: "tf-s02-26-q7b"
+    type: "truefalse"
+    name: "tf-s02-26-q7b"
     text: "Zagadnienie „2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego” jest elementem zagadnienia „2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 8"
+  - id: "tf-s02-26-q8"
+    type: "truefalse"
+    name: "tf-s02-26-q8"
     text: "Zagadnienie „2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 8"
+  - id: "tf-s02-26-q8b"
+    type: "truefalse"
+    name: "tf-s02-26-q8b"
     text: "Zagadnienie „2.6.9. Profilaktyka odleżyn u osób unieruchomionych” jest elementem zagadnienia „2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 9"
+  - id: "tf-s02-26-q9"
+    type: "truefalse"
+    name: "tf-s02-26-q9"
     text: "Zagadnienie „2.6.9. Profilaktyka odleżyn u osób unieruchomionych” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: truefalse
-    name: "2.6 — rozgraniczenie 9"
+  - id: "tf-s02-26-q9b"
+    type: "truefalse"
+    name: "tf-s02-26-q9b"
     text: "Zagadnienie „2.6.10. Rola masażysty w popularyzowaniu zachowań prozdrowotnych” jest elementem zagadnienia „2.6.9. Profilaktyka odleżyn u osób unieruchomionych”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: false
-  - type: truefalse
-    name: "2.6 — zagadnienie 10"
+  - id: "tf-s02-26-q10"
+    type: "truefalse"
+    name: "tf-s02-26-q10"
     text: "Zagadnienie „2.6.10. Rola masażysty w popularyzowaniu zachowań prozdrowotnych” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
     answer: true
-  - type: multichoice
-    name: "2.6 — przyporządkowanie zagadnienia"
+  - id: "mc-s02-26"
+    type: "multichoice"
+    name: "mc-s02-26"
     text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
     answers:
-      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 100
-      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
-      - text: "3.14.2. Temperatura wody i jej wpływ"  fraction: 0
-      - text: "5.4.1. Napięcie mięśniowe po treningu"  fraction: 0
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"
+        fraction: 100
+      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"
+        fraction: 0
+      - text: "2.6.3. Czynniki negatywnie wpływające na zdrowie"
+        fraction: 0
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"
+        fraction: 0
+      - text: "3.14.2. Temperatura wody i jej wpływ"
+        fraction: 0
+      - text: "5.4.1. Napięcie mięśniowe po treningu"
+        fraction: 0
+  - id: "mc-s02-26-q1"
+    type: "multichoice"
+    name: "mc-s02-26-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.1 Pojecie zdrowia wg WHO i w swietle godnosci osoby"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s02-26-q2"
+    type: "multichoice"
+    name: "mc-s02-26-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.2 Czynniki warunkujace utrzymanie zdrowia"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s02-26-q3"
+    type: "multichoice"
+    name: "mc-s02-26-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.3 Czynniki negatywnie wplywajace na zdrowie"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s02-26-q4"
+    type: "multichoice"
+    name: "mc-s02-26-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.4 Profilaktyka pierwotna, wtorna, trzeciorzedowa"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s02-26-q5"
+    type: "multichoice"
+    name: "mc-s02-26-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.5 Edukacja prozdrowotna pacjenta"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s02-26-q6"
+    type: "multichoice"
+    name: "mc-s02-26-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.6 Zdrowy styl zycia: ruch, sen, odzywianie, higiena, stres"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s02-26-q7"
+    type: "multichoice"
+    name: "mc-s02-26-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.7 Profilaktyka przeciazen ukladu miesniowo-powieziowego"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s02-26-q8"
+    type: "multichoice"
+    name: "mc-s02-26-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.8 Profilaktyka obrzekow i zaburzen krazenia obwodowego"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s02-26-q9"
+    type: "multichoice"
+    name: "mc-s02-26-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.9 Profilaktyka odlezyn u osob unieruchomionych"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s02-26-q10"
+    type: "multichoice"
+    name: "mc-s02-26-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.10 Rola masazysty w popularyzowaniu zachowan prozdrowotnych"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s02-26-v1"
+    type: "multichoice"
+    name: "mc-s02-26-v1"
+    text: "Które zagadnienie należy do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.1 Pojecie zdrowia wg WHO i w swietle godnosci osoby"
+        fraction: 100
+      - text: "0.5# 2.6.2 Czynniki warunkujace utrzymanie zdrowia"
+        fraction: 0
+      - text: "0.5# 2.6.3 Czynniki negatywnie wplywajace na zdrowie"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-26-v2"
+    type: "multichoice"
+    name: "mc-s02-26-v2"
+    text: "Które zagadnienie NIE należy do tematu „Promocja zdrowia i profilaktyka” (2.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.6.1 Pojecie zdrowia wg WHO i w swietle godnosci osoby"
+        fraction: 100
+      - text: "-0.25# 2.6.2 Czynniki warunkujace utrzymanie zdrowia"
+        fraction: 0
+      - text: "-0.25# 2.6.3 Czynniki negatywnie wplywajace na zdrowie"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-26-v3"
+    type: "multichoice"
+    name: "mc-s02-26-v3"
+    text: "Które zagadnienie należy do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.3 Czynniki negatywnie wplywajace na zdrowie"
+        fraction: 100
+      - text: "0.5# 2.6.1 Pojecie zdrowia wg WHO i w swietle godnosci osoby"
+        fraction: 0
+      - text: "0.5# 2.6.2 Czynniki warunkujace utrzymanie zdrowia"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-26-v4"
+    type: "multichoice"
+    name: "mc-s02-26-v4"
+    text: "Które zagadnienie NIE należy do tematu „Promocja zdrowia i profilaktyka” (2.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.6.1 Pojecie zdrowia wg WHO i w swietle godnosci osoby"
+        fraction: 100
+      - text: "-0.25# 2.6.4 Profilaktyka pierwotna, wtorna, trzeciorzedowa"
+        fraction: 0
+      - text: "-0.25# 2.6.2 Czynniki warunkujace utrzymanie zdrowia"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

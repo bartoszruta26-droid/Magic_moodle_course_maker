@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "6.5. Masaż profilaktyczny"
 category: masaz
 questions:
-  - type: truefalse
-    name: "6.5 — zagadnienie 1"
+  - id: "tf-s06-65-q1"
+    type: "truefalse"
+    name: "tf-s06-65-q1"
     text: "Zagadnienie „6.5.1. Profilaktyka bólów kręgosłupa” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 1"
+  - id: "tf-s06-65-q1b"
+    type: "truefalse"
+    name: "tf-s06-65-q1b"
     text: "Zagadnienie „6.5.2. Profilaktyka napięcia barków i karku” jest elementem zagadnienia „6.5.1. Profilaktyka bólów kręgosłupa”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 2"
+  - id: "tf-s06-65-q2"
+    type: "truefalse"
+    name: "tf-s06-65-q2"
     text: "Zagadnienie „6.5.2. Profilaktyka napięcia barków i karku” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 2"
+  - id: "tf-s06-65-q2b"
+    type: "truefalse"
+    name: "tf-s06-65-q2b"
     text: "Zagadnienie „6.5.3. Profilaktyka obrzęków nóg” jest elementem zagadnienia „6.5.2. Profilaktyka napięcia barków i karku”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 3"
+  - id: "tf-s06-65-q3"
+    type: "truefalse"
+    name: "tf-s06-65-q3"
     text: "Zagadnienie „6.5.3. Profilaktyka obrzęków nóg” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 3"
+  - id: "tf-s06-65-q3b"
+    type: "truefalse"
+    name: "tf-s06-65-q3b"
     text: "Zagadnienie „6.5.4. Profilaktyka przeciążeń kończyn górnych” jest elementem zagadnienia „6.5.3. Profilaktyka obrzęków nóg”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 4"
+  - id: "tf-s06-65-q4"
+    type: "truefalse"
+    name: "tf-s06-65-q4"
     text: "Zagadnienie „6.5.4. Profilaktyka przeciążeń kończyn górnych” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 4"
+  - id: "tf-s06-65-q4b"
+    type: "truefalse"
+    name: "tf-s06-65-q4b"
     text: "Zagadnienie „6.5.5. Profilaktyka stóp i chodu” jest elementem zagadnienia „6.5.4. Profilaktyka przeciążeń kończyn górnych”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 5"
+  - id: "tf-s06-65-q5"
+    type: "truefalse"
+    name: "tf-s06-65-q5"
     text: "Zagadnienie „6.5.5. Profilaktyka stóp i chodu” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 5"
+  - id: "tf-s06-65-q5b"
+    type: "truefalse"
+    name: "tf-s06-65-q5b"
     text: "Zagadnienie „6.5.6. Edukacja posturalna” jest elementem zagadnienia „6.5.5. Profilaktyka stóp i chodu”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 6"
+  - id: "tf-s06-65-q6"
+    type: "truefalse"
+    name: "tf-s06-65-q6"
     text: "Zagadnienie „6.5.6. Edukacja posturalna” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 6"
+  - id: "tf-s06-65-q6b"
+    type: "truefalse"
+    name: "tf-s06-65-q6b"
     text: "Zagadnienie „6.5.7. Ćwiczenia domowe — w granicach kompetencji” jest elementem zagadnienia „6.5.6. Edukacja posturalna”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 7"
+  - id: "tf-s06-65-q7"
+    type: "truefalse"
+    name: "tf-s06-65-q7"
     text: "Zagadnienie „6.5.7. Ćwiczenia domowe — w granicach kompetencji” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 7"
+  - id: "tf-s06-65-q7b"
+    type: "truefalse"
+    name: "tf-s06-65-q7b"
     text: "Zagadnienie „6.5.8. Ergonomia pracy” jest elementem zagadnienia „6.5.7. Ćwiczenia domowe — w granicach kompetencji”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 8"
+  - id: "tf-s06-65-q8"
+    type: "truefalse"
+    name: "tf-s06-65-q8"
     text: "Zagadnienie „6.5.8. Ergonomia pracy” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 8"
+  - id: "tf-s06-65-q8b"
+    type: "truefalse"
+    name: "tf-s06-65-q8b"
     text: "Zagadnienie „6.5.9. Sen i regeneracja” jest elementem zagadnienia „6.5.8. Ergonomia pracy”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 9"
+  - id: "tf-s06-65-q9"
+    type: "truefalse"
+    name: "tf-s06-65-q9"
     text: "Zagadnienie „6.5.9. Sen i regeneracja” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: truefalse
-    name: "6.5 — rozgraniczenie 9"
+  - id: "tf-s06-65-q9b"
+    type: "truefalse"
+    name: "tf-s06-65-q9b"
     text: "Zagadnienie „6.5.10. Kiedy skierować do lekarza” jest elementem zagadnienia „6.5.9. Sen i regeneracja”, a nie tematu „Masaż profilaktyczny” (6.5)."
     answer: false
-  - type: truefalse
-    name: "6.5 — zagadnienie 10"
+  - id: "tf-s06-65-q10"
+    type: "truefalse"
+    name: "tf-s06-65-q10"
     text: "Zagadnienie „6.5.10. Kiedy skierować do lekarza” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5)."
     answer: true
-  - type: multichoice
-    name: "6.5 — przyporządkowanie zagadnienia"
+  - id: "mc-s06-65"
+    type: "multichoice"
+    name: "mc-s06-65"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
     answers:
-      - text: "6.5.1. Profilaktyka bólów kręgosłupa"  fraction: 100
-      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
-      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
-      - text: "5.4.3. Drobne przeciążenia"  fraction: 0
+      - text: "6.5.1. Profilaktyka bólów kręgosłupa"
+        fraction: 100
+      - text: "6.5.2. Profilaktyka napięcia barków i karku"
+        fraction: 0
+      - text: "6.5.3. Profilaktyka obrzęków nóg"
+        fraction: 0
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"
+        fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"
+        fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"
+        fraction: 0
+  - id: "mc-s06-65-q1"
+    type: "multichoice"
+    name: "mc-s06-65-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.1 Profilaktyka bolow kregoslupa"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s06-65-q2"
+    type: "multichoice"
+    name: "mc-s06-65-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.2 Profilaktyka napiecia barkow i karku"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s06-65-q3"
+    type: "multichoice"
+    name: "mc-s06-65-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.3 Profilaktyka obrzekow nog"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s06-65-q4"
+    type: "multichoice"
+    name: "mc-s06-65-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.4 Profilaktyka przeciazen konczyn gornych"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s06-65-q5"
+    type: "multichoice"
+    name: "mc-s06-65-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.5 Profilaktyka stop i chodu"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s06-65-q6"
+    type: "multichoice"
+    name: "mc-s06-65-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.6 Edukacja posturalna"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s06-65-q7"
+    type: "multichoice"
+    name: "mc-s06-65-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.7 Cwiczenia domowe — w granicach kompetencji"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s06-65-q8"
+    type: "multichoice"
+    name: "mc-s06-65-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.8 Ergonomia pracy"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s06-65-q9"
+    type: "multichoice"
+    name: "mc-s06-65-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.9 Sen i regeneracja"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s06-65-q10"
+    type: "multichoice"
+    name: "mc-s06-65-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.10 Kiedy skierowac do lekarza"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s06-65-v1"
+    type: "multichoice"
+    name: "mc-s06-65-v1"
+    text: "Które zagadnienie należy do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.1 Profilaktyka bolow kregoslupa"
+        fraction: 100
+      - text: "0.5# 6.5.2 Profilaktyka napiecia barkow i karku"
+        fraction: 0
+      - text: "0.5# 6.5.3 Profilaktyka obrzekow nog"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s06-65-v2"
+    type: "multichoice"
+    name: "mc-s06-65-v2"
+    text: "Które zagadnienie NIE należy do tematu „Masaż profilaktyczny” (6.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.5.1 Profilaktyka bolow kregoslupa"
+        fraction: 100
+      - text: "-0.25# 6.5.2 Profilaktyka napiecia barkow i karku"
+        fraction: 0
+      - text: "-0.25# 6.5.3 Profilaktyka obrzekow nog"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s06-65-v3"
+    type: "multichoice"
+    name: "mc-s06-65-v3"
+    text: "Które zagadnienie należy do tematu „Masaż profilaktyczny” (6.5)?"
+    answers:
+      - text: "6.5.3 Profilaktyka obrzekow nog"
+        fraction: 100
+      - text: "0.5# 6.5.1 Profilaktyka bolow kregoslupa"
+        fraction: 0
+      - text: "0.5# 6.5.2 Profilaktyka napiecia barkow i karku"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s06-65-v4"
+    type: "multichoice"
+    name: "mc-s06-65-v4"
+    text: "Które zagadnienie NIE należy do tematu „Masaż profilaktyczny” (6.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.5.1 Profilaktyka bolow kregoslupa"
+        fraction: 100
+      - text: "-0.25# 6.5.4 Profilaktyka przeciazen konczyn gornych"
+        fraction: 0
+      - text: "-0.25# 6.5.2 Profilaktyka napiecia barkow i karku"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

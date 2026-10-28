@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.17. Działanie masażu na organizm człowieka"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.17 — zagadnienie 1"
+  - id: "tf-s03-317-q1"
+    type: "truefalse"
+    name: "tf-s03-317-q1"
     text: "Zagadnienie „3.17.1. Działanie miejscowe na skórę” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 1"
+  - id: "tf-s03-317-q1b"
+    type: "truefalse"
+    name: "tf-s03-317-q1b"
     text: "Zagadnienie „3.17.2. Działanie na tkankę podskórną” jest elementem zagadnienia „3.17.1. Działanie miejscowe na skórę”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 2"
+  - id: "tf-s03-317-q2"
+    type: "truefalse"
+    name: "tf-s03-317-q2"
     text: "Zagadnienie „3.17.2. Działanie na tkankę podskórną” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 2"
+  - id: "tf-s03-317-q2b"
+    type: "truefalse"
+    name: "tf-s03-317-q2b"
     text: "Zagadnienie „3.17.3. Działanie na mięśnie” jest elementem zagadnienia „3.17.2. Działanie na tkankę podskórną”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 3"
+  - id: "tf-s03-317-q3"
+    type: "truefalse"
+    name: "tf-s03-317-q3"
     text: "Zagadnienie „3.17.3. Działanie na mięśnie” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 3"
+  - id: "tf-s03-317-q3b"
+    type: "truefalse"
+    name: "tf-s03-317-q3b"
     text: "Zagadnienie „3.17.4. Działanie na powięź” jest elementem zagadnienia „3.17.3. Działanie na mięśnie”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 4"
+  - id: "tf-s03-317-q4"
+    type: "truefalse"
+    name: "tf-s03-317-q4"
     text: "Zagadnienie „3.17.4. Działanie na powięź” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 4"
+  - id: "tf-s03-317-q4b"
+    type: "truefalse"
+    name: "tf-s03-317-q4b"
     text: "Zagadnienie „3.17.5. Działanie na stawy i więzadła” jest elementem zagadnienia „3.17.4. Działanie na powięź”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 5"
+  - id: "tf-s03-317-q5"
+    type: "truefalse"
+    name: "tf-s03-317-q5"
     text: "Zagadnienie „3.17.5. Działanie na stawy i więzadła” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 5"
+  - id: "tf-s03-317-q5b"
+    type: "truefalse"
+    name: "tf-s03-317-q5b"
     text: "Zagadnienie „3.17.6. Działanie na naczynia krwionośne” jest elementem zagadnienia „3.17.5. Działanie na stawy i więzadła”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 6"
+  - id: "tf-s03-317-q6"
+    type: "truefalse"
+    name: "tf-s03-317-q6"
     text: "Zagadnienie „3.17.6. Działanie na naczynia krwionośne” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 6"
+  - id: "tf-s03-317-q6b"
+    type: "truefalse"
+    name: "tf-s03-317-q6b"
     text: "Zagadnienie „3.17.7. Działanie na układ limfatyczny” jest elementem zagadnienia „3.17.6. Działanie na naczynia krwionośne”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 7"
+  - id: "tf-s03-317-q7"
+    type: "truefalse"
+    name: "tf-s03-317-q7"
     text: "Zagadnienie „3.17.7. Działanie na układ limfatyczny” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 7"
+  - id: "tf-s03-317-q7b"
+    type: "truefalse"
+    name: "tf-s03-317-q7b"
     text: "Zagadnienie „3.17.8. Działanie na układ nerwowy somatyczny” jest elementem zagadnienia „3.17.7. Działanie na układ limfatyczny”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 8"
+  - id: "tf-s03-317-q8"
+    type: "truefalse"
+    name: "tf-s03-317-q8"
     text: "Zagadnienie „3.17.8. Działanie na układ nerwowy somatyczny” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 8"
+  - id: "tf-s03-317-q8b"
+    type: "truefalse"
+    name: "tf-s03-317-q8b"
     text: "Zagadnienie „3.17.9. Działanie na układ autonomiczny” jest elementem zagadnienia „3.17.8. Działanie na układ nerwowy somatyczny”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 9"
+  - id: "tf-s03-317-q9"
+    type: "truefalse"
+    name: "tf-s03-317-q9"
     text: "Zagadnienie „3.17.9. Działanie na układ autonomiczny” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: truefalse
-    name: "3.17 — rozgraniczenie 9"
+  - id: "tf-s03-317-q9b"
+    type: "truefalse"
+    name: "tf-s03-317-q9b"
     text: "Zagadnienie „3.17.10. Działanie ogólnoustrojowe: relaksacja, regeneracja, modulacja bólu” jest elementem zagadnienia „3.17.9. Działanie na układ autonomiczny”, a nie tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: false
-  - type: truefalse
-    name: "3.17 — zagadnienie 10"
+  - id: "tf-s03-317-q10"
+    type: "truefalse"
+    name: "tf-s03-317-q10"
     text: "Zagadnienie „3.17.10. Działanie ogólnoustrojowe: relaksacja, regeneracja, modulacja bólu” wchodzi w zakres tematu „Działanie masażu na organizm człowieka” (3.17)."
     answer: true
-  - type: multichoice
-    name: "3.17 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-317"
+    type: "multichoice"
+    name: "mc-s03-317"
     text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
     answers:
-      - text: "3.17.1. Działanie miejscowe na skórę"  fraction: 100
-      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"  fraction: 0
-      - text: "3.19.3. Pielęgniarka i opiekun medyczny"  fraction: 0
-      - text: "6.1.2. Profilaktyka a terapia"  fraction: 0
+      - text: "3.17.1. Działanie miejscowe na skórę"
+        fraction: 100
+      - text: "3.17.2. Działanie na tkankę podskórną"
+        fraction: 0
+      - text: "3.17.3. Działanie na mięśnie"
+        fraction: 0
+      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"
+        fraction: 0
+      - text: "3.19.3. Pielęgniarka i opiekun medyczny"
+        fraction: 0
+      - text: "6.1.2. Profilaktyka a terapia"
+        fraction: 0
+  - id: "mc-s03-317-q1"
+    type: "multichoice"
+    name: "mc-s03-317-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.1 Dzialanie miejscowe na skore"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s03-317-q2"
+    type: "multichoice"
+    name: "mc-s03-317-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.2 Dzialanie na tkanke podskorna"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s03-317-q3"
+    type: "multichoice"
+    name: "mc-s03-317-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.3 Dzialanie na miesnie"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s03-317-q4"
+    type: "multichoice"
+    name: "mc-s03-317-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.4 Dzialanie na powiez"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s03-317-q5"
+    type: "multichoice"
+    name: "mc-s03-317-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.5 Dzialanie na stawy i wiezadla"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s03-317-q6"
+    type: "multichoice"
+    name: "mc-s03-317-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.6 Dzialanie na naczynia krwionosne"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s03-317-q7"
+    type: "multichoice"
+    name: "mc-s03-317-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.7 Dzialanie na uklad limfatyczny"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy higieny snu"
+        fraction: 0
+  - id: "mc-s03-317-q8"
+    type: "multichoice"
+    name: "mc-s03-317-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.8 Dzialanie na uklad nerwowy somatyczny"
+        fraction: 100
+      - text: "Skurcz koncentryczny i ekscentryczny"
+        fraction: 0
+      - text: "Masaz kregoslupa ledzwiowego"
+        fraction: 0
+      - text: "Podstawy aktywnosci fizycznej"
+        fraction: 0
+  - id: "mc-s03-317-q9"
+    type: "multichoice"
+    name: "mc-s03-317-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.9 Dzialanie na uklad autonomiczny"
+        fraction: 100
+      - text: "Napiecie spoczynkowe miesnia"
+        fraction: 0
+      - text: "Masaz karku"
+        fraction: 0
+      - text: "Podstawy nawodnienia"
+        fraction: 0
+  - id: "mc-s03-317-q10"
+    type: "multichoice"
+    name: "mc-s03-317-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.10 Dzialanie ogolnoustrojowe: relaksacja, regeneracja, modulacja bolu"
+        fraction: 100
+      - text: "Wazelina i lanolina"
+        fraction: 0
+      - text: "Edukacja pacjenta i rodziny"
+        fraction: 0
+      - text: "Trigger point therapy"
+        fraction: 0
+  - id: "mc-s03-317-v1"
+    type: "multichoice"
+    name: "mc-s03-317-v1"
+    text: "Które zagadnienie należy do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.1 Dzialanie miejscowe na skore"
+        fraction: 100
+      - text: "0.5# 3.17.2 Dzialanie na tkanke podskorna"
+        fraction: 0
+      - text: "0.5# 3.17.3 Dzialanie na miesnie"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s03-317-v2"
+    type: "multichoice"
+    name: "mc-s03-317-v2"
+    text: "Które zagadnienie NIE należy do tematu „Działanie masażu na organizm człowieka” (3.17), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.17.1 Dzialanie miejscowe na skore"
+        fraction: 100
+      - text: "-0.25# 3.17.2 Dzialanie na tkanke podskorna"
+        fraction: 0
+      - text: "-0.25# 3.17.3 Dzialanie na miesnie"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s03-317-v3"
+    type: "multichoice"
+    name: "mc-s03-317-v3"
+    text: "Które zagadnienie należy do tematu „Działanie masażu na organizm człowieka” (3.17)?"
+    answers:
+      - text: "3.17.3 Dzialanie na miesnie"
+        fraction: 100
+      - text: "0.5# 3.17.1 Dzialanie miejscowe na skore"
+        fraction: 0
+      - text: "0.5# 3.17.2 Dzialanie na tkanke podskorna"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s03-317-v4"
+    type: "multichoice"
+    name: "mc-s03-317-v4"
+    text: "Które zagadnienie NIE należy do tematu „Działanie masażu na organizm człowieka” (3.17), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.17.1 Dzialanie miejscowe na skore"
+        fraction: 100
+      - text: "-0.25# 3.17.4 Dzialanie na powiez"
+        fraction: 0
+      - text: "-0.25# 3.17.2 Dzialanie na tkanke podskorna"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

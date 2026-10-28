@@ -47,3 +47,101 @@
     ~ 3.14.2. Temperatura wody i jej wpływ
     ~ 5.4.1. Napięcie mięśniowe po treningu
 }
+
+::mc-s07-72-q1:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.1 Massage table, chair, towels, sheets
+    ~ Unaczynienie skory
+    ~ Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie
+    ~ Tempo i sila dostosowane do oczekiwan
+}
+
+::mc-s07-72-q2:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.2 Oil, lotion, cream, powder
+    ~ Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Pomiary dlugosci konczyn
+    ~ Komunikacja: zapowiedz dotyku
+}
+
+::mc-s07-72-q3:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.3 Pillow, bolster, wedge
+    ~ Wplyw masazu na skore
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Prawo do przerwania
+}
+
+::mc-s07-72-q4:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.4 Disposable pads
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s07-72-q5:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.5 Sanitizer, disinfectant
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s07-72-q6:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.6 Vibrating device, hot stones
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s07-72-q7:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.7 Privacy screen
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s07-72-q8:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.8 Wardrobe and storage
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s07-72-q9:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.9 Describing equipment safely
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s07-72-q10:: Które zagadnienie należy bezpośrednio do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.10 Reading instructions and labels
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s07-72-v1:: Które zagadnienie należy do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.1 Massage table, chair, towels, sheets
+    ~0.5# 7.2.2 Oil, lotion, cream, powder
+    ~0.5# 7.2.3 Pillow, bolster, wedge
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s07-72-v2:: Które zagadnienie NIE należy do tematu „Stanowisko pracy i wyposażenie” (7.2), lecz jest częścią innego tematu kursu? {
+    = 7.2.1 Massage table, chair, towels, sheets
+    ~-0.25# 7.2.2 Oil, lotion, cream, powder
+    ~-0.25# 7.2.3 Pillow, bolster, wedge
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s07-72-v3:: Które zagadnienie należy do tematu „Stanowisko pracy i wyposażenie” (7.2)? {
+    = 7.2.3 Pillow, bolster, wedge
+    ~0.5# 7.2.1 Massage table, chair, towels, sheets
+    ~0.5# 7.2.2 Oil, lotion, cream, powder
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s07-72-v4:: Które zagadnienie NIE należy do tematu „Stanowisko pracy i wyposażenie” (7.2), lecz jest częścią innego tematu kursu? {
+    = 7.2.1 Massage table, chair, towels, sheets
+    ~-0.25# 7.2.4 Disposable pads
+    ~-0.25# 7.2.2 Oil, lotion, cream, powder
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.15. Fizjologia i mechanika skurczu mięśni"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.15 — zagadnienie 1"
+    text: "Zagadnienie „2.15.1. Skurcz izometryczny i izotoniczny” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 1"
+    text: "Zagadnienie „2.15.2. Skurcz koncentryczny i ekscentryczny” jest elementem zagadnienia „2.15.1. Skurcz izometryczny i izotoniczny”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 2"
+    text: "Zagadnienie „2.15.2. Skurcz koncentryczny i ekscentryczny” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 2"
+    text: "Zagadnienie „2.15.3. Napięcie spoczynkowe mięśnia” jest elementem zagadnienia „2.15.2. Skurcz koncentryczny i ekscentryczny”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 3"
+    text: "Zagadnienie „2.15.3. Napięcie spoczynkowe mięśnia” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 3"
+    text: "Zagadnienie „2.15.4. Zmęczenie mięśniowe” jest elementem zagadnienia „2.15.3. Napięcie spoczynkowe mięśnia”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 4"
+    text: "Zagadnienie „2.15.4. Zmęczenie mięśniowe” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 4"
+    text: "Zagadnienie „2.15.5. Przykurcze i osłabienie” jest elementem zagadnienia „2.15.4. Zmęczenie mięśniowe”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 5"
+    text: "Zagadnienie „2.15.5. Przykurcze i osłabienie” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 5"
+    text: "Zagadnienie „2.15.6. Włókna mięśniowe typu I i II” jest elementem zagadnienia „2.15.5. Przykurcze i osłabienie”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 6"
+    text: "Zagadnienie „2.15.6. Włókna mięśniowe typu I i II” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 6"
+    text: "Zagadnienie „2.15.7. Jednostki motoryczne i rekrutacja” jest elementem zagadnienia „2.15.6. Włókna mięśniowe typu I i II”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 7"
+    text: "Zagadnienie „2.15.7. Jednostki motoryczne i rekrutacja” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 7"
+    text: "Zagadnienie „2.15.8. Refleksy mięśniowe” jest elementem zagadnienia „2.15.7. Jednostki motoryczne i rekrutacja”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 8"
+    text: "Zagadnienie „2.15.8. Refleksy mięśniowe” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 8"
+    text: "Zagadnienie „2.15.9. Wpływ masażu na napięcie mięśniowe” jest elementem zagadnienia „2.15.8. Refleksy mięśniowe”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 9"
+    text: "Zagadnienie „2.15.9. Wpływ masażu na napięcie mięśniowe” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: truefalse
+    name: "2.15 — rozgraniczenie 9"
+    text: "Zagadnienie „2.15.10. Wpływ masażu na regenerację pourazową i potreningową” jest elementem zagadnienia „2.15.9. Wpływ masażu na napięcie mięśniowe”, a nie tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: false
+  - type: truefalse
+    name: "2.15 — zagadnienie 10"
+    text: "Zagadnienie „2.15.10. Wpływ masażu na regenerację pourazową i potreningową” wchodzi w zakres tematu „Fizjologia i mechanika skurczu mięśni” (2.15)."
+    answer: true
+  - type: multichoice
+    name: "2.15 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Fizjologia i mechanika skurczu mięśni” (2.15)?"
+    answers:
+      - text: "2.15.1. Skurcz izometryczny i izotoniczny"  fraction: 100
+      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"  fraction: 0
+      - text: "3.18.10. Dokumentacja i planowanie kolejnych zabiegów"  fraction: 0
+      - text: "5.8.9. Dokumentacja zdarzeń niepożądanych"  fraction: 0

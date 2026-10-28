@@ -1,0 +1,49 @@
+// Quiz: 3.9. Zaburzenia skóry i tkanki podskórnej — moduł 3 (03-med-10-3-podstawy-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s03-39-q1:: Zagadnienie „3.9.1. Egzema i atopowe zapalenie skóry” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q1b:: Zagadnienie „3.9.2. Łuszczyca” jest elementem zagadnienia „3.9.1. Egzema i atopowe zapalenie skóry”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q2:: Zagadnienie „3.9.2. Łuszczyca” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q2b:: Zagadnienie „3.9.3. Trądzik i zmiany ropne” jest elementem zagadnienia „3.9.2. Łuszczyca”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q3:: Zagadnienie „3.9.3. Trądzik i zmiany ropne” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q3b:: Zagadnienie „3.9.4. Grzybice skóry i paznokci” jest elementem zagadnienia „3.9.3. Trądzik i zmiany ropne”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q4:: Zagadnienie „3.9.4. Grzybice skóry i paznokci” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q4b:: Zagadnienie „3.9.5. Pokrzywka i obrzęk naczynioruchowy” jest elementem zagadnienia „3.9.4. Grzybice skóry i paznokci”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q5:: Zagadnienie „3.9.5. Pokrzywka i obrzęk naczynioruchowy” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q5b:: Zagadnienie „3.9.6. Owrzodzenia żylakowe i odleżyny” jest elementem zagadnienia „3.9.5. Pokrzywka i obrzęk naczynioruchowy”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q6:: Zagadnienie „3.9.6. Owrzodzenia żylakowe i odleżyny” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q6b:: Zagadnienie „3.9.7. Blizny przerostowe i keloidy” jest elementem zagadnienia „3.9.6. Owrzodzenia żylakowe i odleżyny”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q7:: Zagadnienie „3.9.7. Blizny przerostowe i keloidy” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q7b:: Zagadnienie „3.9.8. Rozstępy” jest elementem zagadnienia „3.9.7. Blizny przerostowe i keloidy”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q8:: Zagadnienie „3.9.8. Rozstępy” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q8b:: Zagadnienie „3.9.9. Cellulite i zmiany troficzne” jest elementem zagadnienia „3.9.8. Rozstępy”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q9:: Zagadnienie „3.9.9. Cellulite i zmiany troficzne” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::tf-s03-39-q9b:: Zagadnienie „3.9.10. Masaż przy zmianach skórnych: kiedy nie wolno” jest elementem zagadnienia „3.9.9. Cellulite i zmiany troficzne”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {FALSE} //
+
+::tf-s03-39-q10:: Zagadnienie „3.9.10. Masaż przy zmianach skórnych: kiedy nie wolno” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9). {TRUE} //
+
+::mc-s03-39:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)? {
+    = 3.9.1. Egzema i atopowe zapalenie skóry
+    ~ 3.9.2. Łuszczyca
+    ~ 3.9.3. Trądzik i zmiany ropne
+    ~ 2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny
+    ~ 3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny
+    ~ 5.4.5. Ból ostry — nie masować bez diagnozy
+}

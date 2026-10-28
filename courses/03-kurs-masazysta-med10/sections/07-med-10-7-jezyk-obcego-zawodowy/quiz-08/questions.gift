@@ -47,3 +47,101 @@
     ~ 3.14.8. Obciążenie termiczne
     ~ 5.4.7. Gorączka i infekcja — przeciwwskazanie
 }
+
+::mc-s07-78-q1:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.1 Starting and ending conversation
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s07-78-q2:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.2 Obtaining consent
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s07-78-q3:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.3 Asking about pain and comfort
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s07-78-q4:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.4 Responding to anxiety
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s07-78-q5:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.5 Refusing inappropriate requests
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s07-78-q6:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.6 Reporting adverse reaction
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s07-78-q7:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.7 Coordinating with reception or team
+    ~ Linie anatomiczne i lancuchy miesniowo-powieziowe
+    ~ Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s07-78-q8:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.8 Talking to a colleague
+    ~ Biomechanika ruchu i stabilizacja
+    ~ Obrzek miekki i twardy
+    ~ Dokumentacja
+}
+
+::mc-s07-78-q9:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.9 Talking to a supervisor
+    ~ Znaczenie palpacji struktur ukladu ruchu
+    ~ Proba Stemmera i inne objawy — w granicach edukacji
+    ~ Granice: relaks nie zastepuje terapii psychologicznej
+}
+
+::mc-s07-78-q10:: Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.10 Using polite formulas
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s07-78-v1:: Które zagadnienie należy do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.1 Starting and ending conversation
+    ~0.5# 7.8.2 Obtaining consent
+    ~0.5# 7.8.3 Asking about pain and comfort
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s07-78-v2:: Które zagadnienie NIE należy do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8), lecz jest częścią innego tematu kursu? {
+    = 7.8.1 Starting and ending conversation
+    ~-0.25# 7.8.2 Obtaining consent
+    ~-0.25# 7.8.3 Asking about pain and comfort
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s07-78-v3:: Które zagadnienie należy do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)? {
+    = 7.8.3 Asking about pain and comfort
+    ~0.5# 7.8.1 Starting and ending conversation
+    ~0.5# 7.8.2 Obtaining consent
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s07-78-v4:: Które zagadnienie NIE należy do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8), lecz jest częścią innego tematu kursu? {
+    = 7.8.1 Starting and ending conversation
+    ~-0.25# 7.8.4 Responding to anxiety
+    ~-0.25# 7.8.2 Obtaining consent
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

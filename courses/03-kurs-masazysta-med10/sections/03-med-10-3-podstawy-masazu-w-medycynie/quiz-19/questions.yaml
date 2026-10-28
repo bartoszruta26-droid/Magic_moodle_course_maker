@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.19. Współpraca w zespole wielodyscyplinarnym"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.19 — zagadnienie 1"
+  - id: "tf-s03-319-q1"
+    type: "truefalse"
+    name: "tf-s03-319-q1"
     text: "Zagadnienie „3.19.1. Lekarz specjalista” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 1"
+  - id: "tf-s03-319-q1b"
+    type: "truefalse"
+    name: "tf-s03-319-q1b"
     text: "Zagadnienie „3.19.2. Fizjoterapeuta” jest elementem zagadnienia „3.19.1. Lekarz specjalista”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 2"
+  - id: "tf-s03-319-q2"
+    type: "truefalse"
+    name: "tf-s03-319-q2"
     text: "Zagadnienie „3.19.2. Fizjoterapeuta” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 2"
+  - id: "tf-s03-319-q2b"
+    type: "truefalse"
+    name: "tf-s03-319-q2b"
     text: "Zagadnienie „3.19.3. Pielęgniarka i opiekun medyczny” jest elementem zagadnienia „3.19.2. Fizjoterapeuta”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 3"
+  - id: "tf-s03-319-q3"
+    type: "truefalse"
+    name: "tf-s03-319-q3"
     text: "Zagadnienie „3.19.3. Pielęgniarka i opiekun medyczny” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 3"
+  - id: "tf-s03-319-q3b"
+    type: "truefalse"
+    name: "tf-s03-319-q3b"
     text: "Zagadnienie „3.19.4. Psycholog i psychiatra” jest elementem zagadnienia „3.19.3. Pielęgniarka i opiekun medyczny”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 4"
+  - id: "tf-s03-319-q4"
+    type: "truefalse"
+    name: "tf-s03-319-q4"
     text: "Zagadnienie „3.19.4. Psycholog i psychiatra” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 4"
+  - id: "tf-s03-319-q4b"
+    type: "truefalse"
+    name: "tf-s03-319-q4b"
     text: "Zagadnienie „3.19.5. Terapeuta zajęciowy” jest elementem zagadnienia „3.19.4. Psycholog i psychiatra”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 5"
+  - id: "tf-s03-319-q5"
+    type: "truefalse"
+    name: "tf-s03-319-q5"
     text: "Zagadnienie „3.19.5. Terapeuta zajęciowy” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 5"
+  - id: "tf-s03-319-q5b"
+    type: "truefalse"
+    name: "tf-s03-319-q5b"
     text: "Zagadnienie „3.19.6. Dietetyk” jest elementem zagadnienia „3.19.5. Terapeuta zajęciowy”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 6"
+  - id: "tf-s03-319-q6"
+    type: "truefalse"
+    name: "tf-s03-319-q6"
     text: "Zagadnienie „3.19.6. Dietetyk” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 6"
+  - id: "tf-s03-319-q6b"
+    type: "truefalse"
+    name: "tf-s03-319-q6b"
     text: "Zagadnienie „3.19.7. Trener medyczny i trener sportowy” jest elementem zagadnienia „3.19.6. Dietetyk”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 7"
+  - id: "tf-s03-319-q7"
+    type: "truefalse"
+    name: "tf-s03-319-q7"
     text: "Zagadnienie „3.19.7. Trener medyczny i trener sportowy” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 7"
+  - id: "tf-s03-319-q7b"
+    type: "truefalse"
+    name: "tf-s03-319-q7b"
     text: "Zagadnienie „3.19.8. Opiekun osoby starszej lub niepełnosprawnej” jest elementem zagadnienia „3.19.7. Trener medyczny i trener sportowy”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 8"
+  - id: "tf-s03-319-q8"
+    type: "truefalse"
+    name: "tf-s03-319-q8"
     text: "Zagadnienie „3.19.8. Opiekun osoby starszej lub niepełnosprawnej” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 8"
+  - id: "tf-s03-319-q8b"
+    type: "truefalse"
+    name: "tf-s03-319-q8b"
     text: "Zagadnienie „3.19.9. Rola masażysty w zespole” jest elementem zagadnienia „3.19.8. Opiekun osoby starszej lub niepełnosprawnej”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 9"
+  - id: "tf-s03-319-q9"
+    type: "truefalse"
+    name: "tf-s03-319-q9"
     text: "Zagadnienie „3.19.9. Rola masażysty w zespole” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: truefalse
-    name: "3.19 — rozgraniczenie 9"
+  - id: "tf-s03-319-q9b"
+    type: "truefalse"
+    name: "tf-s03-319-q9b"
     text: "Zagadnienie „3.19.10. Komunikacja: przekazywanie obserwacji bez przekraczania kompetencji” jest elementem zagadnienia „3.19.9. Rola masażysty w zespole”, a nie tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: false
-  - type: truefalse
-    name: "3.19 — zagadnienie 10"
+  - id: "tf-s03-319-q10"
+    type: "truefalse"
+    name: "tf-s03-319-q10"
     text: "Zagadnienie „3.19.10. Komunikacja: przekazywanie obserwacji bez przekraczania kompetencji” wchodzi w zakres tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)."
     answer: true
-  - type: multichoice
-    name: "3.19 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-319"
+    type: "multichoice"
+    name: "mc-s03-319"
     text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
     answers:
-      - text: "3.19.1. Lekarz specjalista"  fraction: 100
-      - text: "2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa"  fraction: 0
-      - text: "3.19.5. Terapeuta zajęciowy"  fraction: 0
-      - text: "6.1.4. Masaż prozdrowotny u osoby zdrowej"  fraction: 0
+      - text: "3.19.1. Lekarz specjalista"
+        fraction: 100
+      - text: "3.19.2. Fizjoterapeuta"
+        fraction: 0
+      - text: "3.19.3. Pielęgniarka i opiekun medyczny"
+        fraction: 0
+      - text: "2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa"
+        fraction: 0
+      - text: "3.19.5. Terapeuta zajęciowy"
+        fraction: 0
+      - text: "6.1.4. Masaż prozdrowotny u osoby zdrowej"
+        fraction: 0
+  - id: "mc-s03-319-q1"
+    type: "multichoice"
+    name: "mc-s03-319-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.1 Lekarz specjalista"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s03-319-q2"
+    type: "multichoice"
+    name: "mc-s03-319-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.2 Fizjoterapeuta"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s03-319-q3"
+    type: "multichoice"
+    name: "mc-s03-319-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.3 Pielegniarka i opiekun medyczny"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s03-319-q4"
+    type: "multichoice"
+    name: "mc-s03-319-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.4 Psycholog i psychiatra"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s03-319-q5"
+    type: "multichoice"
+    name: "mc-s03-319-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.5 Terapeuta zajeciowy"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy higieny snu"
+        fraction: 0
+  - id: "mc-s03-319-q6"
+    type: "multichoice"
+    name: "mc-s03-319-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.6 Dietetyk"
+        fraction: 100
+      - text: "Skurcz koncentryczny i ekscentryczny"
+        fraction: 0
+      - text: "Masaz kregoslupa ledzwiowego"
+        fraction: 0
+      - text: "Podstawy aktywnosci fizycznej"
+        fraction: 0
+  - id: "mc-s03-319-q7"
+    type: "multichoice"
+    name: "mc-s03-319-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.7 Trener medyczny i trener sportowy"
+        fraction: 100
+      - text: "Napiecie spoczynkowe miesnia"
+        fraction: 0
+      - text: "Masaz karku"
+        fraction: 0
+      - text: "Podstawy nawodnienia"
+        fraction: 0
+  - id: "mc-s03-319-q8"
+    type: "multichoice"
+    name: "mc-s03-319-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.8 Opiekun osoby starszej lub niepelnosprawnej"
+        fraction: 100
+      - text: "Zmeczenie miesniowe"
+        fraction: 0
+      - text: "Masaz klatki piersiowej"
+        fraction: 0
+      - text: "Podstawy pielegnacji skory"
+        fraction: 0
+  - id: "mc-s03-319-q9"
+    type: "multichoice"
+    name: "mc-s03-319-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.9 Rola masazysty w zespole"
+        fraction: 100
+      - text: "Przykurcze i oslabienie"
+        fraction: 0
+      - text: "Masaz powlok brzusznych"
+        fraction: 0
+      - text: "Profilaktyka przeciazen"
+        fraction: 0
+  - id: "mc-s03-319-q10"
+    type: "multichoice"
+    name: "mc-s03-319-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.10 Komunikacja: przekazywanie obserwacji bez przekraczania kompetencji"
+        fraction: 100
+      - text: "Preparaty rozgrzewajace"
+        fraction: 0
+      - text: "Monitorowanie obwodow"
+        fraction: 0
+      - text: "Deep tissue work — within legal scope"
+        fraction: 0
+  - id: "mc-s03-319-v1"
+    type: "multichoice"
+    name: "mc-s03-319-v1"
+    text: "Które zagadnienie należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.1 Lekarz specjalista"
+        fraction: 100
+      - text: "0.5# 3.19.2 Fizjoterapeuta"
+        fraction: 0
+      - text: "0.5# 3.19.3 Pielegniarka i opiekun medyczny"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s03-319-v2"
+    type: "multichoice"
+    name: "mc-s03-319-v2"
+    text: "Które zagadnienie NIE należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.19.1 Lekarz specjalista"
+        fraction: 100
+      - text: "-0.25# 3.19.2 Fizjoterapeuta"
+        fraction: 0
+      - text: "-0.25# 3.19.3 Pielegniarka i opiekun medyczny"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s03-319-v3"
+    type: "multichoice"
+    name: "mc-s03-319-v3"
+    text: "Które zagadnienie należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19)?"
+    answers:
+      - text: "3.19.3 Pielegniarka i opiekun medyczny"
+        fraction: 100
+      - text: "0.5# 3.19.1 Lekarz specjalista"
+        fraction: 0
+      - text: "0.5# 3.19.2 Fizjoterapeuta"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s03-319-v4"
+    type: "multichoice"
+    name: "mc-s03-319-v4"
+    text: "Które zagadnienie NIE należy do tematu „Współpraca w zespole wielodyscyplinarnym” (3.19), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.19.1 Lekarz specjalista"
+        fraction: 100
+      - text: "-0.25# 3.19.4 Psycholog i psychiatra"
+        fraction: 0
+      - text: "-0.25# 3.19.2 Fizjoterapeuta"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

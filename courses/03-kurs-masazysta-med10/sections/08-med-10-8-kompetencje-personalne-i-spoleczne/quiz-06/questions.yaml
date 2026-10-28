@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "8.6. Radzenie sobie ze stresem"
 category: masaz
 questions:
-  - type: truefalse
-    name: "8.6 — zagadnienie 1"
+  - id: "tf-s08-86-q1"
+    type: "truefalse"
+    name: "tf-s08-86-q1"
     text: "Zagadnienie „8.6.1. Źródła stresu masażysty” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 1"
+  - id: "tf-s08-86-q1b"
+    type: "truefalse"
+    name: "tf-s08-86-q1b"
     text: "Zagadnienie „8.6.2. Skutki stresu dla zdrowia i jakości pracy” jest elementem zagadnienia „8.6.1. Źródła stresu masażysty”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 2"
+  - id: "tf-s08-86-q2"
+    type: "truefalse"
+    name: "tf-s08-86-q2"
     text: "Zagadnienie „8.6.2. Skutki stresu dla zdrowia i jakości pracy” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 2"
+  - id: "tf-s08-86-q2b"
+    type: "truefalse"
+    name: "tf-s08-86-q2b"
     text: "Zagadnienie „8.6.3. Oddech i regulacja napięcia” jest elementem zagadnienia „8.6.2. Skutki stresu dla zdrowia i jakości pracy”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 3"
+  - id: "tf-s08-86-q3"
+    type: "truefalse"
+    name: "tf-s08-86-q3"
     text: "Zagadnienie „8.6.3. Oddech i regulacja napięcia” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 3"
+  - id: "tf-s08-86-q3b"
+    type: "truefalse"
+    name: "tf-s08-86-q3b"
     text: "Zagadnienie „8.6.4. Przerwy regeneracyjne” jest elementem zagadnienia „8.6.3. Oddech i regulacja napięcia”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 4"
+  - id: "tf-s08-86-q4"
+    type: "truefalse"
+    name: "tf-s08-86-q4"
     text: "Zagadnienie „8.6.4. Przerwy regeneracyjne” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 4"
+  - id: "tf-s08-86-q4b"
+    type: "truefalse"
+    name: "tf-s08-86-q4b"
     text: "Zagadnienie „8.6.5. Granice między służbą a wypaleniem” jest elementem zagadnienia „8.6.4. Przerwy regeneracyjne”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 5"
+  - id: "tf-s08-86-q5"
+    type: "truefalse"
+    name: "tf-s08-86-q5"
     text: "Zagadnienie „8.6.5. Granice między służbą a wypaleniem” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 5"
+  - id: "tf-s08-86-q5b"
+    type: "truefalse"
+    name: "tf-s08-86-q5b"
     text: "Zagadnienie „8.6.6. Superwizja i wsparcie koleżeńskie” jest elementem zagadnienia „8.6.5. Granice między służbą a wypaleniem”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 6"
+  - id: "tf-s08-86-q6"
+    type: "truefalse"
+    name: "tf-s08-86-q6"
     text: "Zagadnienie „8.6.6. Superwizja i wsparcie koleżeńskie” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 6"
+  - id: "tf-s08-86-q6b"
+    type: "truefalse"
+    name: "tf-s08-86-q6b"
     text: "Zagadnienie „8.6.7. Techniki relaksacyjne dla masażysty” jest elementem zagadnienia „8.6.6. Superwizja i wsparcie koleżeńskie”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 7"
+  - id: "tf-s08-86-q7"
+    type: "truefalse"
+    name: "tf-s08-86-q7"
     text: "Zagadnienie „8.6.7. Techniki relaksacyjne dla masażysty” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 7"
+  - id: "tf-s08-86-q7b"
+    type: "truefalse"
+    name: "tf-s08-86-q7b"
     text: "Zagadnienie „8.6.8. Higiena snu i ruchu” jest elementem zagadnienia „8.6.7. Techniki relaksacyjne dla masażysty”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 8"
+  - id: "tf-s08-86-q8"
+    type: "truefalse"
+    name: "tf-s08-86-q8"
     text: "Zagadnienie „8.6.8. Higiena snu i ruchu” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 8"
+  - id: "tf-s08-86-q8b"
+    type: "truefalse"
+    name: "tf-s08-86-q8b"
     text: "Zagadnienie „8.6.9. Duchowa równowaga i sens pracy” jest elementem zagadnienia „8.6.8. Higiena snu i ruchu”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 9"
+  - id: "tf-s08-86-q9"
+    type: "truefalse"
+    name: "tf-s08-86-q9"
     text: "Zagadnienie „8.6.9. Duchowa równowaga i sens pracy” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: truefalse
-    name: "8.6 — rozgraniczenie 9"
+  - id: "tf-s08-86-q9b"
+    type: "truefalse"
+    name: "tf-s08-86-q9b"
     text: "Zagadnienie „8.6.10. Kiedy szukać pomocy psychologicznej” jest elementem zagadnienia „8.6.9. Duchowa równowaga i sens pracy”, a nie tematu „Radzenie sobie ze stresem” (8.6)."
     answer: false
-  - type: truefalse
-    name: "8.6 — zagadnienie 10"
+  - id: "tf-s08-86-q10"
+    type: "truefalse"
+    name: "tf-s08-86-q10"
     text: "Zagadnienie „8.6.10. Kiedy szukać pomocy psychologicznej” wchodzi w zakres tematu „Radzenie sobie ze stresem” (8.6)."
     answer: true
-  - type: multichoice
-    name: "8.6 — przyporządkowanie zagadnienia"
+  - id: "mc-s08-86"
+    type: "multichoice"
+    name: "mc-s08-86"
     text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
     answers:
-      - text: "8.6.1. Źródła stresu masażysty"  fraction: 100
-      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"  fraction: 0
-      - text: "3.14.7. Ryzyko poślizgnięcia"  fraction: 0
-      - text: "5.4.6. Stan zapalny — przeciwwskazanie"  fraction: 0
+      - text: "8.6.1. Źródła stresu masażysty"
+        fraction: 100
+      - text: "8.6.2. Skutki stresu dla zdrowia i jakości pracy"
+        fraction: 0
+      - text: "8.6.3. Oddech i regulacja napięcia"
+        fraction: 0
+      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"
+        fraction: 0
+      - text: "3.14.7. Ryzyko poślizgnięcia"
+        fraction: 0
+      - text: "5.4.6. Stan zapalny — przeciwwskazanie"
+        fraction: 0
+  - id: "mc-s08-86-q1"
+    type: "multichoice"
+    name: "mc-s08-86-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s08-86-q2"
+    type: "multichoice"
+    name: "mc-s08-86-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s08-86-q3"
+    type: "multichoice"
+    name: "mc-s08-86-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.3 Oddech i regulacja napiecia"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s08-86-q4"
+    type: "multichoice"
+    name: "mc-s08-86-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.4 Przerwy regeneracyjne"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s08-86-q5"
+    type: "multichoice"
+    name: "mc-s08-86-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.5 Granice miedzy sluzba a wypaleniem"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s08-86-q6"
+    type: "multichoice"
+    name: "mc-s08-86-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.6 Superwizja i wsparcie kolezenskie"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-86-q7"
+    type: "multichoice"
+    name: "mc-s08-86-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.7 Techniki relaksacyjne dla masazysty"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s08-86-q8"
+    type: "multichoice"
+    name: "mc-s08-86-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.8 Higiena snu i ruchu"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s08-86-q9"
+    type: "multichoice"
+    name: "mc-s08-86-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.9 Duchowa rownowaga i sens pracy"
+        fraction: 100
+      - text: "Biomechanika ruchu i stabilizacja"
+        fraction: 0
+      - text: "Obrzek miekki i twardy"
+        fraction: 0
+      - text: "Dokumentacja"
+        fraction: 0
+  - id: "mc-s08-86-q10"
+    type: "multichoice"
+    name: "mc-s08-86-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.10 Kiedy szukac pomocy psychologicznej"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s08-86-v1"
+    type: "multichoice"
+    name: "mc-s08-86-v1"
+    text: "Które zagadnienie należy do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "0.5# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "0.5# 8.6.3 Oddech i regulacja napiecia"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s08-86-v2"
+    type: "multichoice"
+    name: "mc-s08-86-v2"
+    text: "Które zagadnienie NIE należy do tematu „Radzenie sobie ze stresem” (8.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "-0.25# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "-0.25# 8.6.3 Oddech i regulacja napiecia"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s08-86-v3"
+    type: "multichoice"
+    name: "mc-s08-86-v3"
+    text: "Które zagadnienie należy do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.3 Oddech i regulacja napiecia"
+        fraction: 100
+      - text: "0.5# 8.6.1 Zrodla stresu masazysty"
+        fraction: 0
+      - text: "0.5# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s08-86-v4"
+    type: "multichoice"
+    name: "mc-s08-86-v4"
+    text: "Które zagadnienie NIE należy do tematu „Radzenie sobie ze stresem” (8.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "-0.25# 8.6.4 Przerwy regeneracyjne"
+        fraction: 0
+      - text: "-0.25# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

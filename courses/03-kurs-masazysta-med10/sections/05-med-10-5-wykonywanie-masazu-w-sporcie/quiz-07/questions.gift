@@ -47,3 +47,101 @@
     ~ 3.14.5. Higiena wanny i ryzyko zakażeń
     ~ 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej
 }
+
+::mc-s05-57-q1:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.1 Bol miesniowo-powieziowy
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s05-57-q2:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.2 Przeciazenia sciegien
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s05-57-q3:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.3 Zespoly ciesni
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena rownowagi i stabilnosci
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s05-57-q4:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.4 Kolano biegacza
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s05-57-q5:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.5 Lokiec tenisisty i golfisty
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s05-57-q6:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.6 Zapalenie rozciegna podeszwowego
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Srodki poslizgowe
+}
+
+::mc-s05-57-q7:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.7 Bol odcinka ledzwiowego
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Przeciwwskazania
+}
+
+::mc-s05-57-q8:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.8 Napiecie karku u plywakow i rowerzystow
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Reakcje pacjenta
+}
+
+::mc-s05-57-q9:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.9 Obrzek pourazowy — kwalifikacja medyczna
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s05-57-q10:: Które zagadnienie należy bezpośrednio do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.10 Kiedy odeslac do lekarza lub fizjoterapeuty
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Przeciwwskazania
+}
+
+::mc-s05-57-v1:: Które zagadnienie należy do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.1 Bol miesniowo-powieziowy
+    ~0.5# 5.7.2 Przeciazenia sciegien
+    ~0.5# 5.7.3 Zespoly ciesni
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s05-57-v2:: Które zagadnienie NIE należy do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7), lecz jest częścią innego tematu kursu? {
+    = 5.7.1 Bol miesniowo-powieziowy
+    ~-0.25# 5.7.2 Przeciazenia sciegien
+    ~-0.25# 5.7.3 Zespoly ciesni
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s05-57-v3:: Które zagadnienie należy do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7)? {
+    = 5.7.3 Zespoly ciesni
+    ~0.5# 5.7.1 Bol miesniowo-powieziowy
+    ~0.5# 5.7.2 Przeciazenia sciegien
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s05-57-v4:: Które zagadnienie NIE należy do tematu „Najczęstsze problemy sportowe a rola masażysty” (5.7), lecz jest częścią innego tematu kursu? {
+    = 5.7.1 Bol miesniowo-powieziowy
+    ~-0.25# 5.7.4 Kolano biegacza
+    ~-0.25# 5.7.2 Przeciazenia sciegien
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

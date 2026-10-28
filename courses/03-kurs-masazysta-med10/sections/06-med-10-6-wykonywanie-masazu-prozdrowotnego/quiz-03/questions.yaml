@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "6.3. Zasady masażu prozdrowotnego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "6.3 — zagadnienie 1"
+  - id: "tf-s06-63-q1"
+    type: "truefalse"
+    name: "tf-s06-63-q1"
     text: "Zagadnienie „6.3.1. Wywiad i zgoda” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 1"
+  - id: "tf-s06-63-q1b"
+    type: "truefalse"
+    name: "tf-s06-63-q1b"
     text: "Zagadnienie „6.3.2. Ocena przeciwwskazań” jest elementem zagadnienia „6.3.1. Wywiad i zgoda”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 2"
+  - id: "tf-s06-63-q2"
+    type: "truefalse"
+    name: "tf-s06-63-q2"
     text: "Zagadnienie „6.3.2. Ocena przeciwwskazań” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 2"
+  - id: "tf-s06-63-q2b"
+    type: "truefalse"
+    name: "tf-s06-63-q2b"
     text: "Zagadnienie „6.3.3. Komfort termiczny” jest elementem zagadnienia „6.3.2. Ocena przeciwwskazań”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 3"
+  - id: "tf-s06-63-q3"
+    type: "truefalse"
+    name: "tf-s06-63-q3"
     text: "Zagadnienie „6.3.3. Komfort termiczny” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 3"
+  - id: "tf-s06-63-q3b"
+    type: "truefalse"
+    name: "tf-s06-63-q3b"
     text: "Zagadnienie „6.3.4. Intymność i okrycie” jest elementem zagadnienia „6.3.3. Komfort termiczny”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 4"
+  - id: "tf-s06-63-q4"
+    type: "truefalse"
+    name: "tf-s06-63-q4"
     text: "Zagadnienie „6.3.4. Intymność i okrycie” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 4"
+  - id: "tf-s06-63-q4b"
+    type: "truefalse"
+    name: "tf-s06-63-q4b"
     text: "Zagadnienie „6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji” jest elementem zagadnienia „6.3.4. Intymność i okrycie”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 5"
+  - id: "tf-s06-63-q5"
+    type: "truefalse"
+    name: "tf-s06-63-q5"
     text: "Zagadnienie „6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 5"
+  - id: "tf-s06-63-q5b"
+    type: "truefalse"
+    name: "tf-s06-63-q5b"
     text: "Zagadnienie „6.3.6. Tempo i siła dostosowane do oczekiwań” jest elementem zagadnienia „6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 6"
+  - id: "tf-s06-63-q6"
+    type: "truefalse"
+    name: "tf-s06-63-q6"
     text: "Zagadnienie „6.3.6. Tempo i siła dostosowane do oczekiwań” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 6"
+  - id: "tf-s06-63-q6b"
+    type: "truefalse"
+    name: "tf-s06-63-q6b"
     text: "Zagadnienie „6.3.7. Komunikacja: zapowiedź dotyku” jest elementem zagadnienia „6.3.6. Tempo i siła dostosowane do oczekiwań”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 7"
+  - id: "tf-s06-63-q7"
+    type: "truefalse"
+    name: "tf-s06-63-q7"
     text: "Zagadnienie „6.3.7. Komunikacja: zapowiedź dotyku” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 7"
+  - id: "tf-s06-63-q7b"
+    type: "truefalse"
+    name: "tf-s06-63-q7b"
     text: "Zagadnienie „6.3.8. Prawo do przerwania” jest elementem zagadnienia „6.3.7. Komunikacja: zapowiedź dotyku”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 8"
+  - id: "tf-s06-63-q8"
+    type: "truefalse"
+    name: "tf-s06-63-q8"
     text: "Zagadnienie „6.3.8. Prawo do przerwania” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 8"
+  - id: "tf-s06-63-q8b"
+    type: "truefalse"
+    name: "tf-s06-63-q8b"
     text: "Zagadnienie „6.3.9. Brak ocen moralnych ciała” jest elementem zagadnienia „6.3.8. Prawo do przerwania”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 9"
+  - id: "tf-s06-63-q9"
+    type: "truefalse"
+    name: "tf-s06-63-q9"
     text: "Zagadnienie „6.3.9. Brak ocen moralnych ciała” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: truefalse
-    name: "6.3 — rozgraniczenie 9"
+  - id: "tf-s06-63-q9b"
+    type: "truefalse"
+    name: "tf-s06-63-q9b"
     text: "Zagadnienie „6.3.10. Profesjonalny dystans i życzliwość” jest elementem zagadnienia „6.3.9. Brak ocen moralnych ciała”, a nie tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: false
-  - type: truefalse
-    name: "6.3 — zagadnienie 10"
+  - id: "tf-s06-63-q10"
+    type: "truefalse"
+    name: "tf-s06-63-q10"
     text: "Zagadnienie „6.3.10. Profesjonalny dystans i życzliwość” wchodzi w zakres tematu „Zasady masażu prozdrowotnego” (6.3)."
     answer: true
-  - type: multichoice
-    name: "6.3 — przyporządkowanie zagadnienia"
+  - id: "mc-s06-63"
+    type: "multichoice"
+    name: "mc-s06-63"
     text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
     answers:
-      - text: "6.3.1. Wywiad i zgoda"  fraction: 100
-      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"  fraction: 0
-      - text: "3.14.2. Temperatura wody i jej wpływ"  fraction: 0
-      - text: "5.4.1. Napięcie mięśniowe po treningu"  fraction: 0
+      - text: "6.3.1. Wywiad i zgoda"
+        fraction: 100
+      - text: "6.3.2. Ocena przeciwwskazań"
+        fraction: 0
+      - text: "6.3.3. Komfort termiczny"
+        fraction: 0
+      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"
+        fraction: 0
+      - text: "3.14.2. Temperatura wody i jej wpływ"
+        fraction: 0
+      - text: "5.4.1. Napięcie mięśniowe po treningu"
+        fraction: 0
+  - id: "mc-s06-63-q1"
+    type: "multichoice"
+    name: "mc-s06-63-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.1 Wywiad i zgoda"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s06-63-q2"
+    type: "multichoice"
+    name: "mc-s06-63-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.2 Ocena przeciwwskazan"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s06-63-q3"
+    type: "multichoice"
+    name: "mc-s06-63-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.3 Komfort termiczny"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s06-63-q4"
+    type: "multichoice"
+    name: "mc-s06-63-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.4 Intymnosc i okrycie"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s06-63-q5"
+    type: "multichoice"
+    name: "mc-s06-63-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.5 Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s06-63-q6"
+    type: "multichoice"
+    name: "mc-s06-63-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.6 Tempo i sila dostosowane do oczekiwan"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s06-63-q7"
+    type: "multichoice"
+    name: "mc-s06-63-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.7 Komunikacja: zapowiedz dotyku"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s06-63-q8"
+    type: "multichoice"
+    name: "mc-s06-63-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.8 Prawo do przerwania"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s06-63-q9"
+    type: "multichoice"
+    name: "mc-s06-63-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.9 Brak ocen moralnych ciala"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s06-63-q10"
+    type: "multichoice"
+    name: "mc-s06-63-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.10 Profesjonalny dystans i zyczliwosc"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s06-63-v1"
+    type: "multichoice"
+    name: "mc-s06-63-v1"
+    text: "Które zagadnienie należy do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.1 Wywiad i zgoda"
+        fraction: 100
+      - text: "0.5# 6.3.2 Ocena przeciwwskazan"
+        fraction: 0
+      - text: "0.5# 6.3.3 Komfort termiczny"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s06-63-v2"
+    type: "multichoice"
+    name: "mc-s06-63-v2"
+    text: "Które zagadnienie NIE należy do tematu „Zasady masażu prozdrowotnego” (6.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.3.1 Wywiad i zgoda"
+        fraction: 100
+      - text: "-0.25# 6.3.2 Ocena przeciwwskazan"
+        fraction: 0
+      - text: "-0.25# 6.3.3 Komfort termiczny"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s06-63-v3"
+    type: "multichoice"
+    name: "mc-s06-63-v3"
+    text: "Które zagadnienie należy do tematu „Zasady masażu prozdrowotnego” (6.3)?"
+    answers:
+      - text: "6.3.3 Komfort termiczny"
+        fraction: 100
+      - text: "0.5# 6.3.1 Wywiad i zgoda"
+        fraction: 0
+      - text: "0.5# 6.3.2 Ocena przeciwwskazan"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s06-63-v4"
+    type: "multichoice"
+    name: "mc-s06-63-v4"
+    text: "Które zagadnienie NIE należy do tematu „Zasady masażu prozdrowotnego” (6.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.3.1 Wywiad i zgoda"
+        fraction: 100
+      - text: "-0.25# 6.3.4 Intymnosc i okrycie"
+        fraction: 0
+      - text: "-0.25# 6.3.2 Ocena przeciwwskazan"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

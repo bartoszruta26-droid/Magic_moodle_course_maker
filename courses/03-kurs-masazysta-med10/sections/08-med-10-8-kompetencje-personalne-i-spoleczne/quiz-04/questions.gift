@@ -47,3 +47,101 @@
     ~ 3.14.5. Higiena wanny i ryzyko zakażeń
     ~ 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej
 }
+
+::mc-s08-84-q1:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.1 Reguly i procedury zabiegowe
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s08-84-q2:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.2 Obszary odpowiedzialnosci prawnej
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s08-84-q3:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.3 Prawa pacjenta
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s08-84-q4:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.4 Obowiazek informowania
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s08-84-q5:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.5 Obowiazek dokumentowania
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s08-84-q6:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.6 Obowiazek zglaszania zdarzen niepozadanych
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s08-84-q7:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.7 Odpowiedzialnosc za sprzet i srodki
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s08-84-q8:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.8 Odpowiedzialnosc za wspolpracownikow
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s08-84-q9:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.9 Odpowiedzialnosc wobec wlasnego zdrowia
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s08-84-q10:: Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.10 Rachunek sumienia zawodowy
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s08-84-v1:: Które zagadnienie należy do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.1 Reguly i procedury zabiegowe
+    ~0.5# 8.4.2 Obszary odpowiedzialnosci prawnej
+    ~0.5# 8.4.3 Prawa pacjenta
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s08-84-v2:: Które zagadnienie NIE należy do tematu „Odpowiedzialność za podejmowane działania” (8.4), lecz jest częścią innego tematu kursu? {
+    = 8.4.1 Reguly i procedury zabiegowe
+    ~-0.25# 8.4.2 Obszary odpowiedzialnosci prawnej
+    ~-0.25# 8.4.3 Prawa pacjenta
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s08-84-v3:: Które zagadnienie należy do tematu „Odpowiedzialność za podejmowane działania” (8.4)? {
+    = 8.4.3 Prawa pacjenta
+    ~0.5# 8.4.1 Reguly i procedury zabiegowe
+    ~0.5# 8.4.2 Obszary odpowiedzialnosci prawnej
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s08-84-v4:: Które zagadnienie NIE należy do tematu „Odpowiedzialność za podejmowane działania” (8.4), lecz jest częścią innego tematu kursu? {
+    = 8.4.1 Reguly i procedury zabiegowe
+    ~-0.25# 8.4.4 Obowiazek informowania
+    ~-0.25# 8.4.2 Obszary odpowiedzialnosci prawnej
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

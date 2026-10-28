@@ -1,0 +1,49 @@
+// Quiz: 8.2. Kultura osobista i etyka zawodowa — moduł 8 (08-med-10-8-kompetencje-personalne-i-spoleczne)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s08-82-q1:: Zagadnienie „8.2.1. Szacunek dla godności pacjenta” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q1b:: Zagadnienie „8.2.2. Tajemnica zawodowa” jest elementem zagadnienia „8.2.1. Szacunek dla godności pacjenta”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q2:: Zagadnienie „8.2.2. Tajemnica zawodowa” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q2b:: Zagadnienie „8.2.3. Ochrona danych osobowych” jest elementem zagadnienia „8.2.2. Tajemnica zawodowa”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q3:: Zagadnienie „8.2.3. Ochrona danych osobowych” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q3b:: Zagadnienie „8.2.4. Ochrona własności intelektualnej” jest elementem zagadnienia „8.2.3. Ochrona danych osobowych”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q4:: Zagadnienie „8.2.4. Ochrona własności intelektualnej” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q4b:: Zagadnienie „8.2.5. Uczciwość wobec współpracowników” jest elementem zagadnienia „8.2.4. Ochrona własności intelektualnej”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q5:: Zagadnienie „8.2.5. Uczciwość wobec współpracowników” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q5b:: Zagadnienie „8.2.6. Zakaz plotkowania o pacjentach” jest elementem zagadnienia „8.2.5. Uczciwość wobec współpracowników”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q6:: Zagadnienie „8.2.6. Zakaz plotkowania o pacjentach” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q6b:: Zagadnienie „8.2.7. Zakaz wykorzystywania zależności” jest elementem zagadnienia „8.2.6. Zakaz plotkowania o pacjentach”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q7:: Zagadnienie „8.2.7. Zakaz wykorzystywania zależności” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q7b:: Zagadnienie „8.2.8. Kultura ciała i języka” jest elementem zagadnienia „8.2.7. Zakaz wykorzystywania zależności”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q8:: Zagadnienie „8.2.8. Kultura ciała i języka” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q8b:: Zagadnienie „8.2.9. Asertywność bez agresji” jest elementem zagadnienia „8.2.8. Kultura ciała i języka”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q9:: Zagadnienie „8.2.9. Asertywność bez agresji” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::tf-s08-82-q9b:: Zagadnienie „8.2.10. Etyka w sytuacjach trudnych” jest elementem zagadnienia „8.2.9. Asertywność bez agresji”, a nie tematu „Kultura osobista i etyka zawodowa” (8.2). {FALSE} //
+
+::tf-s08-82-q10:: Zagadnienie „8.2.10. Etyka w sytuacjach trudnych” wchodzi w zakres tematu „Kultura osobista i etyka zawodowa” (8.2). {TRUE} //
+
+::mc-s08-82:: Które zagadnienie należy bezpośrednio do tematu „Kultura osobista i etyka zawodowa” (8.2)? {
+    = 8.2.1. Szacunek dla godności pacjenta
+    ~ 8.2.2. Tajemnica zawodowa
+    ~ 8.2.3. Ochrona danych osobowych
+    ~ 2.1.3. Przepisy dotyczące wykonywania zadań zawodowych
+    ~ 3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja
+    ~ 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie
+}

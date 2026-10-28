@@ -47,3 +47,101 @@
     ~ 3.19.4. Psycholog i psychiatra
     ~ 6.1.3. Relaksacja a leczenie
 }
+
+::mc-s02-219-q1:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.1 Talk
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s02-219-q2:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.2 Oliwki i oleje roslinne
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s02-219-q3:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.3 Wazelina i lanolina
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s02-219-q4:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.4 Kremy do masazu
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s02-219-q5:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.5 Preparaty rozgrzewajace
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s02-219-q6:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.6 Preparaty chlodzace
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz kregoslupa piersiowego
+    ~ Podstawy higieny snu
+}
+
+::mc-s02-219-q7:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.7 Preparaty przeciwzapalne i znieczulajace miejscowo — tylko zgodnie z prawem i zleceniem
+    ~ Skurcz koncentryczny i ekscentryczny
+    ~ Masaz kregoslupa ledzwiowego
+    ~ Podstawy aktywnosci fizycznej
+}
+
+::mc-s02-219-q8:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.8 Alergeny i test skorny
+    ~ Napiecie spoczynkowe miesnia
+    ~ Masaz karku
+    ~ Podstawy nawodnienia
+}
+
+::mc-s02-219-q9:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.9 Dobor do rodzaju skory i jednostki chorobowej
+    ~ Zmeczenie miesniowe
+    ~ Masaz klatki piersiowej
+    ~ Podstawy pielegnacji skory
+}
+
+::mc-s02-219-q10:: Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.10 Przechowywanie, daty waznosci, bezpieczenstwo
+    ~ Kremy do masazu
+    ~ Dobor elementow do stanu klinicznego
+    ~ Reflexology
+}
+
+::mc-s02-219-v1:: Które zagadnienie należy do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.1 Talk
+    ~0.5# 2.19.2 Oliwki i oleje roslinne
+    ~0.5# 2.19.3 Wazelina i lanolina
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-219-v2:: Które zagadnienie NIE należy do tematu „Środki poślizgowe i wspomagające masaż” (2.19), lecz jest częścią innego tematu kursu? {
+    = 2.19.1 Talk
+    ~-0.25# 2.19.2 Oliwki i oleje roslinne
+    ~-0.25# 2.19.3 Wazelina i lanolina
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-219-v3:: Które zagadnienie należy do tematu „Środki poślizgowe i wspomagające masaż” (2.19)? {
+    = 2.19.3 Wazelina i lanolina
+    ~0.5# 2.19.1 Talk
+    ~0.5# 2.19.2 Oliwki i oleje roslinne
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-219-v4:: Które zagadnienie NIE należy do tematu „Środki poślizgowe i wspomagające masaż” (2.19), lecz jest częścią innego tematu kursu? {
+    = 2.19.1 Talk
+    ~-0.25# 2.19.4 Kremy do masazu
+    ~-0.25# 2.19.2 Oliwki i oleje roslinne
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

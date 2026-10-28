@@ -1,0 +1,49 @@
+// Quiz: 6.9. Działania edukacyjne i popularyzacja zachowań prozdrowotnych — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-69-q1:: Zagadnienie „6.9.1. Jak mówić o zdrowiu bez straszenia” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q1b:: Zagadnienie „6.9.2. Jak mówić o ciele bez wstydu” jest elementem zagadnienia „6.9.1. Jak mówić o zdrowiu bez straszenia”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q2:: Zagadnienie „6.9.2. Jak mówić o ciele bez wstydu” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q2b:: Zagadnienie „6.9.3. Jak motywować bez manipulacji” jest elementem zagadnienia „6.9.2. Jak mówić o ciele bez wstydu”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q3:: Zagadnienie „6.9.3. Jak motywować bez manipulacji” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q3b:: Zagadnienie „6.9.4. Podstawy higieny snu” jest elementem zagadnienia „6.9.3. Jak motywować bez manipulacji”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q4:: Zagadnienie „6.9.4. Podstawy higieny snu” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q4b:: Zagadnienie „6.9.5. Podstawy aktywności fizycznej” jest elementem zagadnienia „6.9.4. Podstawy higieny snu”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q5:: Zagadnienie „6.9.5. Podstawy aktywności fizycznej” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q5b:: Zagadnienie „6.9.6. Podstawy nawodnienia” jest elementem zagadnienia „6.9.5. Podstawy aktywności fizycznej”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q6:: Zagadnienie „6.9.6. Podstawy nawodnienia” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q6b:: Zagadnienie „6.9.7. Podstawy pielęgnacji skóry” jest elementem zagadnienia „6.9.6. Podstawy nawodnienia”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q7:: Zagadnienie „6.9.7. Podstawy pielęgnacji skóry” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q7b:: Zagadnienie „6.9.8. Profilaktyka przeciążeń” jest elementem zagadnienia „6.9.7. Podstawy pielęgnacji skóry”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q8:: Zagadnienie „6.9.8. Profilaktyka przeciążeń” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q8b:: Zagadnienie „6.9.9. Materiały edukacyjne dla pacjenta” jest elementem zagadnienia „6.9.8. Profilaktyka przeciążeń”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q9:: Zagadnienie „6.9.9. Materiały edukacyjne dla pacjenta” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::tf-s06-69-q9b:: Zagadnienie „6.9.10. Współpraca z lekarzem, dietetykiem, fizjoterapeutą” jest elementem zagadnienia „6.9.9. Materiały edukacyjne dla pacjenta”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {FALSE} //
+
+::tf-s06-69-q10:: Zagadnienie „6.9.10. Współpraca z lekarzem, dietetykiem, fizjoterapeutą” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9). {TRUE} //
+
+::mc-s06-69:: Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)? {
+    = 6.9.1. Jak mówić o zdrowiu bez straszenia
+    ~ 6.9.2. Jak mówić o ciele bez wstydu
+    ~ 6.9.3. Jak motywować bez manipulacji
+    ~ 2.1.8. Granice profesjonalnej bliskości
+    ~ 3.14.8. Obciążenie termiczne
+    ~ 5.4.7. Gorączka i infekcja — przeciwwskazanie
+}

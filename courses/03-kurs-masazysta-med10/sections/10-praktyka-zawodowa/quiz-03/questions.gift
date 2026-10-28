@@ -47,3 +47,101 @@
     ~ 3.18.5. Zmiana odczuwania bólu
     ~ 5.8.4. Relacja z trenerem: asertywność
 }
+
+::mc-s10-103-q1:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.1 Obserwacja zabiegow
+    ~ Wplyw hormonow na tkanki i samopoczucie
+    ~ Pozycja na brzuchu
+    ~ Edukacja ergonomia
+}
+
+::mc-s10-103-q2:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.2 Asystowanie przy zabiegach
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na plecach
+    ~ Dokumentacja skrocona
+}
+
+::mc-s10-103-q3:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.3 Przygotowanie stanowiska pracy
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s10-103-q4:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.4 Przygotowanie pacjenta do zabiegu
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s10-103-q5:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.5 Wykonywanie masazu pod nadzorem
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s10-103-q6:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.6 Prowadzenie dokumentacji
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s10-103-q7:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.7 Udzial w naradach zespolu
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s10-103-q8:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.8 Realizacja zadan edukacyjnych
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s10-103-q9:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.9 Zglaszanie zdarzen niepozadanych
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s10-103-q10:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.10 Refleksja dzienna i tygodniowa
+    ~ Tolerancja bolu i prog dyskomfortu
+    ~ Zasada podwojnego opracowania stawow
+    ~ Wardrobe and storage
+}
+
+::mc-s10-103-v1:: Które zagadnienie należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.1 Obserwacja zabiegow
+    ~0.5# 10.3.2 Asystowanie przy zabiegach
+    ~0.5# 10.3.3 Przygotowanie stanowiska pracy
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s10-103-v2:: Które zagadnienie NIE należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3), lecz jest częścią innego tematu kursu? {
+    = 10.3.1 Obserwacja zabiegow
+    ~-0.25# 10.3.2 Asystowanie przy zabiegach
+    ~-0.25# 10.3.3 Przygotowanie stanowiska pracy
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s10-103-v3:: Które zagadnienie należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.3 Przygotowanie stanowiska pracy
+    ~0.5# 10.3.1 Obserwacja zabiegow
+    ~0.5# 10.3.2 Asystowanie przy zabiegach
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s10-103-v4:: Które zagadnienie NIE należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3), lecz jest częścią innego tematu kursu? {
+    = 10.3.1 Obserwacja zabiegow
+    ~-0.25# 10.3.4 Przygotowanie pacjenta do zabiegu
+    ~-0.25# 10.3.2 Asystowanie przy zabiegach
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

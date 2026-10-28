@@ -43,3 +43,110 @@
     ~ 3.18.9. Kiedy reakcja jest alarmowa
     ~ 5.8.8. Osoby z chorobami przewlekłymi
 }
+
+::mc-s02-214-q1:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.1 Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s02-214-q2:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.2 Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s02-214-q3:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.3 Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s02-214-q4:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.4 Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s02-214-q5:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.5 Wyczuwanie miesni przykregoslupowych
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s02-214-q6:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.6 Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s02-214-q7:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.7 Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s02-214-q8:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.8 Wyczuwanie tetnic powierzchniowych
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s02-214-q9:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.9 Wyczuwanie zyl powierzchownych
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s02-214-q10:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.10 Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Dokumentacja zastosowanych parametrow
+    ~ Autodrenaz pacjenta
+    ~ Classical massage, medical massage, sports massage
+}
+
+::mc-s02-214-q11:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.11 Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Talk
+    ~ Kompresjoterapia
+    ~ Lymphatic drainage
+}
+
+::sa-s02-214-q1:: Podaj numer porządkowy zagadnienia „Zasady palpacji: spokojna reka, porownywanie stron, szacunek” w temacie „Lokalizacja palpacyjna struktur anatomicznych” (2.14) wg spisu treści kursu. {SHORTANSWER:#2.14.1} //
+
+::mc-s02-214-v1:: Które zagadnienie należy do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.1 Zasady palpacji\: spokojna reka, porownywanie stron, szacunek
+    ~0.5# 2.14.2 Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~0.5# 2.14.3 Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-214-v2:: Które zagadnienie NIE należy do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14), lecz jest częścią innego tematu kursu? {
+    = 2.14.1 Zasady palpacji\: spokojna reka, porownywanie stron, szacunek
+    ~-0.25# 2.14.2 Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~-0.25# 2.14.3 Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-214-v3:: Które zagadnienie należy do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.3 Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~0.5# 2.14.1 Zasady palpacji\: spokojna reka, porownywanie stron, szacunek
+    ~0.5# 2.14.2 Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-214-v4:: Które zagadnienie NIE należy do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14), lecz jest częścią innego tematu kursu? {
+    = 2.14.1 Zasady palpacji\: spokojna reka, porownywanie stron, szacunek
+    ~-0.25# 2.14.4 Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~-0.25# 2.14.2 Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

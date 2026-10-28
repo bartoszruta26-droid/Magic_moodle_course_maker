@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.21. Masaż kobiety w połogu"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.21 — zagadnienie 1"
+  - id: "tf-s04-421-q1"
+    type: "truefalse"
+    name: "tf-s04-421-q1"
     text: "Zagadnienie „4.21.1. Połóg fizjologiczny i powikłany” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 1"
+  - id: "tf-s04-421-q1b"
+    type: "truefalse"
+    name: "tf-s04-421-q1b"
     text: "Zagadnienie „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność” jest elementem zagadnienia „4.21.1. Połóg fizjologiczny i powikłany”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 2"
+  - id: "tf-s04-421-q2"
+    type: "truefalse"
+    name: "tf-s04-421-q2"
     text: "Zagadnienie „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 2"
+  - id: "tf-s04-421-q2b"
+    type: "truefalse"
+    name: "tf-s04-421-q2b"
     text: "Zagadnienie „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza” jest elementem zagadnienia „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 3"
+  - id: "tf-s04-421-q3"
+    type: "truefalse"
+    name: "tf-s04-421-q3"
     text: "Zagadnienie „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 3"
+  - id: "tf-s04-421-q3b"
+    type: "truefalse"
+    name: "tf-s04-421-q3b"
     text: "Zagadnienie „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą” jest elementem zagadnienia „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 4"
+  - id: "tf-s04-421-q4"
+    type: "truefalse"
+    name: "tf-s04-421-q4"
     text: "Zagadnienie „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 4"
+  - id: "tf-s04-421-q4b"
+    type: "truefalse"
+    name: "tf-s04-421-q4b"
     text: "Zagadnienie „4.21.5. Masaż grzbietu i karku przy karmieniu” jest elementem zagadnienia „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 5"
+  - id: "tf-s04-421-q5"
+    type: "truefalse"
+    name: "tf-s04-421-q5"
     text: "Zagadnienie „4.21.5. Masaż grzbietu i karku przy karmieniu” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 5"
+  - id: "tf-s04-421-q5b"
+    type: "truefalse"
+    name: "tf-s04-421-q5b"
     text: "Zagadnienie „4.21.6. Drenaż obrzęków” jest elementem zagadnienia „4.21.5. Masaż grzbietu i karku przy karmieniu”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 6"
+  - id: "tf-s04-421-q6"
+    type: "truefalse"
+    name: "tf-s04-421-q6"
     text: "Zagadnienie „4.21.6. Drenaż obrzęków” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 6"
+  - id: "tf-s04-421-q6b"
+    type: "truefalse"
+    name: "tf-s04-421-q6b"
     text: "Zagadnienie „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja” jest elementem zagadnienia „4.21.6. Drenaż obrzęków”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 7"
+  - id: "tf-s04-421-q7"
+    type: "truefalse"
+    name: "tf-s04-421-q7"
     text: "Zagadnienie „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 7"
+  - id: "tf-s04-421-q7b"
+    type: "truefalse"
+    name: "tf-s04-421-q7b"
     text: "Zagadnienie „4.21.8. Wsparcie emocjonalne matki” jest elementem zagadnienia „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 8"
+  - id: "tf-s04-421-q8"
+    type: "truefalse"
+    name: "tf-s04-421-q8"
     text: "Zagadnienie „4.21.8. Wsparcie emocjonalne matki” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 8"
+  - id: "tf-s04-421-q8b"
+    type: "truefalse"
+    name: "tf-s04-421-q8b"
     text: "Zagadnienie „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu” jest elementem zagadnienia „4.21.8. Wsparcie emocjonalne matki”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 9"
+  - id: "tf-s04-421-q9"
+    type: "truefalse"
+    name: "tf-s04-421-q9"
     text: "Zagadnienie „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: truefalse
-    name: "4.21 — rozgraniczenie 9"
+  - id: "tf-s04-421-q9b"
+    type: "truefalse"
+    name: "tf-s04-421-q9b"
     text: "Zagadnienie „4.21.10. Dokumentacja i skierowania” jest elementem zagadnienia „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu”, a nie tematu „Masaż kobiety w połogu” (4.21)."
     answer: false
-  - type: truefalse
-    name: "4.21 — zagadnienie 10"
+  - id: "tf-s04-421-q10"
+    type: "truefalse"
+    name: "tf-s04-421-q10"
     text: "Zagadnienie „4.21.10. Dokumentacja i skierowania” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21)."
     answer: true
-  - type: multichoice
-    name: "4.21 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-421"
+    type: "multichoice"
+    name: "mc-s04-421"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
     answers:
-      - text: "4.21.1. Połóg fizjologiczny i powikłany"  fraction: 100
-      - text: "2.5.8. Błędy dokumentacyjne i ich konsekwencje"  fraction: 0
-      - text: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"  fraction: 0
-      - text: "5.8.8. Osoby z chorobami przewlekłymi"  fraction: 0
+      - text: "4.21.1. Połóg fizjologiczny i powikłany"
+        fraction: 100
+      - text: "4.21.2. Obrzęk, ból krocza, hematoma — ostrożność"
+        fraction: 0
+      - text: "4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza"
+        fraction: 0
+      - text: "2.5.8. Błędy dokumentacyjne i ich konsekwencje"
+        fraction: 0
+      - text: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"
+        fraction: 0
+      - text: "5.8.8. Osoby z chorobami przewlekłymi"
+        fraction: 0
+  - id: "mc-s04-421-q1"
+    type: "multichoice"
+    name: "mc-s04-421-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.1 Polog fizjologiczny i powiklany"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s04-421-q2"
+    type: "multichoice"
+    name: "mc-s04-421-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.2 Obrzek, bol krocza, hematoma — ostroznosc"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s04-421-q3"
+    type: "multichoice"
+    name: "mc-s04-421-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s04-421-q4"
+    type: "multichoice"
+    name: "mc-s04-421-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.4 Regeneracja miesni dna miednicy — wspolpraca z fizjoterapeuta"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s04-421-q5"
+    type: "multichoice"
+    name: "mc-s04-421-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.5 Masaz grzbietu i karku przy karmieniu"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s04-421-q6"
+    type: "multichoice"
+    name: "mc-s04-421-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.6 Drenaz obrzekow"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-421-q7"
+    type: "multichoice"
+    name: "mc-s04-421-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.7 Przeciwwskazania: goraczka, zakrzepica, infekcja"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-421-q8"
+    type: "multichoice"
+    name: "mc-s04-421-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.8 Wsparcie emocjonalne matki"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s04-421-q9"
+    type: "multichoice"
+    name: "mc-s04-421-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.9 Bezpieczenstwo dziecka w czasie zabiegu"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s04-421-q10"
+    type: "multichoice"
+    name: "mc-s04-421-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.10 Dokumentacja i skierowania"
+        fraction: 100
+      - text: "Zasada nieprzekraczania granicy bolu obronnego"
+        fraction: 0
+      - text: "Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "Classical massage, medical massage, sports massage"
+        fraction: 0
+  - id: "mc-s04-421-v1"
+    type: "multichoice"
+    name: "mc-s04-421-v1"
+    text: "Które zagadnienie należy do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.1 Polog fizjologiczny i powiklany"
+        fraction: 100
+      - text: "0.5# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc"
+        fraction: 0
+      - text: "0.5# 4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-421-v2"
+    type: "multichoice"
+    name: "mc-s04-421-v2"
+    text: "Które zagadnienie NIE należy do tematu „Masaż kobiety w połogu” (4.21), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.21.1 Polog fizjologiczny i powiklany"
+        fraction: 100
+      - text: "-0.25# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc"
+        fraction: 0
+      - text: "-0.25# 4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-421-v3"
+    type: "multichoice"
+    name: "mc-s04-421-v3"
+    text: "Które zagadnienie należy do tematu „Masaż kobiety w połogu” (4.21)?"
+    answers:
+      - text: "4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza"
+        fraction: 100
+      - text: "0.5# 4.21.1 Polog fizjologiczny i powiklany"
+        fraction: 0
+      - text: "0.5# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-421-v4"
+    type: "multichoice"
+    name: "mc-s04-421-v4"
+    text: "Które zagadnienie NIE należy do tematu „Masaż kobiety w połogu” (4.21), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.21.1 Polog fizjologiczny i powiklany"
+        fraction: 100
+      - text: "-0.25# 4.21.4 Regeneracja miesni dna miednicy — wspolpraca z fizjoterapeuta"
+        fraction: 0
+      - text: "-0.25# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

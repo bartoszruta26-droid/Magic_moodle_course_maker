@@ -47,3 +47,101 @@
     ~ 3.18.10. Dokumentacja i planowanie kolejnych zabiegów
     ~ 5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku
 }
+
+::mc-s04-414-q1:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.1 Punkty spustowe aktywne i utajone
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s04-414-q2:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.2 Palpacja punktow
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Pozycja pacjenta
+}
+
+::mc-s04-414-q3:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.3 Kompresja ischemiczna
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Komunikacja
+}
+
+::mc-s04-414-q4:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.4 Stretching po kompresji
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Przeciwwskazania
+}
+
+::mc-s04-414-q5:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.5 Oddychanie pacjenta
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s04-414-q6:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.6 Granica bolu
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny gornej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s04-414-q7:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.7 Ryzyko nasilenia bolu
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s04-414-q8:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.8 Dokumentacja reakcji
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz grzbietu
+    ~ Podstawy higieny snu
+}
+
+::mc-s04-414-q9:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.9 Przeciwwskazania
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz konczyny dolnej
+    ~ Podstawy pielegnacji skory
+}
+
+::mc-s04-414-q10:: Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.10 Zastosowanie w bolach miesniowo-powieziowych
+    ~ Talk
+    ~ Kompresjoterapia
+    ~ Connective tissue massage
+}
+
+::mc-s04-414-v1:: Które zagadnienie należy do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.1 Punkty spustowe aktywne i utajone
+    ~0.5# 4.14.2 Palpacja punktow
+    ~0.5# 4.14.3 Kompresja ischemiczna
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-414-v2:: Które zagadnienie NIE należy do tematu „Masaż punktowy” (4.14), lecz jest częścią innego tematu kursu? {
+    = 4.14.1 Punkty spustowe aktywne i utajone
+    ~-0.25# 4.14.2 Palpacja punktow
+    ~-0.25# 4.14.3 Kompresja ischemiczna
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-414-v3:: Które zagadnienie należy do tematu „Masaż punktowy” (4.14)? {
+    = 4.14.3 Kompresja ischemiczna
+    ~0.5# 4.14.1 Punkty spustowe aktywne i utajone
+    ~0.5# 4.14.2 Palpacja punktow
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-414-v4:: Które zagadnienie NIE należy do tematu „Masaż punktowy” (4.14), lecz jest częścią innego tematu kursu? {
+    = 4.14.1 Punkty spustowe aktywne i utajone
+    ~-0.25# 4.14.4 Stretching po kompresji
+    ~-0.25# 4.14.2 Palpacja punktow
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

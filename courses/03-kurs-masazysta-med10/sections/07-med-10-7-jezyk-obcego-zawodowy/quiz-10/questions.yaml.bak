@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "7.10. Strategie komunikacyjne i kompensacyjne"
+category: masaz
+questions:
+  - type: truefalse
+    name: "7.10 — zagadnienie 1"
+    text: "Zagadnienie „7.10.1. Using dictionaries” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 1"
+    text: "Zagadnienie „7.10.2. Using translation technology responsibly” jest elementem zagadnienia „7.10.1. Using dictionaries”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 2"
+    text: "Zagadnienie „7.10.2. Using translation technology responsibly” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 2"
+    text: "Zagadnienie „7.10.3. Recognizing international words” jest elementem zagadnienia „7.10.2. Using translation technology responsibly”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 3"
+    text: "Zagadnienie „7.10.3. Recognizing international words” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 3"
+    text: "Zagadnienie „7.10.4. Paraphrasing unknown terms” jest elementem zagadnienia „7.10.3. Recognizing international words”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 4"
+    text: "Zagadnienie „7.10.4. Paraphrasing unknown terms” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 4"
+    text: "Zagadnienie „7.10.5. Using gestures carefully” jest elementem zagadnienia „7.10.4. Paraphrasing unknown terms”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 5"
+    text: "Zagadnienie „7.10.5. Using gestures carefully” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 5"
+    text: "Zagadnienie „7.10.6. Asking for repetition” jest elementem zagadnienia „7.10.5. Using gestures carefully”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 6"
+    text: "Zagadnienie „7.10.6. Asking for repetition” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 6"
+    text: "Zagadnienie „7.10.7. Confirming understanding” jest elementem zagadnienia „7.10.6. Asking for repetition”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 7"
+    text: "Zagadnienie „7.10.7. Confirming understanding” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 7"
+    text: "Zagadnienie „7.10.8. Avoiding false friends” jest elementem zagadnienia „7.10.7. Confirming understanding”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 8"
+    text: "Zagadnienie „7.10.8. Avoiding false friends” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 8"
+    text: "Zagadnienie „7.10.9. Simplifying without demeaning” jest elementem zagadnienia „7.10.8. Avoiding false friends”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 9"
+    text: "Zagadnienie „7.10.9. Simplifying without demeaning” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: truefalse
+    name: "7.10 — rozgraniczenie 9"
+    text: "Zagadnienie „7.10.10. Learning continuously” jest elementem zagadnienia „7.10.9. Simplifying without demeaning”, a nie tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: false
+  - type: truefalse
+    name: "7.10 — zagadnienie 10"
+    text: "Zagadnienie „7.10.10. Learning continuously” wchodzi w zakres tematu „Strategie komunikacyjne i kompensacyjne” (7.10)."
+    answer: true
+  - type: multichoice
+    name: "7.10 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Strategie komunikacyjne i kompensacyjne” (7.10)?"
+    answers:
+      - text: "7.10.1. Using dictionaries"  fraction: 100
+      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"  fraction: 0
+      - text: "3.18.9. Kiedy reakcja jest alarmowa"  fraction: 0
+      - text: "5.8.8. Osoby z chorobami przewlekłymi"  fraction: 0

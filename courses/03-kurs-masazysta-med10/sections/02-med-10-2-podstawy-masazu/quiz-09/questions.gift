@@ -47,3 +47,101 @@
     ~ 3.14.5. Higiena wanny i ryzyko zakażeń
     ~ 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej
 }
+
+::mc-s02-29-q1:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.1 Naskorek: warstwy
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s02-29-q2:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.2 Skora wlasciwa: warstwa brodawkowata i siateczkowata
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s02-29-q3:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.3 Tkanka podskorna
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s02-29-q4:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.4 Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s02-29-q5:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.5 Unerwienie skory
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s02-29-q6:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.6 Unaczynienie skory
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s02-29-q7:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.7 Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s02-29-q8:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.8 Wplyw masazu na skore
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s02-29-q9:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.9 Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s02-29-q10:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.10 Przeciwwskazania skorne do masazu
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s02-29-v1:: Które zagadnienie należy do tematu „Powłoka wspólna\: skóra i jej przydatki” (2.9)? {
+    = 2.9.1 Naskorek\: warstwy
+    ~0.5# 2.9.2 Skora wlasciwa\: warstwa brodawkowata i siateczkowata
+    ~0.5# 2.9.3 Tkanka podskorna
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-29-v2:: Które zagadnienie NIE należy do tematu „Powłoka wspólna\: skóra i jej przydatki” (2.9), lecz jest częścią innego tematu kursu? {
+    = 2.9.1 Naskorek\: warstwy
+    ~-0.25# 2.9.2 Skora wlasciwa\: warstwa brodawkowata i siateczkowata
+    ~-0.25# 2.9.3 Tkanka podskorna
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-29-v3:: Które zagadnienie należy do tematu „Powłoka wspólna\: skóra i jej przydatki” (2.9)? {
+    = 2.9.3 Tkanka podskorna
+    ~0.5# 2.9.1 Naskorek\: warstwy
+    ~0.5# 2.9.2 Skora wlasciwa\: warstwa brodawkowata i siateczkowata
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-29-v4:: Które zagadnienie NIE należy do tematu „Powłoka wspólna\: skóra i jej przydatki” (2.9), lecz jest częścią innego tematu kursu? {
+    = 2.9.1 Naskorek\: warstwy
+    ~-0.25# 2.9.4 Przydatki skory\: wlosy, paznokcie, gruczoly potowe, lojowe
+    ~-0.25# 2.9.2 Skora wlasciwa\: warstwa brodawkowata i siateczkowata
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

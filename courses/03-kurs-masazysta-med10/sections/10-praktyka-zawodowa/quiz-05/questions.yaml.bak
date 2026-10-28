@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "10.5. Portfolio praktykant"
+category: masaz
+questions:
+  - type: truefalse
+    name: "10.5 — zagadnienie 1"
+    text: "Zagadnienie „10.5.1. Zestaw wykonanych zabiegów” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 1"
+    text: "Zagadnienie „10.5.2. Studia przypadków anonimowe” jest elementem zagadnienia „10.5.1. Zestaw wykonanych zabiegów”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 2"
+    text: "Zagadnienie „10.5.2. Studia przypadków anonimowe” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 2"
+    text: "Zagadnienie „10.5.3. Check-listy umiejętności” jest elementem zagadnienia „10.5.2. Studia przypadków anonimowe”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 3"
+    text: "Zagadnienie „10.5.3. Check-listy umiejętności” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 3"
+    text: "Zagadnienie „10.5.4. Refleksje etyczne” jest elementem zagadnienia „10.5.3. Check-listy umiejętności”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 4"
+    text: "Zagadnienie „10.5.4. Refleksje etyczne” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 4"
+    text: "Zagadnienie „10.5.5. Dokumenty BHP” jest elementem zagadnienia „10.5.4. Refleksje etyczne”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 5"
+    text: "Zagadnienie „10.5.5. Dokumenty BHP” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 5"
+    text: "Zagadnienie „10.5.6. Zaświadczenia o szkoleniach” jest elementem zagadnienia „10.5.5. Dokumenty BHP”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 6"
+    text: "Zagadnienie „10.5.6. Zaświadczenia o szkoleniach” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 6"
+    text: "Zagadnienie „10.5.7. Opinie opiekuna” jest elementem zagadnienia „10.5.6. Zaświadczenia o szkoleniach”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 7"
+    text: "Zagadnienie „10.5.7. Opinie opiekuna” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 7"
+    text: "Zagadnienie „10.5.8. Plan rozwoju po praktyce” jest elementem zagadnienia „10.5.7. Opinie opiekuna”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 8"
+    text: "Zagadnienie „10.5.8. Plan rozwoju po praktyce” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 8"
+    text: "Zagadnienie „10.5.9. Oświadczenia o tajemnicy zawodowej” jest elementem zagadnienia „10.5.8. Plan rozwoju po praktyce”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 9"
+    text: "Zagadnienie „10.5.9. Oświadczenia o tajemnicy zawodowej” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: truefalse
+    name: "10.5 — rozgraniczenie 9"
+    text: "Zagadnienie „10.5.10. Gotowość do egzaminu” jest elementem zagadnienia „10.5.9. Oświadczenia o tajemnicy zawodowej”, a nie tematu „Portfolio praktykant” (10.5)."
+    answer: false
+  - type: truefalse
+    name: "10.5 — zagadnienie 10"
+    text: "Zagadnienie „10.5.10. Gotowość do egzaminu” wchodzi w zakres tematu „Portfolio praktykant” (10.5)."
+    answer: true
+  - type: multichoice
+    name: "10.5 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Portfolio praktykant” (10.5)?"
+    answers:
+      - text: "10.5.1. Zestaw wykonanych zabiegów"  fraction: 100
+      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"  fraction: 0
+      - text: "3.18.7. Wpływ na sen i samopoczucie"  fraction: 0
+      - text: "5.8.6. Małoletni: zgoda opiekuna"  fraction: 0
