@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "11.6. Studia przypadków"
+category: masaz
+questions:
+  - type: truefalse
+    name: "11.6 — zagadnienie 1"
+    text: "Zagadnienie „11.6.1. Pacjent z bólem kręgosłupa lędźwiowego” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 1"
+    text: "Zagadnienie „11.6.2. Pacjent po udarze” jest elementem zagadnienia „11.6.1. Pacjent z bólem kręgosłupa lędźwiowego”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 2"
+    text: "Zagadnienie „11.6.2. Pacjent po udarze” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 2"
+    text: "Zagadnienie „11.6.3. Pacjent z obrzękiem limfatycznym po mastektomii” jest elementem zagadnienia „11.6.2. Pacjent po udarze”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 3"
+    text: "Zagadnienie „11.6.3. Pacjent z obrzękiem limfatycznym po mastektomii” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 3"
+    text: "Zagadnienie „11.6.4. Pacjent sportowiec po treningu” jest elementem zagadnienia „11.6.3. Pacjent z obrzękiem limfatycznym po mastektomii”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 4"
+    text: "Zagadnienie „11.6.4. Pacjent sportowiec po treningu” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 4"
+    text: "Zagadnienie „11.6.5. Pacjentka w ciąży fizjologicznej” jest elementem zagadnienia „11.6.4. Pacjent sportowiec po treningu”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 5"
+    text: "Zagadnienie „11.6.5. Pacjentka w ciąży fizjologicznej” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 5"
+    text: "Zagadnienie „11.6.6. Pacjent starszy z osteoporozą” jest elementem zagadnienia „11.6.5. Pacjentka w ciąży fizjologicznej”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 6"
+    text: "Zagadnienie „11.6.6. Pacjent starszy z osteoporozą” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 6"
+    text: "Zagadnienie „11.6.7. Pacjent z fibromialgią” jest elementem zagadnienia „11.6.6. Pacjent starszy z osteoporozą”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 7"
+    text: "Zagadnienie „11.6.7. Pacjent z fibromialgią” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 7"
+    text: "Zagadnienie „11.6.8. Pacjent ze stanem zapalnym — przeciwwskazanie” jest elementem zagadnienia „11.6.7. Pacjent z fibromialgią”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 8"
+    text: "Zagadnienie „11.6.8. Pacjent ze stanem zapalnym — przeciwwskazanie” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 8"
+    text: "Zagadnienie „11.6.9. Pacjent z podejrzeniem zakrzepicy — skierowanie” jest elementem zagadnienia „11.6.8. Pacjent ze stanem zapalnym — przeciwwskazanie”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 9"
+    text: "Zagadnienie „11.6.9. Pacjent z podejrzeniem zakrzepicy — skierowanie” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: truefalse
+    name: "11.6 — rozgraniczenie 9"
+    text: "Zagadnienie „11.6.10. Pacjent z lękiem przed dotykiem — komunikacja” jest elementem zagadnienia „11.6.9. Pacjent z podejrzeniem zakrzepicy — skierowanie”, a nie tematu „Studia przypadków” (11.6)."
+    answer: false
+  - type: truefalse
+    name: "11.6 — zagadnienie 10"
+    text: "Zagadnienie „11.6.10. Pacjent z lękiem przed dotykiem — komunikacja” wchodzi w zakres tematu „Studia przypadków” (11.6)."
+    answer: true
+  - type: multichoice
+    name: "11.6 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Studia przypadków” (11.6)?"
+    answers:
+      - text: "11.6.1. Pacjent z bólem kręgosłupa lędźwiowego"  fraction: 100
+      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"  fraction: 0
+      - text: "3.18.9. Kiedy reakcja jest alarmowa"  fraction: 0
+      - text: "5.8.8. Osoby z chorobami przewlekłymi"  fraction: 0

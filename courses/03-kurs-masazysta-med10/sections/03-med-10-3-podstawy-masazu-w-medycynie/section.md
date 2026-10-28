@@ -12,29 +12,29 @@ Moduł przedstawia podstawy masażu w medycynie: procesy patologiczne i objawy c
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Strona | Quiz | Zadanie | Liczba zagadnień |
+| Nr tematu | Książka (book) | Quiz | Zadanie | Liczba zagadnień |
 |-----------|--------|------|---------|------------------|
-| 3.1 | page-01 | quiz-01 | assignment-01 | 10 |
-| 3.2 | page-02 | quiz-02 | assignment-02 | 10 |
-| 3.3 | page-03 | quiz-03 | assignment-03 | 10 |
-| 3.4 | page-04 | quiz-04 | assignment-04 | 10 |
-| 3.5 | page-05 | quiz-05 | assignment-05 | 10 |
-| 3.6 | page-06 | quiz-06 | assignment-06 | 10 |
-| 3.7 | page-07 | quiz-07 | assignment-07 | 10 |
-| 3.8 | page-08 | quiz-08 | assignment-08 | 10 |
-| 3.9 | page-09 | quiz-09 | assignment-09 | 10 |
-| 3.10 | page-10 | quiz-10 | assignment-10 | 10 |
-| 3.11 | page-11 | quiz-11 | assignment-11 | 10 |
-| 3.12 | page-12 | quiz-12 | assignment-12 | 10 |
-| 3.13 | page-13 | quiz-13 | assignment-13 | 10 |
-| 3.14 | page-14 | quiz-14 | assignment-14 | 10 |
-| 3.15 | page-15 | quiz-15 | assignment-15 | 10 |
-| 3.16 | page-16 | quiz-16 | assignment-16 | 10 |
-| 3.17 | page-17 | quiz-17 | assignment-17 | 10 |
-| 3.18 | page-18 | quiz-18 | assignment-18 | 10 |
-| 3.19 | page-19 | quiz-19 | assignment-19 | 10 |
-| 3.20 | page-20 | quiz-20 | assignment-20 | 10 |
-| 3.21 | page-21 | quiz-21 | assignment-21 | 10 |
+| 3.1 | book-01 | quiz-01 | assignment-01 | 10 |
+| 3.2 | book-02 | quiz-02 | assignment-02 | 10 |
+| 3.3 | book-03 | quiz-03 | assignment-03 | 10 |
+| 3.4 | book-04 | quiz-04 | assignment-04 | 10 |
+| 3.5 | book-05 | quiz-05 | assignment-05 | 10 |
+| 3.6 | book-06 | quiz-06 | assignment-06 | 10 |
+| 3.7 | book-07 | quiz-07 | assignment-07 | 10 |
+| 3.8 | book-08 | quiz-08 | assignment-08 | 10 |
+| 3.9 | book-09 | quiz-09 | assignment-09 | 10 |
+| 3.10 | book-10 | quiz-10 | assignment-10 | 10 |
+| 3.11 | book-11 | quiz-11 | assignment-11 | 10 |
+| 3.12 | book-12 | quiz-12 | assignment-12 | 10 |
+| 3.13 | book-13 | quiz-13 | assignment-13 | 10 |
+| 3.14 | book-14 | quiz-14 | assignment-14 | 10 |
+| 3.15 | book-15 | quiz-15 | assignment-15 | 10 |
+| 3.16 | book-16 | quiz-16 | assignment-16 | 10 |
+| 3.17 | book-17 | quiz-17 | assignment-17 | 10 |
+| 3.18 | book-18 | quiz-18 | assignment-18 | 10 |
+| 3.19 | book-19 | quiz-19 | assignment-19 | 10 |
+| 3.20 | book-20 | quiz-20 | assignment-20 | 10 |
+| 3.21 | book-21 | quiz-21 | assignment-21 | 10 |
 
 ## Sposób zaliczenia
 

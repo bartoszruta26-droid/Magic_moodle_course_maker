@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.4. Planowanie zabiegu masażu"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.4 — zagadnienie 1"
+  - id: "tf-s04-44-q1"
+    type: "truefalse"
+    name: "tf-s04-44-q1"
     text: "Zagadnienie „4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 1"
+  - id: "tf-s04-44-q1b"
+    type: "truefalse"
+    name: "tf-s04-44-q1b"
     text: "Zagadnienie „4.4.2. Dobór rodzaju masażu” jest elementem zagadnienia „4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 2"
+  - id: "tf-s04-44-q2"
+    type: "truefalse"
+    name: "tf-s04-44-q2"
     text: "Zagadnienie „4.4.2. Dobór rodzaju masażu” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 2"
+  - id: "tf-s04-44-q2b"
+    type: "truefalse"
+    name: "tf-s04-44-q2b"
     text: "Zagadnienie „4.4.3. Dobór technik” jest elementem zagadnienia „4.4.2. Dobór rodzaju masażu”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 3"
+  - id: "tf-s04-44-q3"
+    type: "truefalse"
+    name: "tf-s04-44-q3"
     text: "Zagadnienie „4.4.3. Dobór technik” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 3"
+  - id: "tf-s04-44-q3b"
+    type: "truefalse"
+    name: "tf-s04-44-q3b"
     text: "Zagadnienie „4.4.4. Dobór kolejności” jest elementem zagadnienia „4.4.3. Dobór technik”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 4"
+  - id: "tf-s04-44-q4"
+    type: "truefalse"
+    name: "tf-s04-44-q4"
     text: "Zagadnienie „4.4.4. Dobór kolejności” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 4"
+  - id: "tf-s04-44-q4b"
+    type: "truefalse"
+    name: "tf-s04-44-q4b"
     text: "Zagadnienie „4.4.5. Dobór czasu i siły” jest elementem zagadnienia „4.4.4. Dobór kolejności”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 5"
+  - id: "tf-s04-44-q5"
+    type: "truefalse"
+    name: "tf-s04-44-q5"
     text: "Zagadnienie „4.4.5. Dobór czasu i siły” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 5"
+  - id: "tf-s04-44-q5b"
+    type: "truefalse"
+    name: "tf-s04-44-q5b"
     text: "Zagadnienie „4.4.6. Dobór pozycji pacjenta” jest elementem zagadnienia „4.4.5. Dobór czasu i siły”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 6"
+  - id: "tf-s04-44-q6"
+    type: "truefalse"
+    name: "tf-s04-44-q6"
     text: "Zagadnienie „4.4.6. Dobór pozycji pacjenta” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 6"
+  - id: "tf-s04-44-q6b"
+    type: "truefalse"
+    name: "tf-s04-44-q6b"
     text: "Zagadnienie „4.4.7. Dobór środków poślizgowych” jest elementem zagadnienia „4.4.6. Dobór pozycji pacjenta”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 7"
+  - id: "tf-s04-44-q7"
+    type: "truefalse"
+    name: "tf-s04-44-q7"
     text: "Zagadnienie „4.4.7. Dobór środków poślizgowych” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 7"
+  - id: "tf-s04-44-q7b"
+    type: "truefalse"
+    name: "tf-s04-44-q7b"
     text: "Zagadnienie „4.4.8. Uwzględnienie zlecenia lekarskiego” jest elementem zagadnienia „4.4.7. Dobór środków poślizgowych”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 8"
+  - id: "tf-s04-44-q8"
+    type: "truefalse"
+    name: "tf-s04-44-q8"
     text: "Zagadnienie „4.4.8. Uwzględnienie zlecenia lekarskiego” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 8"
+  - id: "tf-s04-44-q8b"
+    type: "truefalse"
+    name: "tf-s04-44-q8b"
     text: "Zagadnienie „4.4.9. Uwzględnienie preferencji i granic pacjenta” jest elementem zagadnienia „4.4.8. Uwzględnienie zlecenia lekarskiego”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 9"
+  - id: "tf-s04-44-q9"
+    type: "truefalse"
+    name: "tf-s04-44-q9"
     text: "Zagadnienie „4.4.9. Uwzględnienie preferencji i granic pacjenta” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: truefalse
-    name: "4.4 — rozgraniczenie 9"
+  - id: "tf-s04-44-q9b"
+    type: "truefalse"
+    name: "tf-s04-44-q9b"
     text: "Zagadnienie „4.4.10. Plan serii zabiegów i oceny efektów” jest elementem zagadnienia „4.4.9. Uwzględnienie preferencji i granic pacjenta”, a nie tematu „Planowanie zabiegu masażu” (4.4)."
     answer: false
-  - type: truefalse
-    name: "4.4 — zagadnienie 10"
+  - id: "tf-s04-44-q10"
+    type: "truefalse"
+    name: "tf-s04-44-q10"
     text: "Zagadnienie „4.4.10. Plan serii zabiegów i oceny efektów” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4)."
     answer: true
-  - type: multichoice
-    name: "4.4 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-44"
+    type: "multichoice"
+    name: "mc-s04-44"
     text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
     answers:
-      - text: "4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"  fraction: 100
-      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
-      - text: "3.14.1. Odciążenie grawitacyjne"  fraction: 0
-      - text: "5.4.1. Napięcie mięśniowe po treningu"  fraction: 0
+      - text: "4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "4.4.2. Dobór rodzaju masażu"
+        fraction: 0
+      - text: "4.4.3. Dobór technik"
+        fraction: 0
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"
+        fraction: 0
+      - text: "3.14.1. Odciążenie grawitacyjne"
+        fraction: 0
+      - text: "5.4.1. Napięcie mięśniowe po treningu"
+        fraction: 0
+  - id: "mc-s04-44-q1"
+    type: "multichoice"
+    name: "mc-s04-44-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.1 Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s04-44-q2"
+    type: "multichoice"
+    name: "mc-s04-44-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.2 Dobor rodzaju masazu"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s04-44-q3"
+    type: "multichoice"
+    name: "mc-s04-44-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.3 Dobor technik"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s04-44-q4"
+    type: "multichoice"
+    name: "mc-s04-44-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.4 Dobor kolejnosci"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s04-44-q5"
+    type: "multichoice"
+    name: "mc-s04-44-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.5 Dobor czasu i sily"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s04-44-q6"
+    type: "multichoice"
+    name: "mc-s04-44-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.6 Dobor pozycji pacjenta"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s04-44-q7"
+    type: "multichoice"
+    name: "mc-s04-44-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.7 Dobor srodkow poslizgowych"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s04-44-q8"
+    type: "multichoice"
+    name: "mc-s04-44-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.8 Uwzglednienie zlecenia lekarskiego"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s04-44-q9"
+    type: "multichoice"
+    name: "mc-s04-44-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.9 Uwzglednienie preferencji i granic pacjenta"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s04-44-q10"
+    type: "multichoice"
+    name: "mc-s04-44-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.10 Plan serii zabiegow i oceny efektow"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s04-44-v1"
+    type: "multichoice"
+    name: "mc-s04-44-v1"
+    text: "Które zagadnienie należy do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "0.5# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "0.5# 4.4.3 Dobor technik"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-44-v2"
+    type: "multichoice"
+    name: "mc-s04-44-v2"
+    text: "Które zagadnienie NIE należy do tematu „Planowanie zabiegu masażu” (4.4), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "-0.25# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "-0.25# 4.4.3 Dobor technik"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-44-v3"
+    type: "multichoice"
+    name: "mc-s04-44-v3"
+    text: "Które zagadnienie należy do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.3 Dobor technik"
+        fraction: 100
+      - text: "0.5# 4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 0
+      - text: "0.5# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-44-v4"
+    type: "multichoice"
+    name: "mc-s04-44-v4"
+    text: "Które zagadnienie NIE należy do tematu „Planowanie zabiegu masażu” (4.4), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "-0.25# 4.4.4 Dobor kolejnosci"
+        fraction: 0
+      - text: "-0.25# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

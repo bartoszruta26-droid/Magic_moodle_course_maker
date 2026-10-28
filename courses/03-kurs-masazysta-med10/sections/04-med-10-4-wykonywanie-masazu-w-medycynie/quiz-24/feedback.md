@@ -10,3 +10,14 @@ Cele informacji zwrotnej: utwierdzić uczestnika w tym, co opanował dobrze, i w
 ## Klucz odpowiedzi
 
 Poprawne odpowiedzi wynikają wprost ze strony tematycznej „4.24. Bezpieczeństwo podczas trwania zabiegu” (sekcja „Zagadnienia szczegółowe”).
+
+## Tryby powtórzeń i uczciwe zasady
+
+- Quiz można rozwiązać **dwukrotnie**; do oceny liczy się lepszy wynik.
+- Limit czasu: **10 minut** — tyle samo dla każdej osoby, bez wyjątków
+  (osoby z rekomendacją poradni PSW-P mogą korzystać z wydłużenia czasu
+  i powiększonej czcionki — dostępność to sprawiedliwość, nie przywilej).
+- Próg zaliczenia: **60%** pytań. Odpowiedzi losowane z banku, dlatego
+  drugie podejście sprawdza wiedzę, nie pamięć układu arkusza.
+- Wynik poniżej progu nie jest oceną osoby — jest informacją, które
+  zagadnienia warto powtórzyć przed zajęciami praktycznymi.

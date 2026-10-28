@@ -6,35 +6,35 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-wprowadzenie-do-jezyka-obcego-zawodowego-masazysty.md"
+  - type: book
+    ref: book-01-wprowadzenie-do-jezyka-obcego-zawodowego-masazysty
     name: "7.1. Wprowadzenie do języka obcego zawodowego masażysty"
-  - type: page
-    ref: "page-02-stanowisko-pracy-i-wyposazenie.md"
+  - type: book
+    ref: book-02-stanowisko-pracy-i-wyposazenie
     name: "7.2. Stanowisko pracy i wyposażenie"
-  - type: page
-    ref: "page-03-technologie-i-procedury-masazu-w-jezyku-obcym.md"
+  - type: book
+    ref: book-03-technologie-i-procedury-masazu-w-jezyku-obcym
     name: "7.3. Technologie i procedury masażu w języku obcym"
-  - type: page
-    ref: "page-04-dokumentacja-zawodowa-w-jezyku-obcym.md"
+  - type: book
+    ref: book-04-dokumentacja-zawodowa-w-jezyku-obcym
     name: "7.4. Dokumentacja zawodowa w języku obcym"
-  - type: page
-    ref: "page-05-uslugi-swiadczone-w-zawodzie-i-obsluga-klienta.md"
+  - type: book
+    ref: book-05-uslugi-swiadczone-w-zawodzie-i-obsluga-klienta
     name: "7.5. Usługi świadczone w zawodzie i obsługa klienta"
-  - type: page
-    ref: "page-06-rozumienie-wypowiedzi-ustnych-i-pisemnych.md"
+  - type: book
+    ref: book-06-rozumienie-wypowiedzi-ustnych-i-pisemnych
     name: "7.6. Rozumienie wypowiedzi ustnych i pisemnych"
-  - type: page
-    ref: "page-07-tworzenie-wypowiedzi-ustnych-i-pisemnych.md"
+  - type: book
+    ref: book-07-tworzenie-wypowiedzi-ustnych-i-pisemnych
     name: "7.7. Tworzenie wypowiedzi ustnych i pisemnych"
-  - type: page
-    ref: "page-08-rozmowa-w-typowych-sytuacjach-zawodowych.md"
+  - type: book
+    ref: book-08-rozmowa-w-typowych-sytuacjach-zawodowych
     name: "7.8. Rozmowa w typowych sytuacjach zawodowych"
-  - type: page
-    ref: "page-09-przekazywanie-informacji-z-materialow-wizualnych-i.md"
+  - type: book
+    ref: book-09-przekazywanie-informacji-z-materialow-wizualnych-i-audi
     name: "7.9. Przekazywanie informacji z materiałów wizualnych i audiowizualnych"
-  - type: page
-    ref: "page-10-strategie-komunikacyjne-i-kompensacyjne.md"
+  - type: book
+    ref: book-10-strategie-komunikacyjne-i-kompensacyjne
     name: "7.10. Strategie komunikacyjne i kompensacyjne"
   - type: book
     ref: book-01

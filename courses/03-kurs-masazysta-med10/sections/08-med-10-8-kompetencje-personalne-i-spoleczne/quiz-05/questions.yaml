@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "8.5. Kreatywność i otwartość na zmiany"
 category: masaz
 questions:
-  - type: truefalse
-    name: "8.5 — zagadnienie 1"
+  - id: "tf-s08-85-q1"
+    type: "truefalse"
+    name: "tf-s08-85-q1"
     text: "Zagadnienie „8.5.1. Sytuacje nietypowe w gabinecie” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 1"
+  - id: "tf-s08-85-q1b"
+    type: "truefalse"
+    name: "tf-s08-85-q1b"
     text: "Zagadnienie „8.5.2. Pacjent z lękiem przed dotykiem” jest elementem zagadnienia „8.5.1. Sytuacje nietypowe w gabinecie”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 2"
+  - id: "tf-s08-85-q2"
+    type: "truefalse"
+    name: "tf-s08-85-q2"
     text: "Zagadnienie „8.5.2. Pacjent z lękiem przed dotykiem” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 2"
+  - id: "tf-s08-85-q2b"
+    type: "truefalse"
+    name: "tf-s08-85-q2b"
     text: "Zagadnienie „8.5.3. Pacjent z bólem przewlekłym” jest elementem zagadnienia „8.5.2. Pacjent z lękiem przed dotykiem”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 3"
+  - id: "tf-s08-85-q3"
+    type: "truefalse"
+    name: "tf-s08-85-q3"
     text: "Zagadnienie „8.5.3. Pacjent z bólem przewlekłym” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 3"
+  - id: "tf-s08-85-q3b"
+    type: "truefalse"
+    name: "tf-s08-85-q3b"
     text: "Zagadnienie „8.5.4. Pacjent z niepełnosprawnością komunikacyjną” jest elementem zagadnienia „8.5.3. Pacjent z bólem przewlekłym”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 4"
+  - id: "tf-s08-85-q4"
+    type: "truefalse"
+    name: "tf-s08-85-q4"
     text: "Zagadnienie „8.5.4. Pacjent z niepełnosprawnością komunikacyjną” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 4"
+  - id: "tf-s08-85-q4b"
+    type: "truefalse"
+    name: "tf-s08-85-q4b"
     text: "Zagadnienie „8.5.5. Awaria sprzętu” jest elementem zagadnienia „8.5.4. Pacjent z niepełnosprawnością komunikacyjną”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 5"
+  - id: "tf-s08-85-q5"
+    type: "truefalse"
+    name: "tf-s08-85-q5"
     text: "Zagadnienie „8.5.5. Awaria sprzętu” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 5"
+  - id: "tf-s08-85-q5b"
+    type: "truefalse"
+    name: "tf-s08-85-q5b"
     text: "Zagadnienie „8.5.6. Zmiana zlecenia lekarskiego” jest elementem zagadnienia „8.5.5. Awaria sprzętu”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 6"
+  - id: "tf-s08-85-q6"
+    type: "truefalse"
+    name: "tf-s08-85-q6"
     text: "Zagadnienie „8.5.6. Zmiana zlecenia lekarskiego” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 6"
+  - id: "tf-s08-85-q6b"
+    type: "truefalse"
+    name: "tf-s08-85-q6b"
     text: "Zagadnienie „8.5.7. Ograniczona przestrzeń pracy” jest elementem zagadnienia „8.5.6. Zmiana zlecenia lekarskiego”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 7"
+  - id: "tf-s08-85-q7"
+    type: "truefalse"
+    name: "tf-s08-85-q7"
     text: "Zagadnienie „8.5.7. Ograniczona przestrzeń pracy” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 7"
+  - id: "tf-s08-85-q7b"
+    type: "truefalse"
+    name: "tf-s08-85-q7b"
     text: "Zagadnienie „8.5.8. Bezpieczne modyfikacje techniki” jest elementem zagadnienia „8.5.7. Ograniczona przestrzeń pracy”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 8"
+  - id: "tf-s08-85-q8"
+    type: "truefalse"
+    name: "tf-s08-85-q8"
     text: "Zagadnienie „8.5.8. Bezpieczne modyfikacje techniki” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 8"
+  - id: "tf-s08-85-q8b"
+    type: "truefalse"
+    name: "tf-s08-85-q8b"
     text: "Zagadnienie „8.5.9. Ocena skuteczności działania” jest elementem zagadnienia „8.5.8. Bezpieczne modyfikacje techniki”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 9"
+  - id: "tf-s08-85-q9"
+    type: "truefalse"
+    name: "tf-s08-85-q9"
     text: "Zagadnienie „8.5.9. Ocena skuteczności działania” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: truefalse
-    name: "8.5 — rozgraniczenie 9"
+  - id: "tf-s08-85-q9b"
+    type: "truefalse"
+    name: "tf-s08-85-q9b"
     text: "Zagadnienie „8.5.10. Pokora wobec granic własnej wiedzy” jest elementem zagadnienia „8.5.9. Ocena skuteczności działania”, a nie tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: false
-  - type: truefalse
-    name: "8.5 — zagadnienie 10"
+  - id: "tf-s08-85-q10"
+    type: "truefalse"
+    name: "tf-s08-85-q10"
     text: "Zagadnienie „8.5.10. Pokora wobec granic własnej wiedzy” wchodzi w zakres tematu „Kreatywność i otwartość na zmiany” (8.5)."
     answer: true
-  - type: multichoice
-    name: "8.5 — przyporządkowanie zagadnienia"
+  - id: "mc-s08-85"
+    type: "multichoice"
+    name: "mc-s08-85"
     text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
     answers:
-      - text: "8.5.1. Sytuacje nietypowe w gabinecie"  fraction: 100
-      - text: "2.1.6. Ochrona małoletnich"  fraction: 0
-      - text: "3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny"  fraction: 0
-      - text: "5.4.5. Ból ostry — nie masować bez diagnozy"  fraction: 0
+      - text: "8.5.1. Sytuacje nietypowe w gabinecie"
+        fraction: 100
+      - text: "8.5.2. Pacjent z lękiem przed dotykiem"
+        fraction: 0
+      - text: "8.5.3. Pacjent z bólem przewlekłym"
+        fraction: 0
+      - text: "2.1.6. Ochrona małoletnich"
+        fraction: 0
+      - text: "3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny"
+        fraction: 0
+      - text: "5.4.5. Ból ostry — nie masować bez diagnozy"
+        fraction: 0
+  - id: "mc-s08-85-q1"
+    type: "multichoice"
+    name: "mc-s08-85-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.1 Sytuacje nietypowe w gabinecie"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s08-85-q2"
+    type: "multichoice"
+    name: "mc-s08-85-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.2 Pacjent z lekiem przed dotykiem"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s08-85-q3"
+    type: "multichoice"
+    name: "mc-s08-85-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.3 Pacjent z bolem przewleklym"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s08-85-q4"
+    type: "multichoice"
+    name: "mc-s08-85-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.4 Pacjent z niepelnosprawnoscia komunikacyjna"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s08-85-q5"
+    type: "multichoice"
+    name: "mc-s08-85-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.5 Awaria sprzetu"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s08-85-q6"
+    type: "multichoice"
+    name: "mc-s08-85-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.6 Zmiana zlecenia lekarskiego"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-85-q7"
+    type: "multichoice"
+    name: "mc-s08-85-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.7 Ograniczona przestrzen pracy"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-85-q8"
+    type: "multichoice"
+    name: "mc-s08-85-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.8 Bezpieczne modyfikacje techniki"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s08-85-q9"
+    type: "multichoice"
+    name: "mc-s08-85-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.9 Ocena skutecznosci dzialania"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s08-85-q10"
+    type: "multichoice"
+    name: "mc-s08-85-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.10 Pokora wobec granic wlasnej wiedzy"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-85-v1"
+    type: "multichoice"
+    name: "mc-s08-85-v1"
+    text: "Które zagadnienie należy do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.1 Sytuacje nietypowe w gabinecie"
+        fraction: 100
+      - text: "0.5# 8.5.2 Pacjent z lekiem przed dotykiem"
+        fraction: 0
+      - text: "0.5# 8.5.3 Pacjent z bolem przewleklym"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s08-85-v2"
+    type: "multichoice"
+    name: "mc-s08-85-v2"
+    text: "Które zagadnienie NIE należy do tematu „Kreatywność i otwartość na zmiany” (8.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.5.1 Sytuacje nietypowe w gabinecie"
+        fraction: 100
+      - text: "-0.25# 8.5.2 Pacjent z lekiem przed dotykiem"
+        fraction: 0
+      - text: "-0.25# 8.5.3 Pacjent z bolem przewleklym"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s08-85-v3"
+    type: "multichoice"
+    name: "mc-s08-85-v3"
+    text: "Które zagadnienie należy do tematu „Kreatywność i otwartość na zmiany” (8.5)?"
+    answers:
+      - text: "8.5.3 Pacjent z bolem przewleklym"
+        fraction: 100
+      - text: "0.5# 8.5.1 Sytuacje nietypowe w gabinecie"
+        fraction: 0
+      - text: "0.5# 8.5.2 Pacjent z lekiem przed dotykiem"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s08-85-v4"
+    type: "multichoice"
+    name: "mc-s08-85-v4"
+    text: "Które zagadnienie NIE należy do tematu „Kreatywność i otwartość na zmiany” (8.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.5.1 Sytuacje nietypowe w gabinecie"
+        fraction: 100
+      - text: "-0.25# 8.5.4 Pacjent z niepelnosprawnoscia komunikacyjna"
+        fraction: 0
+      - text: "-0.25# 8.5.2 Pacjent z lekiem przed dotykiem"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

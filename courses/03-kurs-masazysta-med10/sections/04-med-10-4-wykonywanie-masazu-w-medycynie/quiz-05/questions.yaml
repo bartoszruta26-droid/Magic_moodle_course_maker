@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.5. Przygotowanie pacjenta do masażu"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.5 — zagadnienie 1"
+  - id: "tf-s04-45-q1"
+    type: "truefalse"
+    name: "tf-s04-45-q1"
     text: "Zagadnienie „4.5.1. Informowanie o przebiegu zabiegu” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 1"
+  - id: "tf-s04-45-q1b"
+    type: "truefalse"
+    name: "tf-s04-45-q1b"
     text: "Zagadnienie „4.5.2. Zgoda na zabieg i prawo odmowy” jest elementem zagadnienia „4.5.1. Informowanie o przebiegu zabiegu”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 2"
+  - id: "tf-s04-45-q2"
+    type: "truefalse"
+    name: "tf-s04-45-q2"
     text: "Zagadnienie „4.5.2. Zgoda na zabieg i prawo odmowy” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 2"
+  - id: "tf-s04-45-q2b"
+    type: "truefalse"
+    name: "tf-s04-45-q2b"
     text: "Zagadnienie „4.5.3. Higiena pacjenta: czysta skóra, brak makijażu, zdjęcie biżuterii” jest elementem zagadnienia „4.5.2. Zgoda na zabieg i prawo odmowy”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 3"
+  - id: "tf-s04-45-q3"
+    type: "truefalse"
+    name: "tf-s04-45-q3"
     text: "Zagadnienie „4.5.3. Higiena pacjenta: czysta skóra, brak makijażu, zdjęcie biżuterii” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 3"
+  - id: "tf-s04-45-q3b"
+    type: "truefalse"
+    name: "tf-s04-45-q3b"
     text: "Zagadnienie „4.5.4. Ubranie lub bielizna — szacunek dla intymności” jest elementem zagadnienia „4.5.3. Higiena pacjenta: czysta skóra, brak makijażu, zdjęcie biżuterii”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 4"
+  - id: "tf-s04-45-q4"
+    type: "truefalse"
+    name: "tf-s04-45-q4"
     text: "Zagadnienie „4.5.4. Ubranie lub bielizna — szacunek dla intymności” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 4"
+  - id: "tf-s04-45-q4b"
+    type: "truefalse"
+    name: "tf-s04-45-q4b"
     text: "Zagadnienie „4.5.5. Wypróżnienie i nawodnienie przy zabiegach brzucha i drenażu” jest elementem zagadnienia „4.5.4. Ubranie lub bielizna — szacunek dla intymności”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 5"
+  - id: "tf-s04-45-q5"
+    type: "truefalse"
+    name: "tf-s04-45-q5"
     text: "Zagadnienie „4.5.5. Wypróżnienie i nawodnienie przy zabiegach brzucha i drenażu” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 5"
+  - id: "tf-s04-45-q5b"
+    type: "truefalse"
+    name: "tf-s04-45-q5b"
     text: "Zagadnienie „4.5.6. Unikanie masażu bezpośrednio po obfitym posiłku” jest elementem zagadnienia „4.5.5. Wypróżnienie i nawodnienie przy zabiegach brzucha i drenażu”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 6"
+  - id: "tf-s04-45-q6"
+    type: "truefalse"
+    name: "tf-s04-45-q6"
     text: "Zagadnienie „4.5.6. Unikanie masażu bezpośrednio po obfitym posiłku” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 6"
+  - id: "tf-s04-45-q6b"
+    type: "truefalse"
+    name: "tf-s04-45-q6b"
     text: "Zagadnienie „4.5.7. Pozycja bezpieczna i komfortowa” jest elementem zagadnienia „4.5.6. Unikanie masażu bezpośrednio po obfitym posiłku”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 7"
+  - id: "tf-s04-45-q7"
+    type: "truefalse"
+    name: "tf-s04-45-q7"
     text: "Zagadnienie „4.5.7. Pozycja bezpieczna i komfortowa” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 7"
+  - id: "tf-s04-45-q7b"
+    type: "truefalse"
+    name: "tf-s04-45-q7b"
     text: "Zagadnienie „4.5.8. Okrycie części nieobszukiwanych” jest elementem zagadnienia „4.5.7. Pozycja bezpieczna i komfortowa”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 8"
+  - id: "tf-s04-45-q8"
+    type: "truefalse"
+    name: "tf-s04-45-q8"
     text: "Zagadnienie „4.5.8. Okrycie części nieobszukiwanych” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 8"
+  - id: "tf-s04-45-q8b"
+    type: "truefalse"
+    name: "tf-s04-45-q8b"
     text: "Zagadnienie „4.5.9. Zapowiedź dotyku i pytanie o zgodę” jest elementem zagadnienia „4.5.8. Okrycie części nieobszukiwanych”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 9"
+  - id: "tf-s04-45-q9"
+    type: "truefalse"
+    name: "tf-s04-45-q9"
     text: "Zagadnienie „4.5.9. Zapowiedź dotyku i pytanie o zgodę” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: truefalse
-    name: "4.5 — rozgraniczenie 9"
+  - id: "tf-s04-45-q9b"
+    type: "truefalse"
+    name: "tf-s04-45-q9b"
     text: "Zagadnienie „4.5.10. Obserwacja lęku, bólu, dyskomfortu” jest elementem zagadnienia „4.5.9. Zapowiedź dotyku i pytanie o zgodę”, a nie tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: false
-  - type: truefalse
-    name: "4.5 — zagadnienie 10"
+  - id: "tf-s04-45-q10"
+    type: "truefalse"
+    name: "tf-s04-45-q10"
     text: "Zagadnienie „4.5.10. Obserwacja lęku, bólu, dyskomfortu” wchodzi w zakres tematu „Przygotowanie pacjenta do masażu” (4.5)."
     answer: true
-  - type: multichoice
-    name: "4.5 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-45"
+    type: "multichoice"
+    name: "mc-s04-45"
     text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
     answers:
-      - text: "4.5.1. Informowanie o przebiegu zabiegu"  fraction: 100
-      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"  fraction: 0
-      - text: "3.14.2. Temperatura wody i jej wpływ"  fraction: 0
-      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"  fraction: 0
+      - text: "4.5.1. Informowanie o przebiegu zabiegu"
+        fraction: 100
+      - text: "4.5.2. Zgoda na zabieg i prawo odmowy"
+        fraction: 0
+      - text: "4.5.3. Higiena pacjenta: czysta skóra, brak makijażu, zdjęcie biżuterii"
+        fraction: 0
+      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"
+        fraction: 0
+      - text: "3.14.2. Temperatura wody i jej wpływ"
+        fraction: 0
+      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"
+        fraction: 0
+  - id: "mc-s04-45-q1"
+    type: "multichoice"
+    name: "mc-s04-45-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.1 Informowanie o przebiegu zabiegu"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s04-45-q2"
+    type: "multichoice"
+    name: "mc-s04-45-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.2 Zgoda na zabieg i prawo odmowy"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s04-45-q3"
+    type: "multichoice"
+    name: "mc-s04-45-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.3 Higiena pacjenta: czysta skora, brak makijazu, zdjecie bizuterii"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s04-45-q4"
+    type: "multichoice"
+    name: "mc-s04-45-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.4 Ubranie lub bielizna — szacunek dla intymnosci"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s04-45-q5"
+    type: "multichoice"
+    name: "mc-s04-45-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.5 Wyproznienie i nawodnienie przy zabiegach brzucha i drenazu"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s04-45-q6"
+    type: "multichoice"
+    name: "mc-s04-45-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.6 Unikanie masazu bezposrednio po obfitym posilku"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s04-45-q7"
+    type: "multichoice"
+    name: "mc-s04-45-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.7 Pozycja bezpieczna i komfortowa"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s04-45-q8"
+    type: "multichoice"
+    name: "mc-s04-45-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.8 Okrycie czesci nieobszukiwanych"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s04-45-q9"
+    type: "multichoice"
+    name: "mc-s04-45-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.9 Zapowiedz dotyku i pytanie o zgode"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s04-45-q10"
+    type: "multichoice"
+    name: "mc-s04-45-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.10 Obserwacja leku, bolu, dyskomfortu"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s04-45-v1"
+    type: "multichoice"
+    name: "mc-s04-45-v1"
+    text: "Które zagadnienie należy do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.1 Informowanie o przebiegu zabiegu"
+        fraction: 100
+      - text: "0.5# 4.5.2 Zgoda na zabieg i prawo odmowy"
+        fraction: 0
+      - text: "0.5# 4.5.3 Higiena pacjenta\\: czysta skora, brak makijazu, zdjecie bizuterii"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-45-v2"
+    type: "multichoice"
+    name: "mc-s04-45-v2"
+    text: "Które zagadnienie NIE należy do tematu „Przygotowanie pacjenta do masażu” (4.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.5.1 Informowanie o przebiegu zabiegu"
+        fraction: 100
+      - text: "-0.25# 4.5.2 Zgoda na zabieg i prawo odmowy"
+        fraction: 0
+      - text: "-0.25# 4.5.3 Higiena pacjenta\\: czysta skora, brak makijazu, zdjecie bizuterii"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-45-v3"
+    type: "multichoice"
+    name: "mc-s04-45-v3"
+    text: "Które zagadnienie należy do tematu „Przygotowanie pacjenta do masażu” (4.5)?"
+    answers:
+      - text: "4.5.3 Higiena pacjenta\\: czysta skora, brak makijazu, zdjecie bizuterii"
+        fraction: 100
+      - text: "0.5# 4.5.1 Informowanie o przebiegu zabiegu"
+        fraction: 0
+      - text: "0.5# 4.5.2 Zgoda na zabieg i prawo odmowy"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-45-v4"
+    type: "multichoice"
+    name: "mc-s04-45-v4"
+    text: "Które zagadnienie NIE należy do tematu „Przygotowanie pacjenta do masażu” (4.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.5.1 Informowanie o przebiegu zabiegu"
+        fraction: 100
+      - text: "-0.25# 4.5.4 Ubranie lub bielizna — szacunek dla intymnosci"
+        fraction: 0
+      - text: "-0.25# 4.5.2 Zgoda na zabieg i prawo odmowy"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

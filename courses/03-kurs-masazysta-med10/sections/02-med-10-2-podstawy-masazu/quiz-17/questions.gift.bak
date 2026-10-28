@@ -1,0 +1,49 @@
+// Quiz: 2.17. Techniki masażu klasycznego — teoria — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-217-q1:: Zagadnienie „2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q1b:: Zagadnienie „2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne” jest elementem zagadnienia „2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q2:: Zagadnienie „2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q2b:: Zagadnienie „2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie” jest elementem zagadnienia „2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q3:: Zagadnienie „2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q3b:: Zagadnienie „2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe” jest elementem zagadnienia „2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q4:: Zagadnienie „2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q4b:: Zagadnienie „2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia” jest elementem zagadnienia „2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q5:: Zagadnienie „2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q5b:: Zagadnienie „2.17.6. Roztrząsanie” jest elementem zagadnienia „2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q6:: Zagadnienie „2.17.6. Roztrząsanie” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q6b:: Zagadnienie „2.17.7. Wałkowanie” jest elementem zagadnienia „2.17.6. Roztrząsanie”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q7:: Zagadnienie „2.17.7. Wałkowanie” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q7b:: Zagadnienie „2.17.8. Uciski” jest elementem zagadnienia „2.17.7. Wałkowanie”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q8:: Zagadnienie „2.17.8. Uciski” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q8b:: Zagadnienie „2.17.9. Naciąganie i trakcje” jest elementem zagadnienia „2.17.8. Uciski”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q9:: Zagadnienie „2.17.9. Naciąganie i trakcje” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::tf-s02-217-q9b:: Zagadnienie „2.17.10. Kolejność technik i kierunek dosercowy” jest elementem zagadnienia „2.17.9. Naciąganie i trakcje”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17). {FALSE} //
+
+::tf-s02-217-q10:: Zagadnienie „2.17.10. Kolejność technik i kierunek dosercowy” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17). {TRUE} //
+
+::mc-s02-217:: Które zagadnienie należy bezpośrednio do tematu „Techniki masażu klasycznego — teoria” (2.17)? {
+    = 2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące
+    ~ 2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne
+    ~ 2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie
+    ~ 2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby
+    ~ 3.19.2. Fizjoterapeuta
+    ~ 6.1.1. Zdrowie jako dobro i zadanie
+}

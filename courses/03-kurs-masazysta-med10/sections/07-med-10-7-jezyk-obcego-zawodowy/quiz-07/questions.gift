@@ -47,3 +47,101 @@
     ~ 3.14.7. Ryzyko poślizgnięcia
     ~ 5.4.6. Stan zapalny — przeciwwskazanie
 }
+
+::mc-s07-77-q1:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.1 Giving simple instructions during massage
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s07-77-q2:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.2 Explaining aftercare
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s07-77-q3:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.3 Writing short emails
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s07-77-q4:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.4 Completing forms
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s07-77-q5:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.5 Preparing CV and cover letter
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s07-77-q6:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.6 Describing professional experience
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s07-77-q7:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.7 Presenting a case safely and anonymously
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s07-77-q8:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.8 Using formal and informal register appropriately
+    ~ Linie anatomiczne i lancuchy miesniowo-powieziowe
+    ~ Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s07-77-q9:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.9 Speaking clearly and slowly
+    ~ Biomechanika ruchu i stabilizacja
+    ~ Obrzek miekki i twardy
+    ~ Dokumentacja
+}
+
+::mc-s07-77-q10:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.10 Avoiding medical overstatement
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s07-77-v1:: Które zagadnienie należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.1 Giving simple instructions during massage
+    ~0.5# 7.7.2 Explaining aftercare
+    ~0.5# 7.7.3 Writing short emails
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s07-77-v2:: Które zagadnienie NIE należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7), lecz jest częścią innego tematu kursu? {
+    = 7.7.1 Giving simple instructions during massage
+    ~-0.25# 7.7.2 Explaining aftercare
+    ~-0.25# 7.7.3 Writing short emails
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s07-77-v3:: Które zagadnienie należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.3 Writing short emails
+    ~0.5# 7.7.1 Giving simple instructions during massage
+    ~0.5# 7.7.2 Explaining aftercare
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s07-77-v4:: Które zagadnienie NIE należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7), lecz jest częścią innego tematu kursu? {
+    = 7.7.1 Giving simple instructions during massage
+    ~-0.25# 7.7.4 Completing forms
+    ~-0.25# 7.7.2 Explaining aftercare
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

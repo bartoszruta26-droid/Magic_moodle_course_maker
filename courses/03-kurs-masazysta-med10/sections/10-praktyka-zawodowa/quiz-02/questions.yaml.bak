@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "10.2. Miejsca realizacji praktyki"
+category: masaz
+questions:
+  - type: truefalse
+    name: "10.2 — zagadnienie 1"
+    text: "Zagadnienie „10.2.1. Zakłady opieki zdrowotnej” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 1"
+    text: "Zagadnienie „10.2.2. Poradnie rehabilitacyjne” jest elementem zagadnienia „10.2.1. Zakłady opieki zdrowotnej”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 2"
+    text: "Zagadnienie „10.2.2. Poradnie rehabilitacyjne” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 2"
+    text: "Zagadnienie „10.2.3. Oddziały szpitalne — za zgodą i nadzorem” jest elementem zagadnienia „10.2.2. Poradnie rehabilitacyjne”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 3"
+    text: "Zagadnienie „10.2.3. Oddziały szpitalne — za zgodą i nadzorem” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 3"
+    text: "Zagadnienie „10.2.4. Hospicja i zakłady opiekuńczo-lecznicze” jest elementem zagadnienia „10.2.3. Oddziały szpitalne — za zgodą i nadzorem”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 4"
+    text: "Zagadnienie „10.2.4. Hospicja i zakłady opiekuńczo-lecznicze” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 4"
+    text: "Zagadnienie „10.2.5. Domy pomocy społecznej” jest elementem zagadnienia „10.2.4. Hospicja i zakłady opiekuńczo-lecznicze”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 5"
+    text: "Zagadnienie „10.2.5. Domy pomocy społecznej” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 5"
+    text: "Zagadnienie „10.2.6. Gabinety masażu leczniczego” jest elementem zagadnienia „10.2.5. Domy pomocy społecznej”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 6"
+    text: "Zagadnienie „10.2.6. Gabinety masażu leczniczego” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 6"
+    text: "Zagadnienie „10.2.7. Ośrodki sportowe i kluby” jest elementem zagadnienia „10.2.6. Gabinety masażu leczniczego”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 7"
+    text: "Zagadnienie „10.2.7. Ośrodki sportowe i kluby” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 7"
+    text: "Zagadnienie „10.2.8. Ośrodki rehabilitacji” jest elementem zagadnienia „10.2.7. Ośrodki sportowe i kluby”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 8"
+    text: "Zagadnienie „10.2.8. Ośrodki rehabilitacji” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 8"
+    text: "Zagadnienie „10.2.9. Podmioty niepubliczne” jest elementem zagadnienia „10.2.8. Ośrodki rehabilitacji”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 9"
+    text: "Zagadnienie „10.2.9. Podmioty niepubliczne” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: truefalse
+    name: "10.2 — rozgraniczenie 9"
+    text: "Zagadnienie „10.2.10. Wymogi prawne miejsca praktyki” jest elementem zagadnienia „10.2.9. Podmioty niepubliczne”, a nie tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: false
+  - type: truefalse
+    name: "10.2 — zagadnienie 10"
+    text: "Zagadnienie „10.2.10. Wymogi prawne miejsca praktyki” wchodzi w zakres tematu „Miejsca realizacji praktyki” (10.2)."
+    answer: true
+  - type: multichoice
+    name: "10.2 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsca realizacji praktyki” (10.2)?"
+    answers:
+      - text: "10.2.1. Zakłady opieki zdrowotnej"  fraction: 100
+      - text: "2.5.4. Zgoda na zabieg masażu"  fraction: 0
+      - text: "3.18.4. Redukcja obrzęku"  fraction: 0
+      - text: "5.8.3. Ochrona prywatności zawodnika"  fraction: 0

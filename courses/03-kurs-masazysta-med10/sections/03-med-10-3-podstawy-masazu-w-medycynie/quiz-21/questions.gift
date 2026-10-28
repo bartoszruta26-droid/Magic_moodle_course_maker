@@ -47,3 +47,101 @@
     ~ 3.18.7. Wpływ na sen i samopoczucie
     ~ 5.8.7. Kobiety w ciąży w sporcie — ograniczenia
 }
+
+::mc-s03-321-q1:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.1 Choroby zwyrodnieniowe stawow
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s03-321-q2:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.2 Zespoly bolowe kregoslupa
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s03-321-q3:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.3 Stan po urazach i operacjach
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s03-321-q4:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.4 Choroby reumatyczne
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s03-321-q5:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.5 Choroby neurologiczne
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s03-321-q6:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.6 Choroby ukladu krazenia
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s03-321-q7:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.7 Choroby ukladu oddechowego
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s03-321-q8:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.8 Choroby ukladu pokarmowego
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s03-321-q9:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.9 Obrzeki limfatyczne
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s03-321-q10:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.10 Zasada kolejnosci: najpierw bezpieczenstwo, potem efekt
+    ~ Zasada stopniowania bodzca
+    ~ Cwiczenia fizyczne i oddechowe
+    ~ Effleurage, petrissage, friction, tapotement, vibration
+}
+
+::mc-s03-321-v1:: Które zagadnienie należy do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.1 Choroby zwyrodnieniowe stawow
+    ~0.5# 3.21.2 Zespoly bolowe kregoslupa
+    ~0.5# 3.21.3 Stan po urazach i operacjach
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-321-v2:: Które zagadnienie NIE należy do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21), lecz jest częścią innego tematu kursu? {
+    = 3.21.1 Choroby zwyrodnieniowe stawow
+    ~-0.25# 3.21.2 Zespoly bolowe kregoslupa
+    ~-0.25# 3.21.3 Stan po urazach i operacjach
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-321-v3:: Które zagadnienie należy do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21)? {
+    = 3.21.3 Stan po urazach i operacjach
+    ~0.5# 3.21.1 Choroby zwyrodnieniowe stawow
+    ~0.5# 3.21.2 Zespoly bolowe kregoslupa
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-321-v4:: Które zagadnienie NIE należy do tematu „Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych” (3.21), lecz jest częścią innego tematu kursu? {
+    = 3.21.1 Choroby zwyrodnieniowe stawow
+    ~-0.25# 3.21.4 Choroby reumatyczne
+    ~-0.25# 3.21.2 Zespoly bolowe kregoslupa
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "11.4. Powtórka patologii i wskazań/przeciwwskazań"
 category: masaz
 questions:
-  - type: truefalse
-    name: "11.4 — zagadnienie 1"
+  - id: "tf-s11-114-q1"
+    type: "truefalse"
+    name: "tf-s11-114-q1"
     text: "Zagadnienie „11.4.1. Choroby narządu ruchu” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 1"
+  - id: "tf-s11-114-q1b"
+    type: "truefalse"
+    name: "tf-s11-114-q1b"
     text: "Zagadnienie „11.4.2. Choroby neurologiczne” jest elementem zagadnienia „11.4.1. Choroby narządu ruchu”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 2"
+  - id: "tf-s11-114-q2"
+    type: "truefalse"
+    name: "tf-s11-114-q2"
     text: "Zagadnienie „11.4.2. Choroby neurologiczne” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 2"
+  - id: "tf-s11-114-q2b"
+    type: "truefalse"
+    name: "tf-s11-114-q2b"
     text: "Zagadnienie „11.4.3. Choroby krążenia” jest elementem zagadnienia „11.4.2. Choroby neurologiczne”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 3"
+  - id: "tf-s11-114-q3"
+    type: "truefalse"
+    name: "tf-s11-114-q3"
     text: "Zagadnienie „11.4.3. Choroby krążenia” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 3"
+  - id: "tf-s11-114-q3b"
+    type: "truefalse"
+    name: "tf-s11-114-q3b"
     text: "Zagadnienie „11.4.4. Choroby oddechowe” jest elementem zagadnienia „11.4.3. Choroby krążenia”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 4"
+  - id: "tf-s11-114-q4"
+    type: "truefalse"
+    name: "tf-s11-114-q4"
     text: "Zagadnienie „11.4.4. Choroby oddechowe” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 4"
+  - id: "tf-s11-114-q4b"
+    type: "truefalse"
+    name: "tf-s11-114-q4b"
     text: "Zagadnienie „11.4.5. Choroby pokarmowe” jest elementem zagadnienia „11.4.4. Choroby oddechowe”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 5"
+  - id: "tf-s11-114-q5"
+    type: "truefalse"
+    name: "tf-s11-114-q5"
     text: "Zagadnienie „11.4.5. Choroby pokarmowe” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 5"
+  - id: "tf-s11-114-q5b"
+    type: "truefalse"
+    name: "tf-s11-114-q5b"
     text: "Zagadnienie „11.4.6. Choroby moczowo-płciowe” jest elementem zagadnienia „11.4.5. Choroby pokarmowe”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 6"
+  - id: "tf-s11-114-q6"
+    type: "truefalse"
+    name: "tf-s11-114-q6"
     text: "Zagadnienie „11.4.6. Choroby moczowo-płciowe” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 6"
+  - id: "tf-s11-114-q6b"
+    type: "truefalse"
+    name: "tf-s11-114-q6b"
     text: "Zagadnienie „11.4.7. Choroby skóry” jest elementem zagadnienia „11.4.6. Choroby moczowo-płciowe”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 7"
+  - id: "tf-s11-114-q7"
+    type: "truefalse"
+    name: "tf-s11-114-q7"
     text: "Zagadnienie „11.4.7. Choroby skóry” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 7"
+  - id: "tf-s11-114-q7b"
+    type: "truefalse"
+    name: "tf-s11-114-q7b"
     text: "Zagadnienie „11.4.8. Obrzęki” jest elementem zagadnienia „11.4.7. Choroby skóry”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 8"
+  - id: "tf-s11-114-q8"
+    type: "truefalse"
+    name: "tf-s11-114-q8"
     text: "Zagadnienie „11.4.8. Obrzęki” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 8"
+  - id: "tf-s11-114-q8b"
+    type: "truefalse"
+    name: "tf-s11-114-q8b"
     text: "Zagadnienie „11.4.9. Stany pourazowe” jest elementem zagadnienia „11.4.8. Obrzęki”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 9"
+  - id: "tf-s11-114-q9"
+    type: "truefalse"
+    name: "tf-s11-114-q9"
     text: "Zagadnienie „11.4.9. Stany pourazowe” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: truefalse
-    name: "11.4 — rozgraniczenie 9"
+  - id: "tf-s11-114-q9b"
+    type: "truefalse"
+    name: "tf-s11-114-q9b"
     text: "Zagadnienie „11.4.10. Czerwone flagi” jest elementem zagadnienia „11.4.9. Stany pourazowe”, a nie tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: false
-  - type: truefalse
-    name: "11.4 — zagadnienie 10"
+  - id: "tf-s11-114-q10"
+    type: "truefalse"
+    name: "tf-s11-114-q10"
     text: "Zagadnienie „11.4.10. Czerwone flagi” wchodzi w zakres tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)."
     answer: true
-  - type: multichoice
-    name: "11.4 — przyporządkowanie zagadnienia"
+  - id: "mc-s11-114"
+    type: "multichoice"
+    name: "mc-s11-114"
     text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
     answers:
-      - text: "11.4.1. Choroby narządu ruchu"  fraction: 100
-      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"  fraction: 0
-      - text: "3.18.7. Wpływ na sen i samopoczucie"  fraction: 0
-      - text: "5.8.6. Małoletni: zgoda opiekuna"  fraction: 0
+      - text: "11.4.1. Choroby narządu ruchu"
+        fraction: 100
+      - text: "11.4.2. Choroby neurologiczne"
+        fraction: 0
+      - text: "11.4.3. Choroby krążenia"
+        fraction: 0
+      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"
+        fraction: 0
+      - text: "3.18.7. Wpływ na sen i samopoczucie"
+        fraction: 0
+      - text: "5.8.6. Małoletni: zgoda opiekuna"
+        fraction: 0
+  - id: "mc-s11-114-q1"
+    type: "multichoice"
+    name: "mc-s11-114-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.1 Choroby narzadu ruchu"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Dlonie, przedramiona, kciuki"
+        fraction: 0
+  - id: "mc-s11-114-q2"
+    type: "multichoice"
+    name: "mc-s11-114-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.2 Choroby neurologiczne"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s11-114-q3"
+    type: "multichoice"
+    name: "mc-s11-114-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.3 Choroby krazenia"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s11-114-q4"
+    type: "multichoice"
+    name: "mc-s11-114-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.4 Choroby oddechowe"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s11-114-q5"
+    type: "multichoice"
+    name: "mc-s11-114-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.5 Choroby pokarmowe"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s11-114-q6"
+    type: "multichoice"
+    name: "mc-s11-114-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.6 Choroby moczowo-plciowe"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s11-114-q7"
+    type: "multichoice"
+    name: "mc-s11-114-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.7 Choroby skory"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s11-114-q8"
+    type: "multichoice"
+    name: "mc-s11-114-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.8 Obrzeki"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s11-114-q9"
+    type: "multichoice"
+    name: "mc-s11-114-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.9 Stany pourazowe"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s11-114-q10"
+    type: "multichoice"
+    name: "mc-s11-114-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.10 Czerwone flagi"
+        fraction: 100
+      - text: "Zasada stopniowania bodzca"
+        fraction: 0
+      - text: "Terapia ulozeniowa"
+        fraction: 0
+      - text: "Reading instructions and labels"
+        fraction: 0
+  - id: "mc-s11-114-v1"
+    type: "multichoice"
+    name: "mc-s11-114-v1"
+    text: "Które zagadnienie należy do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.1 Choroby narzadu ruchu"
+        fraction: 100
+      - text: "0.5# 11.4.2 Choroby neurologiczne"
+        fraction: 0
+      - text: "0.5# 11.4.3 Choroby krazenia"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s11-114-v2"
+    type: "multichoice"
+    name: "mc-s11-114-v2"
+    text: "Które zagadnienie NIE należy do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "11.4.1 Choroby narzadu ruchu"
+        fraction: 100
+      - text: "-0.25# 11.4.2 Choroby neurologiczne"
+        fraction: 0
+      - text: "-0.25# 11.4.3 Choroby krazenia"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s11-114-v3"
+    type: "multichoice"
+    name: "mc-s11-114-v3"
+    text: "Które zagadnienie należy do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4)?"
+    answers:
+      - text: "11.4.3 Choroby krazenia"
+        fraction: 100
+      - text: "0.5# 11.4.1 Choroby narzadu ruchu"
+        fraction: 0
+      - text: "0.5# 11.4.2 Choroby neurologiczne"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s11-114-v4"
+    type: "multichoice"
+    name: "mc-s11-114-v4"
+    text: "Które zagadnienie NIE należy do tematu „Powtórka patologii i wskazań/przeciwwskazań” (11.4), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "11.4.1 Choroby narzadu ruchu"
+        fraction: 100
+      - text: "-0.25# 11.4.4 Choroby oddechowe"
+        fraction: 0
+      - text: "-0.25# 11.4.2 Choroby neurologiczne"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

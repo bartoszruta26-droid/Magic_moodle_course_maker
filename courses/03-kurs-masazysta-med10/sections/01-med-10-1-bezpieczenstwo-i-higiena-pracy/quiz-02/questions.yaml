@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "1.2. Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii"
 category: masaz
 questions:
-  - type: truefalse
-    name: "1.2 — zagadnienie 1"
+  - id: "tf-s01-12-q1"
+    type: "truefalse"
+    name: "tf-s01-12-q1"
     text: "Zagadnienie „1.2.1. Kodeks pracy w zakresie BHP” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 1"
+  - id: "tf-s01-12-q1b"
+    type: "truefalse"
+    name: "tf-s01-12-q1b"
     text: "Zagadnienie „1.2.2. Przepisy dotyczące oceny ryzyka zawodowego” jest elementem zagadnienia „1.2.1. Kodeks pracy w zakresie BHP”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 2"
+  - id: "tf-s01-12-q2"
+    type: "truefalse"
+    name: "tf-s01-12-q2"
     text: "Zagadnienie „1.2.2. Przepisy dotyczące oceny ryzyka zawodowego” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 2"
+  - id: "tf-s01-12-q2b"
+    type: "truefalse"
+    name: "tf-s01-12-q2b"
     text: "Zagadnienie „1.2.3. Przepisy dotyczące badań lekarskich pracowników” jest elementem zagadnienia „1.2.2. Przepisy dotyczące oceny ryzyka zawodowego”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 3"
+  - id: "tf-s01-12-q3"
+    type: "truefalse"
+    name: "tf-s01-12-q3"
     text: "Zagadnienie „1.2.3. Przepisy dotyczące badań lekarskich pracowników” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 3"
+  - id: "tf-s01-12-q3b"
+    type: "truefalse"
+    name: "tf-s01-12-q3b"
     text: "Zagadnienie „1.2.4. Przepisy dotyczące szkolenia BHP” jest elementem zagadnienia „1.2.3. Przepisy dotyczące badań lekarskich pracowników”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 4"
+  - id: "tf-s01-12-q4"
+    type: "truefalse"
+    name: "tf-s01-12-q4"
     text: "Zagadnienie „1.2.4. Przepisy dotyczące szkolenia BHP” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 4"
+  - id: "tf-s01-12-q4b"
+    type: "truefalse"
+    name: "tf-s01-12-q4b"
     text: "Zagadnienie „1.2.5. Przepisy przeciwpożarowe w zakładzie opieki zdrowotnej i gabinecie masażu” jest elementem zagadnienia „1.2.4. Przepisy dotyczące szkolenia BHP”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 5"
+  - id: "tf-s01-12-q5"
+    type: "truefalse"
+    name: "tf-s01-12-q5"
     text: "Zagadnienie „1.2.5. Przepisy przeciwpożarowe w zakładzie opieki zdrowotnej i gabinecie masażu” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 5"
+  - id: "tf-s01-12-q5b"
+    type: "truefalse"
+    name: "tf-s01-12-q5b"
     text: "Zagadnienie „1.2.6. Przepisy o ochronie środowiska i gospodarowaniu odpadami” jest elementem zagadnienia „1.2.5. Przepisy przeciwpożarowe w zakładzie opieki zdrowotnej i gabinecie masażu”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 6"
+  - id: "tf-s01-12-q6"
+    type: "truefalse"
+    name: "tf-s01-12-q6"
     text: "Zagadnienie „1.2.6. Przepisy o ochronie środowiska i gospodarowaniu odpadami” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 6"
+  - id: "tf-s01-12-q6b"
+    type: "truefalse"
+    name: "tf-s01-12-q6b"
     text: "Zagadnienie „1.2.7. Przepisy sanitarne dotyczące gabinetu masażu” jest elementem zagadnienia „1.2.6. Przepisy o ochronie środowiska i gospodarowaniu odpadami”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 7"
+  - id: "tf-s01-12-q7"
+    type: "truefalse"
+    name: "tf-s01-12-q7"
     text: "Zagadnienie „1.2.7. Przepisy sanitarne dotyczące gabinetu masażu” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 7"
+  - id: "tf-s01-12-q7b"
+    type: "truefalse"
+    name: "tf-s01-12-q7b"
     text: "Zagadnienie „1.2.8. Wymagania dotyczące wentylacji, oświetlenia, temperatury i wilgotności” jest elementem zagadnienia „1.2.7. Przepisy sanitarne dotyczące gabinetu masażu”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 8"
+  - id: "tf-s01-12-q8"
+    type: "truefalse"
+    name: "tf-s01-12-q8"
     text: "Zagadnienie „1.2.8. Wymagania dotyczące wentylacji, oświetlenia, temperatury i wilgotności” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 8"
+  - id: "tf-s01-12-q8b"
+    type: "truefalse"
+    name: "tf-s01-12-q8b"
     text: "Zagadnienie „1.2.9. Wymagania dotyczące surfaces łatwych do dezynfekcji” jest elementem zagadnienia „1.2.8. Wymagania dotyczące wentylacji, oświetlenia, temperatury i wilgotności”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 9"
+  - id: "tf-s01-12-q9"
+    type: "truefalse"
+    name: "tf-s01-12-q9"
     text: "Zagadnienie „1.2.9. Wymagania dotyczące surfaces łatwych do dezynfekcji” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: truefalse
-    name: "1.2 — rozgraniczenie 9"
+  - id: "tf-s01-12-q9b"
+    type: "truefalse"
+    name: "tf-s01-12-q9b"
     text: "Zagadnienie „1.2.10. Dokumentacja BHP: instrukcje, rejestry, protokoły” jest elementem zagadnienia „1.2.9. Wymagania dotyczące surfaces łatwych do dezynfekcji”, a nie tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: false
-  - type: truefalse
-    name: "1.2 — zagadnienie 10"
+  - id: "tf-s01-12-q10"
+    type: "truefalse"
+    name: "tf-s01-12-q10"
     text: "Zagadnienie „1.2.10. Dokumentacja BHP: instrukcje, rejestry, protokoły” wchodzi w zakres tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)."
     answer: true
-  - type: multichoice
-    name: "1.2 — przyporządkowanie zagadnienia"
+  - id: "mc-s01-12"
+    type: "multichoice"
+    name: "mc-s01-12"
     text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
     answers:
-      - text: "1.2.1. Kodeks pracy w zakresie BHP"  fraction: 100
-      - text: "1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja"  fraction: 0
-      - text: "3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu"  fraction: 0
-      - text: "5.3.6. Masaż rozgrzewkowy"  fraction: 0
+      - text: "1.2.1. Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "1.2.2. Przepisy dotyczące oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "1.2.3. Przepisy dotyczące badań lekarskich pracowników"
+        fraction: 0
+      - text: "1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja"
+        fraction: 0
+      - text: "3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu"
+        fraction: 0
+      - text: "5.3.6. Masaż rozgrzewkowy"
+        fraction: 0
+  - id: "mc-s01-12-q1"
+    type: "multichoice"
+    name: "mc-s01-12-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "Naskorek: warstwy"
+        fraction: 0
+      - text: "Wywiad urazowy i operacyjny"
+        fraction: 0
+      - text: "Wywiad i zgoda"
+        fraction: 0
+  - id: "mc-s01-12-q2"
+    type: "multichoice"
+    name: "mc-s01-12-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 100
+      - text: "Skora wlasciwa: warstwa brodawkowata i siateczkowata"
+        fraction: 0
+      - text: "Wywiad alergologiczny i skorny"
+        fraction: 0
+      - text: "Ocena przeciwwskazan"
+        fraction: 0
+  - id: "mc-s01-12-q3"
+    type: "multichoice"
+    name: "mc-s01-12-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 100
+      - text: "Tkanka podskorna"
+        fraction: 0
+      - text: "Wywiad bolowy: lokalizacja, nasilenie, charakter, promieniowanie"
+        fraction: 0
+      - text: "Komfort termiczny"
+        fraction: 0
+  - id: "mc-s01-12-q4"
+    type: "multichoice"
+    name: "mc-s01-12-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.4 Przepisy dotyczace szkolenia BHP"
+        fraction: 100
+      - text: "Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 0
+      - text: "Wywiad funkcjonalny: chod, sen, praca, aktywnosc"
+        fraction: 0
+      - text: "Intymnosc i okrycie"
+        fraction: 0
+  - id: "mc-s01-12-q5"
+    type: "multichoice"
+    name: "mc-s01-12-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s01-12-q6"
+    type: "multichoice"
+    name: "mc-s01-12-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.6 Przepisy o ochronie srodowiska i gospodarowaniu odpadami"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s01-12-q7"
+    type: "multichoice"
+    name: "mc-s01-12-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.7 Przepisy sanitarne dotyczace gabinetu masazu"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s01-12-q8"
+    type: "multichoice"
+    name: "mc-s01-12-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.8 Wymagania dotyczace wentylacji, oswietlenia, temperatury i wilgotnosci"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s01-12-q9"
+    type: "multichoice"
+    name: "mc-s01-12-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.9 Wymagania dotyczace surfaces latwych do dezynfekcji"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s01-12-q10"
+    type: "multichoice"
+    name: "mc-s01-12-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.10 Dokumentacja BHP: instrukcje, rejestry, protokoly"
+        fraction: 100
+      - text: "Wplyw hormonow na tkanki i samopoczucie"
+        fraction: 0
+      - text: "Pozycja na brzuchu"
+        fraction: 0
+      - text: "Edukacja ergonomia"
+        fraction: 0
+  - id: "mc-s01-12-v1"
+    type: "multichoice"
+    name: "mc-s01-12-v1"
+    text: "Które zagadnienie należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "0.5# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "0.5# 1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-12-v2"
+    type: "multichoice"
+    name: "mc-s01-12-v2"
+    text: "Które zagadnienie NIE należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "-0.25# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "-0.25# 1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-12-v3"
+    type: "multichoice"
+    name: "mc-s01-12-v3"
+    text: "Które zagadnienie należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 100
+      - text: "0.5# 1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 0
+      - text: "0.5# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-12-v4"
+    type: "multichoice"
+    name: "mc-s01-12-v4"
+    text: "Które zagadnienie NIE należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "-0.25# 1.2.4 Przepisy dotyczace szkolenia BHP"
+        fraction: 0
+      - text: "-0.25# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

@@ -47,3 +47,101 @@
     ~ 3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie
     ~ 5.8.8. Osoby z chorobami przewlekłymi
 }
+
+::mc-s04-421-q1:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.1 Polog fizjologiczny i powiklany
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s04-421-q2:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Higiena otoczenia
+}
+
+::mc-s04-421-q3:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s04-421-q4:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.4 Regeneracja miesni dna miednicy — wspolpraca z fizjoterapeuta
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Pozycja pacjenta
+}
+
+::mc-s04-421-q5:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.5 Masaz grzbietu i karku przy karmieniu
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Komunikacja
+}
+
+::mc-s04-421-q6:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.6 Drenaz obrzekow
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Przeciwwskazania
+}
+
+::mc-s04-421-q7:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.7 Przeciwwskazania: goraczka, zakrzepica, infekcja
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s04-421-q8:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.8 Wsparcie emocjonalne matki
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny gornej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s04-421-q9:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.9 Bezpieczenstwo dziecka w czasie zabiegu
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s04-421-q10:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.10 Dokumentacja i skierowania
+    ~ Zasada nieprzekraczania granicy bolu obronnego
+    ~ Cwiczenia fizyczne i oddechowe
+    ~ Classical massage, medical massage, sports massage
+}
+
+::mc-s04-421-v1:: Które zagadnienie należy do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.1 Polog fizjologiczny i powiklany
+    ~0.5# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc
+    ~0.5# 4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-421-v2:: Które zagadnienie NIE należy do tematu „Masaż kobiety w połogu” (4.21), lecz jest częścią innego tematu kursu? {
+    = 4.21.1 Polog fizjologiczny i powiklany
+    ~-0.25# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc
+    ~-0.25# 4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-421-v3:: Które zagadnienie należy do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.3 Blizna po cieciu cesarskim — tylko po zagojeniu i za zgoda lekarza
+    ~0.5# 4.21.1 Polog fizjologiczny i powiklany
+    ~0.5# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-421-v4:: Które zagadnienie NIE należy do tematu „Masaż kobiety w połogu” (4.21), lecz jest częścią innego tematu kursu? {
+    = 4.21.1 Polog fizjologiczny i powiklany
+    ~-0.25# 4.21.4 Regeneracja miesni dna miednicy — wspolpraca z fizjoterapeuta
+    ~-0.25# 4.21.2 Obrzek, bol krocza, hematoma — ostroznosc
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

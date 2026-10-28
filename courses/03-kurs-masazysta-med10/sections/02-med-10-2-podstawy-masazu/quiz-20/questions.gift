@@ -47,3 +47,101 @@
     ~ 3.18.6. Poprawa propriocepcji
     ~ 5.8.5. Presja wyniku a dobro pacjenta
 }
+
+::mc-s02-220-q1:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.1 Pojecie kinezyterapii
+    ~ Wplyw hormonow na tkanki i samopoczucie
+    ~ Pozycja na plecach
+    ~ Dokumentacja skrocona
+}
+
+::mc-s02-220-q2:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.2 Rodzaje cwiczen: bierne, czynno-bierne, czynne, z oporem, w odciazeniu
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s02-220-q3:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.3 Wplyw cwiczen na stawy, miesnie, powiez, krazenie
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s02-220-q4:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.4 Pojecie fizykoterapii
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s02-220-q5:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.5 Rodzaje zabiegow fizykalnych: cieplo, zimno, prad, swiatlo, ultradzwieki, pole magnetyczne
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s02-220-q6:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.6 Wskazania i przeciwwskazania do zabiegow fizykalnych
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s02-220-q7:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.7 Kolejnosc: fizykoterapia — masaz — kinezyterapia lub inaczej wg zlecenia
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s02-220-q8:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.8 Ryzyko przegrzania, podraznienia, uszkodzenia tkanek
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s02-220-q9:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.9 Wspolpraca z fizjoterapeuta
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s02-220-q10:: Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.10 Dokumentacja sekwencji zabiegow
+    ~ Tolerancja bolu i prog dyskomfortu
+    ~ Tempo, cisnienie i czas zabiegu
+    ~ Describing equipment safely
+}
+
+::mc-s02-220-v1:: Które zagadnienie należy do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.1 Pojecie kinezyterapii
+    ~0.5# 2.20.2 Rodzaje cwiczen\: bierne, czynno-bierne, czynne, z oporem, w odciazeniu
+    ~0.5# 2.20.3 Wplyw cwiczen na stawy, miesnie, powiez, krazenie
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-220-v2:: Które zagadnienie NIE należy do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20), lecz jest częścią innego tematu kursu? {
+    = 2.20.1 Pojecie kinezyterapii
+    ~-0.25# 2.20.2 Rodzaje cwiczen\: bierne, czynno-bierne, czynne, z oporem, w odciazeniu
+    ~-0.25# 2.20.3 Wplyw cwiczen na stawy, miesnie, powiez, krazenie
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-220-v3:: Które zagadnienie należy do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)? {
+    = 2.20.3 Wplyw cwiczen na stawy, miesnie, powiez, krazenie
+    ~0.5# 2.20.1 Pojecie kinezyterapii
+    ~0.5# 2.20.2 Rodzaje cwiczen\: bierne, czynno-bierne, czynne, z oporem, w odciazeniu
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-220-v4:: Które zagadnienie NIE należy do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20), lecz jest częścią innego tematu kursu? {
+    = 2.20.1 Pojecie kinezyterapii
+    ~-0.25# 2.20.4 Pojecie fizykoterapii
+    ~-0.25# 2.20.2 Rodzaje cwiczen\: bierne, czynno-bierne, czynne, z oporem, w odciazeniu
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.17. Techniki masażu klasycznego — teoria"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.17 — zagadnienie 1"
+    text: "Zagadnienie „2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 1"
+    text: "Zagadnienie „2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne” jest elementem zagadnienia „2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 2"
+    text: "Zagadnienie „2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 2"
+    text: "Zagadnienie „2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie” jest elementem zagadnienia „2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 3"
+    text: "Zagadnienie „2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 3"
+    text: "Zagadnienie „2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe” jest elementem zagadnienia „2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 4"
+    text: "Zagadnienie „2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 4"
+    text: "Zagadnienie „2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia” jest elementem zagadnienia „2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 5"
+    text: "Zagadnienie „2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 5"
+    text: "Zagadnienie „2.17.6. Roztrząsanie” jest elementem zagadnienia „2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 6"
+    text: "Zagadnienie „2.17.6. Roztrząsanie” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 6"
+    text: "Zagadnienie „2.17.7. Wałkowanie” jest elementem zagadnienia „2.17.6. Roztrząsanie”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 7"
+    text: "Zagadnienie „2.17.7. Wałkowanie” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 7"
+    text: "Zagadnienie „2.17.8. Uciski” jest elementem zagadnienia „2.17.7. Wałkowanie”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 8"
+    text: "Zagadnienie „2.17.8. Uciski” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 8"
+    text: "Zagadnienie „2.17.9. Naciąganie i trakcje” jest elementem zagadnienia „2.17.8. Uciski”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 9"
+    text: "Zagadnienie „2.17.9. Naciąganie i trakcje” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: truefalse
+    name: "2.17 — rozgraniczenie 9"
+    text: "Zagadnienie „2.17.10. Kolejność technik i kierunek dosercowy” jest elementem zagadnienia „2.17.9. Naciąganie i trakcje”, a nie tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: false
+  - type: truefalse
+    name: "2.17 — zagadnienie 10"
+    text: "Zagadnienie „2.17.10. Kolejność technik i kierunek dosercowy” wchodzi w zakres tematu „Techniki masażu klasycznego — teoria” (2.17)."
+    answer: true
+  - type: multichoice
+    name: "2.17 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Techniki masażu klasycznego — teoria” (2.17)?"
+    answers:
+      - text: "2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące"  fraction: 100
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 0
+      - text: "3.19.2. Fizjoterapeuta"  fraction: 0
+      - text: "6.1.1. Zdrowie jako dobro i zadanie"  fraction: 0

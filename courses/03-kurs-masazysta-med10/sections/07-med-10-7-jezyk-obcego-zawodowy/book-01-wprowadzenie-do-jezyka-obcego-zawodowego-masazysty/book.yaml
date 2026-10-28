@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "7.1. Wprowadzenie do języka obcego zawodowego masażysty"
+  intro: |
+    Materiał dydaktyczny tematu 7.1 — Wprowadzenie do języka obcego zawodowego masażysty.
+    Moduł rozwija zawodowy język obcy: słownictwo anatomiczne i masażowe, czytanie dokumentacji i tekstów fachowych, rozmowę z klientem obcojęzycznym oraz przekazywanie informacji z materiałów wizualnych i audiowizualnych.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "7.1. Wprowadzenie do języka obcego zawodowego masażysty"
+      subchapter: false
+      content_file: "chapters/01-wprowadzenie-do-jezyka-obcego-zawodowego-masazysty.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "4.16. Masaż tensegracyjny"
+  intro: |
+    Materiał dydaktyczny tematu 4.16 — Masaż tensegracyjny.
+    Moduł dotyczy wykonywania masażu w medycynie: masażu klasycznego leczniczego, odmian masażu klasycznego, technik specjalnych, masażu osób starszych i dzieci, kompleksowej terapii obrzęków oraz działań przy dysfunkcjach narządu ruchu — zawsze we współpracy z zespołem terapeutycznym i pod kontrolą skuteczności.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "4.16. Masaż tensegracyjny"
+      subchapter: false
+      content_file: "chapters/01-masaz-tensegracyjny.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

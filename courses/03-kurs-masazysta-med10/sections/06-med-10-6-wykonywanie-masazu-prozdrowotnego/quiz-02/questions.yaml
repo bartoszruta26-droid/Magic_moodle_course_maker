@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "6.2. Rodzaje masażu prozdrowotnego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "6.2 — zagadnienie 1"
+  - id: "tf-s06-62-q1"
+    type: "truefalse"
+    name: "tf-s06-62-q1"
     text: "Zagadnienie „6.2.1. Masaż profilaktyczny” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 1"
+  - id: "tf-s06-62-q1b"
+    type: "truefalse"
+    name: "tf-s06-62-q1b"
     text: "Zagadnienie „6.2.2. Masaż relaksacyjny” jest elementem zagadnienia „6.2.1. Masaż profilaktyczny”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 2"
+  - id: "tf-s06-62-q2"
+    type: "truefalse"
+    name: "tf-s06-62-q2"
     text: "Zagadnienie „6.2.2. Masaż relaksacyjny” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 2"
+  - id: "tf-s06-62-q2b"
+    type: "truefalse"
+    name: "tf-s06-62-q2b"
     text: "Zagadnienie „6.2.3. Masaż bez przyrządów” jest elementem zagadnienia „6.2.2. Masaż relaksacyjny”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 3"
+  - id: "tf-s06-62-q3"
+    type: "truefalse"
+    name: "tf-s06-62-q3"
     text: "Zagadnienie „6.2.3. Masaż bez przyrządów” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 3"
+  - id: "tf-s06-62-q3b"
+    type: "truefalse"
+    name: "tf-s06-62-q3b"
     text: "Zagadnienie „6.2.4. Masaż gorącymi kamieniami” jest elementem zagadnienia „6.2.3. Masaż bez przyrządów”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 4"
+  - id: "tf-s06-62-q4"
+    type: "truefalse"
+    name: "tf-s06-62-q4"
     text: "Zagadnienie „6.2.4. Masaż gorącymi kamieniami” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 4"
+  - id: "tf-s06-62-q4b"
+    type: "truefalse"
+    name: "tf-s06-62-q4b"
     text: "Zagadnienie „6.2.5. Masaż biurowy” jest elementem zagadnienia „6.2.4. Masaż gorącymi kamieniami”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 5"
+  - id: "tf-s06-62-q5"
+    type: "truefalse"
+    name: "tf-s06-62-q5"
     text: "Zagadnienie „6.2.5. Masaż biurowy” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 5"
+  - id: "tf-s06-62-q5b"
+    type: "truefalse"
+    name: "tf-s06-62-q5b"
     text: "Zagadnienie „6.2.6. Masaż antystresowy” jest elementem zagadnienia „6.2.5. Masaż biurowy”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 6"
+  - id: "tf-s06-62-q6"
+    type: "truefalse"
+    name: "tf-s06-62-q6"
     text: "Zagadnienie „6.2.6. Masaż antystresowy” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 6"
+  - id: "tf-s06-62-q6b"
+    type: "truefalse"
+    name: "tf-s06-62-q6b"
     text: "Zagadnienie „6.2.7. Masaż dla osób pracujących przy komputerze” jest elementem zagadnienia „6.2.6. Masaż antystresowy”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 7"
+  - id: "tf-s06-62-q7"
+    type: "truefalse"
+    name: "tf-s06-62-q7"
     text: "Zagadnienie „6.2.7. Masaż dla osób pracujących przy komputerze” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 7"
+  - id: "tf-s06-62-q7b"
+    type: "truefalse"
+    name: "tf-s06-62-q7b"
     text: "Zagadnienie „6.2.8. Masaż dla osób starszych w celach profilaktycznych” jest elementem zagadnienia „6.2.7. Masaż dla osób pracujących przy komputerze”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 8"
+  - id: "tf-s06-62-q8"
+    type: "truefalse"
+    name: "tf-s06-62-q8"
     text: "Zagadnienie „6.2.8. Masaż dla osób starszych w celach profilaktycznych” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 8"
+  - id: "tf-s06-62-q8b"
+    type: "truefalse"
+    name: "tf-s06-62-q8b"
     text: "Zagadnienie „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza” jest elementem zagadnienia „6.2.8. Masaż dla osób starszych w celach profilaktycznych”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 9"
+  - id: "tf-s06-62-q9"
+    type: "truefalse"
+    name: "tf-s06-62-q9"
     text: "Zagadnienie „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: truefalse
-    name: "6.2 — rozgraniczenie 9"
+  - id: "tf-s06-62-q9b"
+    type: "truefalse"
+    name: "tf-s06-62-q9b"
     text: "Zagadnienie „6.2.10. Masaż dla sportowców amatorów” jest elementem zagadnienia „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: false
-  - type: truefalse
-    name: "6.2 — zagadnienie 10"
+  - id: "tf-s06-62-q10"
+    type: "truefalse"
+    name: "tf-s06-62-q10"
     text: "Zagadnienie „6.2.10. Masaż dla sportowców amatorów” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
     answer: true
-  - type: multichoice
-    name: "6.2 — przyporządkowanie zagadnienia"
+  - id: "mc-s06-62"
+    type: "multichoice"
+    name: "mc-s06-62"
     text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
     answers:
-      - text: "6.2.1. Masaż profilaktyczny"  fraction: 100
-      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
-      - text: "3.14.1. Odciążenie grawitacyjne"  fraction: 0
-      - text: "5.3.10. Przeciwwskazania w sporcie"  fraction: 0
+      - text: "6.2.1. Masaż profilaktyczny"
+        fraction: 100
+      - text: "6.2.2. Masaż relaksacyjny"
+        fraction: 0
+      - text: "6.2.3. Masaż bez przyrządów"
+        fraction: 0
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"
+        fraction: 0
+      - text: "3.14.1. Odciążenie grawitacyjne"
+        fraction: 0
+      - text: "5.3.10. Przeciwwskazania w sporcie"
+        fraction: 0
+  - id: "mc-s06-62-q1"
+    type: "multichoice"
+    name: "mc-s06-62-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.1 Masaz profilaktyczny"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s06-62-q2"
+    type: "multichoice"
+    name: "mc-s06-62-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.2 Masaz relaksacyjny"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s06-62-q3"
+    type: "multichoice"
+    name: "mc-s06-62-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.3 Masaz bez przyrzadow"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s06-62-q4"
+    type: "multichoice"
+    name: "mc-s06-62-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.4 Masaz goracymi kamieniami"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s06-62-q5"
+    type: "multichoice"
+    name: "mc-s06-62-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.5 Masaz biurowy"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s06-62-q6"
+    type: "multichoice"
+    name: "mc-s06-62-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.6 Masaz antystresowy"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s06-62-q7"
+    type: "multichoice"
+    name: "mc-s06-62-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.7 Masaz dla osob pracujacych przy komputerze"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s06-62-q8"
+    type: "multichoice"
+    name: "mc-s06-62-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.8 Masaz dla osob starszych w celach profilaktycznych"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s06-62-q9"
+    type: "multichoice"
+    name: "mc-s06-62-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.9 Masaz dla kobiet w ciazy — tylko bezpieczny i za zgoda lekarza"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s06-62-q10"
+    type: "multichoice"
+    name: "mc-s06-62-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.10 Masaz dla sportowcow amatorow"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s06-62-v1"
+    type: "multichoice"
+    name: "mc-s06-62-v1"
+    text: "Które zagadnienie należy do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.1 Masaz profilaktyczny"
+        fraction: 100
+      - text: "0.5# 6.2.2 Masaz relaksacyjny"
+        fraction: 0
+      - text: "0.5# 6.2.3 Masaz bez przyrzadow"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s06-62-v2"
+    type: "multichoice"
+    name: "mc-s06-62-v2"
+    text: "Które zagadnienie NIE należy do tematu „Rodzaje masażu prozdrowotnego” (6.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.2.1 Masaz profilaktyczny"
+        fraction: 100
+      - text: "-0.25# 6.2.2 Masaz relaksacyjny"
+        fraction: 0
+      - text: "-0.25# 6.2.3 Masaz bez przyrzadow"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s06-62-v3"
+    type: "multichoice"
+    name: "mc-s06-62-v3"
+    text: "Które zagadnienie należy do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.3 Masaz bez przyrzadow"
+        fraction: 100
+      - text: "0.5# 6.2.1 Masaz profilaktyczny"
+        fraction: 0
+      - text: "0.5# 6.2.2 Masaz relaksacyjny"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s06-62-v4"
+    type: "multichoice"
+    name: "mc-s06-62-v4"
+    text: "Które zagadnienie NIE należy do tematu „Rodzaje masażu prozdrowotnego” (6.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.2.1 Masaz profilaktyczny"
+        fraction: 100
+      - text: "-0.25# 6.2.4 Masaz goracymi kamieniami"
+        fraction: 0
+      - text: "-0.25# 6.2.2 Masaz relaksacyjny"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "5.6. Protokoły masażu sportowego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "5.6 — zagadnienie 1"
+  - id: "tf-s05-56-q1"
+    type: "truefalse"
+    name: "tf-s05-56-q1"
     text: "Zagadnienie „5.6.1. Przed treningiem: pobudzenie, rozgrzewka tkanek” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 1"
+  - id: "tf-s05-56-q1b"
+    type: "truefalse"
+    name: "tf-s05-56-q1b"
     text: "Zagadnienie „5.6.2. Po treningu: odprowadzenie metabolitów, rozluźnienie” jest elementem zagadnienia „5.6.1. Przed treningiem: pobudzenie, rozgrzewka tkanek”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 2"
+  - id: "tf-s05-56-q2"
+    type: "truefalse"
+    name: "tf-s05-56-q2"
     text: "Zagadnienie „5.6.2. Po treningu: odprowadzenie metabolitów, rozluźnienie” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 2"
+  - id: "tf-s05-56-q2b"
+    type: "truefalse"
+    name: "tf-s05-56-q2b"
     text: "Zagadnienie „5.6.3. Przed zawodami: szybko, pobudzająco, bez zmęczenia tkanki” jest elementem zagadnienia „5.6.2. Po treningu: odprowadzenie metabolitów, rozluźnienie”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 3"
+  - id: "tf-s05-56-q3"
+    type: "truefalse"
+    name: "tf-s05-56-q3"
     text: "Zagadnienie „5.6.3. Przed zawodami: szybko, pobudzająco, bez zmęczenia tkanki” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 3"
+  - id: "tf-s05-56-q3b"
+    type: "truefalse"
+    name: "tf-s05-56-q3b"
     text: "Zagadnienie „5.6.4. Między startami: krótko, regeneracyjnie” jest elementem zagadnienia „5.6.3. Przed zawodami: szybko, pobudzająco, bez zmęczenia tkanki”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 4"
+  - id: "tf-s05-56-q4"
+    type: "truefalse"
+    name: "tf-s05-56-q4"
     text: "Zagadnienie „5.6.4. Między startami: krótko, regeneracyjnie” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 4"
+  - id: "tf-s05-56-q4b"
+    type: "truefalse"
+    name: "tf-s05-56-q4b"
     text: "Zagadnienie „5.6.5. Po zawodach: drenaż, rozluźnienie, chłodzenie” jest elementem zagadnienia „5.6.4. Między startami: krótko, regeneracyjnie”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 5"
+  - id: "tf-s05-56-q5"
+    type: "truefalse"
+    name: "tf-s05-56-q5"
     text: "Zagadnienie „5.6.5. Po zawodach: drenaż, rozluźnienie, chłodzenie” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 5"
+  - id: "tf-s05-56-q5b"
+    type: "truefalse"
+    name: "tf-s05-56-q5b"
     text: "Zagadnienie „5.6.6. W okresie startowym: podtrzymanie gotowości” jest elementem zagadnienia „5.6.5. Po zawodach: drenaż, rozluźnienie, chłodzenie”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 6"
+  - id: "tf-s05-56-q6"
+    type: "truefalse"
+    name: "tf-s05-56-q6"
     text: "Zagadnienie „5.6.6. W okresie startowym: podtrzymanie gotowości” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 6"
+  - id: "tf-s05-56-q6b"
+    type: "truefalse"
+    name: "tf-s05-56-q6b"
     text: "Zagadnienie „5.6.7. W okresie roztrenowania: regeneracja głęboka” jest elementem zagadnienia „5.6.6. W okresie startowym: podtrzymanie gotowości”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 7"
+  - id: "tf-s05-56-q7"
+    type: "truefalse"
+    name: "tf-s05-56-q7"
     text: "Zagadnienie „5.6.7. W okresie roztrenowania: regeneracja głęboka” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 7"
+  - id: "tf-s05-56-q7b"
+    type: "truefalse"
+    name: "tf-s05-56-q7b"
     text: "Zagadnienie „5.6.8. Przy podróży: obrzęk, sztywność, komfort” jest elementem zagadnienia „5.6.7. W okresie roztrenowania: regeneracja głęboka”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 8"
+  - id: "tf-s05-56-q8"
+    type: "truefalse"
+    name: "tf-s05-56-q8"
     text: "Zagadnienie „5.6.8. Przy podróży: obrzęk, sztywność, komfort” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 8"
+  - id: "tf-s05-56-q8b"
+    type: "truefalse"
+    name: "tf-s05-56-q8b"
     text: "Zagadnienie „5.6.9. Przy kontuzji wczesnej: tylko za zgodą lekarza” jest elementem zagadnienia „5.6.8. Przy podróży: obrzęk, sztywność, komfort”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 9"
+  - id: "tf-s05-56-q9"
+    type: "truefalse"
+    name: "tf-s05-56-q9"
     text: "Zagadnienie „5.6.9. Przy kontuzji wczesnej: tylko za zgodą lekarza” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: truefalse
-    name: "5.6 — rozgraniczenie 9"
+  - id: "tf-s05-56-q9b"
+    type: "truefalse"
+    name: "tf-s05-56-q9b"
     text: "Zagadnienie „5.6.10. Przy powrocie do treningu: koordynacja z zespołem” jest elementem zagadnienia „5.6.9. Przy kontuzji wczesnej: tylko za zgodą lekarza”, a nie tematu „Protokoły masażu sportowego” (5.6)."
     answer: false
-  - type: truefalse
-    name: "5.6 — zagadnienie 10"
+  - id: "tf-s05-56-q10"
+    type: "truefalse"
+    name: "tf-s05-56-q10"
     text: "Zagadnienie „5.6.10. Przy powrocie do treningu: koordynacja z zespołem” wchodzi w zakres tematu „Protokoły masażu sportowego” (5.6)."
     answer: true
-  - type: multichoice
-    name: "5.6 — przyporządkowanie zagadnienia"
+  - id: "mc-s05-56"
+    type: "multichoice"
+    name: "mc-s05-56"
     text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
     answers:
-      - text: "5.6.1. Przed treningiem: pobudzenie, rozgrzewka tkanek"  fraction: 100
-      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
-      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
-      - text: "5.4.3. Drobne przeciążenia"  fraction: 0
+      - text: "5.6.1. Przed treningiem: pobudzenie, rozgrzewka tkanek"
+        fraction: 100
+      - text: "5.6.2. Po treningu: odprowadzenie metabolitów, rozluźnienie"
+        fraction: 0
+      - text: "5.6.3. Przed zawodami: szybko, pobudzająco, bez zmęczenia tkanki"
+        fraction: 0
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"
+        fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"
+        fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"
+        fraction: 0
+  - id: "mc-s05-56-q1"
+    type: "multichoice"
+    name: "mc-s05-56-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.1 Przed treningiem: pobudzenie, rozgrzewka tkanek"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s05-56-q2"
+    type: "multichoice"
+    name: "mc-s05-56-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.2 Po treningu: odprowadzenie metabolitow, rozluznienie"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s05-56-q3"
+    type: "multichoice"
+    name: "mc-s05-56-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.3 Przed zawodami: szybko, pobudzajaco, bez zmeczenia tkanki"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s05-56-q4"
+    type: "multichoice"
+    name: "mc-s05-56-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.4 Miedzy startami: krotko, regeneracyjnie"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s05-56-q5"
+    type: "multichoice"
+    name: "mc-s05-56-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.5 Po zawodach: drenaz, rozluznienie, chlodzenie"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s05-56-q6"
+    type: "multichoice"
+    name: "mc-s05-56-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.6 W okresie startowym: podtrzymanie gotowosci"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s05-56-q7"
+    type: "multichoice"
+    name: "mc-s05-56-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.7 W okresie roztrenowania: regeneracja gleboka"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s05-56-q8"
+    type: "multichoice"
+    name: "mc-s05-56-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.8 Przy podrozy: obrzek, sztywnosc, komfort"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s05-56-q9"
+    type: "multichoice"
+    name: "mc-s05-56-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.9 Przy kontuzji wczesnej: tylko za zgoda lekarza"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s05-56-q10"
+    type: "multichoice"
+    name: "mc-s05-56-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.10 Przy powrocie do treningu: koordynacja z zespolem"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s05-56-v1"
+    type: "multichoice"
+    name: "mc-s05-56-v1"
+    text: "Które zagadnienie należy do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.1 Przed treningiem\\: pobudzenie, rozgrzewka tkanek"
+        fraction: 100
+      - text: "0.5# 5.6.2 Po treningu\\: odprowadzenie metabolitow, rozluznienie"
+        fraction: 0
+      - text: "0.5# 5.6.3 Przed zawodami\\: szybko, pobudzajaco, bez zmeczenia tkanki"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s05-56-v2"
+    type: "multichoice"
+    name: "mc-s05-56-v2"
+    text: "Które zagadnienie NIE należy do tematu „Protokoły masażu sportowego” (5.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "5.6.1 Przed treningiem\\: pobudzenie, rozgrzewka tkanek"
+        fraction: 100
+      - text: "-0.25# 5.6.2 Po treningu\\: odprowadzenie metabolitow, rozluznienie"
+        fraction: 0
+      - text: "-0.25# 5.6.3 Przed zawodami\\: szybko, pobudzajaco, bez zmeczenia tkanki"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s05-56-v3"
+    type: "multichoice"
+    name: "mc-s05-56-v3"
+    text: "Które zagadnienie należy do tematu „Protokoły masażu sportowego” (5.6)?"
+    answers:
+      - text: "5.6.3 Przed zawodami\\: szybko, pobudzajaco, bez zmeczenia tkanki"
+        fraction: 100
+      - text: "0.5# 5.6.1 Przed treningiem\\: pobudzenie, rozgrzewka tkanek"
+        fraction: 0
+      - text: "0.5# 5.6.2 Po treningu\\: odprowadzenie metabolitow, rozluznienie"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s05-56-v4"
+    type: "multichoice"
+    name: "mc-s05-56-v4"
+    text: "Które zagadnienie NIE należy do tematu „Protokoły masażu sportowego” (5.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "5.6.1 Przed treningiem\\: pobudzenie, rozgrzewka tkanek"
+        fraction: 100
+      - text: "-0.25# 5.6.4 Miedzy startami\\: krotko, regeneracyjnie"
+        fraction: 0
+      - text: "-0.25# 5.6.2 Po treningu\\: odprowadzenie metabolitow, rozluznienie"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

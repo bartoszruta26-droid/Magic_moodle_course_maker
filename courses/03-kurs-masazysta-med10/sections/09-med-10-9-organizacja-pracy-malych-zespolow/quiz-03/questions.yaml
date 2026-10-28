@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "9.3. Kierowanie wykonaniem zadań"
 category: masaz
 questions:
-  - type: truefalse
-    name: "9.3 — zagadnienie 1"
+  - id: "tf-s09-93-q1"
+    type: "truefalse"
+    name: "tf-s09-93-q1"
     text: "Zagadnienie „9.3.1. Ustalanie kolejności działań” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 1"
+  - id: "tf-s09-93-q1b"
+    type: "truefalse"
+    name: "tf-s09-93-q1b"
     text: "Zagadnienie „9.3.2. Mobilizowanie współpracowników” jest elementem zagadnienia „9.3.1. Ustalanie kolejności działań”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 2"
+  - id: "tf-s09-93-q2"
+    type: "truefalse"
+    name: "tf-s09-93-q2"
     text: "Zagadnienie „9.3.2. Mobilizowanie współpracowników” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 2"
+  - id: "tf-s09-93-q2b"
+    type: "truefalse"
+    name: "tf-s09-93-q2b"
     text: "Zagadnienie „9.3.3. Komunikacja instruktażowa” jest elementem zagadnienia „9.3.2. Mobilizowanie współpracowników”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 3"
+  - id: "tf-s09-93-q3"
+    type: "truefalse"
+    name: "tf-s09-93-q3"
     text: "Zagadnienie „9.3.3. Komunikacja instruktażowa” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 3"
+  - id: "tf-s09-93-q3b"
+    type: "truefalse"
+    name: "tf-s09-93-q3b"
     text: "Zagadnienie „9.3.4. Nadzór bez kontroli upokarzającej” jest elementem zagadnienia „9.3.3. Komunikacja instruktażowa”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 4"
+  - id: "tf-s09-93-q4"
+    type: "truefalse"
+    name: "tf-s09-93-q4"
     text: "Zagadnienie „9.3.4. Nadzór bez kontroli upokarzającej” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 4"
+  - id: "tf-s09-93-q4b"
+    type: "truefalse"
+    name: "tf-s09-93-q4b"
     text: "Zagadnienie „9.3.5. Rozwiązywanie problemów na bieżąco” jest elementem zagadnienia „9.3.4. Nadzór bez kontroli upokarzającej”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 5"
+  - id: "tf-s09-93-q5"
+    type: "truefalse"
+    name: "tf-s09-93-q5"
     text: "Zagadnienie „9.3.5. Rozwiązywanie problemów na bieżąco” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 5"
+  - id: "tf-s09-93-q5b"
+    type: "truefalse"
+    name: "tf-s09-93-q5b"
     text: "Zagadnienie „9.3.6. Bezpieczeństwo jako priorytet kierowania” jest elementem zagadnienia „9.3.5. Rozwiązywanie problemów na bieżąco”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 6"
+  - id: "tf-s09-93-q6"
+    type: "truefalse"
+    name: "tf-s09-93-q6"
     text: "Zagadnienie „9.3.6. Bezpieczeństwo jako priorytet kierowania” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 6"
+  - id: "tf-s09-93-q6b"
+    type: "truefalse"
+    name: "tf-s09-93-q6b"
     text: "Zagadnienie „9.3.7. Ocena procesu pracy” jest elementem zagadnienia „9.3.6. Bezpieczeństwo jako priorytet kierowania”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 7"
+  - id: "tf-s09-93-q7"
+    type: "truefalse"
+    name: "tf-s09-93-q7"
     text: "Zagadnienie „9.3.7. Ocena procesu pracy” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 7"
+  - id: "tf-s09-93-q7b"
+    type: "truefalse"
+    name: "tf-s09-93-q7b"
     text: "Zagadnienie „9.3.8. Informacja zwrotna” jest elementem zagadnienia „9.3.7. Ocena procesu pracy”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 8"
+  - id: "tf-s09-93-q8"
+    type: "truefalse"
+    name: "tf-s09-93-q8"
     text: "Zagadnienie „9.3.8. Informacja zwrotna” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 8"
+  - id: "tf-s09-93-q8b"
+    type: "truefalse"
+    name: "tf-s09-93-q8b"
     text: "Zagadnienie „9.3.9. Dokumentowanie decyzji” jest elementem zagadnienia „9.3.8. Informacja zwrotna”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 9"
+  - id: "tf-s09-93-q9"
+    type: "truefalse"
+    name: "tf-s09-93-q9"
     text: "Zagadnienie „9.3.9. Dokumentowanie decyzji” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: truefalse
-    name: "9.3 — rozgraniczenie 9"
+  - id: "tf-s09-93-q9b"
+    type: "truefalse"
+    name: "tf-s09-93-q9b"
     text: "Zagadnienie „9.3.10. Odpowiedzialność lidera i zespołu” jest elementem zagadnienia „9.3.9. Dokumentowanie decyzji”, a nie tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: false
-  - type: truefalse
-    name: "9.3 — zagadnienie 10"
+  - id: "tf-s09-93-q10"
+    type: "truefalse"
+    name: "tf-s09-93-q10"
     text: "Zagadnienie „9.3.10. Odpowiedzialność lidera i zespołu” wchodzi w zakres tematu „Kierowanie wykonaniem zadań” (9.3)."
     answer: true
-  - type: multichoice
-    name: "9.3 — przyporządkowanie zagadnienia"
+  - id: "mc-s09-93"
+    type: "multichoice"
+    name: "mc-s09-93"
     text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
     answers:
-      - text: "9.3.1. Ustalanie kolejności działań"  fraction: 100
-      - text: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"  fraction: 0
-      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"  fraction: 0
-      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"  fraction: 0
+      - text: "9.3.1. Ustalanie kolejności działań"
+        fraction: 100
+      - text: "9.3.2. Mobilizowanie współpracowników"
+        fraction: 0
+      - text: "9.3.3. Komunikacja instruktażowa"
+        fraction: 0
+      - text: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"
+        fraction: 0
+      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"
+        fraction: 0
+      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"
+        fraction: 0
+  - id: "mc-s09-93-q1"
+    type: "multichoice"
+    name: "mc-s09-93-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.1 Ustalanie kolejnosci dzialan"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s09-93-q2"
+    type: "multichoice"
+    name: "mc-s09-93-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.2 Mobilizowanie wspolpracownikow"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s09-93-q3"
+    type: "multichoice"
+    name: "mc-s09-93-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.3 Komunikacja instruktazowa"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s09-93-q4"
+    type: "multichoice"
+    name: "mc-s09-93-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.4 Nadzor bez kontroli upokarzajacej"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s09-93-q5"
+    type: "multichoice"
+    name: "mc-s09-93-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.5 Rozwiazywanie problemow na biezaco"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s09-93-q6"
+    type: "multichoice"
+    name: "mc-s09-93-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.6 Bezpieczenstwo jako priorytet kierowania"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s09-93-q7"
+    type: "multichoice"
+    name: "mc-s09-93-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.7 Ocena procesu pracy"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s09-93-q8"
+    type: "multichoice"
+    name: "mc-s09-93-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.8 Informacja zwrotna"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s09-93-q9"
+    type: "multichoice"
+    name: "mc-s09-93-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.9 Dokumentowanie decyzji"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s09-93-q10"
+    type: "multichoice"
+    name: "mc-s09-93-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.10 Odpowiedzialnosc lidera i zespolu"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s09-93-v1"
+    type: "multichoice"
+    name: "mc-s09-93-v1"
+    text: "Które zagadnienie należy do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.1 Ustalanie kolejnosci dzialan"
+        fraction: 100
+      - text: "0.5# 9.3.2 Mobilizowanie wspolpracownikow"
+        fraction: 0
+      - text: "0.5# 9.3.3 Komunikacja instruktazowa"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s09-93-v2"
+    type: "multichoice"
+    name: "mc-s09-93-v2"
+    text: "Które zagadnienie NIE należy do tematu „Kierowanie wykonaniem zadań” (9.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "9.3.1 Ustalanie kolejnosci dzialan"
+        fraction: 100
+      - text: "-0.25# 9.3.2 Mobilizowanie wspolpracownikow"
+        fraction: 0
+      - text: "-0.25# 9.3.3 Komunikacja instruktazowa"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s09-93-v3"
+    type: "multichoice"
+    name: "mc-s09-93-v3"
+    text: "Które zagadnienie należy do tematu „Kierowanie wykonaniem zadań” (9.3)?"
+    answers:
+      - text: "9.3.3 Komunikacja instruktazowa"
+        fraction: 100
+      - text: "0.5# 9.3.1 Ustalanie kolejnosci dzialan"
+        fraction: 0
+      - text: "0.5# 9.3.2 Mobilizowanie wspolpracownikow"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s09-93-v4"
+    type: "multichoice"
+    name: "mc-s09-93-v4"
+    text: "Które zagadnienie NIE należy do tematu „Kierowanie wykonaniem zadań” (9.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "9.3.1 Ustalanie kolejnosci dzialan"
+        fraction: 100
+      - text: "-0.25# 9.3.4 Nadzor bez kontroli upokarzajacej"
+        fraction: 0
+      - text: "-0.25# 9.3.2 Mobilizowanie wspolpracownikow"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

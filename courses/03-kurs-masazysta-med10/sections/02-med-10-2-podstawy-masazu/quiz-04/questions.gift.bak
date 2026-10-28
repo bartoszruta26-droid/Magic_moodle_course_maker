@@ -1,0 +1,49 @@
+// Quiz: 2.4. Rynek usług zdrowotnych i medycznych — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-24-q1:: Zagadnienie „2.4.1. Standardy usług masażu” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q1b:: Zagadnienie „2.4.2. Prawa konsumenta i pacjenta” jest elementem zagadnienia „2.4.1. Standardy usług masażu”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q2:: Zagadnienie „2.4.2. Prawa konsumenta i pacjenta” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q2b:: Zagadnienie „2.4.3. Reklama usług zdrowotnych — granice prawne” jest elementem zagadnienia „2.4.2. Prawa konsumenta i pacjenta”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q3:: Zagadnienie „2.4.3. Reklama usług zdrowotnych — granice prawne” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q3b:: Zagadnienie „2.4.4. Zakaz wprowadzania w błąd” jest elementem zagadnienia „2.4.3. Reklama usług zdrowotnych — granice prawne”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q4:: Zagadnienie „2.4.4. Zakaz wprowadzania w błąd” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q4b:: Zagadnienie „2.4.5. Cennik i przejrzystość usług” jest elementem zagadnienia „2.4.4. Zakaz wprowadzania w błąd”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q5:: Zagadnienie „2.4.5. Cennik i przejrzystość usług” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q5b:: Zagadnienie „2.4.6. Umowa o świadczenie usług” jest elementem zagadnienia „2.4.5. Cennik i przejrzystość usług”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q6:: Zagadnienie „2.4.6. Umowa o świadczenie usług” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q6b:: Zagadnienie „2.4.7. Skargi i reklamacje” jest elementem zagadnienia „2.4.6. Umowa o świadczenie usług”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q7:: Zagadnienie „2.4.7. Skargi i reklamacje” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q7b:: Zagadnienie „2.4.8. Zarządzanie jakością” jest elementem zagadnienia „2.4.7. Skargi i reklamacje”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q8:: Zagadnienie „2.4.8. Zarządzanie jakością” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q8b:: Zagadnienie „2.4.9. Audyt wewnętrzny i zewnętrzny” jest elementem zagadnienia „2.4.8. Zarządzanie jakością”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q9:: Zagadnienie „2.4.9. Audyt wewnętrzny i zewnętrzny” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::tf-s02-24-q9b:: Zagadnienie „2.4.10. Etyczna konkurencja na rynku” jest elementem zagadnienia „2.4.9. Audyt wewnętrzny i zewnętrzny”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4). {FALSE} //
+
+::tf-s02-24-q10:: Zagadnienie „2.4.10. Etyczna konkurencja na rynku” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4). {TRUE} //
+
+::mc-s02-24:: Które zagadnienie należy bezpośrednio do tematu „Rynek usług zdrowotnych i medycznych” (2.4)? {
+    = 2.4.1. Standardy usług masażu
+    ~ 2.4.2. Prawa konsumenta i pacjenta
+    ~ 2.4.3. Reklama usług zdrowotnych — granice prawne
+    ~ 1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń
+    ~ 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
+    ~ 5.3.9. Masaż przy obniżonej odporności — ostrożność
+}

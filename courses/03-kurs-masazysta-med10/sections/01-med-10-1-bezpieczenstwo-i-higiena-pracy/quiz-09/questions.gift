@@ -47,3 +47,101 @@
     ~ 3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru
     ~ 5.4.3. Drobne przeciążenia
 }
+
+::mc-s01-19-q1:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~ Wplyw masazu na skore
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Prawo do przerwania
+}
+
+::mc-s01-19-q2:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s01-19-q3:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s01-19-q4:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.4 Stosowanie jednorazowych podkladow
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s01-19-q5:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.5 Postepowanie z przescieradlami i recznikami
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s01-19-q6:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.6 Mycie i dezynfekcja sprzetu do masazu przyrzadowego
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s01-19-q7:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.7 Przechowywanie srodkow poslizgowych i wspomagajacych
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s01-19-q8:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.8 Zasady pracy przy zmianach skornych, ranach, obrzekach
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Srodki poslizgowe
+}
+
+::mc-s01-19-q9:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.9 Rozpoznawanie czynnikow ryzyka zakazen
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s01-19-q10:: Które zagadnienie należy bezpośrednio do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.10 Procedury zapobiegania zakaziom zwiazanym z opieka zdrowotna
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s01-19-v1:: Które zagadnienie należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~0.5# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~0.5# 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-19-v2:: Które zagadnienie NIE należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9), lecz jest częścią innego tematu kursu? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~-0.25# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~-0.25# 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-19-v3:: Które zagadnienie należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~0.5# 1.9.1 Pojecie aseptyki i antyseptyki
+    ~0.5# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-19-v4:: Które zagadnienie NIE należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9), lecz jest częścią innego tematu kursu? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~-0.25# 1.9.4 Stosowanie jednorazowych podkladow
+    ~-0.25# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

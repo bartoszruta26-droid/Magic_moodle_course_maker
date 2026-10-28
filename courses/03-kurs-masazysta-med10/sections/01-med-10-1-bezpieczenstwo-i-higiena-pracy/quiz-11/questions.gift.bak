@@ -1,0 +1,49 @@
+// Quiz: 1.11. Ochrona przeciwpożarowa i ewakuacja — moduł 1 (01-med-10-1-bezpieczenstwo-i-higiena-pracy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s01-111-q1:: Zagadnienie „1.11.1. Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q1b:: Zagadnienie „1.11.2. Sygnały alarmowe” jest elementem zagadnienia „1.11.1. Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q2:: Zagadnienie „1.11.2. Sygnały alarmowe” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q2b:: Zagadnienie „1.11.3. Gaśnice i ich rodzaje” jest elementem zagadnienia „1.11.2. Sygnały alarmowe”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q3:: Zagadnienie „1.11.3. Gaśnice i ich rodzaje” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q3b:: Zagadnienie „1.11.4. Zasady ewakuacji osoby leżącej na stole do masażu” jest elementem zagadnienia „1.11.3. Gaśnice i ich rodzaje”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q4:: Zagadnienie „1.11.4. Zasady ewakuacji osoby leżącej na stole do masażu” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q4b:: Zagadnienie „1.11.5. Ewakuacja osób z niepełnosprawnością” jest elementem zagadnienia „1.11.4. Zasady ewakuacji osoby leżącej na stole do masażu”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q5:: Zagadnienie „1.11.5. Ewakuacja osób z niepełnosprawnością” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q5b:: Zagadnienie „1.11.6. Postępowanie przy pożarze środków chemicznych” jest elementem zagadnienia „1.11.5. Ewakuacja osób z niepełnosprawnością”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q6:: Zagadnienie „1.11.6. Postępowanie przy pożarze środków chemicznych” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q6b:: Zagadnienie „1.11.7. Drogi ewakuacyjne i ich oznakowanie” jest elementem zagadnienia „1.11.6. Postępowanie przy pożarze środków chemicznych”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q7:: Zagadnienie „1.11.7. Drogi ewakuacyjne i ich oznakowanie” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q7b:: Zagadnienie „1.11.8. Ćwiczenia ewakuacyjne” jest elementem zagadnienia „1.11.7. Drogi ewakuacyjne i ich oznakowanie”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q8:: Zagadnienie „1.11.8. Ćwiczenia ewakuacyjne” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q8b:: Zagadnienie „1.11.9. Pierwsza pomoc w oparzeniach” jest elementem zagadnienia „1.11.8. Ćwiczenia ewakuacyjne”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q9:: Zagadnienie „1.11.9. Pierwsza pomoc w oparzeniach” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::tf-s01-111-q9b:: Zagadnienie „1.11.10. Zasada: bezpieczeństwo życia ponad mieniem” jest elementem zagadnienia „1.11.9. Pierwsza pomoc w oparzeniach”, a nie tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {FALSE} //
+
+::tf-s01-111-q10:: Zagadnienie „1.11.10. Zasada: bezpieczeństwo życia ponad mieniem” wchodzi w zakres tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11). {TRUE} //
+
+::mc-s01-111:: Które zagadnienie należy bezpośrednio do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11)? {
+    = 1.11.1. Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne
+    ~ 1.11.2. Sygnały alarmowe
+    ~ 1.11.3. Gaśnice i ich rodzaje
+    ~ 2.5.5. Poufność dokumentacji
+    ~ 3.18.5. Zmiana odczuwania bólu
+    ~ 5.8.4. Relacja z trenerem: asertywność
+}

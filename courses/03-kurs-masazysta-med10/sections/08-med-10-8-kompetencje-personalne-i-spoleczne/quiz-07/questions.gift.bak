@@ -1,0 +1,49 @@
+// Quiz: 8.7. Aktualizowanie wiedzy i doskonalenie zawodowe — moduł 8 (08-med-10-8-kompetencje-personalne-i-spoleczne)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s08-87-q1:: Zagadnienie „8.7.1. Analiza własnych kompetencji” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q1b:: Zagadnienie „8.7.2. Tendencje na rynku usług masażu” jest elementem zagadnienia „8.7.1. Analiza własnych kompetencji”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q2:: Zagadnienie „8.7.2. Tendencje na rynku usług masażu” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q2b:: Zagadnienie „8.7.3. Krytyczna ocena nowinek” jest elementem zagadnienia „8.7.2. Tendencje na rynku usług masażu”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q3:: Zagadnienie „8.7.3. Krytyczna ocena nowinek” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q3b:: Zagadnienie „8.7.4. Kształcenie ustawiczne” jest elementem zagadnienia „8.7.3. Krytyczna ocena nowinek”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q4:: Zagadnienie „8.7.4. Kształcenie ustawiczne” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q4b:: Zagadnienie „8.7.5. Kursy, warsztaty, konferencje” jest elementem zagadnienia „8.7.4. Kształcenie ustawiczne”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q5:: Zagadnienie „8.7.5. Kursy, warsztaty, konferencje” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q5b:: Zagadnienie „8.7.6. Piśmiennictwo fachowe” jest elementem zagadnienia „8.7.5. Kursy, warsztaty, konferencje”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q6:: Zagadnienie „8.7.6. Piśmiennictwo fachowe” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q6b:: Zagadnienie „8.7.7. Mentoring i superwizja” jest elementem zagadnienia „8.7.6. Piśmiennictwo fachowe”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q7:: Zagadnienie „8.7.7. Mentoring i superwizja” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q7b:: Zagadnienie „8.7.8. Plan rozwoju zawodowego” jest elementem zagadnienia „8.7.7. Mentoring i superwizja”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q8:: Zagadnienie „8.7.8. Plan rozwoju zawodowego” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q8b:: Zagadnienie „8.7.9. Etyka reklamy własnych kompetencji” jest elementem zagadnienia „8.7.8. Plan rozwoju zawodowego”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q9:: Zagadnienie „8.7.9. Etyka reklamy własnych kompetencji” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::tf-s08-87-q9b:: Zagadnienie „8.7.10. Uczciwość wobec pacjenta” jest elementem zagadnienia „8.7.9. Etyka reklamy własnych kompetencji”, a nie tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {FALSE} //
+
+::tf-s08-87-q10:: Zagadnienie „8.7.10. Uczciwość wobec pacjenta” wchodzi w zakres tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7). {TRUE} //
+
+::mc-s08-87:: Które zagadnienie należy bezpośrednio do tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7)? {
+    = 8.7.1. Analiza własnych kompetencji
+    ~ 8.7.2. Tendencje na rynku usług masażu
+    ~ 8.7.3. Krytyczna ocena nowinek
+    ~ 2.1.8. Granice profesjonalnej bliskości
+    ~ 3.14.8. Obciążenie termiczne
+    ~ 5.4.7. Gorączka i infekcja — przeciwwskazanie
+}

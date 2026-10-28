@@ -47,3 +47,101 @@
     ~ 3.18.7. Wpływ na sen i samopoczucie
     ~ 5.8.6. Małoletni: zgoda opiekuna
 }
+
+::mc-s03-311-q1:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.1 Obrzek limfatyczny pierwotny i wtorny
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s03-311-q2:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.2 Obrzek pourazowy i pooperacyjny
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s03-311-q3:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.3 Stan po mastektomii i usunieciu wezlow chlonnych
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s03-311-q4:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.4 Obrzek zylny i mieszany
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s03-311-q5:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.5 Lipodema i lipowolemoza — ostroznie, w granicach kompetencji
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s03-311-q6:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.6 Przeciwwskazania: ostra niewydolnosc serca, zakrzepica, ostry stan zapalny, nowotwor aktywny bez zgody lekarza
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s03-311-q7:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.7 Ocena stopnia obrzeku
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s03-311-q8:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.8 Kwalifikacja do drenazu
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s03-311-q9:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.9 Zasady bezpieczenstwa przy wezlach usunietych
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s03-311-q10:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.10 Dokumentacja reakcji na drenaz
+    ~ Reakcja pacjenta w trakcie zabiegu
+    ~ Terapia ulozeniowa
+    ~ Reading instructions and labels
+}
+
+::mc-s03-311-v1:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.1 Obrzek limfatyczny pierwotny i wtorny
+    ~0.5# 3.11.2 Obrzek pourazowy i pooperacyjny
+    ~0.5# 3.11.3 Stan po mastektomii i usunieciu wezlow chlonnych
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-311-v2:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11), lecz jest częścią innego tematu kursu? {
+    = 3.11.1 Obrzek limfatyczny pierwotny i wtorny
+    ~-0.25# 3.11.2 Obrzek pourazowy i pooperacyjny
+    ~-0.25# 3.11.3 Stan po mastektomii i usunieciu wezlow chlonnych
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-311-v3:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.3 Stan po mastektomii i usunieciu wezlow chlonnych
+    ~0.5# 3.11.1 Obrzek limfatyczny pierwotny i wtorny
+    ~0.5# 3.11.2 Obrzek pourazowy i pooperacyjny
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-311-v4:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11), lecz jest częścią innego tematu kursu? {
+    = 3.11.1 Obrzek limfatyczny pierwotny i wtorny
+    ~-0.25# 3.11.4 Obrzek zylny i mieszany
+    ~-0.25# 3.11.2 Obrzek pourazowy i pooperacyjny
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

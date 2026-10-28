@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "4.16. Masaż tensegracyjny"
+category: masaz
+questions:
+  - type: truefalse
+    name: "4.16 — zagadnienie 1"
+    text: "Zagadnienie „4.16.1. Pojęcie tensegrity” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 1"
+    text: "Zagadnienie „4.16.2. Linie powięziowe i łańcuchy anatomiczne” jest elementem zagadnienia „4.16.1. Pojęcie tensegrity”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 2"
+    text: "Zagadnienie „4.16.2. Linie powięziowe i łańcuchy anatomiczne” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 2"
+    text: "Zagadnienie „4.16.3. Techniki rozluźniania powięzi” jest elementem zagadnienia „4.16.2. Linie powięziowe i łańcuchy anatomiczne”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 3"
+    text: "Zagadnienie „4.16.3. Techniki rozluźniania powięzi” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 3"
+    text: "Zagadnienie „4.16.4. Oddech i uwaga pacjenta” jest elementem zagadnienia „4.16.3. Techniki rozluźniania powięzi”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 4"
+    text: "Zagadnienie „4.16.4. Oddech i uwaga pacjenta” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 4"
+    text: "Zagadnienie „4.16.5. Delikatne prowadzenie ruchu” jest elementem zagadnienia „4.16.4. Oddech i uwaga pacjenta”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 5"
+    text: "Zagadnienie „4.16.5. Delikatne prowadzenie ruchu” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 5"
+    text: "Zagadnienie „4.16.6. Przeciwwskazania” jest elementem zagadnienia „4.16.5. Delikatne prowadzenie ruchu”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 6"
+    text: "Zagadnienie „4.16.6. Przeciwwskazania” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 6"
+    text: "Zagadnienie „4.16.7. Ryzyko nadmiernej stymulacji” jest elementem zagadnienia „4.16.6. Przeciwwskazania”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 7"
+    text: "Zagadnienie „4.16.7. Ryzyko nadmiernej stymulacji” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 7"
+    text: "Zagadnienie „4.16.8. Zastosowanie w bólach przewlekłych” jest elementem zagadnienia „4.16.7. Ryzyko nadmiernej stymulacji”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 8"
+    text: "Zagadnienie „4.16.8. Zastosowanie w bólach przewlekłych” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 8"
+    text: "Zagadnienie „4.16.9. Współpraca z kinezyterapią” jest elementem zagadnienia „4.16.8. Zastosowanie w bólach przewlekłych”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 9"
+    text: "Zagadnienie „4.16.9. Współpraca z kinezyterapią” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: truefalse
+    name: "4.16 — rozgraniczenie 9"
+    text: "Zagadnienie „4.16.10. Dokumentacja zmian zakresu ruchu” jest elementem zagadnienia „4.16.9. Współpraca z kinezyterapią”, a nie tematu „Masaż tensegracyjny” (4.16)."
+    answer: false
+  - type: truefalse
+    name: "4.16 — zagadnienie 10"
+    text: "Zagadnienie „4.16.10. Dokumentacja zmian zakresu ruchu” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
+    answer: true
+  - type: multichoice
+    name: "4.16 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.1. Pojęcie tensegrity"  fraction: 100
+      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"  fraction: 0
+      - text: "3.19.2. Fizjoterapeuta"  fraction: 0
+      - text: "6.1.2. Profilaktyka a terapia"  fraction: 0

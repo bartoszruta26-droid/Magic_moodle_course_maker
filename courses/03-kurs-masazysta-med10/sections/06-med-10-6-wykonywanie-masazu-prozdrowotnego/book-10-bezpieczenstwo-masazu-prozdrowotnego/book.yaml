@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "6.10. Bezpieczeństwo masażu prozdrowotnego"
+  intro: |
+    Materiał dydaktyczny tematu 6.10 — Bezpieczeństwo masażu prozdrowotnego.
+    Moduł obejmuje masaż prozdrowotny: masaż relaksacyjny, kosmetyczny twarzy, głowy, stóp i dłoni, bańką chińską oraz działania edukacyjne i popularyzację zachowań prozdrowotnych.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "6.10. Bezpieczeństwo masażu prozdrowotnego"
+      subchapter: false
+      content_file: "chapters/01-bezpieczenstwo-masazu-prozdrowotnego.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

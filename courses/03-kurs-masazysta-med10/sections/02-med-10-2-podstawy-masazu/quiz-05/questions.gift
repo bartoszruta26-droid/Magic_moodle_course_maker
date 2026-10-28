@@ -47,3 +47,101 @@
     ~ 3.14.1. Odciążenie grawitacyjne
     ~ 5.3.10. Przeciwwskazania w sporcie
 }
+
+::mc-s02-25-q1:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.1 Karta zabiegow masazu
+    ~ Unerwienie skory
+    ~ Ocena postawy ciala w pozycji stojacej i lezacej
+    ~ Muzyka, oswietlenie, zapach — bez manipulacji
+}
+
+::mc-s02-25-q2:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.2 Dane osobowe pacjenta i RODO
+    ~ Unaczynienie skory
+    ~ Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie
+    ~ Tempo i sila dostosowane do oczekiwan
+}
+
+::mc-s02-25-q3:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.3 Zgoda na przetwarzanie danych
+    ~ Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Pomiary dlugosci konczyn
+    ~ Komunikacja: zapowiedz dotyku
+}
+
+::mc-s02-25-q4:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.4 Zgoda na zabieg masazu
+    ~ Wplyw masazu na skore
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Prawo do przerwania
+}
+
+::mc-s02-25-q5:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.5 Poufnosc dokumentacji
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s02-25-q6:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.6 Przechowywanie i archiwizacja
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s02-25-q7:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.7 Udostepnianie dokumentacji pacjentowi i uprawnionym podmiotom
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s02-25-q8:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.8 Bledy dokumentacyjne i ich konsekwencje
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s02-25-q9:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.9 Dokumentacja elektroniczna i papierowa
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s02-25-q10:: Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.10 Rejestr zdarzen niepozadanych
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s02-25-v1:: Które zagadnienie należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.1 Karta zabiegow masazu
+    ~0.5# 2.5.2 Dane osobowe pacjenta i RODO
+    ~0.5# 2.5.3 Zgoda na przetwarzanie danych
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-25-v2:: Które zagadnienie NIE należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5), lecz jest częścią innego tematu kursu? {
+    = 2.5.1 Karta zabiegow masazu
+    ~-0.25# 2.5.2 Dane osobowe pacjenta i RODO
+    ~-0.25# 2.5.3 Zgoda na przetwarzanie danych
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-25-v3:: Które zagadnienie należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)? {
+    = 2.5.3 Zgoda na przetwarzanie danych
+    ~0.5# 2.5.1 Karta zabiegow masazu
+    ~0.5# 2.5.2 Dane osobowe pacjenta i RODO
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-25-v4:: Które zagadnienie NIE należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5), lecz jest częścią innego tematu kursu? {
+    = 2.5.1 Karta zabiegow masazu
+    ~-0.25# 2.5.4 Zgoda na zabieg masazu
+    ~-0.25# 2.5.2 Dane osobowe pacjenta i RODO
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

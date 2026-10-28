@@ -47,3 +47,101 @@
     ~ 3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja
     ~ 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie
 }
+
+::mc-s05-55-q1:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.1 Czas trwania
+    ~ Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Pomiary dlugosci konczyn
+    ~ Prawo do przerwania
+}
+
+::mc-s05-55-q2:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.2 Sila i tempo
+    ~ Wplyw masazu na skore
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s05-55-q3:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.3 Kolejnosc technik
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Zakres ruchu czynnego i biernego
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s05-55-q4:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.4 Srodki poslizgowe i wspomagajace
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s05-55-q5:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.5 Chlodzenie i rozgrzewanie — bezpieczenstwo
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s05-55-q6:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.6 Masaz tkanek glebokich w granicach kompetencji
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s05-55-q7:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.7 Praca na punktach spustowych
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s05-55-q8:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.8 Mobilizacje i stretching — tylko bezpieczne
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Srodki poslizgowe
+}
+
+::mc-s05-55-q9:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.9 Masaz przyrzadowy w sporcie
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Palpacja tkanek podskornych
+    ~ Przeciwwskazania
+}
+
+::mc-s05-55-q10:: Które zagadnienie należy bezpośrednio do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.10 Dokumentacja i ocena subiektywna
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Pozycja pacjenta
+}
+
+::mc-s05-55-v1:: Które zagadnienie należy do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.1 Czas trwania
+    ~0.5# 5.5.2 Sila i tempo
+    ~0.5# 5.5.3 Kolejnosc technik
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s05-55-v2:: Które zagadnienie NIE należy do tematu „Metodyka masażu sportowego” (5.5), lecz jest częścią innego tematu kursu? {
+    = 5.5.1 Czas trwania
+    ~-0.25# 5.5.2 Sila i tempo
+    ~-0.25# 5.5.3 Kolejnosc technik
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s05-55-v3:: Które zagadnienie należy do tematu „Metodyka masażu sportowego” (5.5)? {
+    = 5.5.3 Kolejnosc technik
+    ~0.5# 5.5.1 Czas trwania
+    ~0.5# 5.5.2 Sila i tempo
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s05-55-v4:: Które zagadnienie NIE należy do tematu „Metodyka masażu sportowego” (5.5), lecz jest częścią innego tematu kursu? {
+    = 5.5.1 Czas trwania
+    ~-0.25# 5.5.4 Srodki poslizgowe i wspomagajace
+    ~-0.25# 5.5.2 Sila i tempo
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "1.4. Prawa i obowiązki pracownika oraz pracodawcy"
+category: masaz
+questions:
+  - type: truefalse
+    name: "1.4 — zagadnienie 1"
+    text: "Zagadnienie „1.4.1. Prawo do bezpiecznych warunków pracy” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 1"
+    text: "Zagadnienie „1.4.2. Obowiązek stosowania się do przepisów BHP” jest elementem zagadnienia „1.4.1. Prawo do bezpiecznych warunków pracy”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 2"
+    text: "Zagadnienie „1.4.2. Obowiązek stosowania się do przepisów BHP” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 2"
+    text: "Zagadnienie „1.4.3. Obowiązek użycia środków ochrony indywidualnej” jest elementem zagadnienia „1.4.2. Obowiązek stosowania się do przepisów BHP”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 3"
+    text: "Zagadnienie „1.4.3. Obowiązek użycia środków ochrony indywidualnej” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 3"
+    text: "Zagadnienie „1.4.4. Prawo odmowy wykonania pracy w stanie zagrożenia życia lub zdrowia” jest elementem zagadnienia „1.4.3. Obowiązek użycia środków ochrony indywidualnej”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 4"
+    text: "Zagadnienie „1.4.4. Prawo odmowy wykonania pracy w stanie zagrożenia życia lub zdrowia” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 4"
+    text: "Zagadnienie „1.4.5. Obowiązek zgłaszania zagrożeń” jest elementem zagadnienia „1.4.4. Prawo odmowy wykonania pracy w stanie zagrożenia życia lub zdrowia”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 5"
+    text: "Zagadnienie „1.4.5. Obowiązek zgłaszania zagrożeń” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 5"
+    text: "Zagadnienie „1.4.6. Odpowiedzialność porządkowa, zawodowa, cywilna i karna” jest elementem zagadnienia „1.4.5. Obowiązek zgłaszania zagrożeń”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 6"
+    text: "Zagadnienie „1.4.6. Odpowiedzialność porządkowa, zawodowa, cywilna i karna” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 6"
+    text: "Zagadnienie „1.4.7. Obowiązki pracodawcy w zakresie szkoleń, nadzoru i wyposażenia” jest elementem zagadnienia „1.4.6. Odpowiedzialność porządkowa, zawodowa, cywilna i karna”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 7"
+    text: "Zagadnienie „1.4.7. Obowiązki pracodawcy w zakresie szkoleń, nadzoru i wyposażenia” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 7"
+    text: "Zagadnienie „1.4.8. Konsultacje z lekarzem medycyny pracy” jest elementem zagadnienia „1.4.7. Obowiązki pracodawcy w zakresie szkoleń, nadzoru i wyposażenia”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 8"
+    text: "Zagadnienie „1.4.8. Konsultacje z lekarzem medycyny pracy” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 8"
+    text: "Zagadnienie „1.4.9. Ochrona sygnalisty w sprawach zagrożeń” jest elementem zagadnienia „1.4.8. Konsultacje z lekarzem medycyny pracy”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 9"
+    text: "Zagadnienie „1.4.9. Ochrona sygnalisty w sprawach zagrożeń” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: truefalse
+    name: "1.4 — rozgraniczenie 9"
+    text: "Zagadnienie „1.4.10. Etyczna postawa wobec nieprawidłowości” jest elementem zagadnienia „1.4.9. Ochrona sygnalisty w sprawach zagrożeń”, a nie tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: false
+  - type: truefalse
+    name: "1.4 — zagadnienie 10"
+    text: "Zagadnienie „1.4.10. Etyczna postawa wobec nieprawidłowości” wchodzi w zakres tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)."
+    answer: true
+  - type: multichoice
+    name: "1.4 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)?"
+    answers:
+      - text: "1.4.1. Prawo do bezpiecznych warunków pracy"  fraction: 100
+      - text: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"  fraction: 0
+      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"  fraction: 0
+      - text: "5.3.8. Masaż w podróży i po podróży"  fraction: 0

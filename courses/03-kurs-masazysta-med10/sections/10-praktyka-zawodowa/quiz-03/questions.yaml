@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "10.3. Zadania ucznia/słuchacza na praktyce"
 category: masaz
 questions:
-  - type: truefalse
-    name: "10.3 — zagadnienie 1"
+  - id: "tf-s10-103-q1"
+    type: "truefalse"
+    name: "tf-s10-103-q1"
     text: "Zagadnienie „10.3.1. Obserwacja zabiegów” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 1"
+  - id: "tf-s10-103-q1b"
+    type: "truefalse"
+    name: "tf-s10-103-q1b"
     text: "Zagadnienie „10.3.2. Asystowanie przy zabiegach” jest elementem zagadnienia „10.3.1. Obserwacja zabiegów”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 2"
+  - id: "tf-s10-103-q2"
+    type: "truefalse"
+    name: "tf-s10-103-q2"
     text: "Zagadnienie „10.3.2. Asystowanie przy zabiegach” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 2"
+  - id: "tf-s10-103-q2b"
+    type: "truefalse"
+    name: "tf-s10-103-q2b"
     text: "Zagadnienie „10.3.3. Przygotowanie stanowiska pracy” jest elementem zagadnienia „10.3.2. Asystowanie przy zabiegach”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 3"
+  - id: "tf-s10-103-q3"
+    type: "truefalse"
+    name: "tf-s10-103-q3"
     text: "Zagadnienie „10.3.3. Przygotowanie stanowiska pracy” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 3"
+  - id: "tf-s10-103-q3b"
+    type: "truefalse"
+    name: "tf-s10-103-q3b"
     text: "Zagadnienie „10.3.4. Przygotowanie pacjenta do zabiegu” jest elementem zagadnienia „10.3.3. Przygotowanie stanowiska pracy”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 4"
+  - id: "tf-s10-103-q4"
+    type: "truefalse"
+    name: "tf-s10-103-q4"
     text: "Zagadnienie „10.3.4. Przygotowanie pacjenta do zabiegu” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 4"
+  - id: "tf-s10-103-q4b"
+    type: "truefalse"
+    name: "tf-s10-103-q4b"
     text: "Zagadnienie „10.3.5. Wykonywanie masażu pod nadzorem” jest elementem zagadnienia „10.3.4. Przygotowanie pacjenta do zabiegu”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 5"
+  - id: "tf-s10-103-q5"
+    type: "truefalse"
+    name: "tf-s10-103-q5"
     text: "Zagadnienie „10.3.5. Wykonywanie masażu pod nadzorem” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 5"
+  - id: "tf-s10-103-q5b"
+    type: "truefalse"
+    name: "tf-s10-103-q5b"
     text: "Zagadnienie „10.3.6. Prowadzenie dokumentacji” jest elementem zagadnienia „10.3.5. Wykonywanie masażu pod nadzorem”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 6"
+  - id: "tf-s10-103-q6"
+    type: "truefalse"
+    name: "tf-s10-103-q6"
     text: "Zagadnienie „10.3.6. Prowadzenie dokumentacji” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 6"
+  - id: "tf-s10-103-q6b"
+    type: "truefalse"
+    name: "tf-s10-103-q6b"
     text: "Zagadnienie „10.3.7. Udział w naradach zespołu” jest elementem zagadnienia „10.3.6. Prowadzenie dokumentacji”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 7"
+  - id: "tf-s10-103-q7"
+    type: "truefalse"
+    name: "tf-s10-103-q7"
     text: "Zagadnienie „10.3.7. Udział w naradach zespołu” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 7"
+  - id: "tf-s10-103-q7b"
+    type: "truefalse"
+    name: "tf-s10-103-q7b"
     text: "Zagadnienie „10.3.8. Realizacja zadań edukacyjnych” jest elementem zagadnienia „10.3.7. Udział w naradach zespołu”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 8"
+  - id: "tf-s10-103-q8"
+    type: "truefalse"
+    name: "tf-s10-103-q8"
     text: "Zagadnienie „10.3.8. Realizacja zadań edukacyjnych” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 8"
+  - id: "tf-s10-103-q8b"
+    type: "truefalse"
+    name: "tf-s10-103-q8b"
     text: "Zagadnienie „10.3.9. Zgłaszanie zdarzeń niepożądanych” jest elementem zagadnienia „10.3.8. Realizacja zadań edukacyjnych”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 9"
+  - id: "tf-s10-103-q9"
+    type: "truefalse"
+    name: "tf-s10-103-q9"
     text: "Zagadnienie „10.3.9. Zgłaszanie zdarzeń niepożądanych” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: truefalse
-    name: "10.3 — rozgraniczenie 9"
+  - id: "tf-s10-103-q9b"
+    type: "truefalse"
+    name: "tf-s10-103-q9b"
     text: "Zagadnienie „10.3.10. Refleksja dzienna i tygodniowa” jest elementem zagadnienia „10.3.9. Zgłaszanie zdarzeń niepożądanych”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: false
-  - type: truefalse
-    name: "10.3 — zagadnienie 10"
+  - id: "tf-s10-103-q10"
+    type: "truefalse"
+    name: "tf-s10-103-q10"
     text: "Zagadnienie „10.3.10. Refleksja dzienna i tygodniowa” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3)."
     answer: true
-  - type: multichoice
-    name: "10.3 — przyporządkowanie zagadnienia"
+  - id: "mc-s10-103"
+    type: "multichoice"
+    name: "mc-s10-103"
     text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
     answers:
-      - text: "10.3.1. Obserwacja zabiegów"  fraction: 100
-      - text: "2.5.5. Poufność dokumentacji"  fraction: 0
-      - text: "3.18.5. Zmiana odczuwania bólu"  fraction: 0
-      - text: "5.8.4. Relacja z trenerem: asertywność"  fraction: 0
+      - text: "10.3.1. Obserwacja zabiegów"
+        fraction: 100
+      - text: "10.3.2. Asystowanie przy zabiegach"
+        fraction: 0
+      - text: "10.3.3. Przygotowanie stanowiska pracy"
+        fraction: 0
+      - text: "2.5.5. Poufność dokumentacji"
+        fraction: 0
+      - text: "3.18.5. Zmiana odczuwania bólu"
+        fraction: 0
+      - text: "5.8.4. Relacja z trenerem: asertywność"
+        fraction: 0
+  - id: "mc-s10-103-q1"
+    type: "multichoice"
+    name: "mc-s10-103-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.1 Obserwacja zabiegow"
+        fraction: 100
+      - text: "Wplyw hormonow na tkanki i samopoczucie"
+        fraction: 0
+      - text: "Pozycja na brzuchu"
+        fraction: 0
+      - text: "Edukacja ergonomia"
+        fraction: 0
+  - id: "mc-s10-103-q2"
+    type: "multichoice"
+    name: "mc-s10-103-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.2 Asystowanie przy zabiegach"
+        fraction: 100
+      - text: "Bezpieczenstwo masazu w chorobach tych ukladow"
+        fraction: 0
+      - text: "Pozycja na plecach"
+        fraction: 0
+      - text: "Dokumentacja skrocona"
+        fraction: 0
+  - id: "mc-s10-103-q3"
+    type: "multichoice"
+    name: "mc-s10-103-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.3 Przygotowanie stanowiska pracy"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Dlonie, przedramiona, kciuki"
+        fraction: 0
+  - id: "mc-s10-103-q4"
+    type: "multichoice"
+    name: "mc-s10-103-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.4 Przygotowanie pacjenta do zabiegu"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Brak sprzetu jako przewaga dostepnosci"
+        fraction: 0
+  - id: "mc-s10-103-q5"
+    type: "multichoice"
+    name: "mc-s10-103-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.5 Wykonywanie masazu pod nadzorem"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s10-103-q6"
+    type: "multichoice"
+    name: "mc-s10-103-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.6 Prowadzenie dokumentacji"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s10-103-q7"
+    type: "multichoice"
+    name: "mc-s10-103-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.7 Udzial w naradach zespolu"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s10-103-q8"
+    type: "multichoice"
+    name: "mc-s10-103-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.8 Realizacja zadan edukacyjnych"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s10-103-q9"
+    type: "multichoice"
+    name: "mc-s10-103-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.9 Zglaszanie zdarzen niepozadanych"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s10-103-q10"
+    type: "multichoice"
+    name: "mc-s10-103-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.10 Refleksja dzienna i tygodniowa"
+        fraction: 100
+      - text: "Tolerancja bolu i prog dyskomfortu"
+        fraction: 0
+      - text: "Zasada podwojnego opracowania stawow"
+        fraction: 0
+      - text: "Wardrobe and storage"
+        fraction: 0
+  - id: "mc-s10-103-v1"
+    type: "multichoice"
+    name: "mc-s10-103-v1"
+    text: "Które zagadnienie należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.1 Obserwacja zabiegow"
+        fraction: 100
+      - text: "0.5# 10.3.2 Asystowanie przy zabiegach"
+        fraction: 0
+      - text: "0.5# 10.3.3 Przygotowanie stanowiska pracy"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s10-103-v2"
+    type: "multichoice"
+    name: "mc-s10-103-v2"
+    text: "Które zagadnienie NIE należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "10.3.1 Obserwacja zabiegow"
+        fraction: 100
+      - text: "-0.25# 10.3.2 Asystowanie przy zabiegach"
+        fraction: 0
+      - text: "-0.25# 10.3.3 Przygotowanie stanowiska pracy"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s10-103-v3"
+    type: "multichoice"
+    name: "mc-s10-103-v3"
+    text: "Które zagadnienie należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)?"
+    answers:
+      - text: "10.3.3 Przygotowanie stanowiska pracy"
+        fraction: 100
+      - text: "0.5# 10.3.1 Obserwacja zabiegow"
+        fraction: 0
+      - text: "0.5# 10.3.2 Asystowanie przy zabiegach"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s10-103-v4"
+    type: "multichoice"
+    name: "mc-s10-103-v4"
+    text: "Które zagadnienie NIE należy do tematu „Zadania ucznia/słuchacza na praktyce” (10.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "10.3.1 Obserwacja zabiegow"
+        fraction: 100
+      - text: "-0.25# 10.3.4 Przygotowanie pacjenta do zabiegu"
+        fraction: 0
+      - text: "-0.25# 10.3.2 Asystowanie przy zabiegach"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

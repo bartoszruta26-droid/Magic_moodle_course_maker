@@ -1,0 +1,49 @@
+// Quiz: 2.10. Układ ruchu: kości, stawy, mięśnie, powięź — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-210-q1:: Zagadnienie „2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q1b:: Zagadnienie „2.10.2. Połączenia kości: ciągłe i ciągłości” jest elementem zagadnienia „2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q2:: Zagadnienie „2.10.2. Połączenia kości: ciągłe i ciągłości” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q2b:: Zagadnienie „2.10.3. Stawy: budowa, torebka, chrząstka, maziówka” jest elementem zagadnienia „2.10.2. Połączenia kości: ciągłe i ciągłości”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q3:: Zagadnienie „2.10.3. Stawy: budowa, torebka, chrząstka, maziówka” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q3b:: Zagadnienie „2.10.4. Wiązadła i ścięgna” jest elementem zagadnienia „2.10.3. Stawy: budowa, torebka, chrząstka, maziówka”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q4:: Zagadnienie „2.10.4. Wiązadła i ścięgna” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q4b:: Zagadnienie „2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne” jest elementem zagadnienia „2.10.4. Wiązadła i ścięgna”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q5:: Zagadnienie „2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q5b:: Zagadnienie „2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste” jest elementem zagadnienia „2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q6:: Zagadnienie „2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q6b:: Zagadnienie „2.10.7. Powięź powierzchowna i głęboka” jest elementem zagadnienia „2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q7:: Zagadnienie „2.10.7. Powięź powierzchowna i głęboka” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q7b:: Zagadnienie „2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe” jest elementem zagadnienia „2.10.7. Powięź powierzchowna i głęboka”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q8:: Zagadnienie „2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q8b:: Zagadnienie „2.10.9. Biomechanika ruchu i stabilizacja” jest elementem zagadnienia „2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q9:: Zagadnienie „2.10.9. Biomechanika ruchu i stabilizacja” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::tf-s02-210-q9b:: Zagadnienie „2.10.10. Znaczenie palpacji struktur układu ruchu” jest elementem zagadnienia „2.10.9. Biomechanika ruchu i stabilizacja”, a nie tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {FALSE} //
+
+::tf-s02-210-q10:: Zagadnienie „2.10.10. Znaczenie palpacji struktur układu ruchu” wchodzi w zakres tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10). {TRUE} //
+
+::mc-s02-210:: Które zagadnienie należy bezpośrednio do tematu „Układ ruchu: kości, stawy, mięśnie, powięź” (2.10)? {
+    = 2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych
+    ~ 2.10.2. Połączenia kości: ciągłe i ciągłości
+    ~ 2.10.3. Stawy: budowa, torebka, chrząstka, maziówka
+    ~ 2.5.4. Zgoda na zabieg masażu
+    ~ 3.18.5. Zmiana odczuwania bólu
+    ~ 5.8.4. Relacja z trenerem: asertywność
+}

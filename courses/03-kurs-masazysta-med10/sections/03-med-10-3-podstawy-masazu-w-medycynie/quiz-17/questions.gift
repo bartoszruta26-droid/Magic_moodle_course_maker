@@ -47,3 +47,101 @@
     ~ 3.19.3. Pielęgniarka i opiekun medyczny
     ~ 6.1.2. Profilaktyka a terapia
 }
+
+::mc-s03-317-q1:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.1 Dzialanie miejscowe na skore
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s03-317-q2:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.2 Dzialanie na tkanke podskorna
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s03-317-q3:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.3 Dzialanie na miesnie
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s03-317-q4:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.4 Dzialanie na powiez
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s03-317-q5:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.5 Dzialanie na stawy i wiezadla
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s03-317-q6:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.6 Dzialanie na naczynia krwionosne
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s03-317-q7:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.7 Dzialanie na uklad limfatyczny
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz kregoslupa piersiowego
+    ~ Podstawy higieny snu
+}
+
+::mc-s03-317-q8:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.8 Dzialanie na uklad nerwowy somatyczny
+    ~ Skurcz koncentryczny i ekscentryczny
+    ~ Masaz kregoslupa ledzwiowego
+    ~ Podstawy aktywnosci fizycznej
+}
+
+::mc-s03-317-q9:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.9 Dzialanie na uklad autonomiczny
+    ~ Napiecie spoczynkowe miesnia
+    ~ Masaz karku
+    ~ Podstawy nawodnienia
+}
+
+::mc-s03-317-q10:: Które zagadnienie należy bezpośrednio do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.10 Dzialanie ogolnoustrojowe: relaksacja, regeneracja, modulacja bolu
+    ~ Wazelina i lanolina
+    ~ Edukacja pacjenta i rodziny
+    ~ Trigger point therapy
+}
+
+::mc-s03-317-v1:: Które zagadnienie należy do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.1 Dzialanie miejscowe na skore
+    ~0.5# 3.17.2 Dzialanie na tkanke podskorna
+    ~0.5# 3.17.3 Dzialanie na miesnie
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-317-v2:: Które zagadnienie NIE należy do tematu „Działanie masażu na organizm człowieka” (3.17), lecz jest częścią innego tematu kursu? {
+    = 3.17.1 Dzialanie miejscowe na skore
+    ~-0.25# 3.17.2 Dzialanie na tkanke podskorna
+    ~-0.25# 3.17.3 Dzialanie na miesnie
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-317-v3:: Które zagadnienie należy do tematu „Działanie masażu na organizm człowieka” (3.17)? {
+    = 3.17.3 Dzialanie na miesnie
+    ~0.5# 3.17.1 Dzialanie miejscowe na skore
+    ~0.5# 3.17.2 Dzialanie na tkanke podskorna
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-317-v4:: Które zagadnienie NIE należy do tematu „Działanie masażu na organizm człowieka” (3.17), lecz jest częścią innego tematu kursu? {
+    = 3.17.1 Dzialanie miejscowe na skore
+    ~-0.25# 3.17.4 Dzialanie na powiez
+    ~-0.25# 3.17.2 Dzialanie na tkanke podskorna
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -1,0 +1,49 @@
+// Quiz: 4.4. Planowanie zabiegu masażu — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-44-q1:: Zagadnienie „4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q1b:: Zagadnienie „4.4.2. Dobór rodzaju masażu” jest elementem zagadnienia „4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q2:: Zagadnienie „4.4.2. Dobór rodzaju masażu” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q2b:: Zagadnienie „4.4.3. Dobór technik” jest elementem zagadnienia „4.4.2. Dobór rodzaju masażu”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q3:: Zagadnienie „4.4.3. Dobór technik” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q3b:: Zagadnienie „4.4.4. Dobór kolejności” jest elementem zagadnienia „4.4.3. Dobór technik”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q4:: Zagadnienie „4.4.4. Dobór kolejności” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q4b:: Zagadnienie „4.4.5. Dobór czasu i siły” jest elementem zagadnienia „4.4.4. Dobór kolejności”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q5:: Zagadnienie „4.4.5. Dobór czasu i siły” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q5b:: Zagadnienie „4.4.6. Dobór pozycji pacjenta” jest elementem zagadnienia „4.4.5. Dobór czasu i siły”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q6:: Zagadnienie „4.4.6. Dobór pozycji pacjenta” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q6b:: Zagadnienie „4.4.7. Dobór środków poślizgowych” jest elementem zagadnienia „4.4.6. Dobór pozycji pacjenta”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q7:: Zagadnienie „4.4.7. Dobór środków poślizgowych” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q7b:: Zagadnienie „4.4.8. Uwzględnienie zlecenia lekarskiego” jest elementem zagadnienia „4.4.7. Dobór środków poślizgowych”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q8:: Zagadnienie „4.4.8. Uwzględnienie zlecenia lekarskiego” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q8b:: Zagadnienie „4.4.9. Uwzględnienie preferencji i granic pacjenta” jest elementem zagadnienia „4.4.8. Uwzględnienie zlecenia lekarskiego”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q9:: Zagadnienie „4.4.9. Uwzględnienie preferencji i granic pacjenta” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::tf-s04-44-q9b:: Zagadnienie „4.4.10. Plan serii zabiegów i oceny efektów” jest elementem zagadnienia „4.4.9. Uwzględnienie preferencji i granic pacjenta”, a nie tematu „Planowanie zabiegu masażu” (4.4). {FALSE} //
+
+::tf-s04-44-q10:: Zagadnienie „4.4.10. Plan serii zabiegów i oceny efektów” wchodzi w zakres tematu „Planowanie zabiegu masażu” (4.4). {TRUE} //
+
+::mc-s04-44:: Które zagadnienie należy bezpośrednio do tematu „Planowanie zabiegu masażu” (4.4)? {
+    = 4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy
+    ~ 4.4.2. Dobór rodzaju masażu
+    ~ 4.4.3. Dobór technik
+    ~ 2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy
+    ~ 3.14.1. Odciążenie grawitacyjne
+    ~ 5.4.1. Napięcie mięśniowe po treningu
+}

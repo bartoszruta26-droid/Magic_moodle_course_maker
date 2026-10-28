@@ -47,3 +47,101 @@
     ~ 3.14.2. Temperatura wody i jej wpływ
     ~ 5.4.1. Napięcie mięśniowe po treningu
 }
+
+::mc-s03-35-q1:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.1 Nadcisnienie tetnicze
+    ~ Unerwienie skory
+    ~ Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie
+    ~ Tempo i sila dostosowane do oczekiwan
+}
+
+::mc-s03-35-q2:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.2 Choroba niedokrwienna serca
+    ~ Unaczynienie skory
+    ~ Pomiary dlugosci konczyn
+    ~ Komunikacja: zapowiedz dotyku
+}
+
+::mc-s03-35-q3:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.3 Stan po zawale serca — tylko w uzgodnieniu z lekarzem
+    ~ Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna
+    ~ Pomiary obwodow konczyn i obrzeku
+    ~ Prawo do przerwania
+}
+
+::mc-s03-35-q4:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.4 Niewydolnosc serca — przeciwwskazania i ostroznosc
+    ~ Wplyw masazu na skore
+    ~ Zakres ruchu czynnego i biernego
+    ~ Brak ocen moralnych ciala
+}
+
+::mc-s03-35-q5:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.5 Zylaki konczyn dolnych
+    ~ Skora sucha, cienka, wrazliwa, naczyniowa
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s03-35-q6:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.6 Zakrzepica zyl glebokich — bezwzgledne przeciwwskazanie
+    ~ Przeciwwskazania skorne do masazu
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s03-35-q7:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.7 Zapalenie zyl
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s03-35-q8:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.8 Miazdzyca tetnic obwodowych
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s03-35-q9:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.9 Choroba Raynauda
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s03-35-q10:: Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.10 Obrzek limfatyczny i niewydolnosc krazenia chlonnego
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s03-35-v1:: Które zagadnienie należy do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.1 Nadcisnienie tetnicze
+    ~0.5# 3.5.2 Choroba niedokrwienna serca
+    ~0.5# 3.5.3 Stan po zawale serca — tylko w uzgodnieniu z lekarzem
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-35-v2:: Które zagadnienie NIE należy do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5), lecz jest częścią innego tematu kursu? {
+    = 3.5.1 Nadcisnienie tetnicze
+    ~-0.25# 3.5.2 Choroba niedokrwienna serca
+    ~-0.25# 3.5.3 Stan po zawale serca — tylko w uzgodnieniu z lekarzem
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-35-v3:: Które zagadnienie należy do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)? {
+    = 3.5.3 Stan po zawale serca — tylko w uzgodnieniu z lekarzem
+    ~0.5# 3.5.1 Nadcisnienie tetnicze
+    ~0.5# 3.5.2 Choroba niedokrwienna serca
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-35-v4:: Które zagadnienie NIE należy do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5), lecz jest częścią innego tematu kursu? {
+    = 3.5.1 Nadcisnienie tetnicze
+    ~-0.25# 3.5.4 Niewydolnosc serca — przeciwwskazania i ostroznosc
+    ~-0.25# 3.5.2 Choroba niedokrwienna serca
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

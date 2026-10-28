@@ -1,0 +1,49 @@
+// Quiz: 4.1. Ocena pacjenta na potrzeby wykonania masażu — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-41-q1:: Zagadnienie „4.1.1. Wywiad: dane osobowe, wiek, płeć, zawód, tryb życia” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q1b:: Zagadnienie „4.1.2. Wywiad chorobowy: rozpoznanie, zlecenie, leki, choroby towarzyszące” jest elementem zagadnienia „4.1.1. Wywiad: dane osobowe, wiek, płeć, zawód, tryb życia”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q2:: Zagadnienie „4.1.2. Wywiad chorobowy: rozpoznanie, zlecenie, leki, choroby towarzyszące” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q2b:: Zagadnienie „4.1.3. Wywiad urazowy i operacyjny” jest elementem zagadnienia „4.1.2. Wywiad chorobowy: rozpoznanie, zlecenie, leki, choroby towarzyszące”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q3:: Zagadnienie „4.1.3. Wywiad urazowy i operacyjny” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q3b:: Zagadnienie „4.1.4. Wywiad alergologiczny i skórny” jest elementem zagadnienia „4.1.3. Wywiad urazowy i operacyjny”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q4:: Zagadnienie „4.1.4. Wywiad alergologiczny i skórny” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q4b:: Zagadnienie „4.1.5. Wywiad bólowy: lokalizacja, nasilenie, charakter, promieniowanie” jest elementem zagadnienia „4.1.4. Wywiad alergologiczny i skórny”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q5:: Zagadnienie „4.1.5. Wywiad bólowy: lokalizacja, nasilenie, charakter, promieniowanie” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q5b:: Zagadnienie „4.1.6. Wywiad funkcjonalny: chód, sen, praca, aktywność” jest elementem zagadnienia „4.1.5. Wywiad bólowy: lokalizacja, nasilenie, charakter, promieniowanie”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q6:: Zagadnienie „4.1.6. Wywiad funkcjonalny: chód, sen, praca, aktywność” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q6b:: Zagadnienie „4.1.7. Ocena postawy ciała w pozycji stojącej i leżącej” jest elementem zagadnienia „4.1.6. Wywiad funkcjonalny: chód, sen, praca, aktywność”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q7:: Zagadnienie „4.1.7. Ocena postawy ciała w pozycji stojącej i leżącej” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q7b:: Zagadnienie „4.1.8. Ocena budowy ciała: typ budowy, masa, wzrost, BMI orientacyjnie” jest elementem zagadnienia „4.1.7. Ocena postawy ciała w pozycji stojącej i leżącej”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q8:: Zagadnienie „4.1.8. Ocena budowy ciała: typ budowy, masa, wzrost, BMI orientacyjnie” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q8b:: Zagadnienie „4.1.9. Pomiary długości kończyn” jest elementem zagadnienia „4.1.8. Ocena budowy ciała: typ budowy, masa, wzrost, BMI orientacyjnie”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q9:: Zagadnienie „4.1.9. Pomiary długości kończyn” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::tf-s04-41-q9b:: Zagadnienie „4.1.10. Pomiary obwodów kończyn i obrzęku” jest elementem zagadnienia „4.1.9. Pomiary długości kończyn”, a nie tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {FALSE} //
+
+::tf-s04-41-q10:: Zagadnienie „4.1.10. Pomiary obwodów kończyn i obrzęku” wchodzi w zakres tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1). {TRUE} //
+
+::mc-s04-41:: Które zagadnienie należy bezpośrednio do tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1)? {
+    = 4.1.1. Wywiad: dane osobowe, wiek, płeć, zawód, tryb życia
+    ~ 4.1.2. Wywiad chorobowy: rozpoznanie, zlecenie, leki, choroby towarzyszące
+    ~ 4.1.3. Wywiad urazowy i operacyjny
+    ~ 1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne
+    ~ 3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem
+    ~ 5.3.8. Masaż w podróży i po podróży
+}

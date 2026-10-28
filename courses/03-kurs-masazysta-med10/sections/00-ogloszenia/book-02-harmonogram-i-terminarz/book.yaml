@@ -1,0 +1,20 @@
+# Aktywność typu book — harmonogram i terminarz (sekcja ogłoszeń)
+book:
+  name: "Harmonogram i terminarz kursu"
+  intro: |
+    Organizacja czasowa kursu MED.10: struktura modułów, cykl publikacji
+    ogłoszeń, terminy zaliczeń i poprawek oraz zasady przesuwania terminów
+    w dni świąteczne. Wszystkie terminy ogłaszamy z co najmniej
+    dwutygodniowym wyprzedzeniem.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "Harmonogram i terminarz kursu MED.10"
+      subchapter: false
+      content_file: "chapters/01-harmonogram-i-terminarz.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

@@ -1,27 +1,64 @@
-# Moduł 11: Przygotowanie do egzaminu potwierdzającego kwalifikację
+# Przygotowanie do egzaminu potwierdzającego kwalifikację med.10
 
-## Opis modułu
+*Sekcja 11 kursu: kwalifikacyjny kurs zawodowy w zawodzie masażysta certyfikowanego, kwalifikacja MED.10 — Świadczenie usług w zakresie masażu.*
 
-Moduł przygotowuje do egzaminu potwierdzającego kwalifikację MED.10: powtórzenie i usystematyzowanie wiedzy, próby egzaminacyjne (część pisemna i praktyczna) oraz analiza arkuszy egzaminacyjnych CKE.
+## Zakres i cele sekcji
 
-## Struktura modułu (tematy)
+Moduł **„Przygotowanie do egzaminu potwierdzającego kwalifikację med.10”** obejmuje **10 tematów** oraz **105 zagadnień szczegółowych** wyliczonych ze spisu treści kursu. Wymiar godzinowy ustalony w spisie treści: **brak przypisanej liczby godzin w spisie treści (realizowane w ramach organizacji kursu)**. Realizacja łączy wykład konstruktywny, pokaz techniki i ćwiczenia naprzemienne w parach — w rolach masowanego i masażysty — aby każdy uczestnik uczył się wrażliwości dotyku i odpowiedzialności za drugiego człowieka.
 
-| Nr tematu | Strona | Quiz | Zadanie | Liczba zagadnień |
-|-----------|--------|------|---------|------------------|
-| 11.1 | page-01 | quiz-01 | assignment-01 | 10 |
-| 11.2 | page-02 | quiz-02 | assignment-02 | 10 |
-| 11.3 | page-03 | quiz-03 | assignment-03 | 10 |
-| 11.4 | page-04 | quiz-04 | assignment-04 | 10 |
-| 11.5 | page-05 | quiz-05 | assignment-05 | 15 |
-| 11.6 | page-06 | quiz-06 | assignment-06 | 10 |
-| 11.7 | page-07 | quiz-07 | assignment-07 | 10 |
-| 11.8 | page-08 | quiz-08 | assignment-08 | 10 |
-| 11.9 | page-09 | quiz-09 | assignment-09 | 10 |
-| 11.10 | page-10 | quiz-10 | assignment-10 | 10 |
+Po zakończeniu tej sekcji uczestnik potrafi:
 
-## Sposób zaliczenia
+- omówić podstawy teoretyczne każdego tematu w oparciu o materiał książkowy (aktywność *book*) przypisany do tematu;
+- wykonać ćwiczenia praktyczne zgodnie z metodyką i zasadami higieny stanowiska pracy;
+- rozpoznać przeciwwskazania i sytuacje wymagające konsultacji lekarskiej, działając w granicach kompetencji zawodu;
+- udokumentować wykonane czynności według wzorów dokumentacji (załącznik C);
+- ocenić własną pracę według check-listy i sformułować plan doskonalenia w duchu pokornej służby bliźniemu.
 
-- obecność i aktywny udział w zajęciach praktycznych,
-- quizy tematyczne: minimalny próg 60% z każdego quizu,
-- zadania praktyczne oceniane wg kryteriów podanych w instrukcjach,
-- zaliczenie modułu wg tabeli wag w pliku grades.yaml.
+## Mapa materiałów: Temat → Książka → Quiz → Zadanie
+
+| Nr tematu | Temat | Książka (book) | Quiz | Zadanie |
+|---|---|---|---|---|
+| 11.1 | Wymagania egzaminacyjne i zasady oceny | `book-01-wymagania-egzaminacyjne-i-zasady-oceny` | `quiz-01` | `assignment-01` |
+| 11.2 | Powtórka wiadomości z BHP | `book-02-powtorka-wiadomosci-z-bhp` | `quiz-02` | `assignment-02` |
+| 11.3 | Powtórka anatomii i fizjologii | `book-03-powtorka-anatomii-i-fizjologii` | `quiz-03` | `assignment-03` |
+| 11.4 | Powtórka patologii i wskazań/przeciwwskazań | `book-04-powtorka-patologii-i-wskazan-przeciwwskazan` | `quiz-04` | `assignment-04` |
+| 11.5 | Powtórka technik masażu | `book-05-powtorka-technik-masazu` | `quiz-05` | `assignment-05` |
+| 11.6 | Studia przypadków | `book-06-studia-przypadkow` | `quiz-06` | `assignment-06` |
+| 11.7 | Symulacje egzaminacyjne | `book-07-symulacje-egzaminacyjne` | `quiz-07` | `assignment-07` |
+| 11.8 | Egzamin praktyczny — kryteria wykonania | `book-08-egzamin-praktyczny-kryteria-wykonania` | `quiz-08` | `assignment-08` |
+| 11.9 | Egzamin pisemny — zakres powtórkowy | `book-09-egzamin-pisemny-zakres-powtorkowy` | `quiz-09` | `assignment-09` |
+| 11.10 | Postawa egzaminacyjna w duchu prawdy i pokoju | `book-10-postawa-egzaminacyjna-w-duchu-prawdy-i-pokoju` | `quiz-10` | `assignment-10` |
+
+Treść dydaktyczna każdego tematu mieszka w **książce (Moodle book)** — preferowanej aktywności kursu; dawniej stosowane strony typu *page* zostały w całości przekształcone na książki skryptem `scripts/page_to_book.py`.
+
+## Zasady zaliczania — jednakowe dla wszystkich
+
+| Kryterium | Zasada | Uzasadnienie sprawiedliwości |
+|---|---|---|
+| Quizy tematyczne | Próg zaliczenia **60%**, dwa podejścia, liczy się **lepszy wynik** | Każdy uczestnik ma równą szansę powtórzenia materiału |
+| Zadania praktyczne | Ocena według jawnej check-listy (załącznik F) i kryteriów w `instructions.md` | Te same kryteria dla każdej osoby, brak oceny uznaniowej |
+| Obecność na ćwiczeniach | Usprawiedliwione nieobecności możliwe do odrobienia w terminie konsultacji | Równość szans wobec zdarzeń losowych |
+| Dostosowania | Osoby z niepełnosprawnościami: wydłużony czas, asystent, materiały alternatywne (regulamin, załącznik B) | Solidarność i poszanowanie godności każdej osoby |
+| Odwołania | Wniosek do przewodniczącego zespołu przedmiotowego w ciągu 7 dni | Jawność i prawo do rzetelnej weryfikacji oceny |
+
+> Ocena w tym kursie opisuje wykonanie zadania — nigdy wartości człowieka.
+> Poprawki są normalną częścią uczenia się, dlatego są dostępne i uczciwe.
+
+## Bezpieczeństwo i etyka w pracy masażysty
+
+- **Primum non nocere** — pierwsza zasada: nie szkodzić. Przed każdym
+  działaniem weryfikuj przeciwwskazania bezwzględne i względne (załącznik D)
+  oraz stany wymagające pilnej konsultacji lekarskiej (załącznik E).
+- **Granice kompetencji** — masażysta nie rozpoznaje chorób, nie stawia
+  rozpoznań, nie modyfikuje zleceń lekarskich. Rozpoznawszy niepokojący objaw,
+  kieruj klienta do lekarza i zapisz to w dokumentacji.
+- **Zgoda i prywatność** — świadoma zgoda na zabieg i na przetwarzanie danych
+  (RODO), poufność informacji o kliencie, dbałość o komfort i godność osoby
+  masowanej.
+- **Sprawiedliwość w relacji** — równe traktowanie niezależnie od płci, wieku,
+  rasy, wyznania, niepełnosprawności czy statusu społecznego; zakaz
+  dyskryminacji i jakiejkolwiek formy wykorzystania.
+
+## Podsumowanie
+
+Ta sekcja jest fragmentem większej całości: biegłość masażysty rodzi się z systematyczności — codziennego powtarzania, ćwiczenia rąk i rachunku sumienia z jakości wykonanej pracy. Zaplanuj naukę materiału tej sekcji w porcjach dziennych (krótkie powtórki działają lepiej niż maraton przed zaliczeniem), korzystaj z trybów powtórzeń quizów oraz z dyżurów instruktorskich. Niech zdobyta wiedza służy prawdziwie, pięknie i sprawiedliwie — ku dobru każdego klienta i pacjenta.

@@ -1,0 +1,19 @@
+# Aktywność typu book — materiał tematyczny (preferowana aktywność)
+# Konwersja aktywności page -> book wykonana przez scripts/page_to_book.py
+book:
+  name: "3.18. Zmiany powstające w ustroju po masażu"
+  intro: |
+    Materiał dydaktyczny tematu 3.18 — Zmiany powstające w ustroju po masażu.
+    Moduł przedstawia podstawy masażu w medycynie: procesy patologiczne i objawy chorób, zaburzenia poszczególnych układów oraz zasady dobierania rodzajów masażu (limfatycznego, tensegracyjnego, w środowisku wodnym, Shantala i innych) z uwzględnieniem wskazań i przeciwwskazań.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "3.18. Zmiany powstające w ustroju po masażu"
+      subchapter: false
+      content_file: "chapters/01-zmiany-powstajace-w-ustroju-po-masazu.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

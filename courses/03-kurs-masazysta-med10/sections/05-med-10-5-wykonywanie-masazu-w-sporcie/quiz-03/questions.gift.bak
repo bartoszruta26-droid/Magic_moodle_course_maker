@@ -1,0 +1,49 @@
+// Quiz: 5.3. Rodzaje masażu w sporcie — moduł 5 (05-med-10-5-wykonywanie-masazu-w-sporcie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s05-53-q1:: Zagadnienie „5.3.1. Masaż podtrzymujący” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q1b:: Zagadnienie „5.3.2. Masaż przedstartowy” jest elementem zagadnienia „5.3.1. Masaż podtrzymujący”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q2:: Zagadnienie „5.3.2. Masaż przedstartowy” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q2b:: Zagadnienie „5.3.3. Masaż międzystartowy” jest elementem zagadnienia „5.3.2. Masaż przedstartowy”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q3:: Zagadnienie „5.3.3. Masaż międzystartowy” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q3b:: Zagadnienie „5.3.4. Masaż treningowy/powysiłkowy” jest elementem zagadnienia „5.3.3. Masaż międzystartowy”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q4:: Zagadnienie „5.3.4. Masaż treningowy/powysiłkowy” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q4b:: Zagadnienie „5.3.5. Masaż regeneracyjny” jest elementem zagadnienia „5.3.4. Masaż treningowy/powysiłkowy”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q5:: Zagadnienie „5.3.5. Masaż regeneracyjny” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q5b:: Zagadnienie „5.3.6. Masaż rozgrzewkowy” jest elementem zagadnienia „5.3.5. Masaż regeneracyjny”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q6:: Zagadnienie „5.3.6. Masaż rozgrzewkowy” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q6b:: Zagadnienie „5.3.7. Masaż schładzający” jest elementem zagadnienia „5.3.6. Masaż rozgrzewkowy”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q7:: Zagadnienie „5.3.7. Masaż schładzający” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q7b:: Zagadnienie „5.3.8. Masaż w podróży i po podróży” jest elementem zagadnienia „5.3.7. Masaż schładzający”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q8:: Zagadnienie „5.3.8. Masaż w podróży i po podróży” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q8b:: Zagadnienie „5.3.9. Masaż przy obniżonej odporności — ostrożność” jest elementem zagadnienia „5.3.8. Masaż w podróży i po podróży”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q9:: Zagadnienie „5.3.9. Masaż przy obniżonej odporności — ostrożność” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::tf-s05-53-q9b:: Zagadnienie „5.3.10. Przeciwwskazania w sporcie” jest elementem zagadnienia „5.3.9. Masaż przy obniżonej odporności — ostrożność”, a nie tematu „Rodzaje masażu w sporcie” (5.3). {FALSE} //
+
+::tf-s05-53-q10:: Zagadnienie „5.3.10. Przeciwwskazania w sporcie” wchodzi w zakres tematu „Rodzaje masażu w sporcie” (5.3). {TRUE} //
+
+::mc-s05-53:: Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu w sporcie” (5.3)? {
+    = 5.3.1. Masaż podtrzymujący
+    ~ 5.3.2. Masaż przedstartowy
+    ~ 5.3.3. Masaż międzystartowy
+    ~ 2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy
+    ~ 3.14.1. Odciążenie grawitacyjne
+    ~ 5.4.1. Napięcie mięśniowe po treningu
+}

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.12. Wskazania i przeciwwskazania do masaży odruchowych"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.12 — zagadnienie 1"
+    text: "Zagadnienie „3.12.1. Masaż łącznotkankowy” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 1"
+    text: "Zagadnienie „3.12.2. Masaż okostnowy” jest elementem zagadnienia „3.12.1. Masaż łącznotkankowy”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 2"
+    text: "Zagadnienie „3.12.2. Masaż okostnowy” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 2"
+    text: "Zagadnienie „3.12.3. Masaż segmentarny” jest elementem zagadnienia „3.12.2. Masaż okostnowy”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 3"
+    text: "Zagadnienie „3.12.3. Masaż segmentarny” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 3"
+    text: "Zagadnienie „3.12.4. Masaż punktowy” jest elementem zagadnienia „3.12.3. Masaż segmentarny”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 4"
+    text: "Zagadnienie „3.12.4. Masaż punktowy” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 4"
+    text: "Zagadnienie „3.12.5. Refleksoterapia stóp” jest elementem zagadnienia „3.12.4. Masaż punktowy”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 5"
+    text: "Zagadnienie „3.12.5. Refleksoterapia stóp” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 5"
+    text: "Zagadnienie „3.12.6. Podstawa odruchowa: dermatomy, miotomy, sfery Heada, strefy Mackenziego” jest elementem zagadnienia „3.12.5. Refleksoterapia stóp”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 6"
+    text: "Zagadnienie „3.12.6. Podstawa odruchowa: dermatomy, miotomy, sfery Heada, strefy Mackenziego” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 6"
+    text: "Zagadnienie „3.12.7. Wskazania funkcjonalne i bólowe” jest elementem zagadnienia „3.12.6. Podstawa odruchowa: dermatomy, miotomy, sfery Heada, strefy Mackenziego”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 7"
+    text: "Zagadnienie „3.12.7. Wskazania funkcjonalne i bólowe” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 7"
+    text: "Zagadnienie „3.12.8. Przeciwwskazania miejscowe i ogólne” jest elementem zagadnienia „3.12.7. Wskazania funkcjonalne i bólowe”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 8"
+    text: "Zagadnienie „3.12.8. Przeciwwskazania miejscowe i ogólne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 8"
+    text: "Zagadnienie „3.12.9. Ryzyko nadmiernej stymulacji” jest elementem zagadnienia „3.12.8. Przeciwwskazania miejscowe i ogólne”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 9"
+    text: "Zagadnienie „3.12.9. Ryzyko nadmiernej stymulacji” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: truefalse
+    name: "3.12 — rozgraniczenie 9"
+    text: "Zagadnienie „3.12.10. Zasada: nie traktować refleksoterapii jako diagnostyki pewnej choroby” jest elementem zagadnienia „3.12.9. Ryzyko nadmiernej stymulacji”, a nie tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: false
+  - type: truefalse
+    name: "3.12 — zagadnienie 10"
+    text: "Zagadnienie „3.12.10. Zasada: nie traktować refleksoterapii jako diagnostyki pewnej choroby” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)."
+    answer: true
+  - type: multichoice
+    name: "3.12 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)?"
+    answers:
+      - text: "3.12.1. Masaż łącznotkankowy"  fraction: 100
+      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"  fraction: 0
+      - text: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"  fraction: 0
+      - text: "5.8.7. Kobiety w ciąży w sporcie — ograniczenia"  fraction: 0

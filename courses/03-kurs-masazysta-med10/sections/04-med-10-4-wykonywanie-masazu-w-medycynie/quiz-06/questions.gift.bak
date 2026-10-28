@@ -1,0 +1,49 @@
+// Quiz: 4.6. Dobór pozycji pacjenta i przyborów — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-46-q1:: Zagadnienie „4.6.1. Pozycja na brzuchu” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q1b:: Zagadnienie „4.6.2. Pozycja na plecach” jest elementem zagadnienia „4.6.1. Pozycja na brzuchu”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q2:: Zagadnienie „4.6.2. Pozycja na plecach” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q2b:: Zagadnienie „4.6.3. Pozycja na boku” jest elementem zagadnienia „4.6.2. Pozycja na plecach”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q3:: Zagadnienie „4.6.3. Pozycja na boku” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q3b:: Zagadnienie „4.6.4. Pozycja siedząca” jest elementem zagadnienia „4.6.3. Pozycja na boku”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q4:: Zagadnienie „4.6.4. Pozycja siedząca” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q4b:: Zagadnienie „4.6.5. Pozycja półsiedząca” jest elementem zagadnienia „4.6.4. Pozycja siedząca”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q5:: Zagadnienie „4.6.5. Pozycja półsiedząca” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q5b:: Zagadnienie „4.6.6. Pozycja drenażowa” jest elementem zagadnienia „4.6.5. Pozycja półsiedząca”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q6:: Zagadnienie „4.6.6. Pozycja drenażowa” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q6b:: Zagadnienie „4.6.7. Pozycja w ciąży” jest elementem zagadnienia „4.6.6. Pozycja drenażowa”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q7:: Zagadnienie „4.6.7. Pozycja w ciąży” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q7b:: Zagadnienie „4.6.8. Pozycja po operacjach” jest elementem zagadnienia „4.6.7. Pozycja w ciąży”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q8:: Zagadnienie „4.6.8. Pozycja po operacjach” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q8b:: Zagadnienie „4.6.9. Kliny, wałki, półwałki, poduszki” jest elementem zagadnienia „4.6.8. Pozycja po operacjach”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q9:: Zagadnienie „4.6.9. Kliny, wałki, półwałki, poduszki” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::tf-s04-46-q9b:: Zagadnienie „4.6.10. Bezpieczeństwo spadania i utraty równowagi” jest elementem zagadnienia „4.6.9. Kliny, wałki, półwałki, poduszki”, a nie tematu „Dobór pozycji pacjenta i przyborów” (4.6). {FALSE} //
+
+::tf-s04-46-q10:: Zagadnienie „4.6.10. Bezpieczeństwo spadania i utraty równowagi” wchodzi w zakres tematu „Dobór pozycji pacjenta i przyborów” (4.6). {TRUE} //
+
+::mc-s04-46:: Które zagadnienie należy bezpośrednio do tematu „Dobór pozycji pacjenta i przyborów” (4.6)? {
+    = 4.6.1. Pozycja na brzuchu
+    ~ 4.6.2. Pozycja na plecach
+    ~ 4.6.3. Pozycja na boku
+    ~ 2.1.3. Przepisy dotyczące wykonywania zadań zawodowych
+    ~ 3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja
+    ~ 5.4.3. Drobne przeciążenia
+}

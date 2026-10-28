@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.16. Masaż tensegracyjny"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.16 — zagadnienie 1"
+  - id: "tf-s04-416-q1"
+    type: "truefalse"
+    name: "tf-s04-416-q1"
     text: "Zagadnienie „4.16.1. Pojęcie tensegrity” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 1"
+  - id: "tf-s04-416-q1b"
+    type: "truefalse"
+    name: "tf-s04-416-q1b"
     text: "Zagadnienie „4.16.2. Linie powięziowe i łańcuchy anatomiczne” jest elementem zagadnienia „4.16.1. Pojęcie tensegrity”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 2"
+  - id: "tf-s04-416-q2"
+    type: "truefalse"
+    name: "tf-s04-416-q2"
     text: "Zagadnienie „4.16.2. Linie powięziowe i łańcuchy anatomiczne” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 2"
+  - id: "tf-s04-416-q2b"
+    type: "truefalse"
+    name: "tf-s04-416-q2b"
     text: "Zagadnienie „4.16.3. Techniki rozluźniania powięzi” jest elementem zagadnienia „4.16.2. Linie powięziowe i łańcuchy anatomiczne”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 3"
+  - id: "tf-s04-416-q3"
+    type: "truefalse"
+    name: "tf-s04-416-q3"
     text: "Zagadnienie „4.16.3. Techniki rozluźniania powięzi” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 3"
+  - id: "tf-s04-416-q3b"
+    type: "truefalse"
+    name: "tf-s04-416-q3b"
     text: "Zagadnienie „4.16.4. Oddech i uwaga pacjenta” jest elementem zagadnienia „4.16.3. Techniki rozluźniania powięzi”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 4"
+  - id: "tf-s04-416-q4"
+    type: "truefalse"
+    name: "tf-s04-416-q4"
     text: "Zagadnienie „4.16.4. Oddech i uwaga pacjenta” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 4"
+  - id: "tf-s04-416-q4b"
+    type: "truefalse"
+    name: "tf-s04-416-q4b"
     text: "Zagadnienie „4.16.5. Delikatne prowadzenie ruchu” jest elementem zagadnienia „4.16.4. Oddech i uwaga pacjenta”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 5"
+  - id: "tf-s04-416-q5"
+    type: "truefalse"
+    name: "tf-s04-416-q5"
     text: "Zagadnienie „4.16.5. Delikatne prowadzenie ruchu” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 5"
+  - id: "tf-s04-416-q5b"
+    type: "truefalse"
+    name: "tf-s04-416-q5b"
     text: "Zagadnienie „4.16.6. Przeciwwskazania” jest elementem zagadnienia „4.16.5. Delikatne prowadzenie ruchu”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 6"
+  - id: "tf-s04-416-q6"
+    type: "truefalse"
+    name: "tf-s04-416-q6"
     text: "Zagadnienie „4.16.6. Przeciwwskazania” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 6"
+  - id: "tf-s04-416-q6b"
+    type: "truefalse"
+    name: "tf-s04-416-q6b"
     text: "Zagadnienie „4.16.7. Ryzyko nadmiernej stymulacji” jest elementem zagadnienia „4.16.6. Przeciwwskazania”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 7"
+  - id: "tf-s04-416-q7"
+    type: "truefalse"
+    name: "tf-s04-416-q7"
     text: "Zagadnienie „4.16.7. Ryzyko nadmiernej stymulacji” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 7"
+  - id: "tf-s04-416-q7b"
+    type: "truefalse"
+    name: "tf-s04-416-q7b"
     text: "Zagadnienie „4.16.8. Zastosowanie w bólach przewlekłych” jest elementem zagadnienia „4.16.7. Ryzyko nadmiernej stymulacji”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 8"
+  - id: "tf-s04-416-q8"
+    type: "truefalse"
+    name: "tf-s04-416-q8"
     text: "Zagadnienie „4.16.8. Zastosowanie w bólach przewlekłych” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 8"
+  - id: "tf-s04-416-q8b"
+    type: "truefalse"
+    name: "tf-s04-416-q8b"
     text: "Zagadnienie „4.16.9. Współpraca z kinezyterapią” jest elementem zagadnienia „4.16.8. Zastosowanie w bólach przewlekłych”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 9"
+  - id: "tf-s04-416-q9"
+    type: "truefalse"
+    name: "tf-s04-416-q9"
     text: "Zagadnienie „4.16.9. Współpraca z kinezyterapią” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: truefalse
-    name: "4.16 — rozgraniczenie 9"
+  - id: "tf-s04-416-q9b"
+    type: "truefalse"
+    name: "tf-s04-416-q9b"
     text: "Zagadnienie „4.16.10. Dokumentacja zmian zakresu ruchu” jest elementem zagadnienia „4.16.9. Współpraca z kinezyterapią”, a nie tematu „Masaż tensegracyjny” (4.16)."
     answer: false
-  - type: truefalse
-    name: "4.16 — zagadnienie 10"
+  - id: "tf-s04-416-q10"
+    type: "truefalse"
+    name: "tf-s04-416-q10"
     text: "Zagadnienie „4.16.10. Dokumentacja zmian zakresu ruchu” wchodzi w zakres tematu „Masaż tensegracyjny” (4.16)."
     answer: true
-  - type: multichoice
-    name: "4.16 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-416"
+    type: "multichoice"
+    name: "mc-s04-416"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
     answers:
-      - text: "4.16.1. Pojęcie tensegrity"  fraction: 100
-      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"  fraction: 0
-      - text: "3.19.2. Fizjoterapeuta"  fraction: 0
-      - text: "6.1.2. Profilaktyka a terapia"  fraction: 0
+      - text: "4.16.1. Pojęcie tensegrity"
+        fraction: 100
+      - text: "4.16.2. Linie powięziowe i łańcuchy anatomiczne"
+        fraction: 0
+      - text: "4.16.3. Techniki rozluźniania powięzi"
+        fraction: 0
+      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"
+        fraction: 0
+      - text: "3.19.2. Fizjoterapeuta"
+        fraction: 0
+      - text: "6.1.2. Profilaktyka a terapia"
+        fraction: 0
+  - id: "mc-s04-416-q1"
+    type: "multichoice"
+    name: "mc-s04-416-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.1 Pojecie tensegrity"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s04-416-q2"
+    type: "multichoice"
+    name: "mc-s04-416-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.2 Linie powieziowe i lancuchy anatomiczne"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-416-q3"
+    type: "multichoice"
+    name: "mc-s04-416-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.3 Techniki rozluzniania powiezi"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-416-q4"
+    type: "multichoice"
+    name: "mc-s04-416-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.4 Oddech i uwaga pacjenta"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s04-416-q5"
+    type: "multichoice"
+    name: "mc-s04-416-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.5 Delikatne prowadzenie ruchu"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s04-416-q6"
+    type: "multichoice"
+    name: "mc-s04-416-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.6 Przeciwwskazania"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Podstawy nawodnienia"
+        fraction: 0
+  - id: "mc-s04-416-q7"
+    type: "multichoice"
+    name: "mc-s04-416-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.7 Ryzyko nadmiernej stymulacji"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy aktywnosci fizycznej"
+        fraction: 0
+  - id: "mc-s04-416-q8"
+    type: "multichoice"
+    name: "mc-s04-416-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.8 Zastosowanie w bolach przewleklych"
+        fraction: 100
+      - text: "Skurcz koncentryczny i ekscentryczny"
+        fraction: 0
+      - text: "Masaz kregoslupa piersiowego"
+        fraction: 0
+      - text: "Podstawy aktywnosci fizycznej"
+        fraction: 0
+  - id: "mc-s04-416-q9"
+    type: "multichoice"
+    name: "mc-s04-416-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.9 Wspolpraca z kinezyterapia"
+        fraction: 100
+      - text: "Napiecie spoczynkowe miesnia"
+        fraction: 0
+      - text: "Masaz kregoslupa ledzwiowego"
+        fraction: 0
+      - text: "Podstawy nawodnienia"
+        fraction: 0
+  - id: "mc-s04-416-q10"
+    type: "multichoice"
+    name: "mc-s04-416-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.10 Dokumentacja zmian zakresu ruchu"
+        fraction: 100
+      - text: "Wazelina i lanolina"
+        fraction: 0
+      - text: "Zapobieganie zakazeniom"
+        fraction: 0
+      - text: "Trigger point therapy"
+        fraction: 0
+  - id: "mc-s04-416-v1"
+    type: "multichoice"
+    name: "mc-s04-416-v1"
+    text: "Które zagadnienie należy do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.1 Pojecie tensegrity"
+        fraction: 100
+      - text: "0.5# 4.16.2 Linie powieziowe i lancuchy anatomiczne"
+        fraction: 0
+      - text: "0.5# 4.16.3 Techniki rozluzniania powiezi"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-416-v2"
+    type: "multichoice"
+    name: "mc-s04-416-v2"
+    text: "Które zagadnienie NIE należy do tematu „Masaż tensegracyjny” (4.16), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.16.1 Pojecie tensegrity"
+        fraction: 100
+      - text: "-0.25# 4.16.2 Linie powieziowe i lancuchy anatomiczne"
+        fraction: 0
+      - text: "-0.25# 4.16.3 Techniki rozluzniania powiezi"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-416-v3"
+    type: "multichoice"
+    name: "mc-s04-416-v3"
+    text: "Które zagadnienie należy do tematu „Masaż tensegracyjny” (4.16)?"
+    answers:
+      - text: "4.16.3 Techniki rozluzniania powiezi"
+        fraction: 100
+      - text: "0.5# 4.16.1 Pojecie tensegrity"
+        fraction: 0
+      - text: "0.5# 4.16.2 Linie powieziowe i lancuchy anatomiczne"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-416-v4"
+    type: "multichoice"
+    name: "mc-s04-416-v4"
+    text: "Które zagadnienie NIE należy do tematu „Masaż tensegracyjny” (4.16), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.16.1 Pojecie tensegrity"
+        fraction: 100
+      - text: "-0.25# 4.16.4 Oddech i uwaga pacjenta"
+        fraction: 0
+      - text: "-0.25# 4.16.2 Linie powieziowe i lancuchy anatomiczne"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

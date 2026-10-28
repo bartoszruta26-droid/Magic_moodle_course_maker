@@ -1,0 +1,49 @@
+// Quiz: 9.4. Ocena jakości wykonania zadań — moduł 9 (09-med-10-9-organizacja-pracy-malych-zespolow)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s09-94-q1:: Zagadnienie „9.4.1. Kryteria jakości usługi masażu” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q1b:: Zagadnienie „9.4.2. Bezpieczeństwo pacjenta” jest elementem zagadnienia „9.4.1. Kryteria jakości usługi masażu”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q2:: Zagadnienie „9.4.2. Bezpieczeństwo pacjenta” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q2b:: Zagadnienie „9.4.3. Skuteczność edukacyjna” jest elementem zagadnienia „9.4.2. Bezpieczeństwo pacjenta”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q3:: Zagadnienie „9.4.3. Skuteczność edukacyjna” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q3b:: Zagadnienie „9.4.4. Terminowość” jest elementem zagadnienia „9.4.3. Skuteczność edukacyjna”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q4:: Zagadnienie „9.4.4. Terminowość” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q4b:: Zagadnienie „9.4.5. Dbałość o dokumentację” jest elementem zagadnienia „9.4.4. Terminowość”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q5:: Zagadnienie „9.4.5. Dbałość o dokumentację” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q5b:: Zagadnienie „9.4.6. Kultura osobista” jest elementem zagadnienia „9.4.5. Dbałość o dokumentację”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q6:: Zagadnienie „9.4.6. Kultura osobista” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q6b:: Zagadnienie „9.4.7. Współpraca zespołowa” jest elementem zagadnienia „9.4.6. Kultura osobista”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q7:: Zagadnienie „9.4.7. Współpraca zespołowa” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q7b:: Zagadnienie „9.4.8. Ocena samooceny” jest elementem zagadnienia „9.4.7. Współpraca zespołowa”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q8:: Zagadnienie „9.4.8. Ocena samooceny” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q8b:: Zagadnienie „9.4.9. Ocena przełożonego” jest elementem zagadnienia „9.4.8. Ocena samooceny”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q9:: Zagadnienie „9.4.9. Ocena przełożonego” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::tf-s09-94-q9b:: Zagadnienie „9.4.10. Ocena pacjenta — z zachowaniem granic” jest elementem zagadnienia „9.4.9. Ocena przełożonego”, a nie tematu „Ocena jakości wykonania zadań” (9.4). {FALSE} //
+
+::tf-s09-94-q10:: Zagadnienie „9.4.10. Ocena pacjenta — z zachowaniem granic” wchodzi w zakres tematu „Ocena jakości wykonania zadań” (9.4). {TRUE} //
+
+::mc-s09-94:: Które zagadnienie należy bezpośrednio do tematu „Ocena jakości wykonania zadań” (9.4)? {
+    = 9.4.1. Kryteria jakości usługi masażu
+    ~ 9.4.2. Bezpieczeństwo pacjenta
+    ~ 9.4.3. Skuteczność edukacyjna
+    ~ 2.1.6. Ochrona małoletnich
+    ~ 3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny
+    ~ 5.4.5. Ból ostry — nie masować bez diagnozy
+}

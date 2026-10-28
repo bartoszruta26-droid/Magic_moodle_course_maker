@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.10. Kompleksowa terapia obrzęków"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.10 — zagadnienie 1"
+  - id: "tf-s04-410-q1"
+    type: "truefalse"
+    name: "tf-s04-410-q1"
     text: "Zagadnienie „4.10.1. Terapia ułożeniowa” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 1"
+  - id: "tf-s04-410-q1b"
+    type: "truefalse"
+    name: "tf-s04-410-q1b"
     text: "Zagadnienie „4.10.2. Ćwiczenia fizyczne i oddechowe” jest elementem zagadnienia „4.10.1. Terapia ułożeniowa”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 2"
+  - id: "tf-s04-410-q2"
+    type: "truefalse"
+    name: "tf-s04-410-q2"
     text: "Zagadnienie „4.10.2. Ćwiczenia fizyczne i oddechowe” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 2"
+  - id: "tf-s04-410-q2b"
+    type: "truefalse"
+    name: "tf-s04-410-q2b"
     text: "Zagadnienie „4.10.3. Autodrenaż pacjenta” jest elementem zagadnienia „4.10.2. Ćwiczenia fizyczne i oddechowe”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 3"
+  - id: "tf-s04-410-q3"
+    type: "truefalse"
+    name: "tf-s04-410-q3"
     text: "Zagadnienie „4.10.3. Autodrenaż pacjenta” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 3"
+  - id: "tf-s04-410-q3b"
+    type: "truefalse"
+    name: "tf-s04-410-q3b"
     text: "Zagadnienie „4.10.4. Kompresjoterapia” jest elementem zagadnienia „4.10.3. Autodrenaż pacjenta”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 4"
+  - id: "tf-s04-410-q4"
+    type: "truefalse"
+    name: "tf-s04-410-q4"
     text: "Zagadnienie „4.10.4. Kompresjoterapia” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 4"
+  - id: "tf-s04-410-q4b"
+    type: "truefalse"
+    name: "tf-s04-410-q4b"
     text: "Zagadnienie „4.10.5. Pielęgnacja skóry” jest elementem zagadnienia „4.10.4. Kompresjoterapia”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 5"
+  - id: "tf-s04-410-q5"
+    type: "truefalse"
+    name: "tf-s04-410-q5"
     text: "Zagadnienie „4.10.5. Pielęgnacja skóry” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 5"
+  - id: "tf-s04-410-q5b"
+    type: "truefalse"
+    name: "tf-s04-410-q5b"
     text: "Zagadnienie „4.10.6. Zapobieganie zakażeniom” jest elementem zagadnienia „4.10.5. Pielęgnacja skóry”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 6"
+  - id: "tf-s04-410-q6"
+    type: "truefalse"
+    name: "tf-s04-410-q6"
     text: "Zagadnienie „4.10.6. Zapobieganie zakażeniom” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 6"
+  - id: "tf-s04-410-q6b"
+    type: "truefalse"
+    name: "tf-s04-410-q6b"
     text: "Zagadnienie „4.10.7. Edukacja pacjenta i rodziny” jest elementem zagadnienia „4.10.6. Zapobieganie zakażeniom”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 7"
+  - id: "tf-s04-410-q7"
+    type: "truefalse"
+    name: "tf-s04-410-q7"
     text: "Zagadnienie „4.10.7. Edukacja pacjenta i rodziny” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 7"
+  - id: "tf-s04-410-q7b"
+    type: "truefalse"
+    name: "tf-s04-410-q7b"
     text: "Zagadnienie „4.10.8. Dobór elementów do stanu klinicznego” jest elementem zagadnienia „4.10.7. Edukacja pacjenta i rodziny”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 8"
+  - id: "tf-s04-410-q8"
+    type: "truefalse"
+    name: "tf-s04-410-q8"
     text: "Zagadnienie „4.10.8. Dobór elementów do stanu klinicznego” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 8"
+  - id: "tf-s04-410-q8b"
+    type: "truefalse"
+    name: "tf-s04-410-q8b"
     text: "Zagadnienie „4.10.9. Monitorowanie obwodów” jest elementem zagadnienia „4.10.8. Dobór elementów do stanu klinicznego”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 9"
+  - id: "tf-s04-410-q9"
+    type: "truefalse"
+    name: "tf-s04-410-q9"
     text: "Zagadnienie „4.10.9. Monitorowanie obwodów” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: truefalse
-    name: "4.10 — rozgraniczenie 9"
+  - id: "tf-s04-410-q9b"
+    type: "truefalse"
+    name: "tf-s04-410-q9b"
     text: "Zagadnienie „4.10.10. Współpraca z lekarzem i fizjoterapeutą” jest elementem zagadnienia „4.10.9. Monitorowanie obwodów”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: false
-  - type: truefalse
-    name: "4.10 — zagadnienie 10"
+  - id: "tf-s04-410-q10"
+    type: "truefalse"
+    name: "tf-s04-410-q10"
     text: "Zagadnienie „4.10.10. Współpraca z lekarzem i fizjoterapeutą” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
     answer: true
-  - type: multichoice
-    name: "4.10 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-410"
+    type: "multichoice"
+    name: "mc-s04-410"
     text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
     answers:
-      - text: "4.10.1. Terapia ułożeniowa"  fraction: 100
-      - text: "2.5.6. Przechowywanie i archiwizacja"  fraction: 0
-      - text: "3.18.6. Poprawa propriocepcji"  fraction: 0
-      - text: "5.8.6. Małoletni: zgoda opiekuna"  fraction: 0
+      - text: "4.10.1. Terapia ułożeniowa"
+        fraction: 100
+      - text: "4.10.2. Ćwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "4.10.3. Autodrenaż pacjenta"
+        fraction: 0
+      - text: "2.5.6. Przechowywanie i archiwizacja"
+        fraction: 0
+      - text: "3.18.6. Poprawa propriocepcji"
+        fraction: 0
+      - text: "5.8.6. Małoletni: zgoda opiekuna"
+        fraction: 0
+  - id: "mc-s04-410-q1"
+    type: "multichoice"
+    name: "mc-s04-410-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "Bezpieczenstwo masazu w chorobach tych ukladow"
+        fraction: 0
+      - text: "Pozycja na plecach"
+        fraction: 0
+      - text: "Dlonie, przedramiona, kciuki"
+        fraction: 0
+  - id: "mc-s04-410-q2"
+    type: "multichoice"
+    name: "mc-s04-410-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Brak sprzetu jako przewaga dostepnosci"
+        fraction: 0
+  - id: "mc-s04-410-q3"
+    type: "multichoice"
+    name: "mc-s04-410-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.3 Autodrenaz pacjenta"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s04-410-q4"
+    type: "multichoice"
+    name: "mc-s04-410-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.4 Kompresjoterapia"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s04-410-q5"
+    type: "multichoice"
+    name: "mc-s04-410-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.5 Pielegnacja skory"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s04-410-q6"
+    type: "multichoice"
+    name: "mc-s04-410-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.6 Zapobieganie zakazeniom"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s04-410-q7"
+    type: "multichoice"
+    name: "mc-s04-410-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.7 Edukacja pacjenta i rodziny"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s04-410-q8"
+    type: "multichoice"
+    name: "mc-s04-410-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.8 Dobor elementow do stanu klinicznego"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-410-q9"
+    type: "multichoice"
+    name: "mc-s04-410-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.9 Monitorowanie obwodow"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-410-q10"
+    type: "multichoice"
+    name: "mc-s04-410-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.10 Wspolpraca z lekarzem i fizjoterapeuta"
+        fraction: 100
+      - text: "Reakcja pacjenta w trakcie zabiegu"
+        fraction: 0
+      - text: "Tempo, cisnienie i czas zabiegu"
+        fraction: 0
+      - text: "Reading instructions and labels"
+        fraction: 0
+  - id: "mc-s04-410-v1"
+    type: "multichoice"
+    name: "mc-s04-410-v1"
+    text: "Które zagadnienie należy do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "0.5# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "0.5# 4.10.3 Autodrenaz pacjenta"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-410-v2"
+    type: "multichoice"
+    name: "mc-s04-410-v2"
+    text: "Które zagadnienie NIE należy do tematu „Kompleksowa terapia obrzęków” (4.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "-0.25# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "-0.25# 4.10.3 Autodrenaz pacjenta"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-410-v3"
+    type: "multichoice"
+    name: "mc-s04-410-v3"
+    text: "Które zagadnienie należy do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.3 Autodrenaz pacjenta"
+        fraction: 100
+      - text: "0.5# 4.10.1 Terapia ulozeniowa"
+        fraction: 0
+      - text: "0.5# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-410-v4"
+    type: "multichoice"
+    name: "mc-s04-410-v4"
+    text: "Które zagadnienie NIE należy do tematu „Kompleksowa terapia obrzęków” (4.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "-0.25# 4.10.4 Kompresjoterapia"
+        fraction: 0
+      - text: "-0.25# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

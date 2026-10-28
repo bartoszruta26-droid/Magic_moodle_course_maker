@@ -1,0 +1,80 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.14. Lokalizacja palpacyjna struktur anatomicznych"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.14 — zagadnienie 1"
+    text: "Zagadnienie „2.14.1. Zasady palpacji: spokojna ręka, porównywanie stron, szacunek” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 1"
+    text: "Zagadnienie „2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych” jest elementem zagadnienia „2.14.1. Zasady palpacji: spokojna ręka, porównywanie stron, szacunek”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 2"
+    text: "Zagadnienie „2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 2"
+    text: "Zagadnienie „2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku” jest elementem zagadnienia „2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 3"
+    text: "Zagadnienie „2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 3"
+    text: "Zagadnienie „2.14.4. Wyczuwanie mięśni czworobocznego, równoległobocznego, dźwigacza łopatki” jest elementem zagadnienia „2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 4"
+    text: "Zagadnienie „2.14.4. Wyczuwanie mięśni czworobocznego, równoległobocznego, dźwigacza łopatki” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 4"
+    text: "Zagadnienie „2.14.5. Wyczuwanie mięśni przykręgosłupowych” jest elementem zagadnienia „2.14.4. Wyczuwanie mięśni czworobocznego, równoległobocznego, dźwigacza łopatki”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 5"
+    text: "Zagadnienie „2.14.5. Wyczuwanie mięśni przykręgosłupowych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 5"
+    text: "Zagadnienie „2.14.6. Wyczuwanie mięśni kończyny górnej: ramię, przedramię, dłoń” jest elementem zagadnienia „2.14.5. Wyczuwanie mięśni przykręgosłupowych”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 6"
+    text: "Zagadnienie „2.14.6. Wyczuwanie mięśni kończyny górnej: ramię, przedramię, dłoń” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 6"
+    text: "Zagadnienie „2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa” jest elementem zagadnienia „2.14.6. Wyczuwanie mięśni kończyny górnej: ramię, przedramię, dłoń”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 7"
+    text: "Zagadnienie „2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 7"
+    text: "Zagadnienie „2.14.8. Wyczuwanie tętnic powierzchniowych” jest elementem zagadnienia „2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 8"
+    text: "Zagadnienie „2.14.8. Wyczuwanie tętnic powierzchniowych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: truefalse
+    name: "2.14 — rozgraniczenie 8"
+    text: "Zagadnienie „2.14.9. Wyczuwanie żył powierzchownych” jest elementem zagadnienia „2.14.8. Wyczuwanie tętnic powierzchniowych”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: false
+  - type: truefalse
+    name: "2.14 — zagadnienie 9"
+    text: "Zagadnienie „2.14.9. Wyczuwanie żył powierzchownych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)."
+    answer: true
+  - type: multichoice
+    name: "2.14 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)?"
+    answers:
+      - text: "2.14.1. Zasady palpacji: spokojna ręka, porównywanie stron, szacunek"  fraction: 100
+      - text: "2.5.8. Błędy dokumentacyjne i ich konsekwencje"  fraction: 0
+      - text: "3.18.9. Kiedy reakcja jest alarmowa"  fraction: 0
+      - text: "5.8.8. Osoby z chorobami przewlekłymi"  fraction: 0

@@ -47,3 +47,101 @@
     ~ 3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny
     ~ 5.4.5. Ból ostry — nie masować bez diagnozy
 }
+
+::mc-s08-85-q1:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~ Przeciwwskazania skorne do masazu
+    ~ Testy sily miesniowej w skali Lovetta
+    ~ Profesjonalny dystans i zyczliwosc
+}
+
+::mc-s08-85-q2:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.2 Pacjent z lekiem przed dotykiem
+    ~ Budowa kosci dlugich, krotkich, plaskich, pneumatycznych
+    ~ Ocena chodu i wstawania
+    ~ Cel: redukcja napiecia, poprawa samopoczucia
+}
+
+::mc-s08-85-q3:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.3 Pacjent z bolem przewleklym
+    ~ Polaczenia kosci: ciagle i ciaglosci
+    ~ Ocena rownowagi i stabilnosci
+    ~ Techniki: glaskanie, rozcieranie, delikatne ugniatanie
+}
+
+::mc-s08-85-q4:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.4 Pacjent z niepelnosprawnoscia komunikacyjna
+    ~ Stawy: budowa, torebka, chrzastka, maziowka
+    ~ Palpacja miesni i powiezi
+    ~ Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+}
+
+::mc-s08-85-q5:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.5 Awaria sprzetu
+    ~ Wiazadla i sciegna
+    ~ Palpacja stawow i wiezadel
+    ~ Czas: 30, 45, 60 minut
+}
+
+::mc-s08-85-q6:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.6 Zmiana zlecenia lekarskiego
+    ~ Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s08-85-q7:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.7 Ograniczona przestrzen pracy
+    ~ Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste
+    ~ Wykrywanie punktow spustowych
+    ~ Przeciwwskazania
+}
+
+::mc-s08-85-q8:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.8 Bezpieczne modyfikacje techniki
+    ~ Powiez powierzchowna i gleboka
+    ~ Wykrywanie zmian odruchowych w masazu segmentarnym
+    ~ Reakcje pacjenta
+}
+
+::mc-s08-85-q9:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.9 Ocena skutecznosci dzialania
+    ~ Linie anatomiczne i lancuchy miesniowo-powieziowe
+    ~ Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej
+    ~ Zalecenia po zabiegu
+}
+
+::mc-s08-85-q10:: Które zagadnienie należy bezpośrednio do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.10 Pokora wobec granic wlasnej wiedzy
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s08-85-v1:: Które zagadnienie należy do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~0.5# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~0.5# 8.5.3 Pacjent z bolem przewleklym
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s08-85-v2:: Które zagadnienie NIE należy do tematu „Kreatywność i otwartość na zmiany” (8.5), lecz jest częścią innego tematu kursu? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~-0.25# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~-0.25# 8.5.3 Pacjent z bolem przewleklym
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s08-85-v3:: Które zagadnienie należy do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.3 Pacjent z bolem przewleklym
+    ~0.5# 8.5.1 Sytuacje nietypowe w gabinecie
+    ~0.5# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s08-85-v4:: Które zagadnienie NIE należy do tematu „Kreatywność i otwartość na zmiany” (8.5), lecz jest częścią innego tematu kursu? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~-0.25# 8.5.4 Pacjent z niepelnosprawnoscia komunikacyjna
+    ~-0.25# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

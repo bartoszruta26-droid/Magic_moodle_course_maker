@@ -47,3 +47,101 @@
     ~ 3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie
     ~ 5.8.7. Kobiety w ciąży w sporcie — ograniczenia
 }
+
+::mc-s03-312-q1:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.1 Masaz lacznotkankowy
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s03-312-q2:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.2 Masaz okostnowy
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s03-312-q3:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.3 Masaz segmentarny
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s03-312-q4:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.4 Masaz punktowy
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s03-312-q5:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.5 Refleksoterapia stop
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s03-312-q6:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.6 Podstawa odruchowa: dermatomy, miotomy, sfery Heada, strefy Mackenziego
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s03-312-q7:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.7 Wskazania funkcjonalne i bolowe
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s03-312-q8:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.8 Przeciwwskazania miejscowe i ogolne
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s03-312-q9:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.9 Ryzyko nadmiernej stymulacji
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s03-312-q10:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.10 Zasada: nie traktowac refleksoterapii jako diagnostyki pewnej choroby
+    ~ Zasada stopniowania bodzca
+    ~ Cwiczenia fizyczne i oddechowe
+    ~ Effleurage, petrissage, friction, tapotement, vibration
+}
+
+::mc-s03-312-v1:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.1 Masaz lacznotkankowy
+    ~0.5# 3.12.2 Masaz okostnowy
+    ~0.5# 3.12.3 Masaz segmentarny
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-312-v2:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12), lecz jest częścią innego tematu kursu? {
+    = 3.12.1 Masaz lacznotkankowy
+    ~-0.25# 3.12.2 Masaz okostnowy
+    ~-0.25# 3.12.3 Masaz segmentarny
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-312-v3:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12)? {
+    = 3.12.3 Masaz segmentarny
+    ~0.5# 3.12.1 Masaz lacznotkankowy
+    ~0.5# 3.12.2 Masaz okostnowy
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-312-v4:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masaży odruchowych” (3.12), lecz jest częścią innego tematu kursu? {
+    = 3.12.1 Masaz lacznotkankowy
+    ~-0.25# 3.12.4 Masaz punktowy
+    ~-0.25# 3.12.2 Masaz okostnowy
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

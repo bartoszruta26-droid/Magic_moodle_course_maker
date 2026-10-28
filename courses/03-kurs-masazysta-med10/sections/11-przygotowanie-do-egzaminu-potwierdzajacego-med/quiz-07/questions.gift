@@ -47,3 +47,101 @@
     ~ 3.18.10. Dokumentacja i planowanie kolejnych zabiegów
     ~ 5.8.9. Dokumentacja zdarzeń niepożądanych
 }
+
+::mc-s11-117-q1:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.1 Wykonanie masazu klasycznego wybranej okolicy
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s11-117-q2:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.2 Wykonanie elementow drenazu limfatycznego
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s11-117-q3:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.3 Wykonanie chwytu diagnostycznego masazu segmentarnego
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s11-117-q4:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.4 Prowadzenie wywiadu i dokumentacji
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s11-117-q5:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.5 Reakcja na bol pacjenta
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s11-117-q6:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.6 Reakcja na omdlenie
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s11-117-q7:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.7 Rozpoznanie przeciwwskazania
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s11-117-q8:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.8 Skierowanie do lekarza
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s11-117-q9:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.9 Ocena BHP stanowiska
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s11-117-q10:: Które zagadnienie należy bezpośrednio do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.10 Informacja zwrotna i korekta bledow
+    ~ Talk
+    ~ Kompresjoterapia
+    ~ Lymphatic drainage
+}
+
+::mc-s11-117-v1:: Które zagadnienie należy do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.1 Wykonanie masazu klasycznego wybranej okolicy
+    ~0.5# 11.7.2 Wykonanie elementow drenazu limfatycznego
+    ~0.5# 11.7.3 Wykonanie chwytu diagnostycznego masazu segmentarnego
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-117-v2:: Które zagadnienie NIE należy do tematu „Symulacje egzaminacyjne” (11.7), lecz jest częścią innego tematu kursu? {
+    = 11.7.1 Wykonanie masazu klasycznego wybranej okolicy
+    ~-0.25# 11.7.2 Wykonanie elementow drenazu limfatycznego
+    ~-0.25# 11.7.3 Wykonanie chwytu diagnostycznego masazu segmentarnego
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-117-v3:: Które zagadnienie należy do tematu „Symulacje egzaminacyjne” (11.7)? {
+    = 11.7.3 Wykonanie chwytu diagnostycznego masazu segmentarnego
+    ~0.5# 11.7.1 Wykonanie masazu klasycznego wybranej okolicy
+    ~0.5# 11.7.2 Wykonanie elementow drenazu limfatycznego
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-117-v4:: Które zagadnienie NIE należy do tematu „Symulacje egzaminacyjne” (11.7), lecz jest częścią innego tematu kursu? {
+    = 11.7.1 Wykonanie masazu klasycznego wybranej okolicy
+    ~-0.25# 11.7.4 Prowadzenie wywiadu i dokumentacji
+    ~-0.25# 11.7.2 Wykonanie elementow drenazu limfatycznego
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

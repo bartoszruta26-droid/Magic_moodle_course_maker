@@ -1,0 +1,49 @@
+// Quiz: 6.7. Masaż biurowy — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-67-q1:: Zagadnienie „6.7.1. Krzesło do masażu i pozycja siedząca” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q1b:: Zagadnienie „6.7.2. Ubranie pacjenta” jest elementem zagadnienia „6.7.1. Krzesło do masażu i pozycja siedząca”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q2:: Zagadnienie „6.7.2. Ubranie pacjenta” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q2b:: Zagadnienie „6.7.3. Czas 10–20 minut” jest elementem zagadnienia „6.7.2. Ubranie pacjenta”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q3:: Zagadnienie „6.7.3. Czas 10–20 minut” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q3b:: Zagadnienie „6.7.4. Techniki: barki, kark, głowa, ręce, plecy przez ubranie” jest elementem zagadnienia „6.7.3. Czas 10–20 minut”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q4:: Zagadnienie „6.7.4. Techniki: barki, kark, głowa, ręce, plecy przez ubranie” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q4b:: Zagadnienie „6.7.5. Bezpieczeństwo kręgosłupa szyjnego” jest elementem zagadnienia „6.7.4. Techniki: barki, kark, głowa, ręce, plecy przez ubranie”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q5:: Zagadnienie „6.7.5. Bezpieczeństwo kręgosłupa szyjnego” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q5b:: Zagadnienie „6.7.6. Przeciwwskazania” jest elementem zagadnienia „6.7.5. Bezpieczeństwo kręgosłupa szyjnego”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q6:: Zagadnienie „6.7.6. Przeciwwskazania” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q6b:: Zagadnienie „6.7.7. Higiena rąk i powierzchni” jest elementem zagadnienia „6.7.6. Przeciwwskazania”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q7:: Zagadnienie „6.7.7. Higiena rąk i powierzchni” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q7b:: Zagadnienie „6.7.8. Granice intymności” jest elementem zagadnienia „6.7.7. Higiena rąk i powierzchni”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q8:: Zagadnienie „6.7.8. Granice intymności” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q8b:: Zagadnienie „6.7.9. Edukacja ergonomia” jest elementem zagadnienia „6.7.8. Granice intymności”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q9:: Zagadnienie „6.7.9. Edukacja ergonomia” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::tf-s06-67-q9b:: Zagadnienie „6.7.10. Dokumentacja skrócona” jest elementem zagadnienia „6.7.9. Edukacja ergonomia”, a nie tematu „Masaż biurowy” (6.7). {FALSE} //
+
+::tf-s06-67-q10:: Zagadnienie „6.7.10. Dokumentacja skrócona” wchodzi w zakres tematu „Masaż biurowy” (6.7). {TRUE} //
+
+::mc-s06-67:: Które zagadnienie należy bezpośrednio do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.1. Krzesło do masażu i pozycja siedząca
+    ~ 6.7.2. Ubranie pacjenta
+    ~ 6.7.3. Czas 10–20 minut
+    ~ 2.1.6. Ochrona małoletnich
+    ~ 3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny
+    ~ 5.4.5. Ból ostry — nie masować bez diagnozy
+}

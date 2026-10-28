@@ -47,3 +47,101 @@
     ~ 3.19.2. Fizjoterapeuta
     ~ 6.1.1. Zdrowie jako dobro i zadanie
 }
+
+::mc-s11-119-q1:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.1 Testy z BHP
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s11-119-q2:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.2 Testy z anatomii
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s11-119-q3:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.3 Testy z fizjologii
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s11-119-q4:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.4 Testy z patologii
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s11-119-q5:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.5 Testy ze wskazan i przeciwwskazan
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s11-119-q6:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.6 Testy z technik masazu
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s11-119-q7:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.7 Testy z dokumentacji
+    ~ Skurcz izometryczny i izotoniczny
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s11-119-q8:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.8 Testy z etyki
+    ~ Skurcz koncentryczny i ekscentryczny
+    ~ Masaz kregoslupa piersiowego
+    ~ Podstawy higieny snu
+}
+
+::mc-s11-119-q9:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.9 Testy z jezyka obcego zawodowego
+    ~ Napiecie spoczynkowe miesnia
+    ~ Masaz kregoslupa ledzwiowego
+    ~ Podstawy aktywnosci fizycznej
+}
+
+::mc-s11-119-q10:: Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.10 Analiza bledow
+    ~ Wazelina i lanolina
+    ~ Zapobieganie zakazeniom
+    ~ Segmental massage
+}
+
+::mc-s11-119-v1:: Które zagadnienie należy do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.1 Testy z BHP
+    ~0.5# 11.9.2 Testy z anatomii
+    ~0.5# 11.9.3 Testy z fizjologii
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-119-v2:: Które zagadnienie NIE należy do tematu „Egzamin pisemny — zakres powtórkowy” (11.9), lecz jest częścią innego tematu kursu? {
+    = 11.9.1 Testy z BHP
+    ~-0.25# 11.9.2 Testy z anatomii
+    ~-0.25# 11.9.3 Testy z fizjologii
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-119-v3:: Które zagadnienie należy do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)? {
+    = 11.9.3 Testy z fizjologii
+    ~0.5# 11.9.1 Testy z BHP
+    ~0.5# 11.9.2 Testy z anatomii
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-119-v4:: Które zagadnienie NIE należy do tematu „Egzamin pisemny — zakres powtórkowy” (11.9), lecz jest częścią innego tematu kursu? {
+    = 11.9.1 Testy z BHP
+    ~-0.25# 11.9.4 Testy z patologii
+    ~-0.25# 11.9.2 Testy z anatomii
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

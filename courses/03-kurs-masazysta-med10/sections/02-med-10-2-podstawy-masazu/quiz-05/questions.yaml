@@ -1,88 +1,299 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "2.5. Dokumentacja związana z wykonywaniem zadań zawodowych"
 category: masaz
 questions:
-  - type: truefalse
-    name: "2.5 — zagadnienie 1"
+  - id: "tf-s02-25-q1"
+    type: "truefalse"
+    name: "tf-s02-25-q1"
     text: "Zagadnienie „2.5.1. Karta zabiegów masażu” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 1"
+  - id: "tf-s02-25-q1b"
+    type: "truefalse"
+    name: "tf-s02-25-q1b"
     text: "Zagadnienie „2.5.2. Dane osobowe pacjenta i RODO” jest elementem zagadnienia „2.5.1. Karta zabiegów masażu”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 2"
+  - id: "tf-s02-25-q2"
+    type: "truefalse"
+    name: "tf-s02-25-q2"
     text: "Zagadnienie „2.5.2. Dane osobowe pacjenta i RODO” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 2"
+  - id: "tf-s02-25-q2b"
+    type: "truefalse"
+    name: "tf-s02-25-q2b"
     text: "Zagadnienie „2.5.3. Zgoda na przetwarzanie danych” jest elementem zagadnienia „2.5.2. Dane osobowe pacjenta i RODO”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 3"
+  - id: "tf-s02-25-q3"
+    type: "truefalse"
+    name: "tf-s02-25-q3"
     text: "Zagadnienie „2.5.3. Zgoda na przetwarzanie danych” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 3"
+  - id: "tf-s02-25-q3b"
+    type: "truefalse"
+    name: "tf-s02-25-q3b"
     text: "Zagadnienie „2.5.4. Zgoda na zabieg masażu” jest elementem zagadnienia „2.5.3. Zgoda na przetwarzanie danych”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 4"
+  - id: "tf-s02-25-q4"
+    type: "truefalse"
+    name: "tf-s02-25-q4"
     text: "Zagadnienie „2.5.4. Zgoda na zabieg masażu” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 4"
+  - id: "tf-s02-25-q4b"
+    type: "truefalse"
+    name: "tf-s02-25-q4b"
     text: "Zagadnienie „2.5.5. Poufność dokumentacji” jest elementem zagadnienia „2.5.4. Zgoda na zabieg masażu”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 5"
+  - id: "tf-s02-25-q5"
+    type: "truefalse"
+    name: "tf-s02-25-q5"
     text: "Zagadnienie „2.5.5. Poufność dokumentacji” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 5"
+  - id: "tf-s02-25-q5b"
+    type: "truefalse"
+    name: "tf-s02-25-q5b"
     text: "Zagadnienie „2.5.6. Przechowywanie i archiwizacja” jest elementem zagadnienia „2.5.5. Poufność dokumentacji”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 6"
+  - id: "tf-s02-25-q6"
+    type: "truefalse"
+    name: "tf-s02-25-q6"
     text: "Zagadnienie „2.5.6. Przechowywanie i archiwizacja” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 6"
+  - id: "tf-s02-25-q6b"
+    type: "truefalse"
+    name: "tf-s02-25-q6b"
     text: "Zagadnienie „2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom” jest elementem zagadnienia „2.5.6. Przechowywanie i archiwizacja”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 7"
+  - id: "tf-s02-25-q7"
+    type: "truefalse"
+    name: "tf-s02-25-q7"
     text: "Zagadnienie „2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 7"
+  - id: "tf-s02-25-q7b"
+    type: "truefalse"
+    name: "tf-s02-25-q7b"
     text: "Zagadnienie „2.5.8. Błędy dokumentacyjne i ich konsekwencje” jest elementem zagadnienia „2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 8"
+  - id: "tf-s02-25-q8"
+    type: "truefalse"
+    name: "tf-s02-25-q8"
     text: "Zagadnienie „2.5.8. Błędy dokumentacyjne i ich konsekwencje” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 8"
+  - id: "tf-s02-25-q8b"
+    type: "truefalse"
+    name: "tf-s02-25-q8b"
     text: "Zagadnienie „2.5.9. Dokumentacja elektroniczna i papierowa” jest elementem zagadnienia „2.5.8. Błędy dokumentacyjne i ich konsekwencje”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 9"
+  - id: "tf-s02-25-q9"
+    type: "truefalse"
+    name: "tf-s02-25-q9"
     text: "Zagadnienie „2.5.9. Dokumentacja elektroniczna i papierowa” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: truefalse
-    name: "2.5 — rozgraniczenie 9"
+  - id: "tf-s02-25-q9b"
+    type: "truefalse"
+    name: "tf-s02-25-q9b"
     text: "Zagadnienie „2.5.10. Rejestr zdarzeń niepożądanych” jest elementem zagadnienia „2.5.9. Dokumentacja elektroniczna i papierowa”, a nie tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: false
-  - type: truefalse
-    name: "2.5 — zagadnienie 10"
+  - id: "tf-s02-25-q10"
+    type: "truefalse"
+    name: "tf-s02-25-q10"
     text: "Zagadnienie „2.5.10. Rejestr zdarzeń niepożądanych” wchodzi w zakres tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)."
     answer: true
-  - type: multichoice
-    name: "2.5 — przyporządkowanie zagadnienia"
+  - id: "mc-s02-25"
+    type: "multichoice"
+    name: "mc-s02-25"
     text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
     answers:
-      - text: "2.5.1. Karta zabiegów masażu"  fraction: 100
-      - text: "1.15.10. Zasada: zgoda może być cofnięta w każdej chwili"  fraction: 0
-      - text: "3.14.1. Odciążenie grawitacyjne"  fraction: 0
-      - text: "5.3.10. Przeciwwskazania w sporcie"  fraction: 0
+      - text: "2.5.1. Karta zabiegów masażu"
+        fraction: 100
+      - text: "2.5.2. Dane osobowe pacjenta i RODO"
+        fraction: 0
+      - text: "2.5.3. Zgoda na przetwarzanie danych"
+        fraction: 0
+      - text: "1.15.10. Zasada: zgoda może być cofnięta w każdej chwili"
+        fraction: 0
+      - text: "3.14.1. Odciążenie grawitacyjne"
+        fraction: 0
+      - text: "5.3.10. Przeciwwskazania w sporcie"
+        fraction: 0
+  - id: "mc-s02-25-q1"
+    type: "multichoice"
+    name: "mc-s02-25-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.1 Karta zabiegow masazu"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s02-25-q2"
+    type: "multichoice"
+    name: "mc-s02-25-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.2 Dane osobowe pacjenta i RODO"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s02-25-q3"
+    type: "multichoice"
+    name: "mc-s02-25-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.3 Zgoda na przetwarzanie danych"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s02-25-q4"
+    type: "multichoice"
+    name: "mc-s02-25-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.4 Zgoda na zabieg masazu"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s02-25-q5"
+    type: "multichoice"
+    name: "mc-s02-25-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.5 Poufnosc dokumentacji"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s02-25-q6"
+    type: "multichoice"
+    name: "mc-s02-25-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.6 Przechowywanie i archiwizacja"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s02-25-q7"
+    type: "multichoice"
+    name: "mc-s02-25-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.7 Udostepnianie dokumentacji pacjentowi i uprawnionym podmiotom"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s02-25-q8"
+    type: "multichoice"
+    name: "mc-s02-25-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.8 Bledy dokumentacyjne i ich konsekwencje"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s02-25-q9"
+    type: "multichoice"
+    name: "mc-s02-25-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.9 Dokumentacja elektroniczna i papierowa"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s02-25-q10"
+    type: "multichoice"
+    name: "mc-s02-25-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.10 Rejestr zdarzen niepozadanych"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s02-25-v1"
+    type: "multichoice"
+    name: "mc-s02-25-v1"
+    text: "Które zagadnienie należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.1 Karta zabiegow masazu"
+        fraction: 100
+      - text: "0.5# 2.5.2 Dane osobowe pacjenta i RODO"
+        fraction: 0
+      - text: "0.5# 2.5.3 Zgoda na przetwarzanie danych"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-25-v2"
+    type: "multichoice"
+    name: "mc-s02-25-v2"
+    text: "Które zagadnienie NIE należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.5.1 Karta zabiegow masazu"
+        fraction: 100
+      - text: "-0.25# 2.5.2 Dane osobowe pacjenta i RODO"
+        fraction: 0
+      - text: "-0.25# 2.5.3 Zgoda na przetwarzanie danych"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-25-v3"
+    type: "multichoice"
+    name: "mc-s02-25-v3"
+    text: "Które zagadnienie należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5)?"
+    answers:
+      - text: "2.5.3 Zgoda na przetwarzanie danych"
+        fraction: 100
+      - text: "0.5# 2.5.1 Karta zabiegow masazu"
+        fraction: 0
+      - text: "0.5# 2.5.2 Dane osobowe pacjenta i RODO"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-25-v4"
+    type: "multichoice"
+    name: "mc-s02-25-v4"
+    text: "Które zagadnienie NIE należy do tematu „Dokumentacja związana z wykonywaniem zadań zawodowych” (2.5), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.5.1 Karta zabiegow masazu"
+        fraction: 100
+      - text: "-0.25# 2.5.4 Zgoda na zabieg masazu"
+        fraction: 0
+      - text: "-0.25# 2.5.2 Dane osobowe pacjenta i RODO"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

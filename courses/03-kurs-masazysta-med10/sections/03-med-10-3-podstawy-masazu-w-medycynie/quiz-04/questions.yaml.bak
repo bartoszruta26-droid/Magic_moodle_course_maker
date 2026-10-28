@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.4. Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.4 — zagadnienie 1"
+    text: "Zagadnienie „3.4.1. Udar mózgu i niedowład połowiczy” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 1"
+    text: "Zagadnienie „3.4.2. Dziecięce porażenie mózgowe” jest elementem zagadnienia „3.4.1. Udar mózgu i niedowład połowiczy”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 2"
+    text: "Zagadnienie „3.4.2. Dziecięce porażenie mózgowe” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 2"
+    text: "Zagadnienie „3.4.3. Stwardnienie rozsiane” jest elementem zagadnienia „3.4.2. Dziecięce porażenie mózgowe”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 3"
+    text: "Zagadnienie „3.4.3. Stwardnienie rozsiane” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 3"
+    text: "Zagadnienie „3.4.4. Choroba Parkinsona” jest elementem zagadnienia „3.4.3. Stwardnienie rozsiane”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 4"
+    text: "Zagadnienie „3.4.4. Choroba Parkinsona” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 4"
+    text: "Zagadnienie „3.4.5. Porażenia nerwów obwodowych” jest elementem zagadnienia „3.4.4. Choroba Parkinsona”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 5"
+    text: "Zagadnienie „3.4.5. Porażenia nerwów obwodowych” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 5"
+    text: "Zagadnienie „3.4.6. Neuralgie i nerwobóle” jest elementem zagadnienia „3.4.5. Porażenia nerwów obwodowych”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 6"
+    text: "Zagadnienie „3.4.6. Neuralgie i nerwobóle” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 6"
+    text: "Zagadnienie „3.4.7. Zespoły cieśni” jest elementem zagadnienia „3.4.6. Neuralgie i nerwobóle”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 7"
+    text: "Zagadnienie „3.4.7. Zespoły cieśni” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 7"
+    text: "Zagadnienie „3.4.8. Polineuropatie” jest elementem zagadnienia „3.4.7. Zespoły cieśni”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 8"
+    text: "Zagadnienie „3.4.8. Polineuropatie” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 8"
+    text: "Zagadnienie „3.4.9. Zaburzenia autonomiczne” jest elementem zagadnienia „3.4.8. Polineuropatie”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 9"
+    text: "Zagadnienie „3.4.9. Zaburzenia autonomiczne” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: truefalse
+    name: "3.4 — rozgraniczenie 9"
+    text: "Zagadnienie „3.4.10. Ból neuropatyczny i nadwrażliwość” jest elementem zagadnienia „3.4.9. Zaburzenia autonomiczne”, a nie tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: false
+  - type: truefalse
+    name: "3.4 — zagadnienie 10"
+    text: "Zagadnienie „3.4.10. Ból neuropatyczny i nadwrażliwość” wchodzi w zakres tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)."
+    answer: true
+  - type: multichoice
+    name: "3.4 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego” (3.4)?"
+    answers:
+      - text: "3.4.1. Udar mózgu i niedowład połowiczy"  fraction: 100
+      - text: "1.15.10. Zasada: zgoda może być cofnięta w każdej chwili"  fraction: 0
+      - text: "3.14.1. Odciążenie grawitacyjne"  fraction: 0
+      - text: "5.3.10. Przeciwwskazania w sporcie"  fraction: 0

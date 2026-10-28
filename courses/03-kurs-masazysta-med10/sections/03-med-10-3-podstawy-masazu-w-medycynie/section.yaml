@@ -6,68 +6,68 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-procesy-patologiczne-i-objawy-chorob-wprowadzenie.md"
+  - type: book
+    ref: book-01-procesy-patologiczne-i-objawy-chorob-wprowadzenie-bezp
     name: "3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne"
-  - type: page
-    ref: "page-02-nieurazowe-zaburzenia-ukladu-narzadu-ruchu.md"
+  - type: book
+    ref: book-02-nieurazowe-zaburzenia-ukladu-narzadu-ruchu
     name: "3.2. Nieurazowe zaburzenia układu narządu ruchu"
-  - type: page
-    ref: "page-03-urazy-ukladu-narzadu-ruchu.md"
+  - type: book
+    ref: book-03-urazy-ukladu-narzadu-ruchu
     name: "3.3. Urazy układu narządu ruchu"
-  - type: page
-    ref: "page-04-zaburzenia-osrodkowego-obwodowego-i-wegetatywnego.md"
+  - type: book
+    ref: book-04-zaburzenia-osrodkowego-obwodowego-i-wegetatywnego-nerw
     name: "3.4. Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego"
-  - type: page
-    ref: "page-05-zaburzenia-ukladu-krazenia-tetniczego-zylnego-i.md"
+  - type: book
+    ref: book-05-zaburzenia-ukladu-krazenia-tetniczego-zylnego-i-limf
     name: "3.5. Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego"
-  - type: page
-    ref: "page-06-zaburzenia-ukladu-oddechowego.md"
+  - type: book
+    ref: book-06-zaburzenia-ukladu-oddechowego
     name: "3.6. Zaburzenia układu oddechowego"
-  - type: page
-    ref: "page-07-zaburzenia-ukladu-pokarmowego.md"
+  - type: book
+    ref: book-07-zaburzenia-ukladu-pokarmowego
     name: "3.7. Zaburzenia układu pokarmowego"
-  - type: page
-    ref: "page-08-zaburzenia-ukladu-moczowego-i-plciowego.md"
+  - type: book
+    ref: book-08-zaburzenia-ukladu-moczowego-i-plciowego
     name: "3.8. Zaburzenia układu moczowego i płciowego"
-  - type: page
-    ref: "page-09-zaburzenia-skory-i-tkanki-podskornej.md"
+  - type: book
+    ref: book-09-zaburzenia-skory-i-tkanki-podskornej
     name: "3.9. Zaburzenia skóry i tkanki podskórnej"
-  - type: page
-    ref: "page-10-wskazania-i-przeciwwskazania-do-masazu-klasycznego.md"
+  - type: book
+    ref: book-10-wskazania-i-przeciwwskazania-do-masazu-klasycznego
     name: "3.10. Wskazania i przeciwwskazania do masażu klasycznego"
-  - type: page
-    ref: "page-11-wskazania-i-przeciwwskazania-do-manualnego-drenazu.md"
+  - type: book
+    ref: book-11-wskazania-i-przeciwwskazania-do-manualnego-drenazu-limf
     name: "3.11. Wskazania i przeciwwskazania do manualnego drenażu limfatycznego"
-  - type: page
-    ref: "page-12-wskazania-i-przeciwwskazania-do-masazy-odruchowych.md"
+  - type: book
+    ref: book-12-wskazania-i-przeciwwskazania-do-masazy-odruchowych
     name: "3.12. Wskazania i przeciwwskazania do masaży odruchowych"
-  - type: page
-    ref: "page-13-wskazania-i-przeciwwskazania-do-masazu-tensegracyjnego.md"
+  - type: book
+    ref: book-13-wskazania-i-przeciwwskazania-do-masazu-staw
     name: "3.13. Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego"
-  - type: page
-    ref: "page-14-wskazania-i-przeciwwskazania-do-masazu-w-srodowisku.md"
+  - type: book
+    ref: book-14-wskazania-i-przeciwwskazania-do-masazu-w-wodn
     name: "3.14. Wskazania i przeciwwskazania do masażu w środowisku wodnym"
-  - type: page
-    ref: "page-15-wskazania-i-przeciwwskazania-do-masazu-shantala-kobiet.md"
+  - type: book
+    ref: book-15-wskazania-i-przeciwwskazania-do-masazu-shantala-polo
     name: "3.15. Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu"
-  - type: page
-    ref: "page-16-zasady-wykonywania-poszczegolnych-rodzajow-masazu-w.md"
+  - type: book
+    ref: book-16-zasady-wykonywania-poszczegolnych-rodzajow-masazu-medy
     name: "3.16. Zasady wykonywania poszczególnych rodzajów masażu w medycynie"
-  - type: page
-    ref: "page-17-dzialanie-masazu-na-organizm-czlowieka.md"
+  - type: book
+    ref: book-17-dzialanie-masazu-na-organizm-czlowieka
     name: "3.17. Działanie masażu na organizm człowieka"
-  - type: page
-    ref: "page-18-zmiany-powstajace-w-ustroju-po-masazu.md"
+  - type: book
+    ref: book-18-zmiany-powstajace-w-ustroju-po-masazu
     name: "3.18. Zmiany powstające w ustroju po masażu"
-  - type: page
-    ref: "page-19-wspolpraca-w-zespole-wielodyscyplinarnym.md"
+  - type: book
+    ref: book-19-wspolpraca-w-zespole-wielodyscyplinarnym
     name: "3.19. Współpraca w zespole wielodyscyplinarnym"
-  - type: page
-    ref: "page-20-modyfikacja-dzialan-zawodowych-na-podstawie-ocen.md"
+  - type: book
+    ref: book-20-modyfikacja-dzialan-zawodowych-na-podstawie-ocen-zesp
     name: "3.20. Modyfikacja działań zawodowych na podstawie ocen zespołu"
-  - type: page
-    ref: "page-21-korelacja-masazu-z-fizykoterapia-i-kinezyterapia-w.md"
+  - type: book
+    ref: book-21-korelacja-masazu-z-fizykoterapia-i-kinezyterapia-w-chor
     name: "3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"
   - type: book
     ref: book-01

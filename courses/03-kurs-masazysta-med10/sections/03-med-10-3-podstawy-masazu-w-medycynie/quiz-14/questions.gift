@@ -47,3 +47,101 @@
     ~ 3.18.10. Dokumentacja i planowanie kolejnych zabiegów
     ~ 5.8.9. Dokumentacja zdarzeń niepożądanych
 }
+
+::mc-s03-314-q1:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.1 Odciazenie grawitacyjne
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s03-314-q2:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.2 Temperatura wody i jej wplyw
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s03-314-q3:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.3 Wskazania: bol, obrzek, ograniczenie ruchu, regeneracja
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s03-314-q4:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.4 Przeciwwskazania: infekcje, otwarte rany, niewydolnosc krazenia, lek przed woda, padaczka bez nadzoru
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s03-314-q5:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.5 Higiena wanny i ryzyko zakazen
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s03-314-q6:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.6 Bezpieczenstwo wejscia i wyjscia z wanny
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Masaz konczyny gornej
+    ~ Etyka: nie masuj w warunkach niebezpiecznych
+}
+
+::mc-s03-314-q7:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.7 Ryzyko poslizgniecia
+    ~ Wyczuwanie zyl powierzchownych
+    ~ Masaz konczyny dolnej
+    ~ Jak mowic o zdrowiu bez straszenia
+}
+
+::mc-s03-314-q8:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.8 Obciazenie termiczne
+    ~ Wyczuwanie pni chlonnych i skupisk wezlow
+    ~ Masaz grzbietu
+    ~ Jak mowic o ciele bez wstydu
+}
+
+::mc-s03-314-q9:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.9 Asysta drugiej osoby przy osobach niesamodzielnych
+    ~ Dokumentacja palpacyjna bez stawiania rozpoznan
+    ~ Masaz kregoslupa szyjnego
+    ~ Jak motywowac bez manipulacji
+}
+
+::mc-s03-314-q10:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.10 Dokumentacja temperatury, czasu i reakcji
+    ~ Dokumentacja zastosowanych parametrow
+    ~ Kompresjoterapia
+    ~ Lymphatic drainage
+}
+
+::mc-s03-314-v1:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.1 Odciazenie grawitacyjne
+    ~0.5# 3.14.2 Temperatura wody i jej wplyw
+    ~0.5# 3.14.3 Wskazania\: bol, obrzek, ograniczenie ruchu, regeneracja
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-314-v2:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14), lecz jest częścią innego tematu kursu? {
+    = 3.14.1 Odciazenie grawitacyjne
+    ~-0.25# 3.14.2 Temperatura wody i jej wplyw
+    ~-0.25# 3.14.3 Wskazania\: bol, obrzek, ograniczenie ruchu, regeneracja
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-314-v3:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14)? {
+    = 3.14.3 Wskazania\: bol, obrzek, ograniczenie ruchu, regeneracja
+    ~0.5# 3.14.1 Odciazenie grawitacyjne
+    ~0.5# 3.14.2 Temperatura wody i jej wplyw
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-314-v4:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu w środowisku wodnym” (3.14), lecz jest częścią innego tematu kursu? {
+    = 3.14.1 Odciazenie grawitacyjne
+    ~-0.25# 3.14.4 Przeciwwskazania\: infekcje, otwarte rany, niewydolnosc krazenia, lek przed woda, padaczka bez nadzoru
+    ~-0.25# 3.14.2 Temperatura wody i jej wplyw
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}
