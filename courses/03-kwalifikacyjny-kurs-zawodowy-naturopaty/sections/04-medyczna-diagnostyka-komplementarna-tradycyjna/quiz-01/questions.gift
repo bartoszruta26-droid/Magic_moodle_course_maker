@@ -1,10 +1,22 @@
 // === Temat 4.1: Diagnostyka w medycynie tradycyjnej chińskiej (TCM) ===
 ::tf-s04-41-q1:: Zagadnienie „Teoria Yin-Yang i Pięciu Przemian w diagnostyce” wchodzi w zakres tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1). {TRUE} //
+
+
 ::tf-s04-41-q2:: Zagadnienie „Badanie pulsu – 28 jakości pulsu, technika trzech palców” jest elementem zagadnienia „Teoria Yin-Yang i Pięciu Przemian w diagnostyce”, a nie tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1). {FALSE} //
+
+
 ::tf-s04-41-q3:: Zagadnienie „Diagnostyka z języka – kolor, kształt, nalot, wilgotność” wchodzi w zakres tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1). {TRUE} //
+
+
 ::tf-s04-41-q4:: Zagadnienie „Diagnostyka z twarzy i oczu – mapowanie narządów” jest elementem zagadnienia „Diagnostyka z języka – kolor, kształt, nalot, wilgotność”, a nie tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1). {FALSE} //
+
+
 ::tf-s04-41-q5:: Zagadnienie „Identyfikacja wzorców chorobowych (Bian Zheng)” wchodzi w zakres tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1). {TRUE} //
+
+
 ::tf-s04-41-q6:: Zagadnienie „Meridiany i punkty akupunkturowe – lokalizacja, funkcja, znaczenie diagnostyczne” jest elementem zagadnienia „Identyfikacja wzorców chorobowych (Bian Zheng)”, a nie tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1). {FALSE} //
+
+
 ::mc-s04-41:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka w medycynie tradycyjnej chińskiej (TCM)” (4.1)? {
     = Teoria Yin-Yang i Pięciu Przemian w diagnostyce
     ~ Badanie pulsu – 28 jakości pulsu, technika trzech palców
@@ -13,10 +25,20 @@
 }
 // === Temat 4.2: Diagnostyka w ajurwedzie ===
 ::tf-s04-42-q1:: Zagadnienie „Tridosza – Vata, Pitta, Kapha – typy konstytucjonalne (Prakriti)” wchodzi w zakres tematu „Diagnostyka w ajurwedzie” (4.2). {TRUE} //
+
+
 ::tf-s04-42-q2:: Zagadnienie „Badanie pulsu ajurwedyjskiego (Nadi Pariksha)” jest elementem zagadnienia „Tridosza – Vata, Pitta, Kapha – typy konstytucjonalne (Prakriti)”, a nie tematu „Diagnostyka w ajurwedzie” (4.2). {FALSE} //
+
+
 ::tf-s04-42-q3:: Zagadnienie „Diagnostyka z języka, oczu, paznokci, skóry” wchodzi w zakres tematu „Diagnostyka w ajurwedzie” (4.2). {TRUE} //
+
+
 ::tf-s04-42-q4:: Zagadnienie „Ocena Agni (ognia trawiennego) i Ama (toksyn metabolicznych)” jest elementem zagadnienia „Diagnostyka z języka, oczu, paznokci, skóry”, a nie tematu „Diagnostyka w ajurwedzie” (4.2). {FALSE} //
+
+
 ::tf-s04-42-q5:: Zagadnienie „Prakriti i Vikriti – konstytucja wrodzona a stan obecny” wchodzi w zakres tematu „Diagnostyka w ajurwedzie” (4.2). {TRUE} //
+
+
 ::mc-s04-42:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka w ajurwedzie” (4.2)? {
     = Tridosza – Vata, Pitta, Kapha – typy konstytucjonalne (Prakriti)
     ~ Badanie pulsu ajurwedyjskiego (Nadi Pariksha)
@@ -25,10 +47,20 @@
 }
 // === Temat 4.3: Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej ===
 ::tf-s04-43-q1:: Zagadnienie „Irydologia – mapa tęczówki, znaki diagnostyczne, wskazania i ograniczenia” wchodzi w zakres tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3). {TRUE} //
+
+
 ::tf-s04-43-q2:: Zagadnienie „Refleksologia diagnostyczna – stopy, dłonie, małżowiny uszne” jest elementem zagadnienia „Irydologia – mapa tęczówki, znaki diagnostyczne, wskazania i ograniczenia”, a nie tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3). {FALSE} //
+
+
 ::tf-s04-43-q3:: Zagadnienie „Diagnostyka funkcjonalna w tradycji naturopatycznej – ocena konstytucji humoralnej” wchodzi w zakres tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3). {TRUE} //
+
+
 ::tf-s04-43-q4:: Zagadnienie „Kinesologia stosowana – testy mięśniowe jako narzędzie diagnostyczne” jest elementem zagadnienia „Diagnostyka funkcjonalna w tradycji naturopatycznej – ocena konstytucji humoralnej”, a nie tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3). {FALSE} //
+
+
 ::tf-s04-43-q5:: Zagadnienie „Diagnostyka zmian odruchowych w tkankach – strefy przeczulicy, punkty maksymalne, zmiany w tkance łącznej i okostnej” wchodzi w zakres tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3). {TRUE} //
+
+
 ::mc-s04-43:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej” (4.3)? {
     = Irydologia – mapa tęczówki, znaki diagnostyczne, wskazania i ograniczenia
     ~ Refleksologia diagnostyczna – stopy, dłonie, małżowiny uszne
@@ -37,11 +69,23 @@
 }
 // === Temat 4.4: Diagnostyka integralna i holistyczna ===
 ::tf-s04-44-q1:: Zagadnienie „Wywiad naturopatyczny rozszerzony – wymiar fizyczny, emocjonalny, umysłowy, duchowy, społeczny” wchodzi w zakres tematu „Diagnostyka integralna i holistyczna” (4.4). {TRUE} //
+
+
 ::tf-s04-44-q2:: Zagadnienie „Ocena stylu życia i czynników środowiskowych” jest elementem zagadnienia „Wywiad naturopatyczny rozszerzony – wymiar fizyczny, emocjonalny, umysłowy, duchowy, społeczny”, a nie tematu „Diagnostyka integralna i holistyczna” (4.4). {FALSE} //
+
+
 ::tf-s04-44-q3:: Zagadnienie „Ocena obciążeń toksykologicznych i metabolicznych” wchodzi w zakres tematu „Diagnostyka integralna i holistyczna” (4.4). {TRUE} //
+
+
 ::tf-s04-44-q4:: Zagadnienie „Diagnostyka stresu oksydacyjnego i stanu antyoksydacyjnego” jest elementem zagadnienia „Ocena obciążeń toksykologicznych i metabolicznych”, a nie tematu „Diagnostyka integralna i holistyczna” (4.4). {FALSE} //
+
+
 ::tf-s04-44-q5:: Zagadnienie „Ocena równowagi kwasowo-zasadowej i gospodarki wodnej” wchodzi w zakres tematu „Diagnostyka integralna i holistyczna” (4.4). {TRUE} //
+
+
 ::tf-s04-44-q6:: Zagadnienie „Diagnostyka nietolerancji i nadwrażliwości pokarmowych – podejście integracyjne” jest elementem zagadnienia „Ocena równowagi kwasowo-zasadowej i gospodarki wodnej”, a nie tematu „Diagnostyka integralna i holistyczna” (4.4). {FALSE} //
+
+
 ::mc-s04-44:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka integralna i holistyczna” (4.4)? {
     = Wywiad naturopatyczny rozszerzony – wymiar fizyczny, emocjonalny, umysłowy, duchowy, społeczny
     ~ Ocena stylu życia i czynników środowiskowych

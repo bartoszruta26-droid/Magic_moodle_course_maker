@@ -1,12 +1,28 @@
 // === Temat 13.1: Podstawy botaniki farmaceutycznej i zielarstwa ===
 ::tf-s13-131-q1:: Zagadnienie „Morfologia i systematyka roślin leczniczych” wchodzi w zakres tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {TRUE} //
+
+
 ::tf-s13-131-q2:: Zagadnienie „Surowce zielarskie – klasyfikacja, zbiór, suszenie, przechowywanie; zasady etycznego zbioru” jest elementem zagadnienia „Morfologia i systematyka roślin leczniczych”, a nie tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {FALSE} //
+
+
 ::tf-s13-131-q3:: Zagadnienie „Substancje czynne – alkaloidy, glikozydy, flawonoidy, garbniki, saponiny, olejki eteryczne, śluzy, pektyny, kumaryny, terpeny” wchodzi w zakres tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {TRUE} //
+
+
 ::tf-s13-131-q4:: Zagadnienie „Farmakognozja – mechanizmy działania substancji roślinnych” jest elementem zagadnienia „Substancje czynne – alkaloidy, glikozydy, flawonoidy, garbniki, saponiny, olejki eteryczne, śluzy, pektyny, kumaryny, terpeny”, a nie tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {FALSE} //
+
+
 ::tf-s13-131-q5:: Zagadnienie „Formy przetworów – napary, odwary, nalewki, intrakty, soki, syropy, maceraty, okłady” wchodzi w zakres tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {TRUE} //
+
+
 ::tf-s13-131-q6:: Zagadnienie „Dawkowanie, czas kuracji, interakcje z lekami konwencjonalnymi” jest elementem zagadnienia „Formy przetworów – napary, odwary, nalewki, intrakty, soki, syropy, maceraty, okłady”, a nie tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {FALSE} //
+
+
 ::tf-s13-131-q7:: Zagadnienie „Bezpieczeństwo fitoterapii – toksyczność, przeciwwskazania (ciąża, laktacja, dzieci, choroby wątroby i nerek)” wchodzi w zakres tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {TRUE} //
+
+
 ::tf-s13-131-q8:: Zagadnienie „Prawo dotyczące obrotu surowcami zielarskimi i suplementów diety” jest elementem zagadnienia „Bezpieczeństwo fitoterapii – toksyczność, przeciwwskazania (ciąża, laktacja, dzieci, choroby wątroby i nerek)”, a nie tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1). {FALSE} //
+
+
 ::mc-s13-131:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy botaniki farmaceutycznej i zielarstwa” (13.1)? {
     = Morfologia i systematyka roślin leczniczych
     ~ Surowce zielarskie – klasyfikacja, zbiór, suszenie, przechowywanie; zasady etycznego zbioru
@@ -15,15 +31,35 @@
 }
 // === Temat 13.2: Fitoterapia układów narządowych ===
 ::tf-s13-132-q1:: Zagadnienie „Zioła w chorobach układu oddechowego – tymianek, podbiał, prawoślaz, sosna, eukaliptus, dziewanna, lukrecja” wchodzi w zakres tematu „Fitoterapia układów narządowych” (13.2). {TRUE} //
+
+
 ::tf-s13-132-q2:: Zagadnienie „Zioła w chorobach układu pokarmowego – rumianek, mięta, koper, kminek, krwawnik, melisa, tatarak” jest elementem zagadnienia „Zioła w chorobach układu oddechowego – tymianek, podbiał, prawoślaz, sosna, eukaliptus, dziewanna, lukrecja”, a nie tematu „Fitoterapia układów narządowych” (13.2). {FALSE} //
+
+
 ::tf-s13-132-q3:: Zagadnienie „Zioła w chorobach wątroby i dróg żółciowych – ostropest, karczoch, mniszek, kurkuma, glistnik” wchodzi w zakres tematu „Fitoterapia układów narządowych” (13.2). {TRUE} //
+
+
 ::tf-s13-132-q4:: Zagadnienie „Zioła w chorobach układu moczowego – pokrzywa, brzoza, żurawina, nawłoć, skrzyp, mącznica” jest elementem zagadnienia „Zioła w chorobach wątroby i dróg żółciowych – ostropest, karczoch, mniszek, kurkuma, glistnik”, a nie tematu „Fitoterapia układów narządowych” (13.2). {FALSE} //
+
+
 ::tf-s13-132-q5:: Zagadnienie „Zioła w chorobach układu krążenia – głóg, miłorząb, czosnek, aronia, serdecznik” wchodzi w zakres tematu „Fitoterapia układów narządowych” (13.2). {TRUE} //
+
+
 ::tf-s13-132-q6:: Zagadnienie „Zioła w chorobach układu nerwowego – melisa, waleriana, dziurawiec, lawenda, passiflora, chmiel” jest elementem zagadnienia „Zioła w chorobach układu krążenia – głóg, miłorząb, czosnek, aronia, serdecznik”, a nie tematu „Fitoterapia układów narządowych” (13.2). {FALSE} //
+
+
 ::tf-s13-132-q7:: Zagadnienie „Zioła w chorobach układu ruchu – żywokost, arnika, kadzidłowiec, kurkuma, wierzba, czarci pazur” wchodzi w zakres tematu „Fitoterapia układów narządowych” (13.2). {TRUE} //
+
+
 ::tf-s13-132-q8:: Zagadnienie „Zioła w chorobach skóry – nagietek, aloes, łopian, fiołek trójbarwny, rumianek, szałwia” jest elementem zagadnienia „Zioła w chorobach układu ruchu – żywokost, arnika, kadzidłowiec, kurkuma, wierzba, czarci pazur”, a nie tematu „Fitoterapia układów narządowych” (13.2). {FALSE} //
+
+
 ::tf-s13-132-q9:: Zagadnienie „Zioła w chorobach metabolicznych – morwa, cynamon, kozieradka, berberys, gurmar” wchodzi w zakres tematu „Fitoterapia układów narządowych” (13.2). {TRUE} //
+
+
 ::tf-s13-132-q10:: Zagadnienie „Zioła wspomagające odporność – jeżówka, bez czarny, dzika róża, czystek, żeń-szeń” jest elementem zagadnienia „Zioła w chorobach metabolicznych – morwa, cynamon, kozieradka, berberys, gurmar”, a nie tematu „Fitoterapia układów narządowych” (13.2). {FALSE} //
+
+
 ::mc-s13-132:: Które z poniższych zagadnień należy bezpośrednio do tematu „Fitoterapia układów narządowych” (13.2)? {
     = Zioła w chorobach układu oddechowego – tymianek, podbiał, prawoślaz, sosna, eukaliptus, dziewanna, lukrecja
     ~ Zioła w chorobach układu pokarmowego – rumianek, mięta, koper, kminek, krwawnik, melisa, tatarak
@@ -32,12 +68,26 @@
 }
 // === Temat 13.3: Fitoterapia w medycynie tradycyjnej i integracyjnej ===
 ::tf-s13-133-q1:: Zagadnienie „Ziołolecznictwo w TCM – formuły, energetyka ziół (smak, temperatura, tropizm), synergia” wchodzi w zakres tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {TRUE} //
+
+
 ::tf-s13-133-q2:: Zagadnienie „Zioła ajurwedyjskie – tulsi, triphala, shatavari, neem, amla, ashwagandha” jest elementem zagadnienia „Ziołolecznictwo w TCM – formuły, energetyka ziół (smak, temperatura, tropizm), synergia”, a nie tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {FALSE} //
+
+
 ::tf-s13-133-q3:: Zagadnienie „Zioła w tradycji europejskiej – hildegardiańska, klasztorna, ludowa słowiańska” wchodzi w zakres tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {TRUE} //
+
+
 ::tf-s13-133-q4:: Zagadnienie „Adaptogeny – różeniec, ashwagandha, żeń-szeń, eleuterokok, cytryniec” jest elementem zagadnienia „Zioła w tradycji europejskiej – hildegardiańska, klasztorna, ludowa słowiańska”, a nie tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {FALSE} //
+
+
 ::tf-s13-133-q5:: Zagadnienie „Grzyby lecznicze (mykoterapia) – reishi, shiitake, maitake, cordyceps, chaga” wchodzi w zakres tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {TRUE} //
+
+
 ::tf-s13-133-q6:: Zagadnienie „Apiterapia – miód, propolis, pyłek, mleczko pszczele, jad pszczeli (maści: Apisarthron, Forapin)” jest elementem zagadnienia „Grzyby lecznicze (mykoterapia) – reishi, shiitake, maitake, cordyceps, chaga”, a nie tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {FALSE} //
+
+
 ::tf-s13-133-q7:: Zagadnienie „Integracja fitoterapii z medycyną konwencjonalną – synergia, interakcje, monitorowanie” wchodzi w zakres tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3). {TRUE} //
+
+
 ::mc-s13-133:: Które z poniższych zagadnień należy bezpośrednio do tematu „Fitoterapia w medycynie tradycyjnej i integracyjnej” (13.3)? {
     = Ziołolecznictwo w TCM – formuły, energetyka ziół (smak, temperatura, tropizm), synergia
     ~ Zioła ajurwedyjskie – tulsi, triphala, shatavari, neem, amla, ashwagandha
@@ -46,11 +96,23 @@
 }
 // === Temat 13.4: Praktyka zielarska ===
 ::tf-s13-134-q1:: Zagadnienie „Identyfikacja roślin leczniczych w terenie – zajęcia praktyczne” wchodzi w zakres tematu „Praktyka zielarska” (13.4). {TRUE} //
+
+
 ::tf-s13-134-q2:: Zagadnienie „Przygotowywanie przetworów zielarskich – warsztaty (napary, nalewki, maści, syropy)” jest elementem zagadnienia „Identyfikacja roślin leczniczych w terenie – zajęcia praktyczne”, a nie tematu „Praktyka zielarska” (13.4). {FALSE} //
+
+
 ::tf-s13-134-q3:: Zagadnienie „Sporządzanie maści, kremów i olejków ziołowych – receptury” wchodzi w zakres tematu „Praktyka zielarska” (13.4). {TRUE} //
+
+
 ::tf-s13-134-q4:: Zagadnienie „Prowadzenie ogródka ziołowego – uprawa, pielęgnacja, zbiór” jest elementem zagadnienia „Sporządzanie maści, kremów i olejków ziołowych – receptury”, a nie tematu „Praktyka zielarska” (13.4). {FALSE} //
+
+
 ::tf-s13-134-q5:: Zagadnienie „Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring” wchodzi w zakres tematu „Praktyka zielarska” (13.4). {TRUE} //
+
+
 ::tf-s13-134-q6:: Zagadnienie „Etyka zbioru i zrównoważone korzystanie z zasobów naturalnych” jest elementem zagadnienia „Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring”, a nie tematu „Praktyka zielarska” (13.4). {FALSE} //
+
+
 ::mc-s13-134:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka zielarska” (13.4)? {
     = Identyfikacja roślin leczniczych w terenie – zajęcia praktyczne
     ~ Przygotowywanie przetworów zielarskich – warsztaty (napary, nalewki, maści, syropy)

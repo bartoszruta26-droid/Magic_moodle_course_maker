@@ -1,12 +1,28 @@
 // === Temat 15.1: Hydroterapia i balneologia ===
 ::tf-s15-151-q1:: Zagadnienie „Fizjologiczne działanie wody – temperatura, ciśnienie, wypór” wchodzi w zakres tematu „Hydroterapia i balneologia” (15.1). {TRUE} //
+
+
 ::tf-s15-151-q2:: Zagadnienie „Kąpiele lecznicze – gorące, zimne, naprzemienne, częściowe; solankowe, siarczkowo-siarkowodorowe, radonowe, kwasowęglowe, perełkowe” jest elementem zagadnienia „Fizjologiczne działanie wody – temperatura, ciśnienie, wypór”, a nie tematu „Hydroterapia i balneologia” (15.1). {FALSE} //
+
+
 ::tf-s15-151-q3:: Zagadnienie „Polewania i natryski – techniki Kneippa (deszczowy, wachlarzowy, biczowy, nitkowaty)” wchodzi w zakres tematu „Hydroterapia i balneologia” (15.1). {TRUE} //
+
+
 ::tf-s15-151-q4:: Zagadnienie „Okłady i zawijania wodne – gorące, zimne, naprzemienne” jest elementem zagadnienia „Polewania i natryski – techniki Kneippa (deszczowy, wachlarzowy, biczowy, nitkowaty)”, a nie tematu „Hydroterapia i balneologia” (15.1). {FALSE} //
+
+
 ::tf-s15-151-q5:: Zagadnienie „Balneoterapia – kąpiele borowinowe, fango, peloidoterapia” wchodzi w zakres tematu „Hydroterapia i balneologia” (15.1). {TRUE} //
+
+
 ::tf-s15-151-q6:: Zagadnienie „Krioterapia miejscowa i ogólnoustrojowa – wskazania, technika, bezpieczeństwo” jest elementem zagadnienia „Balneoterapia – kąpiele borowinowe, fango, peloidoterapia”, a nie tematu „Hydroterapia i balneologia” (15.1). {FALSE} //
+
+
 ::tf-s15-151-q7:: Zagadnienie „Sauna – fińska, parowa, infrared; zastosowanie lecznicze i przeciwwskazania” wchodzi w zakres tematu „Hydroterapia i balneologia” (15.1). {TRUE} //
+
+
 ::tf-s15-151-q8:: Zagadnienie „Wskazania i przeciwwskazania do zabiegów wodnych – szczególne środki ostrożności u osób starszych i z chorobami krążenia” jest elementem zagadnienia „Sauna – fińska, parowa, infrared; zastosowanie lecznicze i przeciwwskazania”, a nie tematu „Hydroterapia i balneologia” (15.1). {FALSE} //
+
+
 ::mc-s15-151:: Które z poniższych zagadnień należy bezpośrednio do tematu „Hydroterapia i balneologia” (15.1)? {
     = Fizjologiczne działanie wody – temperatura, ciśnienie, wypór
     ~ Kąpiele lecznicze – gorące, zimne, naprzemienne, częściowe; solankowe, siarczkowo-siarkowodorowe, radonowe, kwasowęglowe, perełkowe
@@ -15,9 +31,17 @@
 }
 // === Temat 15.2: Termoterapia i fototerapia ===
 ::tf-s15-152-q1:: Zagadnienie „Ciepłolecznictwo – okłady, termofory, parafina, fango, borowina; temperatura i czas” wchodzi w zakres tematu „Termoterapia i fototerapia” (15.2). {TRUE} //
+
+
 ::tf-s15-152-q2:: Zagadnienie „Zimnolecznictwo – krioterapia miejscowa, okłady lodowe, zimne kąpiele” jest elementem zagadnienia „Ciepłolecznictwo – okłady, termofory, parafina, fango, borowina; temperatura i czas”, a nie tematu „Termoterapia i fototerapia” (15.2). {FALSE} //
+
+
 ::tf-s15-152-q3:: Zagadnienie „Światłolecznictwo – lampa Sollux, terapia UV, laseroterapia niskoenergetyczna” wchodzi w zakres tematu „Termoterapia i fototerapia” (15.2). {TRUE} //
+
+
 ::tf-s15-152-q4:: Zagadnienie „Helioterapia – lecznicze działanie słońca, synteza witaminy D, środki ostrożności” jest elementem zagadnienia „Światłolecznictwo – lampa Sollux, terapia UV, laseroterapia niskoenergetyczna”, a nie tematu „Termoterapia i fototerapia” (15.2). {FALSE} //
+
+
 ::mc-s15-152:: Które z poniższych zagadnień należy bezpośrednio do tematu „Termoterapia i fototerapia” (15.2)? {
     = Ciepłolecznictwo – okłady, termofory, parafina, fango, borowina; temperatura i czas
     ~ Zimnolecznictwo – krioterapia miejscowa, okłady lodowe, zimne kąpiele
@@ -26,15 +50,35 @@
 }
 // === Temat 15.3: Elektroterapia i inne formy fizykoterapii ===
 ::tf-s15-153-q1:: Zagadnienie „Podstawy elektroterapii – TENS, prądy diadynamiczne, interferencyjne, Traberta; galwanizacja” wchodzi w zakres tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {TRUE} //
+
+
 ::tf-s15-153-q2:: Zagadnienie „Elektrostymulacja – metoda Hufschmidta, Knautha; porażenia wiotkie i spastyczne” jest elementem zagadnienia „Podstawy elektroterapii – TENS, prądy diadynamiczne, interferencyjne, Traberta; galwanizacja”, a nie tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {FALSE} //
+
+
 ::tf-s15-153-q3:: Zagadnienie „Jontoforeza – technika, leki, wskazania (wapniowa, jodowa, histaminowa, lignokainowa)” wchodzi w zakres tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {TRUE} //
+
+
 ::tf-s15-153-q4:: Zagadnienie „Ultradźwięki i fonoforeza – działanie mechaniczne, termiczne, biologiczne” jest elementem zagadnienia „Jontoforeza – technika, leki, wskazania (wapniowa, jodowa, histaminowa, lignokainowa)”, a nie tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {FALSE} //
+
+
 ::tf-s15-153-q5:: Zagadnienie „Magnetoterapia – działanie biologiczne, zastosowania, przeciwwskazania (rozrusznik!)” wchodzi w zakres tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {TRUE} //
+
+
 ::tf-s15-153-q6:: Zagadnienie „Terapia falą uderzeniową – zastosowanie w ortopedii” jest elementem zagadnienia „Magnetoterapia – działanie biologiczne, zastosowania, przeciwwskazania (rozrusznik!)”, a nie tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {FALSE} //
+
+
 ::tf-s15-153-q7:: Zagadnienie „Akupunktura i akupresura – podstawy teoretyczne i praktyczne” wchodzi w zakres tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {TRUE} //
+
+
 ::tf-s15-153-q8:: Zagadnienie „Moksoterapia – technika i zastosowanie” jest elementem zagadnienia „Akupunktura i akupresura – podstawy teoretyczne i praktyczne”, a nie tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {FALSE} //
+
+
 ::tf-s15-153-q9:: Zagadnienie „Diatermia krótkofalowa i mikrofalowa – wskazania i przeciwwskazania” wchodzi w zakres tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {TRUE} //
+
+
 ::tf-s15-153-q10:: Zagadnienie „Środki ostrożności przy zabiegach fizykalnych u osób starszych i z chorobami krążenia” jest elementem zagadnienia „Diatermia krótkofalowa i mikrofalowa – wskazania i przeciwwskazania”, a nie tematu „Elektroterapia i inne formy fizykoterapii” (15.3). {FALSE} //
+
+
 ::mc-s15-153:: Które z poniższych zagadnień należy bezpośrednio do tematu „Elektroterapia i inne formy fizykoterapii” (15.3)? {
     = Podstawy elektroterapii – TENS, prądy diadynamiczne, interferencyjne, Traberta; galwanizacja
     ~ Elektrostymulacja – metoda Hufschmidta, Knautha; porażenia wiotkie i spastyczne

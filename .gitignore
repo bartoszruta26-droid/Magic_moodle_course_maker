@@ -1,11 +1,37 @@
-__pycache__/
-*.pyc
-The change list contains only source files (`.md`, `.py`, `.gift`, `.yaml`) and no build artifacts, dependencies, or temporary files.
-According to rule #6: "If the change list contains ONLY source or config files... and NO build artifacts, dependencies, or temp files — output an EMPTY .gitignore".
-Therefore, the optimized .gitignore content is empty.
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Build artifacts and archives (Moodle .mbz packages, tarballs)
+build/
+dist/
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.zip
+*.mbz
+
+# Logs and temp files
+*.log
+tmp/
+temp/
