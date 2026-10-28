@@ -15,3 +15,28 @@ Program kursu obejmuje medycynę leczniczą i pielęgnacyjną, higienę i profil
 ---
 
 *Zespół dydaktyczny kursu*
+
+---
+
+## Pogłębienie tematu
+### Słowo do rozpoczynających naukę
+
+Drogi Kursancie, przyjęcie do tego kursu jest początkiem drogi, na której
+zdobywa się nie tylko dyplom, ale i zaufanie ludzi chorych. Proszę Cię o trzy
+postawy już od pierwszego dnia:
+
+1. **Pokorę wobec wiedzy** — medycyna jest dziedziną, w której każdy z nas
+   wie za mało; uczciwe „nie wiem” ratuje więcej istnień niż brawurowa pewność.
+2. **Sumienność w ćwiczeniu rąk** — technika, którą wykonasz setki razy na
+   fantomie i partnerze ćwicznym, u pacjenta będzie bezpieczna; technika
+   niedotrenowana stanie się bronią.
+3. **Wrażliwość na drugiego człowieka** — pacjent opowie Ci więcej o bólu
+   tonem głosu niż skala NRS; ucz się słuchać ciała i osoby jednocześnie.
+
+Program obejmuje 23 moduły i załączniki A–K rozłożone na cztery semestry.
+Kolejność pracy w każdej sekcji: książka → quiz → zadanie praktyczne. Nie
+przeskakuj etapów; systematyka jest formą szacunku wobec przyszłego pacjenta.
+
+Na koniec — pamiętaj, że końcem tej drogi nie jest egzamin, lecz spotkany
+człowiek, który odda w Twoje ręce swoje zdrowie. Niech Cię tu nigdy nie
+zabraknie, gdy będzie potrzebny.

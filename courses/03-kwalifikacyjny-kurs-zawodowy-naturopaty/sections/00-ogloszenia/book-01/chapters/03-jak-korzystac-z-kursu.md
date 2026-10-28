@@ -16,3 +16,27 @@ Załączniki A–K są narzędziami codziennej pracy: wykaz lektur (A), lista um
 ---
 
 *Zespół dydaktyczny kursu*
+
+---
+
+## Pogłębienie tematu
+### Praktyczny rytm nauki (propozycja tygodniowa)
+
+| Dzień | 60–90 minut | Cel |
+|-------|-------------|-----|
+| Poniedziałek | lektura jednego rozdziału book + notatka studyjna | zrozumienie |
+| Wtorek | powtórka notatek + fiszki (terminologia z Załącznika D) | utrwalenie |
+| Środa | ćwiczenie praktyczne (technika wg Załącznika B) | umiejętność |
+| Czwartek | lektura drugiego rozdziału + materiały z Załącznika A | pogłębienie |
+| Piątek | quiz sekcji + analiza błędów | kontrola |
+| Sobota | zadanie modułowe (assignment) | zastosowanie |
+| Niedziela | odpoczynek, krótkie czytanie Kodeksu etycznego | formacja |
+
+**Zasady porządkowe:**
+- Postęp zaznaczaj w checklistie Załącznika B — samoocena co dwa tygodnie.
+- Pytania, których nie wyjaśniłeś na bieżąco, zapisuj w jednym pliku «do
+  prowadzącego» i zabieraj na zjazd; pytanie odroczone wraca jako wątpliwość
+  w gabinecie.
+- Materiały multimedialne pobieraj raz i kataloguj (rok–moduł–temat); chaos
+  w zbiorach kradnie czas przeznaczony pacjentom.
+- Prace oddawaj przed terminem — ostatnia doba należy do redakcji i oddechu.

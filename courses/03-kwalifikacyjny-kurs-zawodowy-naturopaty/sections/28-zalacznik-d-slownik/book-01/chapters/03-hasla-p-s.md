@@ -45,3 +45,18 @@ Opadanie narządu (ptosis ani — wypadanie odbytu; piersi); w rehabilitacji dna
 ---
 
 Treści tego kursu przekazujemy w duchu Bożej miłości, prawdy, piękna i sprawiedliwości: bez fałszywych obietnic, z poszanowaniem godności każdej osoby i zasady primum non nocere. Tam, gdzie dowody naukowe milczą, mówimy otwarcie, że milczą.
+
+---
+
+## Rozszerzenie zawodowe
+### Jak uczyć się hasła («Słownik — Hasła P–S»)
+
+1. **Etymologia:** rozłóż termin na cząstki (np. *hepat-ō-megalia*: gr.
+   *hēpar* wątroba + *megas* wielki) — nazwa niesie definicję.
+2. **Zdanie kontekstowe:** wpisz termin do własnego zdania klinicznego
+   («W marskości wątroby obserwuje się hepatomegalię w fazie...»); termin bez zdania
+   ginie w miesiąc.
+3. **Łacina/grecka w dokumentacji:** odmiana i rodzaj gramatyczny mają znaczenie
+   przy redagowaniu kart; błędna forma bywa myląca dla kolejnego czytelnika.
+4. **Mapowanie na ICD-10:** przyporządkuj hasło do grupy jednostek chorobowych —
+   ułatwia to komunikację z lekarzem przy skierowaniu i czytanie opisów badań.

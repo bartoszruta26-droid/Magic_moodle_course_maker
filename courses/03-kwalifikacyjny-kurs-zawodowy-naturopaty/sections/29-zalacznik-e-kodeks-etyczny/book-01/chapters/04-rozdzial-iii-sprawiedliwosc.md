@@ -21,3 +21,28 @@ Kodeks nie jest listą zakazów — jest portretem człowieka, którym masz się
 ---
 
 *Pełny tekst kodeksu obowiązuje wszystkich uczestników kursu od dnia immatrykulacji. Złamanie kodeksu poddaję ocenie komisji etyki.*
+
+---
+
+## Pogłębienie tematu
+### Sprawiedliwość — zastosowania codzienne
+
+1. **Sprawiedliwość rozdzielcza** — ten sam standard procedury dla każdego:
+   taki sam wywiad, taka sama higiena rąk, taka sama długość zabiegu niezależnie
+   od napiwku, wyglądu czy poglądów pacjenta. Preferencje osobiste nie mogą
+   zmieniać jakości usługi.
+2. **Sprawiedliwość wobec czasu** — nie umawiam dwóch pacjentów na tę samą
+   godzinę «na wszelki wypadek»; spóźnienie wobec jednego jest kradzieżą
+   wobec drugiego.
+3. **Sprawiedliwość wobec konkurencji** — nie oczerniam innych praktyków,
+   nie kupuję reklam w wyszukiwarkach pod hasłami szydzonymi z medycyny
+   konwencjonalnej; różnicę jakości ogłaszam czynem, nie kampanią.
+4. **Sprawiedliwość cenowa** — cena odpowiada realnemu czasowi i kosztom;
+   praktyka przewiduje zniżki lub godziny pro bono dla osób ubogich, chorych
+   przewlekle i samotnych — bo miłość bliźniego ma również wymiar ekonomiczny.
+5. **Sprawiedliwość wobec prawa** — płacę podatki, mam ubezpieczenie OC
+   działalności, odprowadzam składki; praca «na czarno» krzywdzi pacjenta
+   (brak ochrony) i zawód (brak odpowiedzialności).
+6. **Sprawiedliwość pokoleniowa** — przekazuję wiedzę uczniom uczciwie,
+   bez zawyżania własnych osiągnięć; dbam, by środowisko zawodowe nie było
+   skażone oszustwem.
