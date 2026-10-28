@@ -1,0 +1,49 @@
+// Quiz: 1.5. Zagrożenia zawodowe w pracy masażysty — moduł 1 (01-med-10-1-bezpieczenstwo-i-higiena-pracy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s01-15-q1:: Zagadnienie „1.5.1. Czynniki fizyczne: hałas, drgania, temperatura, wilgotność” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q1b:: Zagadnienie „1.5.2. Czynniki chemiczne: środki dezynfekcyjne, oleje, kremy, aerozole” jest elementem zagadnienia „1.5.1. Czynniki fizyczne: hałas, drgania, temperatura, wilgotność”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q2:: Zagadnienie „1.5.2. Czynniki chemiczne: środki dezynfekcyjne, oleje, kremy, aerozole” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q2b:: Zagadnienie „1.5.3. Czynniki biologiczne: bakterie, wirusy, grzyby, pasożyty” jest elementem zagadnienia „1.5.2. Czynniki chemiczne: środki dezynfekcyjne, oleje, kremy, aerozole”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q3:: Zagadnienie „1.5.3. Czynniki biologiczne: bakterie, wirusy, grzyby, pasożyty” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q3b:: Zagadnienie „1.5.4. Czynniki psychofizyczne: stres, obciążenie postawy, praca zmianowa” jest elementem zagadnienia „1.5.3. Czynniki biologiczne: bakterie, wirusy, grzyby, pasożyty”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q4:: Zagadnienie „1.5.4. Czynniki psychofizyczne: stres, obciążenie postawy, praca zmianowa” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q4b:: Zagadnienie „1.5.5. Czynniki ergonomiczne: przeciążenia układu mięśniowo-powięziowego masażysty” jest elementem zagadnienia „1.5.4. Czynniki psychofizyczne: stres, obciążenie postawy, praca zmianowa”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q5:: Zagadnienie „1.5.5. Czynniki ergonomiczne: przeciążenia układu mięśniowo-powięziowego masażysty” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q5b:: Zagadnienie „1.5.6. Zagrożenia związane z kontaktem z krwią i płynami ustrojowymi” jest elementem zagadnienia „1.5.5. Czynniki ergonomiczne: przeciążenia układu mięśniowo-powięziowego masażysty”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q6:: Zagadnienie „1.5.6. Zagrożenia związane z kontaktem z krwią i płynami ustrojowymi” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q6b:: Zagadnienie „1.5.7. Zagrożenia epidemiczne i patogeny alarmowe” jest elementem zagadnienia „1.5.6. Zagrożenia związane z kontaktem z krwią i płynami ustrojowymi”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q7:: Zagadnienie „1.5.7. Zagrożenia epidemiczne i patogeny alarmowe” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q7b:: Zagadnienie „1.5.8. Wirusowe zapalenie wątroby typu A, B, C — zasady profilaktyki” jest elementem zagadnienia „1.5.7. Zagrożenia epidemiczne i patogeny alarmowe”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q8:: Zagadnienie „1.5.8. Wirusowe zapalenie wątroby typu A, B, C — zasady profilaktyki” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q8b:: Zagadnienie „1.5.9. HIV/AIDS — fakty, mity, postępowanie, ochrona godności pacjenta” jest elementem zagadnienia „1.5.8. Wirusowe zapalenie wątroby typu A, B, C — zasady profilaktyki”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q9:: Zagadnienie „1.5.9. HIV/AIDS — fakty, mity, postępowanie, ochrona godności pacjenta” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::tf-s01-15-q9b:: Zagadnienie „1.5.10. Gruźlica, COVID-19, grypa i inne choroby zakaźne — podstawowe zasady bezpieczeństwa” jest elementem zagadnienia „1.5.9. HIV/AIDS — fakty, mity, postępowanie, ochrona godności pacjenta”, a nie tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {FALSE} //
+
+::tf-s01-15-q10:: Zagadnienie „1.5.10. Gruźlica, COVID-19, grypa i inne choroby zakaźne — podstawowe zasady bezpieczeństwa” wchodzi w zakres tematu „Zagrożenia zawodowe w pracy masażysty” (1.5). {TRUE} //
+
+::mc-s01-15:: Które zagadnienie należy bezpośrednio do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.1. Czynniki fizyczne: hałas, drgania, temperatura, wilgotność
+    ~ 1.5.2. Czynniki chemiczne: środki dezynfekcyjne, oleje, kremy, aerozole
+    ~ 1.5.3. Czynniki biologiczne: bakterie, wirusy, grzyby, pasożyty
+    ~ 1.15.10. Zasada: zgoda może być cofnięta w każdej chwili
+    ~ 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
+    ~ 5.3.9. Masaż przy obniżonej odporności — ostrożność
+}

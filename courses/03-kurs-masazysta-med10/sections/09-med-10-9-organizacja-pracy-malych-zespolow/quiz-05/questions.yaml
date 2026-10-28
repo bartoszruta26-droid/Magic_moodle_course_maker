@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "9.5. Wprowadzanie rozwiązań technicznych i organizacyjnych"
+category: masaz
+questions:
+  - type: truefalse
+    name: "9.5 — zagadnienie 1"
+    text: "Zagadnienie „9.5.1. Analiza warunków pracy” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 1"
+    text: "Zagadnienie „9.5.2. Poprawa ergonomii stanowiska” jest elementem zagadnienia „9.5.1. Analiza warunków pracy”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 2"
+    text: "Zagadnienie „9.5.2. Poprawa ergonomii stanowiska” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 2"
+    text: "Zagadnienie „9.5.3. Optymalizacja przepływu pacjentów” jest elementem zagadnienia „9.5.2. Poprawa ergonomii stanowiska”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 3"
+    text: "Zagadnienie „9.5.3. Optymalizacja przepływu pacjentów” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 3"
+    text: "Zagadnienie „9.5.4. Bezpieczne przechowywanie środków” jest elementem zagadnienia „9.5.3. Optymalizacja przepływu pacjentów”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 4"
+    text: "Zagadnienie „9.5.4. Bezpieczne przechowywanie środków” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 4"
+    text: "Zagadnienie „9.5.5. Modernizacja sprzętu” jest elementem zagadnienia „9.5.4. Bezpieczne przechowywanie środków”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 5"
+    text: "Zagadnienie „9.5.5. Modernizacja sprzętu” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 5"
+    text: "Zagadnienie „9.5.6. Standaryzacja procedur” jest elementem zagadnienia „9.5.5. Modernizacja sprzętu”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 6"
+    text: "Zagadnienie „9.5.6. Standaryzacja procedur” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 6"
+    text: "Zagadnienie „9.5.7. Szkolenia wewnętrzne” jest elementem zagadnienia „9.5.6. Standaryzacja procedur”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 7"
+    text: "Zagadnienie „9.5.7. Szkolenia wewnętrzne” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 7"
+    text: "Zagadnienie „9.5.8. Wdrażanie zmian bez chaosu” jest elementem zagadnienia „9.5.7. Szkolenia wewnętrzne”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 8"
+    text: "Zagadnienie „9.5.8. Wdrażanie zmian bez chaosu” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 8"
+    text: "Zagadnienie „9.5.9. Ocena wpływu zmian na jakość” jest elementem zagadnienia „9.5.8. Wdrażanie zmian bez chaosu”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 9"
+    text: "Zagadnienie „9.5.9. Ocena wpływu zmian na jakość” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: truefalse
+    name: "9.5 — rozgraniczenie 9"
+    text: "Zagadnienie „9.5.10. Poszanowanie godności pracowników i pacjentów” jest elementem zagadnienia „9.5.9. Ocena wpływu zmian na jakość”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: false
+  - type: truefalse
+    name: "9.5 — zagadnienie 10"
+    text: "Zagadnienie „9.5.10. Poszanowanie godności pracowników i pacjentów” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
+    answer: true
+  - type: multichoice
+    name: "9.5 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.1. Analiza warunków pracy"  fraction: 100
+      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"  fraction: 0
+      - text: "3.14.7. Ryzyko poślizgnięcia"  fraction: 0
+      - text: "5.4.6. Stan zapalny — przeciwwskazanie"  fraction: 0

@@ -1,0 +1,49 @@
+// Quiz: 3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne — moduł 3 (03-med-10-3-podstawy-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s03-31-q1:: Zagadnienie „3.1.1. Etiologia, patogeneza, objawy, powikłania” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q1b:: Zagadnienie „3.1.2. Stan zapalny ostry i przewlekły” jest elementem zagadnienia „3.1.1. Etiologia, patogeneza, objawy, powikłania”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q2:: Zagadnienie „3.1.2. Stan zapalny ostry i przewlekły” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q2b:: Zagadnienie „3.1.3. Zwyrodnienie i degeneracja tkanek” jest elementem zagadnienia „3.1.2. Stan zapalny ostry i przewlekły”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q3:: Zagadnienie „3.1.3. Zwyrodnienie i degeneracja tkanek” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q3b:: Zagadnienie „3.1.4. Uraz i gojenie” jest elementem zagadnienia „3.1.3. Zwyrodnienie i degeneracja tkanek”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q4:: Zagadnienie „3.1.4. Uraz i gojenie” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q4b:: Zagadnienie „3.1.5. Niedokrwienie i zaburzenia krążenia” jest elementem zagadnienia „3.1.4. Uraz i gojenie”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q5:: Zagadnienie „3.1.5. Niedokrwienie i zaburzenia krążenia” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q5b:: Zagadnienie „3.1.6. Obrzęk: zapalny, zastoinowy, limfatyczny, naczyniowy” jest elementem zagadnienia „3.1.5. Niedokrwienie i zaburzenia krążenia”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q6:: Zagadnienie „3.1.6. Obrzęk: zapalny, zastoinowy, limfatyczny, naczyniowy” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q6b:: Zagadnienie „3.1.7. Ból: ostry, przewlekły, neuropatyczny, mięśniowo-powięziowy” jest elementem zagadnienia „3.1.6. Obrzęk: zapalny, zastoinowy, limfatyczny, naczyniowy”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q7:: Zagadnienie „3.1.7. Ból: ostry, przewlekły, neuropatyczny, mięśniowo-powięziowy” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q7b:: Zagadnienie „3.1.8. Zanik mięśni i przykurcze” jest elementem zagadnienia „3.1.7. Ból: ostry, przewlekły, neuropatyczny, mięśniowo-powięziowy”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q8:: Zagadnienie „3.1.8. Zanik mięśni i przykurcze” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q8b:: Zagadnienie „3.1.9. Blizna i zrosty” jest elementem zagadnienia „3.1.8. Zanik mięśni i przykurcze”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q9:: Zagadnienie „3.1.9. Blizna i zrosty” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::tf-s03-31-q9b:: Zagadnienie „3.1.10. Granica: masażysta rozpoznaje potrzeby zabiegowe, nie chorobę” jest elementem zagadnienia „3.1.9. Blizna i zrosty”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {FALSE} //
+
+::tf-s03-31-q10:: Zagadnienie „3.1.10. Granica: masażysta rozpoznaje potrzeby zabiegowe, nie chorobę” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1). {TRUE} //
+
+::mc-s03-31:: Które zagadnienie należy bezpośrednio do tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)? {
+    = 3.1.1. Etiologia, patogeneza, objawy, powikłania
+    ~ 3.1.2. Stan zapalny ostry i przewlekły
+    ~ 3.1.3. Zwyrodnienie i degeneracja tkanek
+    ~ 1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja
+    ~ 3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem
+    ~ 5.3.7. Masaż schładzający
+}

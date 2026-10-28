@@ -1,0 +1,46 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik modułu 5: MED.10.5"
+  intro: |
+    Zbiór rozdziałów odpowiadającym tematom modułu (05-med-10-5-wykonywanie-masazu-w-sporcie).
+    Moduł poświęcony jest masażowi w sporcie: przygotowanie zawodnika w cyklach treningowych i startowych, rodzaje masażu sportowego, metodyka wykonania, dokumentacja oraz bezpieczeństwo i etyka w środowisku sportowym.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "5.1. Wprowadzenie do masażu sportowego"
+      subchapter: false
+      content_file: "chapters/01-wprowadzenie-do-masazu-sportowego.md"
+      hidden: false
+    - title: "5.2. Cykl treningowy zawodnika"
+      subchapter: false
+      content_file: "chapters/02-cykl-treningowy-zawodnika.md"
+      hidden: false
+    - title: "5.3. Rodzaje masażu w sporcie"
+      subchapter: false
+      content_file: "chapters/03-rodzaje-masazu-w-sporcie.md"
+      hidden: false
+    - title: "5.4. Wskazania i przeciwwskazania do masażu sportowego"
+      subchapter: false
+      content_file: "chapters/04-wskazania-i-przeciwwskazania-do-masazu-sportowego.md"
+      hidden: false
+    - title: "5.5. Metodyka masażu sportowego"
+      subchapter: false
+      content_file: "chapters/05-metodyka-masazu-sportowego.md"
+      hidden: false
+    - title: "5.6. Protokoły masażu sportowego"
+      subchapter: false
+      content_file: "chapters/06-protokoly-masazu-sportowego.md"
+      hidden: false
+    - title: "5.7. Najczęstsze problemy sportowe a rola masażysty"
+      subchapter: false
+      content_file: "chapters/07-najczestsze-problemy-sportowe-a-rola-masazysty.md"
+      hidden: false
+    - title: "5.8. Bezpieczeństwo i etyka w sporcie"
+      subchapter: false
+      content_file: "chapters/08-bezpieczenstwo-i-etyka-w-sporcie.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

@@ -1,0 +1,49 @@
+// Quiz: 10.3. Zadania ucznia/słuchacza na praktyce — moduł 10 (10-praktyka-zawodowa)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s10-103-q1:: Zagadnienie „10.3.1. Obserwacja zabiegów” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q1b:: Zagadnienie „10.3.2. Asystowanie przy zabiegach” jest elementem zagadnienia „10.3.1. Obserwacja zabiegów”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q2:: Zagadnienie „10.3.2. Asystowanie przy zabiegach” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q2b:: Zagadnienie „10.3.3. Przygotowanie stanowiska pracy” jest elementem zagadnienia „10.3.2. Asystowanie przy zabiegach”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q3:: Zagadnienie „10.3.3. Przygotowanie stanowiska pracy” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q3b:: Zagadnienie „10.3.4. Przygotowanie pacjenta do zabiegu” jest elementem zagadnienia „10.3.3. Przygotowanie stanowiska pracy”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q4:: Zagadnienie „10.3.4. Przygotowanie pacjenta do zabiegu” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q4b:: Zagadnienie „10.3.5. Wykonywanie masażu pod nadzorem” jest elementem zagadnienia „10.3.4. Przygotowanie pacjenta do zabiegu”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q5:: Zagadnienie „10.3.5. Wykonywanie masażu pod nadzorem” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q5b:: Zagadnienie „10.3.6. Prowadzenie dokumentacji” jest elementem zagadnienia „10.3.5. Wykonywanie masażu pod nadzorem”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q6:: Zagadnienie „10.3.6. Prowadzenie dokumentacji” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q6b:: Zagadnienie „10.3.7. Udział w naradach zespołu” jest elementem zagadnienia „10.3.6. Prowadzenie dokumentacji”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q7:: Zagadnienie „10.3.7. Udział w naradach zespołu” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q7b:: Zagadnienie „10.3.8. Realizacja zadań edukacyjnych” jest elementem zagadnienia „10.3.7. Udział w naradach zespołu”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q8:: Zagadnienie „10.3.8. Realizacja zadań edukacyjnych” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q8b:: Zagadnienie „10.3.9. Zgłaszanie zdarzeń niepożądanych” jest elementem zagadnienia „10.3.8. Realizacja zadań edukacyjnych”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q9:: Zagadnienie „10.3.9. Zgłaszanie zdarzeń niepożądanych” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::tf-s10-103-q9b:: Zagadnienie „10.3.10. Refleksja dzienna i tygodniowa” jest elementem zagadnienia „10.3.9. Zgłaszanie zdarzeń niepożądanych”, a nie tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {FALSE} //
+
+::tf-s10-103-q10:: Zagadnienie „10.3.10. Refleksja dzienna i tygodniowa” wchodzi w zakres tematu „Zadania ucznia/słuchacza na praktyce” (10.3). {TRUE} //
+
+::mc-s10-103:: Które zagadnienie należy bezpośrednio do tematu „Zadania ucznia/słuchacza na praktyce” (10.3)? {
+    = 10.3.1. Obserwacja zabiegów
+    ~ 10.3.2. Asystowanie przy zabiegach
+    ~ 10.3.3. Przygotowanie stanowiska pracy
+    ~ 2.5.5. Poufność dokumentacji
+    ~ 3.18.5. Zmiana odczuwania bólu
+    ~ 5.8.4. Relacja z trenerem: asertywność
+}

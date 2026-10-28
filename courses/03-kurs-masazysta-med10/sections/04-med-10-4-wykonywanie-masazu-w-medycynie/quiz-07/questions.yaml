@@ -1,0 +1,4 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "4.7. Wykonywanie masażu klasycznego w medycynie"
+category: masaz
+questions:

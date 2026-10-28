@@ -1,0 +1,101 @@
+# Metadane sekcji kursu (Moodle)
+id: 11
+name: "Moduł 11: Przygotowanie do egzaminu potwierdzającego kwalifikację"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-wymagania-egzaminacyjne-i-zasady-oceny.md"
+    name: "11.1. Wymagania egzaminacyjne i zasady oceny"
+  - type: page
+    ref: "page-02-powtorka-wiadomosci-z-bhp.md"
+    name: "11.2. Powtórka wiadomości z BHP"
+  - type: page
+    ref: "page-03-powtorka-anatomii-i-fizjologii.md"
+    name: "11.3. Powtórka anatomii i fizjologii"
+  - type: page
+    ref: "page-04-powtorka-patologii-i-wskazan-przeciwwskazan.md"
+    name: "11.4. Powtórka patologii i wskazań/przeciwwskazań"
+  - type: page
+    ref: "page-05-powtorka-technik-masazu.md"
+    name: "11.5. Powtórka technik masażu"
+  - type: page
+    ref: "page-06-studia-przypadkow.md"
+    name: "11.6. Studia przypadków"
+  - type: page
+    ref: "page-07-symulacje-egzaminacyjne.md"
+    name: "11.7. Symulacje egzaminacyjne"
+  - type: page
+    ref: "page-08-egzamin-praktyczny-kryteria-wykonania.md"
+    name: "11.8. Egzamin praktyczny — kryteria wykonania"
+  - type: page
+    ref: "page-09-egzamin-pisemny-zakres-powtorkowy.md"
+    name: "11.9. Egzamin pisemny — zakres powtórkowy"
+  - type: page
+    ref: "page-10-postawa-egzaminacyjna-w-duchu-prawdy-i-pokoju.md"
+    name: "11.10. Postawa egzaminacyjna w duchu prawdy i pokoju"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: Moduł 11"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 11.1. Wymagania egzaminacyjne i zasady oceny"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 11.1. Wymagania egzaminacyjne i zasady oceny"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 11.2. Powtórka wiadomości z BHP"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 11.2. Powtórka wiadomości z BHP"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 11.3. Powtórka anatomii i fizjologii"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 11.3. Powtórka anatomii i fizjologii"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 11.4. Powtórka patologii i wskazań/przeciwwskazań"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 11.4. Powtórka patologii i wskazań/przeciwwskazań"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 11.5. Powtórka technik masażu"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 11.5. Powtórka technik masażu"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 11.6. Studia przypadków"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 11.6. Studia przypadków"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 11.7. Symulacje egzaminacyjne"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 11.7. Symulacje egzaminacyjne"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 11.8. Egzamin praktyczny — kryteria wykonania"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 11.8. Egzamin praktyczny — kryteria wykonania"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 11.9. Egzamin pisemny — zakres powtórkowy"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 11.9. Egzamin pisemny — zakres powtórkowy"
+  - type: quiz
+    ref: quiz-10
+    name: "Quiz: 11.10. Postawa egzaminacyjna w duchu prawdy i pokoju"
+  - type: assignment
+    ref: assignment-10
+    name: "Zadanie: 11.10. Postawa egzaminacyjna w duchu prawdy i pokoju"

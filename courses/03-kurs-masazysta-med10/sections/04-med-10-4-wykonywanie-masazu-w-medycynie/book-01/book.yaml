@@ -1,0 +1,110 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik modułu 4: MED.10.4"
+  intro: |
+    Zbiór rozdziałów odpowiadającym tematom modułu (04-med-10-4-wykonywanie-masazu-w-medycynie).
+    Moduł dotyczy wykonywania masażu w medycynie: masażu klasycznego leczniczego, odmian masażu klasycznego, technik specjalnych, masażu osób starszych i dzieci, kompleksowej terapii obrzęków oraz działań przy dysfunkcjach narządu ruchu — zawsze we współpracy z zespołem terapeutycznym i pod kontrolą skuteczności.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "4.1. Ocena pacjenta na potrzeby wykonania masażu"
+      subchapter: false
+      content_file: "chapters/01-ocena-pacjenta-na-potrzeby-wykonania-masazu.md"
+      hidden: false
+    - title: "4.2. Badanie funkcjonalne i palpacyjne"
+      subchapter: false
+      content_file: "chapters/02-badanie-funkcjonalne-i-palpacyjne.md"
+      hidden: false
+    - title: "4.3. Ocena obrzęku i kwalifikacja do drenażu"
+      subchapter: false
+      content_file: "chapters/03-ocena-obrzeku-i-kwalifikacja-do-drenazu.md"
+      hidden: false
+    - title: "4.4. Planowanie zabiegu masażu"
+      subchapter: false
+      content_file: "chapters/04-planowanie-zabiegu-masazu.md"
+      hidden: false
+    - title: "4.5. Przygotowanie pacjenta do masażu"
+      subchapter: false
+      content_file: "chapters/05-przygotowanie-pacjenta-do-masazu.md"
+      hidden: false
+    - title: "4.6. Dobór pozycji pacjenta i przyborów"
+      subchapter: false
+      content_file: "chapters/06-dobor-pozycji-pacjenta-i-przyborow.md"
+      hidden: false
+    - title: "4.7. Wykonywanie masażu klasycznego w medycynie"
+      subchapter: false
+      content_file: "chapters/07-wykonywanie-masazu-klasycznego-w-medycynie.md"
+      hidden: false
+    - title: "4.8. Masaż w środowisku wodnym"
+      subchapter: false
+      content_file: "chapters/08-masaz-w-srodowisku-wodnym.md"
+      hidden: false
+    - title: "4.9. Manualny drenaż limfatyczny"
+      subchapter: false
+      content_file: "chapters/09-manualny-drenaz-limfatyczny.md"
+      hidden: false
+    - title: "4.10. Kompleksowa terapia obrzęków"
+      subchapter: false
+      content_file: "chapters/10-kompleksowa-terapia-obrzekow.md"
+      hidden: false
+    - title: "4.11. Masaż łącznotkankowy"
+      subchapter: false
+      content_file: "chapters/11-masaz-lacznotkankowy.md"
+      hidden: false
+    - title: "4.12. Masaż okostnowy"
+      subchapter: false
+      content_file: "chapters/12-masaz-okostnowy.md"
+      hidden: false
+    - title: "4.13. Masaż segmentarny"
+      subchapter: false
+      content_file: "chapters/13-masaz-segmentarny.md"
+      hidden: false
+    - title: "4.14. Masaż punktowy"
+      subchapter: false
+      content_file: "chapters/14-masaz-punktowy.md"
+      hidden: false
+    - title: "4.15. Refleksoterapia stóp"
+      subchapter: false
+      content_file: "chapters/15-refleksoterapia-stop.md"
+      hidden: false
+    - title: "4.16. Masaż tensegracyjny"
+      subchapter: false
+      content_file: "chapters/16-masaz-tensegracyjny.md"
+      hidden: false
+    - title: "4.17. Masaż izometryczny"
+      subchapter: false
+      content_file: "chapters/17-masaz-izometryczny.md"
+      hidden: false
+    - title: "4.18. Masaż stawowy"
+      subchapter: false
+      content_file: "chapters/18-masaz-stawowy.md"
+      hidden: false
+    - title: "4.19. Masaż Shantala"
+      subchapter: false
+      content_file: "chapters/19-masaz-shantala.md"
+      hidden: false
+    - title: "4.20. Masaż kobiety w ciąży"
+      subchapter: false
+      content_file: "chapters/20-masaz-kobiety-w-ciazy.md"
+      hidden: false
+    - title: "4.21. Masaż kobiety w połogu"
+      subchapter: false
+      content_file: "chapters/21-masaz-kobiety-w-pologu.md"
+      hidden: false
+    - title: "4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego"
+      subchapter: false
+      content_file: "chapters/22-masaz-przyrzadowy-z-wykorzystaniem-urzadzenia-wibr.md"
+      hidden: false
+    - title: "4.23. Reakcje pacjenta po masażu i planowanie kolejnych zabiegów"
+      subchapter: false
+      content_file: "chapters/23-reakcje-pacjenta-po-masazu-i-planowanie-kolejnych-zabi.md"
+      hidden: false
+    - title: "4.24. Bezpieczeństwo podczas trwania zabiegu"
+      subchapter: false
+      content_file: "chapters/24-bezpieczenstwo-podczas-trwania-zabiegu.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

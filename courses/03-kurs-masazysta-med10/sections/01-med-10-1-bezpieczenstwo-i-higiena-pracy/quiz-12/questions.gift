@@ -1,0 +1,49 @@
+// Quiz: 1.12. Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego — moduł 1 (01-med-10-1-bezpieczenstwo-i-higiena-pracy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s01-112-q1:: Zagadnienie „1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q1b:: Zagadnienie „1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji” jest elementem zagadnienia „1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q2:: Zagadnienie „1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q2b:: Zagadnienie „1.12.3. Pozycja bezpieczna” jest elementem zagadnienia „1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q3:: Zagadnienie „1.12.3. Pozycja bezpieczna” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q3b:: Zagadnienie „1.12.4. Udrożnienie dróg oddechowych” jest elementem zagadnienia „1.12.3. Pozycja bezpieczna”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q4:: Zagadnienie „1.12.4. Udrożnienie dróg oddechowych” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q4b:: Zagadnienie „1.12.5. Ocena oddechu i krążenia” jest elementem zagadnienia „1.12.4. Udrożnienie dróg oddechowych”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q5:: Zagadnienie „1.12.5. Ocena oddechu i krążenia” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q5b:: Zagadnienie „1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego” jest elementem zagadnienia „1.12.5. Ocena oddechu i krążenia”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q6:: Zagadnienie „1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q6b:: Zagadnienie „1.12.7. Resuscytacja dziecka” jest elementem zagadnienia „1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q7:: Zagadnienie „1.12.7. Resuscytacja dziecka” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q7b:: Zagadnienie „1.12.8. Resuscytacja niemowlęcia” jest elementem zagadnienia „1.12.7. Resuscytacja dziecka”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q8:: Zagadnienie „1.12.8. Resuscytacja niemowlęcia” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q8b:: Zagadnienie „1.12.9. Użycie AED — zasady i bezpieczeństwo” jest elementem zagadnienia „1.12.8. Resuscytacja niemowlęcia”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q9:: Zagadnienie „1.12.9. Użycie AED — zasady i bezpieczeństwo” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::tf-s01-112-q9b:: Zagadnienie „1.12.10. Ćwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji” jest elementem zagadnienia „1.12.9. Użycie AED — zasady i bezpieczeństwo”, a nie tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {FALSE} //
+
+::tf-s01-112-q10:: Zagadnienie „1.12.10. Ćwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji” wchodzi w zakres tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12). {TRUE} //
+
+::mc-s01-112:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia
+    ~ 1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji
+    ~ 1.12.3. Pozycja bezpieczna
+    ~ 2.5.6. Przechowywanie i archiwizacja
+    ~ 3.18.6. Poprawa propriocepcji
+    ~ 5.8.5. Presja wyniku a dobro pacjenta
+}

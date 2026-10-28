@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.4. Rynek usług zdrowotnych i medycznych"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.4 — zagadnienie 1"
+    text: "Zagadnienie „2.4.1. Standardy usług masażu” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 1"
+    text: "Zagadnienie „2.4.2. Prawa konsumenta i pacjenta” jest elementem zagadnienia „2.4.1. Standardy usług masażu”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 2"
+    text: "Zagadnienie „2.4.2. Prawa konsumenta i pacjenta” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 2"
+    text: "Zagadnienie „2.4.3. Reklama usług zdrowotnych — granice prawne” jest elementem zagadnienia „2.4.2. Prawa konsumenta i pacjenta”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 3"
+    text: "Zagadnienie „2.4.3. Reklama usług zdrowotnych — granice prawne” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 3"
+    text: "Zagadnienie „2.4.4. Zakaz wprowadzania w błąd” jest elementem zagadnienia „2.4.3. Reklama usług zdrowotnych — granice prawne”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 4"
+    text: "Zagadnienie „2.4.4. Zakaz wprowadzania w błąd” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 4"
+    text: "Zagadnienie „2.4.5. Cennik i przejrzystość usług” jest elementem zagadnienia „2.4.4. Zakaz wprowadzania w błąd”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 5"
+    text: "Zagadnienie „2.4.5. Cennik i przejrzystość usług” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 5"
+    text: "Zagadnienie „2.4.6. Umowa o świadczenie usług” jest elementem zagadnienia „2.4.5. Cennik i przejrzystość usług”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 6"
+    text: "Zagadnienie „2.4.6. Umowa o świadczenie usług” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 6"
+    text: "Zagadnienie „2.4.7. Skargi i reklamacje” jest elementem zagadnienia „2.4.6. Umowa o świadczenie usług”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 7"
+    text: "Zagadnienie „2.4.7. Skargi i reklamacje” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 7"
+    text: "Zagadnienie „2.4.8. Zarządzanie jakością” jest elementem zagadnienia „2.4.7. Skargi i reklamacje”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 8"
+    text: "Zagadnienie „2.4.8. Zarządzanie jakością” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 8"
+    text: "Zagadnienie „2.4.9. Audyt wewnętrzny i zewnętrzny” jest elementem zagadnienia „2.4.8. Zarządzanie jakością”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 9"
+    text: "Zagadnienie „2.4.9. Audyt wewnętrzny i zewnętrzny” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: truefalse
+    name: "2.4 — rozgraniczenie 9"
+    text: "Zagadnienie „2.4.10. Etyczna konkurencja na rynku” jest elementem zagadnienia „2.4.9. Audyt wewnętrzny i zewnętrzny”, a nie tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: false
+  - type: truefalse
+    name: "2.4 — zagadnienie 10"
+    text: "Zagadnienie „2.4.10. Etyczna konkurencja na rynku” wchodzi w zakres tematu „Rynek usług zdrowotnych i medycznych” (2.4)."
+    answer: true
+  - type: multichoice
+    name: "2.4 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rynek usług zdrowotnych i medycznych” (2.4)?"
+    answers:
+      - text: "2.4.1. Standardy usług masażu"  fraction: 100
+      - text: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"  fraction: 0
+      - text: "3.13.10. Bezpieczeństwo pacjenta przed efektywnością"  fraction: 0
+      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"  fraction: 0

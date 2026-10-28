@@ -1,0 +1,92 @@
+# Metadane sekcji kursu (Moodle)
+id: 8
+name: "Moduł 8: MED.10.8. KOMPETENCJE PERSONALNE I SPOŁECZNE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-wysoka-jakosc-uslug-masazu.md"
+    name: "8.1. Wysoka jakość usług masażu"
+  - type: page
+    ref: "page-02-kultura-osobista-i-etyka-zawodowa.md"
+    name: "8.2. Kultura osobista i etyka zawodowa"
+  - type: page
+    ref: "page-03-planowanie-wykonania-zadania.md"
+    name: "8.3. Planowanie wykonania zadania"
+  - type: page
+    ref: "page-04-odpowiedzialnosc-za-podejmowane-dzialania.md"
+    name: "8.4. Odpowiedzialność za podejmowane działania"
+  - type: page
+    ref: "page-05-kreatywnosc-i-otwartosc-na-zmiany.md"
+    name: "8.5. Kreatywność i otwartość na zmiany"
+  - type: page
+    ref: "page-06-radzenie-sobie-ze-stresem.md"
+    name: "8.6. Radzenie sobie ze stresem"
+  - type: page
+    ref: "page-07-aktualizowanie-wiedzy-i-doskonalenie-zawodowe.md"
+    name: "8.7. Aktualizowanie wiedzy i doskonalenie zawodowe"
+  - type: page
+    ref: "page-08-komunikacja-interpersonalna.md"
+    name: "8.8. Komunikacja interpersonalna"
+  - type: page
+    ref: "page-09-konflikty-i-ich-rozwiazywanie.md"
+    name: "8.9. Konflikty i ich rozwiązywanie"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.8"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 8.1. Wysoka jakość usług masażu"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 8.1. Wysoka jakość usług masażu"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 8.2. Kultura osobista i etyka zawodowa"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 8.2. Kultura osobista i etyka zawodowa"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 8.3. Planowanie wykonania zadania"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 8.3. Planowanie wykonania zadania"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 8.4. Odpowiedzialność za podejmowane działania"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 8.4. Odpowiedzialność za podejmowane działania"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 8.5. Kreatywność i otwartość na zmiany"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 8.5. Kreatywność i otwartość na zmiany"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 8.6. Radzenie sobie ze stresem"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 8.6. Radzenie sobie ze stresem"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 8.7. Aktualizowanie wiedzy i doskonalenie zawodowe"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 8.7. Aktualizowanie wiedzy i doskonalenie zawodowe"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 8.8. Komunikacja interpersonalna"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 8.8. Komunikacja interpersonalna"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 8.9. Konflikty i ich rozwiązywanie"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 8.9. Konflikty i ich rozwiązywanie"

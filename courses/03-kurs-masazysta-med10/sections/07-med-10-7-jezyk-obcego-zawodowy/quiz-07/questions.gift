@@ -1,0 +1,49 @@
+// Quiz: 7.7. Tworzenie wypowiedzi ustnych i pisemnych — moduł 7 (07-med-10-7-jezyk-obcego-zawodowy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s07-77-q1:: Zagadnienie „7.7.1. Giving simple instructions during massage” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q1b:: Zagadnienie „7.7.2. Explaining aftercare” jest elementem zagadnienia „7.7.1. Giving simple instructions during massage”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q2:: Zagadnienie „7.7.2. Explaining aftercare” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q2b:: Zagadnienie „7.7.3. Writing short emails” jest elementem zagadnienia „7.7.2. Explaining aftercare”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q3:: Zagadnienie „7.7.3. Writing short emails” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q3b:: Zagadnienie „7.7.4. Completing forms” jest elementem zagadnienia „7.7.3. Writing short emails”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q4:: Zagadnienie „7.7.4. Completing forms” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q4b:: Zagadnienie „7.7.5. Preparing CV and cover letter” jest elementem zagadnienia „7.7.4. Completing forms”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q5:: Zagadnienie „7.7.5. Preparing CV and cover letter” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q5b:: Zagadnienie „7.7.6. Describing professional experience” jest elementem zagadnienia „7.7.5. Preparing CV and cover letter”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q6:: Zagadnienie „7.7.6. Describing professional experience” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q6b:: Zagadnienie „7.7.7. Presenting a case safely and anonymously” jest elementem zagadnienia „7.7.6. Describing professional experience”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q7:: Zagadnienie „7.7.7. Presenting a case safely and anonymously” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q7b:: Zagadnienie „7.7.8. Using formal and informal register appropriately” jest elementem zagadnienia „7.7.7. Presenting a case safely and anonymously”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q8:: Zagadnienie „7.7.8. Using formal and informal register appropriately” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q8b:: Zagadnienie „7.7.9. Speaking clearly and slowly” jest elementem zagadnienia „7.7.8. Using formal and informal register appropriately”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q9:: Zagadnienie „7.7.9. Speaking clearly and slowly” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::tf-s07-77-q9b:: Zagadnienie „7.7.10. Avoiding medical overstatement” jest elementem zagadnienia „7.7.9. Speaking clearly and slowly”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {FALSE} //
+
+::tf-s07-77-q10:: Zagadnienie „7.7.10. Avoiding medical overstatement” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7). {TRUE} //
+
+::mc-s07-77:: Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.1. Giving simple instructions during massage
+    ~ 7.7.2. Explaining aftercare
+    ~ 7.7.3. Writing short emails
+    ~ 2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu
+    ~ 3.14.7. Ryzyko poślizgnięcia
+    ~ 5.4.6. Stan zapalny — przeciwwskazanie
+}

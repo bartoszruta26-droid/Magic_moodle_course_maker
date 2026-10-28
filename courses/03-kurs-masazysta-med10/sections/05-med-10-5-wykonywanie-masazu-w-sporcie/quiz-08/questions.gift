@@ -1,0 +1,49 @@
+// Quiz: 5.8. Bezpieczeństwo i etyka w sporcie — moduł 5 (05-med-10-5-wykonywanie-masazu-w-sporcie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s05-58-q1:: Zagadnienie „5.8.1. Zakaz maskowania bólu kosztem zdrowia” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q1b:: Zagadnienie „5.8.2. Zakaz stosowania środków dopingujących przez masażystę” jest elementem zagadnienia „5.8.1. Zakaz maskowania bólu kosztem zdrowia”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q2:: Zagadnienie „5.8.2. Zakaz stosowania środków dopingujących przez masażystę” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q2b:: Zagadnienie „5.8.3. Ochrona prywatności zawodnika” jest elementem zagadnienia „5.8.2. Zakaz stosowania środków dopingujących przez masażystę”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q3:: Zagadnienie „5.8.3. Ochrona prywatności zawodnika” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q3b:: Zagadnienie „5.8.4. Relacja z trenerem: asertywność” jest elementem zagadnienia „5.8.3. Ochrona prywatności zawodnika”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q4:: Zagadnienie „5.8.4. Relacja z trenerem: asertywność” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q4b:: Zagadnienie „5.8.5. Presja wyniku a dobro pacjenta” jest elementem zagadnienia „5.8.4. Relacja z trenerem: asertywność”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q5:: Zagadnienie „5.8.5. Presja wyniku a dobro pacjenta” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q5b:: Zagadnienie „5.8.6. Małoletni: zgoda opiekuna” jest elementem zagadnienia „5.8.5. Presja wyniku a dobro pacjenta”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q6:: Zagadnienie „5.8.6. Małoletni: zgoda opiekuna” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q6b:: Zagadnienie „5.8.7. Kobiety w ciąży w sporcie — ograniczenia” jest elementem zagadnienia „5.8.6. Małoletni: zgoda opiekuna”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q7:: Zagadnienie „5.8.7. Kobiety w ciąży w sporcie — ograniczenia” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q7b:: Zagadnienie „5.8.8. Osoby z chorobami przewlekłymi” jest elementem zagadnienia „5.8.7. Kobiety w ciąży w sporcie — ograniczenia”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q8:: Zagadnienie „5.8.8. Osoby z chorobami przewlekłymi” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q8b:: Zagadnienie „5.8.9. Dokumentacja zdarzeń niepożądanych” jest elementem zagadnienia „5.8.8. Osoby z chorobami przewlekłymi”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q9:: Zagadnienie „5.8.9. Dokumentacja zdarzeń niepożądanych” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::tf-s05-58-q9b:: Zagadnienie „5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku” jest elementem zagadnienia „5.8.9. Dokumentacja zdarzeń niepożądanych”, a nie tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {FALSE} //
+
+::tf-s05-58-q10:: Zagadnienie „5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku” wchodzi w zakres tematu „Bezpieczeństwo i etyka w sporcie” (5.8). {TRUE} //
+
+::mc-s05-58:: Które zagadnienie należy bezpośrednio do tematu „Bezpieczeństwo i etyka w sporcie” (5.8)? {
+    = 5.8.1. Zakaz maskowania bólu kosztem zdrowia
+    ~ 5.8.2. Zakaz stosowania środków dopingujących przez masażystę
+    ~ 5.8.3. Ochrona prywatności zawodnika
+    ~ 2.1.6. Ochrona małoletnich
+    ~ 3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny
+    ~ 5.4.5. Ból ostry — nie masować bez diagnozy
+}

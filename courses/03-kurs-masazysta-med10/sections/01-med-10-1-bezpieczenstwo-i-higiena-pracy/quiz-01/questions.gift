@@ -1,0 +1,49 @@
+// Quiz: 1.1. Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty — moduł 1 (01-med-10-1-bezpieczenstwo-i-higiena-pracy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s01-11-q1:: Zagadnienie „1.1.1. Pojęcie bezpieczeństwa pracy” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q1b:: Zagadnienie „1.1.2. Pojęcie higieny pracy” jest elementem zagadnienia „1.1.1. Pojęcie bezpieczeństwa pracy”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q2:: Zagadnienie „1.1.2. Pojęcie higieny pracy” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q2b:: Zagadnienie „1.1.3. Pojęcie ergonomii” jest elementem zagadnienia „1.1.2. Pojęcie higieny pracy”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q3:: Zagadnienie „1.1.3. Pojęcie ergonomii” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q3b:: Zagadnienie „1.1.4. Ochrona przeciwpożarowa” jest elementem zagadnienia „1.1.3. Pojęcie ergonomii”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q4:: Zagadnienie „1.1.4. Ochrona przeciwpożarowa” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q4b:: Zagadnienie „1.1.5. Ochrona środowiska” jest elementem zagadnienia „1.1.4. Ochrona przeciwpożarowa”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q5:: Zagadnienie „1.1.5. Ochrona środowiska” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q5b:: Zagadnienie „1.1.6. Odpowiedzialność pracownika i pracodawcy” jest elementem zagadnienia „1.1.5. Ochrona środowiska”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q6:: Zagadnienie „1.1.6. Odpowiedzialność pracownika i pracodawcy” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q6b:: Zagadnienie „1.1.7. Kultura bezpieczeństwa w gabinecie masażu” jest elementem zagadnienia „1.1.6. Odpowiedzialność pracownika i pracodawcy”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q7:: Zagadnienie „1.1.7. Kultura bezpieczeństwa w gabinecie masażu” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q7b:: Zagadnienie „1.1.8. Bezpieczeństwo pacjenta jako pierwszy priorytet” jest elementem zagadnienia „1.1.7. Kultura bezpieczeństwa w gabinecie masażu”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q8:: Zagadnienie „1.1.8. Bezpieczeństwo pacjenta jako pierwszy priorytet” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q8b:: Zagadnienie „1.1.9. Bezpieczeństwo masażysty jako warunek trwałej służby” jest elementem zagadnienia „1.1.8. Bezpieczeństwo pacjenta jako pierwszy priorytet”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q9:: Zagadnienie „1.1.9. Bezpieczeństwo masażysty jako warunek trwałej służby” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::tf-s01-11-q9b:: Zagadnienie „1.1.10. Zasada: nie narażaj siebie, pacjenta ani osób trzecich” jest elementem zagadnienia „1.1.9. Bezpieczeństwo masażysty jako warunek trwałej służby”, a nie tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {FALSE} //
+
+::tf-s01-11-q10:: Zagadnienie „1.1.10. Zasada: nie narażaj siebie, pacjenta ani osób trzecich” wchodzi w zakres tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1). {TRUE} //
+
+::mc-s01-11:: Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1)? {
+    = 1.1.1. Pojęcie bezpieczeństwa pracy
+    ~ 1.1.2. Pojęcie higieny pracy
+    ~ 1.1.3. Pojęcie ergonomii
+    ~ 1.15.6. Osoby z chorobami nowotworowymi — tylko za zgodą lekarza
+    ~ 3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej
+    ~ 5.3.5. Masaż regeneracyjny
+}

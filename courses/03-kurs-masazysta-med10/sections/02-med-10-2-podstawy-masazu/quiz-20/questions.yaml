@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.20. Korelacja masażu z kinezyterapią i fizykoterapią"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.20 — zagadnienie 1"
+    text: "Zagadnienie „2.20.1. Pojęcie kinezyterapii” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 1"
+    text: "Zagadnienie „2.20.2. Rodzaje ćwiczeń: bierne, czynno-bierne, czynne, z oporem, w odciążeniu” jest elementem zagadnienia „2.20.1. Pojęcie kinezyterapii”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 2"
+    text: "Zagadnienie „2.20.2. Rodzaje ćwiczeń: bierne, czynno-bierne, czynne, z oporem, w odciążeniu” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 2"
+    text: "Zagadnienie „2.20.3. Wpływ ćwiczeń na stawy, mięśnie, powięź, krążenie” jest elementem zagadnienia „2.20.2. Rodzaje ćwiczeń: bierne, czynno-bierne, czynne, z oporem, w odciążeniu”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 3"
+    text: "Zagadnienie „2.20.3. Wpływ ćwiczeń na stawy, mięśnie, powięź, krążenie” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 3"
+    text: "Zagadnienie „2.20.4. Pojęcie fizykoterapii” jest elementem zagadnienia „2.20.3. Wpływ ćwiczeń na stawy, mięśnie, powięź, krążenie”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 4"
+    text: "Zagadnienie „2.20.4. Pojęcie fizykoterapii” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 4"
+    text: "Zagadnienie „2.20.5. Rodzaje zabiegów fizykalnych: ciepło, zimno, prąd, światło, ultradźwięki, pole magnetyczne” jest elementem zagadnienia „2.20.4. Pojęcie fizykoterapii”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 5"
+    text: "Zagadnienie „2.20.5. Rodzaje zabiegów fizykalnych: ciepło, zimno, prąd, światło, ultradźwięki, pole magnetyczne” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 5"
+    text: "Zagadnienie „2.20.6. Wskazania i przeciwwskazania do zabiegów fizykalnych” jest elementem zagadnienia „2.20.5. Rodzaje zabiegów fizykalnych: ciepło, zimno, prąd, światło, ultradźwięki, pole magnetyczne”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 6"
+    text: "Zagadnienie „2.20.6. Wskazania i przeciwwskazania do zabiegów fizykalnych” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 6"
+    text: "Zagadnienie „2.20.7. Kolejność: fizykoterapia — masaż — kinezyterapia lub inaczej wg zlecenia” jest elementem zagadnienia „2.20.6. Wskazania i przeciwwskazania do zabiegów fizykalnych”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 7"
+    text: "Zagadnienie „2.20.7. Kolejność: fizykoterapia — masaż — kinezyterapia lub inaczej wg zlecenia” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 7"
+    text: "Zagadnienie „2.20.8. Ryzyko przegrzania, podrażnienia, uszkodzenia tkanek” jest elementem zagadnienia „2.20.7. Kolejność: fizykoterapia — masaż — kinezyterapia lub inaczej wg zlecenia”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 8"
+    text: "Zagadnienie „2.20.8. Ryzyko przegrzania, podrażnienia, uszkodzenia tkanek” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 8"
+    text: "Zagadnienie „2.20.9. Współpraca z fizjoterapeutą” jest elementem zagadnienia „2.20.8. Ryzyko przegrzania, podrażnienia, uszkodzenia tkanek”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 9"
+    text: "Zagadnienie „2.20.9. Współpraca z fizjoterapeutą” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: truefalse
+    name: "2.20 — rozgraniczenie 9"
+    text: "Zagadnienie „2.20.10. Dokumentacja sekwencji zabiegów” jest elementem zagadnienia „2.20.9. Współpraca z fizjoterapeutą”, a nie tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: false
+  - type: truefalse
+    name: "2.20 — zagadnienie 10"
+    text: "Zagadnienie „2.20.10. Dokumentacja sekwencji zabiegów” wchodzi w zakres tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)."
+    answer: true
+  - type: multichoice
+    name: "2.20 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Korelacja masażu z kinezyterapią i fizykoterapią” (2.20)?"
+    answers:
+      - text: "2.20.1. Pojęcie kinezyterapii"  fraction: 100
+      - text: "2.5.5. Poufność dokumentacji"  fraction: 0
+      - text: "3.18.6. Poprawa propriocepcji"  fraction: 0
+      - text: "5.8.5. Presja wyniku a dobro pacjenta"  fraction: 0

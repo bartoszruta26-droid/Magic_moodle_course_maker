@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "4.10. Kompleksowa terapia obrzęków"
+category: masaz
+questions:
+  - type: truefalse
+    name: "4.10 — zagadnienie 1"
+    text: "Zagadnienie „4.10.1. Terapia ułożeniowa” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 1"
+    text: "Zagadnienie „4.10.2. Ćwiczenia fizyczne i oddechowe” jest elementem zagadnienia „4.10.1. Terapia ułożeniowa”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 2"
+    text: "Zagadnienie „4.10.2. Ćwiczenia fizyczne i oddechowe” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 2"
+    text: "Zagadnienie „4.10.3. Autodrenaż pacjenta” jest elementem zagadnienia „4.10.2. Ćwiczenia fizyczne i oddechowe”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 3"
+    text: "Zagadnienie „4.10.3. Autodrenaż pacjenta” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 3"
+    text: "Zagadnienie „4.10.4. Kompresjoterapia” jest elementem zagadnienia „4.10.3. Autodrenaż pacjenta”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 4"
+    text: "Zagadnienie „4.10.4. Kompresjoterapia” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 4"
+    text: "Zagadnienie „4.10.5. Pielęgnacja skóry” jest elementem zagadnienia „4.10.4. Kompresjoterapia”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 5"
+    text: "Zagadnienie „4.10.5. Pielęgnacja skóry” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 5"
+    text: "Zagadnienie „4.10.6. Zapobieganie zakażeniom” jest elementem zagadnienia „4.10.5. Pielęgnacja skóry”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 6"
+    text: "Zagadnienie „4.10.6. Zapobieganie zakażeniom” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 6"
+    text: "Zagadnienie „4.10.7. Edukacja pacjenta i rodziny” jest elementem zagadnienia „4.10.6. Zapobieganie zakażeniom”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 7"
+    text: "Zagadnienie „4.10.7. Edukacja pacjenta i rodziny” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 7"
+    text: "Zagadnienie „4.10.8. Dobór elementów do stanu klinicznego” jest elementem zagadnienia „4.10.7. Edukacja pacjenta i rodziny”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 8"
+    text: "Zagadnienie „4.10.8. Dobór elementów do stanu klinicznego” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 8"
+    text: "Zagadnienie „4.10.9. Monitorowanie obwodów” jest elementem zagadnienia „4.10.8. Dobór elementów do stanu klinicznego”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 9"
+    text: "Zagadnienie „4.10.9. Monitorowanie obwodów” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: truefalse
+    name: "4.10 — rozgraniczenie 9"
+    text: "Zagadnienie „4.10.10. Współpraca z lekarzem i fizjoterapeutą” jest elementem zagadnienia „4.10.9. Monitorowanie obwodów”, a nie tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: false
+  - type: truefalse
+    name: "4.10 — zagadnienie 10"
+    text: "Zagadnienie „4.10.10. Współpraca z lekarzem i fizjoterapeutą” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10)."
+    answer: true
+  - type: multichoice
+    name: "4.10 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.1. Terapia ułożeniowa"  fraction: 100
+      - text: "2.5.6. Przechowywanie i archiwizacja"  fraction: 0
+      - text: "3.18.6. Poprawa propriocepcji"  fraction: 0
+      - text: "5.8.6. Małoletni: zgoda opiekuna"  fraction: 0

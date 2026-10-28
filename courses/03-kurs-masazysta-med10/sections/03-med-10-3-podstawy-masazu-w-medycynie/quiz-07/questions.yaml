@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.7. Zaburzenia układu pokarmowego"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.7 — zagadnienie 1"
+    text: "Zagadnienie „3.7.1. Choroba wrzodowa żołądka i dwunastnicy” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 1"
+    text: "Zagadnienie „3.7.2. Nieżyt żołądka” jest elementem zagadnienia „3.7.1. Choroba wrzodowa żołądka i dwunastnicy”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 2"
+    text: "Zagadnienie „3.7.2. Nieżyt żołądka” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 2"
+    text: "Zagadnienie „3.7.3. Zaburzenia motoryki przewodu pokarmowego” jest elementem zagadnienia „3.7.2. Nieżyt żołądka”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 3"
+    text: "Zagadnienie „3.7.3. Zaburzenia motoryki przewodu pokarmowego” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 3"
+    text: "Zagadnienie „3.7.4. Zaparcia nawykowe” jest elementem zagadnienia „3.7.3. Zaburzenia motoryki przewodu pokarmowego”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 4"
+    text: "Zagadnienie „3.7.4. Zaparcia nawykowe” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 4"
+    text: "Zagadnienie „3.7.5. Biegunki przewlekłe” jest elementem zagadnienia „3.7.4. Zaparcia nawykowe”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 5"
+    text: "Zagadnienie „3.7.5. Biegunki przewlekłe” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 5"
+    text: "Zagadnienie „3.7.6. Zespół jelita drażliwego” jest elementem zagadnienia „3.7.5. Biegunki przewlekłe”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 6"
+    text: "Zagadnienie „3.7.6. Zespół jelita drażliwego” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 6"
+    text: "Zagadnienie „3.7.7. Choroby wątroby i dróg żółciowych” jest elementem zagadnienia „3.7.6. Zespół jelita drażliwego”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 7"
+    text: "Zagadnienie „3.7.7. Choroby wątroby i dróg żółciowych” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 7"
+    text: "Zagadnienie „3.7.8. Stan po operacjach jamy brzusznej” jest elementem zagadnienia „3.7.7. Choroby wątroby i dróg żółciowych”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 8"
+    text: "Zagadnienie „3.7.8. Stan po operacjach jamy brzusznej” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 8"
+    text: "Zagadnienie „3.7.9. Przepukliny — ostrożność i przeciwwskazania” jest elementem zagadnienia „3.7.8. Stan po operacjach jamy brzusznej”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 9"
+    text: "Zagadnienie „3.7.9. Przepukliny — ostrożność i przeciwwskazania” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: truefalse
+    name: "3.7 — rozgraniczenie 9"
+    text: "Zagadnienie „3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo” jest elementem zagadnienia „3.7.9. Przepukliny — ostrożność i przeciwwskazania”, a nie tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: false
+  - type: truefalse
+    name: "3.7 — zagadnienie 10"
+    text: "Zagadnienie „3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo” wchodzi w zakres tematu „Zaburzenia układu pokarmowego” (3.7)."
+    answer: true
+  - type: multichoice
+    name: "3.7 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu pokarmowego” (3.7)?"
+    answers:
+      - text: "3.7.1. Choroba wrzodowa żołądka i dwunastnicy"  fraction: 100
+      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"  fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"  fraction: 0

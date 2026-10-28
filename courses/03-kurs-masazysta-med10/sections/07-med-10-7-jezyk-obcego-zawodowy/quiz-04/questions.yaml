@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "7.4. Dokumentacja zawodowa w języku obcym"
+category: masaz
+questions:
+  - type: truefalse
+    name: "7.4 — zagadnienie 1"
+    text: "Zagadnienie „7.4.1. Consent form” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 1"
+    text: "Zagadnienie „7.4.2. Intake questionnaire” jest elementem zagadnienia „7.4.1. Consent form”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 2"
+    text: "Zagadnienie „7.4.2. Intake questionnaire” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 2"
+    text: "Zagadnienie „7.4.3. Treatment record” jest elementem zagadnienia „7.4.2. Intake questionnaire”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 3"
+    text: "Zagadnienie „7.4.3. Treatment record” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 3"
+    text: "Zagadnienie „7.4.4. Progress notes” jest elementem zagadnienia „7.4.3. Treatment record”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 4"
+    text: "Zagadnienie „7.4.4. Progress notes” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 4"
+    text: "Zagadnienie „7.4.5. Referral note” jest elementem zagadnienia „7.4.4. Progress notes”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 5"
+    text: "Zagadnienie „7.4.5. Referral note” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 5"
+    text: "Zagadnienie „7.4.6. Incident report” jest elementem zagadnienia „7.4.5. Referral note”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 6"
+    text: "Zagadnienie „7.4.6. Incident report” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 6"
+    text: "Zagadnienie „7.4.7. GDPR/data protection notice” jest elementem zagadnienia „7.4.6. Incident report”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 7"
+    text: "Zagadnienie „7.4.7. GDPR/data protection notice” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 7"
+    text: "Zagadnienie „7.4.8. Appointment confirmation” jest elementem zagadnienia „7.4.7. GDPR/data protection notice”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 8"
+    text: "Zagadnienie „7.4.8. Appointment confirmation” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 8"
+    text: "Zagadnienie „7.4.9. Invoice and receipt vocabulary” jest elementem zagadnienia „7.4.8. Appointment confirmation”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 9"
+    text: "Zagadnienie „7.4.9. Invoice and receipt vocabulary” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: truefalse
+    name: "7.4 — rozgraniczenie 9"
+    text: "Zagadnienie „7.4.10. Filling forms accurately” jest elementem zagadnienia „7.4.9. Invoice and receipt vocabulary”, a nie tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: false
+  - type: truefalse
+    name: "7.4 — zagadnienie 10"
+    text: "Zagadnienie „7.4.10. Filling forms accurately” wchodzi w zakres tematu „Dokumentacja zawodowa w języku obcym” (7.4)."
+    answer: true
+  - type: multichoice
+    name: "7.4 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dokumentacja zawodowa w języku obcym” (7.4)?"
+    answers:
+      - text: "7.4.1. Consent form"  fraction: 100
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"  fraction: 0

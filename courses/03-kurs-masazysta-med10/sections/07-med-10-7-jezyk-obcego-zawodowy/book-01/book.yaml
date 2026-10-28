@@ -1,0 +1,54 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik modułu 7: MED.10.7"
+  intro: |
+    Zbiór rozdziałów odpowiadającym tematom modułu (07-med-10-7-jezyk-obcego-zawodowy).
+    Moduł rozwija zawodowy język obcy: słownictwo anatomiczne i masażowe, czytanie dokumentacji i tekstów fachowych, rozmowę z klientem obcojęzycznym oraz przekazywanie informacji z materiałów wizualnych i audiowizualnych.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "7.1. Wprowadzenie do języka obcego zawodowego masażysty"
+      subchapter: false
+      content_file: "chapters/01-wprowadzenie-do-jezyka-obcego-zawodowego-masazysty.md"
+      hidden: false
+    - title: "7.2. Stanowisko pracy i wyposażenie"
+      subchapter: false
+      content_file: "chapters/02-stanowisko-pracy-i-wyposazenie.md"
+      hidden: false
+    - title: "7.3. Technologie i procedury masażu w języku obcym"
+      subchapter: false
+      content_file: "chapters/03-technologie-i-procedury-masazu-w-jezyku-obcym.md"
+      hidden: false
+    - title: "7.4. Dokumentacja zawodowa w języku obcym"
+      subchapter: false
+      content_file: "chapters/04-dokumentacja-zawodowa-w-jezyku-obcym.md"
+      hidden: false
+    - title: "7.5. Usługi świadczone w zawodzie i obsługa klienta"
+      subchapter: false
+      content_file: "chapters/05-uslugi-swiadczone-w-zawodzie-i-obsluga-klienta.md"
+      hidden: false
+    - title: "7.6. Rozumienie wypowiedzi ustnych i pisemnych"
+      subchapter: false
+      content_file: "chapters/06-rozumienie-wypowiedzi-ustnych-i-pisemnych.md"
+      hidden: false
+    - title: "7.7. Tworzenie wypowiedzi ustnych i pisemnych"
+      subchapter: false
+      content_file: "chapters/07-tworzenie-wypowiedzi-ustnych-i-pisemnych.md"
+      hidden: false
+    - title: "7.8. Rozmowa w typowych sytuacjach zawodowych"
+      subchapter: false
+      content_file: "chapters/08-rozmowa-w-typowych-sytuacjach-zawodowych.md"
+      hidden: false
+    - title: "7.9. Przekazywanie informacji z materiałów wizualnych i audiowizualnych"
+      subchapter: false
+      content_file: "chapters/09-przekazywanie-informacji-z-materialow-wizualnych-i-audi.md"
+      hidden: false
+    - title: "7.10. Strategie komunikacyjne i kompensacyjne"
+      subchapter: false
+      content_file: "chapters/10-strategie-komunikacyjne-i-kompensacyjne.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

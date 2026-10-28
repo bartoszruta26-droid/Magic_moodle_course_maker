@@ -1,0 +1,49 @@
+// Quiz: 2.7. Ogólna budowa organizmu człowieka i terminologia topograficzna — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-27-q1:: Zagadnienie „2.7.1. Podział ciała: głowa, szyja, tułów, kończyny” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q1b:: Zagadnienie „2.7.2. Osi ciała: pionowa, pozioma, strzałkowa” jest elementem zagadnienia „2.7.1. Podział ciała: głowa, szyja, tułów, kończyny”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q2:: Zagadnienie „2.7.2. Osi ciała: pionowa, pozioma, strzałkowa” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q2b:: Zagadnienie „2.7.3. Kierunki: przyśrodkowy, boczny, grzbietowy, brzusznny, górnny, dolny” jest elementem zagadnienia „2.7.2. Osi ciała: pionowa, pozioma, strzałkowa”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q3:: Zagadnienie „2.7.3. Kierunki: przyśrodkowy, boczny, grzbietowy, brzusznny, górnny, dolny” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q3b:: Zagadnienie „2.7.4. Płaszczyzny anatomii” jest elementem zagadnienia „2.7.3. Kierunki: przyśrodkowy, boczny, grzbietowy, brzusznny, górnny, dolny”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q4:: Zagadnienie „2.7.4. Płaszczyzny anatomii” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q4b:: Zagadnienie „2.7.5. Okolice ciała istotne dla masażu” jest elementem zagadnienia „2.7.4. Płaszczyzny anatomii”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q5:: Zagadnienie „2.7.5. Okolice ciała istotne dla masażu” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q5b:: Zagadnienie „2.7.6. Strony ciała: prawa, lewa, obustronna” jest elementem zagadnienia „2.7.5. Okolice ciała istotne dla masażu”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q6:: Zagadnienie „2.7.6. Strony ciała: prawa, lewa, obustronna” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q6b:: Zagadnienie „2.7.7. Terminologia łacińska i polska” jest elementem zagadnienia „2.7.6. Strony ciała: prawa, lewa, obustronna”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q7:: Zagadnienie „2.7.7. Terminologia łacińska i polska” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q7b:: Zagadnienie „2.7.8. Dokumentowanie lokalizacji dolegliwości” jest elementem zagadnienia „2.7.7. Terminologia łacińska i polska”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q8:: Zagadnienie „2.7.8. Dokumentowanie lokalizacji dolegliwości” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q8b:: Zagadnienie „2.7.9. Komunikacja z pacjentem o miejscach bólu” jest elementem zagadnienia „2.7.8. Dokumentowanie lokalizacji dolegliwości”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q9:: Zagadnienie „2.7.9. Komunikacja z pacjentem o miejscach bólu” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::tf-s02-27-q9b:: Zagadnienie „2.7.10. Szacunek dla ciała: język niepotszający, niedehumanizujący” jest elementem zagadnienia „2.7.9. Komunikacja z pacjentem o miejscach bólu”, a nie tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {FALSE} //
+
+::tf-s02-27-q10:: Zagadnienie „2.7.10. Szacunek dla ciała: język niepotszający, niedehumanizujący” wchodzi w zakres tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7). {TRUE} //
+
+::mc-s02-27:: Które zagadnienie należy bezpośrednio do tematu „Ogólna budowa organizmu człowieka i terminologia topograficzna” (2.7)? {
+    = 2.7.1. Podział ciała: głowa, szyja, tułów, kończyny
+    ~ 2.7.2. Osi ciała: pionowa, pozioma, strzałkowa
+    ~ 2.7.3. Kierunki: przyśrodkowy, boczny, grzbietowy, brzusznny, górnny, dolny
+    ~ 2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia
+    ~ 3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja
+    ~ 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie
+}

@@ -1,0 +1,49 @@
+// Quiz: 4.19. Masaż Shantala — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-419-q1:: Zagadnienie „4.19.1. Historia i sens kontaktu z niemowlęciem” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q1b:: Zagadnienie „4.19.2. Przygotowanie pomieszczenia i oleju” jest elementem zagadnienia „4.19.1. Historia i sens kontaktu z niemowlęciem”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q2:: Zagadnienie „4.19.2. Przygotowanie pomieszczenia i oleju” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q2b:: Zagadnienie „4.19.3. Pozycja niemowlęcia” jest elementem zagadnienia „4.19.2. Przygotowanie pomieszczenia i oleju”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q3:: Zagadnienie „4.19.3. Pozycja niemowlęcia” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q3b:: Zagadnienie „4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz” jest elementem zagadnienia „4.19.3. Pozycja niemowlęcia”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q4:: Zagadnienie „4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q4b:: Zagadnienie „4.19.5. Delikatność i obserwacja dziecka” jest elementem zagadnienia „4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q5:: Zagadnienie „4.19.5. Delikatność i obserwacja dziecka” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q5b:: Zagadnienie „4.19.6. Sygnały stresu dziecka” jest elementem zagadnienia „4.19.5. Delikatność i obserwacja dziecka”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q6:: Zagadnienie „4.19.6. Sygnały stresu dziecka” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q6b:: Zagadnienie „4.19.7. Rola rodzica/opiekuna” jest elementem zagadnienia „4.19.6. Sygnały stresu dziecka”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q7:: Zagadnienie „4.19.7. Rola rodzica/opiekuna” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q7b:: Zagadnienie „4.19.8. Przeciwwskazania” jest elementem zagadnienia „4.19.7. Rola rodzica/opiekuna”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q8:: Zagadnienie „4.19.8. Przeciwwskazania” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q8b:: Zagadnienie „4.19.9. Higiena rąk masażysty” jest elementem zagadnienia „4.19.8. Przeciwwskazania”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q9:: Zagadnienie „4.19.9. Higiena rąk masażysty” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::tf-s04-419-q9b:: Zagadnienie „4.19.10. Dokumentacja zgody i przebiegu” jest elementem zagadnienia „4.19.9. Higiena rąk masażysty”, a nie tematu „Masaż Shantala” (4.19). {FALSE} //
+
+::tf-s04-419-q10:: Zagadnienie „4.19.10. Dokumentacja zgody i przebiegu” wchodzi w zakres tematu „Masaż Shantala” (4.19). {TRUE} //
+
+::mc-s04-419:: Które zagadnienie należy bezpośrednio do tematu „Masaż Shantala” (4.19)? {
+    = 4.19.1. Historia i sens kontaktu z niemowlęciem
+    ~ 4.19.2. Przygotowanie pomieszczenia i oleju
+    ~ 4.19.3. Pozycja niemowlęcia
+    ~ 2.6.5. Edukacja prozdrowotna pacjenta
+    ~ 3.19.5. Terapeuta zajęciowy
+    ~ 6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi
+}

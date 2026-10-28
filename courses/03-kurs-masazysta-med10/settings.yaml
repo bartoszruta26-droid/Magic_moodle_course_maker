@@ -1,0 +1,23 @@
+# Ustawienia zaawansowane kursu
+enrollment:
+  method: "manual"
+  self_enrolment:
+    enabled: 1
+    password_required: 1
+groups:
+  mode: "separate"
+roles:
+  teacher: "Nauczyciel prowadzący moduł"
+  editingteacher: "Koordynator kursu"
+  assistant: "Opiekun praktyk zawodowych"
+completion:
+  tracking: 1
+  report: 1
+grade_display_type: "points"
+calendar_type: "course"
+maxbytes: 52428800
+auth_instructions: |
+  Kurs realizowany w trybie mieszanym: wykłady, ćwiczenia praktyczne
+  (gabinet/sala gimnastyczna), praktyka zawodowa u pracodawcy.
+  Warunkiem zaliczenia jest frekwencja, pozytywne oceny z każdego modułu
+  oraz zrealizowanie wymaganej liczby godzin praktyki zawodowej.

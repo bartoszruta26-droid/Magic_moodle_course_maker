@@ -1,0 +1,49 @@
+// Quiz: 4.18. Masaż stawowy — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-418-q1:: Zagadnienie „4.18.1. Mobilizacja stawów” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q1b:: Zagadnienie „4.18.2. Trakcja, kompresja, rotacja, ślizg” jest elementem zagadnienia „4.18.1. Mobilizacja stawów”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q2:: Zagadnienie „4.18.2. Trakcja, kompresja, rotacja, ślizg” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q2b:: Zagadnienie „4.18.3. Stopnie ruchu” jest elementem zagadnienia „4.18.2. Trakcja, kompresja, rotacja, ślizg”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q3:: Zagadnienie „4.18.3. Stopnie ruchu” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q3b:: Zagadnienie „4.18.4. Ból i end-feel” jest elementem zagadnienia „4.18.3. Stopnie ruchu”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q4:: Zagadnienie „4.18.4. Ból i end-feel” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q4b:: Zagadnienie „4.18.5. Przeciwwskazania: niestabilność, ostry stan zapalny, uszkodzenie więzadeł” jest elementem zagadnienia „4.18.4. Ból i end-feel”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q5:: Zagadnienie „4.18.5. Przeciwwskazania: niestabilność, ostry stan zapalny, uszkodzenie więzadeł” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q5b:: Zagadnienie „4.18.6. Współpraca z fizjoterapeutą” jest elementem zagadnienia „4.18.5. Przeciwwskazania: niestabilność, ostry stan zapalny, uszkodzenie więzadeł”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q6:: Zagadnienie „4.18.6. Współpraca z fizjoterapeutą” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q6b:: Zagadnienie „4.18.7. Zastosowanie w ograniczeniu ruchomości” jest elementem zagadnienia „4.18.6. Współpraca z fizjoterapeutą”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q7:: Zagadnienie „4.18.7. Zastosowanie w ograniczeniu ruchomości” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q7b:: Zagadnienie „4.18.8. Ryzyko uszkodzenia torebki stawowej” jest elementem zagadnienia „4.18.7. Zastosowanie w ograniczeniu ruchomości”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q8:: Zagadnienie „4.18.8. Ryzyko uszkodzenia torebki stawowej” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q8b:: Zagadnienie „4.18.9. Dokumentacja zakresu ruchu” jest elementem zagadnienia „4.18.8. Ryzyko uszkodzenia torebki stawowej”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q9:: Zagadnienie „4.18.9. Dokumentacja zakresu ruchu” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::tf-s04-418-q9b:: Zagadnienie „4.18.10. Zasada: nie manipulować bez uprawnień” jest elementem zagadnienia „4.18.9. Dokumentacja zakresu ruchu”, a nie tematu „Masaż stawowy” (4.18). {FALSE} //
+
+::tf-s04-418-q10:: Zagadnienie „4.18.10. Zasada: nie manipulować bez uprawnień” wchodzi w zakres tematu „Masaż stawowy” (4.18). {TRUE} //
+
+::mc-s04-418:: Które zagadnienie należy bezpośrednio do tematu „Masaż stawowy” (4.18)? {
+    = 4.18.1. Mobilizacja stawów
+    ~ 4.18.2. Trakcja, kompresja, rotacja, ślizg
+    ~ 4.18.3. Stopnie ruchu
+    ~ 2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa
+    ~ 3.19.4. Psycholog i psychiatra
+    ~ 6.1.4. Masaż prozdrowotny u osoby zdrowej
+}

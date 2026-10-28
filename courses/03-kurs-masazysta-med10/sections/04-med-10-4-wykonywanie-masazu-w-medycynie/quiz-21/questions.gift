@@ -1,0 +1,49 @@
+// Quiz: 4.21. Masaż kobiety w połogu — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-421-q1:: Zagadnienie „4.21.1. Połóg fizjologiczny i powikłany” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q1b:: Zagadnienie „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność” jest elementem zagadnienia „4.21.1. Połóg fizjologiczny i powikłany”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q2:: Zagadnienie „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q2b:: Zagadnienie „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza” jest elementem zagadnienia „4.21.2. Obrzęk, ból krocza, hematoma — ostrożność”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q3:: Zagadnienie „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q3b:: Zagadnienie „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą” jest elementem zagadnienia „4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q4:: Zagadnienie „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q4b:: Zagadnienie „4.21.5. Masaż grzbietu i karku przy karmieniu” jest elementem zagadnienia „4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q5:: Zagadnienie „4.21.5. Masaż grzbietu i karku przy karmieniu” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q5b:: Zagadnienie „4.21.6. Drenaż obrzęków” jest elementem zagadnienia „4.21.5. Masaż grzbietu i karku przy karmieniu”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q6:: Zagadnienie „4.21.6. Drenaż obrzęków” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q6b:: Zagadnienie „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja” jest elementem zagadnienia „4.21.6. Drenaż obrzęków”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q7:: Zagadnienie „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q7b:: Zagadnienie „4.21.8. Wsparcie emocjonalne matki” jest elementem zagadnienia „4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q8:: Zagadnienie „4.21.8. Wsparcie emocjonalne matki” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q8b:: Zagadnienie „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu” jest elementem zagadnienia „4.21.8. Wsparcie emocjonalne matki”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q9:: Zagadnienie „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::tf-s04-421-q9b:: Zagadnienie „4.21.10. Dokumentacja i skierowania” jest elementem zagadnienia „4.21.9. Bezpieczeństwo dziecka w czasie zabiegu”, a nie tematu „Masaż kobiety w połogu” (4.21). {FALSE} //
+
+::tf-s04-421-q10:: Zagadnienie „4.21.10. Dokumentacja i skierowania” wchodzi w zakres tematu „Masaż kobiety w połogu” (4.21). {TRUE} //
+
+::mc-s04-421:: Które zagadnienie należy bezpośrednio do tematu „Masaż kobiety w połogu” (4.21)? {
+    = 4.21.1. Połóg fizjologiczny i powikłany
+    ~ 4.21.2. Obrzęk, ból krocza, hematoma — ostrożność
+    ~ 4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza
+    ~ 2.5.8. Błędy dokumentacyjne i ich konsekwencje
+    ~ 3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie
+    ~ 5.8.8. Osoby z chorobami przewlekłymi
+}

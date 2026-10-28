@@ -1,0 +1,83 @@
+# Metadane sekcji kursu (Moodle)
+id: 5
+name: "Moduł 5: MED.10.5. WYKONYWANIE MASAŻU W SPORCIE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-wprowadzenie-do-masazu-sportowego.md"
+    name: "5.1. Wprowadzenie do masażu sportowego"
+  - type: page
+    ref: "page-02-cykl-treningowy-zawodnika.md"
+    name: "5.2. Cykl treningowy zawodnika"
+  - type: page
+    ref: "page-03-rodzaje-masazu-w-sporcie.md"
+    name: "5.3. Rodzaje masażu w sporcie"
+  - type: page
+    ref: "page-04-wskazania-i-przeciwwskazania-do-masazu-sportowego.md"
+    name: "5.4. Wskazania i przeciwwskazania do masażu sportowego"
+  - type: page
+    ref: "page-05-metodyka-masazu-sportowego.md"
+    name: "5.5. Metodyka masażu sportowego"
+  - type: page
+    ref: "page-06-protokoly-masazu-sportowego.md"
+    name: "5.6. Protokoły masażu sportowego"
+  - type: page
+    ref: "page-07-najczestsze-problemy-sportowe-a-rola-masazysty.md"
+    name: "5.7. Najczęstsze problemy sportowe a rola masażysty"
+  - type: page
+    ref: "page-08-bezpieczenstwo-i-etyka-w-sporcie.md"
+    name: "5.8. Bezpieczeństwo i etyka w sporcie"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.5"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 5.1. Wprowadzenie do masażu sportowego"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 5.1. Wprowadzenie do masażu sportowego"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 5.2. Cykl treningowy zawodnika"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 5.2. Cykl treningowy zawodnika"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 5.3. Rodzaje masażu w sporcie"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 5.3. Rodzaje masażu w sporcie"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 5.4. Wskazania i przeciwwskazania do masażu sportowego"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 5.4. Wskazania i przeciwwskazania do masażu sportowego"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 5.5. Metodyka masażu sportowego"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 5.5. Metodyka masażu sportowego"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 5.6. Protokoły masażu sportowego"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 5.6. Protokoły masażu sportowego"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 5.7. Najczęstsze problemy sportowe a rola masażysty"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 5.7. Najczęstsze problemy sportowe a rola masażysty"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 5.8. Bezpieczeństwo i etyka w sporcie"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 5.8. Bezpieczeństwo i etyka w sporcie"

@@ -1,0 +1,146 @@
+# Metadane sekcji kursu (Moodle)
+id: 1
+name: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-wprowadzenie-do-bezpieczenstwa-i-higieny-pracy-w.md"
+    name: "1.1. Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty"
+  - type: page
+    ref: "page-02-przepisy-prawa-pracy-p-poz-ochrony-srodowiska-i.md"
+    name: "1.2. Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii"
+  - type: page
+    ref: "page-03-instytucje-i-sluzby-ochrony-pracy-oraz-ochrony.md"
+    name: "1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska"
+  - type: page
+    ref: "page-04-prawa-i-obowiazki-pracownika-oraz-pracodawcy.md"
+    name: "1.4. Prawa i obowiązki pracownika oraz pracodawcy"
+  - type: page
+    ref: "page-05-zagrozenia-zawodowe-w-pracy-masazysty.md"
+    name: "1.5. Zagrożenia zawodowe w pracy masażysty"
+  - type: page
+    ref: "page-06-higiena-osobista-masazysty-i-higiena-pracy.md"
+    name: "1.6. Higiena osobista masażysty i higiena pracy"
+  - type: page
+    ref: "page-07-ergonomia-stanowiska-pracy-masazysty.md"
+    name: "1.7. Ergonomia stanowiska pracy masażysty"
+  - type: page
+    ref: "page-08-srodki-ochrony-indywidualnej-i-zbiorowej.md"
+    name: "1.8. Środki ochrony indywidualnej i zbiorowej"
+  - type: page
+    ref: "page-09-aseptyka-i-antyseptyka-w-gabinecie-masazu.md"
+    name: "1.9. Aseptyka i antyseptyka w gabinecie masażu"
+  - type: page
+    ref: "page-10-postepowanie-z-materialami-biologicznie-skazonymi.md"
+    name: "1.10. Postępowanie z materiałami biologicznie skażonymi"
+  - type: page
+    ref: "page-11-ochrona-przeciwpozarowa-i-ewakuacja.md"
+    name: "1.11. Ochrona przeciwpożarowa i ewakuacja"
+  - type: page
+    ref: "page-12-pierwsza-pomoc-w-stanach-naglego-zagrozenia-zdrowotnego.md"
+    name: "1.12. Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego"
+  - type: page
+    ref: "page-13-pierwsza-pomoc-w-stanach-urazowych.md"
+    name: "1.13. Pierwsza pomoc w stanach urazowych"
+  - type: page
+    ref: "page-14-pierwsza-pomoc-w-stanach-nieurazowych.md"
+    name: "1.14. Pierwsza pomoc w stanach nieurazowych"
+  - type: page
+    ref: "page-15-bezpieczenstwo-w-kontakcie-z-pacjentem-szczegolnie.md"
+    name: "1.15. Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.1"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 1.1. Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 1.1. Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 1.2. Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 1.2. Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 1.4. Prawa i obowiązki pracownika oraz pracodawcy"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 1.4. Prawa i obowiązki pracownika oraz pracodawcy"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 1.5. Zagrożenia zawodowe w pracy masażysty"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 1.5. Zagrożenia zawodowe w pracy masażysty"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 1.6. Higiena osobista masażysty i higiena pracy"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 1.6. Higiena osobista masażysty i higiena pracy"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 1.7. Ergonomia stanowiska pracy masażysty"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 1.7. Ergonomia stanowiska pracy masażysty"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 1.8. Środki ochrony indywidualnej i zbiorowej"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 1.8. Środki ochrony indywidualnej i zbiorowej"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 1.9. Aseptyka i antyseptyka w gabinecie masażu"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 1.9. Aseptyka i antyseptyka w gabinecie masażu"
+  - type: quiz
+    ref: quiz-10
+    name: "Quiz: 1.10. Postępowanie z materiałami biologicznie skażonymi"
+  - type: assignment
+    ref: assignment-10
+    name: "Zadanie: 1.10. Postępowanie z materiałami biologicznie skażonymi"
+  - type: quiz
+    ref: quiz-11
+    name: "Quiz: 1.11. Ochrona przeciwpożarowa i ewakuacja"
+  - type: assignment
+    ref: assignment-11
+    name: "Zadanie: 1.11. Ochrona przeciwpożarowa i ewakuacja"
+  - type: quiz
+    ref: quiz-12
+    name: "Quiz: 1.12. Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego"
+  - type: assignment
+    ref: assignment-12
+    name: "Zadanie: 1.12. Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego"
+  - type: quiz
+    ref: quiz-13
+    name: "Quiz: 1.13. Pierwsza pomoc w stanach urazowych"
+  - type: assignment
+    ref: assignment-13
+    name: "Zadanie: 1.13. Pierwsza pomoc w stanach urazowych"
+  - type: quiz
+    ref: quiz-14
+    name: "Quiz: 1.14. Pierwsza pomoc w stanach nieurazowych"
+  - type: assignment
+    ref: assignment-14
+    name: "Zadanie: 1.14. Pierwsza pomoc w stanach nieurazowych"
+  - type: quiz
+    ref: quiz-15
+    name: "Quiz: 1.15. Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym"
+  - type: assignment
+    ref: assignment-15
+    name: "Zadanie: 1.15. Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym"

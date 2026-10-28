@@ -1,37 +1,4 @@
-# OS files
 .DS_Store
 Thumbs.db
-Desktop.ini
-
-# Editors / IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-env/
-.env
-
-# Build artifacts and archives (Moodle .mbz packages, tarballs)
-build/
-dist/
-*.tar
-*.tar.gz
-*.tgz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-*.zip
-*.mbz
-
-# Logs and temp files
-*.log
-tmp/
-temp/
+*.pyc

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.16. Zasady wykonywania poszczególnych rodzajów masażu w medycynie"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.16 — zagadnienie 1"
+    text: "Zagadnienie „3.16.1. Masaż klasyczny: cel, kolejność, czas, siła” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 1"
+    text: "Zagadnienie „3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo” jest elementem zagadnienia „3.16.1. Masaż klasyczny: cel, kolejność, czas, siła”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 2"
+    text: "Zagadnienie „3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 2"
+    text: "Zagadnienie „3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja” jest elementem zagadnienia „3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 3"
+    text: "Zagadnienie „3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 3"
+    text: "Zagadnienie „3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek” jest elementem zagadnienia „3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 4"
+    text: "Zagadnienie „3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 4"
+    text: "Zagadnienie „3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania” jest elementem zagadnienia „3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 5"
+    text: "Zagadnienie „3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 5"
+    text: "Zagadnienie „3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze” jest elementem zagadnienia „3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 6"
+    text: "Zagadnienie „3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 6"
+    text: "Zagadnienie „3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching” jest elementem zagadnienia „3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 7"
+    text: "Zagadnienie „3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 7"
+    text: "Zagadnienie „3.16.8. Refleksoterapia stóp: mapy, techniki, granice” jest elementem zagadnienia „3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 8"
+    text: "Zagadnienie „3.16.8. Refleksoterapia stóp: mapy, techniki, granice” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 8"
+    text: "Zagadnienie „3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga” jest elementem zagadnienia „3.16.8. Refleksoterapia stóp: mapy, techniki, granice”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 9"
+    text: "Zagadnienie „3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: truefalse
+    name: "3.16 — rozgraniczenie 9"
+    text: "Zagadnienie „3.16.10. Masaż izometryczny i stawowy: progresja, kontrola bólu” jest elementem zagadnienia „3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga”, a nie tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: false
+  - type: truefalse
+    name: "3.16 — zagadnienie 10"
+    text: "Zagadnienie „3.16.10. Masaż izometryczny i stawowy: progresja, kontrola bólu” wchodzi w zakres tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)."
+    answer: true
+  - type: multichoice
+    name: "3.16 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zasady wykonywania poszczególnych rodzajów masażu w medycynie” (3.16)?"
+    answers:
+      - text: "3.16.1. Masaż klasyczny: cel, kolejność, czas, siła"  fraction: 100
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 0
+      - text: "3.19.2. Fizjoterapeuta"  fraction: 0
+      - text: "6.1.1. Zdrowie jako dobro i zadanie"  fraction: 0

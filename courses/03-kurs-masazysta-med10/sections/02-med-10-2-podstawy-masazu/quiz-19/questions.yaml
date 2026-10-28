@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.19. Środki poślizgowe i wspomagające masaż"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.19 — zagadnienie 1"
+    text: "Zagadnienie „2.19.1. Talk” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 1"
+    text: "Zagadnienie „2.19.2. Oliwki i oleje roślinne” jest elementem zagadnienia „2.19.1. Talk”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 2"
+    text: "Zagadnienie „2.19.2. Oliwki i oleje roślinne” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 2"
+    text: "Zagadnienie „2.19.3. Wazelina i lanolina” jest elementem zagadnienia „2.19.2. Oliwki i oleje roślinne”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 3"
+    text: "Zagadnienie „2.19.3. Wazelina i lanolina” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 3"
+    text: "Zagadnienie „2.19.4. Kremy do masażu” jest elementem zagadnienia „2.19.3. Wazelina i lanolina”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 4"
+    text: "Zagadnienie „2.19.4. Kremy do masażu” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 4"
+    text: "Zagadnienie „2.19.5. Preparaty rozgrzewające” jest elementem zagadnienia „2.19.4. Kremy do masażu”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 5"
+    text: "Zagadnienie „2.19.5. Preparaty rozgrzewające” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 5"
+    text: "Zagadnienie „2.19.6. Preparaty chłodzące” jest elementem zagadnienia „2.19.5. Preparaty rozgrzewające”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 6"
+    text: "Zagadnienie „2.19.6. Preparaty chłodzące” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 6"
+    text: "Zagadnienie „2.19.7. Preparaty przeciwzapalne i znieczulające miejscowo — tylko zgodnie z prawem i zleceniem” jest elementem zagadnienia „2.19.6. Preparaty chłodzące”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 7"
+    text: "Zagadnienie „2.19.7. Preparaty przeciwzapalne i znieczulające miejscowo — tylko zgodnie z prawem i zleceniem” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 7"
+    text: "Zagadnienie „2.19.8. Alergeny i test skórny” jest elementem zagadnienia „2.19.7. Preparaty przeciwzapalne i znieczulające miejscowo — tylko zgodnie z prawem i zleceniem”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 8"
+    text: "Zagadnienie „2.19.8. Alergeny i test skórny” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 8"
+    text: "Zagadnienie „2.19.9. Dobór do rodzaju skóry i jednostki chorobowej” jest elementem zagadnienia „2.19.8. Alergeny i test skórny”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 9"
+    text: "Zagadnienie „2.19.9. Dobór do rodzaju skóry i jednostki chorobowej” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: truefalse
+    name: "2.19 — rozgraniczenie 9"
+    text: "Zagadnienie „2.19.10. Przechowywanie, daty ważności, bezpieczeństwo” jest elementem zagadnienia „2.19.9. Dobór do rodzaju skóry i jednostki chorobowej”, a nie tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: false
+  - type: truefalse
+    name: "2.19 — zagadnienie 10"
+    text: "Zagadnienie „2.19.10. Przechowywanie, daty ważności, bezpieczeństwo” wchodzi w zakres tematu „Środki poślizgowe i wspomagające masaż” (2.19)."
+    answer: true
+  - type: multichoice
+    name: "2.19 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Środki poślizgowe i wspomagające masaż” (2.19)?"
+    answers:
+      - text: "2.19.1. Talk"  fraction: 100
+      - text: "2.6.3. Czynniki negatywnie wpływające na zdrowie"  fraction: 0
+      - text: "3.19.4. Psycholog i psychiatra"  fraction: 0
+      - text: "6.1.3. Relaksacja a leczenie"  fraction: 0

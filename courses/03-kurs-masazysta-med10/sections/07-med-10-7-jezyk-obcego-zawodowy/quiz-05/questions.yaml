@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "7.5. Usługi świadczone w zawodzie i obsługa klienta"
+category: masaz
+questions:
+  - type: truefalse
+    name: "7.5 — zagadnienie 1"
+    text: "Zagadnienie „7.5.1. Offering services politely” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 1"
+    text: "Zagadnienie „7.5.2. Asking about pain level” jest elementem zagadnienia „7.5.1. Offering services politely”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 2"
+    text: "Zagadnienie „7.5.2. Asking about pain level” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 2"
+    text: "Zagadnienie „7.5.3. Checking comfort and pressure” jest elementem zagadnienia „7.5.2. Asking about pain level”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 3"
+    text: "Zagadnienie „7.5.3. Checking comfort and pressure” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 3"
+    text: "Zagadnienie „7.5.4. Respecting boundaries” jest elementem zagadnienia „7.5.3. Checking comfort and pressure”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 4"
+    text: "Zagadnienie „7.5.4. Respecting boundaries” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 4"
+    text: "Zagadnienie „7.5.5. Handling complaints” jest elementem zagadnienia „7.5.4. Respecting boundaries”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 5"
+    text: "Zagadnienie „7.5.5. Handling complaints” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 5"
+    text: "Zagadnienie „7.5.6. Explaining cancellation policy” jest elementem zagadnienia „7.5.5. Handling complaints”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 6"
+    text: "Zagadnienie „7.5.6. Explaining cancellation policy” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 6"
+    text: "Zagadnienie „7.5.7. Telephone and email communication” jest elementem zagadnienia „7.5.6. Explaining cancellation policy”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 7"
+    text: "Zagadnienie „7.5.7. Telephone and email communication” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 7"
+    text: "Zagadnienie „7.5.8. Communicating with minors and caregivers” jest elementem zagadnienia „7.5.7. Telephone and email communication”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 8"
+    text: "Zagadnienie „7.5.8. Communicating with minors and caregivers” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 8"
+    text: "Zagadnienie „7.5.9. Communicating with elderly patients” jest elementem zagadnienia „7.5.8. Communicating with minors and caregivers”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 9"
+    text: "Zagadnienie „7.5.9. Communicating with elderly patients” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: truefalse
+    name: "7.5 — rozgraniczenie 9"
+    text: "Zagadnienie „7.5.10. Avoiding misleading claims” jest elementem zagadnienia „7.5.9. Communicating with elderly patients”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: false
+  - type: truefalse
+    name: "7.5 — zagadnienie 10"
+    text: "Zagadnienie „7.5.10. Avoiding misleading claims” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)."
+    answer: true
+  - type: multichoice
+    name: "7.5 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)?"
+    answers:
+      - text: "7.5.1. Offering services politely"  fraction: 100
+      - text: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"  fraction: 0
+      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"  fraction: 0
+      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"  fraction: 0
