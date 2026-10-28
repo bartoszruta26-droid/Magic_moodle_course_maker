@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Edukacja prozdrowotna w praktyce masażysty: max 3 przekazy na wizytę (szacunek, zrozumienie, zapamiętanie), materiały pisemne, demonstracja ćwiczeń domowych, nawyki: nawodnienie, ergonomia, aktywność 150 min/tydzień (WHO), sen 7–9 h. Masażysta jest doradcą stylu życia, nie moralizatorem; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu i ceny usługi.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

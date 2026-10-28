@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż łącznotkankowy (Friebego (szkoła Dicza/Bineta)): reflektoryczne działanie na segmenty rdzeniowe przez powięź i skórę; chwyt: fałd skóry unoszony i utrzymywany 20-60 s, ruch wolny, „ciągnący”. Reakcje (mrowienie, ciepło, ból przeniesiony) są typowe. Przeciwwskazania: choroby zakaźne z wysypką, żylaki, nowotwory (miejsca), niewydolność serca zaawansowana. Skóra cienka/starości— siła minimalna (ryzyko petechii i rozdarcia naskórka!).
+Masaż segmentarny i punktów spustowych — praktyka kliniczna: praca na dermatomach, miotom i sklerotomach oraz «sferach Heada» — napięcie przykręgosłupowe Th3–Th5 może odpowiadać projekcjom trzewnym (uwaga!); tkanka «zmieniona» (grudki, przesunięcia, włóknienie) → rozcieranie głębokie, wałeczkowanie, skin rolling; punkt spustowy: lokalizacja pasma → kompresja lub napnij–rozluźnij → ocena promieniowania referred. Granica: objawy trzewne (ból promieniujący, duszność, gorączka) → najpierw lekarz; masażysta wspiera funkcję, nie «leczy narządu».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

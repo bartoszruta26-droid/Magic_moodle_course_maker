@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
+Układ chłonny praktycznie: chłonka płynie węzłami do pni chłonnych i kąta żylnego; brak «pompy sercowej» oznacza, że ruch, oddech przeponowy i ciśnienie zewnętrzne decydują o przepływie. Manualny drenaż limfatyczny: kierunek dosercowy, sekwencja «uprościć zlew» (węzły docelowe najpierw), techniki: okrężne pompowanie, pumpowanie, łapanie, kopulowanie; siła jak dotyk powieki, tempo zgodne z rytmem węzła. Przeciwwskazania: ostra infekcja, niewydolność serca, nowotwór złośliwy bez zgody lekarza, zakrzepica.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

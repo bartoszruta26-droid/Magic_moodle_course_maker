@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Doskonalenie zawodowe praktycznie: plan roczny (1 kurs specjalistyczny + 2 warsztaty + lektura: Zborowski, Bochenek, Traczyk, aktualne wytyczne ERC/WHO), portfolio CPD (certyfikaty, godziny, refleksja «co zmieniłem w praktyce»), mentoring i superwizja przypadków; weryfikuj wiarygodność szkoleń (kadra, program, numer zaświadczenia). Prawda: dyplom MED.10 to start, nie sufit — wiedza medyczna zmienia się szybciej niż moda na techniki.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

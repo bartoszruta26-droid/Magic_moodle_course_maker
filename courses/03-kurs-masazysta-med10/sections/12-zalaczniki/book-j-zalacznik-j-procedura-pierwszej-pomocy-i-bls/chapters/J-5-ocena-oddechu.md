@@ -102,3 +102,5 @@ wszystkich uczestników kursu). Służy rozwojowi umiejętności, które przywra
 zdrowie i ulgę cierpiącemu bliźniemu.*
 
 <!-- deepen-v1 -->
+
+<!-- subch-v6 -->

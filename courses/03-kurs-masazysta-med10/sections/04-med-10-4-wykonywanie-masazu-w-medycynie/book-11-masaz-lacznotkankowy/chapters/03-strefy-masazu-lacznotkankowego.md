@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż łącznotkankowy (Friebego (szkoła Dicza/Bineta)): reflektoryczne działanie na segmenty rdzeniowe przez powięź i skórę; chwyt: fałd skóry unoszony i utrzymywany 20-60 s, ruch wolny, „ciągnący”. Reakcje (mrowienie, ciepło, ból przeniesiony) są typowe. Przeciwwskazania: choroby zakaźne z wysypką, żylaki, nowotwory (miejsca), niewydolność serca zaawansowana. Skóra cienka/starości— siła minimalna (ryzyko petechii i rozdarcia naskórka!).
+Masaż łącznotkankowy (Dicke/Breuer) praktycznie: chwyty na fałdzie skóry i tkanki podskórnej — przesunięcie, «wciągnięcie» i przytrzymanie do oporu, pułapka → cofnięcie; strefy reflektoryczne grzbietu odcinkowego ↔ narządy; reakcja tkanek: ocieplenie, «rozpuszczenie» zgrubień, przejściowy ślad (norma, nie siniak!); przeciwwskazania: gorączka, ostre stany zapalne trzewne, żylaki w polu, skóra atroficzna (sterydoterapia!). Ćwiczenie: «find barrier» na karku partnera — 3× po 30 s i opis odczuć obu stron.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

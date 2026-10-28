@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
+Tryb jamy brzusznej i narządów miednicy — granice praktyki: wrzód w fazie ostrego bólu → nie masuj brzucha, skieruj; kolka nerkowa lub żółciowa, ostra biegunka z odwodnieniem → diagnostyka lekarska, nie zabieg; przewlekłe, stabilne dolegliwości czynnościowe (wzdęcia, zaparcia) → głaskanie zgodnie z perystaltyką okrężnicy, bez wibracji nad wątrobą/nerkami; przepuklina nieoperowana — UCISK ZAKAZANY; prostata/ginekologia — tylko za zgodą lekarza, techniki okołokrzyżowe łagodnie. Masażysta rozpoznaje POTRZEBY zabiegowe, nie chorobę.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

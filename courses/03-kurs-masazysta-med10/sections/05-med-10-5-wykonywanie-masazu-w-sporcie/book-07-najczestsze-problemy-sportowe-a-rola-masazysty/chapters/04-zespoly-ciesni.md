@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
+Organizacja pracy małego zespołu praktycznie: grafik z buforem (zabieg + 10 minut przerwy technicznej), SOP-y otwarcia i zamknięcia dnia, podział ról (kto odbiera telefony, kto dezynfekuje), poranny stand-up 10 minut (przypomnienie przypadków ryzykownych), ocena pracownika wg check-listy (bezpieczeństwo > szybkość > sprzedaż), miesięczna retrospektywa z rejestrem zdarzeń niepożądanych; wdrażanie zmian: pilotaż → ewaluacja → skala. Sprawiedliwość: te same kryteria oceny dla wszystkich i jawne ścieżki szkoleń.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

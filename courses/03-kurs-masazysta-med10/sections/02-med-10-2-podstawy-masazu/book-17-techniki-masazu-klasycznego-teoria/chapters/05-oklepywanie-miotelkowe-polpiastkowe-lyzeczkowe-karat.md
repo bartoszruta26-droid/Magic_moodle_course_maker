@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Oklepywanie (tapotement): miotełkowe (nad łopatkami — najbezpieczniejsze!), półpiąstkowe (dłonie w «miseczkę»), łyżeczkowe, karatowe (krawędzie dłoni, partie mięsiste), piąstkowe (delikatne, przez mięsień). Praktyka: rytm 1–2 Hz, kierunek dosercowy lub poprzecznie do włókien; omijaj nerki, wyrostki kolczyste, brodawki sutkowe, wystające punkty kostne. Efekt: pobudzenie mechanoreceptorów, wspomaganie odkrztuszania (ostrożnie i za wiedzą pacjenta).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

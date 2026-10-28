@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
+Higiena pracy własnej — praktyka: limit 8–10 masaży dziennie (głębokich maks. 4–5), mikroprzerwa 5–10 minut między klientami (dezynfekcja, oddech, woda), dni lżejsze w grafiku, debriefing trudnych sytuacji z superwizorem, ruch kompensacyjny po pracy (odwrotny do pozycji zabiegu), sen 7–8 h. Objawy wypalenia: cynizm, depersonalizacja, poczucie nieskuteczności — wcześniej szukaj pomocy (psycholog, lekarz medycyny pracy). Sprawiedliwość wobec siebie jest warunkiem sprawiedliwości wobec pacjenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

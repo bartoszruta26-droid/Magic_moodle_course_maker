@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
-
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+Rozpoznawanie zagrożenia udarem — trening FAST: Face (asymetria uśmiechu), Arms (opadanie ramienia), Speech (mowa bełkotliwa), Time (zapamiętaj godzinę początku → 112 natychmiast). Masażysta NIE masuje przy nowych deficytach neurologicznych; rehabilitacja po stabilizacji, za zleceniem zespołu. W wywiadzie pytaj o «niedowłady, drętwienia postępujące» — nasilenie między wizytami = stop i pilna konsultacja. Ćwiczenie: scenka odegrana + przećwicz treść zgłoszenia na 112.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

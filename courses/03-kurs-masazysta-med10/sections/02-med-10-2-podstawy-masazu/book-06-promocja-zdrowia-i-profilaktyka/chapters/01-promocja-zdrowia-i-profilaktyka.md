@@ -43,13 +43,13 @@ Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie m
 
 ### 2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ### 2.6.5. Edukacja prozdrowotna pacjenta
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -75,7 +75,7 @@ Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) 
 
 ### 2.6.9. Profilaktyka odleżyn u osób unieruchomionych
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -110,3 +110,5 @@ Temat 2.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
 
 <!-- subch-v1 -->
+
+<!-- subch-v6 -->

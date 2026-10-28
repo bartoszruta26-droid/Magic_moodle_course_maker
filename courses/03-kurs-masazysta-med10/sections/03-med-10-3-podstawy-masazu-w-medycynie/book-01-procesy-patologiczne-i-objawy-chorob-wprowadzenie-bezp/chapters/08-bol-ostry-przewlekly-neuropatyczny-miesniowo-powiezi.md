@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
+Powięź to sieć kolagenowo-elastyczna pod napięciem ciągłym (idea tensegrity: wzajemna równowaga elementów ściskających i rozciągających). Praktyka: napięcie w stopniu może boleć w karku (łańcuch tylny), praca powięziowa wymaga wolnego tempa, doprowadzenia do «pułapki tkankowej» (end-feel) i cofnięcia o milimetr, nie siły impulsywnej; oddech pacjenta synchronizujemy z ruchem rąk. Ćwiczenie: find & follow — znajdź opór, utrzymaj 20–40 s, obserwuj «rozpuszczenie» pod dłońmi.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

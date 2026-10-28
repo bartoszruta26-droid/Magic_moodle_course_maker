@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Układ chłonny praktycznie: chłonka płynie węzłami do pni chłonnych i kąta żylnego; brak «pompy sercowej» oznacza, że ruch, oddech przeponowy i ciśnienie zewnętrzne decydują o przepływie. Manualny drenaż limfatyczny: kierunek dosercowy, sekwencja «uprościć zlew» (węzły docelowe najpierw), techniki: okrężne pompowanie, pumpowanie, łapanie, kopulowanie; siła jak dotyk powieki, tempo zgodne z rytmem węzła. Przeciwwskazania: ostra infekcja, niewydolność serca, nowotwór złośliwy bez zgody lekarza, zakrzepica.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

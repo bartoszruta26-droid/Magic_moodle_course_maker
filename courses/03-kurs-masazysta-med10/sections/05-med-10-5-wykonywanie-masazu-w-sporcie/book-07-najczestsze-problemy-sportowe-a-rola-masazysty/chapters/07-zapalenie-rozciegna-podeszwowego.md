@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Praca ze stopą i refleksologia praktycznie: rozcięgno podeszwowe — rozcieranie kciukiem od przyczepu piętowego do palców + rozciąganie zgięcia grzbietowego stopy; haluks i palce młoteczkowate — delikatnie, bez «nastawiania»; refleksoterapia: strefy opuszką kciuka z siłą «do odczucia, nie do bólu» (granica ≤5/10), kolejność: linia kręgosłupa przyśrodkowo → narządy bocznie, 3–5 min na strefę; przeciwwskazania: grzybica, odmrożenia, ostre stany zapalne, cukrzyca z neuropatią (tylko po ocenie czucia i zgodzie lekarza).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

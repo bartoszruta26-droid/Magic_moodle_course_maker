@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
-
-Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+Kwalifikowana pierwsza pomoc w praktyce gabinetu: ocena bezpieczeństwamiejsca → przytomność → oddech; brak normalnego oddechu = wołaj pomoc, dzwoń 112, RKO 30:2 (uciśnięcia 5–6 cm, tempo 100–120/min, pełne rozprężenie), AED jak najszybciej: elektrody prawy podobojczyk / lewy bok klatki, analiza przy OPUSZCZONYCH rękach wszystkich, raż jeśli wskazany, natychmiast wróć do uciśnięć; prowadź do przyjazdu PRM lub powrotu krążenia. Ćwiczenie kursu: minimum dwukrotny trening na fantomie ze szkolnym AED.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

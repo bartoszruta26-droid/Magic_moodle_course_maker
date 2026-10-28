@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
-
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Skórne przeciwwskazania w kwalifikacji: grzybica (ryzyko przeniesienia na inne obszary i personel — najpierw dermatolog, potem masaż), świerzb i pasożyty (odsunięcie i leczenie), półpasiec w fazie pęcherzykowej (nie masować — szerzenie i ból neuropatyczny), egzema/liszaj aktywny (okolica omijana), rumień i gorączka (bezwzględne ogólne). Standard: oględziny pola pracy w dobrym świetle PRZED aplikacją środka poślizgowego; wątpliwość — zdjęcie do konsultacji (bez danych osobowych) lub kierowienie do lekarza.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

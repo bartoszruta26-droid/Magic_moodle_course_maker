@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Praca z osobą niesamodzielną i jej opiekunem: asysta drugiej osoby przy transferach, zgoda prawna/opiekuna przy osobach ubezwłasnowolnionych i małoletnich (asystent obecny, poufność w granicach prawa), komunikacja alternatywna (gest, tablica piktogramów), obserwacja nietypowych sygnałów bólu (wokalizacja, odwracanie głowy, odmowa pozycji); odciąż opiekuna — naucz go 2 technik «na krzesło». Sprawiedliwość: pełna godność i ten sam standard bezpieczeństwa dla każdego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

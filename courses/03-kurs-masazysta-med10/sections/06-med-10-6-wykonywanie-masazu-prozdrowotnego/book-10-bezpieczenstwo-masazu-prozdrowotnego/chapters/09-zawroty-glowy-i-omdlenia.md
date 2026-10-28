@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+Omdlenie (synkopa) w gabinecie — algorytm praktyczny: zwiastuny (bladość, poty, dzwonienie w uszach, nudności) → połóż pacjenta na plecach, unieś nogi ok. 30 cm, poluzuj ubranie, zapewnij powietrze; NIE podawaj wody do pełnej przytomności; gdy ustąpiło <1 min, oddech i krążenie sprawne — obserwacja, potem powolne wstawanie, wpis do rejestru zdarzeń. Brak oddechu/pulsu = natychmiast RKO i AED. Nieprzytomność >1–2 min lub brak poprawy — 112.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

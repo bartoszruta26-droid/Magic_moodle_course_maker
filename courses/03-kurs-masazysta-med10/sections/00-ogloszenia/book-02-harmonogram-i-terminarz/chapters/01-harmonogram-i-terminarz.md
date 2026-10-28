@@ -75,3 +75,5 @@ oraz pytaniem dnia z quizu samokontroli. Taki rozkład jest uczciwy wobec
 pamięci człowieka: systematyczność zastępuje talent, a sumienność — szczęście.
 Na miesiąc przed egzaminem MED.10 ruszają bloki powtórkowe modułu 11
 (symulacje, studia przypadków, kryteria wykonania praktycznego).
+
+<!-- subch-v6 -->

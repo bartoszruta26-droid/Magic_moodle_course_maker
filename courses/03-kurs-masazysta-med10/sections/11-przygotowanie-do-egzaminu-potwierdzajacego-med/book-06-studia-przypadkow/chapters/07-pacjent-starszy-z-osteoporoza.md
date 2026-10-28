@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Osteoporoza — utrata masy kostnej i pogorszenie mikroarchitektury kości — czyni tkanki podatnymi na złamania nawet przy minimalnym urazie. Zasada: żadnych gwałtownych ruchów, żadnego ucisku punktowego na wyrostki kolczyste i żebra, pozycje ułożone z pełnym podparciem. Masaż relaksacyjny o lekkiej/umiarkowanej sile, wykonany profesjonalnie zmniejsza lęk i napięcie mięśni ochraniających kręgosłup.
+Masaż osób starszych — dostosowanie praktyczne: skóra cienka i naczynia kruche (krwiaki przy najmniejszym nacisku → siła minimalna, bez oklepów), artrozy (ROM własny, bez «dociskania»), osteoporoza (zero kompresji osiowej i gwałtownych rotacji), polypragmazja (pytaj o leki — przeciwzakrzepowe!), lęk i izolacja (tempo wolne, zapowiedź każdego ruchu, rozmowa); wstawanie etapami (ryzyko upadku i hipotonii ortostatycznej). Cel: komfort, kontakt, zachowanie funkcji — i godność.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

@@ -23,7 +23,7 @@ Temat „6.2. Rodzaje masażu prozdrowotnego” realizuje 10 zagadnień szczegó
 
 ### 6.2.1. Masaż profilaktyczny
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 Masaż profilaktyczny: definicja: zapobieganie, nie leczenie — dla osób zdrowych i grup ryzyka (pracownicy statyczni, sportowcy amatorscy, seniorzy, kobiety w ciąży — wersja adaptowana). Cele: utrzymanie ROM i elastyczności tkanek, redukcja napięcia zanim pojawi się ból, wsparwanie krążenia żylnego/limfy (kończyny dolne u osób stojących), profilaktyka odleżynowa (osoby unieruchomione: masaż łożysk kostnych bez uciskania czerwonych miejsc, pozycjonowanie). Dawka łagodna: głaskanie+rozcieranie, 20–30 min, serie tygodniowe. Połącz z edukacją: ćwiczenia domowe, ergonomia, nawodnienie. Udokumentuj cel profilaktyczny w karcie (jasność prawna: nieświadomie nie „leczyłeś” bez wskazań). Profilaktyka jest ekonomią troski: taniej zapobiegać niż leczyć — i piękniej: dotyk wcześnie zaprasza ciało do spokoju.
 
@@ -73,7 +73,7 @@ Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska 
 
 ### 6.2.8. Masaż dla osób starszych w celach profilaktycznych
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -114,3 +114,5 @@ Temat 6.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
 
 <!-- subch-v1 -->
+
+<!-- subch-v6 -->

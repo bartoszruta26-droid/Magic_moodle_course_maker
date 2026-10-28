@@ -29,7 +29,7 @@ Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to
 
 ### 4.3.2. Próba Stemmera i inne objawy — w granicach edukacji
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -37,7 +37,7 @@ Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (resp
 
 Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (szacunek, zrozumienie, zapamiętanie).
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -110,3 +110,5 @@ Temat 4.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
 
 <!-- subch-v1 -->
+
+<!-- subch-v6 -->

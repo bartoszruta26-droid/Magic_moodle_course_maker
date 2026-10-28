@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+HIV/AIDS w praktyce gabinetu: masaż NIE przenosi HIV (drogi: krew, kontakty seksualne, igły, transmisja pionowa) — to fakty, które masz obowiązku nauczyć się na pamięć; standardowe środki ostrości: rękawiczki przy ryzyku kontaktu z krwią, higiena rąk, dezynfekcja powierzchni. Odmowa usługi z powodu statusu jest nieetyczna i dyskryminująca; przy immunosupresji — ostrożność co do mikrourazów skóry i oportunistycznych zmian (grzybica, półpasiec) — konsultacja. Tajemnica statusu — absolutna.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

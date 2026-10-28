@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

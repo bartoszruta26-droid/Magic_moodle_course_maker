@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Mówienie o zdrowiu bez straszenia — warsztat praktyczny: komunikat zawsze z trzema elementami: fakt («w palpacji napięcie jest zwiększone»), prawdopodobna przyczyna funkcjonalna («najczęściej od długiego siedzenia»), konkretny krok («ćwiczenie X dwa razy dziennie»). Unikaj czarnych scenariuszy i diagnoz «z gazety». Przećwicz na parze: ten sam przekaz w wersji straszącej i wspierającej — oceńcie różnicę lęku u odbiorcy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Choroba Raynauda w praktyce: napady (blednięcie → sinica → przekrwienie reaktywne palców pod wpływem zimna/stresu); w gabinecie: temperatura pokoju wyższa, ZIMNE dłonie terapeuty i olej ogrzać przed kontaktem, masaż dłoni rozgrzewający i DELIKATNY prowadzony PO napadzie (nie «przez» sinicę); edukacja: rękawiczki, rzucenie nikotyny, umiarkowana kofeina; posta wtórna (choroby tkanki łącznej) — reumatolog.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

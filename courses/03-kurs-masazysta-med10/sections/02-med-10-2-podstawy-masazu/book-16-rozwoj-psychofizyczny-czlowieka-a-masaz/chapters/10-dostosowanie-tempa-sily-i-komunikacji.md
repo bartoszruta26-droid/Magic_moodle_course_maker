@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
-
-Indywidualizacja zabiegu: tempo (ból ostry i stres → wolne; potrzeba pobudzenia → szybsze), siła (senior, dziecko, osteoporoza, neuropatia → lekka; sportowiec z hipertrofią → średnia lub głęboka za wyraźną zgodą), czas (pierwsza wizyta 30–45 minut maksimum), komunikacja (informuj przed zmianą techniki, pytaj o skalę 0–10 co kilka minut, pozwól przerwać w każdej chwili, parafrazuj obawy, kulturowa wrażliwość: preferencja terapeuty kobiety/mężczyzny, religia, skromność, tłumacz/PJM). Dokumentuj preferencje klienta w karcie (np. „nie toleruje oklepywania okolicy twarzy”) — to standard jakości i szacunku.
+Komunikacja i konflikty — warsztat praktyczny: model LEARN (Listen — Empathize — Apologize for experience — Resolve — Notify/documentation), komunikat «Ja» zamiast oskarżeń, rozmowa reklamacyjna nie przy innych klientach; prośby niestosowne («mocniej mimo bólu», granice cielesne): spokojna ODMOWA + jasna granica + dokumentacja + ewentualne zakończenie współpracy; eskalacja: przełożony → regulamin → ścieżka prawna. Ćwiczenie scenki: «klient żąda masażu przy gorączce» — przećwicz 3 wersje odmowy: bez winy i bez uległości.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

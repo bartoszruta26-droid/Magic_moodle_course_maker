@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Układ autonomiczny tłumaczy działanie masażu «na odległość»: techniki wolne, ciepłe i rytmiczne zwiększają tonus przywspółczulny (tętno spada, perystaltyka rośnie); szybkie i mocne — pobudzają współczulnie. Sfery Heada i strefy Mackenziego (odruchowe napięcia mięśni grzbietu pochodzące z trzewi) uczą praktyki: ból w «strefie» może mieć źródło narządowe — jeśli obraz nie pasuje do przeciążenia, kieruj do lekarza, nie «masuj nerki» na własną rękę.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

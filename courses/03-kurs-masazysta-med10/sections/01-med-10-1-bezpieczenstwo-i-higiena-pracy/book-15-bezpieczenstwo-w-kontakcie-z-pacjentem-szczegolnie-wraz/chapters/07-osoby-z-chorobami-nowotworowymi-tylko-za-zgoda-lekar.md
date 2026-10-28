@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż u osoby leczonej onkologicznie WYMAGA zgody lekarza prowadzącego (okres leczenia, lokalizacja, typ terapii). Zasady praktyczne: siła «pióra», omijanie pola napromienianego i okolicy guza, port naczyniowy — nie obciążać; po mastektomii z limfadenektomią — ryzyko limfedemy (drenaż MLD tylko po szkoleniu i zleceniu), małopłytkowość (krwiaki, krwawienia) = stop; obrzęk, gorączka, ból nowy — natychmiastowa informacja do poradni. Rozmowa: wspierająca, bez rokowań typu «wyleczę».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Nawodnienie praktycznie: zapotrzebowanie ok. 30 ml/kg masy ciała na dobę (więcej przy upale, wysiłku, gorączce); wodę pijemy małymi porcjami przez cały dzień, nie «na raz» przed zabiegiem. Po masażu pacjent wypija 1–2 szklanki wody — usunięcie produktów metabolizmu z tkanek wymaga objętości. Kursant ocenia nawodnienie palpacyjnie (elastyczność skóry, suchość śluzówek) i edukuje: jasnosłomkowy kolor moczu to prosty wskaźnik samokontroli.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

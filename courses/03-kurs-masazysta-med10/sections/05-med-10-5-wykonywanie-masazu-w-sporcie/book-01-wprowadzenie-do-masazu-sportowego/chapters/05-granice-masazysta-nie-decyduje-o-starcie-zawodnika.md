@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż sportowy dzielimy czasowo: PREDYSPOZYCYJNY (10-20 min przed startem: szybkie rozcieranie/oklepywanie, pobudzenie), POWYSIŁKOWY/regeneracyjny (do 30-60 min po: głaskanie odpływowe, delikatne rozcieranie, rozciąganie), PRZEBUDOWUJĄCY (24-72 h: głębsza praca z tkanką zmęczoną). Zakazy: masaż głęboki tuż przed startem (obniżenie compliance), masaż przy DOMS pierwszej doby u amatora, jakakolwiek praca nad mięśniem z podejrzeniem naderwania.
+Komunikacja i konflikty — warsztat praktyczny: model LEARN (Listen — Empathize — Apologize for experience — Resolve — Notify/documentation), komunikat «Ja» zamiast oskarżeń, rozmowa reklamacyjna nie przy innych klientach; prośby niestosowne («mocniej mimo bólu», granice cielesne): spokojna ODMOWA + jasna granica + dokumentacja + ewentualne zakończenie współpracy; eskalacja: przełożony → regulamin → ścieżka prawna. Ćwiczenie scenki: «klient żąda masażu przy gorączce» — przećwicz 3 wersje odmowy: bez winy i bez uległości.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

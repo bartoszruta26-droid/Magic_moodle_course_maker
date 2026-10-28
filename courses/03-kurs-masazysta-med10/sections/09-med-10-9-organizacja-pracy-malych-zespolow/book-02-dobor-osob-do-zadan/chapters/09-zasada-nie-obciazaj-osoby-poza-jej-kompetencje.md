@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż kobiety w ciąży: po I trymestrze i za zgodą położnej/ginekologa; pozycja boczna z klinami lub półsiedząca (BEZ leżenia przodem po 16. t.g.— ucisk na żyłę główną dolną!). Unikać: intensywnego ucisku okolicy krzyżowo-lędźwiowej „punktów indukcji porodu” (m.in. SP 6, BL 60 w Tradycyjnej Medycynie Chińskiej — dowody niejednoznaczne, dlatego zachowujemy najwyższą ostrożność), głębokiego masażu brzucha, długich pozycji rozciągających. Korzyści udokumentowane: redukcja bólu lędźwiowego, obrzęków, lęku; masażysta prowadzi kartę z pomiarami obwodów i obserwacjami.
-
-Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
+Masaż kobiety w ciąży — praktyka bezpieczeństwa: I trymestr tylko za zgodą ginekologa; II/III trymestr: pozycja na boku (lewa optymalna), unikaj leżenia na plecach >5 min (zespół żyły głównej dolnej!), poduszki/półwałki pod brzuch i kolana, bez ucisku brzucha i oklepywania powłok; techniki łagodne, przewidywalne; obrzęki fizjologiczne — drenaż delikatny odpływowy; CZERWONE FLAGI: krwawienie, ból głowy z zaburzeniami widzenia, nagły duży obrzęk, ból brzucha — natychmiast pomoc położnicza. Dokumentuj zgodę i observations.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

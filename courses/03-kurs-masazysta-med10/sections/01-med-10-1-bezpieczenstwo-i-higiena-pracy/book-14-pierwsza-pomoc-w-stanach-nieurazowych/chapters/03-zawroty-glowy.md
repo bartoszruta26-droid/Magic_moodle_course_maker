@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż twarzy i głowy praktycznie: demakijaż i higiena dłoni absolutne; kierunki: odpływ chłonki od środka twarzy do okolic uszu i wzdłuż boków szyi do węzłów; techniki: głaskanie płaskie, rozcieranie spiralne (czoło, żwacz, skronie, potylica), «kostki» palców na owłosionej skórze głowy, oklepywanie miotełkowe; ostrożnie: zatoki przynosowe w ostrym zapaleniu, jęczmień, trądzik ropny, zmiany skórne = omijać; jaskra i epilepsja — konsultacja. Tempo wolne + oddech pacjenta = efekt relaksacyjny.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

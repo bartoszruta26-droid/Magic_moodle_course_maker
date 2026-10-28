@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż kończyny dolnej praktycznie: kolejność stopa → podudzie → udo → pośladek, kierunek dosercowy; żylaki i fałdy pachwinowe (węzły, tętnica udowa) — omijaj; łydka: wałeczkowanie trójgłowego łydki — przy bólu spoczynkowym i obrzęku NAJPIERW wyklucz zakrzepicę (stop i lekarz!); Achilles: rozcieranie podłużne i poprzeczne bez pracy «przez ból»; udo: czworogłowy (głębiej), przywodziciele delikatnie (bruzda przyśrodkowa — naczynia/nerwy), pasmo boczne — wałkowanie. Ćwiczenie: pełny protokół 20 min z pomiarem obwodu kostki przed i po.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

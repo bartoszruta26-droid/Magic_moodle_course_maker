@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Masaż stawowy — granice i technika: praca na torebce, więzadłach i mięśniach okołostawowych; kolejność praktyczna: głaskanie kierunkowe → rozcieranie okrężne wokół szpary stawowej → (ZA SZKOLENIEM, ZLECENIEM I W GRANICACH ROM) trakcje, kompresje i ślizgi; end-feel i ból sterują całym ruchem; ostry wysięk, gorąca opuchlizna = STOP (reumatolog/ortopeda); endoproteza — typ w dokumentacji, żadnych rotacji ponad zakres fizjologiczny; współpraca z fizjoterapeutą obowiązkowa przy ograniczeniach mechanicznych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

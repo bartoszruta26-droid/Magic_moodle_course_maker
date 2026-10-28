@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Cykl treningowy a masaż praktycznie: okres przygotowawczy — seria regeneracyjna 1–2×/tydzień, techniki głębsze z umiarem; startowy — podtrzymanie gotowości: krótkie sesje pobudzające 1–2 dni przed startem, ZERO pracy głębokiej 48 h przed zawodami; przejściowy — odpoczynek tkanek, edukacja i prewencja. Zadanie kursanta: ułóż grafikę masaży dla makrocyklu biegacza lub kolarza ze swojego otoczenia i skonsultuj z trenerem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

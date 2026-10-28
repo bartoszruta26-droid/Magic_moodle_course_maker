@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Uciski praktyczne: punkt spustowy to plamka napięcia w pasmie włókien z promieniowaniem bólu; kompresja: kciuk/palec, narastanie siły 3–5 s do bólu «dobrego» ≤6/10, utrzymanie 30–90 s do ustąpienia tępego bólu, powolne puszczenie. Oddech pacjenta: wdech przy narastaniu, wydech przy przytrzymaniu. Bezpieczeństwo: nie uciskaj tętnic szyjnych ani bruzd nerwowych (parestezja = natychmiastowe STOP), w ciąży omijaj punkty «stymulujące».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

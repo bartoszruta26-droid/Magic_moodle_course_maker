@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Badanie funkcjonalne w praktyce: najpierw AROM (pacjent sam wykonuje ruch — patrzysz na jakość i ból), PROM tylko w granicach komfortu i Twoich uprawnień; ocena end-feel; siła manualna wg skali 0–5 «przeciw oporowi»; obwody taśmą co 5–10 cm od stałego punktu kostnego (porównanie stron!), długości kończyn (SPIS → malleolus). Notuj liczby i strony — to baza oceny serii zabiegów i rzeczowej współpracy z fizjoterapeutą.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

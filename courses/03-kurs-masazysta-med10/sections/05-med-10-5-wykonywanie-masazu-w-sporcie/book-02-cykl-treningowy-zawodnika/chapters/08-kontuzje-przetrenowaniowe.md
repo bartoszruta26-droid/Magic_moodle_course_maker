@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+Kontuzja sportowa w praktyce masażysty: świeży uraz ≤72 h — protokół PEACE & LOVE w ramach kompetencji (protect, elevate, kompresja, edukacja; potem stopniowe obciążanie); obrzęk i gorący staw = nie masuj okolicy, pracuj zdalnie; krwawienie mięśniowe («szarpnięcie» hamstringa) — bez pracy głębokiej 5–7 dni, zgodna z zaleceniem lekarza; sportowiec presuje «grać jutro» — Twoja odmowa chroni jego karierę i Twoją odpowiedzialność zawodową.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

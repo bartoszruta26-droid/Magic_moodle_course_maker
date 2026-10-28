@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Plan zabiegu i serii praktycznie: cel SMART (np. «redukcja bólu karku z 6/10 do ≤3/10 w 4 tygodniach, rotacja +15°»), dobór rodzaju masażu (klasyczny/relaksacyjny/drenaż), parametry (czas, siła, częstotliwość 2–3×/tydzień), kryteria oceny po każdym zabiegu (skala bólu, komfort, ROM/obwód); reguła korekty: brak poprawy po 3–5 zabiegach → konsultacja lekarska; nasilenie objawów → przerwa i analiza zdarzenia niepożądanego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

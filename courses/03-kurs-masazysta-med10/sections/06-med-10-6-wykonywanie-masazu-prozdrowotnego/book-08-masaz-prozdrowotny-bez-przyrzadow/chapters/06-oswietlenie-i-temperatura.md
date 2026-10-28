@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Bezpieczeństwo termiczne praktycznie: rozgrzewać krótko (okład 10–15 min, temperaturę nośnika sprawdzona na własnym nadgarstku), schładzać przez ściereczkę (krioterapia miejscowa 5–10 min, nigdy lód bezpośrednio na skórę bez kontroli); przeciwwskazania: zaburzenia czucia (neuropatia, cukrzyca), choroby naczyń obwodowych, odmrożenia w wywiadzie. Kamienie gorące: test temperatury każdej partii, obserwacja skóry po. Poparzenie preparatem = przerwać, chłodzić wodą 15–20 min, zgłosić, udokumentować.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

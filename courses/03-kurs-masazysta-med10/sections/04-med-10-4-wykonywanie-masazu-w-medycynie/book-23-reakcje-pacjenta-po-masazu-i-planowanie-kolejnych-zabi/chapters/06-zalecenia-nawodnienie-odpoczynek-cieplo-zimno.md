@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż w środowisku wodnym (hydroterapia): temperatura wody 33-36°C dla dorosłych, czas 15-30 min; wyporność odciąża stawy, hydrostatyczne ciśnienie wspomaga krążenie żylne i limfatyczne. Higiena: dezynfekcja niecek, prysznice obowiązkowe, badania sanitarne wody. Przeciwwskazania: otwarte rany, infekcje, nietrzymanie moczu/stolca, epilepsja bez nadzoru, lęk przed wodą— respektuj.
+Nawodnienie praktycznie: zapotrzebowanie ok. 30 ml/kg masy ciała na dobę (więcej przy upale, wysiłku, gorączce); wodę pijemy małymi porcjami przez cały dzień, nie «na raz» przed zabiegiem. Po masażu pacjent wypija 1–2 szklanki wody — usunięcie produktów metabolizmu z tkanek wymaga objętości. Kursant ocenia nawodnienie palpacyjnie (elastyczność skóry, suchość śluzówek) i edukuje: jasnosłomkowy kolor moczu to prosty wskaźnik samokontroli.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

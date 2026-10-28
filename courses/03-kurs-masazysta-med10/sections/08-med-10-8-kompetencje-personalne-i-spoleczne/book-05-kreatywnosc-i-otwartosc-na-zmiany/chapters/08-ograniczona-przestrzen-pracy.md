@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Organizacja stanowiska masażysty praktycznie: stół na wysokości talii (łokcie ~90°), dostęp do pacjenta z obu stron, oświetlenie ciepłe i regulowane, temperatura 22–26°C bez przeciągów, środki i ręczniki w zasięgu (bez sięgania «zza pleców»), droga ewakuacyjna wolna. Warunki domowe i podróżne: mata na podłodze lub krzesło masażowe, uporządkowane kable, poszanowanie prywatności domowników; brak stołu to wyzwanie mobilności, nie wymówka dla ergonomii. Raz w miesiącu zrób audyt zdjęcia własnego stanowiska.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

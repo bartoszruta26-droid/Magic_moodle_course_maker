@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
-
-Mięsień szkieletowy: włókna (syncytia wielojądrzyste) zebrane w pęczki owinięte pochewkami (endomysium, perimysium, epimysium) — ciągłość tych błon z powięzią głęboką stanowi podstawę technik łącznotkankowych. Jednostka motoryczna = neuron ruchowy α + unerwione włókna; zasada Hennemanna: rekrutacja od małych jednostek tonicznych do dużych szybkokurczliwych. Kurczliwość przez mechanizm sliding filament (aktyna–miozyna, ATP, jony Ca²⁺ z siateczki sarcoplazmatycznej). Przeciążenie prowadzi do mikrouszkodzeń, zespołu opóźnionej bolesności mięśniowej (DOMS) i punktów spustowych. Masaż normalizuje napięcie spoczynkowe i przepływ, modulując odruchy (narządy Golgiego, pętla γ) — przy chorobach nerwowo-mięśniowych (np. myasthenia gravis) konieczna jest konsultacja lekarska.
+Mięsień poprzecznie prążkowany wykonuje skurcz zależny od motoneuronu, a tonus spoczynkowy utrzymują jednostki motoryczne pracujące naprzemiennie. Masaż praktycznie: napięcie spada przy technikach wolnych, rytmicznych, zgodnych z oddechem; punkt spustowy gasisz kompresją 30–90 s lub protokołem napnij–rozluźnij, nigdy «przekruceniem na siłę». Kursant ćwiczy identyfikację brzuśca, przyczepu i kierunku włókien na partnerze przed pierwszą próbą techniki.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż sportowy dzielimy czasowo: PREDYSPOZYCYJNY (10-20 min przed startem: szybkie rozcieranie/oklepywanie, pobudzenie), POWYSIŁKOWY/regeneracyjny (do 30-60 min po: głaskanie odpływowe, delikatne rozcieranie, rozciąganie), PRZEBUDOWUJĄCY (24-72 h: głębsza praca z tkanką zmęczoną). Zakazy: masaż głęboki tuż przed startem (obniżenie compliance), masaż przy DOMS pierwszej doby u amatora, jakakolwiek praca nad mięśniem z podejrzeniem naderwania.
+Higiena pracy własnej — praktyka: limit 8–10 masaży dziennie (głębokich maks. 4–5), mikroprzerwa 5–10 minut między klientami (dezynfekcja, oddech, woda), dni lżejsze w grafiku, debriefing trudnych sytuacji z superwizorem, ruch kompensacyjny po pracy (odwrotny do pozycji zabiegu), sen 7–8 h. Objawy wypalenia: cynizm, depersonalizacja, poczucie nieskuteczności — wcześniej szukaj pomocy (psycholog, lekarz medycyny pracy). Sprawiedliwość wobec siebie jest warunkiem sprawiedliwości wobec pacjenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

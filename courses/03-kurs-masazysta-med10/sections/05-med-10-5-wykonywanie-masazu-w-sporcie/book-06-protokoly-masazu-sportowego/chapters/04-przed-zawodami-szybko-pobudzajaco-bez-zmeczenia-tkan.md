@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Praca w środowisku wodnym — praktyka bezpieczeństwa: temperatura wody 33–36°C sprawdzana miarownikiem, wejście i wyjście z asekuracją (maty antypoślizgowe, uchwyty), pacjent z padaczką lub chorobą wieńcową nigdy sam w wodzie; obserwacja co 3–5 minut: oddech, kolor skóry, pytanie o samopoczucie. Techniki w wodzie: głaskanie i rozcieranie prowadzone z falą hydrostatyczną (efekt odprowadzający), czas krótszy niż na sucho. Dezynfekcja wanien między osobami wg instrukcji producenta i sanepidu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

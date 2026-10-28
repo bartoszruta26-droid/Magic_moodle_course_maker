@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Fibromialgia to centralna sensytyzacja bólu: rozległy ból >3 mies., punkty bolesne, zmęczenie, zaburzenia snu. Masaż jest jedną z najlepiej udokumentowanych niefarmakologicznych interwencji — ALE musi być łagodny: głęboki, agresywny masaż nasila objawy. Protokół: głaskanie, rozcieranie powierzchowne, ciepło, długa sesja w przygaszonym świetle; stopniowanie czasu; stała komunikacja o natężeniu bólu (skala VAS/NRS).
+Choroby reumatyczne: RZS w rzucie (gorące, spuchnięte stawy) — bez masażu stawów, poza rzutem łagodne głaskanie i mobilizacje w komfortowym zakresie; twardzina układowa — skóra napięta, naczynia kruche (Raynaud!), techniki bardzo delikatne, umiarkowane ciepło; toczeń — fotowrażliwość, zmęczenie, ryzyko zakrzepowe (consensus z reumatologiem); fibromialgia — masaż krótki, przewidywalny, siła sterowana przez pacjenta (sygnał stop). Cel: funkcja i komfort, zawsze we współpracy z lekarzem prowadzącym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

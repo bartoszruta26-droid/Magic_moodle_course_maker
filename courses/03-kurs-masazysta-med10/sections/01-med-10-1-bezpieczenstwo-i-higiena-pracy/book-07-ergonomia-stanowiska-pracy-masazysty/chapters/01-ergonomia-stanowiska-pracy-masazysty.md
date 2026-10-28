@@ -59,7 +59,7 @@ Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (
 
 ### 1.7.6. Ćwiczenia profilaktyczne dla masażysty
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -67,7 +67,7 @@ Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (resp
 
 Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (szacunek, zrozumienie, zapamiętanie).
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -114,3 +114,5 @@ Temat 1.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
 
 <!-- subch-v1 -->
+
+<!-- subch-v6 -->

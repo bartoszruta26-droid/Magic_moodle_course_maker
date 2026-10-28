@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Rękawiczki jednorazowe — wskazania praktyczne: kontakt z krwią lub płynami ustrojowymi, zmianami skórnymi, opatrunkami, czynności pielęgnacyjne; NIE zastępują higieny rąk i nie nosimy ich «prewencyjnie» cały dzień (macieracja, złudne poczucie bezpieczeństwa). Zakładaj po dezynfekcji; zdejmuj chwytem za zewnętrzną powierzchnię mankietu, wywijając na drugą stronę; utylizuj zgodnie z rodzajem odpadów. Ćwiczenie: ściągnij rękawicę bez dotykania strony zewnętrznej skórą.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

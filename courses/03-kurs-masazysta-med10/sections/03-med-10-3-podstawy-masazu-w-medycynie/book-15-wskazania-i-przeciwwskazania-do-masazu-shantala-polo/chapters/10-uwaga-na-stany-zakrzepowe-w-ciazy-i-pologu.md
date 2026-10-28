@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Nieleczone żylaki i zakrzepica żył głębokich (DVT) to klasyka bezpieczeństwa: przy DVT — BEZWZGLĘDNY zakaz masażu kończyny i całego ciała w ostrej fazie (ryzyko zatorowości płucnej!). Objawy DVT: asymetryczny obrzęk łydki, ból przy zgięciu grzbietowym stopy (Homans), ocieplenie, przebarwienie. Żylaki powierzchniowe: głaskanie kierunkowe ku sercu, BEZ ugniatania nad workowatymi poszerzeniami, bandażowanie kompresyjne po zabiegu wg zaleceń chirurga naczyniowego.
-
-Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
+Choroba zakrzepowo-zatorowa: podejrzenie zakrzepicy (jednostronny obrzęk łydki, ból spoczynkowy, ciepło, nasilenie przy zgięciu grzbietowym stopy) = ZERO masażu, pilna konsultacja (USG Doppler, decyzja o anticoagulation). Żylaki istniejące: nie masuj NAD nimi (ryzyko oderwania skrzepliny, krwawienie), wokół — lekkie głaskanie odpływowe; po zabiegach flebologicznych — zgoda lekarza i ustalony czas. Edukacja pacjenta: wyroby uciskowe wg zlecenia, ruch, nawodnienie.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

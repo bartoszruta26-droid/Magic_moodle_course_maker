@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ortopedia — kwalifikacja zabiegowa: świeży uraz (obrzęk, krwiak, deformacja, niestabilność) = STOP, diagnostyka obrazowa, lekarz; po unieruchomieniu — masaż PROKSIMALNIE i DISTALNIE do segmentu, ROM wg zlecenia, bez «pracy przez staw zamrożony» bez fizjoterapeuty; amputacja/stan po protezowaniu — praca z kikutem (blizna, neuroma — delikatnie!), propriocepcja z fizjoterapeutą; entezopatie i «kolano biegacza» — rozcieranie przyczepu + rozluźnienie taśmy, progresja obciążeń, nie «masuj i biegnij»; dyskopatia z radikulopatią (parestezje do palców) — lekarz decyduje o zakresie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

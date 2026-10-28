@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ugniatanie (petrissage): wałeczkowanie (chwyt «klawiaturowy» na mięśniach długich), zgarnianie (wzdłuż włókien ku przyczepowi), rolkowanie i szczypcowe (fałd tkanki). Cel praktyczny: mechaniczne «wyciskanie» krwi i chłonki, rozluźnienie brzuśca, poprawa trofiki. Technika: faza trzymania 2–4 s + puszczenie, rytm zgodny z oddechem; przeciwwskazania miejscowe: żylaki, obrzęk zapalny, świeża blizna.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

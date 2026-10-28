@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Ortopedia — kwalifikacja zabiegowa: świeży uraz (obrzęk, krwiak, deformacja, niestabilność) = STOP, diagnostyka obrazowa, lekarz; po unieruchomieniu — masaż PROKSIMALNIE i DISTALNIE do segmentu, ROM wg zlecenia, bez «pracy przez staw zamrożony» bez fizjoterapeuty; amputacja/stan po protezowaniu — praca z kikutem (blizna, neuroma — delikatnie!), propriocepcja z fizjoterapeutą; entezopatie i «kolano biegacza» — rozcieranie przyczepu + rozluźnienie taśmy, progresja obciążeń, nie «masuj i biegnij»; dyskopatia z radikulopatią (parestezje do palców) — lekarz decyduje o zakresie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

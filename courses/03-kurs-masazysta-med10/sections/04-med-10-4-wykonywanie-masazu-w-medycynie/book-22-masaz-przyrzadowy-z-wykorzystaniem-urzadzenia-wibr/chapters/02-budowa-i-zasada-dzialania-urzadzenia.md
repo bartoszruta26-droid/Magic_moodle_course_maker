@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż przyrządowy (VCP, wibratory, roller): standaryzacja bodźca, oszczędność dłoni masażysty. Zasady: nigdy na wyrostki kostne/ przystosowanie naczyń/ bieliznę metalową; czas na okolicę ≤ 3-5 min; siła i częstotliwość wg protokołu producenta i karty pacjenta. Przeciwwskazania wspólne dla masażu + lokalne (implanty, rozrusznik serca— zakaz pracy w promieniu 15 cm!).
+Praca z urządzeniami (wibratory, roller-ball, stoły elektryczne) praktycznie: przeczytaj instrukcję producenta PRZED pierwszym użyciem (przeciwwskazania, czas, głowice), kontroluj stan sprzętu (kabel, uziemienie, luz) na początku dnia pracy; awaria = etykieta «nie używać», wycofanie, wpis serwisowy. Dobór głowic: miękkie, duża powierzchnia, niska amplituda na start; nigdy na wyrostkach kostnych, tarczycy, gojących się złamaniach. Oznakowanie CE i deklaracja właściwości użytkowej warunkują dopuszczenie sprzętu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

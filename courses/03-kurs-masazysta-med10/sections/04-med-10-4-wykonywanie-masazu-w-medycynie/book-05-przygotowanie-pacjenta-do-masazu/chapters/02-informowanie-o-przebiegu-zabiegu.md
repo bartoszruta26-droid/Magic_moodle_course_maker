@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zakończenie zabiegu i obserwacja poubiegowa: 2–3 min leżenia i wody do picia, pytania kontrolne («co teraz czujesz? skala 0–10?»); spodziewane: ciepło, rozluźnienie, lekka tkliwość <24 h; alarmowe: ból narastający, krwiak, obrzęk, wysypka, zawrót, duszność → procedura interwencji i wpis NOP. Planowanie kolejnego terminu: odstęp 24–72 h (po pracy głębokiej 48–72 h); korekta parametrów na podstawie reakcji — masaż jest dialogiem z tkanką, nie monologiem siły.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

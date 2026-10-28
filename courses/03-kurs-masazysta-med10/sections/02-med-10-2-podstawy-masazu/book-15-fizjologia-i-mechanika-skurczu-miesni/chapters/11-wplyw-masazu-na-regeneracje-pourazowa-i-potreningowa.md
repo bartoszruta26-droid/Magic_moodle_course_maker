@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
-
-Regeneracja po urazie obejmuje fazy gojenia (hemostaza → zapalenie → proliferacja → przebudowa): masaż okolicy proksymalnej i distalnej wcześnie, na tkankę bliznowatą dopiero po zamknięciu rany (≥3–4 tygodnie), praca głęboka po 6–8 tygodniach dojrzewania kolagenu. Potreningowo: okno 30–60 min — głaskanie i lekkie rozcieranie z rozciąganiem; 24–72 h — głębsze techniki tylko przy braku ostrego DOMS; wsparcie: krioterapia, kompresja, sen, żywienie (białko, omega-3, witamina D), lekka aktywność. Dowody: eksperymentalnie masaż zwiększa biogenezę mitochondrialną i obniża lokalne markery zapalne; efekt subiektywny bywa silniejszy niż obiektywny — bądź uczciwy w reklamie usług.
+Higiena pracy własnej — praktyka: limit 8–10 masaży dziennie (głębokich maks. 4–5), mikroprzerwa 5–10 minut między klientami (dezynfekcja, oddech, woda), dni lżejsze w grafiku, debriefing trudnych sytuacji z superwizorem, ruch kompensacyjny po pracy (odwrotny do pozycji zabiegu), sen 7–8 h. Objawy wypalenia: cynizm, depersonalizacja, poczucie nieskuteczności — wcześniej szukaj pomocy (psycholog, lekarz medycyny pracy). Sprawiedliwość wobec siebie jest warunkiem sprawiedliwości wobec pacjenta.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

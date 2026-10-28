@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Pielęgnacja skóry w pracy masażysty: mycie letnią wodą z łagodnym syndetem (pH ~5,5), «zamknięcie» wilgoci emolientem w ciągu 3 minut po kąpieli (reguła 3 minut), ochrona SPF twarzy i dłoni przez cały rok. Praktyka gabinetowa: ocena stanu skóry PRZED każdym zabiegiem (suchość, zmiany barwne, ciągłość), dobór środka poślizgowego do typu skóry (olej vs krem vs talk), po zabiegu zmycie resztek preparatu i polecenie pielęgnacji domowej. Skóra uszkodzona = przeciwwskazanie miejscowe.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

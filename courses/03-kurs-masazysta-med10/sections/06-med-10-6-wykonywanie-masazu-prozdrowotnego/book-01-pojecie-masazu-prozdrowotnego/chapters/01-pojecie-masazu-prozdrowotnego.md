@@ -29,7 +29,7 @@ Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), maci
 
 ### 6.1.2. Profilaktyka a terapia
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -43,7 +43,7 @@ Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol,
 
 Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (szacunek, zrozumienie, zapamiętanie).
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -61,9 +61,9 @@ Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz ch
 
 ### 6.1.7. Edukacja pacjenta/klienta
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (szacunek, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
-Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (szacunek, zrozumienie, zapamiętanie).
 
 **Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
@@ -110,3 +110,5 @@ Temat 6.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
 
 <!-- subch-v1 -->
+
+<!-- subch-v6 -->

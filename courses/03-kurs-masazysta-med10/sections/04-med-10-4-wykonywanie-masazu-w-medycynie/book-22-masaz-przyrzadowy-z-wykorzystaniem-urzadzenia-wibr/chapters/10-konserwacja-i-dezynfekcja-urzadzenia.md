@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż przyrządowy (VCP, wibratory, roller): standaryzacja bodźca, oszczędność dłoni masażysty. Zasady: nigdy na wyrostki kostne/ przystosowanie naczyń/ bieliznę metalową; czas na okolicę ≤ 3-5 min; siła i częstotliwość wg protokołu producenta i karty pacjenta. Przeciwwskazania wspólne dla masażu + lokalne (implanty, rozrusznik serca— zakaz pracy w promieniu 15 cm!).
+Higiena rąk w gabinecie (5 momentów WHO): przed kontaktem z pacjentem, przed czynnością aseptyczną, po ryzyku ekspozycji na płyny, po kontakcie z pacjentem, po kontakcie z otoczeniem. Mycie wodą z mydłem 40–60 s (paznokcie krótkie, bez pierścionków i zegarka), dezynfekcja preparatem alkoholowym 20–30 s do sucha — na zdrowej skórze. Kursant ćwiczy procedurę z checklistą; stany zapalne lub uszkodzenia dłoni masażysty = czasowe odsunięcie od zabiegów.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->

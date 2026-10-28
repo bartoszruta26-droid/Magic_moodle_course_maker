@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Jakość i legalność praktyki — check-list praktyczny: rejestracja działalności/podmiotu leczniczego (wymogi lokalu wg sanepidu), aktualne OC zawodowe, jawny cennik i regulamin, umowa o świadczenie usług; RODO: klauzula informacyjna, zgody, rejestr czynności, przechowywanie dokumentacji medycznej (co do zasady 20 lat, dostęp tylko uprawnionych); BHP: ocena ryzyka zawodowego, badania lekarskie pracowników, szkolenia wstępne i okresowe; procedura reklamacji pisemna. Ćwiczenie: przeprowadź «audyt jednego dnia» swojego gabinetu według check-listy i napraw 3 znalezione usterki.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v6 -->
