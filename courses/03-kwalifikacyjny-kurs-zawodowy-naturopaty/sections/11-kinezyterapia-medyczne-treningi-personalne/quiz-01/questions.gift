@@ -21,10 +21,10 @@
 
 
 ::mc-s11-111:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy kinezyterapii i treningu medycznego” (11.1)? {
+    ~ Ocena równowagi kwasowo-zasadowej i gospodarki wodnej
     = Fizjologia wysiłku fizycznego – adaptacje, progi, strefy intensywności, dług tlenowy
-    ~ Biomechanika ruchu – analiza wzorców, łańcuchy kinematyczne, dźwignie
-    ~ Zasady planowania treningu – FITT, progresja, indywidualizacja, specyficzność
     ~ Suplementacja w sporcie i treningu medycznym
+    ~ Testy funkcjonalne i ortopedyczne – podstawowe testy diagnostyczne narządu ruchu
 }
 // === Temat 11.2: Kinezyterapia w chorobach układu ruchu ===
 ::tf-s11-112-q1:: Zagadnienie „Ćwiczenia w chorobie zwyrodnieniowej stawów – wzmacnianie, zakres ruchu, odciążenie” wchodzi w zakres tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {TRUE} //
@@ -56,9 +56,9 @@
 
 ::mc-s11-112:: Które z poniższych zagadnień należy bezpośrednio do tematu „Kinezyterapia w chorobach układu ruchu” (11.2)? {
     = Ćwiczenia w chorobie zwyrodnieniowej stawów – wzmacnianie, zakres ruchu, odciążenie
-    ~ Ćwiczenia w dyskopatiach – stabilizacja centralna, core, metoda McKenziego
-    ~ Ćwiczenia w skoliozach i wadach postawy – korekcja, asymetria, pozycje izolowane
     ~ Jontoforeza – technika, leki, wskazania (wapniowa, jodowa, histaminowa, lignokainowa)
+    ~ Choroby układu nerwowego – neuropatie, choroby degeneracyjne, udary, porażenia
+    ~ Fibrositis (gościec pozastawowy) – lumbago, pleurodynia, sztywny kark
 }
 // === Temat 11.3: Kinezyterapia w chorobach wewnętrznych ===
 ::tf-s11-113-q1:: Zagadnienie „Trening w chorobach sercowo-naczyniowych – aerobowy, monitorowanie, schematy; testy prognostyczne” wchodzi w zakres tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {TRUE} //
@@ -84,9 +84,9 @@
 
 ::mc-s11-113:: Które z poniższych zagadnień należy bezpośrednio do tematu „Kinezyterapia w chorobach wewnętrznych” (11.3)? {
     = Trening w chorobach sercowo-naczyniowych – aerobowy, monitorowanie, schematy; testy prognostyczne
-    ~ Trening w nadciśnieniu – zasady, intensywność, przeciwwskazania
-    ~ Trening w cukrzycy – kontrola glikemii, bezpieczeństwo, typ wysiłku
+    ~ Wykrywanie zmian odruchowych – strefy przeczulicy, punkty maksymalne, zmiany w tkance łącznej i okostnej
     ~ Prawo do informacji, świadomej zgody i odmowy leczenia
+    ~ Dokumentacja zabiegowa i ocena efektów terapii
 }
 // === Temat 11.4: Kinezyterapia w neurologii i geriatrii ===
 ::tf-s11-114-q1:: Zagadnienie „Trening po udarze – neurorehabilitacja ruchowa; metody Bobath, Kabata, Brunnstrom, Rood, Vojta” wchodzi w zakres tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {TRUE} //
@@ -109,9 +109,9 @@
 
 ::mc-s11-114:: Które z poniższych zagadnień należy bezpośrednio do tematu „Kinezyterapia w neurologii i geriatrii” (11.4)? {
     = Trening po udarze – neurorehabilitacja ruchowa; metody Bobath, Kabata, Brunnstrom, Rood, Vojta
-    ~ Ćwiczenia w chorobie Parkinsona – rytmiczne, równoważne, antykifotyczne
-    ~ Ćwiczenia Frenkela – w ataksji i niezborności
     ~ Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna
+    ~ Twarz – czoło, okolice oczu, powieki, kurze łapki, nos, wargi, policzki; masaż metodą uciskową
+    ~ Fizjologia oddychania – mechanika, regulacja, wzorce; tory oddechowe
 }
 // === Temat 11.5: Trening oddechowy i relaksacyjny ===
 ::tf-s11-115-q1:: Zagadnienie „Fizjologia oddychania – mechanika, regulacja, wzorce; tory oddechowe” wchodzi w zakres tematu „Trening oddechowy i relaksacyjny” (11.5). {TRUE} //
@@ -136,9 +136,9 @@
 
 
 ::mc-s11-115:: Które z poniższych zagadnień należy bezpośrednio do tematu „Trening oddechowy i relaksacyjny” (11.5)? {
+    ~ Fizjologia skóry – termoregulacja, ochrona, synteza witaminy D
+    ~ Usuwanie szwów i agrafek – technika, czas (twarz 5–7 dni, tułów 7–10 dni, kończyny 10–14 dni)
     = Fizjologia oddychania – mechanika, regulacja, wzorce; tory oddechowe
-    ~ Ćwiczenia oddechowe – przeponowe, żebrowe, pełne, segmentarne, z oporem
-    ~ Techniki oddechowe – Butejko, oddech pudełkowy, oddech celowany
     ~ Rozpoznawanie objawów wypalenia i zmęczenia współczuciem
 }
 // === Temat 11.6: Trening funkcjonalny i medyczny trening personalny ===
@@ -164,8 +164,8 @@
 
 
 ::mc-s11-116:: Które z poniższych zagadnień należy bezpośrednio do tematu „Trening funkcjonalny i medyczny trening personalny” (11.6)? {
+    ~ Drenaż kończyny dolnej – faza I (na plecach: pachwina, udo, staw kolanowy, podudzie, staw skokowy, śródstopie, palce) i faza II (na brzuchu: pachwina, udo, dół podkolanowy, podudzie, ścięgno Achillesa, podeszwa, palce)
     = Trening funkcjonalny – wzorce ruchowe, transfer do codziennego życia
-    ~ Trening siłowy w rehabilitacji – progresja, obciążenie, technika; zakaz w ZZSK
-    ~ Trening wytrzymałościowy – marsz, rower, pływanie, nordic walking
     ~ Mentoring młodych naturopatów – przekazywanie wiedzy i doświadczenia
+    ~ Bóle głowy – migrena, bóle pourazowe, reumatyczne, pochodzenia szyjnego
 }

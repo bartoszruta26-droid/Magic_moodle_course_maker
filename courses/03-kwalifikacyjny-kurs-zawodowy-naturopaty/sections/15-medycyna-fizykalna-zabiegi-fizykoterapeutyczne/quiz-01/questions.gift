@@ -24,10 +24,10 @@
 
 
 ::mc-s15-151:: Które z poniższych zagadnień należy bezpośrednio do tematu „Hydroterapia i balneologia” (15.1)? {
-    = Fizjologiczne działanie wody – temperatura, ciśnienie, wypór
-    ~ Kąpiele lecznicze – gorące, zimne, naprzemienne, częściowe; solankowe, siarczkowo-siarkowodorowe, radonowe, kwasowęglowe, perełkowe
-    ~ Polewania i natryski – techniki Kneippa (deszczowy, wachlarzowy, biczowy, nitkowaty)
     ~ Drenaż odcinka lędźwiowo-krzyżowego i okolicy biodrowej
+    ~ Terapia lasem (shinrin-yoku) i kontakt z naturą jako terapia
+    ~ Podcinanie wędzidełka – technika, znieczulenie
+    = Fizjologiczne działanie wody – temperatura, ciśnienie, wypór
 }
 // === Temat 15.2: Termoterapia i fototerapia ===
 ::tf-s15-152-q1:: Zagadnienie „Ciepłolecznictwo – okłady, termofory, parafina, fango, borowina; temperatura i czas” wchodzi w zakres tematu „Termoterapia i fototerapia” (15.2). {TRUE} //
@@ -43,9 +43,9 @@
 
 
 ::mc-s15-152:: Które z poniższych zagadnień należy bezpośrednio do tematu „Termoterapia i fototerapia” (15.2)? {
+    ~ Wibracja (wstrząsanie) – pionowa (bezpośrednia, pośrednia), podłużna, poprzeczna; działanie i przeciwwskazania
     = Ciepłolecznictwo – okłady, termofory, parafina, fango, borowina; temperatura i czas
-    ~ Zimnolecznictwo – krioterapia miejscowa, okłady lodowe, zimne kąpiele
-    ~ Światłolecznictwo – lampa Sollux, terapia UV, laseroterapia niskoenergetyczna
+    ~ Morfologia krwi obwodowej – interpretacja naturopatyczna
     ~ Drenaż w obrzękach żylnych – zasady i ograniczenia
 }
 // === Temat 15.3: Elektroterapia i inne formy fizykoterapii ===
@@ -80,8 +80,8 @@
 
 
 ::mc-s15-153:: Które z poniższych zagadnień należy bezpośrednio do tematu „Elektroterapia i inne formy fizykoterapii” (15.3)? {
+    ~ Finanse praktyki – wycena usług, rozliczenia, ciągłość działania, sprawiedliwa opłata
     = Podstawy elektroterapii – TENS, prądy diadynamiczne, interferencyjne, Traberta; galwanizacja
-    ~ Elektrostymulacja – metoda Hufschmidta, Knautha; porażenia wiotkie i spastyczne
-    ~ Jontoforeza – technika, leki, wskazania (wapniowa, jodowa, histaminowa, lignokainowa)
     ~ Nieżyt żołądka (nadkwaśność, niedokwaśność) – masaż segmentarny; specyficzna kolejność
+    ~ Ćwiczenia Frenkela – w ataksji i niezborności
 }

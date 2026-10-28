@@ -25,8 +25,8 @@
 
 ::mc-s19-191:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1)? {
     = Przyjęcie pacjenta – wywiad (informacje stałe, zmienne, dodatkowe), diagnostyka, plan terapii
-    ~ Wykonanie masażu klasycznego leczniczego – pełna sesja pod nadzorem (kończyny, grzbiet, klatka piersiowa, brzuch, twarz)
-    ~ Wykonanie masażu segmentarnego w wybranych jednostkach chorobowych – chwyty diagnostyczne i lecznicze
+    ~ Nowotworzenie – karcynogeneza, klasyfikacja, markery
+    ~ Ustawodawstwo dotyczące zawodów medycznych i paramedycznych
     ~ Konferencje, warsztaty, kursy doskonalące – krajowe i międzynarodowe
 }
 // === Temat 19.2: Praktyka – kinezyterapia i trening medyczny ===
@@ -55,10 +55,10 @@
 
 
 ::mc-s19-192:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – kinezyterapia i trening medyczny” (19.2)? {
-    = Ocena funkcjonalna pacjenta i planowanie programu ćwiczeń
-    ~ Prowadzenie sesji kinezyterapii – choroby układu ruchu (ćwiczenia bierne, czynne, oporowe, w odciążeniu)
-    ~ Prowadzenie treningu w chorobach wewnętrznych – kardiologia (schematy ćwiczeń po zawale), diabetologia, pulmonologia (drenaż ułożeniowy, ćwiczenia oddechowe)
     ~ Iniekcje podskórne – technika, miejsca (ramię, udo, brzuch), kąt 45°
+    ~ Układ nerwowy – ośrodkowy i obwodowy, unerwienie segmentarne
+    ~ Dieta w alergiach i nietolerancjach pokarmowych – rotacyjna, eliminacyjna
+    = Ocena funkcjonalna pacjenta i planowanie programu ćwiczeń
 }
 // === Temat 19.3: Praktyka – fitoterapia, dietetyka i pielęgnacja ===
 ::tf-s19-193-q1:: Zagadnienie „Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring, interakcje” wchodzi w zakres tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {TRUE} //
@@ -80,9 +80,9 @@
 
 
 ::mc-s19-193:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3)? {
+    ~ Prowadzenie ogródka ziołowego – uprawa, pielęgnacja, zbiór
+    ~ Profilaktyka zakażeń – BHP, środki ochrony osobistej
     = Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring, interakcje
-    ~ Przygotowywanie przetworów zielarskich – warsztaty praktyczne (napary, nalewki, maści, syropy)
-    ~ Konsultacja dietetyczna – plan żywieniowy, edukacja pacjenta, monitoring
     ~ Marketing etyczny – budowanie zaufania, edukacja, obecność w społeczności; zakaz manipulacji
 }
 // === Temat 19.4: Praktyka – diagnostyka i konsultacja integracyjna ===
@@ -111,10 +111,10 @@
 
 
 ::mc-s19-194:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4)? {
-    = Przeprowadzenie pełnego wywiadu naturopatycznego – wymiar fizyczny, emocjonalny, duchowy
-    ~ Badanie fizykalne – ocena postawy, palpacja, testy funkcjonalne, pomiar parametrów
-    ~ Interpretacja wyników badań laboratoryjnych i obrazowych
     ~ Wywiad w kierunku alergii, nietolerancji, interakcji lekowych
+    ~ Integracja fitoterapii z farmakoterapią – synergia i interakcje
+    = Przeprowadzenie pełnego wywiadu naturopatycznego – wymiar fizyczny, emocjonalny, duchowy
+    ~ Iniekcje podskórne – technika, miejsca (ramię, udo, brzuch), kąt 45°
 }
 // === Temat 19.5: Praktyka – mentorstwo i coaching zdrowotny ===
 ::tf-s19-195-q1:: Zagadnienie „Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja” wchodzi w zakres tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5). {TRUE} //
@@ -133,10 +133,10 @@
 
 
 ::mc-s19-195:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5)? {
-    = Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja
-    ~ Opracowanie indywidualnego planu zmiany stylu życia z pacjentem
-    ~ Mentoring pacjenta w chorobie przewlekłej – towarzyszenie, edukacja, wsparcie
+    ~ Markery stanu zapalnego – CRP, OB, fibrynogen, RF
+    ~ Ocena obciążeń toksykologicznych i metabolicznych
     ~ Badania w kierunku alergii i nietolerancji pokarmowych – IgE, IgG
+    = Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja
 }
 // === Temat 19.6: Staż obserwacyjny ===
 ::tf-s19-196-q1:: Zagadnienie „Staż w gabinecie fizjoterapii / rehabilitacji – obserwacja i asystowanie” wchodzi w zakres tematu „Staż obserwacyjny” (19.6). {TRUE} //
@@ -155,8 +155,8 @@
 
 
 ::mc-s19-196:: Które z poniższych zagadnień należy bezpośrednio do tematu „Staż obserwacyjny” (19.6)? {
+    ~ Masaż bańką (próżniowy) – sucha i mokra
     = Staż w gabinecie fizjoterapii / rehabilitacji – obserwacja i asystowanie
-    ~ Staż w gabinecie masażu leczniczego – obserwacja technik, praca z pacjentem
-    ~ Staż w poradni medycyny naturalnej / integracyjnej – konsultacje, planowanie terapii
     ~ Identyfikacja wzorców chorobowych (Bian Zheng) – osiem zasad, narządy Zang-Fu
+    ~ Marketing etyczny – budowanie zaufania, edukacja, obecność w społeczności; zakaz manipulacji
 }

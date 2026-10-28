@@ -21,10 +21,10 @@
 
 
 ::mc-s16-161:: Które z poniższych zagadnień należy bezpośrednio do tematu „Przegląd systemów medycyny tradycyjnej” (16.1)? {
-    = Tradycyjna Medycyna Chińska (TCM) – filozofia, diagnostyka, metody (akupunktura, zioła, dieta, ćwiczenia)
-    ~ Ajurweda – filozofia, diagnostyka, terapie (Panchakarma, Abhyanga, Shirodhara)
-    ~ Medycyna tybetańska – podstawy, diagnostyka, ziołolecznictwo
+    ~ Uciski – przetaczanie dłoni
     ~ Evidence-based complementary medicine – krytyczna ocena dowodów naukowych
+    ~ Monitoring stanu zdrowia pacjenta – dokumentacja, wizyty kontrolne
+    = Tradycyjna Medycyna Chińska (TCM) – filozofia, diagnostyka, metody (akupunktura, zioła, dieta, ćwiczenia)
 }
 // === Temat 16.2: Terapie komplementarne – przegląd i zastosowanie ===
 ::tf-s16-162-q1:: Zagadnienie „Akupunktura i akupresura – teoria meridianów, praktyka, dowody” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
@@ -62,8 +62,8 @@
 
 ::mc-s16-162:: Które z poniższych zagadnień należy bezpośrednio do tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2)? {
     = Akupunktura i akupresura – teoria meridianów, praktyka, dowody
-    ~ Refleksologia – stopy, dłonie, uszy – techniki i zastosowanie
-    ~ Aromaterapia kliniczna – olejki eteryczne, drogi podania, bezpieczeństwo
+    ~ Opieka w okresie rekonwalescencji – stopniowanie aktywności, żywienie
+    ~ Ćwiczenia w fibromialgii – delikatne, progresywne, aerobowe
     ~ Kompetencje coacha zdrowotnego – aktywne słuchanie, pytania otwarte, parafraza, informacja zwrotna
 }
 // === Temat 16.3: Medycyna integracyjna – łączenie podejść ===
@@ -92,10 +92,10 @@
 
 
 ::mc-s16-163:: Które z poniższych zagadnień należy bezpośrednio do tematu „Medycyna integracyjna – łączenie podejść” (16.3)? {
-    = Model medycyny integracyjnej – pacjent w centrum, zespół interdyscyplinarny
-    ~ Evidence-based complementary medicine – krytyczna ocena dowodów naukowych
-    ~ Integracja fitoterapii z farmakoterapią – synergia i interakcje
+    ~ Substancje czynne – alkaloidy, glikozydy, flawonoidy, garbniki, saponiny, olejki eteryczne, śluzy, pektyny, kumaryny, terpeny
     ~ Komunikacja w zespole interdyscyplinarnym – lekarz, fizjoterapeuta, psycholog, naturopata
+    ~ Świadoma zgoda – informowanie o korzyściach, ryzyku i alternatywach
+    = Model medycyny integracyjnej – pacjent w centrum, zespół interdyscyplinarny
 }
 // === Temat 16.4: Wymiar duchowy i egzystencjalny w zdrowieniu ===
 ::tf-s16-164-q1:: Zagadnienie „Duchowość a zdrowie – badania naukowe i tradycja” wchodzi w zakres tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {TRUE} //
@@ -117,8 +117,8 @@
 
 
 ::mc-s16-164:: Które z poniższych zagadnień należy bezpośrednio do tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4)? {
-    = Duchowość a zdrowie – badania naukowe i tradycja
-    ~ Modlitwa, medytacja, kontemplacja jako wsparcie zdrowienia
-    ~ Sens, cel i nadzieja w procesie zdrowienia
     ~ Trening funkcjonalny osób starszych – profilaktyka upadków, równowaga
+    ~ Przewlekły nieżyt oskrzeli – okres ostry i przewlekły; masaż segmentarny i klasyczny; oklepywanie, wibracja, sprężynowanie
+    ~ Coaching w procesie zdrowienia po urazach i operacjach – wsparcie, cierpliwość, realistyczne oczekiwania
+    = Duchowość a zdrowie – badania naukowe i tradycja
 }

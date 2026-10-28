@@ -46,9 +46,9 @@
 
 ::mc-s01-11:: Które z poniższych zagadnień należy bezpośrednio do tematu „Anatomia ogólna i topograficzna” (1.1)? {
     = Budowa komórki, tkanek i narządów – przegląd systemowy
-    ~ Układ kostny – osteologia ogólna i szczegółowa
-    ~ Układ stawowy i więzadłowy – artrologia i biomechanika stawów
+    ~ Fizjologia układu mięśniowo-szkieletowego – biomechanika, propriocepcja
     ~ Trening w otyłości – progresja, motywacja, interdyscyplinarność
+    ~ Dieta w chorobach przewodu pokarmowego – FODMAP, eliminacyjna, lekkostrawna
 }
 // === Temat 1.2: Fizjologia człowieka ===
 ::tf-s01-12-q1:: Zagadnienie „Fizjologia komórki – transport błonowy, potencjał czynnościowy, metabolizm” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
@@ -88,10 +88,10 @@
 
 
 ::mc-s01-12:: Które z poniższych zagadnień należy bezpośrednio do tematu „Fizjologia człowieka” (1.2)? {
-    = Fizjologia komórki – transport błonowy, potencjał czynnościowy, metabolizm
-    ~ Fizjologia układu nerwowego – przewodzenie impulsów, synapsy, łuk odruchowy
-    ~ Fizjologia układu krążenia – hemodynamika, regulacja ciśnienia, powrót żylny
     ~ Trening osób starszych – siła, równowaga, koordynacja, funkcjonalność; profilaktyka upadków; ćwiczenia w niskich pozycjach, unikanie bezdechu i szybkich skłonów
+    ~ Przekazywanie trudnych informacji – zasady, praktyka, szacunek
+    = Fizjologia komórki – transport błonowy, potencjał czynnościowy, metabolizm
+    ~ Zniekształcenia kręgosłupa – plecy okrągłe, wklęsłe, okrągło-wklęsłe, płaskie; kifoza Scheuermanna; skoliozy (3 stopnie); kręgozmyk; lumbalizacja i sakralizacja
 }
 // === Temat 1.3: Anatomia i fizjologia w kontekście praktycznym naturopaty ===
 ::tf-s01-13-q1:: Zagadnienie „Punkty orientacyjne dla masażu i terapii manualnej” wchodzi w zakres tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {TRUE} //
@@ -113,8 +113,8 @@
 
 
 ::mc-s01-13:: Które z poniższych zagadnień należy bezpośrednio do tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3)? {
-    = Punkty orientacyjne dla masażu i terapii manualnej
-    ~ Dermatomy, miotomy, sklerotomy – znaczenie diagnostyczne i terapeutyczne
-    ~ Przebieg naczyń limfatycznych i węzły chłonne regionalne – mapowanie dla drenażu
     ~ Pielęgnacja stóp – profilaktyka, opieka diabetologiczna, wrastające paznokcie
+    ~ Zapalenie opłucnej – okresy wysiękowy, wchłaniania, rekonwalescencji
+    = Punkty orientacyjne dla masażu i terapii manualnej
+    ~ Grzbiet i kręgosłup – głaskania odcinkowe, rozcierania wokół wyrostków kolczystych, ugniatania (podłużne, poprzeczne, esowate, w kształcie litery N, zygzakowe), uciski na wyrostki poprzeczne i kolczyste
 }

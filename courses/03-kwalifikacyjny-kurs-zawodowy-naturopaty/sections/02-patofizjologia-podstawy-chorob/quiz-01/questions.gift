@@ -18,10 +18,10 @@
 
 
 ::mc-s02-21:: Które z poniższych zagadnień należy bezpośrednio do tematu „Patologia ogólna” (2.1)? {
+    ~ Badanie pulsu – 28 jakości pulsu, technika trzech palców
     = Uszkodzenie i śmierć komórki – nekroza, apoptoza, zmiany wsteczne
-    ~ Zapalenie ostre i przewlekłe – mediatory, fazy, następstwa
-    ~ Zaburzenia krążenia – przekrwienie, niedokrwienie, zakrzepica, zatorowość, obrzęk
     ~ Prowadzenie zabiegów hydroterapeutycznych i fizykalnych – kąpiele, okłady, sauna, krioterapia, elektrostymulacja, jontoforeza
+    ~ Ćwiczenia Frenkela – w ataksji i niezborności
 }
 // === Temat 2.2: Patofizjologia układów ===
 ::tf-s02-22-q1:: Zagadnienie „Choroby układu sercowo-naczyniowego – miażdżyca, nadciśnienie, niewydolność, wady zastawkowe” wchodzi w zakres tematu „Patofizjologia układów” (2.2). {TRUE} //
@@ -55,10 +55,10 @@
 
 
 ::mc-s02-22:: Które z poniższych zagadnień należy bezpośrednio do tematu „Patofizjologia układów” (2.2)? {
-    = Choroby układu sercowo-naczyniowego – miażdżyca, nadciśnienie, niewydolność, wady zastawkowe
-    ~ Choroby układu oddechowego – POChP, astma, zapalenia płuc i opłucnej, rozedma
-    ~ Choroby układu pokarmowego – choroba wrzodowa, IBS, IBD, choroby wątroby i trzustki
+    ~ Choroby kobiecych narządów płciowych – masaż segmentarny; stymulacja laktacji
     ~ Projekt programu coachingowego/mentoringowego – struktura, narzędzia, cele, ewaluacja
+    ~ Fizjologia układu mięśniowo-szkieletowego – biomechanika, propriocepcja
+    = Choroby układu sercowo-naczyniowego – miażdżyca, nadciśnienie, niewydolność, wady zastawkowe
 }
 // === Temat 2.3: Psychoneuroimmunologia i medycyna psychosomatyczna ===
 ::tf-s02-23-q1:: Zagadnienie „Wpływ stresu na homeostazę organizmu” wchodzi w zakres tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3). {TRUE} //
@@ -74,8 +74,8 @@
 
 
 ::mc-s02-23:: Które z poniższych zagadnień należy bezpośrednio do tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3)? {
-    = Wpływ stresu na homeostazę organizmu
-    ~ Somatyzacja i choroby psychosomatyczne – mechanizmy, rozpoznawanie
-    ~ Wpływ emocji na układ odpornościowy i procesy zapalne
+    ~ Drenaż odcinka lędźwiowo-krzyżowego i okolicy biodrowej
+    ~ Ochrona danych osobowych (RODO) w gabinecie
     ~ Drenaż ułożeniowy – pozycje wg segmentów płuc, technika oklepywania
+    = Wpływ stresu na homeostazę organizmu
 }

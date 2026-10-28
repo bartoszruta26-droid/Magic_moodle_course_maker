@@ -21,10 +21,10 @@
 
 
 ::mc-s05-51:: Które z poniższych zagadnień należy bezpośrednio do tematu „Higiena osobista i środowiskowa” (5.1)? {
-    = Higiena ciała – zasady, preparaty naturalne, pielęgnacja skóry zdrowej i chorej
-    ~ Higiena jamy ustnej – profilaktyka próchnicy i chorób przyzębia
-    ~ Higiena snu – środowisko, rytuały, jakość odpoczynku, rytm dobowy
+    ~ Mentoring rodzin pacjentów – edukacja, wsparcie, zapobieganie wypaleniu opiekunów
     ~ Badanie pulsu ajurwedyjskiego (Nadi Pariksha) – technika i interpretacja
+    ~ Dysplazja i wrodzone zwichnięcie biodra – postępowanie z niemowlęciem i dzieckiem
+    = Higiena ciała – zasady, preparaty naturalne, pielęgnacja skóry zdrowej i chorej
 }
 // === Temat 5.2: Profilaktyka pierwotna ===
 ::tf-s05-52-q1:: Zagadnienie „Edukacja zdrowotna jako fundament profilaktyki” wchodzi w zakres tematu „Profilaktyka pierwotna” (5.2). {TRUE} //
@@ -52,10 +52,10 @@
 
 
 ::mc-s05-52:: Które z poniższych zagadnień należy bezpośrednio do tematu „Profilaktyka pierwotna” (5.2)? {
+    ~ Higiena ciała – zasady, preparaty naturalne, pielęgnacja skóry zdrowej i chorej
     = Edukacja zdrowotna jako fundament profilaktyki
-    ~ Profilaktyka chorób cywilizacyjnych – dieta, ruch, sen, relacje
-    ~ Profilaktyka onkologiczna – czynniki ryzyka, badania przesiewowe
-    ~ Profilaktyka cukrzycy typu 2 i zespołu metabolicznego
+    ~ Rola wspólnoty i duchowości w życiu naturopaty – zapobieganie izolacji
+    ~ Terapia punktów spustowych – kompresja ischemiczna, stretching
 }
 // === Temat 5.3: Profilaktyka wtórna i trzeciorzędowa ===
 ::tf-s05-53-q1:: Zagadnienie „Wczesne wykrywanie chorób – badania przesiewowe, samobadanie” wchodzi w zakres tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3). {TRUE} //
@@ -71,10 +71,10 @@
 
 
 ::mc-s05-53:: Które z poniższych zagadnień należy bezpośrednio do tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3)? {
-    = Wczesne wykrywanie chorób – badania przesiewowe, samobadanie
-    ~ Rehabilitacja i zapobieganie nawrotom – rola naturopaty
-    ~ Profilaktyka powikłań w chorobach przewlekłych
     ~ Wibracja (wstrząsanie) – pionowa (bezpośrednia – pobudzająca, pośrednia – uspokajająca), podłużna (pobudzająca), poprzeczna (uspokajająca); działanie (obniżenie patologicznie zwiększonej pobudliwości nerwów, pobudzenie mięśni, przyspieszenie przemiany materii, leczenie otyłości, wpływ na gruczoły); przeciwwskazania (porażenia spastyczne, choroba Buergera, Raynauda)
+    ~ Pozycja drenażowa – uniesienie kończyn, zgięcie w stawach
+    = Wczesne wykrywanie chorób – badania przesiewowe, samobadanie
+    ~ Postępowanie w urazach głowy, kręgosłupa, klatki piersiowej, brzucha
 }
 // === Temat 5.4: Higiena i profilaktyka w praktyce naturopaty ===
 ::tf-s05-54-q1:: Zagadnienie „Higiena gabinetu – dezynfekcja, sterylizacja, utylizacja odpadów, wentylacja” wchodzi w zakres tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4). {TRUE} //
@@ -94,7 +94,7 @@
 
 ::mc-s05-54:: Które z poniższych zagadnień należy bezpośrednio do tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4)? {
     = Higiena gabinetu – dezynfekcja, sterylizacja, utylizacja odpadów, wentylacja
-    ~ Profilaktyka zakażeń – BHP, środki ochrony osobistej
-    ~ Zarządzanie ryzykiem w gabinecie naturopatycznym
     ~ Choroby kobiecych narządów płciowych – zaburzenia cyklu, bolesne miesiączkowanie, niedorozwój, dolegliwości ciąży, stymulacja laktacji
+    ~ Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja
+    ~ Superwizja kliniczna – formy, częstotliwość, zasady
 }

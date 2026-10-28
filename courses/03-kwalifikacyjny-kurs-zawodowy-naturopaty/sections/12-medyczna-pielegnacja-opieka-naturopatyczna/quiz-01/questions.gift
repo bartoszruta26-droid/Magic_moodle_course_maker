@@ -24,10 +24,10 @@
 
 
 ::mc-s12-121:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy pielęgnacji medycznej” (12.1)? {
-    = Rola naturopaty jako opiekuna – etyka, empatia, profesjonalizm, szacunek dla godności
-    ~ Higiena i pielęgnacja skóry – oczyszczanie, nawilżanie, ochrona; skóra sucha, „papierowa”, podatna na pęknięcia
-    ~ Pielęgnacja ran – zasady aseptyki, opatrunki, wspomaganie gojenia (gojenie doraźne, przez ziarninowanie, pod strupem)
     ~ Palpacja – techniki badania dotykiem, ocena temperatury, napięcia, bolesności tkanek
+    ~ Dieta w chorobach układu krążenia – śródziemnomorska, DASH
+    = Rola naturopaty jako opiekuna – etyka, empatia, profesjonalizm, szacunek dla godności
+    ~ Dieta w alergiach i nietolerancjach pokarmowych – rotacyjna, eliminacyjna
 }
 // === Temat 12.2: Zabiegi pielęgnacyjne i lecznicze ===
 ::tf-s12-122-q1:: Zagadnienie „Okłady i kompresy – gorące, zimne, ziołowe, octowe, z lodu” wchodzi w zakres tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {TRUE} //
@@ -52,9 +52,9 @@
 
 
 ::mc-s12-122:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2)? {
+    ~ Apteczka felczerska – wyposażenie, zasady stosowania, uzupełnianie
     = Okłady i kompresy – gorące, zimne, ziołowe, octowe, z lodu
-    ~ Kąpiele lecznicze – solankowe, ziołowe, siarkowe, borowinowe, kwasowęglowe, aromatyczne; temperatura i czas
-    ~ Zawijania i owijania – techniki Kneippa, zawijania borowinowe, parafinoterapia
+    ~ Profilaktyka onkologiczna – czynniki ryzyka, badania przesiewowe
     ~ TK i MRI – wskazania, interpretacja opisów, różnicowanie patologii tkanek miękkich
 }
 // === Temat 12.3: Opieka naturopatyczna w wybranych stanach ===
@@ -77,9 +77,9 @@
 
 
 ::mc-s12-123:: Które z poniższych zagadnień należy bezpośrednio do tematu „Opieka naturopatyczna w wybranych stanach” (12.3)? {
+    ~ Grzbiet i kręgosłup – głaskania odcinkowe, rozcierania wokół wyrostków kolczystych, ugniatania (podłużne, poprzeczne, esowate, w kształcie litery N, zygzakowe), uciski na wyrostki poprzeczne i kolczyste
     = Opieka w gorączce i stanach zapalnych – metody naturalne (okłady, hydroterapia)
-    ~ Opieka w bólu – niefarmakologiczne metody łagodzenia (pozycje, ciepło, zimno, masaż punktowy)
-    ~ Opieka w bezsenności – higiena snu, techniki relaksacyjne, fitoterapia
+    ~ Mikrobiom jelitowy – rola w trawieniu, odporności, zdrowiu psychicznym; dysbioza
     ~ Ocena Agni (ognia trawiennego) i Ama (toksyn metabolicznych)
 }
 // === Temat 12.4: Pierwsza pomoc i stany nagłe ===
@@ -106,7 +106,7 @@
 
 ::mc-s12-124:: Które z poniższych zagadnień należy bezpośrednio do tematu „Pierwsza pomoc i stany nagłe” (12.4)? {
     = Ocena stanu zagrożenia życia – algorytm ABCDE
-    ~ Resuscytacja krążeniowo-oddechowa (BLS/AED)
-    ~ Postępowanie w omdleniu, krwotoku, oparzeniu, złamaniu, zwichnięciu
+    ~ Kodeks etyczny naturopaty – zasady szczegółowe
     ~ Higiena psychiczna i emocjonalna – zarządzanie stresem, odpoczynek, kontemplacja
+    ~ Rwa kulszowa – ostry i przewlekły okres; kolejność postępowania
 }

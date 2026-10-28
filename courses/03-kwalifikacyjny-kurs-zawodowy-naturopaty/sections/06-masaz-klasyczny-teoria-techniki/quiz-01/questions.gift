@@ -25,9 +25,9 @@
 
 ::mc-s06-61:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy teoretyczne masażu klasycznego” (6.1)? {
     = Definicja masażu i rys historyczny – od starożytności (Indie, Chiny, Egipt, Grecja, Rzym) przez Ambrożego Paré, P.H. Linga, J. Mezgera, I. Zabłudowskiego do współczesności
-    ~ Cechy psychofizyczne masażysty – sprawność fizyczna, cierpliwość, empatia, znajomość psychologii pacjenta
-    ~ Zasady stosowania masażu klasycznego – wywiad, kierunek dosercowy, wskazania i przeciwwskazania, czas trwania, stopniowanie siły, seria zabiegów
     ~ Pielęgnacja stóp – profilaktyka, opieka diabetologiczna, wrastające paznokcie
+    ~ Zimnolecznictwo – krioterapia miejscowa, okłady lodowe, zimne kąpiele
+    ~ Medycyna antropozoficzna – filozofia, terapie
 }
 // === Temat 6.2: Techniki masażu klasycznego ===
 ::tf-s06-62-q1:: Zagadnienie „Głaskanie – rodzaje (muskanie, średnie, mocne; podłużne, poprzeczne, okrężne), działanie, wskazania i przeciwwskazania” wchodzi w zakres tematu „Techniki masażu klasycznego” (6.2). {TRUE} //
@@ -52,10 +52,10 @@
 
 
 ::mc-s06-62:: Które z poniższych zagadnień należy bezpośrednio do tematu „Techniki masażu klasycznego” (6.2)? {
-    = Głaskanie – rodzaje (muskanie, średnie, mocne; podłużne, poprzeczne, okrężne), działanie, wskazania i przeciwwskazania
-    ~ Rozcieranie – koliste, spiralne; powierzchowne i głębokie; podłużne, poprzeczne, okrężne; działanie i przeciwwskazania
-    ~ Ugniatanie – poprzeczne (wyciskanie), podłużne (przepychanie), pionowe (uciski), esowate, ze skręceniem, mieszenie; działanie pobudzające i rozluźniające
+    ~ Kwestionariusze zdrowia i jakości życia (SF-36, NDI, ODI, indeks HAQ)
     ~ Bezpieczeństwo fitoterapii – toksyczność, przeciwwskazania (ciąża, laktacja, dzieci, choroby wątroby i nerek)
+    ~ Rodzaje ćwiczeń – bierne, czynno-bierne, wspomagane, czynne wolne, czynne z oporem, izometryczne, w odciążeniu, redresyjne
+    = Głaskanie – rodzaje (muskanie, średnie, mocne; podłużne, poprzeczne, okrężne), działanie, wskazania i przeciwwskazania
 }
 // === Temat 6.3: Masaż klasyczny poszczególnych okolic ciała ===
 ::tf-s06-63-q1:: Zagadnienie „Kończyna górna – palce, śródręcze, staw promieniowo-nadgarstkowy, przedramię, staw łokciowy, ramię, staw ramienny” wchodzi w zakres tematu „Masaż klasyczny poszczególnych okolic ciała” (6.3). {TRUE} //
@@ -87,9 +87,9 @@
 
 ::mc-s06-63:: Które z poniższych zagadnień należy bezpośrednio do tematu „Masaż klasyczny poszczególnych okolic ciała” (6.3)? {
     = Kończyna górna – palce, śródręcze, staw promieniowo-nadgarstkowy, przedramię, staw łokciowy, ramię, staw ramienny
-    ~ Kończyna dolna – palce stóp, śródstopie, staw skokowy, podudzie, staw kolanowy (gimnastyka rzepki), udo, staw biodrowy, pośladki
-    ~ Grzbiet i kręgosłup – głaskania odcinkowe, rozcierania wokół wyrostków kolczystych, ugniatania (podłużne, poprzeczne, esowate, w kształcie litery N, zygzakowe), uciski na wyrostki poprzeczne i kolczyste
+    ~ Prowadzenie sesji kinezyterapii – choroby układu ruchu (ćwiczenia bierne, czynne, oporowe, w odciążeniu)
     ~ Suplementacja w sporcie i treningu medycznym
+    ~ Obserwacja po szczepieniu – odczyny miejscowe i ogólnoustrojowe, anafilaksja
 }
 // === Temat 6.4: Wskazania i przeciwwskazania do masażu ===
 ::tf-s06-64-q1:: Zagadnienie „Wskazania do masażu całkowitego – otyłość, stany wyczerpania, rekonwalescencja, sport, nerwice psychogenne, choroby dziecięce” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu” (6.4). {TRUE} //
@@ -106,7 +106,7 @@
 
 ::mc-s06-64:: Które z poniższych zagadnień należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu” (6.4)? {
     = Wskazania do masażu całkowitego – otyłość, stany wyczerpania, rekonwalescencja, sport, nerwice psychogenne, choroby dziecięce
-    ~ Wskazania do masażu częściowego – choroby układu krążenia, oddechowego, skóry, mięśni, nerwów, narządu ruchu, reumatyczne, dziecięce, zawodowe
-    ~ Bezwzględne przeciwwskazania do masażu – gorączka, krwotoki, choroby zakaźne, ostre stany zapalne, choroby skóry z pęcherzami, jamistość rdzenia, łamliwość kości, świeże złamania, stany ropne, zapalenie żył, świeże zakrzepy, zaawansowana miażdżyca, niewyrównane wady serca, tętniaki, ciąża, menstruacja, choroby nowotworowe
     ~ Magnetoterapia – działanie biologiczne, zastosowania, przeciwwskazania (rozrusznik!)
+    ~ Etyka mentorstwa – prawda, sprawiedliwość, brak manipulacji, dobro podopiecznego
+    ~ Wybór tematu – związek z praktyką kliniczną, aktualność, użyteczność
 }
