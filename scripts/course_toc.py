@@ -114,12 +114,18 @@ class Subtopic:
 @dataclass
 class Topic:
     num: str                 # np. "1.2"
-    title: str
+    title: str               # pelna linia spisu, np. "1.2. Przepisy prawa pracy..."
+    stem: str = ""           # "02-przepisy-prawa-pracy" (slug BEZ numeru tematu)
     subtopics: list[Subtopic] = field(default_factory=list)
 
     @property
     def order(self) -> int:
         return int(self.num.split(".")[1])
+
+    @property
+    def clean_title(self) -> str:
+        """Tytul bez numeru porzadkowego 'N.M.' - podstawa sluga strony."""
+        return re.sub(r"^\d{1,2}\.\d{1,2}\.?\s*", "", self.title).strip()
 
 
 @dataclass
@@ -228,6 +234,13 @@ def parse_course(path: str | Path) -> Course:
         flat = fold(text)
         head = flat.upper()
 
+        # ---- naglowek H2/H3 "CZESC WSTEPNA I RAMOWA" (w pliku bywa H2!) ----
+        if level in (2, 3) and state not in ("toc", "attachments", "summary", "end"):
+            if "CZESC WSTEPNA" in head:
+                state = "front"
+                cur_front = None
+                continue
+
         # ---- przejscia miedzy czesciami dokumentu (naglowki H1) ----
         if level == 1:
             cur_mod = cur_topic = cur_att = cur_front = None
@@ -320,6 +333,7 @@ def parse_course(path: str | Path) -> Course:
         mt = _RE_TOPIC.match(flat)
         if mt and int(mt.group(1)) == cur_mod.index:
             cur_topic = Topic(num=f"{mt.group(1)}.{mt.group(2)}", title=text)
+            cur_topic.stem = f"{cur_topic.order:02d}-{slugify(cur_topic.clean_title)}"
             cur_mod.topics.append(cur_topic)
             continue
 
@@ -336,6 +350,203 @@ def parse_course(path: str | Path) -> Course:
             topic.subtopics.sort(key=lambda s: [int(x) for x in s.num.split(".")])
     course.attachments.sort(key=lambda a: a.order)
     return course
+
+
+class Plan:
+    """Zbior operacji 'dotknij plik' z pelna idempotentnoscia (nic nie nadpisuje)."""
+
+    def __init__(self, dry_run: bool = False):
+        self.dry_run = dry_run
+        self.created: list[Path] = []
+        self.existed: list[Path] = []
+
+    def touch(self, path: Path):
+        if path.exists():
+            self.existed.append(path)
+            return
+        self.created.append(path)
+        if not self.dry_run:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.touch()
+
+    def report(self, label: str = "Plan"):
+        print(f"{label}: nowe = {len(self.created)}, "
+              f"istniejace = {len(self.existed)}, "
+              f"razem = {len(self.created) + len(self.existed)}")
+
+
+def course_file_plan(course: Course, base: Path, *,
+                     attachments_mode: str = "labels",
+                     front: bool = False,
+                     first_module_section: int = 1) -> list[Path]:
+    """Lista sciezek plikow szkicu kursu (bez tworzenia czegokolwiek)."""
+    paths: list[Path] = []
+    add = paths.append
+    for f in TOP_FILES:
+        add(base / f)
+    for sub in MEDIA_SUBDIRS:
+        add(base / "media" / sub / ".gitkeep")
+    qb = base / "question-bank"
+    add(qb / "categories.yaml")
+    for kind in QKINDS:
+        add(qb / kind / "set-01.gift")
+    add(qb / "multichoice" / "set-01.yaml")
+    add(base / "sections" / "00-ogloszenia" / "section.yaml")
+    add(base / "sections" / "00-ogloszenia" / "page.md")
+
+    if front:
+        for i, fs in enumerate(course.front, start=0):
+            sec = base / "sections" / f"{i:02d}-{slugify(fs.title)}"
+            add(sec / "section.yaml"); add(sec / "section.md")
+            for j, (_num, title) in enumerate(fs.items, start=1):
+                add(sec / f"page-{j:02d}-{slugify(title)}.md")
+
+    mods = sorted(course.modules, key=lambda m: m.index)
+    for k, mod in enumerate(mods, start=first_module_section):
+        sec = base / "sections" / mod.dir_name
+        add(sec / "section.yaml"); add(sec / "section.md")
+        for topic in mod.topics:
+            stem = topic.stem or f"{topic.order:02d}-{slugify(topic.clean_title)}"
+            add(sec / f"page-{stem}.md")
+            qz = sec / f"quiz-{topic.order:02d}"
+            for f in ("quiz.yaml", "questions.gift", "questions.yaml", "feedback.md"):
+                add(qz / f)
+            ap = sec / f"assignment-{topic.order:02d}"
+            add(ap / "assignment.yaml"); add(ap / "instructions.md")
+
+    if attachments_mode != "none":
+        att_first = first_module_section + len(mods)
+        if attachments_mode == "subdirs":
+            for att in course.attachments:
+                sec = base / "sections" / f"{att.order + att_first - 1:02d}-zalacznik-{slugify(att.title)}"
+                add(sec / "section.yaml"); add(sec / "section.md")
+                for j, (num, title) in enumerate(att.items, start=1):
+                    add(sec / f"page-{j:02d}-{slugify(title)}.md")
+        else:
+            sec = base / "sections" / f"{att_first:02d}-zalaczniki"
+            add(sec / "section.yaml"); add(sec / "section.md")
+            for att in course.attachments:
+                add(sec / f"label-{att.order:02d}-{slugify(att.title)}.md")
+    return paths
+
+
+def build_course_files(course: Course, base: Path, plan: Plan | None = None, **kw) -> Plan:
+    """Materializuje szkic kursu (wylacznie puste pliki) wg planu ze spisu tresci."""
+    plan = plan or Plan(dry_run=kw.pop("dry_run", False))
+    for p in course_file_plan(course, base, **kw):
+        plan.touch(p)
+    return plan
+
+
+# ------------------------------------------------------------------ slugi stron
+_PAGE_RE = re.compile(r"^page-(\d{1,3})-(.+?)\.md$")
+
+
+def topic_slug_variants(topic: Topic) -> list[str]:
+    """Wszystkie akceptowalne koncowki sluga strony tematu (od najbardziej
+    oczekiwanej do najluZniejszej) - tolerancja na historyjne skroty slow."""
+    base_words = [w for w in slugify(topic.clean_title).split("-") if w]
+    out = []
+    # 1) pelny slug bez numeru tematu
+    out.append("-".join(base_words))
+    # 2) ten sam, ale 'kwalifikacy(jn|nego...) -> kw' itp. (historia repo)
+    abb = [(_ABBREV.get(w, w)) for w in base_words]
+    if abb != base_words:
+        out.append("-".join(abb))
+    # 3) wariant z przymusowa inicjala ostatniego mego slowa (maxdl truncation)
+    return out
+
+
+def match_page_topic(pages: list[str], topic: Topic) -> str | None:
+    """Znajdz istniejaca strone page-NN-*.md pasujaca do tematu (po numerze NN)."""
+    want_num = f"{topic.order:02d}"
+    for name in pages:
+        m = _PAGE_RE.match(name)
+        if not m:
+            continue
+        if m.group(1) == want_num or int(m.group(1)) == topic.order:
+            return name
+    return None
+
+
+def normalize_pages(course: Course, base: Path, *, dry_run: bool = False) -> dict:
+    """Przechowuje/poukladaj puste strony page-NN-*.md wg spisu tresci.
+
+    * pusty plik z tym samym numerem, ale innym slugiem   -> zmiana nazwy,
+    * wiele pustych duplikatow tego samego numeru         -> usuniecie nadwyzki,
+    * brak jakiejkolwiek strony dla tematu                -> utworzenie pustej,
+    * plik NIEPUSTy (ma tresc)                            -> nietknięty (skipped).
+    """
+    stats = {"renamed": 0, "removed_dupes": 0, "created": 0,
+             "kept": 0, "skipped_nonempty": 0}
+    for mod in sorted(course.modules, key=lambda m: m.index):
+        sec = base / "sections" / mod.dir_name
+        if not sec.is_dir():
+            continue
+        pages = sorted(p.name for p in sec.glob("page-*.md"))
+        for topic in mod.topics:
+            want = sec / f"page-{topic.stem}.md"
+            same_num = [sec / n for n in pages
+                        if _PAGE_RE.match(n) and int(_PAGE_RE.match(n).group(1)) == topic.order]
+            empties = [p for p in same_num if p.stat().st_size == 0]
+            nonempty = [p for p in same_num if p.stat().st_size > 0]
+            if want.exists():
+                if want.stat().st_size > 0:
+                    stats["kept"] += 1
+                for dup in empties:
+                    if dup != want:
+                        if not dry_run:
+                            dup.unlink()
+                        stats["removed_dupes"] += 1
+                continue
+            if nonempty:
+                stats["skipped_nonempty"] += 1     # nie niszczymy realnej tresci
+                continue
+            if len(empties) == 1:
+                if not dry_run:
+                    empties[0].rename(want)
+                stats["renamed"] += 1
+            else:
+                for e in empties:
+                    if not dry_run:
+                        e.unlink()
+                    stats["removed_dupes"] += 1
+                if not dry_run:
+                    want.parent.mkdir(parents=True, exist_ok=True)
+                    want.touch()
+                stats["created"] += 1
+    return stats
+
+
+def check_structure(course: Course, base: Path) -> list[str]:
+    """Walidacja: co sie rozni miedzy spisem tresci a stanem na dysku."""
+    problems = []
+    for mod in sorted(course.modules, key=lambda m: m.index):
+        sec = base / "sections" / mod.dir_name
+        if not sec.is_dir():
+            problems.append(f"brak sekcji {mod.dir_name}")
+            continue
+        pages = sorted(p.name for p in sec.glob("page-*.md"))
+        for topic in mod.topics:
+            want = f"page-{topic.stem}.md"
+            if want not in pages:
+                hit = match_page_topic(pages, topic)
+                if hit:
+                    problems.append(f"{mod.dir_name}: strona '{hit}' powinna miec nazwe '{want}'")
+                else:
+                    problems.append(f"{mod.dir_name}: brak strony '{want}'")
+            for d, files in ((f"quiz-{topic.order:02d}", ("quiz.yaml", "questions.gift",
+                                                          "questions.yaml", "feedback.md")),
+                             (f"assignment-{topic.order:02d}", ("assignment.yaml",
+                                                                "instructions.md"))):
+                for f in files:
+                    if not (sec / d / f).exists():
+                        problems.append(f"{mod.dir_name}: brak {d}/{f}")
+        nums = {int(_PAGE_RE.match(n).group(1)) for n in pages if _PAGE_RE.match(n)}
+        orders = {t.order for t in mod.topics}
+        for extra in sorted(nums - orders):
+            problems.append(f"{mod.dir_name}: dodatkowa strona page-{extra:02d}-* (brak tematu w spisie)")
+    return problems
 
 
 def default_source() -> Path:
