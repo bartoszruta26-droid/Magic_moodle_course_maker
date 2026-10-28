@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
+Profilaktyka obrzęków i zaburzeń krążenia żylnego: unikanie długiego stania/siedzenia z opuszczonymi nogami, aktywacja pompy mięśniowej (marsz z pełnym przetaczaniem stopy, wspięcia na palce, rower), nawodnienie, kompresja profilaktyczna wg wskazań, redukcja ucisku (ciasne skarpetki, zapasowe opaski), pozycje drenujące z kończyną powyżej serca. Czerwona flaga: nagły, bolesny, asymetryczny obrzęk łydki → podejrzenie zakrzepicy → STOP masażu i lekarz. Ćwiczenie: zaprojektuj «godzinę antyobrzękową» dla pracownika stojącego i przeprowadź ją na sobie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

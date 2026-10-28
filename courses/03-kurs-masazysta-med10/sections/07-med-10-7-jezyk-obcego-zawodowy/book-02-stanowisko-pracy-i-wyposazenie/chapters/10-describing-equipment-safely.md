@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Opisując sprzęt po angielsku, mówimy dokładnie i bezpiecznie: «adjustable massage table», «hydraulic lift chair», «heat pack» — nigdy «therapy machine» sugerującego urządzenie medyczne bez rejestracji. Praktyka: ucz się fraz funkcjonalnych (co robi, jak ustawić, kiedy NIE używać): «Please keep the cord away from water», «The table is stabilized with brakes». Ćwiczenie kursanta: opisz na głos trzy urządzenia ze swojej sali ćwiczeń w 60 sekund każde, z jednym zdaniem ostrzeżenia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

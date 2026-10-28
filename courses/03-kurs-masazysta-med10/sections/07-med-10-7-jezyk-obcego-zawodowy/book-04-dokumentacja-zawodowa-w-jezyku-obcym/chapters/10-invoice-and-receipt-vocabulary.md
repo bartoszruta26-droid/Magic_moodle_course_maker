@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Słownictwo faktury i paragonu: «invoice», «receipt», «VAT», «payment method», «service itemized as massage therapy». Praktyka: na wydruku nazwa usługi zgodna z ofertą i cennikiem, kwota brutto, NIP, data — to prawo konsumenta i Twoja ochrona przy kontroli; unikaj sformułowań leczniczych typu «medical treatment», jeśli nie jesteś podmiotem leczniczym. Ćwiczenie: wystaw fikcyjną fakturę za serię 5 zabiegów i sprawdź ją wg listy 6 elementów obligatoryjnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

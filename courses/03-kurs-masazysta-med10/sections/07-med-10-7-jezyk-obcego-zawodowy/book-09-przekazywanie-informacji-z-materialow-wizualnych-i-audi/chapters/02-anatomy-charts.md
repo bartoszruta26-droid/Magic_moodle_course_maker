@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Tablice anatomiczne jako pomoc edukacyjna: wskazujesz palcem strukturę i nazwę, tłumaczysz prostym językiem, nie przeciążasz terminami; przy kliencie anglojęzycznym — dwujęzyczna legenda. Praktyka: zawieś tablicę tylko tam, gdzie realnie z niej korzystasz (wywiad, objaśnienie bólu); rysunek „na kartce” bywa skuteczniejszy niż wielka plansza. Zadanie: przeprowadź 3-minutowe wyjaśnienie budowy odcinka lędźwiowego różnym odbiorcom: dziecko, sportowiec, senior.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zaburzenia czucia (cukrzyca z neuropatią, uszkodzenia rdzenia kręgowego, neuralgie, stan po udarze) odbierają pacjentowi naturalny alarm bólowy — nie poczuje on za dużego nacisku, otarcia ani temperatury, a tkanka ucierpi bez zgłoszenia. Praktyka: skróć czas pracy na jednej okolicy, zmniejsz siłę o połowę, kontroluj skórę wizualnie co kilka minut (bielizna, rumień utrwalony, pęcherze), nie stosuj ciepła ani zimna lokalnego bez nadzoru i termometru; ucz pacjent samokontroli wzrokowej. Zadanie kursanta: na fantomie lub partnerze przećwicz protokół «praca bez sygnału bólu» — palpacja + ocena skóry po 5 min, zapis w karcie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
-
-Higiena osobista masażysty to standard sanitarny potwierdzany badaniami do celów epidemiologicznych (orzeczenie lekarskie o braku przeciwwskazań do kontaktu z klientem — ustawa o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych), codzienny prysznic, czysta odzież robocza, krótkie zadbane paznokcie bez lakieru i biżuterii, związane długie włosy, obuwie zamknięte antypoślizgowe. Mycie rąk według 5 momentów WHO: przed kontaktem, przed czynnością aseptyczną, po ryzyku kontaktu z płynami ustrojowymi, po kontakcie, po kontakcie z otoczeniem pacjenta; dezynfekcja preparatem alkoholowym przez min. 30 s przy braku widocznych zanieczyszczeń.
+Higiena osobista i wizerunek zawodu budują zaufanie pacjenta zanim padnie pierwsze słowo: codzienny prysznic, dezodorant bez intensywności (silne perfumy przeszkadzają i drażnią), czyste włosy spięte, krótkie paznokcie, świeży oddech (kawa/mięta przed wizytą), zadbany strój serwisowy bez plam, buty czyste. Piękno tego standardu: szacunek dla bliskości, w jakiej odbywa się zabieg; sprawiedliwość: tych samych wymagań przestrzegamy wobec klienta premium i wobec pacjenta DPS. Zadanie kursanta: sporządź własną check-listę «gotowość 5 minut przed wejściem pacjenta» i stosuj ją przez tydzień praktyk.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

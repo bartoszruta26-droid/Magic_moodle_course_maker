@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż sportowy dzielimy czasowo: PREDYSPOZYCYJNY (10-20 min przed startem: szybkie rozcieranie/oklepywanie, pobudzenie), POWYSIŁKOWY/regeneracyjny (do 30-60 min po: głaskanie odpływowe, delikatne rozcieranie, rozciąganie), PRZEBUDOWUJĄCY (24-72 h: głębsza praca z tkanką zmęczoną). Zakazy: masaż głęboki tuż przed startem (obniżenie compliance), masaż przy DOMS pierwszej doby u amatora, jakakolwiek praca nad mięśniem z podejrzeniem naderwania.
+Etyka praktyczna masażysty: tajemnica zawodowa (także «znam VIP-a» = zakaz plotki), zgoda świadoma i prawo pacjenta do przerwania, granice cielesne i kulturowe (okolice intymne tylko za wyraźną zgodą i w ramach protokołu), uczciwe obietnice (nie leczymy chorób — wspieramy funkcję), odpowiedzialność: porządkowa, zawodowa, cywilna (OC!) i karna (naruszenie nietykalności, narażenie zdrowia). Miłość bliźniego w tym zawodzie = kompetencja + pokora: powiedziane na czas «nie wiem» ratuje pacjenta i Ciebie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

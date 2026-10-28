@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+Stan urazowy w pierwszej pomocy masażysty: ocena bezpieczeństwa miejsca, przytomność, kręgosłup jako «niewzruszalny» przy podejrzeniu, tamowanie krwawienia uciskiem, unieruchomienie złamań «tak jak leży», rany — opatrunek czysty, amputowany fragment — zabezpieczony na lodzie «pośrednio». Praktyka: apteka z listą, kontrola ważności, szkolenie raz w roku. Zadanie: scenariusz «pacjent zsunął się ze stołu, skarży się na biodro, siniak rośnie» — twoje 5 decyzji w kolejności.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

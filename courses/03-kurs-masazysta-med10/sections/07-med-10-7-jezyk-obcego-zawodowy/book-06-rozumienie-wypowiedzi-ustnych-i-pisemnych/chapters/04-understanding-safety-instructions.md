@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Zrozumienie instrukcji bezpieczeństwa: identyfikujesz w tekście słowa-komendy (WARNING, CAUTION, Do not…, Keep away from…), parametry krytyczne (maksymalny czas, temperatura, sposób wyłączenia) i kolejność kroków. Praktyka: zanim włączysz nowe urządzenie — przeczytaj sekcję «Safety», znajdź certyfikat CE/deklarację zgodności i sposób wyłączenia awaryjnego. Zadanie: na instrukcji lampy ciepła / suchego punktu podkreśl wszystkie zdania warunkowe «if/when» i ułóż z nich check-list uruchomienia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

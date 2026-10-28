@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Czynniki warunkujące zdrowie (model DAL): biologia/genetyka ~20%, środowisko ~20%, styl życia ~50% (dieta, ruch, sen, używki, radzenie ze stresem), opieka zdrowotna ~10%. Praktyka masażysty: edukuj w granicach kompetencji — wspieraj ruch, regenerację i redukcję napięcia, nie lecz chorób dietą. Zadanie: narysuj wykres czynników dla pacjenta z bólami karku i wskaż 2 czynniki «najtańsze do zmiany».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

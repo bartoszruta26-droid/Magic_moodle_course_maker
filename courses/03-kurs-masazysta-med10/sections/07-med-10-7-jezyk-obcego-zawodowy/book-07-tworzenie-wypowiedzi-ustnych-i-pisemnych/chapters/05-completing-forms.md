@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Wypełnianie formularzy (completing forms) w obrocie zawodowym: skierowanie, zgoda na zabieg, karta zlecenia fizjoterapeuty/lekarza — pola obowiązkowe (dane pacjenta, rozpoznanie/objaw, okolica, liczba zabiegów, podpis, pieczęć, data). Praktyka: brakującej informacji NIE wymyślasz — dzwonisz do wystawcy; kopię skanowanego dokumentu przechowujesz zgodnie z RODO. Ćwiczenie: zweryfikuj trzy przykładowe skierowania pod kątem 6 braków formalnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

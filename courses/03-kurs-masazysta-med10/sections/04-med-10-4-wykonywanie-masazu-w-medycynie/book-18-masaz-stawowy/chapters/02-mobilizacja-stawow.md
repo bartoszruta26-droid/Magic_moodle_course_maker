@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Trakcja, kompresja, rotacja i ślizg to techniki stawowe realizowane TYLKO w granicach fizjologicznego zakresu ruchu i po stosownym szkoleniu: trakcja — osiowe, drobne oddalenie powierzchni stawowych; ślizg (gliding) — ruch torebki zgodny z biomechaniką stawu (reguła convex-concave); end-feel tkankowy (sprężysty) jest OK, kostny lub pusty z bólem = stop. Praktyka kursanta: asysta przy fizjoterapeucie, dokumentacja goniometrem, zasada «nie manipuluj bez uprawnień».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

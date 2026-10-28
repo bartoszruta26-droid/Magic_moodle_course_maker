@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Etyka praktyczna masażysty: tajemnica zawodowa (także «znam VIP-a» = zakaz plotki), zgoda świadoma i prawo pacjenta do przerwania, granice cielesne i kulturowe (okolice intymne tylko za wyraźną zgodą i w ramach protokołu), uczciwe obietnice (nie leczymy chorób — wspieramy funkcję), odpowiedzialność: porządkowa, zawodowa, cywilna (OC!) i karna (naruszenie nietykalności, narażenie zdrowia). Miłość bliźniego w tym zawodzie = kompetencja + pokora: powiedziane na czas «nie wiem» ratuje pacjenta i Ciebie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

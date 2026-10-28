@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ochrona przeciwpożarowa opiera się na zasadzie wzajemności: technika (drogi ewakuacyjne, oznakowanie, podręczny sprzęt gaśniczy — kontrola gaśnic co 12 miesięcy, hydrantów wewnętrznych raz w roku; przeglądy instalacji z protokołem) i organizacja (instrukcja bezpieczeństwa pożarowego, wyznaczenie osób do zwalczania pożaru i ewakuacji, szkolenie pracowników w dniu zatrudnienia i następnie co 2 lata). Plan ewakuacji gabinetu musi uwzględniać osoby leżące na stole masażnym: priorytetem jest ewakuacja ludzi, potem mienia; punkt zbiórki weryfikowany listą obecności.
+Ochrona przeciwpożarowa gabinetu: karta gazowości/elektryczności pomieszczenia, gaśnica ABC min. 4 kg przy wyjściu (sprawdź przegląd!), znak F-kierunkowy i D-oświetlenie awaryjne, droga ewakuacyjna wolna od kartonów i leżaków. Praktyka: znać na pamięć procedurę T-R-R (wzywasz ratunek, alarmujesz, gasisz tylko we wczesnej fazie i mając drogę odwrotu); oleje i tekstylia to materiały palne — nie składować ich przy grzejnikach. Ćwiczenie: poprowadź próbną ewakuację grupy i rozlicz czas (< 3 min).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

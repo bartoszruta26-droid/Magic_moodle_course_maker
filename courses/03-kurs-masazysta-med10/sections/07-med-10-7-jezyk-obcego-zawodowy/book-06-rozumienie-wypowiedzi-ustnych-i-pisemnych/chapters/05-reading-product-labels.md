@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Czytanie etykiet produktów: skład INCI (olej bazowy → olejki eteryczne ≤ dopuszczalnych stężeń), data ważności i PAO (period after opening), środki ostrożności («for external use only», «avoid contact with eyes»), kraj pochodzenia i dystrybutor. Praktyka: próba uczuleniowa (patch test) przy nowych olejkach 24–48 h przed użyciem na większym obszarze; przechowywanie z dala od światła i ciepła. Ćwiczenie: porównaj dwie oliwki «dla masażu» i wybierz tę bezpieczniejszą dla skóry wrażliwej, uzasadniając trzema argumentami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

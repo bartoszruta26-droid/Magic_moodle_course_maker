@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zmniejszanie napięcia: techniki wolne, rytmiczne, z wydechem pacjenta; post-isometryczna relaksacja (relaksacji postizometrycznej (PIR): napnij 20–30 s → rozluźnij → nowe zakresy; ucisk na punkt spustowy 30–90 s do «puszczenia». Unikaj: oklepywania i wibracji pobudzających w tej samej sesji. Ćwiczenie: przeprowadź PIR na mięsień czworoboczny górnej części i oceń ROM szyi przed/po.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

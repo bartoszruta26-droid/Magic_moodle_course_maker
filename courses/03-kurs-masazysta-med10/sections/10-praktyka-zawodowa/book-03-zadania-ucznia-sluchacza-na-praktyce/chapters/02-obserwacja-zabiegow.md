@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Praktyka zawodowa (210 godzin, 6 tygodni) — realizacja praktyczna: cele tygodniowe SMART w dzienniku (np. «samodzielna kwalifikacja 10 pacjentów z opiekunem»), sekwencja: obserwacja → asysta → samodzielność pod nadzorem; studium przypadku w portfolio (BEZ danych osobowych!), analiza błędu metodą «5 Why» bez autocenzury; błędy dyskwalifikujące na egzaminie: praca przy przeciwwskazaniu bezwzględnym, brak zgody, zaniechanie pomocy przy zdarzeniu. Miejsca: poradnie, szpitale, DPS, hospicja, ośrodki rehabilitacji, gabinety — każde z własnym SOP i kulturą pracy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

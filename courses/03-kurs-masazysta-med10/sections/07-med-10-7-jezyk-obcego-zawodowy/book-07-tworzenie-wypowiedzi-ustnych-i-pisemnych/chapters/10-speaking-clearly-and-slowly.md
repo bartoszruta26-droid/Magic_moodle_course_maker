@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Mówienie wyraźnie i w tempie pacjenta: krótkie zdania, pauzy między instrukcjami, sprawdzanie zrozumienia («Czy wszystko jasne? Proszę powtórzyć, jak oddychać»); przy barierze językowej — wolniej, nie głośniej, z gestem demonstracyjnym. Praktyka: ton niski i spokojny działa rozluźniająco; w hałasie sali — zbliż się, nie przekrzykuj. Zadanie: przeprowadź instruktaż oddechu przeponowego «na wolno» z zamkniętymi oczami partnera i oceń jego spokój po 2 minutach.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -24,7 +24,6 @@ Data: ....................        Podpis: ..............................
 
 **Pamiętaj:** prawda — nigdy nie zatajaj przeciwwskazań ani granic swoich kompetencji; piękno — dbałość o detal, higienę i szacunek dla ciała drugiego człowieka; sprawiedliwość — działaj wyłącznie w zakresie posiadanych uprawnień, a w razie wątpliwości pokieruj klienta do lekarza.
 
-
 ## Rozwinięcie profesjonalne
 
 Załącznik M formułuje oświadczenie o granicach kompetencji masażysty i zakazie manipulacji klientem.
@@ -103,3 +102,5 @@ wszystkich uczestników kursu). Służy rozwojowi umiejętności, które przywra
 zdrowie i ulgę cierpiącemu bliźniemu.*
 
 <!-- deepen-v1 -->
+
+<!-- subch-v10 -->

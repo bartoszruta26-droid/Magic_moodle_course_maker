@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Choroba zakrzepowo-zatorowa: podejrzenie zakrzepicy (jednostronny obrzęk łydki, ból spoczynkowy, ciepło, nasilenie przy zgięciu grzbietowym stopy) = ZERO masażu, pilna konsultacja (USG Doppler, decyzja o anticoagulation). Żylaki istniejące: nie masuj NAD nimi (ryzyko oderwania skrzepliny, krwawienie), wokół — lekkie głaskanie odpływowe; po zabiegach flebologicznych — zgoda lekarza i ustalony czas. Edukacja pacjenta: wyroby uciskowe wg zlecenia, ruch, nawodnienie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

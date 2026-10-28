@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Czytanie instrukcji i etykiet to umiejętność bezpieczeństwa: szukasz trzech rzeczy — przeznaczenia (indications), przeciwwskazań/ostrzeżeń (warnings, contraindications) i warunków użycia (contact time, dilution ratio, expiry). Praktyka: przy każdym nowym preparacie najpierw karta charakterystyki/IFRA i ulotka producenta, potem praca z klientem; notuj stężenie robocze i czas kontaktu na butelce. Zadanie: weź etykietę dezynfekantu i w dwóch zdaniach streść ją partnerowi «jak koledze, nie jak chemikowi».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

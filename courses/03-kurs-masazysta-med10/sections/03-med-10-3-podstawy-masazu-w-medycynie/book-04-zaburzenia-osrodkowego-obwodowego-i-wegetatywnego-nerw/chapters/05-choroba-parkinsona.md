@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Choroba Parkinsona — masaż wspomagający (za zgodą neurologa): sztywność i hipertonia → techniki wolne, rytmiczne, przewidywalne; braquenezja i drżenie utrudniają pozycjonowanie — asekuruj transfer; ryzyko hipotonii ortostatycznej — wstawanie etapami; dysfagia — ostrożność z pozycją głowy. Okna «on/off» leków planuj z pacjentem. Cel uczciwy: komfort, jakość snu, gotowość do kinezyterapii — nie «normalizacja».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

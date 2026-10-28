@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Napad paniki w gabinecie: zachowaj spokój, przerwij bodziec (zatrzymaj ruch, nie zostawiaj pacjenta samego), mów krótkimi zdaniami, zaproponuj pozycję bezpieczną (siedząca z podparciem lub na boku), technikę oddechową 4–7–8 lub uziemienie 5-4-3-2-1; nie bagatelizuj («to minie») i nie dokarmiaj lęku pytaniami. Po napadzie: woda, cisza, obserwacja, wpis do rejestru zdarzeń, rozmowa o dalszych wizytach i skierowanie do specjalisty. Ćwiczenie: scenka symulacyjna w parach — rola masażysty i pozoranta, omówienie wg check-listy interwencji.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

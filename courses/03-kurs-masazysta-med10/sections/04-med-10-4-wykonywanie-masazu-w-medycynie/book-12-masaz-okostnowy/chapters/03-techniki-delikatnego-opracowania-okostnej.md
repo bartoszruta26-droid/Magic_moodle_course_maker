@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż okostnowy (Dicza): precyzyjny, wolny nacisk kciukiem na przyczepy okostnowe (np. guz piszczeli, wyrostek kciuka kości promieniowej)— zwalnia napięcie mięśniowe przez receptory periosteum. Technikę wykonuje się NA SUCHO, z mikroruchem co kilka sekund; ból klienta musi być tolerowany (<4/10 NRS). Przeciwwskazania: miejsca po urazach/ operacjach kości, guzy kości (podejrzenie!), osteomyelitis, choroby metaboliczne kości w fazie aktywnej.
+Tkanka kostna to dynamiczne rusztowanie: osteoblasty i osteoklasty przebudowują je pod wpływem obciążenia (prawo Wolffa); okostna jest bogato unerwiona — stąd swoisty ból przy pracy okostnowej. Praktyka: techniki periostealne wykonujemy delikatnie, z czasem adaptacji, oceniając tolerancję w skali bólu; kości u dzieci (nasady wzrostu!), osób starszych i przy osteoporozie wymagają siły «jak dotyk klucza w drzwiach», nigdy impulsów uderzeniowych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

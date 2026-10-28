@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Państwowa Inspekcja Sanitarna (Sanepid) nadzoruje warunki higieniczne zakładów opieki zdrowotnej i gabinetów: dopuszcza pomieszczenia, kontroluje procedury dezynfekcji/sterylizacji, gospodarkę odpadami medycznymi, pobiera wymazy czystościowe, karze za narusienia i wydaje decyzje nakazowe. Praktyka: prowadź dokumentację dostępną «na żądanie» (procedury, rejestry środków, umowy na odpady, wyniki kontroli); reaguj na niezgodności przed, nie po kontroli. Zadanie: przygotuj teczkę «kontrola PPIS jutro» — wykaz 10 dokumentów i osób odpowiedzialnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

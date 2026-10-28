@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż łącznotkankowy (Friebego (szkoła Dicza/Bineta)): reflektoryczne działanie na segmenty rdzeniowe przez powięź i skórę; chwyt: fałd skóry unoszony i utrzymywany 20-60 s, ruch wolny, „ciągnący”. Reakcje (mrowienie, ciepło, ból przeniesiony) są typowe. Przeciwwskazania: choroby zakaźne z wysypką, żylaki, nowotwory (miejsca), niewydolność serca zaawansowana. Skóra cienka/starości— siła minimalna (ryzyko petechii i rozdarcia naskórka!).
+Kolejność technik w zabiegu (praktyczny kanon): głaskanie przygotowawcze → rozcieranie (ogrzanie pola) → ugniatanie (praca właściwa) → techniki pogłębione (uciski, rozciąganie) → oklepywanie/wibracja zależnie od celu (pobudzić lub wyciszyć) → głaskanie zakończenia. Na kończynach kierunek dosercowy. Ćwiczenie: przeprowadź pełny protokół grzbietu z timerem — każda zmiana techniki powinna być płynna i rytmiczna.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Profilaktyka pierwotna zapobiega powstawaniu choroby (higiena, ergonomia, ruch, szczepienia), wtórna wykrywa wcześnie (bilanse, przesiewy), trzeciorzędna ogranicza skutki już istniejącej choroby (rehabilitacja, zapobieganie powikłaniom — np. odleżynom, przykurczom). Masażysta działa głównie na I i III poziomie: edukacja + praca z ciałem osoby chorej/unieruchomionej. Praktyka: dobieraj cele zabiegu do poziomu (prewencja vs wsparcie). Ćwiczenie: dla trzech pacjentów (senior, sportowiec, osoba po udarze) wypisz działania I/II/III.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

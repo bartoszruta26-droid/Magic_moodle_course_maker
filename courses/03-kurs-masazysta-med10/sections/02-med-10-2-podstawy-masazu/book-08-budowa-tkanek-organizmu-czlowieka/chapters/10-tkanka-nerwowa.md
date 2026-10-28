@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
+Tkanka nerwowa buduje sieć przewodzenia: neuron (ciało, dendryty, akson) z osłonką mielinową przyspieszającą impuls, synapsy jako połączenia, nerwy mieszane (czuciowe, ruchowe, autonomiczne). Znaczenie praktyczne: nerwy biegną w określonych trasach i na określonej głębokości — tam nie stosujemy mocnego ucisku ani rozciągania «na siłę» (np. nerw promieniowy w bruździe spiralnej kości ramiennej, nerw strzałkowy pod głową kości strzałkowej — uraz = opadająca stopa). Praktyka: palpacyjne «znajomość mapy» przed pracą głęboką; parestezje u pacjenta = natychmiastowa zmiana kierunku/siły. Ćwiczenie: wskaż na sobie trzy «punkty niebezpieczne» nerwów obwodowych i zademonstruj bezpieczny omijający chwyt.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

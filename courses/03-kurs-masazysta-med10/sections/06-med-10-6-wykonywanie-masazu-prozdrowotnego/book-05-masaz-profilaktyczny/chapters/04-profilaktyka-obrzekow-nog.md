@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
+Profilaktyka obrzęków nóg w pracy stojącej/siedzącej: pompowanie stopami (10 powtórzeń co godzinę), spacer 3 min po siedzeniu, unikanie skrzyżowanych nóg, podwyższenie kończyn 15–20 min po pracy, skarpetki uciskowe klasy I dobrane przez specjalistę przy żylakach, chłodna (nie lodowata) płukanka wieczorna. Alarm: ból + zaczerwienienie + ciepło → lekarz. Ćwiczenie: przeprowadź u kolegi «test pompy» — obwód kostki przed i po 5 min marszu w miejscu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

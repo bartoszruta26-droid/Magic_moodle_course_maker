@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Poufność jest filarem relacji terapeutycznej: zakaz plotkowania obejmuje nie tylko nazwiska — również detale rozpoznawalne («pan z trzeciego piętra z amputacją»), zdjęcia z gabinetu bez zgody, rozmowy na recepcji czy w szatni przy osobach trzecich. Podstawa prawna: tajemnica zawodowa, RODO (dane o zdrowiu = szczególna kategoria), Kodeks etyki. Praktyka: przypadki omawiamy wyłącznie w celach dydaktycznych i jakościowych — anonimowo, na superwizji lub w zespole; telefon z danymi pacjenta chroniony hasłem. Ćwiczenie: przerób trzy «plotkarskie» zdania na bezpieczne, anonimowe komunikaty jakościowe.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Normalizacja i zgodność praktycznie: normy ISO (system zarządzania jakością PN-EN ISO 9001), rozporządzenie o wyrobach medycznych (MDR 2017/745 — klasy, CE, deklaracje zgodności), UDT dla urządzeń technicznych (stoły elektryczne, podnośniki — przeglądy!), znaki bezpieczeństwa na sprzęcie; kupując — żądaj deklaracji właściwości użytkowych i instrukcji w języku polskim. Prowadź rejestr przeglądów: audyt sanepidu/PIP pyta o dokumenty, nie o obietnice.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

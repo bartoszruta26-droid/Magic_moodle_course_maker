@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Higiena snu to fundament regeneracji, której masaż jest wsparciem, nie substytutem. Praktyczny instruktaż dla pacjenta: stałe pory zasypiania i wstawania (także w weekendy), sypialnia chłodna (16–18°C), ciemna i cicha; ekrany bez niebieskiego światła przez ostatnią godzinę przed snem; kofeina tylko do godziny 12:00–14:00 (okres półtrwania 5–7 h); kolacja 2–3 h przed snem; łóżko skojarzone wyłącznie ze snem. Ćwiczenie kursanta: przeprowadź 3-minutowy instruktaż wieczorny dla osoby z bezsennością napięciową, dobierając masaż relaksacyjny jako element «mostu» do snu — i zapisz ustalenia w karcie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

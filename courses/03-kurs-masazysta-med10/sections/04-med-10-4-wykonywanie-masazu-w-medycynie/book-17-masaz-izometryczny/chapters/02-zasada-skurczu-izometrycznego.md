@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż izometryczny (Kralja): rytmiczne napinanie i rozluźnianie mięśnia w pozycji skróconej/rozciągniętej z oporem własnym— poprawia trofikę i propriocepcję, bezpieczny przy zanikach unieruchomionych kończyn (za zgodą lekarza). Tempo oddechu: wydech przy napięciu. Przeciwwskazania: świeże zerwania ścięgien, zakrzepica, hernia w obszarze pracy, ciężka hipertensja.
+Techniki izometryczne w praktyce: skurcz bez zmiany długości mięśnia — pacjent «pcha w Twoją dłoń» bez ruchu w stawie (rotatory barku, pośladkowy średni, zginacze szyi); parametry: 5–10 s skurczu 30–70% maksimum, 10–30 s odpoczynku, 5–10 powtórzeń, ODDECH NORMALNY (zakaz Valsalvy — nadciśnienie!), progresja co sesję; zastosowanie: zaniki, osłabienie, bólowe hamowanie odruchowe; przeciwwskazania: niestabilność stawu, ostry stan zapalny, świeże uszkodzenie. Dokumentuj siłę i liczbę powtórzeń.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

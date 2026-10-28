@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Higiena pracy własnej — praktyka: limit 8–10 masaży dziennie (głębokich maks. 4–5), mikroprzerwa 5–10 minut między klientami (dezynfekcja, oddech, woda), dni lżejsze w grafiku, debriefing trudnych sytuacji z superwizorem, ruch kompensacyjny po pracy (odwrotny do pozycji zabiegu), sen 7–8 h. Objawy wypalenia: cynizm, depersonalizacja, poczucie nieskuteczności — wcześniej szukaj pomocy (psycholog, lekarz medycyny pracy). Sprawiedliwość wobec siebie jest warunkiem sprawiedliwości wobec pacjenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

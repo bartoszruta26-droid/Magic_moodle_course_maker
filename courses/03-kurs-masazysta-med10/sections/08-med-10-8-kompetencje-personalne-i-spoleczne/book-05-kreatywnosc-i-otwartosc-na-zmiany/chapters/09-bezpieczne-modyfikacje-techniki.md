@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Bezpieczna modyfikacja techniki to zmiana świadoma i udokumentowana: zamiast ugniatania głębokiego — rozcieranie powierzchowne (żylaki, osteoporoza); zamiast brzucha — pozycja boczna z klinami (ciąża zaawansowana, przepuklina krążkowa); skrócenie czasu o połowę i mniejsza siła (osłabienie, podeszły wiek); zamiana wibracji na głaskanie (nadreaktywność tkanek). Reguła: modyfikujemy parametry znane i mierzalne (siła, tempo, czas, kierunek, powierzchnia), nie improwizujemy technik spoza kompetencji. Zadanie kursanta: dla 4 przeciwwskazań względnych zaprojektuj parę «technika oryginalna → bezpieczna modyfikacja» i przetestuj na partnerze.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

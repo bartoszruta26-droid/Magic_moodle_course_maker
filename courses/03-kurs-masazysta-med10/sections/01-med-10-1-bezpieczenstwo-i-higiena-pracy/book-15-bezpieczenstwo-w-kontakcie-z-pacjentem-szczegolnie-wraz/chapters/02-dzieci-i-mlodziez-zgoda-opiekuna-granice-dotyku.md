@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Shantala i masaż niemowlęcia: środowisko ciepłe (24-26°C), dziecko nakarmione ≥30-45 min wcześniej, kontakt wzrokowy i werbalny z rodzicem (to ON uczy się techniki, masażysta demonstruje). Kolejność klasyczna: klatka piersiowa → brzuch (godz. 9→3 wg kierunku perystaltyki) → nogi → ręce → plecy → twarz. Wskazania: kolka (dla przeszkolonych), napięcie mięśniowe fizjologiczne, bonding. Przeciwwskazania: gorączka, zmiany skórne, choroby metaboliczne/serca bez zgody pediatry; NIGDY nie masuj dziecka chorego bez kwalifikacji lekarskiej.
-
-Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
+Masaż Shantala i niemowląt — praktyka: pokój ciepły (24–26°C), dziecko nie głodne i nie zaraz po karmieniu (>30–45 min), kontakt wzrokowy, zgoda i obecność rodzica; sekwencja: klatka → brzuszek (zgodnie z perystaltyką, «I love you») → nogi → ręce → plecy → buzia; dotyk pewny, rytmiczny, z pauzami na reakcję dziecka. SYGNAŁY STOP: płacz trwały, wyginanie, sztywnienie karku, zmiana koloru skóry. Choroba, dermatitis, gorączka — pediatra najpierw. Rodzic uczy się techniki NA TOBIE, potem z Twoją asystą na dziecku.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

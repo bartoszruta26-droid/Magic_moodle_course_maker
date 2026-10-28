@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Powłoki brzuszne: siła «jak dotyk śródpiersia» — bez głębokiego ugniatania u osób z bliznami przepuklinowymi; kierunki zgodne z okrężnicą (wstępująca → poprzecznica → zstępująca → esowata), prace oddechowe (ruch na wydechu), blizny po zagojeniu rozluźniane poprzecznie. Przeciwwskazania: przepuklina nieodprowadzalna, ostry ból brzucha, ciąża zaawansowana. Ćwiczenie: 10-min sekwencja «perystaltyka» + karta zaleceń domowych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

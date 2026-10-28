@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Kształcenie ustawiczne masażysty: minimum — odświeżenie BHP/pierwszej pomocy co kilka lat, plus rozwój fachowy (kursy specjalizacyjne, konferencje, superwizja praktyki, czytelnictwo piśmiennictwa). Praktyka: Indywidualny Plan Rozwoju — 2 cele roczne SMART, portfolio (certyfikaty, opisy przypadków, nagrania technik). Ćwiczenie: napisz swój IPR na 12 miesięcy i oszacuj koszt/godziny.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ból nowy, ostry i promieniujący to czerwona flaga, nie materiał na zabieg: promieniowanie do kończyny z deficytem neurologicznym (drętwienie, osłabienie chwytu) sugeruje korzonkopatię; ból nagły, silny, inny niż dotychczasowe — wymaga oceny lekarskiej (także wykluczenia przyczyn narządowych, np. kolki, zawieszenia serca przy bólu promieniującym do żuchwy/ramienia). Praktyka masażysty: nie masuj w niepewności — przekaż informację o pilnej konsultacji, zapisz objawy (start, charakter, nasilenie, towarzyszące), ustal termin powrotu po diagnozie. Ćwiczenie: przećwicz zdania przekazu «widzę powód, by dziś nie masować i wysłać Cię do lekarza» — spokojnie, bez straszenia.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

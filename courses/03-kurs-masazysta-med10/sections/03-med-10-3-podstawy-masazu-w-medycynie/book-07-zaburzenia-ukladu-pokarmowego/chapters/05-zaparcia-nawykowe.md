@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Zaparcia nawykowe: masaż brzucha zgodnie z perystaltyką okrężnicy (wzgórnicę → okrężnicę wstępującą → poprzecznicę → zstępującą → esicę) technikami głaskania i rozcierania, 8–10 min, dodatkowo oddech przeponowy, ruch codzienny, błonnik i woda (współpraca z dietetykiem przy diecie!). Czerwone flagi: krew w stolcu, nagła zmiana rytmu, ból ostry — do lekarza. Ćwiczenie: przeprowadź 10-min protokół brzucha i zapisaj reakcje pacjenta (perystaltyka słyszalna?).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

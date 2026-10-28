@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Wizerunek sanitarny zawodu: włosy związane nie opadają na pacjenta ani w pole zabiegu; broda krótka i zadbana (lub osłona); oddech neutralny (dieta, nawodnienie, higiena jamy ustnej przed dyżurem); makijaż i perfumy — minimalne, bo silne zapachy wywołują nudności i alergie pacjentów. Ćwiczenie: przeprowadź w parach wzajemną ocenę «check-in przed zabiegiem» wg listy aptecznej czystości.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
+Ocena oddechu i krążenia u dorosłego: przytomność (głos+delikatne potrząśnięcie), drożność, oddech przez policzek/rękojmie «look-listen-feel» ≤10 s; brak prawidłowego oddechu = RKO (30:2, ugniecenia 5–6 cm, 100–120/min, pełny rozkurcz). Cechy agonalne (gaspingowy (agonalny), nieregularny oddech) = traktuj jako brak. Praktyka: metronom treningowy, pauzy 2 s na wdech. Zadanie: 2 min nieprzerwanego RKO na fantomie z licznikiem depth feedback.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

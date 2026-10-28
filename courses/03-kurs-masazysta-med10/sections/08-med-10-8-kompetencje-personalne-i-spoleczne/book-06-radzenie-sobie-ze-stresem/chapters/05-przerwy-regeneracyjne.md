@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Protokoły okołostartowe: międzystartowy (turnieje, wielobój) — krótki drenaż odpływowy + rozluźnienie 10–15 min, chłodzenie miejsc przeciążonych; podtrzymujący (okres startowy) — utrzymanie gotowości bez zmęczenia tkanki; po zawodach — cool-down: głaskania odpływowe kończyn, delikatne rozcieranie, NIE pracuj głęboko na mocno zmęczonej tkance (ryzyko mikrourazów); regeneracyjny — pełna sesja 30–45 min w 24–48 h po wysiłku. Zawsze: nawodnienie i pytanie «co boli dziś?» przed dotknięciem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

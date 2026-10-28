@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż w bólu przewlekłym pełni rolę wspomagającą, nie leczącą przyczyny: redukuje składową mięśniowo-powięziową i lękową bólu, poprawia sen i poczucie kontroli. Praktyka: zapowiadaj dotyk, pytaj o mapę bólu, pracuj w strefach tolerancji (ból ≤4/10, bez narastania po zabiegu), stały rytm i umiarkowana siła działają bezpieczniej niż «przebicia»; dokumentuj reakcje i aktualizuj plan z zespołem; nie obiecuj trwałej ulgi. Ćwiczenie kursanta: przeprowadź 20-min sesję dla osoby z przewlekłym bólem karku, zakończ protokołem teach-back (co pacjent zapamiętał z zaleceń).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

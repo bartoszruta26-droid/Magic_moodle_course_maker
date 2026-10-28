@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Bezpieczeństwo pracy to zespół warunków i działań chroniących życie, zdrowie i zdolność do pracy człowieka w środowisku zawodowym. W gabinecie masażu obejmuje identyfikację zagrożeń (fizycznych, biologicznych, ergonomicznych, psychospołecznych), procedury im zapobiegające oraz kulturę organizacyjną, w której zgłaszanie incydentów jest obowiązkiem, nie winą. Prawidłowo rozumiane bezpieczeństwo pracy masażysty jest jednocześnie bezpieczeństwem pacjenta — jedno bez drugiego nie istnieje.
+Bezpieczeństwo pracy masażysty to stan, w którym ryzyko wypadku i uszczerbku na zdrowiu jest kontrolowane: ergonomia stołu i postawy, porządek w strefie ruchu, sprawne urządzenia, znane drogi ewakuacji. Praktyka: przed każdym dniem pracy «obiad bezpieczeństwa» w 60 sekund — sucho na posadzce, kabel bez uszkodzeń, hamulec wózka, gaśnica dostępna; po każdym zabiegu — ocena własnych dłoni i karku. Ćwiczenie kursanta: prowadź dziennik zagrożeń przez tydzień praktyk (3 zdarzenia/opis + wniosek naprawczy).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

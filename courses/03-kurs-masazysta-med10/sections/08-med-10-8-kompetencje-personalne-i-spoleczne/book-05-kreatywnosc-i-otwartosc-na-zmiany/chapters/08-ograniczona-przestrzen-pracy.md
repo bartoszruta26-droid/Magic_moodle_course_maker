@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż domowy: sprawdź, czy łóżko/kanapa utrzyma masażystę (deska/matę pod pacjenta!), dostęp do światła i ciepła, zwierzęta i dzieci poza pokojem, pośpiech gospodarzy — ustal czas z góry. Bezpieczeństwo własne: znaj trasę wyjścia, nie pracuj w izolacji przy agresywnym kliencie (prośba o obecność opiekuna). Ćwiczenie: przeprowadź wizję lokalną «jak ustawić stół w kawalerce» i narysuj plan.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

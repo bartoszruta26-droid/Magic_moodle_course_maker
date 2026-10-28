@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Wpływ masażu na naczynia jest praktyczny: głaskanie i rozcieranie wywołują hiperemię czynną, ucisk przejściowo ogranicza przepływ, a puszczenie go zwiększa. Miażdżyca tętnic obwodowych: żadnych intensywnych technik na przebiegu tętnic, żadnego «rozbijania» blaszki — masaż możliwy jedynie za zgodą lekarza i w wersji łagodnej. Kursant bada tętno obwodowe przed i po zabiegu jako miarę bezpieczeństwa.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

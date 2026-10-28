@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ubiór roboczy masażysty: jasny (plamy widoczne), jednolity komplet zmieniany codziennie, zasłaniający ciało (krótki rękaw do łokcia lub długi, spodnie bez mankietów ciągnących po ziemi), obuwie pełne, antypoślizgowe, zmywalne; fartuch jednorazowy przy zabiegach «brudnych» (maści, parafina, pilingi). Praktyka: w szatni minimum dwa komplety na dzień + zapas dla niespodzianki (zalany olej, wypadek); biżuterii i zegarków nie nosimy. Ćwiczenie: przeprowadź wzajemną kontrolę stroju wg check-listy przed sesją praktyki i omów uchybienia bez ocen moralnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

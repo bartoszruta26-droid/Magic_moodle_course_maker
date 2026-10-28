@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+ROM: AROM (czynny) vs PROM (bierny) — AROM < PROM sugeruje osłabienie lub hamowanie bólem; AROM ≈ PROM z ograniczeniem = bariera tkankowa; asymetria stron = porównaj. Praktyka: zapis wartości orientacyjnych (np. flex/extend ° lub «ręka do ucha») przed/po serii; masaż planujemy tak, by wspierać uzyskane zakresy ruchem. Zadanie: zmierz i zapisz ROM barku partnera trzema sposobami (wzrok, liniał, gest).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

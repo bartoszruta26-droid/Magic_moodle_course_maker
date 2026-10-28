@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż sportowy dzielimy czasowo: PREDYSPOZYCYJNY (10-20 min przed startem: szybkie rozcieranie/oklepywanie, pobudzenie), POWYSIŁKOWY/regeneracyjny (do 30-60 min po: głaskanie odpływowe, delikatne rozcieranie, rozciąganie), PRZEBUDOWUJĄCY (24-72 h: głębsza praca z tkanką zmęczoną). Zakazy: masaż głęboki tuż przed startem (obniżenie compliance), masaż przy DOMS pierwszej doby u amatora, jakakolwiek praca nad mięśniem z podejrzeniem naderwania.
+Połóg — masaż za zgodą położnika: ocena samopoczucia, blizna po cc (minimum 4–6 tygodni, świeżą omijać), test diastasis linea alba (bez «crunchów» — praca oddechowa), laktacja (bez ucisku gruczołu; zastój — delikatny drenaż po szkoleniu MLD), nastrój matki (baby blues vs depresja — kieruj do specjalisty), obrzęki nóg — pozycja boku z uniesieniem kończyn. Wsparcie emocjonalne matki: obecność, spokojne słowa, pauzy w tempie. Notuj uwagi dla zespołu opieki.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

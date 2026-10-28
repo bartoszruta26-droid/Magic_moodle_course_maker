@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Głaskanie i rozcieranie to duet otwierający i spinający każdy zabieg: głaskanie (powierzchowne lub głębokie, dosercowe) rozgrzewa, dostarcza informacji o tkance i uspokaja; rozcieranie (koliste, spiralne, poprzeczne) działa na skórę, zrosty i napięcie miejscowe. Praktyka metodyczna: zawsze zaczynaj i kończ głaskaniem, rozcieranie prowadź od punktu boleńskiego na obwód, tempem dobranym do celu (wolne = hamujące, szybsze = pobudzające); pilnuj brzegu dłoni (ryzyko otarć). Zadanie kursanta: wykonaj sekwencję «głaskanie → rozcieranie → głaskanie» na grzbietowej stronie dłoni partnera i oceń poślizg/dobór medium.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

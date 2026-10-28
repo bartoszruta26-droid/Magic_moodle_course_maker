@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+Dbałość o dokumentację: karta zabiegu (data, okoliczności, techniki, czasy, reakcje, podpis), skierowanie/zlecenie, zgody, rejistry (dezynfekcji, odpadów, sprzętu, szkoleń BHP). Dokumentacja jest dowodem staranności, podstawą rozliczeń i narzędziem ciągłości opieki; przechowywana zwykle przez lata wskazane przepisami (dokumentacja medyczna min. 20 lat po roku ostatniego wpisu, z wyjątkami). Praktyka: wpis tego samego dnia, bez luk «bo nie było czasu». Zadanie: audituj 10 swoich kart pod kątem 7 elementów kompletności.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

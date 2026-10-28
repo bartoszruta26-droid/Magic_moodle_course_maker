@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Tkanka łączna zbita włóknista (ścięgna, więzadła, rozścięgna, aponeurozy) opiera się siłom rozciągającym w płaszczyźnie przebiegu włókien kolagenowych. Praktyka masażysty: pracę kierunkową (wzdłuż lub poprzecznie do włókien) dobiera się do celu — poprzeczne rozcieranie pobudza przebudowę, długie prowadzenie rozluźnia; zawsze bez ostrego bólu. Ścięgno rozgrzane przyjmuje obciążenie lepiej — stąd kolejność: głaskanie → rozcieranie → praca głęboka.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

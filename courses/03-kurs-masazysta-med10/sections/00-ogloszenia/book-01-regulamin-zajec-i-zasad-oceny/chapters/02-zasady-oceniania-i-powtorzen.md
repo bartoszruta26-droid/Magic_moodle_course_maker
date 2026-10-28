@@ -82,3 +82,5 @@ zwrotnej); zakaz porównań osób („kasia robi lepiej”) — dopuszczalne są
 porównania wykonań („ten chwyt wymaga wolniejszego tempa”). Prawda powiedziana
 z miłością buduje biegłość; kłamstwo z „życzliwości” wystawia przyszłego
 pacjenta na ryzyko.
+
+<!-- subch-v10 -->

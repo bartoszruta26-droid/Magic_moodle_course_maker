@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Wyszukiwanie informacji kluczowej (scanning): w długim tekście znajdujesz liczby, daty, jednostki i słowa-negacje («do not exceed», «contraindicated in pregnancy»). Praktyka: czytasz ulotkę preparatu z «pytaniami w głowie» — Ile? Jak często? Dla kogo NIE? Co zrobić przy wypadku? Zapisujesz odpowiedzi w 5 punktach. Zadanie: weź kartę charakterystyki środka dezynfekującego i wyciągnij z niej wyłącznie dane potrzebne do bezpiecznej pracy w gabinecie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

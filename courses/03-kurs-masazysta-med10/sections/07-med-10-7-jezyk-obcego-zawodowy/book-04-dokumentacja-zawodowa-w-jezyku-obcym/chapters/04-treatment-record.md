@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Karta zabiegu (treatment record) po angielsku operuje nazwami technik i parametrami: «effleurage, petrissage, friction — 10 min, moderate pressure, patient tolerated well». Praktyka: zapis zwięzły, chronologiczny, bez ocen («VAS 3→1», «no adverse reaction»); to dokument prawnie chroniony i narzędzie ciągłości opieki. Ćwiczenie: napisz trzy rekordy «one-liner» dla trzech różnych zabiegów i oceń, czy drugi terapeuta odtworzyłby przebieg tylko z nich.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

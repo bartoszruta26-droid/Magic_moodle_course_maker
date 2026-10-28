@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Transfer pacjenta (z wózka, z fotela, na stół) wykonujemy metodą «najpierw plan, potem ręce»: hamulce, wysokość powierzchni wyrównana, pomocnik przy osobie niestabilnej, pasy/podkład ślizgowy zamiast siły; masażysta nie dźwiga samodzielnie dorosłego bez udziału chorego. Praktyka: ucz pacjenta wzorca «obrot na bok → nogi poza krawędź → podpór rąk → stanie»; przy osteoporozie i po udarze — asekuracja od strony słabszej. Ćwiczenie: przećwicz trzy transfery (wózek→stół, stół→fotel, podłoga→stół) z pozorantem i oceń bezpieczeństwo obu stron.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->
