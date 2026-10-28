@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik K. Kodeks etyczny masażysty"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik K. Kodeks etyczny masażysty.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **K.1** Godność pacjenta
+    - **K.2** Prawda w komunikacji
+    - **K.3** Miłość bliźniego jako służba
+    - **K.4** Sprawiedliwość w dostępie do opieki
+    - **K.5** Piękno w pracy z ciałem
+    - **K.6** Tajemnica zawodowa
+    - **K.7** Zakaz manipulacji
+    - **K.8** Zakaz wykorzystywania seksualnego
+    - **K.9** Zakaz dyskryminacji
+    - **K.10** Odpowiedzialność za szkolenie ustawiczne
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "K.1. Godność pacjenta"
+      subchapter: false
+      content_file: "chapters/K-1-godnosc-pacjenta.md"
+      hidden: false
+    - title: "K.2. Prawda w komunikacji"
+      subchapter: false
+      content_file: "chapters/K-2-prawda-w-komunikacji.md"
+      hidden: false
+    - title: "K.3. Miłość bliźniego jako służba"
+      subchapter: false
+      content_file: "chapters/K-3-milosc-blizniego-jako-sluzba.md"
+      hidden: false
+    - title: "K.4. Sprawiedliwość w dostępie do opieki"
+      subchapter: false
+      content_file: "chapters/K-4-sprawiedliwosc-w-dostepie-do-opieki.md"
+      hidden: false
+    - title: "K.5. Piękno w pracy z ciałem"
+      subchapter: false
+      content_file: "chapters/K-5-piekno-w-pracy-z-cialem.md"
+      hidden: false
+    - title: "K.6. Tajemnica zawodowa"
+      subchapter: false
+      content_file: "chapters/K-6-tajemnica-zawodowa.md"
+      hidden: false
+    - title: "K.7. Zakaz manipulacji"
+      subchapter: false
+      content_file: "chapters/K-7-zakaz-manipulacji.md"
+      hidden: false
+    - title: "K.8. Zakaz wykorzystywania seksualnego"
+      subchapter: false
+      content_file: "chapters/K-8-zakaz-wykorzystywania-seksualnego.md"
+      hidden: false
+    - title: "K.9. Zakaz dyskryminacji"
+      subchapter: false
+      content_file: "chapters/K-9-zakaz-dyskryminacji.md"
+      hidden: false
+    - title: "K.10. Odpowiedzialność za szkolenie ustawiczne"
+      subchapter: false
+      content_file: "chapters/K-10-odpowiedzialnosc-za-szkolenie-ustawiczne.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik I. Procedury aseptyki i antyseptyki"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik I. Procedury aseptyki i antyseptyki.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **I.1** Mycie rąk
+    - **I.2** Dezynfekcja rąk
+    - **I.3** Dezynfekcja powierzchni
+    - **I.4** Pranie tekstyliów
+    - **I.5** Utylizacja odpadów
+    - **I.6** Postępowanie przy zmianach skórnych
+    - **I.7** Postępowanie przy krwawieniu
+    - **I.8** Postępowanie po ekspozycji
+    - **I.9** Dokumentacja dezynfekcji
+    - **I.10** Audyt higieniczny
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "I.1. Mycie rąk"
+      subchapter: false
+      content_file: "chapters/I-1-mycie-rak.md"
+      hidden: false
+    - title: "I.2. Dezynfekcja rąk"
+      subchapter: false
+      content_file: "chapters/I-2-dezynfekcja-rak.md"
+      hidden: false
+    - title: "I.3. Dezynfekcja powierzchni"
+      subchapter: false
+      content_file: "chapters/I-3-dezynfekcja-powierzchni.md"
+      hidden: false
+    - title: "I.4. Pranie tekstyliów"
+      subchapter: false
+      content_file: "chapters/I-4-pranie-tekstyliow.md"
+      hidden: false
+    - title: "I.5. Utylizacja odpadów"
+      subchapter: false
+      content_file: "chapters/I-5-utylizacja-odpadow.md"
+      hidden: false
+    - title: "I.6. Postępowanie przy zmianach skórnych"
+      subchapter: false
+      content_file: "chapters/I-6-postepowanie-przy-zmianach-skornych.md"
+      hidden: false
+    - title: "I.7. Postępowanie przy krwawieniu"
+      subchapter: false
+      content_file: "chapters/I-7-postepowanie-przy-krwawieniu.md"
+      hidden: false
+    - title: "I.8. Postępowanie po ekspozycji"
+      subchapter: false
+      content_file: "chapters/I-8-postepowanie-po-ekspozycji.md"
+      hidden: false
+    - title: "I.9. Dokumentacja dezynfekcji"
+      subchapter: false
+      content_file: "chapters/I-9-dokumentacja-dezynfekcji.md"
+      hidden: false
+    - title: "I.10. Audyt higieniczny"
+      subchapter: false
+      content_file: "chapters/I-10-audyt-higieniczny.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

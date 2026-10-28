@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik B. Regulaminy i procedury wewnętrzne"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik B. Regulaminy i procedury wewnętrzne.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **B.1** Regulamin BHP gabinetu masażu
+    - **B.2** Instrukcja stanowiskowa masażysty
+    - **B.3** Procedura mycia i dezynfekcji rąk
+    - **B.4** Procedura przygotowania stołu do masażu
+    - **B.5** Procedura postępowania z odpadami
+    - **B.6** Procedura zdarzenia niepożądanego
+    - **B.7** Procedura pierwszej pomocy
+    - **B.8** Procedura skierowania do lekarza
+    - **B.9** Procedura ochrony małoletnich
+    - **B.10** Procedura przeciwdziałania przemocy
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "B.1. Regulamin BHP gabinetu masażu"
+      subchapter: false
+      content_file: "chapters/B-1-regulamin-bhp-gabinetu-masazu.md"
+      hidden: false
+    - title: "B.2. Instrukcja stanowiskowa masażysty"
+      subchapter: false
+      content_file: "chapters/B-2-instrukcja-stanowiskowa-masazysty.md"
+      hidden: false
+    - title: "B.3. Procedura mycia i dezynfekcji rąk"
+      subchapter: false
+      content_file: "chapters/B-3-procedura-mycia-i-dezynfekcji-rak.md"
+      hidden: false
+    - title: "B.4. Procedura przygotowania stołu do masażu"
+      subchapter: false
+      content_file: "chapters/B-4-procedura-przygotowania-stolu-do-masazu.md"
+      hidden: false
+    - title: "B.5. Procedura postępowania z odpadami"
+      subchapter: false
+      content_file: "chapters/B-5-procedura-postepowania-z-odpadami.md"
+      hidden: false
+    - title: "B.6. Procedura zdarzenia niepożądanego"
+      subchapter: false
+      content_file: "chapters/B-6-procedura-zdarzenia-niepozadanego.md"
+      hidden: false
+    - title: "B.7. Procedura pierwszej pomocy"
+      subchapter: false
+      content_file: "chapters/B-7-procedura-pierwszej-pomocy.md"
+      hidden: false
+    - title: "B.8. Procedura skierowania do lekarza"
+      subchapter: false
+      content_file: "chapters/B-8-procedura-skierowania-do-lekarza.md"
+      hidden: false
+    - title: "B.9. Procedura ochrony małoletnich"
+      subchapter: false
+      content_file: "chapters/B-9-procedura-ochrony-maloletnich.md"
+      hidden: false
+    - title: "B.10. Procedura przeciwdziałania przemocy"
+      subchapter: false
+      content_file: "chapters/B-10-procedura-przeciwdzialania-przemocy.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

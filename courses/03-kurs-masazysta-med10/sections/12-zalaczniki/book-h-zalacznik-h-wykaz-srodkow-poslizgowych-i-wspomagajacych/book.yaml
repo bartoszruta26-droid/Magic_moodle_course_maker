@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik H. Wykaz środków poślizgowych i wspomagających"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik H. Wykaz środków poślizgowych i wspomagających.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **H.1** Talk
+    - **H.2** Oleje roślinne
+    - **H.3** Oliwki
+    - **H.4** Kremy
+    - **H.5** Lanolina
+    - **H.6** Wazelina
+    - **H.7** Preparaty rozgrzewające
+    - **H.8** Preparaty chłodzące
+    - **H.9** Preparaty przeciwzapalne — tylko zgodnie z prawem
+    - **H.10** Zasady przechowywania i testów alergicznych
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "H.1. Talk"
+      subchapter: false
+      content_file: "chapters/H-1-talk.md"
+      hidden: false
+    - title: "H.2. Oleje roślinne"
+      subchapter: false
+      content_file: "chapters/H-2-oleje-roslinne.md"
+      hidden: false
+    - title: "H.3. Oliwki"
+      subchapter: false
+      content_file: "chapters/H-3-oliwki.md"
+      hidden: false
+    - title: "H.4. Kremy"
+      subchapter: false
+      content_file: "chapters/H-4-kremy.md"
+      hidden: false
+    - title: "H.5. Lanolina"
+      subchapter: false
+      content_file: "chapters/H-5-lanolina.md"
+      hidden: false
+    - title: "H.6. Wazelina"
+      subchapter: false
+      content_file: "chapters/H-6-wazelina.md"
+      hidden: false
+    - title: "H.7. Preparaty rozgrzewające"
+      subchapter: false
+      content_file: "chapters/H-7-preparaty-rozgrzewajace.md"
+      hidden: false
+    - title: "H.8. Preparaty chłodzące"
+      subchapter: false
+      content_file: "chapters/H-8-preparaty-chlodzace.md"
+      hidden: false
+    - title: "H.9. Preparaty przeciwzapalne — tylko zgodnie z prawem"
+      subchapter: false
+      content_file: "chapters/H-9-preparaty-przeciwzapalne-tylko-zgodnie-z-prawem.md"
+      hidden: false
+    - title: "H.10. Zasady przechowywania i testów alergicznych"
+      subchapter: false
+      content_file: "chapters/H-10-zasady-przechowywania-i-testow-alergicznych.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

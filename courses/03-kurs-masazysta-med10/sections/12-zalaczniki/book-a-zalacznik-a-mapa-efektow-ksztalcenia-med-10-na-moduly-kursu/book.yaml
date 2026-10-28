@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik A. Mapa efektów kształcenia MED.10 na moduły kursu"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik A. Mapa efektów kształcenia MED.10 na moduły kursu.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **A.1** MED.10.1 → Moduł 1
+    - **A.2** MED.10.2 → Moduł 2
+    - **A.3** MED.10.3 → Moduł 3
+    - **A.4** MED.10.4 → Moduł 4
+    - **A.5** MED.10.5 → Moduł 5
+    - **A.6** MED.10.6 → Moduł 6
+    - **A.7** MED.10.7 → Moduł 7
+    - **A.8** MED.10.8 → moduły zintegrowane
+    - **A.9** MED.10.9 → moduły zintegrowane
+    - **A.10** Praktyka i egzamin → Moduły 10–11
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "A.1. MED.10.1 → Moduł 1"
+      subchapter: false
+      content_file: "chapters/A-1-med-10-1-modul-1.md"
+      hidden: false
+    - title: "A.2. MED.10.2 → Moduł 2"
+      subchapter: false
+      content_file: "chapters/A-2-med-10-2-modul-2.md"
+      hidden: false
+    - title: "A.3. MED.10.3 → Moduł 3"
+      subchapter: false
+      content_file: "chapters/A-3-med-10-3-modul-3.md"
+      hidden: false
+    - title: "A.4. MED.10.4 → Moduł 4"
+      subchapter: false
+      content_file: "chapters/A-4-med-10-4-modul-4.md"
+      hidden: false
+    - title: "A.5. MED.10.5 → Moduł 5"
+      subchapter: false
+      content_file: "chapters/A-5-med-10-5-modul-5.md"
+      hidden: false
+    - title: "A.6. MED.10.6 → Moduł 6"
+      subchapter: false
+      content_file: "chapters/A-6-med-10-6-modul-6.md"
+      hidden: false
+    - title: "A.7. MED.10.7 → Moduł 7"
+      subchapter: false
+      content_file: "chapters/A-7-med-10-7-modul-7.md"
+      hidden: false
+    - title: "A.8. MED.10.8 → moduły zintegrowane"
+      subchapter: false
+      content_file: "chapters/A-8-med-10-8-moduly-zintegrowane.md"
+      hidden: false
+    - title: "A.9. MED.10.9 → moduły zintegrowane"
+      subchapter: false
+      content_file: "chapters/A-9-med-10-9-moduly-zintegrowane.md"
+      hidden: false
+    - title: "A.10. Praktyka i egzamin → Moduły 10–11"
+      subchapter: false
+      content_file: "chapters/A-10-praktyka-i-egzamin-moduly-10-11.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

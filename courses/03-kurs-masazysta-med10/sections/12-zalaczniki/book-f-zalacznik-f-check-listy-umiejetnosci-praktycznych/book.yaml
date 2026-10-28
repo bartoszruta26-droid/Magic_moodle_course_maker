@@ -1,0 +1,169 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik F. Check-listy umiejętności praktycznych"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik F. Check-listy umiejętności praktycznych.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **F.1** Przygotowanie stanowiska pracy
+    - **F.2** Mycie i dezynfekcja rąk
+    - **F.3** Prowadzenie wywiadu
+    - **F.4** Ocena postawy
+    - **F.5** Pomiar obwodów
+    - **F.6** Ocena zakresu ruchu
+    - **F.7** Palpacja mięśni
+    - **F.8** Lokalizacja punktów spustowych
+    - **F.9** Wykonanie głaskania
+    - **F.10** Wykonanie rozcierania
+    - **F.11** Wykonanie ugniatania
+    - **F.12** Wykonanie oklepywania
+    - **F.13** Wykonanie wibracji
+    - **F.14** Masaż kończyny górnej
+    - **F.15** Masaż kończyny dolnej
+    - **F.16** Masaż grzbietu
+    - **F.17** Masaż karku
+    - **F.18** Masaż klatki piersiowej
+    - **F.19** Masaż brzucha
+    - **F.20** Masaż twarzy i głowy
+    - **F.21** Manualny drenaż limfatyczny kończyny
+    - **F.22** Masaż segmentarny — chwyty diagnostyczne
+    - **F.23** Masaż segmentarny — chwyty lecznicze
+    - **F.24** Refleksoterapia stóp — techniki podstawowe
+    - **F.25** Masaż Shantala — etapy
+    - **F.26** Masaż w ciąży — pozycje bezpieczne
+    - **F.27** Masaż sportowy przedstartowy
+    - **F.28** Masaż prozdrowotny relaksacyjny
+    - **F.29** Pierwsza pomoc — BLS
+    - **F.30** Dokumentacja zabiegu
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "F.1. Przygotowanie stanowiska pracy"
+      subchapter: false
+      content_file: "chapters/F-1-przygotowanie-stanowiska-pracy.md"
+      hidden: false
+    - title: "F.2. Mycie i dezynfekcja rąk"
+      subchapter: false
+      content_file: "chapters/F-2-mycie-i-dezynfekcja-rak.md"
+      hidden: false
+    - title: "F.3. Prowadzenie wywiadu"
+      subchapter: false
+      content_file: "chapters/F-3-prowadzenie-wywiadu.md"
+      hidden: false
+    - title: "F.4. Ocena postawy"
+      subchapter: false
+      content_file: "chapters/F-4-ocena-postawy.md"
+      hidden: false
+    - title: "F.5. Pomiar obwodów"
+      subchapter: false
+      content_file: "chapters/F-5-pomiar-obwodow.md"
+      hidden: false
+    - title: "F.6. Ocena zakresu ruchu"
+      subchapter: false
+      content_file: "chapters/F-6-ocena-zakresu-ruchu.md"
+      hidden: false
+    - title: "F.7. Palpacja mięśni"
+      subchapter: false
+      content_file: "chapters/F-7-palpacja-miesni.md"
+      hidden: false
+    - title: "F.8. Lokalizacja punktów spustowych"
+      subchapter: false
+      content_file: "chapters/F-8-lokalizacja-punktow-spustowych.md"
+      hidden: false
+    - title: "F.9. Wykonanie głaskania"
+      subchapter: false
+      content_file: "chapters/F-9-wykonanie-glaskania.md"
+      hidden: false
+    - title: "F.10. Wykonanie rozcierania"
+      subchapter: false
+      content_file: "chapters/F-10-wykonanie-rozcierania.md"
+      hidden: false
+    - title: "F.11. Wykonanie ugniatania"
+      subchapter: false
+      content_file: "chapters/F-11-wykonanie-ugniatania.md"
+      hidden: false
+    - title: "F.12. Wykonanie oklepywania"
+      subchapter: false
+      content_file: "chapters/F-12-wykonanie-oklepywania.md"
+      hidden: false
+    - title: "F.13. Wykonanie wibracji"
+      subchapter: false
+      content_file: "chapters/F-13-wykonanie-wibracji.md"
+      hidden: false
+    - title: "F.14. Masaż kończyny górnej"
+      subchapter: false
+      content_file: "chapters/F-14-masaz-konczyny-gornej.md"
+      hidden: false
+    - title: "F.15. Masaż kończyny dolnej"
+      subchapter: false
+      content_file: "chapters/F-15-masaz-konczyny-dolnej.md"
+      hidden: false
+    - title: "F.16. Masaż grzbietu"
+      subchapter: false
+      content_file: "chapters/F-16-masaz-grzbietu.md"
+      hidden: false
+    - title: "F.17. Masaż karku"
+      subchapter: false
+      content_file: "chapters/F-17-masaz-karku.md"
+      hidden: false
+    - title: "F.18. Masaż klatki piersiowej"
+      subchapter: false
+      content_file: "chapters/F-18-masaz-klatki-piersiowej.md"
+      hidden: false
+    - title: "F.19. Masaż brzucha"
+      subchapter: false
+      content_file: "chapters/F-19-masaz-brzucha.md"
+      hidden: false
+    - title: "F.20. Masaż twarzy i głowy"
+      subchapter: false
+      content_file: "chapters/F-20-masaz-twarzy-i-glowy.md"
+      hidden: false
+    - title: "F.21. Manualny drenaż limfatyczny kończyny"
+      subchapter: false
+      content_file: "chapters/F-21-manualny-drenaz-limfatyczny-konczyny.md"
+      hidden: false
+    - title: "F.22. Masaż segmentarny — chwyty diagnostyczne"
+      subchapter: false
+      content_file: "chapters/F-22-masaz-segmentarny-chwyty-diagnostyczne.md"
+      hidden: false
+    - title: "F.23. Masaż segmentarny — chwyty lecznicze"
+      subchapter: false
+      content_file: "chapters/F-23-masaz-segmentarny-chwyty-lecznicze.md"
+      hidden: false
+    - title: "F.24. Refleksoterapia stóp — techniki podstawowe"
+      subchapter: false
+      content_file: "chapters/F-24-refleksoterapia-stop-techniki-podstawowe.md"
+      hidden: false
+    - title: "F.25. Masaż Shantala — etapy"
+      subchapter: false
+      content_file: "chapters/F-25-masaz-shantala-etapy.md"
+      hidden: false
+    - title: "F.26. Masaż w ciąży — pozycje bezpieczne"
+      subchapter: false
+      content_file: "chapters/F-26-masaz-w-ciazy-pozycje-bezpieczne.md"
+      hidden: false
+    - title: "F.27. Masaż sportowy przedstartowy"
+      subchapter: false
+      content_file: "chapters/F-27-masaz-sportowy-przedstartowy.md"
+      hidden: false
+    - title: "F.28. Masaż prozdrowotny relaksacyjny"
+      subchapter: false
+      content_file: "chapters/F-28-masaz-prozdrowotny-relaksacyjny.md"
+      hidden: false
+    - title: "F.29. Pierwsza pomoc — BLS"
+      subchapter: false
+      content_file: "chapters/F-29-pierwsza-pomoc-bls.md"
+      hidden: false
+    - title: "F.30. Dokumentacja zabiegu"
+      subchapter: false
+      content_file: "chapters/F-30-dokumentacja-zabiegu.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

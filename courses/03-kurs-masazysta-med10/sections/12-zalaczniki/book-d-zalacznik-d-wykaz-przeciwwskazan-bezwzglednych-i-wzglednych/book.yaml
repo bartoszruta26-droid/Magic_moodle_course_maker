@@ -1,0 +1,94 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik D. Wykaz przeciwwskazań bezwzględnych i względnych"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik D. Wykaz przeciwwskazań bezwzględnych i względnych.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **D.1** Przeciwwskazania do masażu klasycznego
+    - **D.2** Przeciwwskazania do masażu segmentarnego
+    - **D.3** Przeciwwskazania do manualnego drenażu limfatycznego
+    - **D.4** Przeciwwskazania do masażu łącznotkankowego
+    - **D.5** Przeciwwskazania do masażu okostnowego
+    - **D.6** Przeciwwskazania do masażu punktowego
+    - **D.7** Przeciwwskazania do refleksoterapii stóp
+    - **D.8** Przeciwwskazania do masażu w środowisku wodnym
+    - **D.9** Przeciwwskazania do masażu izometrycznego i stawowego
+    - **D.10** Przeciwwskazania do masażu Shantala
+    - **D.11** Przeciwwskazania do masażu w ciąży
+    - **D.12** Przeciwwskazania do masażu w połogu
+    - **D.13** Przeciwwskazania do masażu sportowego
+    - **D.14** Przeciwwskazania do masażu gorącymi kamieniami
+    - **D.15** Przeciwwskazania do masażu przyrządowego
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "D.1. Przeciwwskazania do masażu klasycznego"
+      subchapter: false
+      content_file: "chapters/D-1-przeciwwskazania-do-masazu-klasycznego.md"
+      hidden: false
+    - title: "D.2. Przeciwwskazania do masażu segmentarnego"
+      subchapter: false
+      content_file: "chapters/D-2-przeciwwskazania-do-masazu-segmentarnego.md"
+      hidden: false
+    - title: "D.3. Przeciwwskazania do manualnego drenażu limfatycznego"
+      subchapter: false
+      content_file: "chapters/D-3-przeciwwskazania-do-manualnego-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "D.4. Przeciwwskazania do masażu łącznotkankowego"
+      subchapter: false
+      content_file: "chapters/D-4-przeciwwskazania-do-masazu-lacznotkankowego.md"
+      hidden: false
+    - title: "D.5. Przeciwwskazania do masażu okostnowego"
+      subchapter: false
+      content_file: "chapters/D-5-przeciwwskazania-do-masazu-okostnowego.md"
+      hidden: false
+    - title: "D.6. Przeciwwskazania do masażu punktowego"
+      subchapter: false
+      content_file: "chapters/D-6-przeciwwskazania-do-masazu-punktowego.md"
+      hidden: false
+    - title: "D.7. Przeciwwskazania do refleksoterapii stóp"
+      subchapter: false
+      content_file: "chapters/D-7-przeciwwskazania-do-refleksoterapii-stop.md"
+      hidden: false
+    - title: "D.8. Przeciwwskazania do masażu w środowisku wodnym"
+      subchapter: false
+      content_file: "chapters/D-8-przeciwwskazania-do-masazu-w-srodowisku-wodnym.md"
+      hidden: false
+    - title: "D.9. Przeciwwskazania do masażu izometrycznego i stawowego"
+      subchapter: false
+      content_file: "chapters/D-9-przeciwwskazania-do-masazu-izometrycznego-i-stawowego.md"
+      hidden: false
+    - title: "D.10. Przeciwwskazania do masażu Shantala"
+      subchapter: false
+      content_file: "chapters/D-10-przeciwwskazania-do-masazu-shantala.md"
+      hidden: false
+    - title: "D.11. Przeciwwskazania do masażu w ciąży"
+      subchapter: false
+      content_file: "chapters/D-11-przeciwwskazania-do-masazu-w-ciazy.md"
+      hidden: false
+    - title: "D.12. Przeciwwskazania do masażu w połogu"
+      subchapter: false
+      content_file: "chapters/D-12-przeciwwskazania-do-masazu-w-pologu.md"
+      hidden: false
+    - title: "D.13. Przeciwwskazania do masażu sportowego"
+      subchapter: false
+      content_file: "chapters/D-13-przeciwwskazania-do-masazu-sportowego.md"
+      hidden: false
+    - title: "D.14. Przeciwwskazania do masażu gorącymi kamieniami"
+      subchapter: false
+      content_file: "chapters/D-14-przeciwwskazania-do-masazu-goracymi-kamieniami.md"
+      hidden: false
+    - title: "D.15. Przeciwwskazania do masażu przyrządowego"
+      subchapter: false
+      content_file: "chapters/D-15-przeciwwskazania-do-masazu-przyrzadowego.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

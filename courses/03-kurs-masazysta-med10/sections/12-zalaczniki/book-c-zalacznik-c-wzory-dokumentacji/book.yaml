@@ -1,0 +1,94 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik C. Wzory dokumentacji"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik C. Wzory dokumentacji.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **C.1** Karta pacjenta
+    - **C.2** Karta zabiegu masażu
+    - **C.3** Zgoda na przetwarzanie danych
+    - **C.4** Zgoda na zabieg masażu
+    - **C.5** Karta oceny bólu
+    - **C.6** Karta oceny obrzęku
+    - **C.7** Karta drenażu limfatycznego
+    - **C.8** Karta masażu sportowego
+    - **C.9** Karta masażu prozdrowotnego
+    - **C.10** Karta zdarzenia niepożądanego
+    - **C.11** Skierowanie do lekarza
+    - **C.12** Dziennik praktyk
+    - **C.13** Karta oceny praktyki
+    - **C.14** Oświadczenie o tajemnicy zawodowej
+    - **C.15** Informacja RODO dla pacjenta
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "C.1. Karta pacjenta"
+      subchapter: false
+      content_file: "chapters/C-1-karta-pacjenta.md"
+      hidden: false
+    - title: "C.2. Karta zabiegu masażu"
+      subchapter: false
+      content_file: "chapters/C-2-karta-zabiegu-masazu.md"
+      hidden: false
+    - title: "C.3. Zgoda na przetwarzanie danych"
+      subchapter: false
+      content_file: "chapters/C-3-zgoda-na-przetwarzanie-danych.md"
+      hidden: false
+    - title: "C.4. Zgoda na zabieg masażu"
+      subchapter: false
+      content_file: "chapters/C-4-zgoda-na-zabieg-masazu.md"
+      hidden: false
+    - title: "C.5. Karta oceny bólu"
+      subchapter: false
+      content_file: "chapters/C-5-karta-oceny-bolu.md"
+      hidden: false
+    - title: "C.6. Karta oceny obrzęku"
+      subchapter: false
+      content_file: "chapters/C-6-karta-oceny-obrzeku.md"
+      hidden: false
+    - title: "C.7. Karta drenażu limfatycznego"
+      subchapter: false
+      content_file: "chapters/C-7-karta-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "C.8. Karta masażu sportowego"
+      subchapter: false
+      content_file: "chapters/C-8-karta-masazu-sportowego.md"
+      hidden: false
+    - title: "C.9. Karta masażu prozdrowotnego"
+      subchapter: false
+      content_file: "chapters/C-9-karta-masazu-prozdrowotnego.md"
+      hidden: false
+    - title: "C.10. Karta zdarzenia niepożądanego"
+      subchapter: false
+      content_file: "chapters/C-10-karta-zdarzenia-niepozadanego.md"
+      hidden: false
+    - title: "C.11. Skierowanie do lekarza"
+      subchapter: false
+      content_file: "chapters/C-11-skierowanie-do-lekarza.md"
+      hidden: false
+    - title: "C.12. Dziennik praktyk"
+      subchapter: false
+      content_file: "chapters/C-12-dziennik-praktyk.md"
+      hidden: false
+    - title: "C.13. Karta oceny praktyki"
+      subchapter: false
+      content_file: "chapters/C-13-karta-oceny-praktyki.md"
+      hidden: false
+    - title: "C.14. Oświadczenie o tajemnicy zawodowej"
+      subchapter: false
+      content_file: "chapters/C-14-oswiadczenie-o-tajemnicy-zawodowej.md"
+      hidden: false
+    - title: "C.15. Informacja RODO dla pacjenta"
+      subchapter: false
+      content_file: "chapters/C-15-informacja-rodo-dla-pacjenta.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

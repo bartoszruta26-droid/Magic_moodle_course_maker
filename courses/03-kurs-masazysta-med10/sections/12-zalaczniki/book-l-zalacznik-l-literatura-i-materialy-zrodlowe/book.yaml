@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik L. Literatura i materiały źródłowe"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik L. Literatura i materiały źródłowe.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **L.1** Adam Zborowski, *Masaż klasyczny i segmentarny*
+    - **L.2** Adam Zborowski, *Masaż w wybranych jednostkach chorobowych*
+    - **L.3** Adam Zborowski, *Drenaż limfatyczny*
+    - **L.4** Bochenek, *Anatomia człowieka*
+    - **L.5** Traczyk, *Fizjologia człowieka*
+    - **L.6** Podstawy patofizjologii i rehabilitacji
+    - **L.7** Wytyczne BLS Polskiej Rady Resuscytacji
+    - **L.8** Przepisy prawa pracy, BHP, RODO
+    - **L.9** Podstawa programowa kwalifikacji MED.10
+    - **L.10** Materiały dydaktyczne kursu
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "L.1. Adam Zborowski, *Masaż klasyczny i segmentarny*"
+      subchapter: false
+      content_file: "chapters/L-1-adam-zborowski-masaz-klasyczny-i-segmentarny.md"
+      hidden: false
+    - title: "L.2. Adam Zborowski, *Masaż w wybranych jednostkach chorobowych*"
+      subchapter: false
+      content_file: "chapters/L-2-adam-zborowski-masaz-w-wybranych-jednostkach-chorobowych.md"
+      hidden: false
+    - title: "L.3. Adam Zborowski, *Drenaż limfatyczny*"
+      subchapter: false
+      content_file: "chapters/L-3-adam-zborowski-drenaz-limfatyczny.md"
+      hidden: false
+    - title: "L.4. Bochenek, *Anatomia człowieka*"
+      subchapter: false
+      content_file: "chapters/L-4-bochenek-anatomia-czlowieka.md"
+      hidden: false
+    - title: "L.5. Traczyk, *Fizjologia człowieka*"
+      subchapter: false
+      content_file: "chapters/L-5-traczyk-fizjologia-czlowieka.md"
+      hidden: false
+    - title: "L.6. Podstawy patofizjologii i rehabilitacji"
+      subchapter: false
+      content_file: "chapters/L-6-podstawy-patofizjologii-i-rehabilitacji.md"
+      hidden: false
+    - title: "L.7. Wytyczne BLS Polskiej Rady Resuscytacji"
+      subchapter: false
+      content_file: "chapters/L-7-wytyczne-bls-polskiej-rady-resuscytacji.md"
+      hidden: false
+    - title: "L.8. Przepisy prawa pracy, BHP, RODO"
+      subchapter: false
+      content_file: "chapters/L-8-przepisy-prawa-pracy-bhp-rodo.md"
+      hidden: false
+    - title: "L.9. Podstawa programowa kwalifikacji MED.10"
+      subchapter: false
+      content_file: "chapters/L-9-podstawa-programowa-kwalifikacji-med-10.md"
+      hidden: false
+    - title: "L.10. Materiały dydaktyczne kursu"
+      subchapter: false
+      content_file: "chapters/L-10-materialy-dydaktyczne-kursu.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

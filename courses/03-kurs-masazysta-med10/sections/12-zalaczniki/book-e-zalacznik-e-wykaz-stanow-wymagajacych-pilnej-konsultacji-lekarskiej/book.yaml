@@ -1,0 +1,94 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik E. Wykaz stanów wymagających pilnej konsultacji lekarskiej"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik E. Wykaz stanów wymagających pilnej konsultacji lekarskiej.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **E.1** Ból w klatce piersiowej
+    - **E.2** Duszność nagła
+    - **E.3** Omdlenie
+    - **E.4** Podejrzenie udaru
+    - **E.5** Podejrzenie zawału
+    - **E.6** Obrzęk jednostronny kończyny z bólem
+    - **E.7** Gorączka i dreszcze
+    - **E.8** Krwotok
+    - **E.9** Ostry uraz z deformacją
+    - **E.10** Objawy infekcji ogólnoustrojowej
+    - **E.11** Nowotwór w wywiadzie bez zgody lekarza
+    - **E.12** Ciąża z krwawieniem lub bólami
+    - **E.13** Dolegliwości neurologiczne postępujące
+    - **E.14** Zmiany skórne ropne lub rozległe
+    - **E.15** Każdy stan, którego masażysta nie potrafi bezpiecznie ocenić
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "E.1. Ból w klatce piersiowej"
+      subchapter: false
+      content_file: "chapters/E-1-bol-w-klatce-piersiowej.md"
+      hidden: false
+    - title: "E.2. Duszność nagła"
+      subchapter: false
+      content_file: "chapters/E-2-dusznosc-nagla.md"
+      hidden: false
+    - title: "E.3. Omdlenie"
+      subchapter: false
+      content_file: "chapters/E-3-omdlenie.md"
+      hidden: false
+    - title: "E.4. Podejrzenie udaru"
+      subchapter: false
+      content_file: "chapters/E-4-podejrzenie-udaru.md"
+      hidden: false
+    - title: "E.5. Podejrzenie zawału"
+      subchapter: false
+      content_file: "chapters/E-5-podejrzenie-zawalu.md"
+      hidden: false
+    - title: "E.6. Obrzęk jednostronny kończyny z bólem"
+      subchapter: false
+      content_file: "chapters/E-6-obrzek-jednostronny-konczyny-z-bolem.md"
+      hidden: false
+    - title: "E.7. Gorączka i dreszcze"
+      subchapter: false
+      content_file: "chapters/E-7-goraczka-i-dreszcze.md"
+      hidden: false
+    - title: "E.8. Krwotok"
+      subchapter: false
+      content_file: "chapters/E-8-krwotok.md"
+      hidden: false
+    - title: "E.9. Ostry uraz z deformacją"
+      subchapter: false
+      content_file: "chapters/E-9-ostry-uraz-z-deformacja.md"
+      hidden: false
+    - title: "E.10. Objawy infekcji ogólnoustrojowej"
+      subchapter: false
+      content_file: "chapters/E-10-objawy-infekcji-ogolnoustrojowej.md"
+      hidden: false
+    - title: "E.11. Nowotwór w wywiadzie bez zgody lekarza"
+      subchapter: false
+      content_file: "chapters/E-11-nowotwor-w-wywiadzie-bez-zgody-lekarza.md"
+      hidden: false
+    - title: "E.12. Ciąża z krwawieniem lub bólami"
+      subchapter: false
+      content_file: "chapters/E-12-ciaza-z-krwawieniem-lub-bolami.md"
+      hidden: false
+    - title: "E.13. Dolegliwości neurologiczne postępujące"
+      subchapter: false
+      content_file: "chapters/E-13-dolegliwosci-neurologiczne-postepujace.md"
+      hidden: false
+    - title: "E.14. Zmiany skórne ropne lub rozległe"
+      subchapter: false
+      content_file: "chapters/E-14-zmiany-skorne-ropne-lub-rozlegle.md"
+      hidden: false
+    - title: "E.15. Każdy stan, którego masażysta nie potrafi bezpiecznie ocenić"
+      subchapter: false
+      content_file: "chapters/E-15-kazdy-stan-ktorego-masazysta-nie-potrafi-bezpiecznie-ocenic.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view
