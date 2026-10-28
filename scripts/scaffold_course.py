@@ -45,7 +45,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from course_toc import (  # noqa: E402
     ACTIVITY_KINDS, MEDIA_SUBDIRS, QKINDS, TOP_FILES, Course,
-    parse_course, slugify,
+    check_structure, parse_course, slugify,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -214,7 +214,25 @@ def main(argv=None) -> int:
                     help="numer pierwszej sekcji modulu (dla --front ustaw np. na 2)")
     ap.add_argument("--no-normalize", action="store_true",
                     help="wlacz tylko tworzenie, bez normalizacji nazw stron")
+    ap.add_argument("--check", action="store_true",
+                    help="tylko zwaliduj strukture katalogu --base wzgledem spisu tresci "
+                         "(bez tworzenia plikow); wroc kod 1 przy rozbieznosciach")
     args = ap.parse_args(argv)
+
+    if args.check:
+        course = parse_course(args.toc)
+        target = args.base or default_base(args.toc)
+        if not target.is_absolute():
+            target = ROOT / target
+        problems = check_structure(course, target)
+        print(f"Kontrola struktury: {target.relative_to(ROOT)} vs {args.toc.name}")
+        if problems:
+            for pr in problems:
+                print("  BRAK:", pr)
+            print(f"Rozbieznosci: {len(problems)}")
+            return 1
+        print("OK - struktura zgodna ze spisem tresci")
+        return 0
 
     if not args.toc.exists():
         ap.error(f"brak pliku spisu tresci: {args.toc}")
