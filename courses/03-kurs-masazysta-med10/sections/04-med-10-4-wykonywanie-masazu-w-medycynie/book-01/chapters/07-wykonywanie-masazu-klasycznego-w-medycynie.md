@@ -26,140 +26,97 @@ Temat „4.7. Wykonywanie masażu klasycznego w medycynie” realizuje 15 zagadn
 
 ## Zagadnienia szczegółowe
 
-### 4.7.1 Masaz konczyny gornej
+### 4.7.1. Masaz konczyny gornej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz konczyny gornej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.7.2 Masaz konczyny dolnej
+### 4.7.2. Masaz konczyny dolnej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz konczyny dolnej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.7.3 Masaz grzbietu
+### 4.7.3. Masaz grzbietu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz grzbietu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.7.4 Masaz kregoslupa szyjnego
+### 4.7.4. Masaz kregoslupa szyjnego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz kregoslupa szyjnego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
 
-### 4.7.5 Masaz kregoslupa piersiowego
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.5. Masaz kregoslupa piersiowego
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz kregoslupa piersiowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.6 Masaz kregoslupa ledzwiowego
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.6. Masaz kregoslupa ledzwiowego
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz kregoslupa ledzwiowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.7 Masaz karku
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.7. Masaz karku
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz karku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.8 Masaz klatki piersiowej
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.8. Masaz klatki piersiowej
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz klatki piersiowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.9 Masaz powlok brzusznych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.9. Masaz powlok brzusznych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz powlok brzusznych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.10 Masaz twarzy i glowy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.10. Masaz twarzy i glowy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz twarzy i glowy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.11 Masaz posladkow
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.11. Masaz posladkow
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Masaz posladkow” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.12 Wariant rozluzniajacy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.12. Wariant rozluzniajacy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Wariant rozluzniajacy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.13 Wariant pobudzajacy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.13. Wariant pobudzajacy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Wariant pobudzajacy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.14 Wariant leczniczy wg zlecenia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.14. Wariant leczniczy wg zlecenia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Wariant leczniczy wg zlecenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.7.15 Zakonczenie zabiegu i odpoczynek pacjenta
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.7.15. Zakonczenie zabiegu i odpoczynek pacjenta
 
-- omówienie pojęcia, celów i miejsca zagadnienia „Zakonczenie zabiegu i odpoczynek pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

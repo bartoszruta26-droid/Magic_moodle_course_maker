@@ -21,95 +21,71 @@ Temat „4.10. Kompleksowa terapia obrzęków” realizuje 10 zagadnień szczeg�
 
 ## Zagadnienia szczegółowe
 
-### 4.10.1 4.10.1. Terapia ułożeniowa
+### 4.10.1. Terapia ułożeniowa
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.1. Terapia ułożeniowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.10.2 4.10.2. Ćwiczenia fizyczne i oddechowe
+### 4.10.2. Ćwiczenia fizyczne i oddechowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.2. Ćwiczenia fizyczne i oddechowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.10.3 4.10.3. Autodrenaż pacjenta
+### 4.10.3. Autodrenaż pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.3. Autodrenaż pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-### 4.10.4 4.10.4. Kompresjoterapia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.10.4. Kompresjoterapia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.4. Kompresjoterapia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.10.5 4.10.5. Pielęgnacja skóry
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.10.5. Pielęgnacja skóry
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.5. Pielęgnacja skóry” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.10.6 4.10.6. Zapobieganie zakażeniom
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.10.6. Zapobieganie zakażeniom
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.6. Zapobieganie zakażeniom” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zapobieganie zakażeniom (łańcuch infekcji): przerywamy ogniwa — źródło (kwalifikacja chorego, odsunięcie od pracy osób zakażonych), droga (higiena rąk 5 momentów WHO, środki barierowe, materiały czyste/jałowe), gospodarz (stan skóry, odporność, wiek). Standardy: mycie rąk przed i po każdym kliencie, zmiana bielizny stołu co osobę, dezynfekcja powierzchni kontaktowych, praca przez zabezpieczenie ran, szczepienia personelu (WZW B). Każde odstępstwo notuj jako zdarzenie potencjalnie niepożądane i analizuj systemowo, nie oskarżycielsko.
 
-### 4.10.7 4.10.7. Edukacja pacjenta i rodziny
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.10.7. Edukacja pacjenta i rodziny
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.7. Edukacja pacjenta i rodziny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
-### 4.10.8 4.10.8. Dobór elementów do stanu klinicznego
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.8. Dobór elementów do stanu klinicznego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.10.8. Dobór elementów do stanu klinicznego
 
-### 4.10.9 4.10.9. Monitorowanie obwodów
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ergonomia dostosowuje narzędzia, stanowisko i organizację pracy do antropometrycznych, fizjologicznych i psychofizycznych możliwości człowieka. Cel: praca bez dominującego zmęczenia i bez choroby. U masażysty oznacza to regulowany stół na wysokości nadgarstka (przy zgięciu łokcia ok. 120°), neutralną pozycję kręgosłupa, podparcie stóp, sekwencje ruchów przenoszących siłę z masy ciała, a nie z małych stawów dłoni, oraz mikroprzerwy co 30 minut.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.9. Monitorowanie obwodów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.10.10 4.10.10. Współpraca z lekarzem i fizjoterapeutą
+### 4.10.9. Monitorowanie obwodów
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.10.10. Współpraca z lekarzem i fizjoterapeutą” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 4.10.10. Współpraca z lekarzem i fizjoterapeutą
+
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

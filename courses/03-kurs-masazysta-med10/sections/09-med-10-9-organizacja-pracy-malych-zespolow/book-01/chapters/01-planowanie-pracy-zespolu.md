@@ -21,95 +21,67 @@ Temat „9.1. Planowanie pracy zespołu” realizuje 10 zagadnień szczegółowy
 
 ## Zagadnienia szczegółowe
 
-### 9.1.1 9.1.1. Cele zespołu w gabinecie lub placówce
+### 9.1.1. Cele zespołu w gabinecie lub placówce
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.1. Cele zespołu w gabinecie lub placówce” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.2 9.1.2. Analiza przydzielonych zadań
+### 9.1.2. Analiza przydzielonych zadań
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Analiza przydzielonych zadań (job analysis) w praktyce: rozbij zadanie na: cel (jaki efekt dla pacjenta), kroki (SOP), zasoby (sprzęt, środki, czas), kompetencje (kto może: uprawnienia, szkolenia), ryzyka (BHP, infekcyjne, ergonomiczne) i kryteria ukończenia (checklista). Efekt: jasne instruktaże dla praktykantów, realne wyceny czasu, identyfikacja dubli i luk (np. nikt nie odpowiada za dezynfekcję lamp UV). Dokumentuj w karcie procesu; aktualizuj po incydencie. Analiza eliminuje „kulturę domyślania się” — matkę błędów. Dla zadań powtarzalnych: film instruktażowy 2 min + demo. Sprawiedliwość: ludzie oceniają wykonanie zadania zdefiniowanego, nie mglistego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.2. Analiza przydzielonych zadań” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.3 9.1.3. Harmonogram pracy
+### 9.1.3. Harmonogram pracy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Harmonogram pracy gabinetu: reguły: limity (maks. 6–8 masaży głębokich/dzień per terapeuta, przerwy 10–15 min co 2 h, dni bez nocnych zmian), rotacja obciążeń (duży–mały klient,区域 ciała), priorytet kwalifikacji (nowy pacjent = dłuższy slot 60 min), rezerwa 10% na pilne, czas administracji w grafiku (nie „po godzinach”), zgodność z KP (normy, odpoczynki dobowe/tygodniowe, badania, szkolenia wliczone). Publikacja z wyprzedzeniem (2 tyg.), wymiana zmian regulaminowa, uwzględnienie orzeczeń lekarskich (ciąża,限制). Optymalizacja sezonowa (przed świętami wellness↑, po kolonii sport↑). Grafolog humanistyczny: pytaj preferencji rytmu (rano/wieczór). Harmonogram służy bezpieczeństwu pacjenta i trwałości terapeuty — projektuj go jak instrument.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.3. Harmonogram pracy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.4 9.1.4. Podział obowiązków
+### 9.1.4. Podział obowiązków
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Sprawiedliwy podział pracy: kryteria — kompetencja, obciążenie historyczne, dostępność, rozwój (rotacja nieprzyjemnych zadań: sprzątanie końcówek, trudne transfery), transparentność reguł (grafik publikowany, algorytm przydziału znany), konsultacja przy zmianach. Mierz sprawiedliwość odczuwaną: ankieta kwartalna (1 pytanie: „czy podział jest fair?”), analiza odwołań i nadgodzin per osoba. Konflikty „on ma lekko” → dane (czas zabiegów, liczba, dokumentacja) zamiast opinii. Uwzględnij sytuacje losowe (choroba, rodzina) z funduszem solidarnościowym (wymienialność zmian). Etyka katolicka: praca dobrem wspólnym — równość szans, uczciwa rekompensata, szacunek dla godności każdej roli (recepcjonistka tak samo ważna jak dyrektor). Administracyjnie: zakresy obowiązków podpisane.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.4. Podział obowiązków” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.5 9.1.5. Monitorowanie realizacji
+### 9.1.5. Monitorowanie realizacji
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Monitorowanie realizacji planów (projektów i grafików): KPI: % wykonanych zabiegów wg planu, opóźnienia średnie, odsetek pełnych kart, terminy przeglądów sprzętu, szkolenia zrealizowane. Narzędzia: tablica Kanban zespołu (To-Do/Doing/Done), arkusz review co 2 tyg. (15 min), wyjątki eskalowane natychmiast (alarm, wypadek, reklamacja). Analiza odchyleń: przyczyna systemowa vs losowa; korekta planu z udziałem zespołu (partycypacja = adherencja). Raport do interesariuszy (kierownik, właściciel, komisja praktyk) — syntetyczny, z trendami. Automatyzuj przypomnienia (kalendarz, checklisty cykliczne). Monitoruj też dobrostan ludzi (absencja, samopoczucie) — plan wykonany kosztem zdrowia jest porażką. Zarządzanie przez fakty, nie nadzieje.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.5. Monitorowanie realizacji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.6 9.1.6. Raportowanie stanu prac
+### 9.1.6. Raportowanie stanu prac
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Raportowanie stanu prac w zespole: standard: krótki daily stand-up (co zrobione / co w toku / blokady) 5–10 min; raport tygodniowy (liczby: zabiegi, anulacje, zdarzenia, utrzymanie sprzętu, zamówienia); format cyfrowy jednolity (szablon). Zasady: fakty + liczby, bez narracji obronnej; eskalacja blokad w 24 h; odpowiedzialny za rubrykę widoczny. Archiwum raportów = dane do audytu jakości i do grafiku sezonowego. Dla praktykantów: raport dziennika praktyk (przebieg, nauka, pytania do opiekuna) — podstawa oceny. Raportowanie chroni przed „pożarami” i niesprawiedliwą oceną (widzisz wkład każdego). Kultura: raportuje się problem, żeby go rozwiązać, nie żeby karać. Czytelność > objętość.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.6. Raportowanie stanu prac” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.7 9.1.7. Identyfikacja wąskich gardeł
+### 9.1.7. Identyfikacja wąskich gardeł
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Identyfikacja wąskich gardeł (bottleneck) w gabinecie: metoda: mapowanie strumienia wartości (pacjent: kontakt→kwalifikacja→zabieg→dokumentacja→płatność), pomiar czasów i kolejek (np. dokumentacja blokuje 12 min po sesji; jeden stół = 70% obciążenia; recepcja w szczycie). Skutki: pośpiech → błędy higieny, frustracja → rotacja. Usuwanie: level loading (bufory czasu), standaryzacja kart (szablony), równoległość (przygotowanie sali przez wsparcie), inwestycja w drugi stół/urządzenie wg ROI, telemetryka (statusy sal). Teoria ograniczeń Goldratta: optymalizuj wąskie gardło, nie wszystko. Przegląd miesięczny z zespołem — dane z raportów. Sprawiedliwość organizacyjna: usuń przeszkody, potem wymagaj wydajności.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.7. Identyfikacja wąskich gardeł” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 9.1.8 9.1.8. Bezpieczeństwo pacjenta w pracy zespołowej
+### 9.1.8. Bezpieczeństwo pacjenta w pracy zespołowej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.8. Bezpieczeństwo pacjenta w pracy zespołowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
 
-### 9.1.9 9.1.9. Etyka współpracy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 9.1.9. Etyka współpracy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.9. Etyka współpracy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 9.1.10 9.1.10. Dokumentacja zespołowa
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 9.1.10. Dokumentacja zespołowa
 
-- omówienie pojęcia, celów i miejsca zagadnienia „9.1.10. Dokumentacja zespołowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

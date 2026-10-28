@@ -21,95 +21,73 @@ Temat „3.3. Urazy układu narządu ruchu” realizuje 10 zagadnień szczegół
 
 ## Zagadnienia szczegółowe
 
-### 3.3.1 3.3.1. Stłuczenia i zmiażdżenia
+### 3.3.1. Stłuczenia i zmiażdżenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.1. Stłuczenia i zmiażdżenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.3.2 3.3.2. Rany i blizny
+### 3.3.2. Rany i blizny
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Tkanka bliznowata dojrzewa miesiącami: kolagen typu III zastępowany jest przez typ I, włókna układają się wzdłuż linii naprężeń. Masaż blizny (począwszy od w pełni zepitelializowanej rany, zwykle ≥3-4 tyg. po zamknięciu) zapobiega zrostom, poprawia elastyczność i znosi ból. Techniki: poprzeczne rozcieranie, rozciąganie skóry, pracujące fałdy; zasada — praca do granicy komfortu, nigdy „przez” ostry ból.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.2. Rany i blizny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.3.3 3.3.3. Oparzenia i odmrożenia
+### 3.3.3. Oparzenia i odmrożenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.3. Oparzenia i odmrożenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.3.4 3.3.4. Skręcenia
+### 3.3.4. Skręcenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.4. Skręcenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.3.5 3.3.5. Zwichnięcia
+### 3.3.5. Zwichnięcia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.5. Zwichnięcia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-### 3.3.6 3.3.6. Złamania
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.3.6. Złamania
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.6. Złamania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-### 3.3.7 3.3.7. Uszkodzenia mięśni i ścięgien
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.7. Uszkodzenia mięśni i ścięgien” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.3.7. Uszkodzenia mięśni i ścięgien
 
-### 3.3.8 3.3.8. Uszkodzenia więzadeł i łąkotek
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ochrona przeciwpożarowa opiera się na zasadzie wzajemności: technika (drogi ewakuacyjne, oznakowanie, podręczny sprzęt gaśniczy — kontrola gaśnic co 12 miesięcy, hydrantów wewnętrznych raz w roku; przeglądy instalacji z protokołem) i organizacja (instrukcja bezpieczeństwa pożarowego, wyznaczenie osób do zwalczania pożaru i ewakuacji, szkolenie pracowników w dniu zatrudnienia i następnie co 2 lata). Plan ewakuacji gabinetu musi uwzględniać osoby leżące na stole masażnym: priorytetem jest ewakuacja ludzi, potem mienia; punkt zbiórki weryfikowany listą obecności.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.8. Uszkodzenia więzadeł i łąkotek” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.3.9 3.3.9. Amputacje i stan po protezowaniu
+### 3.3.8. Uszkodzenia więzadeł i łąkotek
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.9. Amputacje i stan po protezowaniu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.3.10 3.3.10. Zespoły pourazowe i przewlekłe bóle po urazie
+### 3.3.9. Amputacje i stan po protezowaniu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.3.10. Zespoły pourazowe i przewlekłe bóle po urazie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 3.3.10. Zespoły pourazowe i przewlekłe bóle po urazie
+
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+
+Po urazie lub operacji: fazy gojenia (hemostaza 0–24 h, zapalenie do 72 h, proliferacja do 6 tygodni, przebudowa 6 miesięcy–2 lata). Masaż: do zamknięcia rany — zakaz pracy na ranie; po epithelializacji (ok. 7–14 dni, usunięte szwy): mobilizacja blizny, rozcieranie poprzeczne, plastry silikonowe i taping (protokół bliznowy), praca z zrostami, stopniowy ROM, obrzęk — drenaż limfatyczny. Endoprotezy: biodro — podejście tylne: zakaz zgięcia >90° z przywiedzeniem i rotacją wewnętrzną przez ok. 3 miesiące; podejście przednie — ograniczenia odwrotne; kolano — priorytet pełnego prostowania, lód; bark odwrócony — limit rotacji. Zawsze: dokumentacja operacyjna i zalecenia chirurga; czerwone flagi: gorączka, wysięk, rozejście rany, bóle łydki (podejrzenie DVT) → pilna pomoc lekarska.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

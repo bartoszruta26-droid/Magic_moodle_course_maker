@@ -21,95 +21,67 @@ Temat „2.22. Normy i procedury oceny zgodności” realizuje 10 zagadnień szc
 
 ## Zagadnienia szczegółowe
 
-### 2.22.1 2.22.1. Pojęcie normalizacji krajowej
+### 2.22.1. Pojęcie normalizacji krajowej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.1. Pojęcie normalizacji krajowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.22.2 2.22.2. Norma krajowa, europejska, międzynarodowa
+### 2.22.2. Norma krajowa, europejska, międzynarodowa
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.2. Norma krajowa, europejska, międzynarodowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.22.3 2.22.3. Oznaczenia norm
+### 2.22.3. Oznaczenia norm
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.3. Oznaczenia norm” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-### 2.22.4 2.22.4. Procedury oceny zgodności
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.4. Procedury oceny zgodności
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.4. Procedury oceny zgodności” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 2.22.5 2.22.5. Certyfikacja wyrobów i usług
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.5. Certyfikacja wyrobów i usług
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.5. Certyfikacja wyrobów i usług” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 2.22.6 2.22.6. Znak CE — wyroby medyczne i sprzęt
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.6. Znak CE — wyroby medyczne i sprzęt
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.6. Znak CE — wyroby medyczne i sprzęt” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Oznakowanie CE: deklaracja zgodności wyrobów medycznych (stoły do masażu, aparaty, łoża rehabilitacyjne) z rozporządzeniem MDR 2017/745; kupując sprzęt sprawdzaj: oznaczenie CE (+ numer jednostki notyfikowanej przy wyższej klasie), deklarację zgodności UE, instrukcję używania w języku polskim, dane producenta/importera, klasę ryzyka i przeznaczenie. Używanie sprzętu poza przeznaczeniem lub samowolna modernizacja = wprowadzenie wyrobu «nowego» na rynek z pełną odpowiedzialnością. Prowadź rejestr przeglądów i konserwacji.
 
-### 2.22.7 2.22.7. Deklaracja właściwości użytkowych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.7. Deklaracja właściwości użytkowych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.7. Deklaracja właściwości użytkowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 2.22.8 2.22.8. Instrukcje obsługi urządzeń do masażu
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.8. Instrukcje obsługi urządzeń do masażu
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.8. Instrukcje obsługi urządzeń do masażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 2.22.9 2.22.9. Przeglądy techniczne sprzętu
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.9. Przeglądy techniczne sprzętu
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.9. Przeglądy techniczne sprzętu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 2.22.10 2.22.10. Odpowiedzialność za używanie sprzętu niezgodnie z przeznaczeniem
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.22.10. Odpowiedzialność za używanie sprzętu niezgodnie z przeznaczeniem
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.22.10. Odpowiedzialność za używanie sprzętu niezgodnie z przeznaczeniem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

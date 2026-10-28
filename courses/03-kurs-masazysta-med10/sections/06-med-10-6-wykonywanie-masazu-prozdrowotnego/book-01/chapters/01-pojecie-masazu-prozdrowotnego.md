@@ -21,95 +21,71 @@ Temat „6.1. Pojęcie masażu prozdrowotnego” realizuje 10 zagadnień szczeg�
 
 ## Zagadnienia szczegółowe
 
-### 6.1.1 6.1.1. Zdrowie jako dobro i zadanie
+### 6.1.1. Zdrowie jako dobro i zadanie
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.1. Zdrowie jako dobro i zadanie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.1.2 6.1.2. Profilaktyka a terapia
+### 6.1.2. Profilaktyka a terapia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.2. Profilaktyka a terapia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.1.3 6.1.3. Relaksacja a leczenie
+### 6.1.3. Relaksacja a leczenie
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.3. Relaksacja a leczenie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.1.4 6.1.4. Masaż prozdrowotny u osoby zdrowej
+### 6.1.4. Masaż prozdrowotny u osoby zdrowej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.4. Masaż prozdrowotny u osoby zdrowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
 
-### 6.1.5 6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 6.1.6 6.1.6. Granice: nie leczymy choroby niezdiagnozowanej
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.1.6. Granice: nie leczymy choroby niezdiagnozowanej
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 6.1.7 6.1.7. Edukacja pacjenta/klienta
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.1.7. Edukacja pacjenta/klienta
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.7. Edukacja pacjenta/klienta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
-### 6.1.8 6.1.8. Odpowiedzialność za oczekiwania
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.8. Odpowiedzialność za oczekiwania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 6.1.8. Odpowiedzialność za oczekiwania
 
-### 6.1.9 6.1.9. Prawda o dowodach naukowych
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ergonomia dostosowuje narzędzia, stanowisko i organizację pracy do antropometrycznych, fizjologicznych i psychofizycznych możliwości człowieka. Cel: praca bez dominującego zmęczenia i bez choroby. U masażysty oznacza to regulowany stół na wysokości nadgarstka (przy zgięciu łokcia ok. 120°), neutralną pozycję kręgosłupa, podparcie stóp, sekwencje ruchów przenoszących siłę z masy ciała, a nie z małych stawów dłoni, oraz mikroprzerwy co 30 minut.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.9. Prawda o dowodach naukowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.1.10 6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”
+### 6.1.9. Prawda o dowodach naukowych
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”
+
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

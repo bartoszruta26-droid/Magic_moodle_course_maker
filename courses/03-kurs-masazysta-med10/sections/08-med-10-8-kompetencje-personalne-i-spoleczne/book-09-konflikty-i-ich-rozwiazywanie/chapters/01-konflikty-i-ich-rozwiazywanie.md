@@ -21,95 +21,67 @@ Temat „8.9. Konflikty i ich rozwiązywanie” realizuje 10 zagadnień szczegó
 
 ## Zagadnienia szczegółowe
 
-### 8.9.1 8.9.1. Przyczyny konfliktów z pacjentem
+### 8.9.1. Przyczyny konfliktów z pacjentem
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Konflikty i reklamacje: model LEARN (Listen—Empathize—Apologize for experience—React/Resolve—Notify documentation). Klient niezadowolony ≠ wróg; zapis zdarzenia, propozycja rekompensaty w ramach regulaminu, eskalacja do przełożonego; sprawy o naruszenie nietykalności— natychmiast prawna ścieżka i odsunięcie od kontaktu z klientem do wyjaśnienia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.1. Przyczyny konfliktów z pacjentem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.2 8.9.2. Przyczyny konfliktów ze współpracownikami
+### 8.9.2. Przyczyny konfliktów ze współpracownikami
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Konflikty i reklamacje: model LEARN (Listen—Empathize—Apologize for experience—React/Resolve—Notify documentation). Klient niezadowolony ≠ wróg; zapis zdarzenia, propozycja rekompensaty w ramach regulaminu, eskalacja do przełożonego; sprawy o naruszenie nietykalności— natychmiast prawna ścieżka i odsunięcie od kontaktu z klientem do wyjaśnienia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.2. Przyczyny konfliktów ze współpracownikami” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.3 8.9.3. Fazy konfliktu
+### 8.9.3. Fazy konfliktu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Konflikty i reklamacje: model LEARN (Listen—Empathize—Apologize for experience—React/Resolve—Notify documentation). Klient niezadowolony ≠ wróg; zapis zdarzenia, propozycja rekompensaty w ramach regulaminu, eskalacja do przełożonego; sprawy o naruszenie nietykalności— natychmiast prawna ścieżka i odsunięcie od kontaktu z klientem do wyjaśnienia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.3. Fazy konfliktu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.4 8.9.4. Skutki konfliktu dla jakości opieki
+### 8.9.4. Skutki konfliktu dla jakości opieki
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Konflikty i reklamacje: model LEARN (Listen—Empathize—Apologize for experience—React/Resolve—Notify documentation). Klient niezadowolony ≠ wróg; zapis zdarzenia, propozycja rekompensaty w ramach regulaminu, eskalacja do przełożonego; sprawy o naruszenie nietykalności— natychmiast prawna ścieżka i odsunięcie od kontaktu z klientem do wyjaśnienia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.4. Skutki konfliktu dla jakości opieki” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.5 8.9.5. Asertywność
+### 8.9.5. Asertywność
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Asertywność bez agresji w gabinecie: komunikat JA (fakt + wpływ + prośba): „Gdy Pan podnosi głos (fakt), tracę koncentrację potrzebną do bezpiecznej pracy (wpływ); proszę o ciszę albo zrobimy przerwę (prośba)”. Umiejętności: mówienie „nie” prośbom spoza kompetencji (np. „proszę nastawić kręgosłup”, „podaj coś na sen”), egzekwowanie granic dotyku własnego ciała klienta („proszę nie chwytać mojej ręki — zatrzymujemy się na chwilę”), reagowanie na propozycje niestosowne (jasne zakończenie zabiegu, dokumentacja, procedura placówki). Asertywność ≠ agresja (narzucanie) ani uległość (milczenie kosztem bezpieczeństwa). Trening: role-play z instruktorem, zdania gotowe na kartce przy stole. Siła spokojna chroni obu: pacjenta i ciebie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.5. Asertywność” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.6 8.9.6. Mediacja i rozmowa naprawcza
+### 8.9.6. Mediacja i rozmowa naprawcza
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.6. Mediacja i rozmowa naprawcza” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.7 8.9.7. Dokumentowanie konfliktu
+### 8.9.7. Dokumentowanie konfliktu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.7. Dokumentowanie konfliktu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.8 8.9.8. Zasada: nie eskalować, nie upokarzać
+### 8.9.8. Zasada: nie eskalować, nie upokarzać
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Nadzór bez kontroli upokarzającej: zasada pomocniczości i godności: obserwuj proces (wejście, kwalifikacja, higiena, ergonomia), nie inwigiluj życia; feedback przy drzwiach zamkniętych, z szacunkiem formy („co poszło dobrze / co poprawić / czego potrzebujesz ode mnie”); dokumentuj ustalenia, nie „winnych”. Check-listy ocenne mają kryteria jawne z góry. Publiczne zwracanie uwagi = demotywacja i strach przed zgłaszaniem błędów (utraća near-miss data). W placówce: superwizja klinyczna, nie policja. Nauczyciel-opiekun praktyk: kontrakt, cele, regularność, pochwała wysiłku. Katolicka nauka społeczna: osoba preceduje procedurę. Silny zespół rodzi się z bezpieczeństwa psychologicznego — ty je ustanawiasz.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.8. Zasada: nie eskalować, nie upokarzać” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.9.9 8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu
+### 8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
 
-### 8.9.10 8.9.10. Ochrona dobra pacjenta ponad rację osobistą
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 8.9.10. Ochrona dobra pacjenta ponad rację osobistą
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.9.10. Ochrona dobra pacjenta ponad rację osobistą” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

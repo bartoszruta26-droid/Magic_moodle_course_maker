@@ -21,95 +21,69 @@ Temat „11.4. Powtórka patologii i wskazań/przeciwwskazań” realizuje 10 za
 
 ## Zagadnienia szczegółowe
 
-### 11.4.1 11.4.1. Choroby narządu ruchu
+### 11.4.1. Choroby narządu ruchu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.1. Choroby narządu ruchu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.4.2 11.4.2. Choroby neurologiczne
+### 11.4.2. Choroby neurologiczne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.2. Choroby neurologiczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.4.3 11.4.3. Choroby krążenia
+### 11.4.3. Choroby krążenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.3. Choroby krążenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.4.4 11.4.4. Choroby oddechowe
+### 11.4.4. Choroby oddechowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.4. Choroby oddechowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.4.5 11.4.5. Choroby pokarmowe
+### 11.4.5. Choroby pokarmowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.5. Choroby pokarmowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.4.6 11.4.6. Choroby moczowo-płciowe
+### 11.4.6. Choroby moczowo-płciowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.6. Choroby moczowo-płciowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-### 11.4.7 11.4.7. Choroby skóry
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.4.7. Choroby skóry
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.7. Choroby skóry” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 11.4.8 11.4.8. Obrzęki
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.4.8. Obrzęki
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.8. Obrzęki” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-### 11.4.9 11.4.9. Stany pourazowe
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.4.9. Stany pourazowe
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.9. Stany pourazowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-### 11.4.10 11.4.10. Czerwone flagi
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.4.10. Czerwone flagi
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.4.10. Czerwone flagi” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+
+Wiązadła: pasma kolagenu typu I łączące kość z kością, stabilizują staw biernie; zawierają receptory (Golgiego, Ruffiniego) uczestniczące w propriocepcji. Ścięgna przenoszą siłę z mięśnia na kość; struktura: endotendon, peritendon, wiązki kolagenowe, entesis (przyczep włókienno-chrzęstny — newralgiczne miejsce tendinopatii). Gojenie: faza zapalna (do 72 h), proliferacyjna (do ok. 6 tygodni, kolagen III), przebudowy (miesiące–lata, kolagen I wzdłuż linii naprężeń). Zastosowania masażu: rozluźnianie powięziowe zmniejsza napięcie na przyczepie; friction poprzeczny stosuje się w bliznach i entezopatiach tylko po konsultacji; protokoły ostre oparte są na zasadzie POLICE (Protection, Optimal Loading, Ice, Compression, Elevation).
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

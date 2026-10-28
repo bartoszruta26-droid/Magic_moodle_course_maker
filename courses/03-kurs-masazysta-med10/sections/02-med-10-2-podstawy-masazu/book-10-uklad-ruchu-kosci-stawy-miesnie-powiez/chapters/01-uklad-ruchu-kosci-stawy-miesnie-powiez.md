@@ -21,95 +21,73 @@ Temat „2.10. Układ ruchu: kości, stawy, mięśnie, powięź” realizuje 10 
 
 ## Zagadnienia szczegółowe
 
-### 2.10.1 2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych
+### 2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Kości: długie (trzon/bark, nasady z chrząstką stawową, kanał szpikowy, okostna bogato unerwiona, chrząstka wzrostowa u dzieci), krótkie (nadgarstek, stopy), płaskie (łopatka, mostek, kości czaszki — blaszki z istotą gąbczastą), pneumatyzowane (zawierające zatoki: szczęka, kość czołowa, sitowa, klinowa), nieregularne (kręgi, miednica) i sesamowate (rzepka). Skład: osteoblasty, osteocyty, osteoklasty; macierz mineralna (hydroksyapatyt) plus kolagen typu I (elastyczność). Mechanotransdukcja: kość przebudowuje się w odpowiedzi na obciążenie (prawo Wolffa) — uzasadnia to stopniowanie bodźców po urazach i ostrożność przy gwałtownych technikach na okostną.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.10.2 2.10.2. Połączenia kości: ciągłe i ciągłości
+### 2.10.2. Połączenia kości: ciągłe i ciągłości
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Połączenia ciągłe (szwy czaszki, spojenia, synchondrosis — chrząstka wzrostowa) i stawy ruchome (diarthrosis): chrząstka szklista pokrywająca powierzchnie stawowe, torebka stawowa (błona włóknista i maziowa wydzielająca mazę stawową), jama stawowa, więzadła, kaletki, obrąbki i krążki śródstawowe. Klasyfikacja ze względu na oś ruchu: jednoosiowe (zawiasowe, obrotowe — promieniowo-łokciowe), dwuosiowe (kłykciowe, siodłowate — CMC kciuka), wieloosiowe (kuliste — bark, biodro) i płaskie (śródstopowe, międzykregowe). Masaż okołostawowy poprawia produkcję mazi, trofikę chrząstki (dyfuzja przez rytm ucisku i odciążenia) oraz elastyczność torebki — nigdy nie manipuluje stawem ponad zakres czynny.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.2. Połączenia kości: ciągłe i ciągłości” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.10.3 2.10.3. Stawy: budowa, torebka, chrząstka, maziówka
+### 2.10.3. Stawy: budowa, torebka, chrząstka, maziówka
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.3. Stawy: budowa, torebka, chrząstka, maziówka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Połączenia ciągłe (szwy czaszki, spojenia, synchondrosis — chrząstka wzrostowa) i stawy ruchome (diarthrosis): chrząstka szklista pokrywająca powierzchnie stawowe, torebka stawowa (błona włóknista i maziowa wydzielająca mazę stawową), jama stawowa, więzadła, kaletki, obrąbki i krążki śródstawowe. Klasyfikacja ze względu na oś ruchu: jednoosiowe (zawiasowe, obrotowe — promieniowo-łokciowe), dwuosiowe (kłykciowe, siodłowate — CMC kciuka), wieloosiowe (kuliste — bark, biodro) i płaskie (śródstopowe, międzykregowe). Masaż okołostawowy poprawia produkcję mazi, trofikę chrząstki (dyfuzja przez rytm ucisku i odciążenia) oraz elastyczność torebki — nigdy nie manipuluje stawem ponad zakres czynny.
 
-### 2.10.4 2.10.4. Wiązadła i ścięgna
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.10.4. Wiązadła i ścięgna
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.4. Wiązadła i ścięgna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Wiązadła: pasma kolagenu typu I łączące kość z kością, stabilizują staw biernie; zawierają receptory (Golgiego, Ruffiniego) uczestniczące w propriocepcji. Ścięgna przenoszą siłę z mięśnia na kość; struktura: endotendon, peritendon, wiązki kolagenowe, entesis (przyczep włókienno-chrzęstny — newralgiczne miejsce tendinopatii). Gojenie: faza zapalna (do 72 h), proliferacyjna (do ok. 6 tygodni, kolagen III), przebudowy (miesiące–lata, kolagen I wzdłuż linii naprężeń). Zastosowania masażu: rozluźnianie powięziowe zmniejsza napięcie na przyczepie; friction poprzeczny stosuje się w bliznach i entezopatiach tylko po konsultacji; protokoły ostre oparte są na zasadzie POLICE (Protection, Optimal Loading, Ice, Compression, Elevation).
 
-### 2.10.5 2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 2.10.6 2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste
+Mięsień szkieletowy: włókna (syncytia wielojądrzyste) zebrane w pęczki owinięte pochewkami (endomysium, perimysium, epimysium) — ciągłość tych błon z powięzią głęboką stanowi podstawę technik łącznotkankowych. Jednostka motoryczna = neuron ruchowy α + unerwione włókna; zasada Hennemanna: rekrutacja od małych jednostek tonicznych do dużych szybkokurczliwych. Kurczliwość przez mechanizm sliding filament (aktyna–miozyna, ATP, jony Ca²⁺ z siateczki sarcoplazmatycznej). Przeciążenie prowadzi do mikrouszkodzeń, zespołu opóźnionej bolesności mięśniowej (DOMS) i punktów spustowych. Masaż normalizuje napięcie spoczynkowe i przepływ, modulując odruchy (narządy Golgiego, pętla γ) — przy chorobach nerwowo-mięśniowych (np. myasthenia gravis) konieczna jest konsultacja lekarska.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste
 
-### 2.10.7 2.10.7. Powięź powierzchowna i głęboka
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Narządy pomocnicze: powięzie (płaszczyzny poślizgu, przedziały mięśniowe), kaletki maziowe (bursae) zmniejszające tarcie w okolicach przyczepów (olecranon, kaletka Achillesa, pes anserinus), pochewki ścięgniste (vagina synovialis tendinis) ułatwiające ślizg ścięgien (np. prostowników nadgarstka, stopy), chrząstki sesamowate i przegrody. Stan zapalny kaletki lub pochewki (bursitis, tenosynovitis — np. de Quervain, „trigger finger”) oznacza miejscowe przeciwwskazanie do intensywnych technik: pracuje się bardzo delikatnie, kierunkowo, po kwalifikacji lekarskiej; często potrzebna jest immobilizacja i leczenie przeciwzapalne.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.7. Powięź powierzchowna i głęboka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.10.8 2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe
+### 2.10.7. Powięź powierzchowna i głęboka
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Powięź powierzchowna: warstwa łączno-tłuszczowa pod skórą — zawiera żyły odpiszczelową i odstrzałkową, nerwy skórne oraz początkowe naczynia limfatyczne; mobilizacja fałdów skórnych (skin rolling) wpływa na krążenie żylne i chłonne oraz na czucie. Powięź głęboka: zwarta, organizuje przedziały (kompartmenty) mięśniowe; patologiczne pogrubienie i zrosty ograniczają zakres ruchu i bolą. Techniki: wolne rozciąganie powięziowe, rozluźnianie mięśniowo-powięziowe (myofascial release — niskociśnieniowe, do bariery), rollowanie autogeniczne (foam roller) w profilaktyce. Ostry zespół kompartmentalny jest stanem nagłym chirurgicznym (ból nieproporcjonalny, parestezje, późno — brak tętna): natychmiast wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.10.9 2.10.9. Biomechanika ruchu i stabilizacja
+### 2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Linie i płaszczyzny anatomiczne (strzałkowe, czołowe, poprzeczne; linie: wyrostków kolczystych, kątów łopatek, grzebieni biodrowych) porządkują opis położenia i plan zabiegu. Łańcuchy mięśniowo-powięziowe (Thomas Myers, „Anatomy Trains”): tylna powierzchowna (podeszwa – grzbiet – potylicza), przednia powierzchowna, boczna, spiralna, funkcjonalne oraz liniowe kończyn górnych — wyjaśniają przenoszenie napięcia i bólu między odległymi regionami (np. przykurcz rozcięgna podeszwowego a ból karku). Traktuj model jako użyteczną hipotezę terapeutyczną, nie dogmat — dowody są umiarkowane, ale globalne planowanie zabiegu bywa skuteczne.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.9. Biomechanika ruchu i stabilizacja” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.10.10 2.10.10. Znaczenie palpacji struktur układu ruchu
+### 2.10.9. Biomechanika ruchu i stabilizacja
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Biomechanika: kinematyka (zakresy ruchu mierzone goniometrem, osie i płaszczyzny), dynamika (siły, momenty sił, dźwignie I/II/III rodzaju w układzie ruchu), równowaga (linia ciężaru w polu podparcia), łańcuch kinematyczny otwarty i zamknięty, ruch fizjologiczny versus joint play. Stabilizacja stawu: statyczna (kształt kostny, torebka, więzadła) i dynamiczna (mięśnie głębokie: multifidus, transversus abdominis, stożek rotatorów, dno miednicy — aktywacja anticipatoryjna). Masaż wspiera terapię: zmniejsza bolesne hamowanie odruchowe i poprawia propriocepcję, lecz stabilizację buduje przede wszystkim odpowiedni trening — mów o tym pacjentom uczciwie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.10.10. Znaczenie palpacji struktur układu ruchu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 2.10.10. Znaczenie palpacji struktur układu ruchu
+
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+
+Kości: długie (trzon/bark, nasady z chrząstką stawową, kanał szpikowy, okostna bogato unerwiona, chrząstka wzrostowa u dzieci), krótkie (nadgarstek, stopy), płaskie (łopatka, mostek, kości czaszki — blaszki z istotą gąbczastą), pneumatyzowane (zawierające zatoki: szczęka, kość czołowa, sitowa, klinowa), nieregularne (kręgi, miednica) i sesamowate (rzepka). Skład: osteoblasty, osteocyty, osteoklasty; macierz mineralna (hydroksyapatyt) plus kolagen typu I (elastyczność). Mechanotransdukcja: kość przebudowuje się w odpowiedzi na obciążenie (prawo Wolffa) — uzasadnia to stopniowanie bodźców po urazach i ostrożność przy gwałtownych technikach na okostną.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

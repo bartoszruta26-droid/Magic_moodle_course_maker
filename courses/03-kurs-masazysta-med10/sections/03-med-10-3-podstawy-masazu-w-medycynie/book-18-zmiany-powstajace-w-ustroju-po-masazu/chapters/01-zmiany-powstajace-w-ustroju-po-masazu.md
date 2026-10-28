@@ -21,95 +21,67 @@ Temat „3.18. Zmiany powstające w ustroju po masażu” realizuje 10 zagadnie�
 
 ## Zagadnienia szczegółowe
 
-### 3.18.1 3.18.1. Przekrwienie miejscowe
+### 3.18.1. Przekrwienie miejscowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.1. Przekrwienie miejscowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.18.2 3.18.2. Zmniejszenie napięcia mięśniowego
+### 3.18.2. Zmniejszenie napięcia mięśniowego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zmniejszenie napięcia mięśniowego: techniki hamujące — głaskanie długie, rozcieranie okrężne wokół punktu spustowego, ugniatanie wolne i rytmiczne, utrzymywanie pozycji skróconej (relaksacja pozycyjna Jones), napnij–rozluźnij z oddechem. Warunki: ciepło (gorący okład/prysznic przed), cisza, tempo zgodne z oddechem klienta. Przyczyny napięcia (postawa, stres, przeciążenie, deficyty elektrolitowe) omów z klientem — samo zdjęcie tonusu bez zmiany przyczyny jest półśrodkiem.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.2. Zmniejszenie napięcia mięśniowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.18.3 3.18.3. Zwiększenie zakresu ruchu
+### 3.18.3. Zwiększenie zakresu ruchu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zwiększenie zakresu ruchu (ROM) przez masaż: mechanizm — rozgrzanie kolagenu powięzi i więzadeł (termoplastyka niskiej temperatury), ↓tonus mięśniowy, normalizacja lepkości mazi stawowej oraz zniesienie bólowego hamowania odruchowego. Praktyka: masaż przed ćwiczeniem (kinezjoterapią) daje okno plastyczności ~20–30 min — wykorzystaj je na ruch, bo samo leżenie ROM nie poprawi trwale. Ograniczenia kostne (zrost, ciało wolne) to przeciwwskazanie do manipulacji — tu decyduje ortopeda.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.3. Zwiększenie zakresu ruchu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.18.4 3.18.4. Redukcja obrzęku
+### 3.18.4. Redukcja obrzęku
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.4. Redukcja obrzęku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.18.5 3.18.5. Zmiana odczuwania bólu
+### 3.18.5. Zmiana odczuwania bólu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.5. Zmiana odczuwania bólu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk to nadmiar płynu w przestrzeni międzykomórkowej. Mechanizmy (prawo Starlinga): wzrost ciśnienia hydrostatycznego (niewydolność żylna lub serca), spadek ciśnienia onkotycznego (hipoalbuminemia — wątroba, nerki, niedożywienie), wzrost przepuszczalności kapilar (zapalenie, oparzenie, alergia) oraz niewydolność pompy limfatycznej (pierwotna — np. hipoplazja wrodzona; wtórna — po operacji, radioterapii, infekcji). Różnicowanie: sercowy — symetryczny, kostkowy, narasta wieczorem, z dusznością; żylny — asymetria, przebarwienia; limfatyczny — zgrubienie skóry, znak Stemmera (+), zaczyna się od palców; nerkowy — worki pod oczami rano, białkomocz. Masażysta nie leczy przyczyny: rozpoznaje typ, kieruje do lekarza, a w stabilnym obrzęku limfatycznym wykonuje elementy złożonej terapii przeciwobrzękowej zgodnie z zleceniem.
 
-### 3.18.6 3.18.6. Poprawa propriocepcji
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.18.6. Poprawa propriocepcji
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.6. Poprawa propriocepcji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 3.18.7 3.18.7. Wpływ na sen i samopoczucie
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.18.7. Wpływ na sen i samopoczucie
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.7. Wpływ na sen i samopoczucie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
 
-### 3.18.8 3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-### 3.18.9 3.18.9. Kiedy reakcja jest alarmowa
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.18.9. Kiedy reakcja jest alarmowa
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.9. Kiedy reakcja jest alarmowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-### 3.18.10 3.18.10. Dokumentacja i planowanie kolejnych zabiegów
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.18.10. Dokumentacja i planowanie kolejnych zabiegów
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.18.10. Dokumentacja i planowanie kolejnych zabiegów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

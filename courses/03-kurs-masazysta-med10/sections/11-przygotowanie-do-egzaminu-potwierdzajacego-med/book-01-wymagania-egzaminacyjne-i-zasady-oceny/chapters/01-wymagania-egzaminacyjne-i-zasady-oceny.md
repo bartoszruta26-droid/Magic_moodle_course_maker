@@ -21,95 +21,69 @@ Temat „11.1. Wymagania egzaminacyjne i zasady oceny” realizuje 10 zagadnień
 
 ## Zagadnienia szczegółowe
 
-### 11.1.1 11.1.1. Część pisemna
+### 11.1.1. Część pisemna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.1. Część pisemna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.1.2 11.1.2. Część praktyczna
+### 11.1.2. Część praktyczna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.2. Część praktyczna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.1.3 11.1.3. Kryteria pozytywnej oceny
+### 11.1.3. Kryteria pozytywnej oceny
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.3. Kryteria pozytywnej oceny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.1.4 11.1.4. Błędy dyskwalifikujące
+### 11.1.4. Błędy dyskwalifikujące
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.4. Błędy dyskwalifikujące” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 11.1.5 11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne
+### 11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przygotowanie do egzaminu MED.10: część pisemna (test— wiedza: anatomia, patologia, przeciwwskazania, procedury) i praktyczna (stanowisko: ocena klienta, plan, wykonanie, dokumentacja, BHP). Strategie: mapy myśli na każdy rodzaj masażu, trening czasu (symulacje 1:1 z arkuszem), samoocena wg check-list F, powtórki naprzemienne (interleaving) w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
 
-### 11.1.6 11.1.6. Etyka i kultura zawodowa
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.1.6. Etyka i kultura zawodowa
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.6. Etyka i kultura zawodowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 11.1.7 11.1.7. Dokumentacja zabiegowa
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.1.7. Dokumentacja zabiegowa
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.7. Dokumentacja zabiegowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-### 11.1.8 11.1.8. Komunikacja z egzaminatorem
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.1.8. Komunikacja z egzaminatorem
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.8. Komunikacja z egzaminatorem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-### 11.1.9 11.1.9. Zarządzanie czasem
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 11.1.9. Zarządzanie czasem
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.9. Zarządzanie czasem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż sportowy dzielimy czasowo: PREDYSPOZYCYJNY (10-20 min przed startem: szybkie rozcieranie/oklepywanie, pobudzenie), POWYSIŁKOWY/regeneracyjny (do 30-60 min po: głaskanie odpływowe, delikatne rozcieranie, rozciąganie), PRZEBUDOWUJĄCY (24-72 h: głębsza praca z tkanką zmęczoną). Zakazy: masaż głęboki tuż przed startem (obniżenie compliance), masaż przy DOMS pierwszej doby u amatora, jakakolwiek praca nad mięśniem z podejrzeniem naderwania.
 
-### 11.1.10 11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo
+Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo
+
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

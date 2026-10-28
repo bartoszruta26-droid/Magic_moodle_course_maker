@@ -21,95 +21,69 @@ Temat „3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach
 
 ## Zagadnienia szczegółowe
 
-### 3.21.1 3.21.1. Choroby zwyrodnieniowe stawów
+### 3.21.1. Choroby zwyrodnieniowe stawów
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Choroba zwyrodnieniowa stawów (osteoarthritis) to najczęstsza choroba stawów: postępująca degeneracja chrząstki szklistej wraz z przebudową kości podchrzęstnej, wtórnym zapaleniem błony maziowej i osłabieniem mięśni okołostawowych. Ból mechaniczny (nasila się w ruchu, ustępuje w spoczynku), sztywność poranna krótsza niż 30 minut, trzeszczenie (krepitacje) i ograniczenie zakresu ruchu tworzą klasyczny obraz. Masażysta nie cofnie chrząstki — ale może zmniejszyć ból przez redukcję napięcia mięśni przeciążonych kompensacyjnie, poprawę krążenia okołostawowego i przygotowanie tkanek do kinezyterapii zaleconej przez lekarza.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.1. Choroby zwyrodnieniowe stawów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.21.2 3.21.2. Zespoły bólowe kręgosłupa
+### 3.21.2. Zespoły bólowe kręgosłupa
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.2. Zespoły bólowe kręgosłupa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.21.3 3.21.3. Stan po urazach i operacjach
+### 3.21.3. Stan po urazach i operacjach
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.3. Stan po urazach i operacjach” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.21.4 3.21.4. Choroby reumatyczne
+### 3.21.4. Choroby reumatyczne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Choroba zwyrodnieniowa stawów (osteoarthritis) to najczęstsza choroba stawów: postępująca degeneracja chrząstki szklistej wraz z przebudową kości podchrzęstnej, wtórnym zapaleniem błony maziowej i osłabieniem mięśni okołostawowych. Ból mechaniczny (nasila się w ruchu, ustępuje w spoczynku), sztywność poranna krótsza niż 30 minut, trzeszczenie (krepitacje) i ograniczenie zakresu ruchu tworzą klasyczny obraz. Masażysta nie cofnie chrząstki — ale może zmniejszyć ból przez redukcję napięcia mięśni przeciążonych kompensacyjnie, poprawę krążenia okołostawowego i przygotowanie tkanek do kinezyterapii zaleconej przez lekarza.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.4. Choroby reumatyczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
 
-### 3.21.5 3.21.5. Choroby neurologiczne
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.21.5. Choroby neurologiczne
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.5. Choroby neurologiczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 3.21.6 3.21.6. Choroby układu krążenia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.21.6. Choroby układu krążenia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.6. Choroby układu krążenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-### 3.21.7 3.21.7. Choroby układu oddechowego
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.21.7. Choroby układu oddechowego
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.7. Choroby układu oddechowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-### 3.21.8 3.21.8. Choroby układu pokarmowego
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.21.8. Choroby układu pokarmowego
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.8. Choroby układu pokarmowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
 
-### 3.21.9 3.21.9. Obrzęki limfatyczne
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.21.9. Obrzęki limfatyczne
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.9. Obrzęki limfatyczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-### 3.21.10 3.21.10. Zasada kolejności: najpierw bezpieczeństwo, potem efekt
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.21.10. Zasada kolejności: najpierw bezpieczeństwo, potem efekt
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.21.10. Zasada kolejności: najpierw bezpieczeństwo, potem efekt” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
+
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

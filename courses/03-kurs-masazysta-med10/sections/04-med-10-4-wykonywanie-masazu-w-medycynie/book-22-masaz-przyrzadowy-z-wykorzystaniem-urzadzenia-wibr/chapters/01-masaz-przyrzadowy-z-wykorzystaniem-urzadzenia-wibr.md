@@ -21,95 +21,67 @@ Temat „4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” 
 
 ## Zagadnienia szczegółowe
 
-### 4.22.1 4.22.1. Budowa i zasada działania urządzenia
+### 4.22.1. Budowa i zasada działania urządzenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż przyrządowy (VCP, wibratory, roller): standaryzacja bodźca, oszczędność dłoni masażysty. Zasady: nigdy na wyrostki kostne/ przystosowanie naczyń/ bieliznę metalową; czas na okolicę ≤ 3-5 min; siła i częstotliwość wg protokołu producenta i karty pacjenta. Przeciwwskazania wspólne dla masażu + lokalne (implanty, rozrusznik serca— zakaz pracy w promieniu 15 cm!).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.1. Budowa i zasada działania urządzenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.22.2 4.22.2. Przygotowanie stanowiska
+### 4.22.2. Przygotowanie stanowiska
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ergonomia stanowiska: wysokość stołu do poziomu nadgarstka masażysty przy zgięciu łokcia ~120°, stabilna baza nóg, transfer klienta z asystą lub po instruktażu, przerwy mikro co 30 min pracy ciągłej. Narzędzia: krzesło siedzące przy pracy na twarz/dłonie. Profilaktyka urazów przewlekłych dłoni/karku/lędźwi— bo Twoje zdrowie jest zasobem publicznym jakości usług.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.2. Przygotowanie stanowiska” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.22.3 4.22.3. Dobór głowic
+### 4.22.3. Dobór głowic
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.3. Dobór głowic” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.22.4 4.22.4. Kierunek i tempo
+### 4.22.4. Kierunek i tempo
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.4. Kierunek i tempo” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.22.5 4.22.5. Siła docisku
+### 4.22.5. Siła docisku
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.5. Siła docisku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.22.6 4.22.6. Czas na jednej okolicy
+### 4.22.6. Czas na jednej okolicy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.6. Czas na jednej okolicy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.22.7 4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne
+### 4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Osteoporoza — utrata masy kostnej i pogorszenie mikroarchitektury kości — czyni tkanki podatnymi na złamania nawet przy minimalnym urazie. Zasada: żadnych gwałtownych ruchów, żadnego ucisku punktowego na wyrostki kolczyste i żebra, pozycje ułożone z pełnym podparciem. Masaż relaksacyjny o lekkiej/umiarkowanej sile, wykonany profesjonalnie zmniejsza lęk i napięcie mięśni ochraniających kręgosłup.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
 
-### 4.22.8 4.22.8. Bezpieczeństwo pacjenta i masażysty
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.22.8. Bezpieczeństwo pacjenta i masażysty
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.8. Bezpieczeństwo pacjenta i masażysty” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
 
-### 4.22.9 4.22.9. Konserwacja i dezynfekcja urządzenia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.22.9. Konserwacja i dezynfekcja urządzenia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.9. Konserwacja i dezynfekcja urządzenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż przyrządowy (VCP, wibratory, roller): standaryzacja bodźca, oszczędność dłoni masażysty. Zasady: nigdy na wyrostki kostne/ przystosowanie naczyń/ bieliznę metalową; czas na okolicę ≤ 3-5 min; siła i częstotliwość wg protokołu producenta i karty pacjenta. Przeciwwskazania wspólne dla masażu + lokalne (implanty, rozrusznik serca— zakaz pracy w promieniu 15 cm!).
 
-### 4.22.10 4.22.10. Dokumentacja parametrów
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.22.10. Dokumentacja parametrów
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.22.10. Dokumentacja parametrów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

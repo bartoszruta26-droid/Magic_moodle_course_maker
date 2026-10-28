@@ -21,95 +21,67 @@ Temat „4.2. Badanie funkcjonalne i palpacyjne” realizuje 10 zagadnień szcze
 
 ## Zagadnienia szczegółowe
 
-### 4.2.1 4.2.1. Zakres ruchu czynnego i biernego
+### 4.2.1. Zakres ruchu czynnego i biernego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zakres ruchu czynnego (AROM) i biernego (PROM): AROM bada aktywność mięśnia i zgodność bólową pacjenta; PROM — torebkę, więzadła, opór końcowy (end-feel: twardy kostny, sprężysty kapsularny, gumowy mięśniowy — ocena wymaga szkolenia, przy end-feel pustym = niestabilność → lekarz!). Goniometr: oś na stawie, ramiona wzdłuż kości, referencja anatomiczna (np. zgięcie barku 0–180°, rotacja zewnętrzna 0–90°); norma wiekowa i płciowa, porównanie stron (>10% asymetrii = sygnał). Masażysta mierzy dla planu i oceny efektu serii, NIE do rozpoznania. Przeciwwskazania do PROM: podejrzenie uszkodzenia ostrego, świeże zwichnięcie, gojenie po operacji (ograniczenia protokołowe). Zapisuj: ruch, stopnie, ból (0–10), end-feel subiektywny. Powtarzalność > finezja: ta sama procedura每次.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.1. Zakres ruchu czynnego i biernego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.2.2 4.2.2. Testy siły mięśniowej w skali Lovetta
+### 4.2.2. Testy siły mięśniowej w skali Lovetta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.2. Testy siły mięśniowej w skali Lovetta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.2.3 4.2.3. Ocena chodu i wstawania
+### 4.2.3. Ocena chodu i wstawania
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.3. Ocena chodu i wstawania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.2.4 4.2.4. Ocena równowagi i stabilności
+### 4.2.4. Ocena równowagi i stabilności
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena równowagi i stabilności (orientacyjna, bez diagnozy): obserwacja siadania/wstawania, postawy stojącej (przeciążenie jednej nogi, szeroka baza nóg), test jeden-noga (z asekuracją!), timing „get-up-and-go” (wstanie, 3 m, zawrót, siad — czas >12 s sugeruje ryzyko upadku u seniora), stan po udarze/mastektomii (asymetria), lęk przed upadkiem (unikanie ruchu). Znaczenie dla masażu: dobór pozycji (boczna z klinami, półsiedząca), transfer z asekurą, zakaz zostawiania pacjenta samego na stole wysoko ustawionym, ostrzeżenie o przejściowej ataksji po masażu głowy/szyi. Alarm: nagła utrata równowagi, rotacyjne zawroty z nudnościami, asymetria nowego typu → konsultacja lekarska pilna (UKD!). Ćwicz obserwację: notuj 3 cechy postawy każdego klienta.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.4. Ocena równowagi i stabilności” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.2.5 4.2.5. Palpacja mięśni i powięzi
+### 4.2.5. Palpacja mięśni i powięzi
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Palpacja mięśni i powięzi — abeceda ręki terapeuty: pozycja wyjściowa mięśnia rozluźnionego, kolejność: skóra (temperatura, wilgotność, elastyczność) → tkanka podskórna (fałd, przesuwalność, guzki) → mięsień (tonus spoczynkowy przez opór przy biernym ruchu, brzusiec vs ścięgno, włókna, TrP — pasma napięte + punkt + promieniowanie typowe), powięź (ślizg warstw, napięcie linii). Technika: opuszki i krawędzie palców, minimum siły — maksimum uwagi; ruch wolny (2–4 mm/s), porównanie stron, mapa w karcie. Błędy: „szukanie knotów wszędzie”, mylenie tętna z kontrakcją, przecenianie własnych znajdów (fałszywie dodatnie u 30% zdrowych!). Walidacja: trening na parach szkolnych z atlasem, testy powtarzalności intra-terapeuta. Palpacja służy planowaniu zabiegu i sygnalizowaniu anomalii lekarzowi — nigdy orzekaniu choroby.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.5. Palpacja mięśni i powięzi” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.2.6 4.2.6. Palpacja stawów i więzadeł
+### 4.2.6. Palpacja stawów i więzadeł
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.6. Palpacja stawów i więzadeł” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Palpacja mięśni i powięzi — abeceda ręki terapeuty: pozycja wyjściowa mięśnia rozluźnionego, kolejność: skóra (temperatura, wilgotność, elastyczność) → tkanka podskórna (fałd, przesuwalność, guzki) → mięsień (tonus spoczynkowy przez opór przy biernym ruchu, brzusiec vs ścięgno, włókna, TrP — pasma napięte + punkt + promieniowanie typowe), powięź (ślizg warstw, napięcie linii). Technika: opuszki i krawędzie palców, minimum siły — maksimum uwagi; ruch wolny (2–4 mm/s), porównanie stron, mapa w karcie. Błędy: „szukanie knotów wszędzie”, mylenie tętna z kontrakcją, przecenianie własnych znajdów (fałszywie dodatnie u 30% zdrowych!). Walidacja: trening na parach szkolnych z atlasem, testy powtarzalności intra-terapeuta. Palpacja służy planowaniu zabiegu i sygnalizowaniu anomalii lekarzowi — nigdy orzekaniu choroby.
 
-### 4.2.7 4.2.7. Palpacja tkanek podskórnych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.2.7. Palpacja tkanek podskórnych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.7. Palpacja tkanek podskórnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Palpacja mięśni i powięzi — abeceda ręki terapeuty: pozycja wyjściowa mięśnia rozluźnionego, kolejność: skóra (temperatura, wilgotność, elastyczność) → tkanka podskórna (fałd, przesuwalność, guzki) → mięsień (tonus spoczynkowy przez opór przy biernym ruchu, brzusiec vs ścięgno, włókna, TrP — pasma napięte + punkt + promieniowanie typowe), powięź (ślizg warstw, napięcie linii). Technika: opuszki i krawędzie palców, minimum siły — maksimum uwagi; ruch wolny (2–4 mm/s), porównanie stron, mapa w karcie. Błędy: „szukanie knotów wszędzie”, mylenie tętna z kontrakcją, przecenianie własnych znajdów (fałszywie dodatnie u 30% zdrowych!). Walidacja: trening na parach szkolnych z atlasem, testy powtarzalności intra-terapeuta. Palpacja służy planowaniu zabiegu i sygnalizowaniu anomalii lekarzowi — nigdy orzekaniu choroby.
 
-### 4.2.8 4.2.8. Wykrywanie punktów spustowych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.2.8. Wykrywanie punktów spustowych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.8. Wykrywanie punktów spustowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Punkty trigger miofasj (TrPs): węzły napięciowe w pasmie mięśniowym z bólem promienującym typowo dla mięśnia. Techniki: ischemiczna kompresja 30-90 s (ból „dobry”, malejący), spray & stretch wyłącznie po stosownym szkoleniu, sucha igła— WYŁĄCZNIE lekarz/fizjoterapeuta z uprawnieniami, masażysta NIE kłuje. Edukuj: nawyki (ergonomia, sen, stres), bo TrP nawraca bez zmiany przyczyn.
 
-### 4.2.9 4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż łącznotkankowy (Friebego (szkoła Dicza/Bineta)): reflektoryczne działanie na segmenty rdzeniowe przez powięź i skórę; chwyt: fałd skóry unoszony i utrzymywany 20-60 s, ruch wolny, „ciągnący”. Reakcje (mrowienie, ciepło, ból przeniesiony) są typowe. Przeciwwskazania: choroby zakaźne z wysypką, żylaki, nowotwory (miejsca), niewydolność serca zaawansowana. Skóra cienka/starości— siła minimalna (ryzyko petechii i rozdarcia naskórka!).
 
-### 4.2.10 4.2.10. Ocena węzłów chłonnych superficialnych — bez diagnostyki nowotworowej
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.2.10. Ocena węzłów chłonnych superficialnych — bez diagnostyki nowotworowej
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.2.10. Ocena węzłów chłonnych superficialnych — bez diagnostyki nowotworowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Węzły chłonne powierzchowne — palpacja w granicach kompetencji: grupy istotne: podpotyliczne, szyjne przednie/podne, nad-/podobojczykowe, pachowe, łokciowe, pachwinowe. Prawidłowo: ruchome, do 1 cm, niewyczuwalne boleśnie. Masażysta NIE stawia diagnozy onkologicznej; węzły powiększone twarde, niezmienne, >2 cm, nad-/podobojczykowe, z gorączką/nocnymi potami/utrata masy ciała = czerwona flaga → pilne skierowanie do lekarza. Przy drenażu limfatycznym: BEZ masażu regionu z aktywną infekcją węzłów, ostrożnie po limfadenektomii (zmieniona anatomia, ryzyko wtórnego obrzęku — protokół CTP, zgoda lekarza). Dokumentuj observation (wielkość, bolesność, jedno-/obustronność) jako opis, nie interpretację. Delikatność nacisku: tkanka limfatyczna nie znosi siły.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

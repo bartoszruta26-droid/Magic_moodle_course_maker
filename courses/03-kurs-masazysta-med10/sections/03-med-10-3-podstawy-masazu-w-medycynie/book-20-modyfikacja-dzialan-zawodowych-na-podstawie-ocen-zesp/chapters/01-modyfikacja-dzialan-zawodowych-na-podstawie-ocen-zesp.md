@@ -21,95 +21,65 @@ Temat „3.20. Modyfikacja działań zawodowych na podstawie ocen zespołu” re
 
 ## Zagadnienia szczegółowe
 
-### 3.20.1 3.20.1. Zmiana zlecenia lekarskiego
+### 3.20.1. Zmiana zlecenia lekarskiego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zmiana zlecenia lekarskiego: masażysta realizuje zlecenie zgodnie z jego treścią; wszelkie modyfikacje (rozszerzenie obszaru, zmiana intensywności, nowe przeciwwskazanie) wymagają kontaktu z lekarzem kierującym i adnotacji w dokumentacji. Samodzielna «interpretacja» zlecenia jest przekroczeniem kompetencji. Dokumentuj: komu, kiedy, co zgłoszono i jaką otrzymano decyzję.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.1. Zmiana zlecenia lekarskiego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.2 3.20.2. Zmiana stanu klinicznego pacjenta
+### 3.20.2. Zmiana stanu klinicznego pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zmiana stanu klinicznego pacjenta w toku opieki: sygnały: nowe leki, zmiana parametrów (RR, tętno spoczynkowe), przyrost masy/obrzęki, padaczka częstsza, ból jakościowo inny, spadek funkcjonowania (ADL), confusion. Reakcja masażysty: aktualizuj wywiad KAŻDORAZOWO (3 pytania standard), modyfikuj plan (siła, czas, pozycja, obszar), konsultuj z lekarzem/fizjoterapeutą (pisemnie), rozważ wstrzymanie. Dokumentuj trend (karta longitudinalna). Edukuj pacjenta: „proszę informować nas o każdej zmianie leczenia”. Szczególnie: onkologia (progressja → palliative approach), kardiologia (dekompensacja → stop), ciąża (powikłania → hospital). Elastyczność planu przy zmianie stanu to istota sztuki kwalifikacji — nie biurokracji.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.2. Zmiana stanu klinicznego pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.3 3.20.3. Wystąpienie przeciwwskazania
+### 3.20.3. Wystąpienie przeciwwskazania
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Wystąpienie przeciwwskazania w trakcie serii: przykłady: nowa gorączka, start antykoagulantu, ciąża, nasilenie żylaków, rana/oparzenie w obszarze, alergia na olejek, świeży incydent sercowy. Procedura: natychmiastowa weryfikacja (pytania, pomiar, karta leków), przerwanie lub modyfikacja (omijam obszar, zmieniam pozycję/siłę), decyzja „kiedy wracamy” z lekarzem, dokumentacja zdarzenia i rozmowy, informacja zespołu (spójność przekazu), edukacja pacjenta (dlaczego przerwa = troska). Nie „dokańczaj dla pozoru”. Seria zabiegów nie jest prawem nabytym — każde spotkanie ma własną kwalifikację. Sprawiedliwość wobec pacjenta: jego bezpieczeństwo ponad waszą relację handlową.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.3. Wystąpienie przeciwwskazania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.4 3.20.4. Brak poprawy lub pogorszenie
+### 3.20.4. Brak poprawy lub pogorszenie
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Brak poprawy lub pogorszenie po serii masażu: algorytm: weryfikacja (diagnoza lekarska aktualna? adherencja ćwiczeń? dawka masażu? miary obiektywne?), wykluczenie red-flagów (nowe objawy → lekarz pilnie), analiza przyczyn (zły rodzaj masażu? oczekiwania nierealne? choroba progresywna? czynniki psychospołeczne), decyzja: modyfikacja protokołu / zmiana celu na paliatywno-funkcjonalny / przerwanie i skierowanie. Dokumentuj serie NRS/ROM — dane, nie wrażenia. Komunikacja z pacjentem uczciwa: „efekt nie przyszedł; oto co proponuję i dlaczego; oto granice”. Nie „kręć” serii dla utargu — to eksploatacja. Pogorszenie = nasza porażka edukacyjna lub kliniczna — wyciągaj wnioski, nie winnych.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.4. Brak poprawy lub pogorszenie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.5 3.20.5. Reakcja niepożądana
+### 3.20.5. Reakcja niepożądana
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.5. Reakcja niepożądana” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.6 3.20.6. Konsultacja z przełożonym
+### 3.20.6. Konsultacja z przełożonym
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Konsultacja z przełożonym — kiedy i jak: triggers: niepewna kwalifikacja, nowe objawy pacjenta, konflikt z klientem/lekarzem, awaria sprzętu, podejrzenie przemocy/nadużycia, własne błędy, wypalenie. Forma: krótki briefing SBAR (Situation-Background-Assessment-Recommendation) — oszczędza czas i wymusza jasność. Decyzje zapisuj (mail/notatka służbowa), zwłaszcza odstąpienie zabiegu. Hierarchia nie jest murem: masz prawo do drugiej opinii i do odmiany wykonania polecenia zagrażającego pacjentowi (art. 210 KP analogicznie, sumienie). Przełożony winien dostępność (okna konsultacyjne, telefon dyżurny). Kultura pytań = dojrzałość, nie słabość. Sprawiedliwość: nie zostawiaj pracowników samych z dylematami — organizuj czas na konsultacje.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.6. Konsultacja z przełożonym” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.7 3.20.7. Przerwanie zabiegu
+### 3.20.7. Przerwanie zabiegu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przerwanie zabiegu — procedura i komunikacja: wskazania: ból alarmowy, objawy ogólnoustrojowe (zawrót, duszność, poty), reakcja skórna, niepokój/trauma-prowokacja, żądanie pacjenta, awaria/bezpieczeństwo (pożar!). Technicznie: zatrzymanie dłoni w kontakcie (nie zrywaj gwałtownie), okrycie, pozycja bezpieczna, ocena ABC i NRS, pomoc wg protokołu E/J, zapis czasu i powodu. Komunikat: spokojny, krótki, bez obwiniania („przerywam dla Pana bezpieczeństwa; proszę zostać chwilę ze mną”). Po: dokumentacja zdarzenia, decyzja o kontynuacji serii, informacja lekarza/placówki. Ćwicz scenariusze co semestr. Prawo pacjenta do przerwania jest absolutne — twoja reakcja pokazuje klasę. Przerwać = czasem uratować.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.7. Przerwanie zabiegu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.8 3.20.8. Skierowanie do lekarza
+### 3.20.8. Skierowanie do lekarza
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Skierowanie do lekarza przez masażystę — forma i treść: masażysta NIE wystawia skierowań w systemie (to kompetencja lekarza), ale formułuje PISEMNĄ REKOMENDACJĘ/KONSULTACJĘ: data, dane pacjenta (za zgodą), obserwacje (objawy, pomiary, czas), podejrzenie kategorii zagrożenia (wg załącznika E), zalecenie pilności, podpis. Wydaj kopię pacjentowi, oryginał w dokumentacji; w stanach ostrych — telefonicznie PRM/POZ. Formatuj życzliwie: „Proszę pilnie skontaktować się z lekarzem — widzę objawy wykraczające poza kompetencje masażu”. Monitoruj realizację (pytanie na kolejnej wizycie). Statystycznie: dobra decyzja „kieruję” buduje markę profesjonalizmu — fałszywy wstyd „odsyłam” kosztuje zdrowie. To akt prawdy i miłości bliźniego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.8. Skierowanie do lekarza” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.9 3.20.9. Dokumentacja zmiany planu
+### 3.20.9. Dokumentacja zmiany planu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.9. Dokumentacja zmiany planu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.20.10 3.20.10. Zasada: pacjent jest ważniejszy niż plan zabiegów
+### 3.20.10. Zasada: pacjent jest ważniejszy niż plan zabiegów
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zasada nadrzędna: pacjent ważniejszy niż plan dnia: grafik służy człowiekowi, nie odwrotnie. Praktyka: elastyczność czasu (wydłuż sesję, gdy trzeba; skróć bez utraty jakości — dokumentując), odwołanie zabiegu przy fladze bez poczucia „straty”, przyjęcie pilnego przypadku kosztem przerwy (z rekompensatą odpoczynku), zmiana techniki w połowie sesji wg reakcji. Organizacyjnie: bufor 10–15% czasu, polityka late-breaking, jasne kryteria „co przerywam / co opóźniam”. Etycznie: lojalność wobec osoby, nie wobec harmonogramu; ekonomia długofalowo nagradza taką postawę (zaufanie, polecenia). Duchoowo: każdy pacjent to bliźni w potrzebie — Ewangeliczna miłość bliźniego w wersji zawodowej, bez frazesów, z check-listą.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.20.10. Zasada: pacjent jest ważniejszy niż plan zabiegów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

@@ -21,95 +21,69 @@ Temat „1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska” re
 
 ## Zagadnienia szczegółowe
 
-### 1.3.1 1.3.1. Państwowa Inspekcja Pracy
+### 1.3.1. Państwowa Inspekcja Pracy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.1. Państwowa Inspekcja Pracy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.3.2 1.3.2. Państwowa Inspekcja Sanitarna
+### 1.3.2. Państwowa Inspekcja Sanitarna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.2. Państwowa Inspekcja Sanitarna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.3.3 1.3.3. Straż Pożarna
+### 1.3.3. Straż Pożarna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.3. Straż Pożarna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.3.4 1.3.4. Urząd Dozoru Technicznego — w zakresie urządzeń
+### 1.3.4. Urząd Dozoru Technicznego — w zakresie urządzeń
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.4. Urząd Dozoru Technicznego — w zakresie urządzeń” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.3.5 1.3.5. Samorząd zawodowy i organizacje branżowe
+### 1.3.5. Samorząd zawodowy i organizacje branżowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.5. Samorząd zawodowy i organizacje branżowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.3.6 1.3.6. Podmioty lecznicze i ich wewnętrzne służby BHP
+### 1.3.6. Podmioty lecznicze i ich wewnętrzne służby BHP
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.6. Podmioty lecznicze i ich wewnętrzne służby BHP” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Analiza przydzielonych zadań (job analysis) w praktyce: rozbij zadanie na: cel (jaki efekt dla pacjenta), kroki (SOP), zasoby (sprzęt, środki, czas), kompetencje (kto może: uprawnienia, szkolenia), ryzyka (BHP, infekcyjne, ergonomiczne) i kryteria ukończenia (checklista). Efekt: jasne instruktaże dla praktykantów, realne wyceny czasu, identyfikacja dubli i luk (np. nikt nie odpowiada za dezynfekcję lamp UV). Dokumentuj w karcie procesu; aktualizuj po incydencie. Analiza eliminuje „kulturę domyślania się” — matkę błędów. Dla zadań powtarzalnych: film instruktażowy 2 min + demo. Sprawiedliwość: ludzie oceniają wykonanie zadania zdefiniowanego, nie mglistego.
 
-### 1.3.7 1.3.7. Zadania i uprawnienia instytucji kontrolnych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.3.7. Zadania i uprawnienia instytucji kontrolnych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.7. Zadania i uprawnienia instytucji kontrolnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-### 1.3.8 1.3.8. Tryb zgłaszania zagrożeń i zdarzeń niepożądanych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.3.8. Tryb zgłaszania zagrożeń i zdarzeń niepożądanych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.8. Tryb zgłaszania zagrożeń i zdarzeń niepożądanych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obowiązek zgłaszania zdarzeń niepożądanych: kogo: personel, studentów, praktykantów — bez wyjątków; co: szkody (krwiak duży, oparzenie, upadek), near-miss (prawie pomyłka preparatu), warunki sprzyjające (stół bez blokady). Jak: formularz (fact-only, bez ocen), czas <24 h (cięte: natychmiast ustnie + pisemnie), rejestr centralny, analiza przyczyn (RCA przy ciężkich), działania naprawcze z terminami, feedback do zgłaszającego (zamknięcie pętli!). Kultura: non-punitive for reporting; sankcja tylko za ukrywanie/rażącego naruszenia. Statystyki kwartalne publiczne (anonimowe) — uczymy się wspólnie. Zgodność: ustawa o jakości w opiece zdrowotnej (eventy w podmiotach leczniczych), regulaminy placówek. Zgłoszenie to akt odwagi i solidarności — chroni następnego pacjenta. Zero tolerancji dla zamiatania.
 
-### 1.3.9 1.3.9. Współpraca z przełożonym i zespołem
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.3.9. Współpraca z przełożonym i zespołem
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.9. Współpraca z przełożonym i zespołem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-### 1.3.10 1.3.10. Rola masażysty w tworzeniu bezpiecznego środowiska pracy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.3.10. Rola masażysty w tworzeniu bezpiecznego środowiska pracy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.3.10. Rola masażysty w tworzeniu bezpiecznego środowiska pracy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+Ochrona środowiska w praktyce masażysty to gospodarka odpadami zgodnie z ustawą o odpadach: segregacja (komunalne, medyczne, opakowania, zużyty sprzęt elektryczny), rejestracja wytwórcy odpadów medycznych w bazie BDO, przekazywanie odpadów uprawnionemu odbiorcy z kartą przekazania, postępowanie ze środkami biobójczymi zgodnie z kartami charakterystyki (REACH/CLP) oraz ograniczanie jednorazowości tam, gdzie nie narusza to bezpieczeństwa infekcyjnego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

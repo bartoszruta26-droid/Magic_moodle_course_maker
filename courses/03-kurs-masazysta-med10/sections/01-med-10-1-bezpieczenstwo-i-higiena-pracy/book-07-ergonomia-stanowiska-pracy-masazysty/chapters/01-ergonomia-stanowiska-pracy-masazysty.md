@@ -21,95 +21,75 @@ Temat „1.7. Ergonomia stanowiska pracy masażysty” realizuje 10 zagadnień s
 
 ## Zagadnienia szczegółowe
 
-### 1.7.1 1.7.1. Wysokość stołu do masażu
+### 1.7.1. Wysokość stołu do masażu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ergonomia stanowiska: wysokość stołu do poziomu nadgarstka masażysty przy zgięciu łokcia ~120°, stabilna baza nóg, transfer klienta z asystą lub po instruktażu, przerwy mikro co 30 min pracy ciągłej. Narzędzia: krzesło siedzące przy pracy na twarz/dłonie. Profilaktyka urazów przewlekłych dłoni/karku/lędźwi— bo Twoje zdrowie jest zasobem publicznym jakości usług.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.1. Wysokość stołu do masażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.7.2 1.7.2. Pozycja masażysty: kręgosłup, barki, łokcie, nadgarstki
+### 1.7.2. Pozycja masażysty: kręgosłup, barki, łokcie, nadgarstki
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.2. Pozycja masażysty: kręgosłup, barki, łokcie, nadgarstki” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.7.3 1.7.3. Praca nogami i przenoszenie ciężaru ciała
+### 1.7.3. Praca nogami i przenoszenie ciężaru ciała
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.3. Praca nogami i przenoszenie ciężaru ciała” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
 
-### 1.7.4 1.7.4. Unikanie skrętów i zgięć tułowia pod obciążeniem
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.7.4. Unikanie skrętów i zgięć tułowia pod obciążeniem
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.4. Unikanie skrętów i zgięć tułowia pod obciążeniem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż kobiety w ciąży: po I trymestrze i za zgodą położnej/ginekologa; pozycja boczna z klinami lub półsiedząca (BEZ leżenia przodem po 16. t.g.— ucisk na żyłę główną dolną!). Unikać: intensywnego ucisku okolicy krzyżowo-lędźwiowej „punktów indukcji porodu” (m.in. SP 6, BL 60 w Tradycyjnej Medycynie Chińskiej — dowody niejednoznaczne, dlatego zachowujemy najwyższą ostrożność), głębokiego masażu brzucha, długich pozycji rozciągających. Korzyści udokumentowane: redukcja bólu lędźwiowego, obrzęków, lęku; masażysta prowadzi kartę z pomiarami obwodów i obserwacjami.
 
-### 1.7.5 1.7.5. Przerwy regeneracyjne między zabiegami
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.5. Przerwy regeneracyjne między zabiegami” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.7.5. Przerwy regeneracyjne między zabiegami
 
-### 1.7.6 1.7.6. Ćwiczenia profilaktyczne dla masażysty
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.6. Ćwiczenia profilaktyczne dla masażysty” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.7.7 1.7.7. Bezpieczne przemieszczanie pacjenta
+### 1.7.6. Ćwiczenia profilaktyczne dla masażysty
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.7. Bezpieczne przemieszczanie pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.7.8 1.7.8. Stosowanie podkładek, klinów, wałków, półwałków
+### 1.7.7. Bezpieczne przemieszczanie pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.8. Stosowanie podkładek, klinów, wałków, półwałków” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
 
-### 1.7.9 1.7.9. Dobór środków poślizgowych i wspomagających
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.7.8. Stosowanie podkładek, klinów, wałków, półwałków
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.9. Dobór środków poślizgowych i wspomagających” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 1.7.10 1.7.10. Zapobieganie przeciążeniom i kontuzjom zawodowym
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.7.9. Dobór środków poślizgowych i wspomagających
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.7.10. Zapobieganie przeciążeniom i kontuzjom zawodowym” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 1.7.10. Zapobieganie przeciążeniom i kontuzjom zawodowym
+
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

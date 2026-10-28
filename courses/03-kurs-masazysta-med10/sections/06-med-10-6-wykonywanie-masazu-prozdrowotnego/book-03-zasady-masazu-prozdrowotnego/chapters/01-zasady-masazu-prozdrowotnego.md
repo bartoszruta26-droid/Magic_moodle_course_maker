@@ -21,95 +21,73 @@ Temat „6.3. Zasady masażu prozdrowotnego” realizuje 10 zagadnień szczegó�
 
 ## Zagadnienia szczegółowe
 
-### 6.3.1 6.3.1. Wywiad i zgoda
+### 6.3.1. Wywiad i zgoda
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.1. Wywiad i zgoda” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.3.2 6.3.2. Ocena przeciwwskazań
+### 6.3.2. Ocena przeciwwskazań
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.2. Ocena przeciwwskazań” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-### 6.3.3 6.3.3. Komfort termiczny
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.3.3. Komfort termiczny
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.3. Komfort termiczny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 6.3.4 6.3.4. Intymność i okrycie
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.3.4. Intymność i okrycie
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.4. Intymność i okrycie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ochrona intymności w gabinecie: drzwi zamknięte i zakomunikowane („nikt nie wejdzie”), okrycie całego ciała poza obrabianym rejonem (ręcznik „drzwi” przy pośladku/kolanach), zapowiedź każdej zmiany obszaru pracy, obecność osoby towarzyszącej na żądanie (lub asysty pracownika przy zabiegach wrażliwych), brak zdjęć/rejestracji bez pisemnej zgody z celem i okresem, kulturа słów (nazwy anatomiczne, nie żarty seksualizujące). Grupy szczególnie chronione: małoletni (obecność opiekuna, zasady dotyku „public zone only”), osoby po traumie seksualnej (prawo do zatrzymania, kobieta-terapeutka na żądanie), kultury wrażliwe na nagość. Złamanie zaufania = trauma i odpowiedzialność prawna. Intymność to dar — składany w twoje ręce.
 
-### 6.3.5 6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 6.3.6 6.3.6. Tempo i siła dostosowane do oczekiwań
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.3.6. Tempo i siła dostosowane do oczekiwań
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.6. Tempo i siła dostosowane do oczekiwań” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-### 6.3.7 6.3.7. Komunikacja: zapowiedź dotyku
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.7. Komunikacja: zapowiedź dotyku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 6.3.7. Komunikacja: zapowiedź dotyku
 
-### 6.3.8 6.3.8. Prawo do przerwania
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.8. Prawo do przerwania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.3.9 6.3.9. Brak ocen moralnych ciała
+### 6.3.8. Prawo do przerwania
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.9. Brak ocen moralnych ciała” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
 
-### 6.3.10 6.3.10. Profesjonalny dystans i życzliwość
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.3.9. Brak ocen moralnych ciała
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.3.10. Profesjonalny dystans i życzliwość” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 6.3.10. Profesjonalny dystans i życzliwość
+
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

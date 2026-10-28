@@ -21,95 +21,71 @@ Temat „3.5. Zaburzenia układu krążenia tętniczego, żylnego i limfatyczneg
 
 ## Zagadnienia szczegółowe
 
-### 3.5.1 3.5.1. Nadciśnienie tętnicze
+### 3.5.1. Nadciśnienie tętnicze
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Nadciśnienie tętnicze (≥140/90 mmHg) kontrolowane farmakologicznie nie jest przeciwwskazaniem do masażu ogólnego o umiarkowanej sile. NIE stosujemy: intensywnych technik na przystoki szyjne (ryzyko odruchu baroreceptorowego!), masażu w hipertonii nieleczonej/burzowej. Sygnały alarmowe: ból potylicy, zawroty, krwawienie z nosa — przerwać zabieg, zmierzyć ciśnienie jeśli to w kompetencjach placówki, pokierować do lekarza.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.1. Nadciśnienie tętnicze” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ciśnienie tętnicze = rzut minutowy × obwód opór naczyniowy. Normy ESC/PTS: <120/80 optymalne, 120–129/80–84 podwyższone, ≥140/90 rozpoznaje się nadciśnienie (stopnie 1–3). Pomiar: mankiet na wysokości serca, po 5 min spoczynku, średnia z dwóch pomiarów. Nadciśnienie ustabilizowane farmakologicznie: masaż możliwy — bez intensywnych technik na szyję, bez pozycji head-down, z monitoringiem samopoczucia; przełum nadciśnieniowy (≥180/110 z bólem głowy, zaburzeniami widzenia, bólem w klatce) = przerwać i wezwać 112. Hipotonia ortostatyczna (≤90/60, zawroty przy wstawaniu): powolne zmiany pozycji, nawodnienie, drenaż nóg, asekuracja przy wstawaniu (ryzyko omdlenia na stole).
 
-### 3.5.2 3.5.2. Choroba niedokrwienna serca
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.5.2. Choroba niedokrwienna serca
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.2. Choroba niedokrwienna serca” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-### 3.5.3 3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-### 3.5.4 3.5.4. Niewydolność serca — przeciwwskazania i ostrożność
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.5.4. Niewydolność serca — przeciwwskazania i ostrożność
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.4. Niewydolność serca — przeciwwskazania i ostrożność” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-### 3.5.5 3.5.5. Żylaki kończyn dolnych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.5.5. Żylaki kończyn dolnych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.5. Żylaki kończyn dolnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Nieleczone żylaki i zakrzepica żył głębokich (DVT) to klasyka bezpieczeństwa: przy DVT — BEZWZGLĘDNY zakaz masażu kończyny i całego ciała w ostrej fazie (ryzyko zatorowości płucnej!). Objawy DVT: asymetryczny obrzęk łydki, ból przy zgięciu grzbietowym stopy (Homans), ocieplenie, przebarwienie. Żylaki powierzchniowe: głaskanie kierunkowe ku sercu, BEZ ugniatania nad workowatymi poszerzeniami, bandażowanie kompresyjne po zabiegu wg zaleceń chirurga naczyniowego.
 
-### 3.5.6 3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Nieleczone żylaki i zakrzepica żył głębokich (DVT) to klasyka bezpieczeństwa: przy DVT — BEZWZGLĘDNY zakaz masażu kończyny i całego ciała w ostrej fazie (ryzyko zatorowości płucnej!). Objawy DVT: asymetryczny obrzęk łydki, ból przy zgięciu grzbietowym stopy (Homans), ocieplenie, przebarwienie. Żylaki powierzchniowe: głaskanie kierunkowe ku sercu, BEZ ugniatania nad workowatymi poszerzeniami, bandażowanie kompresyjne po zabiegu wg zaleceń chirurga naczyniowego.
 
-### 3.5.7 3.5.7. Zapalenie żył
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.5.7. Zapalenie żył
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.7. Zapalenie żył” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Nadciśnienie tętnicze (≥140/90 mmHg) kontrolowane farmakologicznie nie jest przeciwwskazaniem do masażu ogólnego o umiarkowanej sile. NIE stosujemy: intensywnych technik na przystoki szyjne (ryzyko odruchu baroreceptorowego!), masażu w hipertonii nieleczonej/burzowej. Sygnały alarmowe: ból potylicy, zawroty, krwawienie z nosa — przerwać zabieg, zmierzyć ciśnienie jeśli to w kompetencjach placówki, pokierować do lekarza.
 
-### 3.5.8 3.5.8. Miażdżyca tętnic obwodowych
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.8. Miażdżyca tętnic obwodowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.5.8. Miażdżyca tętnic obwodowych
 
-### 3.5.9 3.5.9. Choroba Raynauda
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.9. Choroba Raynauda” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.5.9. Choroba Raynauda
 
-### 3.5.10 3.5.10. Obrzęk limfatyczny i niewydolność krążenia chłonnego
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.5.10. Obrzęk limfatyczny i niewydolność krążenia chłonnego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.5.10. Obrzęk limfatyczny i niewydolność krążenia chłonnego
+
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
+
+Obrzęk to nadmiar płynu w przestrzeni międzykomórkowej. Mechanizmy (prawo Starlinga): wzrost ciśnienia hydrostatycznego (niewydolność żylna lub serca), spadek ciśnienia onkotycznego (hipoalbuminemia — wątroba, nerki, niedożywienie), wzrost przepuszczalności kapilar (zapalenie, oparzenie, alergia) oraz niewydolność pompy limfatycznej (pierwotna — np. hipoplazja wrodzona; wtórna — po operacji, radioterapii, infekcji). Różnicowanie: sercowy — symetryczny, kostkowy, narasta wieczorem, z dusznością; żylny — asymetria, przebarwienia; limfatyczny — zgrubienie skóry, znak Stemmera (+), zaczyna się od palców; nerkowy — worki pod oczami rano, białkomocz. Masażysta nie leczy przyczyny: rozpoznaje typ, kieruje do lekarza, a w stabilnym obrzęku limfatycznym wykonuje elementy złożonej terapii przeciwobrzękowej zgodnie z zleceniem.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

@@ -21,95 +21,73 @@ Temat „2.12. Układ krążenia i limfatyczny” realizuje 10 zagadnień szczeg
 
 ## Zagadnienia szczegółowe
 
-### 2.12.1 2.12.1. Serce: budowa, cykl serca, rzut serca
+### 2.12.1. Serce: budowa, cykl serca, rzut serca
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.1. Serce: budowa, cykl serca, rzut serca” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Serce: cztery jamy, zastawki dwudzielna i trójdzielna oraz półksiężycowate aorty i pnia płucnego; układ bodźcotwórczy (węzeł zatokowy 60–100/min → przedsionkowo-komorowy → pęczek Hisa → odnogi → sieć Purkinjego). Cykl serca: skurcz komór ok. 0,3 s, rozkurcz ok. 0,5 s; objętość wyrzutowa ok. 70 ml, rzut minutowy ok. 5 l/min (RPM = SV × HR). Lewa komora wykonuje większość pracy mięśnia sercowego; tętnice wieńcowe wypełniają się głównie w rozkurczu. Masaż: refleksy baroreceptorowe (sinus caroticus — NIE masować obu stron szyi jednocześnie!); umiarkowany masaż ogólny przejściowo obniża obciążenie wstępne i następcze oraz poprawia HRV. Przy świeżym zawale lub niestabilnej dławicy — bezwzględne przeciwwskazanie; w niewydolności — pozycja półsiedząca, krótkie serie, zgoda kardiologa.
 
-### 2.12.2 2.12.2. Tętnice, żyły, naczynia włosowate
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.12.2. Tętnice, żyły, naczynia włosowate
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.2. Tętnice, żyły, naczynia włosowate” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Tętnice: gruba błona środkowa (elastyna i mięśnie gładkie) — rozprowadzają krew pod ciśnieniem; żyły: cienkościenne, z zastawkami dwupłatkowymi, mieszczą ok. 70% objętości krwi (rezuar); kapilary: jednowarstwowy śródbłonek — wymiana substancji zgodnie z siłami Starlinga (filtracja i resorpcja; obrzęk, gdy zaburzony bilans hydrostatyczno-onkotyczny). Mikrokrążenie: arteriole (naczynia oporowe), sfinkterze prekapilarne, venules (margination leukocytów). Masaż: głaskanie odpływowe wspomaga odpływ żylny i chłonny, rozcieranie i ugniatanie zwiększają przepływ tętniczy (hyperemia czynna); przy zapaleniu naczyń, zakrzepicy i zaawansowanej miażdżycy techniki głębokie są przeciwwskazane (ryzyko embolii).
 
-### 2.12.3 2.12.3. Mikrokrążenie
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.12.3. Mikrokrążenie
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.3. Mikrokrążenie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-### 2.12.4 2.12.4. Powrót żylny: pompa mięśniowa, zastawki, gradient ciśnienia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.12.4. Powrót żylny: pompa mięśniowa, zastawki, gradient ciśnienia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.4. Powrót żylny: pompa mięśniowa, zastawki, gradient ciśnienia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 2.12.5 2.12.5. Ciśnienie tętnicze i jego znaczenie w masażu
+Powrót żylny przeciwdziała grawitacji dzięki: pompie mięśniowej łydki („drugie serce”), zastawkom kierującym przepływ dosercowo, pompi klatkowej (inspiracja obniża ciśnienie śródpiersia i „zasysa” krew), napięciu ścian żył oraz aktywności fizycznej. Niewydolność żylna rozwija się w klasyfikacji CEAP 0–6: od teleangiektazji, przez żylaki (C2), obrzęki (C3), zmiany skórne (C4), do gojącego się (C5) i czynnego (C6) owrzodzenia. Masaż: głaskanie kierunkowe dosercowe, drenaż, edukacja o kompresjoterapii (dobór ucisku przez lekarza); bezwzględnie omijać workowate żylaki (ryzyko krwawienia i zakrzepowego zapalenia żył powierzchownych) oraz unikać długiego stania klienta po zabiegu.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.5. Ciśnienie tętnicze i jego znaczenie w masażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.12.5. Ciśnienie tętnicze i jego znaczenie w masażu
 
-### 2.12.6 2.12.6. Układ limfatyczny: naczynia, pnie, przewody
+Ciśnienie tętnicze = rzut minutowy × obwód opór naczyniowy. Normy ESC/PTS: <120/80 optymalne, 120–129/80–84 podwyższone, ≥140/90 rozpoznaje się nadciśnienie (stopnie 1–3). Pomiar: mankiet na wysokości serca, po 5 min spoczynku, średnia z dwóch pomiarów. Nadciśnienie ustabilizowane farmakologicznie: masaż możliwy — bez intensywnych technik na szyję, bez pozycji head-down, z monitoringiem samopoczucia; przełum nadciśnieniowy (≥180/110 z bólem głowy, zaburzeniami widzenia, bólem w klatce) = przerwać i wezwać 112. Hipotonia ortostatyczna (≤90/60, zawroty przy wstawaniu): powolne zmiany pozycji, nawodnienie, drenaż nóg, asekuracja przy wstawaniu (ryzyko omdlenia na stole).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.6. Układ limfatyczny: naczynia, pnie, przewody” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.12.6. Układ limfatyczny: naczynia, pnie, przewody
 
-### 2.12.7 2.12.7. Węzły chłonne regionalne
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Limfa transportuje ok. 2–4 l płynu na dobę: początek w ślepych naczyniach initial lymphatics (kotwice kolagenowe sięgające ECM, jednowarstwowy śródbłonek z zawórkami), naczynia zbiorcze z pompą intrinsiczną (limfangiony — perystaltyka 6–10/min), węzły chłonne (ok. 600 — filtracja i odpowiedź immunologiczna), pnie i przewody (przewód piersiowy → żyła podobojczykowa lewa, prawy pień chłonny). Napęd zewnętrzny: ruch mięśni, oddychanie, tętno, ruch. Manualny drenaż limfatyczny (Leduc, Vodder): techniki pump, rotary, scoop; ciśnienie niskie (ok. 30–60 mmHg), tempo zbliżone do oddechu, kolejność: przygotowanie ujść → segment → obwód. Urządzenia IPC działają sekwencyjnie ku centrali. Przeciwwskazania: czynna choroba nowotworowa bez zgody onkologa, ostra infekcja, DVT, dekompensowana niewydolność serca, hiperfuncja tarczycy/przetok.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.7. Węzły chłonne regionalne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.12.8 2.12.8. Chłonka: skład, przepływ, funkcja immunologiczna
+### 2.12.7. Węzły chłonne regionalne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Grupy węzłów istotne w praktyce: szyjne (poziomy I–VI), nadobojczykowe, pachowe (poziomy I–III — odpływ kończyny górnej, kluczowe po limfadenektomii piersi), śródpiersiowe i wnękowe, brzuszne (celiakalne, mezenterialne), biodrowe i pachwinowe (grupa nadsurface i deep — odpływ kończyn dolnych, narządów płciowych, odbytu). Znaczenie kliniczne: wtórny obrzęk limfatyczny po limfadenektomii/radioterapii (stadia ISL 0–III); węzły twarde, niebolesne, >1–1,5 cm, zrośnięte z podłożem → pilna konsultacja lekarska (diagnoza w kierunku nowotworu); bolesne, ruchome → zwykle odczyn infekcyjny okolicy odpływu. Drenaż zawsze kierować ku drożnym zbiorczym, omijając okolice zajęte procesem chorobowym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.8. Chłonka: skład, przepływ, funkcja immunologiczna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.12.9 2.12.9. Obrzęk: mechanizmy powstawania
+### 2.12.8. Chłonka: skład, przepływ, funkcja immunologiczna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Chłonka (lympha): płyn zbliżony składem do osocza, ale z mniejszą ilością białek; transportuje lipidy (chylomikrony z jelit), leukocyty (recyrkulacja limfocytów T i B przez węzły — fundament odpowiedzi immunologicznej) oraz produkty przemiany materii. Napęd przepływu: ciśnienie tkankowe (ok. 1–4 mmHg), ruch mięśni i oddychanie, perystaltyka limfangionów, zastawki jednostronne. Zastój sprzyja stwardnieniu tkanek i zapaleniom naczyń chłonnych (czerwone pręgi = infekcja, pilny lekarz). Drenaż manualny kilkukrotnie zwiększa przepływ — dlatego skutecznie redukuje obrzęki; nie „odtruwa organizmu” w sensie magicznym — mów prawdę.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.9. Obrzęk: mechanizmy powstawania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.12.10 2.12.10. Wpływ masażu i drenażu na krążenie krwi i chłonki
+### 2.12.9. Obrzęk: mechanizmy powstawania
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.12.10. Wpływ masażu i drenażu na krążenie krwi i chłonki” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk to nadmiar płynu w przestrzeni międzykomórkowej. Mechanizmy (prawo Starlinga): wzrost ciśnienia hydrostatycznego (niewydolność żylna lub serca), spadek ciśnienia onkotycznego (hipoalbuminemia — wątroba, nerki, niedożywienie), wzrost przepuszczalności kapilar (zapalenie, oparzenie, alergia) oraz niewydolność pompy limfatycznej (pierwotna — np. hipoplazja wrodzona; wtórna — po operacji, radioterapii, infekcji). Różnicowanie: sercowy — symetryczny, kostkowy, narasta wieczorem, z dusznością; żylny — asymetria, przebarwienia; limfatyczny — zgrubienie skóry, znak Stemmera (+), zaczyna się od palców; nerkowy — worki pod oczami rano, białkomocz. Masażysta nie leczy przyczyny: rozpoznaje typ, kieruje do lekarza, a w stabilnym obrzęku limfatycznym wykonuje elementy złożonej terapii przeciwobrzękowej zgodnie z zleceniem.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 2.12.10. Wpływ masażu i drenażu na krążenie krwi i chłonki
+
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

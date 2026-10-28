@@ -21,95 +21,71 @@ Temat „1.12. Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” real
 
 ## Zagadnienia szczegółowe
 
-### 1.12.1 1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia
+### 1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.12.2 1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji
+### 1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.12.3 1.12.3. Pozycja bezpieczna
+### 1.12.3. Pozycja bezpieczna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.3. Pozycja bezpieczna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.12.4 1.12.4. Udrożnienie dróg oddechowych
+### 1.12.4. Udrożnienie dróg oddechowych
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.4. Udrożnienie dróg oddechowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.12.5 1.12.5. Ocena oddechu i krążenia
+### 1.12.5. Ocena oddechu i krążenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.5. Ocena oddechu i krążenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.12.6 1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego
+### 1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
 
-### 1.12.7 1.12.7. Resuscytacja dziecka
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.12.7. Resuscytacja dziecka
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.7. Resuscytacja dziecka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
 
-### 1.12.8 1.12.8. Resuscytacja niemowlęcia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.12.8. Resuscytacja niemowlęcia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.8. Resuscytacja niemowlęcia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Shantala i masaż niemowlęcia: środowisko ciepłe (24-26°C), dziecko nakarmione ≥30-45 min wcześniej, kontakt wzrokowy i werbalny z rodzicem (to ON uczy się techniki, masażysta demonstruje). Kolejność klasyczna: klatka piersiowa → brzuch (godz. 9→3 wg kierunku perystaltyki) → nogi → ręce → plecy → twarz. Wskazania: kolka (dla przeszkolonych), napięcie mięśniowe fizjologiczne, bonding. Przeciwwskazania: gorączka, zmiany skórne, choroby metaboliczne/serca bez zgody pediatry; NIGDY nie masuj dziecka chorego bez kwalifikacji lekarskiej.
 
-### 1.12.9 1.12.9. Użycie AED — zasady i bezpieczeństwo
+Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.9. Użycie AED — zasady i bezpieczeństwo” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.12.9. Użycie AED — zasady i bezpieczeństwo
 
-### 1.12.10 1.12.10. Ćwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji
+Dna moczanowa to odkładanie kryształów moczanu sodu w stawach (napadowy, potworny ból, obrzęk, zaczerwienienie — często I staw palucha). Napad dna jest PRZECIWWSKAZANIEM bezwzględnym do masażu zajętej okolicy (nasilenie zapalenia). Po wyciszeniu farmakologicznym masaż można stosować ostrożnie, ucząc klienta profilaktyki dietetycznej i nawodnienia w granicach swoich kompetencji.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ochrona środowiska w praktyce masażysty to gospodarka odpadami zgodnie z ustawą o odpadach: segregacja (komunalne, medyczne, opakowania, zużyty sprzęt elektryczny), rejestracja wytwórcy odpadów medycznych w bazie BDO, przekazywanie odpadów uprawnionemu odbiorcy z kartą przekazania, postępowanie ze środkami biobójczymi zgodnie z kartami charakterystyki (REACH/CLP) oraz ograniczanie jednorazowości tam, gdzie nie narusza to bezpieczeństwa infekcyjnego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.12.10. Ćwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 1.12.10. Ćwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji
+
+Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

@@ -1,2 +1,2 @@
+*.bak-gen
 __pycache__/
-*.pyc

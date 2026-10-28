@@ -21,95 +21,79 @@ Temat „3.15. Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąż
 
 ## Zagadnienia szczegółowe
 
-### 3.15.1 3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja
+### 3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Shantala i masaż niemowlęcia: środowisko ciepłe (24-26°C), dziecko nakarmione ≥30-45 min wcześniej, kontakt wzrokowy i werbalny z rodzicem (to ON uczy się techniki, masażysta demonstruje). Kolejność klasyczna: klatka piersiowa → brzuch (godz. 9→3 wg kierunku perystaltyki) → nogi → ręce → plecy → twarz. Wskazania: kolka (dla przeszkolonych), napięcie mięśniowe fizjologiczne, bonding. Przeciwwskazania: gorączka, zmiany skórne, choroby metaboliczne/serca bez zgody pediatry; NIGDY nie masuj dziecka chorego bez kwalifikacji lekarskiej.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż Shantala (upowszechniony przez Frédéricka Leboyera, korzenie indyjskie) wykonuje rodzic: klatka piersiowa (dłonie od środka ku bokom — „otwieram książkę”), brzuch (ścieżki w kształcie liter I, odwróconego L i U — „I love U”, zgodnie z perystaltyką okrężnicy), nogi (udo → łydka → stopa; chwyt „dojenia”), ręce, twarz (brwi → usta → uszy — „uśmiech”), plecy (na przedramieniu rodzica — ruchy „pełzania”). Warunki: dziecko zdrowe, 30–45 minut po posiłku, temperatura pokoju 24–26°C, olej roślinny prasowany na zimno (wcześniej próba alergiczna!), kontakt wzrokowy i słowny, czas 10–20 minut, sygnały STOP: płacz, odwracanie głowy, niepokój (sen też kończy sesję). Korzyści: redukcja kolek (badania i metaanalizy — dowody umiarkowane), budowanie więzi, regulacja napięcia i snu. Przeciwwskazania: gorączka, wysypki, choroby serca/metaboliczne bez zgody pediatry, okolica szczepienia, padaczka niestabilna. Rodzic masuje — masażysta UCZY: to edukacja, nie terapia.
 
-### 3.15.2 3.15.2. Zgoda opiekuna i obecność rodzica
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.15.2. Zgoda opiekuna i obecność rodzica
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.2. Zgoda opiekuna i obecność rodzica” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-### 3.15.3 3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Shantala i masaż niemowlęcia: środowisko ciepłe (24-26°C), dziecko nakarmione ≥30-45 min wcześniej, kontakt wzrokowy i werbalny z rodzicem (to ON uczy się techniki, masażysta demonstruje). Kolejność klasyczna: klatka piersiowa → brzuch (godz. 9→3 wg kierunku perystaltyki) → nogi → ręce → plecy → twarz. Wskazania: kolka (dla przeszkolonych), napięcie mięśniowe fizjologiczne, bonding. Przeciwwskazania: gorączka, zmiany skórne, choroby metaboliczne/serca bez zgody pediatry; NIGDY nie masuj dziecka chorego bez kwalifikacji lekarskiej.
 
-### 3.15.4 3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa
+Masaż Shantala (upowszechniony przez Frédéricka Leboyera, korzenie indyjskie) wykonuje rodzic: klatka piersiowa (dłonie od środka ku bokom — „otwieram książkę”), brzuch (ścieżki w kształcie liter I, odwróconego L i U — „I love U”, zgodnie z perystaltyką okrężnicy), nogi (udo → łydka → stopa; chwyt „dojenia”), ręce, twarz (brwi → usta → uszy — „uśmiech”), plecy (na przedramieniu rodzica — ruchy „pełzania”). Warunki: dziecko zdrowe, 30–45 minut po posiłku, temperatura pokoju 24–26°C, olej roślinny prasowany na zimno (wcześniej próba alergiczna!), kontakt wzrokowy i słowny, czas 10–20 minut, sygnały STOP: płacz, odwracanie głowy, niepokój (sen też kończy sesję). Korzyści: redukcja kolek (badania i metaanalizy — dowody umiarkowane), budowanie więzi, regulacja napięcia i snu. Przeciwwskazania: gorączka, wysypki, choroby serca/metaboliczne bez zgody pediatry, okolica szczepienia, padaczka niestabilna. Rodzic masuje — masażysta UCZY: to edukacja, nie terapia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa
 
-### 3.15.5 3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza
+Masaż kobiety w ciąży: po I trymestrze i za zgodą położnej/ginekologa; pozycja boczna z klinami lub półsiedząca (BEZ leżenia przodem po 16. t.g.— ucisk na żyłę główną dolną!). Unikać: intensywnego ucisku okolicy krzyżowo-lędźwiowej „punktów indukcji porodu” (m.in. SP 6, BL 60 w Tradycyjnej Medycynie Chińskiej — dowody niejednoznaczne, dlatego zachowujemy najwyższą ostrożność), głębokiego masażu brzucha, długich pozycji rozciągających. Korzyści udokumentowane: redukcja bólu lędźwiowego, obrzęków, lęku; masażysta prowadzi kartę z pomiarami obwodów i obserwacjami.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.15.6 3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha
+### 3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż kobiety w ciąży: po I trymestrze i za zgodą położnej/ginekologa; pozycja boczna z klinami lub półsiedząca (BEZ leżenia przodem po 16. t.g.— ucisk na żyłę główną dolną!). Unikać: intensywnego ucisku okolicy krzyżowo-lędźwiowej „punktów indukcji porodu” (m.in. SP 6, BL 60 w Tradycyjnej Medycynie Chińskiej — dowody niejednoznaczne, dlatego zachowujemy najwyższą ostrożność), głębokiego masażu brzucha, długich pozycji rozciągających. Korzyści udokumentowane: redukcja bólu lędźwiowego, obrzęków, lęku; masażysta prowadzi kartę z pomiarami obwodów i obserwacjami.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
 
-### 3.15.7 3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-### 3.15.8 3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu
+Ochrona środowiska w praktyce masażysty to gospodarka odpadami zgodnie z ustawą o odpadach: segregacja (komunalne, medyczne, opakowania, zużyty sprzęt elektryczny), rejestracja wytwórcy odpadów medycznych w bazie BDO, przekazywanie odpadów uprawnionemu odbiorcy z kartą przekazania, postępowanie ze środkami biobójczymi zgodnie z kartami charakterystyki (REACH/CLP) oraz ograniczanie jednorazowości tam, gdzie nie narusza to bezpieczeństwa infekcyjnego.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim
 
-### 3.15.9 3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu
+Tkanka bliznowata dojrzewa miesiącami: kolagen typu III zastępowany jest przez typ I, włókna układają się wzdłuż linii naprężeń. Masaż blizny (począwszy od w pełni zepitelializowanej rany, zwykle ≥3-4 tyg. po zamknięciu) zapobiega zrostom, poprawia elastyczność i znosi ból. Techniki: poprzeczne rozcieranie, rozciąganie skóry, pracujące fałdy; zasada — praca do granicy komfortu, nigdy „przez” ostry ból.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu
 
-### 3.15.10 3.15.10. Godność, intymność i prawo do obecności osoby bliskiej
+Masaż kobiety w ciąży: po I trymestrze i za zgodą położnej/ginekologa; pozycja boczna z klinami lub półsiedząca (BEZ leżenia przodem po 16. t.g.— ucisk na żyłę główną dolną!). Unikać: intensywnego ucisku okolicy krzyżowo-lędźwiowej „punktów indukcji porodu” (m.in. SP 6, BL 60 w Tradycyjnej Medycynie Chińskiej — dowody niejednoznaczne, dlatego zachowujemy najwyższą ostrożność), głębokiego masażu brzucha, długich pozycji rozciągających. Korzyści udokumentowane: redukcja bólu lędźwiowego, obrzęków, lęku; masażysta prowadzi kartę z pomiarami obwodów i obserwacjami.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.15.10. Godność, intymność i prawo do obecności osoby bliskiej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu
+
+Nieleczone żylaki i zakrzepica żył głębokich (DVT) to klasyka bezpieczeństwa: przy DVT — BEZWZGLĘDNY zakaz masażu kończyny i całego ciała w ostrej fazie (ryzyko zatorowości płucnej!). Objawy DVT: asymetryczny obrzęk łydki, ból przy zgięciu grzbietowym stopy (Homans), ocieplenie, przebarwienie. Żylaki powierzchniowe: głaskanie kierunkowe ku sercu, BEZ ugniatania nad workowatymi poszerzeniami, bandażowanie kompresyjne po zabiegu wg zaleceń chirurga naczyniowego.
+
+Ciąża — fizjologia: progesteron (relaksacja więzadeł, refluks), estrogen (obrzęki, żyły), relaksyna (stawy krzyżowo-biodrowe), a po 16.–20. tygodniu macica uciska żyłę główną dolną w leżeniu przodem (zespół żyły głównej dolnej: nudności, spadek ciśnienia). Pozycje: leżenie boczne (preferowanie lewej strony) z poduszkami, półsiedząca, klękorębna lub siedząca oparta — bez leżenia przodem po 16.–20. tygodniu. Techniki: delikatny drenaż nóg (obrzęki fizjologiczne), rozluźnienie lędźwi, pośladków i grzbietu (ból kręgosłupa dotyczy 50–70% ciężarnych), oddech przeponowy, relaksacja. Przeciwwskazania: nadciśnienie indukowane ciążą/stan przedrzucawkowy (STOP!), krwawienie, pęknięte błony płodowe, łożysko przodujące, ciąża wysokiego ryzyka bez zgody lekarza; tradycyjnie unika się silnej stymulacji wybranych punktów akupresury (SP6, LI4) i technik „indukujących” — dowody są ograniczone, ostrożność etyczna pozostaje. Połóg: 6 tygodni regeneracji (involucja macicy, lochia), diastasis recti (test >2 cm nad pępkiem — program specjalistyczny), blizna po cesarskim cięciu lub kroczu (masaż po pełnym zagojeniu — adhezje), nabrzmienie piersi (DELICATNY drenaż, nigdy agresywny!), baby blues versus depresja poporodowa (skala EPDS → lekarz), anemia i zmęczenie — masaż krótki, wspierający, możliwy w domu.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 3.15.10. Godność, intymność i prawo do obecności osoby bliskiej
+
+Ochrona intymności w gabinecie: drzwi zamknięte i zakomunikowane („nikt nie wejdzie”), okrycie całego ciała poza obrabianym rejonem (ręcznik „drzwi” przy pośladku/kolanach), zapowiedź każdej zmiany obszaru pracy, obecność osoby towarzyszącej na żądanie (lub asysty pracownika przy zabiegach wrażliwych), brak zdjęć/rejestracji bez pisemnej zgody z celem i okresem, kulturа słów (nazwy anatomiczne, nie żarty seksualizujące). Grupy szczególnie chronione: małoletni (obecność opiekuna, zasady dotyku „public zone only”), osoby po traumie seksualnej (prawo do zatrzymania, kobieta-terapeutka na żądanie), kultury wrażliwe na nagość. Złamanie zaufania = trauma i odpowiedzialność prawna. Intymność to dar — składany w twoje ręce.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

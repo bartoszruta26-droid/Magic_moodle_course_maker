@@ -21,95 +21,67 @@ Temat „1.8. Środki ochrony indywidualnej i zbiorowej” realizuje 10 zagadnie
 
 ## Zagadnienia szczegółowe
 
-### 1.8.1 1.8.1. Rękawiczki jednorazowe — wskazania i ograniczenia
+### 1.8.1. Rękawiczki jednorazowe — wskazania i ograniczenia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.1. Rękawiczki jednorazowe — wskazania i ograniczenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.2 1.8.2. Maseczki ochronne — wskazania epidemiologiczne
+### 1.8.2. Maseczki ochronne — wskazania epidemiologiczne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.2. Maseczki ochronne — wskazania epidemiologiczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.3 1.8.3. Fartuch lub okrycie robocze
+### 1.8.3. Fartuch lub okrycie robocze
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.3. Fartuch lub okrycie robocze” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.4 1.8.4. Ochrona oczu przy ryzyku rozprysku
+### 1.8.4. Ochrona oczu przy ryzyku rozprysku
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.4. Ochrona oczu przy ryzyku rozprysku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.5 1.8.5. Środki dezynfekcyjne dopuszczone do użytku
+### 1.8.5. Środki dezynfekcyjne dopuszczone do użytku
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Środki dezynfekcyjne dopuszczone do użytku: wyłącznie preparaty wprowadzone do obrotu zgodnie z prawem, aktywne bakteriobójczo, prątkobójczo, wirusobójczo (HBV/HIV, koronawirusy) i — przy narzędziach — sporobójczo. Standard gabinetu: alkohol 60–70% do powierzchni szybkich, preparaty czwartorzędowe sole/WOP do blatów, dezynfekcja wysokopoziomowa sprzętu kontaktującego ze skórą zmienioną. Czas kontaktu (np. 30 s–5 min) jest częścią skuteczności — skracać go nie wolno. Sporządzanie roztworów wg tabeli producenta, datowanie pojemników roboczych, wymiana co zmianę.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.5. Środki dezynfekcyjne dopuszczone do użytku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.6 1.8.6. Pojemniki na odpady medyczne i komunalne
+### 1.8.6. Pojemniki na odpady medyczne i komunalne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.6. Pojemniki na odpady medyczne i komunalne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.7 1.8.7. Wentylacja i oczyszczanie powietrza
+### 1.8.7. Wentylacja i oczyszczanie powietrza
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.7. Wentylacja i oczyszczanie powietrza” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.8 1.8.8. Parawany i osłony zapewniające intymność
+### 1.8.8. Parawany i osłony zapewniające intymność
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ochrona intymności w gabinecie: drzwi zamknięte i zakomunikowane („nikt nie wejdzie”), okrycie całego ciała poza obrabianym rejonem (ręcznik „drzwi” przy pośladku/kolanach), zapowiedź każdej zmiany obszaru pracy, obecność osoby towarzyszącej na żądanie (lub asysty pracownika przy zabiegach wrażliwych), brak zdjęć/rejestracji bez pisemnej zgody z celem i okresem, kulturа słów (nazwy anatomiczne, nie żarty seksualizujące). Grupy szczególnie chronione: małoletni (obecność opiekuna, zasady dotyku „public zone only”), osoby po traumie seksualnej (prawo do zatrzymania, kobieta-terapeutka na żądanie), kultury wrażliwe na nagość. Złamanie zaufania = trauma i odpowiedzialność prawna. Intymność to dar — składany w twoje ręce.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.8. Parawany i osłony zapewniające intymność” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.8.9 1.8.9. Dobór środków ochrony do rodzaju zabiegu
+### 1.8.9. Dobór środków ochrony do rodzaju zabiegu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.9. Dobór środków ochrony do rodzaju zabiegu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-### 1.8.10 1.8.10. Zasada: ochrona pacjenta i ochrona masażysty są jednakowo ważne
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.8.10. Zasada: ochrona pacjenta i ochrona masażysty są jednakowo ważne
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.8.10. Zasada: ochrona pacjenta i ochrona masażysty są jednakowo ważne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zasada symetrii ochrony: bezpieczeństwo pacjenta i masażysty są jednakowo ważne. Ergonomia stanowiska (wysokość stołu, pozycja stóp, zmiana stron), mikroprzerwy między zabiegami, higiena rąk i rękawice chronią obie strony. Wypalenie i kontuzja rąk masażysty odbijają się bezpośrednio na jakości opieki — dbałość o siebie jest obowiązkiem zawodowym, nie egoizmem.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

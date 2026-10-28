@@ -21,95 +21,67 @@ Temat „5.5. Metodyka masażu sportowego” realizuje 10 zagadnień szczegóło
 
 ## Zagadnienia szczegółowe
 
-### 5.5.1 5.5.1. Czas trwania
+### 5.5.1. Czas trwania
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.1. Czas trwania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 5.5.2 5.5.2. Siła i tempo
+### 5.5.2. Siła i tempo
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.2. Siła i tempo” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 5.5.3 5.5.3. Kolejność technik
+### 5.5.3. Kolejność technik
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.3. Kolejność technik” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 5.5.4 5.5.4. Środki poślizgowe i wspomagające
+### 5.5.4. Środki poślizgowe i wspomagające
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Środki poślizgowe i wspomagające masaż: bazy: olejki roślinne (kokosowy frakcjonowany—lekki, migdałowy—klasyczny, jojoba—stabilny, wazelina/mineral—neutralny bezzapachowy dla wrażliwych), mleczka/kremy (mniej tłuste, łatwe zmywanie), żele (hydrofilne—fizykoterapia/kinesio), talk (rzadko—pył!), olejki eteryczne dodatki ≤1–2% (lawenda relaks, mięta chłód—UWAGA: ciąża/epilepsja/astma—ograniczenia, test płatkowy 24h przy nowych). Dobór: typ skóry (sucha→olej, tłusta→żel), technika (frikcja głęboka→krem o większym tarciu lub bez—skin fold!), subsequent therapy (Ultradźwięk→żel!). Alergeny i bezpieczeństwo: orzechy (olej arachidowy—WYCOFAJ ze standardu!), nuty zapachowe (deklaruj), przechowywanie (chłodno, ciemno, daty otwarcia PAO). Higiena: dozowniki pompkowe (nie maczać palców w butelce), czyste ręczniki do zmywania. Środek poślizgowy jest sojusznikiem skóry—dobieraj jak lekarstwo: świadomie, uczciwie, indywidualnie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.4. Środki poślizgowe i wspomagające” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 5.5.5 5.5.5. Chłodzenie i rozgrzewanie — bezpieczeństwo
+### 5.5.5. Chłodzenie i rozgrzewanie — bezpieczeństwo
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.5. Chłodzenie i rozgrzewanie — bezpieczeństwo” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-### 5.5.6 5.5.6. Masaż tkanek głębokich w granicach kompetencji
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 5.5.6. Masaż tkanek głębokich w granicach kompetencji
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.6. Masaż tkanek głębokich w granicach kompetencji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 5.5.7 5.5.7. Praca na punktach spustowych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 5.5.7. Praca na punktach spustowych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.7. Praca na punktach spustowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Punkty trigger miofasj (TrPs): węzły napięciowe w pasmie mięśniowym z bólem promienującym typowo dla mięśnia. Techniki: ischemiczna kompresja 30-90 s (ból „dobry”, malejący), spray & stretch wyłącznie po stosownym szkoleniu, sucha igła— WYŁĄCZNIE lekarz/fizjoterapeuta z uprawnieniami, masażysta NIE kłuje. Edukuj: nawyki (ergonomia, sen, stres), bo TrP nawraca bez zmiany przyczyn.
 
-### 5.5.8 5.5.8. Mobilizacje i stretching — tylko bezpieczne
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 5.5.8. Mobilizacje i stretching — tylko bezpieczne
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.8. Mobilizacje i stretching — tylko bezpieczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 5.5.9 5.5.9. Masaż przyrządowy w sporcie
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 5.5.9. Masaż przyrządowy w sporcie
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.9. Masaż przyrządowy w sporcie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż przyrządowy (VCP, wibratory, roller): standaryzacja bodźca, oszczędność dłoni masażysty. Zasady: nigdy na wyrostki kostne/ przystosowanie naczyń/ bieliznę metalową; czas na okolicę ≤ 3-5 min; siła i częstotliwość wg protokołu producenta i karty pacjenta. Przeciwwskazania wspólne dla masażu + lokalne (implanty, rozrusznik serca— zakaz pracy w promieniu 15 cm!).
 
-### 5.5.10 5.5.10. Dokumentacja i ocena subiektywna
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 5.5.10. Dokumentacja i ocena subiektywna
 
-- omówienie pojęcia, celów i miejsca zagadnienia „5.5.10. Dokumentacja i ocena subiektywna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

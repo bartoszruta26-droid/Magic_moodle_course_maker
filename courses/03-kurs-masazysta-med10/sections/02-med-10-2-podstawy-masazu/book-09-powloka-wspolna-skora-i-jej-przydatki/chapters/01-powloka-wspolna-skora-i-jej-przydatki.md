@@ -21,95 +21,67 @@ Temat „2.9. Powłoka wspólna: skóra i jej przydatki” realizuje 10 zagadnie
 
 ## Zagadnienia szczegółowe
 
-### 2.9.1 2.9.1. Naskórek: warstwy
+### 2.9.1. Naskórek: warstwy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Skóra (cutis): największy organ człowieka (1,5–2 m², grubość od ok. 0,5 mm na powiekach do 4 mm na podeszwie). Warstwy: naskórek (rogowy — martwe keratynocyty; warstwy żywe Malpighiego; melanocyty, komórki Langerhansa, Merkel), skóra właściwa (warstwa brodawkowata i siateczkowata — kolagen i elastyna, naczynia, nerwy) oraz tkanka podskórna (adipocyty i przegrody łącznotkankowe). Przydatki: włosy z mieszkami i gruczołami łojowymi, paznokcie (macierz!), gruczoły potowe ekrynowe i apokrynowe. Funkcje: bariera, termoregulacja (wazonokonstrykcja/wazodylatacja, pocenie), czucie (ciałka Meissnera, Krausego, Paciniego, Ruffiniego), gospodarka wodno-tłuszczowa, synteza witaminy D3. Masaż poprawia ukrwienie i elastyczność — ale przy zmianach chorobowych skóry obowiązuje Załącznik o przeciwwskazaniach.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.1. Naskórek: warstwy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.9.2 2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata
+### 2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż kosmetyczny twarzy: ruchy wg topografii mięśni mimiczych i linii skórnych, po demakijażu, przy bardzo małym poślizgu (ryzyko rozciągnięcia); trądzik ropowiczy i stany zapalne skóry — przeciwwskazanie miejscowe. Cellulit (fibroedematoadipopathy): techniki głębokiego rozcierania i rolkowania mogą poprawić mikrocyrkulację i wygląd skóry — edukuj klienta, że efekt jest warunkowy (dieta, nawodnienie, ruch) i nie zastępuje terapii medycznej przy obrzękach limfatycznych/patologicznych.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.9.3 2.9.3. Tkanka podskórna
+### 2.9.3. Tkanka podskórna
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Palpacja tkanek podskórnych: warstwa tłuszczowa (grubość, przesuwalność względem powięzi — fałd skórny pinch test), stopień uwodnienia (turgor — u seniora marker odwodnienia), przegród fibrylarne (fibrylarne zgrubienia fizjologiczne vs patologiczne), obrzęk (dółkowanie uciskowe vs twardy obrzęk limfatyczny późnego stadium — znak Stemmera), echogenność nieoceniasz — USG należy do lekarza. Znaczenie praktyczne: dobór głaskania/rozcierania (tkanka tłuszczowa cienka — mniejszy nacisk), identyfikacja miejsc ryzyka (blizny, lipoma — nie masować intensywnie, zgłosić), ocena efektu drenażu (obwód, twardość). Standard: pomiar fałdu tym samym chwytem, symetria, zapis numeryczny. Ćwicz „ucho-dotyk”: rozróżnianie konsystencji w workach z materiałami o zbliżonej strukturze.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.3. Tkanka podskórna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.9.4 2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe
+### 2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Skóra (cutis): największy organ człowieka (1,5–2 m², grubość od ok. 0,5 mm na powiekach do 4 mm na podeszwie). Warstwy: naskórek (rogowy — martwe keratynocyty; warstwy żywe Malpighiego; melanocyty, komórki Langerhansa, Merkel), skóra właściwa (warstwa brodawkowata i siateczkowata — kolagen i elastyna, naczynia, nerwy) oraz tkanka podskórna (adipocyty i przegrody łącznotkankowe). Przydatki: włosy z mieszkami i gruczołami łojowymi, paznokcie (macierz!), gruczoły potowe ekrynowe i apokrynowe. Funkcje: bariera, termoregulacja (wazonokonstrykcja/wazodylatacja, pocenie), czucie (ciałka Meissnera, Krausego, Paciniego, Ruffiniego), gospodarka wodno-tłuszczowa, synteza witaminy D3. Masaż poprawia ukrwienie i elastyczność — ale przy zmianach chorobowych skóry obowiązuje Załącznik o przeciwwskazaniach.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.9.5 2.9.5. Unerwienie skóry
+### 2.9.5. Unerwienie skóry
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.5. Unerwienie skóry” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.9.6 2.9.6. Unaczynienie skóry
+### 2.9.6. Unaczynienie skóry
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Tkanka bliznowata dojrzewa miesiącami: kolagen typu III zastępowany jest przez typ I, włókna układają się wzdłuż linii naprężeń. Masaż blizny (począwszy od w pełni zepitelializowanej rany, zwykle ≥3-4 tyg. po zamknięciu) zapobiega zrostom, poprawia elastyczność i znosi ból. Techniki: poprzeczne rozcieranie, rozciąganie skóry, pracujące fałdy; zasada — praca do granicy komfortu, nigdy „przez” ostry ból.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.6. Unaczynienie skóry” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Skóra (cutis): największy organ człowieka (1,5–2 m², grubość od ok. 0,5 mm na powiekach do 4 mm na podeszwie). Warstwy: naskórek (rogowy — martwe keratynocyty; warstwy żywe Malpighiego; melanocyty, komórki Langerhansa, Merkel), skóra właściwa (warstwa brodawkowata i siateczkowata — kolagen i elastyna, naczynia, nerwy) oraz tkanka podskórna (adipocyty i przegrody łącznotkankowe). Przydatki: włosy z mieszkami i gruczołami łojowymi, paznokcie (macierz!), gruczoły potowe ekrynowe i apokrynowe. Funkcje: bariera, termoregulacja (wazonokonstrykcja/wazodylatacja, pocenie), czucie (ciałka Meissnera, Krausego, Paciniego, Ruffiniego), gospodarka wodno-tłuszczowa, synteza witaminy D3. Masaż poprawia ukrwienie i elastyczność — ale przy zmianach chorobowych skóry obowiązuje Załącznik o przeciwwskazaniach.
 
-### 2.9.7 2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dna moczanowa to odkładanie kryształów moczanu sodu w stawach (napadowy, potworny ból, obrzęk, zaczerwienienie — często I staw palucha). Napad dna jest PRZECIWWSKAZANIEM bezwzględnym do masażu zajętej okolicy (nasilenie zapalenia). Po wyciszeniu farmakologicznym masaż można stosować ostrożnie, ucząc klienta profilaktyki dietetycznej i nawodnienia w granicach swoich kompetencji.
 
-### 2.9.8 2.9.8. Wpływ masażu na skórę
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.9.8. Wpływ masażu na skórę
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.8. Wpływ masażu na skórę” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dna moczanowa to odkładanie kryształów moczanu sodu w stawach (napadowy, potworny ból, obrzęk, zaczerwienienie — często I staw palucha). Napad dna jest PRZECIWWSKAZANIEM bezwzględnym do masażu zajętej okolicy (nasilenie zapalenia). Po wyciszeniu farmakologicznym masaż można stosować ostrożnie, ucząc klienta profilaktyki dietetycznej i nawodnienia w granicach swoich kompetencji.
 
-### 2.9.9 2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż kosmetyczny twarzy: ruchy wg topografii mięśni mimiczych i linii skórnych, po demakijażu, przy bardzo małym poślizgu (ryzyko rozciągnięcia); trądzik ropowiczy i stany zapalne skóry — przeciwwskazanie miejscowe. Cellulit (fibroedematoadipopathy): techniki głębokiego rozcierania i rolkowania mogą poprawić mikrocyrkulację i wygląd skóry — edukuj klienta, że efekt jest warunkowy (dieta, nawodnienie, ruch) i nie zastępuje terapii medycznej przy obrzękach limfatycznych/patologicznych.
 
-### 2.9.10 2.9.10. Przeciwwskazania skórne do masażu
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.9.10. Przeciwwskazania skórne do masażu
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.9.10. Przeciwwskazania skórne do masażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

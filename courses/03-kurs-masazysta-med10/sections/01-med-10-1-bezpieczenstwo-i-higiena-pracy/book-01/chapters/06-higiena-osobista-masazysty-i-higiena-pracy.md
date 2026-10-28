@@ -21,95 +21,73 @@ Temat „1.6. Higiena osobista masażysty i higiena pracy” realizuje 10 zagadn
 
 ## Zagadnienia szczegółowe
 
-### 1.6.1 1.6.1. Czystość rąk: mycie i dezynfekcja
+### 1.6.1. Czystość rąk: mycie i dezynfekcja
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.1. Czystość rąk: mycie i dezynfekcja” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.6.2 1.6.2. Stan skóry rąk, paznokci, przedramion
+### 1.6.2. Stan skóry rąk, paznokci, przedramion
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.2. Stan skóry rąk, paznokci, przedramion” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Środki dezynfekcyjne dopuszczone do użytku: wyłącznie preparaty wprowadzone do obrotu zgodnie z prawem, aktywne bakteriobójczo, prątkobójczo, wirusobójczo (HBV/HIV, koronawirusy) i — przy narzędziach — sporobójczo. Standard gabinetu: alkohol 60–70% do powierzchni szybkich, preparaty czwartorzędowe sole/WOP do blatów, dezynfekcja wysokopoziomowa sprzętu kontaktującego ze skórą zmienioną. Czas kontaktu (np. 30 s–5 min) jest częścią skuteczności — skracać go nie wolno. Sporządzanie roztworów wg tabeli producenta, datowanie pojemników roboczych, wymiana co zmianę.
 
-### 1.6.3 1.6.3. Zakaz biżuterii mogącej uszkodzić pacjenta lub utrudniać higienę
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.6.3. Zakaz biżuterii mogącej uszkodzić pacjenta lub utrudniać higienę
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.3. Zakaz biżuterii mogącej uszkodzić pacjenta lub utrudniać higienę” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
 
-### 1.6.4 1.6.4. Ubiór roboczy: czysty, zasłaniający, wygodny, łatwy do prania
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.6.4. Ubiór roboczy: czysty, zasłaniający, wygodny, łatwy do prania
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.4. Ubiór roboczy: czysty, zasłaniający, wygodny, łatwy do prania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-### 1.6.5 1.6.5. Obuwie zamknięte, stabilne, łatwe do dezynfekcji
+Środki dezynfekcyjne dopuszczone do użytku: wyłącznie preparaty wprowadzone do obrotu zgodnie z prawem, aktywne bakteriobójczo, prątkobójczo, wirusobójczo (HBV/HIV, koronawirusy) i — przy narzędziach — sporobójczo. Standard gabinetu: alkohol 60–70% do powierzchni szybkich, preparaty czwartorzędowe sole/WOP do blatów, dezynfekcja wysokopoziomowa sprzętu kontaktującego ze skórą zmienioną. Czas kontaktu (np. 30 s–5 min) jest częścią skuteczności — skracać go nie wolno. Sporządzanie roztworów wg tabeli producenta, datowanie pojemników roboczych, wymiana co zmianę.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.5. Obuwie zamknięte, stabilne, łatwe do dezynfekcji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.6.5. Obuwie zamknięte, stabilne, łatwe do dezynfekcji
 
-### 1.6.6 1.6.6. Włosy spięte, broda zadbana, higiena jamy ustnej
+Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.6. Włosy spięte, broda zadbana, higiena jamy ustnej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.6.6. Włosy spięte, broda zadbana, higiena jamy ustnej
 
-### 1.6.7 1.6.7. Zakaz jedzenia i picia w strefie zabiegowej
+Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.7. Zakaz jedzenia i picia w strefie zabiegowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.6.7. Zakaz jedzenia i picia w strefie zabiegowej
 
-### 1.6.8 1.6.8. Postępowanie przy ranach, otarciach, zmianach skórnych masażysty
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Środki dezynfekcyjne dopuszczone do użytku: wyłącznie preparaty wprowadzone do obrotu zgodnie z prawem, aktywne bakteriobójczo, prątkobójczo, wirusobójczo (HBV/HIV, koronawirusy) i — przy narzędziach — sporobójczo. Standard gabinetu: alkohol 60–70% do powierzchni szybkich, preparaty czwartorzędowe sole/WOP do blatów, dezynfekcja wysokopoziomowa sprzętu kontaktującego ze skórą zmienioną. Czas kontaktu (np. 30 s–5 min) jest częścią skuteczności — skracać go nie wolno. Sporządzanie roztworów wg tabeli producenta, datowanie pojemników roboczych, wymiana co zmianę.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.8. Postępowanie przy ranach, otarciach, zmianach skórnych masażysty” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.6.9 1.6.9. Samokontrola zdrowia: objawy wykluczające wykonywanie zabiegów
+### 1.6.8. Postępowanie przy ranach, otarciach, zmianach skórnych masażysty
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.9. Samokontrola zdrowia: objawy wykluczające wykonywanie zabiegów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.6.10 1.6.10. Zasada: nie wykonuj masażu, jeśli zagrażasz pacjentowi
+### 1.6.9. Samokontrola zdrowia: objawy wykluczające wykonywanie zabiegów
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.6.10. Zasada: nie wykonuj masażu, jeśli zagrażasz pacjentowi” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ochrona przeciwpożarowa opiera się na zasadzie wzajemności: technika (drogi ewakuacyjne, oznakowanie, podręczny sprzęt gaśniczy — kontrola gaśnic co 12 miesięcy, hydrantów wewnętrznych raz w roku; przeglądy instalacji z protokołem) i organizacja (instrukcja bezpieczeństwa pożarowego, wyznaczenie osób do zwalczania pożaru i ewakuacji, szkolenie pracowników w dniu zatrudnienia i następnie co 2 lata). Plan ewakuacji gabinetu musi uwzględniać osoby leżące na stole masażnym: priorytetem jest ewakuacja ludzi, potem mienia; punkt zbiórki weryfikowany listą obecności.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 1.6.10. Zasada: nie wykonuj masażu, jeśli zagrażasz pacjentowi
+
+Bezwzględna reguła: nie wykonuj masażu, jeśli zagraża on pacjentowi. Ryzyko przewagi nad korzyścią (np. podejrzenie zakrzepicy głębokiej, ostry stan zapalny, gorączka, świeży uraz) oznacza rezygnację z zabiegu i pisemne skierowanie. Masażysta nie «ratuje terminu wizyty» kosztem bezpieczeństwa — odmowa sformułowana z szacunkiem jest aktem profesjonalizmu i miłości bliźniego, a nie brakiem życzliwości.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

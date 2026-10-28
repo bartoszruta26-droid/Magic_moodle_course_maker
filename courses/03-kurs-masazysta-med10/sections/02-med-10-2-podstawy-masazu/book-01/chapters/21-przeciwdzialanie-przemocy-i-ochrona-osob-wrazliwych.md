@@ -21,95 +21,69 @@ Temat „2.21. Przeciwdziałanie przemocy i ochrona osób wrażliwych” realizu
 
 ## Zagadnienia szczegółowe
 
-### 2.21.1 2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+### 2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przeciwdziałanie przemocy i wykorzystywaniu (ustawa z 2005 r. o przeciwdziałaniu przemocy w rodzinie z późn. zm., procedura Niebieskiej Karty): rozpoznanie śladów (obrażenia w różnej fazie gojenia, unikanie kontaktu wzrokowego, kontrolująca postawa osoby towarzyszącej), dokumentacja zgodna z procedurą placówki, skierowanie do pomocy społecznej, specjalistycznego ośrodka wsparcia lub organizacji antyprzemocowej, ochrona własnych granic (asertywna przerwa zabiegu, wezwanie przełożonego lub służb). Wykorzystywanie seksualne w relacji pomocy jest przestępstwem (art. 199, 200, 200a k.k.) i rażącym naruszeniem etyki zawodowej.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.21.2 2.21.2. Przemoc wobec dziecka
+### 2.21.2. Przemoc wobec dziecka
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przeciwdziałanie przemocy i wykorzystywaniu (ustawa z 2005 r. o przeciwdziałaniu przemocy w rodzinie z późn. zm., procedura Niebieskiej Karty): rozpoznanie śladów (obrażenia w różnej fazie gojenia, unikanie kontaktu wzrokowego, kontrolująca postawa osoby towarzyszącej), dokumentacja zgodna z procedurą placówki, skierowanie do pomocy społecznej, specjalistycznego ośrodka wsparcia lub organizacji antyprzemocowej, ochrona własnych granic (asertywna przerwa zabiegu, wezwanie przełożonego lub służb). Wykorzystywanie seksualne w relacji pomocy jest przestępstwem (art. 199, 200, 200a k.k.) i rażącym naruszeniem etyki zawodowej.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.2. Przemoc wobec dziecka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.21.3 2.21.3. Przemoc wobec osoby starszej
+### 2.21.3. Przemoc wobec osoby starszej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przeciwdziałanie przemocy i wykorzystywaniu (ustawa z 2005 r. o przeciwdziałaniu przemocy w rodzinie z późn. zm., procedura Niebieskiej Karty): rozpoznanie śladów (obrażenia w różnej fazie gojenia, unikanie kontaktu wzrokowego, kontrolująca postawa osoby towarzyszącej), dokumentacja zgodna z procedurą placówki, skierowanie do pomocy społecznej, specjalistycznego ośrodka wsparcia lub organizacji antyprzemocowej, ochrona własnych granic (asertywna przerwa zabiegu, wezwanie przełożonego lub służb). Wykorzystywanie seksualne w relacji pomocy jest przestępstwem (art. 199, 200, 200a k.k.) i rażącym naruszeniem etyki zawodowej.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.3. Przemoc wobec osoby starszej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.21.4 2.21.4. Przemoc wobec osoby z niepełnosprawnością
+### 2.21.4. Przemoc wobec osoby z niepełnosprawnością
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przeciwdziałanie przemocy i wykorzystywaniu (ustawa z 2005 r. o przeciwdziałaniu przemocy w rodzinie z późn. zm., procedura Niebieskiej Karty): rozpoznanie śladów (obrażenia w różnej fazie gojenia, unikanie kontaktu wzrokowego, kontrolująca postawa osoby towarzyszącej), dokumentacja zgodna z procedurą placówki, skierowanie do pomocy społecznej, specjalistycznego ośrodka wsparcia lub organizacji antyprzemocowej, ochrona własnych granic (asertywna przerwa zabiegu, wezwanie przełożonego lub służb). Wykorzystywanie seksualne w relacji pomocy jest przestępstwem (art. 199, 200, 200a k.k.) i rażącym naruszeniem etyki zawodowej.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.4. Przemoc wobec osoby z niepełnosprawnością” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.21.5 2.21.5. Procedury zgłaszania podejrzenia przemocy
+### 2.21.5. Procedury zgłaszania podejrzenia przemocy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przeciwdziałanie przemocy i wykorzystywaniu (ustawa z 2005 r. o przeciwdziałaniu przemocy w rodzinie z późn. zm., procedura Niebieskiej Karty): rozpoznanie śladów (obrażenia w różnej fazie gojenia, unikanie kontaktu wzrokowego, kontrolująca postawa osoby towarzyszącej), dokumentacja zgodna z procedurą placówki, skierowanie do pomocy społecznej, specjalistycznego ośrodka wsparcia lub organizacji antyprzemocowej, ochrona własnych granic (asertywna przerwa zabiegu, wezwanie przełożonego lub służb). Wykorzystywanie seksualne w relacji pomocy jest przestępstwem (art. 199, 200, 200a k.k.) i rażącym naruszeniem etyki zawodowej.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.5. Procedury zgłaszania podejrzenia przemocy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.21.6 2.21.6. Nieinterrogowanie pacjenta
+### 2.21.6. Nieinterrogowanie pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.6. Nieinterrogowanie pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Przeciwdziałanie przemocy i wykorzystywaniu (ustawa z 2005 r. o przeciwdziałaniu przemocy w rodzinie z późn. zm., procedura Niebieskiej Karty): rozpoznanie śladów (obrażenia w różnej fazie gojenia, unikanie kontaktu wzrokowego, kontrolująca postawa osoby towarzyszącej), dokumentacja zgodna z procedurą placówki, skierowanie do pomocy społecznej, specjalistycznego ośrodka wsparcia lub organizacji antyprzemocowej, ochrona własnych granic (asertywna przerwa zabiegu, wezwanie przełożonego lub służb). Wykorzystywanie seksualne w relacji pomocy jest przestępstwem (art. 199, 200, 200a k.k.) i rażącym naruszeniem etyki zawodowej.
 
-### 2.21.7 2.21.7. Ochrona dowodów i dokumentacja faktów
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.21.7. Ochrona dowodów i dokumentacja faktów
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.7. Ochrona dowodów i dokumentacja faktów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-### 2.21.8 2.21.8. Kierowanie do odpowiednich służb i instytucji
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.21.8. Kierowanie do odpowiednich służb i instytucji
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.8. Kierowanie do odpowiednich służb i instytucji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 2.21.9 2.21.9. Zachowanie tajemnicy w granicach prawa
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycja安全, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.9. Zachowanie tajemnicy w granicach prawa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.21.9. Zachowanie tajemnicy w granicach prawa
 
-### 2.21.10 2.21.10. Etyka: nie być obojętnym wobec krzywdy
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.21.10. Etyka: nie być obojętnym wobec krzywdy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.21.10. Etyka: nie być obojętnym wobec krzywdy
+
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

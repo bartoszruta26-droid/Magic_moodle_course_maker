@@ -21,95 +21,67 @@ Temat „6.10. Bezpieczeństwo masażu prozdrowotnego” realizuje 10 zagadnień
 
 ## Zagadnienia szczegółowe
 
-### 6.10.1 6.10.1. Objawy wymagające pilnej konsultacji lekarskiej
+### 6.10.1. Objawy wymagające pilnej konsultacji lekarskiej
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Objawy wymagające pilnej konsultacji lekarskiej podczas zabiegu: ból w klatce/promieniujący, duszność nowa, asymetria twarzy/mowy/sił (FAST), nagły najsilniejszy ból głowy, obrzęk łydki z bólem, gorączka ze sztywnością karku, wysypka nieblednąca, omdlenie bez szybkiego powrotu, ciąża + krwawienie/bóle, cukrzyca + splątanie (hipoglikemia), reakcja alergiczna uogólniona. Algorytm: STOP masażu → bezpieczeństwo pozycji → 112/999 → monitoring ABC → dokumentacja czasu i objawów → informacja placówki. Ćwicz raz na kwartał na symulacji. Nie czekaj na „pewność” — dyspozytor oceni. To jest godzina twojej przysięgi zawodowej: odwaga + spokój + kompetencja.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.1. Objawy wymagające pilnej konsultacji lekarskiej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.10.2 6.10.2. Ból nowy, ostry, promieniujący
+### 6.10.2. Ból nowy, ostry, promieniujący
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ból nowy, ostry, promieniujący — algorymem bezpieczeństwa: cechuj: lokalizacja, pochodzenie (mechaniczny vs zapalny), promieniowanie (dermatom, trakt), natężenie NRS, czynniki aggravujące/łagodzące, objawy towarzyszące (niedowład, drętwienie siodłowe, gorączka, utrata masy). Red flags: ból nocny niezwiązanym z pozycją, progresywny, pourazowy u seniora/osteoporozy, z symptomami neurologicznymi → pilna konsultacja (złamanie, nowotwór, infekcja, zespół ogona końskiego). Masażysta: wstrzymuje zabieg lub modyfikuje (obszar zdalnego rozluźnienia za zgodą lekarza), dokumentuje i kieruje. Nie „zgaduj dyskopatii” — opisz obraz i ścieżkę. Cierpliwość i pokora: ból to język ciała; naszym zadaniem jest słuchać, nie zagłuszać.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.2. Ból nowy, ostry, promieniujący” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.10.3 6.10.3. Obrzęk jednostronny nogi
+### 6.10.3. Obrzęk jednostronny nogi
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.3. Obrzęk jednostronny nogi” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.10.4 6.10.4. Gorączka i dreszcze
+### 6.10.4. Gorączka i dreszcze
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Gorączka i dreszcze — bezwzględne przeciwwskazanie do masażu: temperatura >38°C (pomiar! ) sygnalizuje infekcję lub proces systemiczny; masaż ogólny obciąża krążenie, maskuje objawy, sprzyja transmisji personelowi i innym klientom. Postępowanie: odwołaj zabieg, rekomenduj kontakt lekarza (POZ/SOR), przy objawach alarmowych (sztywność karku, splątanie, wysypka wybroczysta, duszność) — 112. Dezynfekcja stanowiska, twoja higiena rąk, kalendarz powrotu (≥48 h bez gorączki i za zgodą lekarza przy infekcjach bakteryjnych). Edukuj: „masaż wyciąga temperaturę” to szkodliwy mit. Dokumentuj decyzję w karcie — sprawiedliwość wobec następnych klientów wymaga ochrony przed zakażeniem.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.4. Gorączka i dreszcze” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.10.5 6.10.5. Utrata masy ciała bez przyczyny
+### 6.10.5. Utrata masy ciała bez przyczyny
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Niezamierzona utrata masy ciała: >5% w 6–12 miesięcy bez diety/wysiłku = czerwona flaga (nowotwór, nadczynność tarczycy, cukrzyca, HIV, depresja, choroby przewlekłe jelit). Zadanie masażysty: zauważ (odzież luźniejsza, policzki zapadnięte, historyczne pomiary ubrania/fotel), zapytaj neutralnie („czy ostatnio schudł Pan bez planu?”), skieruj do lekarza POZ z opisem. Masaż: ostrożnie przy kacheksji (cienka podściółka tłuszczowa — ryzyko ucisków, osteoporoza wtórna), komfort termiczny (zimno!), godność (komentarze „świetnie wyglądasz” mogą ranić przy zaburzeniach odżywiania). Nie diagnozuj, nie strasz — fakt + sugestia wizyty. Systematyczna obserwacja ciała to twoje narzędzie profilaktyki — używaj go roztropnie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.5. Utrata masy ciała bez przyczyny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.10.6 6.10.6. Krwawienia i siniki samoistne
+### 6.10.6. Krwawienia i siniki samoistne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Krwawienia i samoistne siniki: łatwe出现owanie wybroczyn, krwawienia dziąsłowe, nosowe, miesiączki obfitsze niż zwykle → podejrzenie trombocytopenii, zaburzeń krzepnięcia, terapii antykoagulacyjnej, chorób wątroby, białaczki. Masażysta: przy lekach (warfaryna, heparyna, DOAC, aspiryna/NSAID) — siła lekka, zakaz głębokiego/baniek/oklepywania intensywnego; przy objawach nowych/nasileniu — wstrzymaj i skieruj (INR!, morfologia). Ekspozycja na krew: środki standardowe, rękawiczki, dezynfekcja, utylizacja odpadów medycznych. Po zabiegu obserwuj krwiaki >2 cm, ból narastający — interwencja. Notuj wszystkie leki OTC — pacjenci nie uważają ich za „leki”. Ostrożność ratuje życie przy małopłytkowości <50k.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.6. Krwawienia i siniki samoistne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 6.10.7 6.10.7. Duszność i ból w klatce
+### 6.10.7. Duszność i ból w klatce
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.7. Duszność i ból w klatce” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-### 6.10.8 6.10.8. Zawroty głowy i omdlenia
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.10.8. Zawroty głowy i omdlenia
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.8. Zawroty głowy i omdlenia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-### 6.10.9 6.10.9. Zmiany skórne podejrane
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.10.9. Zmiany skórne podejrane
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.9. Zmiany skórne podejrane” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Choroby skóry — przeciwwskazania miejscowe i ogólne: bezwzględnie nie masujemy zmian ropnych (liszajec, czyraki, róża — ogólnoustrojowe ryzyko), wirusowych aktywnych (half zoster w wysiewie, brodawki w dużej liczbie — rozsiew), grzybic (autoinokulacja, sprzęt!), pasożytów (świerzb — izolacja i leczenie, dezynfekcja tekstyliów 60°C). Łuszczyca/egzema w fazie stabilnej: masaż możliwy poza ogniskami, emolienty bezzapachowe, siła lekka (objaw Koebnera — uraz → nowa zmiana!). Czerniak/atypowy pieprzyk: nie „smarować” i nie drażnić — skierować dermatologa. Dokumentuj: lokalizacja, charakter, decyzja. Higiena: jednorazowe podkłady, dezynfekcja stołu, mycie rąk. Zasada: lepiej odmówić i wytłumaczyć niż zainfekować i zniszczyć zaufanie.
 
-### 6.10.10 6.10.10. Zasada: lepiej skierować niż zaszkodzić
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 6.10.10. Zasada: lepiej skierować niż zaszkodzić
 
-- omówienie pojęcia, celów i miejsca zagadnienia „6.10.10. Zasada: lepiej skierować niż zaszkodzić” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zasada „lepiej skierować niż zaszkodzić”: asymetria kosztów błędu — fałszywy alarm kosztuje jedną wizytę lekarską, przeoczona flaga kalectwo lub śmierć. Operacjonalizacja: lista E (załącznik) przyklejona mentalnie; reguła trzech „N” (Nowy objaw, Nasilenie, Neuro-deficyt) = skieruj; prawo klienta do informacji „dlaczego dziś nie masuję” z zapisem karty; brak presji ekonomicznej (odwołany zabieg ≠ strata — to jakość). Komunikacja życzliwa: „widzę objawy, które wymagają lekarza zanim zrobię cokolwiek; wrócimy po konsultacji”. Odwaga cywilna wobec stałego klienta i wobec przełożonego. Sprawiedliwość: najsłabszy (nieświadomy zagrożenia) chroniony twoim sceptycyzmem.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

@@ -21,95 +21,75 @@ Temat „2.11. Układ nerwowy i narządy zmysłów” realizuje 10 zagadnień sz
 
 ## Zagadnienia szczegółowe
 
-### 2.11.1 2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy
+### 2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+OUN: mózgowie (kresomózgowie z korą 6-warstwową — pola czuciowe zakrętu zaśrodkowego i ruchowe przedcentralnego; jądra podstawne; móżdżek — koordynacja; pień mózgu z rdzeniem przedłużonym zawierającym ośrodki oddechowy i krążeniowy), rdzeń kręgowy (istota szara z motoneuronami α/γ i rogiem tylnym przetwarzającym nocycepcję; istota biała z drogami wstępującymi i zstępującymi; opony: twarda, pajęcza, pianka; płyn mózgowo-rdzeniowy). 31 segmentów rdzeniowych daje początek 31 parom nerwów rdzeniowych. Masaż wpływa na OUN pośrednio: pobudzenie włókien Aβ uruchamia bramkowe hamowanie bólu (Melzack–Wall), obniża współczulne napięcie i kortyzol. BEZWZGLĘDNE: żadne manipulacje kręgosłupa nie należą do kompetencji masażysty.
 
-### 2.11.2 2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-### 2.11.3 2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny
+Obwodowy UN: 12 par nerwów czaszkowych (m.in. V — czucie twarzy i żucie, VII — mimika, X — nerw błędny, główny „przewód” przywspółczulny dla trzewi) oraz 31 par nerwów rdzeniowych z gałęziami grzbietowymi i brzusznymi tworzącymi sploty. Budowa nerwu: neurema, połączenia międzyosiowe, pochewka mielinowa (komórki Schwanna) lub jej brak; przewód saltatoryjny. Podział uszkodzeń (Seddon/Sunderland: neuropraksja → neurotmieza); regeneracja zwojowa ok. 1 mm/dobę. Praktyka masażu: unikaj bezpośredniego, silnego ucisku na nerwy powierzchniowe (ścień cieśni nadgarstka — pośrodkowy; rowek nerwu łokciowego; szyjka kości strzałkowej — nerw strzałkowy głęboki); przy neuropatiach z zaburzeniami czucia siła bodźca musi być minimalna, bo brak bólu = brak sygnału alarmowego.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny
 
-### 2.11.4 2.11.4. Nerwy obwodowe kończyn górnych i dolnych
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+ANS dzieli się na współczulny (część piersiowo-lędźwiowa, łańcuch przykręgosłupowy, mediator noradrenalina/adrenalina — reakcja walki lub ucieczki: tachykardia, rozszerzenie oskrzeli, hamowanie trawienia) i przywspółczulny (czaszkowo-krzyżowy: nerwy III, VII, IX, X oraz S2–S4; mediator acetylocholina — odpoczynek i trawienie: perystaltyka, wydzielanie, bradykardia). Równowaga wegetatywna warunkuje regenerację tkanek. Masaż klasyczny i relaksacyjny przesuwają balans w stronę przywspółczulnego (HRV↑, kortyzol↓, IgA↑ w badaniach psychoneuroimmunologicznych). Techniki segmentarne na odcinku piersiowym/lędźwiowym modulują łańcuch współczulny — dlatego wymagają ostrożności (ciąża, nadciśnienie, niewydolność serca).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.4. Nerwy obwodowe kończyn górnych i dolnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.11.5 2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy
+### 2.11.4. Nerwy obwodowe kończyn górnych i dolnych
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.11.6 2.11.6. Dermatomy i miotomy
+### 2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.6. Dermatomy i miotomy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Splot ramienny (C5–T1): nerwy mięśniowo-skórny, skórny przyśrodkowy ramienia i przedramienia, pośrodkowy (cieśń nadgarstka!), łokciowy, promieniowy (porażenie niedelikatnego ucisku — „nerw niedzielny”), pachowy. Splot lędźwiowy (L1–L4): biodrowo-podżebrowy, biodrowo-pachwinowy, płciowo-udowy, skórny boczny uda, zasłonowy, udowy. Splot krzyżowy (L4–S3): pośladkowy górny i dolny, kulszowy (największy nerw ciała — składowa piszczelowa i strzałkowa), skórny tylny uda. Znajomość dermatomów i przebiegu nerwów pozwala unikać kompresji i prawidłowo interpretować zgłaszane drętwienia: parestezje w zakresie danego nerwu podczas zabiegu to sygnał STOP i zmiany pozycji/techniki.
 
-### 2.11.7 2.11.7. Łuk odruchowy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.11.6. Dermatomy i miotomy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.7. Łuk odruchowy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dermatomy to obszary skóry unerwiane przez pojedynczy segment rdzeniowy (strefy Heada — rzutowanie bólu trzewnego: serce Th1–Th5, żołądek Th6–Th8, nerka L1); miotomy — grupy mięśni tego samego segmentu; sklerotomy — struktury kostno-więzadłowe. Zastosowania: orientacyjna diagnostyka różnicowa masażysty (ból promieniujący zgodny z dermatomem sugeruje korzeń, ból w obrębie mięśnia — punkt spustowy; ostatecznie rozpoznaje lekarz), terapia segmentarna (masaż pola odpowiadającego segmentowi wywołuje odruchową zmianę napięcia i ukrwienia narządu) oraz rozpoznanie pól Hypergezji/napięcia (zmiana temperatury, garbnikowacenie skóry) jako wskazówki do skierowania diagnosticsznego.
 
-### 2.11.8 2.11.8. Ból: przewodzenie, modulacja, punkty spustowe
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.11.7. Łuk odruchowy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Łuk odruchowy: receptor → neuron czuciowy → integracja w rdzeniu lub mózgu → neuron ruchowy → efektor (mięsień/gruczoł). Przykłady: odruch rozciągowy (miotatyczny — wrzecico nerwowo-mięśniowe, np. kolanowy L2–L4), odruch z narządów Golgiego (hamowanie autogenne przy dużym napięciu), odruch zginania (nocycepcja). Wykorzystanie w masażu: wolne, przedłużone rozciąganie → narządy Golgiego → rozluźnienie; szybkie oklepywanie i wibracja → pobudzenie wrzecion i wzrost tonusu; wibracja wysokiej częstotliwości (ciałka Paciniego, 200–300 Hz) → włókna Aβ → bramkowe hamowanie bólu. Świadomość łuku odruchowego tłumaczy, dlaczego technika działa szybciej niż „chemia tkanek”.
 
-### 2.11.9 2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.11.8. Ból: przewodzenie, modulacja, punkty spustowe
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Punkty trigger miofasj (TrPs): węzły napięciowe w pasmie mięśniowym z bólem promienującym typowo dla mięśnia. Techniki: ischemiczna kompresja 30-90 s (ból „dobry”, malejący), spray & stretch wyłącznie po stosownym szkoleniu, sucha igła— WYŁĄCZNIE lekarz/fizjoterapeuta z uprawnieniami, masażysta NIE kłuje. Edukuj: nawyki (ergonomia, sen, stres), bo TrP nawraca bez zmiany przyczyn.
 
-### 2.11.10 2.11.10. Wpływ masażu na układ nerwowy
+Ból: transdukcja (nociceptory — włókna Aδ: szybki, dobrze lokalizowany; C: wolny, tępy, rozlany), przewodzenie (droga rdzeniowo-wzgórzowo-korowa), percepcja (kora somatosensoryczna, układ limbiczny, kora przedczołowa — model biopsychospołeczny bólu), modulacja zstępująca (istota szara okołowodociągowa, systemy noradrenergiczny i serotoninergiczny) oraz bramka rdzeniowa (Melzack–Wall: aktywacja Aβ zamyka transmisję). Punkt spustowy (Travell i Simons): hiperpobudliwe prążkowane pasmo sarkomerów (taut band) z lokalnym skurczem, niedokrwieniem i sensityzacją nociceptorów; charakterystyczny ból rzutowany, response twitch przy palpacji. Interwencje masażysty: kompresja ischemiczna, rozciąganie spray-and-stretch wyłącznie po stosownym szkoleniu; igłoterapia/sucha igła POZA kompetencją masażysty (lekarz/fizjoterapeuta).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.11.10. Wpływ masażu na układ nerwowy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga
+
+Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 2.11.10. Wpływ masażu na układ nerwowy
+
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 

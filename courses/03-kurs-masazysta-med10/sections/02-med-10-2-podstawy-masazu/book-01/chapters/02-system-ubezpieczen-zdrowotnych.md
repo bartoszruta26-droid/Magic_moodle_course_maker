@@ -21,95 +21,67 @@ Temat „2.2. System ubezpieczeń zdrowotnych” realizuje 10 zagadnień szczeg�
 
 ## Zagadnienia szczegółowe
 
-### 2.2.1 2.2.1. Pojęcie ubezpieczenia zdrowotnego
+### 2.2.1. Pojęcie ubezpieczenia zdrowotnego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.1. Pojęcie ubezpieczenia zdrowotnego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.2 2.2.2. Powszechne ubezpieczenie zdrowotne
+### 2.2.2. Powszechne ubezpieczenie zdrowotne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.2. Powszechne ubezpieczenie zdrowotne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.3 2.2.3. Dobrowolne ubezpieczenia zdrowotne
+### 2.2.3. Dobrowolne ubezpieczenia zdrowotne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.3. Dobrowolne ubezpieczenia zdrowotne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.4 2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu
+### 2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Finansowanie masażu: 1) NFZ — w ramach świadczeń rehabilitacji leczniczej po skierowaniu, limit zabiegów wynika z rozporządzenia i zlecenia lekarza; 2) płatność prywatna — umowa/cennik, rachunek lub faktura, obowiązek fiskalny; 3) inne źródła: PFRON (dofinansowanie rehabilitacji i turnusów orzeczonych osób), ubezpieczyciel OC sprawcy wypadku (roszczenie o koszty rehabilitacji), pracodawca (medycyna pracy, abonamenty). Zawsze weryfikuj, kto płaci i jakich dokumentów wymaga.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.5 2.2.5. Zlecenie lekarskie a refundacja
+### 2.2.5. Zlecenie lekarskie a refundacja
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Finansowanie masażu: 1) NFZ — w ramach świadczeń rehabilitacji leczniczej po skierowaniu, limit zabiegów wynika z rozporządzenia i zlecenia lekarza; 2) płatność prywatna — umowa/cennik, rachunek lub faktura, obowiązek fiskalny; 3) inne źródła: PFRON (dofinansowanie rehabilitacji i turnusów orzeczonych osób), ubezpieczyciel OC sprawcy wypadku (roszczenie o koszty rehabilitacji), pracodawca (medycyna pracy, abonamenty). Zawsze weryfikuj, kto płaci i jakich dokumentów wymaga.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.5. Zlecenie lekarskie a refundacja” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.6 2.2.6. Prawa pacjenta w systemie ubezpieczeń
+### 2.2.6. Prawa pacjenta w systemie ubezpieczeń
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Prawa pacjenta (ustawa z 6.11.2008 r. o prawach pacjenta i RPP): świadczenia zgodne z aktualną wiedzą medyczną, informacje o stanie zdrowia, dostęp do dokumentacji i kopii, zgoda na zabiegi, poufność, poszanowanie intymności i godności, rzecznik praw pacjenta, a od 2024 r. także fundusz kompensacyjny zdarzeń medycznych dla podmiotów leczniczych. Obowiązki pacjenta: współdziałanie, prawdomówność w wywiadzie, poszanowanie porządku placówki i personelu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.6. Prawa pacjenta w systemie ubezpieczeń” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.7 2.2.7. Obowiązki pacjenta i świadczeniodawcy
+### 2.2.7. Obowiązki pacjenta i świadczeniodawcy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Prawa pacjenta (ustawa z 6.11.2008 r. o prawach pacjenta i RPP): świadczenia zgodne z aktualną wiedzą medyczną, informacje o stanie zdrowia, dostęp do dokumentacji i kopii, zgoda na zabiegi, poufność, poszanowanie intymności i godności, rzecznik praw pacjenta, a od 2024 r. także fundusz kompensacyjny zdarzeń medycznych dla podmiotów leczniczych. Obowiązki pacjenta: współdziałanie, prawdomówność w wywiadzie, poszanowanie porządku placówki i personelu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.7. Obowiązki pacjenta i świadczeniodawcy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.8 2.2.8. Dokumentacja potrzebna do rozliczeń
+### 2.2.8. Dokumentacja potrzebna do rozliczeń
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.8. Dokumentacja potrzebna do rozliczeń” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 2.2.9 2.2.9. Ubezpieczenie OC masażysty
+### 2.2.9. Ubezpieczenie OC masażysty
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.9. Ubezpieczenie OC masażysty” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Finansowanie masażu: 1) NFZ — w ramach świadczeń rehabilitacji leczniczej po skierowaniu, limit zabiegów wynika z rozporządzenia i zlecenia lekarza; 2) płatność prywatna — umowa/cennik, rachunek lub faktura, obowiązek fiskalny; 3) inne źródła: PFRON (dofinansowanie rehabilitacji i turnusów orzeczonych osób), ubezpieczyciel OC sprawcy wypadku (roszczenie o koszty rehabilitacji), pracodawca (medycyna pracy, abonamenty). Zawsze weryfikuj, kto płaci i jakich dokumentów wymaga.
 
-### 2.2.10 2.2.10. Etyka wobec pacjenta prywatnego i pacjenta systemowego
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 2.2.10. Etyka wobec pacjenta prywatnego i pacjenta systemowego
 
-- omówienie pojęcia, celów i miejsca zagadnienia „2.2.10. Etyka wobec pacjenta prywatnego i pacjenta systemowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
