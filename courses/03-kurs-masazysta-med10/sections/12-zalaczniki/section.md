@@ -29,3 +29,21 @@ Załączniki są częścią materiałów kursowych — obowiązuje je ta sama db
 o prawdę (źródła wymienione w Załączniku L), piękno (przejrzysty język
 i format) i sprawiedliwość (jednakowe dla wszystkich, dostępne w wersji
 do druku i powiększonej czcionki).
+
+### Mapa plików załączników w repozytorium
+
+| Plik | Rozmiar | Przeznaczenie |
+|---|---|---|
+| `label-01-zalacznik-a-mapa-efektow-ksztalcenia-med-10-na-moduly.md` | 3088 B | Załącznik A |
+| `label-02-zalacznik-b-regulaminy-i-procedury-wewnetrzne.md` | 2993 B | Załącznik B |
+| `label-03-zalacznik-c-wzory-dokumentacji.md` | 4006 B | Załącznik C |
+| `label-04-zalacznik-d-wykaz-przeciwwskazan-bezwzglednych-i.md` | 4799 B | Załącznik D |
+| `label-05-zalacznik-e-wykaz-stanow-wymagajacych-pilnej.md` | 4693 B | Załącznik E |
+| `label-06-zalacznik-f-check-listy-umiejetnosci-praktycznych.md` | 8530 B | Załącznik F |
+| `label-07-zalacznik-g-slownik-terminow-medycznych-i-masazowych.md` | 3003 B | Załącznik G |
+| `label-08-zalacznik-h-wykaz-srodkow-poslizgowych-i-wspomagajacych.md` | 2990 B | Załącznik H |
+| `label-09-zalacznik-i-procedury-aseptyki-i-antyseptyki.md` | 2859 B | Załącznik I |
+| `label-10-zalacznik-j-procedura-pierwszej-pomocy-i-bls.md` | 2841 B | Załącznik J |
+| `label-11-zalacznik-k-kodeks-etyczny-masazysty.md` | 2826 B | Załącznik K |
+| `label-12-zalacznik-l-literatura-i-materialy-zrodlowe.md` | 3056 B | Załącznik L |
+| `label-13-zalacznik-m-oswiadczenie-o-granicach-kompetencji-i.md` | 3639 B | Załącznik M |

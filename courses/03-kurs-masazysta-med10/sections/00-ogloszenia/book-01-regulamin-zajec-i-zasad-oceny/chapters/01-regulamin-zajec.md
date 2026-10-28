@@ -40,3 +40,48 @@ Kwalifikacyjny kurs zawodowy w zawodzie masażysty (MED.10) jest szkołą służ
 - Książki (book) tematyczne są podstawą nauki; quizy pełnią rolę sprawdzianu i powtórki.
 - Notatki z zajęć udostępniamy całej grupie — wiedza dzielona mnoży się sprawiedliwie.
 - Cytowanie literatury (Załącznik L) jest obowiązkiem; plagiat narusza prawdomówność, na której stoi zawód zaufania publicznego.
+
+## Praktyczna organizacja dnia szkoleniowego
+
+1. **Rozpoczęcie** — zbiórka 10 minut przed zajęciami; przewietrzenie sali,
+   sprawdzenie stanów łóżek do masażu, preparatów i ręczników.
+2. **Rozgrzewka rąk masażysty** — 5 minut ćwiczeń mobilizacyjnych nadgarstków
+   i palców; chroni stawy dłoni, które są narzędziem pracy całego życia.
+3. **Część dydaktyczna** — pokaz instruktora w tempie demonstracyjnym,
+   następnie przećwiczenie techniki w parach naprzemiennie.
+4. **Przerwa** — co 90 minut; regeneracja dłoni i koncentracji służy dobru
+   klienta tak samo jak technika.
+5. **Zakończenie** — dezynfekcja stanowiska, umycie i kremowanie rąk
+   (bez zapachu!), wpis do karty ćwiczeń, krótkie omówienie trudności.
+
+## Ergonomia pracy masażysty — prawda o ciele, które służy
+
+- Masaż wykonujemy ciałem, nie tylko dłońmi: ciężar przenosimy przez barki
+  i tułów, stojąc w stabilnej pozycji z nóżkami ustawionymi pod kątem.
+- Wysokość stołu regulujemy tak, by łokcie pozostawały zgięte ok. 120°;
+  zbyt niski stół = garb, zbyt wysoki = przeciążenie karku.
+- Zakaz pracowania „na wyprostowanych rękach z obciążeniem” — prowadzi do
+  kontuzji nadgarstka i przedwczesnego końca kariery zawodu, który kochamy.
+- Po każdej serii zabiegów — 2 minuty rozciągania przedramion. To nie luksus,
+  to sprawiedliwość wobec własnego ciała, które oddaje siłę drugiemu.
+
+## Higiena i bezpieczeństwo stanowiska — streszczenie procedur
+
+| Obszar | Zasada kluczowa | Szczegóły |
+|---|---|---|
+| Ręce masażysty | Mycie min. 30 s + dezynfekcja przed i po każdym kliencie | załącznik I |
+| Stanowisko | Jednorazowe lub prane w 60°C nakrycia; wymiana między klientami | załącznik B |
+| Narzędzia | Dezynfekcja środkami dopuszczonymi; suszenie pionowe | załącznik H |
+| Przeciwwskazania | Weryfikacja KARTY KLIENTA przed pierwszym ruchem | załącznik D |
+| Awaria/zagrożenie | Ewakuacja wg planu sali; zdarzenie wpisujemy do rejestru | załącznik J |
+
+## Postępowanie w sytuacjach nietypowych
+
+- Klient zgłasza ból ostry, piekący lub zawroty głowy — natychmiast przerwij
+  zabieg, ułóż wygodnie, zmierz tętno; utrzymujące się objawy → wezwanie
+  pomocy medycznej i zapis w rejestrze zdarzeń niepożądanych.
+- Niepokojące zmiany skórne, gorączka, świeże urazy — zabieg odwołujemy,
+  kierujemy do lekarza; nie komentujemy rozpoznania (to poza kompetencją).
+- Własna kontuzja dłoni — zgłoszenie instruktorowi, zmiana roli w parze
+  ćwiczebnej na obserwatora z kartą analizy. Nikt nie jest karany za
+  uczciwe zgłoszenie — odwrotnie: milczenie byłoby zagrożeniem dla klienta.

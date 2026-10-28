@@ -16,6 +16,10 @@ Sprawdza (wszystko na realnych plikach repozytorium):
   6. Brak aktywności typu page w modułach sekcji (preferencja: book).
      Podsumowanie sekcji (summary.markdown_file) NIE jest aktywnością page.
   7. Glossary ma min. 25 haseł; kazdy assignment ma instructions.md >= 400 B.
+  8. Każda sekcja kursu ma plik section.md (próg błędu: < 900 B); podstrony
+     porządkowe — section.md i page.md (podsumowanie sekcji) — mają próg
+     tolerancji 1500 B jako OSTRZEŻENIE (sygnał do rozbudowy treści).
+  9. Każdy rozdział książki (chapters/*.md) ma min. 3500 B (błąd poniżej 2000 B).
 
 Kod wyjścia: 0 = brak błędów (ostrzeżenia dozwolone), 1 = błędy.
 
@@ -68,9 +72,49 @@ def check_short_files(base: Path) -> None:
             warn(f"MD krótki ({size} B): {f.relative_to(base)}")
 
 
+def check_section_md_and_chapters(base: Path) -> None:
+    """Pliki porządkowe sekcji i rozdziały książek — progi jakości treści."""
+    for secdir in sorted((base / "sections").iterdir()):
+        if not secdir.is_dir():
+            continue
+        smd = secdir / "section.md"
+        if not smd.exists():
+            err(f"Brak section.md w sekcji {secdir.name}")
+        elif smd.stat().st_size < 900:
+            err(f"section.md za krótki ({smd.stat().st_size} B): {secdir.name}")
+        # podstrony porządkowe (nie aktywności) — sygnał do rozbudowy
+        for aux in ("section.md", "page.md"):
+            f = secdir / aux
+            if f.is_file() and f.stat().st_size < 1500:
+                warn(f"{aux} krótki ({f.stat().st_size} B) — rozważ rozbudowę: "
+                     f"{secdir.name}/{aux}")
+    for ch in sorted(base.rglob("chapters/*.md")):
+        size = ch.stat().st_size
+        rel = ch.relative_to(base)
+        if size < 2000:
+            err(f"Rozdział książki za krótki ({size} B): {rel}")
+        elif size < 3500:
+            warn(f"Rozdział książki krótki ({size} B): {rel}")
+
+
+GIFT_NAME_RE = re.compile(
+    r"^(?!\s*(?://|#|/\*))\s*::(?P<name>[A-Za-z0-9_\-\.]+)::"
+)
+
+
 def count_gift_questions(path: Path) -> int:
-    txt = path.read_text(encoding="utf-8", errors="replace")
-    return len(re.findall(r"^[^\s#].*::[\w\-]+::", txt, flags=re.M))
+    """Liczy pytania GIFT wg oficjalnej składni: '::nazwa:: treść { ... }'.
+
+    Poprawka 2026-10-28: wcześniejszy regex wymagał znaku `::` w środku
+    linii po dowolnym tekście, przez co nie rozpoznawał poprawnych linii
+    formatu GIFT z nazwą pytania na początku (`::tf-s01-11-q1:: Treść...`).
+    Teraz liczymy linie startujące od `::nazwa::`, ignorując komentarze.
+    """
+    n = 0
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        if GIFT_NAME_RE.match(line):
+            n += 1
+    return n
 
 
 def check_quizzes(base: Path) -> None:
@@ -178,6 +222,7 @@ def main() -> int:
     check_books(base)
     check_sections(base)
     check_glossary_and_assignments(base)
+    check_section_md_and_chapters(base)
 
     print(f"WALIDACJA {base}: bledy={len(errors)} ostrzezenia={len(warnings)}")
     for e in errors[:40]:
