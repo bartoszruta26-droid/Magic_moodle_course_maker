@@ -1,15 +1,21 @@
 // === Temat 2.1: Patologia ogólna ===
 ::tf-s02-21-q1:: Zagadnienie „Uszkodzenie i śmierć komórki – nekroza, apoptoza, zmiany wsteczne” wchodzi w zakres tematu „Patologia ogólna” (2.1). {TRUE} //
 
+
 ::tf-s02-21-q2:: Zagadnienie „Zapalenie ostre i przewlekłe – mediatory, fazy, następstwa” jest elementem zagadnienia „Uszkodzenie i śmierć komórki – nekroza, apoptoza, zmiany wsteczne”, a nie tematu „Patologia ogólna” (2.1). {FALSE} //
+
 
 ::tf-s02-21-q3:: Zagadnienie „Zaburzenia krążenia – przekrwienie, niedokrwienie, zakrzepica, zatorowość, obrzęk” wchodzi w zakres tematu „Patologia ogólna” (2.1). {TRUE} //
 
+
 ::tf-s02-21-q4:: Zagadnienie „Nowotworzenie – karcynogeneza, klasyfikacja, markery” jest elementem zagadnienia „Zaburzenia krążenia – przekrwienie, niedokrwienie, zakrzepica, zatorowość, obrzęk”, a nie tematu „Patologia ogólna” (2.1). {FALSE} //
+
 
 ::tf-s02-21-q5:: Zagadnienie „Zaburzenia odporności – autoagresja, alergie, niedobory immunologiczne” wchodzi w zakres tematu „Patologia ogólna” (2.1). {TRUE} //
 
+
 ::tf-s02-21-q6:: Zagadnienie „Patologia procesów naprawczych – bliznowacenie, regeneracja, ziarninowanie” jest elementem zagadnienia „Zaburzenia odporności – autoagresja, alergie, niedobory immunologiczne”, a nie tematu „Patologia ogólna” (2.1). {FALSE} //
+
 
 ::mc-s02-21:: Które z poniższych zagadnień należy bezpośrednio do tematu „Patologia ogólna” (2.1)? {
     = Uszkodzenie i śmierć komórki – nekroza, apoptoza, zmiany wsteczne
@@ -20,23 +26,33 @@
 // === Temat 2.2: Patofizjologia układów ===
 ::tf-s02-22-q1:: Zagadnienie „Choroby układu sercowo-naczyniowego – miażdżyca, nadciśnienie, niewydolność, wady zastawkowe” wchodzi w zakres tematu „Patofizjologia układów” (2.2). {TRUE} //
 
+
 ::tf-s02-22-q2:: Zagadnienie „Choroby układu oddechowego – POChP, astma, zapalenia płuc i opłucnej, rozedma” jest elementem zagadnienia „Choroby układu sercowo-naczyniowego – miażdżyca, nadciśnienie, niewydolność, wady zastawkowe”, a nie tematu „Patofizjologia układów” (2.2). {FALSE} //
+
 
 ::tf-s02-22-q3:: Zagadnienie „Choroby układu pokarmowego – choroba wrzodowa, IBS, IBD, choroby wątroby i trzustki” wchodzi w zakres tematu „Patofizjologia układów” (2.2). {TRUE} //
 
+
 ::tf-s02-22-q4:: Zagadnienie „Choroby układu moczowego – kamica, niewydolność nerek, infekcje” jest elementem zagadnienia „Choroby układu pokarmowego – choroba wrzodowa, IBS, IBD, choroby wątroby i trzustki”, a nie tematu „Patofizjologia układów” (2.2). {FALSE} //
+
 
 ::tf-s02-22-q5:: Zagadnienie „Choroby układu endokrynnego – cukrzyca, choroby tarczycy, nadnerczy” wchodzi w zakres tematu „Patofizjologia układów” (2.2). {TRUE} //
 
+
 ::tf-s02-22-q6:: Zagadnienie „Choroby układu nerwowego – neuropatie, choroby degeneracyjne, udary, porażenia” jest elementem zagadnienia „Choroby układu endokrynnego – cukrzyca, choroby tarczycy, nadnerczy”, a nie tematu „Patofizjologia układów” (2.2). {FALSE} //
+
 
 ::tf-s02-22-q7:: Zagadnienie „Choroby układu mięśniowo-szkieletowego – artrozy, dyskopatie, RZS, ZZSK, osteoporoza” wchodzi w zakres tematu „Patofizjologia układów” (2.2). {TRUE} //
 
+
 ::tf-s02-22-q8:: Zagadnienie „Choroby skóry – egzemy, łuszczyca, trądzik, grzybice, twardzina” jest elementem zagadnienia „Choroby układu mięśniowo-szkieletowego – artrozy, dyskopatie, RZS, ZZSK, osteoporoza”, a nie tematu „Patofizjologia układów” (2.2). {FALSE} //
+
 
 ::tf-s02-22-q9:: Zagadnienie „Choroby metaboliczne – otyłość, dna moczanowa, hiperlipidemie, zespół metaboliczny” wchodzi w zakres tematu „Patofizjologia układów” (2.2). {TRUE} //
 
+
 ::tf-s02-22-q10:: Zagadnienie „Choroby układu limfatycznego – obrzęki limfatyczne, zastój, limfopatie” jest elementem zagadnienia „Choroby metaboliczne – otyłość, dna moczanowa, hiperlipidemie, zespół metaboliczny”, a nie tematu „Patofizjologia układów” (2.2). {FALSE} //
+
 
 ::mc-s02-22:: Które z poniższych zagadnień należy bezpośrednio do tematu „Patofizjologia układów” (2.2)? {
     = Choroby układu sercowo-naczyniowego – miażdżyca, nadciśnienie, niewydolność, wady zastawkowe
@@ -47,11 +63,15 @@
 // === Temat 2.3: Psychoneuroimmunologia i medycyna psychosomatyczna ===
 ::tf-s02-23-q1:: Zagadnienie „Wpływ stresu na homeostazę organizmu” wchodzi w zakres tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3). {TRUE} //
 
+
 ::tf-s02-23-q2:: Zagadnienie „Somatyzacja i choroby psychosomatyczne – mechanizmy, rozpoznawanie” jest elementem zagadnienia „Wpływ stresu na homeostazę organizmu”, a nie tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3). {FALSE} //
+
 
 ::tf-s02-23-q3:: Zagadnienie „Wpływ emocji na układ odpornościowy i procesy zapalne” wchodzi w zakres tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3). {TRUE} //
 
+
 ::tf-s02-23-q4:: Zagadnienie „Rola duchowości, sensu i nadziei w procesie zdrowienia” jest elementem zagadnienia „Wpływ emocji na układ odpornościowy i procesy zapalne”, a nie tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3). {FALSE} //
+
 
 ::mc-s02-23:: Które z poniższych zagadnień należy bezpośrednio do tematu „Psychoneuroimmunologia i medycyna psychosomatyczna” (2.3)? {
     = Wpływ stresu na homeostazę organizmu

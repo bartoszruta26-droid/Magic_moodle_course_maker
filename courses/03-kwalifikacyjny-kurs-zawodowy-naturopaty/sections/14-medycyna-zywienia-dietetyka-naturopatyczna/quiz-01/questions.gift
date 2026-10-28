@@ -1,15 +1,21 @@
 // === Temat 14.1: Podstawy żywienia i biochemii żywności ===
 ::tf-s14-141-q1:: Zagadnienie „Makroskładniki – białka, tłuszcze, węglowodany – rola, trawienie, metabolizm” wchodzi w zakres tematu „Podstawy żywienia i biochemii żywności” (14.1). {TRUE} //
 
+
 ::tf-s14-141-q2:: Zagadnienie „Mikroskładniki – witaminy, minerały, pierwiastki śladowe; źródła i zapotrzebowanie” jest elementem zagadnienia „Makroskładniki – białka, tłuszcze, węglowodany – rola, trawienie, metabolizm”, a nie tematu „Podstawy żywienia i biochemii żywności” (14.1). {FALSE} //
+
 
 ::tf-s14-141-q3:: Zagadnienie „Woda, błonnik, fitozwiązki – rola w zdrowiu i profilaktyce” wchodzi w zakres tematu „Podstawy żywienia i biochemii żywności” (14.1). {TRUE} //
 
+
 ::tf-s14-141-q4:: Zagadnienie „Metabolizm energetyczny – BMR, TDEE, bilans kaloryczny” jest elementem zagadnienia „Woda, błonnik, fitozwiązki – rola w zdrowiu i profilaktyce”, a nie tematu „Podstawy żywienia i biochemii żywności” (14.1). {FALSE} //
+
 
 ::tf-s14-141-q5:: Zagadnienie „Mikrobiom jelitowy – rola w trawieniu, odporności, zdrowiu psychicznym; dysbioza” wchodzi w zakres tematu „Podstawy żywienia i biochemii żywności” (14.1). {TRUE} //
 
+
 ::tf-s14-141-q6:: Zagadnienie „Trawienie i wchłanianie – fizjologia i zaburzenia” jest elementem zagadnienia „Mikrobiom jelitowy – rola w trawieniu, odporności, zdrowiu psychicznym; dysbioza”, a nie tematu „Podstawy żywienia i biochemii żywności” (14.1). {FALSE} //
+
 
 ::mc-s14-141:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy żywienia i biochemii żywności” (14.1)? {
     = Makroskładniki – białka, tłuszcze, węglowodany – rola, trawienie, metabolizm
@@ -20,21 +26,30 @@
 // === Temat 14.2: Dietetyka kliniczna i naturopatyczna ===
 ::tf-s14-142-q1:: Zagadnienie „Dieta w chorobach układu krążenia – śródziemnomorska, DASH” wchodzi w zakres tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {TRUE} //
 
+
 ::tf-s14-142-q2:: Zagadnienie „Dieta w cukrzycy i zespole metabolicznym – indeks glikemiczny, ładunek” jest elementem zagadnienia „Dieta w chorobach układu krążenia – śródziemnomorska, DASH”, a nie tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {FALSE} //
+
 
 ::tf-s14-142-q3:: Zagadnienie „Dieta w chorobach przewodu pokarmowego – FODMAP, eliminacyjna, lekkostrawna” wchodzi w zakres tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {TRUE} //
 
+
 ::tf-s14-142-q4:: Zagadnienie „Dieta w chorobach autoimmunologicznych – protokół AIP” jest elementem zagadnienia „Dieta w chorobach przewodu pokarmowego – FODMAP, eliminacyjna, lekkostrawna”, a nie tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {FALSE} //
+
 
 ::tf-s14-142-q5:: Zagadnienie „Dieta w chorobach nerek i układu moczowego – ograniczenia białka, sodu, potasu” wchodzi w zakres tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {TRUE} //
 
+
 ::tf-s14-142-q6:: Zagadnienie „Dieta w alergiach i nietolerancjach pokarmowych – rotacyjna, eliminacyjna” jest elementem zagadnienia „Dieta w chorobach nerek i układu moczowego – ograniczenia białka, sodu, potasu”, a nie tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {FALSE} //
+
 
 ::tf-s14-142-q7:: Zagadnienie „Dieta w otyłości – deficyt kaloryczny, sytość, nawyki” wchodzi w zakres tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {TRUE} //
 
+
 ::tf-s14-142-q8:: Zagadnienie „Dieta w chorobach nowotworowych – wsparcie żywieniowe, antyoksydanty” jest elementem zagadnienia „Dieta w otyłości – deficyt kaloryczny, sytość, nawyki”, a nie tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {FALSE} //
 
+
 ::tf-s14-142-q9:: Zagadnienie „Dieta w okresie ciąży, laktacji, dzieciństwa i starości” wchodzi w zakres tematu „Dietetyka kliniczna i naturopatyczna” (14.2). {TRUE} //
+
 
 ::mc-s14-142:: Które z poniższych zagadnień należy bezpośrednio do tematu „Dietetyka kliniczna i naturopatyczna” (14.2)? {
     = Dieta w chorobach układu krążenia – śródziemnomorska, DASH
@@ -45,15 +60,21 @@
 // === Temat 14.3: Tradycyjne systemy żywieniowe ===
 ::tf-s14-143-q1:: Zagadnienie „Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja” wchodzi w zakres tematu „Tradycyjne systemy żywieniowe” (14.3). {TRUE} //
 
+
 ::tf-s14-143-q2:: Zagadnienie „Dietetyka ajurwedyjska – pokarmy wg dosz, Agni, sześć smaków” jest elementem zagadnienia „Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja”, a nie tematu „Tradycyjne systemy żywieniowe” (14.3). {FALSE} //
+
 
 ::tf-s14-143-q3:: Zagadnienie „Dietetyka wg medycyny klasztornej i tradycji europejskiej – Hildegarda z Bingen” wchodzi w zakres tematu „Tradycyjne systemy żywieniowe” (14.3). {TRUE} //
 
+
 ::tf-s14-143-q4:: Zagadnienie „Post leczniczy – rodzaje (wodny, sokowy, suchy), wskazania, bezpieczeństwo, prowadzenie” jest elementem zagadnienia „Dietetyka wg medycyny klasztornej i tradycji europejskiej – Hildegarda z Bingen”, a nie tematu „Tradycyjne systemy żywieniowe” (14.3). {FALSE} //
+
 
 ::tf-s14-143-q5:: Zagadnienie „Dieta roślinna, wegetariańska, wegańska – bilansowanie, suplementacja” wchodzi w zakres tematu „Tradycyjne systemy żywieniowe” (14.3). {TRUE} //
 
+
 ::tf-s14-143-q6:: Zagadnienie „Żywienie integralne – pokarm jako lekarstwo i wymiar duchowy posiłku; wdzięczność” jest elementem zagadnienia „Dieta roślinna, wegetariańska, wegańska – bilansowanie, suplementacja”, a nie tematu „Tradycyjne systemy żywieniowe” (14.3). {FALSE} //
+
 
 ::mc-s14-143:: Które z poniższych zagadnień należy bezpośrednio do tematu „Tradycyjne systemy żywieniowe” (14.3)? {
     = Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja
@@ -64,15 +85,21 @@
 // === Temat 14.4: Suplementacja i nutraceutyki ===
 ::tf-s14-144-q1:: Zagadnienie „Witaminy i minerały – wskazania, dawkowanie, interakcje” wchodzi w zakres tematu „Suplementacja i nutraceutyki” (14.4). {TRUE} //
 
+
 ::tf-s14-144-q2:: Zagadnienie „Kwasy tłuszczowe omega-3, probiotyki, prebiotyki, synbiotyki” jest elementem zagadnienia „Witaminy i minerały – wskazania, dawkowanie, interakcje”, a nie tematu „Suplementacja i nutraceutyki” (14.4). {FALSE} //
+
 
 ::tf-s14-144-q3:: Zagadnienie „Amino- i fitosuplementy – zastosowanie kliniczne” wchodzi w zakres tematu „Suplementacja i nutraceutyki” (14.4). {TRUE} //
 
+
 ::tf-s14-144-q4:: Zagadnienie „Suplementacja w sporcie i treningu medycznym” jest elementem zagadnienia „Amino- i fitosuplementy – zastosowanie kliniczne”, a nie tematu „Suplementacja i nutraceutyki” (14.4). {FALSE} //
+
 
 ::tf-s14-144-q5:: Zagadnienie „Bezpieczeństwo suplementacji – jakość, dawkowanie, przeciwwskazania” wchodzi w zakres tematu „Suplementacja i nutraceutyki” (14.4). {TRUE} //
 
+
 ::tf-s14-144-q6:: Zagadnienie „Prawo dotyczące suplementów diety i oświadczeń zdrowotnych” jest elementem zagadnienia „Bezpieczeństwo suplementacji – jakość, dawkowanie, przeciwwskazania”, a nie tematu „Suplementacja i nutraceutyki” (14.4). {FALSE} //
+
 
 ::mc-s14-144:: Które z poniższych zagadnień należy bezpośrednio do tematu „Suplementacja i nutraceutyki” (14.4)? {
     = Witaminy i minerały – wskazania, dawkowanie, interakcje

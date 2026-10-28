@@ -1,33 +1,48 @@
 // === Temat 1.1: Anatomia ogólna i topograficzna ===
 ::tf-s01-11-q1:: Zagadnienie „Budowa komórki, tkanek i narządów – przegląd systemowy” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q2:: Zagadnienie „Układ kostny – osteologia ogólna i szczegółowa” jest elementem zagadnienia „Budowa komórki, tkanek i narządów – przegląd systemowy”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
+
 
 ::tf-s01-11-q3:: Zagadnienie „Układ stawowy i więzadłowy – artrologia i biomechanika stawów” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q4:: Zagadnienie „Układ mięśniowy – miologia kończyn, tułowia, głowy i szyi” jest elementem zagadnienia „Układ stawowy i więzadłowy – artrologia i biomechanika stawów”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
+
 
 ::tf-s01-11-q5:: Zagadnienie „Układ nerwowy – ośrodkowy i obwodowy, unerwienie segmentarne” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q6:: Zagadnienie „Układ autonomiczny (wegetatywny) – część współczulna i przywspółczulna” jest elementem zagadnienia „Układ nerwowy – ośrodkowy i obwodowy, unerwienie segmentarne”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
+
 
 ::tf-s01-11-q7:: Zagadnienie „Układ krążenia – serce, tętnice, żyły, mikrokrążenie” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q8:: Zagadnienie „Układ limfatyczny – naczynia chłonne, węzły, narządy limfatyczne” jest elementem zagadnienia „Układ krążenia – serce, tętnice, żyły, mikrokrążenie”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
+
 
 ::tf-s01-11-q9:: Zagadnienie „Układ oddechowy – drogi oddechowe, płuca, mechanika oddychania” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q10:: Zagadnienie „Układ pokarmowy – przewód pokarmowy, gruczoły trawienne” jest elementem zagadnienia „Układ oddechowy – drogi oddechowe, płuca, mechanika oddychania”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
+
 
 ::tf-s01-11-q11:: Zagadnienie „Układ moczowo-płciowy – nerki, drogi moczowe, narządy rozrodcze” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q12:: Zagadnienie „Układ dokrewny – gruczoły wydzielania wewnętrznego” jest elementem zagadnienia „Układ moczowo-płciowy – nerki, drogi moczowe, narządy rozrodcze”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
+
 
 ::tf-s01-11-q13:: Zagadnienie „Powłoka wspólna – naskórek, skóra właściwa, tkanka podskórna” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
 
+
 ::tf-s01-11-q14:: Zagadnienie „Narządy zmysłów – wzrok, słuch, równowaga, węch, smak, dotyk” jest elementem zagadnienia „Powłoka wspólna – naskórek, skóra właściwa, tkanka podskórna”, a nie tematu „Anatomia ogólna i topograficzna” (1.1). {FALSE} //
 
+
 ::tf-s01-11-q15:: Zagadnienie „Anatomia topograficzna regionów istotnych dla praktyki naturopatycznej” wchodzi w zakres tematu „Anatomia ogólna i topograficzna” (1.1). {TRUE} //
+
 
 ::mc-s01-11:: Które z poniższych zagadnień należy bezpośrednio do tematu „Anatomia ogólna i topograficzna” (1.1)? {
     = Budowa komórki, tkanek i narządów – przegląd systemowy
@@ -38,27 +53,39 @@
 // === Temat 1.2: Fizjologia człowieka ===
 ::tf-s01-12-q1:: Zagadnienie „Fizjologia komórki – transport błonowy, potencjał czynnościowy, metabolizm” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
 
+
 ::tf-s01-12-q2:: Zagadnienie „Fizjologia układu nerwowego – przewodzenie impulsów, synapsy, łuk odruchowy” jest elementem zagadnienia „Fizjologia komórki – transport błonowy, potencjał czynnościowy, metabolizm”, a nie tematu „Fizjologia człowieka” (1.2). {FALSE} //
+
 
 ::tf-s01-12-q3:: Zagadnienie „Fizjologia układu krążenia – hemodynamika, regulacja ciśnienia, powrót żylny” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
 
+
 ::tf-s01-12-q4:: Zagadnienie „Fizjologia układu oddechowego – wymiana gazowa, regulacja nerwowa i chemiczna” jest elementem zagadnienia „Fizjologia układu krążenia – hemodynamika, regulacja ciśnienia, powrót żylny”, a nie tematu „Fizjologia człowieka” (1.2). {FALSE} //
+
 
 ::tf-s01-12-q5:: Zagadnienie „Fizjologia układu pokarmowego – trawienie, wchłanianie, perystaltyka” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
 
+
 ::tf-s01-12-q6:: Zagadnienie „Fizjologia nerek – filtracja, resorpcja, gospodarka wodno-elektrolitowa” jest elementem zagadnienia „Fizjologia układu pokarmowego – trawienie, wchłanianie, perystaltyka”, a nie tematu „Fizjologia człowieka” (1.2). {FALSE} //
+
 
 ::tf-s01-12-q7:: Zagadnienie „Fizjologia układu dokrewnego – osie hormonalne, sprzężenie zwrotne” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
 
+
 ::tf-s01-12-q8:: Zagadnienie „Fizjologia układu odpornościowego – odporność wrodzona i nabyta” jest elementem zagadnienia „Fizjologia układu dokrewnego – osie hormonalne, sprzężenie zwrotne”, a nie tematu „Fizjologia człowieka” (1.2). {FALSE} //
+
 
 ::tf-s01-12-q9:: Zagadnienie „Fizjologia układu mięśniowo-szkieletowego – biomechanika, propriocepcja” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
 
+
 ::tf-s01-12-q10:: Zagadnienie „Fizjologia skóry – termoregulacja, ochrona, synteza witaminy D” jest elementem zagadnienia „Fizjologia układu mięśniowo-szkieletowego – biomechanika, propriocepcja”, a nie tematu „Fizjologia człowieka” (1.2). {FALSE} //
+
 
 ::tf-s01-12-q11:: Zagadnienie „Fizjologia snu, rytmów dobowych i regeneracji” wchodzi w zakres tematu „Fizjologia człowieka” (1.2). {TRUE} //
 
+
 ::tf-s01-12-q12:: Zagadnienie „Fizjologia stresu – oś HPA, odpowiedź sympatyczna i parasympatyczna” jest elementem zagadnienia „Fizjologia snu, rytmów dobowych i regeneracji”, a nie tematu „Fizjologia człowieka” (1.2). {FALSE} //
+
 
 ::mc-s01-12:: Które z poniższych zagadnień należy bezpośrednio do tematu „Fizjologia człowieka” (1.2)? {
     = Fizjologia komórki – transport błonowy, potencjał czynnościowy, metabolizm
@@ -69,15 +96,21 @@
 // === Temat 1.3: Anatomia i fizjologia w kontekście praktycznym naturopaty ===
 ::tf-s01-13-q1:: Zagadnienie „Punkty orientacyjne dla masażu i terapii manualnej” wchodzi w zakres tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {TRUE} //
 
+
 ::tf-s01-13-q2:: Zagadnienie „Dermatomy, miotomy, sklerotomy – znaczenie diagnostyczne i terapeutyczne” jest elementem zagadnienia „Punkty orientacyjne dla masażu i terapii manualnej”, a nie tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {FALSE} //
+
 
 ::tf-s01-13-q3:: Zagadnienie „Przebieg naczyń limfatycznych i węzły chłonne regionalne – mapowanie dla drenażu” wchodzi w zakres tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {TRUE} //
 
+
 ::tf-s01-13-q4:: Zagadnienie „Strefy odruchowe Heada i Mackenziego – podłoże anatomiczne” jest elementem zagadnienia „Przebieg naczyń limfatycznych i węzły chłonne regionalne – mapowanie dla drenażu”, a nie tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {FALSE} //
+
 
 ::tf-s01-13-q5:: Zagadnienie „Segmentarna budowa ciała a terapia odruchowa i masaż segmentarny” wchodzi w zakres tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {TRUE} //
 
+
 ::tf-s01-13-q6:: Zagadnienie „Unerwienie autonomiczne narządów wewnętrznych a możliwości oddziaływania masażem” jest elementem zagadnienia „Segmentarna budowa ciała a terapia odruchowa i masaż segmentarny”, a nie tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3). {FALSE} //
+
 
 ::mc-s01-13:: Które z poniższych zagadnień należy bezpośrednio do tematu „Anatomia i fizjologia w kontekście praktycznym naturopaty” (1.3)? {
     = Punkty orientacyjne dla masażu i terapii manualnej

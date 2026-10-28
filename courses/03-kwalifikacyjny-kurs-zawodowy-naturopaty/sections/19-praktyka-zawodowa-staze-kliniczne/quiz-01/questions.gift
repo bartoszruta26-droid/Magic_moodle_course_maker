@@ -1,19 +1,27 @@
 // === Temat 19.1: Praktyka gabinetowa – masaż i terapie manualne ===
 ::tf-s19-191-q1:: Zagadnienie „Przyjęcie pacjenta – wywiad (informacje stałe, zmienne, dodatkowe), diagnostyka, plan terapii” wchodzi w zakres tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {TRUE} //
 
+
 ::tf-s19-191-q2:: Zagadnienie „Wykonanie masażu klasycznego leczniczego – pełna sesja pod nadzorem (kończyny, grzbiet, klatka piersiowa, brzuch, twarz)” jest elementem zagadnienia „Przyjęcie pacjenta – wywiad (informacje stałe, zmienne, dodatkowe), diagnostyka, plan terapii”, a nie tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {FALSE} //
+
 
 ::tf-s19-191-q3:: Zagadnienie „Wykonanie masażu segmentarnego w wybranych jednostkach chorobowych – chwyty diagnostyczne i lecznicze” wchodzi w zakres tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {TRUE} //
 
+
 ::tf-s19-191-q4:: Zagadnienie „Wykonanie drenażu limfatycznego – twarz, kończyny, grzbiet, klatka piersiowa (metoda polska i niemiecka)” jest elementem zagadnienia „Wykonanie masażu segmentarnego w wybranych jednostkach chorobowych – chwyty diagnostyczne i lecznicze”, a nie tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {FALSE} //
+
 
 ::tf-s19-191-q5:: Zagadnienie „Masaż tkanek głębokich i terapia punktów spustowych” wchodzi w zakres tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {TRUE} //
 
+
 ::tf-s19-191-q6:: Zagadnienie „Zastosowanie technik terapii manualnej i mobilizacji” jest elementem zagadnienia „Masaż tkanek głębokich i terapia punktów spustowych”, a nie tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {FALSE} //
+
 
 ::tf-s19-191-q7:: Zagadnienie „Prowadzenie sesji masażu w wybranych jednostkach chorobowych (wg schematów Zborowskiego): RZS, ZZSK, artrozy, dyskopatie, stany pourazowe, choroby układu oddechowego, krążenia, nerwowego” wchodzi w zakres tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {TRUE} //
 
+
 ::tf-s19-191-q8:: Zagadnienie „Dokumentacja zabiegowa i ocena efektów terapii” jest elementem zagadnienia „Prowadzenie sesji masażu w wybranych jednostkach chorobowych (wg schematów Zborowskiego): RZS, ZZSK, artrozy, dyskopatie, stany pourazowe, choroby układu oddechowego, krążenia, nerwowego”, a nie tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1). {FALSE} //
+
 
 ::mc-s19-191:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka gabinetowa – masaż i terapie manualne” (19.1)? {
     = Przyjęcie pacjenta – wywiad (informacje stałe, zmienne, dodatkowe), diagnostyka, plan terapii
@@ -24,19 +32,27 @@
 // === Temat 19.2: Praktyka – kinezyterapia i trening medyczny ===
 ::tf-s19-192-q1:: Zagadnienie „Ocena funkcjonalna pacjenta i planowanie programu ćwiczeń” wchodzi w zakres tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {TRUE} //
 
+
 ::tf-s19-192-q2:: Zagadnienie „Prowadzenie sesji kinezyterapii – choroby układu ruchu (ćwiczenia bierne, czynne, oporowe, w odciążeniu)” jest elementem zagadnienia „Ocena funkcjonalna pacjenta i planowanie programu ćwiczeń”, a nie tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {FALSE} //
+
 
 ::tf-s19-192-q3:: Zagadnienie „Prowadzenie treningu w chorobach wewnętrznych – kardiologia (schematy ćwiczeń po zawale), diabetologia, pulmonologia (drenaż ułożeniowy, ćwiczenia oddechowe)” wchodzi w zakres tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {TRUE} //
 
+
 ::tf-s19-192-q4:: Zagadnienie „Prowadzenie ćwiczeń oddechowych i relaksacyjnych – tor przeponowy, żebrowy; relaksacja” jest elementem zagadnienia „Prowadzenie treningu w chorobach wewnętrznych – kardiologia (schematy ćwiczeń po zawale), diabetologia, pulmonologia (drenaż ułożeniowy, ćwiczenia oddechowe)”, a nie tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {FALSE} //
+
 
 ::tf-s19-192-q5:: Zagadnienie „Trening funkcjonalny osób starszych – profilaktyka upadków, równowaga” wchodzi w zakres tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {TRUE} //
 
+
 ::tf-s19-192-q6:: Zagadnienie „Kinesiotaping – aplikacje kliniczne (stabilizacja, drenaż, korekcja)” jest elementem zagadnienia „Trening funkcjonalny osób starszych – profilaktyka upadków, równowaga”, a nie tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {FALSE} //
+
 
 ::tf-s19-192-q7:: Zagadnienie „Prowadzenie zajęć grupowych – gimnastyka lecznicza, joga terapeutyczna, Tai Chi” wchodzi w zakres tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {TRUE} //
 
+
 ::tf-s19-192-q8:: Zagadnienie „Medyczny trening personalny – planowanie, prowadzenie, monitorowanie, dokumentacja” jest elementem zagadnienia „Prowadzenie zajęć grupowych – gimnastyka lecznicza, joga terapeutyczna, Tai Chi”, a nie tematu „Praktyka – kinezyterapia i trening medyczny” (19.2). {FALSE} //
+
 
 ::mc-s19-192:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – kinezyterapia i trening medyczny” (19.2)? {
     = Ocena funkcjonalna pacjenta i planowanie programu ćwiczeń
@@ -47,15 +63,21 @@
 // === Temat 19.3: Praktyka – fitoterapia, dietetyka i pielęgnacja ===
 ::tf-s19-193-q1:: Zagadnienie „Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring, interakcje” wchodzi w zakres tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {TRUE} //
 
+
 ::tf-s19-193-q2:: Zagadnienie „Przygotowywanie przetworów zielarskich – warsztaty praktyczne (napary, nalewki, maści, syropy)” jest elementem zagadnienia „Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring, interakcje”, a nie tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {FALSE} //
+
 
 ::tf-s19-193-q3:: Zagadnienie „Konsultacja dietetyczna – plan żywieniowy, edukacja pacjenta, monitoring” wchodzi w zakres tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {TRUE} //
 
+
 ::tf-s19-193-q4:: Zagadnienie „Prowadzenie zabiegów hydroterapeutycznych i fizykalnych – kąpiele, okłady, sauna, krioterapia” jest elementem zagadnienia „Konsultacja dietetyczna – plan żywieniowy, edukacja pacjenta, monitoring”, a nie tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {FALSE} //
+
 
 ::tf-s19-193-q5:: Zagadnienie „Pielęgnacja medyczna – opatrunki, okłady, kąpiele lecznicze, profilaktyka odleżyn” wchodzi w zakres tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {TRUE} //
 
+
 ::tf-s19-193-q6:: Zagadnienie „Aromaterapia w praktyce – dobór olejków, aplikacja, bezpieczeństwo” jest elementem zagadnienia „Pielęgnacja medyczna – opatrunki, okłady, kąpiele lecznicze, profilaktyka odleżyn”, a nie tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3). {FALSE} //
+
 
 ::mc-s19-193:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – fitoterapia, dietetyka i pielęgnacja” (19.3)? {
     = Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring, interakcje
@@ -66,19 +88,27 @@
 // === Temat 19.4: Praktyka – diagnostyka i konsultacja integracyjna ===
 ::tf-s19-194-q1:: Zagadnienie „Przeprowadzenie pełnego wywiadu naturopatycznego – wymiar fizyczny, emocjonalny, duchowy” wchodzi w zakres tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {TRUE} //
 
+
 ::tf-s19-194-q2:: Zagadnienie „Badanie fizykalne – ocena postawy, palpacja, testy funkcjonalne, pomiar parametrów” jest elementem zagadnienia „Przeprowadzenie pełnego wywiadu naturopatycznego – wymiar fizyczny, emocjonalny, duchowy”, a nie tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {FALSE} //
+
 
 ::tf-s19-194-q3:: Zagadnienie „Interpretacja wyników badań laboratoryjnych i obrazowych” wchodzi w zakres tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {TRUE} //
 
+
 ::tf-s19-194-q4:: Zagadnienie „Elementy diagnostyki komplementarnej – irydologia, refleksologia, diagnostyka TCM (puls, język)” jest elementem zagadnienia „Interpretacja wyników badań laboratoryjnych i obrazowych”, a nie tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {FALSE} //
+
 
 ::tf-s19-194-q5:: Zagadnienie „Wykrywanie zmian odruchowych – strefy przeczulicy, punkty maksymalne, zmiany w tkance łącznej i okostnej” wchodzi w zakres tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {TRUE} //
 
+
 ::tf-s19-194-q6:: Zagadnienie „Opracowanie kompleksowego planu terapii integracyjnej – masaż + ruch + dieta + zioła + styl życia” jest elementem zagadnienia „Wykrywanie zmian odruchowych – strefy przeczulicy, punkty maksymalne, zmiany w tkance łącznej i okostnej”, a nie tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {FALSE} //
+
 
 ::tf-s19-194-q7:: Zagadnienie „Prowadzenie pacjenta – wizyty kontrolne, modyfikacja terapii, dokumentacja” wchodzi w zakres tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {TRUE} //
 
+
 ::tf-s19-194-q8:: Zagadnienie „Kierowanie do lekarza – kiedy, jak, dokumentacja; rozpoznawanie stanów nagłych” jest elementem zagadnienia „Prowadzenie pacjenta – wizyty kontrolne, modyfikacja terapii, dokumentacja”, a nie tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4). {FALSE} //
+
 
 ::mc-s19-194:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – diagnostyka i konsultacja integracyjna” (19.4)? {
     = Przeprowadzenie pełnego wywiadu naturopatycznego – wymiar fizyczny, emocjonalny, duchowy
@@ -89,13 +119,18 @@
 // === Temat 19.5: Praktyka – mentorstwo i coaching zdrowotny ===
 ::tf-s19-195-q1:: Zagadnienie „Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja” wchodzi w zakres tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5). {TRUE} //
 
+
 ::tf-s19-195-q2:: Zagadnienie „Opracowanie indywidualnego planu zmiany stylu życia z pacjentem” jest elementem zagadnienia „Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja”, a nie tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5). {FALSE} //
+
 
 ::tf-s19-195-q3:: Zagadnienie „Mentoring pacjenta w chorobie przewlekłej – towarzyszenie, edukacja, wsparcie” wchodzi w zakres tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5). {TRUE} //
 
+
 ::tf-s19-195-q4:: Zagadnienie „Prowadzenie grupy wsparcia / warsztatu edukacyjnego dla pacjentów” jest elementem zagadnienia „Mentoring pacjenta w chorobie przewlekłej – towarzyszenie, edukacja, wsparcie”, a nie tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5). {FALSE} //
 
+
 ::tf-s19-195-q5:: Zagadnienie „Superwizja – prezentacja przypadku, omówienie trudności, informacja zwrotna” wchodzi w zakres tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5). {TRUE} //
+
 
 ::mc-s19-195:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyka – mentorstwo i coaching zdrowotny” (19.5)? {
     = Prowadzenie sesji coachingu zdrowotnego – struktura, narzędzia, dokumentacja
@@ -106,13 +141,18 @@
 // === Temat 19.6: Staż obserwacyjny ===
 ::tf-s19-196-q1:: Zagadnienie „Staż w gabinecie fizjoterapii / rehabilitacji – obserwacja i asystowanie” wchodzi w zakres tematu „Staż obserwacyjny” (19.6). {TRUE} //
 
+
 ::tf-s19-196-q2:: Zagadnienie „Staż w gabinecie masażu leczniczego – obserwacja technik, praca z pacjentem” jest elementem zagadnienia „Staż w gabinecie fizjoterapii / rehabilitacji – obserwacja i asystowanie”, a nie tematu „Staż obserwacyjny” (19.6). {FALSE} //
+
 
 ::tf-s19-196-q3:: Zagadnienie „Staż w poradni medycyny naturalnej / integracyjnej – konsultacje, planowanie terapii” wchodzi w zakres tematu „Staż obserwacyjny” (19.6). {TRUE} //
 
+
 ::tf-s19-196-q4:: Zagadnienie „Staż w hospicjum lub zakładzie opiekuńczo-leczniczym (opcjonalnie) – opieka paliatywna” jest elementem zagadnienia „Staż w poradni medycyny naturalnej / integracyjnej – konsultacje, planowanie terapii”, a nie tematu „Staż obserwacyjny” (19.6). {FALSE} //
 
+
 ::tf-s19-196-q5:: Zagadnienie „Staż w ośrodku rehabilitacji kardiologicznej lub pulmonologicznej (opcjonalnie)” wchodzi w zakres tematu „Staż obserwacyjny” (19.6). {TRUE} //
+
 
 ::mc-s19-196:: Które z poniższych zagadnień należy bezpośrednio do tematu „Staż obserwacyjny” (19.6)? {
     = Staż w gabinecie fizjoterapii / rehabilitacji – obserwacja i asystowanie

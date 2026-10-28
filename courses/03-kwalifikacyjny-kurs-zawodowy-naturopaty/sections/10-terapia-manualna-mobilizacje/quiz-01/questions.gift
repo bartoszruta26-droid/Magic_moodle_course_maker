@@ -1,23 +1,33 @@
 // === Temat 10.1: Podstawy terapii manualnej ===
 ::tf-s10-101-q1:: Zagadnienie „Biomechanika stawów – fizjologia ruchu, bariery fizjologiczne, end-feel” wchodzi w zakres tematu „Podstawy terapii manualnej” (10.1). {TRUE} //
 
+
 ::tf-s10-101-q2:: Zagadnienie „Dysfunkcje stawowe – hipomobilność, hipermobilność, blokada, niestabilność” jest elementem zagadnienia „Biomechanika stawów – fizjologia ruchu, bariery fizjologiczne, end-feel”, a nie tematu „Podstawy terapii manualnej” (10.1). {FALSE} //
+
 
 ::tf-s10-101-q3:: Zagadnienie „Diagnostyka manualna – testy ruchomości, palpacja, testy prowokacyjne” wchodzi w zakres tematu „Podstawy terapii manualnej” (10.1). {TRUE} //
 
+
 ::tf-s10-101-q4:: Zagadnienie „Techniki mobilizacji – ślizg, trakcja, rotacja, kompresja; stopnie Maitlanda” jest elementem zagadnienia „Diagnostyka manualna – testy ruchomości, palpacja, testy prowokacyjne”, a nie tematu „Podstawy terapii manualnej” (10.1). {FALSE} //
+
 
 ::tf-s10-101-q5:: Zagadnienie „Techniki manipulacji – zasady, wskazania, bezpieczeństwo, przeciwwskazania (osteoporoza, dyskopatia, niestabilność, zrosty)” wchodzi w zakres tematu „Podstawy terapii manualnej” (10.1). {TRUE} //
 
+
 ::tf-s10-101-q6:: Zagadnienie „Mobilizacja kręgosłupa – odcinek szyjny, piersiowy, lędźwiowy” jest elementem zagadnienia „Techniki manipulacji – zasady, wskazania, bezpieczeństwo, przeciwwskazania (osteoporoza, dyskopatia, niestabilność, zrosty)”, a nie tematu „Podstawy terapii manualnej” (10.1). {FALSE} //
+
 
 ::tf-s10-101-q7:: Zagadnienie „Mobilizacja stawów obwodowych – bark, łokieć, nadgarstek, biodro, kolano, stopa” wchodzi w zakres tematu „Podstawy terapii manualnej” (10.1). {TRUE} //
 
+
 ::tf-s10-101-q8:: Zagadnienie „Techniki energizacji mięśni (MET) i poizometryczna relaksacja (PIR)” jest elementem zagadnienia „Mobilizacja stawów obwodowych – bark, łokieć, nadgarstek, biodro, kolano, stopa”, a nie tematu „Podstawy terapii manualnej” (10.1). {FALSE} //
+
 
 ::tf-s10-101-q9:: Zagadnienie „Techniki mięśniowo-powięziowe (MFR) – rozluźnianie bezpośrednie i pośrednie” wchodzi w zakres tematu „Podstawy terapii manualnej” (10.1). {TRUE} //
 
+
 ::tf-s10-101-q10:: Zagadnienie „Terapia punktów spustowych – kompresja ischemiczna, stretching” jest elementem zagadnienia „Techniki mięśniowo-powięziowe (MFR) – rozluźnianie bezpośrednie i pośrednie”, a nie tematu „Podstawy terapii manualnej” (10.1). {FALSE} //
+
 
 ::mc-s10-101:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy terapii manualnej” (10.1)? {
     = Biomechanika stawów – fizjologia ruchu, bariery fizjologiczne, end-feel
@@ -28,31 +38,45 @@
 // === Temat 10.2: Masaż specjalistyczny i techniki uzupełniające ===
 ::tf-s10-102-q1:: Zagadnienie „Masaż łącznotkankowy (Bindegewebsmassage)” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q2:: Zagadnienie „Masaż okostnowy” jest elementem zagadnienia „Masaż łącznotkankowy (Bindegewebsmassage)”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::tf-s10-102-q3:: Zagadnienie „Masaż izometryczny – technika (1 min ugniatanie + wibracja → skurcz → rozcieranie; progresja do 40 s)” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q4:: Zagadnienie „Masaż wibracyjny i aparatowy” jest elementem zagadnienia „Masaż izometryczny – technika (1 min ugniatanie + wibracja → skurcz → rozcieranie; progresja do 40 s)”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::tf-s10-102-q5:: Zagadnienie „Masaż podwodny i wirowy” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q6:: Zagadnienie „Masaż bańką (próżniowy) – sucha i mokra” jest elementem zagadnienia „Masaż podwodny i wirowy”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::tf-s10-102-q7:: Zagadnienie „Masaż kamieniami (hot stone) – zastosowanie lecznicze” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q8:: Zagadnienie „Masaż stemplami ziołowymi – technika i działanie fitoterapeutyczne” jest elementem zagadnienia „Masaż kamieniami (hot stone) – zastosowanie lecznicze”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::tf-s10-102-q9:: Zagadnienie „Masaż miodem – technika i właściwości detoksykacyjne” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q10:: Zagadnienie „Akupresura – punkty i meridiany; masaż punktowy w astmie, bólach głowy” jest elementem zagadnienia „Masaż miodem – technika i właściwości detoksykacyjne”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::tf-s10-102-q11:: Zagadnienie „Masaż tajski i elementy stretchingu pasywnego” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q12:: Zagadnienie „Masaż ajurwedyjski (Abhyanga) – technika i filozofia” jest elementem zagadnienia „Masaż tajski i elementy stretchingu pasywnego”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::tf-s10-102-q13:: Zagadnienie „Masaż chiński (Tui Na) – podstawowe techniki” wchodzi w zakres tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {TRUE} //
 
+
 ::tf-s10-102-q14:: Zagadnienie „Masaż Shantala – hinduska metoda masażu niemowląt i dzieci” jest elementem zagadnienia „Masaż chiński (Tui Na) – podstawowe techniki”, a nie tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2). {FALSE} //
+
 
 ::mc-s10-102:: Które z poniższych zagadnień należy bezpośrednio do tematu „Masaż specjalistyczny i techniki uzupełniające” (10.2)? {
     = Masaż łącznotkankowy (Bindegewebsmassage)
