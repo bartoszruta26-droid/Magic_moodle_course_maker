@@ -1,0 +1,25 @@
+# Aktywność typu book — regulamin zajęć i zasad oceny (sekcja ogłoszeń)
+# Utworzono w miejsce aktywności page (preferowaną aktywnością kursu jest book).
+book:
+  name: "Regulamin zajęć i zasady oceniania"
+  intro: |
+    Kompendium organizacyjne kursu MED.10: regulamin obecności, zasady
+    usprawiedliwień, standardy postawy wobec pacjenta oraz jawne kryteria
+    oceniania i tryby powtórzeń. Zasady są jednakowe dla wszystkich —
+    ich przejrzystość jest gwarancją sprawiedliwości.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "Regulamin zajęć — obecność, usprawiedliwienia, postawa wobec pacjenta"
+      subchapter: false
+      content_file: "chapters/01-regulamin-zajec.md"
+      hidden: false
+    - title: "Zasady oceniania i tryby powtórzeń"
+      subchapter: false
+      content_file: "chapters/02-zasady-oceniania-i-powtorzen.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

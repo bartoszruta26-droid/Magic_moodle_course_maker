@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "7.8. Rozmowa w typowych sytuacjach zawodowych"
 category: masaz
 questions:
-  - type: truefalse
-    name: "7.8 — zagadnienie 1"
+  - id: "tf-s07-78-q1"
+    type: "truefalse"
+    name: "tf-s07-78-q1"
     text: "Zagadnienie „7.8.1. Starting and ending conversation” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 1"
+  - id: "tf-s07-78-q1b"
+    type: "truefalse"
+    name: "tf-s07-78-q1b"
     text: "Zagadnienie „7.8.2. Obtaining consent” jest elementem zagadnienia „7.8.1. Starting and ending conversation”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 2"
+  - id: "tf-s07-78-q2"
+    type: "truefalse"
+    name: "tf-s07-78-q2"
     text: "Zagadnienie „7.8.2. Obtaining consent” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 2"
+  - id: "tf-s07-78-q2b"
+    type: "truefalse"
+    name: "tf-s07-78-q2b"
     text: "Zagadnienie „7.8.3. Asking about pain and comfort” jest elementem zagadnienia „7.8.2. Obtaining consent”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 3"
+  - id: "tf-s07-78-q3"
+    type: "truefalse"
+    name: "tf-s07-78-q3"
     text: "Zagadnienie „7.8.3. Asking about pain and comfort” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 3"
+  - id: "tf-s07-78-q3b"
+    type: "truefalse"
+    name: "tf-s07-78-q3b"
     text: "Zagadnienie „7.8.4. Responding to anxiety” jest elementem zagadnienia „7.8.3. Asking about pain and comfort”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 4"
+  - id: "tf-s07-78-q4"
+    type: "truefalse"
+    name: "tf-s07-78-q4"
     text: "Zagadnienie „7.8.4. Responding to anxiety” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 4"
+  - id: "tf-s07-78-q4b"
+    type: "truefalse"
+    name: "tf-s07-78-q4b"
     text: "Zagadnienie „7.8.5. Refusing inappropriate requests” jest elementem zagadnienia „7.8.4. Responding to anxiety”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 5"
+  - id: "tf-s07-78-q5"
+    type: "truefalse"
+    name: "tf-s07-78-q5"
     text: "Zagadnienie „7.8.5. Refusing inappropriate requests” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 5"
+  - id: "tf-s07-78-q5b"
+    type: "truefalse"
+    name: "tf-s07-78-q5b"
     text: "Zagadnienie „7.8.6. Reporting adverse reaction” jest elementem zagadnienia „7.8.5. Refusing inappropriate requests”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 6"
+  - id: "tf-s07-78-q6"
+    type: "truefalse"
+    name: "tf-s07-78-q6"
     text: "Zagadnienie „7.8.6. Reporting adverse reaction” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 6"
+  - id: "tf-s07-78-q6b"
+    type: "truefalse"
+    name: "tf-s07-78-q6b"
     text: "Zagadnienie „7.8.7. Coordinating with reception or team” jest elementem zagadnienia „7.8.6. Reporting adverse reaction”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 7"
+  - id: "tf-s07-78-q7"
+    type: "truefalse"
+    name: "tf-s07-78-q7"
     text: "Zagadnienie „7.8.7. Coordinating with reception or team” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 7"
+  - id: "tf-s07-78-q7b"
+    type: "truefalse"
+    name: "tf-s07-78-q7b"
     text: "Zagadnienie „7.8.8. Talking to a colleague” jest elementem zagadnienia „7.8.7. Coordinating with reception or team”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 8"
+  - id: "tf-s07-78-q8"
+    type: "truefalse"
+    name: "tf-s07-78-q8"
     text: "Zagadnienie „7.8.8. Talking to a colleague” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 8"
+  - id: "tf-s07-78-q8b"
+    type: "truefalse"
+    name: "tf-s07-78-q8b"
     text: "Zagadnienie „7.8.9. Talking to a supervisor” jest elementem zagadnienia „7.8.8. Talking to a colleague”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 9"
+  - id: "tf-s07-78-q9"
+    type: "truefalse"
+    name: "tf-s07-78-q9"
     text: "Zagadnienie „7.8.9. Talking to a supervisor” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: truefalse
-    name: "7.8 — rozgraniczenie 9"
+  - id: "tf-s07-78-q9b"
+    type: "truefalse"
+    name: "tf-s07-78-q9b"
     text: "Zagadnienie „7.8.10. Using polite formulas” jest elementem zagadnienia „7.8.9. Talking to a supervisor”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: false
-  - type: truefalse
-    name: "7.8 — zagadnienie 10"
+  - id: "tf-s07-78-q10"
+    type: "truefalse"
+    name: "tf-s07-78-q10"
     text: "Zagadnienie „7.8.10. Using polite formulas” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
     answer: true
-  - type: multichoice
-    name: "7.8 — przyporządkowanie zagadnienia"
+  - id: "mc-s07-78"
+    type: "multichoice"
+    name: "mc-s07-78"
     text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
     answers:
-      - text: "7.8.1. Starting and ending conversation"  fraction: 100
-      - text: "2.1.8. Granice profesjonalnej bliskości"  fraction: 0
-      - text: "3.14.8. Obciążenie termiczne"  fraction: 0
-      - text: "5.4.7. Gorączka i infekcja — przeciwwskazanie"  fraction: 0
+      - text: "7.8.1. Starting and ending conversation"
+        fraction: 100
+      - text: "7.8.2. Obtaining consent"
+        fraction: 0
+      - text: "7.8.3. Asking about pain and comfort"
+        fraction: 0
+      - text: "2.1.8. Granice profesjonalnej bliskości"
+        fraction: 0
+      - text: "3.14.8. Obciążenie termiczne"
+        fraction: 0
+      - text: "5.4.7. Gorączka i infekcja — przeciwwskazanie"
+        fraction: 0
+  - id: "mc-s07-78-q1"
+    type: "multichoice"
+    name: "mc-s07-78-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.1 Starting and ending conversation"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s07-78-q2"
+    type: "multichoice"
+    name: "mc-s07-78-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.2 Obtaining consent"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s07-78-q3"
+    type: "multichoice"
+    name: "mc-s07-78-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.3 Asking about pain and comfort"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s07-78-q4"
+    type: "multichoice"
+    name: "mc-s07-78-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.4 Responding to anxiety"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s07-78-q5"
+    type: "multichoice"
+    name: "mc-s07-78-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.5 Refusing inappropriate requests"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s07-78-q6"
+    type: "multichoice"
+    name: "mc-s07-78-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.6 Reporting adverse reaction"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s07-78-q7"
+    type: "multichoice"
+    name: "mc-s07-78-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.7 Coordinating with reception or team"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s07-78-q8"
+    type: "multichoice"
+    name: "mc-s07-78-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.8 Talking to a colleague"
+        fraction: 100
+      - text: "Biomechanika ruchu i stabilizacja"
+        fraction: 0
+      - text: "Obrzek miekki i twardy"
+        fraction: 0
+      - text: "Dokumentacja"
+        fraction: 0
+  - id: "mc-s07-78-q9"
+    type: "multichoice"
+    name: "mc-s07-78-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.9 Talking to a supervisor"
+        fraction: 100
+      - text: "Znaczenie palpacji struktur ukladu ruchu"
+        fraction: 0
+      - text: "Proba Stemmera i inne objawy — w granicach edukacji"
+        fraction: 0
+      - text: "Granice: relaks nie zastepuje terapii psychologicznej"
+        fraction: 0
+  - id: "mc-s07-78-q10"
+    type: "multichoice"
+    name: "mc-s07-78-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.10 Using polite formulas"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0

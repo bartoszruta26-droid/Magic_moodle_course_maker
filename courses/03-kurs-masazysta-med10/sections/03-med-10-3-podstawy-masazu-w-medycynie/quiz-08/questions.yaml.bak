@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.8. Zaburzenia układu moczowego i płciowego"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.8 — zagadnienie 1"
+    text: "Zagadnienie „3.8.1. Kamica nerkowa i moczowodowa” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 1"
+    text: "Zagadnienie „3.8.2. Zapalenie nerek i pęcherza” jest elementem zagadnienia „3.8.1. Kamica nerkowa i moczowodowa”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 2"
+    text: "Zagadnienie „3.8.2. Zapalenie nerek i pęcherza” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 2"
+    text: "Zagadnienie „3.8.3. Nietrzymanie moczu” jest elementem zagadnienia „3.8.2. Zapalenie nerek i pęcherza”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 3"
+    text: "Zagadnienie „3.8.3. Nietrzymanie moczu” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 3"
+    text: "Zagadnienie „3.8.4. Dolegliwości prostaty” jest elementem zagadnienia „3.8.3. Nietrzymanie moczu”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 4"
+    text: "Zagadnienie „3.8.4. Dolegliwości prostaty” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 4"
+    text: "Zagadnienie „3.8.5. Dolegliwości menstruacyjne” jest elementem zagadnienia „3.8.4. Dolegliwości prostaty”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 5"
+    text: "Zagadnienie „3.8.5. Dolegliwości menstruacyjne” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 5"
+    text: "Zagadnienie „3.8.6. Stan po operacjach ginekologicznych i urologicznych” jest elementem zagadnienia „3.8.5. Dolegliwości menstruacyjne”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 6"
+    text: "Zagadnienie „3.8.6. Stan po operacjach ginekologicznych i urologicznych” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 6"
+    text: "Zagadnienie „3.8.7. Ciąża fizjologiczna i zagrożona” jest elementem zagadnienia „3.8.6. Stan po operacjach ginekologicznych i urologicznych”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 7"
+    text: "Zagadnienie „3.8.7. Ciąża fizjologiczna i zagrożona” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 7"
+    text: "Zagadnienie „3.8.8. Połóg i regeneracja poporodowa” jest elementem zagadnienia „3.8.7. Ciąża fizjologiczna i zagrożona”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 8"
+    text: "Zagadnienie „3.8.8. Połóg i regeneracja poporodowa” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 8"
+    text: "Zagadnienie „3.8.9. Laktacja i obrzęk piersi — tylko w granicach kompetencji” jest elementem zagadnienia „3.8.8. Połóg i regeneracja poporodowa”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 9"
+    text: "Zagadnienie „3.8.9. Laktacja i obrzęk piersi — tylko w granicach kompetencji” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: truefalse
+    name: "3.8 — rozgraniczenie 9"
+    text: "Zagadnienie „3.8.10. Intymność, wstyd, zgoda i obecność osoby zaufanej” jest elementem zagadnienia „3.8.9. Laktacja i obrzęk piersi — tylko w granicach kompetencji”, a nie tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: false
+  - type: truefalse
+    name: "3.8 — zagadnienie 10"
+    text: "Zagadnienie „3.8.10. Intymność, wstyd, zgoda i obecność osoby zaufanej” wchodzi w zakres tematu „Zaburzenia układu moczowego i płciowego” (3.8)."
+    answer: true
+  - type: multichoice
+    name: "3.8 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu moczowego i płciowego” (3.8)?"
+    answers:
+      - text: "3.8.1. Kamica nerkowa i moczowodowa"  fraction: 100
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
+      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"  fraction: 0
+      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"  fraction: 0

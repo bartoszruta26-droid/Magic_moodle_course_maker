@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.13. Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.13 — zagadnienie 1"
+  - id: "tf-s03-313-q1"
+    type: "truefalse"
+    name: "tf-s03-313-q1"
     text: "Zagadnienie „3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 1"
+  - id: "tf-s03-313-q1b"
+    type: "truefalse"
+    name: "tf-s03-313-q1b"
     text: "Zagadnienie „3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu” jest elementem zagadnienia „3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 2"
+  - id: "tf-s03-313-q2"
+    type: "truefalse"
+    name: "tf-s03-313-q2"
     text: "Zagadnienie „3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 2"
+  - id: "tf-s03-313-q2b"
+    type: "truefalse"
+    name: "tf-s03-313-q2b"
     text: "Zagadnienie „3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności” jest elementem zagadnienia „3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 3"
+  - id: "tf-s03-313-q3"
+    type: "truefalse"
+    name: "tf-s03-313-q3"
     text: "Zagadnienie „3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 3"
+  - id: "tf-s03-313-q3b"
+    type: "truefalse"
+    name: "tf-s03-313-q3b"
     text: "Zagadnienie „3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu” jest elementem zagadnienia „3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 4"
+  - id: "tf-s03-313-q4"
+    type: "truefalse"
+    name: "tf-s03-313-q4"
     text: "Zagadnienie „3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 4"
+  - id: "tf-s03-313-q4b"
+    type: "truefalse"
+    name: "tf-s03-313-q4b"
     text: "Zagadnienie „3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana” jest elementem zagadnienia „3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 5"
+  - id: "tf-s03-313-q5"
+    type: "truefalse"
+    name: "tf-s03-313-q5"
     text: "Zagadnienie „3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 5"
+  - id: "tf-s03-313-q5b"
+    type: "truefalse"
+    name: "tf-s03-313-q5b"
     text: "Zagadnienie „3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej” jest elementem zagadnienia „3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 6"
+  - id: "tf-s03-313-q6"
+    type: "truefalse"
+    name: "tf-s03-313-q6"
     text: "Zagadnienie „3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 6"
+  - id: "tf-s03-313-q6b"
+    type: "truefalse"
+    name: "tf-s03-313-q6b"
     text: "Zagadnienie „3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu” jest elementem zagadnienia „3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 7"
+  - id: "tf-s03-313-q7"
+    type: "truefalse"
+    name: "tf-s03-313-q7"
     text: "Zagadnienie „3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 7"
+  - id: "tf-s03-313-q7b"
+    type: "truefalse"
+    name: "tf-s03-313-q7b"
     text: "Zagadnienie „3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem” jest elementem zagadnienia „3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 8"
+  - id: "tf-s03-313-q8"
+    type: "truefalse"
+    name: "tf-s03-313-q8"
     text: "Zagadnienie „3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 8"
+  - id: "tf-s03-313-q8b"
+    type: "truefalse"
+    name: "tf-s03-313-q8b"
     text: "Zagadnienie „3.13.9. Dokumentacja zakresu ruchu i bólu” jest elementem zagadnienia „3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 9"
+  - id: "tf-s03-313-q9"
+    type: "truefalse"
+    name: "tf-s03-313-q9"
     text: "Zagadnienie „3.13.9. Dokumentacja zakresu ruchu i bólu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: truefalse
-    name: "3.13 — rozgraniczenie 9"
+  - id: "tf-s03-313-q9b"
+    type: "truefalse"
+    name: "tf-s03-313-q9b"
     text: "Zagadnienie „3.13.10. Bezpieczeństwo pacjenta przed efektywnością” jest elementem zagadnienia „3.13.9. Dokumentacja zakresu ruchu i bólu”, a nie tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: false
-  - type: truefalse
-    name: "3.13 — zagadnienie 10"
+  - id: "tf-s03-313-q10"
+    type: "truefalse"
+    name: "tf-s03-313-q10"
     text: "Zagadnienie „3.13.10. Bezpieczeństwo pacjenta przed efektywnością” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)."
     answer: true
-  - type: multichoice
-    name: "3.13 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-313"
+    type: "multichoice"
+    name: "mc-s03-313"
     text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
     answers:
-      - text: "3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne"  fraction: 100
-      - text: "2.5.8. Błędy dokumentacyjne i ich konsekwencje"  fraction: 0
-      - text: "3.18.9. Kiedy reakcja jest alarmowa"  fraction: 0
-      - text: "5.8.8. Osoby z chorobami przewlekłymi"  fraction: 0
+      - text: "3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne"
+        fraction: 100
+      - text: "3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu"
+        fraction: 0
+      - text: "3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności"
+        fraction: 0
+      - text: "2.5.8. Błędy dokumentacyjne i ich konsekwencje"
+        fraction: 0
+      - text: "3.18.9. Kiedy reakcja jest alarmowa"
+        fraction: 0
+      - text: "5.8.8. Osoby z chorobami przewlekłymi"
+        fraction: 0
+  - id: "mc-s03-313-q1"
+    type: "multichoice"
+    name: "mc-s03-313-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.1 Masaz tensegracyjny: powiez, napiecia, linie anatomiczne"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s03-313-q2"
+    type: "multichoice"
+    name: "mc-s03-313-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.2 Masaz izometryczny: wzmacnianie bez ruchu stawu"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s03-313-q3"
+    type: "multichoice"
+    name: "mc-s03-313-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.3 Masaz stawowy: mobilizacja w granicach bolu i stabilnosci"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s03-313-q4"
+    type: "multichoice"
+    name: "mc-s03-313-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.4 Wskazania: oslabienie, niestabilnosc, ograniczenie ruchu"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s03-313-q5"
+    type: "multichoice"
+    name: "mc-s03-313-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.5 Przeciwwskazania: niestabilnosc stawowa, ostry stan zapalny, swiezy uraz, osteoporoza zaawansowana"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s03-313-q6"
+    type: "multichoice"
+    name: "mc-s03-313-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.6 Ryzyko uszkodzenia wiezadel i torebki stawowej"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s03-313-q7"
+    type: "multichoice"
+    name: "mc-s03-313-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.7 Zasada: nie przekraczac fizjologicznego zakresu ruchu"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s03-313-q8"
+    type: "multichoice"
+    name: "mc-s03-313-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.8 Koniecznosc konsultacji z fizjoterapeuta lub lekarzem"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s03-313-q9"
+    type: "multichoice"
+    name: "mc-s03-313-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.9 Dokumentacja zakresu ruchu i bolu"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s03-313-q10"
+    type: "multichoice"
+    name: "mc-s03-313-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)?"
+    answers:
+      - text: "3.13.10 Bezpieczenstwo pacjenta przed efektywnoscia"
+        fraction: 100
+      - text: "Zasada nieprzekraczania granicy bolu obronnego"
+        fraction: 0
+      - text: "Autodrenaz pacjenta"
+        fraction: 0
+      - text: "Classical massage, medical massage, sports massage"
+        fraction: 0

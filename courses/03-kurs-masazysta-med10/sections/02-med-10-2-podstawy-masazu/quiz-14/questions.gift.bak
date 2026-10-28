@@ -1,0 +1,45 @@
+// Quiz: 2.14. Lokalizacja palpacyjna struktur anatomicznych — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-214-q1:: Zagadnienie „2.14.1. Zasady palpacji: spokojna ręka, porównywanie stron, szacunek” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q1b:: Zagadnienie „2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych” jest elementem zagadnienia „2.14.1. Zasady palpacji: spokojna ręka, porównywanie stron, szacunek”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q2:: Zagadnienie „2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q2b:: Zagadnienie „2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku” jest elementem zagadnienia „2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q3:: Zagadnienie „2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q3b:: Zagadnienie „2.14.4. Wyczuwanie mięśni czworobocznego, równoległobocznego, dźwigacza łopatki” jest elementem zagadnienia „2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q4:: Zagadnienie „2.14.4. Wyczuwanie mięśni czworobocznego, równoległobocznego, dźwigacza łopatki” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q4b:: Zagadnienie „2.14.5. Wyczuwanie mięśni przykręgosłupowych” jest elementem zagadnienia „2.14.4. Wyczuwanie mięśni czworobocznego, równoległobocznego, dźwigacza łopatki”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q5:: Zagadnienie „2.14.5. Wyczuwanie mięśni przykręgosłupowych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q5b:: Zagadnienie „2.14.6. Wyczuwanie mięśni kończyny górnej: ramię, przedramię, dłoń” jest elementem zagadnienia „2.14.5. Wyczuwanie mięśni przykręgosłupowych”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q6:: Zagadnienie „2.14.6. Wyczuwanie mięśni kończyny górnej: ramię, przedramię, dłoń” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q6b:: Zagadnienie „2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa” jest elementem zagadnienia „2.14.6. Wyczuwanie mięśni kończyny górnej: ramię, przedramię, dłoń”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q7:: Zagadnienie „2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q7b:: Zagadnienie „2.14.8. Wyczuwanie tętnic powierzchniowych” jest elementem zagadnienia „2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q8:: Zagadnienie „2.14.8. Wyczuwanie tętnic powierzchniowych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::tf-s02-214-q8b:: Zagadnienie „2.14.9. Wyczuwanie żył powierzchownych” jest elementem zagadnienia „2.14.8. Wyczuwanie tętnic powierzchniowych”, a nie tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {FALSE} //
+
+::tf-s02-214-q9:: Zagadnienie „2.14.9. Wyczuwanie żył powierzchownych” wchodzi w zakres tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14). {TRUE} //
+
+::mc-s02-214:: Które zagadnienie należy bezpośrednio do tematu „Lokalizacja palpacyjna struktur anatomicznych” (2.14)? {
+    = 2.14.1. Zasady palpacji: spokojna ręka, porównywanie stron, szacunek
+    ~ 2.14.2. Wyczuwanie wyrostków kolczystych i poprzecznych
+    ~ 2.14.3. Wyczuwanie kątów łopatek, grzbietu łopatki, barku
+    ~ 2.5.8. Błędy dokumentacyjne i ich konsekwencje
+    ~ 3.18.9. Kiedy reakcja jest alarmowa
+    ~ 5.8.8. Osoby z chorobami przewlekłymi
+}

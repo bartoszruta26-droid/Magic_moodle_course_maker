@@ -1,0 +1,49 @@
+// Quiz: 1.13. Pierwsza pomoc w stanach urazowych — moduł 1 (01-med-10-1-bezpieczenstwo-i-higiena-pracy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s01-113-q1:: Zagadnienie „1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q1b:: Zagadnienie „1.13.2. Krwotok z nosa” jest elementem zagadnienia „1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q2:: Zagadnienie „1.13.2. Krwotok z nosa” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q2b:: Zagadnienie „1.13.3. Złamanie: unieruchomienie, ból, wstrząs” jest elementem zagadnienia „1.13.2. Krwotok z nosa”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q3:: Zagadnienie „1.13.3. Złamanie: unieruchomienie, ból, wstrząs” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q3b:: Zagadnienie „1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować” jest elementem zagadnienia „1.13.3. Złamanie: unieruchomienie, ból, wstrząs”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q4:: Zagadnienie „1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q4b:: Zagadnienie „1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja” jest elementem zagadnienia „1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q5:: Zagadnienie „1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q5b:: Zagadnienie „1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc” jest elementem zagadnienia „1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q6:: Zagadnienie „1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q6b:: Zagadnienie „1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy” jest elementem zagadnienia „1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q7:: Zagadnienie „1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q7b:: Zagadnienie „1.13.8. Oparzenie termiczne, chemiczne, elektryczne” jest elementem zagadnienia „1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q8:: Zagadnienie „1.13.8. Oparzenie termiczne, chemiczne, elektryczne” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q8b:: Zagadnienie „1.13.9. Odmrożenie” jest elementem zagadnienia „1.13.8. Oparzenie termiczne, chemiczne, elektryczne”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q9:: Zagadnienie „1.13.9. Odmrożenie” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::tf-s01-113-q9b:: Zagadnienie „1.13.10. Ciało obce w drogach oddechowych” jest elementem zagadnienia „1.13.9. Odmrożenie”, a nie tematu „Pierwsza pomoc w stanach urazowych” (1.13). {FALSE} //
+
+::tf-s01-113-q10:: Zagadnienie „1.13.10. Ciało obce w drogach oddechowych” wchodzi w zakres tematu „Pierwsza pomoc w stanach urazowych” (1.13). {TRUE} //
+
+::mc-s01-113:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach urazowych” (1.13)? {
+    = 1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie
+    ~ 1.13.2. Krwotok z nosa
+    ~ 1.13.3. Złamanie: unieruchomienie, ból, wstrząs
+    ~ 2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom
+    ~ 3.18.7. Wpływ na sen i samopoczucie
+    ~ 5.8.6. Małoletni: zgoda opiekuna
+}

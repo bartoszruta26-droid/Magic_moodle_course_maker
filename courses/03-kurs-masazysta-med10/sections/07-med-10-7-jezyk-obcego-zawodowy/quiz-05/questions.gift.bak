@@ -1,0 +1,49 @@
+// Quiz: 7.5. Usługi świadczone w zawodzie i obsługa klienta — moduł 7 (07-med-10-7-jezyk-obcego-zawodowy)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s07-75-q1:: Zagadnienie „7.5.1. Offering services politely” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q1b:: Zagadnienie „7.5.2. Asking about pain level” jest elementem zagadnienia „7.5.1. Offering services politely”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q2:: Zagadnienie „7.5.2. Asking about pain level” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q2b:: Zagadnienie „7.5.3. Checking comfort and pressure” jest elementem zagadnienia „7.5.2. Asking about pain level”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q3:: Zagadnienie „7.5.3. Checking comfort and pressure” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q3b:: Zagadnienie „7.5.4. Respecting boundaries” jest elementem zagadnienia „7.5.3. Checking comfort and pressure”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q4:: Zagadnienie „7.5.4. Respecting boundaries” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q4b:: Zagadnienie „7.5.5. Handling complaints” jest elementem zagadnienia „7.5.4. Respecting boundaries”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q5:: Zagadnienie „7.5.5. Handling complaints” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q5b:: Zagadnienie „7.5.6. Explaining cancellation policy” jest elementem zagadnienia „7.5.5. Handling complaints”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q6:: Zagadnienie „7.5.6. Explaining cancellation policy” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q6b:: Zagadnienie „7.5.7. Telephone and email communication” jest elementem zagadnienia „7.5.6. Explaining cancellation policy”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q7:: Zagadnienie „7.5.7. Telephone and email communication” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q7b:: Zagadnienie „7.5.8. Communicating with minors and caregivers” jest elementem zagadnienia „7.5.7. Telephone and email communication”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q8:: Zagadnienie „7.5.8. Communicating with minors and caregivers” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q8b:: Zagadnienie „7.5.9. Communicating with elderly patients” jest elementem zagadnienia „7.5.8. Communicating with minors and caregivers”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q9:: Zagadnienie „7.5.9. Communicating with elderly patients” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::tf-s07-75-q9b:: Zagadnienie „7.5.10. Avoiding misleading claims” jest elementem zagadnienia „7.5.9. Communicating with elderly patients”, a nie tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {FALSE} //
+
+::tf-s07-75-q10:: Zagadnienie „7.5.10. Avoiding misleading claims” wchodzi w zakres tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5). {TRUE} //
+
+::mc-s07-75:: Które zagadnienie należy bezpośrednio do tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)? {
+    = 7.5.1. Offering services politely
+    ~ 7.5.2. Asking about pain level
+    ~ 7.5.3. Checking comfort and pressure
+    ~ 2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny
+    ~ 3.14.5. Higiena wanny i ryzyko zakażeń
+    ~ 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej
+}

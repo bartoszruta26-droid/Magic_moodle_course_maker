@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "7.7. Tworzenie wypowiedzi ustnych i pisemnych"
 category: masaz
 questions:
-  - type: truefalse
-    name: "7.7 — zagadnienie 1"
+  - id: "tf-s07-77-q1"
+    type: "truefalse"
+    name: "tf-s07-77-q1"
     text: "Zagadnienie „7.7.1. Giving simple instructions during massage” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 1"
+  - id: "tf-s07-77-q1b"
+    type: "truefalse"
+    name: "tf-s07-77-q1b"
     text: "Zagadnienie „7.7.2. Explaining aftercare” jest elementem zagadnienia „7.7.1. Giving simple instructions during massage”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 2"
+  - id: "tf-s07-77-q2"
+    type: "truefalse"
+    name: "tf-s07-77-q2"
     text: "Zagadnienie „7.7.2. Explaining aftercare” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 2"
+  - id: "tf-s07-77-q2b"
+    type: "truefalse"
+    name: "tf-s07-77-q2b"
     text: "Zagadnienie „7.7.3. Writing short emails” jest elementem zagadnienia „7.7.2. Explaining aftercare”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 3"
+  - id: "tf-s07-77-q3"
+    type: "truefalse"
+    name: "tf-s07-77-q3"
     text: "Zagadnienie „7.7.3. Writing short emails” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 3"
+  - id: "tf-s07-77-q3b"
+    type: "truefalse"
+    name: "tf-s07-77-q3b"
     text: "Zagadnienie „7.7.4. Completing forms” jest elementem zagadnienia „7.7.3. Writing short emails”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 4"
+  - id: "tf-s07-77-q4"
+    type: "truefalse"
+    name: "tf-s07-77-q4"
     text: "Zagadnienie „7.7.4. Completing forms” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 4"
+  - id: "tf-s07-77-q4b"
+    type: "truefalse"
+    name: "tf-s07-77-q4b"
     text: "Zagadnienie „7.7.5. Preparing CV and cover letter” jest elementem zagadnienia „7.7.4. Completing forms”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 5"
+  - id: "tf-s07-77-q5"
+    type: "truefalse"
+    name: "tf-s07-77-q5"
     text: "Zagadnienie „7.7.5. Preparing CV and cover letter” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 5"
+  - id: "tf-s07-77-q5b"
+    type: "truefalse"
+    name: "tf-s07-77-q5b"
     text: "Zagadnienie „7.7.6. Describing professional experience” jest elementem zagadnienia „7.7.5. Preparing CV and cover letter”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 6"
+  - id: "tf-s07-77-q6"
+    type: "truefalse"
+    name: "tf-s07-77-q6"
     text: "Zagadnienie „7.7.6. Describing professional experience” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 6"
+  - id: "tf-s07-77-q6b"
+    type: "truefalse"
+    name: "tf-s07-77-q6b"
     text: "Zagadnienie „7.7.7. Presenting a case safely and anonymously” jest elementem zagadnienia „7.7.6. Describing professional experience”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 7"
+  - id: "tf-s07-77-q7"
+    type: "truefalse"
+    name: "tf-s07-77-q7"
     text: "Zagadnienie „7.7.7. Presenting a case safely and anonymously” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 7"
+  - id: "tf-s07-77-q7b"
+    type: "truefalse"
+    name: "tf-s07-77-q7b"
     text: "Zagadnienie „7.7.8. Using formal and informal register appropriately” jest elementem zagadnienia „7.7.7. Presenting a case safely and anonymously”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 8"
+  - id: "tf-s07-77-q8"
+    type: "truefalse"
+    name: "tf-s07-77-q8"
     text: "Zagadnienie „7.7.8. Using formal and informal register appropriately” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 8"
+  - id: "tf-s07-77-q8b"
+    type: "truefalse"
+    name: "tf-s07-77-q8b"
     text: "Zagadnienie „7.7.9. Speaking clearly and slowly” jest elementem zagadnienia „7.7.8. Using formal and informal register appropriately”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 9"
+  - id: "tf-s07-77-q9"
+    type: "truefalse"
+    name: "tf-s07-77-q9"
     text: "Zagadnienie „7.7.9. Speaking clearly and slowly” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: truefalse
-    name: "7.7 — rozgraniczenie 9"
+  - id: "tf-s07-77-q9b"
+    type: "truefalse"
+    name: "tf-s07-77-q9b"
     text: "Zagadnienie „7.7.10. Avoiding medical overstatement” jest elementem zagadnienia „7.7.9. Speaking clearly and slowly”, a nie tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: false
-  - type: truefalse
-    name: "7.7 — zagadnienie 10"
+  - id: "tf-s07-77-q10"
+    type: "truefalse"
+    name: "tf-s07-77-q10"
     text: "Zagadnienie „7.7.10. Avoiding medical overstatement” wchodzi w zakres tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)."
     answer: true
-  - type: multichoice
-    name: "7.7 — przyporządkowanie zagadnienia"
+  - id: "mc-s07-77"
+    type: "multichoice"
+    name: "mc-s07-77"
     text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
     answers:
-      - text: "7.7.1. Giving simple instructions during massage"  fraction: 100
-      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"  fraction: 0
-      - text: "3.14.7. Ryzyko poślizgnięcia"  fraction: 0
-      - text: "5.4.6. Stan zapalny — przeciwwskazanie"  fraction: 0
+      - text: "7.7.1. Giving simple instructions during massage"
+        fraction: 100
+      - text: "7.7.2. Explaining aftercare"
+        fraction: 0
+      - text: "7.7.3. Writing short emails"
+        fraction: 0
+      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"
+        fraction: 0
+      - text: "3.14.7. Ryzyko poślizgnięcia"
+        fraction: 0
+      - text: "5.4.6. Stan zapalny — przeciwwskazanie"
+        fraction: 0
+  - id: "mc-s07-77-q1"
+    type: "multichoice"
+    name: "mc-s07-77-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.1 Giving simple instructions during massage"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s07-77-q2"
+    type: "multichoice"
+    name: "mc-s07-77-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.2 Explaining aftercare"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s07-77-q3"
+    type: "multichoice"
+    name: "mc-s07-77-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.3 Writing short emails"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s07-77-q4"
+    type: "multichoice"
+    name: "mc-s07-77-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.4 Completing forms"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s07-77-q5"
+    type: "multichoice"
+    name: "mc-s07-77-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.5 Preparing CV and cover letter"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s07-77-q6"
+    type: "multichoice"
+    name: "mc-s07-77-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.6 Describing professional experience"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s07-77-q7"
+    type: "multichoice"
+    name: "mc-s07-77-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.7 Presenting a case safely and anonymously"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s07-77-q8"
+    type: "multichoice"
+    name: "mc-s07-77-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.8 Using formal and informal register appropriately"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s07-77-q9"
+    type: "multichoice"
+    name: "mc-s07-77-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.9 Speaking clearly and slowly"
+        fraction: 100
+      - text: "Biomechanika ruchu i stabilizacja"
+        fraction: 0
+      - text: "Obrzek miekki i twardy"
+        fraction: 0
+      - text: "Dokumentacja"
+        fraction: 0
+  - id: "mc-s07-77-q10"
+    type: "multichoice"
+    name: "mc-s07-77-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)?"
+    answers:
+      - text: "7.7.10 Avoiding medical overstatement"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0

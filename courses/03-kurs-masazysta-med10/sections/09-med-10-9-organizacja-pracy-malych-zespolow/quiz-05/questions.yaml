@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "9.5. Wprowadzanie rozwiązań technicznych i organizacyjnych"
 category: masaz
 questions:
-  - type: truefalse
-    name: "9.5 — zagadnienie 1"
+  - id: "tf-s09-95-q1"
+    type: "truefalse"
+    name: "tf-s09-95-q1"
     text: "Zagadnienie „9.5.1. Analiza warunków pracy” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 1"
+  - id: "tf-s09-95-q1b"
+    type: "truefalse"
+    name: "tf-s09-95-q1b"
     text: "Zagadnienie „9.5.2. Poprawa ergonomii stanowiska” jest elementem zagadnienia „9.5.1. Analiza warunków pracy”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 2"
+  - id: "tf-s09-95-q2"
+    type: "truefalse"
+    name: "tf-s09-95-q2"
     text: "Zagadnienie „9.5.2. Poprawa ergonomii stanowiska” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 2"
+  - id: "tf-s09-95-q2b"
+    type: "truefalse"
+    name: "tf-s09-95-q2b"
     text: "Zagadnienie „9.5.3. Optymalizacja przepływu pacjentów” jest elementem zagadnienia „9.5.2. Poprawa ergonomii stanowiska”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 3"
+  - id: "tf-s09-95-q3"
+    type: "truefalse"
+    name: "tf-s09-95-q3"
     text: "Zagadnienie „9.5.3. Optymalizacja przepływu pacjentów” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 3"
+  - id: "tf-s09-95-q3b"
+    type: "truefalse"
+    name: "tf-s09-95-q3b"
     text: "Zagadnienie „9.5.4. Bezpieczne przechowywanie środków” jest elementem zagadnienia „9.5.3. Optymalizacja przepływu pacjentów”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 4"
+  - id: "tf-s09-95-q4"
+    type: "truefalse"
+    name: "tf-s09-95-q4"
     text: "Zagadnienie „9.5.4. Bezpieczne przechowywanie środków” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 4"
+  - id: "tf-s09-95-q4b"
+    type: "truefalse"
+    name: "tf-s09-95-q4b"
     text: "Zagadnienie „9.5.5. Modernizacja sprzętu” jest elementem zagadnienia „9.5.4. Bezpieczne przechowywanie środków”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 5"
+  - id: "tf-s09-95-q5"
+    type: "truefalse"
+    name: "tf-s09-95-q5"
     text: "Zagadnienie „9.5.5. Modernizacja sprzętu” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 5"
+  - id: "tf-s09-95-q5b"
+    type: "truefalse"
+    name: "tf-s09-95-q5b"
     text: "Zagadnienie „9.5.6. Standaryzacja procedur” jest elementem zagadnienia „9.5.5. Modernizacja sprzętu”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 6"
+  - id: "tf-s09-95-q6"
+    type: "truefalse"
+    name: "tf-s09-95-q6"
     text: "Zagadnienie „9.5.6. Standaryzacja procedur” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 6"
+  - id: "tf-s09-95-q6b"
+    type: "truefalse"
+    name: "tf-s09-95-q6b"
     text: "Zagadnienie „9.5.7. Szkolenia wewnętrzne” jest elementem zagadnienia „9.5.6. Standaryzacja procedur”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 7"
+  - id: "tf-s09-95-q7"
+    type: "truefalse"
+    name: "tf-s09-95-q7"
     text: "Zagadnienie „9.5.7. Szkolenia wewnętrzne” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 7"
+  - id: "tf-s09-95-q7b"
+    type: "truefalse"
+    name: "tf-s09-95-q7b"
     text: "Zagadnienie „9.5.8. Wdrażanie zmian bez chaosu” jest elementem zagadnienia „9.5.7. Szkolenia wewnętrzne”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 8"
+  - id: "tf-s09-95-q8"
+    type: "truefalse"
+    name: "tf-s09-95-q8"
     text: "Zagadnienie „9.5.8. Wdrażanie zmian bez chaosu” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 8"
+  - id: "tf-s09-95-q8b"
+    type: "truefalse"
+    name: "tf-s09-95-q8b"
     text: "Zagadnienie „9.5.9. Ocena wpływu zmian na jakość” jest elementem zagadnienia „9.5.8. Wdrażanie zmian bez chaosu”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 9"
+  - id: "tf-s09-95-q9"
+    type: "truefalse"
+    name: "tf-s09-95-q9"
     text: "Zagadnienie „9.5.9. Ocena wpływu zmian na jakość” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: truefalse
-    name: "9.5 — rozgraniczenie 9"
+  - id: "tf-s09-95-q9b"
+    type: "truefalse"
+    name: "tf-s09-95-q9b"
     text: "Zagadnienie „9.5.10. Poszanowanie godności pracowników i pacjentów” jest elementem zagadnienia „9.5.9. Ocena wpływu zmian na jakość”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: false
-  - type: truefalse
-    name: "9.5 — zagadnienie 10"
+  - id: "tf-s09-95-q10"
+    type: "truefalse"
+    name: "tf-s09-95-q10"
     text: "Zagadnienie „9.5.10. Poszanowanie godności pracowników i pacjentów” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)."
     answer: true
-  - type: multichoice
-    name: "9.5 — przyporządkowanie zagadnienia"
+  - id: "mc-s09-95"
+    type: "multichoice"
+    name: "mc-s09-95"
     text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
     answers:
-      - text: "9.5.1. Analiza warunków pracy"  fraction: 100
-      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"  fraction: 0
-      - text: "3.14.7. Ryzyko poślizgnięcia"  fraction: 0
-      - text: "5.4.6. Stan zapalny — przeciwwskazanie"  fraction: 0
+      - text: "9.5.1. Analiza warunków pracy"
+        fraction: 100
+      - text: "9.5.2. Poprawa ergonomii stanowiska"
+        fraction: 0
+      - text: "9.5.3. Optymalizacja przepływu pacjentów"
+        fraction: 0
+      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"
+        fraction: 0
+      - text: "3.14.7. Ryzyko poślizgnięcia"
+        fraction: 0
+      - text: "5.4.6. Stan zapalny — przeciwwskazanie"
+        fraction: 0
+  - id: "mc-s09-95-q1"
+    type: "multichoice"
+    name: "mc-s09-95-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.1 Analiza warunkow pracy"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s09-95-q2"
+    type: "multichoice"
+    name: "mc-s09-95-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.2 Poprawa ergonomii stanowiska"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s09-95-q3"
+    type: "multichoice"
+    name: "mc-s09-95-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.3 Optymalizacja przeplywu pacjentow"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s09-95-q4"
+    type: "multichoice"
+    name: "mc-s09-95-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.4 Bezpieczne przechowywanie srodkow"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s09-95-q5"
+    type: "multichoice"
+    name: "mc-s09-95-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.5 Modernizacja sprzetu"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s09-95-q6"
+    type: "multichoice"
+    name: "mc-s09-95-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.6 Standaryzacja procedur"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s09-95-q7"
+    type: "multichoice"
+    name: "mc-s09-95-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.7 Szkolenia wewnetrzne"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s09-95-q8"
+    type: "multichoice"
+    name: "mc-s09-95-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.8 Wdrazanie zmian bez chaosu"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s09-95-q9"
+    type: "multichoice"
+    name: "mc-s09-95-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.9 Ocena wplywu zmian na jakosc"
+        fraction: 100
+      - text: "Biomechanika ruchu i stabilizacja"
+        fraction: 0
+      - text: "Obrzek miekki i twardy"
+        fraction: 0
+      - text: "Dokumentacja"
+        fraction: 0
+  - id: "mc-s09-95-q10"
+    type: "multichoice"
+    name: "mc-s09-95-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)?"
+    answers:
+      - text: "9.5.10 Poszanowanie godnosci pracownikow i pacjentow"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0

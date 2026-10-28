@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "6.1. Pojęcie masażu prozdrowotnego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "6.1 — zagadnienie 1"
+  - id: "tf-s06-61-q1"
+    type: "truefalse"
+    name: "tf-s06-61-q1"
     text: "Zagadnienie „6.1.1. Zdrowie jako dobro i zadanie” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 1"
+  - id: "tf-s06-61-q1b"
+    type: "truefalse"
+    name: "tf-s06-61-q1b"
     text: "Zagadnienie „6.1.2. Profilaktyka a terapia” jest elementem zagadnienia „6.1.1. Zdrowie jako dobro i zadanie”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 2"
+  - id: "tf-s06-61-q2"
+    type: "truefalse"
+    name: "tf-s06-61-q2"
     text: "Zagadnienie „6.1.2. Profilaktyka a terapia” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 2"
+  - id: "tf-s06-61-q2b"
+    type: "truefalse"
+    name: "tf-s06-61-q2b"
     text: "Zagadnienie „6.1.3. Relaksacja a leczenie” jest elementem zagadnienia „6.1.2. Profilaktyka a terapia”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 3"
+  - id: "tf-s06-61-q3"
+    type: "truefalse"
+    name: "tf-s06-61-q3"
     text: "Zagadnienie „6.1.3. Relaksacja a leczenie” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 3"
+  - id: "tf-s06-61-q3b"
+    type: "truefalse"
+    name: "tf-s06-61-q3b"
     text: "Zagadnienie „6.1.4. Masaż prozdrowotny u osoby zdrowej” jest elementem zagadnienia „6.1.3. Relaksacja a leczenie”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 4"
+  - id: "tf-s06-61-q4"
+    type: "truefalse"
+    name: "tf-s06-61-q4"
     text: "Zagadnienie „6.1.4. Masaż prozdrowotny u osoby zdrowej” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 4"
+  - id: "tf-s06-61-q4b"
+    type: "truefalse"
+    name: "tf-s06-61-q4b"
     text: "Zagadnienie „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi” jest elementem zagadnienia „6.1.4. Masaż prozdrowotny u osoby zdrowej”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 5"
+  - id: "tf-s06-61-q5"
+    type: "truefalse"
+    name: "tf-s06-61-q5"
     text: "Zagadnienie „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 5"
+  - id: "tf-s06-61-q5b"
+    type: "truefalse"
+    name: "tf-s06-61-q5b"
     text: "Zagadnienie „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej” jest elementem zagadnienia „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 6"
+  - id: "tf-s06-61-q6"
+    type: "truefalse"
+    name: "tf-s06-61-q6"
     text: "Zagadnienie „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 6"
+  - id: "tf-s06-61-q6b"
+    type: "truefalse"
+    name: "tf-s06-61-q6b"
     text: "Zagadnienie „6.1.7. Edukacja pacjenta/klienta” jest elementem zagadnienia „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 7"
+  - id: "tf-s06-61-q7"
+    type: "truefalse"
+    name: "tf-s06-61-q7"
     text: "Zagadnienie „6.1.7. Edukacja pacjenta/klienta” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 7"
+  - id: "tf-s06-61-q7b"
+    type: "truefalse"
+    name: "tf-s06-61-q7b"
     text: "Zagadnienie „6.1.8. Odpowiedzialność za oczekiwania” jest elementem zagadnienia „6.1.7. Edukacja pacjenta/klienta”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 8"
+  - id: "tf-s06-61-q8"
+    type: "truefalse"
+    name: "tf-s06-61-q8"
     text: "Zagadnienie „6.1.8. Odpowiedzialność za oczekiwania” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 8"
+  - id: "tf-s06-61-q8b"
+    type: "truefalse"
+    name: "tf-s06-61-q8b"
     text: "Zagadnienie „6.1.9. Prawda o dowodach naukowych” jest elementem zagadnienia „6.1.8. Odpowiedzialność za oczekiwania”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 9"
+  - id: "tf-s06-61-q9"
+    type: "truefalse"
+    name: "tf-s06-61-q9"
     text: "Zagadnienie „6.1.9. Prawda o dowodach naukowych” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: truefalse
-    name: "6.1 — rozgraniczenie 9"
+  - id: "tf-s06-61-q9b"
+    type: "truefalse"
+    name: "tf-s06-61-q9b"
     text: "Zagadnienie „6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”” jest elementem zagadnienia „6.1.9. Prawda o dowodach naukowych”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: false
-  - type: truefalse
-    name: "6.1 — zagadnienie 10"
+  - id: "tf-s06-61-q10"
+    type: "truefalse"
+    name: "tf-s06-61-q10"
     text: "Zagadnienie „6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1)."
     answer: true
-  - type: multichoice
-    name: "6.1 — przyporządkowanie zagadnienia"
+  - id: "mc-s06-61"
+    type: "multichoice"
+    name: "mc-s06-61"
     text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
     answers:
-      - text: "6.1.1. Zdrowie jako dobro i zadanie"  fraction: 100
-      - text: "1.15.10. Zasada: zgoda może być cofnięta w każdej chwili"  fraction: 0
-      - text: "3.13.10. Bezpieczeństwo pacjenta przed efektywnością"  fraction: 0
-      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"  fraction: 0
+      - text: "6.1.1. Zdrowie jako dobro i zadanie"
+        fraction: 100
+      - text: "6.1.2. Profilaktyka a terapia"
+        fraction: 0
+      - text: "6.1.3. Relaksacja a leczenie"
+        fraction: 0
+      - text: "1.15.10. Zasada: zgoda może być cofnięta w każdej chwili"
+        fraction: 0
+      - text: "3.13.10. Bezpieczeństwo pacjenta przed efektywnością"
+        fraction: 0
+      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"
+        fraction: 0
+  - id: "mc-s06-61-q1"
+    type: "multichoice"
+    name: "mc-s06-61-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.1 Zdrowie jako dobro i zadanie"
+        fraction: 100
+      - text: "Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 0
+      - text: "Wywiad funkcjonalny: chod, sen, praca, aktywnosc"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s06-61-q2"
+    type: "multichoice"
+    name: "mc-s06-61-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.2 Profilaktyka a terapia"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s06-61-q3"
+    type: "multichoice"
+    name: "mc-s06-61-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.3 Relaksacja a leczenie"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s06-61-q4"
+    type: "multichoice"
+    name: "mc-s06-61-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.4 Masaz prozdrowotny u osoby zdrowej"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s06-61-q5"
+    type: "multichoice"
+    name: "mc-s06-61-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.5 Masaz prozdrowotny u osoby z dolegliwosciami funkcjonalnymi"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s06-61-q6"
+    type: "multichoice"
+    name: "mc-s06-61-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.6 Granice: nie leczymy choroby niezdiagnozowanej"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s06-61-q7"
+    type: "multichoice"
+    name: "mc-s06-61-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.7 Edukacja pacjenta/klienta"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s06-61-q8"
+    type: "multichoice"
+    name: "mc-s06-61-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.8 Odpowiedzialnosc za oczekiwania"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s06-61-q9"
+    type: "multichoice"
+    name: "mc-s06-61-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.9 Prawda o dowodach naukowych"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s06-61-q10"
+    type: "multichoice"
+    name: "mc-s06-61-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.10 Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudniecia”"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0

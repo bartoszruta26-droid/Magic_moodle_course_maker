@@ -1,0 +1,49 @@
+// Quiz: 6.10. Bezpieczeństwo masażu prozdrowotnego — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-610-q1:: Zagadnienie „6.10.1. Objawy wymagające pilnej konsultacji lekarskiej” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q1b:: Zagadnienie „6.10.2. Ból nowy, ostry, promieniujący” jest elementem zagadnienia „6.10.1. Objawy wymagające pilnej konsultacji lekarskiej”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q2:: Zagadnienie „6.10.2. Ból nowy, ostry, promieniujący” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q2b:: Zagadnienie „6.10.3. Obrzęk jednostronny nogi” jest elementem zagadnienia „6.10.2. Ból nowy, ostry, promieniujący”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q3:: Zagadnienie „6.10.3. Obrzęk jednostronny nogi” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q3b:: Zagadnienie „6.10.4. Gorączka i dreszcze” jest elementem zagadnienia „6.10.3. Obrzęk jednostronny nogi”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q4:: Zagadnienie „6.10.4. Gorączka i dreszcze” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q4b:: Zagadnienie „6.10.5. Utrata masy ciała bez przyczyny” jest elementem zagadnienia „6.10.4. Gorączka i dreszcze”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q5:: Zagadnienie „6.10.5. Utrata masy ciała bez przyczyny” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q5b:: Zagadnienie „6.10.6. Krwawienia i siniki samoistne” jest elementem zagadnienia „6.10.5. Utrata masy ciała bez przyczyny”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q6:: Zagadnienie „6.10.6. Krwawienia i siniki samoistne” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q6b:: Zagadnienie „6.10.7. Duszność i ból w klatce” jest elementem zagadnienia „6.10.6. Krwawienia i siniki samoistne”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q7:: Zagadnienie „6.10.7. Duszność i ból w klatce” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q7b:: Zagadnienie „6.10.8. Zawroty głowy i omdlenia” jest elementem zagadnienia „6.10.7. Duszność i ból w klatce”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q8:: Zagadnienie „6.10.8. Zawroty głowy i omdlenia” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q8b:: Zagadnienie „6.10.9. Zmiany skórne podejrane” jest elementem zagadnienia „6.10.8. Zawroty głowy i omdlenia”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q9:: Zagadnienie „6.10.9. Zmiany skórne podejrane” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::tf-s06-610-q9b:: Zagadnienie „6.10.10. Zasada: lepiej skierować niż zaszkodzić” jest elementem zagadnienia „6.10.9. Zmiany skórne podejrane”, a nie tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {FALSE} //
+
+::tf-s06-610-q10:: Zagadnienie „6.10.10. Zasada: lepiej skierować niż zaszkodzić” wchodzi w zakres tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10). {TRUE} //
+
+::mc-s06-610:: Które zagadnienie należy bezpośrednio do tematu „Bezpieczeństwo masażu prozdrowotnego” (6.10)? {
+    = 6.10.1. Objawy wymagające pilnej konsultacji lekarskiej
+    ~ 6.10.2. Ból nowy, ostry, promieniujący
+    ~ 6.10.3. Obrzęk jednostronny nogi
+    ~ 2.5.8. Błędy dokumentacyjne i ich konsekwencje
+    ~ 3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie
+    ~ 5.8.7. Kobiety w ciąży w sporcie — ograniczenia
+}

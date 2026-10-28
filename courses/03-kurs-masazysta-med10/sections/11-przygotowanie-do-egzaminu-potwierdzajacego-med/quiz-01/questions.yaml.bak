@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "11.1. Wymagania egzaminacyjne i zasady oceny"
+category: masaz
+questions:
+  - type: truefalse
+    name: "11.1 — zagadnienie 1"
+    text: "Zagadnienie „11.1.1. Część pisemna” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 1"
+    text: "Zagadnienie „11.1.2. Część praktyczna” jest elementem zagadnienia „11.1.1. Część pisemna”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 2"
+    text: "Zagadnienie „11.1.2. Część praktyczna” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 2"
+    text: "Zagadnienie „11.1.3. Kryteria pozytywnej oceny” jest elementem zagadnienia „11.1.2. Część praktyczna”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 3"
+    text: "Zagadnienie „11.1.3. Kryteria pozytywnej oceny” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 3"
+    text: "Zagadnienie „11.1.4. Błędy dyskwalifikujące” jest elementem zagadnienia „11.1.3. Kryteria pozytywnej oceny”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 4"
+    text: "Zagadnienie „11.1.4. Błędy dyskwalifikujące” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 4"
+    text: "Zagadnienie „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne” jest elementem zagadnienia „11.1.4. Błędy dyskwalifikujące”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 5"
+    text: "Zagadnienie „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 5"
+    text: "Zagadnienie „11.1.6. Etyka i kultura zawodowa” jest elementem zagadnienia „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 6"
+    text: "Zagadnienie „11.1.6. Etyka i kultura zawodowa” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 6"
+    text: "Zagadnienie „11.1.7. Dokumentacja zabiegowa” jest elementem zagadnienia „11.1.6. Etyka i kultura zawodowa”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 7"
+    text: "Zagadnienie „11.1.7. Dokumentacja zabiegowa” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 7"
+    text: "Zagadnienie „11.1.8. Komunikacja z egzaminatorem” jest elementem zagadnienia „11.1.7. Dokumentacja zabiegowa”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 8"
+    text: "Zagadnienie „11.1.8. Komunikacja z egzaminatorem” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 8"
+    text: "Zagadnienie „11.1.9. Zarządzanie czasem” jest elementem zagadnienia „11.1.8. Komunikacja z egzaminatorem”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 9"
+    text: "Zagadnienie „11.1.9. Zarządzanie czasem” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: truefalse
+    name: "11.1 — rozgraniczenie 9"
+    text: "Zagadnienie „11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo” jest elementem zagadnienia „11.1.9. Zarządzanie czasem”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: false
+  - type: truefalse
+    name: "11.1 — zagadnienie 10"
+    text: "Zagadnienie „11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
+    answer: true
+  - type: multichoice
+    name: "11.1 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.1. Część pisemna"  fraction: 100
+      - text: "2.5.4. Zgoda na zabieg masażu"  fraction: 0
+      - text: "3.18.4. Redukcja obrzęku"  fraction: 0
+      - text: "5.8.3. Ochrona prywatności zawodnika"  fraction: 0

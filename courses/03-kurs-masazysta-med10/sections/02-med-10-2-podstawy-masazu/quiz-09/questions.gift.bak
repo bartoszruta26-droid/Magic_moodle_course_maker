@@ -1,0 +1,49 @@
+// Quiz: 2.9. Powłoka wspólna: skóra i jej przydatki — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-29-q1:: Zagadnienie „2.9.1. Naskórek: warstwy” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q1b:: Zagadnienie „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata” jest elementem zagadnienia „2.9.1. Naskórek: warstwy”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q2:: Zagadnienie „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q2b:: Zagadnienie „2.9.3. Tkanka podskórna” jest elementem zagadnienia „2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q3:: Zagadnienie „2.9.3. Tkanka podskórna” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q3b:: Zagadnienie „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe” jest elementem zagadnienia „2.9.3. Tkanka podskórna”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q4:: Zagadnienie „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q4b:: Zagadnienie „2.9.5. Unerwienie skóry” jest elementem zagadnienia „2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q5:: Zagadnienie „2.9.5. Unerwienie skóry” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q5b:: Zagadnienie „2.9.6. Unaczynienie skóry” jest elementem zagadnienia „2.9.5. Unerwienie skóry”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q6:: Zagadnienie „2.9.6. Unaczynienie skóry” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q6b:: Zagadnienie „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna” jest elementem zagadnienia „2.9.6. Unaczynienie skóry”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q7:: Zagadnienie „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q7b:: Zagadnienie „2.9.8. Wpływ masażu na skórę” jest elementem zagadnienia „2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q8:: Zagadnienie „2.9.8. Wpływ masażu na skórę” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q8b:: Zagadnienie „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa” jest elementem zagadnienia „2.9.8. Wpływ masażu na skórę”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q9:: Zagadnienie „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::tf-s02-29-q9b:: Zagadnienie „2.9.10. Przeciwwskazania skórne do masażu” jest elementem zagadnienia „2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa”, a nie tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {FALSE} //
+
+::tf-s02-29-q10:: Zagadnienie „2.9.10. Przeciwwskazania skórne do masażu” wchodzi w zakres tematu „Powłoka wspólna: skóra i jej przydatki” (2.9). {TRUE} //
+
+::mc-s02-29:: Które zagadnienie należy bezpośrednio do tematu „Powłoka wspólna: skóra i jej przydatki” (2.9)? {
+    = 2.9.1. Naskórek: warstwy
+    ~ 2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata
+    ~ 2.9.3. Tkanka podskórna
+    ~ 2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek
+    ~ 3.14.5. Higiena wanny i ryzyko zakażeń
+    ~ 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej
+}

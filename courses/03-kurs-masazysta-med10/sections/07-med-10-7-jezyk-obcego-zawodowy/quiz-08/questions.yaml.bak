@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "7.8. Rozmowa w typowych sytuacjach zawodowych"
+category: masaz
+questions:
+  - type: truefalse
+    name: "7.8 — zagadnienie 1"
+    text: "Zagadnienie „7.8.1. Starting and ending conversation” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 1"
+    text: "Zagadnienie „7.8.2. Obtaining consent” jest elementem zagadnienia „7.8.1. Starting and ending conversation”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 2"
+    text: "Zagadnienie „7.8.2. Obtaining consent” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 2"
+    text: "Zagadnienie „7.8.3. Asking about pain and comfort” jest elementem zagadnienia „7.8.2. Obtaining consent”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 3"
+    text: "Zagadnienie „7.8.3. Asking about pain and comfort” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 3"
+    text: "Zagadnienie „7.8.4. Responding to anxiety” jest elementem zagadnienia „7.8.3. Asking about pain and comfort”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 4"
+    text: "Zagadnienie „7.8.4. Responding to anxiety” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 4"
+    text: "Zagadnienie „7.8.5. Refusing inappropriate requests” jest elementem zagadnienia „7.8.4. Responding to anxiety”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 5"
+    text: "Zagadnienie „7.8.5. Refusing inappropriate requests” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 5"
+    text: "Zagadnienie „7.8.6. Reporting adverse reaction” jest elementem zagadnienia „7.8.5. Refusing inappropriate requests”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 6"
+    text: "Zagadnienie „7.8.6. Reporting adverse reaction” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 6"
+    text: "Zagadnienie „7.8.7. Coordinating with reception or team” jest elementem zagadnienia „7.8.6. Reporting adverse reaction”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 7"
+    text: "Zagadnienie „7.8.7. Coordinating with reception or team” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 7"
+    text: "Zagadnienie „7.8.8. Talking to a colleague” jest elementem zagadnienia „7.8.7. Coordinating with reception or team”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 8"
+    text: "Zagadnienie „7.8.8. Talking to a colleague” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 8"
+    text: "Zagadnienie „7.8.9. Talking to a supervisor” jest elementem zagadnienia „7.8.8. Talking to a colleague”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 9"
+    text: "Zagadnienie „7.8.9. Talking to a supervisor” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: truefalse
+    name: "7.8 — rozgraniczenie 9"
+    text: "Zagadnienie „7.8.10. Using polite formulas” jest elementem zagadnienia „7.8.9. Talking to a supervisor”, a nie tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: false
+  - type: truefalse
+    name: "7.8 — zagadnienie 10"
+    text: "Zagadnienie „7.8.10. Using polite formulas” wchodzi w zakres tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)."
+    answer: true
+  - type: multichoice
+    name: "7.8 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rozmowa w typowych sytuacjach zawodowych” (7.8)?"
+    answers:
+      - text: "7.8.1. Starting and ending conversation"  fraction: 100
+      - text: "2.1.8. Granice profesjonalnej bliskości"  fraction: 0
+      - text: "3.14.8. Obciążenie termiczne"  fraction: 0
+      - text: "5.4.7. Gorączka i infekcja — przeciwwskazanie"  fraction: 0

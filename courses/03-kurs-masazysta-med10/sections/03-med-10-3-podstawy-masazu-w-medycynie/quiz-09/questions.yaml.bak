@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.9. Zaburzenia skóry i tkanki podskórnej"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.9 — zagadnienie 1"
+    text: "Zagadnienie „3.9.1. Egzema i atopowe zapalenie skóry” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 1"
+    text: "Zagadnienie „3.9.2. Łuszczyca” jest elementem zagadnienia „3.9.1. Egzema i atopowe zapalenie skóry”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 2"
+    text: "Zagadnienie „3.9.2. Łuszczyca” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 2"
+    text: "Zagadnienie „3.9.3. Trądzik i zmiany ropne” jest elementem zagadnienia „3.9.2. Łuszczyca”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 3"
+    text: "Zagadnienie „3.9.3. Trądzik i zmiany ropne” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 3"
+    text: "Zagadnienie „3.9.4. Grzybice skóry i paznokci” jest elementem zagadnienia „3.9.3. Trądzik i zmiany ropne”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 4"
+    text: "Zagadnienie „3.9.4. Grzybice skóry i paznokci” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 4"
+    text: "Zagadnienie „3.9.5. Pokrzywka i obrzęk naczynioruchowy” jest elementem zagadnienia „3.9.4. Grzybice skóry i paznokci”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 5"
+    text: "Zagadnienie „3.9.5. Pokrzywka i obrzęk naczynioruchowy” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 5"
+    text: "Zagadnienie „3.9.6. Owrzodzenia żylakowe i odleżyny” jest elementem zagadnienia „3.9.5. Pokrzywka i obrzęk naczynioruchowy”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 6"
+    text: "Zagadnienie „3.9.6. Owrzodzenia żylakowe i odleżyny” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 6"
+    text: "Zagadnienie „3.9.7. Blizny przerostowe i keloidy” jest elementem zagadnienia „3.9.6. Owrzodzenia żylakowe i odleżyny”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 7"
+    text: "Zagadnienie „3.9.7. Blizny przerostowe i keloidy” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 7"
+    text: "Zagadnienie „3.9.8. Rozstępy” jest elementem zagadnienia „3.9.7. Blizny przerostowe i keloidy”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 8"
+    text: "Zagadnienie „3.9.8. Rozstępy” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 8"
+    text: "Zagadnienie „3.9.9. Cellulite i zmiany troficzne” jest elementem zagadnienia „3.9.8. Rozstępy”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 9"
+    text: "Zagadnienie „3.9.9. Cellulite i zmiany troficzne” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: truefalse
+    name: "3.9 — rozgraniczenie 9"
+    text: "Zagadnienie „3.9.10. Masaż przy zmianach skórnych: kiedy nie wolno” jest elementem zagadnienia „3.9.9. Cellulite i zmiany troficzne”, a nie tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: false
+  - type: truefalse
+    name: "3.9 — zagadnienie 10"
+    text: "Zagadnienie „3.9.10. Masaż przy zmianach skórnych: kiedy nie wolno” wchodzi w zakres tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)."
+    answer: true
+  - type: multichoice
+    name: "3.9 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia skóry i tkanki podskórnej” (3.9)?"
+    answers:
+      - text: "3.9.1. Egzema i atopowe zapalenie skóry"  fraction: 100
+      - text: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"  fraction: 0
+      - text: "3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny"  fraction: 0
+      - text: "5.4.5. Ból ostry — nie masować bez diagnozy"  fraction: 0

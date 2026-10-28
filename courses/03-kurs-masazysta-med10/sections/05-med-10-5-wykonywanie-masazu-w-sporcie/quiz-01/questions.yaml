@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "5.1. Wprowadzenie do masażu sportowego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "5.1 — zagadnienie 1"
+  - id: "tf-s05-51-q1"
+    type: "truefalse"
+    name: "tf-s05-51-q1"
     text: "Zagadnienie „5.1.1. Rola masażu w treningu i regeneracji” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 1"
+  - id: "tf-s05-51-q1b"
+    type: "truefalse"
+    name: "tf-s05-51-q1b"
     text: "Zagadnienie „5.1.2. Masaż sportowy jako wsparcie, nie leczenie kontuzji” jest elementem zagadnienia „5.1.1. Rola masażu w treningu i regeneracji”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 2"
+  - id: "tf-s05-51-q2"
+    type: "truefalse"
+    name: "tf-s05-51-q2"
     text: "Zagadnienie „5.1.2. Masaż sportowy jako wsparcie, nie leczenie kontuzji” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 2"
+  - id: "tf-s05-51-q2b"
+    type: "truefalse"
+    name: "tf-s05-51-q2b"
     text: "Zagadnienie „5.1.3. Współpraca z trenerem, lekarzem sportowym, fizjoterapeutą” jest elementem zagadnienia „5.1.2. Masaż sportowy jako wsparcie, nie leczenie kontuzji”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 3"
+  - id: "tf-s05-51-q3"
+    type: "truefalse"
+    name: "tf-s05-51-q3"
     text: "Zagadnienie „5.1.3. Współpraca z trenerem, lekarzem sportowym, fizjoterapeutą” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 3"
+  - id: "tf-s05-51-q3b"
+    type: "truefalse"
+    name: "tf-s05-51-q3b"
     text: "Zagadnienie „5.1.4. Granice: masażysta nie decyduje o starcie zawodnika” jest elementem zagadnienia „5.1.3. Współpraca z trenerem, lekarzem sportowym, fizjoterapeutą”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 4"
+  - id: "tf-s05-51-q4"
+    type: "truefalse"
+    name: "tf-s05-51-q4"
     text: "Zagadnienie „5.1.4. Granice: masażysta nie decyduje o starcie zawodnika” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 4"
+  - id: "tf-s05-51-q4b"
+    type: "truefalse"
+    name: "tf-s05-51-q4b"
     text: "Zagadnienie „5.1.5. Etyka wobec zawodnika: prawda, brak presji, ochrona zdrowia” jest elementem zagadnienia „5.1.4. Granice: masażysta nie decyduje o starcie zawodnika”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 5"
+  - id: "tf-s05-51-q5"
+    type: "truefalse"
+    name: "tf-s05-51-q5"
     text: "Zagadnienie „5.1.5. Etyka wobec zawodnika: prawda, brak presji, ochrona zdrowia” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 5"
+  - id: "tf-s05-51-q5b"
+    type: "truefalse"
+    name: "tf-s05-51-q5b"
     text: "Zagadnienie „5.1.6. Ochrona małoletnich sportowców” jest elementem zagadnienia „5.1.5. Etyka wobec zawodnika: prawda, brak presji, ochrona zdrowia”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 6"
+  - id: "tf-s05-51-q6"
+    type: "truefalse"
+    name: "tf-s05-51-q6"
     text: "Zagadnienie „5.1.6. Ochrona małoletnich sportowców” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 6"
+  - id: "tf-s05-51-q6b"
+    type: "truefalse"
+    name: "tf-s05-51-q6b"
     text: "Zagadnienie „5.1.7. Dokumentacja sportowa i RODO” jest elementem zagadnienia „5.1.6. Ochrona małoletnich sportowców”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 7"
+  - id: "tf-s05-51-q7"
+    type: "truefalse"
+    name: "tf-s05-51-q7"
     text: "Zagadnienie „5.1.7. Dokumentacja sportowa i RODO” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 7"
+  - id: "tf-s05-51-q7b"
+    type: "truefalse"
+    name: "tf-s05-51-q7b"
     text: "Zagadnienie „5.1.8. Bezpieczeństwo w warunkach polowych” jest elementem zagadnienia „5.1.7. Dokumentacja sportowa i RODO”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 8"
+  - id: "tf-s05-51-q8"
+    type: "truefalse"
+    name: "tf-s05-51-q8"
     text: "Zagadnienie „5.1.8. Bezpieczeństwo w warunkach polowych” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 8"
+  - id: "tf-s05-51-q8b"
+    type: "truefalse"
+    name: "tf-s05-51-q8b"
     text: "Zagadnienie „5.1.9. Higiena w szatni, na zgrupowaniu, w podróży” jest elementem zagadnienia „5.1.8. Bezpieczeństwo w warunkach polowych”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 9"
+  - id: "tf-s05-51-q9"
+    type: "truefalse"
+    name: "tf-s05-51-q9"
     text: "Zagadnienie „5.1.9. Higiena w szatni, na zgrupowaniu, w podróży” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: truefalse
-    name: "5.1 — rozgraniczenie 9"
+  - id: "tf-s05-51-q9b"
+    type: "truefalse"
+    name: "tf-s05-51-q9b"
     text: "Zagadnienie „5.1.10. Zasada: zdrowie zawodnika ponad wynik sportowy” jest elementem zagadnienia „5.1.9. Higiena w szatni, na zgrupowaniu, w podróży”, a nie tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: false
-  - type: truefalse
-    name: "5.1 — zagadnienie 10"
+  - id: "tf-s05-51-q10"
+    type: "truefalse"
+    name: "tf-s05-51-q10"
     text: "Zagadnienie „5.1.10. Zasada: zdrowie zawodnika ponad wynik sportowy” wchodzi w zakres tematu „Wprowadzenie do masażu sportowego” (5.1)."
     answer: true
-  - type: multichoice
-    name: "5.1 — przyporządkowanie zagadnienia"
+  - id: "mc-s05-51"
+    type: "multichoice"
+    name: "mc-s05-51"
     text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
     answers:
-      - text: "5.1.1. Rola masażu w treningu i regeneracji"  fraction: 100
-      - text: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"  fraction: 0
-      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"  fraction: 0
-      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"  fraction: 0
+      - text: "5.1.1. Rola masażu w treningu i regeneracji"
+        fraction: 100
+      - text: "5.1.2. Masaż sportowy jako wsparcie, nie leczenie kontuzji"
+        fraction: 0
+      - text: "5.1.3. Współpraca z trenerem, lekarzem sportowym, fizjoterapeutą"
+        fraction: 0
+      - text: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"
+        fraction: 0
+      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"
+        fraction: 0
+      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"
+        fraction: 0
+  - id: "mc-s05-51-q1"
+    type: "multichoice"
+    name: "mc-s05-51-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.1 Rola masazu w treningu i regeneracji"
+        fraction: 100
+      - text: "Tkanka podskorna"
+        fraction: 0
+      - text: "Wywiad bolowy: lokalizacja, nasilenie, charakter, promieniowanie"
+        fraction: 0
+      - text: "Intymnosc i okrycie"
+        fraction: 0
+  - id: "mc-s05-51-q2"
+    type: "multichoice"
+    name: "mc-s05-51-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.2 Masaz sportowy jako wsparcie, nie leczenie kontuzji"
+        fraction: 100
+      - text: "Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 0
+      - text: "Wywiad funkcjonalny: chod, sen, praca, aktywnosc"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s05-51-q3"
+    type: "multichoice"
+    name: "mc-s05-51-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.3 Wspolpraca z trenerem, lekarzem sportowym, fizjoterapeuta"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s05-51-q4"
+    type: "multichoice"
+    name: "mc-s05-51-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.4 Granice: masazysta nie decyduje o starcie zawodnika"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s05-51-q5"
+    type: "multichoice"
+    name: "mc-s05-51-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.5 Etyka wobec zawodnika: prawda, brak presji, ochrona zdrowia"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s05-51-q6"
+    type: "multichoice"
+    name: "mc-s05-51-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.6 Ochrona maloletnich sportowcow"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s05-51-q7"
+    type: "multichoice"
+    name: "mc-s05-51-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.7 Dokumentacja sportowa i RODO"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s05-51-q8"
+    type: "multichoice"
+    name: "mc-s05-51-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.8 Bezpieczenstwo w warunkach polowych"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s05-51-q9"
+    type: "multichoice"
+    name: "mc-s05-51-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.9 Higiena w szatni, na zgrupowaniu, w podrozy"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s05-51-q10"
+    type: "multichoice"
+    name: "mc-s05-51-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do masażu sportowego” (5.1)?"
+    answers:
+      - text: "5.1.10 Zasada: zdrowie zawodnika ponad wynik sportowy"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Brak sprzetu jako przewaga dostepnosci"
+        fraction: 0

@@ -5,3 +5,10 @@ visible: 1
 summary:
   format: markdown
   markdown_file: page.md
+modules:
+  - type: book
+    ref: book-01-regulamin-zajec-i-zasad-oceny
+    name: "Regulamin zajęć i zasady oceniania"
+  - type: book
+    ref: book-02-harmonogram-i-terminarz
+    name: "Harmonogram i terminarz kursu"

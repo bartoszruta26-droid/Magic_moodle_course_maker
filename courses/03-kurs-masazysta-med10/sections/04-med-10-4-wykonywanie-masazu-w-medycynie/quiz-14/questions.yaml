@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.14. Masaż punktowy"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.14 — zagadnienie 1"
+  - id: "tf-s04-414-q1"
+    type: "truefalse"
+    name: "tf-s04-414-q1"
     text: "Zagadnienie „4.14.1. Punkty spustowe aktywne i utajone” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 1"
+  - id: "tf-s04-414-q1b"
+    type: "truefalse"
+    name: "tf-s04-414-q1b"
     text: "Zagadnienie „4.14.2. Palpacja punktów” jest elementem zagadnienia „4.14.1. Punkty spustowe aktywne i utajone”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 2"
+  - id: "tf-s04-414-q2"
+    type: "truefalse"
+    name: "tf-s04-414-q2"
     text: "Zagadnienie „4.14.2. Palpacja punktów” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 2"
+  - id: "tf-s04-414-q2b"
+    type: "truefalse"
+    name: "tf-s04-414-q2b"
     text: "Zagadnienie „4.14.3. Kompresja ischemiczna” jest elementem zagadnienia „4.14.2. Palpacja punktów”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 3"
+  - id: "tf-s04-414-q3"
+    type: "truefalse"
+    name: "tf-s04-414-q3"
     text: "Zagadnienie „4.14.3. Kompresja ischemiczna” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 3"
+  - id: "tf-s04-414-q3b"
+    type: "truefalse"
+    name: "tf-s04-414-q3b"
     text: "Zagadnienie „4.14.4. Stretching po kompresji” jest elementem zagadnienia „4.14.3. Kompresja ischemiczna”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 4"
+  - id: "tf-s04-414-q4"
+    type: "truefalse"
+    name: "tf-s04-414-q4"
     text: "Zagadnienie „4.14.4. Stretching po kompresji” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 4"
+  - id: "tf-s04-414-q4b"
+    type: "truefalse"
+    name: "tf-s04-414-q4b"
     text: "Zagadnienie „4.14.5. Oddychanie pacjenta” jest elementem zagadnienia „4.14.4. Stretching po kompresji”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 5"
+  - id: "tf-s04-414-q5"
+    type: "truefalse"
+    name: "tf-s04-414-q5"
     text: "Zagadnienie „4.14.5. Oddychanie pacjenta” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 5"
+  - id: "tf-s04-414-q5b"
+    type: "truefalse"
+    name: "tf-s04-414-q5b"
     text: "Zagadnienie „4.14.6. Granica bólu” jest elementem zagadnienia „4.14.5. Oddychanie pacjenta”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 6"
+  - id: "tf-s04-414-q6"
+    type: "truefalse"
+    name: "tf-s04-414-q6"
     text: "Zagadnienie „4.14.6. Granica bólu” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 6"
+  - id: "tf-s04-414-q6b"
+    type: "truefalse"
+    name: "tf-s04-414-q6b"
     text: "Zagadnienie „4.14.7. Ryzyko nasilenia bólu” jest elementem zagadnienia „4.14.6. Granica bólu”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 7"
+  - id: "tf-s04-414-q7"
+    type: "truefalse"
+    name: "tf-s04-414-q7"
     text: "Zagadnienie „4.14.7. Ryzyko nasilenia bólu” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 7"
+  - id: "tf-s04-414-q7b"
+    type: "truefalse"
+    name: "tf-s04-414-q7b"
     text: "Zagadnienie „4.14.8. Dokumentacja reakcji” jest elementem zagadnienia „4.14.7. Ryzyko nasilenia bólu”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 8"
+  - id: "tf-s04-414-q8"
+    type: "truefalse"
+    name: "tf-s04-414-q8"
     text: "Zagadnienie „4.14.8. Dokumentacja reakcji” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 8"
+  - id: "tf-s04-414-q8b"
+    type: "truefalse"
+    name: "tf-s04-414-q8b"
     text: "Zagadnienie „4.14.9. Przeciwwskazania” jest elementem zagadnienia „4.14.8. Dokumentacja reakcji”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 9"
+  - id: "tf-s04-414-q9"
+    type: "truefalse"
+    name: "tf-s04-414-q9"
     text: "Zagadnienie „4.14.9. Przeciwwskazania” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: truefalse
-    name: "4.14 — rozgraniczenie 9"
+  - id: "tf-s04-414-q9b"
+    type: "truefalse"
+    name: "tf-s04-414-q9b"
     text: "Zagadnienie „4.14.10. Zastosowanie w bólach mięśniowo-powięziowych” jest elementem zagadnienia „4.14.9. Przeciwwskazania”, a nie tematu „Masaż punktowy” (4.14)."
     answer: false
-  - type: truefalse
-    name: "4.14 — zagadnienie 10"
+  - id: "tf-s04-414-q10"
+    type: "truefalse"
+    name: "tf-s04-414-q10"
     text: "Zagadnienie „4.14.10. Zastosowanie w bólach mięśniowo-powięziowych” wchodzi w zakres tematu „Masaż punktowy” (4.14)."
     answer: true
-  - type: multichoice
-    name: "4.14 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-414"
+    type: "multichoice"
+    name: "mc-s04-414"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
     answers:
-      - text: "4.14.1. Punkty spustowe aktywne i utajone"  fraction: 100
-      - text: "2.5.10. Rejestr zdarzeń niepożądanych"  fraction: 0
-      - text: "3.18.10. Dokumentacja i planowanie kolejnych zabiegów"  fraction: 0
-      - text: "5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku"  fraction: 0
+      - text: "4.14.1. Punkty spustowe aktywne i utajone"
+        fraction: 100
+      - text: "4.14.2. Palpacja punktów"
+        fraction: 0
+      - text: "4.14.3. Kompresja ischemiczna"
+        fraction: 0
+      - text: "2.5.10. Rejestr zdarzeń niepożądanych"
+        fraction: 0
+      - text: "3.18.10. Dokumentacja i planowanie kolejnych zabiegów"
+        fraction: 0
+      - text: "5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku"
+        fraction: 0
+  - id: "mc-s04-414-q1"
+    type: "multichoice"
+    name: "mc-s04-414-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.1 Punkty spustowe aktywne i utajone"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s04-414-q2"
+    type: "multichoice"
+    name: "mc-s04-414-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.2 Palpacja punktow"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s04-414-q3"
+    type: "multichoice"
+    name: "mc-s04-414-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.3 Kompresja ischemiczna"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s04-414-q4"
+    type: "multichoice"
+    name: "mc-s04-414-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.4 Stretching po kompresji"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-414-q5"
+    type: "multichoice"
+    name: "mc-s04-414-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.5 Oddychanie pacjenta"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-414-q6"
+    type: "multichoice"
+    name: "mc-s04-414-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.6 Granica bolu"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s04-414-q7"
+    type: "multichoice"
+    name: "mc-s04-414-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.7 Ryzyko nasilenia bolu"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s04-414-q8"
+    type: "multichoice"
+    name: "mc-s04-414-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.8 Dokumentacja reakcji"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Podstawy higieny snu"
+        fraction: 0
+  - id: "mc-s04-414-q9"
+    type: "multichoice"
+    name: "mc-s04-414-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.9 Przeciwwskazania"
+        fraction: 100
+      - text: "Skurcz izometryczny i izotoniczny"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Podstawy pielegnacji skory"
+        fraction: 0
+  - id: "mc-s04-414-q10"
+    type: "multichoice"
+    name: "mc-s04-414-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż punktowy” (4.14)?"
+    answers:
+      - text: "4.14.10 Zastosowanie w bolach miesniowo-powieziowych"
+        fraction: 100
+      - text: "Talk"
+        fraction: 0
+      - text: "Kompresjoterapia"
+        fraction: 0
+      - text: "Connective tissue massage"
+        fraction: 0

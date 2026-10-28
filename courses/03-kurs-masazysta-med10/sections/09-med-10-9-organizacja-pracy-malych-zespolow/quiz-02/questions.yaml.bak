@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "9.2. Dobór osób do zadań"
+category: masaz
+questions:
+  - type: truefalse
+    name: "9.2 — zagadnienie 1"
+    text: "Zagadnienie „9.2.1. Identyfikacja kompetencji członków zespołu” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 1"
+    text: "Zagadnienie „9.2.2. Umiejętności praktyczne” jest elementem zagadnienia „9.2.1. Identyfikacja kompetencji członków zespołu”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 2"
+    text: "Zagadnienie „9.2.2. Umiejętności praktyczne” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 2"
+    text: "Zagadnienie „9.2.3. Kompetencje komunikacyjne” jest elementem zagadnienia „9.2.2. Umiejętności praktyczne”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 3"
+    text: "Zagadnienie „9.2.3. Kompetencje komunikacyjne” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 3"
+    text: "Zagadnienie „9.2.4. Odpowiedzialność i rzetelność” jest elementem zagadnienia „9.2.3. Kompetencje komunikacyjne”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 4"
+    text: "Zagadnienie „9.2.4. Odpowiedzialność i rzetelność” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 4"
+    text: "Zagadnienie „9.2.5. Rozpoznawanie mocnych stron” jest elementem zagadnienia „9.2.4. Odpowiedzialność i rzetelność”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 5"
+    text: "Zagadnienie „9.2.5. Rozpoznawanie mocnych stron” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 5"
+    text: "Zagadnienie „9.2.6. Rozpoznawanie ograniczeń” jest elementem zagadnienia „9.2.5. Rozpoznawanie mocnych stron”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 6"
+    text: "Zagadnienie „9.2.6. Rozpoznawanie ograniczeń” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 6"
+    text: "Zagadnienie „9.2.7. Delegowanie zadań” jest elementem zagadnienia „9.2.6. Rozpoznawanie ograniczeń”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 7"
+    text: "Zagadnienie „9.2.7. Delegowanie zadań” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 7"
+    text: "Zagadnienie „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje” jest elementem zagadnienia „9.2.7. Delegowanie zadań”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 8"
+    text: "Zagadnienie „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 8"
+    text: "Zagadnienie „9.2.9. Wsparcie słabszych członków zespołu” jest elementem zagadnienia „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 9"
+    text: "Zagadnienie „9.2.9. Wsparcie słabszych członków zespołu” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: truefalse
+    name: "9.2 — rozgraniczenie 9"
+    text: "Zagadnienie „9.2.10. Sprawiedliwy podział pracy” jest elementem zagadnienia „9.2.9. Wsparcie słabszych członków zespołu”, a nie tematu „Dobór osób do zadań” (9.2)."
+    answer: false
+  - type: truefalse
+    name: "9.2 — zagadnienie 10"
+    text: "Zagadnienie „9.2.10. Sprawiedliwy podział pracy” wchodzi w zakres tematu „Dobór osób do zadań” (9.2)."
+    answer: true
+  - type: multichoice
+    name: "9.2 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)?"
+    answers:
+      - text: "9.2.1. Identyfikacja kompetencji członków zespołu"  fraction: 100
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"  fraction: 0

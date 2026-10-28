@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.22 — zagadnienie 1"
+  - id: "tf-s04-422-q1"
+    type: "truefalse"
+    name: "tf-s04-422-q1"
     text: "Zagadnienie „4.22.1. Budowa i zasada działania urządzenia” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 1"
+  - id: "tf-s04-422-q1b"
+    type: "truefalse"
+    name: "tf-s04-422-q1b"
     text: "Zagadnienie „4.22.2. Przygotowanie stanowiska” jest elementem zagadnienia „4.22.1. Budowa i zasada działania urządzenia”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 2"
+  - id: "tf-s04-422-q2"
+    type: "truefalse"
+    name: "tf-s04-422-q2"
     text: "Zagadnienie „4.22.2. Przygotowanie stanowiska” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 2"
+  - id: "tf-s04-422-q2b"
+    type: "truefalse"
+    name: "tf-s04-422-q2b"
     text: "Zagadnienie „4.22.3. Dobór głowic” jest elementem zagadnienia „4.22.2. Przygotowanie stanowiska”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 3"
+  - id: "tf-s04-422-q3"
+    type: "truefalse"
+    name: "tf-s04-422-q3"
     text: "Zagadnienie „4.22.3. Dobór głowic” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 3"
+  - id: "tf-s04-422-q3b"
+    type: "truefalse"
+    name: "tf-s04-422-q3b"
     text: "Zagadnienie „4.22.4. Kierunek i tempo” jest elementem zagadnienia „4.22.3. Dobór głowic”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 4"
+  - id: "tf-s04-422-q4"
+    type: "truefalse"
+    name: "tf-s04-422-q4"
     text: "Zagadnienie „4.22.4. Kierunek i tempo” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 4"
+  - id: "tf-s04-422-q4b"
+    type: "truefalse"
+    name: "tf-s04-422-q4b"
     text: "Zagadnienie „4.22.5. Siła docisku” jest elementem zagadnienia „4.22.4. Kierunek i tempo”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 5"
+  - id: "tf-s04-422-q5"
+    type: "truefalse"
+    name: "tf-s04-422-q5"
     text: "Zagadnienie „4.22.5. Siła docisku” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 5"
+  - id: "tf-s04-422-q5b"
+    type: "truefalse"
+    name: "tf-s04-422-q5b"
     text: "Zagadnienie „4.22.6. Czas na jednej okolicy” jest elementem zagadnienia „4.22.5. Siła docisku”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 6"
+  - id: "tf-s04-422-q6"
+    type: "truefalse"
+    name: "tf-s04-422-q6"
     text: "Zagadnienie „4.22.6. Czas na jednej okolicy” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 6"
+  - id: "tf-s04-422-q6b"
+    type: "truefalse"
+    name: "tf-s04-422-q6b"
     text: "Zagadnienie „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne” jest elementem zagadnienia „4.22.6. Czas na jednej okolicy”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 7"
+  - id: "tf-s04-422-q7"
+    type: "truefalse"
+    name: "tf-s04-422-q7"
     text: "Zagadnienie „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 7"
+  - id: "tf-s04-422-q7b"
+    type: "truefalse"
+    name: "tf-s04-422-q7b"
     text: "Zagadnienie „4.22.8. Bezpieczeństwo pacjenta i masażysty” jest elementem zagadnienia „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 8"
+  - id: "tf-s04-422-q8"
+    type: "truefalse"
+    name: "tf-s04-422-q8"
     text: "Zagadnienie „4.22.8. Bezpieczeństwo pacjenta i masażysty” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 8"
+  - id: "tf-s04-422-q8b"
+    type: "truefalse"
+    name: "tf-s04-422-q8b"
     text: "Zagadnienie „4.22.9. Konserwacja i dezynfekcja urządzenia” jest elementem zagadnienia „4.22.8. Bezpieczeństwo pacjenta i masażysty”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 9"
+  - id: "tf-s04-422-q9"
+    type: "truefalse"
+    name: "tf-s04-422-q9"
     text: "Zagadnienie „4.22.9. Konserwacja i dezynfekcja urządzenia” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: truefalse
-    name: "4.22 — rozgraniczenie 9"
+  - id: "tf-s04-422-q9b"
+    type: "truefalse"
+    name: "tf-s04-422-q9b"
     text: "Zagadnienie „4.22.10. Dokumentacja parametrów” jest elementem zagadnienia „4.22.9. Konserwacja i dezynfekcja urządzenia”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: false
-  - type: truefalse
-    name: "4.22 — zagadnienie 10"
+  - id: "tf-s04-422-q10"
+    type: "truefalse"
+    name: "tf-s04-422-q10"
     text: "Zagadnienie „4.22.10. Dokumentacja parametrów” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)."
     answer: true
-  - type: multichoice
-    name: "4.22 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-422"
+    type: "multichoice"
+    name: "mc-s04-422"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
     answers:
-      - text: "4.22.1. Budowa i zasada działania urządzenia"  fraction: 100
-      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"  fraction: 0
-      - text: "3.18.9. Kiedy reakcja jest alarmowa"  fraction: 0
-      - text: "5.8.9. Dokumentacja zdarzeń niepożądanych"  fraction: 0
+      - text: "4.22.1. Budowa i zasada działania urządzenia"
+        fraction: 100
+      - text: "4.22.2. Przygotowanie stanowiska"
+        fraction: 0
+      - text: "4.22.3. Dobór głowic"
+        fraction: 0
+      - text: "2.5.9. Dokumentacja elektroniczna i papierowa"
+        fraction: 0
+      - text: "3.18.9. Kiedy reakcja jest alarmowa"
+        fraction: 0
+      - text: "5.8.9. Dokumentacja zdarzeń niepożądanych"
+        fraction: 0
+  - id: "mc-s04-422-q1"
+    type: "multichoice"
+    name: "mc-s04-422-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.1 Budowa i zasada dzialania urzadzenia"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s04-422-q2"
+    type: "multichoice"
+    name: "mc-s04-422-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.2 Przygotowanie stanowiska"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s04-422-q3"
+    type: "multichoice"
+    name: "mc-s04-422-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.3 Dobor glowic"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s04-422-q4"
+    type: "multichoice"
+    name: "mc-s04-422-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.4 Kierunek i tempo"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s04-422-q5"
+    type: "multichoice"
+    name: "mc-s04-422-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.5 Sila docisku"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-422-q6"
+    type: "multichoice"
+    name: "mc-s04-422-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.6 Czas na jednej okolicy"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-422-q7"
+    type: "multichoice"
+    name: "mc-s04-422-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.7 Przeciwwskazania: osteoporoza, rozrusznik, ciaza, zmiany skorne"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s04-422-q8"
+    type: "multichoice"
+    name: "mc-s04-422-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.8 Bezpieczenstwo pacjenta i masazysty"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o ciele bez wstydu"
+        fraction: 0
+  - id: "mc-s04-422-q9"
+    type: "multichoice"
+    name: "mc-s04-422-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.9 Konserwacja i dezynfekcja urzadzenia"
+        fraction: 100
+      - text: "Dokumentacja palpacyjna bez stawiania rozpoznan"
+        fraction: 0
+      - text: "Masaz grzbietu"
+        fraction: 0
+      - text: "Jak motywowac bez manipulacji"
+        fraction: 0
+  - id: "mc-s04-422-q10"
+    type: "multichoice"
+    name: "mc-s04-422-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)?"
+    answers:
+      - text: "4.22.10 Dokumentacja parametrow"
+        fraction: 100
+      - text: "Dokumentacja zastosowanych parametrow"
+        fraction: 0
+      - text: "Autodrenaz pacjenta"
+        fraction: 0
+      - text: "Lymphatic drainage"
+        fraction: 0

@@ -1,0 +1,49 @@
+// Quiz: 4.15. Refleksoterapia stóp — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-415-q1:: Zagadnienie „4.15.1. Podstawy refleksologii” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q1b:: Zagadnienie „4.15.2. Mapy stóp” jest elementem zagadnienia „4.15.1. Podstawy refleksologii”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q2:: Zagadnienie „4.15.2. Mapy stóp” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q2b:: Zagadnienie „4.15.3. Techniki kciuka i palców” jest elementem zagadnienia „4.15.2. Mapy stóp”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q3:: Zagadnienie „4.15.3. Techniki kciuka i palców” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q3b:: Zagadnienie „4.15.4. Delikatność i ból” jest elementem zagadnienia „4.15.3. Techniki kciuka i palców”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q4:: Zagadnienie „4.15.4. Delikatność i ból” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q4b:: Zagadnienie „4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia” jest elementem zagadnienia „4.15.4. Delikatność i ból”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q5:: Zagadnienie „4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q5b:: Zagadnienie „4.15.6. Higiena stóp” jest elementem zagadnienia „4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q6:: Zagadnienie „4.15.6. Higiena stóp” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q6b:: Zagadnienie „4.15.7. Czas zabiegu” jest elementem zagadnienia „4.15.6. Higiena stóp”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q7:: Zagadnienie „4.15.7. Czas zabiegu” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q7b:: Zagadnienie „4.15.8. Reakcje pacjenta” jest elementem zagadnienia „4.15.7. Czas zabiegu”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q8:: Zagadnienie „4.15.8. Reakcje pacjenta” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q8b:: Zagadnienie „4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej” jest elementem zagadnienia „4.15.8. Reakcje pacjenta”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q9:: Zagadnienie „4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::tf-s04-415-q9b:: Zagadnienie „4.15.10. Dokumentacja i zgoda” jest elementem zagadnienia „4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej”, a nie tematu „Refleksoterapia stóp” (4.15). {FALSE} //
+
+::tf-s04-415-q10:: Zagadnienie „4.15.10. Dokumentacja i zgoda” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15). {TRUE} //
+
+::mc-s04-415:: Które zagadnienie należy bezpośrednio do tematu „Refleksoterapia stóp” (4.15)? {
+    = 4.15.1. Podstawy refleksologii
+    ~ 4.15.2. Mapy stóp
+    ~ 4.15.3. Techniki kciuka i palców
+    ~ 2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby
+    ~ 3.19.1. Lekarz specjalista
+    ~ 6.1.1. Zdrowie jako dobro i zadanie
+}

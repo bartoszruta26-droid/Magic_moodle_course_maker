@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "8.4. Odpowiedzialność za podejmowane działania"
 category: masaz
 questions:
-  - type: truefalse
-    name: "8.4 — zagadnienie 1"
+  - id: "tf-s08-84-q1"
+    type: "truefalse"
+    name: "tf-s08-84-q1"
     text: "Zagadnienie „8.4.1. Reguły i procedury zabiegowe” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 1"
+  - id: "tf-s08-84-q1b"
+    type: "truefalse"
+    name: "tf-s08-84-q1b"
     text: "Zagadnienie „8.4.2. Obszary odpowiedzialności prawnej” jest elementem zagadnienia „8.4.1. Reguły i procedury zabiegowe”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 2"
+  - id: "tf-s08-84-q2"
+    type: "truefalse"
+    name: "tf-s08-84-q2"
     text: "Zagadnienie „8.4.2. Obszary odpowiedzialności prawnej” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 2"
+  - id: "tf-s08-84-q2b"
+    type: "truefalse"
+    name: "tf-s08-84-q2b"
     text: "Zagadnienie „8.4.3. Prawa pacjenta” jest elementem zagadnienia „8.4.2. Obszary odpowiedzialności prawnej”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 3"
+  - id: "tf-s08-84-q3"
+    type: "truefalse"
+    name: "tf-s08-84-q3"
     text: "Zagadnienie „8.4.3. Prawa pacjenta” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 3"
+  - id: "tf-s08-84-q3b"
+    type: "truefalse"
+    name: "tf-s08-84-q3b"
     text: "Zagadnienie „8.4.4. Obowiązek informowania” jest elementem zagadnienia „8.4.3. Prawa pacjenta”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 4"
+  - id: "tf-s08-84-q4"
+    type: "truefalse"
+    name: "tf-s08-84-q4"
     text: "Zagadnienie „8.4.4. Obowiązek informowania” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 4"
+  - id: "tf-s08-84-q4b"
+    type: "truefalse"
+    name: "tf-s08-84-q4b"
     text: "Zagadnienie „8.4.5. Obowiązek dokumentowania” jest elementem zagadnienia „8.4.4. Obowiązek informowania”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 5"
+  - id: "tf-s08-84-q5"
+    type: "truefalse"
+    name: "tf-s08-84-q5"
     text: "Zagadnienie „8.4.5. Obowiązek dokumentowania” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 5"
+  - id: "tf-s08-84-q5b"
+    type: "truefalse"
+    name: "tf-s08-84-q5b"
     text: "Zagadnienie „8.4.6. Obowiązek zgłaszania zdarzeń niepożądanych” jest elementem zagadnienia „8.4.5. Obowiązek dokumentowania”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 6"
+  - id: "tf-s08-84-q6"
+    type: "truefalse"
+    name: "tf-s08-84-q6"
     text: "Zagadnienie „8.4.6. Obowiązek zgłaszania zdarzeń niepożądanych” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 6"
+  - id: "tf-s08-84-q6b"
+    type: "truefalse"
+    name: "tf-s08-84-q6b"
     text: "Zagadnienie „8.4.7. Odpowiedzialność za sprzęt i środki” jest elementem zagadnienia „8.4.6. Obowiązek zgłaszania zdarzeń niepożądanych”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 7"
+  - id: "tf-s08-84-q7"
+    type: "truefalse"
+    name: "tf-s08-84-q7"
     text: "Zagadnienie „8.4.7. Odpowiedzialność za sprzęt i środki” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 7"
+  - id: "tf-s08-84-q7b"
+    type: "truefalse"
+    name: "tf-s08-84-q7b"
     text: "Zagadnienie „8.4.8. Odpowiedzialność za współpracowników” jest elementem zagadnienia „8.4.7. Odpowiedzialność za sprzęt i środki”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 8"
+  - id: "tf-s08-84-q8"
+    type: "truefalse"
+    name: "tf-s08-84-q8"
     text: "Zagadnienie „8.4.8. Odpowiedzialność za współpracowników” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 8"
+  - id: "tf-s08-84-q8b"
+    type: "truefalse"
+    name: "tf-s08-84-q8b"
     text: "Zagadnienie „8.4.9. Odpowiedzialność wobec własnego zdrowia” jest elementem zagadnienia „8.4.8. Odpowiedzialność za współpracowników”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 9"
+  - id: "tf-s08-84-q9"
+    type: "truefalse"
+    name: "tf-s08-84-q9"
     text: "Zagadnienie „8.4.9. Odpowiedzialność wobec własnego zdrowia” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: truefalse
-    name: "8.4 — rozgraniczenie 9"
+  - id: "tf-s08-84-q9b"
+    type: "truefalse"
+    name: "tf-s08-84-q9b"
     text: "Zagadnienie „8.4.10. Rachunek sumienia zawodowy” jest elementem zagadnienia „8.4.9. Odpowiedzialność wobec własnego zdrowia”, a nie tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: false
-  - type: truefalse
-    name: "8.4 — zagadnienie 10"
+  - id: "tf-s08-84-q10"
+    type: "truefalse"
+    name: "tf-s08-84-q10"
     text: "Zagadnienie „8.4.10. Rachunek sumienia zawodowy” wchodzi w zakres tematu „Odpowiedzialność za podejmowane działania” (8.4)."
     answer: true
-  - type: multichoice
-    name: "8.4 — przyporządkowanie zagadnienia"
+  - id: "mc-s08-84"
+    type: "multichoice"
+    name: "mc-s08-84"
     text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
     answers:
-      - text: "8.4.1. Reguły i procedury zabiegowe"  fraction: 100
-      - text: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"  fraction: 0
-      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"  fraction: 0
-      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"  fraction: 0
+      - text: "8.4.1. Reguły i procedury zabiegowe"
+        fraction: 100
+      - text: "8.4.2. Obszary odpowiedzialności prawnej"
+        fraction: 0
+      - text: "8.4.3. Prawa pacjenta"
+        fraction: 0
+      - text: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"
+        fraction: 0
+      - text: "3.14.5. Higiena wanny i ryzyko zakażeń"
+        fraction: 0
+      - text: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"
+        fraction: 0
+  - id: "mc-s08-84-q1"
+    type: "multichoice"
+    name: "mc-s08-84-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.1 Reguly i procedury zabiegowe"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s08-84-q2"
+    type: "multichoice"
+    name: "mc-s08-84-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.2 Obszary odpowiedzialnosci prawnej"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s08-84-q3"
+    type: "multichoice"
+    name: "mc-s08-84-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.3 Prawa pacjenta"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s08-84-q4"
+    type: "multichoice"
+    name: "mc-s08-84-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.4 Obowiazek informowania"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s08-84-q5"
+    type: "multichoice"
+    name: "mc-s08-84-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.5 Obowiazek dokumentowania"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s08-84-q6"
+    type: "multichoice"
+    name: "mc-s08-84-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.6 Obowiazek zglaszania zdarzen niepozadanych"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s08-84-q7"
+    type: "multichoice"
+    name: "mc-s08-84-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.7 Odpowiedzialnosc za sprzet i srodki"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s08-84-q8"
+    type: "multichoice"
+    name: "mc-s08-84-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.8 Odpowiedzialnosc za wspolpracownikow"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-84-q9"
+    type: "multichoice"
+    name: "mc-s08-84-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.9 Odpowiedzialnosc wobec wlasnego zdrowia"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s08-84-q10"
+    type: "multichoice"
+    name: "mc-s08-84-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Odpowiedzialność za podejmowane działania” (8.4)?"
+    answers:
+      - text: "8.4.10 Rachunek sumienia zawodowy"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Kliny, walki, polwalki, poduszki"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0

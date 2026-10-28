@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "4.15. Refleksoterapia stóp"
+category: masaz
+questions:
+  - type: truefalse
+    name: "4.15 — zagadnienie 1"
+    text: "Zagadnienie „4.15.1. Podstawy refleksologii” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 1"
+    text: "Zagadnienie „4.15.2. Mapy stóp” jest elementem zagadnienia „4.15.1. Podstawy refleksologii”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 2"
+    text: "Zagadnienie „4.15.2. Mapy stóp” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 2"
+    text: "Zagadnienie „4.15.3. Techniki kciuka i palców” jest elementem zagadnienia „4.15.2. Mapy stóp”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 3"
+    text: "Zagadnienie „4.15.3. Techniki kciuka i palców” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 3"
+    text: "Zagadnienie „4.15.4. Delikatność i ból” jest elementem zagadnienia „4.15.3. Techniki kciuka i palców”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 4"
+    text: "Zagadnienie „4.15.4. Delikatność i ból” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 4"
+    text: "Zagadnienie „4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia” jest elementem zagadnienia „4.15.4. Delikatność i ból”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 5"
+    text: "Zagadnienie „4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 5"
+    text: "Zagadnienie „4.15.6. Higiena stóp” jest elementem zagadnienia „4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 6"
+    text: "Zagadnienie „4.15.6. Higiena stóp” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 6"
+    text: "Zagadnienie „4.15.7. Czas zabiegu” jest elementem zagadnienia „4.15.6. Higiena stóp”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 7"
+    text: "Zagadnienie „4.15.7. Czas zabiegu” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 7"
+    text: "Zagadnienie „4.15.8. Reakcje pacjenta” jest elementem zagadnienia „4.15.7. Czas zabiegu”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 8"
+    text: "Zagadnienie „4.15.8. Reakcje pacjenta” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 8"
+    text: "Zagadnienie „4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej” jest elementem zagadnienia „4.15.8. Reakcje pacjenta”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 9"
+    text: "Zagadnienie „4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: truefalse
+    name: "4.15 — rozgraniczenie 9"
+    text: "Zagadnienie „4.15.10. Dokumentacja i zgoda” jest elementem zagadnienia „4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej”, a nie tematu „Refleksoterapia stóp” (4.15)."
+    answer: false
+  - type: truefalse
+    name: "4.15 — zagadnienie 10"
+    text: "Zagadnienie „4.15.10. Dokumentacja i zgoda” wchodzi w zakres tematu „Refleksoterapia stóp” (4.15)."
+    answer: true
+  - type: multichoice
+    name: "4.15 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Refleksoterapia stóp” (4.15)?"
+    answers:
+      - text: "4.15.1. Podstawy refleksologii"  fraction: 100
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 0
+      - text: "3.19.1. Lekarz specjalista"  fraction: 0
+      - text: "6.1.1. Zdrowie jako dobro i zadanie"  fraction: 0

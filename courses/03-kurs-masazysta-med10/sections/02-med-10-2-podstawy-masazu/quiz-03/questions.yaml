@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "2.3. Miejsce i rola zawodu w systemie ochrony zdrowia"
 category: masaz
 questions:
-  - type: truefalse
-    name: "2.3 — zagadnienie 1"
+  - id: "tf-s02-23-q1"
+    type: "truefalse"
+    name: "tf-s02-23-q1"
     text: "Zagadnienie „2.3.1. Podmiot leczniczy publiczny i niepubliczny” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 1"
+  - id: "tf-s02-23-q1b"
+    type: "truefalse"
+    name: "tf-s02-23-q1b"
     text: "Zagadnienie „2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y” jest elementem zagadnienia „2.3.1. Podmiot leczniczy publiczny i niepubliczny”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 2"
+  - id: "tf-s02-23-q2"
+    type: "truefalse"
+    name: "tf-s02-23-q2"
     text: "Zagadnienie „2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 2"
+  - id: "tf-s02-23-q2b"
+    type: "truefalse"
+    name: "tf-s02-23-q2b"
     text: "Zagadnienie „2.3.3. Gabinety masażu i działalności lecznicze” jest elementem zagadnienia „2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 3"
+  - id: "tf-s02-23-q3"
+    type: "truefalse"
+    name: "tf-s02-23-q3"
     text: "Zagadnienie „2.3.3. Gabinety masażu i działalności lecznicze” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 3"
+  - id: "tf-s02-23-q3b"
+    type: "truefalse"
+    name: "tf-s02-23-q3b"
     text: "Zagadnienie „2.3.4. Sportowe ośrodki medyczne i kluby” jest elementem zagadnienia „2.3.3. Gabinety masażu i działalności lecznicze”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 4"
+  - id: "tf-s02-23-q4"
+    type: "truefalse"
+    name: "tf-s02-23-q4"
     text: "Zagadnienie „2.3.4. Sportowe ośrodki medyczne i kluby” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 4"
+  - id: "tf-s02-23-q4b"
+    type: "truefalse"
+    name: "tf-s02-23-q4b"
     text: "Zagadnienie „2.3.5. Opieka długoterminowa i paliatywna” jest elementem zagadnienia „2.3.4. Sportowe ośrodki medyczne i kluby”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 5"
+  - id: "tf-s02-23-q5"
+    type: "truefalse"
+    name: "tf-s02-23-q5"
     text: "Zagadnienie „2.3.5. Opieka długoterminowa i paliatywna” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 5"
+  - id: "tf-s02-23-q5b"
+    type: "truefalse"
+    name: "tf-s02-23-q5b"
     text: "Zagadnienie „2.3.6. Rola masażysty w zespole terapeutycznym” jest elementem zagadnienia „2.3.5. Opieka długoterminowa i paliatywna”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 6"
+  - id: "tf-s02-23-q6"
+    type: "truefalse"
+    name: "tf-s02-23-q6"
     text: "Zagadnienie „2.3.6. Rola masażysty w zespole terapeutycznym” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 6"
+  - id: "tf-s02-23-q6b"
+    type: "truefalse"
+    name: "tf-s02-23-q6b"
     text: "Zagadnienie „2.3.7. Rola masażysty w profilaktyce zdrowotnej” jest elementem zagadnienia „2.3.6. Rola masażysty w zespole terapeutycznym”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 7"
+  - id: "tf-s02-23-q7"
+    type: "truefalse"
+    name: "tf-s02-23-q7"
     text: "Zagadnienie „2.3.7. Rola masażysty w profilaktyce zdrowotnej” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 7"
+  - id: "tf-s02-23-q7b"
+    type: "truefalse"
+    name: "tf-s02-23-q7b"
     text: "Zagadnienie „2.3.8. Miejsce zawodu w Unii Europejskiej” jest elementem zagadnienia „2.3.7. Rola masażysty w profilaktyce zdrowotnej”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 8"
+  - id: "tf-s02-23-q8"
+    type: "truefalse"
+    name: "tf-s02-23-q8"
     text: "Zagadnienie „2.3.8. Miejsce zawodu w Unii Europejskiej” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 8"
+  - id: "tf-s02-23-q8b"
+    type: "truefalse"
+    name: "tf-s02-23-q8b"
     text: "Zagadnienie „2.3.9. uznawanie kwalifikacji zawodowych” jest elementem zagadnienia „2.3.8. Miejsce zawodu w Unii Europejskiej”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 9"
+  - id: "tf-s02-23-q9"
+    type: "truefalse"
+    name: "tf-s02-23-q9"
     text: "Zagadnienie „2.3.9. uznawanie kwalifikacji zawodowych” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: truefalse
-    name: "2.3 — rozgraniczenie 9"
+  - id: "tf-s02-23-q9b"
+    type: "truefalse"
+    name: "tf-s02-23-q9b"
     text: "Zagadnienie „2.3.10. Standardy jakości usług zdrowotnych” jest elementem zagadnienia „2.3.9. uznawanie kwalifikacji zawodowych”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: false
-  - type: truefalse
-    name: "2.3 — zagadnienie 10"
+  - id: "tf-s02-23-q10"
+    type: "truefalse"
+    name: "tf-s02-23-q10"
     text: "Zagadnienie „2.3.10. Standardy jakości usług zdrowotnych” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
     answer: true
-  - type: multichoice
-    name: "2.3 — przyporządkowanie zagadnienia"
+  - id: "mc-s02-23"
+    type: "multichoice"
+    name: "mc-s02-23"
     text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
     answers:
-      - text: "2.3.1. Podmiot leczniczy publiczny i niepubliczny"  fraction: 100
-      - text: "1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne"  fraction: 0
-      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"  fraction: 0
-      - text: "5.3.8. Masaż w podróży i po podróży"  fraction: 0
+      - text: "2.3.1. Podmiot leczniczy publiczny i niepubliczny"
+        fraction: 100
+      - text: "2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y"
+        fraction: 0
+      - text: "2.3.3. Gabinety masażu i działalności lecznicze"
+        fraction: 0
+      - text: "1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne"
+        fraction: 0
+      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"
+        fraction: 0
+      - text: "5.3.8. Masaż w podróży i po podróży"
+        fraction: 0
+  - id: "mc-s02-23-q1"
+    type: "multichoice"
+    name: "mc-s02-23-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.1 Podmiot leczniczy publiczny i niepubliczny"
+        fraction: 100
+      - text: "Tkanka podskorna"
+        fraction: 0
+      - text: "Wywiad bolowy: lokalizacja, nasilenie, charakter, promieniowanie"
+        fraction: 0
+      - text: "Komfort termiczny"
+        fraction: 0
+  - id: "mc-s02-23-q2"
+    type: "multichoice"
+    name: "mc-s02-23-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 100
+      - text: "Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 0
+      - text: "Wywiad funkcjonalny: chod, sen, praca, aktywnosc"
+        fraction: 0
+      - text: "Intymnosc i okrycie"
+        fraction: 0
+  - id: "mc-s02-23-q3"
+    type: "multichoice"
+    name: "mc-s02-23-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.3 Gabinety masazu i dzialalnosci lecznicze"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s02-23-q4"
+    type: "multichoice"
+    name: "mc-s02-23-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.4 Sportowe osrodki medyczne i kluby"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s02-23-q5"
+    type: "multichoice"
+    name: "mc-s02-23-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.5 Opieka dlugoterminowa i paliatywna"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s02-23-q6"
+    type: "multichoice"
+    name: "mc-s02-23-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.6 Rola masazysty w zespole terapeutycznym"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s02-23-q7"
+    type: "multichoice"
+    name: "mc-s02-23-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.7 Rola masazysty w profilaktyce zdrowotnej"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s02-23-q8"
+    type: "multichoice"
+    name: "mc-s02-23-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.8 Miejsce zawodu w Unii Europejskiej"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s02-23-q9"
+    type: "multichoice"
+    name: "mc-s02-23-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.9 uznawanie kwalifikacji zawodowych"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s02-23-q10"
+    type: "multichoice"
+    name: "mc-s02-23-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.10 Standardy jakosci uslug zdrowotnych"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Dlonie, przedramiona, kciuki"
+        fraction: 0

@@ -1,0 +1,49 @@
+// Quiz: 9.5. Wprowadzanie rozwiązań technicznych i organizacyjnych — moduł 9 (09-med-10-9-organizacja-pracy-malych-zespolow)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s09-95-q1:: Zagadnienie „9.5.1. Analiza warunków pracy” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q1b:: Zagadnienie „9.5.2. Poprawa ergonomii stanowiska” jest elementem zagadnienia „9.5.1. Analiza warunków pracy”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q2:: Zagadnienie „9.5.2. Poprawa ergonomii stanowiska” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q2b:: Zagadnienie „9.5.3. Optymalizacja przepływu pacjentów” jest elementem zagadnienia „9.5.2. Poprawa ergonomii stanowiska”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q3:: Zagadnienie „9.5.3. Optymalizacja przepływu pacjentów” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q3b:: Zagadnienie „9.5.4. Bezpieczne przechowywanie środków” jest elementem zagadnienia „9.5.3. Optymalizacja przepływu pacjentów”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q4:: Zagadnienie „9.5.4. Bezpieczne przechowywanie środków” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q4b:: Zagadnienie „9.5.5. Modernizacja sprzętu” jest elementem zagadnienia „9.5.4. Bezpieczne przechowywanie środków”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q5:: Zagadnienie „9.5.5. Modernizacja sprzętu” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q5b:: Zagadnienie „9.5.6. Standaryzacja procedur” jest elementem zagadnienia „9.5.5. Modernizacja sprzętu”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q6:: Zagadnienie „9.5.6. Standaryzacja procedur” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q6b:: Zagadnienie „9.5.7. Szkolenia wewnętrzne” jest elementem zagadnienia „9.5.6. Standaryzacja procedur”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q7:: Zagadnienie „9.5.7. Szkolenia wewnętrzne” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q7b:: Zagadnienie „9.5.8. Wdrażanie zmian bez chaosu” jest elementem zagadnienia „9.5.7. Szkolenia wewnętrzne”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q8:: Zagadnienie „9.5.8. Wdrażanie zmian bez chaosu” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q8b:: Zagadnienie „9.5.9. Ocena wpływu zmian na jakość” jest elementem zagadnienia „9.5.8. Wdrażanie zmian bez chaosu”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q9:: Zagadnienie „9.5.9. Ocena wpływu zmian na jakość” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::tf-s09-95-q9b:: Zagadnienie „9.5.10. Poszanowanie godności pracowników i pacjentów” jest elementem zagadnienia „9.5.9. Ocena wpływu zmian na jakość”, a nie tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {FALSE} //
+
+::tf-s09-95-q10:: Zagadnienie „9.5.10. Poszanowanie godności pracowników i pacjentów” wchodzi w zakres tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5). {TRUE} //
+
+::mc-s09-95:: Które zagadnienie należy bezpośrednio do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)? {
+    = 9.5.1. Analiza warunków pracy
+    ~ 9.5.2. Poprawa ergonomii stanowiska
+    ~ 9.5.3. Optymalizacja przepływu pacjentów
+    ~ 2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu
+    ~ 3.14.7. Ryzyko poślizgnięcia
+    ~ 5.4.6. Stan zapalny — przeciwwskazanie
+}

@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "3.6. Zaburzenia układu oddechowego"
 category: masaz
 questions:
-  - type: truefalse
-    name: "3.6 — zagadnienie 1"
+  - id: "tf-s03-36-q1"
+    type: "truefalse"
+    name: "tf-s03-36-q1"
     text: "Zagadnienie „3.6.1. Przewlekłe zapalenie oskrzeli” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 1"
+  - id: "tf-s03-36-q1b"
+    type: "truefalse"
+    name: "tf-s03-36-q1b"
     text: "Zagadnienie „3.6.2. Astma oskrzelowa” jest elementem zagadnienia „3.6.1. Przewlekłe zapalenie oskrzeli”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 2"
+  - id: "tf-s03-36-q2"
+    type: "truefalse"
+    name: "tf-s03-36-q2"
     text: "Zagadnienie „3.6.2. Astma oskrzelowa” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 2"
+  - id: "tf-s03-36-q2b"
+    type: "truefalse"
+    name: "tf-s03-36-q2b"
     text: "Zagadnienie „3.6.3. POChP” jest elementem zagadnienia „3.6.2. Astma oskrzelowa”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 3"
+  - id: "tf-s03-36-q3"
+    type: "truefalse"
+    name: "tf-s03-36-q3"
     text: "Zagadnienie „3.6.3. POChP” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 3"
+  - id: "tf-s03-36-q3b"
+    type: "truefalse"
+    name: "tf-s03-36-q3b"
     text: "Zagadnienie „3.6.4. Rozstrzenie oskrzeli” jest elementem zagadnienia „3.6.3. POChP”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 4"
+  - id: "tf-s03-36-q4"
+    type: "truefalse"
+    name: "tf-s03-36-q4"
     text: "Zagadnienie „3.6.4. Rozstrzenie oskrzeli” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 4"
+  - id: "tf-s03-36-q4b"
+    type: "truefalse"
+    name: "tf-s03-36-q4b"
     text: "Zagadnienie „3.6.5. Rozedma płuc” jest elementem zagadnienia „3.6.4. Rozstrzenie oskrzeli”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 5"
+  - id: "tf-s03-36-q5"
+    type: "truefalse"
+    name: "tf-s03-36-q5"
     text: "Zagadnienie „3.6.5. Rozedma płuc” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 5"
+  - id: "tf-s03-36-q5b"
+    type: "truefalse"
+    name: "tf-s03-36-q5b"
     text: "Zagadnienie „3.6.6. Stan po zapaleniu płuc” jest elementem zagadnienia „3.6.5. Rozedma płuc”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 6"
+  - id: "tf-s03-36-q6"
+    type: "truefalse"
+    name: "tf-s03-36-q6"
     text: "Zagadnienie „3.6.6. Stan po zapaleniu płuc” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 6"
+  - id: "tf-s03-36-q6b"
+    type: "truefalse"
+    name: "tf-s03-36-q6b"
     text: "Zagadnienie „3.6.7. Stan po zapaleniu opłucnej” jest elementem zagadnienia „3.6.6. Stan po zapaleniu płuc”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 7"
+  - id: "tf-s03-36-q7"
+    type: "truefalse"
+    name: "tf-s03-36-q7"
     text: "Zagadnienie „3.6.7. Stan po zapaleniu opłucnej” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 7"
+  - id: "tf-s03-36-q7b"
+    type: "truefalse"
+    name: "tf-s03-36-q7b"
     text: "Zagadnienie „3.6.8. Stan po operacjach klatki piersiowej” jest elementem zagadnienia „3.6.7. Stan po zapaleniu opłucnej”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 8"
+  - id: "tf-s03-36-q8"
+    type: "truefalse"
+    name: "tf-s03-36-q8"
     text: "Zagadnienie „3.6.8. Stan po operacjach klatki piersiowej” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 8"
+  - id: "tf-s03-36-q8b"
+    type: "truefalse"
+    name: "tf-s03-36-q8b"
     text: "Zagadnienie „3.6.9. Zaburzenia wentylacji i odkrztuszania” jest elementem zagadnienia „3.6.8. Stan po operacjach klatki piersiowej”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 9"
+  - id: "tf-s03-36-q9"
+    type: "truefalse"
+    name: "tf-s03-36-q9"
     text: "Zagadnienie „3.6.9. Zaburzenia wentylacji i odkrztuszania” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: truefalse
-    name: "3.6 — rozgraniczenie 9"
+  - id: "tf-s03-36-q9b"
+    type: "truefalse"
+    name: "tf-s03-36-q9b"
     text: "Zagadnienie „3.6.10. Bezpieczeństwo masażu przy duszności i niewydolności oddechowej” jest elementem zagadnienia „3.6.9. Zaburzenia wentylacji i odkrztuszania”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: false
-  - type: truefalse
-    name: "3.6 — zagadnienie 10"
+  - id: "tf-s03-36-q10"
+    type: "truefalse"
+    name: "tf-s03-36-q10"
     text: "Zagadnienie „3.6.10. Bezpieczeństwo masażu przy duszności i niewydolności oddechowej” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
     answer: true
-  - type: multichoice
-    name: "3.6 — przyporządkowanie zagadnienia"
+  - id: "mc-s03-36"
+    type: "multichoice"
+    name: "mc-s03-36"
     text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
     answers:
-      - text: "3.6.1. Przewlekłe zapalenie oskrzeli"  fraction: 100
-      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"  fraction: 0
-      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"  fraction: 0
-      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"  fraction: 0
+      - text: "3.6.1. Przewlekłe zapalenie oskrzeli"
+        fraction: 100
+      - text: "3.6.2. Astma oskrzelowa"
+        fraction: 0
+      - text: "3.6.3. POChP"
+        fraction: 0
+      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"
+        fraction: 0
+      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"
+        fraction: 0
+      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"
+        fraction: 0
+  - id: "mc-s03-36-q1"
+    type: "multichoice"
+    name: "mc-s03-36-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.1 Przewlekle zapalenie oskrzeli"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s03-36-q2"
+    type: "multichoice"
+    name: "mc-s03-36-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.2 Astma oskrzelowa"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s03-36-q3"
+    type: "multichoice"
+    name: "mc-s03-36-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.3 POChP"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s03-36-q4"
+    type: "multichoice"
+    name: "mc-s03-36-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.4 Rozstrzenie oskrzeli"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s03-36-q5"
+    type: "multichoice"
+    name: "mc-s03-36-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.5 Rozedma pluc"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s03-36-q6"
+    type: "multichoice"
+    name: "mc-s03-36-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.6 Stan po zapaleniu pluc"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s03-36-q7"
+    type: "multichoice"
+    name: "mc-s03-36-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.7 Stan po zapaleniu oplucnej"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s03-36-q8"
+    type: "multichoice"
+    name: "mc-s03-36-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.8 Stan po operacjach klatki piersiowej"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s03-36-q9"
+    type: "multichoice"
+    name: "mc-s03-36-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.9 Zaburzenia wentylacji i odkrztuszania"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s03-36-q10"
+    type: "multichoice"
+    name: "mc-s03-36-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.10 Bezpieczenstwo masazu przy dusznosci i niewydolnosci oddechowej"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0

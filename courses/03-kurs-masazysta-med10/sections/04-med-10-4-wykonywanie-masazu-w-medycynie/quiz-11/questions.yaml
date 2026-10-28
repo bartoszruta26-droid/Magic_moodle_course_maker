@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.11. Masaż łącznotkankowy"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.11 — zagadnienie 1"
+  - id: "tf-s04-411-q1"
+    type: "truefalse"
+    name: "tf-s04-411-q1"
     text: "Zagadnienie „4.11.1. Podstawy odruchowego działania na tkankę łączną” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 1"
+  - id: "tf-s04-411-q1b"
+    type: "truefalse"
+    name: "tf-s04-411-q1b"
     text: "Zagadnienie „4.11.2. Strefy masażu łącznotkankowego” jest elementem zagadnienia „4.11.1. Podstawy odruchowego działania na tkankę łączną”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 2"
+  - id: "tf-s04-411-q2"
+    type: "truefalse"
+    name: "tf-s04-411-q2"
     text: "Zagadnienie „4.11.2. Strefy masażu łącznotkankowego” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 2"
+  - id: "tf-s04-411-q2b"
+    type: "truefalse"
+    name: "tf-s04-411-q2b"
     text: "Zagadnienie „4.11.3. Techniki: fałd, przesunięcie, rolka” jest elementem zagadnienia „4.11.2. Strefy masażu łącznotkankowego”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 3"
+  - id: "tf-s04-411-q3"
+    type: "truefalse"
+    name: "tf-s04-411-q3"
     text: "Zagadnienie „4.11.3. Techniki: fałd, przesunięcie, rolka” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 3"
+  - id: "tf-s04-411-q3b"
+    type: "truefalse"
+    name: "tf-s04-411-q3b"
     text: "Zagadnienie „4.11.4. Reakcja tkanek” jest elementem zagadnienia „4.11.3. Techniki: fałd, przesunięcie, rolka”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 4"
+  - id: "tf-s04-411-q4"
+    type: "truefalse"
+    name: "tf-s04-411-q4"
     text: "Zagadnienie „4.11.4. Reakcja tkanek” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 4"
+  - id: "tf-s04-411-q4b"
+    type: "truefalse"
+    name: "tf-s04-411-q4b"
     text: "Zagadnienie „4.11.5. Przeciwwskazania” jest elementem zagadnienia „4.11.4. Reakcja tkanek”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 5"
+  - id: "tf-s04-411-q5"
+    type: "truefalse"
+    name: "tf-s04-411-q5"
     text: "Zagadnienie „4.11.5. Przeciwwskazania” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 5"
+  - id: "tf-s04-411-q5b"
+    type: "truefalse"
+    name: "tf-s04-411-q5b"
     text: "Zagadnienie „4.11.6. Kolejność opracowania” jest elementem zagadnienia „4.11.5. Przeciwwskazania”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 6"
+  - id: "tf-s04-411-q6"
+    type: "truefalse"
+    name: "tf-s04-411-q6"
     text: "Zagadnienie „4.11.6. Kolejność opracowania” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 6"
+  - id: "tf-s04-411-q6b"
+    type: "truefalse"
+    name: "tf-s04-411-q6b"
     text: "Zagadnienie „4.11.7. Dokumentacja” jest elementem zagadnienia „4.11.6. Kolejność opracowania”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 7"
+  - id: "tf-s04-411-q7"
+    type: "truefalse"
+    name: "tf-s04-411-q7"
     text: "Zagadnienie „4.11.7. Dokumentacja” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 7"
+  - id: "tf-s04-411-q7b"
+    type: "truefalse"
+    name: "tf-s04-411-q7b"
     text: "Zagadnienie „4.11.8. Ryzyko siniaków” jest elementem zagadnienia „4.11.7. Dokumentacja”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 8"
+  - id: "tf-s04-411-q8"
+    type: "truefalse"
+    name: "tf-s04-411-q8"
     text: "Zagadnienie „4.11.8. Ryzyko siniaków” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 8"
+  - id: "tf-s04-411-q8b"
+    type: "truefalse"
+    name: "tf-s04-411-q8b"
     text: "Zagadnienie „4.11.9. Komunikacja z pacjentem” jest elementem zagadnienia „4.11.8. Ryzyko siniaków”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 9"
+  - id: "tf-s04-411-q9"
+    type: "truefalse"
+    name: "tf-s04-411-q9"
     text: "Zagadnienie „4.11.9. Komunikacja z pacjentem” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: truefalse
-    name: "4.11 — rozgraniczenie 9"
+  - id: "tf-s04-411-q9b"
+    type: "truefalse"
+    name: "tf-s04-411-q9b"
     text: "Zagadnienie „4.11.10. Zastosowanie w zespołach bólowych kręgosłupa” jest elementem zagadnienia „4.11.9. Komunikacja z pacjentem”, a nie tematu „Masaż łącznotkankowy” (4.11)."
     answer: false
-  - type: truefalse
-    name: "4.11 — zagadnienie 10"
+  - id: "tf-s04-411-q10"
+    type: "truefalse"
+    name: "tf-s04-411-q10"
     text: "Zagadnienie „4.11.10. Zastosowanie w zespołach bólowych kręgosłupa” wchodzi w zakres tematu „Masaż łącznotkankowy” (4.11)."
     answer: true
-  - type: multichoice
-    name: "4.11 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-411"
+    type: "multichoice"
+    name: "mc-s04-411"
     text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
     answers:
-      - text: "4.11.1. Podstawy odruchowego działania na tkankę łączną"  fraction: 100
-      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"  fraction: 0
-      - text: "3.18.7. Wpływ na sen i samopoczucie"  fraction: 0
-      - text: "5.8.7. Kobiety w ciąży w sporcie — ograniczenia"  fraction: 0
+      - text: "4.11.1. Podstawy odruchowego działania na tkankę łączną"
+        fraction: 100
+      - text: "4.11.2. Strefy masażu łącznotkankowego"
+        fraction: 0
+      - text: "4.11.3. Techniki: fałd, przesunięcie, rolka"
+        fraction: 0
+      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"
+        fraction: 0
+      - text: "3.18.7. Wpływ na sen i samopoczucie"
+        fraction: 0
+      - text: "5.8.7. Kobiety w ciąży w sporcie — ograniczenia"
+        fraction: 0
+  - id: "mc-s04-411-q1"
+    type: "multichoice"
+    name: "mc-s04-411-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.1 Podstawy odruchowego dzialania na tkanke laczna"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Brak sprzetu jako przewaga dostepnosci"
+        fraction: 0
+  - id: "mc-s04-411-q2"
+    type: "multichoice"
+    name: "mc-s04-411-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.2 Strefy masazu lacznotkankowego"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s04-411-q3"
+    type: "multichoice"
+    name: "mc-s04-411-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.3 Techniki: fald, przesuniecie, rolka"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s04-411-q4"
+    type: "multichoice"
+    name: "mc-s04-411-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.4 Reakcja tkanek"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s04-411-q5"
+    type: "multichoice"
+    name: "mc-s04-411-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.5 Przeciwwskazania"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-411-q6"
+    type: "multichoice"
+    name: "mc-s04-411-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.6 Kolejnosc opracowania"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Komunikacja"
+        fraction: 0
+  - id: "mc-s04-411-q7"
+    type: "multichoice"
+    name: "mc-s04-411-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.7 Dokumentacja"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s04-411-q8"
+    type: "multichoice"
+    name: "mc-s04-411-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.8 Ryzyko siniakow"
+        fraction: 100
+      - text: "Wyczuwanie tetnic powierzchniowych"
+        fraction: 0
+      - text: "Bezpieczenstwo spadania i utraty rownowagi"
+        fraction: 0
+      - text: "Etyka: nie masuj w warunkach niebezpiecznych"
+        fraction: 0
+  - id: "mc-s04-411-q9"
+    type: "multichoice"
+    name: "mc-s04-411-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.9 Komunikacja z pacjentem"
+        fraction: 100
+      - text: "Wyczuwanie zyl powierzchownych"
+        fraction: 0
+      - text: "Masaz konczyny gornej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
+  - id: "mc-s04-411-q10"
+    type: "multichoice"
+    name: "mc-s04-411-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż łącznotkankowy” (4.11)?"
+    answers:
+      - text: "4.11.10 Zastosowanie w zespolach bolowych kregoslupa"
+        fraction: 100
+      - text: "Zasada stopniowania bodzca"
+        fraction: 0
+      - text: "Terapia ulozeniowa"
+        fraction: 0
+      - text: "Effleurage, petrissage, friction, tapotement, vibration"
+        fraction: 0

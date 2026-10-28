@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "8.3. Planowanie wykonania zadania"
 category: masaz
 questions:
-  - type: truefalse
-    name: "8.3 — zagadnienie 1"
+  - id: "tf-s08-83-q1"
+    type: "truefalse"
+    name: "tf-s08-83-q1"
     text: "Zagadnienie „8.3.1. Określenie celów zabiegu” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 1"
+  - id: "tf-s08-83-q1b"
+    type: "truefalse"
+    name: "tf-s08-83-q1b"
     text: "Zagadnienie „8.3.2. Estymacja czasu” jest elementem zagadnienia „8.3.1. Określenie celów zabiegu”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 2"
+  - id: "tf-s08-83-q2"
+    type: "truefalse"
+    name: "tf-s08-83-q2"
     text: "Zagadnienie „8.3.2. Estymacja czasu” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 2"
+  - id: "tf-s08-83-q2b"
+    type: "truefalse"
+    name: "tf-s08-83-q2b"
     text: "Zagadnienie „8.3.3. Kolejność czynności” jest elementem zagadnienia „8.3.2. Estymacja czasu”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 3"
+  - id: "tf-s08-83-q3"
+    type: "truefalse"
+    name: "tf-s08-83-q3"
     text: "Zagadnienie „8.3.3. Kolejność czynności” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 3"
+  - id: "tf-s08-83-q3b"
+    type: "truefalse"
+    name: "tf-s08-83-q3b"
     text: "Zagadnienie „8.3.4. Przygotowanie materiałów” jest elementem zagadnienia „8.3.3. Kolejność czynności”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 4"
+  - id: "tf-s08-83-q4"
+    type: "truefalse"
+    name: "tf-s08-83-q4"
     text: "Zagadnienie „8.3.4. Przygotowanie materiałów” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 4"
+  - id: "tf-s08-83-q4b"
+    type: "truefalse"
+    name: "tf-s08-83-q4b"
     text: "Zagadnienie „8.3.5. Przewidzenie ryzyka” jest elementem zagadnienia „8.3.4. Przygotowanie materiałów”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 5"
+  - id: "tf-s08-83-q5"
+    type: "truefalse"
+    name: "tf-s08-83-q5"
     text: "Zagadnienie „8.3.5. Przewidzenie ryzyka” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 5"
+  - id: "tf-s08-83-q5b"
+    type: "truefalse"
+    name: "tf-s08-83-q5b"
     text: "Zagadnienie „8.3.6. Plan B przy reakcji pacjenta” jest elementem zagadnienia „8.3.5. Przewidzenie ryzyka”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 6"
+  - id: "tf-s08-83-q6"
+    type: "truefalse"
+    name: "tf-s08-83-q6"
     text: "Zagadnienie „8.3.6. Plan B przy reakcji pacjenta” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 6"
+  - id: "tf-s08-83-q6b"
+    type: "truefalse"
+    name: "tf-s08-83-q6b"
     text: "Zagadnienie „8.3.7. Dokumentowanie planu” jest elementem zagadnienia „8.3.6. Plan B przy reakcji pacjenta”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 7"
+  - id: "tf-s08-83-q7"
+    type: "truefalse"
+    name: "tf-s08-83-q7"
     text: "Zagadnienie „8.3.7. Dokumentowanie planu” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 7"
+  - id: "tf-s08-83-q7b"
+    type: "truefalse"
+    name: "tf-s08-83-q7b"
     text: "Zagadnienie „8.3.8. Ocena realizacji planu” jest elementem zagadnienia „8.3.7. Dokumentowanie planu”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 8"
+  - id: "tf-s08-83-q8"
+    type: "truefalse"
+    name: "tf-s08-83-q8"
     text: "Zagadnienie „8.3.8. Ocena realizacji planu” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 8"
+  - id: "tf-s08-83-q8b"
+    type: "truefalse"
+    name: "tf-s08-83-q8b"
     text: "Zagadnienie „8.3.9. Wnioski na kolejne zabiegi” jest elementem zagadnienia „8.3.8. Ocena realizacji planu”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 9"
+  - id: "tf-s08-83-q9"
+    type: "truefalse"
+    name: "tf-s08-83-q9"
     text: "Zagadnienie „8.3.9. Wnioski na kolejne zabiegi” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: truefalse
-    name: "8.3 — rozgraniczenie 9"
+  - id: "tf-s08-83-q9b"
+    type: "truefalse"
+    name: "tf-s08-83-q9b"
     text: "Zagadnienie „8.3.10. Odpowiedzialność za czas i bezpieczeństwo” jest elementem zagadnienia „8.3.9. Wnioski na kolejne zabiegi”, a nie tematu „Planowanie wykonania zadania” (8.3)."
     answer: false
-  - type: truefalse
-    name: "8.3 — zagadnienie 10"
+  - id: "tf-s08-83-q10"
+    type: "truefalse"
+    name: "tf-s08-83-q10"
     text: "Zagadnienie „8.3.10. Odpowiedzialność za czas i bezpieczeństwo” wchodzi w zakres tematu „Planowanie wykonania zadania” (8.3)."
     answer: true
-  - type: multichoice
-    name: "8.3 — przyporządkowanie zagadnienia"
+  - id: "mc-s08-83"
+    type: "multichoice"
+    name: "mc-s08-83"
     text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
     answers:
-      - text: "8.3.1. Określenie celów zabiegu"  fraction: 100
-      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"  fraction: 0
-      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
-      - text: "5.4.3. Drobne przeciążenia"  fraction: 0
+      - text: "8.3.1. Określenie celów zabiegu"
+        fraction: 100
+      - text: "8.3.2. Estymacja czasu"
+        fraction: 0
+      - text: "8.3.3. Kolejność czynności"
+        fraction: 0
+      - text: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"
+        fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"
+        fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"
+        fraction: 0
+  - id: "mc-s08-83-q1"
+    type: "multichoice"
+    name: "mc-s08-83-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.1 Okreslenie celow zabiegu"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s08-83-q2"
+    type: "multichoice"
+    name: "mc-s08-83-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.2 Estymacja czasu"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s08-83-q3"
+    type: "multichoice"
+    name: "mc-s08-83-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.3 Kolejnosc czynnosci"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s08-83-q4"
+    type: "multichoice"
+    name: "mc-s08-83-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.4 Przygotowanie materialow"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s08-83-q5"
+    type: "multichoice"
+    name: "mc-s08-83-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.5 Przewidzenie ryzyka"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s08-83-q6"
+    type: "multichoice"
+    name: "mc-s08-83-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.6 Plan B przy reakcji pacjenta"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s08-83-q7"
+    type: "multichoice"
+    name: "mc-s08-83-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.7 Dokumentowanie planu"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s08-83-q8"
+    type: "multichoice"
+    name: "mc-s08-83-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.8 Ocena realizacji planu"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s08-83-q9"
+    type: "multichoice"
+    name: "mc-s08-83-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.9 Wnioski na kolejne zabiegi"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s08-83-q10"
+    type: "multichoice"
+    name: "mc-s08-83-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Planowanie wykonania zadania” (8.3)?"
+    answers:
+      - text: "8.3.10 Odpowiedzialnosc za czas i bezpieczenstwo"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0

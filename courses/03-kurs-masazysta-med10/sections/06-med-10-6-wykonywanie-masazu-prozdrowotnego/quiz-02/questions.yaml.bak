@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "6.2. Rodzaje masażu prozdrowotnego"
+category: masaz
+questions:
+  - type: truefalse
+    name: "6.2 — zagadnienie 1"
+    text: "Zagadnienie „6.2.1. Masaż profilaktyczny” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 1"
+    text: "Zagadnienie „6.2.2. Masaż relaksacyjny” jest elementem zagadnienia „6.2.1. Masaż profilaktyczny”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 2"
+    text: "Zagadnienie „6.2.2. Masaż relaksacyjny” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 2"
+    text: "Zagadnienie „6.2.3. Masaż bez przyrządów” jest elementem zagadnienia „6.2.2. Masaż relaksacyjny”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 3"
+    text: "Zagadnienie „6.2.3. Masaż bez przyrządów” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 3"
+    text: "Zagadnienie „6.2.4. Masaż gorącymi kamieniami” jest elementem zagadnienia „6.2.3. Masaż bez przyrządów”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 4"
+    text: "Zagadnienie „6.2.4. Masaż gorącymi kamieniami” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 4"
+    text: "Zagadnienie „6.2.5. Masaż biurowy” jest elementem zagadnienia „6.2.4. Masaż gorącymi kamieniami”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 5"
+    text: "Zagadnienie „6.2.5. Masaż biurowy” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 5"
+    text: "Zagadnienie „6.2.6. Masaż antystresowy” jest elementem zagadnienia „6.2.5. Masaż biurowy”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 6"
+    text: "Zagadnienie „6.2.6. Masaż antystresowy” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 6"
+    text: "Zagadnienie „6.2.7. Masaż dla osób pracujących przy komputerze” jest elementem zagadnienia „6.2.6. Masaż antystresowy”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 7"
+    text: "Zagadnienie „6.2.7. Masaż dla osób pracujących przy komputerze” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 7"
+    text: "Zagadnienie „6.2.8. Masaż dla osób starszych w celach profilaktycznych” jest elementem zagadnienia „6.2.7. Masaż dla osób pracujących przy komputerze”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 8"
+    text: "Zagadnienie „6.2.8. Masaż dla osób starszych w celach profilaktycznych” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 8"
+    text: "Zagadnienie „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza” jest elementem zagadnienia „6.2.8. Masaż dla osób starszych w celach profilaktycznych”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 9"
+    text: "Zagadnienie „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: truefalse
+    name: "6.2 — rozgraniczenie 9"
+    text: "Zagadnienie „6.2.10. Masaż dla sportowców amatorów” jest elementem zagadnienia „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: false
+  - type: truefalse
+    name: "6.2 — zagadnienie 10"
+    text: "Zagadnienie „6.2.10. Masaż dla sportowców amatorów” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2)."
+    answer: true
+  - type: multichoice
+    name: "6.2 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)?"
+    answers:
+      - text: "6.2.1. Masaż profilaktyczny"  fraction: 100
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
+      - text: "3.14.1. Odciążenie grawitacyjne"  fraction: 0
+      - text: "5.3.10. Przeciwwskazania w sporcie"  fraction: 0

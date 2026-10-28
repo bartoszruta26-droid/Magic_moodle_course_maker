@@ -47,3 +47,73 @@
     ~ 3.18.6. Poprawa propriocepcji
     ~ 5.8.5. Presja wyniku a dobro pacjenta
 }
+
+::mc-s01-112-q1:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.1 Ocena sytuacji: bezpieczenstwo ratujacego, poszkodowanego, otoczenia
+    ~ Bezpieczenstwo masazu w chorobach tych ukladow
+    ~ Pozycja na plecach
+    ~ Dokumentacja skrocona
+}
+
+::mc-s01-112-q2:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.2 Wezwanie pomocy: numery alarmowe, przekazanie informacji
+    ~ Zasady palpacji: spokojna reka, porownywanie stron, szacunek
+    ~ Pozycja na boku
+    ~ Dlonie, przedramiona, kciuki
+}
+
+::mc-s01-112-q3:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.3 Pozycja bezpieczna
+    ~ Wyczuwanie wyrostkow kolczystych i poprzecznych
+    ~ Pozycja siedzaca
+    ~ Brak sprzetu jako przewaga dostepnosci
+}
+
+::mc-s01-112-q4:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.4 Udroznienie drog oddechowych
+    ~ Wyczuwanie katow lopatek, grzbietu lopatki, barku
+    ~ Pozycja polsiedzaca
+    ~ Bezpieczenstwo w warunkach domowych
+}
+
+::mc-s01-112-q5:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.5 Ocena oddechu i krazenia
+    ~ Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki
+    ~ Pozycja drenazowa
+    ~ Higiena otoczenia
+}
+
+::mc-s01-112-q6:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.6 Resuscytacja krazeniowo-oddechowa doroslego
+    ~ Wyczuwanie miesni przykregoslupowych
+    ~ Pozycja w ciazy
+    ~ Oswietlenie i temperatura
+}
+
+::mc-s01-112-q7:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.7 Resuscytacja dziecka
+    ~ Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon
+    ~ Pozycja po operacjach
+    ~ Pozycja pacjenta
+}
+
+::mc-s01-112-q8:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.8 Resuscytacja niemowlecia
+    ~ Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa
+    ~ Kliny, walki, polwalki, poduszki
+    ~ Komunikacja
+}
+
+::mc-s01-112-q9:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.9 Uzycie AED — zasady i bezpieczenstwo
+    ~ Wyczuwanie tetnic powierzchniowych
+    ~ Bezpieczenstwo spadania i utraty rownowagi
+    ~ Przeciwwskazania
+}
+
+::mc-s01-112-q10:: Które zagadnienie należy bezpośrednio do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.10 Cwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji
+    ~ Reakcja pacjenta w trakcie zabiegu
+    ~ Tempo, cisnienie i czas zabiegu
+    ~ Describing equipment safely
+}

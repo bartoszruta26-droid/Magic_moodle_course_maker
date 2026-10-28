@@ -1,0 +1,49 @@
+// Quiz: 2.11. Układ nerwowy i narządy zmysłów — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-211-q1:: Zagadnienie „2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q1b:: Zagadnienie „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe” jest elementem zagadnienia „2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q2:: Zagadnienie „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q2b:: Zagadnienie „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny” jest elementem zagadnienia „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q3:: Zagadnienie „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q3b:: Zagadnienie „2.11.4. Nerwy obwodowe kończyn górnych i dolnych” jest elementem zagadnienia „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q4:: Zagadnienie „2.11.4. Nerwy obwodowe kończyn górnych i dolnych” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q4b:: Zagadnienie „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy” jest elementem zagadnienia „2.11.4. Nerwy obwodowe kończyn górnych i dolnych”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q5:: Zagadnienie „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q5b:: Zagadnienie „2.11.6. Dermatomy i miotomy” jest elementem zagadnienia „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q6:: Zagadnienie „2.11.6. Dermatomy i miotomy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q6b:: Zagadnienie „2.11.7. Łuk odruchowy” jest elementem zagadnienia „2.11.6. Dermatomy i miotomy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q7:: Zagadnienie „2.11.7. Łuk odruchowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q7b:: Zagadnienie „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe” jest elementem zagadnienia „2.11.7. Łuk odruchowy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q8:: Zagadnienie „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q8b:: Zagadnienie „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga” jest elementem zagadnienia „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q9:: Zagadnienie „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::tf-s02-211-q9b:: Zagadnienie „2.11.10. Wpływ masażu na układ nerwowy” jest elementem zagadnienia „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11). {FALSE} //
+
+::tf-s02-211-q10:: Zagadnienie „2.11.10. Wpływ masażu na układ nerwowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11). {TRUE} //
+
+::mc-s02-211:: Które zagadnienie należy bezpośrednio do tematu „Układ nerwowy i narządy zmysłów” (2.11)? {
+    = 2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy
+    ~ 2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe
+    ~ 2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny
+    ~ 2.5.5. Poufność dokumentacji
+    ~ 3.18.6. Poprawa propriocepcji
+    ~ 5.8.5. Presja wyniku a dobro pacjenta
+}

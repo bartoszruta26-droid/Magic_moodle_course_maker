@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.11. Układ nerwowy i narządy zmysłów"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.11 — zagadnienie 1"
+    text: "Zagadnienie „2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 1"
+    text: "Zagadnienie „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe” jest elementem zagadnienia „2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 2"
+    text: "Zagadnienie „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 2"
+    text: "Zagadnienie „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny” jest elementem zagadnienia „2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 3"
+    text: "Zagadnienie „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 3"
+    text: "Zagadnienie „2.11.4. Nerwy obwodowe kończyn górnych i dolnych” jest elementem zagadnienia „2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 4"
+    text: "Zagadnienie „2.11.4. Nerwy obwodowe kończyn górnych i dolnych” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 4"
+    text: "Zagadnienie „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy” jest elementem zagadnienia „2.11.4. Nerwy obwodowe kończyn górnych i dolnych”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 5"
+    text: "Zagadnienie „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 5"
+    text: "Zagadnienie „2.11.6. Dermatomy i miotomy” jest elementem zagadnienia „2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 6"
+    text: "Zagadnienie „2.11.6. Dermatomy i miotomy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 6"
+    text: "Zagadnienie „2.11.7. Łuk odruchowy” jest elementem zagadnienia „2.11.6. Dermatomy i miotomy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 7"
+    text: "Zagadnienie „2.11.7. Łuk odruchowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 7"
+    text: "Zagadnienie „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe” jest elementem zagadnienia „2.11.7. Łuk odruchowy”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 8"
+    text: "Zagadnienie „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 8"
+    text: "Zagadnienie „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga” jest elementem zagadnienia „2.11.8. Ból: przewodzenie, modulacja, punkty spustowe”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 9"
+    text: "Zagadnienie „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: truefalse
+    name: "2.11 — rozgraniczenie 9"
+    text: "Zagadnienie „2.11.10. Wpływ masażu na układ nerwowy” jest elementem zagadnienia „2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga”, a nie tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: false
+  - type: truefalse
+    name: "2.11 — zagadnienie 10"
+    text: "Zagadnienie „2.11.10. Wpływ masażu na układ nerwowy” wchodzi w zakres tematu „Układ nerwowy i narządy zmysłów” (2.11)."
+    answer: true
+  - type: multichoice
+    name: "2.11 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Układ nerwowy i narządy zmysłów” (2.11)?"
+    answers:
+      - text: "2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy"  fraction: 100
+      - text: "2.5.5. Poufność dokumentacji"  fraction: 0
+      - text: "3.18.6. Poprawa propriocepcji"  fraction: 0
+      - text: "5.8.5. Presja wyniku a dobro pacjenta"  fraction: 0

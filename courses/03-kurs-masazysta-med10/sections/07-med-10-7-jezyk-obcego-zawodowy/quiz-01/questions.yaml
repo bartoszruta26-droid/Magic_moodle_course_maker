@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "7.1. Wprowadzenie do języka obcego zawodowego masażysty"
 category: masaz
 questions:
-  - type: truefalse
-    name: "7.1 — zagadnienie 1"
+  - id: "tf-s07-71-q1"
+    type: "truefalse"
+    name: "tf-s07-71-q1"
     text: "Zagadnienie „7.1.1. Cel: bezpieczna obsługa pacjenta obcojęzycznego” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 1"
+  - id: "tf-s07-71-q1b"
+    type: "truefalse"
+    name: "tf-s07-71-q1b"
     text: "Zagadnienie „7.1.2. Wybór języka: najczęściej angielski, opcjonalnie niemiecki” jest elementem zagadnienia „7.1.1. Cel: bezpieczna obsługa pacjenta obcojęzycznego”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 2"
+  - id: "tf-s07-71-q2"
+    type: "truefalse"
+    name: "tf-s07-71-q2"
     text: "Zagadnienie „7.1.2. Wybór języka: najczęściej angielski, opcjonalnie niemiecki” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 2"
+  - id: "tf-s07-71-q2b"
+    type: "truefalse"
+    name: "tf-s07-71-q2b"
     text: "Zagadnienie „7.1.3. Podstawy wymowy i zrozumienia” jest elementem zagadnienia „7.1.2. Wybór języka: najczęściej angielski, opcjonalnie niemiecki”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 3"
+  - id: "tf-s07-71-q3"
+    type: "truefalse"
+    name: "tf-s07-71-q3"
     text: "Zagadnienie „7.1.3. Podstawy wymowy i zrozumienia” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 3"
+  - id: "tf-s07-71-q3b"
+    type: "truefalse"
+    name: "tf-s07-71-q3b"
     text: "Zagadnienie „7.1.4. Słownictwo kluczowe” jest elementem zagadnienia „7.1.3. Podstawy wymowy i zrozumienia”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 4"
+  - id: "tf-s07-71-q4"
+    type: "truefalse"
+    name: "tf-s07-71-q4"
     text: "Zagadnienie „7.1.4. Słownictwo kluczowe” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 4"
+  - id: "tf-s07-71-q4b"
+    type: "truefalse"
+    name: "tf-s07-71-q4b"
     text: "Zagadnienie „7.1.5. Zwroty grzecznościowe” jest elementem zagadnienia „7.1.4. Słownictwo kluczowe”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 5"
+  - id: "tf-s07-71-q5"
+    type: "truefalse"
+    name: "tf-s07-71-q5"
     text: "Zagadnienie „7.1.5. Zwroty grzecznościowe” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 5"
+  - id: "tf-s07-71-q5b"
+    type: "truefalse"
+    name: "tf-s07-71-q5b"
     text: "Zagadnienie „7.1.6. Komunikacja niewerbalna” jest elementem zagadnienia „7.1.5. Zwroty grzecznościowe”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 6"
+  - id: "tf-s07-71-q6"
+    type: "truefalse"
+    name: "tf-s07-71-q6"
     text: "Zagadnienie „7.1.6. Komunikacja niewerbalna” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 6"
+  - id: "tf-s07-71-q6b"
+    type: "truefalse"
+    name: "tf-s07-71-q6b"
     text: "Zagadnienie „7.1.7. Szacunek dla różnic kulturowych” jest elementem zagadnienia „7.1.6. Komunikacja niewerbalna”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 7"
+  - id: "tf-s07-71-q7"
+    type: "truefalse"
+    name: "tf-s07-71-q7"
     text: "Zagadnienie „7.1.7. Szacunek dla różnic kulturowych” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 7"
+  - id: "tf-s07-71-q7b"
+    type: "truefalse"
+    name: "tf-s07-71-q7b"
     text: "Zagadnienie „7.1.8. Poufność w języku obcym” jest elementem zagadnienia „7.1.7. Szacunek dla różnic kulturowych”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 8"
+  - id: "tf-s07-71-q8"
+    type: "truefalse"
+    name: "tf-s07-71-q8"
     text: "Zagadnienie „7.1.8. Poufność w języku obcym” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 8"
+  - id: "tf-s07-71-q8b"
+    type: "truefalse"
+    name: "tf-s07-71-q8b"
     text: "Zagadnienie „7.1.9. Korzystanie z tłumacza bez naruszania intymności” jest elementem zagadnienia „7.1.8. Poufność w języku obcym”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 9"
+  - id: "tf-s07-71-q9"
+    type: "truefalse"
+    name: "tf-s07-71-q9"
     text: "Zagadnienie „7.1.9. Korzystanie z tłumacza bez naruszania intymności” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: truefalse
-    name: "7.1 — rozgraniczenie 9"
+  - id: "tf-s07-71-q9b"
+    type: "truefalse"
+    name: "tf-s07-71-q9b"
     text: "Zagadnienie „7.1.10. Etyka: nie udawać biegłości, której się nie ma” jest elementem zagadnienia „7.1.9. Korzystanie z tłumacza bez naruszania intymności”, a nie tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: false
-  - type: truefalse
-    name: "7.1 — zagadnienie 10"
+  - id: "tf-s07-71-q10"
+    type: "truefalse"
+    name: "tf-s07-71-q10"
     text: "Zagadnienie „7.1.10. Etyka: nie udawać biegłości, której się nie ma” wchodzi w zakres tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)."
     answer: true
-  - type: multichoice
-    name: "7.1 — przyporządkowanie zagadnienia"
+  - id: "mc-s07-71"
+    type: "multichoice"
+    name: "mc-s07-71"
     text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
     answers:
-      - text: "7.1.1. Cel: bezpieczna obsługa pacjenta obcojęzycznego"  fraction: 100
-      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
-      - text: "3.14.1. Odciążenie grawitacyjne"  fraction: 0
-      - text: "5.3.10. Przeciwwskazania w sporcie"  fraction: 0
+      - text: "7.1.1. Cel: bezpieczna obsługa pacjenta obcojęzycznego"
+        fraction: 100
+      - text: "7.1.2. Wybór języka: najczęściej angielski, opcjonalnie niemiecki"
+        fraction: 0
+      - text: "7.1.3. Podstawy wymowy i zrozumienia"
+        fraction: 0
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"
+        fraction: 0
+      - text: "3.14.1. Odciążenie grawitacyjne"
+        fraction: 0
+      - text: "5.3.10. Przeciwwskazania w sporcie"
+        fraction: 0
+  - id: "mc-s07-71-q1"
+    type: "multichoice"
+    name: "mc-s07-71-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.1 Cel: bezpieczna obsluga pacjenta obcojezycznego"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s07-71-q2"
+    type: "multichoice"
+    name: "mc-s07-71-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.2 Wybor jezyka: najczesciej angielski, opcjonalnie niemiecki"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s07-71-q3"
+    type: "multichoice"
+    name: "mc-s07-71-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.3 Podstawy wymowy i zrozumienia"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s07-71-q4"
+    type: "multichoice"
+    name: "mc-s07-71-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.4 Slownictwo kluczowe"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s07-71-q5"
+    type: "multichoice"
+    name: "mc-s07-71-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.5 Zwroty grzecznosciowe"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s07-71-q6"
+    type: "multichoice"
+    name: "mc-s07-71-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.6 Komunikacja niewerbalna"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s07-71-q7"
+    type: "multichoice"
+    name: "mc-s07-71-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.7 Szacunek dla roznic kulturowych"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s07-71-q8"
+    type: "multichoice"
+    name: "mc-s07-71-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.8 Poufnosc w jezyku obcym"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s07-71-q9"
+    type: "multichoice"
+    name: "mc-s07-71-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.9 Korzystanie z tlumacza bez naruszania intymnosci"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s07-71-q10"
+    type: "multichoice"
+    name: "mc-s07-71-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wprowadzenie do języka obcego zawodowego masażysty” (7.1)?"
+    answers:
+      - text: "7.1.10 Etyka: nie udawac bieglosci, ktorej sie nie ma"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0

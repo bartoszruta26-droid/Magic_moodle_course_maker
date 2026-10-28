@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "11.1. Wymagania egzaminacyjne i zasady oceny"
 category: masaz
 questions:
-  - type: truefalse
-    name: "11.1 — zagadnienie 1"
+  - id: "tf-s11-111-q1"
+    type: "truefalse"
+    name: "tf-s11-111-q1"
     text: "Zagadnienie „11.1.1. Część pisemna” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 1"
+  - id: "tf-s11-111-q1b"
+    type: "truefalse"
+    name: "tf-s11-111-q1b"
     text: "Zagadnienie „11.1.2. Część praktyczna” jest elementem zagadnienia „11.1.1. Część pisemna”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 2"
+  - id: "tf-s11-111-q2"
+    type: "truefalse"
+    name: "tf-s11-111-q2"
     text: "Zagadnienie „11.1.2. Część praktyczna” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 2"
+  - id: "tf-s11-111-q2b"
+    type: "truefalse"
+    name: "tf-s11-111-q2b"
     text: "Zagadnienie „11.1.3. Kryteria pozytywnej oceny” jest elementem zagadnienia „11.1.2. Część praktyczna”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 3"
+  - id: "tf-s11-111-q3"
+    type: "truefalse"
+    name: "tf-s11-111-q3"
     text: "Zagadnienie „11.1.3. Kryteria pozytywnej oceny” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 3"
+  - id: "tf-s11-111-q3b"
+    type: "truefalse"
+    name: "tf-s11-111-q3b"
     text: "Zagadnienie „11.1.4. Błędy dyskwalifikujące” jest elementem zagadnienia „11.1.3. Kryteria pozytywnej oceny”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 4"
+  - id: "tf-s11-111-q4"
+    type: "truefalse"
+    name: "tf-s11-111-q4"
     text: "Zagadnienie „11.1.4. Błędy dyskwalifikujące” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 4"
+  - id: "tf-s11-111-q4b"
+    type: "truefalse"
+    name: "tf-s11-111-q4b"
     text: "Zagadnienie „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne” jest elementem zagadnienia „11.1.4. Błędy dyskwalifikujące”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 5"
+  - id: "tf-s11-111-q5"
+    type: "truefalse"
+    name: "tf-s11-111-q5"
     text: "Zagadnienie „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 5"
+  - id: "tf-s11-111-q5b"
+    type: "truefalse"
+    name: "tf-s11-111-q5b"
     text: "Zagadnienie „11.1.6. Etyka i kultura zawodowa” jest elementem zagadnienia „11.1.5. Bezpieczeństwo pacjenta jako kryterium egzaminacyjne”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 6"
+  - id: "tf-s11-111-q6"
+    type: "truefalse"
+    name: "tf-s11-111-q6"
     text: "Zagadnienie „11.1.6. Etyka i kultura zawodowa” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 6"
+  - id: "tf-s11-111-q6b"
+    type: "truefalse"
+    name: "tf-s11-111-q6b"
     text: "Zagadnienie „11.1.7. Dokumentacja zabiegowa” jest elementem zagadnienia „11.1.6. Etyka i kultura zawodowa”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 7"
+  - id: "tf-s11-111-q7"
+    type: "truefalse"
+    name: "tf-s11-111-q7"
     text: "Zagadnienie „11.1.7. Dokumentacja zabiegowa” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 7"
+  - id: "tf-s11-111-q7b"
+    type: "truefalse"
+    name: "tf-s11-111-q7b"
     text: "Zagadnienie „11.1.8. Komunikacja z egzaminatorem” jest elementem zagadnienia „11.1.7. Dokumentacja zabiegowa”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 8"
+  - id: "tf-s11-111-q8"
+    type: "truefalse"
+    name: "tf-s11-111-q8"
     text: "Zagadnienie „11.1.8. Komunikacja z egzaminatorem” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 8"
+  - id: "tf-s11-111-q8b"
+    type: "truefalse"
+    name: "tf-s11-111-q8b"
     text: "Zagadnienie „11.1.9. Zarządzanie czasem” jest elementem zagadnienia „11.1.8. Komunikacja z egzaminatorem”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 9"
+  - id: "tf-s11-111-q9"
+    type: "truefalse"
+    name: "tf-s11-111-q9"
     text: "Zagadnienie „11.1.9. Zarządzanie czasem” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: truefalse
-    name: "11.1 — rozgraniczenie 9"
+  - id: "tf-s11-111-q9b"
+    type: "truefalse"
+    name: "tf-s11-111-q9b"
     text: "Zagadnienie „11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo” jest elementem zagadnienia „11.1.9. Zarządzanie czasem”, a nie tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: false
-  - type: truefalse
-    name: "11.1 — zagadnienie 10"
+  - id: "tf-s11-111-q10"
+    type: "truefalse"
+    name: "tf-s11-111-q10"
     text: "Zagadnienie „11.1.10. Zasada: egzamin sprawdza kompetencję, nie posłuszeństwo” wchodzi w zakres tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)."
     answer: true
-  - type: multichoice
-    name: "11.1 — przyporządkowanie zagadnienia"
+  - id: "mc-s11-111"
+    type: "multichoice"
+    name: "mc-s11-111"
     text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
     answers:
-      - text: "11.1.1. Część pisemna"  fraction: 100
-      - text: "2.5.4. Zgoda na zabieg masażu"  fraction: 0
-      - text: "3.18.4. Redukcja obrzęku"  fraction: 0
-      - text: "5.8.3. Ochrona prywatności zawodnika"  fraction: 0
+      - text: "11.1.1. Część pisemna"
+        fraction: 100
+      - text: "11.1.2. Część praktyczna"
+        fraction: 0
+      - text: "11.1.3. Kryteria pozytywnej oceny"
+        fraction: 0
+      - text: "2.5.4. Zgoda na zabieg masażu"
+        fraction: 0
+      - text: "3.18.4. Redukcja obrzęku"
+        fraction: 0
+      - text: "5.8.3. Ochrona prywatności zawodnika"
+        fraction: 0
+  - id: "mc-s11-111-q1"
+    type: "multichoice"
+    name: "mc-s11-111-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.1 Czesc pisemna"
+        fraction: 100
+      - text: "Gruczoly dokrewne i hormony"
+        fraction: 0
+      - text: "Obserwacja leku, bolu, dyskomfortu"
+        fraction: 0
+      - text: "Granice intymnosci"
+        fraction: 0
+  - id: "mc-s11-111-q2"
+    type: "multichoice"
+    name: "mc-s11-111-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.2 Czesc praktyczna"
+        fraction: 100
+      - text: "Wplyw hormonow na tkanki i samopoczucie"
+        fraction: 0
+      - text: "Pozycja na brzuchu"
+        fraction: 0
+      - text: "Edukacja ergonomia"
+        fraction: 0
+  - id: "mc-s11-111-q3"
+    type: "multichoice"
+    name: "mc-s11-111-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.3 Kryteria pozytywnej oceny"
+        fraction: 100
+      - text: "Bezpieczenstwo masazu w chorobach tych ukladow"
+        fraction: 0
+      - text: "Pozycja na plecach"
+        fraction: 0
+      - text: "Dokumentacja skrocona"
+        fraction: 0
+  - id: "mc-s11-111-q4"
+    type: "multichoice"
+    name: "mc-s11-111-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.4 Bledy dyskwalifikujace"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja na boku"
+        fraction: 0
+      - text: "Dlonie, przedramiona, kciuki"
+        fraction: 0
+  - id: "mc-s11-111-q5"
+    type: "multichoice"
+    name: "mc-s11-111-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.5 Bezpieczenstwo pacjenta jako kryterium egzaminacyjne"
+        fraction: 100
+      - text: "Wyczuwanie wyrostkow kolczystych i poprzecznych"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Brak sprzetu jako przewaga dostepnosci"
+        fraction: 0
+  - id: "mc-s11-111-q6"
+    type: "multichoice"
+    name: "mc-s11-111-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.6 Etyka i kultura zawodowa"
+        fraction: 100
+      - text: "Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+        fraction: 0
+      - text: "Pozycja polsiedzaca"
+        fraction: 0
+      - text: "Bezpieczenstwo w warunkach domowych"
+        fraction: 0
+  - id: "mc-s11-111-q7"
+    type: "multichoice"
+    name: "mc-s11-111-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.7 Dokumentacja zabiegowa"
+        fraction: 100
+      - text: "Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+        fraction: 0
+      - text: "Pozycja drenazowa"
+        fraction: 0
+      - text: "Higiena otoczenia"
+        fraction: 0
+  - id: "mc-s11-111-q8"
+    type: "multichoice"
+    name: "mc-s11-111-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.8 Komunikacja z egzaminatorem"
+        fraction: 100
+      - text: "Wyczuwanie miesni przykregoslupowych"
+        fraction: 0
+      - text: "Pozycja w ciazy"
+        fraction: 0
+      - text: "Oswietlenie i temperatura"
+        fraction: 0
+  - id: "mc-s11-111-q9"
+    type: "multichoice"
+    name: "mc-s11-111-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.9 Zarzadzanie czasem"
+        fraction: 100
+      - text: "Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+        fraction: 0
+      - text: "Pozycja po operacjach"
+        fraction: 0
+      - text: "Pozycja pacjenta"
+        fraction: 0
+  - id: "mc-s11-111-q10"
+    type: "multichoice"
+    name: "mc-s11-111-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Wymagania egzaminacyjne i zasady oceny” (11.1)?"
+    answers:
+      - text: "11.1.10 Zasada: egzamin sprawdza kompetencje, nie posluszenstwo"
+        fraction: 100
+      - text: "Wiek, plec, budowa ciala, stan zdrowia"
+        fraction: 0
+      - text: "Drenaz po usunieciu wezlow chlonnych"
+        fraction: 0
+      - text: "Privacy screen"
+        fraction: 0

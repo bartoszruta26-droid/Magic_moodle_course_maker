@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "4.2. Badanie funkcjonalne i palpacyjne"
 category: masaz
 questions:
-  - type: truefalse
-    name: "4.2 — zagadnienie 1"
+  - id: "tf-s04-42-q1"
+    type: "truefalse"
+    name: "tf-s04-42-q1"
     text: "Zagadnienie „4.2.1. Zakres ruchu czynnego i biernego” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 1"
+  - id: "tf-s04-42-q1b"
+    type: "truefalse"
+    name: "tf-s04-42-q1b"
     text: "Zagadnienie „4.2.2. Testy siły mięśniowej w skali Lovetta” jest elementem zagadnienia „4.2.1. Zakres ruchu czynnego i biernego”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 2"
+  - id: "tf-s04-42-q2"
+    type: "truefalse"
+    name: "tf-s04-42-q2"
     text: "Zagadnienie „4.2.2. Testy siły mięśniowej w skali Lovetta” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 2"
+  - id: "tf-s04-42-q2b"
+    type: "truefalse"
+    name: "tf-s04-42-q2b"
     text: "Zagadnienie „4.2.3. Ocena chodu i wstawania” jest elementem zagadnienia „4.2.2. Testy siły mięśniowej w skali Lovetta”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 3"
+  - id: "tf-s04-42-q3"
+    type: "truefalse"
+    name: "tf-s04-42-q3"
     text: "Zagadnienie „4.2.3. Ocena chodu i wstawania” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 3"
+  - id: "tf-s04-42-q3b"
+    type: "truefalse"
+    name: "tf-s04-42-q3b"
     text: "Zagadnienie „4.2.4. Ocena równowagi i stabilności” jest elementem zagadnienia „4.2.3. Ocena chodu i wstawania”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 4"
+  - id: "tf-s04-42-q4"
+    type: "truefalse"
+    name: "tf-s04-42-q4"
     text: "Zagadnienie „4.2.4. Ocena równowagi i stabilności” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 4"
+  - id: "tf-s04-42-q4b"
+    type: "truefalse"
+    name: "tf-s04-42-q4b"
     text: "Zagadnienie „4.2.5. Palpacja mięśni i powięzi” jest elementem zagadnienia „4.2.4. Ocena równowagi i stabilności”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 5"
+  - id: "tf-s04-42-q5"
+    type: "truefalse"
+    name: "tf-s04-42-q5"
     text: "Zagadnienie „4.2.5. Palpacja mięśni i powięzi” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 5"
+  - id: "tf-s04-42-q5b"
+    type: "truefalse"
+    name: "tf-s04-42-q5b"
     text: "Zagadnienie „4.2.6. Palpacja stawów i więzadeł” jest elementem zagadnienia „4.2.5. Palpacja mięśni i powięzi”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 6"
+  - id: "tf-s04-42-q6"
+    type: "truefalse"
+    name: "tf-s04-42-q6"
     text: "Zagadnienie „4.2.6. Palpacja stawów i więzadeł” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 6"
+  - id: "tf-s04-42-q6b"
+    type: "truefalse"
+    name: "tf-s04-42-q6b"
     text: "Zagadnienie „4.2.7. Palpacja tkanek podskórnych” jest elementem zagadnienia „4.2.6. Palpacja stawów i więzadeł”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 7"
+  - id: "tf-s04-42-q7"
+    type: "truefalse"
+    name: "tf-s04-42-q7"
     text: "Zagadnienie „4.2.7. Palpacja tkanek podskórnych” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 7"
+  - id: "tf-s04-42-q7b"
+    type: "truefalse"
+    name: "tf-s04-42-q7b"
     text: "Zagadnienie „4.2.8. Wykrywanie punktów spustowych” jest elementem zagadnienia „4.2.7. Palpacja tkanek podskórnych”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 8"
+  - id: "tf-s04-42-q8"
+    type: "truefalse"
+    name: "tf-s04-42-q8"
     text: "Zagadnienie „4.2.8. Wykrywanie punktów spustowych” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 8"
+  - id: "tf-s04-42-q8b"
+    type: "truefalse"
+    name: "tf-s04-42-q8b"
     text: "Zagadnienie „4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym” jest elementem zagadnienia „4.2.8. Wykrywanie punktów spustowych”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 9"
+  - id: "tf-s04-42-q9"
+    type: "truefalse"
+    name: "tf-s04-42-q9"
     text: "Zagadnienie „4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: truefalse
-    name: "4.2 — rozgraniczenie 9"
+  - id: "tf-s04-42-q9b"
+    type: "truefalse"
+    name: "tf-s04-42-q9b"
     text: "Zagadnienie „4.2.10. Ocena węzłów chłonnych superficialnych — bez diagnostyki nowotworowej” jest elementem zagadnienia „4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym”, a nie tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: false
-  - type: truefalse
-    name: "4.2 — zagadnienie 10"
+  - id: "tf-s04-42-q10"
+    type: "truefalse"
+    name: "tf-s04-42-q10"
     text: "Zagadnienie „4.2.10. Ocena węzłów chłonnych superficialnych — bez diagnostyki nowotworowej” wchodzi w zakres tematu „Badanie funkcjonalne i palpacyjne” (4.2)."
     answer: true
-  - type: multichoice
-    name: "4.2 — przyporządkowanie zagadnienia"
+  - id: "mc-s04-42"
+    type: "multichoice"
+    name: "mc-s04-42"
     text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
     answers:
-      - text: "4.2.1. Zakres ruchu czynnego i biernego"  fraction: 100
-      - text: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"  fraction: 0
-      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"  fraction: 0
-      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"  fraction: 0
+      - text: "4.2.1. Zakres ruchu czynnego i biernego"
+        fraction: 100
+      - text: "4.2.2. Testy siły mięśniowej w skali Lovetta"
+        fraction: 0
+      - text: "4.2.3. Ocena chodu i wstawania"
+        fraction: 0
+      - text: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"
+        fraction: 0
+      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"
+        fraction: 0
+      - text: "5.3.9. Masaż przy obniżonej odporności — ostrożność"
+        fraction: 0
+  - id: "mc-s04-42-q1"
+    type: "multichoice"
+    name: "mc-s04-42-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.1 Zakres ruchu czynnego i biernego"
+        fraction: 100
+      - text: "Tkanka podskorna"
+        fraction: 0
+      - text: "Wywiad bolowy: lokalizacja, nasilenie, charakter, promieniowanie"
+        fraction: 0
+      - text: "Intymnosc i okrycie"
+        fraction: 0
+  - id: "mc-s04-42-q2"
+    type: "multichoice"
+    name: "mc-s04-42-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.2 Testy sily miesniowej w skali Lovetta"
+        fraction: 100
+      - text: "Przydatki skory: wlosy, paznokcie, gruczoly potowe, lojowe"
+        fraction: 0
+      - text: "Wywiad funkcjonalny: chod, sen, praca, aktywnosc"
+        fraction: 0
+      - text: "Muzyka, oswietlenie, zapach — bez manipulacji"
+        fraction: 0
+  - id: "mc-s04-42-q3"
+    type: "multichoice"
+    name: "mc-s04-42-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.3 Ocena chodu i wstawania"
+        fraction: 100
+      - text: "Unerwienie skory"
+        fraction: 0
+      - text: "Ocena postawy ciala w pozycji stojacej i lezacej"
+        fraction: 0
+      - text: "Tempo i sila dostosowane do oczekiwan"
+        fraction: 0
+  - id: "mc-s04-42-q4"
+    type: "multichoice"
+    name: "mc-s04-42-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.4 Ocena rownowagi i stabilnosci"
+        fraction: 100
+      - text: "Unaczynienie skory"
+        fraction: 0
+      - text: "Ocena budowy ciala: typ budowy, masa, wzrost, BMI orientacyjnie"
+        fraction: 0
+      - text: "Komunikacja: zapowiedz dotyku"
+        fraction: 0
+  - id: "mc-s04-42-q5"
+    type: "multichoice"
+    name: "mc-s04-42-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.5 Palpacja miesni i powiezi"
+        fraction: 100
+      - text: "Funkcje skory: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+        fraction: 0
+      - text: "Pomiary dlugosci konczyn"
+        fraction: 0
+      - text: "Prawo do przerwania"
+        fraction: 0
+  - id: "mc-s04-42-q6"
+    type: "multichoice"
+    name: "mc-s04-42-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.6 Palpacja stawow i wiezadel"
+        fraction: 100
+      - text: "Wplyw masazu na skore"
+        fraction: 0
+      - text: "Pomiary obwodow konczyn i obrzeku"
+        fraction: 0
+      - text: "Brak ocen moralnych ciala"
+        fraction: 0
+  - id: "mc-s04-42-q7"
+    type: "multichoice"
+    name: "mc-s04-42-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.7 Palpacja tkanek podskornych"
+        fraction: 100
+      - text: "Skora sucha, cienka, wrazliwa, naczyniowa"
+        fraction: 0
+      - text: "Zakres ruchu czynnego i biernego"
+        fraction: 0
+      - text: "Profesjonalny dystans i zyczliwosc"
+        fraction: 0
+  - id: "mc-s04-42-q8"
+    type: "multichoice"
+    name: "mc-s04-42-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.8 Wykrywanie punktow spustowych"
+        fraction: 100
+      - text: "Przeciwwskazania skorne do masazu"
+        fraction: 0
+      - text: "Testy sily miesniowej w skali Lovetta"
+        fraction: 0
+      - text: "Cel: redukcja napiecia, poprawa samopoczucia"
+        fraction: 0
+  - id: "mc-s04-42-q9"
+    type: "multichoice"
+    name: "mc-s04-42-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.9 Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 100
+      - text: "Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "Ocena chodu i wstawania"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s04-42-q10"
+    type: "multichoice"
+    name: "mc-s04-42-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Badanie funkcjonalne i palpacyjne” (4.2)?"
+    answers:
+      - text: "4.2.10 Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 100
+      - text: "Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+        fraction: 0
+      - text: "Pozycja siedzaca"
+        fraction: 0
+      - text: "Brak sprzetu jako przewaga dostepnosci"
+        fraction: 0

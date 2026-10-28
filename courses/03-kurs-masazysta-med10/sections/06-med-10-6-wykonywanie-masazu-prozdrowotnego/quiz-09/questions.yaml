@@ -1,88 +1,247 @@
-# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+# Pytania quizu w formacie YAML (1:1 z questions.gift — wygenerowane
+# przez scripts/enrich_masaz_quizzes.py; parsowalne YAML-em).
 quiz: "6.9. Działania edukacyjne i popularyzacja zachowań prozdrowotnych"
 category: masaz
 questions:
-  - type: truefalse
-    name: "6.9 — zagadnienie 1"
+  - id: "tf-s06-69-q1"
+    type: "truefalse"
+    name: "tf-s06-69-q1"
     text: "Zagadnienie „6.9.1. Jak mówić o zdrowiu bez straszenia” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 1"
+  - id: "tf-s06-69-q1b"
+    type: "truefalse"
+    name: "tf-s06-69-q1b"
     text: "Zagadnienie „6.9.2. Jak mówić o ciele bez wstydu” jest elementem zagadnienia „6.9.1. Jak mówić o zdrowiu bez straszenia”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 2"
+  - id: "tf-s06-69-q2"
+    type: "truefalse"
+    name: "tf-s06-69-q2"
     text: "Zagadnienie „6.9.2. Jak mówić o ciele bez wstydu” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 2"
+  - id: "tf-s06-69-q2b"
+    type: "truefalse"
+    name: "tf-s06-69-q2b"
     text: "Zagadnienie „6.9.3. Jak motywować bez manipulacji” jest elementem zagadnienia „6.9.2. Jak mówić o ciele bez wstydu”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 3"
+  - id: "tf-s06-69-q3"
+    type: "truefalse"
+    name: "tf-s06-69-q3"
     text: "Zagadnienie „6.9.3. Jak motywować bez manipulacji” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 3"
+  - id: "tf-s06-69-q3b"
+    type: "truefalse"
+    name: "tf-s06-69-q3b"
     text: "Zagadnienie „6.9.4. Podstawy higieny snu” jest elementem zagadnienia „6.9.3. Jak motywować bez manipulacji”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 4"
+  - id: "tf-s06-69-q4"
+    type: "truefalse"
+    name: "tf-s06-69-q4"
     text: "Zagadnienie „6.9.4. Podstawy higieny snu” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 4"
+  - id: "tf-s06-69-q4b"
+    type: "truefalse"
+    name: "tf-s06-69-q4b"
     text: "Zagadnienie „6.9.5. Podstawy aktywności fizycznej” jest elementem zagadnienia „6.9.4. Podstawy higieny snu”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 5"
+  - id: "tf-s06-69-q5"
+    type: "truefalse"
+    name: "tf-s06-69-q5"
     text: "Zagadnienie „6.9.5. Podstawy aktywności fizycznej” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 5"
+  - id: "tf-s06-69-q5b"
+    type: "truefalse"
+    name: "tf-s06-69-q5b"
     text: "Zagadnienie „6.9.6. Podstawy nawodnienia” jest elementem zagadnienia „6.9.5. Podstawy aktywności fizycznej”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 6"
+  - id: "tf-s06-69-q6"
+    type: "truefalse"
+    name: "tf-s06-69-q6"
     text: "Zagadnienie „6.9.6. Podstawy nawodnienia” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 6"
+  - id: "tf-s06-69-q6b"
+    type: "truefalse"
+    name: "tf-s06-69-q6b"
     text: "Zagadnienie „6.9.7. Podstawy pielęgnacji skóry” jest elementem zagadnienia „6.9.6. Podstawy nawodnienia”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 7"
+  - id: "tf-s06-69-q7"
+    type: "truefalse"
+    name: "tf-s06-69-q7"
     text: "Zagadnienie „6.9.7. Podstawy pielęgnacji skóry” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 7"
+  - id: "tf-s06-69-q7b"
+    type: "truefalse"
+    name: "tf-s06-69-q7b"
     text: "Zagadnienie „6.9.8. Profilaktyka przeciążeń” jest elementem zagadnienia „6.9.7. Podstawy pielęgnacji skóry”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 8"
+  - id: "tf-s06-69-q8"
+    type: "truefalse"
+    name: "tf-s06-69-q8"
     text: "Zagadnienie „6.9.8. Profilaktyka przeciążeń” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 8"
+  - id: "tf-s06-69-q8b"
+    type: "truefalse"
+    name: "tf-s06-69-q8b"
     text: "Zagadnienie „6.9.9. Materiały edukacyjne dla pacjenta” jest elementem zagadnienia „6.9.8. Profilaktyka przeciążeń”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 9"
+  - id: "tf-s06-69-q9"
+    type: "truefalse"
+    name: "tf-s06-69-q9"
     text: "Zagadnienie „6.9.9. Materiały edukacyjne dla pacjenta” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: truefalse
-    name: "6.9 — rozgraniczenie 9"
+  - id: "tf-s06-69-q9b"
+    type: "truefalse"
+    name: "tf-s06-69-q9b"
     text: "Zagadnienie „6.9.10. Współpraca z lekarzem, dietetykiem, fizjoterapeutą” jest elementem zagadnienia „6.9.9. Materiały edukacyjne dla pacjenta”, a nie tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: false
-  - type: truefalse
-    name: "6.9 — zagadnienie 10"
+  - id: "tf-s06-69-q10"
+    type: "truefalse"
+    name: "tf-s06-69-q10"
     text: "Zagadnienie „6.9.10. Współpraca z lekarzem, dietetykiem, fizjoterapeutą” wchodzi w zakres tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)."
     answer: true
-  - type: multichoice
-    name: "6.9 — przyporządkowanie zagadnienia"
+  - id: "mc-s06-69"
+    type: "multichoice"
+    name: "mc-s06-69"
     text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
     answers:
-      - text: "6.9.1. Jak mówić o zdrowiu bez straszenia"  fraction: 100
-      - text: "2.1.8. Granice profesjonalnej bliskości"  fraction: 0
-      - text: "3.14.8. Obciążenie termiczne"  fraction: 0
-      - text: "5.4.7. Gorączka i infekcja — przeciwwskazanie"  fraction: 0
+      - text: "6.9.1. Jak mówić o zdrowiu bez straszenia"
+        fraction: 100
+      - text: "6.9.2. Jak mówić o ciele bez wstydu"
+        fraction: 0
+      - text: "6.9.3. Jak motywować bez manipulacji"
+        fraction: 0
+      - text: "2.1.8. Granice profesjonalnej bliskości"
+        fraction: 0
+      - text: "3.14.8. Obciążenie termiczne"
+        fraction: 0
+      - text: "5.4.7. Gorączka i infekcja — przeciwwskazanie"
+        fraction: 0
+  - id: "mc-s06-69-q1"
+    type: "multichoice"
+    name: "mc-s06-69-q1"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.1 Jak mowic o zdrowiu bez straszenia"
+        fraction: 100
+      - text: "Polaczenia kosci: ciagle i ciaglosci"
+        fraction: 0
+      - text: "Ocena rownowagi i stabilnosci"
+        fraction: 0
+      - text: "Techniki: glaskanie, rozcieranie, delikatne ugniatanie"
+        fraction: 0
+  - id: "mc-s06-69-q2"
+    type: "multichoice"
+    name: "mc-s06-69-q2"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.2 Jak mowic o ciele bez wstydu"
+        fraction: 100
+      - text: "Stawy: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "Palpacja miesni i powiezi"
+        fraction: 0
+      - text: "Kolejnosc: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa"
+        fraction: 0
+  - id: "mc-s06-69-q3"
+    type: "multichoice"
+    name: "mc-s06-69-q3"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.3 Jak motywowac bez manipulacji"
+        fraction: 100
+      - text: "Wiazadla i sciegna"
+        fraction: 0
+      - text: "Palpacja stawow i wiezadel"
+        fraction: 0
+      - text: "Czas: 30, 45, 60 minut"
+        fraction: 0
+  - id: "mc-s06-69-q4"
+    type: "multichoice"
+    name: "mc-s06-69-q4"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.4 Podstawy higieny snu"
+        fraction: 100
+      - text: "Miesnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+        fraction: 0
+      - text: "Palpacja tkanek podskornych"
+        fraction: 0
+      - text: "Srodki poslizgowe"
+        fraction: 0
+  - id: "mc-s06-69-q5"
+    type: "multichoice"
+    name: "mc-s06-69-q5"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.5 Podstawy aktywnosci fizycznej"
+        fraction: 100
+      - text: "Narzady pomocnicze miesni: powiezie, kaletki, pochewki sciegniste"
+        fraction: 0
+      - text: "Wykrywanie punktow spustowych"
+        fraction: 0
+      - text: "Przeciwwskazania"
+        fraction: 0
+  - id: "mc-s06-69-q6"
+    type: "multichoice"
+    name: "mc-s06-69-q6"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.6 Podstawy nawodnienia"
+        fraction: 100
+      - text: "Powiez powierzchowna i gleboka"
+        fraction: 0
+      - text: "Wykrywanie zmian odruchowych w masazu segmentarnym"
+        fraction: 0
+      - text: "Reakcje pacjenta"
+        fraction: 0
+  - id: "mc-s06-69-q7"
+    type: "multichoice"
+    name: "mc-s06-69-q7"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.7 Podstawy pielegnacji skory"
+        fraction: 100
+      - text: "Linie anatomiczne i lancuchy miesniowo-powieziowe"
+        fraction: 0
+      - text: "Ocena wezlow chlonnych superficialnych — bez diagnostyki nowotworowej"
+        fraction: 0
+      - text: "Zalecenia po zabiegu"
+        fraction: 0
+  - id: "mc-s06-69-q8"
+    type: "multichoice"
+    name: "mc-s06-69-q8"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.8 Profilaktyka przeciazen"
+        fraction: 100
+      - text: "Biomechanika ruchu i stabilizacja"
+        fraction: 0
+      - text: "Obrzek miekki i twardy"
+        fraction: 0
+      - text: "Dokumentacja"
+        fraction: 0
+  - id: "mc-s06-69-q9"
+    type: "multichoice"
+    name: "mc-s06-69-q9"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.9 Materialy edukacyjne dla pacjenta"
+        fraction: 100
+      - text: "Znaczenie palpacji struktur ukladu ruchu"
+        fraction: 0
+      - text: "Proba Stemmera i inne objawy — w granicach edukacji"
+        fraction: 0
+      - text: "Granice: relaks nie zastepuje terapii psychologicznej"
+        fraction: 0
+  - id: "mc-s06-69-q10"
+    type: "multichoice"
+    name: "mc-s06-69-q10"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Działania edukacyjne i popularyzacja zachowań prozdrowotnych” (6.9)?"
+    answers:
+      - text: "6.9.10 Wspolpraca z lekarzem, dietetykiem, fizjoterapeuta"
+        fraction: 100
+      - text: "Wyczuwanie pni chlonnych i skupisk wezlow"
+        fraction: 0
+      - text: "Masaz konczyny dolnej"
+        fraction: 0
+      - text: "Jak mowic o zdrowiu bez straszenia"
+        fraction: 0
