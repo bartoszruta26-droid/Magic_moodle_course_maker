@@ -465,8 +465,8 @@ Spis treści zachowuje **ducha miłości Bożej, prawdy, piękna i sprawiedliwo�
 2.14.7. Wyczuwanie mięśni kończyny dolnej: udo, podudzie, stopa  
 2.14.8. Wyczuwanie tętnic powierzchniowych  
 2.14.9. Wyczuwanie żył powierzchownych  
-2.15.0. Wyczuwanie pni chłonnych i skupisk węzłów  
-2.15.1. Dokumentacja palpacyjna bez stawiania rozpoznań
+2.14.10. Wyczuwanie pni chłonnych i skupisk węzłów  
+2.14.11. Dokumentacja palpacyjna bez stawiania rozpoznań
 
 ### 2.15. Fizjologia i mechanika skurczu mięśni
 2.15.1. Skurcz izometryczny i izotoniczny  

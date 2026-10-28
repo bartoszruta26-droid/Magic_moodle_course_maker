@@ -1,0 +1,79 @@
+// Bank pytań jednokrotnego wyboru – przyporządkowanie tematów do modułów
+// Źródło: kurs_masazu.txt
+::mc-m01:: Do którego modułu należy temat „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty”? {
+    = Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+    ~ Ocena pacjenta na potrzeby wykonania masażu
+}
+
+::mc-m02:: Do którego modułu należy temat „Prawne i etyczne uwarunkowania zawodu masażysty”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    = Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+    ~ Ocena pacjenta na potrzeby wykonania masażu
+}
+
+::mc-m03:: Do którego modułu należy temat „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    = Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+    ~ Ocena pacjenta na potrzeby wykonania masażu
+}
+
+::mc-m04:: Do którego modułu należy temat „Ocena pacjenta na potrzeby wykonania masażu”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+    = Ocena pacjenta na potrzeby wykonania masażu
+}
+
+::mc-m05:: Do którego modułu należy temat „Wprowadzenie do masażu sportowego”? {
+    = Wprowadzenie do masażu sportowego
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+}
+
+::mc-m06:: Do którego modułu należy temat „Pojęcie masażu prozdrowotnego”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    = Pojęcie masażu prozdrowotnego
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+}
+
+::mc-m07:: Do którego modułu należy temat „Wprowadzenie do języka obcego zawodowego masażysty”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    = Wprowadzenie do języka obcego zawodowego masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+}
+
+::mc-m08:: Do którego modułu należy temat „Wysoka jakość usług masażu”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+    = Wysoka jakość usług masażu
+}
+
+::mc-m09:: Do którego modułu należy temat „Planowanie pracy zespołu”? {
+    = Planowanie pracy zespołu
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+}
+
+::mc-m10:: Do którego modułu należy temat „Cele praktyki zawodowej”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    = Cele praktyki zawodowej
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+}
+
+::mc-m11:: Do którego modułu należy temat „Wymagania egzaminacyjne i zasady oceny”? {
+    ~ Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty
+    ~ Prawne i etyczne uwarunkowania zawodu masażysty
+    = Wymagania egzaminacyjne i zasady oceny
+    ~ Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne
+}
+

@@ -142,12 +142,12 @@ def page_md(mod: Module, t: Topic) -> str:
          "potwierdzającego kwalifikację MED.10.", ""]
     L += ["## Cele szczegółowe — po tym temacie uczestnik potrafi:", ""]
     for i, s in enumerate(subs):
-        L.append(f"- {statut_for(i)} — **{s.num} {s.title}**.")
+        L.append(f"- {statut_for(i)} — **{s.num} {s.clean_title}**.")
     L += ["", "## Zagadnienia szczegółowe", ""]
     for s in subs:
-        L += [f"### {s.num} {s.title}", "",
+        L += [f"### {s.num} {s.clean_title}", "",
               "Zakres materiału (zgodnie ze spisem treści kursu):", "",
-              f"- omówienie pojęcia, celów i miejsca zagadnienia „{s.title}” w pracy masażysty;",
+              f"- omówienie pojęcia, celów i miejsca zagadnienia „{s.clean_title}” w pracy masażysty;",
               "- demonstracja i przećwiczenie właściwej metodyki postępowania;",
               "- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);",
               "- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).", ""]
@@ -161,7 +161,7 @@ def page_md(mod: Module, t: Topic) -> str:
           "realnemu dobru drugiego człowieka — zgodnie z zasadą „primum non nocere”.",
           "", "**Pytania utrwalające:**", ""]
     for i, s in enumerate(subs[:4], 1):
-        L.append(f"{i}. Omów zagadnienie: {s.title}.")
+        L.append(f"{i}. Omów zagadnienie: {s.clean_title}.")
     L.append("")
     return "\n".join(L)
 
@@ -198,14 +198,14 @@ def quiz_gift(mod: Module, t: Topic, all_titles: list) -> str:
     sid = f"s{mod.index:02d}-{t.num.replace('.', '')}"
     for i, s in enumerate(t.subtopics, 1):
         nxt = t.subtopics[i] if i < len(t.subtopics) else None
-        L += [f"::tf-{sid}-q{i}:: Zagadnienie „{s.title}” wchodzi w zakres tematu "
+        L += [f"::tf-{sid}-q{i}:: Zagadnienie „{s.clean_title}” wchodzi w zakres tematu "
               f"„{t.clean_title}” ({t.num}). {{TRUE}} //", ""]
         if nxt:
-            L += [f"::tf-{sid}-q{i}b:: Zagadnienie „{nxt.title}” jest elementem "
-                  f"zagadnienia „{s.title}”, a nie tematu „{t.clean_title}” "
+            L += [f"::tf-{sid}-q{i}b:: Zagadnienie „{nxt.clean_title}” jest elementem "
+                  f"zagadnienia „{s.clean_title}”, a nie tematu „{t.clean_title}” "
                   f"({t.num}). {{FALSE}} //", ""]
     if t.subtopics:
-        opts = [s.title for s in t.subtopics[:3]]
+        opts = [s.clean_title for s in t.subtopics[:3]]
         dis = distractors(all_titles, opts[0], t.num)
         body = [f"    = {opts[0]}"] + \
                [f"    ~ {o}" for o in opts[1:]] + \
@@ -223,13 +223,13 @@ def quiz_yaml_questions(mod: Module, t: Topic, all_titles: list) -> str:
     for i, s in enumerate(t.subtopics, 1):
         lines += ["  - type: truefalse",
                   f"    name: {yaml_q(f'{t.num} — zagadnienie {i}')}",
-                  f"    text: {yaml_q('Zagadnienie „' + s.title + '” wchodzi w zakres tematu „' + t.clean_title + f'” ({t.num}).')}",
+                  f"    text: {yaml_q('Zagadnienie „' + s.clean_title + '” wchodzi w zakres tematu „' + t.clean_title + f'” ({t.num}).')}",
                   "    answer: true"]
         nxt = t.subtopics[i] if i < len(t.subtopics) else None
         if nxt:
             lines += ["  - type: truefalse",
                       f"    name: {yaml_q(f'{t.num} — rozgraniczenie {i}')}",
-                      f"    text: {yaml_q('Zagadnienie „' + nxt.title + '” jest elementem zagadnienia „' + s.title + '”, a nie tematu „' + t.clean_title + f'” ({t.num}).')}",
+                      f"    text: {yaml_q('Zagadnienie „' + nxt.clean_title + '” jest elementem zagadnienia „' + s.clean_title + '”, a nie tematu „' + t.clean_title + f'” ({t.num}).')}",
                       "    answer: false"]
     if t.subtopics:
         dis = distractors(all_titles, t.subtopics[0].title, t.num)
@@ -299,7 +299,7 @@ markdown_file: instructions.md
 
 
 def assignment_md(mod: Module, t: Topic) -> str:
-    check = "".join(f"- [ ] {s.num} {s.title}\n" for s in t.subtopics)
+    check = "".join(f"- [ ] {s.num} {s.clean_title}\n" for s in t.subtopics)
     return (
         f"# Zadanie: {topic_heading(t)}\n\n"
         "## Cel kształcenia\n\n"
@@ -467,7 +467,7 @@ def question_bank(course) -> dict:
           f"// Źródło: {Path(course.source).name}"]
     for m in mods_with_topics:
         t = m.topics[0]
-        key = " | ".join(s.title.split("–")[0].split(" - ")[0].strip()
+        key = " | ".join(s.clean_title.split("–")[0].split(" - ")[0].strip()
                          for s in t.subtopics[:6]) or t.clean_title
         sa.append(f"::sa-m{m.index:02d}:: Wymień główne zagadnienia tematu "
                   f"„{t.clean_title}” ({t.num}) ze spisu treści kursu. "
@@ -782,7 +782,7 @@ def collect_and_write(course, base: Path, dry_run: bool, no_books: bool):
         put(base / p.relative_to(BASE), c)
 
     # sekcje i aktywności modułowe
-    all_sub_titles = [s.title for m in course.modules for t in m.topics
+    all_sub_titles = [s.clean_title for m in course.modules for t in m.topics
                       for s in t.subtopics]
     for mod in course.modules:
         sec = base / "sections" / mod.dir_name

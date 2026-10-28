@@ -102,6 +102,9 @@ def fix_toc_numbering(toc_path: Path, dry_run: bool) -> int:
     out = list(lines)
     fixed = 0
 
+    # numer biezacego bloku podtematow (do uzycia w sub_lines ponizej)
+    wa_wb = [0, 0]
+
     # --- zbierz naglowki tematom i ich podtematy w zakresie [start, end) ---
     topics = []            # (line_idx, "N.M")
     for i in range(start, end):
@@ -110,17 +113,32 @@ def fix_toc_numbering(toc_path: Path, dry_run: bool) -> int:
             topics.append((i, m.group(1)))
 
     def sub_lines(a, b):
-        """Podtematy (line_idx, ga, gb, gc) pomiedzy naglowkami a..b."""
+        """Podtematy (line_idx, ga, gb, gc) pomiedzy naglowkami a..b.
+
+        Uwaga: w spisie pod tematem 4.7 linie "7.1."-"7.15." nie zawieraja
+        trzeciego elementu numeru ("7.1."), wiek SUB_NUM_RE ich nie widzial.
+        Dodajemy uzupelnienie: dwuelementowy numer "X.Y." traktujemy jako
+        podtemat z gc=0 (regula A i tak przepnie caly blok na N.M.k).
+        """
         res = []
+        two_re = re.compile(r"^(\d{1,2})\.(\d{1,2})\.\s")
         for i in range(a + 1, b):
-            sm = SUB_NUM_RE.match(lines[i].lstrip())
+            line = lines[i].lstrip()
+            sm = SUB_NUM_RE.match(line)
             if sm:
                 res.append((i,) + tuple(int(x) for x in sm.groups()))
+                continue
+            tm = two_re.match(line)
+            # dwuelementowy numer to potencjalny podtemat ONLY jesli nie jest
+            # to poprawny numer biezacego tematu (N.M.) — te przepinamy na gc=0
+            if tm and (int(tm.group(1)), int(tm.group(2))) != (wa_wb[0], wa_wb[1]):
+                res.append((i, int(tm.group(1)), int(tm.group(2)), 0))
         return res
 
     for ti, (tstart, tnum) in enumerate(topics):
         tend = topics[ti + 1][0] if ti + 1 < len(topics) else end
         wa, wb = (int(x) for x in tnum.split("."))
+        wa_wb[0], wa_wb[1] = wa, wb
         subs = sub_lines(tstart, tend)
         matching = [s for s in subs if (s[1], s[2]) == (wa, wb)]
         mismatched = [s for s in subs if (s[1], s[2]) != (wa, wb)]
