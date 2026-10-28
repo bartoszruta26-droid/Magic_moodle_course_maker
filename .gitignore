@@ -1,6 +1,2 @@
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.swp
-*.swo
+__pycache__/
+*.pyc
