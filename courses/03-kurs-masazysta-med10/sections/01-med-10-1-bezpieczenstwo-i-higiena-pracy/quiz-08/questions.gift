@@ -117,3 +117,31 @@
     ~ Pozycja w ciazy
     ~ Oswietlenie i temperatura
 }
+
+::mc-s01-18-v1:: Które zagadnienie należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8)? {
+    = 1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia
+    ~0.5# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne
+    ~0.5# 1.8.3 Fartuch lub okrycie robocze
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-18-v2:: Które zagadnienie NIE należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8), lecz jest częścią innego tematu kursu? {
+    = 1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia
+    ~-0.25# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne
+    ~-0.25# 1.8.3 Fartuch lub okrycie robocze
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-18-v3:: Które zagadnienie należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8)? {
+    = 1.8.3 Fartuch lub okrycie robocze
+    ~0.5# 1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia
+    ~0.5# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-18-v4:: Które zagadnienie NIE należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8), lecz jest częścią innego tematu kursu? {
+    = 1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia
+    ~-0.25# 1.8.4 Ochrona oczu przy ryzyku rozprysku
+    ~-0.25# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

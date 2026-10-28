@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Edukacja ergonomia"
         fraction: 0
+  - id: "mc-s01-12-v1"
+    type: "multichoice"
+    name: "mc-s01-12-v1"
+    text: "Które zagadnienie należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "0.5# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "0.5# 1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-12-v2"
+    type: "multichoice"
+    name: "mc-s01-12-v2"
+    text: "Które zagadnienie NIE należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "-0.25# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "-0.25# 1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-12-v3"
+    type: "multichoice"
+    name: "mc-s01-12-v3"
+    text: "Które zagadnienie należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)?"
+    answers:
+      - text: "1.2.3 Przepisy dotyczace badan lekarskich pracownikow"
+        fraction: 100
+      - text: "0.5# 1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 0
+      - text: "0.5# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-12-v4"
+    type: "multichoice"
+    name: "mc-s01-12-v4"
+    text: "Które zagadnienie NIE należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.2.1 Kodeks pracy w zakresie BHP"
+        fraction: 100
+      - text: "-0.25# 1.2.4 Przepisy dotyczace szkolenia BHP"
+        fraction: 0
+      - text: "-0.25# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

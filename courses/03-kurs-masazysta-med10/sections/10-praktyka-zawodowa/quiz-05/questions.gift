@@ -117,3 +117,31 @@
     ~ Terapia ulozeniowa
     ~ Reading instructions and labels
 }
+
+::mc-s10-105-v1:: Które zagadnienie należy do tematu „Portfolio praktykant” (10.5)? {
+    = 10.5.1 Zestaw wykonanych zabiegow
+    ~0.5# 10.5.2 Studia przypadkow anonimowe
+    ~0.5# 10.5.3 Check-listy umiejetnosci
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s10-105-v2:: Które zagadnienie NIE należy do tematu „Portfolio praktykant” (10.5), lecz jest częścią innego tematu kursu? {
+    = 10.5.1 Zestaw wykonanych zabiegow
+    ~-0.25# 10.5.2 Studia przypadkow anonimowe
+    ~-0.25# 10.5.3 Check-listy umiejetnosci
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s10-105-v3:: Które zagadnienie należy do tematu „Portfolio praktykant” (10.5)? {
+    = 10.5.3 Check-listy umiejetnosci
+    ~0.5# 10.5.1 Zestaw wykonanych zabiegow
+    ~0.5# 10.5.2 Studia przypadkow anonimowe
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s10-105-v4:: Które zagadnienie NIE należy do tematu „Portfolio praktykant” (10.5), lecz jest częścią innego tematu kursu? {
+    = 10.5.1 Zestaw wykonanych zabiegow
+    ~-0.25# 10.5.4 Refleksje etyczne
+    ~-0.25# 10.5.2 Studia przypadkow anonimowe
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

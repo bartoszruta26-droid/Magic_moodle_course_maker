@@ -117,3 +117,31 @@
     ~ Zasada podwojnego opracowania stawow
     ~ Wardrobe and storage
 }
+
+::mc-s01-111-v1:: Które zagadnienie należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11)? {
+    = 1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne
+    ~0.5# 1.11.2 Sygnaly alarmowe
+    ~0.5# 1.11.3 Gasnice i ich rodzaje
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-111-v2:: Które zagadnienie NIE należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11), lecz jest częścią innego tematu kursu? {
+    = 1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne
+    ~-0.25# 1.11.2 Sygnaly alarmowe
+    ~-0.25# 1.11.3 Gasnice i ich rodzaje
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-111-v3:: Które zagadnienie należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11)? {
+    = 1.11.3 Gasnice i ich rodzaje
+    ~0.5# 1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne
+    ~0.5# 1.11.2 Sygnaly alarmowe
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-111-v4:: Które zagadnienie NIE należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11), lecz jest częścią innego tematu kursu? {
+    = 1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne
+    ~-0.25# 1.11.4 Zasady ewakuacji osoby lezacej na stole do masazu
+    ~-0.25# 1.11.2 Sygnaly alarmowe
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

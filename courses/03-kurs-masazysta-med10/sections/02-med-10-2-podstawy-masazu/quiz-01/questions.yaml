@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Edukacja ergonomia"
         fraction: 0
+  - id: "mc-s02-21-v1"
+    type: "multichoice"
+    name: "mc-s02-21-v1"
+    text: "Które zagadnienie należy do tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)?"
+    answers:
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 100
+      - text: "0.5# 2.1.2 Kwalifikacja MED.10 jako podstawa ksztalcenia"
+        fraction: 0
+      - text: "0.5# 2.1.3 Przepisy dotyczace wykonywania zadan zawodowych"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-21-v2"
+    type: "multichoice"
+    name: "mc-s02-21-v2"
+    text: "Które zagadnienie NIE należy do tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 100
+      - text: "-0.25# 2.1.2 Kwalifikacja MED.10 jako podstawa ksztalcenia"
+        fraction: 0
+      - text: "-0.25# 2.1.3 Przepisy dotyczace wykonywania zadan zawodowych"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-21-v3"
+    type: "multichoice"
+    name: "mc-s02-21-v3"
+    text: "Które zagadnienie należy do tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)?"
+    answers:
+      - text: "2.1.3 Przepisy dotyczace wykonywania zadan zawodowych"
+        fraction: 100
+      - text: "0.5# 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+      - text: "0.5# 2.1.2 Kwalifikacja MED.10 jako podstawa ksztalcenia"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-21-v4"
+    type: "multichoice"
+    name: "mc-s02-21-v4"
+    text: "Które zagadnienie NIE należy do tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 100
+      - text: "-0.25# 2.1.4 Etyka zawodu\\: prawda, zaufanie, dyskrecja, szacunek"
+        fraction: 0
+      - text: "-0.25# 2.1.2 Kwalifikacja MED.10 jako podstawa ksztalcenia"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -117,3 +117,31 @@
     ~ Pozycja po operacjach
     ~ Pozycja pacjenta
 }
+
+::mc-s01-19-v1:: Które zagadnienie należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~0.5# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~0.5# 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-19-v2:: Które zagadnienie NIE należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9), lecz jest częścią innego tematu kursu? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~-0.25# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~-0.25# 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-19-v3:: Które zagadnienie należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)? {
+    = 1.9.3 Dezynfekcja rak przed i po zabiegu
+    ~0.5# 1.9.1 Pojecie aseptyki i antyseptyki
+    ~0.5# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-19-v4:: Które zagadnienie NIE należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9), lecz jest częścią innego tematu kursu? {
+    = 1.9.1 Pojecie aseptyki i antyseptyki
+    ~-0.25# 1.9.4 Stosowanie jednorazowych podkladow
+    ~-0.25# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

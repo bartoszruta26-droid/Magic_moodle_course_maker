@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Classical massage, medical massage, sports massage"
         fraction: 0
+  - id: "mc-s07-710-v1"
+    type: "multichoice"
+    name: "mc-s07-710-v1"
+    text: "Które zagadnienie należy do tematu „Strategie komunikacyjne i kompensacyjne” (7.10)?"
+    answers:
+      - text: "7.10.1 Using dictionaries"
+        fraction: 100
+      - text: "0.5# 7.10.2 Using translation technology responsibly"
+        fraction: 0
+      - text: "0.5# 7.10.3 Recognizing international words"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s07-710-v2"
+    type: "multichoice"
+    name: "mc-s07-710-v2"
+    text: "Które zagadnienie NIE należy do tematu „Strategie komunikacyjne i kompensacyjne” (7.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "7.10.1 Using dictionaries"
+        fraction: 100
+      - text: "-0.25# 7.10.2 Using translation technology responsibly"
+        fraction: 0
+      - text: "-0.25# 7.10.3 Recognizing international words"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s07-710-v3"
+    type: "multichoice"
+    name: "mc-s07-710-v3"
+    text: "Które zagadnienie należy do tematu „Strategie komunikacyjne i kompensacyjne” (7.10)?"
+    answers:
+      - text: "7.10.3 Recognizing international words"
+        fraction: 100
+      - text: "0.5# 7.10.1 Using dictionaries"
+        fraction: 0
+      - text: "0.5# 7.10.2 Using translation technology responsibly"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s07-710-v4"
+    type: "multichoice"
+    name: "mc-s07-710-v4"
+    text: "Które zagadnienie NIE należy do tematu „Strategie komunikacyjne i kompensacyjne” (7.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "7.10.1 Using dictionaries"
+        fraction: 100
+      - text: "-0.25# 7.10.4 Paraphrasing unknown terms"
+        fraction: 0
+      - text: "-0.25# 7.10.2 Using translation technology responsibly"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -117,3 +117,31 @@
     ~ Pielegnacja skory
     ~ Connective tissue massage
 }
+
+::mc-s03-315-v1:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)? {
+    = 3.15.1 Shantala\: masaz niemowlecia jako kontakt i regulacja
+    ~0.5# 3.15.2 Zgoda opiekuna i obecnosc rodzica
+    ~0.5# 3.15.3 Przeciwwskazania u niemowlecia\: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-315-v2:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15), lecz jest częścią innego tematu kursu? {
+    = 3.15.1 Shantala\: masaz niemowlecia jako kontakt i regulacja
+    ~-0.25# 3.15.2 Zgoda opiekuna i obecnosc rodzica
+    ~-0.25# 3.15.3 Przeciwwskazania u niemowlecia\: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-315-v3:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15)? {
+    = 3.15.3 Przeciwwskazania u niemowlecia\: goraczka, infekcje, zmiany skorne, wczesniactwo bez zgody lekarza
+    ~0.5# 3.15.1 Shantala\: masaz niemowlecia jako kontakt i regulacja
+    ~0.5# 3.15.2 Zgoda opiekuna i obecnosc rodzica
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-315-v4:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu” (3.15), lecz jest częścią innego tematu kursu? {
+    = 3.15.1 Shantala\: masaz niemowlecia jako kontakt i regulacja
+    ~-0.25# 3.15.4 Ciaza fizjologiczna\: zasady bezpieczenstwa
+    ~-0.25# 3.15.2 Zgoda opiekuna i obecnosc rodzica
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

@@ -117,3 +117,31 @@
     ~ Autodrenaz pacjenta
     ~ Classical massage, medical massage, sports massage
 }
+
+::mc-s11-116-v1:: Które zagadnienie należy do tematu „Studia przypadków” (11.6)? {
+    = 11.6.1 Pacjent z bolem kregoslupa ledzwiowego
+    ~0.5# 11.6.2 Pacjent po udarze
+    ~0.5# 11.6.3 Pacjent z obrzekiem limfatycznym po mastektomii
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-116-v2:: Które zagadnienie NIE należy do tematu „Studia przypadków” (11.6), lecz jest częścią innego tematu kursu? {
+    = 11.6.1 Pacjent z bolem kregoslupa ledzwiowego
+    ~-0.25# 11.6.2 Pacjent po udarze
+    ~-0.25# 11.6.3 Pacjent z obrzekiem limfatycznym po mastektomii
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-116-v3:: Które zagadnienie należy do tematu „Studia przypadków” (11.6)? {
+    = 11.6.3 Pacjent z obrzekiem limfatycznym po mastektomii
+    ~0.5# 11.6.1 Pacjent z bolem kregoslupa ledzwiowego
+    ~0.5# 11.6.2 Pacjent po udarze
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-116-v4:: Które zagadnienie NIE należy do tematu „Studia przypadków” (11.6), lecz jest częścią innego tematu kursu? {
+    = 11.6.1 Pacjent z bolem kregoslupa ledzwiowego
+    ~-0.25# 11.6.4 Pacjent sportowiec po treningu
+    ~-0.25# 11.6.2 Pacjent po udarze
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

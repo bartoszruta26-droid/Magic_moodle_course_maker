@@ -117,3 +117,31 @@
     ~ Bezpieczenstwo spadania i utraty rownowagi
     ~ Etyka: nie masuj w warunkach niebezpiecznych
 }
+
+::mc-s06-67-v1:: Które zagadnienie należy do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~0.5# 6.7.2 Ubranie pacjenta
+    ~0.5# 6.7.3 Czas 10–20 minut
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s06-67-v2:: Które zagadnienie NIE należy do tematu „Masaż biurowy” (6.7), lecz jest częścią innego tematu kursu? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~-0.25# 6.7.2 Ubranie pacjenta
+    ~-0.25# 6.7.3 Czas 10–20 minut
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s06-67-v3:: Które zagadnienie należy do tematu „Masaż biurowy” (6.7)? {
+    = 6.7.3 Czas 10–20 minut
+    ~0.5# 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~0.5# 6.7.2 Ubranie pacjenta
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s06-67-v4:: Które zagadnienie NIE należy do tematu „Masaż biurowy” (6.7), lecz jest częścią innego tematu kursu? {
+    = 6.7.1 Krzeslo do masazu i pozycja siedzaca
+    ~-0.25# 6.7.4 Techniki\: barki, kark, glowa, rece, plecy przez ubranie
+    ~-0.25# 6.7.2 Ubranie pacjenta
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

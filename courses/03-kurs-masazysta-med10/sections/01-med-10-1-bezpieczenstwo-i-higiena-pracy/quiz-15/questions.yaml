@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Classical massage, medical massage, sports massage"
         fraction: 0
+  - id: "mc-s01-115-v1"
+    type: "multichoice"
+    name: "mc-s01-115-v1"
+    text: "Które zagadnienie należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15)?"
+    answers:
+      - text: "1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku"
+        fraction: 100
+      - text: "0.5# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki"
+        fraction: 0
+      - text: "0.5# 1.15.3 Osoby z niepelnosprawnoscia — komunikacja i godnosc"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-115-v2"
+    type: "multichoice"
+    name: "mc-s01-115-v2"
+    text: "Które zagadnienie NIE należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku"
+        fraction: 100
+      - text: "-0.25# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki"
+        fraction: 0
+      - text: "-0.25# 1.15.3 Osoby z niepelnosprawnoscia — komunikacja i godnosc"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-115-v3"
+    type: "multichoice"
+    name: "mc-s01-115-v3"
+    text: "Które zagadnienie należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15)?"
+    answers:
+      - text: "1.15.3 Osoby z niepelnosprawnoscia — komunikacja i godnosc"
+        fraction: 100
+      - text: "0.5# 1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku"
+        fraction: 0
+      - text: "0.5# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-115-v4"
+    type: "multichoice"
+    name: "mc-s01-115-v4"
+    text: "Które zagadnienie NIE należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku"
+        fraction: 100
+      - text: "-0.25# 1.15.4 Osoby po traumie — zgoda, zapowiedz dotyku, prawo do przerwania"
+        fraction: 0
+      - text: "-0.25# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

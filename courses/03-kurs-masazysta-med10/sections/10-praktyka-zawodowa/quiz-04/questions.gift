@@ -117,3 +117,31 @@
     ~ Tempo, cisnienie i czas zabiegu
     ~ Describing equipment safely
 }
+
+::mc-s10-104-v1:: Które zagadnienie należy do tematu „Ocena praktyki” (10.4)? {
+    = 10.4.1 Dziennik praktyk
+    ~0.5# 10.4.2 Karta oceny opiekuna praktyk
+    ~0.5# 10.4.3 Kryteria oceny umiejetnosci
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s10-104-v2:: Które zagadnienie NIE należy do tematu „Ocena praktyki” (10.4), lecz jest częścią innego tematu kursu? {
+    = 10.4.1 Dziennik praktyk
+    ~-0.25# 10.4.2 Karta oceny opiekuna praktyk
+    ~-0.25# 10.4.3 Kryteria oceny umiejetnosci
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s10-104-v3:: Które zagadnienie należy do tematu „Ocena praktyki” (10.4)? {
+    = 10.4.3 Kryteria oceny umiejetnosci
+    ~0.5# 10.4.1 Dziennik praktyk
+    ~0.5# 10.4.2 Karta oceny opiekuna praktyk
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s10-104-v4:: Które zagadnienie NIE należy do tematu „Ocena praktyki” (10.4), lecz jest częścią innego tematu kursu? {
+    = 10.4.1 Dziennik praktyk
+    ~-0.25# 10.4.4 Kryteria oceny postawy etycznej
+    ~-0.25# 10.4.2 Karta oceny opiekuna praktyk
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

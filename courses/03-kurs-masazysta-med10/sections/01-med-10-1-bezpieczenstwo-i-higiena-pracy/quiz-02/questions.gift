@@ -117,3 +117,31 @@
     ~ Pozycja na brzuchu
     ~ Edukacja ergonomia
 }
+
+::mc-s01-12-v1:: Które zagadnienie należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)? {
+    = 1.2.1 Kodeks pracy w zakresie BHP
+    ~0.5# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego
+    ~0.5# 1.2.3 Przepisy dotyczace badan lekarskich pracownikow
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-12-v2:: Które zagadnienie NIE należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2), lecz jest częścią innego tematu kursu? {
+    = 1.2.1 Kodeks pracy w zakresie BHP
+    ~-0.25# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego
+    ~-0.25# 1.2.3 Przepisy dotyczace badan lekarskich pracownikow
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-12-v3:: Które zagadnienie należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2)? {
+    = 1.2.3 Przepisy dotyczace badan lekarskich pracownikow
+    ~0.5# 1.2.1 Kodeks pracy w zakresie BHP
+    ~0.5# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-12-v4:: Które zagadnienie NIE należy do tematu „Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii” (1.2), lecz jest częścią innego tematu kursu? {
+    = 1.2.1 Kodeks pracy w zakresie BHP
+    ~-0.25# 1.2.4 Przepisy dotyczace szkolenia BHP
+    ~-0.25# 1.2.2 Przepisy dotyczace oceny ryzyka zawodowego
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

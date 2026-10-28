@@ -117,3 +117,31 @@
     ~ Obserwacja leku, bolu, dyskomfortu
     ~ Granice intymnosci
 }
+
+::mc-s01-11-v1:: Które zagadnienie należy do tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1)? {
+    = 1.1.1 Pojecie bezpieczenstwa pracy
+    ~0.5# 1.1.2 Pojecie higieny pracy
+    ~0.5# 1.1.3 Pojecie ergonomii
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-11-v2:: Które zagadnienie NIE należy do tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1), lecz jest częścią innego tematu kursu? {
+    = 1.1.1 Pojecie bezpieczenstwa pracy
+    ~-0.25# 1.1.2 Pojecie higieny pracy
+    ~-0.25# 1.1.3 Pojecie ergonomii
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-11-v3:: Które zagadnienie należy do tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1)? {
+    = 1.1.3 Pojecie ergonomii
+    ~0.5# 1.1.1 Pojecie bezpieczenstwa pracy
+    ~0.5# 1.1.2 Pojecie higieny pracy
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-11-v4:: Które zagadnienie NIE należy do tematu „Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty” (1.1), lecz jest częścią innego tematu kursu? {
+    = 1.1.1 Pojecie bezpieczenstwa pracy
+    ~-0.25# 1.1.4 Ochrona przeciwpozarowa
+    ~-0.25# 1.1.2 Pojecie higieny pracy
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

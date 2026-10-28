@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Etyka: nie masuj w warunkach niebezpiecznych"
         fraction: 0
+  - id: "mc-s08-86-v1"
+    type: "multichoice"
+    name: "mc-s08-86-v1"
+    text: "Które zagadnienie należy do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "0.5# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "0.5# 8.6.3 Oddech i regulacja napiecia"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s08-86-v2"
+    type: "multichoice"
+    name: "mc-s08-86-v2"
+    text: "Które zagadnienie NIE należy do tematu „Radzenie sobie ze stresem” (8.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "-0.25# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "-0.25# 8.6.3 Oddech i regulacja napiecia"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s08-86-v3"
+    type: "multichoice"
+    name: "mc-s08-86-v3"
+    text: "Które zagadnienie należy do tematu „Radzenie sobie ze stresem” (8.6)?"
+    answers:
+      - text: "8.6.3 Oddech i regulacja napiecia"
+        fraction: 100
+      - text: "0.5# 8.6.1 Zrodla stresu masazysty"
+        fraction: 0
+      - text: "0.5# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s08-86-v4"
+    type: "multichoice"
+    name: "mc-s08-86-v4"
+    text: "Które zagadnienie NIE należy do tematu „Radzenie sobie ze stresem” (8.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.6.1 Zrodla stresu masazysty"
+        fraction: 100
+      - text: "-0.25# 8.6.4 Przerwy regeneracyjne"
+        fraction: 0
+      - text: "-0.25# 8.6.2 Skutki stresu dla zdrowia i jakosci pracy"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Effleurage, petrissage, friction, tapotement, vibration"
         fraction: 0
+  - id: "mc-s01-114-v1"
+    type: "multichoice"
+    name: "mc-s01-114-v1"
+    text: "Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14)?"
+    answers:
+      - text: "1.14.1 Omdlenie"
+        fraction: 100
+      - text: "0.5# 1.14.2 Zawroty glowy"
+        fraction: 0
+      - text: "0.5# 1.14.3 Dusznosc"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-114-v2"
+    type: "multichoice"
+    name: "mc-s01-114-v2"
+    text: "Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.14.1 Omdlenie"
+        fraction: 100
+      - text: "-0.25# 1.14.2 Zawroty glowy"
+        fraction: 0
+      - text: "-0.25# 1.14.3 Dusznosc"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-114-v3"
+    type: "multichoice"
+    name: "mc-s01-114-v3"
+    text: "Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14)?"
+    answers:
+      - text: "1.14.3 Dusznosc"
+        fraction: 100
+      - text: "0.5# 1.14.1 Omdlenie"
+        fraction: 0
+      - text: "0.5# 1.14.2 Zawroty glowy"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-114-v4"
+    type: "multichoice"
+    name: "mc-s01-114-v4"
+    text: "Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.14.1 Omdlenie"
+        fraction: 100
+      - text: "-0.25# 1.14.4 Bol w klatce piersiowej — podejrzenie zawalu"
+        fraction: 0
+      - text: "-0.25# 1.14.2 Zawroty glowy"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

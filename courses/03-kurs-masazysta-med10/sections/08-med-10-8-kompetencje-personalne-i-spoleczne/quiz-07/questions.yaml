@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Jak mowic o zdrowiu bez straszenia"
         fraction: 0
+  - id: "mc-s08-87-v1"
+    type: "multichoice"
+    name: "mc-s08-87-v1"
+    text: "Które zagadnienie należy do tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7)?"
+    answers:
+      - text: "8.7.1 Analiza wlasnych kompetencji"
+        fraction: 100
+      - text: "0.5# 8.7.2 Tendencje na rynku uslug masazu"
+        fraction: 0
+      - text: "0.5# 8.7.3 Krytyczna ocena nowinek"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s08-87-v2"
+    type: "multichoice"
+    name: "mc-s08-87-v2"
+    text: "Które zagadnienie NIE należy do tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.7.1 Analiza wlasnych kompetencji"
+        fraction: 100
+      - text: "-0.25# 8.7.2 Tendencje na rynku uslug masazu"
+        fraction: 0
+      - text: "-0.25# 8.7.3 Krytyczna ocena nowinek"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s08-87-v3"
+    type: "multichoice"
+    name: "mc-s08-87-v3"
+    text: "Które zagadnienie należy do tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7)?"
+    answers:
+      - text: "8.7.3 Krytyczna ocena nowinek"
+        fraction: 100
+      - text: "0.5# 8.7.1 Analiza wlasnych kompetencji"
+        fraction: 0
+      - text: "0.5# 8.7.2 Tendencje na rynku uslug masazu"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s08-87-v4"
+    type: "multichoice"
+    name: "mc-s08-87-v4"
+    text: "Które zagadnienie NIE należy do tematu „Aktualizowanie wiedzy i doskonalenie zawodowe” (8.7), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.7.1 Analiza wlasnych kompetencji"
+        fraction: 100
+      - text: "-0.25# 8.7.4 Ksztalcenie ustawiczne"
+        fraction: 0
+      - text: "-0.25# 8.7.2 Tendencje na rynku uslug masazu"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

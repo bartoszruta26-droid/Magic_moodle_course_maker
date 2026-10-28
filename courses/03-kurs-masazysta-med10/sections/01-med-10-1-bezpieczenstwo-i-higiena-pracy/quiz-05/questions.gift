@@ -117,3 +117,31 @@
     ~ Pozycja siedzaca
     ~ Brak sprzetu jako przewaga dostepnosci
 }
+
+::mc-s01-15-v1:: Które zagadnienie należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~0.5# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~0.5# 1.5.3 Czynniki biologiczne\: bakterie, wirusy, grzyby, pasozyty
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-15-v2:: Które zagadnienie NIE należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5), lecz jest częścią innego tematu kursu? {
+    = 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~-0.25# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~-0.25# 1.5.3 Czynniki biologiczne\: bakterie, wirusy, grzyby, pasozyty
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-15-v3:: Które zagadnienie należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5)? {
+    = 1.5.3 Czynniki biologiczne\: bakterie, wirusy, grzyby, pasozyty
+    ~0.5# 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~0.5# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-15-v4:: Które zagadnienie NIE należy do tematu „Zagrożenia zawodowe w pracy masażysty” (1.5), lecz jest częścią innego tematu kursu? {
+    = 1.5.1 Czynniki fizyczne\: halas, drgania, temperatura, wilgotnosc
+    ~-0.25# 1.5.4 Czynniki psychofizyczne\: stres, obciazenie postawy, praca zmianowa
+    ~-0.25# 1.5.2 Czynniki chemiczne\: srodki dezynfekcyjne, oleje, kremy, aerozole
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

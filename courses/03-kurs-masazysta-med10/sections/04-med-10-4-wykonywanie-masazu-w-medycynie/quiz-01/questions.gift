@@ -117,3 +117,31 @@
     ~ Pozycja na boku
     ~ Dlonie, przedramiona, kciuki
 }
+
+::mc-s04-41-v1:: Które zagadnienie należy do tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1)? {
+    = 4.1.1 Wywiad\: dane osobowe, wiek, plec, zawod, tryb zycia
+    ~0.5# 4.1.2 Wywiad chorobowy\: rozpoznanie, zlecenie, leki, choroby towarzyszace
+    ~0.5# 4.1.3 Wywiad urazowy i operacyjny
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-41-v2:: Które zagadnienie NIE należy do tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1), lecz jest częścią innego tematu kursu? {
+    = 4.1.1 Wywiad\: dane osobowe, wiek, plec, zawod, tryb zycia
+    ~-0.25# 4.1.2 Wywiad chorobowy\: rozpoznanie, zlecenie, leki, choroby towarzyszace
+    ~-0.25# 4.1.3 Wywiad urazowy i operacyjny
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-41-v3:: Które zagadnienie należy do tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1)? {
+    = 4.1.3 Wywiad urazowy i operacyjny
+    ~0.5# 4.1.1 Wywiad\: dane osobowe, wiek, plec, zawod, tryb zycia
+    ~0.5# 4.1.2 Wywiad chorobowy\: rozpoznanie, zlecenie, leki, choroby towarzyszace
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-41-v4:: Które zagadnienie NIE należy do tematu „Ocena pacjenta na potrzeby wykonania masażu” (4.1), lecz jest częścią innego tematu kursu? {
+    = 4.1.1 Wywiad\: dane osobowe, wiek, plec, zawod, tryb zycia
+    ~-0.25# 4.1.4 Wywiad alergologiczny i skorny
+    ~-0.25# 4.1.2 Wywiad chorobowy\: rozpoznanie, zlecenie, leki, choroby towarzyszace
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

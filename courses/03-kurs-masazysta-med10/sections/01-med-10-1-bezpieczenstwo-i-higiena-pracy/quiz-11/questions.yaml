@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Wardrobe and storage"
         fraction: 0
+  - id: "mc-s01-111-v1"
+    type: "multichoice"
+    name: "mc-s01-111-v1"
+    text: "Które zagadnienie należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11)?"
+    answers:
+      - text: "1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne"
+        fraction: 100
+      - text: "0.5# 1.11.2 Sygnaly alarmowe"
+        fraction: 0
+      - text: "0.5# 1.11.3 Gasnice i ich rodzaje"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-111-v2"
+    type: "multichoice"
+    name: "mc-s01-111-v2"
+    text: "Które zagadnienie NIE należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne"
+        fraction: 100
+      - text: "-0.25# 1.11.2 Sygnaly alarmowe"
+        fraction: 0
+      - text: "-0.25# 1.11.3 Gasnice i ich rodzaje"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-111-v3"
+    type: "multichoice"
+    name: "mc-s01-111-v3"
+    text: "Które zagadnienie należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11)?"
+    answers:
+      - text: "1.11.3 Gasnice i ich rodzaje"
+        fraction: 100
+      - text: "0.5# 1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne"
+        fraction: 0
+      - text: "0.5# 1.11.2 Sygnaly alarmowe"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-111-v4"
+    type: "multichoice"
+    name: "mc-s01-111-v4"
+    text: "Które zagadnienie NIE należy do tematu „Ochrona przeciwpożarowa i ewakuacja” (1.11), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.11.1 Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne"
+        fraction: 100
+      - text: "-0.25# 1.11.4 Zasady ewakuacji osoby lezacej na stole do masazu"
+        fraction: 0
+      - text: "-0.25# 1.11.2 Sygnaly alarmowe"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

@@ -117,3 +117,31 @@
     ~ Pozycja po operacjach
     ~ Pozycja pacjenta
 }
+
+::mc-s02-28-v1:: Które zagadnienie należy do tematu „Budowa tkanek organizmu człowieka” (2.8)? {
+    = 2.8.1 Tkanka nablonkowa
+    ~0.5# 2.8.2 Tkanka laczna wiotka
+    ~0.5# 2.8.3 Tkanka laczna zbita wloknista
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-28-v2:: Które zagadnienie NIE należy do tematu „Budowa tkanek organizmu człowieka” (2.8), lecz jest częścią innego tematu kursu? {
+    = 2.8.1 Tkanka nablonkowa
+    ~-0.25# 2.8.2 Tkanka laczna wiotka
+    ~-0.25# 2.8.3 Tkanka laczna zbita wloknista
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-28-v3:: Które zagadnienie należy do tematu „Budowa tkanek organizmu człowieka” (2.8)? {
+    = 2.8.3 Tkanka laczna zbita wloknista
+    ~0.5# 2.8.1 Tkanka nablonkowa
+    ~0.5# 2.8.2 Tkanka laczna wiotka
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-28-v4:: Które zagadnienie NIE należy do tematu „Budowa tkanek organizmu człowieka” (2.8), lecz jest częścią innego tematu kursu? {
+    = 2.8.1 Tkanka nablonkowa
+    ~-0.25# 2.8.4 Tkanka laczna zbita sprezysta
+    ~-0.25# 2.8.2 Tkanka laczna wiotka
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

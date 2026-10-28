@@ -117,3 +117,31 @@
     ~ Pozycja siedzaca
     ~ Brak sprzetu jako przewaga dostepnosci
 }
+
+::mc-s03-33-v1:: Które zagadnienie należy do tematu „Urazy układu narządu ruchu” (3.3)? {
+    = 3.3.1 Stluczenia i zmiazdzenia
+    ~0.5# 3.3.2 Rany i blizny
+    ~0.5# 3.3.3 Oparzenia i odmrozenia
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-33-v2:: Które zagadnienie NIE należy do tematu „Urazy układu narządu ruchu” (3.3), lecz jest częścią innego tematu kursu? {
+    = 3.3.1 Stluczenia i zmiazdzenia
+    ~-0.25# 3.3.2 Rany i blizny
+    ~-0.25# 3.3.3 Oparzenia i odmrozenia
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-33-v3:: Które zagadnienie należy do tematu „Urazy układu narządu ruchu” (3.3)? {
+    = 3.3.3 Oparzenia i odmrozenia
+    ~0.5# 3.3.1 Stluczenia i zmiazdzenia
+    ~0.5# 3.3.2 Rany i blizny
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-33-v4:: Które zagadnienie NIE należy do tematu „Urazy układu narządu ruchu” (3.3), lecz jest częścią innego tematu kursu? {
+    = 3.3.1 Stluczenia i zmiazdzenia
+    ~-0.25# 3.3.4 Skrecenia
+    ~-0.25# 3.3.2 Rany i blizny
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

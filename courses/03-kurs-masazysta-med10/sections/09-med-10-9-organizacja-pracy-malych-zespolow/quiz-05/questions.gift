@@ -117,3 +117,31 @@
     ~ Masaz konczyny gornej
     ~ Etyka: nie masuj w warunkach niebezpiecznych
 }
+
+::mc-s09-95-v1:: Które zagadnienie należy do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)? {
+    = 9.5.1 Analiza warunkow pracy
+    ~0.5# 9.5.2 Poprawa ergonomii stanowiska
+    ~0.5# 9.5.3 Optymalizacja przeplywu pacjentow
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s09-95-v2:: Które zagadnienie NIE należy do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5), lecz jest częścią innego tematu kursu? {
+    = 9.5.1 Analiza warunkow pracy
+    ~-0.25# 9.5.2 Poprawa ergonomii stanowiska
+    ~-0.25# 9.5.3 Optymalizacja przeplywu pacjentow
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s09-95-v3:: Które zagadnienie należy do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5)? {
+    = 9.5.3 Optymalizacja przeplywu pacjentow
+    ~0.5# 9.5.1 Analiza warunkow pracy
+    ~0.5# 9.5.2 Poprawa ergonomii stanowiska
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s09-95-v4:: Które zagadnienie NIE należy do tematu „Wprowadzanie rozwiązań technicznych i organizacyjnych” (9.5), lecz jest częścią innego tematu kursu? {
+    = 9.5.1 Analiza warunkow pracy
+    ~-0.25# 9.5.4 Bezpieczne przechowywanie srodkow
+    ~-0.25# 9.5.2 Poprawa ergonomii stanowiska
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

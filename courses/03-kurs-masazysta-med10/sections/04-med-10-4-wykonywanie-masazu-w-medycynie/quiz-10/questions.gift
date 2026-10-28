@@ -117,3 +117,31 @@
     ~ Tempo, cisnienie i czas zabiegu
     ~ Reading instructions and labels
 }
+
+::mc-s04-410-v1:: Które zagadnienie należy do tematu „Kompleksowa terapia obrzęków” (4.10)? {
+    = 4.10.1 Terapia ulozeniowa
+    ~0.5# 4.10.2 Cwiczenia fizyczne i oddechowe
+    ~0.5# 4.10.3 Autodrenaz pacjenta
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-410-v2:: Które zagadnienie NIE należy do tematu „Kompleksowa terapia obrzęków” (4.10), lecz jest częścią innego tematu kursu? {
+    = 4.10.1 Terapia ulozeniowa
+    ~-0.25# 4.10.2 Cwiczenia fizyczne i oddechowe
+    ~-0.25# 4.10.3 Autodrenaz pacjenta
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-410-v3:: Które zagadnienie należy do tematu „Kompleksowa terapia obrzęków” (4.10)? {
+    = 4.10.3 Autodrenaz pacjenta
+    ~0.5# 4.10.1 Terapia ulozeniowa
+    ~0.5# 4.10.2 Cwiczenia fizyczne i oddechowe
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-410-v4:: Które zagadnienie NIE należy do tematu „Kompleksowa terapia obrzęków” (4.10), lecz jest częścią innego tematu kursu? {
+    = 4.10.1 Terapia ulozeniowa
+    ~-0.25# 4.10.4 Kompresjoterapia
+    ~-0.25# 4.10.2 Cwiczenia fizyczne i oddechowe
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

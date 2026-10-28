@@ -117,3 +117,31 @@
     ~ Tempo, cisnienie i czas zabiegu
     ~ Describing equipment safely
 }
+
+::mc-s11-113-v1:: Które zagadnienie należy do tematu „Powtórka anatomii i fizjologii” (11.3)? {
+    = 11.3.1 Kosci, stawy, miesnie
+    ~0.5# 11.3.2 Powiez
+    ~0.5# 11.3.3 Uklad nerwowy
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-113-v2:: Które zagadnienie NIE należy do tematu „Powtórka anatomii i fizjologii” (11.3), lecz jest częścią innego tematu kursu? {
+    = 11.3.1 Kosci, stawy, miesnie
+    ~-0.25# 11.3.2 Powiez
+    ~-0.25# 11.3.3 Uklad nerwowy
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-113-v3:: Które zagadnienie należy do tematu „Powtórka anatomii i fizjologii” (11.3)? {
+    = 11.3.3 Uklad nerwowy
+    ~0.5# 11.3.1 Kosci, stawy, miesnie
+    ~0.5# 11.3.2 Powiez
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-113-v4:: Które zagadnienie NIE należy do tematu „Powtórka anatomii i fizjologii” (11.3), lecz jest częścią innego tematu kursu? {
+    = 11.3.1 Kosci, stawy, miesnie
+    ~-0.25# 11.3.4 Uklad krazenia
+    ~-0.25# 11.3.2 Powiez
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

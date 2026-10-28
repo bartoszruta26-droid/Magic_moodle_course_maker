@@ -117,3 +117,31 @@
     ~ Bezpieczenstwo spadania i utraty rownowagi
     ~ Przeciwwskazania
 }
+
+::mc-s07-76-v1:: Które zagadnienie należy do tematu „Rozumienie wypowiedzi ustnych i pisemnych” (7.6)? {
+    = 7.6.1 Listening to patient symptoms
+    ~0.5# 7.6.2 Understanding doctor’s referral
+    ~0.5# 7.6.3 Understanding safety instructions
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s07-76-v2:: Które zagadnienie NIE należy do tematu „Rozumienie wypowiedzi ustnych i pisemnych” (7.6), lecz jest częścią innego tematu kursu? {
+    = 7.6.1 Listening to patient symptoms
+    ~-0.25# 7.6.2 Understanding doctor’s referral
+    ~-0.25# 7.6.3 Understanding safety instructions
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s07-76-v3:: Które zagadnienie należy do tematu „Rozumienie wypowiedzi ustnych i pisemnych” (7.6)? {
+    = 7.6.3 Understanding safety instructions
+    ~0.5# 7.6.1 Listening to patient symptoms
+    ~0.5# 7.6.2 Understanding doctor’s referral
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s07-76-v4:: Które zagadnienie NIE należy do tematu „Rozumienie wypowiedzi ustnych i pisemnych” (7.6), lecz jest częścią innego tematu kursu? {
+    = 7.6.1 Listening to patient symptoms
+    ~-0.25# 7.6.4 Reading product labels
+    ~-0.25# 7.6.2 Understanding doctor’s referral
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

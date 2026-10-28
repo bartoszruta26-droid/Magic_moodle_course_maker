@@ -117,3 +117,31 @@
     ~ Masaz konczyny gornej
     ~ Etyka: nie masuj w warunkach niebezpiecznych
 }
+
+::mc-s07-77-v1:: Które zagadnienie należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.1 Giving simple instructions during massage
+    ~0.5# 7.7.2 Explaining aftercare
+    ~0.5# 7.7.3 Writing short emails
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s07-77-v2:: Które zagadnienie NIE należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7), lecz jest częścią innego tematu kursu? {
+    = 7.7.1 Giving simple instructions during massage
+    ~-0.25# 7.7.2 Explaining aftercare
+    ~-0.25# 7.7.3 Writing short emails
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s07-77-v3:: Które zagadnienie należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7)? {
+    = 7.7.3 Writing short emails
+    ~0.5# 7.7.1 Giving simple instructions during massage
+    ~0.5# 7.7.2 Explaining aftercare
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s07-77-v4:: Które zagadnienie NIE należy do tematu „Tworzenie wypowiedzi ustnych i pisemnych” (7.7), lecz jest częścią innego tematu kursu? {
+    = 7.7.1 Giving simple instructions during massage
+    ~-0.25# 7.7.4 Completing forms
+    ~-0.25# 7.7.2 Explaining aftercare
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

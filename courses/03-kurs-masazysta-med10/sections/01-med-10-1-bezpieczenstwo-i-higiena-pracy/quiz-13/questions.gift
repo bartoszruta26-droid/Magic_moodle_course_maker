@@ -117,3 +117,31 @@
     ~ Terapia ulozeniowa
     ~ Reading instructions and labels
 }
+
+::mc-s01-113-v1:: Które zagadnienie należy do tematu „Pierwsza pomoc w stanach urazowych” (1.13)? {
+    = 1.13.1 Krwotok zewnetrzny\: ucisk, opaska, uniesienie
+    ~0.5# 1.13.2 Krwotok z nosa
+    ~0.5# 1.13.3 Zlamanie\: unieruchomienie, bol, wstrzas
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-113-v2:: Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach urazowych” (1.13), lecz jest częścią innego tematu kursu? {
+    = 1.13.1 Krwotok zewnetrzny\: ucisk, opaska, uniesienie
+    ~-0.25# 1.13.2 Krwotok z nosa
+    ~-0.25# 1.13.3 Zlamanie\: unieruchomienie, bol, wstrzas
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-113-v3:: Które zagadnienie należy do tematu „Pierwsza pomoc w stanach urazowych” (1.13)? {
+    = 1.13.3 Zlamanie\: unieruchomienie, bol, wstrzas
+    ~0.5# 1.13.1 Krwotok zewnetrzny\: ucisk, opaska, uniesienie
+    ~0.5# 1.13.2 Krwotok z nosa
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-113-v4:: Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach urazowych” (1.13), lecz jest częścią innego tematu kursu? {
+    = 1.13.1 Krwotok zewnetrzny\: ucisk, opaska, uniesienie
+    ~-0.25# 1.13.4 Zwichniecie\: nie nastawiac, unieruchomic, skierowac
+    ~-0.25# 1.13.2 Krwotok z nosa
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Describing equipment safely"
         fraction: 0
+  - id: "mc-s02-211-v1"
+    type: "multichoice"
+    name: "mc-s02-211-v1"
+    text: "Które zagadnienie należy do tematu „Układ nerwowy i narządy zmysłów” (2.11)?"
+    answers:
+      - text: "2.11.1 Osrodkowy uklad nerwowy\\: mozgowie, rdzen kregowy"
+        fraction: 100
+      - text: "0.5# 2.11.2 Obwodowy uklad nerwowy\\: nerwy czaszkowe, nerwy rdzeniowe"
+        fraction: 0
+      - text: "0.5# 2.11.3 Autonomiczny uklad nerwowy\\: wspolczulny i przywspolczulny"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-211-v2"
+    type: "multichoice"
+    name: "mc-s02-211-v2"
+    text: "Które zagadnienie NIE należy do tematu „Układ nerwowy i narządy zmysłów” (2.11), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.11.1 Osrodkowy uklad nerwowy\\: mozgowie, rdzen kregowy"
+        fraction: 100
+      - text: "-0.25# 2.11.2 Obwodowy uklad nerwowy\\: nerwy czaszkowe, nerwy rdzeniowe"
+        fraction: 0
+      - text: "-0.25# 2.11.3 Autonomiczny uklad nerwowy\\: wspolczulny i przywspolczulny"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-211-v3"
+    type: "multichoice"
+    name: "mc-s02-211-v3"
+    text: "Które zagadnienie należy do tematu „Układ nerwowy i narządy zmysłów” (2.11)?"
+    answers:
+      - text: "2.11.3 Autonomiczny uklad nerwowy\\: wspolczulny i przywspolczulny"
+        fraction: 100
+      - text: "0.5# 2.11.1 Osrodkowy uklad nerwowy\\: mozgowie, rdzen kregowy"
+        fraction: 0
+      - text: "0.5# 2.11.2 Obwodowy uklad nerwowy\\: nerwy czaszkowe, nerwy rdzeniowe"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-211-v4"
+    type: "multichoice"
+    name: "mc-s02-211-v4"
+    text: "Które zagadnienie NIE należy do tematu „Układ nerwowy i narządy zmysłów” (2.11), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.11.1 Osrodkowy uklad nerwowy\\: mozgowie, rdzen kregowy"
+        fraction: 100
+      - text: "-0.25# 2.11.4 Nerwy obwodowe konczyn gornych i dolnych"
+        fraction: 0
+      - text: "-0.25# 2.11.2 Obwodowy uklad nerwowy\\: nerwy czaszkowe, nerwy rdzeniowe"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

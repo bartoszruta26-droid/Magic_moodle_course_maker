@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Pozycja pacjenta"
         fraction: 0
+  - id: "mc-s01-19-v1"
+    type: "multichoice"
+    name: "mc-s01-19-v1"
+    text: "Które zagadnienie należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)?"
+    answers:
+      - text: "1.9.1 Pojecie aseptyki i antyseptyki"
+        fraction: 100
+      - text: "0.5# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek"
+        fraction: 0
+      - text: "0.5# 1.9.3 Dezynfekcja rak przed i po zabiegu"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-19-v2"
+    type: "multichoice"
+    name: "mc-s01-19-v2"
+    text: "Które zagadnienie NIE należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.9.1 Pojecie aseptyki i antyseptyki"
+        fraction: 100
+      - text: "-0.25# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek"
+        fraction: 0
+      - text: "-0.25# 1.9.3 Dezynfekcja rak przed i po zabiegu"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-19-v3"
+    type: "multichoice"
+    name: "mc-s01-19-v3"
+    text: "Które zagadnienie należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9)?"
+    answers:
+      - text: "1.9.3 Dezynfekcja rak przed i po zabiegu"
+        fraction: 100
+      - text: "0.5# 1.9.1 Pojecie aseptyki i antyseptyki"
+        fraction: 0
+      - text: "0.5# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-19-v4"
+    type: "multichoice"
+    name: "mc-s01-19-v4"
+    text: "Które zagadnienie NIE należy do tematu „Aseptyka i antyseptyka w gabinecie masażu” (1.9), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.9.1 Pojecie aseptyki i antyseptyki"
+        fraction: 100
+      - text: "-0.25# 1.9.4 Stosowanie jednorazowych podkladow"
+        fraction: 0
+      - text: "-0.25# 1.9.2 Czystosc powierzchni stolu, poduszek, ksztaltek"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

@@ -117,3 +117,31 @@
     ~ Pozycja w ciazy
     ~ Oswietlenie i temperatura
 }
+
+::mc-s03-36-v1:: Które zagadnienie należy do tematu „Zaburzenia układu oddechowego” (3.6)? {
+    = 3.6.1 Przewlekle zapalenie oskrzeli
+    ~0.5# 3.6.2 Astma oskrzelowa
+    ~0.5# 3.6.3 POChP
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-36-v2:: Które zagadnienie NIE należy do tematu „Zaburzenia układu oddechowego” (3.6), lecz jest częścią innego tematu kursu? {
+    = 3.6.1 Przewlekle zapalenie oskrzeli
+    ~-0.25# 3.6.2 Astma oskrzelowa
+    ~-0.25# 3.6.3 POChP
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-36-v3:: Które zagadnienie należy do tematu „Zaburzenia układu oddechowego” (3.6)? {
+    = 3.6.3 POChP
+    ~0.5# 3.6.1 Przewlekle zapalenie oskrzeli
+    ~0.5# 3.6.2 Astma oskrzelowa
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-36-v4:: Które zagadnienie NIE należy do tematu „Zaburzenia układu oddechowego” (3.6), lecz jest częścią innego tematu kursu? {
+    = 3.6.1 Przewlekle zapalenie oskrzeli
+    ~-0.25# 3.6.4 Rozstrzenie oskrzeli
+    ~-0.25# 3.6.2 Astma oskrzelowa
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

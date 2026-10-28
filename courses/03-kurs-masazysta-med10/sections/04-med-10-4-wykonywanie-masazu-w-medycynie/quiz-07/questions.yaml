@@ -165,3 +165,55 @@ questions:
         fraction: 0
       - text: "Masaz regeneracyjny"
         fraction: 0
+  - id: "mc-s04-47-v1"
+    type: "multichoice"
+    name: "mc-s04-47-v1"
+    text: "Które zagadnienie należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7)?"
+    answers:
+      - text: "4.7.1 Masaz konczyny gornej"
+        fraction: 100
+      - text: "0.5# 4.7.2 Masaz konczyny dolnej"
+        fraction: 0
+      - text: "0.5# 4.7.3 Masaz grzbietu"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-47-v2"
+    type: "multichoice"
+    name: "mc-s04-47-v2"
+    text: "Które zagadnienie NIE należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.7.1 Masaz konczyny gornej"
+        fraction: 100
+      - text: "-0.25# 4.7.2 Masaz konczyny dolnej"
+        fraction: 0
+      - text: "-0.25# 4.7.3 Masaz grzbietu"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-47-v3"
+    type: "multichoice"
+    name: "mc-s04-47-v3"
+    text: "Które zagadnienie należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7)?"
+    answers:
+      - text: "4.7.3 Masaz grzbietu"
+        fraction: 100
+      - text: "0.5# 4.7.1 Masaz konczyny gornej"
+        fraction: 0
+      - text: "0.5# 4.7.2 Masaz konczyny dolnej"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-47-v4"
+    type: "multichoice"
+    name: "mc-s04-47-v4"
+    text: "Które zagadnienie NIE należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.7.1 Masaz konczyny gornej"
+        fraction: 100
+      - text: "-0.25# 4.7.4 Masaz kregoslupa szyjnego"
+        fraction: 0
+      - text: "-0.25# 4.7.2 Masaz konczyny dolnej"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

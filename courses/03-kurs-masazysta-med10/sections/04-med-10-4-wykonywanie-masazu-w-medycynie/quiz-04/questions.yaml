@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Higiena otoczenia"
         fraction: 0
+  - id: "mc-s04-44-v1"
+    type: "multichoice"
+    name: "mc-s04-44-v1"
+    text: "Które zagadnienie należy do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "0.5# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "0.5# 4.4.3 Dobor technik"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-44-v2"
+    type: "multichoice"
+    name: "mc-s04-44-v2"
+    text: "Które zagadnienie NIE należy do tematu „Planowanie zabiegu masażu” (4.4), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "-0.25# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "-0.25# 4.4.3 Dobor technik"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-44-v3"
+    type: "multichoice"
+    name: "mc-s04-44-v3"
+    text: "Które zagadnienie należy do tematu „Planowanie zabiegu masażu” (4.4)?"
+    answers:
+      - text: "4.4.3 Dobor technik"
+        fraction: 100
+      - text: "0.5# 4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 0
+      - text: "0.5# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-44-v4"
+    type: "multichoice"
+    name: "mc-s04-44-v4"
+    text: "Które zagadnienie NIE należy do tematu „Planowanie zabiegu masażu” (4.4), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.4.1 Cel zabiegu\\: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+        fraction: 100
+      - text: "-0.25# 4.4.4 Dobor kolejnosci"
+        fraction: 0
+      - text: "-0.25# 4.4.2 Dobor rodzaju masazu"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

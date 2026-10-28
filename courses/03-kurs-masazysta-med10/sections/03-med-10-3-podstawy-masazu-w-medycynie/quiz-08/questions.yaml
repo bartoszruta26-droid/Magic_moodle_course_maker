@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Komunikacja"
         fraction: 0
+  - id: "mc-s03-38-v1"
+    type: "multichoice"
+    name: "mc-s03-38-v1"
+    text: "Które zagadnienie należy do tematu „Zaburzenia układu moczowego i płciowego” (3.8)?"
+    answers:
+      - text: "3.8.1 Kamica nerkowa i moczowodowa"
+        fraction: 100
+      - text: "0.5# 3.8.2 Zapalenie nerek i pecherza"
+        fraction: 0
+      - text: "0.5# 3.8.3 Nietrzymanie moczu"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s03-38-v2"
+    type: "multichoice"
+    name: "mc-s03-38-v2"
+    text: "Które zagadnienie NIE należy do tematu „Zaburzenia układu moczowego i płciowego” (3.8), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.8.1 Kamica nerkowa i moczowodowa"
+        fraction: 100
+      - text: "-0.25# 3.8.2 Zapalenie nerek i pecherza"
+        fraction: 0
+      - text: "-0.25# 3.8.3 Nietrzymanie moczu"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s03-38-v3"
+    type: "multichoice"
+    name: "mc-s03-38-v3"
+    text: "Które zagadnienie należy do tematu „Zaburzenia układu moczowego i płciowego” (3.8)?"
+    answers:
+      - text: "3.8.3 Nietrzymanie moczu"
+        fraction: 100
+      - text: "0.5# 3.8.1 Kamica nerkowa i moczowodowa"
+        fraction: 0
+      - text: "0.5# 3.8.2 Zapalenie nerek i pecherza"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s03-38-v4"
+    type: "multichoice"
+    name: "mc-s03-38-v4"
+    text: "Które zagadnienie NIE należy do tematu „Zaburzenia układu moczowego i płciowego” (3.8), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "3.8.1 Kamica nerkowa i moczowodowa"
+        fraction: 100
+      - text: "-0.25# 3.8.4 Dolegliwosci prostaty"
+        fraction: 0
+      - text: "-0.25# 3.8.2 Zapalenie nerek i pecherza"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

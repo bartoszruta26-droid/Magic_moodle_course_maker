@@ -117,3 +117,31 @@
     ~ Pozycja polsiedzaca
     ~ Bezpieczenstwo w warunkach domowych
 }
+
+::mc-s01-16-v1:: Które zagadnienie należy do tematu „Higiena osobista masażysty i higiena pracy” (1.6)? {
+    = 1.6.1 Czystosc rak\: mycie i dezynfekcja
+    ~0.5# 1.6.2 Stan skory rak, paznokci, przedramion
+    ~0.5# 1.6.3 Zakaz bizuterii mogacej uszkodzic pacjenta lub utrudniac higiene
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-16-v2:: Które zagadnienie NIE należy do tematu „Higiena osobista masażysty i higiena pracy” (1.6), lecz jest częścią innego tematu kursu? {
+    = 1.6.1 Czystosc rak\: mycie i dezynfekcja
+    ~-0.25# 1.6.2 Stan skory rak, paznokci, przedramion
+    ~-0.25# 1.6.3 Zakaz bizuterii mogacej uszkodzic pacjenta lub utrudniac higiene
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-16-v3:: Które zagadnienie należy do tematu „Higiena osobista masażysty i higiena pracy” (1.6)? {
+    = 1.6.3 Zakaz bizuterii mogacej uszkodzic pacjenta lub utrudniac higiene
+    ~0.5# 1.6.1 Czystosc rak\: mycie i dezynfekcja
+    ~0.5# 1.6.2 Stan skory rak, paznokci, przedramion
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-16-v4:: Które zagadnienie NIE należy do tematu „Higiena osobista masażysty i higiena pracy” (1.6), lecz jest częścią innego tematu kursu? {
+    = 1.6.1 Czystosc rak\: mycie i dezynfekcja
+    ~-0.25# 1.6.4 Ubior roboczy\: czysty, zaslaniajacy, wygodny, latwy do prania
+    ~-0.25# 1.6.2 Stan skory rak, paznokci, przedramion
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

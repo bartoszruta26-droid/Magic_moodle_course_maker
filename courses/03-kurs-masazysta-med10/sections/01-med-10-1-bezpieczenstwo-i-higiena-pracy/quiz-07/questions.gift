@@ -117,3 +117,31 @@
     ~ Pozycja drenazowa
     ~ Higiena otoczenia
 }
+
+::mc-s01-17-v1:: Które zagadnienie należy do tematu „Ergonomia stanowiska pracy masażysty” (1.7)? {
+    = 1.7.1 Wysokosc stolu do masazu
+    ~0.5# 1.7.2 Pozycja masazysty\: kregoslup, barki, lokcie, nadgarstki
+    ~0.5# 1.7.3 Praca nogami i przenoszenie ciezaru ciala
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-17-v2:: Które zagadnienie NIE należy do tematu „Ergonomia stanowiska pracy masażysty” (1.7), lecz jest częścią innego tematu kursu? {
+    = 1.7.1 Wysokosc stolu do masazu
+    ~-0.25# 1.7.2 Pozycja masazysty\: kregoslup, barki, lokcie, nadgarstki
+    ~-0.25# 1.7.3 Praca nogami i przenoszenie ciezaru ciala
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-17-v3:: Które zagadnienie należy do tematu „Ergonomia stanowiska pracy masażysty” (1.7)? {
+    = 1.7.3 Praca nogami i przenoszenie ciezaru ciala
+    ~0.5# 1.7.1 Wysokosc stolu do masazu
+    ~0.5# 1.7.2 Pozycja masazysty\: kregoslup, barki, lokcie, nadgarstki
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-17-v4:: Które zagadnienie NIE należy do tematu „Ergonomia stanowiska pracy masażysty” (1.7), lecz jest częścią innego tematu kursu? {
+    = 1.7.1 Wysokosc stolu do masazu
+    ~-0.25# 1.7.4 Unikanie skretow i zgiec tulowia pod obciazeniem
+    ~-0.25# 1.7.2 Pozycja masazysty\: kregoslup, barki, lokcie, nadgarstki
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

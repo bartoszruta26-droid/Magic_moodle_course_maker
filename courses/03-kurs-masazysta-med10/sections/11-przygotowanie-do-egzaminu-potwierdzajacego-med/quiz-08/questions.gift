@@ -117,3 +117,31 @@
     ~ Pielegnacja skory
     ~ Connective tissue massage
 }
+
+::mc-s11-118-v1:: Które zagadnienie należy do tematu „Egzamin praktyczny — kryteria wykonania” (11.8)? {
+    = 11.8.1 Przygotowanie stanowiska
+    ~0.5# 11.8.2 Przygotowanie pacjenta
+    ~0.5# 11.8.3 Zgoda i informacja
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s11-118-v2:: Które zagadnienie NIE należy do tematu „Egzamin praktyczny — kryteria wykonania” (11.8), lecz jest częścią innego tematu kursu? {
+    = 11.8.1 Przygotowanie stanowiska
+    ~-0.25# 11.8.2 Przygotowanie pacjenta
+    ~-0.25# 11.8.3 Zgoda i informacja
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s11-118-v3:: Które zagadnienie należy do tematu „Egzamin praktyczny — kryteria wykonania” (11.8)? {
+    = 11.8.3 Zgoda i informacja
+    ~0.5# 11.8.1 Przygotowanie stanowiska
+    ~0.5# 11.8.2 Przygotowanie pacjenta
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s11-118-v4:: Które zagadnienie NIE należy do tematu „Egzamin praktyczny — kryteria wykonania” (11.8), lecz jest częścią innego tematu kursu? {
+    = 11.8.1 Przygotowanie stanowiska
+    ~-0.25# 11.8.4 Dobor techniki
+    ~-0.25# 11.8.2 Przygotowanie pacjenta
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

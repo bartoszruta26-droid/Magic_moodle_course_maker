@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Oswietlenie i temperatura"
         fraction: 0
+  - id: "mc-s08-82-v1"
+    type: "multichoice"
+    name: "mc-s08-82-v1"
+    text: "Które zagadnienie należy do tematu „Kultura osobista i etyka zawodowa” (8.2)?"
+    answers:
+      - text: "8.2.1 Szacunek dla godnosci pacjenta"
+        fraction: 100
+      - text: "0.5# 8.2.2 Tajemnica zawodowa"
+        fraction: 0
+      - text: "0.5# 8.2.3 Ochrona danych osobowych"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s08-82-v2"
+    type: "multichoice"
+    name: "mc-s08-82-v2"
+    text: "Które zagadnienie NIE należy do tematu „Kultura osobista i etyka zawodowa” (8.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.2.1 Szacunek dla godnosci pacjenta"
+        fraction: 100
+      - text: "-0.25# 8.2.2 Tajemnica zawodowa"
+        fraction: 0
+      - text: "-0.25# 8.2.3 Ochrona danych osobowych"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s08-82-v3"
+    type: "multichoice"
+    name: "mc-s08-82-v3"
+    text: "Które zagadnienie należy do tematu „Kultura osobista i etyka zawodowa” (8.2)?"
+    answers:
+      - text: "8.2.3 Ochrona danych osobowych"
+        fraction: 100
+      - text: "0.5# 8.2.1 Szacunek dla godnosci pacjenta"
+        fraction: 0
+      - text: "0.5# 8.2.2 Tajemnica zawodowa"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s08-82-v4"
+    type: "multichoice"
+    name: "mc-s08-82-v4"
+    text: "Które zagadnienie NIE należy do tematu „Kultura osobista i etyka zawodowa” (8.2), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "8.2.1 Szacunek dla godnosci pacjenta"
+        fraction: 100
+      - text: "-0.25# 8.2.4 Ochrona wlasnosci intelektualnej"
+        fraction: 0
+      - text: "-0.25# 8.2.2 Tajemnica zawodowa"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

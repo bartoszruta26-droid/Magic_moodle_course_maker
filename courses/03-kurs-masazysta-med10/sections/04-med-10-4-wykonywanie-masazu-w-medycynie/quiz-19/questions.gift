@@ -117,3 +117,31 @@
     ~ Monitorowanie obwodow
     ~ Contraindications and precautions
 }
+
+::mc-s04-419-v1:: Które zagadnienie należy do tematu „Masaż Shantala” (4.19)? {
+    = 4.19.1 Historia i sens kontaktu z niemowleciem
+    ~0.5# 4.19.2 Przygotowanie pomieszczenia i oleju
+    ~0.5# 4.19.3 Pozycja niemowlecia
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-419-v2:: Które zagadnienie NIE należy do tematu „Masaż Shantala” (4.19), lecz jest częścią innego tematu kursu? {
+    = 4.19.1 Historia i sens kontaktu z niemowleciem
+    ~-0.25# 4.19.2 Przygotowanie pomieszczenia i oleju
+    ~-0.25# 4.19.3 Pozycja niemowlecia
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-419-v3:: Które zagadnienie należy do tematu „Masaż Shantala” (4.19)? {
+    = 4.19.3 Pozycja niemowlecia
+    ~0.5# 4.19.1 Historia i sens kontaktu z niemowleciem
+    ~0.5# 4.19.2 Przygotowanie pomieszczenia i oleju
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-419-v4:: Które zagadnienie NIE należy do tematu „Masaż Shantala” (4.19), lecz jest częścią innego tematu kursu? {
+    = 4.19.1 Historia i sens kontaktu z niemowleciem
+    ~-0.25# 4.19.4 Etapy\: brzuszek, klatka, konczyny gorne, konczyny dolne, grzbiet, twarz
+    ~-0.25# 4.19.2 Przygotowanie pomieszczenia i oleju
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

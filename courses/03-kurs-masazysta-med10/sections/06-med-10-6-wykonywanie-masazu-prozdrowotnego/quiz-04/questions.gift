@@ -117,3 +117,31 @@
     ~ Pozycja w ciazy
     ~ Pozycja pacjenta
 }
+
+::mc-s06-64-v1:: Które zagadnienie należy do tematu „Masaż relaksacyjny” (6.4)? {
+    = 6.4.1 Cel\: redukcja napiecia, poprawa samopoczucia
+    ~0.5# 6.4.2 Techniki\: glaskanie, rozcieranie, delikatne ugniatanie
+    ~0.5# 6.4.3 Kolejnosc\: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s06-64-v2:: Które zagadnienie NIE należy do tematu „Masaż relaksacyjny” (6.4), lecz jest częścią innego tematu kursu? {
+    = 6.4.1 Cel\: redukcja napiecia, poprawa samopoczucia
+    ~-0.25# 6.4.2 Techniki\: glaskanie, rozcieranie, delikatne ugniatanie
+    ~-0.25# 6.4.3 Kolejnosc\: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s06-64-v3:: Które zagadnienie należy do tematu „Masaż relaksacyjny” (6.4)? {
+    = 6.4.3 Kolejnosc\: stopy, nogi, brzuch/klatka, rece, barki, kark, glowa
+    ~0.5# 6.4.1 Cel\: redukcja napiecia, poprawa samopoczucia
+    ~0.5# 6.4.2 Techniki\: glaskanie, rozcieranie, delikatne ugniatanie
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s06-64-v4:: Które zagadnienie NIE należy do tematu „Masaż relaksacyjny” (6.4), lecz jest częścią innego tematu kursu? {
+    = 6.4.1 Cel\: redukcja napiecia, poprawa samopoczucia
+    ~-0.25# 6.4.4 Czas\: 30, 45, 60 minut
+    ~-0.25# 6.4.2 Techniki\: glaskanie, rozcieranie, delikatne ugniatanie
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

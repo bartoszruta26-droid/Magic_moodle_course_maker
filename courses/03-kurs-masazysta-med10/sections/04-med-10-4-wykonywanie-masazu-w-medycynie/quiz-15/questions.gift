@@ -117,3 +117,31 @@
     ~ Pielegnacja skory
     ~ Trigger point therapy
 }
+
+::mc-s04-415-v1:: Które zagadnienie należy do tematu „Refleksoterapia stóp” (4.15)? {
+    = 4.15.1 Podstawy refleksologii
+    ~0.5# 4.15.2 Mapy stop
+    ~0.5# 4.15.3 Techniki kciuka i palcow
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-415-v2:: Które zagadnienie NIE należy do tematu „Refleksoterapia stóp” (4.15), lecz jest częścią innego tematu kursu? {
+    = 4.15.1 Podstawy refleksologii
+    ~-0.25# 4.15.2 Mapy stop
+    ~-0.25# 4.15.3 Techniki kciuka i palcow
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-415-v3:: Które zagadnienie należy do tematu „Refleksoterapia stóp” (4.15)? {
+    = 4.15.3 Techniki kciuka i palcow
+    ~0.5# 4.15.1 Podstawy refleksologii
+    ~0.5# 4.15.2 Mapy stop
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-415-v4:: Które zagadnienie NIE należy do tematu „Refleksoterapia stóp” (4.15), lecz jest częścią innego tematu kursu? {
+    = 4.15.1 Podstawy refleksologii
+    ~-0.25# 4.15.4 Delikatnosc i bol
+    ~-0.25# 4.15.2 Mapy stop
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

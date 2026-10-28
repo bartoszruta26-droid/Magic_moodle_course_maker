@@ -117,3 +117,31 @@
     ~ Zapobieganie zakazeniom
     ~ Segmental massage
 }
+
+::mc-s02-217-v1:: Które zagadnienie należy do tematu „Techniki masażu klasycznego — teoria” (2.17)? {
+    = 2.17.1 Glaskanie\: muskanie, powierzchowne, glebokie, plaskie, obejmujace
+    ~0.5# 2.17.2 Rozcieranie\: koliste, spiralne, podluzne, poprzeczne, okrezne
+    ~0.5# 2.17.3 Ugniatanie\: poprzeczne, podluzne, esowate, ze skreceniem, mieszenie
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-217-v2:: Które zagadnienie NIE należy do tematu „Techniki masażu klasycznego — teoria” (2.17), lecz jest częścią innego tematu kursu? {
+    = 2.17.1 Glaskanie\: muskanie, powierzchowne, glebokie, plaskie, obejmujace
+    ~-0.25# 2.17.2 Rozcieranie\: koliste, spiralne, podluzne, poprzeczne, okrezne
+    ~-0.25# 2.17.3 Ugniatanie\: poprzeczne, podluzne, esowate, ze skreceniem, mieszenie
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-217-v3:: Które zagadnienie należy do tematu „Techniki masażu klasycznego — teoria” (2.17)? {
+    = 2.17.3 Ugniatanie\: poprzeczne, podluzne, esowate, ze skreceniem, mieszenie
+    ~0.5# 2.17.1 Glaskanie\: muskanie, powierzchowne, glebokie, plaskie, obejmujace
+    ~0.5# 2.17.2 Rozcieranie\: koliste, spiralne, podluzne, poprzeczne, okrezne
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-217-v4:: Które zagadnienie NIE należy do tematu „Techniki masażu klasycznego — teoria” (2.17), lecz jest częścią innego tematu kursu? {
+    = 2.17.1 Glaskanie\: muskanie, powierzchowne, glebokie, plaskie, obejmujace
+    ~-0.25# 2.17.4 Oklepywanie\: miotelkowe, polpiastkowe, lyzeczkowe, karatowe, piastkowe
+    ~-0.25# 2.17.2 Rozcieranie\: koliste, spiralne, podluzne, poprzeczne, okrezne
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

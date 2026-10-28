@@ -117,3 +117,31 @@
     ~ Autodrenaz pacjenta
     ~ Classical massage, medical massage, sports massage
 }
+
+::mc-s03-313-v1:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)? {
+    = 3.13.1 Masaz tensegracyjny\: powiez, napiecia, linie anatomiczne
+    ~0.5# 3.13.2 Masaz izometryczny\: wzmacnianie bez ruchu stawu
+    ~0.5# 3.13.3 Masaz stawowy\: mobilizacja w granicach bolu i stabilnosci
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s03-313-v2:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13), lecz jest częścią innego tematu kursu? {
+    = 3.13.1 Masaz tensegracyjny\: powiez, napiecia, linie anatomiczne
+    ~-0.25# 3.13.2 Masaz izometryczny\: wzmacnianie bez ruchu stawu
+    ~-0.25# 3.13.3 Masaz stawowy\: mobilizacja w granicach bolu i stabilnosci
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s03-313-v3:: Które zagadnienie należy do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13)? {
+    = 3.13.3 Masaz stawowy\: mobilizacja w granicach bolu i stabilnosci
+    ~0.5# 3.13.1 Masaz tensegracyjny\: powiez, napiecia, linie anatomiczne
+    ~0.5# 3.13.2 Masaz izometryczny\: wzmacnianie bez ruchu stawu
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s03-313-v4:: Które zagadnienie NIE należy do tematu „Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego” (3.13), lecz jest częścią innego tematu kursu? {
+    = 3.13.1 Masaz tensegracyjny\: powiez, napiecia, linie anatomiczne
+    ~-0.25# 3.13.4 Wskazania\: oslabienie, niestabilnosc, ograniczenie ruchu
+    ~-0.25# 3.13.2 Masaz izometryczny\: wzmacnianie bez ruchu stawu
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

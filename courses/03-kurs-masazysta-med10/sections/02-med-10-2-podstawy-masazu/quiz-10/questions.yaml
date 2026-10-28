@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Wardrobe and storage"
         fraction: 0
+  - id: "mc-s02-210-v1"
+    type: "multichoice"
+    name: "mc-s02-210-v1"
+    text: "Które zagadnienie należy do tematu „Układ ruchu\\: kości, stawy, mięśnie, powięź” (2.10)?"
+    answers:
+      - text: "2.10.1 Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 100
+      - text: "0.5# 2.10.2 Polaczenia kosci\\: ciagle i ciaglosci"
+        fraction: 0
+      - text: "0.5# 2.10.3 Stawy\\: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-210-v2"
+    type: "multichoice"
+    name: "mc-s02-210-v2"
+    text: "Które zagadnienie NIE należy do tematu „Układ ruchu\\: kości, stawy, mięśnie, powięź” (2.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.10.1 Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 100
+      - text: "-0.25# 2.10.2 Polaczenia kosci\\: ciagle i ciaglosci"
+        fraction: 0
+      - text: "-0.25# 2.10.3 Stawy\\: budowa, torebka, chrzastka, maziowka"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-210-v3"
+    type: "multichoice"
+    name: "mc-s02-210-v3"
+    text: "Które zagadnienie należy do tematu „Układ ruchu\\: kości, stawy, mięśnie, powięź” (2.10)?"
+    answers:
+      - text: "2.10.3 Stawy\\: budowa, torebka, chrzastka, maziowka"
+        fraction: 100
+      - text: "0.5# 2.10.1 Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 0
+      - text: "0.5# 2.10.2 Polaczenia kosci\\: ciagle i ciaglosci"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-210-v4"
+    type: "multichoice"
+    name: "mc-s02-210-v4"
+    text: "Które zagadnienie NIE należy do tematu „Układ ruchu\\: kości, stawy, mięśnie, powięź” (2.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.10.1 Budowa kosci dlugich, krotkich, plaskich, pneumatycznych"
+        fraction: 100
+      - text: "-0.25# 2.10.4 Wiazadla i sciegna"
+        fraction: 0
+      - text: "-0.25# 2.10.2 Polaczenia kosci\\: ciagle i ciaglosci"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Oswietlenie i temperatura"
         fraction: 0
+  - id: "mc-s01-18-v1"
+    type: "multichoice"
+    name: "mc-s01-18-v1"
+    text: "Które zagadnienie należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8)?"
+    answers:
+      - text: "1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia"
+        fraction: 100
+      - text: "0.5# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne"
+        fraction: 0
+      - text: "0.5# 1.8.3 Fartuch lub okrycie robocze"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-18-v2"
+    type: "multichoice"
+    name: "mc-s01-18-v2"
+    text: "Które zagadnienie NIE należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia"
+        fraction: 100
+      - text: "-0.25# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne"
+        fraction: 0
+      - text: "-0.25# 1.8.3 Fartuch lub okrycie robocze"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-18-v3"
+    type: "multichoice"
+    name: "mc-s01-18-v3"
+    text: "Które zagadnienie należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8)?"
+    answers:
+      - text: "1.8.3 Fartuch lub okrycie robocze"
+        fraction: 100
+      - text: "0.5# 1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia"
+        fraction: 0
+      - text: "0.5# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-18-v4"
+    type: "multichoice"
+    name: "mc-s01-18-v4"
+    text: "Które zagadnienie NIE należy do tematu „Środki ochrony indywidualnej i zbiorowej” (1.8), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.8.1 Rekawiczki jednorazowe — wskazania i ograniczenia"
+        fraction: 100
+      - text: "-0.25# 1.8.4 Ochrona oczu przy ryzyku rozprysku"
+        fraction: 0
+      - text: "-0.25# 1.8.2 Maseczki ochronne — wskazania epidemiologiczne"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

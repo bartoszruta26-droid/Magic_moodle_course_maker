@@ -117,3 +117,31 @@
     ~ Kliny, walki, polwalki, poduszki
     ~ Komunikacja
 }
+
+::mc-s07-75-v1:: Które zagadnienie należy do tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)? {
+    = 7.5.1 Offering services politely
+    ~0.5# 7.5.2 Asking about pain level
+    ~0.5# 7.5.3 Checking comfort and pressure
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s07-75-v2:: Które zagadnienie NIE należy do tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5), lecz jest częścią innego tematu kursu? {
+    = 7.5.1 Offering services politely
+    ~-0.25# 7.5.2 Asking about pain level
+    ~-0.25# 7.5.3 Checking comfort and pressure
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s07-75-v3:: Które zagadnienie należy do tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5)? {
+    = 7.5.3 Checking comfort and pressure
+    ~0.5# 7.5.1 Offering services politely
+    ~0.5# 7.5.2 Asking about pain level
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s07-75-v4:: Które zagadnienie NIE należy do tematu „Usługi świadczone w zawodzie i obsługa klienta” (7.5), lecz jest częścią innego tematu kursu? {
+    = 7.5.1 Offering services politely
+    ~-0.25# 7.5.4 Respecting boundaries
+    ~-0.25# 7.5.2 Asking about pain level
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

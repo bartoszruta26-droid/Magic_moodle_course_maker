@@ -117,3 +117,31 @@
     ~ Pielegnacja skory
     ~ Connective tissue massage
 }
+
+::mc-s02-216-v1:: Które zagadnienie należy do tematu „Rozwój psychofizyczny człowieka a masaż” (2.16)? {
+    = 2.16.1 Niemowle\: masaz Shantala, delikatnosc, zgoda opiekuna
+    ~0.5# 2.16.2 Dziecko przedszkolne i szkolne\: lek, dotyk, granice
+    ~0.5# 2.16.3 Mlodziez\: wrazliwosc, intymnosc, tozsamosc
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-216-v2:: Które zagadnienie NIE należy do tematu „Rozwój psychofizyczny człowieka a masaż” (2.16), lecz jest częścią innego tematu kursu? {
+    = 2.16.1 Niemowle\: masaz Shantala, delikatnosc, zgoda opiekuna
+    ~-0.25# 2.16.2 Dziecko przedszkolne i szkolne\: lek, dotyk, granice
+    ~-0.25# 2.16.3 Mlodziez\: wrazliwosc, intymnosc, tozsamosc
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-216-v3:: Które zagadnienie należy do tematu „Rozwój psychofizyczny człowieka a masaż” (2.16)? {
+    = 2.16.3 Mlodziez\: wrazliwosc, intymnosc, tozsamosc
+    ~0.5# 2.16.1 Niemowle\: masaz Shantala, delikatnosc, zgoda opiekuna
+    ~0.5# 2.16.2 Dziecko przedszkolne i szkolne\: lek, dotyk, granice
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-216-v4:: Które zagadnienie NIE należy do tematu „Rozwój psychofizyczny człowieka a masaż” (2.16), lecz jest częścią innego tematu kursu? {
+    = 2.16.1 Niemowle\: masaz Shantala, delikatnosc, zgoda opiekuna
+    ~-0.25# 2.16.4 Dorosly\: stres, przeciazenia, choroby przewlekle
+    ~-0.25# 2.16.2 Dziecko przedszkolne i szkolne\: lek, dotyk, granice
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

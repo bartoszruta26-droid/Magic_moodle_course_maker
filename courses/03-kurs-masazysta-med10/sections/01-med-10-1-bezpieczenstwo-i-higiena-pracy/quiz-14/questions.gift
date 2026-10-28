@@ -117,3 +117,31 @@
     ~ Cwiczenia fizyczne i oddechowe
     ~ Effleurage, petrissage, friction, tapotement, vibration
 }
+
+::mc-s01-114-v1:: Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14)? {
+    = 1.14.1 Omdlenie
+    ~0.5# 1.14.2 Zawroty glowy
+    ~0.5# 1.14.3 Dusznosc
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-114-v2:: Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14), lecz jest częścią innego tematu kursu? {
+    = 1.14.1 Omdlenie
+    ~-0.25# 1.14.2 Zawroty glowy
+    ~-0.25# 1.14.3 Dusznosc
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-114-v3:: Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14)? {
+    = 1.14.3 Dusznosc
+    ~0.5# 1.14.1 Omdlenie
+    ~0.5# 1.14.2 Zawroty glowy
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-114-v4:: Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nieurazowych” (1.14), lecz jest częścią innego tematu kursu? {
+    = 1.14.1 Omdlenie
+    ~-0.25# 1.14.4 Bol w klatce piersiowej — podejrzenie zawalu
+    ~-0.25# 1.14.2 Zawroty glowy
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

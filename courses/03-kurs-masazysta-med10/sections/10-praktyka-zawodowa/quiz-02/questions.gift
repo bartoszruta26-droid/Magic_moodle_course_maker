@@ -117,3 +117,31 @@
     ~ Drenaz po usunieciu wezlow chlonnych
     ~ Privacy screen
 }
+
+::mc-s10-102-v1:: Które zagadnienie należy do tematu „Miejsca realizacji praktyki” (10.2)? {
+    = 10.2.1 Zaklady opieki zdrowotnej
+    ~0.5# 10.2.2 Poradnie rehabilitacyjne
+    ~0.5# 10.2.3 Oddzialy szpitalne — za zgoda i nadzorem
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s10-102-v2:: Które zagadnienie NIE należy do tematu „Miejsca realizacji praktyki” (10.2), lecz jest częścią innego tematu kursu? {
+    = 10.2.1 Zaklady opieki zdrowotnej
+    ~-0.25# 10.2.2 Poradnie rehabilitacyjne
+    ~-0.25# 10.2.3 Oddzialy szpitalne — za zgoda i nadzorem
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s10-102-v3:: Które zagadnienie należy do tematu „Miejsca realizacji praktyki” (10.2)? {
+    = 10.2.3 Oddzialy szpitalne — za zgoda i nadzorem
+    ~0.5# 10.2.1 Zaklady opieki zdrowotnej
+    ~0.5# 10.2.2 Poradnie rehabilitacyjne
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s10-102-v4:: Które zagadnienie NIE należy do tematu „Miejsca realizacji praktyki” (10.2), lecz jest częścią innego tematu kursu? {
+    = 10.2.1 Zaklady opieki zdrowotnej
+    ~-0.25# 10.2.4 Hospicja i zaklady opiekunczo-lecznicze
+    ~-0.25# 10.2.2 Poradnie rehabilitacyjne
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

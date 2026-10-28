@@ -117,3 +117,31 @@
     ~ Cwiczenia fizyczne i oddechowe
     ~ Effleurage, petrissage, friction, tapotement, vibration
 }
+
+::mc-s02-222-v1:: Które zagadnienie należy do tematu „Normy i procedury oceny zgodności” (2.22)? {
+    = 2.22.1 Pojecie normalizacji krajowej
+    ~0.5# 2.22.2 Norma krajowa, europejska, miedzynarodowa
+    ~0.5# 2.22.3 Oznaczenia norm
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s02-222-v2:: Które zagadnienie NIE należy do tematu „Normy i procedury oceny zgodności” (2.22), lecz jest częścią innego tematu kursu? {
+    = 2.22.1 Pojecie normalizacji krajowej
+    ~-0.25# 2.22.2 Norma krajowa, europejska, miedzynarodowa
+    ~-0.25# 2.22.3 Oznaczenia norm
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s02-222-v3:: Które zagadnienie należy do tematu „Normy i procedury oceny zgodności” (2.22)? {
+    = 2.22.3 Oznaczenia norm
+    ~0.5# 2.22.1 Pojecie normalizacji krajowej
+    ~0.5# 2.22.2 Norma krajowa, europejska, miedzynarodowa
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s02-222-v4:: Które zagadnienie NIE należy do tematu „Normy i procedury oceny zgodności” (2.22), lecz jest częścią innego tematu kursu? {
+    = 2.22.1 Pojecie normalizacji krajowej
+    ~-0.25# 2.22.4 Procedury oceny zgodnosci
+    ~-0.25# 2.22.2 Norma krajowa, europejska, miedzynarodowa
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

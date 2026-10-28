@@ -2,7 +2,22 @@
 name: "Quiz: 2.19. Środki poślizgowe i wspomagające masaż"
 intro: |
   Sprawdzian wiedzy do tematu 2.19. Pytania obejmują zagadnienia
-  szczegółowe omówione na stronie tematycznej modułu.
+  szczegółowe omówione w rozdziałach książki modułu oraz na zajęciach
+  praktycznych.
+
+  Cel sprawdzianu jest formacyjny, nie dyscyplinarny: ma pomóc uczciwie
+  zobaczyć, co już potrafisz, a co wymaga spokojnego powtórzenia. Znajdziesz
+  tu pytania prawda/fałsz, jednokrotnego wyboru (także z punktowaniem
+  częściowym za trafne rozróżnienie zagadnień pokrewnych), dopasowania,
+  krótkiej odpowiedzi, numeryczne oraz jedno pytanie otwarte do oceny
+  koleżeńskiej i instruktorskiej.
+
+  Zasady sprawiedliwe i jednakowe dla wszystkich: próg zaliczenia 60%,
+  dwa podejścia w limicie czasu, każde podejście oceniane tym samym
+  kluczem. Błąd potraktowany jest życzliwie — informacja zwrotna wskazuje
+  konkretne rozdziały do powtórki. Odpowiadaj samodzielnie; wiedza
+  zdobyta w prawdzie służy później drugiemu człowiekowi na stole masaży,
+  dlatego liczy się rozumienie, nie zgadywanie.
 intro_format: markdown
 time_limit: 600
 attempts: 2

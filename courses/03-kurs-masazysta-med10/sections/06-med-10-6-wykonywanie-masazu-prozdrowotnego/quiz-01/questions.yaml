@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Bezpieczenstwo w warunkach domowych"
         fraction: 0
+  - id: "mc-s06-61-v1"
+    type: "multichoice"
+    name: "mc-s06-61-v1"
+    text: "Które zagadnienie należy do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.1 Zdrowie jako dobro i zadanie"
+        fraction: 100
+      - text: "0.5# 6.1.2 Profilaktyka a terapia"
+        fraction: 0
+      - text: "0.5# 6.1.3 Relaksacja a leczenie"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s06-61-v2"
+    type: "multichoice"
+    name: "mc-s06-61-v2"
+    text: "Które zagadnienie NIE należy do tematu „Pojęcie masażu prozdrowotnego” (6.1), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.1.1 Zdrowie jako dobro i zadanie"
+        fraction: 100
+      - text: "-0.25# 6.1.2 Profilaktyka a terapia"
+        fraction: 0
+      - text: "-0.25# 6.1.3 Relaksacja a leczenie"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s06-61-v3"
+    type: "multichoice"
+    name: "mc-s06-61-v3"
+    text: "Które zagadnienie należy do tematu „Pojęcie masażu prozdrowotnego” (6.1)?"
+    answers:
+      - text: "6.1.3 Relaksacja a leczenie"
+        fraction: 100
+      - text: "0.5# 6.1.1 Zdrowie jako dobro i zadanie"
+        fraction: 0
+      - text: "0.5# 6.1.2 Profilaktyka a terapia"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s06-61-v4"
+    type: "multichoice"
+    name: "mc-s06-61-v4"
+    text: "Które zagadnienie NIE należy do tematu „Pojęcie masażu prozdrowotnego” (6.1), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "6.1.1 Zdrowie jako dobro i zadanie"
+        fraction: 100
+      - text: "-0.25# 6.1.4 Masaz prozdrowotny u osoby zdrowej"
+        fraction: 0
+      - text: "-0.25# 6.1.2 Profilaktyka a terapia"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

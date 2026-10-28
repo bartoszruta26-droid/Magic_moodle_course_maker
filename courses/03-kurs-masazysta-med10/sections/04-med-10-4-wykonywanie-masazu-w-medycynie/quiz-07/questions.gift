@@ -67,3 +67,31 @@
     ~ Bezpieczenstwo wejscia i wyjscia z wanny
     ~ Masaz regeneracyjny
 }
+
+::mc-s04-47-v1:: Które zagadnienie należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7)? {
+    = 4.7.1 Masaz konczyny gornej
+    ~0.5# 4.7.2 Masaz konczyny dolnej
+    ~0.5# 4.7.3 Masaz grzbietu
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-47-v2:: Które zagadnienie NIE należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7), lecz jest częścią innego tematu kursu? {
+    = 4.7.1 Masaz konczyny gornej
+    ~-0.25# 4.7.2 Masaz konczyny dolnej
+    ~-0.25# 4.7.3 Masaz grzbietu
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-47-v3:: Które zagadnienie należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7)? {
+    = 4.7.3 Masaz grzbietu
+    ~0.5# 4.7.1 Masaz konczyny gornej
+    ~0.5# 4.7.2 Masaz konczyny dolnej
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-47-v4:: Które zagadnienie NIE należy do tematu „Wykonywanie masażu klasycznego w medycynie” (4.7), lecz jest częścią innego tematu kursu? {
+    = 4.7.1 Masaz konczyny gornej
+    ~-0.25# 4.7.4 Masaz kregoslupa szyjnego
+    ~-0.25# 4.7.2 Masaz konczyny dolnej
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

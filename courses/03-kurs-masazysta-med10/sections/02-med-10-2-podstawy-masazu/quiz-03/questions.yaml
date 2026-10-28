@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Dlonie, przedramiona, kciuki"
         fraction: 0
+  - id: "mc-s02-23-v1"
+    type: "multichoice"
+    name: "mc-s02-23-v1"
+    text: "Które zagadnienie należy do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.1 Podmiot leczniczy publiczny i niepubliczny"
+        fraction: 100
+      - text: "0.5# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0
+      - text: "0.5# 2.3.3 Gabinety masazu i dzialalnosci lecznicze"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s02-23-v2"
+    type: "multichoice"
+    name: "mc-s02-23-v2"
+    text: "Które zagadnienie NIE należy do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.3.1 Podmiot leczniczy publiczny i niepubliczny"
+        fraction: 100
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0
+      - text: "-0.25# 2.3.3 Gabinety masazu i dzialalnosci lecznicze"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s02-23-v3"
+    type: "multichoice"
+    name: "mc-s02-23-v3"
+    text: "Które zagadnienie należy do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.3 Gabinety masazu i dzialalnosci lecznicze"
+        fraction: 100
+      - text: "0.5# 2.3.1 Podmiot leczniczy publiczny i niepubliczny"
+        fraction: 0
+      - text: "0.5# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s02-23-v4"
+    type: "multichoice"
+    name: "mc-s02-23-v4"
+    text: "Które zagadnienie NIE należy do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "2.3.1 Podmiot leczniczy publiczny i niepubliczny"
+        fraction: 100
+      - text: "-0.25# 2.3.4 Sportowe osrodki medyczne i kluby"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

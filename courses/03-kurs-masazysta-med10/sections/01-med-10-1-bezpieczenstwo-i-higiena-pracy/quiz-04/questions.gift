@@ -117,3 +117,31 @@
     ~ Pozycja na boku
     ~ Dlonie, przedramiona, kciuki
 }
+
+::mc-s01-14-v1:: Które zagadnienie należy do tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)? {
+    = 1.4.1 Prawo do bezpiecznych warunkow pracy
+    ~0.5# 1.4.2 Obowiazek stosowania sie do przepisow BHP
+    ~0.5# 1.4.3 Obowiazek uzycia srodkow ochrony indywidualnej
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-14-v2:: Które zagadnienie NIE należy do tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4), lecz jest częścią innego tematu kursu? {
+    = 1.4.1 Prawo do bezpiecznych warunkow pracy
+    ~-0.25# 1.4.2 Obowiazek stosowania sie do przepisow BHP
+    ~-0.25# 1.4.3 Obowiazek uzycia srodkow ochrony indywidualnej
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-14-v3:: Które zagadnienie należy do tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4)? {
+    = 1.4.3 Obowiazek uzycia srodkow ochrony indywidualnej
+    ~0.5# 1.4.1 Prawo do bezpiecznych warunkow pracy
+    ~0.5# 1.4.2 Obowiazek stosowania sie do przepisow BHP
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-14-v4:: Które zagadnienie NIE należy do tematu „Prawa i obowiązki pracownika oraz pracodawcy” (1.4), lecz jest częścią innego tematu kursu? {
+    = 1.4.1 Prawo do bezpiecznych warunkow pracy
+    ~-0.25# 1.4.4 Prawo odmowy wykonania pracy w stanie zagrozenia zycia lub zdrowia
+    ~-0.25# 1.4.2 Obowiazek stosowania sie do przepisow BHP
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

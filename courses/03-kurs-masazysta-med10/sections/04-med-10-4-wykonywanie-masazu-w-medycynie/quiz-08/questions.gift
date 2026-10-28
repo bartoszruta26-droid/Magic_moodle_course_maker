@@ -117,3 +117,31 @@
     ~ Kliny, walki, polwalki, poduszki
     ~ Przeciwwskazania
 }
+
+::mc-s04-48-v1:: Które zagadnienie należy do tematu „Masaż w środowisku wodnym” (4.8)? {
+    = 4.8.1 Przygotowanie wanny
+    ~0.5# 4.8.2 Temperatura wody
+    ~0.5# 4.8.3 Higiena i dezynfekcja
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-48-v2:: Które zagadnienie NIE należy do tematu „Masaż w środowisku wodnym” (4.8), lecz jest częścią innego tematu kursu? {
+    = 4.8.1 Przygotowanie wanny
+    ~-0.25# 4.8.2 Temperatura wody
+    ~-0.25# 4.8.3 Higiena i dezynfekcja
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-48-v3:: Które zagadnienie należy do tematu „Masaż w środowisku wodnym” (4.8)? {
+    = 4.8.3 Higiena i dezynfekcja
+    ~0.5# 4.8.1 Przygotowanie wanny
+    ~0.5# 4.8.2 Temperatura wody
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-48-v4:: Które zagadnienie NIE należy do tematu „Masaż w środowisku wodnym” (4.8), lecz jest częścią innego tematu kursu? {
+    = 4.8.1 Przygotowanie wanny
+    ~-0.25# 4.8.4 Bezpieczne wejscie pacjenta
+    ~-0.25# 4.8.2 Temperatura wody
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

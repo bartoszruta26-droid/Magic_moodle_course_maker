@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Classical massage, medical massage, sports massage"
         fraction: 0
+  - id: "mc-s11-116-v1"
+    type: "multichoice"
+    name: "mc-s11-116-v1"
+    text: "Które zagadnienie należy do tematu „Studia przypadków” (11.6)?"
+    answers:
+      - text: "11.6.1 Pacjent z bolem kregoslupa ledzwiowego"
+        fraction: 100
+      - text: "0.5# 11.6.2 Pacjent po udarze"
+        fraction: 0
+      - text: "0.5# 11.6.3 Pacjent z obrzekiem limfatycznym po mastektomii"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s11-116-v2"
+    type: "multichoice"
+    name: "mc-s11-116-v2"
+    text: "Które zagadnienie NIE należy do tematu „Studia przypadków” (11.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "11.6.1 Pacjent z bolem kregoslupa ledzwiowego"
+        fraction: 100
+      - text: "-0.25# 11.6.2 Pacjent po udarze"
+        fraction: 0
+      - text: "-0.25# 11.6.3 Pacjent z obrzekiem limfatycznym po mastektomii"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s11-116-v3"
+    type: "multichoice"
+    name: "mc-s11-116-v3"
+    text: "Które zagadnienie należy do tematu „Studia przypadków” (11.6)?"
+    answers:
+      - text: "11.6.3 Pacjent z obrzekiem limfatycznym po mastektomii"
+        fraction: 100
+      - text: "0.5# 11.6.1 Pacjent z bolem kregoslupa ledzwiowego"
+        fraction: 0
+      - text: "0.5# 11.6.2 Pacjent po udarze"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s11-116-v4"
+    type: "multichoice"
+    name: "mc-s11-116-v4"
+    text: "Które zagadnienie NIE należy do tematu „Studia przypadków” (11.6), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "11.6.1 Pacjent z bolem kregoslupa ledzwiowego"
+        fraction: 100
+      - text: "-0.25# 11.6.4 Pacjent sportowiec po treningu"
+        fraction: 0
+      - text: "-0.25# 11.6.2 Pacjent po udarze"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

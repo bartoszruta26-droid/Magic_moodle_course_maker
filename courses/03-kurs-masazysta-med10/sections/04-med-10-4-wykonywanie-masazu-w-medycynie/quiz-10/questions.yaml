@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Reading instructions and labels"
         fraction: 0
+  - id: "mc-s04-410-v1"
+    type: "multichoice"
+    name: "mc-s04-410-v1"
+    text: "Które zagadnienie należy do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "0.5# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "0.5# 4.10.3 Autodrenaz pacjenta"
+        fraction: 0
+      - text: "1.1.1 Pojecie bezpieczenstwa pracy"
+        fraction: 0
+  - id: "mc-s04-410-v2"
+    type: "multichoice"
+    name: "mc-s04-410-v2"
+    text: "Które zagadnienie NIE należy do tematu „Kompleksowa terapia obrzęków” (4.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "-0.25# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "-0.25# 4.10.3 Autodrenaz pacjenta"
+        fraction: 0
+      - text: "-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet"
+        fraction: 0
+  - id: "mc-s04-410-v3"
+    type: "multichoice"
+    name: "mc-s04-410-v3"
+    text: "Które zagadnienie należy do tematu „Kompleksowa terapia obrzęków” (4.10)?"
+    answers:
+      - text: "4.10.3 Autodrenaz pacjenta"
+        fraction: 100
+      - text: "0.5# 4.10.1 Terapia ulozeniowa"
+        fraction: 0
+      - text: "0.5# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu"
+        fraction: 0
+  - id: "mc-s04-410-v4"
+    type: "multichoice"
+    name: "mc-s04-410-v4"
+    text: "Które zagadnienie NIE należy do tematu „Kompleksowa terapia obrzęków” (4.10), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "4.10.1 Terapia ulozeniowa"
+        fraction: 100
+      - text: "-0.25# 4.10.4 Kompresjoterapia"
+        fraction: 0
+      - text: "-0.25# 4.10.2 Cwiczenia fizyczne i oddechowe"
+        fraction: 0
+      - text: "-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna"
+        fraction: 0

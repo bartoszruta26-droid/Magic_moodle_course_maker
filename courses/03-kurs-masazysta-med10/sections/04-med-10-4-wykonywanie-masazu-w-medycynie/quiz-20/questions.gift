@@ -117,3 +117,31 @@
     ~ Terapia ulozeniowa
     ~ Effleurage, petrissage, friction, tapotement, vibration
 }
+
+::mc-s04-420-v1:: Które zagadnienie należy do tematu „Masaż kobiety w ciąży” (4.20)? {
+    = 4.20.1 Konsultacja lekarska i zgoda
+    ~0.5# 4.20.2 Pozycje bezpieczne
+    ~0.5# 4.20.3 Unikanie ucisku brzucha
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s04-420-v2:: Które zagadnienie NIE należy do tematu „Masaż kobiety w ciąży” (4.20), lecz jest częścią innego tematu kursu? {
+    = 4.20.1 Konsultacja lekarska i zgoda
+    ~-0.25# 4.20.2 Pozycje bezpieczne
+    ~-0.25# 4.20.3 Unikanie ucisku brzucha
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s04-420-v3:: Które zagadnienie należy do tematu „Masaż kobiety w ciąży” (4.20)? {
+    = 4.20.3 Unikanie ucisku brzucha
+    ~0.5# 4.20.1 Konsultacja lekarska i zgoda
+    ~0.5# 4.20.2 Pozycje bezpieczne
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s04-420-v4:: Które zagadnienie NIE należy do tematu „Masaż kobiety w ciąży” (4.20), lecz jest częścią innego tematu kursu? {
+    = 4.20.1 Konsultacja lekarska i zgoda
+    ~-0.25# 4.20.4 Obrzeki konczyn dolnych
+    ~-0.25# 4.20.2 Pozycje bezpieczne
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

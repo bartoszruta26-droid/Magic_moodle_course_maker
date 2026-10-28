@@ -117,3 +117,31 @@
     ~ Drenaz po usunieciu wezlow chlonnych
     ~ Privacy screen
 }
+
+::mc-s01-110-v1:: Które zagadnienie należy do tematu „Postępowanie z materiałami biologicznie skażonymi” (1.10)? {
+    = 1.10.1 Krew, wydzieliny, pot, lojotok, zmiany skorne
+    ~0.5# 1.10.2 Odpady medyczne i komunalne
+    ~0.5# 1.10.3 Pojemniki na ostre przedmioty — jesli wystepuja
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-110-v2:: Które zagadnienie NIE należy do tematu „Postępowanie z materiałami biologicznie skażonymi” (1.10), lecz jest częścią innego tematu kursu? {
+    = 1.10.1 Krew, wydzieliny, pot, lojotok, zmiany skorne
+    ~-0.25# 1.10.2 Odpady medyczne i komunalne
+    ~-0.25# 1.10.3 Pojemniki na ostre przedmioty — jesli wystepuja
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-110-v3:: Które zagadnienie należy do tematu „Postępowanie z materiałami biologicznie skażonymi” (1.10)? {
+    = 1.10.3 Pojemniki na ostre przedmioty — jesli wystepuja
+    ~0.5# 1.10.1 Krew, wydzieliny, pot, lojotok, zmiany skorne
+    ~0.5# 1.10.2 Odpady medyczne i komunalne
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-110-v4:: Które zagadnienie NIE należy do tematu „Postępowanie z materiałami biologicznie skażonymi” (1.10), lecz jest częścią innego tematu kursu? {
+    = 1.10.1 Krew, wydzieliny, pot, lojotok, zmiany skorne
+    ~-0.25# 1.10.4 Dezaktywacja i dezynfekcja powierzchni
+    ~-0.25# 1.10.2 Odpady medyczne i komunalne
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

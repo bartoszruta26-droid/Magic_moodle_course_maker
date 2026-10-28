@@ -117,3 +117,31 @@
     ~ Tempo, cisnienie i czas zabiegu
     ~ Describing equipment safely
 }
+
+::mc-s01-112-v1:: Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.1 Ocena sytuacji\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia
+    ~0.5# 1.12.2 Wezwanie pomocy\: numery alarmowe, przekazanie informacji
+    ~0.5# 1.12.3 Pozycja bezpieczna
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-112-v2:: Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12), lecz jest częścią innego tematu kursu? {
+    = 1.12.1 Ocena sytuacji\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia
+    ~-0.25# 1.12.2 Wezwanie pomocy\: numery alarmowe, przekazanie informacji
+    ~-0.25# 1.12.3 Pozycja bezpieczna
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-112-v3:: Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)? {
+    = 1.12.3 Pozycja bezpieczna
+    ~0.5# 1.12.1 Ocena sytuacji\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia
+    ~0.5# 1.12.2 Wezwanie pomocy\: numery alarmowe, przekazanie informacji
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-112-v4:: Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12), lecz jest częścią innego tematu kursu? {
+    = 1.12.1 Ocena sytuacji\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia
+    ~-0.25# 1.12.4 Udroznienie drog oddechowych
+    ~-0.25# 1.12.2 Wezwanie pomocy\: numery alarmowe, przekazanie informacji
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

@@ -117,3 +117,31 @@
     ~ Autodrenaz pacjenta
     ~ Classical massage, medical massage, sports massage
 }
+
+::mc-s01-115-v1:: Które zagadnienie należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15)? {
+    = 1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku
+    ~0.5# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki
+    ~0.5# 1.15.3 Osoby z niepelnosprawnoscia — komunikacja i godnosc
+    ~ 2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy
+}
+
+::mc-s01-115-v2:: Które zagadnienie NIE należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15), lecz jest częścią innego tematu kursu? {
+    = 1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku
+    ~-0.25# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki
+    ~-0.25# 1.15.3 Osoby z niepelnosprawnoscia — komunikacja i godnosc
+    ~-0.25# 2.1.8 Granice profesjonalnej bliskosci
+}
+
+::mc-s01-115-v3:: Które zagadnienie należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15)? {
+    = 1.15.3 Osoby z niepelnosprawnoscia — komunikacja i godnosc
+    ~0.5# 1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku
+    ~0.5# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki
+    ~ 2.2.5 Zlecenie lekarskie a refundacja
+}
+
+::mc-s01-115-v4:: Które zagadnienie NIE należy do tematu „Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym” (1.15), lecz jest częścią innego tematu kursu? {
+    = 1.15.1 Dzieci i mlodziez — zgoda opiekuna, granice dotyku
+    ~-0.25# 1.15.4 Osoby po traumie — zgoda, zapowiedz dotyku, prawo do przerwania
+    ~-0.25# 1.15.2 Osoby starsze — kruchosc skory, osteoporoza, leki
+    ~-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y
+}

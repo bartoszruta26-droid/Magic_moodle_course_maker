@@ -112,3 +112,31 @@
 ::sa-s06-68-q2:: Podaj numer porządkowy zagadnienia „Brak sprzetu jako przewaga dostepnosci” w temacie „Masaż prozdrowotny bez przyrządów” (6.8) wg spisu treści kursu. {SHORTANSWER:#6.8.3} //
 
 ::sa-s06-68-q3:: Podaj numer porządkowy zagadnienia „Bezpieczenstwo w warunkach domowych” w temacie „Masaż prozdrowotny bez przyrządów” (6.8) wg spisu treści kursu. {SHORTANSWER:#6.8.4} //
+
+::mc-s06-68-v1:: Które zagadnienie należy do tematu „Masaż prozdrowotny bez przyrządów” (6.8)? {
+    = 6.8.1 Dlonie, przedramiona, kciuki
+    ~0.5# 6.8.3 Brak sprzetu jako przewaga dostepnosci
+    ~0.5# 6.8.4 Bezpieczenstwo w warunkach domowych
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s06-68-v2:: Które zagadnienie NIE należy do tematu „Masaż prozdrowotny bez przyrządów” (6.8), lecz jest częścią innego tematu kursu? {
+    = 6.8.1 Dlonie, przedramiona, kciuki
+    ~-0.25# 6.8.3 Brak sprzetu jako przewaga dostepnosci
+    ~-0.25# 6.8.4 Bezpieczenstwo w warunkach domowych
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s06-68-v3:: Które zagadnienie należy do tematu „Masaż prozdrowotny bez przyrządów” (6.8)? {
+    = 6.8.4 Bezpieczenstwo w warunkach domowych
+    ~0.5# 6.8.1 Dlonie, przedramiona, kciuki
+    ~0.5# 6.8.3 Brak sprzetu jako przewaga dostepnosci
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s06-68-v4:: Które zagadnienie NIE należy do tematu „Masaż prozdrowotny bez przyrządów” (6.8), lecz jest częścią innego tematu kursu? {
+    = 6.8.1 Dlonie, przedramiona, kciuki
+    ~-0.25# 6.8.5 Higiena otoczenia
+    ~-0.25# 6.8.3 Brak sprzetu jako przewaga dostepnosci
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}

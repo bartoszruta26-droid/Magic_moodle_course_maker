@@ -245,3 +245,55 @@ questions:
         fraction: 0
       - text: "Describing equipment safely"
         fraction: 0
+  - id: "mc-s01-112-v1"
+    type: "multichoice"
+    name: "mc-s01-112-v1"
+    text: "Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)?"
+    answers:
+      - text: "1.12.1 Ocena sytuacji\\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia"
+        fraction: 100
+      - text: "0.5# 1.12.2 Wezwanie pomocy\\: numery alarmowe, przekazanie informacji"
+        fraction: 0
+      - text: "0.5# 1.12.3 Pozycja bezpieczna"
+        fraction: 0
+      - text: "2.1.1 Zawod technik masazysta w systemie edukacji i rynku pracy"
+        fraction: 0
+  - id: "mc-s01-112-v2"
+    type: "multichoice"
+    name: "mc-s01-112-v2"
+    text: "Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.12.1 Ocena sytuacji\\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia"
+        fraction: 100
+      - text: "-0.25# 1.12.2 Wezwanie pomocy\\: numery alarmowe, przekazanie informacji"
+        fraction: 0
+      - text: "-0.25# 1.12.3 Pozycja bezpieczna"
+        fraction: 0
+      - text: "-0.25# 2.1.8 Granice profesjonalnej bliskosci"
+        fraction: 0
+  - id: "mc-s01-112-v3"
+    type: "multichoice"
+    name: "mc-s01-112-v3"
+    text: "Które zagadnienie należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12)?"
+    answers:
+      - text: "1.12.3 Pozycja bezpieczna"
+        fraction: 100
+      - text: "0.5# 1.12.1 Ocena sytuacji\\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia"
+        fraction: 0
+      - text: "0.5# 1.12.2 Wezwanie pomocy\\: numery alarmowe, przekazanie informacji"
+        fraction: 0
+      - text: "2.2.5 Zlecenie lekarskie a refundacja"
+        fraction: 0
+  - id: "mc-s01-112-v4"
+    type: "multichoice"
+    name: "mc-s01-112-v4"
+    text: "Które zagadnienie NIE należy do tematu „Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego” (1.12), lecz jest częścią innego tematu kursu?"
+    answers:
+      - text: "1.12.1 Ocena sytuacji\\: bezpieczenstwo ratujacego, poszkodowanego, otoczenia"
+        fraction: 100
+      - text: "-0.25# 1.12.4 Udroznienie drog oddechowych"
+        fraction: 0
+      - text: "-0.25# 1.12.2 Wezwanie pomocy\\: numery alarmowe, przekazanie informacji"
+        fraction: 0
+      - text: "-0.25# 2.3.2 Poradnie, szpitale, zaklady rehabilitacji, hospicja, DOM-y"
+        fraction: 0

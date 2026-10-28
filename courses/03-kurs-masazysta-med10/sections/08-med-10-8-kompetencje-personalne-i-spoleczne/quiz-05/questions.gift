@@ -117,3 +117,31 @@
     ~ Bezpieczenstwo spadania i utraty rownowagi
     ~ Przeciwwskazania
 }
+
+::mc-s08-85-v1:: Które zagadnienie należy do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~0.5# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~0.5# 8.5.3 Pacjent z bolem przewleklym
+    ~ 1.1.1 Pojecie bezpieczenstwa pracy
+}
+
+::mc-s08-85-v2:: Które zagadnienie NIE należy do tematu „Kreatywność i otwartość na zmiany” (8.5), lecz jest częścią innego tematu kursu? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~-0.25# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~-0.25# 8.5.3 Pacjent z bolem przewleklym
+    ~-0.25# 1.1.8 Bezpieczenstwo pacjenta jako pierwszy priorytet
+}
+
+::mc-s08-85-v3:: Które zagadnienie należy do tematu „Kreatywność i otwartość na zmiany” (8.5)? {
+    = 8.5.3 Pacjent z bolem przewleklym
+    ~0.5# 8.5.1 Sytuacje nietypowe w gabinecie
+    ~0.5# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~ 1.2.5 Przepisy przeciwpozarowe w zakladzie opieki zdrowotnej i gabinecie masazu
+}
+
+::mc-s08-85-v4:: Które zagadnienie NIE należy do tematu „Kreatywność i otwartość na zmiany” (8.5), lecz jest częścią innego tematu kursu? {
+    = 8.5.1 Sytuacje nietypowe w gabinecie
+    ~-0.25# 8.5.4 Pacjent z niepelnosprawnoscia komunikacyjna
+    ~-0.25# 8.5.2 Pacjent z lekiem przed dotykiem
+    ~-0.25# 1.3.2 Panstwowa Inspekcja Sanitarna
+}
