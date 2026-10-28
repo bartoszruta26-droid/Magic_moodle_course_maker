@@ -1,11 +1,18 @@
 // === Temat 23.1: Podstawy prawne ===
 ::tf-s23-231-q1:: Zagadnienie „Ustawodawstwo dotyczące zawodów medycznych i paramedycznych” wchodzi w zakres tematu „Podstawy prawne” (23.1). {TRUE} //
+
 ::tf-s23-231-q2:: Zagadnienie „Prawa pacjenta – informacja, zgoda, tajemnica, dokumentacja, godność” jest elementem zagadnienia „Ustawodawstwo dotyczące zawodów medycznych i paramedycznych”, a nie tematu „Podstawy prawne” (23.1). {FALSE} //
+
 ::tf-s23-231-q3:: Zagadnienie „Odpowiedzialność cywilna, karna i zawodowa naturopaty” wchodzi w zakres tematu „Podstawy prawne” (23.1). {TRUE} //
+
 ::tf-s23-231-q4:: Zagadnienie „Ochrona danych osobowych (RODO) w gabinecie” jest elementem zagadnienia „Odpowiedzialność cywilna, karna i zawodowa naturopaty”, a nie tematu „Podstawy prawne” (23.1). {FALSE} //
+
 ::tf-s23-231-q5:: Zagadnienie „Rejestracja działalności, wymogi sanitarne, ubezpieczenie OC” wchodzi w zakres tematu „Podstawy prawne” (23.1). {TRUE} //
+
 ::tf-s23-231-q6:: Zagadnienie „Prawo dotyczące suplementów, wyrobów medycznych i produktów zielarskich” jest elementem zagadnienia „Rejestracja działalności, wymogi sanitarne, ubezpieczenie OC”, a nie tematu „Podstawy prawne” (23.1). {FALSE} //
+
 ::tf-s23-231-q7:: Zagadnienie „Prawo dotyczące reklamy usług zdrowotnych – ograniczenia i etyka” wchodzi w zakres tematu „Podstawy prawne” (23.1). {TRUE} //
+
 ::mc-s23-171:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy prawne” (23.1)? {
     = Ustawodawstwo dotyczące zawodów medycznych i paramedycznych
     ~ Prawa pacjenta – informacja, zgoda, tajemnica, dokumentacja, godność
@@ -14,12 +21,19 @@
 }
 // === Temat 23.2: Organizacja i prowadzenie praktyki ===
 ::tf-s23-232-q1:: Zagadnienie „Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera; kabina 3,5 × 4,5 m, kozetka regulowana, lampa Solux” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (23.2). {TRUE} //
+
 ::tf-s23-232-q2:: Zagadnienie „Zarządzanie czasem i organizacja pracy z pacjentem – wizyty, harmonogram” jest elementem zagadnienia „Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera; kabina 3,5 × 4,5 m, kozetka regulowana, lampa Solux”, a nie tematu „Organizacja i prowadzenie praktyki” (23.2). {FALSE} //
+
 ::tf-s23-232-q3:: Zagadnienie „Dokumentacja medyczna – prowadzenie, przechowywanie, udostępnianie (karta pacjenta, karta zabiegowa, plan terapii)” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (23.2). {TRUE} //
+
 ::tf-s23-232-q4:: Zagadnienie „Współpraca z innymi specjalistami – sieć kontaktów, kierowanie, konsultacje” jest elementem zagadnienia „Dokumentacja medyczna – prowadzenie, przechowywanie, udostępnianie (karta pacjenta, karta zabiegowa, plan terapii)”, a nie tematu „Organizacja i prowadzenie praktyki” (23.2). {FALSE} //
+
 ::tf-s23-232-q5:: Zagadnienie „Marketing etyczny – budowanie zaufania, edukacja, obecność w społeczności; zakaz manipulacji” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (23.2). {TRUE} //
+
 ::tf-s23-232-q6:: Zagadnienie „Finanse praktyki – wycena usług, rozliczenia, ciągłość działania, sprawiedliwa opłata” jest elementem zagadnienia „Marketing etyczny – budowanie zaufania, edukacja, obecność w społeczności; zakaz manipulacji”, a nie tematu „Organizacja i prowadzenie praktyki” (23.2). {FALSE} //
+
 ::tf-s23-232-q7:: Zagadnienie „Rozwój zawodowy – kształcenie ustawiczne, specjalizacje, publikacje” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (23.2). {TRUE} //
+
 ::mc-s23-172:: Które z poniższych zagadnień należy bezpośrednio do tematu „Organizacja i prowadzenie praktyki” (23.2)? {
     = Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera; kabina 3,5 × 4,5 m, kozetka regulowana, lampa Solux
     ~ Zarządzanie czasem i organizacja pracy z pacjentem – wizyty, harmonogram

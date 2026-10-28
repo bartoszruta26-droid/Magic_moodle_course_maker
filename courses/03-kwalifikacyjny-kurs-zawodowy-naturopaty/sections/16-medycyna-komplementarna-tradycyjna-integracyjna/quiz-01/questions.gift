@@ -1,11 +1,18 @@
 // === Temat 16.1: Przegląd systemów medycyny tradycyjnej ===
 ::tf-s16-161-q1:: Zagadnienie „Tradycyjna Medycyna Chińska (TCM) – filozofia, diagnostyka, metody (akupunktura, zioła, dieta, ćwiczenia)” wchodzi w zakres tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {TRUE} //
+
 ::tf-s16-161-q2:: Zagadnienie „Ajurweda – filozofia, diagnostyka, terapie (Panchakarma, Abhyanga, Shirodhara)” jest elementem zagadnienia „Tradycyjna Medycyna Chińska (TCM) – filozofia, diagnostyka, metody (akupunktura, zioła, dieta, ćwiczenia)”, a nie tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {FALSE} //
+
 ::tf-s16-161-q3:: Zagadnienie „Medycyna tybetańska – podstawy, diagnostyka, ziołolecznictwo” wchodzi w zakres tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {TRUE} //
+
 ::tf-s16-161-q4:: Zagadnienie „Medycyna ludowa słowiańska i europejska – tradycja, zioła, obrzędy zdrowotne” jest elementem zagadnienia „Medycyna tybetańska – podstawy, diagnostyka, ziołolecznictwo”, a nie tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {FALSE} //
+
 ::tf-s16-161-q5:: Zagadnienie „Medycyna afrykańska, południowoamerykańska, aborygeńska – przegląd” wchodzi w zakres tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {TRUE} //
+
 ::tf-s16-161-q6:: Zagadnienie „Medycyna antropozoficzna – filozofia, terapie” jest elementem zagadnienia „Medycyna afrykańska, południowoamerykańska, aborygeńska – przegląd”, a nie tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {FALSE} //
+
 ::tf-s16-161-q7:: Zagadnienie „Homeopatia – zasady, kontrowersje, miejsce w praktyce integracyjnej” wchodzi w zakres tematu „Przegląd systemów medycyny tradycyjnej” (16.1). {TRUE} //
+
 ::mc-s16-161:: Które z poniższych zagadnień należy bezpośrednio do tematu „Przegląd systemów medycyny tradycyjnej” (16.1)? {
     = Tradycyjna Medycyna Chińska (TCM) – filozofia, diagnostyka, metody (akupunktura, zioła, dieta, ćwiczenia)
     ~ Ajurweda – filozofia, diagnostyka, terapie (Panchakarma, Abhyanga, Shirodhara)
@@ -14,16 +21,27 @@
 }
 // === Temat 16.2: Terapie komplementarne – przegląd i zastosowanie ===
 ::tf-s16-162-q1:: Zagadnienie „Akupunktura i akupresura – teoria meridianów, praktyka, dowody” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
+
 ::tf-s16-162-q2:: Zagadnienie „Refleksologia – stopy, dłonie, uszy – techniki i zastosowanie” jest elementem zagadnienia „Akupunktura i akupresura – teoria meridianów, praktyka, dowody”, a nie tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {FALSE} //
+
 ::tf-s16-162-q3:: Zagadnienie „Aromaterapia kliniczna – olejki eteryczne, drogi podania, bezpieczeństwo” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
+
 ::tf-s16-162-q4:: Zagadnienie „Apiterapia – produkty pszczele w lecznictwie” jest elementem zagadnienia „Aromaterapia kliniczna – olejki eteryczne, drogi podania, bezpieczeństwo”, a nie tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {FALSE} //
+
 ::tf-s16-162-q5:: Zagadnienie „Hirudoterapia – pijawki lekarskie, wskazania, bezpieczeństwo” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
+
 ::tf-s16-162-q6:: Zagadnienie „Terapia bańkami – sucha, mokra, ogniowa, próżniowa” jest elementem zagadnienia „Hirudoterapia – pijawki lekarskie, wskazania, bezpieczeństwo”, a nie tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {FALSE} //
+
 ::tf-s16-162-q7:: Zagadnienie „Terapia czaszkowo-krzyżowa (cranio-sacral)” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
+
 ::tf-s16-162-q8:: Zagadnienie „Osteopatia i chiropraktyka – przegląd, różnice, integracja” jest elementem zagadnienia „Terapia czaszkowo-krzyżowa (cranio-sacral)”, a nie tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {FALSE} //
+
 ::tf-s16-162-q9:: Zagadnienie „Muzykoterapia i arteterapia – zastosowanie w zdrowieniu” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
+
 ::tf-s16-162-q10:: Zagadnienie „Terapia lasem (shinrin-yoku) i kontakt z naturą jako terapia” jest elementem zagadnienia „Muzykoterapia i arteterapia – zastosowanie w zdrowieniu”, a nie tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {FALSE} //
+
 ::tf-s16-162-q11:: Zagadnienie „Terapia zajęciowa – ergoterapia w rehabilitacji” wchodzi w zakres tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2). {TRUE} //
+
 ::mc-s16-162:: Które z poniższych zagadnień należy bezpośrednio do tematu „Terapie komplementarne – przegląd i zastosowanie” (16.2)? {
     = Akupunktura i akupresura – teoria meridianów, praktyka, dowody
     ~ Refleksologia – stopy, dłonie, uszy – techniki i zastosowanie
@@ -32,13 +50,21 @@
 }
 // === Temat 16.3: Medycyna integracyjna – łączenie podejść ===
 ::tf-s16-163-q1:: Zagadnienie „Model medycyny integracyjnej – pacjent w centrum, zespół interdyscyplinarny” wchodzi w zakres tematu „Medycyna integracyjna – łączenie podejść” (16.3). {TRUE} //
+
 ::tf-s16-163-q2:: Zagadnienie „Evidence-based complementary medicine – krytyczna ocena dowodów naukowych” jest elementem zagadnienia „Model medycyny integracyjnej – pacjent w centrum, zespół interdyscyplinarny”, a nie tematu „Medycyna integracyjna – łączenie podejść” (16.3). {FALSE} //
+
 ::tf-s16-163-q3:: Zagadnienie „Integracja fitoterapii z farmakoterapią – synergia i interakcje” wchodzi w zakres tematu „Medycyna integracyjna – łączenie podejść” (16.3). {TRUE} //
+
 ::tf-s16-163-q4:: Zagadnienie „Integracja masażu i terapii manualnej z rehabilitacją medyczną” jest elementem zagadnienia „Integracja fitoterapii z farmakoterapią – synergia i interakcje”, a nie tematu „Medycyna integracyjna – łączenie podejść” (16.3). {FALSE} //
+
 ::tf-s16-163-q5:: Zagadnienie „Integracja dietetyki, ruchu i terapii umysł-ciało” wchodzi w zakres tematu „Medycyna integracyjna – łączenie podejść” (16.3). {TRUE} //
+
 ::tf-s16-163-q6:: Zagadnienie „Medycyna stylu życia (lifestyle medicine) – filary zdrowia” jest elementem zagadnienia „Integracja dietetyki, ruchu i terapii umysł-ciało”, a nie tematu „Medycyna integracyjna – łączenie podejść” (16.3). {FALSE} //
+
 ::tf-s16-163-q7:: Zagadnienie „Onkologia integracyjna – wspieranie pacjenta onkologicznego” wchodzi w zakres tematu „Medycyna integracyjna – łączenie podejść” (16.3). {TRUE} //
+
 ::tf-s16-163-q8:: Zagadnienie „Medycyna integralna – wymiar fizyczny, emocjonalny, umysłowy, duchowy, społeczny” jest elementem zagadnienia „Onkologia integracyjna – wspieranie pacjenta onkologicznego”, a nie tematu „Medycyna integracyjna – łączenie podejść” (16.3). {FALSE} //
+
 ::mc-s16-163:: Które z poniższych zagadnień należy bezpośrednio do tematu „Medycyna integracyjna – łączenie podejść” (16.3)? {
     = Model medycyny integracyjnej – pacjent w centrum, zespół interdyscyplinarny
     ~ Evidence-based complementary medicine – krytyczna ocena dowodów naukowych
@@ -47,11 +73,17 @@
 }
 // === Temat 16.4: Wymiar duchowy i egzystencjalny w zdrowieniu ===
 ::tf-s16-164-q1:: Zagadnienie „Duchowość a zdrowie – badania naukowe i tradycja” wchodzi w zakres tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {TRUE} //
+
 ::tf-s16-164-q2:: Zagadnienie „Modlitwa, medytacja, kontemplacja jako wsparcie zdrowienia” jest elementem zagadnienia „Duchowość a zdrowie – badania naukowe i tradycja”, a nie tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {FALSE} //
+
 ::tf-s16-164-q3:: Zagadnienie „Sens, cel i nadzieja w procesie zdrowienia” wchodzi w zakres tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {TRUE} //
+
 ::tf-s16-164-q4:: Zagadnienie „Rola wspólnoty, rodziny i Kościoła Rodzinnego w opiece nad chorym” jest elementem zagadnienia „Sens, cel i nadzieja w procesie zdrowienia”, a nie tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {FALSE} //
+
 ::tf-s16-164-q5:: Zagadnienie „Etyka troski – godność osoby od poczęcia do naturalnej śmierci” wchodzi w zakres tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {TRUE} //
+
 ::tf-s16-164-q6:: Zagadnienie „Prawo do informacji, świadomej zgody i odmowy leczenia” jest elementem zagadnienia „Etyka troski – godność osoby od poczęcia do naturalnej śmierci”, a nie tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4). {FALSE} //
+
 ::mc-s16-164:: Które z poniższych zagadnień należy bezpośrednio do tematu „Wymiar duchowy i egzystencjalny w zdrowieniu” (16.4)? {
     = Duchowość a zdrowie – badania naukowe i tradycja
     ~ Modlitwa, medytacja, kontemplacja jako wsparcie zdrowienia

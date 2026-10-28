@@ -1,11 +1,18 @@
 // === Temat 5.1: Higiena osobista i środowiskowa ===
 ::tf-s05-51-q1:: Zagadnienie „Higiena ciała – zasady, preparaty naturalne, pielęgnacja skóry zdrowej i chorej” wchodzi w zakres tematu „Higiena osobista i środowiskowa” (5.1). {TRUE} //
+
 ::tf-s05-51-q2:: Zagadnienie „Higiena jamy ustnej – profilaktyka próchnicy i chorób przyzębia” jest elementem zagadnienia „Higiena ciała – zasady, preparaty naturalne, pielęgnacja skóry zdrowej i chorej”, a nie tematu „Higiena osobista i środowiskowa” (5.1). {FALSE} //
+
 ::tf-s05-51-q3:: Zagadnienie „Higiena snu – środowisko, rytuały, jakość odpoczynku, rytm dobowy” wchodzi w zakres tematu „Higiena osobista i środowiskowa” (5.1). {TRUE} //
+
 ::tf-s05-51-q4:: Zagadnienie „Higiena pracy – ergonomia stanowiska, przerwy, profilaktyka przeciążeń” jest elementem zagadnienia „Higiena snu – środowisko, rytuały, jakość odpoczynku, rytm dobowy”, a nie tematu „Higiena osobista i środowiskowa” (5.1). {FALSE} //
+
 ::tf-s05-51-q5:: Zagadnienie „Higiena środowiska – jakość powietrza, wody, promieniowanie, hałas” wchodzi w zakres tematu „Higiena osobista i środowiskowa” (5.1). {TRUE} //
+
 ::tf-s05-51-q6:: Zagadnienie „Higiena psychiczna i emocjonalna – zarządzanie stresem, odpoczynek, kontemplacja” jest elementem zagadnienia „Higiena środowiska – jakość powietrza, wody, promieniowanie, hałas”, a nie tematu „Higiena osobista i środowiskowa” (5.1). {FALSE} //
+
 ::tf-s05-51-q7:: Zagadnienie „Higiena osobista naturopaty – strój, czystość rąk, pielęgnacja dłoni jako narzędzia pracy” wchodzi w zakres tematu „Higiena osobista i środowiskowa” (5.1). {TRUE} //
+
 ::mc-s05-51:: Które z poniższych zagadnień należy bezpośrednio do tematu „Higiena osobista i środowiskowa” (5.1)? {
     = Higiena ciała – zasady, preparaty naturalne, pielęgnacja skóry zdrowej i chorej
     ~ Higiena jamy ustnej – profilaktyka próchnicy i chorób przyzębia
@@ -14,13 +21,21 @@
 }
 // === Temat 5.2: Profilaktyka pierwotna ===
 ::tf-s05-52-q1:: Zagadnienie „Edukacja zdrowotna jako fundament profilaktyki” wchodzi w zakres tematu „Profilaktyka pierwotna” (5.2). {TRUE} //
+
 ::tf-s05-52-q2:: Zagadnienie „Profilaktyka chorób cywilizacyjnych – dieta, ruch, sen, relacje” jest elementem zagadnienia „Edukacja zdrowotna jako fundament profilaktyki”, a nie tematu „Profilaktyka pierwotna” (5.2). {FALSE} //
+
 ::tf-s05-52-q3:: Zagadnienie „Profilaktyka onkologiczna – czynniki ryzyka, badania przesiewowe” wchodzi w zakres tematu „Profilaktyka pierwotna” (5.2). {TRUE} //
+
 ::tf-s05-52-q4:: Zagadnienie „Profilaktyka kardiologiczna – kontrola czynników ryzyka” jest elementem zagadnienia „Profilaktyka onkologiczna – czynniki ryzyka, badania przesiewowe”, a nie tematu „Profilaktyka pierwotna” (5.2). {FALSE} //
+
 ::tf-s05-52-q5:: Zagadnienie „Profilaktyka cukrzycy typu 2 i zespołu metabolicznego” wchodzi w zakres tematu „Profilaktyka pierwotna” (5.2). {TRUE} //
+
 ::tf-s05-52-q6:: Zagadnienie „Profilaktyka chorób układu ruchu – postawa, aktywność, obuwie, ergonomia” jest elementem zagadnienia „Profilaktyka cukrzycy typu 2 i zespołu metabolicznego”, a nie tematu „Profilaktyka pierwotna” (5.2). {FALSE} //
+
 ::tf-s05-52-q7:: Zagadnienie „Profilaktyka w geriatrii – zapobieganie upadkom, utrzymanie sprawności” wchodzi w zakres tematu „Profilaktyka pierwotna” (5.2). {TRUE} //
+
 ::tf-s05-52-q8:: Zagadnienie „Profilaktyka w pediatrii – wady postawy, rozwój ruchowy, żywienie” jest elementem zagadnienia „Profilaktyka w geriatrii – zapobieganie upadkom, utrzymanie sprawności”, a nie tematu „Profilaktyka pierwotna” (5.2). {FALSE} //
+
 ::mc-s05-52:: Które z poniższych zagadnień należy bezpośrednio do tematu „Profilaktyka pierwotna” (5.2)? {
     = Edukacja zdrowotna jako fundament profilaktyki
     ~ Profilaktyka chorób cywilizacyjnych – dieta, ruch, sen, relacje
@@ -29,9 +44,13 @@
 }
 // === Temat 5.3: Profilaktyka wtórna i trzeciorzędowa ===
 ::tf-s05-53-q1:: Zagadnienie „Wczesne wykrywanie chorób – badania przesiewowe, samobadanie” wchodzi w zakres tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3). {TRUE} //
+
 ::tf-s05-53-q2:: Zagadnienie „Rehabilitacja i zapobieganie nawrotom – rola naturopaty” jest elementem zagadnienia „Wczesne wykrywanie chorób – badania przesiewowe, samobadanie”, a nie tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3). {FALSE} //
+
 ::tf-s05-53-q3:: Zagadnienie „Profilaktyka powikłań w chorobach przewlekłych” wchodzi w zakres tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3). {TRUE} //
+
 ::tf-s05-53-q4:: Zagadnienie „Monitoring stanu zdrowia pacjenta – dokumentacja, wizyty kontrolne” jest elementem zagadnienia „Profilaktyka powikłań w chorobach przewlekłych”, a nie tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3). {FALSE} //
+
 ::mc-s05-53:: Które z poniższych zagadnień należy bezpośrednio do tematu „Profilaktyka wtórna i trzeciorzędowa” (5.3)? {
     = Wczesne wykrywanie chorób – badania przesiewowe, samobadanie
     ~ Rehabilitacja i zapobieganie nawrotom – rola naturopaty
@@ -40,10 +59,15 @@
 }
 // === Temat 5.4: Higiena i profilaktyka w praktyce naturopaty ===
 ::tf-s05-54-q1:: Zagadnienie „Higiena gabinetu – dezynfekcja, sterylizacja, utylizacja odpadów, wentylacja” wchodzi w zakres tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4). {TRUE} //
+
 ::tf-s05-54-q2:: Zagadnienie „Profilaktyka zakażeń – BHP, środki ochrony osobistej” jest elementem zagadnienia „Higiena gabinetu – dezynfekcja, sterylizacja, utylizacja odpadów, wentylacja”, a nie tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4). {FALSE} //
+
 ::tf-s05-54-q3:: Zagadnienie „Zarządzanie ryzykiem w gabinecie naturopatycznym” wchodzi w zakres tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4). {TRUE} //
+
 ::tf-s05-54-q4:: Zagadnienie „Dokumentacja i raportowanie zdarzeń niepożądanych” jest elementem zagadnienia „Zarządzanie ryzykiem w gabinecie naturopatycznym”, a nie tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4). {FALSE} //
+
 ::tf-s05-54-q5:: Zagadnienie „Warunki wykonywania zabiegów – temperatura pomieszczenia, wyposażenie, środki poślizgowe i wspomagające” wchodzi w zakres tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4). {TRUE} //
+
 ::mc-s05-54:: Które z poniższych zagadnień należy bezpośrednio do tematu „Higiena i profilaktyka w praktyce naturopaty” (5.4)? {
     = Higiena gabinetu – dezynfekcja, sterylizacja, utylizacja odpadów, wentylacja
     ~ Profilaktyka zakażeń – BHP, środki ochrony osobistej

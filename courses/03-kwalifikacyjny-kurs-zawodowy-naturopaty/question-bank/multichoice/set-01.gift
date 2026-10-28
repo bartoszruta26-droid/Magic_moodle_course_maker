@@ -1,24 +1,46 @@
 // Bank pytań wielokrotnego wyboru – Kwalifikacyjny Kurs Zawodowy – Naturopata
 ::mc-m01:: Które zagadnienie należy do Modułu 1 (ANATOMIA I FIZJOLOGIA CZŁOWIEKA)? {=A:Anatomia ogólna i topograficzna ~B:Patologia ogólna ~C:Badanie podmiotowe (wywiad) ~D:Diagnostyka w medycynie tradycyjnej chińskiej (TCM)%}
+
 ::mc-m02:: Które zagadnienie należy do Modułu 2 (PATOFIZJOLOGIA I PODSTAWY CHORÓB)? {=A:Patologia ogólna ~B:Anatomia ogólna i topograficzna ~C:Badanie podmiotowe (wywiad) ~D:Diagnostyka w medycynie tradycyjnej chińskiej (TCM)%}
+
 ::mc-m03:: Które zagadnienie należy do Modułu 3 (MEDYCZNA DIAGNOSTYKA KONWENCJONALNA)? {=A:Badanie podmiotowe (wywiad) ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Diagnostyka w medycynie tradycyjnej chińskiej (TCM)%}
+
 ::mc-m04:: Które zagadnienie należy do Modułu 4 (MEDYCZNA DIAGNOSTYKA KOMPLEMENTARNA I TRADYCYJNA)? {=A:Diagnostyka w medycynie tradycyjnej chińskiej (TCM) ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m05:: Które zagadnienie należy do Modułu 5 (HIGIENA I PROFILAKTYKA ZDROWIA)? {=A:Higiena osobista i środowiskowa ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m06:: Które zagadnienie należy do Modułu 6 (MASAŻ KLASYCZNY – TEORIA I TECHNIKI)? {=A:Podstawy teoretyczne masażu klasycznego ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m07:: Które zagadnienie należy do Modułu 7 (MASAŻ SEGMENTARNY)? {=A:Podstawy teoretyczne masażu segmentarnego ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m08:: Które zagadnienie należy do Modułu 8 (DRENAŻ LIMFATYCZNY)? {=A:Podstawy anatomiczne i fizjologiczne układu limfatycznego ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m09:: Które zagadnienie należy do Modułu 9 (MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH)? {=A:Choroby reumatyczne – masaż i rehabilitacja ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m10:: Które zagadnienie należy do Modułu 10 (TERAPIA MANUALNA I MOBILIZACJE)? {=A:Podstawy terapii manualnej ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m11:: Które zagadnienie należy do Modułu 11 (KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE)? {=A:Podstawy kinezyterapii i treningu medycznego ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m12:: Które zagadnienie należy do Modułu 12 (MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA)? {=A:Podstawy pielęgnacji medycznej ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m13:: Które zagadnienie należy do Modułu 13 (MEDYCZNE ZIELARSTWO I FITOTERAPIA)? {=A:Podstawy botaniki farmaceutycznej i zielarstwa ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m14:: Które zagadnienie należy do Modułu 14 (MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA)? {=A:Podstawy żywienia i biochemii żywności ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m15:: Które zagadnienie należy do Modułu 15 (MEDYCYNA FIZYKALNA I ZABIEGI FIZYKOTERAPEUTYCZNE)? {=A:Hydroterapia i balneologia ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m16:: Które zagadnienie należy do Modułu 16 (MEDYCYNA KOMPLEMENTARNA, TRADYCYJNA I INTEGRACYJNA)? {=A:Przegląd systemów medycyny tradycyjnej ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m17:: Które zagadnienie należy do Modułu 17 (MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY)? {=A:Podstawy mentorstwa medycznego ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m18:: Które zagadnienie należy do Modułu 18 (PRAWO, ETYKA I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ)? {=A:Podstawy prawne ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m19:: Które zagadnienie należy do Modułu 19 (PRAKTYKA ZAWODOWA I STAŻE KLINICZNE)? {=A:Praktyka gabinetowa – masaż i terapie manualne ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m20:: Które zagadnienie należy do Modułu 20 (METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY)? {=A:Podstawy metodologii badań ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m21:: Które zagadnienie należy do Modułu 21 (PRACA DYPLOMOWA I EGZAMIN KOŃCOWY)? {=A:Praca dyplomowa ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m22:: Które zagadnienie należy do Modułu 22 (CYRULIKA MEDYCZNA – FELCZERSTWO)? {=A:Podstawy cyruliki medycznej i felczerstwa ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}
+
 ::mc-m23:: Które zagadnienie należy do Modułu 23 (PRAWO I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ)? {=A:Podstawy prawne ~B:Anatomia ogólna i topograficzna ~C:Patologia ogólna ~D:Badanie podmiotowe (wywiad)%}

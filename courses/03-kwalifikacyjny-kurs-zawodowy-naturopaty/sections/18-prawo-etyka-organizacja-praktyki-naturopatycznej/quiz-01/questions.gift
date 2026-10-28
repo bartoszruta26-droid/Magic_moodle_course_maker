@@ -1,11 +1,18 @@
 // === Temat 18.1: Podstawy prawne ===
 ::tf-s18-181-q1:: Zagadnienie „Ustawodawstwo dotyczące zawodów medycznych i paramedycznych” wchodzi w zakres tematu „Podstawy prawne” (18.1). {TRUE} //
+
 ::tf-s18-181-q2:: Zagadnienie „Prawa pacjenta – informacja, zgoda, tajemnica, dokumentacja, godność” jest elementem zagadnienia „Ustawodawstwo dotyczące zawodów medycznych i paramedycznych”, a nie tematu „Podstawy prawne” (18.1). {FALSE} //
+
 ::tf-s18-181-q3:: Zagadnienie „Odpowiedzialność cywilna, karna i zawodowa naturopaty” wchodzi w zakres tematu „Podstawy prawne” (18.1). {TRUE} //
+
 ::tf-s18-181-q4:: Zagadnienie „Ochrona danych osobowych (RODO) w gabinecie” jest elementem zagadnienia „Odpowiedzialność cywilna, karna i zawodowa naturopaty”, a nie tematu „Podstawy prawne” (18.1). {FALSE} //
+
 ::tf-s18-181-q5:: Zagadnienie „Rejestracja działalności, wymogi sanitarne, ubezpieczenie OC” wchodzi w zakres tematu „Podstawy prawne” (18.1). {TRUE} //
+
 ::tf-s18-181-q6:: Zagadnienie „Prawo dotyczące suplementów, wyrobów medycznych i produktów zielarskich” jest elementem zagadnienia „Rejestracja działalności, wymogi sanitarne, ubezpieczenie OC”, a nie tematu „Podstawy prawne” (18.1). {FALSE} //
+
 ::tf-s18-181-q7:: Zagadnienie „Prawo dotyczące reklamy usług zdrowotnych – ograniczenia i etyka” wchodzi w zakres tematu „Podstawy prawne” (18.1). {TRUE} //
+
 ::mc-s18-181:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy prawne” (18.1)? {
     = Ustawodawstwo dotyczące zawodów medycznych i paramedycznych
     ~ Prawa pacjenta – informacja, zgoda, tajemnica, dokumentacja, godność
@@ -14,12 +21,19 @@
 }
 // === Temat 18.2: Etyka zawodowa ===
 ::tf-s18-182-q1:: Zagadnienie „Kodeks etyczny naturopaty – zasady szczegółowe” wchodzi w zakres tematu „Etyka zawodowa” (18.2). {TRUE} //
+
 ::tf-s18-182-q2:: Zagadnienie „Zasada nieszkodzenia, dobroczynności, autonomii pacjenta, sprawiedliwości” jest elementem zagadnienia „Kodeks etyczny naturopaty – zasady szczegółowe”, a nie tematu „Etyka zawodowa” (18.2). {FALSE} //
+
 ::tf-s18-182-q3:: Zagadnienie „Świadoma zgoda – informowanie o korzyściach, ryzyku i alternatywach” wchodzi w zakres tematu „Etyka zawodowa” (18.2). {TRUE} //
+
 ::tf-s18-182-q4:: Zagadnienie „Granice kompetencji i obowiązek skierowania do lekarza” jest elementem zagadnienia „Świadoma zgoda – informowanie o korzyściach, ryzyku i alternatywach”, a nie tematu „Etyka zawodowa” (18.2). {FALSE} //
+
 ::tf-s18-182-q5:: Zagadnienie „Etyka w pracy z osobami wrażliwymi – dzieci, osoby starsze, niepełnosprawne, ciężko chore” wchodzi w zakres tematu „Etyka zawodowa” (18.2). {TRUE} //
+
 ::tf-s18-182-q6:: Zagadnienie „Etyka badań i stosowania nowych metod – dowody naukowe, uczciwość” jest elementem zagadnienia „Etyka w pracy z osobami wrażliwymi – dzieci, osoby starsze, niepełnosprawne, ciężko chore”, a nie tematu „Etyka zawodowa” (18.2). {FALSE} //
+
 ::tf-s18-182-q7:: Zagadnienie „Uczciwość wobec pacjenta – zakaz manipulacji, fałszywych obietnic, wyzysku finansowego i emocjonalnego” wchodzi w zakres tematu „Etyka zawodowa” (18.2). {TRUE} //
+
 ::mc-s18-182:: Które z poniższych zagadnień należy bezpośrednio do tematu „Etyka zawodowa” (18.2)? {
     = Kodeks etyczny naturopaty – zasady szczegółowe
     ~ Zasada nieszkodzenia, dobroczynności, autonomii pacjenta, sprawiedliwości
@@ -28,12 +42,19 @@
 }
 // === Temat 18.3: Organizacja i prowadzenie praktyki ===
 ::tf-s18-183-q1:: Zagadnienie „Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (18.3). {TRUE} //
+
 ::tf-s18-183-q2:: Zagadnienie „Zarządzanie czasem i organizacja pracy z pacjentem – wizyty, harmonogram” jest elementem zagadnienia „Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera”, a nie tematu „Organizacja i prowadzenie praktyki” (18.3). {FALSE} //
+
 ::tf-s18-183-q3:: Zagadnienie „Dokumentacja medyczna – prowadzenie, przechowywanie, udostępnianie (karta pacjenta, karta zabiegowa, plan terapii)” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (18.3). {TRUE} //
+
 ::tf-s18-183-q4:: Zagadnienie „Współpraca z innymi specjalistami – sieć kontaktów, kierowanie, konsultacje” jest elementem zagadnienia „Dokumentacja medyczna – prowadzenie, przechowywanie, udostępnianie (karta pacjenta, karta zabiegowa, plan terapii)”, a nie tematu „Organizacja i prowadzenie praktyki” (18.3). {FALSE} //
+
 ::tf-s18-183-q5:: Zagadnienie „Marketing etyczny – budowanie zaufania, edukacja, obecność w społeczności; zakaz manipulacji” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (18.3). {TRUE} //
+
 ::tf-s18-183-q6:: Zagadnienie „Finanse praktyki – wycena usług, rozliczenia, ciągłość działania, sprawiedliwa opłata” jest elementem zagadnienia „Marketing etyczny – budowanie zaufania, edukacja, obecność w społeczności; zakaz manipulacji”, a nie tematu „Organizacja i prowadzenie praktyki” (18.3). {FALSE} //
+
 ::tf-s18-183-q7:: Zagadnienie „Rozwój zawodowy – kształcenie ustawiczne, specjalizacje, publikacje” wchodzi w zakres tematu „Organizacja i prowadzenie praktyki” (18.3). {TRUE} //
+
 ::mc-s18-183:: Które z poniższych zagadnień należy bezpośrednio do tematu „Organizacja i prowadzenie praktyki” (18.3)? {
     = Planowanie i wyposażenie gabinetu naturopatycznego – normy, ergonomia, atmosfera
     ~ Zarządzanie czasem i organizacja pracy z pacjentem – wizyty, harmonogram
