@@ -1,6 +1,49 @@
-.DS_Store
-Thumbs.db
+# ============================================================
+# Wykluczenia Git – repozytorium kursów Moodle
+# Zgodnie z docs/01-ARCHITECTURE.md (rozdział 4. Plik .gitignore)
+# ============================================================
+
+# Wygenerowane pliki wyjściowe
+courses/*/output/
+*.mbz
+*.imscc
+
+# Środowisko Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+
+# Artefakty budowania i narzędzi
+build/
+dist/
+node_modules/
+
+# Logi
+*.log
+
+# Pliki tymczasowe
+*.tmp
+*.temp
+tmp/
+
+# Archiwum
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.zst
+*.zip
+*.7z
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# System operacyjny
+.DS_Store
+Thumbs.db
+desktop.ini
