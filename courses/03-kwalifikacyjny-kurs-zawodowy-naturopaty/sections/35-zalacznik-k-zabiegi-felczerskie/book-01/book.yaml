@@ -1,61 +1,67 @@
-# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Załącznik K — Zabiegi felczerskie — księga" 
-  intro: |
-    Schematy zabiegów felczerskich (cyruliki medycznej) — techniki i algorytmy postępowania. Pamiętaj o granicach prawa: część zabiegów wymaga uprawnień lekarskich lub pielęgniarskich.
+  name: Załącznik K — Zabiegi felczerskie — księga
+  intro: 'Schematy zabiegów felczerskich (cyruliki medycznej) — techniki i algorytmy postępowania. Pamiętaj
+    o granicach prawa: część zabiegów wymaga uprawnień lekarskich lub pielęgniarskich.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "J.1. Technika iniekcji"
-      subchapter: false
-      content_file: "chapters/01-j-1-technika-iniekcji-podskorna-domiesniowa-dozyln.md"
-      hidden: false
-    - title: "J.2. Technika szycia ran"
-      subchapter: false
-      content_file: "chapters/02-j-2-technika-szycia-ran-rodzaje-szwow-materialy-zn.md"
-      hidden: false
-    - title: "J.3. Technika unieruchomienia złamań"
-      subchapter: false
-      content_file: "chapters/03-j-3-technika-unieruchomienia-zlaman-konczyna-gorna.md"
-      hidden: false
-    - title: "J.4. Technika cewnikowania"
-      subchapter: false
-      content_file: "chapters/04-j-4-technika-cewnikowania-kobiety-mezczyzni-rodzaj.md"
-      hidden: false
-    - title: "J.5. Technika lewatywy i wlewu doodbytniczego"
-      subchapter: false
-      content_file: "chapters/05-j-5-technika-lewatywy-i-wlewu-doodbytniczego.md"
-      hidden: false
-    - title: "J.6. Technika płukania żołądka"
-      subchapter: false
-      content_file: "chapters/06-j-6-technika-plukania-zoladka.md"
-      hidden: false
-    - title: "J.7. Technika nacięcia i drenażu ropnia"
-      subchapter: false
-      content_file: "chapters/07-j-7-technika-naciecia-i-drenazu-ropnia.md"
-      hidden: false
-    - title: "J.8. Technika pobierania materiału do badań"
-      subchapter: false
-      content_file: "chapters/08-j-8-technika-pobierania-materialu-do-badan-krew-mo.md"
-      hidden: false
-    - title: "J.9. Algorytm szczepień"
-      subchapter: false
-      content_file: "chapters/09-j-9-algorytm-szczepien-kalendarz-technika-obserwac.md"
-      hidden: false
-    - title: "J.10. Algorytm BLS/AED"
-      subchapter: false
-      content_file: "chapters/10-j-10-algorytm-bls-aed-sekwencja-czynnosci.md"
-      hidden: false
-    - title: "J.11. Pozycje transportowe"
-      subchapter: false
-      content_file: "chapters/11-j-11-pozycje-transportowe-boczna-ustalona-przeciww.md"
-      hidden: false
-    - title: "J.12. Wyposażenie apteczki felczerskiej"
-      subchapter: false
-      content_file: "chapters/12-j-12-wyposazenie-apteczki-felczerskiej-lista.md"
-      hidden: false
+  - title: J.1. Technika iniekcji
+    subchapter: false
+    content_file: chapters/01-j-1-technika-iniekcji-podskorna-domiesniowa-dozyln.md
+    hidden: false
+  - title: J.2. Technika szycia ran
+    subchapter: false
+    content_file: chapters/02-j-2-technika-szycia-ran-rodzaje-szwow-materialy-zn.md
+    hidden: false
+  - title: J.3. Technika unieruchomienia złamań
+    subchapter: false
+    content_file: chapters/03-j-3-technika-unieruchomienia-zlaman-konczyna-gorna.md
+    hidden: false
+  - title: J.4. Technika cewnikowania
+    subchapter: false
+    content_file: chapters/04-j-4-technika-cewnikowania-kobiety-mezczyzni-rodzaj.md
+    hidden: false
+  - title: J.5. Technika lewatywy i wlewu doodbytniczego
+    subchapter: false
+    content_file: chapters/05-j-5-technika-lewatywy-i-wlewu-doodbytniczego.md
+    hidden: false
+  - title: J.6. Technika płukania żołądka
+    subchapter: false
+    content_file: chapters/06-j-6-technika-plukania-zoladka.md
+    hidden: false
+  - title: J.7. Technika nacięcia i drenażu ropnia
+    subchapter: false
+    content_file: chapters/07-j-7-technika-naciecia-i-drenazu-ropnia.md
+    hidden: false
+  - title: J.8. Technika pobierania materiału do badań
+    subchapter: false
+    content_file: chapters/08-j-8-technika-pobierania-materialu-do-badan-krew-mo.md
+    hidden: false
+  - title: J.9. Algorytm szczepień
+    subchapter: false
+    content_file: chapters/09-j-9-algorytm-szczepien-kalendarz-technika-obserwac.md
+    hidden: false
+  - title: J.10. Algorytm BLS/AED
+    subchapter: false
+    content_file: chapters/10-j-10-algorytm-bls-aed-sekwencja-czynnosci.md
+    hidden: false
+  - title: J.11. Pozycje transportowe
+    subchapter: false
+    content_file: chapters/11-j-11-pozycje-transportowe-boczna-ustalona-przeciww.md
+    hidden: false
+  - title: J.12. Wyposażenie apteczki felczerskiej
+    subchapter: false
+    content_file: chapters/12-j-12-wyposazenie-apteczki-felczerskiej-lista.md
+    hidden: false
+  - title: Załącznik K – Schematy zabiegów felczerskich
+    subchapter: false
+    content_file: chapters/13-01-zawartosc.md
+    hidden: false
   completion:
     enabled: true
     type: view

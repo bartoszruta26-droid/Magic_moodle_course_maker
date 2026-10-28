@@ -19,11 +19,11 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 3.1 | page | Badanie podmiotowe (wywiad) | 6 |
-| 3.2 | page | Badanie przedmiotowe | 8 |
-| 3.3 | page | Diagnostyka laboratoryjna – interpretacja wyników | 9 |
-| 3.4 | page | Diagnostyka obrazowa – interpretacja opisów | 4 |
-| 3.5 | page | Diagnostyka funkcjonalna i różnicowa | 6 |
+| 3.1 | book | Badanie podmiotowe (wywiad) | 6 |
+| 3.2 | book | Badanie przedmiotowe | 8 |
+| 3.3 | book | Diagnostyka laboratoryjna – interpretacja wyników | 9 |
+| 3.4 | book | Diagnostyka obrazowa – interpretacja opisów | 4 |
+| 3.5 | book | Diagnostyka funkcjonalna i różnicowa | 6 |
 
 ## Cele kształcenia
 
@@ -33,7 +33,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

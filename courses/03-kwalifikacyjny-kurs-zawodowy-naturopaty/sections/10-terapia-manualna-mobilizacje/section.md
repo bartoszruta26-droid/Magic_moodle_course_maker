@@ -19,8 +19,8 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 10.1 | page | Podstawy terapii manualnej | 10 |
-| 10.2 | page | Masaż specjalistyczny i techniki uzupełniające | 14 |
+| 10.1 | book | Podstawy terapii manualnej | 10 |
+| 10.2 | book | Masaż specjalistyczny i techniki uzupełniające | 14 |
 
 ## Cele kształcenia
 
@@ -30,7 +30,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

@@ -1,21 +1,24 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 21: PRACA DYPLOMOWA I EGZAMIN KOŃCOWY"
-  intro: |
-    Kulminacją studiów jest praca dyplomowa i egzamin końcowy — część pisemna i praktyczna. Moduł porządkuje wymagania, kryteria oceny i harmonogram, przypominając, że celem nie jest dyplom, lecz umiejętność niesienia pomocy.
+  name: 'Podręcznik: Moduł 21: PRACA DYPLOMOWA I EGZAMIN KOŃCOWY'
+  intro: 'Kulminacją studiów jest praca dyplomowa i egzamin końcowy — część pisemna i praktyczna. Moduł
+    porządkuje wymagania, kryteria oceny i harmonogram, przypominając, że celem nie jest dyplom, lecz
+    umiejętność niesienia pomocy.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "21.1. Praca dyplomowa"
-      subchapter: false
-      content_file: "chapters/01-21-1-praca-dyplomowa.md"
-      hidden: false
-    - title: "21.2. Egzamin końcowy"
-      subchapter: false
-      content_file: "chapters/02-21-2-egzamin-koncowy.md"
-      hidden: false
+  - title: 21.1. Praca dyplomowa
+    subchapter: false
+    content_file: chapters/01-21-1-praca-dyplomowa.md
+    hidden: false
+  - title: 21.2. Egzamin końcowy
+    subchapter: false
+    content_file: chapters/02-21-2-egzamin-koncowy.md
+    hidden: false
   completion:
     enabled: true
     type: view

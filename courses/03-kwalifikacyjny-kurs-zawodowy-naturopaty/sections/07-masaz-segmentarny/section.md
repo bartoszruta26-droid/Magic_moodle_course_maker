@@ -19,9 +19,9 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 7.1 | page | Podstawy teoretyczne masażu segmentarnego | 7 |
-| 7.2 | page | Techniki masażu segmentarnego | 7 |
-| 7.3 | page | Masaż segmentarny w jednostkach chorobowych | 12 |
+| 7.1 | book | Podstawy teoretyczne masażu segmentarnego | 7 |
+| 7.2 | book | Techniki masażu segmentarnego | 7 |
+| 7.3 | book | Masaż segmentarny w jednostkach chorobowych | 12 |
 
 ## Cele kształcenia
 
@@ -31,7 +31,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

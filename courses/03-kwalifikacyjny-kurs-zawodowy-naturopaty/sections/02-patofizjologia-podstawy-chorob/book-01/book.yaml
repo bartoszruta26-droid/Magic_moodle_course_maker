@@ -1,25 +1,28 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 2: PATOFIZJOLOGIA I PODSTAWY CHORÓB"
-  intro: |
-    Znajomość patologii uczy pokory: choroba dotyka całego człowieka — ciało, psychikę i relacje. Moduł obejmuje patologię ogólną, patofizjologię układów oraz psychoneuroimmunologię, wskazując granice, za którymi naturopata kieruje pacjenta do lekarza.
+  name: 'Podręcznik: Moduł 2: PATOFIZJOLOGIA I PODSTAWY CHORÓB'
+  intro: 'Znajomość patologii uczy pokory: choroba dotyka całego człowieka — ciało, psychikę i relacje.
+    Moduł obejmuje patologię ogólną, patofizjologię układów oraz psychoneuroimmunologię, wskazując granice,
+    za którymi naturopata kieruje pacjenta do lekarza.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "2.1. Patologia ogólna"
-      subchapter: false
-      content_file: "chapters/01-2-1-patologia-ogolna.md"
-      hidden: false
-    - title: "2.2. Patofizjologia układów"
-      subchapter: false
-      content_file: "chapters/02-2-2-patofizjologia-ukladow.md"
-      hidden: false
-    - title: "2.3. Psychoneuroimmunologia i medycyna psychosomatyczna"
-      subchapter: false
-      content_file: "chapters/03-2-3-psychoneuroimmunologia-i-medycyna-psychosomaty.md"
-      hidden: false
+  - title: 2.1. Patologia ogólna
+    subchapter: false
+    content_file: chapters/01-2-1-patologia-ogolna.md
+    hidden: false
+  - title: 2.2. Patofizjologia układów
+    subchapter: false
+    content_file: chapters/02-2-2-patofizjologia-ukladow.md
+    hidden: false
+  - title: 2.3. Psychoneuroimmunologia i medycyna psychosomatyczna
+    subchapter: false
+    content_file: chapters/03-2-3-psychoneuroimmunologia-i-medycyna-psychosomaty.md
+    hidden: false
   completion:
     enabled: true
     type: view

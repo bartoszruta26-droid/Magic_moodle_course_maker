@@ -1,29 +1,32 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 4: MEDYCZNA DIAGNOSTYKA KOMPLEMENTARNA I TRADYCYJNA"
-  intro: |
-    Diagnostyka komplementarna (TCM, ajurweda, irydologia, refleksologia, kinesjologia) wnosi holistyczny obraz pacjenta. Moduł uczy korzystać z niej krytycznie i uczciwie — jako uzupełnienia, nigdy zamiast medycyny opartej na dowodach.
+  name: 'Podręcznik: Moduł 4: MEDYCZNA DIAGNOSTYKA KOMPLEMENTARNA I TRADYCYJNA'
+  intro: 'Diagnostyka komplementarna (TCM, ajurweda, irydologia, refleksologia, kinesjologia) wnosi holistyczny
+    obraz pacjenta. Moduł uczy korzystać z niej krytycznie i uczciwie — jako uzupełnienia, nigdy zamiast
+    medycyny opartej na dowodach.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "4.1. Diagnostyka w medycynie tradycyjnej chińskiej (TCM)"
-      subchapter: false
-      content_file: "chapters/01-4-1-diagnostyka-w-medycynie-tradycyjnej-chinskiej.md"
-      hidden: false
-    - title: "4.2. Diagnostyka w ajurwedzie"
-      subchapter: false
-      content_file: "chapters/02-4-2-diagnostyka-w-ajurwedzie.md"
-      hidden: false
-    - title: "4.3. Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej"
-      subchapter: false
-      content_file: "chapters/03-4-3-diagnostyka-w-medycynie-zachodniej-naturalnej.md"
-      hidden: false
-    - title: "4.4. Diagnostyka integralna i holistyczna"
-      subchapter: false
-      content_file: "chapters/04-4-4-diagnostyka-integralna-i-holistyczna.md"
-      hidden: false
+  - title: 4.1. Diagnostyka w medycynie tradycyjnej chińskiej (TCM)
+    subchapter: false
+    content_file: chapters/01-4-1-diagnostyka-w-medycynie-tradycyjnej-chinskiej.md
+    hidden: false
+  - title: 4.2. Diagnostyka w ajurwedzie
+    subchapter: false
+    content_file: chapters/02-4-2-diagnostyka-w-ajurwedzie.md
+    hidden: false
+  - title: 4.3. Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej
+    subchapter: false
+    content_file: chapters/03-4-3-diagnostyka-w-medycynie-zachodniej-naturalnej.md
+    hidden: false
+  - title: 4.4. Diagnostyka integralna i holistyczna
+    subchapter: false
+    content_file: chapters/04-4-4-diagnostyka-integralna-i-holistyczna.md
+    hidden: false
   completion:
     enabled: true
     type: view

@@ -19,9 +19,9 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 2.1 | page | Patologia ogólna | 6 |
-| 2.2 | page | Patofizjologia układów | 10 |
-| 2.3 | page | Psychoneuroimmunologia i medycyna psychosomatyczna | 4 |
+| 2.1 | book | Patologia ogólna | 6 |
+| 2.2 | book | Patofizjologia układów | 10 |
+| 2.3 | book | Psychoneuroimmunologia i medycyna psychosomatyczna | 4 |
 
 ## Cele kształcenia
 
@@ -31,7 +31,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

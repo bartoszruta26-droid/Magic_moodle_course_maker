@@ -1,21 +1,23 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 20: METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY"
-  intro: |
-    Ciągły rozwój jest obowiązkiem wobec pacjenta. Moduł wprowadza metodologię pracy naukowej (piśmiennictwo, dowody, krytyczna lektura) oraz ścieżki kształcenia ustawicznego i rozwoju zawodowego naturopaty.
+  name: 'Podręcznik: Moduł 20: METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY'
+  intro: 'Ciągły rozwój jest obowiązkiem wobec pacjenta. Moduł wprowadza metodologię pracy naukowej (piśmiennictwo,
+    dowody, krytyczna lektura) oraz ścieżki kształcenia ustawicznego i rozwoju zawodowego naturopaty.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "20.1. Podstawy metodologii badań"
-      subchapter: false
-      content_file: "chapters/01-20-1-podstawy-metodologii-badan.md"
-      hidden: false
-    - title: "20.2. Rozwój zawodowy i kształcenie ustawiczne"
-      subchapter: false
-      content_file: "chapters/02-20-2-rozwoj-zawodowy-i-ksztalcenie-ustawiczne.md"
-      hidden: false
+  - title: 20.1. Podstawy metodologii badań
+    subchapter: false
+    content_file: chapters/01-20-1-podstawy-metodologii-badan.md
+    hidden: false
+  - title: 20.2. Rozwój zawodowy i kształcenie ustawiczne
+    subchapter: false
+    content_file: chapters/02-20-2-rozwoj-zawodowy-i-ksztalcenie-ustawiczne.md
+    hidden: false
   completion:
     enabled: true
     type: view

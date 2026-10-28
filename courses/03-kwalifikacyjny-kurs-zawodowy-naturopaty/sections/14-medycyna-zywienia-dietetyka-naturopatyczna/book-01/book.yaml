@@ -1,29 +1,32 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 14: MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA"
-  intro: |
-    „Niech jedzenie będzie twoim lekarstwem” — ale jedzenie bywa też trucizną. Moduł łączy biochemię żywienia, dietetykę profilaktyczną i kliniczną oraz naturalne metody oczyszczania, zawsze w granicach kompetencji i z poszanowaniem wolnego wyboru pacjenta.
+  name: 'Podręcznik: Moduł 14: MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA'
+  intro: '„Niech jedzenie będzie twoim lekarstwem” — ale jedzenie bywa też trucizną. Moduł łączy biochemię
+    żywienia, dietetykę profilaktyczną i kliniczną oraz naturalne metody oczyszczania, zawsze w granicach
+    kompetencji i z poszanowaniem wolnego wyboru pacjenta.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "14.1. Podstawy żywienia i biochemii żywności"
-      subchapter: false
-      content_file: "chapters/01-14-1-podstawy-zywienia-i-biochemii-zywnosci.md"
-      hidden: false
-    - title: "14.2. Dietetyka kliniczna i naturopatyczna"
-      subchapter: false
-      content_file: "chapters/02-14-2-dietetyka-kliniczna-i-naturopatyczna.md"
-      hidden: false
-    - title: "14.3. Tradycyjne systemy żywieniowe"
-      subchapter: false
-      content_file: "chapters/03-14-3-tradycyjne-systemy-zywieniowe.md"
-      hidden: false
-    - title: "14.4. Suplementacja i nutraceutyki"
-      subchapter: false
-      content_file: "chapters/04-14-4-suplementacja-i-nutraceutyki.md"
-      hidden: false
+  - title: 14.1. Podstawy żywienia i biochemii żywności
+    subchapter: false
+    content_file: chapters/01-14-1-podstawy-zywienia-i-biochemii-zywnosci.md
+    hidden: false
+  - title: 14.2. Dietetyka kliniczna i naturopatyczna
+    subchapter: false
+    content_file: chapters/02-14-2-dietetyka-kliniczna-i-naturopatyczna.md
+    hidden: false
+  - title: 14.3. Tradycyjne systemy żywieniowe
+    subchapter: false
+    content_file: chapters/03-14-3-tradycyjne-systemy-zywieniowe.md
+    hidden: false
+  - title: 14.4. Suplementacja i nutraceutyki
+    subchapter: false
+    content_file: chapters/04-14-4-suplementacja-i-nutraceutyki.md
+    hidden: false
   completion:
     enabled: true
     type: view

@@ -19,10 +19,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 16.1 | page | Przegląd systemów medycyny tradycyjnej | 7 |
-| 16.2 | page | Terapie komplementarne – przegląd i zastosowanie | 11 |
-| 16.3 | page | Medycyna integracyjna – łączenie podejść | 8 |
-| 16.4 | page | Wymiar duchowy i egzystencjalny w zdrowieniu | 6 |
+| 16.1 | book | Przegląd systemów medycyny tradycyjnej | 7 |
+| 16.2 | book | Terapie komplementarne – przegląd i zastosowanie | 11 |
+| 16.3 | book | Medycyna integracyjna – łączenie podejść | 8 |
+| 16.4 | book | Wymiar duchowy i egzystencjalny w zdrowieniu | 6 |
 
 ## Cele kształcenia
 
@@ -32,7 +32,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

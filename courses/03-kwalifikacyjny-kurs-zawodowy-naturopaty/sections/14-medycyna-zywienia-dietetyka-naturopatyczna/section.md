@@ -19,10 +19,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 14.1 | page | Podstawy żywienia i biochemii żywności | 6 |
-| 14.2 | page | Dietetyka kliniczna i naturopatyczna | 9 |
-| 14.3 | page | Tradycyjne systemy żywieniowe | 6 |
-| 14.4 | page | Suplementacja i nutraceutyki | 6 |
+| 14.1 | book | Podstawy żywienia i biochemii żywności | 6 |
+| 14.2 | book | Dietetyka kliniczna i naturopatyczna | 9 |
+| 14.3 | book | Tradycyjne systemy żywieniowe | 6 |
+| 14.4 | book | Suplementacja i nutraceutyki | 6 |
 
 ## Cele kształcenia
 
@@ -32,7 +32,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

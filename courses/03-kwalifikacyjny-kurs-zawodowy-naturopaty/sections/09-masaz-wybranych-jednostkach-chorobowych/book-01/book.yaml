@@ -1,45 +1,48 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 9: MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH"
-  intro: |
-    Masaż w jednostkach chorobowych to sztuka łączenia teorii z konkretnym pacjentem: choroby reumatyczne, urazy, zniekształcenia, choroby układów oddechowego, krążenia, nerwowego, pokarmowego i moczowo-płciowego oraz masaż osób starszych.
+  name: 'Podręcznik: Moduł 9: MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH'
+  intro: 'Masaż w jednostkach chorobowych to sztuka łączenia teorii z konkretnym pacjentem: choroby reumatyczne,
+    urazy, zniekształcenia, choroby układów oddechowego, krążenia, nerwowego, pokarmowego i moczowo-płciowego
+    oraz masaż osób starszych.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "9.1. Choroby reumatyczne – masaż i rehabilitacja"
-      subchapter: false
-      content_file: "chapters/01-9-1-choroby-reumatyczne-masaz-i-rehabilitacja.md"
-      hidden: false
-    - title: "9.2. Urazy – masaż i rehabilitacja"
-      subchapter: false
-      content_file: "chapters/02-9-2-urazy-masaz-i-rehabilitacja.md"
-      hidden: false
-    - title: "9.3. Zniekształcenia – masaż i korekcja"
-      subchapter: false
-      content_file: "chapters/03-9-3-znieksztalcenia-masaz-i-korekcja.md"
-      hidden: false
-    - title: "9.4. Choroby układu oddechowego – masaż i rehabilitacja"
-      subchapter: false
-      content_file: "chapters/04-9-4-choroby-ukladu-oddechowego-masaz-i-rehabilitac.md"
-      hidden: false
-    - title: "9.5. Choroby układu krążenia – masaż i rehabilitacja"
-      subchapter: false
-      content_file: "chapters/05-9-5-choroby-ukladu-krazenia-masaz-i-rehabilitacja.md"
-      hidden: false
-    - title: "9.6. Choroby układu nerwowego – masaż i rehabilitacja"
-      subchapter: false
-      content_file: "chapters/06-9-6-choroby-ukladu-nerwowego-masaz-i-rehabilitacja.md"
-      hidden: false
-    - title: "9.7. Choroby układu pokarmowego i moczowo-płciowego – masaż"
-      subchapter: false
-      content_file: "chapters/07-9-7-choroby-ukladu-pokarmowego-i-moczowo-plciowego.md"
-      hidden: false
-    - title: "9.8. Zasady wykonywania masażu u osób starszych"
-      subchapter: false
-      content_file: "chapters/08-9-8-zasady-wykonywania-masazu-u-osob-starszych.md"
-      hidden: false
+  - title: 9.1. Choroby reumatyczne – masaż i rehabilitacja
+    subchapter: false
+    content_file: chapters/01-9-1-choroby-reumatyczne-masaz-i-rehabilitacja.md
+    hidden: false
+  - title: 9.2. Urazy – masaż i rehabilitacja
+    subchapter: false
+    content_file: chapters/02-9-2-urazy-masaz-i-rehabilitacja.md
+    hidden: false
+  - title: 9.3. Zniekształcenia – masaż i korekcja
+    subchapter: false
+    content_file: chapters/03-9-3-znieksztalcenia-masaz-i-korekcja.md
+    hidden: false
+  - title: 9.4. Choroby układu oddechowego – masaż i rehabilitacja
+    subchapter: false
+    content_file: chapters/04-9-4-choroby-ukladu-oddechowego-masaz-i-rehabilitac.md
+    hidden: false
+  - title: 9.5. Choroby układu krążenia – masaż i rehabilitacja
+    subchapter: false
+    content_file: chapters/05-9-5-choroby-ukladu-krazenia-masaz-i-rehabilitacja.md
+    hidden: false
+  - title: 9.6. Choroby układu nerwowego – masaż i rehabilitacja
+    subchapter: false
+    content_file: chapters/06-9-6-choroby-ukladu-nerwowego-masaz-i-rehabilitacja.md
+    hidden: false
+  - title: 9.7. Choroby układu pokarmowego i moczowo-płciowego – masaż
+    subchapter: false
+    content_file: chapters/07-9-7-choroby-ukladu-pokarmowego-i-moczowo-plciowego.md
+    hidden: false
+  - title: 9.8. Zasady wykonywania masażu u osób starszych
+    subchapter: false
+    content_file: chapters/08-9-8-zasady-wykonywania-masazu-u-osob-starszych.md
+    hidden: false
   completion:
     enabled: true
     type: view

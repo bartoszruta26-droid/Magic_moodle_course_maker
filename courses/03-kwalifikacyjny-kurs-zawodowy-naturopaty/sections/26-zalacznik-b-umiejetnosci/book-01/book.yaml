@@ -1,77 +1,83 @@
-# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Załącznik B — Umiejętności praktyczne — księga" 
-  intro: |
-    Checklista umiejętności praktycznych do opanowania. Ręka pewna rodzi się z powtarzalności, cierpliwości i uwagi — ku pożytkowi pacjenta.
+  name: Załącznik B — Umiejętności praktyczne — księga
+  intro: 'Checklista umiejętności praktycznych do opanowania. Ręka pewna rodzi się z powtarzalności, cierpliwości
+    i uwagi — ku pożytkowi pacjenta.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "B.1. Techniki masażu klasycznego"
-      subchapter: false
-      content_file: "chapters/01-b-1-techniki-masazu-klasycznego-glaskanie-5-odmian.md"
-      hidden: false
-    - title: "B.2. Masaż klasyczny okolic"
-      subchapter: false
-      content_file: "chapters/02-b-2-masaz-klasyczny-okolic-konczyna-gorna-konczyna.md"
-      hidden: false
-    - title: "B.3. Techniki masażu segmentarnego"
-      subchapter: false
-      content_file: "chapters/03-b-3-techniki-masazu-segmentarnego-chwyty-diagnosty.md"
-      hidden: false
-    - title: "B.4. Techniki drenażu limfatycznego"
-      subchapter: false
-      content_file: "chapters/04-b-4-techniki-drenazu-limfatycznego-metoda-polska-i.md"
-      hidden: false
-    - title: "B.5. Techniki terapii manualnej i mobilizacji"
-      subchapter: false
-      content_file: "chapters/05-b-5-techniki-terapii-manualnej-i-mobilizacji-15-te.md"
-      hidden: false
-    - title: "B.6. Masaż specjalistyczny"
-      subchapter: false
-      content_file: "chapters/06-b-6-masaz-specjalistyczny-izometryczny-lacznotkank.md"
-      hidden: false
-    - title: "B.7. Ćwiczenia lecznicze"
-      subchapter: false
-      content_file: "chapters/07-b-7-cwiczenia-lecznicze-bierne-czynno-bierne-wspom.md"
-      hidden: false
-    - title: "B.8. Ćwiczenia oddechowe i relaksacyjne"
-      subchapter: false
-      content_file: "chapters/08-b-8-cwiczenia-oddechowe-i-relaksacyjne-10-technik.md"
-      hidden: false
-    - title: "B.9. Trening medyczny"
-      subchapter: false
-      content_file: "chapters/09-b-9-trening-medyczny-planowanie-prowadzenie-monito.md"
-      hidden: false
-    - title: "B.10. Zabiegi hydro- i fizykoterapeutyczne"
-      subchapter: false
-      content_file: "chapters/10-b-10-zabiegi-hydro-i-fizykoterapeutyczne-15-zabieg.md"
-      hidden: false
-    - title: "B.11. Przygotowanie przetworów zielarskich"
-      subchapter: false
-      content_file: "chapters/11-b-11-przygotowanie-przetworow-zielarskich-10-form.md"
-      hidden: false
-    - title: "B.12. Procedury diagnostyczne"
-      subchapter: false
-      content_file: "chapters/12-b-12-procedury-diagnostyczne-20-elementow-badania.md"
-      hidden: false
-    - title: "B.13. Sesja coachingu zdrowotnego"
-      subchapter: false
-      content_file: "chapters/13-b-13-sesja-coachingu-zdrowotnego-struktura-narzedz.md"
-      hidden: false
-    - title: "B.14. Sesja mentoringu"
-      subchapter: false
-      content_file: "chapters/14-b-14-sesja-mentoringu-prowadzenie-dokumentacja-sup.md"
-      hidden: false
-    - title: "B.15. Pierwsza pomoc"
-      subchapter: false
-      content_file: "chapters/15-b-15-pierwsza-pomoc-algorytm-bls-stany-nagle.md"
-      hidden: false
-    - title: "B.16. Zabiegi felczerskie"
-      subchapter: false
-      content_file: "chapters/16-b-16-zabiegi-felczerskie-iniekcje-4-drogi-szycie-r.md"
-      hidden: false
+  - title: B.1. Techniki masażu klasycznego
+    subchapter: false
+    content_file: chapters/01-b-1-techniki-masazu-klasycznego-glaskanie-5-odmian.md
+    hidden: false
+  - title: B.2. Masaż klasyczny okolic
+    subchapter: false
+    content_file: chapters/02-b-2-masaz-klasyczny-okolic-konczyna-gorna-konczyna.md
+    hidden: false
+  - title: B.3. Techniki masażu segmentarnego
+    subchapter: false
+    content_file: chapters/03-b-3-techniki-masazu-segmentarnego-chwyty-diagnosty.md
+    hidden: false
+  - title: B.4. Techniki drenażu limfatycznego
+    subchapter: false
+    content_file: chapters/04-b-4-techniki-drenazu-limfatycznego-metoda-polska-i.md
+    hidden: false
+  - title: B.5. Techniki terapii manualnej i mobilizacji
+    subchapter: false
+    content_file: chapters/05-b-5-techniki-terapii-manualnej-i-mobilizacji-15-te.md
+    hidden: false
+  - title: B.6. Masaż specjalistyczny
+    subchapter: false
+    content_file: chapters/06-b-6-masaz-specjalistyczny-izometryczny-lacznotkank.md
+    hidden: false
+  - title: B.7. Ćwiczenia lecznicze
+    subchapter: false
+    content_file: chapters/07-b-7-cwiczenia-lecznicze-bierne-czynno-bierne-wspom.md
+    hidden: false
+  - title: B.8. Ćwiczenia oddechowe i relaksacyjne
+    subchapter: false
+    content_file: chapters/08-b-8-cwiczenia-oddechowe-i-relaksacyjne-10-technik.md
+    hidden: false
+  - title: B.9. Trening medyczny
+    subchapter: false
+    content_file: chapters/09-b-9-trening-medyczny-planowanie-prowadzenie-monito.md
+    hidden: false
+  - title: B.10. Zabiegi hydro- i fizykoterapeutyczne
+    subchapter: false
+    content_file: chapters/10-b-10-zabiegi-hydro-i-fizykoterapeutyczne-15-zabieg.md
+    hidden: false
+  - title: B.11. Przygotowanie przetworów zielarskich
+    subchapter: false
+    content_file: chapters/11-b-11-przygotowanie-przetworow-zielarskich-10-form.md
+    hidden: false
+  - title: B.12. Procedury diagnostyczne
+    subchapter: false
+    content_file: chapters/12-b-12-procedury-diagnostyczne-20-elementow-badania.md
+    hidden: false
+  - title: B.13. Sesja coachingu zdrowotnego
+    subchapter: false
+    content_file: chapters/13-b-13-sesja-coachingu-zdrowotnego-struktura-narzedz.md
+    hidden: false
+  - title: B.14. Sesja mentoringu
+    subchapter: false
+    content_file: chapters/14-b-14-sesja-mentoringu-prowadzenie-dokumentacja-sup.md
+    hidden: false
+  - title: B.15. Pierwsza pomoc
+    subchapter: false
+    content_file: chapters/15-b-15-pierwsza-pomoc-algorytm-bls-stany-nagle.md
+    hidden: false
+  - title: B.16. Zabiegi felczerskie
+    subchapter: false
+    content_file: chapters/16-b-16-zabiegi-felczerskie-iniekcje-4-drogi-szycie-r.md
+    hidden: false
+  - title: Załącznik B – Wykaz umiejętności praktycznych do opanowania (checklist)
+    subchapter: false
+    content_file: chapters/17-01-zawartosc.md
+    hidden: false
   completion:
     enabled: true
     type: view

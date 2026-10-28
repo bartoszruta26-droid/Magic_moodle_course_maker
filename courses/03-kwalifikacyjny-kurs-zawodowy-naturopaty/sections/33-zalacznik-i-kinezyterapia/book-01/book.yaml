@@ -1,73 +1,79 @@
-# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Załącznik I — Kinezyterapia — księga" 
-  intro: |
-    Schematy kinezyterapii i treningu medycznego — dobór ćwiczeń do jednostki chorobowej, okresu i wydolności pacjenta.
+  name: Załącznik I — Kinezyterapia — księga
+  intro: 'Schematy kinezyterapii i treningu medycznego — dobór ćwiczeń do jednostki chorobowej, okresu
+    i wydolności pacjenta.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "I.1. Ćwiczenia w RZS"
-      subchapter: false
-      content_file: "chapters/01-i-1-cwiczenia-w-rzs-okresy-i-iv.md"
-      hidden: false
-    - title: "I.2. Ćwiczenia w ZZSK"
-      subchapter: false
-      content_file: "chapters/02-i-2-cwiczenia-w-zzsk-tor-przeponowy-antykifotyczne.md"
-      hidden: false
-    - title: "I.3. Ćwiczenia po zawale serca"
-      subchapter: false
-      content_file: "chapters/03-i-3-cwiczenia-po-zawale-serca-schematy-wg-okresow.md"
-      hidden: false
-    - title: "I.4. Ćwiczenia w astmie i POChP"
-      subchapter: false
-      content_file: "chapters/04-i-4-cwiczenia-w-astmie-i-pochp-drenaz-ulozeniowy-c.md"
-      hidden: false
-    - title: "I.5. Ćwiczenia po udarze"
-      subchapter: false
-      content_file: "chapters/05-i-5-cwiczenia-po-udarze-metody-bobath-kabata-brunn.md"
-      hidden: false
-    - title: "I.6. Ćwiczenia Frenkela"
-      subchapter: false
-      content_file: "chapters/06-i-6-cwiczenia-frenkela-schemat.md"
-      hidden: false
-    - title: "I.7. Ćwiczenia Buergera i Ratschowa"
-      subchapter: false
-      content_file: "chapters/07-i-7-cwiczenia-buergera-i-ratschowa-schemat.md"
-      hidden: false
-    - title: "I.8. Ćwiczenia w wadach postawy"
-      subchapter: false
-      content_file: "chapters/08-i-8-cwiczenia-w-wadach-postawy-skoliozy-plecy-okra.md"
-      hidden: false
-    - title: "I.9. Ćwiczenia w wadach stóp"
-      subchapter: false
-      content_file: "chapters/09-i-9-cwiczenia-w-wadach-stop-plaskostopie-stopa-kon.md"
-      hidden: false
-    - title: "I.10. Trening medyczny w geriatrii"
-      subchapter: false
-      content_file: "chapters/10-i-10-trening-medyczny-w-geriatrii-profilaktyka-upa.md"
-      hidden: false
-    - title: "H.2. Ćwiczenia w ZZSK"
-      subchapter: false
-      content_file: "chapters/11-h-2-cwiczenia-w-zzsk-tor-przeponowy-antykifotyczne.md"
-      hidden: false
-    - title: "H.3. Ćwiczenia po zawale serca"
-      subchapter: false
-      content_file: "chapters/12-h-3-cwiczenia-po-zawale-serca-schematy-wg-okresow.md"
-      hidden: false
-    - title: "H.4. Ćwiczenia w astmie i POChP"
-      subchapter: false
-      content_file: "chapters/13-h-4-cwiczenia-w-astmie-i-pochp-drenaz-ulozeniowy-p.md"
-      hidden: false
-    - title: "H.11. Gimnastyka w rwie kulszowej"
-      subchapter: false
-      content_file: "chapters/14-h-11-gimnastyka-w-rwie-kulszowej-schemat.md"
-      hidden: false
-    - title: "H.12. Ćwiczenia po amputacjach"
-      subchapter: false
-      content_file: "chapters/15-h-12-cwiczenia-po-amputacjach-przygotowanie-do-pro.md"
-      hidden: false
+  - title: I.1. Ćwiczenia w RZS
+    subchapter: false
+    content_file: chapters/01-i-1-cwiczenia-w-rzs-okresy-i-iv.md
+    hidden: false
+  - title: I.2. Ćwiczenia w ZZSK
+    subchapter: false
+    content_file: chapters/02-i-2-cwiczenia-w-zzsk-tor-przeponowy-antykifotyczne.md
+    hidden: false
+  - title: I.3. Ćwiczenia po zawale serca
+    subchapter: false
+    content_file: chapters/03-i-3-cwiczenia-po-zawale-serca-schematy-wg-okresow.md
+    hidden: false
+  - title: I.4. Ćwiczenia w astmie i POChP
+    subchapter: false
+    content_file: chapters/04-i-4-cwiczenia-w-astmie-i-pochp-drenaz-ulozeniowy-c.md
+    hidden: false
+  - title: I.5. Ćwiczenia po udarze
+    subchapter: false
+    content_file: chapters/05-i-5-cwiczenia-po-udarze-metody-bobath-kabata-brunn.md
+    hidden: false
+  - title: I.6. Ćwiczenia Frenkela
+    subchapter: false
+    content_file: chapters/06-i-6-cwiczenia-frenkela-schemat.md
+    hidden: false
+  - title: I.7. Ćwiczenia Buergera i Ratschowa
+    subchapter: false
+    content_file: chapters/07-i-7-cwiczenia-buergera-i-ratschowa-schemat.md
+    hidden: false
+  - title: I.8. Ćwiczenia w wadach postawy
+    subchapter: false
+    content_file: chapters/08-i-8-cwiczenia-w-wadach-postawy-skoliozy-plecy-okra.md
+    hidden: false
+  - title: I.9. Ćwiczenia w wadach stóp
+    subchapter: false
+    content_file: chapters/09-i-9-cwiczenia-w-wadach-stop-plaskostopie-stopa-kon.md
+    hidden: false
+  - title: I.10. Trening medyczny w geriatrii
+    subchapter: false
+    content_file: chapters/10-i-10-trening-medyczny-w-geriatrii-profilaktyka-upa.md
+    hidden: false
+  - title: H.2. Ćwiczenia w ZZSK
+    subchapter: false
+    content_file: chapters/11-h-2-cwiczenia-w-zzsk-tor-przeponowy-antykifotyczne.md
+    hidden: false
+  - title: H.3. Ćwiczenia po zawale serca
+    subchapter: false
+    content_file: chapters/12-h-3-cwiczenia-po-zawale-serca-schematy-wg-okresow.md
+    hidden: false
+  - title: H.4. Ćwiczenia w astmie i POChP
+    subchapter: false
+    content_file: chapters/13-h-4-cwiczenia-w-astmie-i-pochp-drenaz-ulozeniowy-p.md
+    hidden: false
+  - title: H.11. Gimnastyka w rwie kulszowej
+    subchapter: false
+    content_file: chapters/14-h-11-gimnastyka-w-rwie-kulszowej-schemat.md
+    hidden: false
+  - title: H.12. Ćwiczenia po amputacjach
+    subchapter: false
+    content_file: chapters/15-h-12-cwiczenia-po-amputacjach-przygotowanie-do-pro.md
+    hidden: false
+  - title: Załącznik I – Schematy kinezyterapii i treningu medycznego
+    subchapter: false
+    content_file: chapters/16-01-zawartosc.md
+    hidden: false
   completion:
     enabled: true
     type: view

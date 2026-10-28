@@ -19,10 +19,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 5.1 | page | Higiena osobista i środowiskowa | 7 |
-| 5.2 | page | Profilaktyka pierwotna | 8 |
-| 5.3 | page | Profilaktyka wtórna i trzeciorzędowa | 4 |
-| 5.4 | page | Higiena i profilaktyka w praktyce naturopaty | 5 |
+| 5.1 | book | Higiena osobista i środowiskowa | 7 |
+| 5.2 | book | Profilaktyka pierwotna | 8 |
+| 5.3 | book | Profilaktyka wtórna i trzeciorzędowa | 4 |
+| 5.4 | book | Higiena i profilaktyka w praktyce naturopaty | 5 |
 
 ## Cele kształcenia
 
@@ -32,7 +32,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

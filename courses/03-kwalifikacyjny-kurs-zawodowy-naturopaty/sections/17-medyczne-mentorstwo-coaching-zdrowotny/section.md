@@ -19,12 +19,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 17.1 | page | Podstawy mentorstwa medycznego | 6 |
-| 17.2 | page | Coaching zdrowotny – metodyka | 8 |
-| 17.3 | page | Mentorstwo i coaching w praktyce naturopatycznej | 8 |
-| 17.4 | page | Psychologia zdrowia i komunikacja terapeutyczna | 11 |
-| 17.5 | page | Wypalenie zawodowe i higiena psychiczna naturopaty | 5 |
-| 17.6 | page | Mentoring zawodowy naturopatów | 5 |
+| 17.1 | book | Podstawy mentorstwa medycznego | 6 |
+| 17.2 | book | Coaching zdrowotny – metodyka | 8 |
+| 17.3 | book | Mentorstwo i coaching w praktyce naturopatycznej | 8 |
+| 17.4 | book | Psychologia zdrowia i komunikacja terapeutyczna | 11 |
+| 17.5 | book | Wypalenie zawodowe i higiena psychiczna naturopaty | 5 |
+| 17.6 | book | Mentoring zawodowy naturopatów | 5 |
 
 ## Cele kształcenia
 
@@ -34,7 +34,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

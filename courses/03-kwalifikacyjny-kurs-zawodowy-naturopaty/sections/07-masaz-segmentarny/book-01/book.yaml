@@ -1,25 +1,28 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 7: MASAŻ SEGMENTARNY"
-  intro: |
-    Masaż segmentarny (wg H. Kraushe i G. Heyera) leczy przez strefy odruchowe unerwienia segmentarnego — skórę, tkankę łączną i mięśnie odpowiedniego segmentu. Moduł uczy chwytów diagnostycznych i leczniczych oraz ich zastosowania w jednostkach chorobowych.
+  name: 'Podręcznik: Moduł 7: MASAŻ SEGMENTARNY'
+  intro: 'Masaż segmentarny (wg H. Kraushe i G. Heyera) leczy przez strefy odruchowe unerwienia segmentarnego
+    — skórę, tkankę łączną i mięśnie odpowiedniego segmentu. Moduł uczy chwytów diagnostycznych i leczniczych
+    oraz ich zastosowania w jednostkach chorobowych.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "7.1. Podstawy teoretyczne masażu segmentarnego"
-      subchapter: false
-      content_file: "chapters/01-7-1-podstawy-teoretyczne-masazu-segmentarnego.md"
-      hidden: false
-    - title: "7.2. Techniki masażu segmentarnego"
-      subchapter: false
-      content_file: "chapters/02-7-2-techniki-masazu-segmentarnego.md"
-      hidden: false
-    - title: "7.3. Masaż segmentarny w jednostkach chorobowych"
-      subchapter: false
-      content_file: "chapters/03-7-3-masaz-segmentarny-w-jednostkach-chorobowych.md"
-      hidden: false
+  - title: 7.1. Podstawy teoretyczne masażu segmentarnego
+    subchapter: false
+    content_file: chapters/01-7-1-podstawy-teoretyczne-masazu-segmentarnego.md
+    hidden: false
+  - title: 7.2. Techniki masażu segmentarnego
+    subchapter: false
+    content_file: chapters/02-7-2-techniki-masazu-segmentarnego.md
+    hidden: false
+  - title: 7.3. Masaż segmentarny w jednostkach chorobowych
+    subchapter: false
+    content_file: chapters/03-7-3-masaz-segmentarny-w-jednostkach-chorobowych.md
+    hidden: false
   completion:
     enabled: true
     type: view

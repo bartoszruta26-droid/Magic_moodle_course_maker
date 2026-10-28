@@ -1,21 +1,24 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 10: TERAPIA MANUALNA I MOBILIZACJE"
-  intro: |
-    Terapia manualna i mobilizacje rozszerzają warsztat rąk o techniki stawowe i tkanek miękkich. Moduł uczy podstaw bezpiecznego stosowania mobilizacji oraz masażu specjalistycznego (łącznotkankowy, punktowy, bańką, izometryczny i inne).
+  name: 'Podręcznik: Moduł 10: TERAPIA MANUALNA I MOBILIZACJE'
+  intro: 'Terapia manualna i mobilizacje rozszerzają warsztat rąk o techniki stawowe i tkanek miękkich.
+    Moduł uczy podstaw bezpiecznego stosowania mobilizacji oraz masażu specjalistycznego (łącznotkankowy,
+    punktowy, bańką, izometryczny i inne).
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "10.1. Podstawy terapii manualnej"
-      subchapter: false
-      content_file: "chapters/01-10-1-podstawy-terapii-manualnej.md"
-      hidden: false
-    - title: "10.2. Masaż specjalistyczny i techniki uzupełniające"
-      subchapter: false
-      content_file: "chapters/02-10-2-masaz-specjalistyczny-i-techniki-uzupelniajac.md"
-      hidden: false
+  - title: 10.1. Podstawy terapii manualnej
+    subchapter: false
+    content_file: chapters/01-10-1-podstawy-terapii-manualnej.md
+    hidden: false
+  - title: 10.2. Masaż specjalistyczny i techniki uzupełniające
+    subchapter: false
+    content_file: chapters/02-10-2-masaz-specjalistyczny-i-techniki-uzupelniajac.md
+    hidden: false
   completion:
     enabled: true
     type: view

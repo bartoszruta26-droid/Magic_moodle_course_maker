@@ -1,29 +1,35 @@
-# Aktywność typu book — księga powitalna kursu
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Księga powitalna — Dobrze, że jesteś"
-  intro: |
-    Kilka słów na dobry początek drogi ku zawodowi naturopaty certyfikowanego. Przeczytaj przed pierwszym zjazdem i wracaj do tych stron, gdy zabraknie ci motywacji.
+  name: Księga powitalna — Dobrze, że jesteś
+  intro: 'Kilka słów na dobry początek drogi ku zawodowi naturopaty certyfikowanego. Przeczytaj przed
+    pierwszym zjazdem i wracaj do tych stron, gdy zabraknie ci motywacji.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "Słowo wstępne Dyrektora Kursu"
-      subchapter: false
-      content_file: "chapters/01-slowo-wstepne-dyrektora-kursu.md"
-      hidden: false
-    - title: "Misja naturopaty"
-      subchapter: false
-      content_file: "chapters/02-misja-naturopaty.md"
-      hidden: false
-    - title: "Jak korzystać z kursu"
-      subchapter: false
-      content_file: "chapters/03-jak-korzystac-z-kursu.md"
-      hidden: false
-    - title: "Zasady bezpieczeństwa"
-      subchapter: false
-      content_file: "chapters/04-zasady-bezpieczenstwa.md"
-      hidden: false
+  - title: Słowo wstępne Dyrektora Kursu
+    subchapter: false
+    content_file: chapters/01-slowo-wstepne-dyrektora-kursu.md
+    hidden: false
+  - title: Misja naturopaty
+    subchapter: false
+    content_file: chapters/02-misja-naturopaty.md
+    hidden: false
+  - title: Jak korzystać z kursu
+    subchapter: false
+    content_file: chapters/03-jak-korzystac-z-kursu.md
+    hidden: false
+  - title: Zasady bezpieczeństwa
+    subchapter: false
+    content_file: chapters/04-zasady-bezpieczenstwa.md
+    hidden: false
+  - title: Regulamin i harmonogram kursu
+    subchapter: false
+    content_file: chapters/05-strona-sekcji.md
+    hidden: false
   completion:
     enabled: true
     type: view

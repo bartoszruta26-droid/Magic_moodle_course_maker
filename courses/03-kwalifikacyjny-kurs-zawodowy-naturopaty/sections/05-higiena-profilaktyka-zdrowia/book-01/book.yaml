@@ -1,29 +1,32 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 5: HIGIENA I PROFILAKTYKA ZDROWIA"
-  intro: |
-    Higiena i profilaktyka to najtańsza i najtrwalsza medycyna. Moduł porządkuje wiedzę o higienie osobistej i środowiskowej oraz trzech poziomach profilaktyki, kształtując postawę służby zdrowiu wspólnoty i rodziny.
+  name: 'Podręcznik: Moduł 5: HIGIENA I PROFILAKTYKA ZDROWIA'
+  intro: 'Higiena i profilaktyka to najtańsza i najtrwalsza medycyna. Moduł porządkuje wiedzę o higienie
+    osobistej i środowiskowej oraz trzech poziomach profilaktyki, kształtując postawę służby zdrowiu wspólnoty
+    i rodziny.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "5.1. Higiena osobista i środowiskowa"
-      subchapter: false
-      content_file: "chapters/01-5-1-higiena-osobista-i-srodowiskowa.md"
-      hidden: false
-    - title: "5.2. Profilaktyka pierwotna"
-      subchapter: false
-      content_file: "chapters/02-5-2-profilaktyka-pierwotna.md"
-      hidden: false
-    - title: "5.3. Profilaktyka wtórna i trzeciorzędowa"
-      subchapter: false
-      content_file: "chapters/03-5-3-profilaktyka-wtorna-i-trzeciorzedowa.md"
-      hidden: false
-    - title: "5.4. Higiena i profilaktyka w praktyce naturopaty"
-      subchapter: false
-      content_file: "chapters/04-5-4-higiena-i-profilaktyka-w-praktyce-naturopaty.md"
-      hidden: false
+  - title: 5.1. Higiena osobista i środowiskowa
+    subchapter: false
+    content_file: chapters/01-5-1-higiena-osobista-i-srodowiskowa.md
+    hidden: false
+  - title: 5.2. Profilaktyka pierwotna
+    subchapter: false
+    content_file: chapters/02-5-2-profilaktyka-pierwotna.md
+    hidden: false
+  - title: 5.3. Profilaktyka wtórna i trzeciorzędowa
+    subchapter: false
+    content_file: chapters/03-5-3-profilaktyka-wtorna-i-trzeciorzedowa.md
+    hidden: false
+  - title: 5.4. Higiena i profilaktyka w praktyce naturopaty
+    subchapter: false
+    content_file: chapters/04-5-4-higiena-i-profilaktyka-w-praktyce-naturopaty.md
+    hidden: false
   completion:
     enabled: true
     type: view

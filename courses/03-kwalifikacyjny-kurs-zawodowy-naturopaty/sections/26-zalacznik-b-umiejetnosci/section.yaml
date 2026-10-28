@@ -1,15 +1,13 @@
 # Metadane sekcji
 id: 26
-name: "Załącznik B: Wykaz umiejętności praktycznych do opanowania (checklist)"
+name: 'Załącznik B: Wykaz umiejętności praktycznych do opanowania (checklist)'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-zawartosc.md"
-  - type: choice
-    ref: checklist-01
-  - type: book
-    ref: "book-01"
-    name: "Załącznik B — Umiejętności praktyczne — księga"
+- type: choice
+  ref: checklist-01
+- type: book
+  ref: book-01
+  name: Załącznik B — Umiejętności praktyczne — księga

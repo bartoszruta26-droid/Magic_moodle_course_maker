@@ -1,30 +1,15 @@
 # Metadane sekcji
 id: 3
-name: "Moduł 3: MEDYCZNA DIAGNOSTYKA KONWENCJONALNA"
+name: 'Moduł 3: MEDYCZNA DIAGNOSTYKA KONWENCJONALNA'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-3-1-badanie-podmiotowe-wywiad.md"
-    name: "3.1. Badanie podmiotowe (wywiad)"
-  - type: page
-    ref: "page-3-2-badanie-przedmiotowe.md"
-    name: "3.2. Badanie przedmiotowe"
-  - type: page
-    ref: "page-3-3-diagnostyka-laboratoryjna-interpretacja-wynikow.md"
-    name: "3.3. Diagnostyka laboratoryjna – interpretacja wyników"
-  - type: page
-    ref: "page-3-4-diagnostyka-obrazowa-interpretacja-opisow.md"
-    name: "3.4. Diagnostyka obrazowa – interpretacja opisów"
-  - type: page
-    ref: "page-3-5-diagnostyka-funkcjonalna-i-roznicowa.md"
-    name: "3.5. Diagnostyka funkcjonalna i różnicowa"
-  - type: book
-    ref: "book-01"
-    name: "Podręcznik modułu 3"
-  - type: quiz
-    ref: quiz-01
-  - type: assignment
-    ref: assignment-01
+- type: book
+  ref: book-01
+  name: Podręcznik modułu 3
+- type: quiz
+  ref: quiz-01
+- type: assignment
+  ref: assignment-01

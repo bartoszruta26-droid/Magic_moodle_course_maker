@@ -1,65 +1,71 @@
-# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Załącznik C — Wzory dokumentacji — księga" 
-  intro: |
-    Dokumentacja jest pamięcią troski: chroni pacjenta, terapeutę i prawdę przebiegu terapii. Wzoruj się na zasadzie: zapisuj co było, nie dopisuj czego nie było.
+  name: Załącznik C — Wzory dokumentacji — księga
+  intro: 'Dokumentacja jest pamięcią troski: chroni pacjenta, terapeutę i prawdę przebiegu terapii. Wzoruj
+    się na zasadzie: zapisuj co było, nie dopisuj czego nie było.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "C.1. Karta pacjenta"
-      subchapter: false
-      content_file: "chapters/01-c-1-karta-pacjenta-wywiad-naturopatyczny-informacj.md"
-      hidden: false
-    - title: "C.2. Karta zabiegowa"
-      subchapter: false
-      content_file: "chapters/02-c-2-karta-zabiegowa-masaz-trening-zabieg-fizykalny.md"
-      hidden: false
-    - title: "C.3. Plan terapii integracyjnej"
-      subchapter: false
-      content_file: "chapters/03-c-3-plan-terapii-integracyjnej-wzor-cele-metody-cz.md"
-      hidden: false
-    - title: "C.4. Karta konsultacji fitoterapeutycznej"
-      subchapter: false
-      content_file: "chapters/04-c-4-karta-konsultacji-fitoterapeutycznej.md"
-      hidden: false
-    - title: "C.5. Karta konsultacji dietetycznej"
-      subchapter: false
-      content_file: "chapters/05-c-5-karta-konsultacji-dietetycznej.md"
-      hidden: false
-    - title: "C.6. Karta treningu medycznego"
-      subchapter: false
-      content_file: "chapters/06-c-6-karta-treningu-medycznego-plan-progresja-monit.md"
-      hidden: false
-    - title: "C.7. Karta coachingu zdrowotnego"
-      subchapter: false
-      content_file: "chapters/07-c-7-karta-coachingu-zdrowotnego-cele-sesje-postepy.md"
-      hidden: false
-    - title: "C.8. Formularz świadomej zgody na zabieg"
-      subchapter: false
-      content_file: "chapters/08-c-8-formularz-swiadomej-zgody-na-zabieg.md"
-      hidden: false
-    - title: "C.9. Skierowanie do lekarza"
-      subchapter: false
-      content_file: "chapters/09-c-9-skierowanie-do-lekarza-wzor.md"
-      hidden: false
-    - title: "C.10. Karta obserwacji pacjenta"
-      subchapter: false
-      content_file: "chapters/10-c-10-karta-obserwacji-pacjenta-wizyty-kontrolne.md"
-      hidden: false
-    - title: "C.11. Karta drenażu limfatycznego"
-      subchapter: false
-      content_file: "chapters/11-c-11-karta-drenazu-limfatycznego-obszar-technika-r.md"
-      hidden: false
-    - title: "C.12. Karta zabiegów felczerskich"
-      subchapter: false
-      content_file: "chapters/12-c-12-karta-zabiegow-felczerskich-iniekcje-opatrunk.md"
-      hidden: false
-    - title: "C.13. Karta szczepień"
-      subchapter: false
-      content_file: "chapters/13-c-13-karta-szczepien-data-rodzaj-seria-reakcja.md"
-      hidden: false
+  - title: C.1. Karta pacjenta
+    subchapter: false
+    content_file: chapters/01-c-1-karta-pacjenta-wywiad-naturopatyczny-informacj.md
+    hidden: false
+  - title: C.2. Karta zabiegowa
+    subchapter: false
+    content_file: chapters/02-c-2-karta-zabiegowa-masaz-trening-zabieg-fizykalny.md
+    hidden: false
+  - title: C.3. Plan terapii integracyjnej
+    subchapter: false
+    content_file: chapters/03-c-3-plan-terapii-integracyjnej-wzor-cele-metody-cz.md
+    hidden: false
+  - title: C.4. Karta konsultacji fitoterapeutycznej
+    subchapter: false
+    content_file: chapters/04-c-4-karta-konsultacji-fitoterapeutycznej.md
+    hidden: false
+  - title: C.5. Karta konsultacji dietetycznej
+    subchapter: false
+    content_file: chapters/05-c-5-karta-konsultacji-dietetycznej.md
+    hidden: false
+  - title: C.6. Karta treningu medycznego
+    subchapter: false
+    content_file: chapters/06-c-6-karta-treningu-medycznego-plan-progresja-monit.md
+    hidden: false
+  - title: C.7. Karta coachingu zdrowotnego
+    subchapter: false
+    content_file: chapters/07-c-7-karta-coachingu-zdrowotnego-cele-sesje-postepy.md
+    hidden: false
+  - title: C.8. Formularz świadomej zgody na zabieg
+    subchapter: false
+    content_file: chapters/08-c-8-formularz-swiadomej-zgody-na-zabieg.md
+    hidden: false
+  - title: C.9. Skierowanie do lekarza
+    subchapter: false
+    content_file: chapters/09-c-9-skierowanie-do-lekarza-wzor.md
+    hidden: false
+  - title: C.10. Karta obserwacji pacjenta
+    subchapter: false
+    content_file: chapters/10-c-10-karta-obserwacji-pacjenta-wizyty-kontrolne.md
+    hidden: false
+  - title: C.11. Karta drenażu limfatycznego
+    subchapter: false
+    content_file: chapters/11-c-11-karta-drenazu-limfatycznego-obszar-technika-r.md
+    hidden: false
+  - title: C.12. Karta zabiegów felczerskich
+    subchapter: false
+    content_file: chapters/12-c-12-karta-zabiegow-felczerskich-iniekcje-opatrunk.md
+    hidden: false
+  - title: C.13. Karta szczepień
+    subchapter: false
+    content_file: chapters/13-c-13-karta-szczepien-data-rodzaj-seria-reakcja.md
+    hidden: false
+  - title: Załącznik C – Wzory dokumentacji
+    subchapter: false
+    content_file: chapters/14-01-zawartosc.md
+    hidden: false
   completion:
     enabled: true
     type: view

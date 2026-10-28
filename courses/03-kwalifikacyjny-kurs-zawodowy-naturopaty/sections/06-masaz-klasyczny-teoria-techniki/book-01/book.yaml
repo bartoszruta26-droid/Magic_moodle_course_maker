@@ -1,29 +1,32 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 6: MASAŻ KLASYCZNY – TEORIA I TECHNIKI"
-  intro: |
-    Masaż klasyczny jest podstawowym narzędziem pracy rąk. Moduł prowadzi przez historię i zasady metodyki, pięć głównych technik (głaskanie, rozcieranie, ugniatanie, oklepywanie, wibracja) oraz kolejność opracowania poszczególnych okolic ciała, ze wskazaniami i przeciwwskazaniami.
+  name: 'Podręcznik: Moduł 6: MASAŻ KLASYCZNY – TEORIA I TECHNIKI'
+  intro: 'Masaż klasyczny jest podstawowym narzędziem pracy rąk. Moduł prowadzi przez historię i zasady
+    metodyki, pięć głównych technik (głaskanie, rozcieranie, ugniatanie, oklepywanie, wibracja) oraz kolejność
+    opracowania poszczególnych okolic ciała, ze wskazaniami i przeciwwskazaniami.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "6.1. Podstawy teoretyczne masażu klasycznego"
-      subchapter: false
-      content_file: "chapters/01-6-1-podstawy-teoretyczne-masazu-klasycznego.md"
-      hidden: false
-    - title: "6.2. Techniki masażu klasycznego"
-      subchapter: false
-      content_file: "chapters/02-6-2-techniki-masazu-klasycznego.md"
-      hidden: false
-    - title: "6.3. Masaż klasyczny poszczególnych okolic ciała"
-      subchapter: false
-      content_file: "chapters/03-6-3-masaz-klasyczny-poszczegolnych-okolic-ciala.md"
-      hidden: false
-    - title: "6.4. Wskazania i przeciwwskazania do masażu"
-      subchapter: false
-      content_file: "chapters/04-6-4-wskazania-i-przeciwwskazania-do-masazu.md"
-      hidden: false
+  - title: 6.1. Podstawy teoretyczne masażu klasycznego
+    subchapter: false
+    content_file: chapters/01-6-1-podstawy-teoretyczne-masazu-klasycznego.md
+    hidden: false
+  - title: 6.2. Techniki masażu klasycznego
+    subchapter: false
+    content_file: chapters/02-6-2-techniki-masazu-klasycznego.md
+    hidden: false
+  - title: 6.3. Masaż klasyczny poszczególnych okolic ciała
+    subchapter: false
+    content_file: chapters/03-6-3-masaz-klasyczny-poszczegolnych-okolic-ciala.md
+    hidden: false
+  - title: 6.4. Wskazania i przeciwwskazania do masażu
+    subchapter: false
+    content_file: chapters/04-6-4-wskazania-i-przeciwwskazania-do-masazu.md
+    hidden: false
   completion:
     enabled: true
     type: view

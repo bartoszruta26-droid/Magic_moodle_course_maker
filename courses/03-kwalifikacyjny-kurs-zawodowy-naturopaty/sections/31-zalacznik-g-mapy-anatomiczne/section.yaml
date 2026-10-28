@@ -1,13 +1,11 @@
 # Metadane sekcji
 id: 31
-name: "Załącznik G: Mapy i schematy anatomiczne"
+name: 'Załącznik G: Mapy i schematy anatomiczne'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-zawartosc.md"
-  - type: book
-    ref: "book-01"
-    name: "Załącznik G — Mapy anatomiczne — księga"
+- type: book
+  ref: book-01
+  name: Załącznik G — Mapy anatomiczne — księga

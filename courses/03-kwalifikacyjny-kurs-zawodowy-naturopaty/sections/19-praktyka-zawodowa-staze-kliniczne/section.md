@@ -19,12 +19,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 19.1 | page | Praktyka gabinetowa – masaż i terapie manualne | 8 |
-| 19.2 | page | Praktyka – kinezyterapia i trening medyczny | 8 |
-| 19.3 | page | Praktyka – fitoterapia, dietetyka i pielęgnacja | 6 |
-| 19.4 | page | Praktyka – diagnostyka i konsultacja integracyjna | 8 |
-| 19.5 | page | Praktyka – mentorstwo i coaching zdrowotny | 5 |
-| 19.6 | page | Staż obserwacyjny | 5 |
+| 19.1 | book | Praktyka gabinetowa – masaż i terapie manualne | 8 |
+| 19.2 | book | Praktyka – kinezyterapia i trening medyczny | 8 |
+| 19.3 | book | Praktyka – fitoterapia, dietetyka i pielęgnacja | 6 |
+| 19.4 | book | Praktyka – diagnostyka i konsultacja integracyjna | 8 |
+| 19.5 | book | Praktyka – mentorstwo i coaching zdrowotny | 5 |
+| 19.6 | book | Staż obserwacyjny | 5 |
 
 ## Cele kształcenia
 
@@ -34,7 +34,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

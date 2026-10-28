@@ -1,21 +1,23 @@
-# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
 book:
-  name: "Podręcznik: Moduł 23: PRAWO I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ"
-  intro: |
-    Moduł porządkujący wiedzę prawną i organizacyjną praktyki naturopatycznej: formy działalności, umowy, RODO, reklama usług zdrowotnych, ubezpieczenie OC i odpowiedzialność zawodowa.
+  name: 'Podręcznik: Moduł 23: PRAWO I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ'
+  intro: 'Moduł porządkujący wiedzę prawną i organizacyjną praktyki naturopatycznej: formy działalności,
+    umowy, RODO, reklama usług zdrowotnych, ubezpieczenie OC i odpowiedzialność zawodowa.
+
+    '
   intro_format: markdown
   numbering: 1
   customtitles: 0
   revision: 1
   chapters:
-    - title: "23.1. Podstawy prawne"
-      subchapter: false
-      content_file: "chapters/01-23-1-podstawy-prawne.md"
-      hidden: false
-    - title: "23.2. Organizacja i prowadzenie praktyki"
-      subchapter: false
-      content_file: "chapters/02-23-2-organizacja-i-prowadzenie-praktyki.md"
-      hidden: false
+  - title: 23.1. Podstawy prawne
+    subchapter: false
+    content_file: chapters/01-23-1-podstawy-prawne.md
+    hidden: false
+  - title: 23.2. Organizacja i prowadzenie praktyki
+    subchapter: false
+    content_file: chapters/02-23-2-organizacja-i-prowadzenie-praktyki.md
+    hidden: false
   completion:
     enabled: true
     type: view

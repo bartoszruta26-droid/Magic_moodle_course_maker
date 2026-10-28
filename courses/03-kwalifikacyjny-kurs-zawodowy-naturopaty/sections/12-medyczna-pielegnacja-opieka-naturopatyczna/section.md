@@ -19,10 +19,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 12.1 | page | Podstawy pielęgnacji medycznej | 8 |
-| 12.2 | page | Zabiegi pielęgnacyjne i lecznicze | 7 |
-| 12.3 | page | Opieka naturopatyczna w wybranych stanach | 6 |
-| 12.4 | page | Pierwsza pomoc i stany nagłe | 7 |
+| 12.1 | book | Podstawy pielęgnacji medycznej | 8 |
+| 12.2 | book | Zabiegi pielęgnacyjne i lecznicze | 7 |
+| 12.3 | book | Opieka naturopatyczna w wybranych stanach | 6 |
+| 12.4 | book | Pierwsza pomoc i stany nagłe | 7 |
 
 ## Cele kształcenia
 
@@ -32,7 +32,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 
