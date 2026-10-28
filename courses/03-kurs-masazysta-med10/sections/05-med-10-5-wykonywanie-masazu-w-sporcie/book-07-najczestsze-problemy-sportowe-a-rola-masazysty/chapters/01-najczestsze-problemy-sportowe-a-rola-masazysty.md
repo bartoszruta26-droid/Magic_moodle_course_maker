@@ -128,3 +128,9 @@ Temat 5.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 5.7.2. Przeciążenia ścięgien.
 3. Omów zagadnienie: 5.7.3. Zespoły cieśni.
 4. Omów zagadnienie: 5.7.4. Kolano biegacza.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

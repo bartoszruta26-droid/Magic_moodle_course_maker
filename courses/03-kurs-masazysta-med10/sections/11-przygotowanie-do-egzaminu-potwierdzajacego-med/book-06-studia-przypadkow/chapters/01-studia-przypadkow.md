@@ -128,3 +128,9 @@ Temat 11.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.6.2. Pacjent po udarze.
 3. Omów zagadnienie: 11.6.3. Pacjent z obrzękiem limfatycznym po mastektomii.
 4. Omów zagadnienie: 11.6.4. Pacjent sportowiec po treningu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

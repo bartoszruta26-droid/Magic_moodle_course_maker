@@ -128,3 +128,9 @@ Temat 4.15 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.15.2. Mapy stóp.
 3. Omów zagadnienie: 4.15.3. Techniki kciuka i palców.
 4. Omów zagadnienie: 4.15.4. Delikatność i ból.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

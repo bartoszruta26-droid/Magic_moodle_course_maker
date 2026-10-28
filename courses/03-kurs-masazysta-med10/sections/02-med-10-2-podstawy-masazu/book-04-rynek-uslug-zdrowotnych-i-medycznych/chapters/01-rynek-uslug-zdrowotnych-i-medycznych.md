@@ -128,3 +128,9 @@ Temat 2.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.4.2. Prawa konsumenta i pacjenta.
 3. Omów zagadnienie: 2.4.3. Reklama usług zdrowotnych — granice prawne.
 4. Omów zagadnienie: 2.4.4. Zakaz wprowadzania w błąd.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -178,3 +178,9 @@ Temat 4.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.9.2. Określenie obszaru drenowania.
 3. Omów zagadnienie: 4.9.3. Kierunek odpływu chłonki.
 4. Omów zagadnienie: 4.9.4. Przygotowanie węzłów proksymalnych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -128,3 +128,9 @@ Temat 9.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 9.5.2. Poprawa ergonomii stanowiska.
 3. Omów zagadnienie: 9.5.3. Optymalizacja przepływu pacjentów.
 4. Omów zagadnienie: 9.5.4. Bezpieczne przechowywanie środków.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

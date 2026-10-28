@@ -128,3 +128,9 @@ Temat 2.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata.
 3. Omów zagadnienie: 2.9.3. Tkanka podskórna.
 4. Omów zagadnienie: 2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

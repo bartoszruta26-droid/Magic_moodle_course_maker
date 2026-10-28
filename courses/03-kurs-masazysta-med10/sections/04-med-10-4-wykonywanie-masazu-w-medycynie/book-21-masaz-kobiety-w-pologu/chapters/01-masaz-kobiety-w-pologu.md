@@ -128,3 +128,9 @@ Temat 4.21 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.21.2. Obrzęk, ból krocza, hematoma — ostrożność.
 3. Omów zagadnienie: 4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza.
 4. Omów zagadnienie: 4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

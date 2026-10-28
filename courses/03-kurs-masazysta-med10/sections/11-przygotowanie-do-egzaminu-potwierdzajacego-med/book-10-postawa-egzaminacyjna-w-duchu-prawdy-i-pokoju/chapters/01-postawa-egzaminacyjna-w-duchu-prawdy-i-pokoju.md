@@ -128,3 +128,9 @@ Temat 11.10 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtar
 2. Omów zagadnienie: 11.10.2. Brak oszukiwania.
 3. Omów zagadnienie: 11.10.3. Spokój i oddech.
 4. Omów zagadnienie: 11.10.4. Szacunek dla egzaminatora.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

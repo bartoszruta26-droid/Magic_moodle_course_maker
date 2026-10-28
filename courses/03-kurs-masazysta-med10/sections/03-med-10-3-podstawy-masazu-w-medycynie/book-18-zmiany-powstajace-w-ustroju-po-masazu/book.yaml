@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zmiany-powstajace-w-ustroju-po-masazu.md"
       hidden: false
+
+    - title: "3.18.1. Przekrwienie miejscowe"
+      subchapter: true
+      content_file: "chapters/02-przekrwienie-miejscowe.md"
+      hidden: false
+    - title: "3.18.2. Zmniejszenie napięcia mięśniowego"
+      subchapter: true
+      content_file: "chapters/03-zmniejszenie-napiecia-miesniowego.md"
+      hidden: false
+    - title: "3.18.3. Zwiększenie zakresu ruchu"
+      subchapter: true
+      content_file: "chapters/04-zwiekszenie-zakresu-ruchu.md"
+      hidden: false
+    - title: "3.18.4. Redukcja obrzęku"
+      subchapter: true
+      content_file: "chapters/05-redukcja-obrzeku.md"
+      hidden: false
+    - title: "3.18.5. Zmiana odczuwania bólu"
+      subchapter: true
+      content_file: "chapters/06-zmiana-odczuwania-bolu.md"
+      hidden: false
+    - title: "3.18.6. Poprawa propriocepcji"
+      subchapter: true
+      content_file: "chapters/07-poprawa-propriocepcji.md"
+      hidden: false
+    - title: "3.18.7. Wpływ na sen i samopoczucie"
+      subchapter: true
+      content_file: "chapters/08-wplyw-na-sen-i-samopoczucie.md"
+      hidden: false
+    - title: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"
+      subchapter: true
+      content_file: "chapters/09-reakcje-niepozadane-siniaki-bol-oslabienie.md"
+      hidden: false
+    - title: "3.18.9. Kiedy reakcja jest alarmowa"
+      subchapter: true
+      content_file: "chapters/10-kiedy-reakcja-jest-alarmowa.md"
+      hidden: false
+    - title: "3.18.10. Dokumentacja i planowanie kolejnych zabiegów"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-i-planowanie-kolejnych-zabiegow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

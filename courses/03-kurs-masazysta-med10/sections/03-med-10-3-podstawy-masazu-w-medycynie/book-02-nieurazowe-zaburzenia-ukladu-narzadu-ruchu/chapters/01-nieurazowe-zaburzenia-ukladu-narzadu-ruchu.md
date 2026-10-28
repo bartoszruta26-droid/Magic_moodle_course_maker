@@ -128,3 +128,9 @@ Temat 3.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.2.2. Dyskopatia i zespoły bólowe kręgosłupa.
 3. Omów zagadnienie: 3.2.3. Zesztywniające zapalenie stawów kręgosłupa.
 4. Omów zagadnienie: 3.2.4. Reumatoidalne zapalenie stawów.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

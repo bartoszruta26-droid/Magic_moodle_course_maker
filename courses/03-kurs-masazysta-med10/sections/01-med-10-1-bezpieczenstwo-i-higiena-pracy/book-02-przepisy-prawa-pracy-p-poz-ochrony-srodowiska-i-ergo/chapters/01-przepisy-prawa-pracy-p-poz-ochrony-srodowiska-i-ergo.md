@@ -128,3 +128,9 @@ Temat 1.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.2.2. Przepisy dotyczące oceny ryzyka zawodowego.
 3. Omów zagadnienie: 1.2.3. Przepisy dotyczące badań lekarskich pracowników.
 4. Omów zagadnienie: 1.2.4. Przepisy dotyczące szkolenia BHP.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

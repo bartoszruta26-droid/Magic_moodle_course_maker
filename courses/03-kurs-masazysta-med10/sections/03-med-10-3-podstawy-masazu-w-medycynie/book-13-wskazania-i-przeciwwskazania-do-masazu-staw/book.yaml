@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-masazu-staw.md"
       hidden: false
+
+    - title: "3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne"
+      subchapter: true
+      content_file: "chapters/02-masaz-tensegracyjny-powiez-napiecia-linie-anatomiczn.md"
+      hidden: false
+    - title: "3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu"
+      subchapter: true
+      content_file: "chapters/03-masaz-izometryczny-wzmacnianie-bez-ruchu-stawu.md"
+      hidden: false
+    - title: "3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności"
+      subchapter: true
+      content_file: "chapters/04-masaz-stawowy-mobilizacja-w-granicach-bolu-i-stabiln.md"
+      hidden: false
+    - title: "3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu"
+      subchapter: true
+      content_file: "chapters/05-wskazania-oslabienie-niestabilnosc-ograniczenie-ruch.md"
+      hidden: false
+    - title: "3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana"
+      subchapter: true
+      content_file: "chapters/06-przeciwwskazania-niestabilnosc-stawowa-ostry-stan-za.md"
+      hidden: false
+    - title: "3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej"
+      subchapter: true
+      content_file: "chapters/07-ryzyko-uszkodzenia-wiezadel-i-torebki-stawowej.md"
+      hidden: false
+    - title: "3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu"
+      subchapter: true
+      content_file: "chapters/08-zasada-nie-przekraczac-fizjologicznego-zakresu-ruchu.md"
+      hidden: false
+    - title: "3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem"
+      subchapter: true
+      content_file: "chapters/09-koniecznosc-konsultacji-z-fizjoterapeuta-lub-lekarze.md"
+      hidden: false
+    - title: "3.13.9. Dokumentacja zakresu ruchu i bólu"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja-zakresu-ruchu-i-bolu.md"
+      hidden: false
+    - title: "3.13.10. Bezpieczeństwo pacjenta przed efektywnością"
+      subchapter: true
+      content_file: "chapters/11-bezpieczenstwo-pacjenta-przed-efektywnoscia.md"
+      hidden: false
   completion:
     enabled: true
     type: view

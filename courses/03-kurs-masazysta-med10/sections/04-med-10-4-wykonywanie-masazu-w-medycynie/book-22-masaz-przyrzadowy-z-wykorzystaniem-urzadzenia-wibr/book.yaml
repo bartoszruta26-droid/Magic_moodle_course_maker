@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-przyrzadowy-z-wykorzystaniem-urzadzenia-wibr.md"
       hidden: false
+
+    - title: "4.22.1. Budowa i zasada działania urządzenia"
+      subchapter: true
+      content_file: "chapters/02-budowa-i-zasada-dzialania-urzadzenia.md"
+      hidden: false
+    - title: "4.22.2. Przygotowanie stanowiska"
+      subchapter: true
+      content_file: "chapters/03-przygotowanie-stanowiska.md"
+      hidden: false
+    - title: "4.22.3. Dobór głowic"
+      subchapter: true
+      content_file: "chapters/04-dobor-glowic.md"
+      hidden: false
+    - title: "4.22.4. Kierunek i tempo"
+      subchapter: true
+      content_file: "chapters/05-kierunek-i-tempo.md"
+      hidden: false
+    - title: "4.22.5. Siła docisku"
+      subchapter: true
+      content_file: "chapters/06-sila-docisku.md"
+      hidden: false
+    - title: "4.22.6. Czas na jednej okolicy"
+      subchapter: true
+      content_file: "chapters/07-czas-na-jednej-okolicy.md"
+      hidden: false
+    - title: "4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne"
+      subchapter: true
+      content_file: "chapters/08-przeciwwskazania-osteoporoza-rozrusznik-ciaza-zmiany.md"
+      hidden: false
+    - title: "4.22.8. Bezpieczeństwo pacjenta i masażysty"
+      subchapter: true
+      content_file: "chapters/09-bezpieczenstwo-pacjenta-i-masazysty.md"
+      hidden: false
+    - title: "4.22.9. Konserwacja i dezynfekcja urządzenia"
+      subchapter: true
+      content_file: "chapters/10-konserwacja-i-dezynfekcja-urzadzenia.md"
+      hidden: false
+    - title: "4.22.10. Dokumentacja parametrów"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-parametrow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

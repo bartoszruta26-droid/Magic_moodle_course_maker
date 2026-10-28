@@ -128,3 +128,9 @@ Temat 10.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 10.5.2. Studia przypadków anonimowe.
 3. Omów zagadnienie: 10.5.3. Check-listy umiejętności.
 4. Omów zagadnienie: 10.5.4. Refleksje etyczne.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -138,3 +138,9 @@ Temat 2.14 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: Wyczuwanie wyrostkow kolczystych i poprzecznych.
 3. Omów zagadnienie: Wyczuwanie katow lopatek, grzbietu lopatki, barku.
 4. Omów zagadnienie: Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

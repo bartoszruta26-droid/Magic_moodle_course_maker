@@ -128,3 +128,9 @@ Temat 7.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 7.6.2. Understanding doctor’s referral.
 3. Omów zagadnienie: 7.6.3. Understanding safety instructions.
 4. Omów zagadnienie: 7.6.4. Reading product labels.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

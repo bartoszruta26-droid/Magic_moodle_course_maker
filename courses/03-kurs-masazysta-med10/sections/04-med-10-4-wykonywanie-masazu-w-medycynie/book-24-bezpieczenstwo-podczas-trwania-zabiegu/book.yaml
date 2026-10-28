@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-bezpieczenstwo-podczas-trwania-zabiegu.md"
       hidden: false
+
+    - title: "4.24.1. Ciągła obserwacja oddechu, koloru skóry, potliwości"
+      subchapter: true
+      content_file: "chapters/02-ciagla-obserwacja-oddechu-koloru-skory-potliwosci.md"
+      hidden: false
+    - title: "4.24.2. Pytanie o ból w skali 0–10"
+      subchapter: true
+      content_file: "chapters/03-pytanie-o-bol-w-skali-0-10.md"
+      hidden: false
+    - title: "4.24.3. Szanowanie słowa „stop”"
+      subchapter: true
+      content_file: "chapters/04-szanowanie-slowa-stop.md"
+      hidden: false
+    - title: "4.24.4. Unikanie nagłych ruchów"
+      subchapter: true
+      content_file: "chapters/05-unikanie-naglych-ruchow.md"
+      hidden: false
+    - title: "4.24.5. Ochrona intymności"
+      subchapter: true
+      content_file: "chapters/06-ochrona-intymnosci.md"
+      hidden: false
+    - title: "4.24.6. Ochrona przed zimnem"
+      subchapter: true
+      content_file: "chapters/07-ochrona-przed-zimnem.md"
+      hidden: false
+    - title: "4.24.7. Ochrona przed upadkiem"
+      subchapter: true
+      content_file: "chapters/08-ochrona-przed-upadkiem.md"
+      hidden: false
+    - title: "4.24.8. Postępowanie przy omdleniu"
+      subchapter: true
+      content_file: "chapters/09-postepowanie-przy-omdleniu.md"
+      hidden: false
+    - title: "4.24.9. Postępowanie przy napadzie lęku"
+      subchapter: true
+      content_file: "chapters/10-postepowanie-przy-napadzie-leku.md"
+      hidden: false
+    - title: "4.24.10. Dokumentacja zdarzeń"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-zdarzen.md"
+      hidden: false
   completion:
     enabled: true
     type: view

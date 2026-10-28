@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ocena-praktyki.md"
       hidden: false
+
+    - title: "10.4.1. Dziennik praktyk"
+      subchapter: true
+      content_file: "chapters/02-dziennik-praktyk.md"
+      hidden: false
+    - title: "10.4.2. Karta oceny opiekuna praktyk"
+      subchapter: true
+      content_file: "chapters/03-karta-oceny-opiekuna-praktyk.md"
+      hidden: false
+    - title: "10.4.3. Kryteria oceny umiejętności"
+      subchapter: true
+      content_file: "chapters/04-kryteria-oceny-umiejetnosci.md"
+      hidden: false
+    - title: "10.4.4. Kryteria oceny postawy etycznej"
+      subchapter: true
+      content_file: "chapters/05-kryteria-oceny-postawy-etycznej.md"
+      hidden: false
+    - title: "10.4.5. Kryteria oceny bezpieczeństwa"
+      subchapter: true
+      content_file: "chapters/06-kryteria-oceny-bezpieczenstwa.md"
+      hidden: false
+    - title: "10.4.6. Ocena współpracy"
+      subchapter: true
+      content_file: "chapters/07-ocena-wspolpracy.md"
+      hidden: false
+    - title: "10.4.7. Ocena dokumentacji"
+      subchapter: true
+      content_file: "chapters/08-ocena-dokumentacji.md"
+      hidden: false
+    - title: "10.4.8. Informacja zwrotna"
+      subchapter: true
+      content_file: "chapters/09-informacja-zwrotna.md"
+      hidden: false
+    - title: "10.4.9. Działania naprawcze"
+      subchapter: true
+      content_file: "chapters/10-dzialania-naprawcze.md"
+      hidden: false
+    - title: "10.4.10. Zaliczenie praktyki"
+      subchapter: true
+      content_file: "chapters/11-zaliczenie-praktyki.md"
+      hidden: false
   completion:
     enabled: true
     type: view

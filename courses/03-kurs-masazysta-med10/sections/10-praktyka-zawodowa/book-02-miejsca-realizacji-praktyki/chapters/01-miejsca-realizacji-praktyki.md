@@ -128,3 +128,9 @@ Temat 10.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 10.2.2. Poradnie rehabilitacyjne.
 3. Omów zagadnienie: 10.2.3. Oddziały szpitalne — za zgodą i nadzorem.
 4. Omów zagadnienie: 10.2.4. Hospicja i zakłady opiekuńczo-lecznicze.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

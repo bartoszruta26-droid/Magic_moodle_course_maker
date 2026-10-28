@@ -128,3 +128,9 @@ Temat 1.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.4.2. Obowiązek stosowania się do przepisów BHP.
 3. Omów zagadnienie: 1.4.3. Obowiązek użycia środków ochrony indywidualnej.
 4. Omów zagadnienie: 1.4.4. Prawo odmowy wykonania pracy w stanie zagrożenia życia lub zdrowia.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

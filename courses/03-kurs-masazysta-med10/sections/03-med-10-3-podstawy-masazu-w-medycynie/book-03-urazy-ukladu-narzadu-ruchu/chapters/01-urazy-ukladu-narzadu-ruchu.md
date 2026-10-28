@@ -128,3 +128,9 @@ Temat 3.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.3.2. Rany i blizny.
 3. Omów zagadnienie: 3.3.3. Oparzenia i odmrożenia.
 4. Omów zagadnienie: 3.3.4. Skręcenia.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

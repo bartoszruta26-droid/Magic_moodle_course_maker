@@ -128,3 +128,9 @@ Temat 3.12 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.12.2. Masaż okostnowy.
 3. Omów zagadnienie: 3.12.3. Masaż segmentarny.
 4. Omów zagadnienie: 3.12.4. Masaż punktowy.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

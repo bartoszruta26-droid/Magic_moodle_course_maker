@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ergonomia-stanowiska-pracy-masazysty.md"
       hidden: false
+
+    - title: "1.7.1. Wysokość stołu do masażu"
+      subchapter: true
+      content_file: "chapters/02-wysokosc-stolu-do-masazu.md"
+      hidden: false
+    - title: "1.7.2. Pozycja masażysty: kręgosłup, barki, łokcie, nadgarstki"
+      subchapter: true
+      content_file: "chapters/03-pozycja-masazysty-kregoslup-barki-lokcie-nadgarstki.md"
+      hidden: false
+    - title: "1.7.3. Praca nogami i przenoszenie ciężaru ciała"
+      subchapter: true
+      content_file: "chapters/04-praca-nogami-i-przenoszenie-ciezaru-ciala.md"
+      hidden: false
+    - title: "1.7.4. Unikanie skrętów i zgięć tułowia pod obciążeniem"
+      subchapter: true
+      content_file: "chapters/05-unikanie-skretow-i-zgiec-tulowia-pod-obciazeniem.md"
+      hidden: false
+    - title: "1.7.5. Przerwy regeneracyjne między zabiegami"
+      subchapter: true
+      content_file: "chapters/06-przerwy-regeneracyjne-miedzy-zabiegami.md"
+      hidden: false
+    - title: "1.7.6. Ćwiczenia profilaktyczne dla masażysty"
+      subchapter: true
+      content_file: "chapters/07-cwiczenia-profilaktyczne-dla-masazysty.md"
+      hidden: false
+    - title: "1.7.7. Bezpieczne przemieszczanie pacjenta"
+      subchapter: true
+      content_file: "chapters/08-bezpieczne-przemieszczanie-pacjenta.md"
+      hidden: false
+    - title: "1.7.8. Stosowanie podkładek, klinów, wałków, półwałków"
+      subchapter: true
+      content_file: "chapters/09-stosowanie-podkladek-klinow-walkow-polwalkow.md"
+      hidden: false
+    - title: "1.7.9. Dobór środków poślizgowych i wspomagających"
+      subchapter: true
+      content_file: "chapters/10-dobor-srodkow-poslizgowych-i-wspomagajacych.md"
+      hidden: false
+    - title: "1.7.10. Zapobieganie przeciążeniom i kontuzjom zawodowym"
+      subchapter: true
+      content_file: "chapters/11-zapobieganie-przeciazeniom-i-kontuzjom-zawodowym.md"
+      hidden: false
   completion:
     enabled: true
     type: view

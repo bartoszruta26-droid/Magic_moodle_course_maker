@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-goracymi-kamieniami-bazaltowymi.md"
       hidden: false
+
+    - title: "6.6.1. Bezpieczeństwo termiczne"
+      subchapter: true
+      content_file: "chapters/02-bezpieczenstwo-termiczne.md"
+      hidden: false
+    - title: "6.6.2. Przygotowanie kamieni"
+      subchapter: true
+      content_file: "chapters/03-przygotowanie-kamieni.md"
+      hidden: false
+    - title: "6.6.3. Test temperatury"
+      subchapter: true
+      content_file: "chapters/04-test-temperatury.md"
+      hidden: false
+    - title: "6.6.4. Układanie kamieni"
+      subchapter: true
+      content_file: "chapters/05-ukladanie-kamieni.md"
+      hidden: false
+    - title: "6.6.5. Techniki głaskania i rozcierania"
+      subchapter: true
+      content_file: "chapters/06-techniki-glaskania-i-rozcierania.md"
+      hidden: false
+    - title: "6.6.6. Przeciwwskazania: neuropatia, cukrzyca, choroby naczyń, ciąża, choroby skóry"
+      subchapter: true
+      content_file: "chapters/07-przeciwwskazania-neuropatia-cukrzyca-choroby-naczyn-.md"
+      hidden: false
+    - title: "6.6.7. Ryzyko oparzenia"
+      subchapter: true
+      content_file: "chapters/08-ryzyko-oparzenia.md"
+      hidden: false
+    - title: "6.6.8. Higiena kamieni"
+      subchapter: true
+      content_file: "chapters/09-higiena-kamieni.md"
+      hidden: false
+    - title: "6.6.9. Czas zabiegu"
+      subchapter: true
+      content_file: "chapters/10-czas-zabiegu.md"
+      hidden: false
+    - title: "6.6.10. Dokumentacja i zgoda"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-i-zgoda.md"
+      hidden: false
   completion:
     enabled: true
     type: view

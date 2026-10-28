@@ -128,3 +128,9 @@ Temat 2.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia.
 3. Omów zagadnienie: 2.1.3. Przepisy dotyczące wykonywania zadań zawodowych.
 4. Omów zagadnienie: 2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-stanowisko-pracy-i-wyposazenie.md"
       hidden: false
+
+    - title: "7.2.1. Massage table, chair, towels, sheets"
+      subchapter: true
+      content_file: "chapters/02-massage-table-chair-towels-sheets.md"
+      hidden: false
+    - title: "7.2.2. Oil, lotion, cream, powder"
+      subchapter: true
+      content_file: "chapters/03-oil-lotion-cream-powder.md"
+      hidden: false
+    - title: "7.2.3. Pillow, bolster, wedge"
+      subchapter: true
+      content_file: "chapters/04-pillow-bolster-wedge.md"
+      hidden: false
+    - title: "7.2.4. Disposable pads"
+      subchapter: true
+      content_file: "chapters/05-disposable-pads.md"
+      hidden: false
+    - title: "7.2.5. Sanitizer, disinfectant"
+      subchapter: true
+      content_file: "chapters/06-sanitizer-disinfectant.md"
+      hidden: false
+    - title: "7.2.6. Vibrating device, hot stones"
+      subchapter: true
+      content_file: "chapters/07-vibrating-device-hot-stones.md"
+      hidden: false
+    - title: "7.2.7. Privacy screen"
+      subchapter: true
+      content_file: "chapters/08-privacy-screen.md"
+      hidden: false
+    - title: "7.2.8. Wardrobe and storage"
+      subchapter: true
+      content_file: "chapters/09-wardrobe-and-storage.md"
+      hidden: false
+    - title: "7.2.9. Describing equipment safely"
+      subchapter: true
+      content_file: "chapters/10-describing-equipment-safely.md"
+      hidden: false
+    - title: "7.2.10. Reading instructions and labels"
+      subchapter: true
+      content_file: "chapters/11-reading-instructions-and-labels.md"
+      hidden: false
   completion:
     enabled: true
     type: view

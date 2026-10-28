@@ -128,3 +128,9 @@ Temat 4.18 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.18.2. Trakcja, kompresja, rotacja, ślizg.
 3. Omów zagadnienie: 4.18.3. Stopnie ruchu.
 4. Omów zagadnienie: 4.18.4. Ból i end-feel.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

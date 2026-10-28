@@ -178,3 +178,9 @@ Temat 4.13 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.13.2. Sklerotom, miotom, dermatom.
 3. Omów zagadnienie: 4.13.3. Sfery Heada i strefy Mackenziego.
 4. Omów zagadnienie: 4.13.4. Chwyty diagnostyczne: oglądanie, obmacywanie, opukiwanie, przesuwanie tkanek.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

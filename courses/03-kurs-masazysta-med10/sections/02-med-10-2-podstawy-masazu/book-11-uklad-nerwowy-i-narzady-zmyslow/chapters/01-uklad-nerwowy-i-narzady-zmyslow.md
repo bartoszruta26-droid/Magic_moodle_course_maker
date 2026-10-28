@@ -128,3 +128,9 @@ Temat 2.11 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe.
 3. Omów zagadnienie: 2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny.
 4. Omów zagadnienie: 2.11.4. Nerwy obwodowe kończyn górnych i dolnych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

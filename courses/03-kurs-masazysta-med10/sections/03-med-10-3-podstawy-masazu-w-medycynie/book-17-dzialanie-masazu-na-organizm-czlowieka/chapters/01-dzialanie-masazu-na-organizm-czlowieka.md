@@ -128,3 +128,9 @@ Temat 3.17 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.17.2. Działanie na tkankę podskórną.
 3. Omów zagadnienie: 3.17.3. Działanie na mięśnie.
 4. Omów zagadnienie: 3.17.4. Działanie na powięź.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

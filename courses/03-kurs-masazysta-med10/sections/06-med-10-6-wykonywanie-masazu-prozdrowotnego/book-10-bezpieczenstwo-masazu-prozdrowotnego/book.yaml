@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-bezpieczenstwo-masazu-prozdrowotnego.md"
       hidden: false
+
+    - title: "6.10.1. Objawy wymagające pilnej konsultacji lekarskiej"
+      subchapter: true
+      content_file: "chapters/02-objawy-wymagajace-pilnej-konsultacji-lekarskiej.md"
+      hidden: false
+    - title: "6.10.2. Ból nowy, ostry, promieniujący"
+      subchapter: true
+      content_file: "chapters/03-bol-nowy-ostry-promieniujacy.md"
+      hidden: false
+    - title: "6.10.3. Obrzęk jednostronny nogi"
+      subchapter: true
+      content_file: "chapters/04-obrzek-jednostronny-nogi.md"
+      hidden: false
+    - title: "6.10.4. Gorączka i dreszcze"
+      subchapter: true
+      content_file: "chapters/05-goraczka-i-dreszcze.md"
+      hidden: false
+    - title: "6.10.5. Utrata masy ciała bez przyczyny"
+      subchapter: true
+      content_file: "chapters/06-utrata-masy-ciala-bez-przyczyny.md"
+      hidden: false
+    - title: "6.10.6. Krwawienia i siniki samoistne"
+      subchapter: true
+      content_file: "chapters/07-krwawienia-i-siniki-samoistne.md"
+      hidden: false
+    - title: "6.10.7. Duszność i ból w klatce"
+      subchapter: true
+      content_file: "chapters/08-dusznosc-i-bol-w-klatce.md"
+      hidden: false
+    - title: "6.10.8. Zawroty głowy i omdlenia"
+      subchapter: true
+      content_file: "chapters/09-zawroty-glowy-i-omdlenia.md"
+      hidden: false
+    - title: "6.10.9. Zmiany skórne podejrane"
+      subchapter: true
+      content_file: "chapters/10-zmiany-skorne-podejrane.md"
+      hidden: false
+    - title: "6.10.10. Zasada: lepiej skierować niż zaszkodzić"
+      subchapter: true
+      content_file: "chapters/11-zasada-lepiej-skierowac-niz-zaszkodzic.md"
+      hidden: false
   completion:
     enabled: true
     type: view

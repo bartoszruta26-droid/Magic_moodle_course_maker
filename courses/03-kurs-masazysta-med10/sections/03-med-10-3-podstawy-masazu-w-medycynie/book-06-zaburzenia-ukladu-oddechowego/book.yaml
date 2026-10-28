@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zaburzenia-ukladu-oddechowego.md"
       hidden: false
+
+    - title: "3.6.1. Przewlekłe zapalenie oskrzeli"
+      subchapter: true
+      content_file: "chapters/02-przewlekle-zapalenie-oskrzeli.md"
+      hidden: false
+    - title: "3.6.2. Astma oskrzelowa"
+      subchapter: true
+      content_file: "chapters/03-astma-oskrzelowa.md"
+      hidden: false
+    - title: "3.6.3. POChP"
+      subchapter: true
+      content_file: "chapters/04-pochp.md"
+      hidden: false
+    - title: "3.6.4. Rozstrzenie oskrzeli"
+      subchapter: true
+      content_file: "chapters/05-rozstrzenie-oskrzeli.md"
+      hidden: false
+    - title: "3.6.5. Rozedma płuc"
+      subchapter: true
+      content_file: "chapters/06-rozedma-pluc.md"
+      hidden: false
+    - title: "3.6.6. Stan po zapaleniu płuc"
+      subchapter: true
+      content_file: "chapters/07-stan-po-zapaleniu-pluc.md"
+      hidden: false
+    - title: "3.6.7. Stan po zapaleniu opłucnej"
+      subchapter: true
+      content_file: "chapters/08-stan-po-zapaleniu-oplucnej.md"
+      hidden: false
+    - title: "3.6.8. Stan po operacjach klatki piersiowej"
+      subchapter: true
+      content_file: "chapters/09-stan-po-operacjach-klatki-piersiowej.md"
+      hidden: false
+    - title: "3.6.9. Zaburzenia wentylacji i odkrztuszania"
+      subchapter: true
+      content_file: "chapters/10-zaburzenia-wentylacji-i-odkrztuszania.md"
+      hidden: false
+    - title: "3.6.10. Bezpieczeństwo masażu przy duszności i niewydolności oddechowej"
+      subchapter: true
+      content_file: "chapters/11-bezpieczenstwo-masazu-przy-dusznosci-i-niewydolnosci.md"
+      hidden: false
   completion:
     enabled: true
     type: view

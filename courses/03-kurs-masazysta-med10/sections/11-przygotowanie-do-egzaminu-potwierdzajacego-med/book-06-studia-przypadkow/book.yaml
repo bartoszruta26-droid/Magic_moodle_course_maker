@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-studia-przypadkow.md"
       hidden: false
+
+    - title: "11.6.1. Pacjent z bólem kręgosłupa lędźwiowego"
+      subchapter: true
+      content_file: "chapters/02-pacjent-z-bolem-kregoslupa-ledzwiowego.md"
+      hidden: false
+    - title: "11.6.2. Pacjent po udarze"
+      subchapter: true
+      content_file: "chapters/03-pacjent-po-udarze.md"
+      hidden: false
+    - title: "11.6.3. Pacjent z obrzękiem limfatycznym po mastektomii"
+      subchapter: true
+      content_file: "chapters/04-pacjent-z-obrzekiem-limfatycznym-po-mastektomii.md"
+      hidden: false
+    - title: "11.6.4. Pacjent sportowiec po treningu"
+      subchapter: true
+      content_file: "chapters/05-pacjent-sportowiec-po-treningu.md"
+      hidden: false
+    - title: "11.6.5. Pacjentka w ciąży fizjologicznej"
+      subchapter: true
+      content_file: "chapters/06-pacjentka-w-ciazy-fizjologicznej.md"
+      hidden: false
+    - title: "11.6.6. Pacjent starszy z osteoporozą"
+      subchapter: true
+      content_file: "chapters/07-pacjent-starszy-z-osteoporoza.md"
+      hidden: false
+    - title: "11.6.7. Pacjent z fibromialgią"
+      subchapter: true
+      content_file: "chapters/08-pacjent-z-fibromialgia.md"
+      hidden: false
+    - title: "11.6.8. Pacjent ze stanem zapalnym — przeciwwskazanie"
+      subchapter: true
+      content_file: "chapters/09-pacjent-ze-stanem-zapalnym-przeciwwskazanie.md"
+      hidden: false
+    - title: "11.6.9. Pacjent z podejrzeniem zakrzepicy — skierowanie"
+      subchapter: true
+      content_file: "chapters/10-pacjent-z-podejrzeniem-zakrzepicy-skierowanie.md"
+      hidden: false
+    - title: "11.6.10. Pacjent z lękiem przed dotykiem — komunikacja"
+      subchapter: true
+      content_file: "chapters/11-pacjent-z-lekiem-przed-dotykiem-komunikacja.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -128,3 +128,9 @@ Temat 4.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.8.2. Temperatura wody.
 3. Omów zagadnienie: 4.8.3. Higiena i dezynfekcja.
 4. Omów zagadnienie: 4.8.4. Bezpieczne wejście pacjenta.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

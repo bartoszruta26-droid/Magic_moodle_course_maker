@@ -128,3 +128,9 @@ Temat 10.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 10.3.2. Asystowanie przy zabiegach.
 3. Omów zagadnienie: 10.3.3. Przygotowanie stanowiska pracy.
 4. Omów zagadnienie: 10.3.4. Przygotowanie pacjenta do zabiegu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

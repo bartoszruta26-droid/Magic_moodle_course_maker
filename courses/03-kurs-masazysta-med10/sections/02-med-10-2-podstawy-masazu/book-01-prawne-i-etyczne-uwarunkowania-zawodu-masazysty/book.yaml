@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-prawne-i-etyczne-uwarunkowania-zawodu-masazysty.md"
       hidden: false
+
+    - title: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"
+      subchapter: true
+      content_file: "chapters/02-zawod-technik-masazysta-w-systemie-edukacji-i-rynku-.md"
+      hidden: false
+    - title: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"
+      subchapter: true
+      content_file: "chapters/03-kwalifikacja-med-10-jako-podstawa-ksztalcenia.md"
+      hidden: false
+    - title: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"
+      subchapter: true
+      content_file: "chapters/04-przepisy-dotyczace-wykonywania-zadan-zawodowych.md"
+      hidden: false
+    - title: "2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek"
+      subchapter: true
+      content_file: "chapters/05-etyka-zawodu-prawda-zaufanie-dyskrecja-szacunek.md"
+      hidden: false
+    - title: "2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny"
+      subchapter: true
+      content_file: "chapters/06-zakaz-dyskryminacji-ze-wzgledu-na-plec-wiek-rase-wyz.md"
+      hidden: false
+    - title: "2.1.6. Ochrona małoletnich"
+      subchapter: true
+      content_file: "chapters/07-ochrona-maloletnich.md"
+      hidden: false
+    - title: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"
+      subchapter: true
+      content_file: "chapters/08-przeciwdzialanie-przemocy-i-wykorzystywaniu.md"
+      hidden: false
+    - title: "2.1.8. Granice profesjonalnej bliskości"
+      subchapter: true
+      content_file: "chapters/09-granice-profesjonalnej-bliskosci.md"
+      hidden: false
+    - title: "2.1.9. Zakaz kontaktów seksualnych z pacjentem"
+      subchapter: true
+      content_file: "chapters/10-zakaz-kontaktow-seksualnych-z-pacjentem.md"
+      hidden: false
+    - title: "2.1.10. Odpowiedzialność za słowo, dotyk i dokumentację"
+      subchapter: true
+      content_file: "chapters/11-odpowiedzialnosc-za-slowo-dotyk-i-dokumentacje.md"
+      hidden: false
   completion:
     enabled: true
     type: view

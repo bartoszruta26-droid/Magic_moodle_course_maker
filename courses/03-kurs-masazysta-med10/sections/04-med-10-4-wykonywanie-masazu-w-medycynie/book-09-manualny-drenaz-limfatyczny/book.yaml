@@ -14,6 +14,67 @@ book:
       subchapter: false
       content_file: "chapters/01-manualny-drenaz-limfatyczny.md"
       hidden: false
+
+    - title: "4.9.1. Anatomia funkcjonalna układu chłonnego w praktyce"
+      subchapter: true
+      content_file: "chapters/02-anatomia-funkcjonalna-ukladu-chlonnego-w-praktyce.md"
+      hidden: false
+    - title: "4.9.2. Określenie obszaru drenowania"
+      subchapter: true
+      content_file: "chapters/03-okreslenie-obszaru-drenowania.md"
+      hidden: false
+    - title: "4.9.3. Kierunek odpływu chłonki"
+      subchapter: true
+      content_file: "chapters/04-kierunek-odplywu-chlonki.md"
+      hidden: false
+    - title: "4.9.4. Przygotowanie węzłów proksymalnych"
+      subchapter: true
+      content_file: "chapters/05-przygotowanie-wezlow-proksymalnych.md"
+      hidden: false
+    - title: "4.9.5. Techniki podstawowe: głaskanie, rozcieranie koliste, spiralne, uciski"
+      subchapter: true
+      content_file: "chapters/06-techniki-podstawowe-glaskanie-rozcieranie-koliste-sp.md"
+      hidden: false
+    - title: "4.9.6. Drenaż twarzy"
+      subchapter: true
+      content_file: "chapters/07-drenaz-twarzy.md"
+      hidden: false
+    - title: "4.9.7. Drenaż karku i głowy"
+      subchapter: true
+      content_file: "chapters/08-drenaz-karku-i-glowy.md"
+      hidden: false
+    - title: "4.9.8. Drenaż grzbietu"
+      subchapter: true
+      content_file: "chapters/09-drenaz-grzbietu.md"
+      hidden: false
+    - title: "4.9.9. Drenaż klatki piersiowej"
+      subchapter: true
+      content_file: "chapters/10-drenaz-klatki-piersiowej.md"
+      hidden: false
+    - title: "4.9.10. Drenaż brzucha"
+      subchapter: true
+      content_file: "chapters/11-drenaz-brzucha.md"
+      hidden: false
+    - title: "4.9.11. Drenaż kończyny górnej"
+      subchapter: true
+      content_file: "chapters/12-drenaz-konczyny-gornej.md"
+      hidden: false
+    - title: "4.9.12. Drenaż kończyny dolnej"
+      subchapter: true
+      content_file: "chapters/13-drenaz-konczyny-dolnej.md"
+      hidden: false
+    - title: "4.9.13. Drenaż po usunięciu węzłów chłonnych"
+      subchapter: true
+      content_file: "chapters/14-drenaz-po-usunieciu-wezlow-chlonnych.md"
+      hidden: false
+    - title: "4.9.14. Zasada podwójnego opracowania stawów"
+      subchapter: true
+      content_file: "chapters/15-zasada-podwojnego-opracowania-stawow.md"
+      hidden: false
+    - title: "4.9.15. Tempo, ciśnienie i czas zabiegu"
+      subchapter: true
+      content_file: "chapters/16-tempo-cisnienie-i-czas-zabiegu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

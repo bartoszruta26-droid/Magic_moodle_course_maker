@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-manualnego-drenazu-limf.md"
       hidden: false
+
+    - title: "3.11.1. Obrzęk limfatyczny pierwotny i wtórny"
+      subchapter: true
+      content_file: "chapters/02-obrzek-limfatyczny-pierwotny-i-wtorny.md"
+      hidden: false
+    - title: "3.11.2. Obrzęk pourazowy i pooperacyjny"
+      subchapter: true
+      content_file: "chapters/03-obrzek-pourazowy-i-pooperacyjny.md"
+      hidden: false
+    - title: "3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych"
+      subchapter: true
+      content_file: "chapters/04-stan-po-mastektomii-i-usunieciu-wezlow-chlonnych.md"
+      hidden: false
+    - title: "3.11.4. Obrzęk żylny i mieszany"
+      subchapter: true
+      content_file: "chapters/05-obrzek-zylny-i-mieszany.md"
+      hidden: false
+    - title: "3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji"
+      subchapter: true
+      content_file: "chapters/06-lipodema-i-lipowolemoza-ostroznie-w-granicach-kompet.md"
+      hidden: false
+    - title: "3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza"
+      subchapter: true
+      content_file: "chapters/07-przeciwwskazania-ostra-niewydolnosc-serca-zakrzepica.md"
+      hidden: false
+    - title: "3.11.7. Ocena stopnia obrzęku"
+      subchapter: true
+      content_file: "chapters/08-ocena-stopnia-obrzeku.md"
+      hidden: false
+    - title: "3.11.8. Kwalifikacja do drenażu"
+      subchapter: true
+      content_file: "chapters/09-kwalifikacja-do-drenazu.md"
+      hidden: false
+    - title: "3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych"
+      subchapter: true
+      content_file: "chapters/10-zasady-bezpieczenstwa-przy-wezlach-usunietych.md"
+      hidden: false
+    - title: "3.11.10. Dokumentacja reakcji na drenaż"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-reakcji-na-drenaz.md"
+      hidden: false
   completion:
     enabled: true
     type: view

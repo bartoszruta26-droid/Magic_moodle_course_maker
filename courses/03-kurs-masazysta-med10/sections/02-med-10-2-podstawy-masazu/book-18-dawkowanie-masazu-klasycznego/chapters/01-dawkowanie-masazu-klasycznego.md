@@ -128,3 +128,9 @@ Temat 2.18 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.18.2. Tempo: wolne, umiarkowane, szybkie.
 3. Omów zagadnienie: 2.18.3. Czas trwania zabiegu.
 4. Omów zagadnienie: 2.18.4. Powtórzenia każdej techniki.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

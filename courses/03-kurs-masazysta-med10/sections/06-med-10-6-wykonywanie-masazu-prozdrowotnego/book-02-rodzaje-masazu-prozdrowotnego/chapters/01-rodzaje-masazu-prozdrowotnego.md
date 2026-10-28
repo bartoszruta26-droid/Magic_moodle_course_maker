@@ -128,3 +128,9 @@ Temat 6.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 6.2.2. Masaż relaksacyjny.
 3. Omów zagadnienie: 6.2.3. Masaż bez przyrządów.
 4. Omów zagadnienie: 6.2.4. Masaż gorącymi kamieniami.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

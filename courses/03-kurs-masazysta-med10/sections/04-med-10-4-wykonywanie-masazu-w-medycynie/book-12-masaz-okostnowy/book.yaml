@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-okostnowy.md"
       hidden: false
+
+    - title: "4.12.1. Anatomia okostnej"
+      subchapter: true
+      content_file: "chapters/02-anatomia-okostnej.md"
+      hidden: false
+    - title: "4.12.2. Techniki delikatnego opracowania okostnej"
+      subchapter: true
+      content_file: "chapters/03-techniki-delikatnego-opracowania-okostnej.md"
+      hidden: false
+    - title: "4.12.3. Ból i próg tolerancji"
+      subchapter: true
+      content_file: "chapters/04-bol-i-prog-tolerancji.md"
+      hidden: false
+    - title: "4.12.4. Przeciwwskazania: osteoporoza, nowotwór, zapalenie kości"
+      subchapter: true
+      content_file: "chapters/05-przeciwwskazania-osteoporoza-nowotwor-zapalenie-kosc.md"
+      hidden: false
+    - title: "4.12.5. Zastosowanie w zespołach przeciążeniowych"
+      subchapter: true
+      content_file: "chapters/06-zastosowanie-w-zespolach-przeciazeniowych.md"
+      hidden: false
+    - title: "4.12.6. Kontrola siły"
+      subchapter: true
+      content_file: "chapters/07-kontrola-sily.md"
+      hidden: false
+    - title: "4.12.7. Czas zabiegu"
+      subchapter: true
+      content_file: "chapters/08-czas-zabiegu.md"
+      hidden: false
+    - title: "4.12.8. Reakcje po zabiegu"
+      subchapter: true
+      content_file: "chapters/09-reakcje-po-zabiegu.md"
+      hidden: false
+    - title: "4.12.9. Dokumentacja"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja.md"
+      hidden: false
+    - title: "4.12.10. Zasada: nie stosować na siłę"
+      subchapter: true
+      content_file: "chapters/11-zasada-nie-stosowac-na-sile.md"
+      hidden: false
   completion:
     enabled: true
     type: view

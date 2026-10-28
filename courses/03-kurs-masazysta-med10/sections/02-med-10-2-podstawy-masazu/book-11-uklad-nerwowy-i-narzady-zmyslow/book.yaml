@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-uklad-nerwowy-i-narzady-zmyslow.md"
       hidden: false
+
+    - title: "2.11.1. Ośrodkowy układ nerwowy: mózgowie, rdzeń kręgowy"
+      subchapter: true
+      content_file: "chapters/02-osrodkowy-uklad-nerwowy-mozgowie-rdzen-kregowy.md"
+      hidden: false
+    - title: "2.11.2. Obwodowy układ nerwowy: nerwy czaszkowe, nerwy rdzeniowe"
+      subchapter: true
+      content_file: "chapters/03-obwodowy-uklad-nerwowy-nerwy-czaszkowe-nerwy-rdzenio.md"
+      hidden: false
+    - title: "2.11.3. Autonomiczny układ nerwowy: współczulny i przywspółczulny"
+      subchapter: true
+      content_file: "chapters/04-autonomiczny-uklad-nerwowy-wspolczulny-i-przywspolcz.md"
+      hidden: false
+    - title: "2.11.4. Nerwy obwodowe kończyn górnych i dolnych"
+      subchapter: true
+      content_file: "chapters/05-nerwy-obwodowe-konczyn-gornych-i-dolnych.md"
+      hidden: false
+    - title: "2.11.5. Sploty nerwowe: ramienny, lędźwiowy, krzyżowy"
+      subchapter: true
+      content_file: "chapters/06-sploty-nerwowe-ramienny-ledzwiowy-krzyzowy.md"
+      hidden: false
+    - title: "2.11.6. Dermatomy i miotomy"
+      subchapter: true
+      content_file: "chapters/07-dermatomy-i-miotomy.md"
+      hidden: false
+    - title: "2.11.7. Łuk odruchowy"
+      subchapter: true
+      content_file: "chapters/08-luk-odruchowy.md"
+      hidden: false
+    - title: "2.11.8. Ból: przewodzenie, modulacja, punkty spustowe"
+      subchapter: true
+      content_file: "chapters/09-bol-przewodzenie-modulacja-punkty-spustowe.md"
+      hidden: false
+    - title: "2.11.9. Narządy zmysłów: dotyk, propriocepcja, równowaga"
+      subchapter: true
+      content_file: "chapters/10-narzady-zmyslow-dotyk-propriocepcja-rownowaga.md"
+      hidden: false
+    - title: "2.11.10. Wpływ masażu na układ nerwowy"
+      subchapter: true
+      content_file: "chapters/11-wplyw-masazu-na-uklad-nerwowy.md"
+      hidden: false
   completion:
     enabled: true
     type: view

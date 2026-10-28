@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-pierwsza-pomoc-w-stanach-naglego-zagrozenia-zdrowotnego.md"
       hidden: false
+
+    - title: "1.12.1. Ocena sytuacji: bezpieczeństwo ratującego, poszkodowanego, otoczenia"
+      subchapter: true
+      content_file: "chapters/02-ocena-sytuacji-bezpieczenstwo-ratujacego-poszkodowan.md"
+      hidden: false
+    - title: "1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji"
+      subchapter: true
+      content_file: "chapters/03-wezwanie-pomocy-numery-alarmowe-przekazanie-informac.md"
+      hidden: false
+    - title: "1.12.3. Pozycja bezpieczna"
+      subchapter: true
+      content_file: "chapters/04-pozycja-bezpieczna.md"
+      hidden: false
+    - title: "1.12.4. Udrożnienie dróg oddechowych"
+      subchapter: true
+      content_file: "chapters/05-udroznienie-drog-oddechowych.md"
+      hidden: false
+    - title: "1.12.5. Ocena oddechu i krążenia"
+      subchapter: true
+      content_file: "chapters/06-ocena-oddechu-i-krazenia.md"
+      hidden: false
+    - title: "1.12.6. Resuscytacja krążeniowo-oddechowa dorosłego"
+      subchapter: true
+      content_file: "chapters/07-resuscytacja-krazeniowo-oddechowa-doroslego.md"
+      hidden: false
+    - title: "1.12.7. Resuscytacja dziecka"
+      subchapter: true
+      content_file: "chapters/08-resuscytacja-dziecka.md"
+      hidden: false
+    - title: "1.12.8. Resuscytacja niemowlęcia"
+      subchapter: true
+      content_file: "chapters/09-resuscytacja-niemowlecia.md"
+      hidden: false
+    - title: "1.12.9. Użycie AED — zasady i bezpieczeństwo"
+      subchapter: true
+      content_file: "chapters/10-uzycie-aed-zasady-i-bezpieczenstwo.md"
+      hidden: false
+    - title: "1.12.10. Ćwiczenia na fantomach zgodnie z wytycznymi Polskiej Rady Resuscytacji i Europejskiej Rady Resuscytacji"
+      subchapter: true
+      content_file: "chapters/11-cwiczenia-na-fantomach-zgodnie-z-wytycznymi-polskiej.md"
+      hidden: false
   completion:
     enabled: true
     type: view

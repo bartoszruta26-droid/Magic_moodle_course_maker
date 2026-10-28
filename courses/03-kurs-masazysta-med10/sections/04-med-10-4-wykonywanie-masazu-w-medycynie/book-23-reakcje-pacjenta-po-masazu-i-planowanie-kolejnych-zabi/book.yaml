@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-reakcje-pacjenta-po-masazu-i-planowanie-kolejnych-zabi.md"
       hidden: false
+
+    - title: "4.23.1. Reakcja prawidłowa: rozluźnienie, lekkość, senność"
+      subchapter: true
+      content_file: "chapters/02-reakcja-prawidlowa-rozluznienie-lekkosc-sennosc.md"
+      hidden: false
+    - title: "4.23.2. Reakcja niepożądana: ból, siniak, obrzęk, osłabienie"
+      subchapter: true
+      content_file: "chapters/03-reakcja-niepozadana-bol-siniak-obrzek-oslabienie.md"
+      hidden: false
+    - title: "4.23.3. Reakcja alarmowa: duszność, ból w klatce, gorączka, zawroty głowy"
+      subchapter: true
+      content_file: "chapters/04-reakcja-alarmowa-dusznosc-bol-w-klatce-goraczka-zawr.md"
+      hidden: false
+    - title: "4.23.4. Pytania kontrolne po zabiegu"
+      subchapter: true
+      content_file: "chapters/05-pytania-kontrolne-po-zabiegu.md"
+      hidden: false
+    - title: "4.23.5. Zalecenia: nawodnienie, odpoczynek, ciepło/zimno"
+      subchapter: true
+      content_file: "chapters/06-zalecenia-nawodnienie-odpoczynek-cieplo-zimno.md"
+      hidden: false
+    - title: "4.23.6. Kiedy nie wykonywać kolejnego masażu"
+      subchapter: true
+      content_file: "chapters/07-kiedy-nie-wykonywac-kolejnego-masazu.md"
+      hidden: false
+    - title: "4.23.7. Kiedy skierować do lekarza"
+      subchapter: true
+      content_file: "chapters/08-kiedy-skierowac-do-lekarza.md"
+      hidden: false
+    - title: "4.23.8. Dokumentacja reakcji"
+      subchapter: true
+      content_file: "chapters/09-dokumentacja-reakcji.md"
+      hidden: false
+    - title: "4.23.9. Modyfikacja siły, czasu, techniki"
+      subchapter: true
+      content_file: "chapters/10-modyfikacja-sily-czasu-techniki.md"
+      hidden: false
+    - title: "4.23.10. Zasada: pacjent informuje, masażysta słucha"
+      subchapter: true
+      content_file: "chapters/11-zasada-pacjent-informuje-masazysta-slucha.md"
+      hidden: false
   completion:
     enabled: true
     type: view

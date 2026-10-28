@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-refleksoterapia-stop.md"
       hidden: false
+
+    - title: "4.15.1. Podstawy refleksologii"
+      subchapter: true
+      content_file: "chapters/02-podstawy-refleksologii.md"
+      hidden: false
+    - title: "4.15.2. Mapy stóp"
+      subchapter: true
+      content_file: "chapters/03-mapy-stop.md"
+      hidden: false
+    - title: "4.15.3. Techniki kciuka i palców"
+      subchapter: true
+      content_file: "chapters/04-techniki-kciuka-i-palcow.md"
+      hidden: false
+    - title: "4.15.4. Delikatność i ból"
+      subchapter: true
+      content_file: "chapters/05-delikatnosc-i-bol.md"
+      hidden: false
+    - title: "4.15.5. Przeciwwskazania: zakrzepica, rana, grzybica, ciężka neuropatia"
+      subchapter: true
+      content_file: "chapters/06-przeciwwskazania-zakrzepica-rana-grzybica-ciezka-neu.md"
+      hidden: false
+    - title: "4.15.6. Higiena stóp"
+      subchapter: true
+      content_file: "chapters/07-higiena-stop.md"
+      hidden: false
+    - title: "4.15.7. Czas zabiegu"
+      subchapter: true
+      content_file: "chapters/08-czas-zabiegu.md"
+      hidden: false
+    - title: "4.15.8. Reakcje pacjenta"
+      subchapter: true
+      content_file: "chapters/09-reakcje-pacjenta.md"
+      hidden: false
+    - title: "4.15.9. Edukacja: refleksoterapia nie zastępuje diagnostyki medycznej"
+      subchapter: true
+      content_file: "chapters/10-edukacja-refleksoterapia-nie-zastepuje-diagnostyki-m.md"
+      hidden: false
+    - title: "4.15.10. Dokumentacja i zgoda"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-i-zgoda.md"
+      hidden: false
   completion:
     enabled: true
     type: view

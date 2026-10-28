@@ -128,3 +128,9 @@ Temat 8.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.7.2. Tendencje na rynku usług masażu.
 3. Omów zagadnienie: 8.7.3. Krytyczna ocena nowinek.
 4. Omów zagadnienie: 8.7.4. Kształcenie ustawiczne.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

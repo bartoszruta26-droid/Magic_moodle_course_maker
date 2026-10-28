@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-budowa-tkanek-organizmu-czlowieka.md"
       hidden: false
+
+    - title: "2.8.1. Tkanka nabłonkowa"
+      subchapter: true
+      content_file: "chapters/02-tkanka-nablonkowa.md"
+      hidden: false
+    - title: "2.8.2. Tkanka łączna wiotka"
+      subchapter: true
+      content_file: "chapters/03-tkanka-laczna-wiotka.md"
+      hidden: false
+    - title: "2.8.3. Tkanka łączna zbita włóknista"
+      subchapter: true
+      content_file: "chapters/04-tkanka-laczna-zbita-wloknista.md"
+      hidden: false
+    - title: "2.8.4. Tkanka łączna zbita sprężysta"
+      subchapter: true
+      content_file: "chapters/05-tkanka-laczna-zbita-sprezysta.md"
+      hidden: false
+    - title: "2.8.5. Tkanka chrzęstna: szklista, sprężysta, włóknista"
+      subchapter: true
+      content_file: "chapters/06-tkanka-chrzestna-szklista-sprezysta-wloknista.md"
+      hidden: false
+    - title: "2.8.6. Tkanka kostna"
+      subchapter: true
+      content_file: "chapters/07-tkanka-kostna.md"
+      hidden: false
+    - title: "2.8.7. Tkanka tłuszczowa"
+      subchapter: true
+      content_file: "chapters/08-tkanka-tluszczowa.md"
+      hidden: false
+    - title: "2.8.8. Tkanka mięśniowa: poprzecznie prążkowana, gładka, sercowa"
+      subchapter: true
+      content_file: "chapters/09-tkanka-miesniowa-poprzecznie-prazkowana-gladka-serco.md"
+      hidden: false
+    - title: "2.8.9. Tkanka nerwowa"
+      subchapter: true
+      content_file: "chapters/10-tkanka-nerwowa.md"
+      hidden: false
+    - title: "2.8.10. Właściwości biomechaniczne tkanek w kontekście masażu"
+      subchapter: true
+      content_file: "chapters/11-wlasciwosci-biomechaniczne-tkanek-w-kontekscie-masaz.md"
+      hidden: false
   completion:
     enabled: true
     type: view

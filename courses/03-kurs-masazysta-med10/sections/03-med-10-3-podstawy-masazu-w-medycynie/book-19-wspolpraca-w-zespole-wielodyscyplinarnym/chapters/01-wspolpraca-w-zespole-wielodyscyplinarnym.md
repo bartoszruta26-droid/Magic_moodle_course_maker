@@ -128,3 +128,9 @@ Temat 3.19 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.19.2. Fizjoterapeuta.
 3. Omów zagadnienie: 3.19.3. Pielęgniarka i opiekun medyczny.
 4. Omów zagadnienie: 3.19.4. Psycholog i psychiatra.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

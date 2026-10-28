@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-prawa-i-obowiazki-pracownika-oraz-pracodawcy.md"
       hidden: false
+
+    - title: "1.4.1. Prawo do bezpiecznych warunków pracy"
+      subchapter: true
+      content_file: "chapters/02-prawo-do-bezpiecznych-warunkow-pracy.md"
+      hidden: false
+    - title: "1.4.2. Obowiązek stosowania się do przepisów BHP"
+      subchapter: true
+      content_file: "chapters/03-obowiazek-stosowania-sie-do-przepisow-bhp.md"
+      hidden: false
+    - title: "1.4.3. Obowiązek użycia środków ochrony indywidualnej"
+      subchapter: true
+      content_file: "chapters/04-obowiazek-uzycia-srodkow-ochrony-indywidualnej.md"
+      hidden: false
+    - title: "1.4.4. Prawo odmowy wykonania pracy w stanie zagrożenia życia lub zdrowia"
+      subchapter: true
+      content_file: "chapters/05-prawo-odmowy-wykonania-pracy-w-stanie-zagrozenia-zyc.md"
+      hidden: false
+    - title: "1.4.5. Obowiązek zgłaszania zagrożeń"
+      subchapter: true
+      content_file: "chapters/06-obowiazek-zglaszania-zagrozen.md"
+      hidden: false
+    - title: "1.4.6. Odpowiedzialność porządkowa, zawodowa, cywilna i karna"
+      subchapter: true
+      content_file: "chapters/07-odpowiedzialnosc-porzadkowa-zawodowa-cywilna-i-karna.md"
+      hidden: false
+    - title: "1.4.7. Obowiązki pracodawcy w zakresie szkoleń, nadzoru i wyposażenia"
+      subchapter: true
+      content_file: "chapters/08-obowiazki-pracodawcy-w-zakresie-szkolen-nadzoru-i-wy.md"
+      hidden: false
+    - title: "1.4.8. Konsultacje z lekarzem medycyny pracy"
+      subchapter: true
+      content_file: "chapters/09-konsultacje-z-lekarzem-medycyny-pracy.md"
+      hidden: false
+    - title: "1.4.9. Ochrona sygnalisty w sprawach zagrożeń"
+      subchapter: true
+      content_file: "chapters/10-ochrona-sygnalisty-w-sprawach-zagrozen.md"
+      hidden: false
+    - title: "1.4.10. Etyczna postawa wobec nieprawidłowości"
+      subchapter: true
+      content_file: "chapters/11-etyczna-postawa-wobec-nieprawidlowosci.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -128,3 +128,9 @@ Temat 1.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.9.2. Czystość powierzchni stołu, poduszek, kształtek.
 3. Omów zagadnienie: 1.9.3. Dezynfekcja rąk przed i po zabiegu.
 4. Omów zagadnienie: 1.9.4. Stosowanie jednorazowych podkładów.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

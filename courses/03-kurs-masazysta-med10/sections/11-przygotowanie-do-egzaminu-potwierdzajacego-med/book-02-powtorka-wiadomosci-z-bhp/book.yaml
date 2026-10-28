@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-powtorka-wiadomosci-z-bhp.md"
       hidden: false
+
+    - title: "11.2.1. Przepisy i instytucje"
+      subchapter: true
+      content_file: "chapters/02-przepisy-i-instytucje.md"
+      hidden: false
+    - title: "11.2.2. Zagrożenia zawodowe"
+      subchapter: true
+      content_file: "chapters/03-zagrozenia-zawodowe.md"
+      hidden: false
+    - title: "11.2.3. Aseptyka i antyseptyka"
+      subchapter: true
+      content_file: "chapters/04-aseptyka-i-antyseptyka.md"
+      hidden: false
+    - title: "11.2.4. Pierwsza pomoc"
+      subchapter: true
+      content_file: "chapters/05-pierwsza-pomoc.md"
+      hidden: false
+    - title: "11.2.5. Ergonomia"
+      subchapter: true
+      content_file: "chapters/06-ergonomia.md"
+      hidden: false
+    - title: "11.2.6. Ochrona przeciwpożarowa"
+      subchapter: true
+      content_file: "chapters/07-ochrona-przeciwpozarowa.md"
+      hidden: false
+    - title: "11.2.7. Odpady medyczne"
+      subchapter: true
+      content_file: "chapters/08-odpady-medyczne.md"
+      hidden: false
+    - title: "11.2.8. Środki ochrony"
+      subchapter: true
+      content_file: "chapters/09-srodki-ochrony.md"
+      hidden: false
+    - title: "11.2.9. Sytuacje nagłe"
+      subchapter: true
+      content_file: "chapters/10-sytuacje-nagle.md"
+      hidden: false
+    - title: "11.2.10. Testy i scenariusze"
+      subchapter: true
+      content_file: "chapters/11-testy-i-scenariusze.md"
+      hidden: false
   completion:
     enabled: true
     type: view

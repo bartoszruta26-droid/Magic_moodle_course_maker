@@ -128,3 +128,9 @@ Temat 1.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.5.2. Czynniki chemiczne: środki dezynfekcyjne, oleje, kremy, aerozole.
 3. Omów zagadnienie: 1.5.3. Czynniki biologiczne: bakterie, wirusy, grzyby, pasożyty.
 4. Omów zagadnienie: 1.5.4. Czynniki psychofizyczne: stres, obciążenie postawy, praca zmianowa.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

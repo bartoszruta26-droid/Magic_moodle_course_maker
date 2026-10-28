@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-shantala.md"
       hidden: false
+
+    - title: "4.19.1. Historia i sens kontaktu z niemowlęciem"
+      subchapter: true
+      content_file: "chapters/02-historia-i-sens-kontaktu-z-niemowleciem.md"
+      hidden: false
+    - title: "4.19.2. Przygotowanie pomieszczenia i oleju"
+      subchapter: true
+      content_file: "chapters/03-przygotowanie-pomieszczenia-i-oleju.md"
+      hidden: false
+    - title: "4.19.3. Pozycja niemowlęcia"
+      subchapter: true
+      content_file: "chapters/04-pozycja-niemowlecia.md"
+      hidden: false
+    - title: "4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz"
+      subchapter: true
+      content_file: "chapters/05-etapy-brzuszek-klatka-konczyny-gorne-konczyny-dolne-.md"
+      hidden: false
+    - title: "4.19.5. Delikatność i obserwacja dziecka"
+      subchapter: true
+      content_file: "chapters/06-delikatnosc-i-obserwacja-dziecka.md"
+      hidden: false
+    - title: "4.19.6. Sygnały stresu dziecka"
+      subchapter: true
+      content_file: "chapters/07-sygnaly-stresu-dziecka.md"
+      hidden: false
+    - title: "4.19.7. Rola rodzica/opiekuna"
+      subchapter: true
+      content_file: "chapters/08-rola-rodzica-opiekuna.md"
+      hidden: false
+    - title: "4.19.8. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/09-przeciwwskazania.md"
+      hidden: false
+    - title: "4.19.9. Higiena rąk masażysty"
+      subchapter: true
+      content_file: "chapters/10-higiena-rak-masazysty.md"
+      hidden: false
+    - title: "4.19.10. Dokumentacja zgody i przebiegu"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-zgody-i-przebiegu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

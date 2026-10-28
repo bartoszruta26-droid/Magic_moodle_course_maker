@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zasady-wykonywania-poszczegolnych-rodzajow-masazu-medy.md"
       hidden: false
+
+    - title: "3.16.1. Masaż klasyczny: cel, kolejność, czas, siła"
+      subchapter: true
+      content_file: "chapters/02-masaz-klasyczny-cel-kolejnosc-czas-sila.md"
+      hidden: false
+    - title: "3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo"
+      subchapter: true
+      content_file: "chapters/03-masaz-w-srodowisku-wodnym-przygotowanie-technika-bez.md"
+      hidden: false
+    - title: "3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja"
+      subchapter: true
+      content_file: "chapters/04-manualny-drenaz-limfatyczny-kierunek-tempo-pozycja.md"
+      hidden: false
+    - title: "3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek"
+      subchapter: true
+      content_file: "chapters/05-masaz-lacznotkankowy-strefy-technika-reakcja-tkanek.md"
+      hidden: false
+    - title: "3.16.5. Masaż okostnowy: ostrożność, ból, przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/06-masaz-okostnowy-ostroznosc-bol-przeciwwskazania.md"
+      hidden: false
+    - title: "3.16.6. Masaż segmentarny: chwyty diagnostyczne i lecznicze"
+      subchapter: true
+      content_file: "chapters/07-masaz-segmentarny-chwyty-diagnostyczne-i-lecznicze.md"
+      hidden: false
+    - title: "3.16.7. Masaż punktowy: punkty spustowe, kompresja, stretching"
+      subchapter: true
+      content_file: "chapters/08-masaz-punktowy-punkty-spustowe-kompresja-stretching.md"
+      hidden: false
+    - title: "3.16.8. Refleksoterapia stóp: mapy, techniki, granice"
+      subchapter: true
+      content_file: "chapters/09-refleksoterapia-stop-mapy-techniki-granice.md"
+      hidden: false
+    - title: "3.16.9. Masaż tensegracyjny: linie powięziowe, oddech, uwaga"
+      subchapter: true
+      content_file: "chapters/10-masaz-tensegracyjny-linie-powieziowe-oddech-uwaga.md"
+      hidden: false
+    - title: "3.16.10. Masaż izometryczny i stawowy: progresja, kontrola bólu"
+      subchapter: true
+      content_file: "chapters/11-masaz-izometryczny-i-stawowy-progresja-kontrola-bolu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-aseptyka-i-antyseptyka-w-gabinecie-masazu.md"
       hidden: false
+
+    - title: "1.9.1. Pojęcie aseptyki i antyseptyki"
+      subchapter: true
+      content_file: "chapters/02-pojecie-aseptyki-i-antyseptyki.md"
+      hidden: false
+    - title: "1.9.2. Czystość powierzchni stołu, poduszek, kształtek"
+      subchapter: true
+      content_file: "chapters/03-czystosc-powierzchni-stolu-poduszek-ksztaltek.md"
+      hidden: false
+    - title: "1.9.3. Dezynfekcja rąk przed i po zabiegu"
+      subchapter: true
+      content_file: "chapters/04-dezynfekcja-rak-przed-i-po-zabiegu.md"
+      hidden: false
+    - title: "1.9.4. Stosowanie jednorazowych podkładów"
+      subchapter: true
+      content_file: "chapters/05-stosowanie-jednorazowych-podkladow.md"
+      hidden: false
+    - title: "1.9.5. Postępowanie z prześcieradłami i ręcznikami"
+      subchapter: true
+      content_file: "chapters/06-postepowanie-z-przescieradlami-i-recznikami.md"
+      hidden: false
+    - title: "1.9.6. Mycie i dezynfekcja sprzętu do masażu przyrządowego"
+      subchapter: true
+      content_file: "chapters/07-mycie-i-dezynfekcja-sprzetu-do-masazu-przyrzadowego.md"
+      hidden: false
+    - title: "1.9.7. Przechowywanie środków poślizgowych i wspomagających"
+      subchapter: true
+      content_file: "chapters/08-przechowywanie-srodkow-poslizgowych-i-wspomagajacych.md"
+      hidden: false
+    - title: "1.9.8. Zasady pracy przy zmianach skórnych, ranach, obrzękach"
+      subchapter: true
+      content_file: "chapters/09-zasady-pracy-przy-zmianach-skornych-ranach-obrzekach.md"
+      hidden: false
+    - title: "1.9.9. Rozpoznawanie czynników ryzyka zakażeń"
+      subchapter: true
+      content_file: "chapters/10-rozpoznawanie-czynnikow-ryzyka-zakazen.md"
+      hidden: false
+    - title: "1.9.10. Procedury zapobiegania zakażiom związanym z opieką zdrowotną"
+      subchapter: true
+      content_file: "chapters/11-procedury-zapobiegania-zakaziom-zwiazanym-z-opieka-z.md"
+      hidden: false
   completion:
     enabled: true
     type: view

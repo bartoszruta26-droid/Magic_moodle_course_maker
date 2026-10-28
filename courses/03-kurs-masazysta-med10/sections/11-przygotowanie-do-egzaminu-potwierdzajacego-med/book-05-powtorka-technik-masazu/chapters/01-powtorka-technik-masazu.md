@@ -178,3 +178,9 @@ Temat 11.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.5.2. Masaż segmentarny.
 3. Omów zagadnienie: 11.5.3. Manualny drenaż limfatyczny.
 4. Omów zagadnienie: 11.5.4. Masaż łącznotkankowy.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

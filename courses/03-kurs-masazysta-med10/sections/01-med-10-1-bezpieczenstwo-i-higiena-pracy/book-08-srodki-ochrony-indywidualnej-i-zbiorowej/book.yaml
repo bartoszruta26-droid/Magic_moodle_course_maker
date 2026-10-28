@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-srodki-ochrony-indywidualnej-i-zbiorowej.md"
       hidden: false
+
+    - title: "1.8.1. Rękawiczki jednorazowe — wskazania i ograniczenia"
+      subchapter: true
+      content_file: "chapters/02-rekawiczki-jednorazowe-wskazania-i-ograniczenia.md"
+      hidden: false
+    - title: "1.8.2. Maseczki ochronne — wskazania epidemiologiczne"
+      subchapter: true
+      content_file: "chapters/03-maseczki-ochronne-wskazania-epidemiologiczne.md"
+      hidden: false
+    - title: "1.8.3. Fartuch lub okrycie robocze"
+      subchapter: true
+      content_file: "chapters/04-fartuch-lub-okrycie-robocze.md"
+      hidden: false
+    - title: "1.8.4. Ochrona oczu przy ryzyku rozprysku"
+      subchapter: true
+      content_file: "chapters/05-ochrona-oczu-przy-ryzyku-rozprysku.md"
+      hidden: false
+    - title: "1.8.5. Środki dezynfekcyjne dopuszczone do użytku"
+      subchapter: true
+      content_file: "chapters/06-srodki-dezynfekcyjne-dopuszczone-do-uzytku.md"
+      hidden: false
+    - title: "1.8.6. Pojemniki na odpady medyczne i komunalne"
+      subchapter: true
+      content_file: "chapters/07-pojemniki-na-odpady-medyczne-i-komunalne.md"
+      hidden: false
+    - title: "1.8.7. Wentylacja i oczyszczanie powietrza"
+      subchapter: true
+      content_file: "chapters/08-wentylacja-i-oczyszczanie-powietrza.md"
+      hidden: false
+    - title: "1.8.8. Parawany i osłony zapewniające intymność"
+      subchapter: true
+      content_file: "chapters/09-parawany-i-oslony-zapewniajace-intymnosc.md"
+      hidden: false
+    - title: "1.8.9. Dobór środków ochrony do rodzaju zabiegu"
+      subchapter: true
+      content_file: "chapters/10-dobor-srodkow-ochrony-do-rodzaju-zabiegu.md"
+      hidden: false
+    - title: "1.8.10. Zasada: ochrona pacjenta i ochrona masażysty są jednakowo ważne"
+      subchapter: true
+      content_file: "chapters/11-zasada-ochrona-pacjenta-i-ochrona-masazysty-sa-jedna.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-masazu-w-wodn.md"
       hidden: false
+
+    - title: "3.14.1. Odciążenie grawitacyjne"
+      subchapter: true
+      content_file: "chapters/02-odciazenie-grawitacyjne.md"
+      hidden: false
+    - title: "3.14.2. Temperatura wody i jej wpływ"
+      subchapter: true
+      content_file: "chapters/03-temperatura-wody-i-jej-wplyw.md"
+      hidden: false
+    - title: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"
+      subchapter: true
+      content_file: "chapters/04-wskazania-bol-obrzek-ograniczenie-ruchu-regeneracja.md"
+      hidden: false
+    - title: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"
+      subchapter: true
+      content_file: "chapters/05-przeciwwskazania-infekcje-otwarte-rany-niewydolnosc-.md"
+      hidden: false
+    - title: "3.14.5. Higiena wanny i ryzyko zakażeń"
+      subchapter: true
+      content_file: "chapters/06-higiena-wanny-i-ryzyko-zakazen.md"
+      hidden: false
+    - title: "3.14.6. Bezpieczeństwo wejścia i wyjścia z wanny"
+      subchapter: true
+      content_file: "chapters/07-bezpieczenstwo-wejscia-i-wyjscia-z-wanny.md"
+      hidden: false
+    - title: "3.14.7. Ryzyko poślizgnięcia"
+      subchapter: true
+      content_file: "chapters/08-ryzyko-poslizgniecia.md"
+      hidden: false
+    - title: "3.14.8. Obciążenie termiczne"
+      subchapter: true
+      content_file: "chapters/09-obciazenie-termiczne.md"
+      hidden: false
+    - title: "3.14.9. Asysta drugiej osoby przy osobach niesamodzielnych"
+      subchapter: true
+      content_file: "chapters/10-asysta-drugiej-osoby-przy-osobach-niesamodzielnych.md"
+      hidden: false
+    - title: "3.14.10. Dokumentacja temperatury, czasu i reakcji"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-temperatury-czasu-i-reakcji.md"
+      hidden: false
   completion:
     enabled: true
     type: view

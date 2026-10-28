@@ -128,3 +128,9 @@ Temat 11.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.7.2. Wykonanie elementów drenażu limfatycznego.
 3. Omów zagadnienie: 11.7.3. Wykonanie chwytu diagnostycznego masażu segmentarnego.
 4. Omów zagadnienie: 11.7.4. Prowadzenie wywiadu i dokumentacji.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-dobor-osob-do-zadan.md"
       hidden: false
+
+    - title: "9.2.1. Identyfikacja kompetencji członków zespołu"
+      subchapter: true
+      content_file: "chapters/02-identyfikacja-kompetencji-czlonkow-zespolu.md"
+      hidden: false
+    - title: "9.2.2. Umiejętności praktyczne"
+      subchapter: true
+      content_file: "chapters/03-umiejetnosci-praktyczne.md"
+      hidden: false
+    - title: "9.2.3. Kompetencje komunikacyjne"
+      subchapter: true
+      content_file: "chapters/04-kompetencje-komunikacyjne.md"
+      hidden: false
+    - title: "9.2.4. Odpowiedzialność i rzetelność"
+      subchapter: true
+      content_file: "chapters/05-odpowiedzialnosc-i-rzetelnosc.md"
+      hidden: false
+    - title: "9.2.5. Rozpoznawanie mocnych stron"
+      subchapter: true
+      content_file: "chapters/06-rozpoznawanie-mocnych-stron.md"
+      hidden: false
+    - title: "9.2.6. Rozpoznawanie ograniczeń"
+      subchapter: true
+      content_file: "chapters/07-rozpoznawanie-ograniczen.md"
+      hidden: false
+    - title: "9.2.7. Delegowanie zadań"
+      subchapter: true
+      content_file: "chapters/08-delegowanie-zadan.md"
+      hidden: false
+    - title: "9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje"
+      subchapter: true
+      content_file: "chapters/09-zasada-nie-obciazaj-osoby-poza-jej-kompetencje.md"
+      hidden: false
+    - title: "9.2.9. Wsparcie słabszych członków zespołu"
+      subchapter: true
+      content_file: "chapters/10-wsparcie-slabszych-czlonkow-zespolu.md"
+      hidden: false
+    - title: "9.2.10. Sprawiedliwy podział pracy"
+      subchapter: true
+      content_file: "chapters/11-sprawiedliwy-podzial-pracy.md"
+      hidden: false
   completion:
     enabled: true
     type: view

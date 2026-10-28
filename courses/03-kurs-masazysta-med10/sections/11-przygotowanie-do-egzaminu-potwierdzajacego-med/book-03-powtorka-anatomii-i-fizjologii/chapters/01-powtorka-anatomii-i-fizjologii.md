@@ -128,3 +128,9 @@ Temat 11.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.3.2. Powięź.
 3. Omów zagadnienie: 11.3.3. Układ nerwowy.
 4. Omów zagadnienie: 11.3.4. Układ krążenia.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

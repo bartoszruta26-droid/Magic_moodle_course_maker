@@ -128,3 +128,9 @@ Temat 11.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.9.2. Testy z anatomii.
 3. Omów zagadnienie: 11.9.3. Testy z fizjologii.
 4. Omów zagadnienie: 11.9.4. Testy z patologii.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zasady-masazu-prozdrowotnego.md"
       hidden: false
+
+    - title: "6.3.1. Wywiad i zgoda"
+      subchapter: true
+      content_file: "chapters/02-wywiad-i-zgoda.md"
+      hidden: false
+    - title: "6.3.2. Ocena przeciwwskazań"
+      subchapter: true
+      content_file: "chapters/03-ocena-przeciwwskazan.md"
+      hidden: false
+    - title: "6.3.3. Komfort termiczny"
+      subchapter: true
+      content_file: "chapters/04-komfort-termiczny.md"
+      hidden: false
+    - title: "6.3.4. Intymność i okrycie"
+      subchapter: true
+      content_file: "chapters/05-intymnosc-i-okrycie.md"
+      hidden: false
+    - title: "6.3.5. Muzyka, oświetlenie, zapach — bez manipulacji"
+      subchapter: true
+      content_file: "chapters/06-muzyka-oswietlenie-zapach-bez-manipulacji.md"
+      hidden: false
+    - title: "6.3.6. Tempo i siła dostosowane do oczekiwań"
+      subchapter: true
+      content_file: "chapters/07-tempo-i-sila-dostosowane-do-oczekiwan.md"
+      hidden: false
+    - title: "6.3.7. Komunikacja: zapowiedź dotyku"
+      subchapter: true
+      content_file: "chapters/08-komunikacja-zapowiedz-dotyku.md"
+      hidden: false
+    - title: "6.3.8. Prawo do przerwania"
+      subchapter: true
+      content_file: "chapters/09-prawo-do-przerwania.md"
+      hidden: false
+    - title: "6.3.9. Brak ocen moralnych ciała"
+      subchapter: true
+      content_file: "chapters/10-brak-ocen-moralnych-ciala.md"
+      hidden: false
+    - title: "6.3.10. Profesjonalny dystans i życzliwość"
+      subchapter: true
+      content_file: "chapters/11-profesjonalny-dystans-i-zyczliwosc.md"
+      hidden: false
   completion:
     enabled: true
     type: view

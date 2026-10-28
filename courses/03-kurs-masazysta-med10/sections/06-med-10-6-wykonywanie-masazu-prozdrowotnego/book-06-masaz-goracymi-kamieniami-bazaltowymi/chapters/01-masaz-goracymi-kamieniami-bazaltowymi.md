@@ -128,3 +128,9 @@ Temat 6.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 6.6.2. Przygotowanie kamieni.
 3. Omów zagadnienie: 6.6.3. Test temperatury.
 4. Omów zagadnienie: 6.6.4. Układanie kamieni.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

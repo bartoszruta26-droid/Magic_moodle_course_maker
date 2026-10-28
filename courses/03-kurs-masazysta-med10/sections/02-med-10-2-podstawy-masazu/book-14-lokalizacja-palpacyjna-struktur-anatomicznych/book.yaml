@@ -14,6 +14,51 @@ book:
       subchapter: false
       content_file: "chapters/01-lokalizacja-palpacyjna-struktur-anatomicznych.md"
       hidden: false
+
+    - title: "2.14.1. Zasady palpacji: spokojna reka, porownywanie stron, szacunek"
+      subchapter: true
+      content_file: "chapters/02-zasady-palpacji-spokojna-reka-porownywanie-stron-sza.md"
+      hidden: false
+    - title: "2.14.2. Wyczuwanie wyrostkow kolczystych i poprzecznych"
+      subchapter: true
+      content_file: "chapters/03-wyczuwanie-wyrostkow-kolczystych-i-poprzecznych.md"
+      hidden: false
+    - title: "2.14.3. Wyczuwanie katow lopatek, grzbietu lopatki, barku"
+      subchapter: true
+      content_file: "chapters/04-wyczuwanie-katow-lopatek-grzbietu-lopatki-barku.md"
+      hidden: false
+    - title: "2.14.4. Wyczuwanie miesni czworobocznego, rownoleglobocznego, dzwigacza lopatki"
+      subchapter: true
+      content_file: "chapters/05-wyczuwanie-miesni-czworobocznego-rownoleglobocznego-.md"
+      hidden: false
+    - title: "2.14.5. Wyczuwanie miesni przykregoslupowych"
+      subchapter: true
+      content_file: "chapters/06-wyczuwanie-miesni-przykregoslupowych.md"
+      hidden: false
+    - title: "2.14.6. Wyczuwanie miesni konczyny gornej: ramie, przedramie, dlon"
+      subchapter: true
+      content_file: "chapters/07-wyczuwanie-miesni-konczyny-gornej-ramie-przedramie-d.md"
+      hidden: false
+    - title: "2.14.7. Wyczuwanie miesni konczyny dolnej: udo, podudzie, stopa"
+      subchapter: true
+      content_file: "chapters/08-wyczuwanie-miesni-konczyny-dolnej-udo-podudzie-stopa.md"
+      hidden: false
+    - title: "2.14.8. Wyczuwanie tetnic powierzchniowych"
+      subchapter: true
+      content_file: "chapters/09-wyczuwanie-tetnic-powierzchniowych.md"
+      hidden: false
+    - title: "2.14.9. Wyczuwanie zyl powierzchownych"
+      subchapter: true
+      content_file: "chapters/10-wyczuwanie-zyl-powierzchownych.md"
+      hidden: false
+    - title: "2.14.10. Wyczuwanie pni chlonnych i skupisk wezlow"
+      subchapter: true
+      content_file: "chapters/11-wyczuwanie-pni-chlonnych-i-skupisk-wezlow.md"
+      hidden: false
+    - title: "2.14.11. Dokumentacja palpacyjna bez stawiania rozpoznan"
+      subchapter: true
+      content_file: "chapters/12-dokumentacja-palpacyjna-bez-stawiania-rozpoznan.md"
+      hidden: false
   completion:
     enabled: true
     type: view

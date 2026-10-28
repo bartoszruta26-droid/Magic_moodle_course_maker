@@ -128,3 +128,9 @@ Temat 2.17 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne.
 3. Omów zagadnienie: 2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie.
 4. Omów zagadnienie: 2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

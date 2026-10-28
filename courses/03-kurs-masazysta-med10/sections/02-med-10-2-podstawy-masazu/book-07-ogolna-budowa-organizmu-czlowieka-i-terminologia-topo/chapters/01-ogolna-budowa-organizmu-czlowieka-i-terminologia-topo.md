@@ -128,3 +128,9 @@ Temat 2.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.7.2. Osi ciała: pionowa, pozioma, strzałkowa.
 3. Omów zagadnienie: 2.7.3. Kierunki: przyśrodkowy, boczny, grzbietowy, brzusznny, górnny, dolny.
 4. Omów zagadnienie: 2.7.4. Płaszczyzny anatomii.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

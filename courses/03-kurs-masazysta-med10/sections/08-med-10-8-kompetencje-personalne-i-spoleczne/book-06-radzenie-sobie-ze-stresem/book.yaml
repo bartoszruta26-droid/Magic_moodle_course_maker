@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-radzenie-sobie-ze-stresem.md"
       hidden: false
+
+    - title: "8.6.1. Źródła stresu masażysty"
+      subchapter: true
+      content_file: "chapters/02-zrodla-stresu-masazysty.md"
+      hidden: false
+    - title: "8.6.2. Skutki stresu dla zdrowia i jakości pracy"
+      subchapter: true
+      content_file: "chapters/03-skutki-stresu-dla-zdrowia-i-jakosci-pracy.md"
+      hidden: false
+    - title: "8.6.3. Oddech i regulacja napięcia"
+      subchapter: true
+      content_file: "chapters/04-oddech-i-regulacja-napiecia.md"
+      hidden: false
+    - title: "8.6.4. Przerwy regeneracyjne"
+      subchapter: true
+      content_file: "chapters/05-przerwy-regeneracyjne.md"
+      hidden: false
+    - title: "8.6.5. Granice między służbą a wypaleniem"
+      subchapter: true
+      content_file: "chapters/06-granice-miedzy-sluzba-a-wypaleniem.md"
+      hidden: false
+    - title: "8.6.6. Superwizja i wsparcie koleżeńskie"
+      subchapter: true
+      content_file: "chapters/07-superwizja-i-wsparcie-kolezenskie.md"
+      hidden: false
+    - title: "8.6.7. Techniki relaksacyjne dla masażysty"
+      subchapter: true
+      content_file: "chapters/08-techniki-relaksacyjne-dla-masazysty.md"
+      hidden: false
+    - title: "8.6.8. Higiena snu i ruchu"
+      subchapter: true
+      content_file: "chapters/09-higiena-snu-i-ruchu.md"
+      hidden: false
+    - title: "8.6.9. Duchowa równowaga i sens pracy"
+      subchapter: true
+      content_file: "chapters/10-duchowa-rownowaga-i-sens-pracy.md"
+      hidden: false
+    - title: "8.6.10. Kiedy szukać pomocy psychologicznej"
+      subchapter: true
+      content_file: "chapters/11-kiedy-szukac-pomocy-psychologicznej.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -128,3 +128,9 @@ Temat 6.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 6.7.2. Ubranie pacjenta.
 3. Omów zagadnienie: 6.7.3. Czas 10–20 minut.
 4. Omów zagadnienie: 6.7.4. Techniki: barki, kark, głowa, ręce, plecy przez ubranie.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

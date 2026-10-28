@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-korelacja-masazu-z-kinezyterapia-i-fizykoterapia.md"
       hidden: false
+
+    - title: "2.20.1. Pojęcie kinezyterapii"
+      subchapter: true
+      content_file: "chapters/02-pojecie-kinezyterapii.md"
+      hidden: false
+    - title: "2.20.2. Rodzaje ćwiczeń: bierne, czynno-bierne, czynne, z oporem, w odciążeniu"
+      subchapter: true
+      content_file: "chapters/03-rodzaje-cwiczen-bierne-czynno-bierne-czynne-z-oporem.md"
+      hidden: false
+    - title: "2.20.3. Wpływ ćwiczeń na stawy, mięśnie, powięź, krążenie"
+      subchapter: true
+      content_file: "chapters/04-wplyw-cwiczen-na-stawy-miesnie-powiez-krazenie.md"
+      hidden: false
+    - title: "2.20.4. Pojęcie fizykoterapii"
+      subchapter: true
+      content_file: "chapters/05-pojecie-fizykoterapii.md"
+      hidden: false
+    - title: "2.20.5. Rodzaje zabiegów fizykalnych: ciepło, zimno, prąd, światło, ultradźwięki, pole magnetyczne"
+      subchapter: true
+      content_file: "chapters/06-rodzaje-zabiegow-fizykalnych-cieplo-zimno-prad-swiat.md"
+      hidden: false
+    - title: "2.20.6. Wskazania i przeciwwskazania do zabiegów fizykalnych"
+      subchapter: true
+      content_file: "chapters/07-wskazania-i-przeciwwskazania-do-zabiegow-fizykalnych.md"
+      hidden: false
+    - title: "2.20.7. Kolejność: fizykoterapia — masaż — kinezyterapia lub inaczej wg zlecenia"
+      subchapter: true
+      content_file: "chapters/08-kolejnosc-fizykoterapia-masaz-kinezyterapia-lub-inac.md"
+      hidden: false
+    - title: "2.20.8. Ryzyko przegrzania, podrażnienia, uszkodzenia tkanek"
+      subchapter: true
+      content_file: "chapters/09-ryzyko-przegrzania-podraznienia-uszkodzenia-tkanek.md"
+      hidden: false
+    - title: "2.20.9. Współpraca z fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/10-wspolpraca-z-fizjoterapeuta.md"
+      hidden: false
+    - title: "2.20.10. Dokumentacja sekwencji zabiegów"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-sekwencji-zabiegow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

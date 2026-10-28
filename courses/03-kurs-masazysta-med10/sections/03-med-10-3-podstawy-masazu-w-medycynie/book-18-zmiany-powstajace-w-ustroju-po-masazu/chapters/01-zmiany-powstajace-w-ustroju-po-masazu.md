@@ -128,3 +128,9 @@ Temat 3.18 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.18.2. Zmniejszenie napięcia mięśniowego.
 3. Omów zagadnienie: 3.18.3. Zwiększenie zakresu ruchu.
 4. Omów zagadnienie: 3.18.4. Redukcja obrzęku.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-cykl-treningowy-zawodnika.md"
       hidden: false
+
+    - title: "5.2.1. Okres przygotowawczy"
+      subchapter: true
+      content_file: "chapters/02-okres-przygotowawczy.md"
+      hidden: false
+    - title: "5.2.2. Okres startowy"
+      subchapter: true
+      content_file: "chapters/03-okres-startowy.md"
+      hidden: false
+    - title: "5.2.3. Okres przejściowy"
+      subchapter: true
+      content_file: "chapters/04-okres-przejsciowy.md"
+      hidden: false
+    - title: "5.2.4. Mikrocykl, mezo cykl, makrocykl"
+      subchapter: true
+      content_file: "chapters/05-mikrocykl-mezo-cykl-makrocykl.md"
+      hidden: false
+    - title: "5.2.5. Obciążenie treningowe i regeneracja"
+      subchapter: true
+      content_file: "chapters/06-obciazenie-treningowe-i-regeneracja.md"
+      hidden: false
+    - title: "5.2.6. Przeciążenie i przetrenowanie"
+      subchapter: true
+      content_file: "chapters/07-przeciazenie-i-przetrenowanie.md"
+      hidden: false
+    - title: "5.2.7. Kontuzje przetrenowaniowe"
+      subchapter: true
+      content_file: "chapters/08-kontuzje-przetrenowaniowe.md"
+      hidden: false
+    - title: "5.2.8. Sen, odżywianie, nawodnienie"
+      subchapter: true
+      content_file: "chapters/09-sen-odzywianie-nawodnienie.md"
+      hidden: false
+    - title: "5.2.9. Monitorowanie samopoczucia"
+      subchapter: true
+      content_file: "chapters/10-monitorowanie-samopoczucia.md"
+      hidden: false
+    - title: "5.2.10. Dobór masażu do fazy cyklu"
+      subchapter: true
+      content_file: "chapters/11-dobor-masazu-do-fazy-cyklu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

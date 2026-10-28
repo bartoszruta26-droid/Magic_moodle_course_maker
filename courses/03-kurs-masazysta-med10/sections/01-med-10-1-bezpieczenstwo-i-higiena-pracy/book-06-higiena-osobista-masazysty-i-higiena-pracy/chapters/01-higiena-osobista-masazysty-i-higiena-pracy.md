@@ -128,3 +128,9 @@ Temat 1.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.6.2. Stan skóry rąk, paznokci, przedramion.
 3. Omów zagadnienie: 1.6.3. Zakaz biżuterii mogącej uszkodzić pacjenta lub utrudniać higienę.
 4. Omów zagadnienie: 1.6.4. Ubiór roboczy: czysty, zasłaniający, wygodny, łatwy do prania.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

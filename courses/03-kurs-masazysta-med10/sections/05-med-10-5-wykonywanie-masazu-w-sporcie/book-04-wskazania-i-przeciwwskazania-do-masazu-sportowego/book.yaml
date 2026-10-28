@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-masazu-sportowego.md"
       hidden: false
+
+    - title: "5.4.1. Napięcie mięśniowe po treningu"
+      subchapter: true
+      content_file: "chapters/02-napiecie-miesniowe-po-treningu.md"
+      hidden: false
+    - title: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"
+      subchapter: true
+      content_file: "chapters/03-zakwaszenie-i-zmeczenie-rozumiane-funkcjonalnie.md"
+      hidden: false
+    - title: "5.4.3. Drobne przeciążenia"
+      subchapter: true
+      content_file: "chapters/04-drobne-przeciazenia.md"
+      hidden: false
+    - title: "5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej"
+      subchapter: true
+      content_file: "chapters/05-obrzek-pourazowy-tylko-po-kwalifikacji-medycznej.md"
+      hidden: false
+    - title: "5.4.5. Ból ostry — nie masować bez diagnozy"
+      subchapter: true
+      content_file: "chapters/06-bol-ostry-nie-masowac-bez-diagnozy.md"
+      hidden: false
+    - title: "5.4.6. Stan zapalny — przeciwwskazanie"
+      subchapter: true
+      content_file: "chapters/07-stan-zapalny-przeciwwskazanie.md"
+      hidden: false
+    - title: "5.4.7. Gorączka i infekcja — przeciwwskazanie"
+      subchapter: true
+      content_file: "chapters/08-goraczka-i-infekcja-przeciwwskazanie.md"
+      hidden: false
+    - title: "5.4.8. Otwarta rana — przeciwwskazanie miejscowe"
+      subchapter: true
+      content_file: "chapters/09-otwarta-rana-przeciwwskazanie-miejscowe.md"
+      hidden: false
+    - title: "5.4.9. Podejrzenie złamania, zwichnięcia, zerwa — pilna pomoc"
+      subchapter: true
+      content_file: "chapters/10-podejrzenie-zlamania-zwichniecia-zerwa-pilna-pomoc.md"
+      hidden: false
+    - title: "5.4.10. Zasada: nie ukrywaj bólu zawodnika przed lekarzem"
+      subchapter: true
+      content_file: "chapters/11-zasada-nie-ukrywaj-bolu-zawodnika-przed-lekarzem.md"
+      hidden: false
   completion:
     enabled: true
     type: view

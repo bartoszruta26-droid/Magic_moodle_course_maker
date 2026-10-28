@@ -128,3 +128,9 @@ Temat 2.16 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.16.2. Dziecko przedszkolne i szkolne: lęk, dotyk, granice.
 3. Omów zagadnienie: 2.16.3. Młodzież: wrażliwość, intymność, tożsamość.
 4. Omów zagadnienie: 2.16.4. Dorosły: stres, przeciążenia, choroby przewlekłe.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

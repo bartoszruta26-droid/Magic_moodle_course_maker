@@ -128,3 +128,9 @@ Temat 3.16 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.16.2. Masaż w środowisku wodnym: przygotowanie, technika, bezpieczeństwo.
 3. Omów zagadnienie: 3.16.3. Manualny drenaż limfatyczny: kierunek, tempo, pozycja.
 4. Omów zagadnienie: 3.16.4. Masaż łącznotkankowy: strefy, technika, reakcja tkanek.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

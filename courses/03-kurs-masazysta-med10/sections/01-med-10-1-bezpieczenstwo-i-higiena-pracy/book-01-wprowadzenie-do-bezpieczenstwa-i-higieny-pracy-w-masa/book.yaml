@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wprowadzenie-do-bezpieczenstwa-i-higieny-pracy-w-masa.md"
       hidden: false
+
+    - title: "1.1.1. Pojęcie bezpieczeństwa pracy"
+      subchapter: true
+      content_file: "chapters/02-pojecie-bezpieczenstwa-pracy.md"
+      hidden: false
+    - title: "1.1.2. Pojęcie higieny pracy"
+      subchapter: true
+      content_file: "chapters/03-pojecie-higieny-pracy.md"
+      hidden: false
+    - title: "1.1.3. Pojęcie ergonomii"
+      subchapter: true
+      content_file: "chapters/04-pojecie-ergonomii.md"
+      hidden: false
+    - title: "1.1.4. Ochrona przeciwpożarowa"
+      subchapter: true
+      content_file: "chapters/05-ochrona-przeciwpozarowa.md"
+      hidden: false
+    - title: "1.1.5. Ochrona środowiska"
+      subchapter: true
+      content_file: "chapters/06-ochrona-srodowiska.md"
+      hidden: false
+    - title: "1.1.6. Odpowiedzialność pracownika i pracodawcy"
+      subchapter: true
+      content_file: "chapters/07-odpowiedzialnosc-pracownika-i-pracodawcy.md"
+      hidden: false
+    - title: "1.1.7. Kultura bezpieczeństwa w gabinecie masażu"
+      subchapter: true
+      content_file: "chapters/08-kultura-bezpieczenstwa-w-gabinecie-masazu.md"
+      hidden: false
+    - title: "1.1.8. Bezpieczeństwo pacjenta jako pierwszy priorytet"
+      subchapter: true
+      content_file: "chapters/09-bezpieczenstwo-pacjenta-jako-pierwszy-priorytet.md"
+      hidden: false
+    - title: "1.1.9. Bezpieczeństwo masażysty jako warunek trwałej służby"
+      subchapter: true
+      content_file: "chapters/10-bezpieczenstwo-masazysty-jako-warunek-trwalej-sluzby.md"
+      hidden: false
+    - title: "1.1.10. Zasada: nie narażaj siebie, pacjenta ani osób trzecich"
+      subchapter: true
+      content_file: "chapters/11-zasada-nie-narazaj-siebie-pacjenta-ani-osob-trzecich.md"
+      hidden: false
   completion:
     enabled: true
     type: view

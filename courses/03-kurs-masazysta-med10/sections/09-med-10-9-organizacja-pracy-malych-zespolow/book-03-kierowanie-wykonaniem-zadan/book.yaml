@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-kierowanie-wykonaniem-zadan.md"
       hidden: false
+
+    - title: "9.3.1. Ustalanie kolejności działań"
+      subchapter: true
+      content_file: "chapters/02-ustalanie-kolejnosci-dzialan.md"
+      hidden: false
+    - title: "9.3.2. Mobilizowanie współpracowników"
+      subchapter: true
+      content_file: "chapters/03-mobilizowanie-wspolpracownikow.md"
+      hidden: false
+    - title: "9.3.3. Komunikacja instruktażowa"
+      subchapter: true
+      content_file: "chapters/04-komunikacja-instruktazowa.md"
+      hidden: false
+    - title: "9.3.4. Nadzór bez kontroli upokarzającej"
+      subchapter: true
+      content_file: "chapters/05-nadzor-bez-kontroli-upokarzajacej.md"
+      hidden: false
+    - title: "9.3.5. Rozwiązywanie problemów na bieżąco"
+      subchapter: true
+      content_file: "chapters/06-rozwiazywanie-problemow-na-biezaco.md"
+      hidden: false
+    - title: "9.3.6. Bezpieczeństwo jako priorytet kierowania"
+      subchapter: true
+      content_file: "chapters/07-bezpieczenstwo-jako-priorytet-kierowania.md"
+      hidden: false
+    - title: "9.3.7. Ocena procesu pracy"
+      subchapter: true
+      content_file: "chapters/08-ocena-procesu-pracy.md"
+      hidden: false
+    - title: "9.3.8. Informacja zwrotna"
+      subchapter: true
+      content_file: "chapters/09-informacja-zwrotna.md"
+      hidden: false
+    - title: "9.3.9. Dokumentowanie decyzji"
+      subchapter: true
+      content_file: "chapters/10-dokumentowanie-decyzji.md"
+      hidden: false
+    - title: "9.3.10. Odpowiedzialność lidera i zespołu"
+      subchapter: true
+      content_file: "chapters/11-odpowiedzialnosc-lidera-i-zespolu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

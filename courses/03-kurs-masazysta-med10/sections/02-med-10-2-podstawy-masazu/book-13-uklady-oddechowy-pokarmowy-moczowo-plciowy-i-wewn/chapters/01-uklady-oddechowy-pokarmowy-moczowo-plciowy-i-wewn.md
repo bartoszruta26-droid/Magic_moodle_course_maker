@@ -128,3 +128,9 @@ Temat 2.13 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.13.2. Mechanika oddychania: przepona, żebra, mięśnie pomocnicze.
 3. Omów zagadnienie: 2.13.3. Wymiana gazowa i wentylacja.
 4. Omów zagadnienie: 2.13.4. Przewód pokarmowy i gruczoły trawienne.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

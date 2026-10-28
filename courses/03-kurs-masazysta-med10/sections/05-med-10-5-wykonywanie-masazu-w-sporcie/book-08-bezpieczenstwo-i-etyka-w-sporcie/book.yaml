@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-bezpieczenstwo-i-etyka-w-sporcie.md"
       hidden: false
+
+    - title: "5.8.1. Zakaz maskowania bólu kosztem zdrowia"
+      subchapter: true
+      content_file: "chapters/02-zakaz-maskowania-bolu-kosztem-zdrowia.md"
+      hidden: false
+    - title: "5.8.2. Zakaz stosowania środków dopingujących przez masażystę"
+      subchapter: true
+      content_file: "chapters/03-zakaz-stosowania-srodkow-dopingujacych-przez-masazys.md"
+      hidden: false
+    - title: "5.8.3. Ochrona prywatności zawodnika"
+      subchapter: true
+      content_file: "chapters/04-ochrona-prywatnosci-zawodnika.md"
+      hidden: false
+    - title: "5.8.4. Relacja z trenerem: asertywność"
+      subchapter: true
+      content_file: "chapters/05-relacja-z-trenerem-asertywnosc.md"
+      hidden: false
+    - title: "5.8.5. Presja wyniku a dobro pacjenta"
+      subchapter: true
+      content_file: "chapters/06-presja-wyniku-a-dobro-pacjenta.md"
+      hidden: false
+    - title: "5.8.6. Małoletni: zgoda opiekuna"
+      subchapter: true
+      content_file: "chapters/07-maloletni-zgoda-opiekuna.md"
+      hidden: false
+    - title: "5.8.7. Kobiety w ciąży w sporcie — ograniczenia"
+      subchapter: true
+      content_file: "chapters/08-kobiety-w-ciazy-w-sporcie-ograniczenia.md"
+      hidden: false
+    - title: "5.8.8. Osoby z chorobami przewlekłymi"
+      subchapter: true
+      content_file: "chapters/09-osoby-z-chorobami-przewleklymi.md"
+      hidden: false
+    - title: "5.8.9. Dokumentacja zdarzeń niepożądanych"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja-zdarzen-niepozadanych.md"
+      hidden: false
+    - title: "5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku"
+      subchapter: true
+      content_file: "chapters/11-zasada-sportowiec-to-czlowiek-nie-narzedzie-wyniku.md"
+      hidden: false
   completion:
     enabled: true
     type: view

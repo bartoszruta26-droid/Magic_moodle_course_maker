@@ -128,3 +128,9 @@ Temat 3.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.9.2. Łuszczyca.
 3. Omów zagadnienie: 3.9.3. Trądzik i zmiany ropne.
 4. Omów zagadnienie: 3.9.4. Grzybice skóry i paznokci.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zaburzenia-skory-i-tkanki-podskornej.md"
       hidden: false
+
+    - title: "3.9.1. Egzema i atopowe zapalenie skóry"
+      subchapter: true
+      content_file: "chapters/02-egzema-i-atopowe-zapalenie-skory.md"
+      hidden: false
+    - title: "3.9.2. Łuszczyca"
+      subchapter: true
+      content_file: "chapters/03-luszczyca.md"
+      hidden: false
+    - title: "3.9.3. Trądzik i zmiany ropne"
+      subchapter: true
+      content_file: "chapters/04-tradzik-i-zmiany-ropne.md"
+      hidden: false
+    - title: "3.9.4. Grzybice skóry i paznokci"
+      subchapter: true
+      content_file: "chapters/05-grzybice-skory-i-paznokci.md"
+      hidden: false
+    - title: "3.9.5. Pokrzywka i obrzęk naczynioruchowy"
+      subchapter: true
+      content_file: "chapters/06-pokrzywka-i-obrzek-naczynioruchowy.md"
+      hidden: false
+    - title: "3.9.6. Owrzodzenia żylakowe i odleżyny"
+      subchapter: true
+      content_file: "chapters/07-owrzodzenia-zylakowe-i-odlezyny.md"
+      hidden: false
+    - title: "3.9.7. Blizny przerostowe i keloidy"
+      subchapter: true
+      content_file: "chapters/08-blizny-przerostowe-i-keloidy.md"
+      hidden: false
+    - title: "3.9.8. Rozstępy"
+      subchapter: true
+      content_file: "chapters/09-rozstepy.md"
+      hidden: false
+    - title: "3.9.9. Cellulite i zmiany troficzne"
+      subchapter: true
+      content_file: "chapters/10-cellulite-i-zmiany-troficzne.md"
+      hidden: false
+    - title: "3.9.10. Masaż przy zmianach skórnych: kiedy nie wolno"
+      subchapter: true
+      content_file: "chapters/11-masaz-przy-zmianach-skornych-kiedy-nie-wolno.md"
+      hidden: false
   completion:
     enabled: true
     type: view

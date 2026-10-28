@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-techniki-masazu-klasycznego-teoria.md"
       hidden: false
+
+    - title: "2.17.1. Głaskanie: muskanie, powierzchowne, głębokie, płaskie, obejmujące"
+      subchapter: true
+      content_file: "chapters/02-glaskanie-muskanie-powierzchowne-glebokie-plaskie-ob.md"
+      hidden: false
+    - title: "2.17.2. Rozcieranie: koliste, spiralne, podłużne, poprzeczne, okrężne"
+      subchapter: true
+      content_file: "chapters/03-rozcieranie-koliste-spiralne-podluzne-poprzeczne-okr.md"
+      hidden: false
+    - title: "2.17.3. Ugniatanie: poprzeczne, podłużne, esowate, ze skręceniem, mieszenie"
+      subchapter: true
+      content_file: "chapters/04-ugniatanie-poprzeczne-podluzne-esowate-ze-skreceniem.md"
+      hidden: false
+    - title: "2.17.4. Oklepywanie: miotełkowe, półpiąstkowe, łyżeczkowe, karatowe, piąstkowe"
+      subchapter: true
+      content_file: "chapters/05-oklepywanie-miotelkowe-polpiastkowe-lyzeczkowe-karat.md"
+      hidden: false
+    - title: "2.17.5. Wibracja: pionowa, podłużna, poprzeczna, bezpośrednia, pośrednia"
+      subchapter: true
+      content_file: "chapters/06-wibracja-pionowa-podluzna-poprzeczna-bezposrednia-po.md"
+      hidden: false
+    - title: "2.17.6. Roztrząsanie"
+      subchapter: true
+      content_file: "chapters/07-roztrzasanie.md"
+      hidden: false
+    - title: "2.17.7. Wałkowanie"
+      subchapter: true
+      content_file: "chapters/08-walkowanie.md"
+      hidden: false
+    - title: "2.17.8. Uciski"
+      subchapter: true
+      content_file: "chapters/09-uciski.md"
+      hidden: false
+    - title: "2.17.9. Naciąganie i trakcje"
+      subchapter: true
+      content_file: "chapters/10-naciaganie-i-trakcje.md"
+      hidden: false
+    - title: "2.17.10. Kolejność technik i kierunek dosercowy"
+      subchapter: true
+      content_file: "chapters/11-kolejnosc-technik-i-kierunek-dosercowy.md"
+      hidden: false
   completion:
     enabled: true
     type: view

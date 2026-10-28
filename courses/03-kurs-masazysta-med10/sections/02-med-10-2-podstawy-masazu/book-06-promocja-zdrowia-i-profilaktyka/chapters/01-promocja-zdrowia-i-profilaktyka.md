@@ -128,3 +128,9 @@ Temat 2.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.6.2. Czynniki warunkujące utrzymanie zdrowia.
 3. Omów zagadnienie: 2.6.3. Czynniki negatywnie wpływające na zdrowie.
 4. Omów zagadnienie: 2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

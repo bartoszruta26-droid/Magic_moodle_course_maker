@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ochrona-przeciwpozarowa-i-ewakuacja.md"
       hidden: false
+
+    - title: "1.11.1. Znaki zakazu, nakazu, ostrzegawcze, ewakuacyjne"
+      subchapter: true
+      content_file: "chapters/02-znaki-zakazu-nakazu-ostrzegawcze-ewakuacyjne.md"
+      hidden: false
+    - title: "1.11.2. Sygnały alarmowe"
+      subchapter: true
+      content_file: "chapters/03-sygnaly-alarmowe.md"
+      hidden: false
+    - title: "1.11.3. Gaśnice i ich rodzaje"
+      subchapter: true
+      content_file: "chapters/04-gasnice-i-ich-rodzaje.md"
+      hidden: false
+    - title: "1.11.4. Zasady ewakuacji osoby leżącej na stole do masażu"
+      subchapter: true
+      content_file: "chapters/05-zasady-ewakuacji-osoby-lezacej-na-stole-do-masazu.md"
+      hidden: false
+    - title: "1.11.5. Ewakuacja osób z niepełnosprawnością"
+      subchapter: true
+      content_file: "chapters/06-ewakuacja-osob-z-niepelnosprawnoscia.md"
+      hidden: false
+    - title: "1.11.6. Postępowanie przy pożarze środków chemicznych"
+      subchapter: true
+      content_file: "chapters/07-postepowanie-przy-pozarze-srodkow-chemicznych.md"
+      hidden: false
+    - title: "1.11.7. Drogi ewakuacyjne i ich oznakowanie"
+      subchapter: true
+      content_file: "chapters/08-drogi-ewakuacyjne-i-ich-oznakowanie.md"
+      hidden: false
+    - title: "1.11.8. Ćwiczenia ewakuacyjne"
+      subchapter: true
+      content_file: "chapters/09-cwiczenia-ewakuacyjne.md"
+      hidden: false
+    - title: "1.11.9. Pierwsza pomoc w oparzeniach"
+      subchapter: true
+      content_file: "chapters/10-pierwsza-pomoc-w-oparzeniach.md"
+      hidden: false
+    - title: "1.11.10. Zasada: bezpieczeństwo życia ponad mieniem"
+      subchapter: true
+      content_file: "chapters/11-zasada-bezpieczenstwo-zycia-ponad-mieniem.md"
+      hidden: false
   completion:
     enabled: true
     type: view

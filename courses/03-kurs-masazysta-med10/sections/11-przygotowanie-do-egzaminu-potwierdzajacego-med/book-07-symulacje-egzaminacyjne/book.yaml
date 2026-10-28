@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-symulacje-egzaminacyjne.md"
       hidden: false
+
+    - title: "11.7.1. Wykonanie masażu klasycznego wybranej okolicy"
+      subchapter: true
+      content_file: "chapters/02-wykonanie-masazu-klasycznego-wybranej-okolicy.md"
+      hidden: false
+    - title: "11.7.2. Wykonanie elementów drenażu limfatycznego"
+      subchapter: true
+      content_file: "chapters/03-wykonanie-elementow-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "11.7.3. Wykonanie chwytu diagnostycznego masażu segmentarnego"
+      subchapter: true
+      content_file: "chapters/04-wykonanie-chwytu-diagnostycznego-masazu-segmentarneg.md"
+      hidden: false
+    - title: "11.7.4. Prowadzenie wywiadu i dokumentacji"
+      subchapter: true
+      content_file: "chapters/05-prowadzenie-wywiadu-i-dokumentacji.md"
+      hidden: false
+    - title: "11.7.5. Reakcja na ból pacjenta"
+      subchapter: true
+      content_file: "chapters/06-reakcja-na-bol-pacjenta.md"
+      hidden: false
+    - title: "11.7.6. Reakcja na omdlenie"
+      subchapter: true
+      content_file: "chapters/07-reakcja-na-omdlenie.md"
+      hidden: false
+    - title: "11.7.7. Rozpoznanie przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/08-rozpoznanie-przeciwwskazania.md"
+      hidden: false
+    - title: "11.7.8. Skierowanie do lekarza"
+      subchapter: true
+      content_file: "chapters/09-skierowanie-do-lekarza.md"
+      hidden: false
+    - title: "11.7.9. Ocena BHP stanowiska"
+      subchapter: true
+      content_file: "chapters/10-ocena-bhp-stanowiska.md"
+      hidden: false
+    - title: "11.7.10. Informacja zwrotna i korekta błędów"
+      subchapter: true
+      content_file: "chapters/11-informacja-zwrotna-i-korekta-bledow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

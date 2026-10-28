@@ -128,3 +128,9 @@ Temat 11.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.8.2. Przygotowanie pacjenta.
 3. Omów zagadnienie: 11.8.3. Zgoda i informacja.
 4. Omów zagadnienie: 11.8.4. Dobór techniki.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

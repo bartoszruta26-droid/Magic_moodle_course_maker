@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-rodzaje-masazu-prozdrowotnego.md"
       hidden: false
+
+    - title: "6.2.1. Masaż profilaktyczny"
+      subchapter: true
+      content_file: "chapters/02-masaz-profilaktyczny.md"
+      hidden: false
+    - title: "6.2.2. Masaż relaksacyjny"
+      subchapter: true
+      content_file: "chapters/03-masaz-relaksacyjny.md"
+      hidden: false
+    - title: "6.2.3. Masaż bez przyrządów"
+      subchapter: true
+      content_file: "chapters/04-masaz-bez-przyrzadow.md"
+      hidden: false
+    - title: "6.2.4. Masaż gorącymi kamieniami"
+      subchapter: true
+      content_file: "chapters/05-masaz-goracymi-kamieniami.md"
+      hidden: false
+    - title: "6.2.5. Masaż biurowy"
+      subchapter: true
+      content_file: "chapters/06-masaz-biurowy.md"
+      hidden: false
+    - title: "6.2.6. Masaż antystresowy"
+      subchapter: true
+      content_file: "chapters/07-masaz-antystresowy.md"
+      hidden: false
+    - title: "6.2.7. Masaż dla osób pracujących przy komputerze"
+      subchapter: true
+      content_file: "chapters/08-masaz-dla-osob-pracujacych-przy-komputerze.md"
+      hidden: false
+    - title: "6.2.8. Masaż dla osób starszych w celach profilaktycznych"
+      subchapter: true
+      content_file: "chapters/09-masaz-dla-osob-starszych-w-celach-profilaktycznych.md"
+      hidden: false
+    - title: "6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza"
+      subchapter: true
+      content_file: "chapters/10-masaz-dla-kobiet-w-ciazy-tylko-bezpieczny-i-za-zgoda.md"
+      hidden: false
+    - title: "6.2.10. Masaż dla sportowców amatorów"
+      subchapter: true
+      content_file: "chapters/11-masaz-dla-sportowcow-amatorow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

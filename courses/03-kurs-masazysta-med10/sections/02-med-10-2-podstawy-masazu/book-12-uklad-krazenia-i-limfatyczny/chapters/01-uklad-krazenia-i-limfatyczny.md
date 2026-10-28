@@ -128,3 +128,9 @@ Temat 2.12 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.12.2. Tętnice, żyły, naczynia włosowate.
 3. Omów zagadnienie: 2.12.3. Mikrokrążenie.
 4. Omów zagadnienie: 2.12.4. Powrót żylny: pompa mięśniowa, zastawki, gradient ciśnienia.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-nieurazowe-zaburzenia-ukladu-narzadu-ruchu.md"
       hidden: false
+
+    - title: "3.2.1. Choroba zwyrodnieniowa stawów"
+      subchapter: true
+      content_file: "chapters/02-choroba-zwyrodnieniowa-stawow.md"
+      hidden: false
+    - title: "3.2.2. Dyskopatia i zespoły bólowe kręgosłupa"
+      subchapter: true
+      content_file: "chapters/03-dyskopatia-i-zespoly-bolowe-kregoslupa.md"
+      hidden: false
+    - title: "3.2.3. Zesztywniające zapalenie stawów kręgosłupa"
+      subchapter: true
+      content_file: "chapters/04-zesztywniajace-zapalenie-stawow-kregoslupa.md"
+      hidden: false
+    - title: "3.2.4. Reumatoidalne zapalenie stawów"
+      subchapter: true
+      content_file: "chapters/05-reumatoidalne-zapalenie-stawow.md"
+      hidden: false
+    - title: "3.2.5. Młodzieńcze idiopatyczne zapalenie stawów"
+      subchapter: true
+      content_file: "chapters/06-mlodziencze-idiopatyczne-zapalenie-stawow.md"
+      hidden: false
+    - title: "3.2.6. Twardzina układowa i choroby tkanki łącznej"
+      subchapter: true
+      content_file: "chapters/07-twardzina-ukladowa-i-choroby-tkanki-lacznej.md"
+      hidden: false
+    - title: "3.2.7. Dna moczanowa i inne choroby metaboliczne stawów"
+      subchapter: true
+      content_file: "chapters/08-dna-moczanowa-i-inne-choroby-metaboliczne-stawow.md"
+      hidden: false
+    - title: "3.2.8. Osteoporoza i ryzyko złamań"
+      subchapter: true
+      content_file: "chapters/09-osteoporoza-i-ryzyko-zlaman.md"
+      hidden: false
+    - title: "3.2.9. Fibromialgia i zespoły bólu uogólnionego"
+      subchapter: true
+      content_file: "chapters/10-fibromialgia-i-zespoly-bolu-uogolnionego.md"
+      hidden: false
+    - title: "3.2.10. Wady postawy i zniekształcenia"
+      subchapter: true
+      content_file: "chapters/11-wady-postawy-i-znieksztalcenia.md"
+      hidden: false
   completion:
     enabled: true
     type: view

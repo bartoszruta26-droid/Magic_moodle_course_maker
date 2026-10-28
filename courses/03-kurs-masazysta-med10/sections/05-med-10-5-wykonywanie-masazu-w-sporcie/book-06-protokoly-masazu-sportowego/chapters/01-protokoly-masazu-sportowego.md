@@ -128,3 +128,9 @@ Temat 5.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 5.6.2. Po treningu: odprowadzenie metabolitów, rozluźnienie.
 3. Omów zagadnienie: 5.6.3. Przed zawodami: szybko, pobudzająco, bez zmęczenia tkanki.
 4. Omów zagadnienie: 5.6.4. Między startami: krótko, regeneracyjnie.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

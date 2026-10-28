@@ -128,3 +128,9 @@ Temat 4.14 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.14.2. Palpacja punktów.
 3. Omów zagadnienie: 4.14.3. Kompresja ischemiczna.
 4. Omów zagadnienie: 4.14.4. Stretching po kompresji.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

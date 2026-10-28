@@ -128,3 +128,9 @@ Temat 1.10 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.10.2. Odpady medyczne i komunalne.
 3. Omów zagadnienie: 1.10.3. Pojemniki na ostre przedmioty — jeśli występują.
 4. Omów zagadnienie: 1.10.4. Dezaktywacja i dezynfekcja powierzchni.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-rodzaje-masazu-w-sporcie.md"
       hidden: false
+
+    - title: "5.3.1. Masaż podtrzymujący"
+      subchapter: true
+      content_file: "chapters/02-masaz-podtrzymujacy.md"
+      hidden: false
+    - title: "5.3.2. Masaż przedstartowy"
+      subchapter: true
+      content_file: "chapters/03-masaz-przedstartowy.md"
+      hidden: false
+    - title: "5.3.3. Masaż międzystartowy"
+      subchapter: true
+      content_file: "chapters/04-masaz-miedzystartowy.md"
+      hidden: false
+    - title: "5.3.4. Masaż treningowy/powysiłkowy"
+      subchapter: true
+      content_file: "chapters/05-masaz-treningowy-powysilkowy.md"
+      hidden: false
+    - title: "5.3.5. Masaż regeneracyjny"
+      subchapter: true
+      content_file: "chapters/06-masaz-regeneracyjny.md"
+      hidden: false
+    - title: "5.3.6. Masaż rozgrzewkowy"
+      subchapter: true
+      content_file: "chapters/07-masaz-rozgrzewkowy.md"
+      hidden: false
+    - title: "5.3.7. Masaż schładzający"
+      subchapter: true
+      content_file: "chapters/08-masaz-schladzajacy.md"
+      hidden: false
+    - title: "5.3.8. Masaż w podróży i po podróży"
+      subchapter: true
+      content_file: "chapters/09-masaz-w-podrozy-i-po-podrozy.md"
+      hidden: false
+    - title: "5.3.9. Masaż przy obniżonej odporności — ostrożność"
+      subchapter: true
+      content_file: "chapters/10-masaz-przy-obnizonej-odpornosci-ostroznosc.md"
+      hidden: false
+    - title: "5.3.10. Przeciwwskazania w sporcie"
+      subchapter: true
+      content_file: "chapters/11-przeciwwskazania-w-sporcie.md"
+      hidden: false
   completion:
     enabled: true
     type: view

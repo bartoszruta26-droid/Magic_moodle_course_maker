@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-postepowanie-z-materialami-biologicznie-skazonymi.md"
       hidden: false
+
+    - title: "1.10.1. Krew, wydzieliny, pot, łojotok, zmiany skórne"
+      subchapter: true
+      content_file: "chapters/02-krew-wydzieliny-pot-lojotok-zmiany-skorne.md"
+      hidden: false
+    - title: "1.10.2. Odpady medyczne i komunalne"
+      subchapter: true
+      content_file: "chapters/03-odpady-medyczne-i-komunalne.md"
+      hidden: false
+    - title: "1.10.3. Pojemniki na ostre przedmioty — jeśli występują"
+      subchapter: true
+      content_file: "chapters/04-pojemniki-na-ostre-przedmioty-jesli-wystepuja.md"
+      hidden: false
+    - title: "1.10.4. Dezaktywacja i dezynfekcja powierzchni"
+      subchapter: true
+      content_file: "chapters/05-dezaktywacja-i-dezynfekcja-powierzchni.md"
+      hidden: false
+    - title: "1.10.5. Pranie tekstyliów skażonych"
+      subchapter: true
+      content_file: "chapters/06-pranie-tekstyliow-skazonych.md"
+      hidden: false
+    - title: "1.10.6. Zasady postępowania po ekspozycji na czynnik zakaźny"
+      subchapter: true
+      content_file: "chapters/07-zasady-postepowania-po-ekspozycji-na-czynnik-zakazny.md"
+      hidden: false
+    - title: "1.10.7. Zgłaszanie zdarzenia niepożądanego"
+      subchapter: true
+      content_file: "chapters/08-zglaszanie-zdarzenia-niepozadanego.md"
+      hidden: false
+    - title: "1.10.8. Dokumentacja incydentu"
+      subchapter: true
+      content_file: "chapters/09-dokumentacja-incydentu.md"
+      hidden: false
+    - title: "1.10.9. Profilaktyka poekspozycyjna we współpracy z lekarzem"
+      subchapter: true
+      content_file: "chapters/10-profilaktyka-poekspozycyjna-we-wspolpracy-z-lekarzem.md"
+      hidden: false
+    - title: "1.10.10. Ochrona danych i godności pacjenta przy zdarzeniach biologicznych"
+      subchapter: true
+      content_file: "chapters/11-ochrona-danych-i-godnosci-pacjenta-przy-zdarzeniach-.md"
+      hidden: false
   completion:
     enabled: true
     type: view

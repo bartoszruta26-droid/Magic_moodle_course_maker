@@ -128,3 +128,9 @@ Temat 4.20 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.20.2. Pozycje bezpieczne.
 3. Omów zagadnienie: 4.20.3. Unikanie ucisku brzucha.
 4. Omów zagadnienie: 4.20.4. Obrzęki kończyn dolnych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

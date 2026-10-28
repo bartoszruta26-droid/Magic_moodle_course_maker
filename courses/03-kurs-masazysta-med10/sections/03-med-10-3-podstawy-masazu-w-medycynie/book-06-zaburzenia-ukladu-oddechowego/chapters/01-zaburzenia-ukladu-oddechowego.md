@@ -128,3 +128,9 @@ Temat 3.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.6.2. Astma oskrzelowa.
 3. Omów zagadnienie: 3.6.3. POChP.
 4. Omów zagadnienie: 3.6.4. Rozstrzenie oskrzeli.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

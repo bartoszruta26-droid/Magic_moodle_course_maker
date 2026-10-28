@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-higiena-osobista-masazysty-i-higiena-pracy.md"
       hidden: false
+
+    - title: "1.6.1. Czystość rąk: mycie i dezynfekcja"
+      subchapter: true
+      content_file: "chapters/02-czystosc-rak-mycie-i-dezynfekcja.md"
+      hidden: false
+    - title: "1.6.2. Stan skóry rąk, paznokci, przedramion"
+      subchapter: true
+      content_file: "chapters/03-stan-skory-rak-paznokci-przedramion.md"
+      hidden: false
+    - title: "1.6.3. Zakaz biżuterii mogącej uszkodzić pacjenta lub utrudniać higienę"
+      subchapter: true
+      content_file: "chapters/04-zakaz-bizuterii-mogacej-uszkodzic-pacjenta-lub-utrud.md"
+      hidden: false
+    - title: "1.6.4. Ubiór roboczy: czysty, zasłaniający, wygodny, łatwy do prania"
+      subchapter: true
+      content_file: "chapters/05-ubior-roboczy-czysty-zaslaniajacy-wygodny-latwy-do-p.md"
+      hidden: false
+    - title: "1.6.5. Obuwie zamknięte, stabilne, łatwe do dezynfekcji"
+      subchapter: true
+      content_file: "chapters/06-obuwie-zamkniete-stabilne-latwe-do-dezynfekcji.md"
+      hidden: false
+    - title: "1.6.6. Włosy spięte, broda zadbana, higiena jamy ustnej"
+      subchapter: true
+      content_file: "chapters/07-wlosy-spiete-broda-zadbana-higiena-jamy-ustnej.md"
+      hidden: false
+    - title: "1.6.7. Zakaz jedzenia i picia w strefie zabiegowej"
+      subchapter: true
+      content_file: "chapters/08-zakaz-jedzenia-i-picia-w-strefie-zabiegowej.md"
+      hidden: false
+    - title: "1.6.8. Postępowanie przy ranach, otarciach, zmianach skórnych masażysty"
+      subchapter: true
+      content_file: "chapters/09-postepowanie-przy-ranach-otarciach-zmianach-skornych.md"
+      hidden: false
+    - title: "1.6.9. Samokontrola zdrowia: objawy wykluczające wykonywanie zabiegów"
+      subchapter: true
+      content_file: "chapters/10-samokontrola-zdrowia-objawy-wykluczajace-wykonywanie.md"
+      hidden: false
+    - title: "1.6.10. Zasada: nie wykonuj masażu, jeśli zagrażasz pacjentowi"
+      subchapter: true
+      content_file: "chapters/11-zasada-nie-wykonuj-masazu-jesli-zagrazasz-pacjentowi.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -128,3 +128,9 @@ Temat 4.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.6.2. Pozycja na plecach.
 3. Omów zagadnienie: 4.6.3. Pozycja na boku.
 4. Omów zagadnienie: 4.6.4. Pozycja siedząca.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

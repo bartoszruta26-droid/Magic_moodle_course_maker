@@ -128,3 +128,9 @@ Temat 4.22 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.22.2. Przygotowanie stanowiska.
 3. Omów zagadnienie: 4.22.3. Dobór głowic.
 4. Omów zagadnienie: 4.22.4. Kierunek i tempo.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

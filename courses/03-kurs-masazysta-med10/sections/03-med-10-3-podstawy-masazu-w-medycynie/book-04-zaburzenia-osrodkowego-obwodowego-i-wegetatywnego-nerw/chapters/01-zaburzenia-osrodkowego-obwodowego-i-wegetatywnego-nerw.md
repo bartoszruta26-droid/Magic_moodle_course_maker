@@ -128,3 +128,9 @@ Temat 3.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.4.2. Dziecięce porażenie mózgowe.
 3. Omów zagadnienie: 3.4.3. Stwardnienie rozsiane.
 4. Omów zagadnienie: 3.4.4. Choroba Parkinsona.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

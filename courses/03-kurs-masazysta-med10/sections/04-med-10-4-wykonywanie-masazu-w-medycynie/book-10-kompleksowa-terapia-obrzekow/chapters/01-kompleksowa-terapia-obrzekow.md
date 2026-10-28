@@ -128,3 +128,9 @@ Temat 4.10 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.10.2. Ćwiczenia fizyczne i oddechowe.
 3. Omów zagadnienie: 4.10.3. Autodrenaż pacjenta.
 4. Omów zagadnienie: 4.10.4. Kompresjoterapia.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

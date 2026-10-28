@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-urazy-ukladu-narzadu-ruchu.md"
       hidden: false
+
+    - title: "3.3.1. Stłuczenia i zmiażdżenia"
+      subchapter: true
+      content_file: "chapters/02-stluczenia-i-zmiazdzenia.md"
+      hidden: false
+    - title: "3.3.2. Rany i blizny"
+      subchapter: true
+      content_file: "chapters/03-rany-i-blizny.md"
+      hidden: false
+    - title: "3.3.3. Oparzenia i odmrożenia"
+      subchapter: true
+      content_file: "chapters/04-oparzenia-i-odmrozenia.md"
+      hidden: false
+    - title: "3.3.4. Skręcenia"
+      subchapter: true
+      content_file: "chapters/05-skrecenia.md"
+      hidden: false
+    - title: "3.3.5. Zwichnięcia"
+      subchapter: true
+      content_file: "chapters/06-zwichniecia.md"
+      hidden: false
+    - title: "3.3.6. Złamania"
+      subchapter: true
+      content_file: "chapters/07-zlamania.md"
+      hidden: false
+    - title: "3.3.7. Uszkodzenia mięśni i ścięgien"
+      subchapter: true
+      content_file: "chapters/08-uszkodzenia-miesni-i-sciegien.md"
+      hidden: false
+    - title: "3.3.8. Uszkodzenia więzadeł i łąkotek"
+      subchapter: true
+      content_file: "chapters/09-uszkodzenia-wiezadel-i-lakotek.md"
+      hidden: false
+    - title: "3.3.9. Amputacje i stan po protezowaniu"
+      subchapter: true
+      content_file: "chapters/10-amputacje-i-stan-po-protezowaniu.md"
+      hidden: false
+    - title: "3.3.10. Zespoły pourazowe i przewlekłe bóle po urazie"
+      subchapter: true
+      content_file: "chapters/11-zespoly-pourazowe-i-przewlekle-bole-po-urazie.md"
+      hidden: false
   completion:
     enabled: true
     type: view

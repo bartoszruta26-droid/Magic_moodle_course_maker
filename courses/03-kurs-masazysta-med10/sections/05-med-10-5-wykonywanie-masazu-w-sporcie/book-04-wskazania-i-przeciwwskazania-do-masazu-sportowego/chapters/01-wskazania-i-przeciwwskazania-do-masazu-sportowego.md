@@ -128,3 +128,9 @@ Temat 5.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie.
 3. Omów zagadnienie: 5.4.3. Drobne przeciążenia.
 4. Omów zagadnienie: 5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

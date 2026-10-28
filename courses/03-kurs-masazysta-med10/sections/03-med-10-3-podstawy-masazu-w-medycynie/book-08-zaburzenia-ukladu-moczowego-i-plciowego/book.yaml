@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zaburzenia-ukladu-moczowego-i-plciowego.md"
       hidden: false
+
+    - title: "3.8.1. Kamica nerkowa i moczowodowa"
+      subchapter: true
+      content_file: "chapters/02-kamica-nerkowa-i-moczowodowa.md"
+      hidden: false
+    - title: "3.8.2. Zapalenie nerek i pęcherza"
+      subchapter: true
+      content_file: "chapters/03-zapalenie-nerek-i-pecherza.md"
+      hidden: false
+    - title: "3.8.3. Nietrzymanie moczu"
+      subchapter: true
+      content_file: "chapters/04-nietrzymanie-moczu.md"
+      hidden: false
+    - title: "3.8.4. Dolegliwości prostaty"
+      subchapter: true
+      content_file: "chapters/05-dolegliwosci-prostaty.md"
+      hidden: false
+    - title: "3.8.5. Dolegliwości menstruacyjne"
+      subchapter: true
+      content_file: "chapters/06-dolegliwosci-menstruacyjne.md"
+      hidden: false
+    - title: "3.8.6. Stan po operacjach ginekologicznych i urologicznych"
+      subchapter: true
+      content_file: "chapters/07-stan-po-operacjach-ginekologicznych-i-urologicznych.md"
+      hidden: false
+    - title: "3.8.7. Ciąża fizjologiczna i zagrożona"
+      subchapter: true
+      content_file: "chapters/08-ciaza-fizjologiczna-i-zagrozona.md"
+      hidden: false
+    - title: "3.8.8. Połóg i regeneracja poporodowa"
+      subchapter: true
+      content_file: "chapters/09-polog-i-regeneracja-poporodowa.md"
+      hidden: false
+    - title: "3.8.9. Laktacja i obrzęk piersi — tylko w granicach kompetencji"
+      subchapter: true
+      content_file: "chapters/10-laktacja-i-obrzek-piersi-tylko-w-granicach-kompetenc.md"
+      hidden: false
+    - title: "3.8.10. Intymność, wstyd, zgoda i obecność osoby zaufanej"
+      subchapter: true
+      content_file: "chapters/11-intymnosc-wstyd-zgoda-i-obecnosc-osoby-zaufanej.md"
+      hidden: false
   completion:
     enabled: true
     type: view

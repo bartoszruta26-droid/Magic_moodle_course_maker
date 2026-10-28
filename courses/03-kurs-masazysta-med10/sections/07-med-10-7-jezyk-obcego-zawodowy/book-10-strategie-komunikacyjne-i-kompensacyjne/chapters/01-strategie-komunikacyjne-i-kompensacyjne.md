@@ -128,3 +128,9 @@ Temat 7.10 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 7.10.2. Using translation technology responsibly.
 3. Omów zagadnienie: 7.10.3. Recognizing international words.
 4. Omów zagadnienie: 7.10.4. Paraphrasing unknown terms.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

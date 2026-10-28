@@ -128,3 +128,9 @@ Temat 5.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 5.3.2. Masaż przedstartowy.
 3. Omów zagadnienie: 5.3.3. Masaż międzystartowy.
 4. Omów zagadnienie: 5.3.4. Masaż treningowy/powysiłkowy.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

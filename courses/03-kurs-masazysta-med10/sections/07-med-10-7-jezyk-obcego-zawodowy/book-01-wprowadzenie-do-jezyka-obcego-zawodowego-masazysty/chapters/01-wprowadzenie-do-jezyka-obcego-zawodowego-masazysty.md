@@ -128,3 +128,9 @@ Temat 7.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 7.1.2. Wybór języka: najczęściej angielski, opcjonalnie niemiecki.
 3. Omów zagadnienie: 7.1.3. Podstawy wymowy i zrozumienia.
 4. Omów zagadnienie: 7.1.4. Słownictwo kluczowe.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

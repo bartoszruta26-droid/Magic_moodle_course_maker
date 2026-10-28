@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-stawowy.md"
       hidden: false
+
+    - title: "4.18.1. Mobilizacja stawów"
+      subchapter: true
+      content_file: "chapters/02-mobilizacja-stawow.md"
+      hidden: false
+    - title: "4.18.2. Trakcja, kompresja, rotacja, ślizg"
+      subchapter: true
+      content_file: "chapters/03-trakcja-kompresja-rotacja-slizg.md"
+      hidden: false
+    - title: "4.18.3. Stopnie ruchu"
+      subchapter: true
+      content_file: "chapters/04-stopnie-ruchu.md"
+      hidden: false
+    - title: "4.18.4. Ból i end-feel"
+      subchapter: true
+      content_file: "chapters/05-bol-i-end-feel.md"
+      hidden: false
+    - title: "4.18.5. Przeciwwskazania: niestabilność, ostry stan zapalny, uszkodzenie więzadeł"
+      subchapter: true
+      content_file: "chapters/06-przeciwwskazania-niestabilnosc-ostry-stan-zapalny-us.md"
+      hidden: false
+    - title: "4.18.6. Współpraca z fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/07-wspolpraca-z-fizjoterapeuta.md"
+      hidden: false
+    - title: "4.18.7. Zastosowanie w ograniczeniu ruchomości"
+      subchapter: true
+      content_file: "chapters/08-zastosowanie-w-ograniczeniu-ruchomosci.md"
+      hidden: false
+    - title: "4.18.8. Ryzyko uszkodzenia torebki stawowej"
+      subchapter: true
+      content_file: "chapters/09-ryzyko-uszkodzenia-torebki-stawowej.md"
+      hidden: false
+    - title: "4.18.9. Dokumentacja zakresu ruchu"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja-zakresu-ruchu.md"
+      hidden: false
+    - title: "4.18.10. Zasada: nie manipulować bez uprawnień"
+      subchapter: true
+      content_file: "chapters/11-zasada-nie-manipulowac-bez-uprawnien.md"
+      hidden: false
   completion:
     enabled: true
     type: view

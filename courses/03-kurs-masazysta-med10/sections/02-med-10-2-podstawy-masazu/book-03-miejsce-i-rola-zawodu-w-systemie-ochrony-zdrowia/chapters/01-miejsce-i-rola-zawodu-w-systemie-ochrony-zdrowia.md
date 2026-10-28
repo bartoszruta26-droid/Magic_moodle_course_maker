@@ -128,3 +128,9 @@ Temat 2.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y.
 3. Omów zagadnienie: 2.3.3. Gabinety masażu i działalności lecznicze.
 4. Omów zagadnienie: 2.3.4. Sportowe ośrodki medyczne i kluby.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

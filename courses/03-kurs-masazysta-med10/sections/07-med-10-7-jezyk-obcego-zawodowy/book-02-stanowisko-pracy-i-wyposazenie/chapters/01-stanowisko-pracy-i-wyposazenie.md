@@ -128,3 +128,9 @@ Temat 7.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 7.2.2. Oil, lotion, cream, powder.
 3. Omów zagadnienie: 7.2.3. Pillow, bolster, wedge.
 4. Omów zagadnienie: 7.2.4. Disposable pads.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

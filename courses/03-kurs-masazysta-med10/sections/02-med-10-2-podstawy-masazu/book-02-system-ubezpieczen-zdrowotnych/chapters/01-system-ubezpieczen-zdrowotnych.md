@@ -128,3 +128,9 @@ Temat 2.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.2.2. Powszechne ubezpieczenie zdrowotne.
 3. Omów zagadnienie: 2.2.3. Dobrowolne ubezpieczenia zdrowotne.
 4. Omów zagadnienie: 2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

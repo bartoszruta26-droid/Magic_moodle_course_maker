@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-rozwoj-psychofizyczny-czlowieka-a-masaz.md"
       hidden: false
+
+    - title: "2.16.1. Niemowlę: masaż Shantala, delikatność, zgoda opiekuna"
+      subchapter: true
+      content_file: "chapters/02-niemowle-masaz-shantala-delikatnosc-zgoda-opiekuna.md"
+      hidden: false
+    - title: "2.16.2. Dziecko przedszkolne i szkolne: lęk, dotyk, granice"
+      subchapter: true
+      content_file: "chapters/03-dziecko-przedszkolne-i-szkolne-lek-dotyk-granice.md"
+      hidden: false
+    - title: "2.16.3. Młodzież: wrażliwość, intymność, tożsamość"
+      subchapter: true
+      content_file: "chapters/04-mlodziez-wrazliwosc-intymnosc-tozsamosc.md"
+      hidden: false
+    - title: "2.16.4. Dorosły: stres, przeciążenia, choroby przewlekłe"
+      subchapter: true
+      content_file: "chapters/05-dorosly-stres-przeciazenia-choroby-przewlekle.md"
+      hidden: false
+    - title: "2.16.5. Osoba starsza: kruchość, leki, samotność, godność"
+      subchapter: true
+      content_file: "chapters/06-osoba-starsza-kruchosc-leki-samotnosc-godnosc.md"
+      hidden: false
+    - title: "2.16.6. Kobieta w ciąży i połogu"
+      subchapter: true
+      content_file: "chapters/07-kobieta-w-ciazy-i-pologu.md"
+      hidden: false
+    - title: "2.16.7. Osoba po urazie lub operacji"
+      subchapter: true
+      content_file: "chapters/08-osoba-po-urazie-lub-operacji.md"
+      hidden: false
+    - title: "2.16.8. Osoba z chorobą przewlekłą lub niepełnosprawnością"
+      subchapter: true
+      content_file: "chapters/09-osoba-z-choroba-przewlekla-lub-niepelnosprawnoscia.md"
+      hidden: false
+    - title: "2.16.9. Dostosowanie tempa, siły i komunikacji"
+      subchapter: true
+      content_file: "chapters/10-dostosowanie-tempa-sily-i-komunikacji.md"
+      hidden: false
+    - title: "2.16.10. Zasada: traktuj pacjenta jako osobę, nie jako przypadek"
+      subchapter: true
+      content_file: "chapters/11-zasada-traktuj-pacjenta-jako-osobe-nie-jako-przypade.md"
+      hidden: false
   completion:
     enabled: true
     type: view

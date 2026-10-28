@@ -128,3 +128,9 @@ Temat 4.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.5.2. Zgoda na zabieg i prawo odmowy.
 3. Omów zagadnienie: 4.5.3. Higiena pacjenta: czysta skóra, brak makijażu, zdjęcie biżuterii.
 4. Omów zagadnienie: 4.5.4. Ubranie lub bielizna — szacunek dla intymności.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

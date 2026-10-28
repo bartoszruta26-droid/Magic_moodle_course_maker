@@ -128,3 +128,9 @@ Temat 7.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 7.7.2. Explaining aftercare.
 3. Omów zagadnienie: 7.7.3. Writing short emails.
 4. Omów zagadnienie: 7.7.4. Completing forms.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

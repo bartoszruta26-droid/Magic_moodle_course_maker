@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-srodki-poslizgowe-i-wspomagajace-masaz.md"
       hidden: false
+
+    - title: "2.19.1. Talk"
+      subchapter: true
+      content_file: "chapters/02-talk.md"
+      hidden: false
+    - title: "2.19.2. Oliwki i oleje roślinne"
+      subchapter: true
+      content_file: "chapters/03-oliwki-i-oleje-roslinne.md"
+      hidden: false
+    - title: "2.19.3. Wazelina i lanolina"
+      subchapter: true
+      content_file: "chapters/04-wazelina-i-lanolina.md"
+      hidden: false
+    - title: "2.19.4. Kremy do masażu"
+      subchapter: true
+      content_file: "chapters/05-kremy-do-masazu.md"
+      hidden: false
+    - title: "2.19.5. Preparaty rozgrzewające"
+      subchapter: true
+      content_file: "chapters/06-preparaty-rozgrzewajace.md"
+      hidden: false
+    - title: "2.19.6. Preparaty chłodzące"
+      subchapter: true
+      content_file: "chapters/07-preparaty-chlodzace.md"
+      hidden: false
+    - title: "2.19.7. Preparaty przeciwzapalne i znieczulające miejscowo — tylko zgodnie z prawem i zleceniem"
+      subchapter: true
+      content_file: "chapters/08-preparaty-przeciwzapalne-i-znieczulajace-miejscowo-t.md"
+      hidden: false
+    - title: "2.19.8. Alergeny i test skórny"
+      subchapter: true
+      content_file: "chapters/09-alergeny-i-test-skorny.md"
+      hidden: false
+    - title: "2.19.9. Dobór do rodzaju skóry i jednostki chorobowej"
+      subchapter: true
+      content_file: "chapters/10-dobor-do-rodzaju-skory-i-jednostki-chorobowej.md"
+      hidden: false
+    - title: "2.19.10. Przechowywanie, daty ważności, bezpieczeństwo"
+      subchapter: true
+      content_file: "chapters/11-przechowywanie-daty-waznosci-bezpieczenstwo.md"
+      hidden: false
   completion:
     enabled: true
     type: view

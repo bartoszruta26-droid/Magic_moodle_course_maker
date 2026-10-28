@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-system-ubezpieczen-zdrowotnych.md"
       hidden: false
+
+    - title: "2.2.1. Pojęcie ubezpieczenia zdrowotnego"
+      subchapter: true
+      content_file: "chapters/02-pojecie-ubezpieczenia-zdrowotnego.md"
+      hidden: false
+    - title: "2.2.2. Powszechne ubezpieczenie zdrowotne"
+      subchapter: true
+      content_file: "chapters/03-powszechne-ubezpieczenie-zdrowotne.md"
+      hidden: false
+    - title: "2.2.3. Dobrowolne ubezpieczenia zdrowotne"
+      subchapter: true
+      content_file: "chapters/04-dobrowolne-ubezpieczenia-zdrowotne.md"
+      hidden: false
+    - title: "2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu"
+      subchapter: true
+      content_file: "chapters/05-finansowanie-swiadczen-z-zakresu-rehabilitacji-i-mas.md"
+      hidden: false
+    - title: "2.2.5. Zlecenie lekarskie a refundacja"
+      subchapter: true
+      content_file: "chapters/06-zlecenie-lekarskie-a-refundacja.md"
+      hidden: false
+    - title: "2.2.6. Prawa pacjenta w systemie ubezpieczeń"
+      subchapter: true
+      content_file: "chapters/07-prawa-pacjenta-w-systemie-ubezpieczen.md"
+      hidden: false
+    - title: "2.2.7. Obowiązki pacjenta i świadczeniodawcy"
+      subchapter: true
+      content_file: "chapters/08-obowiazki-pacjenta-i-swiadczeniodawcy.md"
+      hidden: false
+    - title: "2.2.8. Dokumentacja potrzebna do rozliczeń"
+      subchapter: true
+      content_file: "chapters/09-dokumentacja-potrzebna-do-rozliczen.md"
+      hidden: false
+    - title: "2.2.9. Ubezpieczenie OC masażysty"
+      subchapter: true
+      content_file: "chapters/10-ubezpieczenie-oc-masazysty.md"
+      hidden: false
+    - title: "2.2.10. Etyka wobec pacjenta prywatnego i pacjenta systemowego"
+      subchapter: true
+      content_file: "chapters/11-etyka-wobec-pacjenta-prywatnego-i-pacjenta-systemowe.md"
+      hidden: false
   completion:
     enabled: true
     type: view

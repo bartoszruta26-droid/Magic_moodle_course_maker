@@ -128,3 +128,9 @@ Temat 8.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.2.2. Tajemnica zawodowa.
 3. Omów zagadnienie: 8.2.3. Ochrona danych osobowych.
 4. Omów zagadnienie: 8.2.4. Ochrona własności intelektualnej.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

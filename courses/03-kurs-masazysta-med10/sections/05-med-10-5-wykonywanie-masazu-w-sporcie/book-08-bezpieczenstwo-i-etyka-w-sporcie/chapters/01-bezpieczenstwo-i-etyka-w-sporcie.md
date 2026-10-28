@@ -128,3 +128,9 @@ Temat 5.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 5.8.2. Zakaz stosowania środków dopingujących przez masażystę.
 3. Omów zagadnienie: 5.8.3. Ochrona prywatności zawodnika.
 4. Omów zagadnienie: 5.8.4. Relacja z trenerem: asertywność.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -128,3 +128,9 @@ Temat 3.15 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.15.2. Zgoda opiekuna i obecność rodzica.
 3. Omów zagadnienie: 3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza.
 4. Omów zagadnienie: 3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

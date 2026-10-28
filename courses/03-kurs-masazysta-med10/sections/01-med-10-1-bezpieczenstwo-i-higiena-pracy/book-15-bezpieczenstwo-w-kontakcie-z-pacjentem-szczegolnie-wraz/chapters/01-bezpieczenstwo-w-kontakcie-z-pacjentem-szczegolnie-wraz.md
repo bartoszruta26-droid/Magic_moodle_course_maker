@@ -128,3 +128,9 @@ Temat 1.15 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.15.2. Osoby starsze — kruchość skóry, osteoporoza, leki.
 3. Omów zagadnienie: 1.15.3. Osoby z niepełnosprawnością — komunikacja i godność.
 4. Omów zagadnienie: 1.15.4. Osoby po traumie — zgoda, zapowiedź dotyku, prawo do przerwania.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

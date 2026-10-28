@@ -128,3 +128,9 @@ Temat 8.6 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.6.2. Skutki stresu dla zdrowia i jakości pracy.
 3. Omów zagadnienie: 8.6.3. Oddech i regulacja napięcia.
 4. Omów zagadnienie: 8.6.4. Przerwy regeneracyjne.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

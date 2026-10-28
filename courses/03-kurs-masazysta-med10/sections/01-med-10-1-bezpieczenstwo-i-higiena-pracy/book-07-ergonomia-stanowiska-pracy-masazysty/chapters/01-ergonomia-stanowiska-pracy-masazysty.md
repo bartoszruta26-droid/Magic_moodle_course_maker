@@ -128,3 +128,9 @@ Temat 1.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.7.2. Pozycja masażysty: kręgosłup, barki, łokcie, nadgarstki.
 3. Omów zagadnienie: 1.7.3. Praca nogami i przenoszenie ciężaru ciała.
 4. Omów zagadnienie: 1.7.4. Unikanie skrętów i zgięć tułowia pod obciążeniem.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

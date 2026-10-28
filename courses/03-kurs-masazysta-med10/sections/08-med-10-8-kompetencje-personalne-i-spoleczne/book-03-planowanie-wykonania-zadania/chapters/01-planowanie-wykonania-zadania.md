@@ -128,3 +128,9 @@ Temat 8.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.3.2. Estymacja czasu.
 3. Omów zagadnienie: 8.3.3. Kolejność czynności.
 4. Omów zagadnienie: 8.3.4. Przygotowanie materiałów.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

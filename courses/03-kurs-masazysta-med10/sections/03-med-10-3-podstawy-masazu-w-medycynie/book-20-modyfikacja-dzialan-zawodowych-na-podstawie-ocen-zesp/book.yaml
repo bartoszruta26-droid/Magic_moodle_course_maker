@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-modyfikacja-dzialan-zawodowych-na-podstawie-ocen-zesp.md"
       hidden: false
+
+    - title: "3.20.1. Zmiana zlecenia lekarskiego"
+      subchapter: true
+      content_file: "chapters/02-zmiana-zlecenia-lekarskiego.md"
+      hidden: false
+    - title: "3.20.2. Zmiana stanu klinicznego pacjenta"
+      subchapter: true
+      content_file: "chapters/03-zmiana-stanu-klinicznego-pacjenta.md"
+      hidden: false
+    - title: "3.20.3. Wystąpienie przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/04-wystapienie-przeciwwskazania.md"
+      hidden: false
+    - title: "3.20.4. Brak poprawy lub pogorszenie"
+      subchapter: true
+      content_file: "chapters/05-brak-poprawy-lub-pogorszenie.md"
+      hidden: false
+    - title: "3.20.5. Reakcja niepożądana"
+      subchapter: true
+      content_file: "chapters/06-reakcja-niepozadana.md"
+      hidden: false
+    - title: "3.20.6. Konsultacja z przełożonym"
+      subchapter: true
+      content_file: "chapters/07-konsultacja-z-przelozonym.md"
+      hidden: false
+    - title: "3.20.7. Przerwanie zabiegu"
+      subchapter: true
+      content_file: "chapters/08-przerwanie-zabiegu.md"
+      hidden: false
+    - title: "3.20.8. Skierowanie do lekarza"
+      subchapter: true
+      content_file: "chapters/09-skierowanie-do-lekarza.md"
+      hidden: false
+    - title: "3.20.9. Dokumentacja zmiany planu"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja-zmiany-planu.md"
+      hidden: false
+    - title: "3.20.10. Zasada: pacjent jest ważniejszy niż plan zabiegów"
+      subchapter: true
+      content_file: "chapters/11-zasada-pacjent-jest-wazniejszy-niz-plan-zabiegow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

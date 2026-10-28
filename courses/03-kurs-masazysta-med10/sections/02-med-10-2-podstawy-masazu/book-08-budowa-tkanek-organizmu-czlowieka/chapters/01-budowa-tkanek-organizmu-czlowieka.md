@@ -128,3 +128,9 @@ Temat 2.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 2.8.2. Tkanka łączna wiotka.
 3. Omów zagadnienie: 2.8.3. Tkanka łączna zbita włóknista.
 4. Omów zagadnienie: 2.8.4. Tkanka łączna zbita sprężysta.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

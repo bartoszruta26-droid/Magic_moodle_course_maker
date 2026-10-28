@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-promocja-zdrowia-i-profilaktyka.md"
       hidden: false
+
+    - title: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"
+      subchapter: true
+      content_file: "chapters/02-pojecie-zdrowia-wg-who-i-w-swietle-godnosci-osoby.md"
+      hidden: false
+    - title: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"
+      subchapter: true
+      content_file: "chapters/03-czynniki-warunkujace-utrzymanie-zdrowia.md"
+      hidden: false
+    - title: "2.6.3. Czynniki negatywnie wpływające na zdrowie"
+      subchapter: true
+      content_file: "chapters/04-czynniki-negatywnie-wplywajace-na-zdrowie.md"
+      hidden: false
+    - title: "2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa"
+      subchapter: true
+      content_file: "chapters/05-profilaktyka-pierwotna-wtorna-trzeciorzedowa.md"
+      hidden: false
+    - title: "2.6.5. Edukacja prozdrowotna pacjenta"
+      subchapter: true
+      content_file: "chapters/06-edukacja-prozdrowotna-pacjenta.md"
+      hidden: false
+    - title: "2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres"
+      subchapter: true
+      content_file: "chapters/07-zdrowy-styl-zycia-ruch-sen-odzywianie-higiena-stres.md"
+      hidden: false
+    - title: "2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego"
+      subchapter: true
+      content_file: "chapters/08-profilaktyka-przeciazen-ukladu-miesniowo-powiezioweg.md"
+      hidden: false
+    - title: "2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego"
+      subchapter: true
+      content_file: "chapters/09-profilaktyka-obrzekow-i-zaburzen-krazenia-obwodowego.md"
+      hidden: false
+    - title: "2.6.9. Profilaktyka odleżyn u osób unieruchomionych"
+      subchapter: true
+      content_file: "chapters/10-profilaktyka-odlezyn-u-osob-unieruchomionych.md"
+      hidden: false
+    - title: "2.6.10. Rola masażysty w popularyzowaniu zachowań prozdrowotnych"
+      subchapter: true
+      content_file: "chapters/11-rola-masazysty-w-popularyzowaniu-zachowan-prozdrowot.md"
+      hidden: false
   completion:
     enabled: true
     type: view

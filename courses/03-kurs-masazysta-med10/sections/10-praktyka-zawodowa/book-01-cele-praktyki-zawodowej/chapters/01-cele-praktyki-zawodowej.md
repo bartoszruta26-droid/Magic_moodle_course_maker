@@ -128,3 +128,9 @@ Temat 10.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 10.1.2. Kształtowanie postawy etycznej.
 3. Omów zagadnienie: 10.1.3. Nauka współpracy z zespołem.
 4. Omów zagadnienie: 10.1.4. Rozwijanie umiejętności palpacyjnych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

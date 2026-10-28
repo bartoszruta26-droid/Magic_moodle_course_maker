@@ -128,3 +128,9 @@ Temat 4.16 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.16.2. Linie powięziowe i łańcuchy anatomiczne.
 3. Omów zagadnienie: 4.16.3. Techniki rozluźniania powięzi.
 4. Omów zagadnienie: 4.16.4. Oddech i uwaga pacjenta.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

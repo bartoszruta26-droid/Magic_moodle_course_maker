@@ -128,3 +128,9 @@ Temat 4.19 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.19.2. Przygotowanie pomieszczenia i oleju.
 3. Omów zagadnienie: 4.19.3. Pozycja niemowlęcia.
 4. Omów zagadnienie: 4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

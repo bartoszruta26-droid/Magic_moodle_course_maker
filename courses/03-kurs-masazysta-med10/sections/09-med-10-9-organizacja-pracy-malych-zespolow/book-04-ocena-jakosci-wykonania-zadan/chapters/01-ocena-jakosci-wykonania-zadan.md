@@ -128,3 +128,9 @@ Temat 9.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 9.4.2. Bezpieczeństwo pacjenta.
 3. Omów zagadnienie: 9.4.3. Skuteczność edukacyjna.
 4. Omów zagadnienie: 9.4.4. Terminowość.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -128,3 +128,9 @@ Temat 3.21 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.21.2. Zespoły bólowe kręgosłupa.
 3. Omów zagadnienie: 3.21.3. Stan po urazach i operacjach.
 4. Omów zagadnienie: 3.21.4. Choroby reumatyczne.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-przepisy-prawa-pracy-p-poz-ochrony-srodowiska-i-ergo.md"
       hidden: false
+
+    - title: "1.2.1. Kodeks pracy w zakresie BHP"
+      subchapter: true
+      content_file: "chapters/02-kodeks-pracy-w-zakresie-bhp.md"
+      hidden: false
+    - title: "1.2.2. Przepisy dotyczące oceny ryzyka zawodowego"
+      subchapter: true
+      content_file: "chapters/03-przepisy-dotyczace-oceny-ryzyka-zawodowego.md"
+      hidden: false
+    - title: "1.2.3. Przepisy dotyczące badań lekarskich pracowników"
+      subchapter: true
+      content_file: "chapters/04-przepisy-dotyczace-badan-lekarskich-pracownikow.md"
+      hidden: false
+    - title: "1.2.4. Przepisy dotyczące szkolenia BHP"
+      subchapter: true
+      content_file: "chapters/05-przepisy-dotyczace-szkolenia-bhp.md"
+      hidden: false
+    - title: "1.2.5. Przepisy przeciwpożarowe w zakładzie opieki zdrowotnej i gabinecie masażu"
+      subchapter: true
+      content_file: "chapters/06-przepisy-przeciwpozarowe-w-zakladzie-opieki-zdrowotn.md"
+      hidden: false
+    - title: "1.2.6. Przepisy o ochronie środowiska i gospodarowaniu odpadami"
+      subchapter: true
+      content_file: "chapters/07-przepisy-o-ochronie-srodowiska-i-gospodarowaniu-odpa.md"
+      hidden: false
+    - title: "1.2.7. Przepisy sanitarne dotyczące gabinetu masażu"
+      subchapter: true
+      content_file: "chapters/08-przepisy-sanitarne-dotyczace-gabinetu-masazu.md"
+      hidden: false
+    - title: "1.2.8. Wymagania dotyczące wentylacji, oświetlenia, temperatury i wilgotności"
+      subchapter: true
+      content_file: "chapters/09-wymagania-dotyczace-wentylacji-oswietlenia-temperatu.md"
+      hidden: false
+    - title: "1.2.9. Wymagania dotyczące surfaces łatwych do dezynfekcji"
+      subchapter: true
+      content_file: "chapters/10-wymagania-dotyczace-surfaces-latwych-do-dezynfekcji.md"
+      hidden: false
+    - title: "1.2.10. Dokumentacja BHP: instrukcje, rejestry, protokoły"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-bhp-instrukcje-rejestry-protokoly.md"
+      hidden: false
   completion:
     enabled: true
     type: view

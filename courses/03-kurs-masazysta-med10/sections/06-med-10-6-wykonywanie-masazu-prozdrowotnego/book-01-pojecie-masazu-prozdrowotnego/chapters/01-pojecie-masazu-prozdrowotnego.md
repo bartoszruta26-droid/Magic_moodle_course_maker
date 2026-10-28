@@ -128,3 +128,9 @@ Temat 6.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 6.1.2. Profilaktyka a terapia.
 3. Omów zagadnienie: 6.1.3. Relaksacja a leczenie.
 4. Omów zagadnienie: 6.1.4. Masaż prozdrowotny u osoby zdrowej.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

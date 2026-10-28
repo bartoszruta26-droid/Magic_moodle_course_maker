@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-korelacja-masazu-z-fizykoterapia-i-kinezyterapia-w-chor.md"
       hidden: false
+
+    - title: "3.21.1. Choroby zwyrodnieniowe stawów"
+      subchapter: true
+      content_file: "chapters/02-choroby-zwyrodnieniowe-stawow.md"
+      hidden: false
+    - title: "3.21.2. Zespoły bólowe kręgosłupa"
+      subchapter: true
+      content_file: "chapters/03-zespoly-bolowe-kregoslupa.md"
+      hidden: false
+    - title: "3.21.3. Stan po urazach i operacjach"
+      subchapter: true
+      content_file: "chapters/04-stan-po-urazach-i-operacjach.md"
+      hidden: false
+    - title: "3.21.4. Choroby reumatyczne"
+      subchapter: true
+      content_file: "chapters/05-choroby-reumatyczne.md"
+      hidden: false
+    - title: "3.21.5. Choroby neurologiczne"
+      subchapter: true
+      content_file: "chapters/06-choroby-neurologiczne.md"
+      hidden: false
+    - title: "3.21.6. Choroby układu krążenia"
+      subchapter: true
+      content_file: "chapters/07-choroby-ukladu-krazenia.md"
+      hidden: false
+    - title: "3.21.7. Choroby układu oddechowego"
+      subchapter: true
+      content_file: "chapters/08-choroby-ukladu-oddechowego.md"
+      hidden: false
+    - title: "3.21.8. Choroby układu pokarmowego"
+      subchapter: true
+      content_file: "chapters/09-choroby-ukladu-pokarmowego.md"
+      hidden: false
+    - title: "3.21.9. Obrzęki limfatyczne"
+      subchapter: true
+      content_file: "chapters/10-obrzeki-limfatyczne.md"
+      hidden: false
+    - title: "3.21.10. Zasada kolejności: najpierw bezpieczeństwo, potem efekt"
+      subchapter: true
+      content_file: "chapters/11-zasada-kolejnosci-najpierw-bezpieczenstwo-potem-efek.md"
+      hidden: false
   completion:
     enabled: true
     type: view

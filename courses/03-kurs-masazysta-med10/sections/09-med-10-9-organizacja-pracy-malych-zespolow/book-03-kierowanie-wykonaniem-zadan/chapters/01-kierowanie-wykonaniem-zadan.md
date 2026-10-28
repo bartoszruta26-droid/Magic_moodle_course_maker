@@ -128,3 +128,9 @@ Temat 9.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 9.3.2. Mobilizowanie współpracowników.
 3. Omów zagadnienie: 9.3.3. Komunikacja instruktażowa.
 4. Omów zagadnienie: 9.3.4. Nadzór bez kontroli upokarzającej.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

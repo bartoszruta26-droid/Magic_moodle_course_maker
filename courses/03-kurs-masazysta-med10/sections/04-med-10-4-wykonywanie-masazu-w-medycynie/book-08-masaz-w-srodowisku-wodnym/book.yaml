@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-w-srodowisku-wodnym.md"
       hidden: false
+
+    - title: "4.8.1. Przygotowanie wanny"
+      subchapter: true
+      content_file: "chapters/02-przygotowanie-wanny.md"
+      hidden: false
+    - title: "4.8.2. Temperatura wody"
+      subchapter: true
+      content_file: "chapters/03-temperatura-wody.md"
+      hidden: false
+    - title: "4.8.3. Higiena i dezynfekcja"
+      subchapter: true
+      content_file: "chapters/04-higiena-i-dezynfekcja.md"
+      hidden: false
+    - title: "4.8.4. Bezpieczne wejście pacjenta"
+      subchapter: true
+      content_file: "chapters/05-bezpieczne-wejscie-pacjenta.md"
+      hidden: false
+    - title: "4.8.5. Techniki głaskania w wodzie"
+      subchapter: true
+      content_file: "chapters/06-techniki-glaskania-w-wodzie.md"
+      hidden: false
+    - title: "4.8.6. Techniki rozcierania w wodzie"
+      subchapter: true
+      content_file: "chapters/07-techniki-rozcierania-w-wodzie.md"
+      hidden: false
+    - title: "4.8.7. Techniki ugniatania w wodzie"
+      subchapter: true
+      content_file: "chapters/08-techniki-ugniatania-w-wodzie.md"
+      hidden: false
+    - title: "4.8.8. Odciążenie stawów"
+      subchapter: true
+      content_file: "chapters/09-odciazenie-stawow.md"
+      hidden: false
+    - title: "4.8.9. Obserwacja pacjenta w wodzie"
+      subchapter: true
+      content_file: "chapters/10-obserwacja-pacjenta-w-wodzie.md"
+      hidden: false
+    - title: "4.8.10. Bezpieczne wyjście i osuszenie"
+      subchapter: true
+      content_file: "chapters/11-bezpieczne-wyjscie-i-osuszenie.md"
+      hidden: false
   completion:
     enabled: true
     type: view

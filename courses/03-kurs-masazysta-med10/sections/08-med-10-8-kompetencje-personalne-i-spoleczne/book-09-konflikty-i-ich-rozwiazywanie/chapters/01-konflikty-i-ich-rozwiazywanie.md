@@ -128,3 +128,9 @@ Temat 8.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.9.2. Przyczyny konfliktów ze współpracownikami.
 3. Omów zagadnienie: 8.9.3. Fazy konfliktu.
 4. Omów zagadnienie: 8.9.4. Skutki konfliktu dla jakości opieki.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

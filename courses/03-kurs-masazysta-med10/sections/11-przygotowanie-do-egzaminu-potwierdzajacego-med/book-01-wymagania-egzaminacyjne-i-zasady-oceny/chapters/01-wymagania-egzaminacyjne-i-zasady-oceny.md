@@ -128,3 +128,9 @@ Temat 11.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.1.2. Część praktyczna.
 3. Omów zagadnienie: 11.1.3. Kryteria pozytywnej oceny.
 4. Omów zagadnienie: 11.1.4. Błędy dyskwalifikujące.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

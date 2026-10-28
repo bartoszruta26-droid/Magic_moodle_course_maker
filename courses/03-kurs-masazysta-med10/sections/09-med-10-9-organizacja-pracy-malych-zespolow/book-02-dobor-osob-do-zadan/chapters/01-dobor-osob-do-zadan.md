@@ -128,3 +128,9 @@ Temat 9.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 9.2.2. Umiejętności praktyczne.
 3. Omów zagadnienie: 9.2.3. Kompetencje komunikacyjne.
 4. Omów zagadnienie: 9.2.4. Odpowiedzialność i rzetelność.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

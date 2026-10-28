@@ -111,21 +111,36 @@ GENERIC = """Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „
 def knowledge_for(title: str) -> tuple[str, str]:
     low = title.lower()
     main = None
-    extra = ""
+    extras: list[str] = []
+    # 1) Baza rozszerzona (knowledge_entries.py): wszystkie trafienia jako rozwinięcie
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from knowledge_entries import EXTRA_KNOWLEDGE  # type: ignore
+    except Exception:
+        EXTRA_KNOWLEDGE = []
+    for pat, txt in EXTRA_KNOWLEDGE:
+        if re.search(pat, low):
+            extras.append(txt)
+            break
+    # 2) Baza podstawowa — akapit główny
     for pat, txt in KNOWLEDGE:
         if re.search(pat, low):
             main = txt
             break
+    # 3) Gdy brak akapitu głównego, wykorzystaj pierwszy wpis z bazy rozszerzonej
+    if not main and extras:
+        main = extras.pop(0)
     if not main:
         main = GENERIC
-    return main, extra
+    return main, ("\n\n".join(extras) if extras else "")
 
 
 def build_subchapter(num: str, raw_title: str, topic_no: str, section_intro: str) -> str:
     # usuń zdublowany numer ("6.8.1 6.8.1. Dłonie...")
     t = re.sub(rf"^{re.escape(num)}\s*\.?\s*", "", raw_title).strip()
     t = re.sub(rf"^{re.escape(topic_no)}\s*\.?\s*", "", t).strip()
-    core, _ = knowledge_for(t)
+    core, extra = knowledge_for(t)
+    extra_block = f"\n\n## Rozwinięcie zagadnienia\n\n{extra}\n" if extra else ""
     return f"""# {num}. {t}
 
 *Rozdział szczegółowy (podrozdział) tematu {topic_no} — {section_intro}*
@@ -133,7 +148,7 @@ def build_subchapter(num: str, raw_title: str, topic_no: str, section_intro: str
 ## Dlaczego to ważne
 
 {core}
-
+{extra_block}
 ## Istota zagadnienia — ujęcie systematyczne
 
 Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:

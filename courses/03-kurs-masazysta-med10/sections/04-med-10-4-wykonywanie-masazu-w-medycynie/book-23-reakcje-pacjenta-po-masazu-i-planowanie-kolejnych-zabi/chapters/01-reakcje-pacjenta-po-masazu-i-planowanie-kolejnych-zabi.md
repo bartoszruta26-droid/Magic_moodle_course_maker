@@ -128,3 +128,9 @@ Temat 4.23 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.23.2. Reakcja niepożądana: ból, siniak, obrzęk, osłabienie.
 3. Omów zagadnienie: 4.23.3. Reakcja alarmowa: duszność, ból w klatce, gorączka, zawroty głowy.
 4. Omów zagadnienie: 4.23.4. Pytania kontrolne po zabiegu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

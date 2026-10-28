@@ -128,3 +128,9 @@ Temat 7.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 7.4.2. Intake questionnaire.
 3. Omów zagadnienie: 7.4.3. Treatment record.
 4. Omów zagadnienie: 7.4.4. Progress notes.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

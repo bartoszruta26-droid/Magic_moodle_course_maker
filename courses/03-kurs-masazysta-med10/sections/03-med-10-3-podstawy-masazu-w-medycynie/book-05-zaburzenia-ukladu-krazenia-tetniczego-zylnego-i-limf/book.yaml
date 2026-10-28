@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zaburzenia-ukladu-krazenia-tetniczego-zylnego-i-limf.md"
       hidden: false
+
+    - title: "3.5.1. Nadciśnienie tętnicze"
+      subchapter: true
+      content_file: "chapters/02-nadcisnienie-tetnicze.md"
+      hidden: false
+    - title: "3.5.2. Choroba niedokrwienna serca"
+      subchapter: true
+      content_file: "chapters/03-choroba-niedokrwienna-serca.md"
+      hidden: false
+    - title: "3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem"
+      subchapter: true
+      content_file: "chapters/04-stan-po-zawale-serca-tylko-w-uzgodnieniu-z-lekarzem.md"
+      hidden: false
+    - title: "3.5.4. Niewydolność serca — przeciwwskazania i ostrożność"
+      subchapter: true
+      content_file: "chapters/05-niewydolnosc-serca-przeciwwskazania-i-ostroznosc.md"
+      hidden: false
+    - title: "3.5.5. Żylaki kończyn dolnych"
+      subchapter: true
+      content_file: "chapters/06-zylaki-konczyn-dolnych.md"
+      hidden: false
+    - title: "3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie"
+      subchapter: true
+      content_file: "chapters/07-zakrzepica-zyl-glebokich-bezwzgledne-przeciwwskazani.md"
+      hidden: false
+    - title: "3.5.7. Zapalenie żył"
+      subchapter: true
+      content_file: "chapters/08-zapalenie-zyl.md"
+      hidden: false
+    - title: "3.5.8. Miażdżyca tętnic obwodowych"
+      subchapter: true
+      content_file: "chapters/09-miazdzyca-tetnic-obwodowych.md"
+      hidden: false
+    - title: "3.5.9. Choroba Raynauda"
+      subchapter: true
+      content_file: "chapters/10-choroba-raynauda.md"
+      hidden: false
+    - title: "3.5.10. Obrzęk limfatyczny i niewydolność krążenia chłonnego"
+      subchapter: true
+      content_file: "chapters/11-obrzek-limfatyczny-i-niewydolnosc-krazenia-chlonnego.md"
+      hidden: false
   completion:
     enabled: true
     type: view

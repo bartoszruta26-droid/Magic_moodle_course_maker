@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-kompleksowa-terapia-obrzekow.md"
       hidden: false
+
+    - title: "4.10.1. Terapia ułożeniowa"
+      subchapter: true
+      content_file: "chapters/02-terapia-ulozeniowa.md"
+      hidden: false
+    - title: "4.10.2. Ćwiczenia fizyczne i oddechowe"
+      subchapter: true
+      content_file: "chapters/03-cwiczenia-fizyczne-i-oddechowe.md"
+      hidden: false
+    - title: "4.10.3. Autodrenaż pacjenta"
+      subchapter: true
+      content_file: "chapters/04-autodrenaz-pacjenta.md"
+      hidden: false
+    - title: "4.10.4. Kompresjoterapia"
+      subchapter: true
+      content_file: "chapters/05-kompresjoterapia.md"
+      hidden: false
+    - title: "4.10.5. Pielęgnacja skóry"
+      subchapter: true
+      content_file: "chapters/06-pielegnacja-skory.md"
+      hidden: false
+    - title: "4.10.6. Zapobieganie zakażeniom"
+      subchapter: true
+      content_file: "chapters/07-zapobieganie-zakazeniom.md"
+      hidden: false
+    - title: "4.10.7. Edukacja pacjenta i rodziny"
+      subchapter: true
+      content_file: "chapters/08-edukacja-pacjenta-i-rodziny.md"
+      hidden: false
+    - title: "4.10.8. Dobór elementów do stanu klinicznego"
+      subchapter: true
+      content_file: "chapters/09-dobor-elementow-do-stanu-klinicznego.md"
+      hidden: false
+    - title: "4.10.9. Monitorowanie obwodów"
+      subchapter: true
+      content_file: "chapters/10-monitorowanie-obwodow.md"
+      hidden: false
+    - title: "4.10.10. Współpraca z lekarzem i fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/11-wspolpraca-z-lekarzem-i-fizjoterapeuta.md"
+      hidden: false
   completion:
     enabled: true
     type: view

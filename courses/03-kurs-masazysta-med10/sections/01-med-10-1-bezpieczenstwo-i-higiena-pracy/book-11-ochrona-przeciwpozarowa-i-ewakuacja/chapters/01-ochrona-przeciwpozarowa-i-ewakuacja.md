@@ -128,3 +128,9 @@ Temat 1.11 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.11.2. Sygnały alarmowe.
 3. Omów zagadnienie: 1.11.3. Gaśnice i ich rodzaje.
 4. Omów zagadnienie: 1.11.4. Zasady ewakuacji osoby leżącej na stole do masażu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-uklad-ruchu-kosci-stawy-miesnie-powiez.md"
       hidden: false
+
+    - title: "2.10.1. Budowa kości długich, krótkich, płaskich, pneumatycznych"
+      subchapter: true
+      content_file: "chapters/02-budowa-kosci-dlugich-krotkich-plaskich-pneumatycznyc.md"
+      hidden: false
+    - title: "2.10.2. Połączenia kości: ciągłe i ciągłości"
+      subchapter: true
+      content_file: "chapters/03-polaczenia-kosci-ciagle-i-ciaglosci.md"
+      hidden: false
+    - title: "2.10.3. Stawy: budowa, torebka, chrząstka, maziówka"
+      subchapter: true
+      content_file: "chapters/04-stawy-budowa-torebka-chrzastka-maziowka.md"
+      hidden: false
+    - title: "2.10.4. Wiązadła i ścięgna"
+      subchapter: true
+      content_file: "chapters/05-wiazadla-i-sciegna.md"
+      hidden: false
+    - title: "2.10.5. Mięśnie szkieletowe: budowa, przyczepy, jednostki motoryczne"
+      subchapter: true
+      content_file: "chapters/06-miesnie-szkieletowe-budowa-przyczepy-jednostki-motor.md"
+      hidden: false
+    - title: "2.10.6. Narządy pomocnicze mięśni: powięzie, kaletki, pochewki ścięgniste"
+      subchapter: true
+      content_file: "chapters/07-narzady-pomocnicze-miesni-powiezie-kaletki-pochewki-.md"
+      hidden: false
+    - title: "2.10.7. Powięź powierzchowna i głęboka"
+      subchapter: true
+      content_file: "chapters/08-powiez-powierzchowna-i-gleboka.md"
+      hidden: false
+    - title: "2.10.8. Linie anatomiczne i łańcuchy mięśniowo-powięziowe"
+      subchapter: true
+      content_file: "chapters/09-linie-anatomiczne-i-lancuchy-miesniowo-powieziowe.md"
+      hidden: false
+    - title: "2.10.9. Biomechanika ruchu i stabilizacja"
+      subchapter: true
+      content_file: "chapters/10-biomechanika-ruchu-i-stabilizacja.md"
+      hidden: false
+    - title: "2.10.10. Znaczenie palpacji struktur układu ruchu"
+      subchapter: true
+      content_file: "chapters/11-znaczenie-palpacji-struktur-ukladu-ruchu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

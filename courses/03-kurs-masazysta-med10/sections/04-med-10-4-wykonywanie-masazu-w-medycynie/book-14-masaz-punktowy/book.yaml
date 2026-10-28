@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-punktowy.md"
       hidden: false
+
+    - title: "4.14.1. Punkty spustowe aktywne i utajone"
+      subchapter: true
+      content_file: "chapters/02-punkty-spustowe-aktywne-i-utajone.md"
+      hidden: false
+    - title: "4.14.2. Palpacja punktów"
+      subchapter: true
+      content_file: "chapters/03-palpacja-punktow.md"
+      hidden: false
+    - title: "4.14.3. Kompresja ischemiczna"
+      subchapter: true
+      content_file: "chapters/04-kompresja-ischemiczna.md"
+      hidden: false
+    - title: "4.14.4. Stretching po kompresji"
+      subchapter: true
+      content_file: "chapters/05-stretching-po-kompresji.md"
+      hidden: false
+    - title: "4.14.5. Oddychanie pacjenta"
+      subchapter: true
+      content_file: "chapters/06-oddychanie-pacjenta.md"
+      hidden: false
+    - title: "4.14.6. Granica bólu"
+      subchapter: true
+      content_file: "chapters/07-granica-bolu.md"
+      hidden: false
+    - title: "4.14.7. Ryzyko nasilenia bólu"
+      subchapter: true
+      content_file: "chapters/08-ryzyko-nasilenia-bolu.md"
+      hidden: false
+    - title: "4.14.8. Dokumentacja reakcji"
+      subchapter: true
+      content_file: "chapters/09-dokumentacja-reakcji.md"
+      hidden: false
+    - title: "4.14.9. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/10-przeciwwskazania.md"
+      hidden: false
+    - title: "4.14.10. Zastosowanie w bólach mięśniowo-powięziowych"
+      subchapter: true
+      content_file: "chapters/11-zastosowanie-w-bolach-miesniowo-powieziowych.md"
+      hidden: false
   completion:
     enabled: true
     type: view

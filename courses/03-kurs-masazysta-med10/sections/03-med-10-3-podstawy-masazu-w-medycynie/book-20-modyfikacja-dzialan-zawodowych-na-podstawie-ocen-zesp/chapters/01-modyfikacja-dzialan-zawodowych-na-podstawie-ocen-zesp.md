@@ -128,3 +128,9 @@ Temat 3.20 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.20.2. Zmiana stanu klinicznego pacjenta.
 3. Omów zagadnienie: 3.20.3. Wystąpienie przeciwwskazania.
 4. Omów zagadnienie: 3.20.4. Brak poprawy lub pogorszenie.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

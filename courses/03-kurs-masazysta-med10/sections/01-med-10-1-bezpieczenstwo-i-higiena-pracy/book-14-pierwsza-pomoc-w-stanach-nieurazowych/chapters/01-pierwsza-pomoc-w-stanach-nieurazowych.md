@@ -128,3 +128,9 @@ Temat 1.14 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.14.2. Zawroty głowy.
 3. Omów zagadnienie: 1.14.3. Duszność.
 4. Omów zagadnienie: 1.14.4. Ból w klatce piersiowej — podejrzenie zawału.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

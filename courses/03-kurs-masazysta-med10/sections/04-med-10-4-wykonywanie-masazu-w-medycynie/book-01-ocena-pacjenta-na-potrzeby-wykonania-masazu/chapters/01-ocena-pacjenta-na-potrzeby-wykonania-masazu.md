@@ -128,3 +128,9 @@ Temat 4.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.1.2. Wywiad chorobowy: rozpoznanie, zlecenie, leki, choroby towarzyszące.
 3. Omów zagadnienie: 4.1.3. Wywiad urazowy i operacyjny.
 4. Omów zagadnienie: 4.1.4. Wywiad alergologiczny i skórny.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

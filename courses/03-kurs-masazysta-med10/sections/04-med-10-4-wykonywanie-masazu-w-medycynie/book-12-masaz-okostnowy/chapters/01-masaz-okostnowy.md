@@ -128,3 +128,9 @@ Temat 4.12 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.12.2. Techniki delikatnego opracowania okostnej.
 3. Omów zagadnienie: 4.12.3. Ból i próg tolerancji.
 4. Omów zagadnienie: 4.12.4. Przeciwwskazania: osteoporoza, nowotwór, zapalenie kości.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

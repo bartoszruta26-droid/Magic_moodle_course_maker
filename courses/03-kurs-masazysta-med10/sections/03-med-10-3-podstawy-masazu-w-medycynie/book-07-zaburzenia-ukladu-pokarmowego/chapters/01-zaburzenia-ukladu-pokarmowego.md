@@ -128,3 +128,9 @@ Temat 3.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.7.2. Nieżyt żołądka.
 3. Omów zagadnienie: 3.7.3. Zaburzenia motoryki przewodu pokarmowego.
 4. Omów zagadnienie: 3.7.4. Zaparcia nawykowe.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ocena-jakosci-wykonania-zadan.md"
       hidden: false
+
+    - title: "9.4.1. Kryteria jakości usługi masażu"
+      subchapter: true
+      content_file: "chapters/02-kryteria-jakosci-uslugi-masazu.md"
+      hidden: false
+    - title: "9.4.2. Bezpieczeństwo pacjenta"
+      subchapter: true
+      content_file: "chapters/03-bezpieczenstwo-pacjenta.md"
+      hidden: false
+    - title: "9.4.3. Skuteczność edukacyjna"
+      subchapter: true
+      content_file: "chapters/04-skutecznosc-edukacyjna.md"
+      hidden: false
+    - title: "9.4.4. Terminowość"
+      subchapter: true
+      content_file: "chapters/05-terminowosc.md"
+      hidden: false
+    - title: "9.4.5. Dbałość o dokumentację"
+      subchapter: true
+      content_file: "chapters/06-dbalosc-o-dokumentacje.md"
+      hidden: false
+    - title: "9.4.6. Kultura osobista"
+      subchapter: true
+      content_file: "chapters/07-kultura-osobista.md"
+      hidden: false
+    - title: "9.4.7. Współpraca zespołowa"
+      subchapter: true
+      content_file: "chapters/08-wspolpraca-zespolowa.md"
+      hidden: false
+    - title: "9.4.8. Ocena samooceny"
+      subchapter: true
+      content_file: "chapters/09-ocena-samooceny.md"
+      hidden: false
+    - title: "9.4.9. Ocena przełożonego"
+      subchapter: true
+      content_file: "chapters/10-ocena-przelozonego.md"
+      hidden: false
+    - title: "9.4.10. Ocena pacjenta — z zachowaniem granic"
+      subchapter: true
+      content_file: "chapters/11-ocena-pacjenta-z-zachowaniem-granic.md"
+      hidden: false
   completion:
     enabled: true
     type: view

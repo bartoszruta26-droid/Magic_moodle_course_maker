@@ -128,3 +128,9 @@ Temat 4.11 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.11.2. Strefy masażu łącznotkankowego.
 3. Omów zagadnienie: 4.11.3. Techniki: fałd, przesunięcie, rolka.
 4. Omów zagadnienie: 4.11.4. Reakcja tkanek.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

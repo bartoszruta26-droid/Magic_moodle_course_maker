@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-planowanie-zabiegu-masazu.md"
       hidden: false
+
+    - title: "4.4.1. Cel zabiegu: terapeutyczny, profilaktyczny, relaksacyjny, sportowy"
+      subchapter: true
+      content_file: "chapters/02-cel-zabiegu-terapeutyczny-profilaktyczny-relaksacyjn.md"
+      hidden: false
+    - title: "4.4.2. Dobór rodzaju masażu"
+      subchapter: true
+      content_file: "chapters/03-dobor-rodzaju-masazu.md"
+      hidden: false
+    - title: "4.4.3. Dobór technik"
+      subchapter: true
+      content_file: "chapters/04-dobor-technik.md"
+      hidden: false
+    - title: "4.4.4. Dobór kolejności"
+      subchapter: true
+      content_file: "chapters/05-dobor-kolejnosci.md"
+      hidden: false
+    - title: "4.4.5. Dobór czasu i siły"
+      subchapter: true
+      content_file: "chapters/06-dobor-czasu-i-sily.md"
+      hidden: false
+    - title: "4.4.6. Dobór pozycji pacjenta"
+      subchapter: true
+      content_file: "chapters/07-dobor-pozycji-pacjenta.md"
+      hidden: false
+    - title: "4.4.7. Dobór środków poślizgowych"
+      subchapter: true
+      content_file: "chapters/08-dobor-srodkow-poslizgowych.md"
+      hidden: false
+    - title: "4.4.8. Uwzględnienie zlecenia lekarskiego"
+      subchapter: true
+      content_file: "chapters/09-uwzglednienie-zlecenia-lekarskiego.md"
+      hidden: false
+    - title: "4.4.9. Uwzględnienie preferencji i granic pacjenta"
+      subchapter: true
+      content_file: "chapters/10-uwzglednienie-preferencji-i-granic-pacjenta.md"
+      hidden: false
+    - title: "4.4.10. Plan serii zabiegów i oceny efektów"
+      subchapter: true
+      content_file: "chapters/11-plan-serii-zabiegow-i-oceny-efektow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

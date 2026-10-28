@@ -128,3 +128,9 @@ Temat 8.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.5.2. Pacjent z lękiem przed dotykiem.
 3. Omów zagadnienie: 8.5.3. Pacjent z bólem przewlekłym.
 4. Omów zagadnienie: 8.5.4. Pacjent z niepełnosprawnością komunikacyjną.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

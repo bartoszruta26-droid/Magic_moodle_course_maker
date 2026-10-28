@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zadania-ucznia-sluchacza-na-praktyce.md"
       hidden: false
+
+    - title: "10.3.1. Obserwacja zabiegów"
+      subchapter: true
+      content_file: "chapters/02-obserwacja-zabiegow.md"
+      hidden: false
+    - title: "10.3.2. Asystowanie przy zabiegach"
+      subchapter: true
+      content_file: "chapters/03-asystowanie-przy-zabiegach.md"
+      hidden: false
+    - title: "10.3.3. Przygotowanie stanowiska pracy"
+      subchapter: true
+      content_file: "chapters/04-przygotowanie-stanowiska-pracy.md"
+      hidden: false
+    - title: "10.3.4. Przygotowanie pacjenta do zabiegu"
+      subchapter: true
+      content_file: "chapters/05-przygotowanie-pacjenta-do-zabiegu.md"
+      hidden: false
+    - title: "10.3.5. Wykonywanie masażu pod nadzorem"
+      subchapter: true
+      content_file: "chapters/06-wykonywanie-masazu-pod-nadzorem.md"
+      hidden: false
+    - title: "10.3.6. Prowadzenie dokumentacji"
+      subchapter: true
+      content_file: "chapters/07-prowadzenie-dokumentacji.md"
+      hidden: false
+    - title: "10.3.7. Udział w naradach zespołu"
+      subchapter: true
+      content_file: "chapters/08-udzial-w-naradach-zespolu.md"
+      hidden: false
+    - title: "10.3.8. Realizacja zadań edukacyjnych"
+      subchapter: true
+      content_file: "chapters/09-realizacja-zadan-edukacyjnych.md"
+      hidden: false
+    - title: "10.3.9. Zgłaszanie zdarzeń niepożądanych"
+      subchapter: true
+      content_file: "chapters/10-zglaszanie-zdarzen-niepozadanych.md"
+      hidden: false
+    - title: "10.3.10. Refleksja dzienna i tygodniowa"
+      subchapter: true
+      content_file: "chapters/11-refleksja-dzienna-i-tygodniowa.md"
+      hidden: false
   completion:
     enabled: true
     type: view

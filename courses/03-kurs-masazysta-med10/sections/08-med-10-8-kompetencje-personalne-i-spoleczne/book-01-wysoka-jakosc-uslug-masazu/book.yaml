@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wysoka-jakosc-uslug-masazu.md"
       hidden: false
+
+    - title: "8.1.1. Definicja jakości w opiece zdrowotnej"
+      subchapter: true
+      content_file: "chapters/02-definicja-jakosci-w-opiece-zdrowotnej.md"
+      hidden: false
+    - title: "8.1.2. Empatia jako zdolność rozumienia, nie użalania się"
+      subchapter: true
+      content_file: "chapters/03-empatia-jako-zdolnosc-rozumienia-nie-uzalania-sie.md"
+      hidden: false
+    - title: "8.1.3. Komunikacja jako narzędzie bezpieczeństwa"
+      subchapter: true
+      content_file: "chapters/04-komunikacja-jako-narzedzie-bezpieczenstwa.md"
+      hidden: false
+    - title: "8.1.4. Higiena osobista i wizerunek zawodu"
+      subchapter: true
+      content_file: "chapters/05-higiena-osobista-i-wizerunek-zawodu.md"
+      hidden: false
+    - title: "8.1.5. Punktualność i szacunek dla czasu pacjenta"
+      subchapter: true
+      content_file: "chapters/06-punktualnosc-i-szacunek-dla-czasu-pacjenta.md"
+      hidden: false
+    - title: "8.1.6. Uporządkowanie stanowiska pracy"
+      subchapter: true
+      content_file: "chapters/07-uporzadkowanie-stanowiska-pracy.md"
+      hidden: false
+    - title: "8.1.7. Spójność działania i słowa"
+      subchapter: true
+      content_file: "chapters/08-spojnosc-dzialania-i-slowa.md"
+      hidden: false
+    - title: "8.1.8. Odpowiedzialność za efekt edukacyjny"
+      subchapter: true
+      content_file: "chapters/09-odpowiedzialnosc-za-efekt-edukacyjny.md"
+      hidden: false
+    - title: "8.1.9. Ciągłe doskonalenie"
+      subchapter: true
+      content_file: "chapters/10-ciagle-doskonalenie.md"
+      hidden: false
+    - title: "8.1.10. Jakość jako forma miłości bliźniego"
+      subchapter: true
+      content_file: "chapters/11-jakosc-jako-forma-milosci-blizniego.md"
+      hidden: false
   completion:
     enabled: true
     type: view

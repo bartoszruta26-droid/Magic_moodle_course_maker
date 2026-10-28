@@ -128,3 +128,9 @@ Temat 3.1 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.1.2. Stan zapalny ostry i przewlekły.
 3. Omów zagadnienie: 3.1.3. Zwyrodnienie i degeneracja tkanek.
 4. Omów zagadnienie: 3.1.4. Uraz i gojenie.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

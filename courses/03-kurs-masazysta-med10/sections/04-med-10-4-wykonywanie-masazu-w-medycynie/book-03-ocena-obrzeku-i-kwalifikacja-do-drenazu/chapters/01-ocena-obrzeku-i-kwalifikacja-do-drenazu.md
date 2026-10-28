@@ -128,3 +128,9 @@ Temat 4.3 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.3.2. Próba Stemmera i inne objawy — w granicach edukacji.
 3. Omów zagadnienie: 4.3.3. Pomiar obwodu co 5 lub 10 cm.
 4. Omów zagadnienie: 4.3.4. Ocena symetrii.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

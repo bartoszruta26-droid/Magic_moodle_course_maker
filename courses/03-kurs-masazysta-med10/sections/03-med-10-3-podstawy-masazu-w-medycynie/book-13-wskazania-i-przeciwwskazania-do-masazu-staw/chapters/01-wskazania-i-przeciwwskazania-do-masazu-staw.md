@@ -128,3 +128,9 @@ Temat 3.13 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu.
 3. Omów zagadnienie: 3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności.
 4. Omów zagadnienie: 3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -128,3 +128,9 @@ Temat 2.22 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.22.2. Norma krajowa, europejska, międzynarodowa.
 3. Omów zagadnienie: 2.22.3. Oznaczenia norm.
 4. Omów zagadnienie: 2.22.4. Procedury oceny zgodności.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-relaksacyjny.md"
       hidden: false
+
+    - title: "6.4.1. Cel: redukcja napięcia, poprawa samopoczucia"
+      subchapter: true
+      content_file: "chapters/02-cel-redukcja-napiecia-poprawa-samopoczucia.md"
+      hidden: false
+    - title: "6.4.2. Techniki: głaskanie, rozcieranie, delikatne ugniatanie"
+      subchapter: true
+      content_file: "chapters/03-techniki-glaskanie-rozcieranie-delikatne-ugniatanie.md"
+      hidden: false
+    - title: "6.4.3. Kolejność: stopy, nogi, brzuch/klatka, ręce, barki, kark, głowa"
+      subchapter: true
+      content_file: "chapters/04-kolejnosc-stopy-nogi-brzuch-klatka-rece-barki-kark-g.md"
+      hidden: false
+    - title: "6.4.4. Czas: 30, 45, 60 minut"
+      subchapter: true
+      content_file: "chapters/05-czas-30-45-60-minut.md"
+      hidden: false
+    - title: "6.4.5. Środki poślizgowe"
+      subchapter: true
+      content_file: "chapters/06-srodki-poslizgowe.md"
+      hidden: false
+    - title: "6.4.6. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/07-przeciwwskazania.md"
+      hidden: false
+    - title: "6.4.7. Reakcje pacjenta"
+      subchapter: true
+      content_file: "chapters/08-reakcje-pacjenta.md"
+      hidden: false
+    - title: "6.4.8. Zalecenia po zabiegu"
+      subchapter: true
+      content_file: "chapters/09-zalecenia-po-zabiegu.md"
+      hidden: false
+    - title: "6.4.9. Dokumentacja"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja.md"
+      hidden: false
+    - title: "6.4.10. Granice: relaks nie zastępuje terapii psychologicznej"
+      subchapter: true
+      content_file: "chapters/11-granice-relaks-nie-zastepuje-terapii-psychologicznej.md"
+      hidden: false
   completion:
     enabled: true
     type: view

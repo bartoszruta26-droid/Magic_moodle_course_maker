@@ -178,3 +178,9 @@ Temat 4.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: Masaz konczyny dolnej.
 3. Omów zagadnienie: Masaz grzbietu.
 4. Omów zagadnienie: Masaz kregoslupa szyjnego.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

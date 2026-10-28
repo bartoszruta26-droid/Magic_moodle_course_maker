@@ -128,3 +128,9 @@ Temat 10.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 10.4.2. Karta oceny opiekuna praktyk.
 3. Omów zagadnienie: 10.4.3. Kryteria oceny umiejętności.
 4. Omów zagadnienie: 10.4.4. Kryteria oceny postawy etycznej.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

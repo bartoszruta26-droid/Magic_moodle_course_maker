@@ -128,3 +128,9 @@ Temat 2.20 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 2.20.2. Rodzaje ćwiczeń: bierne, czynno-bierne, czynne, z oporem, w odciążeniu.
 3. Omów zagadnienie: 2.20.3. Wpływ ćwiczeń na stawy, mięśnie, powięź, krążenie.
 4. Omów zagadnienie: 2.20.4. Pojęcie fizykoterapii.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

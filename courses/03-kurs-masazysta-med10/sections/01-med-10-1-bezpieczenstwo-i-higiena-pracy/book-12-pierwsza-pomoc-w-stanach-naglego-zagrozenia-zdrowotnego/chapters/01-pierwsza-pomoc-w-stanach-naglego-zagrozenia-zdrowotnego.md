@@ -128,3 +128,9 @@ Temat 1.12 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.12.2. Wezwanie pomocy: numery alarmowe, przekazanie informacji.
 3. Omów zagadnienie: 1.12.3. Pozycja bezpieczna.
 4. Omów zagadnienie: 1.12.4. Udrożnienie dróg oddechowych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

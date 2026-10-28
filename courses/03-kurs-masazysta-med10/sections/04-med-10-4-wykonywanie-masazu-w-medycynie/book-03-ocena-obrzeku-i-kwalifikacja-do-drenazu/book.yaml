@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ocena-obrzeku-i-kwalifikacja-do-drenazu.md"
       hidden: false
+
+    - title: "4.3.1. Obrzęk miękki i twardy"
+      subchapter: true
+      content_file: "chapters/02-obrzek-miekki-i-twardy.md"
+      hidden: false
+    - title: "4.3.2. Próba Stemmera i inne objawy — w granicach edukacji"
+      subchapter: true
+      content_file: "chapters/03-proba-stemmera-i-inne-objawy-w-granicach-edukacji.md"
+      hidden: false
+    - title: "4.3.3. Pomiar obwodu co 5 lub 10 cm"
+      subchapter: true
+      content_file: "chapters/04-pomiar-obwodu-co-5-lub-10-cm.md"
+      hidden: false
+    - title: "4.3.4. Ocena symetrii"
+      subchapter: true
+      content_file: "chapters/05-ocena-symetrii.md"
+      hidden: false
+    - title: "4.3.5. Ocena skóry: napięcie, przebarwienia, wyprysk, grzybica"
+      subchapter: true
+      content_file: "chapters/06-ocena-skory-napiecie-przebarwienia-wyprysk-grzybica.md"
+      hidden: false
+    - title: "4.3.6. Ryzyko zakażenia"
+      subchapter: true
+      content_file: "chapters/07-ryzyko-zakazenia.md"
+      hidden: false
+    - title: "4.3.7. Kwalifikacja do manualnego drenażu limfatycznego"
+      subchapter: true
+      content_file: "chapters/08-kwalifikacja-do-manualnego-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "4.3.8. Kwalifikacja do kompresjoterapii we współpracy z lekarzem/fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/09-kwalifikacja-do-kompresjoterapii-we-wspolpracy-z-lek.md"
+      hidden: false
+    - title: "4.3.9. Przeciwwskazania do drenażu"
+      subchapter: true
+      content_file: "chapters/10-przeciwwskazania-do-drenazu.md"
+      hidden: false
+    - title: "4.3.10. Dokumentacja wyjściowa i kontrolna"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-wyjsciowa-i-kontrolna.md"
+      hidden: false
   completion:
     enabled: true
     type: view

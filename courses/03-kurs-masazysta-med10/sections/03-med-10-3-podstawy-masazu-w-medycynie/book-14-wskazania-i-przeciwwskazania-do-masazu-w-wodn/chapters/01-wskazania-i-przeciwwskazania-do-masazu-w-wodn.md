@@ -128,3 +128,9 @@ Temat 3.14 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.14.2. Temperatura wody i jej wpływ.
 3. Omów zagadnienie: 3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja.
 4. Omów zagadnienie: 3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

@@ -128,3 +128,9 @@ Temat 11.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 11.2.2. Zagrożenia zawodowe.
 3. Omów zagadnienie: 11.2.3. Aseptyka i antyseptyka.
 4. Omów zagadnienie: 11.2.4. Pierwsza pomoc.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

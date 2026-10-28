@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-dawkowanie-masazu-klasycznego.md"
       hidden: false
+
+    - title: "2.18.1. Siła: łagodna, średnia, głęboka"
+      subchapter: true
+      content_file: "chapters/02-sila-lagodna-srednia-gleboka.md"
+      hidden: false
+    - title: "2.18.2. Tempo: wolne, umiarkowane, szybkie"
+      subchapter: true
+      content_file: "chapters/03-tempo-wolne-umiarkowane-szybkie.md"
+      hidden: false
+    - title: "2.18.3. Czas trwania zabiegu"
+      subchapter: true
+      content_file: "chapters/04-czas-trwania-zabiegu.md"
+      hidden: false
+    - title: "2.18.4. Powtórzenia każdej techniki"
+      subchapter: true
+      content_file: "chapters/05-powtorzenia-kazdej-techniki.md"
+      hidden: false
+    - title: "2.18.5. Wiek, płeć, budowa ciała, stan zdrowia"
+      subchapter: true
+      content_file: "chapters/06-wiek-plec-budowa-ciala-stan-zdrowia.md"
+      hidden: false
+    - title: "2.18.6. Tolerancja bólu i próg dyskomfortu"
+      subchapter: true
+      content_file: "chapters/07-tolerancja-bolu-i-prog-dyskomfortu.md"
+      hidden: false
+    - title: "2.18.7. Reakcja pacjenta w trakcie zabiegu"
+      subchapter: true
+      content_file: "chapters/08-reakcja-pacjenta-w-trakcie-zabiegu.md"
+      hidden: false
+    - title: "2.18.8. Zasada stopniowania bodźca"
+      subchapter: true
+      content_file: "chapters/09-zasada-stopniowania-bodzca.md"
+      hidden: false
+    - title: "2.18.9. Zasada nieprzekraczania granicy bólu obronnego"
+      subchapter: true
+      content_file: "chapters/10-zasada-nieprzekraczania-granicy-bolu-obronnego.md"
+      hidden: false
+    - title: "2.18.10. Dokumentacja zastosowanych parametrów"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-zastosowanych-parametrow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

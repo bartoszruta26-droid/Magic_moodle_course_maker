@@ -128,3 +128,9 @@ Temat 6.5 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 6.5.2. Profilaktyka napięcia barków i karku.
 3. Omów zagadnienie: 6.5.3. Profilaktyka obrzęków nóg.
 4. Omów zagadnienie: 6.5.4. Profilaktyka przeciążeń kończyn górnych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

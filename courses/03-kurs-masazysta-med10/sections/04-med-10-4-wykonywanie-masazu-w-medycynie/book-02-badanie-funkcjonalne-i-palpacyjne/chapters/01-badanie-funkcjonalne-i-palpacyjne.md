@@ -128,3 +128,9 @@ Temat 4.2 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.2.2. Testy siły mięśniowej w skali Lovetta.
 3. Omów zagadnienie: 4.2.3. Ocena chodu i wstawania.
 4. Omów zagadnienie: 4.2.4. Ocena równowagi i stabilności.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

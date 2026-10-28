@@ -128,3 +128,9 @@ Temat 1.13 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.13.2. Krwotok z nosa.
 3. Omów zagadnienie: 1.13.3. Złamanie: unieruchomienie, ból, wstrząs.
 4. Omów zagadnienie: 1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

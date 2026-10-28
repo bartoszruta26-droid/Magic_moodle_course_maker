@@ -128,3 +128,9 @@ Temat 1.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 1.8.2. Maseczki ochronne — wskazania epidemiologiczne.
 3. Omów zagadnienie: 1.8.3. Fartuch lub okrycie robocze.
 4. Omów zagadnienie: 1.8.4. Ochrona oczu przy ryzyku rozprysku.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

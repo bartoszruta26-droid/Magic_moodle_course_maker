@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-dzialania-edukacyjne-i-popularyzacja-zachowan-proz.md"
       hidden: false
+
+    - title: "6.9.1. Jak mówić o zdrowiu bez straszenia"
+      subchapter: true
+      content_file: "chapters/02-jak-mowic-o-zdrowiu-bez-straszenia.md"
+      hidden: false
+    - title: "6.9.2. Jak mówić o ciele bez wstydu"
+      subchapter: true
+      content_file: "chapters/03-jak-mowic-o-ciele-bez-wstydu.md"
+      hidden: false
+    - title: "6.9.3. Jak motywować bez manipulacji"
+      subchapter: true
+      content_file: "chapters/04-jak-motywowac-bez-manipulacji.md"
+      hidden: false
+    - title: "6.9.4. Podstawy higieny snu"
+      subchapter: true
+      content_file: "chapters/05-podstawy-higieny-snu.md"
+      hidden: false
+    - title: "6.9.5. Podstawy aktywności fizycznej"
+      subchapter: true
+      content_file: "chapters/06-podstawy-aktywnosci-fizycznej.md"
+      hidden: false
+    - title: "6.9.6. Podstawy nawodnienia"
+      subchapter: true
+      content_file: "chapters/07-podstawy-nawodnienia.md"
+      hidden: false
+    - title: "6.9.7. Podstawy pielęgnacji skóry"
+      subchapter: true
+      content_file: "chapters/08-podstawy-pielegnacji-skory.md"
+      hidden: false
+    - title: "6.9.8. Profilaktyka przeciążeń"
+      subchapter: true
+      content_file: "chapters/09-profilaktyka-przeciazen.md"
+      hidden: false
+    - title: "6.9.9. Materiały edukacyjne dla pacjenta"
+      subchapter: true
+      content_file: "chapters/10-materialy-edukacyjne-dla-pacjenta.md"
+      hidden: false
+    - title: "6.9.10. Współpraca z lekarzem, dietetykiem, fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/11-wspolpraca-z-lekarzem-dietetykiem-fizjoterapeuta.md"
+      hidden: false
   completion:
     enabled: true
     type: view

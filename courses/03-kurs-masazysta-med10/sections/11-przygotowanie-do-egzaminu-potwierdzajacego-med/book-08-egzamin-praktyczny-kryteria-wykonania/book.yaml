@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-egzamin-praktyczny-kryteria-wykonania.md"
       hidden: false
+
+    - title: "11.8.1. Przygotowanie stanowiska"
+      subchapter: true
+      content_file: "chapters/02-przygotowanie-stanowiska.md"
+      hidden: false
+    - title: "11.8.2. Przygotowanie pacjenta"
+      subchapter: true
+      content_file: "chapters/03-przygotowanie-pacjenta.md"
+      hidden: false
+    - title: "11.8.3. Zgoda i informacja"
+      subchapter: true
+      content_file: "chapters/04-zgoda-i-informacja.md"
+      hidden: false
+    - title: "11.8.4. Dobór techniki"
+      subchapter: true
+      content_file: "chapters/05-dobor-techniki.md"
+      hidden: false
+    - title: "11.8.5. Kolejność"
+      subchapter: true
+      content_file: "chapters/06-kolejnosc.md"
+      hidden: false
+    - title: "11.8.6. Bezpieczeństwo"
+      subchapter: true
+      content_file: "chapters/07-bezpieczenstwo.md"
+      hidden: false
+    - title: "11.8.7. Higiena"
+      subchapter: true
+      content_file: "chapters/08-higiena.md"
+      hidden: false
+    - title: "11.8.8. Komunikacja"
+      subchapter: true
+      content_file: "chapters/09-komunikacja.md"
+      hidden: false
+    - title: "11.8.9. Dokumentacja"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja.md"
+      hidden: false
+    - title: "11.8.10. Zakończenie zabiegu"
+      subchapter: true
+      content_file: "chapters/11-zakonczenie-zabiegu.md"
+      hidden: false
   completion:
     enabled: true
     type: view
