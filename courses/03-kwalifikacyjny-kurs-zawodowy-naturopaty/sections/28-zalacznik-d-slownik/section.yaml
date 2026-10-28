@@ -1,0 +1,10 @@
+# Metadane sekcji
+id: 28
+name: "Załącznik D: Słownik terminów medycznych i naturopatycznych (łacina, greka, terminologia kliniczna; wykaz diagnoz wg ICD – od Abscessus pulmonis do Vulvovaginitis)"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: glossary
+    ref: glossary-01

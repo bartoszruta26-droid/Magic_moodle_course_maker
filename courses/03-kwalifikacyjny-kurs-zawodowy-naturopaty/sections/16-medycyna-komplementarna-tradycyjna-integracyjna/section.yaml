@@ -1,0 +1,24 @@
+# Metadane sekcji
+id: 16
+name: "Moduł 16: MEDYCYNA KOMPLEMENTARNA, TRADYCYJNA I INTEGRACYJNA"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-16-1-przeglad-systemow-medycyny-tradycyjnej.md"
+    name: "16.1. Przegląd systemów medycyny tradycyjnej"
+  - type: page
+    ref: "page-16-2-terapie-komplementarne-przeglad-i-zastosowanie.md"
+    name: "16.2. Terapie komplementarne – przegląd i zastosowanie"
+  - type: page
+    ref: "page-16-3-medycyna-integracyjna-aczenie-podejsc.md"
+    name: "16.3. Medycyna integracyjna – łączenie podejść"
+  - type: page
+    ref: "page-16-4-wymiar-duchowy-i-egzystencjalny-w-zdrowieniu.md"
+    name: "16.4. Wymiar duchowy i egzystencjalny w zdrowieniu"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

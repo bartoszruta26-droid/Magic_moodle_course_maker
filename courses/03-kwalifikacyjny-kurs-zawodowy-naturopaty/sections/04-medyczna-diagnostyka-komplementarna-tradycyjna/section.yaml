@@ -1,0 +1,24 @@
+# Metadane sekcji
+id: 4
+name: "Moduł 4: MEDYCZNA DIAGNOSTYKA KOMPLEMENTARNA I TRADYCYJNA"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-4-1-diagnostyka-w-medycynie-tradycyjnej-chinskiej-tcm.md"
+    name: "4.1. Diagnostyka w medycynie tradycyjnej chińskiej (TCM)"
+  - type: page
+    ref: "page-4-2-diagnostyka-w-ajurwedzie.md"
+    name: "4.2. Diagnostyka w ajurwedzie"
+  - type: page
+    ref: "page-4-3-diagnostyka-w-medycynie-zachodniej-naturalnej-i-naturopatii-.md"
+    name: "4.3. Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej"
+  - type: page
+    ref: "page-4-4-diagnostyka-integralna-i-holistyczna.md"
+    name: "4.4. Diagnostyka integralna i holistyczna"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

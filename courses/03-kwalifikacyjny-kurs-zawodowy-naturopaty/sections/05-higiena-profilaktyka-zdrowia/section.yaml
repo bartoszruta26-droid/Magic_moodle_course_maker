@@ -1,0 +1,24 @@
+# Metadane sekcji
+id: 5
+name: "Moduł 5: HIGIENA I PROFILAKTYKA ZDROWIA"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-5-1-higiena-osobista-i-srodowiskowa.md"
+    name: "5.1. Higiena osobista i środowiskowa"
+  - type: page
+    ref: "page-5-2-profilaktyka-pierwotna.md"
+    name: "5.2. Profilaktyka pierwotna"
+  - type: page
+    ref: "page-5-3-profilaktyka-wtorna-i-trzeciorzedowa.md"
+    name: "5.3. Profilaktyka wtórna i trzeciorzędowa"
+  - type: page
+    ref: "page-5-4-higiena-i-profilaktyka-w-praktyce-naturopaty.md"
+    name: "5.4. Higiena i profilaktyka w praktyce naturopaty"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

@@ -1,0 +1,22 @@
+# Tagi i kategorie kursu
+category:
+  name: "Kursy zawodowe"
+  idnumber: "KKZ"
+tags:
+  - naturopatia
+  - kurs-zawodowy
+  - masaz-leczniczy
+  - drenaz-limfatyczny
+  - kinezyterapia
+  - fitoterapia
+  - dietetyka
+  - diagnostyka
+  - higiena-i-profilaktyka
+  - terapia-manualna
+  - cyrulika-medyczna
+  - felczerstwo
+  - coaching-zdrowotny
+  - mentoring-medyczny
+  - etyka-zawodowa
+  - prawo-medyczne
+  - praktyka-zawodowa

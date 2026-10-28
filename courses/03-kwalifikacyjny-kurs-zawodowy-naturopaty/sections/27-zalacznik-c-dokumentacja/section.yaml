@@ -1,0 +1,10 @@
+# Metadane sekcji
+id: 27
+name: "Załącznik C: Wzory dokumentacji"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-zawartosc.md"

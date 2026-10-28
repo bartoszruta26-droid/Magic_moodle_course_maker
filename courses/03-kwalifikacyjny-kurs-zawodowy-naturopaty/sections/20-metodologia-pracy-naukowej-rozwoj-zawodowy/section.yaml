@@ -1,0 +1,18 @@
+# Metadane sekcji
+id: 20
+name: "Moduł 20: METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-20-1-podstawy-metodologii-badan.md"
+    name: "20.1. Podstawy metodologii badań"
+  - type: page
+    ref: "page-20-2-rozwoj-zawodowy-i-kszta-cenie-ustawiczne.md"
+    name: "20.2. Rozwój zawodowy i kształcenie ustawiczne"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

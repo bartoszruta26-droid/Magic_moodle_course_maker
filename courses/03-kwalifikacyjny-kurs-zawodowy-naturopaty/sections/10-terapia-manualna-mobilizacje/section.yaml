@@ -1,0 +1,18 @@
+# Metadane sekcji
+id: 10
+name: "Moduł 10: TERAPIA MANUALNA I MOBILIZACJE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-10-1-podstawy-terapii-manualnej.md"
+    name: "10.1. Podstawy terapii manualnej"
+  - type: page
+    ref: "page-10-2-masaz-specjalistyczny-i-techniki-uzupe-niajace.md"
+    name: "10.2. Masaż specjalistyczny i techniki uzupełniające"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

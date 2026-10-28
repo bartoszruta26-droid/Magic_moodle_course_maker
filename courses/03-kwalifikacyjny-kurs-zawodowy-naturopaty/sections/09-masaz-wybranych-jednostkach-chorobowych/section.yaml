@@ -1,0 +1,36 @@
+# Metadane sekcji
+id: 9
+name: "Moduł 9: MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-9-1-choroby-reumatyczne-masaz-i-rehabilitacja.md"
+    name: "9.1. Choroby reumatyczne – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-2-urazy-masaz-i-rehabilitacja.md"
+    name: "9.2. Urazy – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-3-zniekszta-cenia-masaz-i-korekcja.md"
+    name: "9.3. Zniekształcenia – masaż i korekcja"
+  - type: page
+    ref: "page-9-4-choroby-uk-adu-oddechowego-masaz-i-rehabilitacja.md"
+    name: "9.4. Choroby układu oddechowego – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-5-choroby-uk-adu-krazenia-masaz-i-rehabilitacja.md"
+    name: "9.5. Choroby układu krążenia – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-6-choroby-uk-adu-nerwowego-masaz-i-rehabilitacja.md"
+    name: "9.6. Choroby układu nerwowego – masaż i rehabilitacja"
+  - type: page
+    ref: "page-9-7-choroby-uk-adu-pokarmowego-i-moczowo-p-ciowego-masaz.md"
+    name: "9.7. Choroby układu pokarmowego i moczowo-płciowego – masaż"
+  - type: page
+    ref: "page-9-8-zasady-wykonywania-masazu-u-osob-starszych.md"
+    name: "9.8. Zasady wykonywania masażu u osób starszych"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

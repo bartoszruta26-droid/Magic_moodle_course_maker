@@ -1,0 +1,21 @@
+# Metadane sekcji
+id: 15
+name: "Moduł 15: MEDYCYNA FIZYKALNA I ZABIEGI FIZYKOTERAPEUTYCZNE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-15-1-hydroterapia-i-balneologia.md"
+    name: "15.1. Hydroterapia i balneologia"
+  - type: page
+    ref: "page-15-2-termoterapia-i-fototerapia.md"
+    name: "15.2. Termoterapia i fototerapia"
+  - type: page
+    ref: "page-15-3-elektroterapia-i-inne-formy-fizykoterapii.md"
+    name: "15.3. Elektroterapia i inne formy fizykoterapii"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

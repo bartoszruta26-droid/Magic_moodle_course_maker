@@ -1,0 +1,30 @@
+# Metadane sekcji
+id: 17
+name: "Moduł 17: MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-17-1-podstawy-mentorstwa-medycznego.md"
+    name: "17.1. Podstawy mentorstwa medycznego"
+  - type: page
+    ref: "page-17-2-coaching-zdrowotny-metodyka.md"
+    name: "17.2. Coaching zdrowotny – metodyka"
+  - type: page
+    ref: "page-17-3-mentorstwo-i-coaching-w-praktyce-naturopatycznej.md"
+    name: "17.3. Mentorstwo i coaching w praktyce naturopatycznej"
+  - type: page
+    ref: "page-17-4-psychologia-zdrowia-i-komunikacja-terapeutyczna.md"
+    name: "17.4. Psychologia zdrowia i komunikacja terapeutyczna"
+  - type: page
+    ref: "page-17-5-wypalenie-zawodowe-i-higiena-psychiczna-naturopaty.md"
+    name: "17.5. Wypalenie zawodowe i higiena psychiczna naturopaty"
+  - type: page
+    ref: "page-17-6-mentoring-zawodowy-naturopatow.md"
+    name: "17.6. Mentoring zawodowy naturopatów"
+  - type: quiz
+    ref: quiz-01
+  - type: assignment
+    ref: assignment-01

@@ -1,0 +1,7 @@
+# Metadane quizu
+name: "Quiz: Moduł 14 – MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA"
+time_limit: 900
+attempts: 2
+grade_passing: 60
+shuffle_answers: 1
+questions_file: questions.gift

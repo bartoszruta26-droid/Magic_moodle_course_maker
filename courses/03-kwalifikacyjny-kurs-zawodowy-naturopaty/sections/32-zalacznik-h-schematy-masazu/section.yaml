@@ -1,0 +1,10 @@
+# Metadane sekcji
+id: 32
+name: "Załącznik H: Schematy postępowania w masażu leczniczym (wg A. Zborowskiego)"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-zawartosc.md"
