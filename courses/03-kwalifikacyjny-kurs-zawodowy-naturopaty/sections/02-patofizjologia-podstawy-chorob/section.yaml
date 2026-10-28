@@ -15,6 +15,9 @@ modules:
   - type: page
     ref: "page-2-3-psychoneuroimmunologia-i-medycyna-psychosomatyczna.md"
     name: "2.3. Psychoneuroimmunologia i medycyna psychosomatyczna"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 2"
   - type: quiz
     ref: quiz-01
   - type: assignment

@@ -1,0 +1,41 @@
+# Aktywność typu book — pełny tekst kodeksu etycznego
+book:
+  name: "Kodeks etyczny naturopaty — pełny tekst"
+  intro: |
+    Konstytucja sumienia zawodu naturopaty. Oparta na prawie naturalnym, godności osoby ludzkiej i przykazaniu miłości bliźniego. Proszę przeczytać uważnie przed pierwszym seansem praktyki i wracać do tekstu co semestr.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "Preambuła"
+      subchapter: false
+      content_file: "chapters/01-preambula.md"
+      hidden: false
+    - title: "Rozdział I — Prawda w praktyce"
+      subchapter: false
+      content_file: "chapters/02-rozdzial-i-prawda-w-praktyce.md"
+      hidden: false
+    - title: "Rozdział II — Godność i miłość bliźniego"
+      subchapter: false
+      content_file: "chapters/03-rozdzial-ii-godnosc-i-milosc-blizniego.md"
+      hidden: false
+    - title: "Rozdział III — Sprawiedliwość"
+      subchapter: false
+      content_file: "chapters/04-rozdzial-iii-sprawiedliwosc.md"
+      hidden: false
+    - title: "Rozdział IV — Granice kompetencji i primum non nocere"
+      subchapter: false
+      content_file: "chapters/05-rozdzial-iv-granice-kompetencji-i-primum-non-nocer.md"
+      hidden: false
+    - title: "Rozdział V — Pokora i rozwój"
+      subchapter: false
+      content_file: "chapters/06-rozdzial-v-pokora-i-rozwoj.md"
+      hidden: false
+    - title: "Rozdział VI — Wymiar duchowy posługi"
+      subchapter: false
+      content_file: "chapters/07-rozdzial-vi-wymiar-duchowy-poslugi.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

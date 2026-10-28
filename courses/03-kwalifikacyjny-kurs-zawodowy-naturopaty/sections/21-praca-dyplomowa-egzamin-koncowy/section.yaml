@@ -12,6 +12,9 @@ modules:
   - type: page
     ref: "page-21-2-egzamin-koncowy.md"
     name: "21.2. Egzamin końcowy"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 21"
   - type: quiz
     ref: quiz-01
   - type: assignment

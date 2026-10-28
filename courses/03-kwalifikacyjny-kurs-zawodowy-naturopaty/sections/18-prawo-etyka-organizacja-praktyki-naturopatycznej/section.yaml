@@ -15,6 +15,9 @@ modules:
   - type: page
     ref: "page-18-3-organizacja-i-prowadzenie-praktyki.md"
     name: "18.3. Organizacja i prowadzenie praktyki"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 18"
   - type: quiz
     ref: quiz-01
   - type: assignment

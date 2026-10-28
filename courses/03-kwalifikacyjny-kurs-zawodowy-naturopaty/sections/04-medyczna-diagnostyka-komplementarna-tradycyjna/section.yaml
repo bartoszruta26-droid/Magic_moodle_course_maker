@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-4-4-diagnostyka-integralna-i-holistyczna.md"
     name: "4.4. Diagnostyka integralna i holistyczna"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 4"
   - type: quiz
     ref: quiz-01
   - type: assignment

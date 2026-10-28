@@ -1,0 +1,37 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik: Moduł 8: DRENAŻ LIMFATYCZNY"
+  intro: |
+    Drenaż limfatyczny wspomaga krążenie chłonki metodą polską (dr M. Finke) i niemiecką (Földi, Vodder). Moduł obejmuje anatomię układu limfatycznego, zasady, techniki i praktyczne sekwencje zabiegowe wraz z przeciwwskazaniami.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "8.1. Podstawy anatomiczne i fizjologiczne układu limfatycznego"
+      subchapter: false
+      content_file: "chapters/01-8-1-podstawy-anatomiczne-i-fizjologiczne-ukladu-li.md"
+      hidden: false
+    - title: "8.2. Zasady stosowania drenażu limfatycznego"
+      subchapter: false
+      content_file: "chapters/02-8-2-zasady-stosowania-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "8.3. Techniki drenażu limfatycznego – metoda polska"
+      subchapter: false
+      content_file: "chapters/03-8-3-techniki-drenazu-limfatycznego-metoda-polska.md"
+      hidden: false
+    - title: "8.4. Techniki drenażu limfatycznego – metoda niemiecka"
+      subchapter: false
+      content_file: "chapters/04-8-4-techniki-drenazu-limfatycznego-metoda-niemieck.md"
+      hidden: false
+    - title: "8.5. Praktyczne wykonanie drenażu limfatycznego"
+      subchapter: false
+      content_file: "chapters/05-8-5-praktyczne-wykonanie-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "8.6. Drenaż limfatyczny w jednostkach chorobowych"
+      subchapter: false
+      content_file: "chapters/06-8-6-drenaz-limfatyczny-w-jednostkach-chorobowych.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-12-4-pierwsza-pomoc-i-stany-nag-e.md"
     name: "12.4. Pierwsza pomoc i stany nagłe"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 12"
   - type: quiz
     ref: quiz-01
   - type: assignment

@@ -1,0 +1,49 @@
+# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+book:
+  name: "Załącznik A — Wykaz lektur — księga" 
+  intro: |
+    Wykaz lektur obowiązkowych i uzupełniających — przewodnik biblioteczny naturopaty. Każde polecenie poprzedź modlitwą o światło prawdy: kto szerzy błędy, szkodzi duszom i ciałom.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "A.1. Podręczniki anatomii i fizjologii (Bochenek, Traczyk, Sokołowska-Pituc"
+      subchapter: false
+      content_file: "chapters/01-a-1-podreczniki-anatomii-i-fizjologii-bochenek-tra.md"
+      hidden: false
+    - title: "A.2. Podręczniki masażu leczniczego"
+      subchapter: false
+      content_file: "chapters/02-a-2-podreczniki-masazu-leczniczego-a-zborowski-mas.md"
+      hidden: false
+    - title: "A.3. Podręczniki fitoterapii i zielarstwa"
+      subchapter: false
+      content_file: "chapters/03-a-3-podreczniki-fitoterapii-i-zielarstwa.md"
+      hidden: false
+    - title: "A.4. Podręczniki dietetyki i medycyny żywienia"
+      subchapter: false
+      content_file: "chapters/04-a-4-podreczniki-dietetyki-i-medycyny-zywienia.md"
+      hidden: false
+    - title: "A.5. Podręczniki kinezyterapii i treningu medycznego (Tidy, Kasperczyk)"
+      subchapter: false
+      content_file: "chapters/05-a-5-podreczniki-kinezyterapii-i-treningu-medyczneg.md"
+      hidden: false
+    - title: "A.6. Podręczniki medycyny komplementarnej i integracyjnej"
+      subchapter: false
+      content_file: "chapters/06-a-6-podreczniki-medycyny-komplementarnej-i-integra.md"
+      hidden: false
+    - title: "A.7. Podręczniki coachingu i mentoringu zdrowotnego"
+      subchapter: false
+      content_file: "chapters/07-a-7-podreczniki-coachingu-i-mentoringu-zdrowotnego.md"
+      hidden: false
+    - title: "A.8. Źródła prawa medycznego i etyki zawodowej"
+      subchapter: false
+      content_file: "chapters/08-a-8-zrodla-prawa-medycznego-i-etyki-zawodowej.md"
+      hidden: false
+    - title: "A.9. Leki współczesnej terapii (interakcje z fitoterapią)"
+      subchapter: false
+      content_file: "chapters/09-a-9-leki-wspolczesnej-terapii-interakcje-z-fitoter.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

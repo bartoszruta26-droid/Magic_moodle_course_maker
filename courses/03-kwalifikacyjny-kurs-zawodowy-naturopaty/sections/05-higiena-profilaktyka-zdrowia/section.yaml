@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-5-4-higiena-i-profilaktyka-w-praktyce-naturopaty.md"
     name: "5.4. Higiena i profilaktyka w praktyce naturopaty"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 5"
   - type: quiz
     ref: quiz-01
   - type: assignment

@@ -10,4 +10,4 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Zawartość załącznika
 
-*(Wykaz do uzupełnienia w kolejnym etapie prac nad kursem.)*
+Słownik liczy ponad 40 haseł łacińskich (od Abscessus do Vulvovaginitis) w aktywności **Glosariusz** oraz w książce przeglądowej. Hasła łączą znaczenie kliniczne z praktyką zabiegową i kryteriami skierowania do lekarza.

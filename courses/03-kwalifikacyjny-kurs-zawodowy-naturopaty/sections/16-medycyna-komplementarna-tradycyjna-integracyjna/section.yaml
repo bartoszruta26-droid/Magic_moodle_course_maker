@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-16-4-wymiar-duchowy-i-egzystencjalny-w-zdrowieniu.md"
     name: "16.4. Wymiar duchowy i egzystencjalny w zdrowieniu"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 16"
   - type: quiz
     ref: quiz-01
   - type: assignment

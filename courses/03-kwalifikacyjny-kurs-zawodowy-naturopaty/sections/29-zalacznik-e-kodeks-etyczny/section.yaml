@@ -6,3 +6,6 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
+  - type: book
+    ref: "book-01"
+    name: "Kodeks etyczny naturopaty — pełny tekst"

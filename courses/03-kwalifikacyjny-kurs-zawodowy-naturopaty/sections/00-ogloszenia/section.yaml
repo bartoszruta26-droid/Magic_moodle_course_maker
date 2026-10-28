@@ -10,3 +10,6 @@ modules:
     ref: "page.md"
   - type: forum
     ref: forum-01
+  - type: book
+    ref: "book-01"
+    name: "Księga powitalna — Dobrze, że jesteś"

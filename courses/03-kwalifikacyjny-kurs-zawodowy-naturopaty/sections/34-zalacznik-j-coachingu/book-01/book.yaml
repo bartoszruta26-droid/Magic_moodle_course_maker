@@ -1,0 +1,45 @@
+# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+book:
+  name: "Załącznik J — Coaching i mentoring — księga" 
+  intro: |
+    Schematy coachingu i mentoringu zdrowotnego — struktura spotkań, narzędzia motywacyjne, protokoły i superwizja.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "J.1. Struktura sesji coachingu zdrowotnego"
+      subchapter: false
+      content_file: "chapters/01-j-1-struktura-sesji-coachingu-zdrowotnego-model-gr.md"
+      hidden: false
+    - title: "J.2. Kwestionariusz wywiadu coachingowego"
+      subchapter: false
+      content_file: "chapters/02-j-2-kwestionariusz-wywiadu-coachingowego-styl-zyci.md"
+      hidden: false
+    - title: "J.3. Plan zmiany zachowań zdrowotnych"
+      subchapter: false
+      content_file: "chapters/03-j-3-plan-zmiany-zachowan-zdrowotnych-wzor-cel-dzia.md"
+      hidden: false
+    - title: "J.4. Dziennik zdrowia pacjenta"
+      subchapter: false
+      content_file: "chapters/04-j-4-dziennik-zdrowia-pacjenta-wzor.md"
+      hidden: false
+    - title: "J.5. Skala motywacji i gotowości do zmiany"
+      subchapter: false
+      content_file: "chapters/05-j-5-skala-motywacji-i-gotowosci-do-zmiany-narzedzi.md"
+      hidden: false
+    - title: "J.6. Protokół mentoringu w chorobie przewlekłej"
+      subchapter: false
+      content_file: "chapters/06-j-6-protokol-mentoringu-w-chorobie-przewleklej-str.md"
+      hidden: false
+    - title: "J.7. Protokół mentoringu opiekunów rodzinnych"
+      subchapter: false
+      content_file: "chapters/07-j-7-protokol-mentoringu-opiekunow-rodzinnych-wspar.md"
+      hidden: false
+    - title: "J.8. Karta superwizji"
+      subchapter: false
+      content_file: "chapters/08-j-8-karta-superwizji-wzor.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

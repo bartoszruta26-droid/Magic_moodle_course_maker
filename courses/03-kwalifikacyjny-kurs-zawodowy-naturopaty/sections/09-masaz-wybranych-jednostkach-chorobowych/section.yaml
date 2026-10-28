@@ -30,6 +30,9 @@ modules:
   - type: page
     ref: "page-9-8-zasady-wykonywania-masazu-u-osob-starszych.md"
     name: "9.8. Zasady wykonywania masażu u osób starszych"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 9"
   - type: quiz
     ref: quiz-01
   - type: assignment

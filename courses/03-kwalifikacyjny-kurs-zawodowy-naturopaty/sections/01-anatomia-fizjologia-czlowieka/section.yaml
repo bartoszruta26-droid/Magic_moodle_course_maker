@@ -15,6 +15,9 @@ modules:
   - type: page
     ref: "page-1-3-anatomia-i-fizjologia-w-kontekscie-praktycznym-naturopaty.md"
     name: "1.3. Anatomia i fizjologia w kontekście praktycznym naturopaty"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 1"
   - type: quiz
     ref: quiz-01
   - type: assignment

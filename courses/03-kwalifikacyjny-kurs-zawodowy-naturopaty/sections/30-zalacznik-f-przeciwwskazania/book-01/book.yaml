@@ -1,0 +1,57 @@
+# Aktywność typu book — księga załącznika (preferowana aktywność kursu)
+book:
+  name: "Załącznik F — Przeciwwskazania — księga" 
+  intro: |
+    Wykaz przeciwwskazań bezwzględnych i względnych do zabiegów. Znajomość tego, czego NIE wolno robić, jest pierwszym dowodem miłości wobec pacjenta.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "F.1. Przeciwwskazania do masażu klasycznego (ogólne i do poszczególnych tec"
+      subchapter: false
+      content_file: "chapters/01-f-1-przeciwwskazania-do-masazu-klasycznego-ogolne.md"
+      hidden: false
+    - title: "F.2. Przeciwwskazania do masażu segmentarnego"
+      subchapter: false
+      content_file: "chapters/02-f-2-przeciwwskazania-do-masazu-segmentarnego.md"
+      hidden: false
+    - title: "F.3. Przeciwwskazania do drenażu limfatycznego"
+      subchapter: false
+      content_file: "chapters/03-f-3-przeciwwskazania-do-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "F.4. Przeciwwskazania do treningu medycznego i kinezyterapii"
+      subchapter: false
+      content_file: "chapters/04-f-4-przeciwwskazania-do-treningu-medycznego-i-kine.md"
+      hidden: false
+    - title: "F.5. Przeciwwskazania do hydro- i fizykoterapii (ze szczególnym uwzględnien"
+      subchapter: false
+      content_file: "chapters/05-f-5-przeciwwskazania-do-hydro-i-fizykoterapii-ze-s.md"
+      hidden: false
+    - title: "F.6. Przeciwwskazania do fitoterapii"
+      subchapter: false
+      content_file: "chapters/06-f-6-przeciwwskazania-do-fitoterapii.md"
+      hidden: false
+    - title: "F.7. Przeciwwskazania do masażu powłok brzusznych"
+      subchapter: false
+      content_file: "chapters/07-f-7-przeciwwskazania-do-masazu-powlok-brzusznych.md"
+      hidden: false
+    - title: "F.8. Przeciwwskazania względne"
+      subchapter: false
+      content_file: "chapters/08-f-8-przeciwwskazania-wzgledne-wymagajace-konsultac.md"
+      hidden: false
+    - title: "E.2. Przeciwwskazania do masażu segmentarnego (ostre bakteryjne zapalenia, "
+      subchapter: false
+      content_file: "chapters/09-e-2-przeciwwskazania-do-masazu-segmentarnego-ostre.md"
+      hidden: false
+    - title: "E.8. Przeciwwskazania do zabiegów felczerskich"
+      subchapter: false
+      content_file: "chapters/10-e-8-przeciwwskazania-do-zabiegow-felczerskich.md"
+      hidden: false
+    - title: "E.10. Przeciwwskazania do masażu u osób starszych"
+      subchapter: false
+      content_file: "chapters/11-e-10-przeciwwskazania-do-masazu-u-osob-starszych-s.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

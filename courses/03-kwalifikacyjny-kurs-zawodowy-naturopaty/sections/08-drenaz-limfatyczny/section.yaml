@@ -24,6 +24,9 @@ modules:
   - type: page
     ref: "page-8-6-drenaz-limfatyczny-w-jednostkach-chorobowych.md"
     name: "8.6. Drenaż limfatyczny w jednostkach chorobowych"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 8"
   - type: quiz
     ref: quiz-01
   - type: assignment

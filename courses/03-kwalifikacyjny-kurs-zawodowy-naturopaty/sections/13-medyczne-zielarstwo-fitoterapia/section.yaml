@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-13-4-praktyka-zielarska.md"
     name: "13.4. Praktyka zielarska"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 13"
   - type: quiz
     ref: quiz-01
   - type: assignment

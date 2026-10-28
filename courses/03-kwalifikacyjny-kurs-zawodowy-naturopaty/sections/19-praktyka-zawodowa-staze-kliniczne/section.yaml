@@ -24,6 +24,9 @@ modules:
   - type: page
     ref: "page-19-6-staz-obserwacyjny.md"
     name: "19.6. Staż obserwacyjny"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 19"
   - type: quiz
     ref: quiz-01
   - type: assignment

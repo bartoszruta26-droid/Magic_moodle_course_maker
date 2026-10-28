@@ -21,6 +21,9 @@ modules:
   - type: page
     ref: "page-3-5-diagnostyka-funkcjonalna-i-roznicowa.md"
     name: "3.5. Diagnostyka funkcjonalna i różnicowa"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 3"
   - type: quiz
     ref: quiz-01
   - type: assignment

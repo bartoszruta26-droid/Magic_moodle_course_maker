@@ -24,6 +24,9 @@ modules:
   - type: page
     ref: "page-11-6-trening-funkcjonalny-i-medyczny-trening-personalny.md"
     name: "11.6. Trening funkcjonalny i medyczny trening personalny"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 11"
   - type: quiz
     ref: quiz-01
   - type: assignment

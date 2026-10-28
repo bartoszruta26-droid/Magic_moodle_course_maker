@@ -1,0 +1,25 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik: Moduł 18: PRAWO, ETYKA I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ"
+  intro: |
+    Prawo i etyka wyznaczają ramy zawodu. Moduł przedstawia podstawy prawne wykonywania praktyki, etykę zawodową (prawda, tajemnica, granice kompetencji) oraz organizację gabinetu — w duchu sprawiedliwości i służby bliźniemu.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "18.1. Podstawy prawne"
+      subchapter: false
+      content_file: "chapters/01-18-1-podstawy-prawne.md"
+      hidden: false
+    - title: "18.2. Etyka zawodowa"
+      subchapter: false
+      content_file: "chapters/02-18-2-etyka-zawodowa.md"
+      hidden: false
+    - title: "18.3. Organizacja i prowadzenie praktyki"
+      subchapter: false
+      content_file: "chapters/03-18-3-organizacja-i-prowadzenie-praktyki.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

@@ -10,3 +10,6 @@ modules:
     ref: "page-01-zawartosc.md"
   - type: choice
     ref: checklist-01
+  - type: book
+    ref: "book-01"
+    name: "Załącznik B — Umiejętności praktyczne — księga"

@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-14-4-suplementacja-i-nutraceutyki.md"
     name: "14.4. Suplementacja i nutraceutyki"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 14"
   - type: quiz
     ref: quiz-01
   - type: assignment

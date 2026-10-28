@@ -8,3 +8,6 @@ summary:
 modules:
   - type: glossary
     ref: glossary-01
+  - type: book
+    ref: "book-01"
+    name: "Słownik terminów — wydanie podręcznikowe"

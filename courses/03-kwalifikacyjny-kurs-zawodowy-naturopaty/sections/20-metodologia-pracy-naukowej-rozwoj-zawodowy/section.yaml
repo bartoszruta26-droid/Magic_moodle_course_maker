@@ -12,6 +12,9 @@ modules:
   - type: page
     ref: "page-20-2-rozwoj-zawodowy-i-kszta-cenie-ustawiczne.md"
     name: "20.2. Rozwój zawodowy i kształcenie ustawiczne"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 20"
   - type: quiz
     ref: quiz-01
   - type: assignment

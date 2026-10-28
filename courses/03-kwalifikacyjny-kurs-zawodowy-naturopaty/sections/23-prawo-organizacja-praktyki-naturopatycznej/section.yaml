@@ -12,6 +12,9 @@ modules:
   - type: page
     ref: "page-23-2-organizacja-i-prowadzenie-praktyki.md"
     name: "23.2. Organizacja i prowadzenie praktyki"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 23"
   - type: quiz
     ref: quiz-01
   - type: assignment

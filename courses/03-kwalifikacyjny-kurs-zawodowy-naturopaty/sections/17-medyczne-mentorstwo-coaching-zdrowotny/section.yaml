@@ -24,6 +24,9 @@ modules:
   - type: page
     ref: "page-17-6-mentoring-zawodowy-naturopatow.md"
     name: "17.6. Mentoring zawodowy naturopatów"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 17"
   - type: quiz
     ref: quiz-01
   - type: assignment

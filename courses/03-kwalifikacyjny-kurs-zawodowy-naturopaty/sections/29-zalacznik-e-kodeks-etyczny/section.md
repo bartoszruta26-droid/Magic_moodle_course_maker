@@ -10,4 +10,4 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Zawartość załącznika
 
-*(Wykaz do uzupełnienia w kolejnym etapie prac nad kursem.)*
+Pełny tekst kodeksu dostępny jest w aktywności **Księga: Kodeks etyczny naturopaty** (book-01). Obejmuje: preambułę oraz rozdziały o prawdzie, godności i miłości bliźniego, sprawiedliwości, granicach kompetencji (primum non nocere), pokorze i rozwoju oraz wymiarze duchowym posługi zdrowotnej.

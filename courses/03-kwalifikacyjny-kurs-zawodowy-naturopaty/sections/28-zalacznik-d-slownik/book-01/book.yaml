@@ -1,0 +1,29 @@
+# Aktywność typu book — słownik przeglądowy (uzupełnienie aktywności glossary)
+book:
+  name: "Słownik terminów medycznych i naturopatycznych — wydanie podręcznikowe"
+  intro: |
+    Łacina, greka i terminologia kliniczna potrzebna w praktyce naturopaty; wykaz diagnoz wg ICD — od Abscessus pulmonis do Vulvovaginitis. Hasła zawierają kontekst zabiegowy (masaż, drenaż, kinezyterapia) oraz kryteria kierowania do lekarza.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "Słownik: Hasła A–G"
+      subchapter: false
+      content_file: "chapters/01-hasla-a-g.md"
+      hidden: false
+    - title: "Słownik: Hasła H–O"
+      subchapter: false
+      content_file: "chapters/02-hasla-h-o.md"
+      hidden: false
+    - title: "Słownik: Hasła P–S"
+      subchapter: false
+      content_file: "chapters/03-hasla-p-s.md"
+      hidden: false
+    - title: "Słownik: Hasła S–V"
+      subchapter: false
+      content_file: "chapters/04-hasla-s-v.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

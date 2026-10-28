@@ -12,6 +12,9 @@ modules:
   - type: page
     ref: "page-10-2-masaz-specjalistyczny-i-techniki-uzupe-niajace.md"
     name: "10.2. Masaż specjalistyczny i techniki uzupełniające"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 10"
   - type: quiz
     ref: quiz-01
   - type: assignment

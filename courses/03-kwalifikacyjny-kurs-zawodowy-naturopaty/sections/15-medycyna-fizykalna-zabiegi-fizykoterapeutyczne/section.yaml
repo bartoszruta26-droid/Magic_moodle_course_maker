@@ -15,6 +15,9 @@ modules:
   - type: page
     ref: "page-15-3-elektroterapia-i-inne-formy-fizykoterapii.md"
     name: "15.3. Elektroterapia i inne formy fizykoterapii"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 15"
   - type: quiz
     ref: quiz-01
   - type: assignment

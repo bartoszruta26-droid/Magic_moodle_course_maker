@@ -1,0 +1,25 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik: Moduł 1: ANATOMIA I FIZJOLOGIA CZŁOWIEKA"
+  intro: |
+    Fundament każdego ręku, który leczy, jest znajomość ciała człowieka — jego budowy i działania. Moduł prowadzi od komórki po układy narządów, ucząc podziwu dla Stwórcy objawionego w porządku natury oraz szacunku dla ciała pacjenta.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "1.1. Anatomia ogólna i topograficzna"
+      subchapter: false
+      content_file: "chapters/01-1-1-anatomia-ogolna-i-topograficzna.md"
+      hidden: false
+    - title: "1.2. Fizjologia człowieka"
+      subchapter: false
+      content_file: "chapters/02-1-2-fizjologia-czlowieka.md"
+      hidden: false
+    - title: "1.3. Anatomia i fizjologia w kontekście praktycznym naturopaty"
+      subchapter: false
+      content_file: "chapters/03-1-3-anatomia-i-fizjologia-w-kontekscie-praktycznym.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

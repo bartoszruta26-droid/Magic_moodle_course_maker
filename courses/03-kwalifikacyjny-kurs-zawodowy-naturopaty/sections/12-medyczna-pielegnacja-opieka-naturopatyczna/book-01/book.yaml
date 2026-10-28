@@ -1,0 +1,29 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik: Moduł 12: MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA"
+  intro: |
+    Medyczna pielęgnacja i opieka naturopatyczna przywraca godność choremu u łoża. Moduł łączy podstawy pielęgnacji, zabiegi lecznicze, opiekę w wybranych stanach oraz pierwszą pomoc w stanach nagłych.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "12.1. Podstawy pielęgnacji medycznej"
+      subchapter: false
+      content_file: "chapters/01-12-1-podstawy-pielegnacji-medycznej.md"
+      hidden: false
+    - title: "12.2. Zabiegi pielęgnacyjne i lecznicze"
+      subchapter: false
+      content_file: "chapters/02-12-2-zabiegi-pielegnacyjne-i-lecznicze.md"
+      hidden: false
+    - title: "12.3. Opieka naturopatyczna w wybranych stanach"
+      subchapter: false
+      content_file: "chapters/03-12-3-opieka-naturopatyczna-w-wybranych-stanach.md"
+      hidden: false
+    - title: "12.4. Pierwsza pomoc i stany nagłe"
+      subchapter: false
+      content_file: "chapters/04-12-4-pierwsza-pomoc-i-stany-nagle.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

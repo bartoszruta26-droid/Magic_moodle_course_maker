@@ -18,6 +18,9 @@ modules:
   - type: page
     ref: "page-6-4-wskazania-i-przeciwwskazania-do-masazu.md"
     name: "6.4. Wskazania i przeciwwskazania do masażu"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 6"
   - type: quiz
     ref: quiz-01
   - type: assignment

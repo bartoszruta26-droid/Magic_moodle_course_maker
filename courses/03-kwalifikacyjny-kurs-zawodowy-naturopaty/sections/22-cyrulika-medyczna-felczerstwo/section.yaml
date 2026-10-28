@@ -36,6 +36,9 @@ modules:
   - type: page
     ref: "page-22-10-pierwsza-pomoc-i-stany-nag-e-w-praktyce-felczerskiej.md"
     name: "22.10. Pierwsza pomoc i stany nagłe w praktyce felczerskiej"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 22"
   - type: quiz
     ref: quiz-01
   - type: assignment

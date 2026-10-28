@@ -1,0 +1,29 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik: Moduł 13: MEDYCZNE ZIELARSTWO I FITOTERAPIA"
+  intro: |
+    Zielarstwo lecznicze wymaga wiedzy botanicznej, farmaceutycznej i ostrożności. Moduł prowadzi od surowców i form przetworów przez fitoterapię układową do praktyki zielarskiej z uwzględnieniem interakcji z lekami.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "13.1. Podstawy botaniki farmaceutycznej i zielarstwa"
+      subchapter: false
+      content_file: "chapters/01-13-1-podstawy-botaniki-farmaceutycznej-i-zielarstw.md"
+      hidden: false
+    - title: "13.2. Fitoterapia układów narządowych"
+      subchapter: false
+      content_file: "chapters/02-13-2-fitoterapia-ukladow-narzadowych.md"
+      hidden: false
+    - title: "13.3. Fitoterapia w medycynie tradycyjnej i integracyjnej"
+      subchapter: false
+      content_file: "chapters/03-13-3-fitoterapia-w-medycynie-tradycyjnej-i-integra.md"
+      hidden: false
+    - title: "13.4. Praktyka zielarska"
+      subchapter: false
+      content_file: "chapters/04-13-4-praktyka-zielarska.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

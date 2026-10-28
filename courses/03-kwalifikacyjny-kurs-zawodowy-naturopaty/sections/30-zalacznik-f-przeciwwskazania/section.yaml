@@ -8,3 +8,6 @@ summary:
 modules:
   - type: page
     ref: "page-01-zawartosc.md"
+  - type: book
+    ref: "book-01"
+    name: "Załącznik F — Przeciwwskazania — księga"

@@ -15,6 +15,9 @@ modules:
   - type: page
     ref: "page-7-3-masaz-segmentarny-w-jednostkach-chorobowych.md"
     name: "7.3. Masaż segmentarny w jednostkach chorobowych"
+  - type: book
+    ref: "book-01"
+    name: "Podręcznik modułu 7"
   - type: quiz
     ref: quiz-01
   - type: assignment
