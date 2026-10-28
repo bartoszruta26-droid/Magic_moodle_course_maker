@@ -17,20 +17,14 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 6.1 | page | Podstawy anatomiczne i fizjologiczne układu limfatycznego |
-| 6.2 | page | Zasady stosowania drenażu limfatycznego |
-| 6.3 | page | Techniki drenażu limfatycznego – metoda polska |
-| 6.4 | page | Techniki drenażu limfatycznego – metoda niemiecka |
-| 6.5 | page | Praktyczne wykonanie drenażu limfatycznego |
-| 6.6 | page | Drenaż limfatyczny w jednostkach chorobowych |
-| 8.1 | page | Podstawy anatomiczne i fizjologiczne układu limfatycznego |
-| 8.2 | page | Zasady stosowania drenażu limfatycznego |
-| 8.3 | page | Techniki drenażu limfatycznego – metoda polska |
-| 8.4 | page | Techniki drenażu limfatycznego – metoda niemiecka |
-| 8.5 | page | Praktyczne wykonanie drenażu limfatycznego |
-| 8.6 | page | Drenaż limfatyczny w jednostkach chorobowych |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 8.1 | page | Podstawy anatomiczne i fizjologiczne układu limfatycznego | 6 |
+| 8.2 | page | Zasady stosowania drenażu limfatycznego | 8 |
+| 8.3 | page | Techniki drenażu limfatycznego – metoda polska | 5 |
+| 8.4 | page | Techniki drenażu limfatycznego – metoda niemiecka | 5 |
+| 8.5 | page | Praktyczne wykonanie drenażu limfatycznego | 8 |
+| 8.6 | page | Drenaż limfatyczny w jednostkach chorobowych | 7 |
 
 ## Cele kształcenia
 

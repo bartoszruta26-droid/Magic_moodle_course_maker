@@ -7,13 +7,13 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-1-1-anatomia-ogolna-topograficzna.md"
+    ref: "page-1-1-anatomia-ogolna-i-topograficzna.md"
     name: "1.1. Anatomia ogólna i topograficzna"
   - type: page
-    ref: "page-1-2-fizjologia-czlowieka.md"
+    ref: "page-1-2-fizjologia-cz-owieka.md"
     name: "1.2. Fizjologia człowieka"
   - type: page
-    ref: "page-1-3-anatomia-fizjologia-kontekscie-praktycznym-naturop.md"
+    ref: "page-1-3-anatomia-i-fizjologia-w-kontekscie-praktycznym-naturopaty.md"
     name: "1.3. Anatomia i fizjologia w kontekście praktycznym naturopaty"
   - type: quiz
     ref: quiz-01

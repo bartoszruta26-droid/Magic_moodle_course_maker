@@ -17,10 +17,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 20.1 | page | Podstawy metodologii badań |
-| 20.2 | page | Rozwój zawodowy i kształcenie ustawiczne |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 20.1 | page | Podstawy metodologii badań | 5 |
+| 20.2 | page | Rozwój zawodowy i kształcenie ustawiczne | 5 |
 
 ## Cele kształcenia
 

@@ -10,24 +10,37 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **20 – METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY** (Semestr IV).
+Strona tematyczna (SEMESTR IV – MEDYCYNA INTEGRACYJNA, MENTORSTWO I COACHING MEDYCZNY, PRAKTYKA ZAWODOWA).
 Temat zgodnie z połączonym spisem treści kursu: *Podstawy metodologii badań*
+(Punkty 20.1.1–20.1.5 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 20.1
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Evidence-based practice – czytanie i krytyczna ocena badań naukowych**
+- **2. Przegląd literatury – bazy danych (PubMed, Cochrane), słowa kluczowe, strategia wyszukiwania**
+- **3. Rodzaje badań – RCT, kohortowe, opisowe, metaanalizy, studia przypadków**
+- **4. Ograniczenia badań w medycynie komplementarnej – ślepa próba, placebo, standaryzacja**
+- **5. Pisanie pracy dyplomowej / studium przypadku – struktura, wymagania, etyka badań**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 20.1 („Podstawy metodologii badań”) obejmuje 5 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

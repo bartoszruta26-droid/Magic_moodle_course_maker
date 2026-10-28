@@ -7,11 +7,11 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-17-1-podstawy-prawne.md"
-    name: "17.1. Podstawy prawne"
+    ref: "page-23-1-podstawy-prawne.md"
+    name: "23.1. Podstawy prawne"
   - type: page
-    ref: "page-17-2-organizacja-prowadzenie-praktyki.md"
-    name: "17.2. Organizacja i prowadzenie praktyki"
+    ref: "page-23-2-organizacja-i-prowadzenie-praktyki.md"
+    name: "23.2. Organizacja i prowadzenie praktyki"
   - type: quiz
     ref: quiz-01
   - type: assignment

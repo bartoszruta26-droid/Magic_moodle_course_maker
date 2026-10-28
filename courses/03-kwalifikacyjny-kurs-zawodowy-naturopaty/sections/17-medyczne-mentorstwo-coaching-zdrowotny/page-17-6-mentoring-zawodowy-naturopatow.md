@@ -10,24 +10,37 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY** (Semestr IV).
+Strona tematyczna (SEMESTR IV – MEDYCYNA INTEGRACYJNA, MENTORSTWO I COACHING MEDYCZNY, PRAKTYKA ZAWODOWA).
 Temat zgodnie z połączonym spisem treści kursu: *Mentoring zawodowy naturopatów*
+(Punkty 17.6.1–17.6.5 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 17.6
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Superwizja kliniczna – formy, częstotliwość, zasady**
+- **2. Mentoring młodych naturopatów – przekazywanie wiedzy i doświadczenia**
+- **3. Grupy Balinta i grupy wsparcia zawodowego**
+- **4. Kształcenie ustawiczne – konferencje, warsztaty, publikacje**
+- **5. Budowanie społeczności praktyków – sieci współpracy, wymiana doświadczeń**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 17.6 („Mentoring zawodowy naturopatów”) obejmuje 5 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

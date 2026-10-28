@@ -10,24 +10,39 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **18 – PRAWO, ETYKA I ORGANIZACJA PRAKTYKI NATUROPATYCZNEJ** (Semestr IV).
+Strona tematyczna (SEMESTR IV – MEDYCYNA INTEGRACYJNA, MENTORSTWO I COACHING MEDYCZNY, PRAKTYKA ZAWODOWA).
 Temat zgodnie z połączonym spisem treści kursu: *Etyka zawodowa*
+(Punkty 18.2.1–18.2.7 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 18.2
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Kodeks etyczny naturopaty – zasady szczegółowe**
+- **2. Zasada nieszkodzenia, dobroczynności, autonomii pacjenta, sprawiedliwości**
+- **3. Świadoma zgoda – informowanie o korzyściach, ryzyku i alternatywach**
+- **4. Granice kompetencji i obowiązek skierowania do lekarza**
+- **5. Etyka w pracy z osobami wrażliwymi – dzieci, osoby starsze, niepełnosprawne, ciężko chore**
+- **6. Etyka badań i stosowania nowych metod – dowody naukowe, uczciwość**
+- **7. Uczciwość wobec pacjenta – zakaz manipulacji, fałszywych obietnic, wyzysku finansowego i emocjonalnego**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 18.2 („Etyka zawodowa”) obejmuje 7 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

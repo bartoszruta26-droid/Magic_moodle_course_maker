@@ -17,16 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 11.1 | page | Podstawy botaniki farmaceutycznej i zielarstwa |
-| 11.2 | page | Fitoterapia układów narządowych |
-| 11.3 | page | Fitoterapia w medycynie tradycyjnej i integracyjnej |
-| 11.4 | page | Praktyka zielarska |
-| 13.1 | page | Podstawy botaniki farmaceutycznej i zielarstwa |
-| 13.2 | page | Fitoterapia układów narządowych |
-| 13.3 | page | Fitoterapia w medycynie tradycyjnej i integracyjnej |
-| 13.4 | page | Praktyka zielarska |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 13.1 | page | Podstawy botaniki farmaceutycznej i zielarstwa | 8 |
+| 13.2 | page | Fitoterapia układów narządowych | 10 |
+| 13.3 | page | Fitoterapia w medycynie tradycyjnej i integracyjnej | 7 |
+| 13.4 | page | Praktyka zielarska | 6 |
 
 ## Cele kształcenia
 

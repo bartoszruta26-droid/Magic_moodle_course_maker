@@ -17,16 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 12.1 | page | Podstawy żywienia i biochemii żywności |
-| 12.2 | page | Dietetyka kliniczna i naturopatyczna |
-| 12.3 | page | Tradycyjne systemy żywieniowe |
-| 12.4 | page | Suplementacja i nutraceutyki |
-| 14.1 | page | Podstawy żywienia i biochemii żywności |
-| 14.2 | page | Dietetyka kliniczna i naturopatyczna |
-| 14.3 | page | Tradycyjne systemy żywieniowe |
-| 14.4 | page | Suplementacja i nutraceutyki |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 14.1 | page | Podstawy żywienia i biochemii żywności | 6 |
+| 14.2 | page | Dietetyka kliniczna i naturopatyczna | 9 |
+| 14.3 | page | Tradycyjne systemy żywieniowe | 6 |
+| 14.4 | page | Suplementacja i nutraceutyki | 6 |
 
 ## Cele kształcenia
 

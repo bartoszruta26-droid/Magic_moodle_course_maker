@@ -10,10 +10,10 @@ modules:
     ref: "page-2-1-patologia-ogolna.md"
     name: "2.1. Patologia ogólna"
   - type: page
-    ref: "page-2-2-patofizjologia-ukladow.md"
+    ref: "page-2-2-patofizjologia-uk-adow.md"
     name: "2.2. Patofizjologia układów"
   - type: page
-    ref: "page-2-3-psychoneuroimmunologia-medycyna-psychosomatyczna.md"
+    ref: "page-2-3-psychoneuroimmunologia-i-medycyna-psychosomatyczna.md"
     name: "2.3. Psychoneuroimmunologia i medycyna psychosomatyczna"
   - type: quiz
     ref: quiz-01

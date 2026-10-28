@@ -17,20 +17,14 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 16.1 | page | Podstawy mentorstwa medycznego |
-| 16.2 | page | Coaching zdrowotny – metodyka |
-| 16.3 | page | Mentorstwo i coaching w praktyce naturopatycznej |
-| 16.4 | page | Psychologia zdrowia i komunikacja terapeutyczna |
-| 16.5 | page | Wypalenie zawodowe i higiena psychiczna naturopaty |
-| 16.6 | page | Mentoring zawodowy naturopatów |
-| 17.1 | page | Podstawy mentorstwa medycznego |
-| 17.2 | page | Coaching zdrowotny – metodyka |
-| 17.3 | page | Mentorstwo i coaching w praktyce naturopatycznej |
-| 17.4 | page | Psychologia zdrowia i komunikacja terapeutyczna |
-| 17.5 | page | Wypalenie zawodowe i higiena psychiczna naturopaty |
-| 17.6 | page | Mentoring zawodowy naturopatów |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 17.1 | page | Podstawy mentorstwa medycznego | 6 |
+| 17.2 | page | Coaching zdrowotny – metodyka | 8 |
+| 17.3 | page | Mentorstwo i coaching w praktyce naturopatycznej | 8 |
+| 17.4 | page | Psychologia zdrowia i komunikacja terapeutyczna | 11 |
+| 17.5 | page | Wypalenie zawodowe i higiena psychiczna naturopaty | 5 |
+| 17.6 | page | Mentoring zawodowy naturopatów | 5 |
 
 ## Cele kształcenia
 

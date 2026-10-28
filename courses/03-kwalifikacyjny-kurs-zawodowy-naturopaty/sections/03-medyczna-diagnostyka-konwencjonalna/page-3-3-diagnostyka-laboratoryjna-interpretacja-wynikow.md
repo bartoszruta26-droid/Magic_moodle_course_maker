@@ -10,24 +10,41 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA** (Semestr I).
+Strona tematyczna (SEMESTR I – FUNDAMENTY NAUK MEDYCZNYCH, DIAGNOSTYKA, HIGIENA I PROFILAKTYKA).
 Temat zgodnie z połączonym spisem treści kursu: *Diagnostyka laboratoryjna – interpretacja wyników*
+(Punkty 3.3.1–3.3.9 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 3.3
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Morfologia krwi obwodowej – interpretacja naturopatyczna**
+- **2. Biochemia krwi – glukoza, lipidogram, enzymy wątrobowe, kreatynina, elektrolity**
+- **3. Badanie moczu – analiza ogólna, posiew, sediment**
+- **4. Markery stanu zapalnego – CRP, OB, fibrynogen, RF**
+- **5. Hormony – tarczycy, nadnerczy, płciowe; interpretacja kliniczna**
+- **6. Witaminy i mikroelementy – B12, D, żelazo, ferrytyna, magnez, cynk, selen**
+- **7. Badania w kierunku alergii i nietolerancji pokarmowych**
+- **8. Markery nowotworowe – świadome podejście, kontekst kliniczny**
+- **9. Badania mikrobiologiczne – mikrobiom jelitowy, posiewy**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 3.3 („Diagnostyka laboratoryjna – interpretacja wyników”) obejmuje 9 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

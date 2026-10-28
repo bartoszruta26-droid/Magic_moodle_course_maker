@@ -17,16 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 2.1 | page | Diagnostyka w medycynie tradycyjnej chińskiej (TCM) |
-| 2.2 | page | Diagnostyka w ajurwedzie |
-| 2.3 | page | Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej |
-| 2.4 | page | Diagnostyka integralna i holistyczna |
-| 4.1 | page | Diagnostyka w medycynie tradycyjnej chińskiej (TCM) |
-| 4.2 | page | Diagnostyka w ajurwedzie |
-| 4.3 | page | Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej |
-| 4.4 | page | Diagnostyka integralna i holistyczna |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 4.1 | page | Diagnostyka w medycynie tradycyjnej chińskiej (TCM) | 6 |
+| 4.2 | page | Diagnostyka w ajurwedzie | 5 |
+| 4.3 | page | Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej | 5 |
+| 4.4 | page | Diagnostyka integralna i holistyczna | 6 |
 
 ## Cele kształcenia
 

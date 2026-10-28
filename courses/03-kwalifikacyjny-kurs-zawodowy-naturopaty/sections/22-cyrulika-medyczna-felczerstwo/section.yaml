@@ -7,35 +7,35 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-14-1-podstawy-cyruliki-medycznej-felczerstwa.md"
-    name: "14.1. Podstawy cyruliki medycznej i felczerstwa"
+    ref: "page-22-1-podstawy-cyruliki-medycznej-i-felczerstwa.md"
+    name: "22.1. Podstawy cyruliki medycznej i felczerstwa"
   - type: page
-    ref: "page-14-2-diagnostyka-ocena-stanu-zdrowia-warunkach.md"
-    name: "14.2. Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych"
+    ref: "page-22-2-diagnostyka-i-ocena-stanu-zdrowia-w-warunkach-ambulatoryjnyc.md"
+    name: "22.2. Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych"
   - type: page
-    ref: "page-14-3-zabiegi-ranach-tkankach-miekkich.md"
-    name: "14.3. Zabiegi na ranach i tkankach miękkich"
+    ref: "page-22-3-zabiegi-na-ranach-i-tkankach-miekkich.md"
+    name: "22.3. Zabiegi na ranach i tkankach miękkich"
   - type: page
-    ref: "page-14-4-zabiegi-ortopedyczne-unieruchomienie.md"
-    name: "14.4. Zabiegi ortopedyczne i unieruchomienie"
+    ref: "page-22-4-zabiegi-ortopedyczne-i-unieruchomienie.md"
+    name: "22.4. Zabiegi ortopedyczne i unieruchomienie"
   - type: page
-    ref: "page-14-5-iniekcje-podawanie-lekow.md"
-    name: "14.5. Iniekcje i podawanie leków"
+    ref: "page-22-5-iniekcje-i-podawanie-lekow.md"
+    name: "22.5. Iniekcje i podawanie leków"
   - type: page
-    ref: "page-14-6-zabiegi-ukladzie-oddechowym.md"
-    name: "14.6. Zabiegi na układzie oddechowym"
+    ref: "page-22-6-zabiegi-na-uk-adzie-oddechowym.md"
+    name: "22.6. Zabiegi na układzie oddechowym"
   - type: page
-    ref: "page-14-7-zabiegi-ukladzie-pokarmowym-moczowym.md"
-    name: "14.7. Zabiegi na układzie pokarmowym i moczowym"
+    ref: "page-22-7-zabiegi-na-uk-adzie-pokarmowym-i-moczowym.md"
+    name: "22.7. Zabiegi na układzie pokarmowym i moczowym"
   - type: page
-    ref: "page-14-8-zabiegi-ambulatoryjne-drobna-chirurgia.md"
-    name: "14.8. Zabiegi ambulatoryjne i drobna chirurgia"
+    ref: "page-22-8-zabiegi-ambulatoryjne-i-drobna-chirurgia.md"
+    name: "22.8. Zabiegi ambulatoryjne i drobna chirurgia"
   - type: page
-    ref: "page-14-9-szczepienia-immunoprofilaktyka.md"
-    name: "14.9. Szczepienia i immunoprofilaktyka"
+    ref: "page-22-9-szczepienia-i-immunoprofilaktyka.md"
+    name: "22.9. Szczepienia i immunoprofilaktyka"
   - type: page
-    ref: "page-14-10-pierwsza-pomoc-stany-nagle-praktyce.md"
-    name: "14.10. Pierwsza pomoc i stany nagłe w praktyce felczerskiej"
+    ref: "page-22-10-pierwsza-pomoc-i-stany-nag-e-w-praktyce-felczerskiej.md"
+    name: "22.10. Pierwsza pomoc i stany nagłe w praktyce felczerskiej"
   - type: quiz
     ref: quiz-01
   - type: assignment

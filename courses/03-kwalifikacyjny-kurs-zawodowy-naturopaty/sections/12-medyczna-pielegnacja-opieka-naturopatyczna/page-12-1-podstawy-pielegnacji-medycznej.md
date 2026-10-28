@@ -10,24 +10,40 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA** (Semestr III).
+Strona tematyczna (SEMESTR III – KINEZYTERAPIA, MEDYCZNE TRENINGI PERSONALNE, PIELĘGNACJA, ZIELARSTWO I FIZYKOTERAPIA).
 Temat zgodnie z połączonym spisem treści kursu: *Podstawy pielęgnacji medycznej*
+(Punkty 12.1.1–12.1.8 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 12.1
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Rola naturopaty jako opiekuna – etyka, empatia, profesjonalizm, szacunek dla godności**
+- **2. Higiena i pielęgnacja skóry – oczyszczanie, nawilżanie, ochrona; skóra sucha, „papierowa”, podatna na pęknięcia**
+- **3. Pielęgnacja ran – zasady aseptyki, opatrunki, wspomaganie gojenia (gojenie doraźne, przez ziarninowanie, pod strupem)**
+- **4. Pielęgnacja odleżyn – profilaktyka (zmiana pozycji co 2–3 godz., higiena skóry, podkładki) i leczenie wspomagające**
+- **5. Pielęgnacja skóry w chorobach dermatologicznych – egzema, łuszczyca, trądzik**
+- **6. Pielęgnacja stóp – profilaktyka, opieka diabetologiczna, wrastające paznokcie**
+- **7. Pielęgnacja osób starszych i leżących – kompleksowe podejście**
+- **8. Pielęgnacja pooperacyjna – wsparcie regeneracji, mobilizacja blizny**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 12.1 („Podstawy pielęgnacji medycznej”) obejmuje 8 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

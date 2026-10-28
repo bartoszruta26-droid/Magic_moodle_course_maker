@@ -7,28 +7,16 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-15-1-przeglad-systemow-medycyny-tradycyjnej.md"
-    name: "15.1. Przegląd systemów medycyny tradycyjnej"
-  - type: page
-    ref: "page-15-2-terapie-komplementarne-przeglad-zastosowanie.md"
-    name: "15.2. Terapie komplementarne – przegląd i zastosowanie"
-  - type: page
-    ref: "page-15-3-medycyna-integracyjna-laczenie-podejsc.md"
-    name: "15.3. Medycyna integracyjna – łączenie podejść"
-  - type: page
-    ref: "page-15-4-wymiar-duchowy-egzystencjalny-zdrowieniu.md"
-    name: "15.4. Wymiar duchowy i egzystencjalny w zdrowieniu"
-  - type: page
     ref: "page-16-1-przeglad-systemow-medycyny-tradycyjnej.md"
     name: "16.1. Przegląd systemów medycyny tradycyjnej"
   - type: page
-    ref: "page-16-2-terapie-komplementarne-przeglad-zastosowanie.md"
+    ref: "page-16-2-terapie-komplementarne-przeglad-i-zastosowanie.md"
     name: "16.2. Terapie komplementarne – przegląd i zastosowanie"
   - type: page
-    ref: "page-16-3-medycyna-integracyjna-laczenie-podejsc.md"
+    ref: "page-16-3-medycyna-integracyjna-aczenie-podejsc.md"
     name: "16.3. Medycyna integracyjna – łączenie podejść"
   - type: page
-    ref: "page-16-4-wymiar-duchowy-egzystencjalny-zdrowieniu.md"
+    ref: "page-16-4-wymiar-duchowy-i-egzystencjalny-w-zdrowieniu.md"
     name: "16.4. Wymiar duchowy i egzystencjalny w zdrowieniu"
   - type: quiz
     ref: quiz-01

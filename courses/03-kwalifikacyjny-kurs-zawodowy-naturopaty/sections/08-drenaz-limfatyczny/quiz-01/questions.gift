@@ -1,13 +1,81 @@
-// Quiz do modułu 8: DRENAŻ LIMFATYCZNY
-::tf-m08q1:: Temat „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (6.1) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q2:: Temat „Zasady stosowania drenażu limfatycznego” (6.2) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q3:: Temat „Techniki drenażu limfatycznego – metoda polska” (6.3) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q4:: Temat „Techniki drenażu limfatycznego – metoda niemiecka” (6.4) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q5:: Temat „Praktyczne wykonanie drenażu limfatycznego” (6.5) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q6:: Temat „Drenaż limfatyczny w jednostkach chorobowych” (6.6) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q7:: Temat „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q8:: Temat „Zasady stosowania drenażu limfatycznego” (8.2) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q9:: Temat „Techniki drenażu limfatycznego – metoda polska” (8.3) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q10:: Temat „Techniki drenażu limfatycznego – metoda niemiecka” (8.4) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q11:: Temat „Praktyczne wykonanie drenażu limfatycznego” (8.5) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
-::tf-m08q12:: Temat „Drenaż limfatyczny w jednostkach chorobowych” (8.6) należy do Modułu 8 – DRENAŻ LIMFATYCZNY. {TRUE}
+// === Temat 8.1: Podstawy anatomiczne i fizjologiczne układu limfatycznego ===
+::tf-s08-81-q1:: Zagadnienie „Budowa i funkcje układu chłonnego – naczynia włosowate, zbiorcze, pnie chłonne (lędźwiowe, jelitowe, śródpiersiowe, podobojczykowe, szyjne), przewód piersiowy i przewód chłonny prawy” wchodzi w zakres tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1). {TRUE} //
+::tf-s08-81-q2:: Zagadnienie „Węzły chłonne – budowa (torebka, kora, rdzeń, zatoka brzeżna), funkcja filtracyjna, grupy regionalne (potyliczne, zamałżowinowe, przyusznicze, podżuchwowe, podbródkowe, szyjne głębokie i powierzchowne, nadobojczykowe, pachowe, pachwinowe, podkolanowe)” jest elementem zagadnienia „Budowa i funkcje układu chłonnego – naczynia włosowate, zbiorcze, pnie chłonne (lędźwiowe, jelitowe, śródpiersiowe, podobojczykowe, szyjne), przewód piersiowy i przewód chłonny prawy”, a nie tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1). {FALSE} //
+::tf-s08-81-q3:: Zagadnienie „Limfocyty – T (grasiczozależne) i B (szpikozależne), limfokiny, odpowiedź immunologiczna” wchodzi w zakres tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1). {TRUE} //
+::tf-s08-81-q4:: Zagadnienie „Przepływ chłonki – mechanizmy (ujemne ciśnienie w klatce piersiowej, skurcze naczyń, pompa mięśniowa, zastawki), objętość dobowa (2–4 l)” jest elementem zagadnienia „Limfocyty – T (grasiczozależne) i B (szpikozależne), limfokiny, odpowiedź immunologiczna”, a nie tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1). {FALSE} //
+::tf-s08-81-q5:: Zagadnienie „Mechanizmy powstawania obrzęku – wzrost ciśnienia filtracyjnego, zmniejszenie gradientu osmotycznego, wzrost przepuszczalności, niedostateczny przepływ chłonki” wchodzi w zakres tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1). {TRUE} //
+::tf-s08-81-q6:: Zagadnienie „Choroby przebiegające z powiększeniem węzłów chłonnych – zakaźne, sarkoidoza, kolagenowe, nowotworowe, przerzuty” jest elementem zagadnienia „Mechanizmy powstawania obrzęku – wzrost ciśnienia filtracyjnego, zmniejszenie gradientu osmotycznego, wzrost przepuszczalności, niedostateczny przepływ chłonki”, a nie tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1). {FALSE} //
+::mc-s08-81:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy anatomiczne i fizjologiczne układu limfatycznego” (8.1)? {
+    = Budowa i funkcje układu chłonnego – naczynia włosowate, zbiorcze, pnie chłonne (lędźwiowe, jelitowe, śródpiersiowe, podobojczykowe, szyjne), przewód piersiowy i przewód chłonny prawy
+    ~ Węzły chłonne – budowa (torebka, kora, rdzeń, zatoka brzeżna), funkcja filtracyjna, grupy regionalne (potyliczne, zamałżowinowe, przyusznicze, podżuchwowe, podbródkowe, szyjne głębokie i powierzchowne, nadobojczykowe, pachowe, pachwinowe, podkolanowe)
+    ~ Limfocyty – T (grasiczozależne) i B (szpikozależne), limfokiny, odpowiedź immunologiczna
+    ~ Modyfikacje techniki – mniejsza siła, krótszy czas, środki natłuszczające, brak masażu izometrycznego
+}
+// === Temat 8.2: Zasady stosowania drenażu limfatycznego ===
+::tf-s08-82-q1:: Zagadnienie „Kierunek – od obwodu do ujść żylnych; rozpoczynanie od węzłów proksymalnych” wchodzi w zakres tematu „Zasady stosowania drenażu limfatycznego” (8.2). {TRUE} //
+::tf-s08-82-q2:: Zagadnienie „Pozycja drenażowa – uniesienie kończyn, zgięcie w stawach” jest elementem zagadnienia „Kierunek – od obwodu do ujść żylnych; rozpoczynanie od węzłów proksymalnych”, a nie tematu „Zasady stosowania drenażu limfatycznego” (8.2). {FALSE} //
+::tf-s08-82-q3:: Zagadnienie „Tempo – bardzo wolne (10–15 ruchów/min), 3–5 powtórzeń każdej techniki” wchodzi w zakres tematu „Zasady stosowania drenażu limfatycznego” (8.2). {TRUE} //
+::tf-s08-82-q4:: Zagadnienie „Charakter technik – płynny, miękki, przepychający; umiarkowana siła (bez rozgrzewania tkanek)” jest elementem zagadnienia „Tempo – bardzo wolne (10–15 ruchów/min), 3–5 powtórzeń każdej techniki”, a nie tematu „Zasady stosowania drenażu limfatycznego” (8.2). {FALSE} //
+::tf-s08-82-q5:: Zagadnienie „Czas trwania – drenaż częściowy do 20 min, ogólny do 60 min” wchodzi w zakres tematu „Zasady stosowania drenażu limfatycznego” (8.2). {TRUE} //
+::tf-s08-82-q6:: Zagadnienie „Częstotliwość – codziennie lub 2–3 razy w tygodniu; liczba zabiegów nieograniczona” jest elementem zagadnienia „Czas trwania – drenaż częściowy do 20 min, ogólny do 60 min”, a nie tematu „Zasady stosowania drenażu limfatycznego” (8.2). {FALSE} //
+::tf-s08-82-q7:: Zagadnienie „Zasada podwójnego opracowania stawów (metoda polska)” wchodzi w zakres tematu „Zasady stosowania drenażu limfatycznego” (8.2). {TRUE} //
+::tf-s08-82-q8:: Zagadnienie „Przeciwwskazania – ostre stany zapalne, niewyleczone choroby zakaźne, choroby nowotworowe z ryzykiem przerzutów, niewyrównana niewydolność serca” jest elementem zagadnienia „Zasada podwójnego opracowania stawów (metoda polska)”, a nie tematu „Zasady stosowania drenażu limfatycznego” (8.2). {FALSE} //
+::mc-s08-82:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zasady stosowania drenażu limfatycznego” (8.2)? {
+    = Kierunek – od obwodu do ujść żylnych; rozpoczynanie od węzłów proksymalnych
+    ~ Pozycja drenażowa – uniesienie kończyn, zgięcie w stawach
+    ~ Tempo – bardzo wolne (10–15 ruchów/min), 3–5 powtórzeń każdej techniki
+    ~ Choroba wrzodowa – okres ostry (przeciwwskazanie) i remisji; masaż segmentarny
+}
+// === Temat 8.3: Techniki drenażu limfatycznego – metoda polska ===
+::tf-s08-83-q1:: Zagadnienie „Głaskanie ogólne i miejscowe” wchodzi w zakres tematu „Techniki drenażu limfatycznego – metoda polska” (8.3). {TRUE} //
+::tf-s08-83-q2:: Zagadnienie „Rozcieranie koliste – trzykrotne roztarcie w miejscu, przepchnięcie, powrót” jest elementem zagadnienia „Głaskanie ogólne i miejscowe”, a nie tematu „Techniki drenażu limfatycznego – metoda polska” (8.3). {FALSE} //
+::tf-s08-83-q3:: Zagadnienie „Rozcieranie spiralne – wolne tempo, zmienny nacisk” wchodzi w zakres tematu „Techniki drenażu limfatycznego – metoda polska” (8.3). {TRUE} //
+::tf-s08-83-q4:: Zagadnienie „Ugniatanie podłużne i szczypcowe (twarz)” jest elementem zagadnienia „Rozcieranie spiralne – wolne tempo, zmienny nacisk”, a nie tematu „Techniki drenażu limfatycznego – metoda polska” (8.3). {FALSE} //
+::tf-s08-83-q5:: Zagadnienie „Uciski – przetaczanie dłoni” wchodzi w zakres tematu „Techniki drenażu limfatycznego – metoda polska” (8.3). {TRUE} //
+::mc-s08-83:: Które z poniższych zagadnień należy bezpośrednio do tematu „Techniki drenażu limfatycznego – metoda polska” (8.3)? {
+    = Głaskanie ogólne i miejscowe
+    ~ Rozcieranie koliste – trzykrotne roztarcie w miejscu, przepchnięcie, powrót
+    ~ Rozcieranie spiralne – wolne tempo, zmienny nacisk
+    ~ Techniki mobilizacji – ślizg, trakcja, rotacja, kompresja; stopnie Maitlanda
+}
+// === Temat 8.4: Techniki drenażu limfatycznego – metoda niemiecka ===
+::tf-s08-84-q1:: Zagadnienie „Głaskanie” wchodzi w zakres tematu „Techniki drenażu limfatycznego – metoda niemiecka” (8.4). {TRUE} //
+::tf-s08-84-q2:: Zagadnienie „Rozcieranie koliste (4–5 kółeczek w miejscu, bez przepychania)” jest elementem zagadnienia „Głaskanie”, a nie tematu „Techniki drenażu limfatycznego – metoda niemiecka” (8.4). {FALSE} //
+::tf-s08-84-q3:: Zagadnienie „Rozcieranie posuwiste (różne warianty)” wchodzi w zakres tematu „Techniki drenażu limfatycznego – metoda niemiecka” (8.4). {TRUE} //
+::tf-s08-84-q4:: Zagadnienie „Rozcieranie spiralne kciukami” jest elementem zagadnienia „Rozcieranie posuwiste (różne warianty)”, a nie tematu „Techniki drenażu limfatycznego – metoda niemiecka” (8.4). {FALSE} //
+::tf-s08-84-q5:: Zagadnienie „Uciski posuwiste, okrężne, w miejscu (przetaczanie)” wchodzi w zakres tematu „Techniki drenażu limfatycznego – metoda niemiecka” (8.4). {TRUE} //
+::mc-s08-84:: Które z poniższych zagadnień należy bezpośrednio do tematu „Techniki drenażu limfatycznego – metoda niemiecka” (8.4)? {
+    = Głaskanie
+    ~ Rozcieranie koliste (4–5 kółeczek w miejscu, bez przepychania)
+    ~ Rozcieranie posuwiste (różne warianty)
+    ~ Trening funkcjonalny – wzorce ruchowe, transfer do codziennego życia
+}
+// === Temat 8.5: Praktyczne wykonanie drenażu limfatycznego ===
+::tf-s08-85-q1:: Zagadnienie „Drenaż twarzy – 16 etapów (doły nadobojczykowe, okolica podżuchwowa, żuchwa, warga dolna/górna, kąciki ust, nos, okolice oczu, czoło, skronie)” wchodzi w zakres tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {TRUE} //
+::tf-s08-85-q2:: Zagadnienie „Drenaż karku i głowy – 10 etapów” jest elementem zagadnienia „Drenaż twarzy – 16 etapów (doły nadobojczykowe, okolica podżuchwowa, żuchwa, warga dolna/górna, kąciki ust, nos, okolice oczu, czoło, skronie)”, a nie tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {FALSE} //
+::tf-s08-85-q3:: Zagadnienie „Drenaż grzbietu – faza I (doły pachowe, pasma podłużne) i faza II (pasma poprzeczne, linie pachowe)” wchodzi w zakres tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {TRUE} //
+::tf-s08-85-q4:: Zagadnienie „Drenaż klatki piersiowej – faza I i II (doły nadobojczykowe, pachowe, pasma podłużne i poprzeczne, linie pachowe)” jest elementem zagadnienia „Drenaż grzbietu – faza I (doły pachowe, pasma podłużne) i faza II (pasma poprzeczne, linie pachowe)”, a nie tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {FALSE} //
+::tf-s08-85-q5:: Zagadnienie „Drenaż brzucha – okolica nadpępkowa i podpępkowa” wchodzi w zakres tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {TRUE} //
+::tf-s08-85-q6:: Zagadnienie „Drenaż kończyny górnej – 12 etapów (doły pachowe, staw ramienny, ramię, staw łokciowy, przedramię, staw nadgarstkowy, śródręcze, palce)” jest elementem zagadnienia „Drenaż brzucha – okolica nadpępkowa i podpępkowa”, a nie tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {FALSE} //
+::tf-s08-85-q7:: Zagadnienie „Drenaż kończyny dolnej – faza I (na plecach: pachwina, udo, staw kolanowy, podudzie, staw skokowy, śródstopie, palce) i faza II (na brzuchu: pachwina, udo, dół podkolanowy, podudzie, ścięgno Achillesa, podeszwa, palce)” wchodzi w zakres tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {TRUE} //
+::tf-s08-85-q8:: Zagadnienie „Drenaż odcinka lędźwiowo-krzyżowego i okolicy biodrowej” jest elementem zagadnienia „Drenaż kończyny dolnej – faza I (na plecach: pachwina, udo, staw kolanowy, podudzie, staw skokowy, śródstopie, palce) i faza II (na brzuchu: pachwina, udo, dół podkolanowy, podudzie, ścięgno Achillesa, podeszwa, palce)”, a nie tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5). {FALSE} //
+::mc-s08-85:: Które z poniższych zagadnień należy bezpośrednio do tematu „Praktyczne wykonanie drenażu limfatycznego” (8.5)? {
+    = Drenaż twarzy – 16 etapów (doły nadobojczykowe, okolica podżuchwowa, żuchwa, warga dolna/górna, kąciki ust, nos, okolice oczu, czoło, skronie)
+    ~ Drenaż karku i głowy – 10 etapów
+    ~ Drenaż grzbietu – faza I (doły pachowe, pasma podłużne) i faza II (pasma poprzeczne, linie pachowe)
+    ~ Pielęgnacja stóp – profilaktyka, opieka diabetologiczna, wrastające paznokcie
+}
+// === Temat 8.6: Drenaż limfatyczny w jednostkach chorobowych ===
+::tf-s08-86-q1:: Zagadnienie „Obrzęki pourazowe i pooperacyjne” wchodzi w zakres tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {TRUE} //
+::tf-s08-86-q2:: Zagadnienie „Obrzęki limfatyczne pierwotne i wtórne” jest elementem zagadnienia „Obrzęki pourazowe i pooperacyjne”, a nie tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {FALSE} //
+::tf-s08-86-q3:: Zagadnienie „Kompleksowa terapia przeciwobrzękowa – drenaż + kompresja + ruch” wchodzi w zakres tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {TRUE} //
+::tf-s08-86-q4:: Zagadnienie „Drenaż w chorobach reumatycznych – wspomaganie transportu tkankowego” jest elementem zagadnienia „Kompleksowa terapia przeciwobrzękowa – drenaż + kompresja + ruch”, a nie tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {FALSE} //
+::tf-s08-86-q5:: Zagadnienie „Drenaż w twardzinie układowej – zalety nieobciążania układu krążenia” wchodzi w zakres tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {TRUE} //
+::tf-s08-86-q6:: Zagadnienie „Drenaż po amputacjach – likwidacja obrzęku kikuta” jest elementem zagadnienia „Drenaż w twardzinie układowej – zalety nieobciążania układu krążenia”, a nie tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {FALSE} //
+::tf-s08-86-q7:: Zagadnienie „Drenaż w obrzękach żylnych – zasady i ograniczenia” wchodzi w zakres tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6). {TRUE} //
+::mc-s08-86:: Które z poniższych zagadnień należy bezpośrednio do tematu „Drenaż limfatyczny w jednostkach chorobowych” (8.6)? {
+    = Obrzęki pourazowe i pooperacyjne
+    ~ Obrzęki limfatyczne pierwotne i wtórne
+    ~ Kompleksowa terapia przeciwobrzękowa – drenaż + kompresja + ruch
+    ~ Bezpieczeństwo fitoterapii – toksyczność, przeciwwskazania (ciąża, laktacja, dzieci, choroby wątroby i nerek)
+}

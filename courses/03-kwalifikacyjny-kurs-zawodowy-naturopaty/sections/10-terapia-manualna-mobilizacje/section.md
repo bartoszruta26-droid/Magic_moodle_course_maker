@@ -17,12 +17,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 8.1 | page | Podstawy terapii manualnej |
-| 8.2 | page | Masaż specjalistyczny i techniki uzupełniające |
-| 10.1 | page | Podstawy terapii manualnej |
-| 10.2 | page | Masaż specjalistyczny i techniki uzupełniające |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 10.1 | page | Podstawy terapii manualnej | 10 |
+| 10.2 | page | Masaż specjalistyczny i techniki uzupełniające | 14 |
 
 ## Cele kształcenia
 

@@ -17,11 +17,11 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 18.1 | page | Podstawy prawne |
-| 18.2 | page | Etyka zawodowa |
-| 18.3 | page | Organizacja i prowadzenie praktyki |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 18.1 | page | Podstawy prawne | 7 |
+| 18.2 | page | Etyka zawodowa | 7 |
+| 18.3 | page | Organizacja i prowadzenie praktyki | 7 |
 
 ## Cele kształcenia
 

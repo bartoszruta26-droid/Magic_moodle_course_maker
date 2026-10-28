@@ -7,40 +7,22 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-9-1-podstawy-kinezyterapii-treningu-medycznego.md"
-    name: "9.1. Podstawy kinezyterapii i treningu medycznego"
-  - type: page
-    ref: "page-9-2-kinezyterapia-chorobach-ukladu-ruchu.md"
-    name: "9.2. Kinezyterapia w chorobach układu ruchu"
-  - type: page
-    ref: "page-9-3-kinezyterapia-chorobach-wewnetrznych.md"
-    name: "9.3. Kinezyterapia w chorobach wewnętrznych"
-  - type: page
-    ref: "page-9-4-kinezyterapia-neurologii-geriatrii.md"
-    name: "9.4. Kinezyterapia w neurologii i geriatrii"
-  - type: page
-    ref: "page-9-5-trening-oddechowy-relaksacyjny.md"
-    name: "9.5. Trening oddechowy i relaksacyjny"
-  - type: page
-    ref: "page-9-6-trening-funkcjonalny-medyczny-trening-personalny.md"
-    name: "9.6. Trening funkcjonalny i medyczny trening personalny"
-  - type: page
-    ref: "page-11-1-podstawy-kinezyterapii-treningu-medycznego.md"
+    ref: "page-11-1-podstawy-kinezyterapii-i-treningu-medycznego.md"
     name: "11.1. Podstawy kinezyterapii i treningu medycznego"
   - type: page
-    ref: "page-11-2-kinezyterapia-chorobach-ukladu-ruchu.md"
+    ref: "page-11-2-kinezyterapia-w-chorobach-uk-adu-ruchu.md"
     name: "11.2. Kinezyterapia w chorobach układu ruchu"
   - type: page
-    ref: "page-11-3-kinezyterapia-chorobach-wewnetrznych.md"
+    ref: "page-11-3-kinezyterapia-w-chorobach-wewnetrznych.md"
     name: "11.3. Kinezyterapia w chorobach wewnętrznych"
   - type: page
-    ref: "page-11-4-kinezyterapia-neurologii-geriatrii.md"
+    ref: "page-11-4-kinezyterapia-w-neurologii-i-geriatrii.md"
     name: "11.4. Kinezyterapia w neurologii i geriatrii"
   - type: page
-    ref: "page-11-5-trening-oddechowy-relaksacyjny.md"
+    ref: "page-11-5-trening-oddechowy-i-relaksacyjny.md"
     name: "11.5. Trening oddechowy i relaksacyjny"
   - type: page
-    ref: "page-11-6-trening-funkcjonalny-medyczny-trening-personalny.md"
+    ref: "page-11-6-trening-funkcjonalny-i-medyczny-trening-personalny.md"
     name: "11.6. Trening funkcjonalny i medyczny trening personalny"
   - type: quiz
     ref: quiz-01

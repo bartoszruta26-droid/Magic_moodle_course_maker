@@ -1,17 +1,116 @@
-// Quiz do modułu 9: MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH
-::tf-m09q1:: Temat „Choroby reumatyczne – masaż i rehabilitacja” (7.1) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q2:: Temat „Urazy – masaż i rehabilitacja” (7.2) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q3:: Temat „Zniekształcenia – masaż i korekcja” (7.3) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q4:: Temat „Choroby układu oddechowego – masaż i rehabilitacja” (7.4) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q5:: Temat „Choroby układu krążenia – masaż i rehabilitacja” (7.5) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q6:: Temat „Choroby układu nerwowego – masaż i rehabilitacja” (7.6) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q7:: Temat „Choroby układu pokarmowego i moczowo-płciowego – masaż” (7.7) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q8:: Temat „Zasady wykonywania masażu u osób starszych” (7.8) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q9:: Temat „Choroby reumatyczne – masaż i rehabilitacja” (9.1) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q10:: Temat „Urazy – masaż i rehabilitacja” (9.2) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q11:: Temat „Zniekształcenia – masaż i korekcja” (9.3) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q12:: Temat „Choroby układu oddechowego – masaż i rehabilitacja” (9.4) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q13:: Temat „Choroby układu krążenia – masaż i rehabilitacja” (9.5) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q14:: Temat „Choroby układu nerwowego – masaż i rehabilitacja” (9.6) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q15:: Temat „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
-::tf-m09q16:: Temat „Zasady wykonywania masażu u osób starszych” (9.8) należy do Modułu 9 – MASAŻ W WYBRANYCH JEDNOSTKACH CHOROBOWYCH. {TRUE}
+// === Temat 9.1: Choroby reumatyczne – masaż i rehabilitacja ===
+::tf-s09-91-q1:: Zagadnienie „Reumatoidalne zapalenie stawów (RZS) – okresy I–IV; techniki (głaskanie, wibracja → rozcieranie, ugniatanie podłużne); masaż segmentarny i drenaż limfatyczny jako metody nieobciążające” wchodzi w zakres tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {TRUE} //
+::tf-s09-91-q2:: Zagadnienie „Młodzieńcze przewlekłe zapalenie stawów (choroba Stilla, postać wielostawowa, skąpostawowa)” jest elementem zagadnienia „Reumatoidalne zapalenie stawów (RZS) – okresy I–IV; techniki (głaskanie, wibracja → rozcieranie, ugniatanie podłużne); masaż segmentarny i drenaż limfatyczny jako metody nieobciążające”, a nie tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {FALSE} //
+::tf-s09-91-q3:: Zagadnienie „Twardzina układowa – masaż klasyczny i drenaż limfatyczny; przeciwwskazanie do masażu segmentarnego” wchodzi w zakres tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {TRUE} //
+::tf-s09-91-q4:: Zagadnienie „Zesztywniające zapalenie stawów kręgosłupa (ZZSK) – okres zaostrzeń i remisji; kolejność opracowania (od odcinka lędźwiowego ku szyjnemu); pozycja pacjenta” jest elementem zagadnienia „Twardzina układowa – masaż klasyczny i drenaż limfatyczny; przeciwwskazanie do masażu segmentarnego”, a nie tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {FALSE} //
+::tf-s09-91-q5:: Zagadnienie „Choroba zwyrodnieniowa stawów – kręgosłup (szyjny, piersiowy, lędźwiowy), staw biodrowy (koksartroza), kolanowy (gonartroza), stóp, rąk (guzki Heberdena, Boucharda), ramienny, łokciowy” wchodzi w zakres tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {TRUE} //
+::tf-s09-91-q6:: Zagadnienie „Zapalenia tkanek okołostawowych – rozcięgno dłoniowe (Dupuytren), de Quervain, kanał nadgarstka, łokieć tenisisty, zespół bolesnego barku (PHS), zapalenie kaletek, pochewek ścięgnistych” jest elementem zagadnienia „Choroba zwyrodnieniowa stawów – kręgosłup (szyjny, piersiowy, lędźwiowy), staw biodrowy (koksartroza), kolanowy (gonartroza), stóp, rąk (guzki Heberdena, Boucharda), ramienny, łokciowy”, a nie tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {FALSE} //
+::tf-s09-91-q7:: Zagadnienie „Fibrositis (gościec pozastawowy) – lumbago, pleurodynia, sztywny kark” wchodzi w zakres tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {TRUE} //
+::tf-s09-91-q8:: Zagadnienie „Dnawe zapalenie stawów – okres napadu i międzynapadowy; środki ostrożności” jest elementem zagadnienia „Fibrositis (gościec pozastawowy) – lumbago, pleurodynia, sztywny kark”, a nie tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {FALSE} //
+::tf-s09-91-q9:: Zagadnienie „Zespoły algodystroficzne (Sudeck, bark-ręka) – okres ostry, dystroficzny, zanikowy” wchodzi w zakres tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1). {TRUE} //
+::mc-s09-91:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby reumatyczne – masaż i rehabilitacja” (9.1)? {
+    = Reumatoidalne zapalenie stawów (RZS) – okresy I–IV; techniki (głaskanie, wibracja → rozcieranie, ugniatanie podłużne); masaż segmentarny i drenaż limfatyczny jako metody nieobciążające
+    ~ Młodzieńcze przewlekłe zapalenie stawów (choroba Stilla, postać wielostawowa, skąpostawowa)
+    ~ Twardzina układowa – masaż klasyczny i drenaż limfatyczny; przeciwwskazanie do masażu segmentarnego
+    ~ Psychologia bólu – komponenty sensoryczny, emocjonalny, poznawczy; placebo i nocebo
+}
+// === Temat 9.2: Urazy – masaż i rehabilitacja ===
+::tf-s09-92-q1:: Zagadnienie „Stłuczenia i zmiażdżenia – fazy postępowania” wchodzi w zakres tematu „Urazy – masaż i rehabilitacja” (9.2). {TRUE} //
+::tf-s09-92-q2:: Zagadnienie „Rany i blizny – okres I (rana) i II (blizna); opracowanie blizny liniowej i powierzchniowej; techniki rozcierania, rolowania, uruchamiania” jest elementem zagadnienia „Stłuczenia i zmiażdżenia – fazy postępowania”, a nie tematu „Urazy – masaż i rehabilitacja” (9.2). {FALSE} //
+::tf-s09-92-q3:: Zagadnienie „Oparzenia i odmrożenia – stopnie, postępowanie fizykalne” wchodzi w zakres tematu „Urazy – masaż i rehabilitacja” (9.2). {TRUE} //
+::tf-s09-92-q4:: Zagadnienie „Skręcenia – nadgarstek, kostka, kręgosłup; drenaż limfatyczny jako metoda pierwszego wyboru” jest elementem zagadnienia „Oparzenia i odmrożenia – stopnie, postępowanie fizykalne”, a nie tematu „Urazy – masaż i rehabilitacja” (9.2). {FALSE} //
+::tf-s09-92-q5:: Zagadnienie „Uszkodzenia mięśni i ścięgien – przerwanie włókien łydki, ścięgno Achillesa” wchodzi w zakres tematu „Urazy – masaż i rehabilitacja” (9.2). {TRUE} //
+::tf-s09-92-q6:: Zagadnienie „Zwichnięcia – okres unieruchomienia i po usunięciu; trzy etapy masażu” jest elementem zagadnienia „Uszkodzenia mięśni i ścięgien – przerwanie włókien łydki, ścięgno Achillesa”, a nie tematu „Urazy – masaż i rehabilitacja” (9.2). {FALSE} //
+::tf-s09-92-q7:: Zagadnienie „Złamania – okres unieruchomienia (wpływ konsensualny) i po; trzy etapy masażu; masaż izometryczny” wchodzi w zakres tematu „Urazy – masaż i rehabilitacja” (9.2). {TRUE} //
+::tf-s09-92-q8:: Zagadnienie „Amputacje – przygotowanie kikuta (blizna, obrzęk, przykurcze, kształtowanie, hartowanie); okres po zaprotezowaniu” jest elementem zagadnienia „Złamania – okres unieruchomienia (wpływ konsensualny) i po; trzy etapy masażu; masaż izometryczny”, a nie tematu „Urazy – masaż i rehabilitacja” (9.2). {FALSE} //
+::mc-s09-92:: Które z poniższych zagadnień należy bezpośrednio do tematu „Urazy – masaż i rehabilitacja” (9.2)? {
+    = Stłuczenia i zmiażdżenia – fazy postępowania
+    ~ Rany i blizny – okres I (rana) i II (blizna); opracowanie blizny liniowej i powierzchniowej; techniki rozcierania, rolowania, uruchamiania
+    ~ Oparzenia i odmrożenia – stopnie, postępowanie fizykalne
+    ~ Trening funkcjonalny osób starszych – profilaktyka upadków, równowaga
+}
+// === Temat 9.3: Zniekształcenia – masaż i korekcja ===
+::tf-s09-93-q1:: Zagadnienie „Dysplazja i wrodzone zwichnięcie biodra – postępowanie z niemowlęciem i dzieckiem” wchodzi w zakres tematu „Zniekształcenia – masaż i korekcja” (9.3). {TRUE} //
+::tf-s09-93-q2:: Zagadnienie „Biodro szpotawe (coxa vara) – fazy masażu, kinezyterapia” jest elementem zagadnienia „Dysplazja i wrodzone zwichnięcie biodra – postępowanie z niemowlęciem i dzieckiem”, a nie tematu „Zniekształcenia – masaż i korekcja” (9.3). {FALSE} //
+::tf-s09-93-q3:: Zagadnienie „Kolano koślawe i szpotawe – czterofazowy schemat masażu” wchodzi w zakres tematu „Zniekształcenia – masaż i korekcja” (9.3). {TRUE} //
+::tf-s09-93-q4:: Zagadnienie „Wady stóp – stopa końska, szpotawa, wydrążona, końsko-szpotawa, koślawa, płasko-koślawa (3 stopnie), metatarsalgia; schematy postępowania” jest elementem zagadnienia „Kolano koślawe i szpotawe – czterofazowy schemat masażu”, a nie tematu „Zniekształcenia – masaż i korekcja” (9.3). {FALSE} //
+::tf-s09-93-q5:: Zagadnienie „Zniekształcenia klatki piersiowej – Sprengel, żebro szyjne, klatka lejkowata i kurza” wchodzi w zakres tematu „Zniekształcenia – masaż i korekcja” (9.3). {TRUE} //
+::tf-s09-93-q6:: Zagadnienie „Zniekształcenia kręgosłupa – plecy okrągłe, wklęsłe, okrągło-wklęsłe, płaskie; kifoza Scheuermanna; skoliozy (3 stopnie); kręgozmyk; lumbalizacja i sakralizacja” jest elementem zagadnienia „Zniekształcenia klatki piersiowej – Sprengel, żebro szyjne, klatka lejkowata i kurza”, a nie tematu „Zniekształcenia – masaż i korekcja” (9.3). {FALSE} //
+::tf-s09-93-q7:: Zagadnienie „Kręcz szyi – wrodzony (mięśniowy, kostny), nabyty, nawykowy; 7 faz masażu u niemowląt” wchodzi w zakres tematu „Zniekształcenia – masaż i korekcja” (9.3). {TRUE} //
+::mc-s09-93:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zniekształcenia – masaż i korekcja” (9.3)? {
+    = Dysplazja i wrodzone zwichnięcie biodra – postępowanie z niemowlęciem i dzieckiem
+    ~ Biodro szpotawe (coxa vara) – fazy masażu, kinezyterapia
+    ~ Kolano koślawe i szpotawe – czterofazowy schemat masażu
+    ~ Prowadzenie zabiegów hydroterapeutycznych i fizykalnych – kąpiele, okłady, sauna, krioterapia, elektrostymulacja, jontoforeza
+}
+// === Temat 9.4: Choroby układu oddechowego – masaż i rehabilitacja ===
+::tf-s09-94-q1:: Zagadnienie „Przewlekły nieżyt oskrzeli – okres ostry i przewlekły; masaż segmentarny i klasyczny; oklepywanie, wibracja, sprężynowanie” wchodzi w zakres tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {TRUE} //
+::tf-s09-94-q2:: Zagadnienie „Rozstrzenie oskrzeli – drenaż ułożeniowy; techniki masażu” jest elementem zagadnienia „Przewlekły nieżyt oskrzeli – okres ostry i przewlekły; masaż segmentarny i klasyczny; oklepywanie, wibracja, sprężynowanie”, a nie tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {FALSE} //
+::tf-s09-94-q3:: Zagadnienie „Dychawica oskrzelowa – okres napadu (masaż punktów) i międzynapadowy (masaż segmentarny, klasyczny rozluźniający)” wchodzi w zakres tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {TRUE} //
+::tf-s09-94-q4:: Zagadnienie „Rozedma płuc – masaż segmentarny i klasyczny; sprężynowanie klatki piersiowej” jest elementem zagadnienia „Dychawica oskrzelowa – okres napadu (masaż punktów) i międzynapadowy (masaż segmentarny, klasyczny rozluźniający)”, a nie tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {FALSE} //
+::tf-s09-94-q5:: Zagadnienie „Zapalenie płuc (płatowe, odoskrzelowe) – okresy I–III; pozycje przeciwzrostowe wg Bruce’a” wchodzi w zakres tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {TRUE} //
+::tf-s09-94-q6:: Zagadnienie „Zwłóknienie płuc” jest elementem zagadnienia „Zapalenie płuc (płatowe, odoskrzelowe) – okresy I–III; pozycje przeciwzrostowe wg Bruce’a”, a nie tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {FALSE} //
+::tf-s09-94-q7:: Zagadnienie „Zapalenie opłucnej – okresy wysiękowy, wchłaniania, rekonwalescencji” wchodzi w zakres tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {TRUE} //
+::tf-s09-94-q8:: Zagadnienie „Chirurgia klatki piersiowej (lobektomia, pneumonektomia, torakoplastyka) – okres przed- i pooperacyjny” jest elementem zagadnienia „Zapalenie opłucnej – okresy wysiękowy, wchłaniania, rekonwalescencji”, a nie tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4). {FALSE} //
+::mc-s09-94:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu oddechowego – masaż i rehabilitacja” (9.4)? {
+    = Przewlekły nieżyt oskrzeli – okres ostry i przewlekły; masaż segmentarny i klasyczny; oklepywanie, wibracja, sprężynowanie
+    ~ Rozstrzenie oskrzeli – drenaż ułożeniowy; techniki masażu
+    ~ Dychawica oskrzelowa – okres napadu (masaż punktów) i międzynapadowy (masaż segmentarny, klasyczny rozluźniający)
+    ~ Projekt programu coachingowego/mentoringowego – struktura, narzędzia, cele, ewaluacja
+}
+// === Temat 9.5: Choroby układu krążenia – masaż i rehabilitacja ===
+::tf-s09-95-q1:: Zagadnienie „Choroby zastawek serca – zasady (odciążenie, dotlenienie, przerost); metoda pierwsza i druga; schematy ćwiczeń” wchodzi w zakres tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {TRUE} //
+::tf-s09-95-q2:: Zagadnienie „Zapalenie mięśnia sercowego – ostrożność, stopniowanie” jest elementem zagadnienia „Choroby zastawek serca – zasady (odciążenie, dotlenienie, przerost); metoda pierwsza i druga; schematy ćwiczeń”, a nie tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {FALSE} //
+::tf-s09-95-q3:: Zagadnienie „Dusznica bolesna i niewydolność wieńcowa – masaż segmentarny; okres szpitalny i ambulatoryjny” wchodzi w zakres tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {TRUE} //
+::tf-s09-95-q4:: Zagadnienie „Zawał serca – okresy (szpitalny, rekonwalescencji, po rekonwalescencji); drenaż limfatyczny i masaż klasyczny/segmentarny” jest elementem zagadnienia „Dusznica bolesna i niewydolność wieńcowa – masaż segmentarny; okres szpitalny i ambulatoryjny”, a nie tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {FALSE} //
+::tf-s09-95-q5:: Zagadnienie „Rozrusznik serca – środki ostrożności w masażu i fizykoterapii” wchodzi w zakres tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {TRUE} //
+::tf-s09-95-q6:: Zagadnienie „Choroby tętnic – miażdżyca (ostrożność, zakaz technik rozgrzewających), choroba Buergera (I i II stopień), choroba Raynauda, sinica kończyn” jest elementem zagadnienia „Rozrusznik serca – środki ostrożności w masażu i fizykoterapii”, a nie tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {FALSE} //
+::tf-s09-95-q7:: Zagadnienie „Choroby żył – zapalenie, zakrzepowe zapalenie (przeciwwskazanie do masażu!), żylaki (drenaż limfatyczny, masaż segmentarny z omijaniem zmian)” wchodzi w zakres tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5). {TRUE} //
+::mc-s09-95:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu krążenia – masaż i rehabilitacja” (9.5)? {
+    = Choroby zastawek serca – zasady (odciążenie, dotlenienie, przerost); metoda pierwsza i druga; schematy ćwiczeń
+    ~ Zapalenie mięśnia sercowego – ostrożność, stopniowanie
+    ~ Dusznica bolesna i niewydolność wieńcowa – masaż segmentarny; okres szpitalny i ambulatoryjny
+    ~ Inhalacje i nebulizacje – technika, leki, wskazania
+}
+// === Temat 9.6: Choroby układu nerwowego – masaż i rehabilitacja ===
+::tf-s09-96-q1:: Zagadnienie „Porażenie połowicze (hemiplegia) – okresy ostry, kompensacji, adaptacyjny; masaż (głaskania, delikatne rozcierania, ugniatanie podłużne; bez wibracji); metody Bobath, Kabata, Brunnstrom, Rood” wchodzi w zakres tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {TRUE} //
+::tf-s09-96-q2:: Zagadnienie „Dziecięce porażenie mózgowe – typ kurczowy, atetotyczny, ataktyczny; masaż Shantala” jest elementem zagadnienia „Porażenie połowicze (hemiplegia) – okresy ostry, kompensacji, adaptacyjny; masaż (głaskania, delikatne rozcierania, ugniatanie podłużne; bez wibracji); metody Bobath, Kabata, Brunnstrom, Rood”, a nie tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {FALSE} //
+::tf-s09-96-q3:: Zagadnienie „Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego, automatyzmu, stabilizacji; drenaż limfatyczny” wchodzi w zakres tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {TRUE} //
+::tf-s09-96-q4:: Zagadnienie „Choroba Parkinsona – masaż rozluźniający (bez przegrzewania); kinezyterapia” jest elementem zagadnienia „Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego, automatyzmu, stabilizacji; drenaż limfatyczny”, a nie tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {FALSE} //
+::tf-s09-96-q5:: Zagadnienie „Stwardnienie rozsiane (SM) – masaż klasyczny i drenaż; okresy rzutów i remisji” wchodzi w zakres tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {TRUE} //
+::tf-s09-96-q6:: Zagadnienie „Wiąd rdzenia – masaż pobudzający; ćwiczenia Frenkela” jest elementem zagadnienia „Stwardnienie rozsiane (SM) – masaż klasyczny i drenaż; okresy rzutów i remisji”, a nie tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {FALSE} //
+::tf-s09-96-q7:: Zagadnienie „Uszkodzenia nerwów obwodowych – nerw łokciowy, pośrodkowy, promieniowy, Erba, Klumpkego, udowy, strzałkowy, kulszowy, twarzowy; okresy (porażeń, kompensacji, adaptacji); techniki masażu” wchodzi w zakres tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {TRUE} //
+::tf-s09-96-q8:: Zagadnienie „Zespoły bólowe korzeniowe – rwa kulszowa (okresy ostry, podostry, przewlekły; masaż klasyczny i segmentarny; uciski punktowe; gimnastyka w rwie), rwa barkowa, nerwoból międzyżebrowy” jest elementem zagadnienia „Uszkodzenia nerwów obwodowych – nerw łokciowy, pośrodkowy, promieniowy, Erba, Klumpkego, udowy, strzałkowy, kulszowy, twarzowy; okresy (porażeń, kompensacji, adaptacji); techniki masażu”, a nie tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6). {FALSE} //
+::mc-s09-96:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu nerwowego – masaż i rehabilitacja” (9.6)? {
+    = Porażenie połowicze (hemiplegia) – okresy ostry, kompensacji, adaptacyjny; masaż (głaskania, delikatne rozcierania, ugniatanie podłużne; bez wibracji); metody Bobath, Kabata, Brunnstrom, Rood
+    ~ Dziecięce porażenie mózgowe – typ kurczowy, atetotyczny, ataktyczny; masaż Shantala
+    ~ Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego, automatyzmu, stabilizacji; drenaż limfatyczny
+    ~ Układ krążenia – serce, tętnice, żyły, mikrokrążenie
+}
+// === Temat 9.7: Choroby układu pokarmowego i moczowo-płciowego – masaż ===
+::tf-s09-97-q1:: Zagadnienie „Nieżyt żołądka (nadkwaśność, niedokwaśność) – masaż segmentarny; specyficzna kolejność” wchodzi w zakres tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {TRUE} //
+::tf-s09-97-q2:: Zagadnienie „Choroba wrzodowa – okres ostry (przeciwwskazanie) i remisji” jest elementem zagadnienia „Nieżyt żołądka (nadkwaśność, niedokwaśność) – masaż segmentarny; specyficzna kolejność”, a nie tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {FALSE} //
+::tf-s09-97-q3:: Zagadnienie „Zaburzenia napięcia ścian żołądka – podwyższone (9 technik masażu klasycznego) i obniżone” wchodzi w zakres tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {TRUE} //
+::tf-s09-97-q4:: Zagadnienie „Zaparcia nawykowe – typ spastyczny i wiotki; masaż segmentarny i klasyczny (fazy I–III)” jest elementem zagadnienia „Zaburzenia napięcia ścian żołądka – podwyższone (9 technik masażu klasycznego) i obniżone”, a nie tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {FALSE} //
+::tf-s09-97-q5:: Zagadnienie „Choroby wątroby i dróg żółciowych – masaż segmentarny” wchodzi w zakres tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {TRUE} //
+::tf-s09-97-q6:: Zagadnienie „Kamica nerkowa – masaż segmentarny; postępowanie w napadzie kolki” jest elementem zagadnienia „Choroby wątroby i dróg żółciowych – masaż segmentarny”, a nie tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {FALSE} //
+::tf-s09-97-q7:: Zagadnienie „Odmiedniczkowe zapalenie nerek – masaż segmentarny” wchodzi w zakres tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {TRUE} //
+::tf-s09-97-q8:: Zagadnienie „Choroby kobiecych narządów płciowych – masaż segmentarny; stymulacja laktacji” jest elementem zagadnienia „Odmiedniczkowe zapalenie nerek – masaż segmentarny”, a nie tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {FALSE} //
+::tf-s09-97-q9:: Zagadnienie „Ciąża i połóg – masaż segmentarny (ograniczenia); opracowanie blizny po cesarskim cięciu; likwidowanie rozstępów; stymulacja wydzielania mleka” wchodzi w zakres tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7). {TRUE} //
+::mc-s09-97:: Które z poniższych zagadnień należy bezpośrednio do tematu „Choroby układu pokarmowego i moczowo-płciowego – masaż” (9.7)? {
+    = Nieżyt żołądka (nadkwaśność, niedokwaśność) – masaż segmentarny; specyficzna kolejność
+    ~ Choroba wrzodowa – okres ostry (przeciwwskazanie) i remisji
+    ~ Zaburzenia napięcia ścian żołądka – podwyższone (9 technik masażu klasycznego) i obniżone
+    ~ Zapalenie ostre i przewlekłe – mediatory, fazy, następstwa
+}
+// === Temat 9.8: Zasady wykonywania masażu u osób starszych ===
+::tf-s09-98-q1:: Zagadnienie „Zmiany fizjologiczne – skóra sucha i cienka, kruchość naczyń, zmniejszona elastyczność układu krążenia” wchodzi w zakres tematu „Zasady wykonywania masażu u osób starszych” (9.8). {TRUE} //
+::tf-s09-98-q2:: Zagadnienie „Modyfikacje techniki – mniejsza siła, krótszy czas, środki natłuszczające, brak masażu izometrycznego” jest elementem zagadnienia „Zmiany fizjologiczne – skóra sucha i cienka, kruchość naczyń, zmniejszona elastyczność układu krążenia”, a nie tematu „Zasady wykonywania masażu u osób starszych” (9.8). {FALSE} //
+::tf-s09-98-q3:: Zagadnienie „Częstotliwość – 2–3 razy w tygodniu” wchodzi w zakres tematu „Zasady wykonywania masażu u osób starszych” (9.8). {TRUE} //
+::tf-s09-98-q4:: Zagadnienie „Wskazania i przeciwwskazania specyficzne dla geriatrii” jest elementem zagadnienia „Częstotliwość – 2–3 razy w tygodniu”, a nie tematu „Zasady wykonywania masażu u osób starszych” (9.8). {FALSE} //
+::mc-s09-98:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zasady wykonywania masażu u osób starszych” (9.8)? {
+    = Zmiany fizjologiczne – skóra sucha i cienka, kruchość naczyń, zmniejszona elastyczność układu krążenia
+    ~ Modyfikacje techniki – mniejsza siła, krótszy czas, środki natłuszczające, brak masażu izometrycznego
+    ~ Częstotliwość – 2–3 razy w tygodniu
+    ~ Diagnostyka bólu – skale (VAS, NRS), charakter, lokalizacja, promieniowanie
+}

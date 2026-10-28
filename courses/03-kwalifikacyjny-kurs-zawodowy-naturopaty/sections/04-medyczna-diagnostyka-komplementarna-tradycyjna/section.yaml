@@ -7,28 +7,16 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-2-1-diagnostyka-medycynie-tradycyjnej-chinskiej-tcm.md"
-    name: "2.1. Diagnostyka w medycynie tradycyjnej chińskiej (TCM)"
-  - type: page
-    ref: "page-2-2-diagnostyka-ajurwedzie.md"
-    name: "2.2. Diagnostyka w ajurwedzie"
-  - type: page
-    ref: "page-2-3-diagnostyka-medycynie-zachodniej-naturalnej-naturo.md"
-    name: "2.3. Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej"
-  - type: page
-    ref: "page-2-4-diagnostyka-integralna-holistyczna.md"
-    name: "2.4. Diagnostyka integralna i holistyczna"
-  - type: page
-    ref: "page-4-1-diagnostyka-medycynie-tradycyjnej-chinskiej-tcm.md"
+    ref: "page-4-1-diagnostyka-w-medycynie-tradycyjnej-chinskiej-tcm.md"
     name: "4.1. Diagnostyka w medycynie tradycyjnej chińskiej (TCM)"
   - type: page
-    ref: "page-4-2-diagnostyka-ajurwedzie.md"
+    ref: "page-4-2-diagnostyka-w-ajurwedzie.md"
     name: "4.2. Diagnostyka w ajurwedzie"
   - type: page
-    ref: "page-4-3-diagnostyka-medycynie-zachodniej-naturalnej-naturo.md"
+    ref: "page-4-3-diagnostyka-w-medycynie-zachodniej-naturalnej-i-naturopatii-.md"
     name: "4.3. Diagnostyka w medycynie zachodniej naturalnej i naturopatii klasycznej"
   - type: page
-    ref: "page-4-4-diagnostyka-integralna-holistyczna.md"
+    ref: "page-4-4-diagnostyka-integralna-i-holistyczna.md"
     name: "4.4. Diagnostyka integralna i holistyczna"
   - type: quiz
     ref: quiz-01

@@ -7,16 +7,10 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-8-1-podstawy-terapii-manualnej.md"
-    name: "8.1. Podstawy terapii manualnej"
-  - type: page
-    ref: "page-8-2-masaz-specjalistyczny-techniki-uzupelniajace.md"
-    name: "8.2. Masaż specjalistyczny i techniki uzupełniające"
-  - type: page
     ref: "page-10-1-podstawy-terapii-manualnej.md"
     name: "10.1. Podstawy terapii manualnej"
   - type: page
-    ref: "page-10-2-masaz-specjalistyczny-techniki-uzupelniajace.md"
+    ref: "page-10-2-masaz-specjalistyczny-i-techniki-uzupe-niajace.md"
     name: "10.2. Masaż specjalistyczny i techniki uzupełniające"
   - type: quiz
     ref: quiz-01

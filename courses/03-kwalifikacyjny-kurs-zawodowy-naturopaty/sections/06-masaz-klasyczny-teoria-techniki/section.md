@@ -17,16 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 4.1 | page | Podstawy teoretyczne masażu klasycznego |
-| 4.2 | page | Techniki masażu klasycznego |
-| 4.3 | page | Masaż klasyczny poszczególnych okolic ciała |
-| 4.4 | page | Wskazania i przeciwwskazania do masażu |
-| 6.1 | page | Podstawy teoretyczne masażu klasycznego |
-| 6.2 | page | Techniki masażu klasycznego |
-| 6.3 | page | Masaż klasyczny poszczególnych okolic ciała |
-| 6.4 | page | Wskazania i przeciwwskazania do masażu |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 6.1 | page | Podstawy teoretyczne masażu klasycznego | 8 |
+| 6.2 | page | Techniki masażu klasycznego | 7 |
+| 6.3 | page | Masaż klasyczny poszczególnych okolic ciała | 9 |
+| 6.4 | page | Wskazania i przeciwwskazania do masażu | 4 |
 
 ## Cele kształcenia
 

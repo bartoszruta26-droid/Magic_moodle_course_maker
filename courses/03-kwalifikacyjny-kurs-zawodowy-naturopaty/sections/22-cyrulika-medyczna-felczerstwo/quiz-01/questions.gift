@@ -1,11 +1,141 @@
-// Quiz do modułu 22: CYRULIKA MEDYCZNA – FELCZERSTWO
-::tf-m22q1:: Temat „Podstawy cyruliki medycznej i felczerstwa” (14.1) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q2:: Temat „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (14.2) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q3:: Temat „Zabiegi na ranach i tkankach miękkich” (14.3) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q4:: Temat „Zabiegi ortopedyczne i unieruchomienie” (14.4) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q5:: Temat „Iniekcje i podawanie leków” (14.5) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q6:: Temat „Zabiegi na układzie oddechowym” (14.6) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q7:: Temat „Zabiegi na układzie pokarmowym i moczowym” (14.7) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q8:: Temat „Zabiegi ambulatoryjne i drobna chirurgia” (14.8) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q9:: Temat „Szczepienia i immunoprofilaktyka” (14.9) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
-::tf-m22q10:: Temat „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (14.10) należy do Modułu 22 – CYRULIKA MEDYCZNA – FELCZERSTWO. {TRUE}
+// === Temat 22.1: Podstawy cyruliki medycznej i felczerstwa ===
+::tf-s22-221-q1:: Zagadnienie „Definicja, historia i zakres cyruliki medycznej – od średniowiecznych cyrulików do współczesnego felczerstwa” wchodzi w zakres tematu „Podstawy cyruliki medycznej i felczerstwa” (22.1). {TRUE} //
+::tf-s22-221-q2:: Zagadnienie „Kompetencje i odpowiedzialność felczera/naturopaty w zakresie zabiegów ambulatoryjnych” jest elementem zagadnienia „Definicja, historia i zakres cyruliki medycznej – od średniowiecznych cyrulików do współczesnego felczerstwa”, a nie tematu „Podstawy cyruliki medycznej i felczerstwa” (22.1). {FALSE} //
+::tf-s22-221-q3:: Zagadnienie „Asystowanie przy zabiegach lekarskich – przygotowanie narzędzi, pacjenta, pola operacyjnego” wchodzi w zakres tematu „Podstawy cyruliki medycznej i felczerstwa” (22.1). {TRUE} //
+::tf-s22-221-q4:: Zagadnienie „Zasady aseptyki i antyseptyki – sterylizacja narzędzi, dezynfekcja rąk, przygotowanie pola zabiegowego” jest elementem zagadnienia „Asystowanie przy zabiegach lekarskich – przygotowanie narzędzi, pacjenta, pola operacyjnego”, a nie tematu „Podstawy cyruliki medycznej i felczerstwa” (22.1). {FALSE} //
+::tf-s22-221-q5:: Zagadnienie „Farmakologia podstawowa dla felczera – leki stosowane w zabiegach ambulatoryjnych, interakcje, dawkowanie” wchodzi w zakres tematu „Podstawy cyruliki medycznej i felczerstwa” (22.1). {TRUE} //
+::mc-s22-141:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy cyruliki medycznej i felczerstwa” (22.1)? {
+    = Definicja, historia i zakres cyruliki medycznej – od średniowiecznych cyrulików do współczesnego felczerstwa
+    ~ Kompetencje i odpowiedzialność felczera/naturopaty w zakresie zabiegów ambulatoryjnych
+    ~ Asystowanie przy zabiegach lekarskich – przygotowanie narzędzi, pacjenta, pola operacyjnego
+    ~ Kinesiotaping – aplikacje kliniczne (stabilizacja, drenaż, korekcja)
+}
+// === Temat 22.2: Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych ===
+::tf-s22-222-q1:: Zagadnienie „Ocena stanu ogólnego pacjenta – przytomność, kontakt, parametry życiowe” wchodzi w zakres tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2). {TRUE} //
+::tf-s22-222-q2:: Zagadnienie „Rozpoznawanie stanów nagłych – algorytm postępowania” jest elementem zagadnienia „Ocena stanu ogólnego pacjenta – przytomność, kontakt, parametry życiowe”, a nie tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2). {FALSE} //
+::tf-s22-222-q3:: Zagadnienie „Ocena ran – rodzaj, głębokość, zanieczyszczenie, krwawienie, ciała obce” wchodzi w zakres tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2). {TRUE} //
+::tf-s22-222-q4:: Zagadnienie „Ocena złamań i zwichnięć – objawy, badanie, różnicowanie” jest elementem zagadnienia „Ocena ran – rodzaj, głębokość, zanieczyszczenie, krwawienie, ciała obce”, a nie tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2). {FALSE} //
+::tf-s22-222-q5:: Zagadnienie „Ocena oparzeń i odmrożeń – stopnie, rozległość (reguła dziewiątek)” wchodzi w zakres tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2). {TRUE} //
+::tf-s22-222-q6:: Zagadnienie „Dokumentacja medyczna zabiegów felczerskich” jest elementem zagadnienia „Ocena oparzeń i odmrożeń – stopnie, rozległość (reguła dziewiątek)”, a nie tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2). {FALSE} //
+::mc-s22-142:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych” (22.2)? {
+    = Ocena stanu ogólnego pacjenta – przytomność, kontakt, parametry życiowe
+    ~ Rozpoznawanie stanów nagłych – algorytm postępowania
+    ~ Ocena ran – rodzaj, głębokość, zanieczyszczenie, krwawienie, ciała obce
+    ~ Publikacje i działalność edukacyjna – popularyzacja wiedzy, wykłady, artykuły
+}
+// === Temat 22.3: Zabiegi na ranach i tkankach miękkich ===
+::tf-s22-223-q1:: Zagadnienie „Oczyszczanie ran – płukanie, usuwanie ciał obcych, martwych tkanek” wchodzi w zakres tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {TRUE} //
+::tf-s22-223-q2:: Zagadnienie „Szycie ran – technika, rodzaje szwów (pojedynczy, materacowy, śródskórny), materiały (nić, agrafki), znieczulenie miejscowe, opieka po szyciu” jest elementem zagadnienia „Oczyszczanie ran – płukanie, usuwanie ciał obcych, martwych tkanek”, a nie tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {FALSE} //
+::tf-s22-223-q3:: Zagadnienie „Opatrywanie ran – opatrunki jałowe, opatrunki uciskowe, opatrunki unieruchamiające, opatrunki specjalistyczne (hydrożelowe, alginianowe, srebrne)” wchodzi w zakres tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {TRUE} //
+::tf-s22-223-q4:: Zagadnienie „Zmiana opatrunków – technika, częstotliwość, ocena gojenia” jest elementem zagadnienia „Opatrywanie ran – opatrunki jałowe, opatrunki uciskowe, opatrunki unieruchamiające, opatrunki specjalistyczne (hydrożelowe, alginianowe, srebrne)”, a nie tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {FALSE} //
+::tf-s22-223-q5:: Zagadnienie „Usuwanie szwów i agrafek – technika, czas (twarz 5–7 dni, tułów 7–10 dni, kończyny 10–14 dni)” wchodzi w zakres tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {TRUE} //
+::tf-s22-223-q6:: Zagadnienie „Nacięcie i drenaż ropni – technika, znieczulenie, drenaż, opatrunek” jest elementem zagadnienia „Usuwanie szwów i agrafek – technika, czas (twarz 5–7 dni, tułów 7–10 dni, kończyny 10–14 dni)”, a nie tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {FALSE} //
+::tf-s22-223-q7:: Zagadnienie „Usuwanie ciał obcych – drzazgi, szkło, metal; technika, narzędzia” wchodzi w zakres tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {TRUE} //
+::tf-s22-223-q8:: Zagadnienie „Leczenie oparzeń – stopnie, postępowanie miejscowe, opatrunki, zapobieganie zakażeniu” jest elementem zagadnienia „Usuwanie ciał obcych – drzazgi, szkło, metal; technika, narzędzia”, a nie tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {FALSE} //
+::tf-s22-223-q9:: Zagadnienie „Leczenie odmrożeń – stopnie, postępowanie, rozgrzewanie, opatrunki” wchodzi w zakres tematu „Zabiegi na ranach i tkankach miękkich” (22.3). {TRUE} //
+::mc-s22-143:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi na ranach i tkankach miękkich” (22.3)? {
+    = Oczyszczanie ran – płukanie, usuwanie ciał obcych, martwych tkanek
+    ~ Szycie ran – technika, rodzaje szwów (pojedynczy, materacowy, śródskórny), materiały (nić, agrafki), znieczulenie miejscowe, opieka po szyciu
+    ~ Opatrywanie ran – opatrunki jałowe, opatrunki uciskowe, opatrunki unieruchamiające, opatrunki specjalistyczne (hydrożelowe, alginianowe, srebrne)
+    ~ Drenaż ułożeniowy – pozycje wg segmentów płuc, technika oklepywania
+}
+// === Temat 22.4: Zabiegi ortopedyczne i unieruchomienie ===
+::tf-s22-224-q1:: Zagadnienie „Zasady unieruchomienia złamań – reguła Potta (dwa sąsiednie stawy), materiały (szyny, deski, karton, improwizowane)” wchodzi w zakres tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {TRUE} //
+::tf-s22-224-q2:: Zagadnienie „Unieruchomienie złamań kończyny górnej – przedramię, ramię, obojczyk, ręka” jest elementem zagadnienia „Zasady unieruchomienia złamań – reguła Potta (dwa sąsiednie stawy), materiały (szyny, deski, karton, improwizowane)”, a nie tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {FALSE} //
+::tf-s22-224-q3:: Zagadnienie „Unieruchomienie złamań kończyny dolnej – podudzie, udo, staw skokowy, stopa” wchodzi w zakres tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {TRUE} //
+::tf-s22-224-q4:: Zagadnienie „Unieruchomienie złamań kręgosłupa i miednicy – zasady transportu” jest elementem zagadnienia „Unieruchomienie złamań kończyny dolnej – podudzie, udo, staw skokowy, stopa”, a nie tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {FALSE} //
+::tf-s22-224-q5:: Zagadnienie „Repozycja zwichnięć – zasady, technika, przeciwwskazania” wchodzi w zakres tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {TRUE} //
+::tf-s22-224-q6:: Zagadnienie „Zakładanie opasek i bandażowania – techniki (kłosowa, żółwiowa, czepiec, rękawiczka), opaski elastyczne, opaski uciskowe” jest elementem zagadnienia „Repozycja zwichnięć – zasady, technika, przeciwwskazania”, a nie tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {FALSE} //
+::tf-s22-224-q7:: Zagadnienie „Zakładanie temblaka i chusty trójkątnej” wchodzi w zakres tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {TRUE} //
+::tf-s22-224-q8:: Zagadnienie „Wyciągi – zasady, wskazania, technika” jest elementem zagadnienia „Zakładanie temblaka i chusty trójkątnej”, a nie tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4). {FALSE} //
+::mc-s22-144:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi ortopedyczne i unieruchomienie” (22.4)? {
+    = Zasady unieruchomienia złamań – reguła Potta (dwa sąsiednie stawy), materiały (szyny, deski, karton, improwizowane)
+    ~ Unieruchomienie złamań kończyny górnej – przedramię, ramię, obojczyk, ręka
+    ~ Unieruchomienie złamań kończyny dolnej – podudzie, udo, staw skokowy, stopa
+    ~ Układ pokarmowy – przewód pokarmowy, gruczoły trawienne
+}
+// === Temat 22.5: Iniekcje i podawanie leków ===
+::tf-s22-225-q1:: Zagadnienie „Iniekcje podskórne – technika, miejsca (ramię, udo, brzuch), kąt 45°” wchodzi w zakres tematu „Iniekcje i podawanie leków” (22.5). {TRUE} //
+::tf-s22-225-q2:: Zagadnienie „Iniekcje domięśniowe – technika, miejsca (mięsień pośladkowy wielki – kwadrant górny zewnętrzny, mięsień naramienny, mięsień obszerny boczny uda), kąt 90°, technika Z-track” jest elementem zagadnienia „Iniekcje podskórne – technika, miejsca (ramię, udo, brzuch), kąt 45°”, a nie tematu „Iniekcje i podawanie leków” (22.5). {FALSE} //
+::tf-s22-225-q3:: Zagadnienie „Iniekcje dożylne – technika, miejsca (żyły przedramienia, dołu łokciowego), bezpieczeństwo” wchodzi w zakres tematu „Iniekcje i podawanie leków” (22.5). {TRUE} //
+::tf-s22-225-q4:: Zagadnienie „Iniekcje śródskórne – technika, zastosowanie (testy alergiczne, szczepienia)” jest elementem zagadnienia „Iniekcje dożylne – technika, miejsca (żyły przedramienia, dołu łokciowego), bezpieczeństwo”, a nie tematu „Iniekcje i podawanie leków” (22.5). {FALSE} //
+::tf-s22-225-q5:: Zagadnienie „Podawanie leków drogą wziewną – inhalacje, nebulizacja” wchodzi w zakres tematu „Iniekcje i podawanie leków” (22.5). {TRUE} //
+::tf-s22-225-q6:: Zagadnienie „Podawanie leków doodbytniczych – czopki, wlewki” jest elementem zagadnienia „Podawanie leków drogą wziewną – inhalacje, nebulizacja”, a nie tematu „Iniekcje i podawanie leków” (22.5). {FALSE} //
+::tf-s22-225-q7:: Zagadnienie „Podawanie leków dopęcherzowych – technika, wskazania” wchodzi w zakres tematu „Iniekcje i podawanie leków” (22.5). {TRUE} //
+::tf-s22-225-q8:: Zagadnienie „Podawanie leków do uszu, nosa, oczu – technika, środki ostrożności” jest elementem zagadnienia „Podawanie leków dopęcherzowych – technika, wskazania”, a nie tematu „Iniekcje i podawanie leków” (22.5). {FALSE} //
+::mc-s22-145:: Które z poniższych zagadnień należy bezpośrednio do tematu „Iniekcje i podawanie leków” (22.5)? {
+    = Iniekcje podskórne – technika, miejsca (ramię, udo, brzuch), kąt 45°
+    ~ Iniekcje domięśniowe – technika, miejsca (mięsień pośladkowy wielki – kwadrant górny zewnętrzny, mięsień naramienny, mięsień obszerny boczny uda), kąt 90°, technika Z-track
+    ~ Iniekcje dożylne – technika, miejsca (żyły przedramienia, dołu łokciowego), bezpieczeństwo
+    ~ Fizjologia układu nerwowego – przewodzenie impulsów, synapsy, łuk odruchowy
+}
+// === Temat 22.6: Zabiegi na układzie oddechowym ===
+::tf-s22-226-q1:: Zagadnienie „Inhalacje i nebulizacje – technika, leki, wskazania” wchodzi w zakres tematu „Zabiegi na układzie oddechowym” (22.6). {TRUE} //
+::tf-s22-226-q2:: Zagadnienie „Odsysanie wydzieliny z dróg oddechowych – technika, sprzęt, bezpieczeństwo” jest elementem zagadnienia „Inhalacje i nebulizacje – technika, leki, wskazania”, a nie tematu „Zabiegi na układzie oddechowym” (22.6). {FALSE} //
+::tf-s22-226-q3:: Zagadnienie „Tlenoterapia – podawanie tlenu (maska, wąsy, namiot), dawkowanie, bezpieczeństwo” wchodzi w zakres tematu „Zabiegi na układzie oddechowym” (22.6). {TRUE} //
+::tf-s22-226-q4:: Zagadnienie „Drenaż ułożeniowy – pozycje wg segmentów płuc, technika oklepywania” jest elementem zagadnienia „Tlenoterapia – podawanie tlenu (maska, wąsy, namiot), dawkowanie, bezpieczeństwo”, a nie tematu „Zabiegi na układzie oddechowym” (22.6). {FALSE} //
+::tf-s22-226-q5:: Zagadnienie „Nauka efektywnego kaszlu i odkrztuszania” wchodzi w zakres tematu „Zabiegi na układzie oddechowym” (22.6). {TRUE} //
+::mc-s22-146:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi na układzie oddechowym” (22.6)? {
+    = Inhalacje i nebulizacje – technika, leki, wskazania
+    ~ Odsysanie wydzieliny z dróg oddechowych – technika, sprzęt, bezpieczeństwo
+    ~ Tlenoterapia – podawanie tlenu (maska, wąsy, namiot), dawkowanie, bezpieczeństwo
+    ~ Badanie moczu – analiza ogólna, posiew, sediment
+}
+// === Temat 22.7: Zabiegi na układzie pokarmowym i moczowym ===
+::tf-s22-227-q1:: Zagadnienie „Płukanie żołądka – wskazania, technika, przeciwwskazania, bezpieczeństwo” wchodzi w zakres tematu „Zabiegi na układzie pokarmowym i moczowym” (22.7). {TRUE} //
+::tf-s22-227-q2:: Zagadnienie „Lewatywa i wlew doodbytniczy – technika, wskazania, rodzaje (oczyszczająca, lecznicza, odżywcza)” jest elementem zagadnienia „Płukanie żołądka – wskazania, technika, przeciwwskazania, bezpieczeństwo”, a nie tematu „Zabiegi na układzie pokarmowym i moczowym” (22.7). {FALSE} //
+::tf-s22-227-q3:: Zagadnienie „Cewnikowanie pęcherza moczowego – technika (kobiety, mężczyźni), rodzaje cewników, aseptyka, pielęgnacja” wchodzi w zakres tematu „Zabiegi na układzie pokarmowym i moczowym” (22.7). {TRUE} //
+::tf-s22-227-q4:: Zagadnienie „Pobieranie materiału do badań – krew, mocz, kał, plwocina, wymazy” jest elementem zagadnienia „Cewnikowanie pęcherza moczowego – technika (kobiety, mężczyźni), rodzaje cewników, aseptyka, pielęgnacja”, a nie tematu „Zabiegi na układzie pokarmowym i moczowym” (22.7). {FALSE} //
+::tf-s22-227-q5:: Zagadnienie „Podawanie pokarmu przez sondę – technika, pielęgnacja, bezpieczeństwo” wchodzi w zakres tematu „Zabiegi na układzie pokarmowym i moczowym” (22.7). {TRUE} //
+::mc-s22-147:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi na układzie pokarmowym i moczowym” (22.7)? {
+    = Płukanie żołądka – wskazania, technika, przeciwwskazania, bezpieczeństwo
+    ~ Lewatywa i wlew doodbytniczy – technika, wskazania, rodzaje (oczyszczająca, lecznicza, odżywcza)
+    ~ Cewnikowanie pęcherza moczowego – technika (kobiety, mężczyźni), rodzaje cewników, aseptyka, pielęgnacja
+    ~ Testy obciążeń i wydolności funkcjonalnej – testy marszowe, próby wysiłkowe, testy prognostyczne
+}
+// === Temat 22.8: Zabiegi ambulatoryjne i drobna chirurgia ===
+::tf-s22-228-q1:: Zagadnienie „Znieczulenie miejscowe – technika, leki (lignokaina, nowokaina), dawkowanie, powikłania” wchodzi w zakres tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {TRUE} //
+::tf-s22-228-q2:: Zagadnienie „Nacięcie i drenaż ropni – technika, narzędzia, opieka po zabiegu” jest elementem zagadnienia „Znieczulenie miejscowe – technika, leki (lignokaina, nowokaina), dawkowanie, powikłania”, a nie tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {FALSE} //
+::tf-s22-228-q3:: Zagadnienie „Usuwanie zmian skórnych – brodawki, kaszaki, tłuszczaki; technika, znieczulenie” wchodzi w zakres tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {TRUE} //
+::tf-s22-228-q4:: Zagadnienie „Usuwanie wrastających paznokci – technika, znieczulenie, opatrunek” jest elementem zagadnienia „Usuwanie zmian skórnych – brodawki, kaszaki, tłuszczaki; technika, znieczulenie”, a nie tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {FALSE} //
+::tf-s22-228-q5:: Zagadnienie „Podcinanie wędzidełka – technika, znieczulenie” wchodzi w zakres tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {TRUE} //
+::tf-s22-228-q6:: Zagadnienie „Tamowanie krwotoków – ucisk bezpośredni, opaska uciskowa, elewacja, koagulacja” jest elementem zagadnienia „Podcinanie wędzidełka – technika, znieczulenie”, a nie tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {FALSE} //
+::tf-s22-228-q7:: Zagadnienie „Punkcje – stawów, opłucnej, jamy brzusznej (asystowanie)” wchodzi w zakres tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {TRUE} //
+::tf-s22-228-q8:: Zagadnienie „Płukanie jam ciała – jamy ustnej, gardła, nosa, uszu, pochwy” jest elementem zagadnienia „Punkcje – stawów, opłucnej, jamy brzusznej (asystowanie)”, a nie tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8). {FALSE} //
+::mc-s22-148:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi ambulatoryjne i drobna chirurgia” (22.8)? {
+    = Znieczulenie miejscowe – technika, leki (lignokaina, nowokaina), dawkowanie, powikłania
+    ~ Nacięcie i drenaż ropni – technika, narzędzia, opieka po zabiegu
+    ~ Usuwanie zmian skórnych – brodawki, kaszaki, tłuszczaki; technika, znieczulenie
+    ~ Kinesologia stosowana – testy mięśniowe jako narzędzie diagnostyczne
+}
+// === Temat 22.9: Szczepienia i immunoprofilaktyka ===
+::tf-s22-229-q1:: Zagadnienie „Zasady szczepień – kalendarz, wskazania, przeciwwskazania” wchodzi w zakres tematu „Szczepienia i immunoprofilaktyka” (22.9). {TRUE} //
+::tf-s22-229-q2:: Zagadnienie „Technika podawania szczepionek – drogi, miejsca, kąty” jest elementem zagadnienia „Zasady szczepień – kalendarz, wskazania, przeciwwskazania”, a nie tematu „Szczepienia i immunoprofilaktyka” (22.9). {FALSE} //
+::tf-s22-229-q3:: Zagadnienie „Przechowywanie i transport szczepionek – łańcuch chłodniczy” wchodzi w zakres tematu „Szczepienia i immunoprofilaktyka” (22.9). {TRUE} //
+::tf-s22-229-q4:: Zagadnienie „Obserwacja po szczepieniu – odczyny miejscowe i ogólnoustrojowe, anafilaksja” jest elementem zagadnienia „Przechowywanie i transport szczepionek – łańcuch chłodniczy”, a nie tematu „Szczepienia i immunoprofilaktyka” (22.9). {FALSE} //
+::tf-s22-229-q5:: Zagadnienie „Postępowanie w przypadku odczynów poszczepiennych” wchodzi w zakres tematu „Szczepienia i immunoprofilaktyka” (22.9). {TRUE} //
+::mc-s22-149:: Które z poniższych zagadnień należy bezpośrednio do tematu „Szczepienia i immunoprofilaktyka” (22.9)? {
+    = Zasady szczepień – kalendarz, wskazania, przeciwwskazania
+    ~ Technika podawania szczepionek – drogi, miejsca, kąty
+    ~ Przechowywanie i transport szczepionek – łańcuch chłodniczy
+    ~ Profilaktyka chorób układu ruchu – postawa, aktywność, obuwie, ergonomia
+}
+// === Temat 22.10: Pierwsza pomoc i stany nagłe w praktyce felczerskiej ===
+::tf-s22-2210-q1:: Zagadnienie „Resuscytacja krążeniowo-oddechowa (BLS/AED) – algorytm, technika, defibrylacja” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {TRUE} //
+::tf-s22-2210-q2:: Zagadnienie „Postępowanie w omdleniu, wstrząsie (hipowolemicznym, anafilaktycznym, kardiogennym)” jest elementem zagadnienia „Resuscytacja krążeniowo-oddechowa (BLS/AED) – algorytm, technika, defibrylacja”, a nie tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {FALSE} //
+::tf-s22-2210-q3:: Zagadnienie „Postępowanie w krwotokach – zewnętrznych i wewnętrznych” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {TRUE} //
+::tf-s22-2210-q4:: Zagadnienie „Postępowanie w oparzeniach, odmrożeniach, porażeniu prądem, utonięciu” jest elementem zagadnienia „Postępowanie w krwotokach – zewnętrznych i wewnętrznych”, a nie tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {FALSE} //
+::tf-s22-2210-q5:: Zagadnienie „Postępowanie w złamaniach, zwichnięciach, skręceniach – unieruchomienie, transport” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {TRUE} //
+::tf-s22-2210-q6:: Zagadnienie „Postępowanie w urazach głowy, kręgosłupa, klatki piersiowej, brzucha” jest elementem zagadnienia „Postępowanie w złamaniach, zwichnięciach, skręceniach – unieruchomienie, transport”, a nie tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {FALSE} //
+::tf-s22-2210-q7:: Zagadnienie „Postępowanie w stanach nagłych kardiologicznych (zawał, dusznica, obrzęk płuc), neurologicznych (udar, napad drgawkowy), oddechowych (astma, ciało obce w drogach oddechowych)” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {TRUE} //
+::tf-s22-2210-q8:: Zagadnienie „Postępowanie w zatruciach – pokarmowych, lekowych, gazowych, chemicznych; płukanie żołądka, podanie węgla aktywnego” jest elementem zagadnienia „Postępowanie w stanach nagłych kardiologicznych (zawał, dusznica, obrzęk płuc), neurologicznych (udar, napad drgawkowy), oddechowych (astma, ciało obce w drogach oddechowych)”, a nie tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {FALSE} //
+::tf-s22-2210-q9:: Zagadnienie „Postępowanie w reakcjach alergicznych i anafilaksji – adrenalina, pozycja, tlen” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {TRUE} //
+::tf-s22-2210-q10:: Zagadnienie „Postępowanie w udarze cieplnym, hipotermii, hipoglikemii, hiperglikemii” jest elementem zagadnienia „Postępowanie w reakcjach alergicznych i anafilaksji – adrenalina, pozycja, tlen”, a nie tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {FALSE} //
+::tf-s22-2210-q11:: Zagadnienie „Transport chorego – pozycje (boczna ustalona, przeciwwstrząsowa, siedząca), nosze, improwizowane środki transportu” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {TRUE} //
+::tf-s22-2210-q12:: Zagadnienie „Apteczka felczerska – wyposażenie, zasady stosowania, uzupełnianie” jest elementem zagadnienia „Transport chorego – pozycje (boczna ustalona, przeciwwstrząsowa, siedząca), nosze, improwizowane środki transportu”, a nie tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10). {FALSE} //
+::mc-s22-1410:: Które z poniższych zagadnień należy bezpośrednio do tematu „Pierwsza pomoc i stany nagłe w praktyce felczerskiej” (22.10)? {
+    = Resuscytacja krążeniowo-oddechowa (BLS/AED) – algorytm, technika, defibrylacja
+    ~ Postępowanie w omdleniu, wstrząsie (hipowolemicznym, anafilaktycznym, kardiogennym)
+    ~ Postępowanie w krwotokach – zewnętrznych i wewnętrznych
+    ~ Dychawica oskrzelowa – okres napadu (masaż punktów – 4 kierunki) i międzynapadowy (masaż segmentarny – bez sprężynowania przez 10 zabiegów; masaż klasyczny rozluźniający mięśnie oddechowe); kinezyterapia – pozycje rozluźniające, ćwiczenia oddechowe
+}

@@ -10,24 +10,40 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **6 – MASAŻ KLASYCZNY – TEORIA I TECHNIKI** (Semestr II).
+Strona tematyczna (SEMESTR II – MASAŻ MEDYCZNY, DRENAŻ LIMFATYCZNY I TERAPIE MANUALNE).
 Temat zgodnie z połączonym spisem treści kursu: *Podstawy teoretyczne masażu klasycznego*
+(Punkty 6.1.1–6.1.8 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 6.1
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Definicja masażu i rys historyczny – od starożytności (Indie, Chiny, Egipt, Grecja, Rzym) przez Ambrożego Paré, P.H. Linga, J. Mezgera, I. Zabłudowskiego do współczesności**
+- **2. Cechy psychofizyczne masażysty – sprawność fizyczna, cierpliwość, empatia, znajomość psychologii pacjenta**
+- **3. Zasady stosowania masażu klasycznego – wywiad, kierunek dosercowy, wskazania i przeciwwskazania, czas trwania, stopniowanie siły, seria zabiegów**
+- **4. Siła masażu a wiek, płeć, zawód, budowa ciała (astenik, atletyk, pyknik) i stan zdrowia pacjenta**
+- **5. Środki poślizgowe (talk, oliwka, wazelina, lanolina) i wspomagające (preparaty rozgrzewające, przeciwzapalne, odżywcze)**
+- **6. Wyposażenie gabinetu – kozetka regulowana, środki czystości, lampa Solux**
+- **7. Wpływ masażu na poszczególne tkanki – łączna, mięśniowa, skórna, kostna, tłuszczowa**
+- **8. Wpływ masażu na układy – nerwowy, krążenia, oddechowy, pokarmowy, moczowo-płciowy, wewnątrzwydzielniczy, limfatyczny**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 6.1 („Podstawy teoretyczne masażu klasycznego”) obejmuje 8 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

@@ -13,7 +13,7 @@ modules:
     ref: "page-18-2-etyka-zawodowa.md"
     name: "18.2. Etyka zawodowa"
   - type: page
-    ref: "page-18-3-organizacja-prowadzenie-praktyki.md"
+    ref: "page-18-3-organizacja-i-prowadzenie-praktyki.md"
     name: "18.3. Organizacja i prowadzenie praktyki"
   - type: quiz
     ref: quiz-01

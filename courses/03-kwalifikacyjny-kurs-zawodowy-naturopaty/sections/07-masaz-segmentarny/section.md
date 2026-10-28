@@ -17,14 +17,11 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 5.1 | page | Podstawy teoretyczne masażu segmentarnego |
-| 5.2 | page | Techniki masażu segmentarnego |
-| 5.3 | page | Masaż segmentarny w jednostkach chorobowych |
-| 7.1 | page | Podstawy teoretyczne masażu segmentarnego |
-| 7.2 | page | Techniki masażu segmentarnego |
-| 7.3 | page | Masaż segmentarny w jednostkach chorobowych |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 7.1 | page | Podstawy teoretyczne masażu segmentarnego | 7 |
+| 7.2 | page | Techniki masażu segmentarnego | 7 |
+| 7.3 | page | Masaż segmentarny w jednostkach chorobowych | 12 |
 
 ## Cele kształcenia
 

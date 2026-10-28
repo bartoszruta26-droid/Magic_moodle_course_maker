@@ -7,25 +7,16 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-3-1-higiena-osobista-srodowiskowa.md"
-    name: "3.1. Higiena osobista i środowiskowa"
-  - type: page
-    ref: "page-3-2-profilaktyka-pierwotna.md"
-    name: "3.2. Profilaktyka pierwotna"
-  - type: page
-    ref: "page-3-3-profilaktyka-wtorna-trzeciorzedowa.md"
-    name: "3.3. Profilaktyka wtórna i trzeciorzędowa"
-  - type: page
-    ref: "page-5-1-higiena-osobista-srodowiskowa.md"
+    ref: "page-5-1-higiena-osobista-i-srodowiskowa.md"
     name: "5.1. Higiena osobista i środowiskowa"
   - type: page
     ref: "page-5-2-profilaktyka-pierwotna.md"
     name: "5.2. Profilaktyka pierwotna"
   - type: page
-    ref: "page-5-3-profilaktyka-wtorna-trzeciorzedowa.md"
+    ref: "page-5-3-profilaktyka-wtorna-i-trzeciorzedowa.md"
     name: "5.3. Profilaktyka wtórna i trzeciorzędowa"
   - type: page
-    ref: "page-5-4-higiena-profilaktyka-praktyce-naturopaty.md"
+    ref: "page-5-4-higiena-i-profilaktyka-w-praktyce-naturopaty.md"
     name: "5.4. Higiena i profilaktyka w praktyce naturopaty"
   - type: quiz
     ref: quiz-01

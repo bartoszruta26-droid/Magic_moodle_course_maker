@@ -17,11 +17,11 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 2.1 | page | Patologia ogólna |
-| 2.2 | page | Patofizjologia układów |
-| 2.3 | page | Psychoneuroimmunologia i medycyna psychosomatyczna |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 2.1 | page | Patologia ogólna | 6 |
+| 2.2 | page | Patofizjologia układów | 10 |
+| 2.3 | page | Psychoneuroimmunologia i medycyna psychosomatyczna | 4 |
 
 ## Cele kształcenia
 

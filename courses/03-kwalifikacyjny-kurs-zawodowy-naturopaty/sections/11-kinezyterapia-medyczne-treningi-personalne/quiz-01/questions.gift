@@ -1,13 +1,85 @@
-// Quiz do modułu 11: KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE
-::tf-m11q1:: Temat „Podstawy kinezyterapii i treningu medycznego” (9.1) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q2:: Temat „Kinezyterapia w chorobach układu ruchu” (9.2) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q3:: Temat „Kinezyterapia w chorobach wewnętrznych” (9.3) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q4:: Temat „Kinezyterapia w neurologii i geriatrii” (9.4) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q5:: Temat „Trening oddechowy i relaksacyjny” (9.5) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q6:: Temat „Trening funkcjonalny i medyczny trening personalny” (9.6) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q7:: Temat „Podstawy kinezyterapii i treningu medycznego” (11.1) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q8:: Temat „Kinezyterapia w chorobach układu ruchu” (11.2) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q9:: Temat „Kinezyterapia w chorobach wewnętrznych” (11.3) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q10:: Temat „Kinezyterapia w neurologii i geriatrii” (11.4) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q11:: Temat „Trening oddechowy i relaksacyjny” (11.5) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
-::tf-m11q12:: Temat „Trening funkcjonalny i medyczny trening personalny” (11.6) należy do Modułu 11 – KINEZYTERAPIA I MEDYCZNE TRENINGI PERSONALNE. {TRUE}
+// === Temat 11.1: Podstawy kinezyterapii i treningu medycznego ===
+::tf-s11-111-q1:: Zagadnienie „Fizjologia wysiłku fizycznego – adaptacje, progi, strefy intensywności, dług tlenowy” wchodzi w zakres tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {TRUE} //
+::tf-s11-111-q2:: Zagadnienie „Biomechanika ruchu – analiza wzorców, łańcuchy kinematyczne, dźwignie” jest elementem zagadnienia „Fizjologia wysiłku fizycznego – adaptacje, progi, strefy intensywności, dług tlenowy”, a nie tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {FALSE} //
+::tf-s11-111-q3:: Zagadnienie „Zasady planowania treningu – FITT, progresja, indywidualizacja, specyficzność” wchodzi w zakres tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {TRUE} //
+::tf-s11-111-q4:: Zagadnienie „Ocena funkcjonalna – FMS, testy wydolności, testy siły (skala Lovetta), zakresy ruchu” jest elementem zagadnienia „Zasady planowania treningu – FITT, progresja, indywidualizacja, specyficzność”, a nie tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {FALSE} //
+::tf-s11-111-q5:: Zagadnienie „Wskazania i przeciwwskazania do treningu w stanach chorobowych” wchodzi w zakres tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {TRUE} //
+::tf-s11-111-q6:: Zagadnienie „Bezpieczeństwo treningu – monitorowanie (tętno, ciśnienie, saturacja), sygnały alarmowe, pierwsza pomoc” jest elementem zagadnienia „Wskazania i przeciwwskazania do treningu w stanach chorobowych”, a nie tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {FALSE} //
+::tf-s11-111-q7:: Zagadnienie „Rodzaje ćwiczeń – bierne, czynno-bierne, wspomagane, czynne wolne, czynne z oporem, izometryczne, w odciążeniu, redresyjne” wchodzi w zakres tematu „Podstawy kinezyterapii i treningu medycznego” (11.1). {TRUE} //
+::mc-s11-111:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy kinezyterapii i treningu medycznego” (11.1)? {
+    = Fizjologia wysiłku fizycznego – adaptacje, progi, strefy intensywności, dług tlenowy
+    ~ Biomechanika ruchu – analiza wzorców, łańcuchy kinematyczne, dźwignie
+    ~ Zasady planowania treningu – FITT, progresja, indywidualizacja, specyficzność
+    ~ Suplementacja w sporcie i treningu medycznym
+}
+// === Temat 11.2: Kinezyterapia w chorobach układu ruchu ===
+::tf-s11-112-q1:: Zagadnienie „Ćwiczenia w chorobie zwyrodnieniowej stawów – wzmacnianie, zakres ruchu, odciążenie” wchodzi w zakres tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {TRUE} //
+::tf-s11-112-q2:: Zagadnienie „Ćwiczenia w dyskopatiach – stabilizacja centralna, core, metoda McKenziego” jest elementem zagadnienia „Ćwiczenia w chorobie zwyrodnieniowej stawów – wzmacnianie, zakres ruchu, odciążenie”, a nie tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {FALSE} //
+::tf-s11-112-q3:: Zagadnienie „Ćwiczenia w skoliozach i wadach postawy – korekcja, asymetria, pozycje izolowane” wchodzi w zakres tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {TRUE} //
+::tf-s11-112-q4:: Zagadnienie „Ćwiczenia po urazach i operacjach ortopedycznych – protokoły rehabilitacyjne” jest elementem zagadnienia „Ćwiczenia w skoliozach i wadach postawy – korekcja, asymetria, pozycje izolowane”, a nie tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {FALSE} //
+::tf-s11-112-q5:: Zagadnienie „Ćwiczenia w osteoporozie – obciążenie osiowe, równowaga, profilaktyka upadków” wchodzi w zakres tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {TRUE} //
+::tf-s11-112-q6:: Zagadnienie „Ćwiczenia w fibromialgii – delikatne, progresywne, aerobowe” jest elementem zagadnienia „Ćwiczenia w osteoporozie – obciążenie osiowe, równowaga, profilaktyka upadków”, a nie tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {FALSE} //
+::tf-s11-112-q7:: Zagadnienie „Ćwiczenia rozciągające – stretching statyczny, dynamiczny, PNF” wchodzi w zakres tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {TRUE} //
+::tf-s11-112-q8:: Zagadnienie „Ćwiczenia w RZS – okresy choroby; ćwiczenia czynne, w odciążeniu, redresje” jest elementem zagadnienia „Ćwiczenia rozciągające – stretching statyczny, dynamiczny, PNF”, a nie tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {FALSE} //
+::tf-s11-112-q9:: Zagadnienie „Ćwiczenia w ZZSK – oddechowe (tor przeponowy), antykifotyczne; zakaz ćwiczeń statycznych i oporowych” wchodzi w zakres tematu „Kinezyterapia w chorobach układu ruchu” (11.2). {TRUE} //
+::mc-s11-112:: Które z poniższych zagadnień należy bezpośrednio do tematu „Kinezyterapia w chorobach układu ruchu” (11.2)? {
+    = Ćwiczenia w chorobie zwyrodnieniowej stawów – wzmacnianie, zakres ruchu, odciążenie
+    ~ Ćwiczenia w dyskopatiach – stabilizacja centralna, core, metoda McKenziego
+    ~ Ćwiczenia w skoliozach i wadach postawy – korekcja, asymetria, pozycje izolowane
+    ~ Jontoforeza – technika, leki, wskazania (wapniowa, jodowa, histaminowa, lignokainowa)
+}
+// === Temat 11.3: Kinezyterapia w chorobach wewnętrznych ===
+::tf-s11-113-q1:: Zagadnienie „Trening w chorobach sercowo-naczyniowych – aerobowy, monitorowanie, schematy; testy prognostyczne” wchodzi w zakres tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {TRUE} //
+::tf-s11-113-q2:: Zagadnienie „Trening w nadciśnieniu – zasady, intensywność, przeciwwskazania” jest elementem zagadnienia „Trening w chorobach sercowo-naczyniowych – aerobowy, monitorowanie, schematy; testy prognostyczne”, a nie tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {FALSE} //
+::tf-s11-113-q3:: Zagadnienie „Trening w cukrzycy – kontrola glikemii, bezpieczeństwo, typ wysiłku” wchodzi w zakres tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {TRUE} //
+::tf-s11-113-q4:: Zagadnienie „Trening w POChP i astmie – ćwiczenia oddechowe, trening oporowy, pozycje drenażowe” jest elementem zagadnienia „Trening w cukrzycy – kontrola glikemii, bezpieczeństwo, typ wysiłku”, a nie tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {FALSE} //
+::tf-s11-113-q5:: Zagadnienie „Trening w otyłości – progresja, motywacja, interdyscyplinarność” wchodzi w zakres tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {TRUE} //
+::tf-s11-113-q6:: Zagadnienie „Trening w depresji i zaburzeniach lękowych – rola ruchu w zdrowiu psychicznym” jest elementem zagadnienia „Trening w otyłości – progresja, motywacja, interdyscyplinarność”, a nie tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {FALSE} //
+::tf-s11-113-q7:: Zagadnienie „Drenaż ułożeniowy w chorobach płuc – pozycje dla poszczególnych segmentów (płaty górne, środkowy/języczek, dolne)” wchodzi w zakres tematu „Kinezyterapia w chorobach wewnętrznych” (11.3). {TRUE} //
+::mc-s11-113:: Które z poniższych zagadnień należy bezpośrednio do tematu „Kinezyterapia w chorobach wewnętrznych” (11.3)? {
+    = Trening w chorobach sercowo-naczyniowych – aerobowy, monitorowanie, schematy; testy prognostyczne
+    ~ Trening w nadciśnieniu – zasady, intensywność, przeciwwskazania
+    ~ Trening w cukrzycy – kontrola glikemii, bezpieczeństwo, typ wysiłku
+    ~ Prawo do informacji, świadomej zgody i odmowy leczenia
+}
+// === Temat 11.4: Kinezyterapia w neurologii i geriatrii ===
+::tf-s11-114-q1:: Zagadnienie „Trening po udarze – neurorehabilitacja ruchowa; metody Bobath, Kabata, Brunnstrom, Rood, Vojta” wchodzi w zakres tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {TRUE} //
+::tf-s11-114-q2:: Zagadnienie „Ćwiczenia w chorobie Parkinsona – rytmiczne, równoważne, antykifotyczne” jest elementem zagadnienia „Trening po udarze – neurorehabilitacja ruchowa; metody Bobath, Kabata, Brunnstrom, Rood, Vojta”, a nie tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {FALSE} //
+::tf-s11-114-q3:: Zagadnienie „Ćwiczenia Frenkela – w ataksji i niezborności” wchodzi w zakres tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {TRUE} //
+::tf-s11-114-q4:: Zagadnienie „Trening osób starszych – siła, równowaga, koordynacja, funkcjonalność; profilaktyka upadków” jest elementem zagadnienia „Ćwiczenia Frenkela – w ataksji i niezborności”, a nie tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {FALSE} //
+::tf-s11-114-q5:: Zagadnienie „Ćwiczenia korekcyjne u dzieci – wady postawy, płaskostopie, dysplazja bioder” wchodzi w zakres tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {TRUE} //
+::tf-s11-114-q6:: Zagadnienie „Ćwiczenia Buergera i Ratschowa – w chorobach naczyń obwodowych” jest elementem zagadnienia „Ćwiczenia korekcyjne u dzieci – wady postawy, płaskostopie, dysplazja bioder”, a nie tematu „Kinezyterapia w neurologii i geriatrii” (11.4). {FALSE} //
+::mc-s11-114:: Które z poniższych zagadnień należy bezpośrednio do tematu „Kinezyterapia w neurologii i geriatrii” (11.4)? {
+    = Trening po udarze – neurorehabilitacja ruchowa; metody Bobath, Kabata, Brunnstrom, Rood, Vojta
+    ~ Ćwiczenia w chorobie Parkinsona – rytmiczne, równoważne, antykifotyczne
+    ~ Ćwiczenia Frenkela – w ataksji i niezborności
+    ~ Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna
+}
+// === Temat 11.5: Trening oddechowy i relaksacyjny ===
+::tf-s11-115-q1:: Zagadnienie „Fizjologia oddychania – mechanika, regulacja, wzorce; tory oddechowe” wchodzi w zakres tematu „Trening oddechowy i relaksacyjny” (11.5). {TRUE} //
+::tf-s11-115-q2:: Zagadnienie „Ćwiczenia oddechowe – przeponowe, żebrowe, pełne, segmentarne, z oporem” jest elementem zagadnienia „Fizjologia oddychania – mechanika, regulacja, wzorce; tory oddechowe”, a nie tematu „Trening oddechowy i relaksacyjny” (11.5). {FALSE} //
+::tf-s11-115-q3:: Zagadnienie „Techniki oddechowe – Butejko, oddech pudełkowy, oddech celowany” wchodzi w zakres tematu „Trening oddechowy i relaksacyjny” (11.5). {TRUE} //
+::tf-s11-115-q4:: Zagadnienie „Ćwiczenia relaksacyjne – progresywna relaksacja Jacobsona, trening autogenny Schultza” jest elementem zagadnienia „Techniki oddechowe – Butejko, oddech pudełkowy, oddech celowany”, a nie tematu „Trening oddechowy i relaksacyjny” (11.5). {FALSE} //
+::tf-s11-115-q5:: Zagadnienie „Medytacja i uważność (mindfulness) w kontekście zdrowotnym” wchodzi w zakres tematu „Trening oddechowy i relaksacyjny” (11.5). {TRUE} //
+::tf-s11-115-q6:: Zagadnienie „Joga terapeutyczna – asany lecznicze, pranayama” jest elementem zagadnienia „Medytacja i uważność (mindfulness) w kontekście zdrowotnym”, a nie tematu „Trening oddechowy i relaksacyjny” (11.5). {FALSE} //
+::tf-s11-115-q7:: Zagadnienie „Tai Chi i Qi Gong – ruch jako medycyna; równowaga i koordynacja” wchodzi w zakres tematu „Trening oddechowy i relaksacyjny” (11.5). {TRUE} //
+::mc-s11-115:: Które z poniższych zagadnień należy bezpośrednio do tematu „Trening oddechowy i relaksacyjny” (11.5)? {
+    = Fizjologia oddychania – mechanika, regulacja, wzorce; tory oddechowe
+    ~ Ćwiczenia oddechowe – przeponowe, żebrowe, pełne, segmentarne, z oporem
+    ~ Techniki oddechowe – Butejko, oddech pudełkowy, oddech celowany
+    ~ Rozpoznawanie objawów wypalenia i zmęczenia współczuciem
+}
+// === Temat 11.6: Trening funkcjonalny i medyczny trening personalny ===
+::tf-s11-116-q1:: Zagadnienie „Trening funkcjonalny – wzorce ruchowe, transfer do codziennego życia” wchodzi w zakres tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {TRUE} //
+::tf-s11-116-q2:: Zagadnienie „Trening siłowy w rehabilitacji – progresja, obciążenie, technika; zakaz w ZZSK” jest elementem zagadnienia „Trening funkcjonalny – wzorce ruchowe, transfer do codziennego życia”, a nie tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {FALSE} //
+::tf-s11-116-q3:: Zagadnienie „Trening wytrzymałościowy – marsz, rower, pływanie, nordic walking” wchodzi w zakres tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {TRUE} //
+::tf-s11-116-q4:: Zagadnienie „Trening proprioceptywny i stabilizacyjny” jest elementem zagadnienia „Trening wytrzymałościowy – marsz, rower, pływanie, nordic walking”, a nie tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {FALSE} //
+::tf-s11-116-q5:: Zagadnienie „Powrót do aktywności po chorobie i urazie – kryteria i progresja” wchodzi w zakres tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {TRUE} //
+::tf-s11-116-q6:: Zagadnienie „Rola naturopaty jako trenera medycznego – kompetencje, granice, odpowiedzialność” jest elementem zagadnienia „Powrót do aktywności po chorobie i urazie – kryteria i progresja”, a nie tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {FALSE} //
+::tf-s11-116-q7:: Zagadnienie „Planowanie i dokumentacja treningu – karta treningowa, cele krótko- i długoterminowe” wchodzi w zakres tematu „Trening funkcjonalny i medyczny trening personalny” (11.6). {TRUE} //
+::mc-s11-116:: Które z poniższych zagadnień należy bezpośrednio do tematu „Trening funkcjonalny i medyczny trening personalny” (11.6)? {
+    = Trening funkcjonalny – wzorce ruchowe, transfer do codziennego życia
+    ~ Trening siłowy w rehabilitacji – progresja, obciążenie, technika; zakaz w ZZSK
+    ~ Trening wytrzymałościowy – marsz, rower, pływanie, nordic walking
+    ~ Mentoring młodych naturopatów – przekazywanie wiedzy i doświadczenia
+}

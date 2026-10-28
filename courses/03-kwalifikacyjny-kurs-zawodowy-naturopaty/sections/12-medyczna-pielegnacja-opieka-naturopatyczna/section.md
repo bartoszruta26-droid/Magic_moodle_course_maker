@@ -17,15 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 10.1 | page | Podstawy pielęgnacji medycznej |
-| 10.2 | page | Zabiegi pielęgnacyjne i lecznicze |
-| 10.3 | page | Opieka naturopatyczna w wybranych stanach |
-| 12.1 | page | Podstawy pielęgnacji medycznej |
-| 12.2 | page | Zabiegi pielęgnacyjne i lecznicze |
-| 12.3 | page | Opieka naturopatyczna w wybranych stanach |
-| 12.4 | page | Pierwsza pomoc i stany nagłe |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 12.1 | page | Podstawy pielęgnacji medycznej | 8 |
+| 12.2 | page | Zabiegi pielęgnacyjne i lecznicze | 7 |
+| 12.3 | page | Opieka naturopatyczna w wybranych stanach | 6 |
+| 12.4 | page | Pierwsza pomoc i stany nagłe | 7 |
 
 ## Cele kształcenia
 

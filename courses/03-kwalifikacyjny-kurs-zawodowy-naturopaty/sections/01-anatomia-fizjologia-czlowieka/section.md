@@ -17,11 +17,11 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 1.1 | page | Anatomia ogólna i topograficzna |
-| 1.2 | page | Fizjologia człowieka |
-| 1.3 | page | Anatomia i fizjologia w kontekście praktycznym naturopaty |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 1.1 | page | Anatomia ogólna i topograficzna | 15 |
+| 1.2 | page | Fizjologia człowieka | 12 |
+| 1.3 | page | Anatomia i fizjologia w kontekście praktycznym naturopaty | 6 |
 
 ## Cele kształcenia
 

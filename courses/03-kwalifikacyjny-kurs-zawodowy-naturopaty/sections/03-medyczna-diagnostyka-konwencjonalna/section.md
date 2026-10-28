@@ -17,18 +17,13 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 1.1 | page | Badanie podmiotowe (wywiad) |
-| 1.2 | page | Badanie przedmiotowe |
-| 1.3 | page | Diagnostyka laboratoryjna – interpretacja wyników |
-| 1.4 | page | Diagnostyka obrazowa – interpretacja opisów |
-| 1.5 | page | Diagnostyka funkcjonalna i różnicowa |
-| 3.1 | page | Badanie podmiotowe (wywiad) |
-| 3.2 | page | Badanie przedmiotowe |
-| 3.3 | page | Diagnostyka laboratoryjna – interpretacja wyników |
-| 3.4 | page | Diagnostyka obrazowa – interpretacja opisów |
-| 3.5 | page | Diagnostyka funkcjonalna i różnicowa |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 3.1 | page | Badanie podmiotowe (wywiad) | 6 |
+| 3.2 | page | Badanie przedmiotowe | 8 |
+| 3.3 | page | Diagnostyka laboratoryjna – interpretacja wyników | 9 |
+| 3.4 | page | Diagnostyka obrazowa – interpretacja opisów | 4 |
+| 3.5 | page | Diagnostyka funkcjonalna i różnicowa | 6 |
 
 ## Cele kształcenia
 

@@ -1,8 +1,56 @@
-// Quiz do modułu 12: MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA
-::tf-m12q1:: Temat „Podstawy pielęgnacji medycznej” (10.1) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
-::tf-m12q2:: Temat „Zabiegi pielęgnacyjne i lecznicze” (10.2) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
-::tf-m12q3:: Temat „Opieka naturopatyczna w wybranych stanach” (10.3) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
-::tf-m12q4:: Temat „Podstawy pielęgnacji medycznej” (12.1) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
-::tf-m12q5:: Temat „Zabiegi pielęgnacyjne i lecznicze” (12.2) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
-::tf-m12q6:: Temat „Opieka naturopatyczna w wybranych stanach” (12.3) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
-::tf-m12q7:: Temat „Pierwsza pomoc i stany nagłe” (12.4) należy do Modułu 12 – MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA. {TRUE}
+// === Temat 12.1: Podstawy pielęgnacji medycznej ===
+::tf-s12-121-q1:: Zagadnienie „Rola naturopaty jako opiekuna – etyka, empatia, profesjonalizm, szacunek dla godności” wchodzi w zakres tematu „Podstawy pielęgnacji medycznej” (12.1). {TRUE} //
+::tf-s12-121-q2:: Zagadnienie „Higiena i pielęgnacja skóry – oczyszczanie, nawilżanie, ochrona; skóra sucha, „papierowa”, podatna na pęknięcia” jest elementem zagadnienia „Rola naturopaty jako opiekuna – etyka, empatia, profesjonalizm, szacunek dla godności”, a nie tematu „Podstawy pielęgnacji medycznej” (12.1). {FALSE} //
+::tf-s12-121-q3:: Zagadnienie „Pielęgnacja ran – zasady aseptyki, opatrunki, wspomaganie gojenia (gojenie doraźne, przez ziarninowanie, pod strupem)” wchodzi w zakres tematu „Podstawy pielęgnacji medycznej” (12.1). {TRUE} //
+::tf-s12-121-q4:: Zagadnienie „Pielęgnacja odleżyn – profilaktyka (zmiana pozycji co 2–3 godz., higiena skóry, podkładki) i leczenie wspomagające” jest elementem zagadnienia „Pielęgnacja ran – zasady aseptyki, opatrunki, wspomaganie gojenia (gojenie doraźne, przez ziarninowanie, pod strupem)”, a nie tematu „Podstawy pielęgnacji medycznej” (12.1). {FALSE} //
+::tf-s12-121-q5:: Zagadnienie „Pielęgnacja skóry w chorobach dermatologicznych – egzema, łuszczyca, trądzik” wchodzi w zakres tematu „Podstawy pielęgnacji medycznej” (12.1). {TRUE} //
+::tf-s12-121-q6:: Zagadnienie „Pielęgnacja stóp – profilaktyka, opieka diabetologiczna, wrastające paznokcie” jest elementem zagadnienia „Pielęgnacja skóry w chorobach dermatologicznych – egzema, łuszczyca, trądzik”, a nie tematu „Podstawy pielęgnacji medycznej” (12.1). {FALSE} //
+::tf-s12-121-q7:: Zagadnienie „Pielęgnacja osób starszych i leżących – kompleksowe podejście” wchodzi w zakres tematu „Podstawy pielęgnacji medycznej” (12.1). {TRUE} //
+::tf-s12-121-q8:: Zagadnienie „Pielęgnacja pooperacyjna – wsparcie regeneracji, mobilizacja blizny” jest elementem zagadnienia „Pielęgnacja osób starszych i leżących – kompleksowe podejście”, a nie tematu „Podstawy pielęgnacji medycznej” (12.1). {FALSE} //
+::mc-s12-121:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy pielęgnacji medycznej” (12.1)? {
+    = Rola naturopaty jako opiekuna – etyka, empatia, profesjonalizm, szacunek dla godności
+    ~ Higiena i pielęgnacja skóry – oczyszczanie, nawilżanie, ochrona; skóra sucha, „papierowa”, podatna na pęknięcia
+    ~ Pielęgnacja ran – zasady aseptyki, opatrunki, wspomaganie gojenia (gojenie doraźne, przez ziarninowanie, pod strupem)
+    ~ Palpacja – techniki badania dotykiem, ocena temperatury, napięcia, bolesności tkanek
+}
+// === Temat 12.2: Zabiegi pielęgnacyjne i lecznicze ===
+::tf-s12-122-q1:: Zagadnienie „Okłady i kompresy – gorące, zimne, ziołowe, octowe, z lodu” wchodzi w zakres tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {TRUE} //
+::tf-s12-122-q2:: Zagadnienie „Kąpiele lecznicze – solankowe, ziołowe, siarkowe, borowinowe, kwasowęglowe, aromatyczne; temperatura i czas” jest elementem zagadnienia „Okłady i kompresy – gorące, zimne, ziołowe, octowe, z lodu”, a nie tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {FALSE} //
+::tf-s12-122-q3:: Zagadnienie „Zawijania i owijania – techniki Kneippa, zawijania borowinowe, parafinoterapia” wchodzi w zakres tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {TRUE} //
+::tf-s12-122-q4:: Zagadnienie „Aromaterapia w pielęgnacji – olejki eteryczne, drogi podania, bezpieczeństwo, przeciwwskazania” jest elementem zagadnienia „Zawijania i owijania – techniki Kneippa, zawijania borowinowe, parafinoterapia”, a nie tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {FALSE} //
+::tf-s12-122-q5:: Zagadnienie „Fitoterapia zewnętrzna – maści, kremy, nalewki, olejki ziołowe; przygotowanie” wchodzi w zakres tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {TRUE} //
+::tf-s12-122-q6:: Zagadnienie „Pielęgnacja w chorobach przewlekłych – cukrzyca, łuszczyca, niewydolność krążenia” jest elementem zagadnienia „Fitoterapia zewnętrzna – maści, kremy, nalewki, olejki ziołowe; przygotowanie”, a nie tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {FALSE} //
+::tf-s12-122-q7:: Zagadnienie „Instruktaż samopielęgnacji – edukacja pacjenta i rodziny” wchodzi w zakres tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2). {TRUE} //
+::mc-s12-122:: Które z poniższych zagadnień należy bezpośrednio do tematu „Zabiegi pielęgnacyjne i lecznicze” (12.2)? {
+    = Okłady i kompresy – gorące, zimne, ziołowe, octowe, z lodu
+    ~ Kąpiele lecznicze – solankowe, ziołowe, siarkowe, borowinowe, kwasowęglowe, aromatyczne; temperatura i czas
+    ~ Zawijania i owijania – techniki Kneippa, zawijania borowinowe, parafinoterapia
+    ~ TK i MRI – wskazania, interpretacja opisów, różnicowanie patologii tkanek miękkich
+}
+// === Temat 12.3: Opieka naturopatyczna w wybranych stanach ===
+::tf-s12-123-q1:: Zagadnienie „Opieka w gorączce i stanach zapalnych – metody naturalne (okłady, hydroterapia)” wchodzi w zakres tematu „Opieka naturopatyczna w wybranych stanach” (12.3). {TRUE} //
+::tf-s12-123-q2:: Zagadnienie „Opieka w bólu – niefarmakologiczne metody łagodzenia (pozycje, ciepło, zimno, masaż punktowy)” jest elementem zagadnienia „Opieka w gorączce i stanach zapalnych – metody naturalne (okłady, hydroterapia)”, a nie tematu „Opieka naturopatyczna w wybranych stanach” (12.3). {FALSE} //
+::tf-s12-123-q3:: Zagadnienie „Opieka w bezsenności – higiena snu, techniki relaksacyjne, fitoterapia” wchodzi w zakres tematu „Opieka naturopatyczna w wybranych stanach” (12.3). {TRUE} //
+::tf-s12-123-q4:: Zagadnienie „Opieka w stanach lękowych i obniżonym nastroju – obecność, ruch, kontakt z naturą” jest elementem zagadnienia „Opieka w bezsenności – higiena snu, techniki relaksacyjne, fitoterapia”, a nie tematu „Opieka naturopatyczna w wybranych stanach” (12.3). {FALSE} //
+::tf-s12-123-q5:: Zagadnienie „Opieka w okresie rekonwalescencji – stopniowanie aktywności, żywienie” wchodzi w zakres tematu „Opieka naturopatyczna w wybranych stanach” (12.3). {TRUE} //
+::tf-s12-123-q6:: Zagadnienie „Opieka w okresie terminalnym – godność, komfort, obecność, wsparcie duchowe rodziny” jest elementem zagadnienia „Opieka w okresie rekonwalescencji – stopniowanie aktywności, żywienie”, a nie tematu „Opieka naturopatyczna w wybranych stanach” (12.3). {FALSE} //
+::mc-s12-123:: Które z poniższych zagadnień należy bezpośrednio do tematu „Opieka naturopatyczna w wybranych stanach” (12.3)? {
+    = Opieka w gorączce i stanach zapalnych – metody naturalne (okłady, hydroterapia)
+    ~ Opieka w bólu – niefarmakologiczne metody łagodzenia (pozycje, ciepło, zimno, masaż punktowy)
+    ~ Opieka w bezsenności – higiena snu, techniki relaksacyjne, fitoterapia
+    ~ Ocena Agni (ognia trawiennego) i Ama (toksyn metabolicznych)
+}
+// === Temat 12.4: Pierwsza pomoc i stany nagłe ===
+::tf-s12-124-q1:: Zagadnienie „Ocena stanu zagrożenia życia – algorytm ABCDE” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe” (12.4). {TRUE} //
+::tf-s12-124-q2:: Zagadnienie „Resuscytacja krążeniowo-oddechowa (BLS/AED)” jest elementem zagadnienia „Ocena stanu zagrożenia życia – algorytm ABCDE”, a nie tematu „Pierwsza pomoc i stany nagłe” (12.4). {FALSE} //
+::tf-s12-124-q3:: Zagadnienie „Postępowanie w omdleniu, krwotoku, oparzeniu, złamaniu, zwichnięciu” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe” (12.4). {TRUE} //
+::tf-s12-124-q4:: Zagadnienie „Postępowanie w reakcjach alergicznych i anafilaksji” jest elementem zagadnienia „Postępowanie w omdleniu, krwotoku, oparzeniu, złamaniu, zwichnięciu”, a nie tematu „Pierwsza pomoc i stany nagłe” (12.4). {FALSE} //
+::tf-s12-124-q5:: Zagadnienie „Postępowanie w udarze cieplnym i hipotermii” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe” (12.4). {TRUE} //
+::tf-s12-124-q6:: Zagadnienie „Apteczka naturopaty – wyposażenie i zasady stosowania” jest elementem zagadnienia „Postępowanie w udarze cieplnym i hipotermii”, a nie tematu „Pierwsza pomoc i stany nagłe” (12.4). {FALSE} //
+::tf-s12-124-q7:: Zagadnienie „Kryteria wezwania pomocy medycznej – jasne procedury” wchodzi w zakres tematu „Pierwsza pomoc i stany nagłe” (12.4). {TRUE} //
+::mc-s12-124:: Które z poniższych zagadnień należy bezpośrednio do tematu „Pierwsza pomoc i stany nagłe” (12.4)? {
+    = Ocena stanu zagrożenia życia – algorytm ABCDE
+    ~ Resuscytacja krążeniowo-oddechowa (BLS/AED)
+    ~ Postępowanie w omdleniu, krwotoku, oparzeniu, złamaniu, zwichnięciu
+    ~ Higiena psychiczna i emocjonalna – zarządzanie stresem, odpoczynek, kontemplacja
+}

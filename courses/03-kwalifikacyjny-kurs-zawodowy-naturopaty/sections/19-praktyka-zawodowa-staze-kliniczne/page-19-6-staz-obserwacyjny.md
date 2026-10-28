@@ -10,24 +10,37 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **19 – PRAKTYKA ZAWODOWA I STAŻE KLINICZNE** (Semestr IV).
+Strona tematyczna (SEMESTR IV – MEDYCYNA INTEGRACYJNA, MENTORSTWO I COACHING MEDYCZNY, PRAKTYKA ZAWODOWA).
 Temat zgodnie z połączonym spisem treści kursu: *Staż obserwacyjny*
+(Punkty 19.6.1–19.6.5 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 19.6
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Staż w gabinecie fizjoterapii / rehabilitacji – obserwacja i asystowanie**
+- **2. Staż w gabinecie masażu leczniczego – obserwacja technik, praca z pacjentem**
+- **3. Staż w poradni medycyny naturalnej / integracyjnej – konsultacje, planowanie terapii**
+- **4. Staż w hospicjum lub zakładzie opiekuńczo-leczniczym (opcjonalnie) – opieka paliatywna**
+- **5. Staż w ośrodku rehabilitacji kardiologicznej lub pulmonologicznej (opcjonalnie)**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 19.6 („Staż obserwacyjny”) obejmuje 5 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

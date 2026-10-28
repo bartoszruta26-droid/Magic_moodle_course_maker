@@ -10,24 +10,42 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **10 – TERAPIA MANUALNA I MOBILIZACJE** (Semestr II).
+Strona tematyczna (SEMESTR II – MASAŻ MEDYCZNY, DRENAŻ LIMFATYCZNY I TERAPIE MANUALNE).
 Temat zgodnie z połączonym spisem treści kursu: *Podstawy terapii manualnej*
+(Punkty 10.1.1–10.1.10 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 10.1
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Biomechanika stawów – fizjologia ruchu, bariery fizjologiczne, end-feel**
+- **2. Dysfunkcje stawowe – hipomobilność, hipermobilność, blokada, niestabilność**
+- **3. Diagnostyka manualna – testy ruchomości, palpacja, testy prowokacyjne**
+- **4. Techniki mobilizacji – ślizg, trakcja, rotacja, kompresja; stopnie Maitlanda**
+- **5. Techniki manipulacji – zasady, wskazania, bezpieczeństwo, przeciwwskazania (osteoporoza, dyskopatia, niestabilność, zrosty)**
+- **6. Mobilizacja kręgosłupa – odcinek szyjny, piersiowy, lędźwiowy**
+- **7. Mobilizacja stawów obwodowych – bark, łokieć, nadgarstek, biodro, kolano, stopa**
+- **8. Techniki energizacji mięśni (MET) i poizometryczna relaksacja (PIR)**
+- **9. Techniki mięśniowo-powięziowe (MFR) – rozluźnianie bezpośrednie i pośrednie**
+- **10. Terapia punktów spustowych – kompresja ischemiczna, stretching**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 10.1 („Podstawy terapii manualnej”) obejmuje 10 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

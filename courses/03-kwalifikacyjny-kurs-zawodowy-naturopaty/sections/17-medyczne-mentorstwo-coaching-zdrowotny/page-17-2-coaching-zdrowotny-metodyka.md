@@ -10,24 +10,40 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY** (Semestr IV).
+Strona tematyczna (SEMESTR IV – MEDYCYNA INTEGRACYJNA, MENTORSTWO I COACHING MEDYCZNY, PRAKTYKA ZAWODOWA).
 Temat zgodnie z połączonym spisem treści kursu: *Coaching zdrowotny – metodyka*
+(Punkty 17.2.1–17.2.8 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 17.2
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Definicja i założenia coachingu zdrowotnego – podejście skoncentrowane na rozwiązaniach**
+- **2. Modele coachingowe – GROW, CLEAR, koło zdrowia**
+- **3. Kompetencje coacha zdrowotnego – aktywne słuchanie, pytania otwarte, parafraza, informacja zwrotna**
+- **4. Wyznaczanie celów zdrowotnych – metoda SMART, cele procesowe i wynikowe**
+- **5. Motywacja i zmiana zachowań zdrowotnych – model transteoretyczny Prochaski i DiClemente, wywiad motywujący**
+- **6. Bariery i opór w zmianie – rozpoznawanie, praca, przeformułowanie**
+- **7. Budowanie nawyków zdrowotnych – neurobiologia nawyków, strategia małych kroków**
+- **8. Monitorowanie postępów – dziennik zdrowia, skala, celebracja sukcesów**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 17.2 („Coaching zdrowotny – metodyka”) obejmuje 8 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

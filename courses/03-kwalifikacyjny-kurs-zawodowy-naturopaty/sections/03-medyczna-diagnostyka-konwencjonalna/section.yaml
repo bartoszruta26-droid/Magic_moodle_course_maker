@@ -7,21 +7,6 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-1-1-badanie-podmiotowe-wywiad.md"
-    name: "1.1. Badanie podmiotowe (wywiad)"
-  - type: page
-    ref: "page-1-2-badanie-przedmiotowe.md"
-    name: "1.2. Badanie przedmiotowe"
-  - type: page
-    ref: "page-1-3-diagnostyka-laboratoryjna-interpretacja-wynikow.md"
-    name: "1.3. Diagnostyka laboratoryjna – interpretacja wyników"
-  - type: page
-    ref: "page-1-4-diagnostyka-obrazowa-interpretacja-opisow.md"
-    name: "1.4. Diagnostyka obrazowa – interpretacja opisów"
-  - type: page
-    ref: "page-1-5-diagnostyka-funkcjonalna-roznicowa.md"
-    name: "1.5. Diagnostyka funkcjonalna i różnicowa"
-  - type: page
     ref: "page-3-1-badanie-podmiotowe-wywiad.md"
     name: "3.1. Badanie podmiotowe (wywiad)"
   - type: page
@@ -34,7 +19,7 @@ modules:
     ref: "page-3-4-diagnostyka-obrazowa-interpretacja-opisow.md"
     name: "3.4. Diagnostyka obrazowa – interpretacja opisów"
   - type: page
-    ref: "page-3-5-diagnostyka-funkcjonalna-roznicowa.md"
+    ref: "page-3-5-diagnostyka-funkcjonalna-i-roznicowa.md"
     name: "3.5. Diagnostyka funkcjonalna i różnicowa"
   - type: quiz
     ref: quiz-01

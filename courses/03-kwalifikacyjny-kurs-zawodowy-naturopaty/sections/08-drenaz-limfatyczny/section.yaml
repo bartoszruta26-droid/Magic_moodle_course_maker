@@ -7,25 +7,7 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-6-1-podstawy-anatomiczne-fizjologiczne-ukladu-limfatyc.md"
-    name: "6.1. Podstawy anatomiczne i fizjologiczne układu limfatycznego"
-  - type: page
-    ref: "page-6-2-zasady-stosowania-drenazu-limfatycznego.md"
-    name: "6.2. Zasady stosowania drenażu limfatycznego"
-  - type: page
-    ref: "page-6-3-techniki-drenazu-limfatycznego-metoda-polska.md"
-    name: "6.3. Techniki drenażu limfatycznego – metoda polska"
-  - type: page
-    ref: "page-6-4-techniki-drenazu-limfatycznego-metoda-niemiecka.md"
-    name: "6.4. Techniki drenażu limfatycznego – metoda niemiecka"
-  - type: page
-    ref: "page-6-5-praktyczne-wykonanie-drenazu-limfatycznego.md"
-    name: "6.5. Praktyczne wykonanie drenażu limfatycznego"
-  - type: page
-    ref: "page-6-6-drenaz-limfatyczny-jednostkach-chorobowych.md"
-    name: "6.6. Drenaż limfatyczny w jednostkach chorobowych"
-  - type: page
-    ref: "page-8-1-podstawy-anatomiczne-fizjologiczne-ukladu-limfatyc.md"
+    ref: "page-8-1-podstawy-anatomiczne-i-fizjologiczne-uk-adu-limfatycznego.md"
     name: "8.1. Podstawy anatomiczne i fizjologiczne układu limfatycznego"
   - type: page
     ref: "page-8-2-zasady-stosowania-drenazu-limfatycznego.md"
@@ -40,7 +22,7 @@ modules:
     ref: "page-8-5-praktyczne-wykonanie-drenazu-limfatycznego.md"
     name: "8.5. Praktyczne wykonanie drenażu limfatycznego"
   - type: page
-    ref: "page-8-6-drenaz-limfatyczny-jednostkach-chorobowych.md"
+    ref: "page-8-6-drenaz-limfatyczny-w-jednostkach-chorobowych.md"
     name: "8.6. Drenaż limfatyczny w jednostkach chorobowych"
   - type: quiz
     ref: quiz-01

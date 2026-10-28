@@ -17,16 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 15.1 | page | Przegląd systemów medycyny tradycyjnej |
-| 15.2 | page | Terapie komplementarne – przegląd i zastosowanie |
-| 15.3 | page | Medycyna integracyjna – łączenie podejść |
-| 15.4 | page | Wymiar duchowy i egzystencjalny w zdrowieniu |
-| 16.1 | page | Przegląd systemów medycyny tradycyjnej |
-| 16.2 | page | Terapie komplementarne – przegląd i zastosowanie |
-| 16.3 | page | Medycyna integracyjna – łączenie podejść |
-| 16.4 | page | Wymiar duchowy i egzystencjalny w zdrowieniu |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 16.1 | page | Przegląd systemów medycyny tradycyjnej | 7 |
+| 16.2 | page | Terapie komplementarne – przegląd i zastosowanie | 11 |
+| 16.3 | page | Medycyna integracyjna – łączenie podejść | 8 |
+| 16.4 | page | Wymiar duchowy i egzystencjalny w zdrowieniu | 6 |
 
 ## Cele kształcenia
 

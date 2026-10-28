@@ -7,22 +7,13 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-13-1-hydroterapia-balneologia.md"
-    name: "13.1. Hydroterapia i balneologia"
-  - type: page
-    ref: "page-13-2-termoterapia-fototerapia.md"
-    name: "13.2. Termoterapia i fototerapia"
-  - type: page
-    ref: "page-13-3-elektroterapia-inne-formy-fizykoterapii.md"
-    name: "13.3. Elektroterapia i inne formy fizykoterapii"
-  - type: page
-    ref: "page-15-1-hydroterapia-balneologia.md"
+    ref: "page-15-1-hydroterapia-i-balneologia.md"
     name: "15.1. Hydroterapia i balneologia"
   - type: page
-    ref: "page-15-2-termoterapia-fototerapia.md"
+    ref: "page-15-2-termoterapia-i-fototerapia.md"
     name: "15.2. Termoterapia i fototerapia"
   - type: page
-    ref: "page-15-3-elektroterapia-inne-formy-fizykoterapii.md"
+    ref: "page-15-3-elektroterapia-i-inne-formy-fizykoterapii.md"
     name: "15.3. Elektroterapia i inne formy fizykoterapii"
   - type: quiz
     ref: quiz-01

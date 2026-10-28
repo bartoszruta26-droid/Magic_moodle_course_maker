@@ -17,14 +17,11 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 13.1 | page | Hydroterapia i balneologia |
-| 13.2 | page | Termoterapia i fototerapia |
-| 13.3 | page | Elektroterapia i inne formy fizykoterapii |
-| 15.1 | page | Hydroterapia i balneologia |
-| 15.2 | page | Termoterapia i fototerapia |
-| 15.3 | page | Elektroterapia i inne formy fizykoterapii |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 15.1 | page | Hydroterapia i balneologia | 8 |
+| 15.2 | page | Termoterapia i fototerapia | 4 |
+| 15.3 | page | Elektroterapia i inne formy fizykoterapii | 10 |
 
 ## Cele kształcenia
 

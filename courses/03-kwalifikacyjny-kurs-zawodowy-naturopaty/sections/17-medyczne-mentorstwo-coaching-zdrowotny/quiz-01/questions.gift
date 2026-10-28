@@ -1,13 +1,85 @@
-// Quiz do modułu 17: MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY
-::tf-m17q1:: Temat „Podstawy mentorstwa medycznego” (16.1) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q2:: Temat „Coaching zdrowotny – metodyka” (16.2) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q3:: Temat „Mentorstwo i coaching w praktyce naturopatycznej” (16.3) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q4:: Temat „Psychologia zdrowia i komunikacja terapeutyczna” (16.4) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q5:: Temat „Wypalenie zawodowe i higiena psychiczna naturopaty” (16.5) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q6:: Temat „Mentoring zawodowy naturopatów” (16.6) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q7:: Temat „Podstawy mentorstwa medycznego” (17.1) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q8:: Temat „Coaching zdrowotny – metodyka” (17.2) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q9:: Temat „Mentorstwo i coaching w praktyce naturopatycznej” (17.3) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q10:: Temat „Psychologia zdrowia i komunikacja terapeutyczna” (17.4) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q11:: Temat „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
-::tf-m17q12:: Temat „Mentoring zawodowy naturopatów” (17.6) należy do Modułu 17 – MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY. {TRUE}
+// === Temat 17.1: Podstawy mentorstwa medycznego ===
+::tf-s17-171-q1:: Zagadnienie „Definicja i rola mentora w kontekście zdrowia – prowadzenie, towarzyszenie, świadectwo” wchodzi w zakres tematu „Podstawy mentorstwa medycznego” (17.1). {TRUE} //
+::tf-s17-171-q2:: Zagadnienie „Różnica między mentoringiem, coachingiem, terapią i poradnictwem” jest elementem zagadnienia „Definicja i rola mentora w kontekście zdrowia – prowadzenie, towarzyszenie, świadectwo”, a nie tematu „Podstawy mentorstwa medycznego” (17.1). {FALSE} //
+::tf-s17-171-q3:: Zagadnienie „Kompetencje mentora zdrowotnego – wiedza, doświadczenie, empatia, cierpliwość, pokora” wchodzi w zakres tematu „Podstawy mentorstwa medycznego” (17.1). {TRUE} //
+::tf-s17-171-q4:: Zagadnienie „Relacja mentor–podopieczny – zaufanie, granice, poufność, szacunek dla autonomii” jest elementem zagadnienia „Kompetencje mentora zdrowotnego – wiedza, doświadczenie, empatia, cierpliwość, pokora”, a nie tematu „Podstawy mentorstwa medycznego” (17.1). {FALSE} //
+::tf-s17-171-q5:: Zagadnienie „Etyka mentorstwa – prawda, sprawiedliwość, brak manipulacji, dobro podopiecznego” wchodzi w zakres tematu „Podstawy mentorstwa medycznego” (17.1). {TRUE} //
+::tf-s17-171-q6:: Zagadnienie „Mentorstwo w tradycji medycznej i duchowej – mistrz-uczeń, ojcostwo duchowe” jest elementem zagadnienia „Etyka mentorstwa – prawda, sprawiedliwość, brak manipulacji, dobro podopiecznego”, a nie tematu „Podstawy mentorstwa medycznego” (17.1). {FALSE} //
+::mc-s17-171:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy mentorstwa medycznego” (17.1)? {
+    = Definicja i rola mentora w kontekście zdrowia – prowadzenie, towarzyszenie, świadectwo
+    ~ Różnica między mentoringiem, coachingiem, terapią i poradnictwem
+    ~ Kompetencje mentora zdrowotnego – wiedza, doświadczenie, empatia, cierpliwość, pokora
+    ~ Badanie pulsu ajurwedyjskiego (Nadi Pariksha) – technika i interpretacja
+}
+// === Temat 17.2: Coaching zdrowotny – metodyka ===
+::tf-s17-172-q1:: Zagadnienie „Definicja i założenia coachingu zdrowotnego – podejście skoncentrowane na rozwiązaniach” wchodzi w zakres tematu „Coaching zdrowotny – metodyka” (17.2). {TRUE} //
+::tf-s17-172-q2:: Zagadnienie „Modele coachingowe – GROW, CLEAR, koło zdrowia” jest elementem zagadnienia „Definicja i założenia coachingu zdrowotnego – podejście skoncentrowane na rozwiązaniach”, a nie tematu „Coaching zdrowotny – metodyka” (17.2). {FALSE} //
+::tf-s17-172-q3:: Zagadnienie „Kompetencje coacha zdrowotnego – aktywne słuchanie, pytania otwarte, parafraza, informacja zwrotna” wchodzi w zakres tematu „Coaching zdrowotny – metodyka” (17.2). {TRUE} //
+::tf-s17-172-q4:: Zagadnienie „Wyznaczanie celów zdrowotnych – metoda SMART, cele procesowe i wynikowe” jest elementem zagadnienia „Kompetencje coacha zdrowotnego – aktywne słuchanie, pytania otwarte, parafraza, informacja zwrotna”, a nie tematu „Coaching zdrowotny – metodyka” (17.2). {FALSE} //
+::tf-s17-172-q5:: Zagadnienie „Motywacja i zmiana zachowań zdrowotnych – model transteoretyczny Prochaski i DiClemente, wywiad motywujący” wchodzi w zakres tematu „Coaching zdrowotny – metodyka” (17.2). {TRUE} //
+::tf-s17-172-q6:: Zagadnienie „Bariery i opór w zmianie – rozpoznawanie, praca, przeformułowanie” jest elementem zagadnienia „Motywacja i zmiana zachowań zdrowotnych – model transteoretyczny Prochaski i DiClemente, wywiad motywujący”, a nie tematu „Coaching zdrowotny – metodyka” (17.2). {FALSE} //
+::tf-s17-172-q7:: Zagadnienie „Budowanie nawyków zdrowotnych – neurobiologia nawyków, strategia małych kroków” wchodzi w zakres tematu „Coaching zdrowotny – metodyka” (17.2). {TRUE} //
+::tf-s17-172-q8:: Zagadnienie „Monitorowanie postępów – dziennik zdrowia, skala, celebracja sukcesów” jest elementem zagadnienia „Budowanie nawyków zdrowotnych – neurobiologia nawyków, strategia małych kroków”, a nie tematu „Coaching zdrowotny – metodyka” (17.2). {FALSE} //
+::mc-s17-172:: Które z poniższych zagadnień należy bezpośrednio do tematu „Coaching zdrowotny – metodyka” (17.2)? {
+    = Definicja i założenia coachingu zdrowotnego – podejście skoncentrowane na rozwiązaniach
+    ~ Modele coachingowe – GROW, CLEAR, koło zdrowia
+    ~ Kompetencje coacha zdrowotnego – aktywne słuchanie, pytania otwarte, parafraza, informacja zwrotna
+    ~ Higiena środowiska – jakość powietrza, wody, promieniowanie, hałas
+}
+// === Temat 17.3: Mentorstwo i coaching w praktyce naturopatycznej ===
+::tf-s17-173-q1:: Zagadnienie „Coaching żywieniowy – prowadzenie pacjenta przez zmianę diety; edukacja bez narzucania” wchodzi w zakres tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {TRUE} //
+::tf-s17-173-q2:: Zagadnienie „Coaching ruchowy – motywowanie do regularnej aktywności; pokonywanie barier” jest elementem zagadnienia „Coaching żywieniowy – prowadzenie pacjenta przez zmianę diety; edukacja bez narzucania”, a nie tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {FALSE} //
+::tf-s17-173-q3:: Zagadnienie „Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna” wchodzi w zakres tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {TRUE} //
+::tf-s17-173-q4:: Zagadnienie „Coaching w chorobach przewlekłych – akceptacja, adaptacja, samzarządzanie” jest elementem zagadnienia „Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna”, a nie tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {FALSE} //
+::tf-s17-173-q5:: Zagadnienie „Coaching w procesie zdrowienia po urazach i operacjach – wsparcie, cierpliwość, realistyczne oczekiwania” wchodzi w zakres tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {TRUE} //
+::tf-s17-173-q6:: Zagadnienie „Mentoring pacjentów w podeszłym wieku – godność, autonomia, towarzyszenie” jest elementem zagadnienia „Coaching w procesie zdrowienia po urazach i operacjach – wsparcie, cierpliwość, realistyczne oczekiwania”, a nie tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {FALSE} //
+::tf-s17-173-q7:: Zagadnienie „Mentoring rodzin pacjentów – edukacja, wsparcie, zapobieganie wypaleniu opiekunów” wchodzi w zakres tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {TRUE} //
+::tf-s17-173-q8:: Zagadnienie „Coaching w profilaktyce – budowanie świadomości zdrowotnej, odpowiedzialności za własne ciało” jest elementem zagadnienia „Mentoring rodzin pacjentów – edukacja, wsparcie, zapobieganie wypaleniu opiekunów”, a nie tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3). {FALSE} //
+::mc-s17-173:: Które z poniższych zagadnień należy bezpośrednio do tematu „Mentorstwo i coaching w praktyce naturopatycznej” (17.3)? {
+    = Coaching żywieniowy – prowadzenie pacjenta przez zmianę diety; edukacja bez narzucania
+    ~ Coaching ruchowy – motywowanie do regularnej aktywności; pokonywanie barier
+    ~ Coaching stresu i regeneracji – techniki radzenia sobie, higiena psychiczna
+    ~ Higiena psychiczna i emocjonalna – zarządzanie stresem, odpoczynek, kontemplacja
+}
+// === Temat 17.4: Psychologia zdrowia i komunikacja terapeutyczna ===
+::tf-s17-174-q1:: Zagadnienie „Biopsychospołeczny model zdrowia i choroby” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
+::tf-s17-174-q2:: Zagadnienie „Psychologiczne reakcje na chorobę – fazy (szok, zaprzeczanie, gniew, negocjacja, depresja, akceptacja)” jest elementem zagadnienia „Biopsychospołeczny model zdrowia i choroby”, a nie tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {FALSE} //
+::tf-s17-174-q3:: Zagadnienie „Stres, coping i rezyliencja – mechanizmy radzenia sobie” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
+::tf-s17-174-q4:: Zagadnienie „Psychologia bólu – komponenty sensoryczny, emocjonalny, poznawczy; placebo i nocebo” jest elementem zagadnienia „Stres, coping i rezyliencja – mechanizmy radzenia sobie”, a nie tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {FALSE} //
+::tf-s17-174-q5:: Zagadnienie „Aktywne słuchanie i empatia w kontakcie z pacjentem” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
+::tf-s17-174-q6:: Zagadnienie „Komunikacja werbalna i niewerbalna – mowa ciała, ton, kontakt wzrokowy” jest elementem zagadnienia „Aktywne słuchanie i empatia w kontakcie z pacjentem”, a nie tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {FALSE} //
+::tf-s17-174-q7:: Zagadnienie „Przekazywanie trudnych informacji – zasady, praktyka, szacunek” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
+::tf-s17-174-q8:: Zagadnienie „Komunikacja z pacjentem lękowym, agresywnym, zrozpaczonym” jest elementem zagadnienia „Przekazywanie trudnych informacji – zasady, praktyka, szacunek”, a nie tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {FALSE} //
+::tf-s17-174-q9:: Zagadnienie „Komunikacja z osobami starszymi, dziećmi, osobami z niepełnosprawnością” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
+::tf-s17-174-q10:: Zagadnienie „Komunikacja w zespole interdyscyplinarnym – lekarz, fizjoterapeuta, psycholog, naturopata” jest elementem zagadnienia „Komunikacja z osobami starszymi, dziećmi, osobami z niepełnosprawnością”, a nie tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {FALSE} //
+::tf-s17-174-q11:: Zagadnienie „Asertywność i wyznaczanie granic w relacji terapeutycznej” wchodzi w zakres tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4). {TRUE} //
+::mc-s17-174:: Które z poniższych zagadnień należy bezpośrednio do tematu „Psychologia zdrowia i komunikacja terapeutyczna” (17.4)? {
+    = Biopsychospołeczny model zdrowia i choroby
+    ~ Psychologiczne reakcje na chorobę – fazy (szok, zaprzeczanie, gniew, negocjacja, depresja, akceptacja)
+    ~ Stres, coping i rezyliencja – mechanizmy radzenia sobie
+    ~ Wpływ masażu na układy – nerwowy (ośrodkowy, obwodowy, autonomiczny – współczulny i przywspółczulny), krążenia (mikrokrążenie, powrót żylny – gradient ciśnieniowy, ssące działanie serca i klatki piersiowej, zastawki żylne, pompa mięśniowa; regulacja miejscowa i humoralna, neuroregulacja), oddechowy (regulacja nerwowa i chemiczna, wpływ pośredni i bezpośredni), pokarmowy (wpływ pośredni przez krążenie i nerwy, bezpośredni przez powłoki brzuszne), moczowo-płciowy, wewnątrzwydzielniczy
+}
+// === Temat 17.5: Wypalenie zawodowe i higiena psychiczna naturopaty ===
+::tf-s17-175-q1:: Zagadnienie „Rozpoznawanie objawów wypalenia i zmęczenia współczuciem” wchodzi w zakres tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5). {TRUE} //
+::tf-s17-175-q2:: Zagadnienie „Strategie profilaktyki – superwizja, odpoczynek, granice, wsparcie kolegialne” jest elementem zagadnienia „Rozpoznawanie objawów wypalenia i zmęczenia współczuciem”, a nie tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5). {FALSE} //
+::tf-s17-175-q3:: Zagadnienie „Własna praktyka uważności i samopielęgnacja terapeuty” wchodzi w zakres tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5). {TRUE} //
+::tf-s17-175-q4:: Zagadnienie „Równowaga między służbą a troską o siebie – prawo do odpoczynku” jest elementem zagadnienia „Własna praktyka uważności i samopielęgnacja terapeuty”, a nie tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5). {FALSE} //
+::tf-s17-175-q5:: Zagadnienie „Rola wspólnoty i duchowości w życiu naturopaty – zapobieganie izolacji” wchodzi w zakres tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5). {TRUE} //
+::mc-s17-175:: Które z poniższych zagadnień należy bezpośrednio do tematu „Wypalenie zawodowe i higiena psychiczna naturopaty” (17.5)? {
+    = Rozpoznawanie objawów wypalenia i zmęczenia współczuciem
+    ~ Strategie profilaktyki – superwizja, odpoczynek, granice, wsparcie kolegialne
+    ~ Własna praktyka uważności i samopielęgnacja terapeuty
+    ~ Przesunięcia odruchowe – definicja, 16 typów (opis każdego z przeciwdziałaniem)
+}
+// === Temat 17.6: Mentoring zawodowy naturopatów ===
+::tf-s17-176-q1:: Zagadnienie „Superwizja kliniczna – formy, częstotliwość, zasady” wchodzi w zakres tematu „Mentoring zawodowy naturopatów” (17.6). {TRUE} //
+::tf-s17-176-q2:: Zagadnienie „Mentoring młodych naturopatów – przekazywanie wiedzy i doświadczenia” jest elementem zagadnienia „Superwizja kliniczna – formy, częstotliwość, zasady”, a nie tematu „Mentoring zawodowy naturopatów” (17.6). {FALSE} //
+::tf-s17-176-q3:: Zagadnienie „Grupy Balinta i grupy wsparcia zawodowego” wchodzi w zakres tematu „Mentoring zawodowy naturopatów” (17.6). {TRUE} //
+::tf-s17-176-q4:: Zagadnienie „Kształcenie ustawiczne – konferencje, warsztaty, publikacje” jest elementem zagadnienia „Grupy Balinta i grupy wsparcia zawodowego”, a nie tematu „Mentoring zawodowy naturopatów” (17.6). {FALSE} //
+::tf-s17-176-q5:: Zagadnienie „Budowanie społeczności praktyków – sieci współpracy, wymiana doświadczeń” wchodzi w zakres tematu „Mentoring zawodowy naturopatów” (17.6). {TRUE} //
+::mc-s17-176:: Które z poniższych zagadnień należy bezpośrednio do tematu „Mentoring zawodowy naturopatów” (17.6)? {
+    = Superwizja kliniczna – formy, częstotliwość, zasady
+    ~ Mentoring młodych naturopatów – przekazywanie wiedzy i doświadczenia
+    ~ Grupy Balinta i grupy wsparcia zawodowego
+    ~ Drenaż twarzy – 16 etapów (doły nadobojczykowe, okolica podżuchwowa, żuchwa, warga dolna/górna, kąciki ust, nos, okolice oczu, czoło, skronie)
+}

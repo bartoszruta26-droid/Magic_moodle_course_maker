@@ -17,10 +17,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 17.1 | page | Podstawy prawne |
-| 17.2 | page | Organizacja i prowadzenie praktyki |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 23.1 | page | Podstawy prawne | 7 |
+| 23.2 | page | Organizacja i prowadzenie praktyki | 7 |
 
 ## Cele kształcenia
 

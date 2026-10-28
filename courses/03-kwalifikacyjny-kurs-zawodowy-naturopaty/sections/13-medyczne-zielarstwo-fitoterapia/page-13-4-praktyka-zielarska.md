@@ -10,24 +10,38 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **13 – MEDYCZNE ZIELARSTWO I FITOTERAPIA** (Semestr III).
+Strona tematyczna (SEMESTR III – KINEZYTERAPIA, MEDYCZNE TRENINGI PERSONALNE, PIELĘGNACJA, ZIELARSTWO I FIZYKOTERAPIA).
 Temat zgodnie z połączonym spisem treści kursu: *Praktyka zielarska*
+(Punkty 13.4.1–13.4.6 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 13.4
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Identyfikacja roślin leczniczych w terenie – zajęcia praktyczne**
+- **2. Przygotowywanie przetworów zielarskich – warsztaty (napary, nalewki, maści, syropy)**
+- **3. Sporządzanie maści, kremów i olejków ziołowych – receptury**
+- **4. Prowadzenie ogródka ziołowego – uprawa, pielęgnacja, zbiór**
+- **5. Konsultacja fitoterapeutyczna – wywiad, dobór ziół, dawkowanie, monitoring**
+- **6. Etyka zbioru i zrównoważone korzystanie z zasobów naturalnych**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 13.4 („Praktyka zielarska”) obejmuje 6 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 

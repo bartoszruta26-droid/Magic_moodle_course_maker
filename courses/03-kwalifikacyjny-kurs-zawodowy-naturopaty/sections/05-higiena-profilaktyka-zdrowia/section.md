@@ -17,15 +17,12 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 3.1 | page | Higiena osobista i środowiskowa |
-| 3.2 | page | Profilaktyka pierwotna |
-| 3.3 | page | Profilaktyka wtórna i trzeciorzędowa |
-| 5.1 | page | Higiena osobista i środowiskowa |
-| 5.2 | page | Profilaktyka pierwotna |
-| 5.3 | page | Profilaktyka wtórna i trzeciorzędowa |
-| 5.4 | page | Higiena i profilaktyka w praktyce naturopaty |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 5.1 | page | Higiena osobista i środowiskowa | 7 |
+| 5.2 | page | Profilaktyka pierwotna | 8 |
+| 5.3 | page | Profilaktyka wtórna i trzeciorzędowa | 4 |
+| 5.4 | page | Higiena i profilaktyka w praktyce naturopaty | 5 |
 
 ## Cele kształcenia
 

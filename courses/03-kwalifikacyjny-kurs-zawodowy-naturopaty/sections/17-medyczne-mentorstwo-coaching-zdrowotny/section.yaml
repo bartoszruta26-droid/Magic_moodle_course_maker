@@ -7,37 +7,19 @@ summary:
   markdown_file: section.md
 modules:
   - type: page
-    ref: "page-16-1-podstawy-mentorstwa-medycznego.md"
-    name: "16.1. Podstawy mentorstwa medycznego"
-  - type: page
-    ref: "page-16-2-coaching-zdrowotny-metodyka.md"
-    name: "16.2. Coaching zdrowotny – metodyka"
-  - type: page
-    ref: "page-16-3-mentorstwo-coaching-praktyce-naturopatycznej.md"
-    name: "16.3. Mentorstwo i coaching w praktyce naturopatycznej"
-  - type: page
-    ref: "page-16-4-psychologia-zdrowia-komunikacja-terapeutyczna.md"
-    name: "16.4. Psychologia zdrowia i komunikacja terapeutyczna"
-  - type: page
-    ref: "page-16-5-wypalenie-zawodowe-higiena-psychiczna-naturopaty.md"
-    name: "16.5. Wypalenie zawodowe i higiena psychiczna naturopaty"
-  - type: page
-    ref: "page-16-6-mentoring-zawodowy-naturopatow.md"
-    name: "16.6. Mentoring zawodowy naturopatów"
-  - type: page
     ref: "page-17-1-podstawy-mentorstwa-medycznego.md"
     name: "17.1. Podstawy mentorstwa medycznego"
   - type: page
     ref: "page-17-2-coaching-zdrowotny-metodyka.md"
     name: "17.2. Coaching zdrowotny – metodyka"
   - type: page
-    ref: "page-17-3-mentorstwo-coaching-praktyce-naturopatycznej.md"
+    ref: "page-17-3-mentorstwo-i-coaching-w-praktyce-naturopatycznej.md"
     name: "17.3. Mentorstwo i coaching w praktyce naturopatycznej"
   - type: page
-    ref: "page-17-4-psychologia-zdrowia-komunikacja-terapeutyczna.md"
+    ref: "page-17-4-psychologia-zdrowia-i-komunikacja-terapeutyczna.md"
     name: "17.4. Psychologia zdrowia i komunikacja terapeutyczna"
   - type: page
-    ref: "page-17-5-wypalenie-zawodowe-higiena-psychiczna-naturopaty.md"
+    ref: "page-17-5-wypalenie-zawodowe-i-higiena-psychiczna-naturopaty.md"
     name: "17.5. Wypalenie zawodowe i higiena psychiczna naturopaty"
   - type: page
     ref: "page-17-6-mentoring-zawodowy-naturopatow.md"

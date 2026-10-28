@@ -1,3 +1,24 @@
-// Quiz do modułu 20: METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY
-::tf-m20q1:: Temat „Podstawy metodologii badań” (20.1) należy do Modułu 20 – METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY. {TRUE}
-::tf-m20q2:: Temat „Rozwój zawodowy i kształcenie ustawiczne” (20.2) należy do Modułu 20 – METODOLOGIA PRACY NAUKOWEJ I ROZWÓJ ZAWODOWY. {TRUE}
+// === Temat 20.1: Podstawy metodologii badań ===
+::tf-s20-201-q1:: Zagadnienie „Evidence-based practice – czytanie i krytyczna ocena badań naukowych” wchodzi w zakres tematu „Podstawy metodologii badań” (20.1). {TRUE} //
+::tf-s20-201-q2:: Zagadnienie „Przegląd literatury – bazy danych (PubMed, Cochrane), słowa kluczowe, strategia wyszukiwania” jest elementem zagadnienia „Evidence-based practice – czytanie i krytyczna ocena badań naukowych”, a nie tematu „Podstawy metodologii badań” (20.1). {FALSE} //
+::tf-s20-201-q3:: Zagadnienie „Rodzaje badań – RCT, kohortowe, opisowe, metaanalizy, studia przypadków” wchodzi w zakres tematu „Podstawy metodologii badań” (20.1). {TRUE} //
+::tf-s20-201-q4:: Zagadnienie „Ograniczenia badań w medycynie komplementarnej – ślepa próba, placebo, standaryzacja” jest elementem zagadnienia „Rodzaje badań – RCT, kohortowe, opisowe, metaanalizy, studia przypadków”, a nie tematu „Podstawy metodologii badań” (20.1). {FALSE} //
+::tf-s20-201-q5:: Zagadnienie „Pisanie pracy dyplomowej / studium przypadku – struktura, wymagania, etyka badań” wchodzi w zakres tematu „Podstawy metodologii badań” (20.1). {TRUE} //
+::mc-s20-201:: Które z poniższych zagadnień należy bezpośrednio do tematu „Podstawy metodologii badań” (20.1)? {
+    = Evidence-based practice – czytanie i krytyczna ocena badań naukowych
+    ~ Przegląd literatury – bazy danych (PubMed, Cochrane), słowa kluczowe, strategia wyszukiwania
+    ~ Rodzaje badań – RCT, kohortowe, opisowe, metaanalizy, studia przypadków
+    ~ Drenaż karku i głowy – 10 etapów (doły nadobojczykowe, kąty żuchwy, kręgi piersiowe, kręgi szyjne, otwór potyliczny, guzowatość potyliczna, szwy kości potylicznej, czubek głowy)
+}
+// === Temat 20.2: Rozwój zawodowy i kształcenie ustawiczne ===
+::tf-s20-202-q1:: Zagadnienie „Ścieżki rozwoju specjalizacyjnego naturopaty – masaż, fitoterapia, dietetyka, trening, coaching” wchodzi w zakres tematu „Rozwój zawodowy i kształcenie ustawiczne” (20.2). {TRUE} //
+::tf-s20-202-q2:: Zagadnienie „Konferencje, warsztaty, kursy doskonalące – krajowe i międzynarodowe” jest elementem zagadnienia „Ścieżki rozwoju specjalizacyjnego naturopaty – masaż, fitoterapia, dietetyka, trening, coaching”, a nie tematu „Rozwój zawodowy i kształcenie ustawiczne” (20.2). {FALSE} //
+::tf-s20-202-q3:: Zagadnienie „Publikacje i działalność edukacyjna – popularyzacja wiedzy, wykłady, artykuły” wchodzi w zakres tematu „Rozwój zawodowy i kształcenie ustawiczne” (20.2). {TRUE} //
+::tf-s20-202-q4:: Zagadnienie „Przynależność do organizacji zawodowych i stowarzyszeń – sieci współpracy” jest elementem zagadnienia „Publikacje i działalność edukacyjna – popularyzacja wiedzy, wykłady, artykuły”, a nie tematu „Rozwój zawodowy i kształcenie ustawiczne” (20.2). {FALSE} //
+::tf-s20-202-q5:: Zagadnienie „Mentoring i superwizja w praktyce naturopatycznej – ciągły rozwój” wchodzi w zakres tematu „Rozwój zawodowy i kształcenie ustawiczne” (20.2). {TRUE} //
+::mc-s20-202:: Które z poniższych zagadnień należy bezpośrednio do tematu „Rozwój zawodowy i kształcenie ustawiczne” (20.2)? {
+    = Ścieżki rozwoju specjalizacyjnego naturopaty – masaż, fitoterapia, dietetyka, trening, coaching
+    ~ Konferencje, warsztaty, kursy doskonalące – krajowe i międzynarodowe
+    ~ Publikacje i działalność edukacyjna – popularyzacja wiedzy, wykłady, artykuły
+    ~ Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego, automatyzmu, stabilizacji; drenaż limfatyczny
+}

@@ -1,11 +1,68 @@
-// Quiz do modułu 3: MEDYCZNA DIAGNOSTYKA KONWENCJONALNA
-::tf-m03q1:: Temat „Badanie podmiotowe (wywiad)” (1.1) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q2:: Temat „Badanie przedmiotowe” (1.2) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q3:: Temat „Diagnostyka laboratoryjna – interpretacja wyników” (1.3) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q4:: Temat „Diagnostyka obrazowa – interpretacja opisów” (1.4) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q5:: Temat „Diagnostyka funkcjonalna i różnicowa” (1.5) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q6:: Temat „Badanie podmiotowe (wywiad)” (3.1) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q7:: Temat „Badanie przedmiotowe” (3.2) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q8:: Temat „Diagnostyka laboratoryjna – interpretacja wyników” (3.3) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q9:: Temat „Diagnostyka obrazowa – interpretacja opisów” (3.4) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
-::tf-m03q10:: Temat „Diagnostyka funkcjonalna i różnicowa” (3.5) należy do Modułu 3 – MEDYCZNA DIAGNOSTYKA KONWENCJONALNA. {TRUE}
+// === Temat 3.1: Badanie podmiotowe (wywiad) ===
+::tf-s03-31-q1:: Zagadnienie „Technika prowadzenia wywiadu medycznego – informacje stałe, zmienne i dodatkowe” wchodzi w zakres tematu „Badanie podmiotowe (wywiad)” (3.1). {TRUE} //
+::tf-s03-31-q2:: Zagadnienie „Wywiad chorobowy – obecny, przeszły, rodzinny, społeczny, zawodowy” jest elementem zagadnienia „Technika prowadzenia wywiadu medycznego – informacje stałe, zmienne i dodatkowe”, a nie tematu „Badanie podmiotowe (wywiad)” (3.1). {FALSE} //
+::tf-s03-31-q3:: Zagadnienie „Wywiad w kierunku alergii, nietolerancji, interakcji lekowych” wchodzi w zakres tematu „Badanie podmiotowe (wywiad)” (3.1). {TRUE} //
+::tf-s03-31-q4:: Zagadnienie „Wywiad żywieniowy i styl życia – dieta, aktywność, sen, używki” jest elementem zagadnienia „Wywiad w kierunku alergii, nietolerancji, interakcji lekowych”, a nie tematu „Badanie podmiotowe (wywiad)” (3.1). {FALSE} //
+::tf-s03-31-q5:: Zagadnienie „Wywiad w kontekście medycyny integracyjnej – terapie komplementarne stosowane przez pacjenta” wchodzi w zakres tematu „Badanie podmiotowe (wywiad)” (3.1). {TRUE} //
+::tf-s03-31-q6:: Zagadnienie „Obserwacja pacjenta – sposób poruszania się, postawa, mimika, stan ogólny” jest elementem zagadnienia „Wywiad w kontekście medycyny integracyjnej – terapie komplementarne stosowane przez pacjenta”, a nie tematu „Badanie podmiotowe (wywiad)” (3.1). {FALSE} //
+::mc-s03-31:: Które z poniższych zagadnień należy bezpośrednio do tematu „Badanie podmiotowe (wywiad)” (3.1)? {
+    = Technika prowadzenia wywiadu medycznego – informacje stałe, zmienne i dodatkowe
+    ~ Wywiad chorobowy – obecny, przeszły, rodzinny, społeczny, zawodowy
+    ~ Wywiad w kierunku alergii, nietolerancji, interakcji lekowych
+    ~ Topografia węzłów chłonnych – głowa i szyja (potyliczne, zamałżowinowe, przyusznicze, policzkowe, podżuchwowe – 4 grupy, podbródkowe, zagardłowe, podgnykowe, przedkrtaniowy, przedtchawicze, przytchawicze, nadmostkowe, szyjne głębokie górne i dolne, szyjne powierzchowne, nadobojczykowe 8–12), kończyna górna (łokciowy powierzchowny, ramienno-piersiowe, tylne powierzchowne barku, przedramienia i ramienia, pachowe – boczne, piersiowe w tym SORGIUSA, podłopatkowe, środkowe, szczytowe; nadłopatkowe), klatka piersiowa i grzbiet, brzuch i miednica, kończyna dolna (podkolanowe – tylna, środkowa, przednia; pachwinowe powierzchowne – pasmo pionowe i poziome 10–15; pachwinowe głębokie 1–7)
+}
+// === Temat 3.2: Badanie przedmiotowe ===
+::tf-s03-32-q1:: Zagadnienie „Inspekcja – ocena postawy, skóry, symetrii, ruchomości, obrzęków” wchodzi w zakres tematu „Badanie przedmiotowe” (3.2). {TRUE} //
+::tf-s03-32-q2:: Zagadnienie „Palpacja – techniki badania dotykiem, ocena temperatury, napięcia, bolesności tkanek” jest elementem zagadnienia „Inspekcja – ocena postawy, skóry, symetrii, ruchomości, obrzęków”, a nie tematu „Badanie przedmiotowe” (3.2). {FALSE} //
+::tf-s03-32-q3:: Zagadnienie „Opukiwanie i osłuchiwanie – podstawy techniki i interpretacja” wchodzi w zakres tematu „Badanie przedmiotowe” (3.2). {TRUE} //
+::tf-s03-32-q4:: Zagadnienie „Pomiar parametrów życiowych – ciśnienie, tętno, temperatura, saturacja, częstość oddechów” jest elementem zagadnienia „Opukiwanie i osłuchiwanie – podstawy techniki i interpretacja”, a nie tematu „Badanie przedmiotowe” (3.2). {FALSE} //
+::tf-s03-32-q5:: Zagadnienie „Badanie zakresu ruchomości stawów (ROM) – aktywne i bierne” wchodzi w zakres tematu „Badanie przedmiotowe” (3.2). {TRUE} //
+::tf-s03-32-q6:: Zagadnienie „Testy funkcjonalne i ortopedyczne – podstawowe testy diagnostyczne narządu ruchu” jest elementem zagadnienia „Badanie zakresu ruchomości stawów (ROM) – aktywne i bierne”, a nie tematu „Badanie przedmiotowe” (3.2). {FALSE} //
+::tf-s03-32-q7:: Zagadnienie „Badanie neurologiczne – odruchy, czucie, siła mięśniowa, koordynacja” wchodzi w zakres tematu „Badanie przedmiotowe” (3.2). {TRUE} //
+::tf-s03-32-q8:: Zagadnienie „Ocena układu limfatycznego – palpacja węzłów chłonnych, ocena obrzęków, testy diagnostyczne” jest elementem zagadnienia „Badanie neurologiczne – odruchy, czucie, siła mięśniowa, koordynacja”, a nie tematu „Badanie przedmiotowe” (3.2). {FALSE} //
+::mc-s03-32:: Które z poniższych zagadnień należy bezpośrednio do tematu „Badanie przedmiotowe” (3.2)? {
+    = Inspekcja – ocena postawy, skóry, symetrii, ruchomości, obrzęków
+    ~ Palpacja – techniki badania dotykiem, ocena temperatury, napięcia, bolesności tkanek
+    ~ Opukiwanie i osłuchiwanie – podstawy techniki i interpretacja
+    ~ Stłuczenia i zmiażdżenia – fazy postępowania
+}
+// === Temat 3.3: Diagnostyka laboratoryjna – interpretacja wyników ===
+::tf-s03-33-q1:: Zagadnienie „Morfologia krwi obwodowej – interpretacja naturopatyczna” wchodzi w zakres tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {TRUE} //
+::tf-s03-33-q2:: Zagadnienie „Biochemia krwi – glukoza, lipidogram, enzymy wątrobowe, kreatynina, elektrolity” jest elementem zagadnienia „Morfologia krwi obwodowej – interpretacja naturopatyczna”, a nie tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {FALSE} //
+::tf-s03-33-q3:: Zagadnienie „Badanie moczu – analiza ogólna, posiew, sediment” wchodzi w zakres tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {TRUE} //
+::tf-s03-33-q4:: Zagadnienie „Markery stanu zapalnego – CRP, OB, fibrynogen, RF” jest elementem zagadnienia „Badanie moczu – analiza ogólna, posiew, sediment”, a nie tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {FALSE} //
+::tf-s03-33-q5:: Zagadnienie „Hormony – tarczycy, nadnerczy, płciowe; interpretacja kliniczna” wchodzi w zakres tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {TRUE} //
+::tf-s03-33-q6:: Zagadnienie „Witaminy i mikroelementy – B12, D, żelazo, ferrytyna, magnez, cynk, selen” jest elementem zagadnienia „Hormony – tarczycy, nadnerczy, płciowe; interpretacja kliniczna”, a nie tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {FALSE} //
+::tf-s03-33-q7:: Zagadnienie „Badania w kierunku alergii i nietolerancji pokarmowych” wchodzi w zakres tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {TRUE} //
+::tf-s03-33-q8:: Zagadnienie „Markery nowotworowe – świadome podejście, kontekst kliniczny” jest elementem zagadnienia „Badania w kierunku alergii i nietolerancji pokarmowych”, a nie tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {FALSE} //
+::tf-s03-33-q9:: Zagadnienie „Badania mikrobiologiczne – mikrobiom jelitowy, posiewy” wchodzi w zakres tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3). {TRUE} //
+::mc-s03-33:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka laboratoryjna – interpretacja wyników” (3.3)? {
+    = Morfologia krwi obwodowej – interpretacja naturopatyczna
+    ~ Biochemia krwi – glukoza, lipidogram, enzymy wątrobowe, kreatynina, elektrolity
+    ~ Badanie moczu – analiza ogólna, posiew, sediment
+    ~ Fibrositis (gościec pozastawowy) – lumbago (okres ostry i rekonwalescencji; masaż klasyczny – głaskania, rozcierania, ugniatania podłużne, wibracja poprzeczna, uciski punktowe; masaż segmentarny – grzbiet, miednica, wstrząsanie miednicy), pleurodynia, sztywny kark
+}
+// === Temat 3.4: Diagnostyka obrazowa – interpretacja opisów ===
+::tf-s03-34-q1:: Zagadnienie „RTG – podstawy interpretacji (złamania, zwyrodnienia, osteofity)” wchodzi w zakres tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4). {TRUE} //
+::tf-s03-34-q2:: Zagadnienie „USG – zastosowania, możliwości i ograniczenia” jest elementem zagadnienia „RTG – podstawy interpretacji (złamania, zwyrodnienia, osteofity)”, a nie tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4). {FALSE} //
+::tf-s03-34-q3:: Zagadnienie „TK i MRI – wskazania, interpretacja opisów” wchodzi w zakres tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4). {TRUE} //
+::tf-s03-34-q4:: Zagadnienie „Termografia – zastosowanie w diagnostyce funkcjonalnej” jest elementem zagadnienia „TK i MRI – wskazania, interpretacja opisów”, a nie tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4). {FALSE} //
+::mc-s03-34:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka obrazowa – interpretacja opisów” (3.4)? {
+    = RTG – podstawy interpretacji (złamania, zwyrodnienia, osteofity)
+    ~ USG – zastosowania, możliwości i ograniczenia
+    ~ TK i MRI – wskazania, interpretacja opisów
+    ~ Porażenie spastyczne rdzeniowe – okres wstrząsu rdzeniowego (drenaż limfatyczny, masaż klasyczny rozluźniający), automatyzmu, stabilizacji; kinezyterapia – ćwiczenia bierne, oddechowe, pionizacja
+}
+// === Temat 3.5: Diagnostyka funkcjonalna i różnicowa ===
+::tf-s03-35-q1:: Zagadnienie „Analiza postawy ciała – statyczna i dynamiczna” wchodzi w zakres tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {TRUE} //
+::tf-s03-35-q2:: Zagadnienie „Ocena wzorców ruchowych i kompensacji – łańcuchy kinematyczne” jest elementem zagadnienia „Analiza postawy ciała – statyczna i dynamiczna”, a nie tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {FALSE} //
+::tf-s03-35-q3:: Zagadnienie „Diagnostyka bólu – skale (VAS, NRS), charakter, lokalizacja, promieniowanie” wchodzi w zakres tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {TRUE} //
+::tf-s03-35-q4:: Zagadnienie „Kwestionariusze zdrowia i jakości życia (SF-36, NDI, ODI, indeks HAQ)” jest elementem zagadnienia „Diagnostyka bólu – skale (VAS, NRS), charakter, lokalizacja, promieniowanie”, a nie tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {FALSE} //
+::tf-s03-35-q5:: Zagadnienie „Testy obciążeń i wydolności funkcjonalnej” wchodzi w zakres tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {TRUE} //
+::tf-s03-35-q6:: Zagadnienie „Diagnostyka różnicowa w praktyce naturopaty – kiedy ból jest objawem choroby organicznej” jest elementem zagadnienia „Testy obciążeń i wydolności funkcjonalnej”, a nie tematu „Diagnostyka funkcjonalna i różnicowa” (3.5). {FALSE} //
+::mc-s03-35:: Które z poniższych zagadnień należy bezpośrednio do tematu „Diagnostyka funkcjonalna i różnicowa” (3.5)? {
+    = Analiza postawy ciała – statyczna i dynamiczna
+    ~ Ocena wzorców ruchowych i kompensacji – łańcuchy kinematyczne
+    ~ Diagnostyka bólu – skale (VAS, NRS), charakter, lokalizacja, promieniowanie
+    ~ Fizjologia wysiłku fizycznego – adaptacje, progi, strefy intensywności, dług tlenowy
+}

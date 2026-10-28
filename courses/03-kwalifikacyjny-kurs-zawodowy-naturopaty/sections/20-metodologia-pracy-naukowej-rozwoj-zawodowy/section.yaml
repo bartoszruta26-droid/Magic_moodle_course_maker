@@ -10,7 +10,7 @@ modules:
     ref: "page-20-1-podstawy-metodologii-badan.md"
     name: "20.1. Podstawy metodologii badań"
   - type: page
-    ref: "page-20-2-rozwoj-zawodowy-ksztalcenie-ustawiczne.md"
+    ref: "page-20-2-rozwoj-zawodowy-i-kszta-cenie-ustawiczne.md"
     name: "20.2. Rozwój zawodowy i kształcenie ustawiczne"
   - type: quiz
     ref: quiz-01

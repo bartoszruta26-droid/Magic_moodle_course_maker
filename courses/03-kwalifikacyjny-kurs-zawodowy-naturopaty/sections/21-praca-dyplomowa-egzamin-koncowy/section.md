@@ -17,10 +17,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 ## Struktura modułu (tematy)
 
-| Nr tematu | Typ zasobu | Temat |
-|-----------|------------|-------|
-| 21.1 | page | Praca dyplomowa |
-| 21.2 | page | Egzamin końcowy |
+| Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
+|-----------|------------|-------|------------------|
+| 21.1 | page | Praca dyplomowa | 6 |
+| 21.2 | page | Egzamin końcowy | 7 |
 
 ## Cele kształcenia
 

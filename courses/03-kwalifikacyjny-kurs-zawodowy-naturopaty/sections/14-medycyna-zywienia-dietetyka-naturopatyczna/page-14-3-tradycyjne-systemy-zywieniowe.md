@@ -10,24 +10,38 @@ Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata
 
 ## Wprowadzenie
 
-Strona tematyczna modułu **14 – MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA** (Semestr III).
+Strona tematyczna (SEMESTR III – KINEZYTERAPIA, MEDYCZNE TRENINGI PERSONALNE, PIELĘGNACJA, ZIELARSTWO I FIZYKOTERAPIA).
 Temat zgodnie z połączonym spisem treści kursu: *Tradycyjne systemy żywieniowe*
+(Punkty 14.3.1–14.3.6 połączonego spisu treści.)
 
 ## Zagadnienia do opanowania
 
-- Omówienie podstaw teoretycznych tematu 14.3
-- Zastosowanie praktyczne w procesie zdrowienia pacjenta
-- Bezpieczeństwo pacjenta i granice kompetencji naturopaty
+Po ukończeniu tego tematu uczestnik potrafi omówić i zastosować w praktyce
+naturopatycznej każde z poniższych zagadnień szczegółowych:
+
+- **1. Dietetyka wg TCM – energetyka pokarmów, pięć smaków, termika, konstytucja**
+- **2. Dietetyka ajurwedyjska – pokarmy wg dosz, Agni, sześć smaków**
+- **3. Dietetyka wg medycyny klasztornej i tradycji europejskiej – Hildegarda z Bingen**
+- **4. Post leczniczy – rodzaje (wodny, sokowy, suchy), wskazania, bezpieczeństwo, prowadzenie**
+- **5. Dieta roślinna, wegetariańska, wegańska – bilansowanie, suplementacja**
+- **6. Żywienie integralne – pokarm jako lekarstwo i wymiar duchowy posiłku; wdzięczność**
+
+## Cele szczegółowe
+
+- Rozpoznanie i nazwanie struktur, mechanizmów i procedur objętych powyższymi zagadnieniami.
+- Zastosowanie wiedzy w planowaniu działań naturopatycznych z zachowaniem zasady *primum non nocere*.
+- Identyfikacja przeciwwskazań i sytuacji wymagających skierowania pacjenta do lekarza.
 
 ## Materiały do pobrania
 
-Materiały poglądowe zostaną uzupełnione w kolejnym etapie prac nad kursem
-(rozwinięcie podpunktów spisu treści – zgodnie z nota redakcyjną programu).
+Materiały poglądowe (ilustracje, filmy, dokumenty PDF) zostaną dodane w katalogu
+`media/` kursu w kolejnym etapie prac redakcyjnych.
 
 ## Podsumowanie
 
-Treść merytoryczna tego tematu zostanie rozwinięta na podstawie podpunktów
-spisu treści w kolejnym etapie generowania kursu.
+Temat 14.3 („Tradycyjne systemy żywieniowe”) obejmuje 6 zagadnień szczegółowych.
+Przed przejściem do kolejnego tematu należy rozwiązać quiz sprawdzający
+oraz wykonać zadanie modułowe.
 
 ## Pytania do refleksji
 
