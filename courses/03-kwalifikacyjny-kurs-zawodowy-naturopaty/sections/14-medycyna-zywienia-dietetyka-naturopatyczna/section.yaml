@@ -1,24 +1,15 @@
 # Metadane sekcji
 id: 14
-name: "Moduł 14: MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA"
+name: 'Moduł 14: MEDYCYNA ŻYWIENIA I DIETETYKA NATUROPATYCZNA'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-14-1-podstawy-zywienia-i-biochemii-zywnosci.md"
-    name: "14.1. Podstawy żywienia i biochemii żywności"
-  - type: page
-    ref: "page-14-2-dietetyka-kliniczna-i-naturopatyczna.md"
-    name: "14.2. Dietetyka kliniczna i naturopatyczna"
-  - type: page
-    ref: "page-14-3-tradycyjne-systemy-zywieniowe.md"
-    name: "14.3. Tradycyjne systemy żywieniowe"
-  - type: page
-    ref: "page-14-4-suplementacja-i-nutraceutyki.md"
-    name: "14.4. Suplementacja i nutraceutyki"
-  - type: quiz
-    ref: quiz-01
-  - type: assignment
-    ref: assignment-01
+- type: book
+  ref: book-01
+  name: Podręcznik modułu 14
+- type: quiz
+  ref: quiz-01
+- type: assignment
+  ref: assignment-01

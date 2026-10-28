@@ -1,2 +1,243 @@
-# Hasła słownika – do uzupełnienia w kolejnym etapie
-entries: []
+# Hasła słownika terminów medycznych i naturopatycznych
+# Kurs: Kwalifikacyjny Kurs Zawodowy – Naturopata (Załącznik D)
+entries:
+  - term: "Abscessus (ropień)"
+    definition: "Ograniczony zbiór ropy w tkance powstałej w wyniku rozpadu martwiczego; np. abscessus pulmonis — ropień płuca (ICD J86). Nigdy nie nacinać poza uprawnieniami; skierować do chirurga."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Accretio (zrost)"
+    definition: "Tworzenie się tkanki włóknistej między powierzchniami błon surowiczych, np. po zapaleniu opłucnej; ogranicza ruchomość — w rehabilitacji stosuje się pozycje przeciwzrostowe wg Bruce'a."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Adipositas (otyłość)"
+    definition: "Nadmierne odkładanie tkanki tłuszczowej (BMI ≥ 30); czynnik ryzyka metabolicznego; fundament postępowania: zmiana stylu życia, dieta, ruch — w granicach kompetencji i we współpracy z lekarzem."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Asthenia (astenia)"
+    definition: "Osłabienie, zmniejszenie siły mięśniowej; objaw niespecyficzny — wymaga różnicowania, zwłaszcza przy narastaniu (skierować do lekarza)."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Atrophia (zanik)"
+    definition: "Zmniejszenie obwodu lub masy tkaniny/narządu; zanik mięśni z unieruchomienia lub porażeń; wskazania do masażu i ćwiczeń biernych/czynnych zależnie od okresu."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Bursitis (zapalenie kaletki)"
+    definition: "Zapalenie woreczka maziowego, np. kaletki podbarkowej (bursitis subacromialis) — element zespołu bolesnego barku (PHS); masaż segmentarny i fizykoterapia wg okresów."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Calculus (kamień)"
+    definition: "Konkrement w drogach żółciowych lub moczowych; kamica nerkowa (nephrolithiasis) — masażu nie stosować w kolce; po ustąpieniu — masaż segmentarny i dieta."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Caput obstipum (krzywoszyje)"
+    definition: "Skrót lub przemieszczenie głowy wskutek przykurczu mięśnia czworobocznego/sesamowidowatego; wada wrodzona lub nabyta; kinezyterapia korekcyjna, masaż rozluźniający."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Contractura (przykurcz)"
+    definition: "Ograniczenie zakresu ruchu w stawie wskutek zmian w tkankach miękkich lub stawowych; masaż rozciągający, ćwiczenia redresyjne — bez bólu ostrzegawczego."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Cyanosis (sinerwica)"
+    definition: "Sinawe zabarwienie skóry i błon śluzowych wskutek wzrostu redukcji hemoglobiny; narastająca sinica = stan nagły, natychmiast wezwać pomoc."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Degeneratio (zwyrodnienie)"
+    definition: "Postępujące niszczenie tkanek, np. choroba zwyrodnieniowa stawów (gonarthrosis, coxarthrosis); masaż klasyczny rozluźniający i segmentarny, trening stabilizujący."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Dyspnoe (duszność)"
+    definition: "Subiektywne uczucie trudności w oddychaniu; nagła duszność — stan nagły; przewlekła (astma, POChP) — ćwiczenia oddechowe, drenaż ułożeniowy wg schematów."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Emphysema (rozdmuchanie)"
+    definition: "Rozszerzenie i zniszczenie pęcherzyków płucnych (emphysema pulmonum, ICD J43) — składnik POChP; tor oddechu, pozycje ułatwiające wydech; przeciwwskazania do niektórych zabiegów."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Exsudatum (wysięk)"
+    definition: "Przesięk zapalny w jamach ciała (np. wysięk opłucnowy); podejrzenie — skierować do lekarza; masa obszarów objętych wysiękiem przeciwwskazana do intensywnego opracowania."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Fractura (złamanie)"
+    definition: "Przerwanie ciągłości kości; po unieruchomieniu — masaż okolic pośrednich i dystalnych, ćwiczenia izometryczne; reguła Potts przy transportowym unieruchomieniu."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Gangraena (zgorzel)"
+    definition: "Martwica tkankowa wskutek niedokrwienia lub zakażenia — stan wymagający pilnej pomocy lekarskiej; masaż absolutnie przeciwwskazany."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Hydrops (wodogrzel/wysięk)"
+    definition: "Nagromadzenie płynu w jamie ciała (hydrops articularis — wysięk w stawie); ocena lekarska; w leczeniu usuniętego wysięku — stopniowa kinezyterapia."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Hyperthyreosis (nadczynność tarczycy)"
+    definition: "Nadmiar hormonów tarczycy (Basedow); tachykardia, wychudzenie; masaż delikatny, bez intensywnych technik na okolicę szyi; prowadzenie przez endokrynologa."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Hypotonia (niedociśnienie)"
+    definition: "Obniżone ciśnienie tętnicze; masaż podnosi zwykle ciśnienie systemowo — kontrola reakcji pacjenta; nawodnienie, hartowanie, ewentualnie konsultacja."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Icterus (żółtaczka)"
+    definition: "Barwienie tkanek żółcią — wątrobowe, zastoinowe lub hemolityczne; nowe pojawienie się żółtaczki = natychmiast do lekarza; po ustąpieniu — dieta, fitoterapia ostrożna (ostrokrzew? nie — ostrożeń/ostropest: Silybum marianum)."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Ischaemia (niedokrwienie)"
+    definition: "Niedostateczny dopływ krwi tętniczej (ischaemia membri inferioris — chromanie przestankowe, skala Fontaine'a i Piskorza); masaż wg wskazań Zborowskiego, przeciwwskazania w niedokrwieniu ostrym."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Koxarthrosis/Gonarthrosis"
+    definition: "Zwyrodnienie stawu biodrowego/kolanowego; masaż klasyczny i segmentarny, trening wzmacniający bez przeciążania stawu; kwalifikacja endoprotezy — ortopeda."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Lordosis (lordoza)"
+    definition: "Nadmierna fizjologiczna lordoza (szyjna/lędźwiowa); wady postawy — gimnastyka korekcyjna, masaż rozluźniający napięte grupy prostowników grzbietu i zginaczy biodra."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Lymphaedema (limfedema)"
+    definition: "Narastający obrzęk chłonny (wtórny po operacjach/onkologii); drenaż limfatyczny ręczny (metoda polska/niemiecka) + bandażownictwo; przeciwwskazania: infekcja, zakrzepica, niewydolność serca."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Myalgia (ból mięśniowy)"
+    definition: "Ból mięśni pochodzenia przeciążeniowego, punkty spustowe (trigger points); masaż punktowy, techniki energizacji mięśni; wykluczyć przyczyny ogólnoustrojowe (leki, choroby)."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Neuralgia (nerwoból)"
+    definition: "Ból w przebiegu nerwu (np. neuralgia n. ischiadici — rwąca); rwa kulszowa: okres ostry — pozycja antyalgiczna, masaż segmentarny w zakresie tolerancji; czerwone flagi — do lekarza."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Oedema (obrzęk)"
+    definition: "Nagromadzenie płynu w tkankach; obrzęk nerkowy, sercowy, limfatyczny, żylny — różnicowanie wymaga lekarza; drenaż limfatyczny stosujemy po wykluczeniu przeciwwskazań."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Osteoporosis (osteoporoza)"
+    definition: "Ubytek masy kostnej i pogorszenie architektury kości — ryzyko złamań; masaż delikatny, bez mocnych technik perkusyjnych na okolicy żeber; trening oporowy i równoważny, witamina D i wapń wg lekarza."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Phlebitis (zapalenie żył)"
+    definition: "Zapalenie ściany żylnej, często z zakrzepicą (thrombophlebitis) — BEZWZGLĘDNE przeciwwskazanie do masażu okolicy i kończyny; podejrzenie ZAKRZEPICY — pilnie do lekarza (ryzyko zatorowości płucnej!)."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Ptosis (optptoza/nawis)"
+    definition: "Opadanie narządu (ptosis ani — wypadanie odbytu; piersi); w rehabilitacji dna miednicy — ćwiczenia, delikatny masaż; sprawy chirurgiczne — do lekarza."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Rhizarthrosis"
+    definition: "Zwyrodnienie stawu palca I dłoni; masaż klasyczny dłoni, ortezy, ćwiczenia funkcjonalne."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Skolioza (Scoliosis)"
+    definition: "Boczne skrzywienie kręgosłupa z rotacją kręgów; funkcjonalna — masaż w 5 lub 11 fazach; strukturalna — w 4 lub 8 fazach (wg Zborowskiego) + kinezyterapia korekcyjna; progresja — ortopeda."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Spastika (spastyczność)"
+    definition: "Wzmożone napięcie mięśniowe o typie piramidowym (po udarze, MPD); masaż półwiotki, techniki neurofizjologiczne (Bobath); dobór metod wg okresu porażenia połowiczego."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Spondylopathia deformans (ZZSK)"
+    definition: "Zesztywniające zapalenie stawów kręgosłupa; okres zaostrzeń — delikatność, remisji — ćwiczenia antykifotyczne i oddechowe (tor przeponowy); zakaz ćwiczeń statycznych i maksymalnych oporowych; prowadzenie reumatologiczne."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Syncope (omdlenie)"
+    definition: "Przejściowa utrata przytomności wskutek niedokrwienia mózgu; w gabinecie: pozycja leżąca z uniesionymi nogami, świeże powietrze; nawracające omdlenia — kardiolog."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Tendinitis (zapalenie ścięgna)"
+    definition: "Zapalenie ścięgna/przywpustkowe entezopatie (np. tendinitis m. supraspinati w PHS); okres ostry — odciążenie, potem masaż poprzeczny, ćwiczenia ekscentryczne."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Torticollis"
+    definition: "Patrz Caput obstipum; skręt szyi — przyczyny: mięśniowe, neurologiczne, bólowe kręgosłupa szyjnego; masaż karku wg okresu; czerwone flagi — lekarz."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Ulcus (owrzodzenie)"
+    definition: "Głęboka ubytkowa zmiana skóry/błony śluzowej (ulcus cruris — owrzodzenie podudzia); drenaż limfatyczny w wybranych przypadkach pod kontrolą; opatrunki — pielęgniarka/lekarz."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Varices (żylaki)"
+    definition: "Poszerzenia żylne; masaż powierzchniowy delikatny, kierunek dosercowy; przeciwwskazane: zapalenie żył, zakrzepica, niewydolność zastawek głębokich bez oceny lekarza."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"
+  - term: "Vulvovaginitis (zapalenie sromu i pochwy)"
+    definition: "Najczęstsza jednostka zapalna kobiecych narządów płciowych (ICD N76); etiologie: infekcyjne, zanikowe, alergiczne; masaż segmentarny krzyżowo-kolcowy jako wsparcie po leczeniu właściwym; diagnostyka — ginekolog."
+    format: html
+    categories:
+      - "Medycyna"
+      - "Naturopatia"

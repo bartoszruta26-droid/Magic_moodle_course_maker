@@ -1,0 +1,40 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: 'Podręcznik: Moduł 17: MEDYCZNE MENTORSTWO I COACHING ZDROWOTNY'
+  intro: 'Naturopata jest także mentorem i coachem zdrowotnym. Moduł obejmuje podstawy mentorstwa medycznego,
+    metodykę coachingu (model GROW), psychologię zdrowia i komunikację terapeutyczną, wypalenie zawodowe
+    oraz mentoring zawodowy naturopatów.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: 17.1. Podstawy mentorstwa medycznego
+    subchapter: false
+    content_file: chapters/01-17-1-podstawy-mentorstwa-medycznego.md
+    hidden: false
+  - title: 17.2. Coaching zdrowotny – metodyka
+    subchapter: false
+    content_file: chapters/02-17-2-coaching-zdrowotny-metodyka.md
+    hidden: false
+  - title: 17.3. Mentorstwo i coaching w praktyce naturopatycznej
+    subchapter: false
+    content_file: chapters/03-17-3-mentorstwo-i-coaching-w-praktyce-naturopatycz.md
+    hidden: false
+  - title: 17.4. Psychologia zdrowia i komunikacja terapeutyczna
+    subchapter: false
+    content_file: chapters/04-17-4-psychologia-zdrowia-i-komunikacja-terapeutycz.md
+    hidden: false
+  - title: 17.5. Wypalenie zawodowe i higiena psychiczna naturopaty
+    subchapter: false
+    content_file: chapters/05-17-5-wypalenie-zawodowe-i-higiena-psychiczna-natur.md
+    hidden: false
+  - title: 17.6. Mentoring zawodowy naturopatów
+    subchapter: false
+    content_file: chapters/06-17-6-mentoring-zawodowy-naturopatow.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

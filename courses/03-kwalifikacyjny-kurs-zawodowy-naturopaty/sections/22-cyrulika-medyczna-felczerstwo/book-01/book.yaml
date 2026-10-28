@@ -1,0 +1,57 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: 'Podręcznik: Moduł 22: CYRULIKA MEDYCZNA – FELCZERSTWO'
+  intro: 'Cyrulika medyczna (felczerstwo) — historyczna sztuka ambulatoryjna: zaopatrzenie ran, unieruchomienie
+    złamań, iniekcje, płukania, nacięcie ropni, szczepienia i pierwsza pomoc. Moduł uczy jej w granicach
+    prawa współczesnego: wiele czynności wymaga uprawnień lekarskich lub pielęgniarskich — znakiem dojrzałości
+    jest odmowa poza kompetencjami.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: 22.1. Podstawy cyruliki medycznej i felczerstwa
+    subchapter: false
+    content_file: chapters/01-22-1-podstawy-cyruliki-medycznej-i-felczerstwa.md
+    hidden: false
+  - title: 22.10. Pierwsza pomoc i stany nagłe w praktyce felczerskiej
+    subchapter: false
+    content_file: chapters/02-22-10-pierwsza-pomoc-i-stany-nagle-w-praktyce-felc.md
+    hidden: false
+  - title: 22.2. Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych
+    subchapter: false
+    content_file: chapters/03-22-2-diagnostyka-i-ocena-stanu-zdrowia-w-warunkach.md
+    hidden: false
+  - title: 22.3. Zabiegi na ranach i tkankach miękkich
+    subchapter: false
+    content_file: chapters/04-22-3-zabiegi-na-ranach-i-tkankach-miekkich.md
+    hidden: false
+  - title: 22.4. Zabiegi ortopedyczne i unieruchomienie
+    subchapter: false
+    content_file: chapters/05-22-4-zabiegi-ortopedyczne-i-unieruchomienie.md
+    hidden: false
+  - title: 22.5. Iniekcje i podawanie leków
+    subchapter: false
+    content_file: chapters/06-22-5-iniekcje-i-podawanie-lekow.md
+    hidden: false
+  - title: 22.6. Zabiegi na układzie oddechowym
+    subchapter: false
+    content_file: chapters/07-22-6-zabiegi-na-ukladzie-oddechowym.md
+    hidden: false
+  - title: 22.7. Zabiegi na układzie pokarmowym i moczowym
+    subchapter: false
+    content_file: chapters/08-22-7-zabiegi-na-ukladzie-pokarmowym-i-moczowym.md
+    hidden: false
+  - title: 22.8. Zabiegi ambulatoryjne i drobna chirurgia
+    subchapter: false
+    content_file: chapters/09-22-8-zabiegi-ambulatoryjne-i-drobna-chirurgia.md
+    hidden: false
+  - title: 22.9. Szczepienia i immunoprofilaktyka
+    subchapter: false
+    content_file: chapters/10-22-9-szczepienia-i-immunoprofilaktyka.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

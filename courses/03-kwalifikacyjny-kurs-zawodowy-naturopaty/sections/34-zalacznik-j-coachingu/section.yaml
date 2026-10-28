@@ -1,10 +1,11 @@
 # Metadane sekcji
 id: 34
-name: "Załącznik J: Schematy coachingu i mentoringu zdrowotnego"
+name: 'Załącznik J: Schematy coachingu i mentoringu zdrowotnego'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-zawartosc.md"
+- type: book
+  ref: book-01
+  name: Załącznik J — Coaching i mentoring — księga

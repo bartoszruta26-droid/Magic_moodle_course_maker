@@ -19,8 +19,8 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 20.1 | page | Podstawy metodologii badań | 5 |
-| 20.2 | page | Rozwój zawodowy i kształcenie ustawiczne | 5 |
+| 20.1 | book | Podstawy metodologii badań | 5 |
+| 20.2 | book | Rozwój zawodowy i kształcenie ustawiczne | 5 |
 
 ## Cele kształcenia
 
@@ -30,7 +30,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

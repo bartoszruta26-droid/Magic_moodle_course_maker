@@ -1,0 +1,36 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: 'Podręcznik: Moduł 3: MEDYCZNA DIAGNOSTYKA KONWENCJONALNA'
+  intro: 'Diagnostyka konwencjonalna jest wspólną mową ochrony zdrowia. Naturopata nie stawia rozpoznania
+    lekarskiego — umie jednak przeprowadzić staranny wywiad i badanie przedmiotowe, odczytać wyniki badań
+    i rozpoznać alarmujące objawy wymagające pilnej konsultacji.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: 3.1. Badanie podmiotowe (wywiad)
+    subchapter: false
+    content_file: chapters/01-3-1-badanie-podmiotowe-wywiad.md
+    hidden: false
+  - title: 3.2. Badanie przedmiotowe
+    subchapter: false
+    content_file: chapters/02-3-2-badanie-przedmiotowe.md
+    hidden: false
+  - title: 3.3. Diagnostyka laboratoryjna – interpretacja wyników
+    subchapter: false
+    content_file: chapters/03-3-3-diagnostyka-laboratoryjna-interpretacja-wyniko.md
+    hidden: false
+  - title: 3.4. Diagnostyka obrazowa – interpretacja opisów
+    subchapter: false
+    content_file: chapters/04-3-4-diagnostyka-obrazowa-interpretacja-opisow.md
+    hidden: false
+  - title: 3.5. Diagnostyka funkcjonalna i różnicowa
+    subchapter: false
+    content_file: chapters/05-3-5-diagnostyka-funkcjonalna-i-roznicowa.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

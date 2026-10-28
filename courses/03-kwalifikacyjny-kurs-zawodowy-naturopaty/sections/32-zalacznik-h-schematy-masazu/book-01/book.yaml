@@ -1,0 +1,139 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: Załącznik H — Schematy masażu leczniczego — księga
+  intro: 'Schematy postępowania w masażu leczniczym wg A. Zborowskiego — gotowe plany zabiegowe dla najważniejszych
+    jednostek chorobowych.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: H.1. RZS
+    subchapter: false
+    content_file: chapters/01-h-1-rzs-okresy-i-iv-techniki-czas-czestotliwosc.md
+    hidden: false
+  - title: H.2. ZZSK
+    subchapter: false
+    content_file: chapters/02-h-2-zzsk-okres-zaostrzen-i-remisji-kolejnosc-oprac.md
+    hidden: false
+  - title: H.3. Choroba zwyrodnieniowa kręgosłupa
+    subchapter: false
+    content_file: chapters/03-h-3-choroba-zwyrodnieniowa-kregoslupa-odcinki-szyj.md
+    hidden: false
+  - title: H.4. Dyskopatia i rwa kulszowa
+    subchapter: false
+    content_file: chapters/04-h-4-dyskopatia-i-rwa-kulszowa-okres-ostry-podostry.md
+    hidden: false
+  - title: H.5. Zespół bolesnego barku (PHS)
+    subchapter: false
+    content_file: chapters/05-h-5-zespol-bolesnego-barku-phs-okres-ostry-podostr.md
+    hidden: false
+  - title: H.6. Choroby dróg oddechowych
+    subchapter: false
+    content_file: chapters/06-h-6-choroby-drog-oddechowych-masaz-segmentarny-i-k.md
+    hidden: false
+  - title: H.7. Choroby serca
+    subchapter: false
+    content_file: chapters/07-h-7-choroby-serca-masaz-segmentarny-drenaz-limfaty.md
+    hidden: false
+  - title: H.8. Choroby naczyń obwodowych
+    subchapter: false
+    content_file: chapters/08-h-8-choroby-naczyn-obwodowych-masaz-klasyczny-i-se.md
+    hidden: false
+  - title: H.9. Porażenia nerwów obwodowych
+    subchapter: false
+    content_file: chapters/09-h-9-porazenia-nerwow-obwodowych-nerw-lokciowy-posr.md
+    hidden: false
+  - title: H.10. Porażenie połowicze
+    subchapter: false
+    content_file: chapters/10-h-10-porazenie-polowicze-okresy-techniki-masazu-me.md
+    hidden: false
+  - title: H.11. Choroby przewodu pokarmowego
+    subchapter: false
+    content_file: chapters/11-h-11-choroby-przewodu-pokarmowego-masaz-segmentarn.md
+    hidden: false
+  - title: H.12. Choroby układu moczowego
+    subchapter: false
+    content_file: chapters/12-h-12-choroby-ukladu-moczowego-masaz-segmentarny.md
+    hidden: false
+  - title: H.13. Choroby kobiecych narządów płciowych
+    subchapter: false
+    content_file: chapters/13-h-13-choroby-kobiecych-narzadow-plciowych-masaz-se.md
+    hidden: false
+  - title: H.14. Stany po urazach
+    subchapter: false
+    content_file: chapters/14-h-14-stany-po-urazach-skrecenia-zwichniecia-zlaman.md
+    hidden: false
+  - title: H.15. Wady postawy
+    subchapter: false
+    content_file: chapters/15-h-15-wady-postawy-skoliozy-kifozy-lordozy-wady-sto.md
+    hidden: false
+  - title: G.1. RZS
+    subchapter: false
+    content_file: chapters/16-g-1-rzs-okresy-i-iv-techniki-czas-czestotliwosc-ma.md
+    hidden: false
+  - title: G.2. ZZSK
+    subchapter: false
+    content_file: chapters/17-g-2-zzsk-okres-zaostrzen-i-remisji-kolejnosc-oprac.md
+    hidden: false
+  - title: G.3. Choroba zwyrodnieniowa kręgosłupa
+    subchapter: false
+    content_file: chapters/18-g-3-choroba-zwyrodnieniowa-kregoslupa-odcinki-szyj.md
+    hidden: false
+  - title: G.4. Dyskopatia i rwa kulszowa
+    subchapter: false
+    content_file: chapters/19-g-4-dyskopatia-i-rwa-kulszowa-okres-ostry-podostry.md
+    hidden: false
+  - title: G.5. Zespół bolesnego barku (PHS)
+    subchapter: false
+    content_file: chapters/20-g-5-zespol-bolesnego-barku-phs-okres-ostry-podostr.md
+    hidden: false
+  - title: G.6. Choroby dróg oddechowych
+    subchapter: false
+    content_file: chapters/21-g-6-choroby-drog-oddechowych-masaz-segmentarny-i-k.md
+    hidden: false
+  - title: G.7. Choroby serca
+    subchapter: false
+    content_file: chapters/22-g-7-choroby-serca-masaz-segmentarny-drenaz-limfaty.md
+    hidden: false
+  - title: G.8. Choroby naczyń obwodowych
+    subchapter: false
+    content_file: chapters/23-g-8-choroby-naczyn-obwodowych-masaz-klasyczny-i-se.md
+    hidden: false
+  - title: G.9. Porażenia nerwów obwodowych
+    subchapter: false
+    content_file: chapters/24-g-9-porazenia-nerwow-obwodowych-nerw-lokciowy-posr.md
+    hidden: false
+  - title: G.10. Porażenie połowicze
+    subchapter: false
+    content_file: chapters/25-g-10-porazenie-polowicze-okresy-techniki-masazu-me.md
+    hidden: false
+  - title: G.11. Choroby przewodu pokarmowego
+    subchapter: false
+    content_file: chapters/26-g-11-choroby-przewodu-pokarmowego-masaz-segmentarn.md
+    hidden: false
+  - title: G.12. Choroby układu moczowego
+    subchapter: false
+    content_file: chapters/27-g-12-choroby-ukladu-moczowego-masaz-segmentarny-ka.md
+    hidden: false
+  - title: G.13. Choroby kobiecych narządów płciowych
+    subchapter: false
+    content_file: chapters/28-g-13-choroby-kobiecych-narzadow-plciowych-masaz-se.md
+    hidden: false
+  - title: G.14. Stany po urazach
+    subchapter: false
+    content_file: chapters/29-g-14-stany-po-urazach-skrecenia-zwichniecia-zlaman.md
+    hidden: false
+  - title: G.15. Wady postawy
+    subchapter: false
+    content_file: chapters/30-g-15-wady-postawy-skoliozy-funkcjonalne-masaz-w-5.md
+    hidden: false
+  - title: Załącznik H – Schematy postępowania w masażu leczniczym (wg A. Zborowskiego)
+    subchapter: false
+    content_file: chapters/31-01-zawartosc.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

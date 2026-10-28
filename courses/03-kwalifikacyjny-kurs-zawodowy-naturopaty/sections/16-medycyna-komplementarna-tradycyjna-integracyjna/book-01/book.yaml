@@ -1,0 +1,32 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: 'Podręcznik: Moduł 16: MEDYCYNA KOMPLEMENTARNA, TRADYCYJNA I INTEGRACYJNA'
+  intro: 'Medycyna komplementarna, tradycyjna i integracyjna: akupunktura, homeopatia (krytycznie), aromaterapia,
+    głębia oddechu, chiropraktyka i osteopatia, terapia czaszasakralna, refleksologia, Ayuverda i TCM.
+    Moduł uczy oceniać dowody i integrować to, co dobre, nie odrzucając niczego pochopnie.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: 16.1. Przegląd systemów medycyny tradycyjnej
+    subchapter: false
+    content_file: chapters/01-16-1-przeglad-systemow-medycyny-tradycyjnej.md
+    hidden: false
+  - title: 16.2. Terapie komplementarne – przegląd i zastosowanie
+    subchapter: false
+    content_file: chapters/02-16-2-terapie-komplementarne-przeglad-i-zastosowani.md
+    hidden: false
+  - title: 16.3. Medycyna integracyjna – łączenie podejść
+    subchapter: false
+    content_file: chapters/03-16-3-medycyna-integracyjna-laczenie-podejsc.md
+    hidden: false
+  - title: 16.4. Wymiar duchowy i egzystencjalny w zdrowieniu
+    subchapter: false
+    content_file: chapters/04-16-4-wymiar-duchowy-i-egzystencjalny-w-zdrowieniu.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

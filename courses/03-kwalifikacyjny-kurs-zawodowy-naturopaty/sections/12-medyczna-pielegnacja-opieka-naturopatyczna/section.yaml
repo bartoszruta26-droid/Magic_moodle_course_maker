@@ -1,24 +1,15 @@
 # Metadane sekcji
 id: 12
-name: "Moduł 12: MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA"
+name: 'Moduł 12: MEDYCZNA PIELĘGNACJA I OPIEKA NATUROPATYCZNA'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-12-1-podstawy-pielegnacji-medycznej.md"
-    name: "12.1. Podstawy pielęgnacji medycznej"
-  - type: page
-    ref: "page-12-2-zabiegi-pielegnacyjne-i-lecznicze.md"
-    name: "12.2. Zabiegi pielęgnacyjne i lecznicze"
-  - type: page
-    ref: "page-12-3-opieka-naturopatyczna-w-wybranych-stanach.md"
-    name: "12.3. Opieka naturopatyczna w wybranych stanach"
-  - type: page
-    ref: "page-12-4-pierwsza-pomoc-i-stany-nag-e.md"
-    name: "12.4. Pierwsza pomoc i stany nagłe"
-  - type: quiz
-    ref: quiz-01
-  - type: assignment
-    ref: assignment-01
+- type: book
+  ref: book-01
+  name: Podręcznik modułu 12
+- type: quiz
+  ref: quiz-01
+- type: assignment
+  ref: assignment-01

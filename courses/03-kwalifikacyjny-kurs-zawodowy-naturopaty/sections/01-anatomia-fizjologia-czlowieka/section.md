@@ -19,9 +19,9 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 1.1 | page | Anatomia ogólna i topograficzna | 15 |
-| 1.2 | page | Fizjologia człowieka | 12 |
-| 1.3 | page | Anatomia i fizjologia w kontekście praktycznym naturopaty | 6 |
+| 1.1 | book | Anatomia ogólna i topograficzna | 15 |
+| 1.2 | book | Fizjologia człowieka | 12 |
+| 1.3 | book | Anatomia i fizjologia w kontekście praktycznym naturopaty | 6 |
 
 ## Cele kształcenia
 
@@ -31,7 +31,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

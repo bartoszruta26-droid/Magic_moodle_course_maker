@@ -1,0 +1,28 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: 'Podręcznik: Moduł 15: MEDYCYNA FIZYKALNA I ZABIEGI FIZYKOTERAPEUTYCZNE'
+  intro: 'Fizykoterapia i hydroterapia wykorzystują bodźce fizykalne — wodę, ciepło, zimno, prąd, światło,
+    pole magnetyczne. Moduł uczy doboru zabiegów, zasad bezpieczeństwa (m.in. przeciwwskazań przy rozruszniku
+    serca) i dokumentacji.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: 15.1. Hydroterapia i balneologia
+    subchapter: false
+    content_file: chapters/01-15-1-hydroterapia-i-balneologia.md
+    hidden: false
+  - title: 15.2. Termoterapia i fototerapia
+    subchapter: false
+    content_file: chapters/02-15-2-termoterapia-i-fototerapia.md
+    hidden: false
+  - title: 15.3. Elektroterapia i inne formy fizykoterapii
+    subchapter: false
+    content_file: chapters/03-15-3-elektroterapia-i-inne-formy-fizykoterapii.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

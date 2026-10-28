@@ -19,8 +19,8 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 23.1 | page | Podstawy prawne | 7 |
-| 23.2 | page | Organizacja i prowadzenie praktyki | 7 |
+| 23.1 | book | Podstawy prawne | 7 |
+| 23.2 | book | Organizacja i prowadzenie praktyki | 7 |
 
 ## Cele kształcenia
 
@@ -30,7 +30,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

@@ -1,30 +1,15 @@
 # Metadane sekcji
 id: 8
-name: "Moduł 8: DRENAŻ LIMFATYCZNY"
+name: 'Moduł 8: DRENAŻ LIMFATYCZNY'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-8-1-podstawy-anatomiczne-i-fizjologiczne-uk-adu-limfatycznego.md"
-    name: "8.1. Podstawy anatomiczne i fizjologiczne układu limfatycznego"
-  - type: page
-    ref: "page-8-2-zasady-stosowania-drenazu-limfatycznego.md"
-    name: "8.2. Zasady stosowania drenażu limfatycznego"
-  - type: page
-    ref: "page-8-3-techniki-drenazu-limfatycznego-metoda-polska.md"
-    name: "8.3. Techniki drenażu limfatycznego – metoda polska"
-  - type: page
-    ref: "page-8-4-techniki-drenazu-limfatycznego-metoda-niemiecka.md"
-    name: "8.4. Techniki drenażu limfatycznego – metoda niemiecka"
-  - type: page
-    ref: "page-8-5-praktyczne-wykonanie-drenazu-limfatycznego.md"
-    name: "8.5. Praktyczne wykonanie drenażu limfatycznego"
-  - type: page
-    ref: "page-8-6-drenaz-limfatyczny-w-jednostkach-chorobowych.md"
-    name: "8.6. Drenaż limfatyczny w jednostkach chorobowych"
-  - type: quiz
-    ref: quiz-01
-  - type: assignment
-    ref: assignment-01
+- type: book
+  ref: book-01
+  name: Podręcznik modułu 8
+- type: quiz
+  ref: quiz-01
+- type: assignment
+  ref: assignment-01

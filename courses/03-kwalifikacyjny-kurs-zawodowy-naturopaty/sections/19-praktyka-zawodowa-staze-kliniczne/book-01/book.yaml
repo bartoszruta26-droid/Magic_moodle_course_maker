@@ -1,0 +1,40 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: 'Podręcznik: Moduł 19: PRAKTYKA ZAWODOWA I STAŻE KLINICZNE'
+  intro: 'Wiedza bez praktyki jest jak kwiat bez owocu. Moduł prowadzi przez praktykę gabinetową masażu
+    i terapii manualnych, kinezyterapii, fitoterapii i dietetyki, diagnostyki integracyjnej, coachingu
+    oraz staż obserwacyjny — z dokumentacją i superwizją.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: 19.1. Praktyka gabinetowa – masaż i terapie manualne
+    subchapter: false
+    content_file: chapters/01-19-1-praktyka-gabinetowa-masaz-i-terapie-manualne.md
+    hidden: false
+  - title: 19.2. Praktyka – kinezyterapia i trening medyczny
+    subchapter: false
+    content_file: chapters/02-19-2-praktyka-kinezyterapia-i-trening-medyczny.md
+    hidden: false
+  - title: 19.3. Praktyka – fitoterapia, dietetyka i pielęgnacja
+    subchapter: false
+    content_file: chapters/03-19-3-praktyka-fitoterapia-dietetyka-i-pielegnacja.md
+    hidden: false
+  - title: 19.4. Praktyka – diagnostyka i konsultacja integracyjna
+    subchapter: false
+    content_file: chapters/04-19-4-praktyka-diagnostyka-i-konsultacja-integracyj.md
+    hidden: false
+  - title: 19.5. Praktyka – mentorstwo i coaching zdrowotny
+    subchapter: false
+    content_file: chapters/05-19-5-praktyka-mentorstwo-i-coaching-zdrowotny.md
+    hidden: false
+  - title: 19.6. Staż obserwacyjny
+    subchapter: false
+    content_file: chapters/06-19-6-staz-obserwacyjny.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

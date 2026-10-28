@@ -1,0 +1,83 @@
+# Aktywność typu book — podręcznik sekcji (preferowana aktywność kursu)
+book:
+  name: Załącznik G — Mapy anatomiczne — księga
+  intro: 'Mapy i schematy anatomiczne niezbędne w praktyce manualnej: mięśnie, chłonka, strefy Heada i
+    Mackenziego, punkty maksymalne, pozycje drenażowe.
+
+    '
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+  - title: G.1. Układ mięśniowy
+    subchapter: false
+    content_file: chapters/01-g-1-uklad-miesniowy-warstwy-powierzchowne-i-glebok.md
+    hidden: false
+  - title: G.2. Układ limfatyczny
+    subchapter: false
+    content_file: chapters/02-g-2-uklad-limfatyczny-wezly-chlonne-i-naczynia-glo.md
+    hidden: false
+  - title: G.3. Punkty spustowe
+    subchapter: false
+    content_file: chapters/03-g-3-punkty-spustowe-lokalizacja-i-promieniowanie-b.md
+    hidden: false
+  - title: G.4. Strefy odruchowe Heada i Mackenziego
+    subchapter: false
+    content_file: chapters/04-g-4-strefy-odruchowe-heada-i-mackenziego-unerwieni.md
+    hidden: false
+  - title: G.5. Unerwienie segmentarne narządów wewnętrznych
+    subchapter: false
+    content_file: chapters/05-g-5-unerwienie-segmentarne-narzadow-wewnetrznych-t.md
+    hidden: false
+  - title: G.6. Meridiany i punkty akupunkturowe
+    subchapter: false
+    content_file: chapters/06-g-6-meridiany-i-punkty-akupunkturowe-przeglad.md
+    hidden: false
+  - title: G.7. Refleksologia
+    subchapter: false
+    content_file: chapters/07-g-7-refleksologia-mapy-stop-i-dloni.md
+    hidden: false
+  - title: G.8. Punkty maksymalne w masażu segmentarnym
+    subchapter: false
+    content_file: chapters/08-g-8-punkty-maksymalne-w-masazu-segmentarnym-lokali.md
+    hidden: false
+  - title: G.9. Pozycje drenażowe w chorobach płuc
+    subchapter: false
+    content_file: chapters/09-g-9-pozycje-drenazowe-w-chorobach-pluc-wg-segmento.md
+    hidden: false
+  - title: G.10. Schematy masażu w jednostkach chorobowych
+    subchapter: false
+    content_file: chapters/10-g-10-schematy-masazu-w-jednostkach-chorobowych-kol.md
+    hidden: false
+  - title: F.2. Układ limfatyczny
+    subchapter: false
+    content_file: chapters/11-f-2-uklad-limfatyczny-wezly-chlonne-i-naczynia-glo.md
+    hidden: false
+  - title: F.4. Strefy odruchowe Heada i Mackenziego
+    subchapter: false
+    content_file: chapters/12-f-4-strefy-odruchowe-heada-i-mackenziego-unerwieni.md
+    hidden: false
+  - title: F.8. Punkty maksymalne w masażu segmentarnym
+    subchapter: false
+    content_file: chapters/13-f-8-punkty-maksymalne-w-masazu-segmentarnym-lokali.md
+    hidden: false
+  - title: F.9. Pozycje drenażowe w chorobach płuc
+    subchapter: false
+    content_file: chapters/14-f-9-pozycje-drenazowe-w-chorobach-pluc-wg-segmento.md
+    hidden: false
+  - title: F.11. Pozycje przeciwzrostowe wg Bruce’a (zapalenie opłucnej)
+    subchapter: false
+    content_file: chapters/15-f-11-pozycje-przeciwzrostowe-wg-bruce-a-zapalenie.md
+    hidden: false
+  - title: F.12. Punkty masażu punktowego
+    subchapter: false
+    content_file: chapters/16-f-12-punkty-masazu-punktowego-astma-bole-glowy-rwa.md
+    hidden: false
+  - title: Załącznik G – Mapy i schematy anatomiczne
+    subchapter: false
+    content_file: chapters/17-01-zawartosc.md
+    hidden: false
+  completion:
+    enabled: true
+    type: view

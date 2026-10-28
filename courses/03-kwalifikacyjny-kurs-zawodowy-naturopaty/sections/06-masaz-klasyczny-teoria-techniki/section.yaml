@@ -1,24 +1,15 @@
 # Metadane sekcji
 id: 6
-name: "Moduł 6: MASAŻ KLASYCZNY – TEORIA I TECHNIKI"
+name: 'Moduł 6: MASAŻ KLASYCZNY – TEORIA I TECHNIKI'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-6-1-podstawy-teoretyczne-masazu-klasycznego.md"
-    name: "6.1. Podstawy teoretyczne masażu klasycznego"
-  - type: page
-    ref: "page-6-2-techniki-masazu-klasycznego.md"
-    name: "6.2. Techniki masażu klasycznego"
-  - type: page
-    ref: "page-6-3-masaz-klasyczny-poszczegolnych-okolic-cia-a.md"
-    name: "6.3. Masaż klasyczny poszczególnych okolic ciała"
-  - type: page
-    ref: "page-6-4-wskazania-i-przeciwwskazania-do-masazu.md"
-    name: "6.4. Wskazania i przeciwwskazania do masażu"
-  - type: quiz
-    ref: quiz-01
-  - type: assignment
-    ref: assignment-01
+- type: book
+  ref: book-01
+  name: Podręcznik modułu 6
+- type: quiz
+  ref: quiz-01
+- type: assignment
+  ref: assignment-01

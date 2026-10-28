@@ -1,10 +1,11 @@
 # Metadane sekcji
 id: 33
-name: "Załącznik I: Schematy kinezyterapii i treningu medycznego"
+name: 'Załącznik I: Schematy kinezyterapii i treningu medycznego'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-zawartosc.md"
+- type: book
+  ref: book-01
+  name: Załącznik I — Kinezyterapia — księga

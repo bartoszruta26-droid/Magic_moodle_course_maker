@@ -21,16 +21,16 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 22.1 | page | Podstawy cyruliki medycznej i felczerstwa | 5 |
-| 22.2 | page | Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych | 6 |
-| 22.3 | page | Zabiegi na ranach i tkankach miękkich | 9 |
-| 22.4 | page | Zabiegi ortopedyczne i unieruchomienie | 8 |
-| 22.5 | page | Iniekcje i podawanie leków | 8 |
-| 22.6 | page | Zabiegi na układzie oddechowym | 5 |
-| 22.7 | page | Zabiegi na układzie pokarmowym i moczowym | 5 |
-| 22.8 | page | Zabiegi ambulatoryjne i drobna chirurgia | 8 |
-| 22.9 | page | Szczepienia i immunoprofilaktyka | 5 |
-| 22.10 | page | Pierwsza pomoc i stany nagłe w praktyce felczerskiej | 12 |
+| 22.1 | book | Podstawy cyruliki medycznej i felczerstwa | 5 |
+| 22.2 | book | Diagnostyka i ocena stanu zdrowia w warunkach ambulatoryjnych | 6 |
+| 22.3 | book | Zabiegi na ranach i tkankach miękkich | 9 |
+| 22.4 | book | Zabiegi ortopedyczne i unieruchomienie | 8 |
+| 22.5 | book | Iniekcje i podawanie leków | 8 |
+| 22.6 | book | Zabiegi na układzie oddechowym | 5 |
+| 22.7 | book | Zabiegi na układzie pokarmowym i moczowym | 5 |
+| 22.8 | book | Zabiegi ambulatoryjne i drobna chirurgia | 8 |
+| 22.9 | book | Szczepienia i immunoprofilaktyka | 5 |
+| 22.10 | book | Pierwsza pomoc i stany nagłe w praktyce felczerskiej | 12 |
 
 ## Cele kształcenia
 
@@ -40,7 +40,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

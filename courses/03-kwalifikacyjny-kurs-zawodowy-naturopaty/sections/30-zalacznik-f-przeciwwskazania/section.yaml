@@ -1,10 +1,11 @@
 # Metadane sekcji
 id: 30
-name: "Załącznik F: Wykaz przeciwwskazań bezwzględnych i względnych do zabiegów"
+name: 'Załącznik F: Wykaz przeciwwskazań bezwzględnych i względnych do zabiegów'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-01-zawartosc.md"
+- type: book
+  ref: book-01
+  name: Załącznik F — Przeciwwskazania — księga

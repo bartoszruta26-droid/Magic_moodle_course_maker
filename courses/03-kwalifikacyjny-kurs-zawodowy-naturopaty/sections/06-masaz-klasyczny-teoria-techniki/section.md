@@ -19,10 +19,10 @@ dwóch wersji programu kursu (rozszerzonej i dwuletniej).
 
 | Nr tematu | Typ zasobu | Temat | Liczba zagadnień |
 |-----------|------------|-------|------------------|
-| 6.1 | page | Podstawy teoretyczne masażu klasycznego | 8 |
-| 6.2 | page | Techniki masażu klasycznego | 7 |
-| 6.3 | page | Masaż klasyczny poszczególnych okolic ciała | 9 |
-| 6.4 | page | Wskazania i przeciwwskazania do masażu | 4 |
+| 6.1 | book | Podstawy teoretyczne masażu klasycznego | 8 |
+| 6.2 | book | Techniki masażu klasycznego | 7 |
+| 6.3 | book | Masaż klasyczny poszczególnych okolic ciała | 9 |
+| 6.4 | book | Wskazania i przeciwwskazania do masażu | 4 |
 
 ## Cele kształcenia
 
@@ -32,7 +32,7 @@ i granic kompetencji zawodu (*primum non nocere*).
 
 ## Kryteria ukończenia sekcji
 
-1. ✅ Przeczytanie wszystkich stron tematycznych (page)
+1. ✅ Przeczytanie wszystkich rozdziałów podręcznika (book)
 2. ✅ Ukończenie quizu sprawdzającego z wynikiem co najmniej 60%
 3. ✅ Oddanie zadania modułowego (assignment)
 

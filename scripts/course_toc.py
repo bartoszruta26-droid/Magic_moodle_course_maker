@@ -354,6 +354,18 @@ def parse_course(path: str | Path) -> Course:
             sub_title = flat[msub.end(1):].lstrip(". \t")
             cur_topic.subtopics.append(Subtopic(num=msub.group(1), title=sub_title))
             continue
+        # wariant naprawczy (kurs masażu): w spisie treści przy temacie 4.7
+        # podtematy zapisano błędnie jako "7.1.".."7.15." (brak trzeciego
+        # członu numeru) zamiast "4.7.1.".."4.7.15.". Wyłapujemy linie
+        # "NN.M. Tytuł", które NIE są nowym tematem bieżącego modułu, i
+        # przypisujemy je do bieżącego tematu z poprawionym numerem —
+        # bez zmiany pliku źródłowego.
+        m2c = _RE_TOPIC.match(flat)
+        if (m2c and cur_topic is not None and cur_mod is not None
+                and int(m2c.group(1)) != cur_mod.index):
+            fixed = f"{cur_topic.num}.{m2c.group(2)}"
+            cur_topic.subtopics.append(Subtopic(num=fixed, title=m2c.group(3)))
+            continue
 
     # porzadkowanie
     course.modules.sort(key=lambda m: m.index)

@@ -1,21 +1,15 @@
 # Metadane sekcji
 id: 1
-name: "Moduł 1: ANATOMIA I FIZJOLOGIA CZŁOWIEKA"
+name: 'Moduł 1: ANATOMIA I FIZJOLOGIA CZŁOWIEKA'
 visible: 1
 summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: page
-    ref: "page-1-1-anatomia-ogolna-i-topograficzna.md"
-    name: "1.1. Anatomia ogólna i topograficzna"
-  - type: page
-    ref: "page-1-2-fizjologia-cz-owieka.md"
-    name: "1.2. Fizjologia człowieka"
-  - type: page
-    ref: "page-1-3-anatomia-i-fizjologia-w-kontekscie-praktycznym-naturopaty.md"
-    name: "1.3. Anatomia i fizjologia w kontekście praktycznym naturopaty"
-  - type: quiz
-    ref: quiz-01
-  - type: assignment
-    ref: assignment-01
+- type: book
+  ref: book-01
+  name: Podręcznik modułu 1
+- type: quiz
+  ref: quiz-01
+- type: assignment
+  ref: assignment-01
