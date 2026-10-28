@@ -1,3 +1,11 @@
-# L.1 Adam Zborowski, *Masaż klasyczny i segmentarny*
+# L.1. Adam Zborowski, *Masaż klasyczny i segmentarny*
 
-**Adam Zborowski, *Masaż klasyczny i segmentarny*, Wydawnictwo Lekarskie PZWL.** Fundament programu: klasyfikacja technik, dawkowanie, masaż segmentarny wg stref Heada. Czytaj z atlasem w drugiej ręce — opis Zborowskiego nabiera sensu dopiero na ciele. Edycje nowsze zawierają rozdziały o drenażu limfatycznym; porównuj wydania, by śledzić rozwój metody.
+> **Załącznik l, pozycja 1** — materiał referencyjny kursu kwalifikacyjnego MED.10 „Wykonywanie masaży”. Stosuj zgodnie z regulaminem kursu; treść oparta na podstawie programowej i aktualnej wiedzy praktycznej.
+
+Masażysta jest w obiegu informacji medycznej. Cytowanie wiarygodnych autorów chroni klienta przed dezinformacją, a Ciebie przed błędem. Zasada: jeśli twierdzenie nie ma oparcia w podręczniku/wytycznych — nie powtarzaj go klientowi jako faktu.
+
+Fundament metodyczny polskich szkół masażu: techniki, wskazania, przeciwwskazania, protokoły. Korzystaj z wydań aktualnych; notuj numery stron przy cytatach w kartach pracy.
+
+---
+
+**Pamiętaj:** prawda — nigdy nie zatajaj przeciwwskazań ani granic swoich kompetencji; piękno — dbałość o detal, higienę i szacunek dla ciała drugiego człowieka; sprawiedliwość — działaj wyłącznie w zakresie posiadanych uprawnień, a w razie wątpliwości pokieruj klienta do lekarza.

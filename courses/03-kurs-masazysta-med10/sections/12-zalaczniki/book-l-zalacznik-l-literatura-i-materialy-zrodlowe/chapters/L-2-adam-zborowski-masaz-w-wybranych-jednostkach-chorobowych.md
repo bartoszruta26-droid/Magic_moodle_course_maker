@@ -1,3 +1,11 @@
-# L.2 Adam Zborowski, *Masaż w wybranych jednostkach chorobowych*
+# L.2. Adam Zborowski, *Masaż w wybranych jednostkach chorobowych*
 
-**Adam Zborowski, *Masaż w wybranych jednostkach chorobowych*, PZWL.** Most między patologią a zabiegiem: przy każdej chorobie wskazania, przeciwwskazania, modyfikacje techniki. Ćwicz czytanie „od choroby do dłoni”: jednostka → reakcja ustroju → dobór techniki → dokumentacja. To twoja mapa na egzamin MED.10 i do codziennej pracy.
+> **Załącznik l, pozycja 2** — materiał referencyjny kursu kwalifikacyjnego MED.10 „Wykonywanie masaży”. Stosuj zgodnie z regulaminem kursu; treść oparta na podstawie programowej i aktualnej wiedzy praktycznej.
+
+Masażysta jest w obiegu informacji medycznej. Cytowanie wiarygodnych autorów chroni klienta przed dezinformacją, a Ciebie przed błędem. Zasada: jeśli twierdzenie nie ma oparcia w podręczniku/wytycznych — nie powtarzaj go klientowi jako faktu.
+
+Fundament metodyczny polskich szkół masażu: techniki, wskazania, przeciwwskazania, protokoły. Korzystaj z wydań aktualnych; notuj numery stron przy cytatach w kartach pracy.
+
+---
+
+**Pamiętaj:** prawda — nigdy nie zatajaj przeciwwskazań ani granic swoich kompetencji; piękno — dbałość o detal, higienę i szacunek dla ciała drugiego człowieka; sprawiedliwość — działaj wyłącznie w zakresie posiadanych uprawnień, a w razie wątpliwości pokieruj klienta do lekarza.
