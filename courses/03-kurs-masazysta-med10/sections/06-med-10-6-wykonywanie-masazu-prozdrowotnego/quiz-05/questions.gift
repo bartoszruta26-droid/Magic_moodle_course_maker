@@ -1,0 +1,49 @@
+// Quiz: 6.5. Masaż profilaktyczny — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-65-q1:: Zagadnienie „6.5.1. Profilaktyka bólów kręgosłupa” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q1b:: Zagadnienie „6.5.2. Profilaktyka napięcia barków i karku” jest elementem zagadnienia „6.5.1. Profilaktyka bólów kręgosłupa”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q2:: Zagadnienie „6.5.2. Profilaktyka napięcia barków i karku” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q2b:: Zagadnienie „6.5.3. Profilaktyka obrzęków nóg” jest elementem zagadnienia „6.5.2. Profilaktyka napięcia barków i karku”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q3:: Zagadnienie „6.5.3. Profilaktyka obrzęków nóg” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q3b:: Zagadnienie „6.5.4. Profilaktyka przeciążeń kończyn górnych” jest elementem zagadnienia „6.5.3. Profilaktyka obrzęków nóg”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q4:: Zagadnienie „6.5.4. Profilaktyka przeciążeń kończyn górnych” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q4b:: Zagadnienie „6.5.5. Profilaktyka stóp i chodu” jest elementem zagadnienia „6.5.4. Profilaktyka przeciążeń kończyn górnych”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q5:: Zagadnienie „6.5.5. Profilaktyka stóp i chodu” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q5b:: Zagadnienie „6.5.6. Edukacja posturalna” jest elementem zagadnienia „6.5.5. Profilaktyka stóp i chodu”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q6:: Zagadnienie „6.5.6. Edukacja posturalna” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q6b:: Zagadnienie „6.5.7. Ćwiczenia domowe — w granicach kompetencji” jest elementem zagadnienia „6.5.6. Edukacja posturalna”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q7:: Zagadnienie „6.5.7. Ćwiczenia domowe — w granicach kompetencji” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q7b:: Zagadnienie „6.5.8. Ergonomia pracy” jest elementem zagadnienia „6.5.7. Ćwiczenia domowe — w granicach kompetencji”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q8:: Zagadnienie „6.5.8. Ergonomia pracy” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q8b:: Zagadnienie „6.5.9. Sen i regeneracja” jest elementem zagadnienia „6.5.8. Ergonomia pracy”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q9:: Zagadnienie „6.5.9. Sen i regeneracja” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::tf-s06-65-q9b:: Zagadnienie „6.5.10. Kiedy skierować do lekarza” jest elementem zagadnienia „6.5.9. Sen i regeneracja”, a nie tematu „Masaż profilaktyczny” (6.5). {FALSE} //
+
+::tf-s06-65-q10:: Zagadnienie „6.5.10. Kiedy skierować do lekarza” wchodzi w zakres tematu „Masaż profilaktyczny” (6.5). {TRUE} //
+
+::mc-s06-65:: Które zagadnienie należy bezpośrednio do tematu „Masaż profilaktyczny” (6.5)? {
+    = 6.5.1. Profilaktyka bólów kręgosłupa
+    ~ 6.5.2. Profilaktyka napięcia barków i karku
+    ~ 6.5.3. Profilaktyka obrzęków nóg
+    ~ 2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek
+    ~ 3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru
+    ~ 5.4.3. Drobne przeciążenia
+}

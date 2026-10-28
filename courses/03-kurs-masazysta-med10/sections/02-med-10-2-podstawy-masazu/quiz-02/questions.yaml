@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.2. System ubezpieczeń zdrowotnych"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.2 — zagadnienie 1"
+    text: "Zagadnienie „2.2.1. Pojęcie ubezpieczenia zdrowotnego” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 1"
+    text: "Zagadnienie „2.2.2. Powszechne ubezpieczenie zdrowotne” jest elementem zagadnienia „2.2.1. Pojęcie ubezpieczenia zdrowotnego”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 2"
+    text: "Zagadnienie „2.2.2. Powszechne ubezpieczenie zdrowotne” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 2"
+    text: "Zagadnienie „2.2.3. Dobrowolne ubezpieczenia zdrowotne” jest elementem zagadnienia „2.2.2. Powszechne ubezpieczenie zdrowotne”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 3"
+    text: "Zagadnienie „2.2.3. Dobrowolne ubezpieczenia zdrowotne” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 3"
+    text: "Zagadnienie „2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu” jest elementem zagadnienia „2.2.3. Dobrowolne ubezpieczenia zdrowotne”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 4"
+    text: "Zagadnienie „2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 4"
+    text: "Zagadnienie „2.2.5. Zlecenie lekarskie a refundacja” jest elementem zagadnienia „2.2.4. Finansowanie świadczeń z zakresu rehabilitacji i masażu”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 5"
+    text: "Zagadnienie „2.2.5. Zlecenie lekarskie a refundacja” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 5"
+    text: "Zagadnienie „2.2.6. Prawa pacjenta w systemie ubezpieczeń” jest elementem zagadnienia „2.2.5. Zlecenie lekarskie a refundacja”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 6"
+    text: "Zagadnienie „2.2.6. Prawa pacjenta w systemie ubezpieczeń” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 6"
+    text: "Zagadnienie „2.2.7. Obowiązki pacjenta i świadczeniodawcy” jest elementem zagadnienia „2.2.6. Prawa pacjenta w systemie ubezpieczeń”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 7"
+    text: "Zagadnienie „2.2.7. Obowiązki pacjenta i świadczeniodawcy” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 7"
+    text: "Zagadnienie „2.2.8. Dokumentacja potrzebna do rozliczeń” jest elementem zagadnienia „2.2.7. Obowiązki pacjenta i świadczeniodawcy”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 8"
+    text: "Zagadnienie „2.2.8. Dokumentacja potrzebna do rozliczeń” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 8"
+    text: "Zagadnienie „2.2.9. Ubezpieczenie OC masażysty” jest elementem zagadnienia „2.2.8. Dokumentacja potrzebna do rozliczeń”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 9"
+    text: "Zagadnienie „2.2.9. Ubezpieczenie OC masażysty” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: truefalse
+    name: "2.2 — rozgraniczenie 9"
+    text: "Zagadnienie „2.2.10. Etyka wobec pacjenta prywatnego i pacjenta systemowego” jest elementem zagadnienia „2.2.9. Ubezpieczenie OC masażysty”, a nie tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: false
+  - type: truefalse
+    name: "2.2 — zagadnienie 10"
+    text: "Zagadnienie „2.2.10. Etyka wobec pacjenta prywatnego i pacjenta systemowego” wchodzi w zakres tematu „System ubezpieczeń zdrowotnych” (2.2)."
+    answer: true
+  - type: multichoice
+    name: "2.2 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „System ubezpieczeń zdrowotnych” (2.2)?"
+    answers:
+      - text: "2.2.1. Pojęcie ubezpieczenia zdrowotnego"  fraction: 100
+      - text: "1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja"  fraction: 0
+      - text: "3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem"  fraction: 0
+      - text: "5.3.7. Masaż schładzający"  fraction: 0

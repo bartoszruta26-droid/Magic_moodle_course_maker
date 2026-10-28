@@ -1,0 +1,49 @@
+// Quiz: 9.2. Dobór osób do zadań — moduł 9 (09-med-10-9-organizacja-pracy-malych-zespolow)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s09-92-q1:: Zagadnienie „9.2.1. Identyfikacja kompetencji członków zespołu” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q1b:: Zagadnienie „9.2.2. Umiejętności praktyczne” jest elementem zagadnienia „9.2.1. Identyfikacja kompetencji członków zespołu”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q2:: Zagadnienie „9.2.2. Umiejętności praktyczne” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q2b:: Zagadnienie „9.2.3. Kompetencje komunikacyjne” jest elementem zagadnienia „9.2.2. Umiejętności praktyczne”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q3:: Zagadnienie „9.2.3. Kompetencje komunikacyjne” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q3b:: Zagadnienie „9.2.4. Odpowiedzialność i rzetelność” jest elementem zagadnienia „9.2.3. Kompetencje komunikacyjne”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q4:: Zagadnienie „9.2.4. Odpowiedzialność i rzetelność” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q4b:: Zagadnienie „9.2.5. Rozpoznawanie mocnych stron” jest elementem zagadnienia „9.2.4. Odpowiedzialność i rzetelność”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q5:: Zagadnienie „9.2.5. Rozpoznawanie mocnych stron” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q5b:: Zagadnienie „9.2.6. Rozpoznawanie ograniczeń” jest elementem zagadnienia „9.2.5. Rozpoznawanie mocnych stron”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q6:: Zagadnienie „9.2.6. Rozpoznawanie ograniczeń” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q6b:: Zagadnienie „9.2.7. Delegowanie zadań” jest elementem zagadnienia „9.2.6. Rozpoznawanie ograniczeń”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q7:: Zagadnienie „9.2.7. Delegowanie zadań” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q7b:: Zagadnienie „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje” jest elementem zagadnienia „9.2.7. Delegowanie zadań”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q8:: Zagadnienie „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q8b:: Zagadnienie „9.2.9. Wsparcie słabszych członków zespołu” jest elementem zagadnienia „9.2.8. Zasada: nie obciążaj osoby poza jej kompetencje”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q9:: Zagadnienie „9.2.9. Wsparcie słabszych członków zespołu” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::tf-s09-92-q9b:: Zagadnienie „9.2.10. Sprawiedliwy podział pracy” jest elementem zagadnienia „9.2.9. Wsparcie słabszych członków zespołu”, a nie tematu „Dobór osób do zadań” (9.2). {FALSE} //
+
+::tf-s09-92-q10:: Zagadnienie „9.2.10. Sprawiedliwy podział pracy” wchodzi w zakres tematu „Dobór osób do zadań” (9.2). {TRUE} //
+
+::mc-s09-92:: Które zagadnienie należy bezpośrednio do tematu „Dobór osób do zadań” (9.2)? {
+    = 9.2.1. Identyfikacja kompetencji członków zespołu
+    ~ 9.2.2. Umiejętności praktyczne
+    ~ 9.2.3. Kompetencje komunikacyjne
+    ~ 2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek
+    ~ 3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru
+    ~ 5.4.3. Drobne przeciążenia
+}

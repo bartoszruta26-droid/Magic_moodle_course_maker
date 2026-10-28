@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.6. Promocja zdrowia i profilaktyka"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.6 — zagadnienie 1"
+    text: "Zagadnienie „2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 1"
+    text: "Zagadnienie „2.6.2. Czynniki warunkujące utrzymanie zdrowia” jest elementem zagadnienia „2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 2"
+    text: "Zagadnienie „2.6.2. Czynniki warunkujące utrzymanie zdrowia” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 2"
+    text: "Zagadnienie „2.6.3. Czynniki negatywnie wpływające na zdrowie” jest elementem zagadnienia „2.6.2. Czynniki warunkujące utrzymanie zdrowia”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 3"
+    text: "Zagadnienie „2.6.3. Czynniki negatywnie wpływające na zdrowie” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 3"
+    text: "Zagadnienie „2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa” jest elementem zagadnienia „2.6.3. Czynniki negatywnie wpływające na zdrowie”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 4"
+    text: "Zagadnienie „2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 4"
+    text: "Zagadnienie „2.6.5. Edukacja prozdrowotna pacjenta” jest elementem zagadnienia „2.6.4. Profilaktyka pierwotna, wtórna, trzeciorzędowa”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 5"
+    text: "Zagadnienie „2.6.5. Edukacja prozdrowotna pacjenta” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 5"
+    text: "Zagadnienie „2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres” jest elementem zagadnienia „2.6.5. Edukacja prozdrowotna pacjenta”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 6"
+    text: "Zagadnienie „2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 6"
+    text: "Zagadnienie „2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego” jest elementem zagadnienia „2.6.6. Zdrowy styl życia: ruch, sen, odżywianie, higiena, stres”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 7"
+    text: "Zagadnienie „2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 7"
+    text: "Zagadnienie „2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego” jest elementem zagadnienia „2.6.7. Profilaktyka przeciążeń układu mięśniowo-powięziowego”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 8"
+    text: "Zagadnienie „2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 8"
+    text: "Zagadnienie „2.6.9. Profilaktyka odleżyn u osób unieruchomionych” jest elementem zagadnienia „2.6.8. Profilaktyka obrzęków i zaburzeń krążenia obwodowego”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 9"
+    text: "Zagadnienie „2.6.9. Profilaktyka odleżyn u osób unieruchomionych” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: truefalse
+    name: "2.6 — rozgraniczenie 9"
+    text: "Zagadnienie „2.6.10. Rola masażysty w popularyzowaniu zachowań prozdrowotnych” jest elementem zagadnienia „2.6.9. Profilaktyka odleżyn u osób unieruchomionych”, a nie tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: false
+  - type: truefalse
+    name: "2.6 — zagadnienie 10"
+    text: "Zagadnienie „2.6.10. Rola masażysty w popularyzowaniu zachowań prozdrowotnych” wchodzi w zakres tematu „Promocja zdrowia i profilaktyka” (2.6)."
+    answer: true
+  - type: multichoice
+    name: "2.6 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Promocja zdrowia i profilaktyka” (2.6)?"
+    answers:
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 100
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
+      - text: "3.14.2. Temperatura wody i jej wpływ"  fraction: 0
+      - text: "5.4.1. Napięcie mięśniowe po treningu"  fraction: 0

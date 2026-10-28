@@ -1,0 +1,49 @@
+// Quiz: 3.11. Wskazania i przeciwwskazania do manualnego drenażu limfatycznego — moduł 3 (03-med-10-3-podstawy-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s03-311-q1:: Zagadnienie „3.11.1. Obrzęk limfatyczny pierwotny i wtórny” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q1b:: Zagadnienie „3.11.2. Obrzęk pourazowy i pooperacyjny” jest elementem zagadnienia „3.11.1. Obrzęk limfatyczny pierwotny i wtórny”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q2:: Zagadnienie „3.11.2. Obrzęk pourazowy i pooperacyjny” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q2b:: Zagadnienie „3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych” jest elementem zagadnienia „3.11.2. Obrzęk pourazowy i pooperacyjny”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q3:: Zagadnienie „3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q3b:: Zagadnienie „3.11.4. Obrzęk żylny i mieszany” jest elementem zagadnienia „3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q4:: Zagadnienie „3.11.4. Obrzęk żylny i mieszany” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q4b:: Zagadnienie „3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji” jest elementem zagadnienia „3.11.4. Obrzęk żylny i mieszany”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q5:: Zagadnienie „3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q5b:: Zagadnienie „3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza” jest elementem zagadnienia „3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q6:: Zagadnienie „3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q6b:: Zagadnienie „3.11.7. Ocena stopnia obrzęku” jest elementem zagadnienia „3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q7:: Zagadnienie „3.11.7. Ocena stopnia obrzęku” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q7b:: Zagadnienie „3.11.8. Kwalifikacja do drenażu” jest elementem zagadnienia „3.11.7. Ocena stopnia obrzęku”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q8:: Zagadnienie „3.11.8. Kwalifikacja do drenażu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q8b:: Zagadnienie „3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych” jest elementem zagadnienia „3.11.8. Kwalifikacja do drenażu”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q9:: Zagadnienie „3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::tf-s03-311-q9b:: Zagadnienie „3.11.10. Dokumentacja reakcji na drenaż” jest elementem zagadnienia „3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych”, a nie tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {FALSE} //
+
+::tf-s03-311-q10:: Zagadnienie „3.11.10. Dokumentacja reakcji na drenaż” wchodzi w zakres tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11). {TRUE} //
+
+::mc-s03-311:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do manualnego drenażu limfatycznego” (3.11)? {
+    = 3.11.1. Obrzęk limfatyczny pierwotny i wtórny
+    ~ 3.11.2. Obrzęk pourazowy i pooperacyjny
+    ~ 3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych
+    ~ 2.5.6. Przechowywanie i archiwizacja
+    ~ 3.18.7. Wpływ na sen i samopoczucie
+    ~ 5.8.6. Małoletni: zgoda opiekuna
+}

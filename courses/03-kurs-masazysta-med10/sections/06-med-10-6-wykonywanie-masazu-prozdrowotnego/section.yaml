@@ -1,0 +1,101 @@
+# Metadane sekcji kursu (Moodle)
+id: 6
+name: "Moduł 6: MED.10.6. WYKONYWANIE MASAŻU PROZDROWOTNEGO"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-pojecie-masazu-prozdrowotnego.md"
+    name: "6.1. Pojęcie masażu prozdrowotnego"
+  - type: page
+    ref: "page-02-rodzaje-masazu-prozdrowotnego.md"
+    name: "6.2. Rodzaje masażu prozdrowotnego"
+  - type: page
+    ref: "page-03-zasady-masazu-prozdrowotnego.md"
+    name: "6.3. Zasady masażu prozdrowotnego"
+  - type: page
+    ref: "page-04-masaz-relaksacyjny.md"
+    name: "6.4. Masaż relaksacyjny"
+  - type: page
+    ref: "page-05-masaz-profilaktyczny.md"
+    name: "6.5. Masaż profilaktyczny"
+  - type: page
+    ref: "page-06-masaz-goracymi-kamieniami-bazaltowymi.md"
+    name: "6.6. Masaż gorącymi kamieniami bazaltowymi"
+  - type: page
+    ref: "page-07-masaz-biurowy.md"
+    name: "6.7. Masaż biurowy"
+  - type: page
+    ref: "page-08-masaz-prozdrowotny-bez-przyrzadow.md"
+    name: "6.8. Masaż prozdrowotny bez przyrządów"
+  - type: page
+    ref: "page-09-dzialania-edukacyjne-i-popularyzacja-zachowan.md"
+    name: "6.9. Działania edukacyjne i popularyzacja zachowań prozdrowotnych"
+  - type: page
+    ref: "page-10-bezpieczenstwo-masazu-prozdrowotnego.md"
+    name: "6.10. Bezpieczeństwo masażu prozdrowotnego"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.6"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 6.1. Pojęcie masażu prozdrowotnego"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 6.1. Pojęcie masażu prozdrowotnego"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 6.2. Rodzaje masażu prozdrowotnego"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 6.2. Rodzaje masażu prozdrowotnego"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 6.3. Zasady masażu prozdrowotnego"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 6.3. Zasady masażu prozdrowotnego"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 6.4. Masaż relaksacyjny"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 6.4. Masaż relaksacyjny"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 6.5. Masaż profilaktyczny"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 6.5. Masaż profilaktyczny"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 6.6. Masaż gorącymi kamieniami bazaltowymi"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 6.6. Masaż gorącymi kamieniami bazaltowymi"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 6.7. Masaż biurowy"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 6.7. Masaż biurowy"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 6.8. Masaż prozdrowotny bez przyrządów"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 6.8. Masaż prozdrowotny bez przyrządów"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 6.9. Działania edukacyjne i popularyzacja zachowań prozdrowotnych"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 6.9. Działania edukacyjne i popularyzacja zachowań prozdrowotnych"
+  - type: quiz
+    ref: quiz-10
+    name: "Quiz: 6.10. Bezpieczeństwo masażu prozdrowotnego"
+  - type: assignment
+    ref: assignment-10
+    name: "Zadanie: 6.10. Bezpieczeństwo masażu prozdrowotnego"

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.2. Nieurazowe zaburzenia układu narządu ruchu"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.2 — zagadnienie 1"
+    text: "Zagadnienie „3.2.1. Choroba zwyrodnieniowa stawów” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 1"
+    text: "Zagadnienie „3.2.2. Dyskopatia i zespoły bólowe kręgosłupa” jest elementem zagadnienia „3.2.1. Choroba zwyrodnieniowa stawów”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 2"
+    text: "Zagadnienie „3.2.2. Dyskopatia i zespoły bólowe kręgosłupa” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 2"
+    text: "Zagadnienie „3.2.3. Zesztywniające zapalenie stawów kręgosłupa” jest elementem zagadnienia „3.2.2. Dyskopatia i zespoły bólowe kręgosłupa”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 3"
+    text: "Zagadnienie „3.2.3. Zesztywniające zapalenie stawów kręgosłupa” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 3"
+    text: "Zagadnienie „3.2.4. Reumatoidalne zapalenie stawów” jest elementem zagadnienia „3.2.3. Zesztywniające zapalenie stawów kręgosłupa”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 4"
+    text: "Zagadnienie „3.2.4. Reumatoidalne zapalenie stawów” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 4"
+    text: "Zagadnienie „3.2.5. Młodzieńcze idiopatyczne zapalenie stawów” jest elementem zagadnienia „3.2.4. Reumatoidalne zapalenie stawów”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 5"
+    text: "Zagadnienie „3.2.5. Młodzieńcze idiopatyczne zapalenie stawów” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 5"
+    text: "Zagadnienie „3.2.6. Twardzina układowa i choroby tkanki łącznej” jest elementem zagadnienia „3.2.5. Młodzieńcze idiopatyczne zapalenie stawów”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 6"
+    text: "Zagadnienie „3.2.6. Twardzina układowa i choroby tkanki łącznej” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 6"
+    text: "Zagadnienie „3.2.7. Dna moczanowa i inne choroby metaboliczne stawów” jest elementem zagadnienia „3.2.6. Twardzina układowa i choroby tkanki łącznej”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 7"
+    text: "Zagadnienie „3.2.7. Dna moczanowa i inne choroby metaboliczne stawów” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 7"
+    text: "Zagadnienie „3.2.8. Osteoporoza i ryzyko złamań” jest elementem zagadnienia „3.2.7. Dna moczanowa i inne choroby metaboliczne stawów”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 8"
+    text: "Zagadnienie „3.2.8. Osteoporoza i ryzyko złamań” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 8"
+    text: "Zagadnienie „3.2.9. Fibromialgia i zespoły bólu uogólnionego” jest elementem zagadnienia „3.2.8. Osteoporoza i ryzyko złamań”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 9"
+    text: "Zagadnienie „3.2.9. Fibromialgia i zespoły bólu uogólnionego” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: truefalse
+    name: "3.2 — rozgraniczenie 9"
+    text: "Zagadnienie „3.2.10. Wady postawy i zniekształcenia” jest elementem zagadnienia „3.2.9. Fibromialgia i zespoły bólu uogólnionego”, a nie tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: false
+  - type: truefalse
+    name: "3.2 — zagadnienie 10"
+    text: "Zagadnienie „3.2.10. Wady postawy i zniekształcenia” wchodzi w zakres tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)."
+    answer: true
+  - type: multichoice
+    name: "3.2 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Nieurazowe zaburzenia układu narządu ruchu” (3.2)?"
+    answers:
+      - text: "3.2.1. Choroba zwyrodnieniowa stawów"  fraction: 100
+      - text: "1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne"  fraction: 0
+      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"  fraction: 0
+      - text: "5.3.8. Masaż w podróży i po podróży"  fraction: 0

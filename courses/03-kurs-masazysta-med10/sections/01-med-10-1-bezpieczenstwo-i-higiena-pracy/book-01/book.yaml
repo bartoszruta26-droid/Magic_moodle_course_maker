@@ -1,0 +1,74 @@
+# Aktywność typu book — podręcznik modułu (preferowana aktywność kursu)
+book:
+  name: "Podręcznik modułu 1: MED.10.1"
+  intro: |
+    Zbiór rozdziałów odpowiadającym tematom modułu (01-med-10-1-bezpieczenstwo-i-higiena-pracy).
+    Moduł wprowadza w bezpieczeństwo i higienę pracy masażysty: przepisy prawa pracy, zagrożenia zawodowe, ergonomię stanowiska, aseptykę oraz pierwszą pomoc. To fundament, na którym opiera się cała dalsza praktyka zawodowa — bo troska o bliźniego zaczyna się od troski o jego bezpieczeństwo.
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "1.1. Wprowadzenie do bezpieczeństwa i higieny pracy w zawodzie masażysty"
+      subchapter: false
+      content_file: "chapters/01-wprowadzenie-do-bezpieczenstwa-i-higieny-pracy-w-masa.md"
+      hidden: false
+    - title: "1.2. Przepisy prawa pracy, p.poż., ochrony środowiska i ergonomii"
+      subchapter: false
+      content_file: "chapters/02-przepisy-prawa-pracy-p-poz-ochrony-srodowiska-i-ergo.md"
+      hidden: false
+    - title: "1.3. Instytucje i służby ochrony pracy oraz ochrony środowiska"
+      subchapter: false
+      content_file: "chapters/03-instytucje-i-sluzby-ochrony-pracy-oraz-ochrony-srod.md"
+      hidden: false
+    - title: "1.4. Prawa i obowiązki pracownika oraz pracodawcy"
+      subchapter: false
+      content_file: "chapters/04-prawa-i-obowiazki-pracownika-oraz-pracodawcy.md"
+      hidden: false
+    - title: "1.5. Zagrożenia zawodowe w pracy masażysty"
+      subchapter: false
+      content_file: "chapters/05-zagrozenia-zawodowe-w-pracy-masazysty.md"
+      hidden: false
+    - title: "1.6. Higiena osobista masażysty i higiena pracy"
+      subchapter: false
+      content_file: "chapters/06-higiena-osobista-masazysty-i-higiena-pracy.md"
+      hidden: false
+    - title: "1.7. Ergonomia stanowiska pracy masażysty"
+      subchapter: false
+      content_file: "chapters/07-ergonomia-stanowiska-pracy-masazysty.md"
+      hidden: false
+    - title: "1.8. Środki ochrony indywidualnej i zbiorowej"
+      subchapter: false
+      content_file: "chapters/08-srodki-ochrony-indywidualnej-i-zbiorowej.md"
+      hidden: false
+    - title: "1.9. Aseptyka i antyseptyka w gabinecie masażu"
+      subchapter: false
+      content_file: "chapters/09-aseptyka-i-antyseptyka-w-gabinecie-masazu.md"
+      hidden: false
+    - title: "1.10. Postępowanie z materiałami biologicznie skażonymi"
+      subchapter: false
+      content_file: "chapters/10-postepowanie-z-materialami-biologicznie-skazonymi.md"
+      hidden: false
+    - title: "1.11. Ochrona przeciwpożarowa i ewakuacja"
+      subchapter: false
+      content_file: "chapters/11-ochrona-przeciwpozarowa-i-ewakuacja.md"
+      hidden: false
+    - title: "1.12. Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego"
+      subchapter: false
+      content_file: "chapters/12-pierwsza-pomoc-w-stanach-naglego-zagrozenia-zdrowotnego.md"
+      hidden: false
+    - title: "1.13. Pierwsza pomoc w stanach urazowych"
+      subchapter: false
+      content_file: "chapters/13-pierwsza-pomoc-w-stanach-urazowych.md"
+      hidden: false
+    - title: "1.14. Pierwsza pomoc w stanach nieurazowych"
+      subchapter: false
+      content_file: "chapters/14-pierwsza-pomoc-w-stanach-nieurazowych.md"
+      hidden: false
+    - title: "1.15. Bezpieczeństwo w kontakcie z pacjentem szczególnie wrażliwym"
+      subchapter: false
+      content_file: "chapters/15-bezpieczenstwo-w-kontakcie-z-pacjentem-szczegolnie-wraz.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

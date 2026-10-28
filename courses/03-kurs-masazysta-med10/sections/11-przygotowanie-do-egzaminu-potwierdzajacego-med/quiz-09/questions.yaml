@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "11.9. Egzamin pisemny — zakres powtórkowy"
+category: masaz
+questions:
+  - type: truefalse
+    name: "11.9 — zagadnienie 1"
+    text: "Zagadnienie „11.9.1. Testy z BHP” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 1"
+    text: "Zagadnienie „11.9.2. Testy z anatomii” jest elementem zagadnienia „11.9.1. Testy z BHP”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 2"
+    text: "Zagadnienie „11.9.2. Testy z anatomii” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 2"
+    text: "Zagadnienie „11.9.3. Testy z fizjologii” jest elementem zagadnienia „11.9.2. Testy z anatomii”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 3"
+    text: "Zagadnienie „11.9.3. Testy z fizjologii” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 3"
+    text: "Zagadnienie „11.9.4. Testy z patologii” jest elementem zagadnienia „11.9.3. Testy z fizjologii”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 4"
+    text: "Zagadnienie „11.9.4. Testy z patologii” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 4"
+    text: "Zagadnienie „11.9.5. Testy ze wskazań i przeciwwskazań” jest elementem zagadnienia „11.9.4. Testy z patologii”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 5"
+    text: "Zagadnienie „11.9.5. Testy ze wskazań i przeciwwskazań” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 5"
+    text: "Zagadnienie „11.9.6. Testy z technik masażu” jest elementem zagadnienia „11.9.5. Testy ze wskazań i przeciwwskazań”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 6"
+    text: "Zagadnienie „11.9.6. Testy z technik masażu” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 6"
+    text: "Zagadnienie „11.9.7. Testy z dokumentacji” jest elementem zagadnienia „11.9.6. Testy z technik masażu”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 7"
+    text: "Zagadnienie „11.9.7. Testy z dokumentacji” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 7"
+    text: "Zagadnienie „11.9.8. Testy z etyki” jest elementem zagadnienia „11.9.7. Testy z dokumentacji”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 8"
+    text: "Zagadnienie „11.9.8. Testy z etyki” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 8"
+    text: "Zagadnienie „11.9.9. Testy z języka obcego zawodowego” jest elementem zagadnienia „11.9.8. Testy z etyki”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 9"
+    text: "Zagadnienie „11.9.9. Testy z języka obcego zawodowego” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: truefalse
+    name: "11.9 — rozgraniczenie 9"
+    text: "Zagadnienie „11.9.10. Analiza błędów” jest elementem zagadnienia „11.9.9. Testy z języka obcego zawodowego”, a nie tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: false
+  - type: truefalse
+    name: "11.9 — zagadnienie 10"
+    text: "Zagadnienie „11.9.10. Analiza błędów” wchodzi w zakres tematu „Egzamin pisemny — zakres powtórkowy” (11.9)."
+    answer: true
+  - type: multichoice
+    name: "11.9 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Egzamin pisemny — zakres powtórkowy” (11.9)?"
+    answers:
+      - text: "11.9.1. Testy z BHP"  fraction: 100
+      - text: "2.6.2. Czynniki warunkujące utrzymanie zdrowia"  fraction: 0
+      - text: "3.19.2. Fizjoterapeuta"  fraction: 0
+      - text: "6.1.1. Zdrowie jako dobro i zadanie"  fraction: 0

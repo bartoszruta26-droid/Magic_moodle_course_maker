@@ -1,0 +1,49 @@
+// Quiz: 10.5. Portfolio praktykant — moduł 10 (10-praktyka-zawodowa)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s10-105-q1:: Zagadnienie „10.5.1. Zestaw wykonanych zabiegów” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q1b:: Zagadnienie „10.5.2. Studia przypadków anonimowe” jest elementem zagadnienia „10.5.1. Zestaw wykonanych zabiegów”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q2:: Zagadnienie „10.5.2. Studia przypadków anonimowe” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q2b:: Zagadnienie „10.5.3. Check-listy umiejętności” jest elementem zagadnienia „10.5.2. Studia przypadków anonimowe”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q3:: Zagadnienie „10.5.3. Check-listy umiejętności” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q3b:: Zagadnienie „10.5.4. Refleksje etyczne” jest elementem zagadnienia „10.5.3. Check-listy umiejętności”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q4:: Zagadnienie „10.5.4. Refleksje etyczne” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q4b:: Zagadnienie „10.5.5. Dokumenty BHP” jest elementem zagadnienia „10.5.4. Refleksje etyczne”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q5:: Zagadnienie „10.5.5. Dokumenty BHP” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q5b:: Zagadnienie „10.5.6. Zaświadczenia o szkoleniach” jest elementem zagadnienia „10.5.5. Dokumenty BHP”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q6:: Zagadnienie „10.5.6. Zaświadczenia o szkoleniach” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q6b:: Zagadnienie „10.5.7. Opinie opiekuna” jest elementem zagadnienia „10.5.6. Zaświadczenia o szkoleniach”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q7:: Zagadnienie „10.5.7. Opinie opiekuna” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q7b:: Zagadnienie „10.5.8. Plan rozwoju po praktyce” jest elementem zagadnienia „10.5.7. Opinie opiekuna”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q8:: Zagadnienie „10.5.8. Plan rozwoju po praktyce” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q8b:: Zagadnienie „10.5.9. Oświadczenia o tajemnicy zawodowej” jest elementem zagadnienia „10.5.8. Plan rozwoju po praktyce”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q9:: Zagadnienie „10.5.9. Oświadczenia o tajemnicy zawodowej” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::tf-s10-105-q9b:: Zagadnienie „10.5.10. Gotowość do egzaminu” jest elementem zagadnienia „10.5.9. Oświadczenia o tajemnicy zawodowej”, a nie tematu „Portfolio praktykant” (10.5). {FALSE} //
+
+::tf-s10-105-q10:: Zagadnienie „10.5.10. Gotowość do egzaminu” wchodzi w zakres tematu „Portfolio praktykant” (10.5). {TRUE} //
+
+::mc-s10-105:: Które zagadnienie należy bezpośrednio do tematu „Portfolio praktykant” (10.5)? {
+    = 10.5.1. Zestaw wykonanych zabiegów
+    ~ 10.5.2. Studia przypadków anonimowe
+    ~ 10.5.3. Check-listy umiejętności
+    ~ 2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom
+    ~ 3.18.7. Wpływ na sen i samopoczucie
+    ~ 5.8.6. Małoletni: zgoda opiekuna
+}

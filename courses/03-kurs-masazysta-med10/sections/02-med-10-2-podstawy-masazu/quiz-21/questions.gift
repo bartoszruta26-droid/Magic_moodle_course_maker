@@ -1,0 +1,49 @@
+// Quiz: 2.21. Przeciwdziałanie przemocy i ochrona osób wrażliwych — moduł 2 (02-med-10-2-podstawy-masazu)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s02-221-q1:: Zagadnienie „2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q1b:: Zagadnienie „2.21.2. Przemoc wobec dziecka” jest elementem zagadnienia „2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q2:: Zagadnienie „2.21.2. Przemoc wobec dziecka” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q2b:: Zagadnienie „2.21.3. Przemoc wobec osoby starszej” jest elementem zagadnienia „2.21.2. Przemoc wobec dziecka”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q3:: Zagadnienie „2.21.3. Przemoc wobec osoby starszej” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q3b:: Zagadnienie „2.21.4. Przemoc wobec osoby z niepełnosprawnością” jest elementem zagadnienia „2.21.3. Przemoc wobec osoby starszej”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q4:: Zagadnienie „2.21.4. Przemoc wobec osoby z niepełnosprawnością” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q4b:: Zagadnienie „2.21.5. Procedury zgłaszania podejrzenia przemocy” jest elementem zagadnienia „2.21.4. Przemoc wobec osoby z niepełnosprawnością”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q5:: Zagadnienie „2.21.5. Procedury zgłaszania podejrzenia przemocy” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q5b:: Zagadnienie „2.21.6. Nieinterrogowanie pacjenta” jest elementem zagadnienia „2.21.5. Procedury zgłaszania podejrzenia przemocy”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q6:: Zagadnienie „2.21.6. Nieinterrogowanie pacjenta” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q6b:: Zagadnienie „2.21.7. Ochrona dowodów i dokumentacja faktów” jest elementem zagadnienia „2.21.6. Nieinterrogowanie pacjenta”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q7:: Zagadnienie „2.21.7. Ochrona dowodów i dokumentacja faktów” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q7b:: Zagadnienie „2.21.8. Kierowanie do odpowiednich służb i instytucji” jest elementem zagadnienia „2.21.7. Ochrona dowodów i dokumentacja faktów”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q8:: Zagadnienie „2.21.8. Kierowanie do odpowiednich służb i instytucji” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q8b:: Zagadnienie „2.21.9. Zachowanie tajemnicy w granicach prawa” jest elementem zagadnienia „2.21.8. Kierowanie do odpowiednich służb i instytucji”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q9:: Zagadnienie „2.21.9. Zachowanie tajemnicy w granicach prawa” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::tf-s02-221-q9b:: Zagadnienie „2.21.10. Etyka: nie być obojętnym wobec krzywdy” jest elementem zagadnienia „2.21.9. Zachowanie tajemnicy w granicach prawa”, a nie tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {FALSE} //
+
+::tf-s02-221-q10:: Zagadnienie „2.21.10. Etyka: nie być obojętnym wobec krzywdy” wchodzi w zakres tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21). {TRUE} //
+
+::mc-s02-221:: Które zagadnienie należy bezpośrednio do tematu „Przeciwdziałanie przemocy i ochrona osób wrażliwych” (2.21)? {
+    = 2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej
+    ~ 2.21.2. Przemoc wobec dziecka
+    ~ 2.21.3. Przemoc wobec osoby starszej
+    ~ 2.5.6. Przechowywanie i archiwizacja
+    ~ 3.18.7. Wpływ na sen i samopoczucie
+    ~ 5.8.6. Małoletni: zgoda opiekuna
+}

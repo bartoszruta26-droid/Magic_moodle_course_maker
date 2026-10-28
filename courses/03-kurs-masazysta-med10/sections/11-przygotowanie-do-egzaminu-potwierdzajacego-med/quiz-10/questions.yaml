@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "11.10. Postawa egzaminacyjna w duchu prawdy i pokoju"
+category: masaz
+questions:
+  - type: truefalse
+    name: "11.10 — zagadnienie 1"
+    text: "Zagadnienie „11.10.1. Uczciwość wobec siebie” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 1"
+    text: "Zagadnienie „11.10.2. Brak oszukiwania” jest elementem zagadnienia „11.10.1. Uczciwość wobec siebie”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 2"
+    text: "Zagadnienie „11.10.2. Brak oszukiwania” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 2"
+    text: "Zagadnienie „11.10.3. Spokój i oddech” jest elementem zagadnienia „11.10.2. Brak oszukiwania”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 3"
+    text: "Zagadnienie „11.10.3. Spokój i oddech” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 3"
+    text: "Zagadnienie „11.10.4. Szacunek dla egzaminatora” jest elementem zagadnienia „11.10.3. Spokój i oddech”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 4"
+    text: "Zagadnienie „11.10.4. Szacunek dla egzaminatora” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 4"
+    text: "Zagadnienie „11.10.5. Przyznanie się do niewiedzy” jest elementem zagadnienia „11.10.4. Szacunek dla egzaminatora”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 5"
+    text: "Zagadnienie „11.10.5. Przyznanie się do niewiedzy” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 5"
+    text: "Zagadnienie „11.10.6. Bezpieczeństwo pacjenta fikcyjnego i rzeczywistego” jest elementem zagadnienia „11.10.5. Przyznanie się do niewiedzy”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 6"
+    text: "Zagadnienie „11.10.6. Bezpieczeństwo pacjenta fikcyjnego i rzeczywistego” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 6"
+    text: "Zagadnienie „11.10.7. Pokora wobec błędu” jest elementem zagadnienia „11.10.6. Bezpieczeństwo pacjenta fikcyjnego i rzeczywistego”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 7"
+    text: "Zagadnienie „11.10.7. Pokora wobec błędu” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 7"
+    text: "Zagadnienie „11.10.8. Odpowiedzialność za przyszłych pacjentów” jest elementem zagadnienia „11.10.7. Pokora wobec błędu”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 8"
+    text: "Zagadnienie „11.10.8. Odpowiedzialność za przyszłych pacjentów” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 8"
+    text: "Zagadnienie „11.10.9. Modlitwa lub refleksja wewnętrzna — jeśli sumienie pozwala” jest elementem zagadnienia „11.10.8. Odpowiedzialność za przyszłych pacjentów”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 9"
+    text: "Zagadnienie „11.10.9. Modlitwa lub refleksja wewnętrzna — jeśli sumienie pozwala” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: truefalse
+    name: "11.10 — rozgraniczenie 9"
+    text: "Zagadnienie „11.10.10. Cel: być godnym zaufania” jest elementem zagadnienia „11.10.9. Modlitwa lub refleksja wewnętrzna — jeśli sumienie pozwala”, a nie tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: false
+  - type: truefalse
+    name: "11.10 — zagadnienie 10"
+    text: "Zagadnienie „11.10.10. Cel: być godnym zaufania” wchodzi w zakres tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)."
+    answer: true
+  - type: multichoice
+    name: "11.10 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Postawa egzaminacyjna w duchu prawdy i pokoju” (11.10)?"
+    answers:
+      - text: "11.10.1. Uczciwość wobec siebie"  fraction: 100
+      - text: "2.10.2. Połączenia kości: ciągłe i ciągłości"  fraction: 0
+      - text: "4.2.2. Testy siły mięśniowej w skali Lovetta"  fraction: 0
+      - text: "6.5.1. Profilaktyka bólów kręgosłupa"  fraction: 0

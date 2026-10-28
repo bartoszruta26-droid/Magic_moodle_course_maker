@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.1 — zagadnienie 1"
+    text: "Zagadnienie „3.1.1. Etiologia, patogeneza, objawy, powikłania” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 1"
+    text: "Zagadnienie „3.1.2. Stan zapalny ostry i przewlekły” jest elementem zagadnienia „3.1.1. Etiologia, patogeneza, objawy, powikłania”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 2"
+    text: "Zagadnienie „3.1.2. Stan zapalny ostry i przewlekły” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 2"
+    text: "Zagadnienie „3.1.3. Zwyrodnienie i degeneracja tkanek” jest elementem zagadnienia „3.1.2. Stan zapalny ostry i przewlekły”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 3"
+    text: "Zagadnienie „3.1.3. Zwyrodnienie i degeneracja tkanek” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 3"
+    text: "Zagadnienie „3.1.4. Uraz i gojenie” jest elementem zagadnienia „3.1.3. Zwyrodnienie i degeneracja tkanek”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 4"
+    text: "Zagadnienie „3.1.4. Uraz i gojenie” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 4"
+    text: "Zagadnienie „3.1.5. Niedokrwienie i zaburzenia krążenia” jest elementem zagadnienia „3.1.4. Uraz i gojenie”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 5"
+    text: "Zagadnienie „3.1.5. Niedokrwienie i zaburzenia krążenia” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 5"
+    text: "Zagadnienie „3.1.6. Obrzęk: zapalny, zastoinowy, limfatyczny, naczyniowy” jest elementem zagadnienia „3.1.5. Niedokrwienie i zaburzenia krążenia”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 6"
+    text: "Zagadnienie „3.1.6. Obrzęk: zapalny, zastoinowy, limfatyczny, naczyniowy” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 6"
+    text: "Zagadnienie „3.1.7. Ból: ostry, przewlekły, neuropatyczny, mięśniowo-powięziowy” jest elementem zagadnienia „3.1.6. Obrzęk: zapalny, zastoinowy, limfatyczny, naczyniowy”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 7"
+    text: "Zagadnienie „3.1.7. Ból: ostry, przewlekły, neuropatyczny, mięśniowo-powięziowy” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 7"
+    text: "Zagadnienie „3.1.8. Zanik mięśni i przykurcze” jest elementem zagadnienia „3.1.7. Ból: ostry, przewlekły, neuropatyczny, mięśniowo-powięziowy”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 8"
+    text: "Zagadnienie „3.1.8. Zanik mięśni i przykurcze” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 8"
+    text: "Zagadnienie „3.1.9. Blizna i zrosty” jest elementem zagadnienia „3.1.8. Zanik mięśni i przykurcze”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 9"
+    text: "Zagadnienie „3.1.9. Blizna i zrosty” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: truefalse
+    name: "3.1 — rozgraniczenie 9"
+    text: "Zagadnienie „3.1.10. Granica: masażysta rozpoznaje potrzeby zabiegowe, nie chorobę” jest elementem zagadnienia „3.1.9. Blizna i zrosty”, a nie tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: false
+  - type: truefalse
+    name: "3.1 — zagadnienie 10"
+    text: "Zagadnienie „3.1.10. Granica: masażysta rozpoznaje potrzeby zabiegowe, nie chorobę” wchodzi w zakres tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)."
+    answer: true
+  - type: multichoice
+    name: "3.1 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne” (3.1)?"
+    answers:
+      - text: "3.1.1. Etiologia, patogeneza, objawy, powikłania"  fraction: 100
+      - text: "1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja"  fraction: 0
+      - text: "3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem"  fraction: 0
+      - text: "5.3.7. Masaż schładzający"  fraction: 0

@@ -1,0 +1,49 @@
+// Quiz: 4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-422-q1:: Zagadnienie „4.22.1. Budowa i zasada działania urządzenia” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q1b:: Zagadnienie „4.22.2. Przygotowanie stanowiska” jest elementem zagadnienia „4.22.1. Budowa i zasada działania urządzenia”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q2:: Zagadnienie „4.22.2. Przygotowanie stanowiska” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q2b:: Zagadnienie „4.22.3. Dobór głowic” jest elementem zagadnienia „4.22.2. Przygotowanie stanowiska”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q3:: Zagadnienie „4.22.3. Dobór głowic” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q3b:: Zagadnienie „4.22.4. Kierunek i tempo” jest elementem zagadnienia „4.22.3. Dobór głowic”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q4:: Zagadnienie „4.22.4. Kierunek i tempo” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q4b:: Zagadnienie „4.22.5. Siła docisku” jest elementem zagadnienia „4.22.4. Kierunek i tempo”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q5:: Zagadnienie „4.22.5. Siła docisku” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q5b:: Zagadnienie „4.22.6. Czas na jednej okolicy” jest elementem zagadnienia „4.22.5. Siła docisku”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q6:: Zagadnienie „4.22.6. Czas na jednej okolicy” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q6b:: Zagadnienie „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne” jest elementem zagadnienia „4.22.6. Czas na jednej okolicy”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q7:: Zagadnienie „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q7b:: Zagadnienie „4.22.8. Bezpieczeństwo pacjenta i masażysty” jest elementem zagadnienia „4.22.7. Przeciwwskazania: osteoporoza, rozrusznik, ciąża, zmiany skórne”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q8:: Zagadnienie „4.22.8. Bezpieczeństwo pacjenta i masażysty” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q8b:: Zagadnienie „4.22.9. Konserwacja i dezynfekcja urządzenia” jest elementem zagadnienia „4.22.8. Bezpieczeństwo pacjenta i masażysty”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q9:: Zagadnienie „4.22.9. Konserwacja i dezynfekcja urządzenia” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::tf-s04-422-q9b:: Zagadnienie „4.22.10. Dokumentacja parametrów” jest elementem zagadnienia „4.22.9. Konserwacja i dezynfekcja urządzenia”, a nie tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {FALSE} //
+
+::tf-s04-422-q10:: Zagadnienie „4.22.10. Dokumentacja parametrów” wchodzi w zakres tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22). {TRUE} //
+
+::mc-s04-422:: Które zagadnienie należy bezpośrednio do tematu „Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego” (4.22)? {
+    = 4.22.1. Budowa i zasada działania urządzenia
+    ~ 4.22.2. Przygotowanie stanowiska
+    ~ 4.22.3. Dobór głowic
+    ~ 2.5.9. Dokumentacja elektroniczna i papierowa
+    ~ 3.18.9. Kiedy reakcja jest alarmowa
+    ~ 5.8.9. Dokumentacja zdarzeń niepożądanych
+}

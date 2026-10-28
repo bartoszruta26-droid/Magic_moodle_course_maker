@@ -1,0 +1,49 @@
+// Quiz: 6.1. Pojęcie masażu prozdrowotnego — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-61-q1:: Zagadnienie „6.1.1. Zdrowie jako dobro i zadanie” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q1b:: Zagadnienie „6.1.2. Profilaktyka a terapia” jest elementem zagadnienia „6.1.1. Zdrowie jako dobro i zadanie”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q2:: Zagadnienie „6.1.2. Profilaktyka a terapia” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q2b:: Zagadnienie „6.1.3. Relaksacja a leczenie” jest elementem zagadnienia „6.1.2. Profilaktyka a terapia”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q3:: Zagadnienie „6.1.3. Relaksacja a leczenie” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q3b:: Zagadnienie „6.1.4. Masaż prozdrowotny u osoby zdrowej” jest elementem zagadnienia „6.1.3. Relaksacja a leczenie”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q4:: Zagadnienie „6.1.4. Masaż prozdrowotny u osoby zdrowej” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q4b:: Zagadnienie „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi” jest elementem zagadnienia „6.1.4. Masaż prozdrowotny u osoby zdrowej”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q5:: Zagadnienie „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q5b:: Zagadnienie „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej” jest elementem zagadnienia „6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q6:: Zagadnienie „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q6b:: Zagadnienie „6.1.7. Edukacja pacjenta/klienta” jest elementem zagadnienia „6.1.6. Granice: nie leczymy choroby niezdiagnozowanej”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q7:: Zagadnienie „6.1.7. Edukacja pacjenta/klienta” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q7b:: Zagadnienie „6.1.8. Odpowiedzialność za oczekiwania” jest elementem zagadnienia „6.1.7. Edukacja pacjenta/klienta”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q8:: Zagadnienie „6.1.8. Odpowiedzialność za oczekiwania” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q8b:: Zagadnienie „6.1.9. Prawda o dowodach naukowych” jest elementem zagadnienia „6.1.8. Odpowiedzialność za oczekiwania”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q9:: Zagadnienie „6.1.9. Prawda o dowodach naukowych” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::tf-s06-61-q9b:: Zagadnienie „6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”” jest elementem zagadnienia „6.1.9. Prawda o dowodach naukowych”, a nie tematu „Pojęcie masażu prozdrowotnego” (6.1). {FALSE} //
+
+::tf-s06-61-q10:: Zagadnienie „6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”” wchodzi w zakres tematu „Pojęcie masażu prozdrowotnego” (6.1). {TRUE} //
+
+::mc-s06-61:: Które zagadnienie należy bezpośrednio do tematu „Pojęcie masażu prozdrowotnego” (6.1)? {
+    = 6.1.1. Zdrowie jako dobro i zadanie
+    ~ 6.1.2. Profilaktyka a terapia
+    ~ 6.1.3. Relaksacja a leczenie
+    ~ 1.15.10. Zasada: zgoda może być cofnięta w każdej chwili
+    ~ 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
+    ~ 5.3.9. Masaż przy obniżonej odporności — ostrożność
+}

@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "11.8. Egzamin praktyczny — kryteria wykonania"
+category: masaz
+questions:
+  - type: truefalse
+    name: "11.8 — zagadnienie 1"
+    text: "Zagadnienie „11.8.1. Przygotowanie stanowiska” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 1"
+    text: "Zagadnienie „11.8.2. Przygotowanie pacjenta” jest elementem zagadnienia „11.8.1. Przygotowanie stanowiska”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 2"
+    text: "Zagadnienie „11.8.2. Przygotowanie pacjenta” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 2"
+    text: "Zagadnienie „11.8.3. Zgoda i informacja” jest elementem zagadnienia „11.8.2. Przygotowanie pacjenta”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 3"
+    text: "Zagadnienie „11.8.3. Zgoda i informacja” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 3"
+    text: "Zagadnienie „11.8.4. Dobór techniki” jest elementem zagadnienia „11.8.3. Zgoda i informacja”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 4"
+    text: "Zagadnienie „11.8.4. Dobór techniki” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 4"
+    text: "Zagadnienie „11.8.5. Kolejność” jest elementem zagadnienia „11.8.4. Dobór techniki”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 5"
+    text: "Zagadnienie „11.8.5. Kolejność” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 5"
+    text: "Zagadnienie „11.8.6. Bezpieczeństwo” jest elementem zagadnienia „11.8.5. Kolejność”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 6"
+    text: "Zagadnienie „11.8.6. Bezpieczeństwo” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 6"
+    text: "Zagadnienie „11.8.7. Higiena” jest elementem zagadnienia „11.8.6. Bezpieczeństwo”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 7"
+    text: "Zagadnienie „11.8.7. Higiena” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 7"
+    text: "Zagadnienie „11.8.8. Komunikacja” jest elementem zagadnienia „11.8.7. Higiena”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 8"
+    text: "Zagadnienie „11.8.8. Komunikacja” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 8"
+    text: "Zagadnienie „11.8.9. Dokumentacja” jest elementem zagadnienia „11.8.8. Komunikacja”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 9"
+    text: "Zagadnienie „11.8.9. Dokumentacja” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: truefalse
+    name: "11.8 — rozgraniczenie 9"
+    text: "Zagadnienie „11.8.10. Zakończenie zabiegu” jest elementem zagadnienia „11.8.9. Dokumentacja”, a nie tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: false
+  - type: truefalse
+    name: "11.8 — zagadnienie 10"
+    text: "Zagadnienie „11.8.10. Zakończenie zabiegu” wchodzi w zakres tematu „Egzamin praktyczny — kryteria wykonania” (11.8)."
+    answer: true
+  - type: multichoice
+    name: "11.8 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Egzamin praktyczny — kryteria wykonania” (11.8)?"
+    answers:
+      - text: "11.8.1. Przygotowanie stanowiska"  fraction: 100
+      - text: "2.6.1. Pojęcie zdrowia wg WHO i w świetle godności osoby"  fraction: 0
+      - text: "3.19.1. Lekarz specjalista"  fraction: 0
+      - text: "5.8.10. Zasada: sportowiec to człowiek, nie narzędzie wyniku"  fraction: 0

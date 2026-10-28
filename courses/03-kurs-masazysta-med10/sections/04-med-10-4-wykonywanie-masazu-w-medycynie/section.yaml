@@ -1,0 +1,227 @@
+# Metadane sekcji kursu (Moodle)
+id: 4
+name: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-ocena-pacjenta-na-potrzeby-wykonania-masazu.md"
+    name: "4.1. Ocena pacjenta na potrzeby wykonania masażu"
+  - type: page
+    ref: "page-02-badanie-funkcjonalne-i-palpacyjne.md"
+    name: "4.2. Badanie funkcjonalne i palpacyjne"
+  - type: page
+    ref: "page-03-ocena-obrzeku-i-kwalifikacja-do-drenazu.md"
+    name: "4.3. Ocena obrzęku i kwalifikacja do drenażu"
+  - type: page
+    ref: "page-04-planowanie-zabiegu-masazu.md"
+    name: "4.4. Planowanie zabiegu masażu"
+  - type: page
+    ref: "page-05-przygotowanie-pacjenta-do-masazu.md"
+    name: "4.5. Przygotowanie pacjenta do masażu"
+  - type: page
+    ref: "page-06-dobor-pozycji-pacjenta-i-przyborow.md"
+    name: "4.6. Dobór pozycji pacjenta i przyborów"
+  - type: page
+    ref: "page-07-wykonywanie-masazu-klasycznego-w-medycynie.md"
+    name: "4.7. Wykonywanie masażu klasycznego w medycynie"
+  - type: page
+    ref: "page-08-masaz-w-srodowisku-wodnym.md"
+    name: "4.8. Masaż w środowisku wodnym"
+  - type: page
+    ref: "page-09-manualny-drenaz-limfatyczny.md"
+    name: "4.9. Manualny drenaż limfatyczny"
+  - type: page
+    ref: "page-10-kompleksowa-terapia-obrzekow.md"
+    name: "4.10. Kompleksowa terapia obrzęków"
+  - type: page
+    ref: "page-11-masaz-lacznotkankowy.md"
+    name: "4.11. Masaż łącznotkankowy"
+  - type: page
+    ref: "page-12-masaz-okostnowy.md"
+    name: "4.12. Masaż okostnowy"
+  - type: page
+    ref: "page-13-masaz-segmentarny.md"
+    name: "4.13. Masaż segmentarny"
+  - type: page
+    ref: "page-14-masaz-punktowy.md"
+    name: "4.14. Masaż punktowy"
+  - type: page
+    ref: "page-15-refleksoterapia-stop.md"
+    name: "4.15. Refleksoterapia stóp"
+  - type: page
+    ref: "page-16-masaz-tensegracyjny.md"
+    name: "4.16. Masaż tensegracyjny"
+  - type: page
+    ref: "page-17-masaz-izometryczny.md"
+    name: "4.17. Masaż izometryczny"
+  - type: page
+    ref: "page-18-masaz-stawowy.md"
+    name: "4.18. Masaż stawowy"
+  - type: page
+    ref: "page-19-masaz-shantala.md"
+    name: "4.19. Masaż Shantala"
+  - type: page
+    ref: "page-20-masaz-kobiety-w-ciazy.md"
+    name: "4.20. Masaż kobiety w ciąży"
+  - type: page
+    ref: "page-21-masaz-kobiety-w-pologu.md"
+    name: "4.21. Masaż kobiety w połogu"
+  - type: page
+    ref: "page-22-masaz-przyrzadowy-z-wykorzystaniem-urzadzenia.md"
+    name: "4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego"
+  - type: page
+    ref: "page-23-reakcje-pacjenta-po-masazu-i-planowanie-kolejnych.md"
+    name: "4.23. Reakcje pacjenta po masażu i planowanie kolejnych zabiegów"
+  - type: page
+    ref: "page-24-bezpieczenstwo-podczas-trwania-zabiegu.md"
+    name: "4.24. Bezpieczeństwo podczas trwania zabiegu"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.4"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 4.1. Ocena pacjenta na potrzeby wykonania masażu"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 4.1. Ocena pacjenta na potrzeby wykonania masażu"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 4.2. Badanie funkcjonalne i palpacyjne"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 4.2. Badanie funkcjonalne i palpacyjne"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 4.3. Ocena obrzęku i kwalifikacja do drenażu"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 4.3. Ocena obrzęku i kwalifikacja do drenażu"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 4.4. Planowanie zabiegu masażu"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 4.4. Planowanie zabiegu masażu"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 4.5. Przygotowanie pacjenta do masażu"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 4.5. Przygotowanie pacjenta do masażu"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 4.6. Dobór pozycji pacjenta i przyborów"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 4.6. Dobór pozycji pacjenta i przyborów"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 4.7. Wykonywanie masażu klasycznego w medycynie"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 4.7. Wykonywanie masażu klasycznego w medycynie"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 4.8. Masaż w środowisku wodnym"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 4.8. Masaż w środowisku wodnym"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 4.9. Manualny drenaż limfatyczny"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 4.9. Manualny drenaż limfatyczny"
+  - type: quiz
+    ref: quiz-10
+    name: "Quiz: 4.10. Kompleksowa terapia obrzęków"
+  - type: assignment
+    ref: assignment-10
+    name: "Zadanie: 4.10. Kompleksowa terapia obrzęków"
+  - type: quiz
+    ref: quiz-11
+    name: "Quiz: 4.11. Masaż łącznotkankowy"
+  - type: assignment
+    ref: assignment-11
+    name: "Zadanie: 4.11. Masaż łącznotkankowy"
+  - type: quiz
+    ref: quiz-12
+    name: "Quiz: 4.12. Masaż okostnowy"
+  - type: assignment
+    ref: assignment-12
+    name: "Zadanie: 4.12. Masaż okostnowy"
+  - type: quiz
+    ref: quiz-13
+    name: "Quiz: 4.13. Masaż segmentarny"
+  - type: assignment
+    ref: assignment-13
+    name: "Zadanie: 4.13. Masaż segmentarny"
+  - type: quiz
+    ref: quiz-14
+    name: "Quiz: 4.14. Masaż punktowy"
+  - type: assignment
+    ref: assignment-14
+    name: "Zadanie: 4.14. Masaż punktowy"
+  - type: quiz
+    ref: quiz-15
+    name: "Quiz: 4.15. Refleksoterapia stóp"
+  - type: assignment
+    ref: assignment-15
+    name: "Zadanie: 4.15. Refleksoterapia stóp"
+  - type: quiz
+    ref: quiz-16
+    name: "Quiz: 4.16. Masaż tensegracyjny"
+  - type: assignment
+    ref: assignment-16
+    name: "Zadanie: 4.16. Masaż tensegracyjny"
+  - type: quiz
+    ref: quiz-17
+    name: "Quiz: 4.17. Masaż izometryczny"
+  - type: assignment
+    ref: assignment-17
+    name: "Zadanie: 4.17. Masaż izometryczny"
+  - type: quiz
+    ref: quiz-18
+    name: "Quiz: 4.18. Masaż stawowy"
+  - type: assignment
+    ref: assignment-18
+    name: "Zadanie: 4.18. Masaż stawowy"
+  - type: quiz
+    ref: quiz-19
+    name: "Quiz: 4.19. Masaż Shantala"
+  - type: assignment
+    ref: assignment-19
+    name: "Zadanie: 4.19. Masaż Shantala"
+  - type: quiz
+    ref: quiz-20
+    name: "Quiz: 4.20. Masaż kobiety w ciąży"
+  - type: assignment
+    ref: assignment-20
+    name: "Zadanie: 4.20. Masaż kobiety w ciąży"
+  - type: quiz
+    ref: quiz-21
+    name: "Quiz: 4.21. Masaż kobiety w połogu"
+  - type: assignment
+    ref: assignment-21
+    name: "Zadanie: 4.21. Masaż kobiety w połogu"
+  - type: quiz
+    ref: quiz-22
+    name: "Quiz: 4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego"
+  - type: assignment
+    ref: assignment-22
+    name: "Zadanie: 4.22. Masaż przyrządowy z wykorzystaniem urządzenia wibracyjnego"
+  - type: quiz
+    ref: quiz-23
+    name: "Quiz: 4.23. Reakcje pacjenta po masażu i planowanie kolejnych zabiegów"
+  - type: assignment
+    ref: assignment-23
+    name: "Zadanie: 4.23. Reakcje pacjenta po masażu i planowanie kolejnych zabiegów"
+  - type: quiz
+    ref: quiz-24
+    name: "Quiz: 4.24. Bezpieczeństwo podczas trwania zabiegu"
+  - type: assignment
+    ref: assignment-24
+    name: "Zadanie: 4.24. Bezpieczeństwo podczas trwania zabiegu"

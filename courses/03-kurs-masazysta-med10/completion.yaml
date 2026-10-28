@@ -1,0 +1,68 @@
+# Reguły ukończenia kursu
+course_completion:
+  enabled: 1
+  required_all: true
+  criteria:
+    - type: activity_completion
+    - type: grade
+      min_grade: 60
+section_completion:
+  default_enabled: 1
+activity_completion_default:
+  tracked: 1
+modules:
+  - section: "01-med-10-1-bezpieczenstwo-i-higiena-pracy"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "02-med-10-2-podstawy-masazu"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "03-med-10-3-podstawy-masazu-w-medycynie"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "04-med-10-4-wykonywanie-masazu-w-medycynie"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "05-med-10-5-wykonywanie-masazu-w-sporcie"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "06-med-10-6-wykonywanie-masazu-prozdrowotnego"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "07-med-10-7-jezyk-obcego-zawodowy"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "08-med-10-8-kompetencje-personalne-i-spoleczne"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "09-med-10-9-organizacja-pracy-malych-zespolow"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "10-praktyka-zawodowa"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60
+  - section: "11-przygotowanie-do-egzaminu-potwierdzajacego-med"
+    criteria:
+      - type: view
+      - type: quiz
+        min_score: 60

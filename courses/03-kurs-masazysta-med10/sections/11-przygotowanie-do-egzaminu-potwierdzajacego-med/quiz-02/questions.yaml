@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "11.2. Powtórka wiadomości z BHP"
+category: masaz
+questions:
+  - type: truefalse
+    name: "11.2 — zagadnienie 1"
+    text: "Zagadnienie „11.2.1. Przepisy i instytucje” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 1"
+    text: "Zagadnienie „11.2.2. Zagrożenia zawodowe” jest elementem zagadnienia „11.2.1. Przepisy i instytucje”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 2"
+    text: "Zagadnienie „11.2.2. Zagrożenia zawodowe” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 2"
+    text: "Zagadnienie „11.2.3. Aseptyka i antyseptyka” jest elementem zagadnienia „11.2.2. Zagrożenia zawodowe”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 3"
+    text: "Zagadnienie „11.2.3. Aseptyka i antyseptyka” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 3"
+    text: "Zagadnienie „11.2.4. Pierwsza pomoc” jest elementem zagadnienia „11.2.3. Aseptyka i antyseptyka”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 4"
+    text: "Zagadnienie „11.2.4. Pierwsza pomoc” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 4"
+    text: "Zagadnienie „11.2.5. Ergonomia” jest elementem zagadnienia „11.2.4. Pierwsza pomoc”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 5"
+    text: "Zagadnienie „11.2.5. Ergonomia” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 5"
+    text: "Zagadnienie „11.2.6. Ochrona przeciwpożarowa” jest elementem zagadnienia „11.2.5. Ergonomia”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 6"
+    text: "Zagadnienie „11.2.6. Ochrona przeciwpożarowa” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 6"
+    text: "Zagadnienie „11.2.7. Odpady medyczne” jest elementem zagadnienia „11.2.6. Ochrona przeciwpożarowa”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 7"
+    text: "Zagadnienie „11.2.7. Odpady medyczne” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 7"
+    text: "Zagadnienie „11.2.8. Środki ochrony” jest elementem zagadnienia „11.2.7. Odpady medyczne”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 8"
+    text: "Zagadnienie „11.2.8. Środki ochrony” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 8"
+    text: "Zagadnienie „11.2.9. Sytuacje nagłe” jest elementem zagadnienia „11.2.8. Środki ochrony”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 9"
+    text: "Zagadnienie „11.2.9. Sytuacje nagłe” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: truefalse
+    name: "11.2 — rozgraniczenie 9"
+    text: "Zagadnienie „11.2.10. Testy i scenariusze” jest elementem zagadnienia „11.2.9. Sytuacje nagłe”, a nie tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: false
+  - type: truefalse
+    name: "11.2 — zagadnienie 10"
+    text: "Zagadnienie „11.2.10. Testy i scenariusze” wchodzi w zakres tematu „Powtórka wiadomości z BHP” (11.2)."
+    answer: true
+  - type: multichoice
+    name: "11.2 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Powtórka wiadomości z BHP” (11.2)?"
+    answers:
+      - text: "11.2.1. Przepisy i instytucje"  fraction: 100
+      - text: "2.5.5. Poufność dokumentacji"  fraction: 0
+      - text: "3.18.5. Zmiana odczuwania bólu"  fraction: 0
+      - text: "5.8.4. Relacja z trenerem: asertywność"  fraction: 0

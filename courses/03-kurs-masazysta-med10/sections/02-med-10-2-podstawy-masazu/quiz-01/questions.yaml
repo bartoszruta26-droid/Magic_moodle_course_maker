@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.1. Prawne i etyczne uwarunkowania zawodu masażysty"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.1 — zagadnienie 1"
+    text: "Zagadnienie „2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 1"
+    text: "Zagadnienie „2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia” jest elementem zagadnienia „2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 2"
+    text: "Zagadnienie „2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 2"
+    text: "Zagadnienie „2.1.3. Przepisy dotyczące wykonywania zadań zawodowych” jest elementem zagadnienia „2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 3"
+    text: "Zagadnienie „2.1.3. Przepisy dotyczące wykonywania zadań zawodowych” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 3"
+    text: "Zagadnienie „2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek” jest elementem zagadnienia „2.1.3. Przepisy dotyczące wykonywania zadań zawodowych”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 4"
+    text: "Zagadnienie „2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 4"
+    text: "Zagadnienie „2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny” jest elementem zagadnienia „2.1.4. Etyka zawodu: prawda, zaufanie, dyskrecja, szacunek”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 5"
+    text: "Zagadnienie „2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 5"
+    text: "Zagadnienie „2.1.6. Ochrona małoletnich” jest elementem zagadnienia „2.1.5. Zakaz dyskryminacji ze względu na płeć, wiek, rasę, wyznanie, niepełnosprawność, status społeczny”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 6"
+    text: "Zagadnienie „2.1.6. Ochrona małoletnich” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 6"
+    text: "Zagadnienie „2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu” jest elementem zagadnienia „2.1.6. Ochrona małoletnich”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 7"
+    text: "Zagadnienie „2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 7"
+    text: "Zagadnienie „2.1.8. Granice profesjonalnej bliskości” jest elementem zagadnienia „2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 8"
+    text: "Zagadnienie „2.1.8. Granice profesjonalnej bliskości” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 8"
+    text: "Zagadnienie „2.1.9. Zakaz kontaktów seksualnych z pacjentem” jest elementem zagadnienia „2.1.8. Granice profesjonalnej bliskości”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 9"
+    text: "Zagadnienie „2.1.9. Zakaz kontaktów seksualnych z pacjentem” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: truefalse
+    name: "2.1 — rozgraniczenie 9"
+    text: "Zagadnienie „2.1.10. Odpowiedzialność za słowo, dotyk i dokumentację” jest elementem zagadnienia „2.1.9. Zakaz kontaktów seksualnych z pacjentem”, a nie tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: false
+  - type: truefalse
+    name: "2.1 — zagadnienie 10"
+    text: "Zagadnienie „2.1.10. Odpowiedzialność za słowo, dotyk i dokumentację” wchodzi w zakres tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)."
+    answer: true
+  - type: multichoice
+    name: "2.1 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Prawne i etyczne uwarunkowania zawodu masażysty” (2.1)?"
+    answers:
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 100
+      - text: "1.15.6. Osoby z chorobami nowotworowymi — tylko za zgodą lekarza"  fraction: 0
+      - text: "3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu"  fraction: 0
+      - text: "5.3.6. Masaż rozgrzewkowy"  fraction: 0

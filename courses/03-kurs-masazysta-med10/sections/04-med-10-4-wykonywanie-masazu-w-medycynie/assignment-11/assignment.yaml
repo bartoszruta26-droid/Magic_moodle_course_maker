@@ -1,0 +1,11 @@
+# Metadane zadania Moodle (moduł: assignment)
+name: "Zadanie: 4.11. Masaż łącznotkankowy"
+intro: |
+  Zadanie praktyczne do tematu 4.11. Praca samodzielna lub w parach,
+  zgodnie z regulaminem modułu.
+intro_format: markdown
+submission_types: ["file", "onlinetext"]
+max_attachments: 3
+graded: 1
+grademax: 100
+markdown_file: instructions.md

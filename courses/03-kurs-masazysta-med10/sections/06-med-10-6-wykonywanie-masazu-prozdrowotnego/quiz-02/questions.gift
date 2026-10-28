@@ -1,0 +1,49 @@
+// Quiz: 6.2. Rodzaje masażu prozdrowotnego — moduł 6 (06-med-10-6-wykonywanie-masazu-prozdrowotnego)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s06-62-q1:: Zagadnienie „6.2.1. Masaż profilaktyczny” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q1b:: Zagadnienie „6.2.2. Masaż relaksacyjny” jest elementem zagadnienia „6.2.1. Masaż profilaktyczny”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q2:: Zagadnienie „6.2.2. Masaż relaksacyjny” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q2b:: Zagadnienie „6.2.3. Masaż bez przyrządów” jest elementem zagadnienia „6.2.2. Masaż relaksacyjny”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q3:: Zagadnienie „6.2.3. Masaż bez przyrządów” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q3b:: Zagadnienie „6.2.4. Masaż gorącymi kamieniami” jest elementem zagadnienia „6.2.3. Masaż bez przyrządów”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q4:: Zagadnienie „6.2.4. Masaż gorącymi kamieniami” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q4b:: Zagadnienie „6.2.5. Masaż biurowy” jest elementem zagadnienia „6.2.4. Masaż gorącymi kamieniami”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q5:: Zagadnienie „6.2.5. Masaż biurowy” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q5b:: Zagadnienie „6.2.6. Masaż antystresowy” jest elementem zagadnienia „6.2.5. Masaż biurowy”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q6:: Zagadnienie „6.2.6. Masaż antystresowy” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q6b:: Zagadnienie „6.2.7. Masaż dla osób pracujących przy komputerze” jest elementem zagadnienia „6.2.6. Masaż antystresowy”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q7:: Zagadnienie „6.2.7. Masaż dla osób pracujących przy komputerze” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q7b:: Zagadnienie „6.2.8. Masaż dla osób starszych w celach profilaktycznych” jest elementem zagadnienia „6.2.7. Masaż dla osób pracujących przy komputerze”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q8:: Zagadnienie „6.2.8. Masaż dla osób starszych w celach profilaktycznych” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q8b:: Zagadnienie „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza” jest elementem zagadnienia „6.2.8. Masaż dla osób starszych w celach profilaktycznych”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q9:: Zagadnienie „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::tf-s06-62-q9b:: Zagadnienie „6.2.10. Masaż dla sportowców amatorów” jest elementem zagadnienia „6.2.9. Masaż dla kobiet w ciąży — tylko bezpieczny i za zgodą lekarza”, a nie tematu „Rodzaje masażu prozdrowotnego” (6.2). {FALSE} //
+
+::tf-s06-62-q10:: Zagadnienie „6.2.10. Masaż dla sportowców amatorów” wchodzi w zakres tematu „Rodzaje masażu prozdrowotnego” (6.2). {TRUE} //
+
+::mc-s06-62:: Które zagadnienie należy bezpośrednio do tematu „Rodzaje masażu prozdrowotnego” (6.2)? {
+    = 6.2.1. Masaż profilaktyczny
+    ~ 6.2.2. Masaż relaksacyjny
+    ~ 6.2.3. Masaż bez przyrządów
+    ~ 2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy
+    ~ 3.14.1. Odciążenie grawitacyjne
+    ~ 5.3.10. Przeciwwskazania w sporcie
+}

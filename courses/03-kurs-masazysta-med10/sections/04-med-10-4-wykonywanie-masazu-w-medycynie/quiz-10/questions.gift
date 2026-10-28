@@ -1,0 +1,49 @@
+// Quiz: 4.10. Kompleksowa terapia obrzęków — moduł 4 (04-med-10-4-wykonywanie-masazu-w-medycynie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s04-410-q1:: Zagadnienie „4.10.1. Terapia ułożeniowa” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q1b:: Zagadnienie „4.10.2. Ćwiczenia fizyczne i oddechowe” jest elementem zagadnienia „4.10.1. Terapia ułożeniowa”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q2:: Zagadnienie „4.10.2. Ćwiczenia fizyczne i oddechowe” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q2b:: Zagadnienie „4.10.3. Autodrenaż pacjenta” jest elementem zagadnienia „4.10.2. Ćwiczenia fizyczne i oddechowe”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q3:: Zagadnienie „4.10.3. Autodrenaż pacjenta” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q3b:: Zagadnienie „4.10.4. Kompresjoterapia” jest elementem zagadnienia „4.10.3. Autodrenaż pacjenta”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q4:: Zagadnienie „4.10.4. Kompresjoterapia” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q4b:: Zagadnienie „4.10.5. Pielęgnacja skóry” jest elementem zagadnienia „4.10.4. Kompresjoterapia”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q5:: Zagadnienie „4.10.5. Pielęgnacja skóry” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q5b:: Zagadnienie „4.10.6. Zapobieganie zakażeniom” jest elementem zagadnienia „4.10.5. Pielęgnacja skóry”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q6:: Zagadnienie „4.10.6. Zapobieganie zakażeniom” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q6b:: Zagadnienie „4.10.7. Edukacja pacjenta i rodziny” jest elementem zagadnienia „4.10.6. Zapobieganie zakażeniom”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q7:: Zagadnienie „4.10.7. Edukacja pacjenta i rodziny” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q7b:: Zagadnienie „4.10.8. Dobór elementów do stanu klinicznego” jest elementem zagadnienia „4.10.7. Edukacja pacjenta i rodziny”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q8:: Zagadnienie „4.10.8. Dobór elementów do stanu klinicznego” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q8b:: Zagadnienie „4.10.9. Monitorowanie obwodów” jest elementem zagadnienia „4.10.8. Dobór elementów do stanu klinicznego”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q9:: Zagadnienie „4.10.9. Monitorowanie obwodów” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::tf-s04-410-q9b:: Zagadnienie „4.10.10. Współpraca z lekarzem i fizjoterapeutą” jest elementem zagadnienia „4.10.9. Monitorowanie obwodów”, a nie tematu „Kompleksowa terapia obrzęków” (4.10). {FALSE} //
+
+::tf-s04-410-q10:: Zagadnienie „4.10.10. Współpraca z lekarzem i fizjoterapeutą” wchodzi w zakres tematu „Kompleksowa terapia obrzęków” (4.10). {TRUE} //
+
+::mc-s04-410:: Które zagadnienie należy bezpośrednio do tematu „Kompleksowa terapia obrzęków” (4.10)? {
+    = 4.10.1. Terapia ułożeniowa
+    ~ 4.10.2. Ćwiczenia fizyczne i oddechowe
+    ~ 4.10.3. Autodrenaż pacjenta
+    ~ 2.5.6. Przechowywanie i archiwizacja
+    ~ 3.18.6. Poprawa propriocepcji
+    ~ 5.8.6. Małoletni: zgoda opiekuna
+}

@@ -1,0 +1,200 @@
+# Metadane sekcji kursu (Moodle)
+id: 3
+name: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-procesy-patologiczne-i-objawy-chorob-wprowadzenie.md"
+    name: "3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne"
+  - type: page
+    ref: "page-02-nieurazowe-zaburzenia-ukladu-narzadu-ruchu.md"
+    name: "3.2. Nieurazowe zaburzenia układu narządu ruchu"
+  - type: page
+    ref: "page-03-urazy-ukladu-narzadu-ruchu.md"
+    name: "3.3. Urazy układu narządu ruchu"
+  - type: page
+    ref: "page-04-zaburzenia-osrodkowego-obwodowego-i-wegetatywnego.md"
+    name: "3.4. Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego"
+  - type: page
+    ref: "page-05-zaburzenia-ukladu-krazenia-tetniczego-zylnego-i.md"
+    name: "3.5. Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego"
+  - type: page
+    ref: "page-06-zaburzenia-ukladu-oddechowego.md"
+    name: "3.6. Zaburzenia układu oddechowego"
+  - type: page
+    ref: "page-07-zaburzenia-ukladu-pokarmowego.md"
+    name: "3.7. Zaburzenia układu pokarmowego"
+  - type: page
+    ref: "page-08-zaburzenia-ukladu-moczowego-i-plciowego.md"
+    name: "3.8. Zaburzenia układu moczowego i płciowego"
+  - type: page
+    ref: "page-09-zaburzenia-skory-i-tkanki-podskornej.md"
+    name: "3.9. Zaburzenia skóry i tkanki podskórnej"
+  - type: page
+    ref: "page-10-wskazania-i-przeciwwskazania-do-masazu-klasycznego.md"
+    name: "3.10. Wskazania i przeciwwskazania do masażu klasycznego"
+  - type: page
+    ref: "page-11-wskazania-i-przeciwwskazania-do-manualnego-drenazu.md"
+    name: "3.11. Wskazania i przeciwwskazania do manualnego drenażu limfatycznego"
+  - type: page
+    ref: "page-12-wskazania-i-przeciwwskazania-do-masazy-odruchowych.md"
+    name: "3.12. Wskazania i przeciwwskazania do masaży odruchowych"
+  - type: page
+    ref: "page-13-wskazania-i-przeciwwskazania-do-masazu-tensegracyjnego.md"
+    name: "3.13. Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego"
+  - type: page
+    ref: "page-14-wskazania-i-przeciwwskazania-do-masazu-w-srodowisku.md"
+    name: "3.14. Wskazania i przeciwwskazania do masażu w środowisku wodnym"
+  - type: page
+    ref: "page-15-wskazania-i-przeciwwskazania-do-masazu-shantala-kobiet.md"
+    name: "3.15. Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu"
+  - type: page
+    ref: "page-16-zasady-wykonywania-poszczegolnych-rodzajow-masazu-w.md"
+    name: "3.16. Zasady wykonywania poszczególnych rodzajów masażu w medycynie"
+  - type: page
+    ref: "page-17-dzialanie-masazu-na-organizm-czlowieka.md"
+    name: "3.17. Działanie masażu na organizm człowieka"
+  - type: page
+    ref: "page-18-zmiany-powstajace-w-ustroju-po-masazu.md"
+    name: "3.18. Zmiany powstające w ustroju po masażu"
+  - type: page
+    ref: "page-19-wspolpraca-w-zespole-wielodyscyplinarnym.md"
+    name: "3.19. Współpraca w zespole wielodyscyplinarnym"
+  - type: page
+    ref: "page-20-modyfikacja-dzialan-zawodowych-na-podstawie-ocen.md"
+    name: "3.20. Modyfikacja działań zawodowych na podstawie ocen zespołu"
+  - type: page
+    ref: "page-21-korelacja-masazu-z-fizykoterapia-i-kinezyterapia-w.md"
+    name: "3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.3"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 3.1. Procesy patologiczne i objawy chorób — wprowadzenie bezpieczne"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 3.2. Nieurazowe zaburzenia układu narządu ruchu"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 3.2. Nieurazowe zaburzenia układu narządu ruchu"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 3.3. Urazy układu narządu ruchu"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 3.3. Urazy układu narządu ruchu"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 3.4. Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 3.4. Zaburzenia ośrodkowego, obwodowego i wegetatywnego układu nerwowego"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 3.5. Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 3.5. Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 3.6. Zaburzenia układu oddechowego"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 3.6. Zaburzenia układu oddechowego"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 3.7. Zaburzenia układu pokarmowego"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 3.7. Zaburzenia układu pokarmowego"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 3.8. Zaburzenia układu moczowego i płciowego"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 3.8. Zaburzenia układu moczowego i płciowego"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 3.9. Zaburzenia skóry i tkanki podskórnej"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 3.9. Zaburzenia skóry i tkanki podskórnej"
+  - type: quiz
+    ref: quiz-10
+    name: "Quiz: 3.10. Wskazania i przeciwwskazania do masażu klasycznego"
+  - type: assignment
+    ref: assignment-10
+    name: "Zadanie: 3.10. Wskazania i przeciwwskazania do masażu klasycznego"
+  - type: quiz
+    ref: quiz-11
+    name: "Quiz: 3.11. Wskazania i przeciwwskazania do manualnego drenażu limfatycznego"
+  - type: assignment
+    ref: assignment-11
+    name: "Zadanie: 3.11. Wskazania i przeciwwskazania do manualnego drenażu limfatycznego"
+  - type: quiz
+    ref: quiz-12
+    name: "Quiz: 3.12. Wskazania i przeciwwskazania do masaży odruchowych"
+  - type: assignment
+    ref: assignment-12
+    name: "Zadanie: 3.12. Wskazania i przeciwwskazania do masaży odruchowych"
+  - type: quiz
+    ref: quiz-13
+    name: "Quiz: 3.13. Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego"
+  - type: assignment
+    ref: assignment-13
+    name: "Zadanie: 3.13. Wskazania i przeciwwskazania do masażu tensegracyjnego, izometrycznego i stawowego"
+  - type: quiz
+    ref: quiz-14
+    name: "Quiz: 3.14. Wskazania i przeciwwskazania do masażu w środowisku wodnym"
+  - type: assignment
+    ref: assignment-14
+    name: "Zadanie: 3.14. Wskazania i przeciwwskazania do masażu w środowisku wodnym"
+  - type: quiz
+    ref: quiz-15
+    name: "Quiz: 3.15. Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu"
+  - type: assignment
+    ref: assignment-15
+    name: "Zadanie: 3.15. Wskazania i przeciwwskazania do masażu Shantala, kobiet w ciąży i połogu"
+  - type: quiz
+    ref: quiz-16
+    name: "Quiz: 3.16. Zasady wykonywania poszczególnych rodzajów masażu w medycynie"
+  - type: assignment
+    ref: assignment-16
+    name: "Zadanie: 3.16. Zasady wykonywania poszczególnych rodzajów masażu w medycynie"
+  - type: quiz
+    ref: quiz-17
+    name: "Quiz: 3.17. Działanie masażu na organizm człowieka"
+  - type: assignment
+    ref: assignment-17
+    name: "Zadanie: 3.17. Działanie masażu na organizm człowieka"
+  - type: quiz
+    ref: quiz-18
+    name: "Quiz: 3.18. Zmiany powstające w ustroju po masażu"
+  - type: assignment
+    ref: assignment-18
+    name: "Zadanie: 3.18. Zmiany powstające w ustroju po masażu"
+  - type: quiz
+    ref: quiz-19
+    name: "Quiz: 3.19. Współpraca w zespole wielodyscyplinarnym"
+  - type: assignment
+    ref: assignment-19
+    name: "Zadanie: 3.19. Współpraca w zespole wielodyscyplinarnym"
+  - type: quiz
+    ref: quiz-20
+    name: "Quiz: 3.20. Modyfikacja działań zawodowych na podstawie ocen zespołu"
+  - type: assignment
+    ref: assignment-20
+    name: "Zadanie: 3.20. Modyfikacja działań zawodowych na podstawie ocen zespołu"
+  - type: quiz
+    ref: quiz-21
+    name: "Quiz: 3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"
+  - type: assignment
+    ref: assignment-21
+    name: "Zadanie: 3.21. Korelacja masażu z fizykoterapią i kinezyterapią w jednostkach chorobowych"

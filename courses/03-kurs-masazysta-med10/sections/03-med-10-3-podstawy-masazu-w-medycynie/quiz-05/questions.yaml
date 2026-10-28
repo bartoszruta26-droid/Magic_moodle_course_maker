@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.5. Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.5 — zagadnienie 1"
+    text: "Zagadnienie „3.5.1. Nadciśnienie tętnicze” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 1"
+    text: "Zagadnienie „3.5.2. Choroba niedokrwienna serca” jest elementem zagadnienia „3.5.1. Nadciśnienie tętnicze”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 2"
+    text: "Zagadnienie „3.5.2. Choroba niedokrwienna serca” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 2"
+    text: "Zagadnienie „3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem” jest elementem zagadnienia „3.5.2. Choroba niedokrwienna serca”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 3"
+    text: "Zagadnienie „3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 3"
+    text: "Zagadnienie „3.5.4. Niewydolność serca — przeciwwskazania i ostrożność” jest elementem zagadnienia „3.5.3. Stan po zawale serca — tylko w uzgodnieniu z lekarzem”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 4"
+    text: "Zagadnienie „3.5.4. Niewydolność serca — przeciwwskazania i ostrożność” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 4"
+    text: "Zagadnienie „3.5.5. Żylaki kończyn dolnych” jest elementem zagadnienia „3.5.4. Niewydolność serca — przeciwwskazania i ostrożność”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 5"
+    text: "Zagadnienie „3.5.5. Żylaki kończyn dolnych” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 5"
+    text: "Zagadnienie „3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie” jest elementem zagadnienia „3.5.5. Żylaki kończyn dolnych”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 6"
+    text: "Zagadnienie „3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 6"
+    text: "Zagadnienie „3.5.7. Zapalenie żył” jest elementem zagadnienia „3.5.6. Zakrzepica żył głębokich — bezwzględne przeciwwskazanie”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 7"
+    text: "Zagadnienie „3.5.7. Zapalenie żył” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 7"
+    text: "Zagadnienie „3.5.8. Miażdżyca tętnic obwodowych” jest elementem zagadnienia „3.5.7. Zapalenie żył”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 8"
+    text: "Zagadnienie „3.5.8. Miażdżyca tętnic obwodowych” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 8"
+    text: "Zagadnienie „3.5.9. Choroba Raynauda” jest elementem zagadnienia „3.5.8. Miażdżyca tętnic obwodowych”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 9"
+    text: "Zagadnienie „3.5.9. Choroba Raynauda” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: truefalse
+    name: "3.5 — rozgraniczenie 9"
+    text: "Zagadnienie „3.5.10. Obrzęk limfatyczny i niewydolność krążenia chłonnego” jest elementem zagadnienia „3.5.9. Choroba Raynauda”, a nie tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: false
+  - type: truefalse
+    name: "3.5 — zagadnienie 10"
+    text: "Zagadnienie „3.5.10. Obrzęk limfatyczny i niewydolność krążenia chłonnego” wchodzi w zakres tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)."
+    answer: true
+  - type: multichoice
+    name: "3.5 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu krążenia tętniczego, żylnego i limfatycznego” (3.5)?"
+    answers:
+      - text: "3.5.1. Nadciśnienie tętnicze"  fraction: 100
+      - text: "2.1.1. Zawód technik masażysta w systemie edukacji i rynku pracy"  fraction: 0
+      - text: "3.14.2. Temperatura wody i jej wpływ"  fraction: 0
+      - text: "5.4.1. Napięcie mięśniowe po treningu"  fraction: 0

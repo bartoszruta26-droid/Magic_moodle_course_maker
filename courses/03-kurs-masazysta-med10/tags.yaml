@@ -1,0 +1,25 @@
+# Tagi i kategorie kursu
+category:
+  name: "Kursy zawodowe"
+  idnumber: "KKZ"
+tags:
+  - masaz
+  - med.10
+  - kurs-zawodowy
+  - masaz-klasyczny
+  - masaz-sportowy
+  - masaz-limfatyczny
+  - drenaz-limfatyczny
+  - masaz-prozdrowotny
+  - anatomia
+  - fizjologia
+  - patologia
+  - bezpieczenstwo-i-higiena-pracy
+  - pierwsza-pomoc
+  - aseptyka
+  - ergonomia
+  - etyka-zawodowa
+  - komunikacja
+  - jezyk-obcy-zawodowy
+  - praktyka-zawodowa
+  - egzamin-zawodowy

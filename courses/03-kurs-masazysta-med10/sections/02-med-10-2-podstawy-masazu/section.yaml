@@ -1,0 +1,209 @@
+# Metadane sekcji kursu (Moodle)
+id: 2
+name: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+visible: 1
+summary:
+  format: markdown
+  markdown_file: section.md
+modules:
+  - type: page
+    ref: "page-01-prawne-i-etyczne-uwarunkowania-zawodu-masazysty.md"
+    name: "2.1. Prawne i etyczne uwarunkowania zawodu masażysty"
+  - type: page
+    ref: "page-02-system-ubezpieczen-zdrowotnych.md"
+    name: "2.2. System ubezpieczeń zdrowotnych"
+  - type: page
+    ref: "page-03-miejsce-i-rola-zawodu-w-systemie-ochrony-zdrowia.md"
+    name: "2.3. Miejsce i rola zawodu w systemie ochrony zdrowia"
+  - type: page
+    ref: "page-04-rynek-uslug-zdrowotnych-i-medycznych.md"
+    name: "2.4. Rynek usług zdrowotnych i medycznych"
+  - type: page
+    ref: "page-05-dokumentacja-zwiazana-z-wykonywaniem-zadan-zawodowych.md"
+    name: "2.5. Dokumentacja związana z wykonywaniem zadań zawodowych"
+  - type: page
+    ref: "page-06-promocja-zdrowia-i-profilaktyka.md"
+    name: "2.6. Promocja zdrowia i profilaktyka"
+  - type: page
+    ref: "page-07-ogolna-budowa-organizmu-czlowieka-i-terminologia.md"
+    name: "2.7. Ogólna budowa organizmu człowieka i terminologia topograficzna"
+  - type: page
+    ref: "page-08-budowa-tkanek-organizmu-czlowieka.md"
+    name: "2.8. Budowa tkanek organizmu człowieka"
+  - type: page
+    ref: "page-09-powloka-wspolna-skora-i-jej-przydatki.md"
+    name: "2.9. Powłoka wspólna: skóra i jej przydatki"
+  - type: page
+    ref: "page-10-uklad-ruchu-kosci-stawy-miesnie-powiez.md"
+    name: "2.10. Układ ruchu: kości, stawy, mięśnie, powięź"
+  - type: page
+    ref: "page-11-uklad-nerwowy-i-narzady-zmyslow.md"
+    name: "2.11. Układ nerwowy i narządy zmysłów"
+  - type: page
+    ref: "page-12-uklad-krazenia-i-limfatyczny.md"
+    name: "2.12. Układ krążenia i limfatyczny"
+  - type: page
+    ref: "page-13-uklady-oddechowy-pokarmowy-moczowo-plciowy-i.md"
+    name: "2.13. Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy"
+  - type: page
+    ref: "page-14-lokalizacja-palpacyjna-struktur-anatomicznych.md"
+    name: "2.14. Lokalizacja palpacyjna struktur anatomicznych"
+  - type: page
+    ref: "page-15-fizjologia-i-mechanika-skurczu-miesni.md"
+    name: "2.15. Fizjologia i mechanika skurczu mięśni"
+  - type: page
+    ref: "page-16-rozwoj-psychofizyczny-czlowieka-a-masaz.md"
+    name: "2.16. Rozwój psychofizyczny człowieka a masaż"
+  - type: page
+    ref: "page-17-techniki-masazu-klasycznego-teoria.md"
+    name: "2.17. Techniki masażu klasycznego — teoria"
+  - type: page
+    ref: "page-18-dawkowanie-masazu-klasycznego.md"
+    name: "2.18. Dawkowanie masażu klasycznego"
+  - type: page
+    ref: "page-19-srodki-poslizgowe-i-wspomagajace-masaz.md"
+    name: "2.19. Środki poślizgowe i wspomagające masaż"
+  - type: page
+    ref: "page-20-korelacja-masazu-z-kinezyterapia-i-fizykoterapia.md"
+    name: "2.20. Korelacja masażu z kinezyterapią i fizykoterapią"
+  - type: page
+    ref: "page-21-przeciwdzialanie-przemocy-i-ochrona-osob-wrazliwych.md"
+    name: "2.21. Przeciwdziałanie przemocy i ochrona osób wrażliwych"
+  - type: page
+    ref: "page-22-normy-i-procedury-oceny-zgodnosci.md"
+    name: "2.22. Normy i procedury oceny zgodności"
+  - type: book
+    ref: book-01
+    name: "Podręcznik: MED.10.2"
+  - type: quiz
+    ref: quiz-01
+    name: "Quiz: 2.1. Prawne i etyczne uwarunkowania zawodu masażysty"
+  - type: assignment
+    ref: assignment-01
+    name: "Zadanie: 2.1. Prawne i etyczne uwarunkowania zawodu masażysty"
+  - type: quiz
+    ref: quiz-02
+    name: "Quiz: 2.2. System ubezpieczeń zdrowotnych"
+  - type: assignment
+    ref: assignment-02
+    name: "Zadanie: 2.2. System ubezpieczeń zdrowotnych"
+  - type: quiz
+    ref: quiz-03
+    name: "Quiz: 2.3. Miejsce i rola zawodu w systemie ochrony zdrowia"
+  - type: assignment
+    ref: assignment-03
+    name: "Zadanie: 2.3. Miejsce i rola zawodu w systemie ochrony zdrowia"
+  - type: quiz
+    ref: quiz-04
+    name: "Quiz: 2.4. Rynek usług zdrowotnych i medycznych"
+  - type: assignment
+    ref: assignment-04
+    name: "Zadanie: 2.4. Rynek usług zdrowotnych i medycznych"
+  - type: quiz
+    ref: quiz-05
+    name: "Quiz: 2.5. Dokumentacja związana z wykonywaniem zadań zawodowych"
+  - type: assignment
+    ref: assignment-05
+    name: "Zadanie: 2.5. Dokumentacja związana z wykonywaniem zadań zawodowych"
+  - type: quiz
+    ref: quiz-06
+    name: "Quiz: 2.6. Promocja zdrowia i profilaktyka"
+  - type: assignment
+    ref: assignment-06
+    name: "Zadanie: 2.6. Promocja zdrowia i profilaktyka"
+  - type: quiz
+    ref: quiz-07
+    name: "Quiz: 2.7. Ogólna budowa organizmu człowieka i terminologia topograficzna"
+  - type: assignment
+    ref: assignment-07
+    name: "Zadanie: 2.7. Ogólna budowa organizmu człowieka i terminologia topograficzna"
+  - type: quiz
+    ref: quiz-08
+    name: "Quiz: 2.8. Budowa tkanek organizmu człowieka"
+  - type: assignment
+    ref: assignment-08
+    name: "Zadanie: 2.8. Budowa tkanek organizmu człowieka"
+  - type: quiz
+    ref: quiz-09
+    name: "Quiz: 2.9. Powłoka wspólna: skóra i jej przydatki"
+  - type: assignment
+    ref: assignment-09
+    name: "Zadanie: 2.9. Powłoka wspólna: skóra i jej przydatki"
+  - type: quiz
+    ref: quiz-10
+    name: "Quiz: 2.10. Układ ruchu: kości, stawy, mięśnie, powięź"
+  - type: assignment
+    ref: assignment-10
+    name: "Zadanie: 2.10. Układ ruchu: kości, stawy, mięśnie, powięź"
+  - type: quiz
+    ref: quiz-11
+    name: "Quiz: 2.11. Układ nerwowy i narządy zmysłów"
+  - type: assignment
+    ref: assignment-11
+    name: "Zadanie: 2.11. Układ nerwowy i narządy zmysłów"
+  - type: quiz
+    ref: quiz-12
+    name: "Quiz: 2.12. Układ krążenia i limfatyczny"
+  - type: assignment
+    ref: assignment-12
+    name: "Zadanie: 2.12. Układ krążenia i limfatyczny"
+  - type: quiz
+    ref: quiz-13
+    name: "Quiz: 2.13. Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy"
+  - type: assignment
+    ref: assignment-13
+    name: "Zadanie: 2.13. Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy"
+  - type: quiz
+    ref: quiz-14
+    name: "Quiz: 2.14. Lokalizacja palpacyjna struktur anatomicznych"
+  - type: assignment
+    ref: assignment-14
+    name: "Zadanie: 2.14. Lokalizacja palpacyjna struktur anatomicznych"
+  - type: quiz
+    ref: quiz-15
+    name: "Quiz: 2.15. Fizjologia i mechanika skurczu mięśni"
+  - type: assignment
+    ref: assignment-15
+    name: "Zadanie: 2.15. Fizjologia i mechanika skurczu mięśni"
+  - type: quiz
+    ref: quiz-16
+    name: "Quiz: 2.16. Rozwój psychofizyczny człowieka a masaż"
+  - type: assignment
+    ref: assignment-16
+    name: "Zadanie: 2.16. Rozwój psychofizyczny człowieka a masaż"
+  - type: quiz
+    ref: quiz-17
+    name: "Quiz: 2.17. Techniki masażu klasycznego — teoria"
+  - type: assignment
+    ref: assignment-17
+    name: "Zadanie: 2.17. Techniki masażu klasycznego — teoria"
+  - type: quiz
+    ref: quiz-18
+    name: "Quiz: 2.18. Dawkowanie masażu klasycznego"
+  - type: assignment
+    ref: assignment-18
+    name: "Zadanie: 2.18. Dawkowanie masażu klasycznego"
+  - type: quiz
+    ref: quiz-19
+    name: "Quiz: 2.19. Środki poślizgowe i wspomagające masaż"
+  - type: assignment
+    ref: assignment-19
+    name: "Zadanie: 2.19. Środki poślizgowe i wspomagające masaż"
+  - type: quiz
+    ref: quiz-20
+    name: "Quiz: 2.20. Korelacja masażu z kinezyterapią i fizykoterapią"
+  - type: assignment
+    ref: assignment-20
+    name: "Zadanie: 2.20. Korelacja masażu z kinezyterapią i fizykoterapią"
+  - type: quiz
+    ref: quiz-21
+    name: "Quiz: 2.21. Przeciwdziałanie przemocy i ochrona osób wrażliwych"
+  - type: assignment
+    ref: assignment-21
+    name: "Zadanie: 2.21. Przeciwdziałanie przemocy i ochrona osób wrażliwych"
+  - type: quiz
+    ref: quiz-22
+    name: "Quiz: 2.22. Normy i procedury oceny zgodności"
+  - type: assignment
+    ref: assignment-22
+    name: "Zadanie: 2.22. Normy i procedury oceny zgodności"

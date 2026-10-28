@@ -1,0 +1,61 @@
+# Aktywność typu glossary — słownik pojęć kursu
+glossary:
+  name: "Słownik pojęć masażu (MED.10)"
+  intro: |
+    Podstawowe terminy używane w kursie; uzupełnienie załącznika G.
+  intro_format: markdown
+  entries:
+  - term: "Masaż klasyczny"
+    definition: "Systematyczny zespół ruchów wykonywanych na powierzchni ciała w celu oddziaływania na tkanki, krążenie i układ nerwowy."
+    format: html
+  - term: "Głaskanie (effleurage)"
+    definition: "Technika masażu polegająca na delikatnym przesuwaniu dłoni po skórze; zwykle otwiera i zamyka zabieg."
+    format: html
+  - term: "Rozcieranie (friction)"
+    definition: "Technika wykonywana ruchami okrężnymi lub poprzecznymi z większym naciskiem miejscowym, wpływająca na głębsze warstwy tkanek."
+    format: html
+  - term: "Ugniatanie (petrissage)"
+    definition: "Chwytanie i przemieszczanie mięśni; wpływa na elastyczność mięśni i krążenie lokalne."
+    format: html
+  - term: "Oklepywanie (tapotement)"
+    definition: "Technika rytmicznych uderzeń krawędzią lub palcami dłoni, pobudzająca unerwienie i napięcie mięśniowe."
+    format: html
+  - term: "Wibracja"
+    definition: "Technika przenoszenia drgań na tkanki dłonią lub aparatem; o działaniu rozluźniającym lub pobudzającym."
+    format: html
+  - term: "Przeciwwskazanie bezwzględne"
+    definition: "Stan, w którym masaż nie może być wykonany do czasu decyzji lekarza (np. ostre stany zapalne, gorączka, zakrzepica)."
+    format: html
+  - term: "Przeciwwskazanie względne"
+    definition: "Stan wymagający modyfikacji techniki, siły lub czasu zabiegu po konsultacji."
+    format: html
+  - term: "Aseptyka"
+    definition: "Zbiór zabiegów zapobiegających przedostaniu się drobnoustrojów do organizmu."
+    format: html
+  - term: "Antyseptyka"
+    definition: "Zniszczenie lub ograniczenie drobnoustrojów na skórze i błonach śluzowych środkami chemicznymi."
+    format: html
+  - term: "Ergonomia stanowiska"
+    definition: "Dostosowanie stołu, oświetlenia i postawy ciała masażysty tak, by chronić kręgosłup i stawy przed przeciążeniem."
+    format: html
+  - term: "BLS (Basic Life Support)"
+    definition: "Podstawowe zabiegi resuscytacyjne: uciskanie klatki piersiowej i oddechy ratownicze do czasu przyjazdu pomocy."
+    format: html
+  - term: "Drenaż limfatyczny"
+    definition: "Delikatna technika manualna wspomagająca przepływ chłonki; stosowana m.in. w obrzękach."
+    format: html
+  - term: "Masaż sportowy"
+    definition: "Masaż stosowany w cyklu treningowym i startowym zawodnika: przygotowanie, regeneracja, wsparcie leczenia pourazowego."
+    format: html
+  - term: "Masaż Shantala"
+    definition: "Masaż niemowląt i małych dzieci; wspiera rozwój i więź z opiekunem."
+    format: html
+  - term: "Tensegracja (masaż powięziowy)"
+    definition: "Praca z powięziami i linią oddechową, wpływająca na równowagę napięć całego ciała."
+    format: html
+  - term: "Świadoma zgoda klienta"
+    definition: "Potwierdzenie przez klienta zgody na zabieg po zapoznaniu z celem, przebiegiem i możliwym ryzykiem."
+    format: html
+  - term: "Granice kompetencji"
+    definition: "Zestaw czynności, których masażysta nie wykonuje (rozpoznawanie chorób, zabiegi wykraczające poza kwalifikację MED.10)."
+    format: html

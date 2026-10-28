@@ -1,0 +1,49 @@
+// Quiz: 5.4. Wskazania i przeciwwskazania do masażu sportowego — moduł 5 (05-med-10-5-wykonywanie-masazu-w-sporcie)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s05-54-q1:: Zagadnienie „5.4.1. Napięcie mięśniowe po treningu” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q1b:: Zagadnienie „5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie” jest elementem zagadnienia „5.4.1. Napięcie mięśniowe po treningu”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q2:: Zagadnienie „5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q2b:: Zagadnienie „5.4.3. Drobne przeciążenia” jest elementem zagadnienia „5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q3:: Zagadnienie „5.4.3. Drobne przeciążenia” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q3b:: Zagadnienie „5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej” jest elementem zagadnienia „5.4.3. Drobne przeciążenia”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q4:: Zagadnienie „5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q4b:: Zagadnienie „5.4.5. Ból ostry — nie masować bez diagnozy” jest elementem zagadnienia „5.4.4. Obrzęk pourazowy — tylko po kwalifikacji medycznej”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q5:: Zagadnienie „5.4.5. Ból ostry — nie masować bez diagnozy” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q5b:: Zagadnienie „5.4.6. Stan zapalny — przeciwwskazanie” jest elementem zagadnienia „5.4.5. Ból ostry — nie masować bez diagnozy”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q6:: Zagadnienie „5.4.6. Stan zapalny — przeciwwskazanie” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q6b:: Zagadnienie „5.4.7. Gorączka i infekcja — przeciwwskazanie” jest elementem zagadnienia „5.4.6. Stan zapalny — przeciwwskazanie”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q7:: Zagadnienie „5.4.7. Gorączka i infekcja — przeciwwskazanie” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q7b:: Zagadnienie „5.4.8. Otwarta rana — przeciwwskazanie miejscowe” jest elementem zagadnienia „5.4.7. Gorączka i infekcja — przeciwwskazanie”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q8:: Zagadnienie „5.4.8. Otwarta rana — przeciwwskazanie miejscowe” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q8b:: Zagadnienie „5.4.9. Podejrzenie złamania, zwichnięcia, zerwa — pilna pomoc” jest elementem zagadnienia „5.4.8. Otwarta rana — przeciwwskazanie miejscowe”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q9:: Zagadnienie „5.4.9. Podejrzenie złamania, zwichnięcia, zerwa — pilna pomoc” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::tf-s05-54-q9b:: Zagadnienie „5.4.10. Zasada: nie ukrywaj bólu zawodnika przed lekarzem” jest elementem zagadnienia „5.4.9. Podejrzenie złamania, zwichnięcia, zerwa — pilna pomoc”, a nie tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {FALSE} //
+
+::tf-s05-54-q10:: Zagadnienie „5.4.10. Zasada: nie ukrywaj bólu zawodnika przed lekarzem” wchodzi w zakres tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4). {TRUE} //
+
+::mc-s05-54:: Które zagadnienie należy bezpośrednio do tematu „Wskazania i przeciwwskazania do masażu sportowego” (5.4)? {
+    = 5.4.1. Napięcie mięśniowe po treningu
+    ~ 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie
+    ~ 5.4.3. Drobne przeciążenia
+    ~ 2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia
+    ~ 3.14.2. Temperatura wody i jej wpływ
+    ~ 5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie
+}

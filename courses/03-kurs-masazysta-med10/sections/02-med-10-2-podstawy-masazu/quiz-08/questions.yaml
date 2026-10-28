@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.8. Budowa tkanek organizmu człowieka"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.8 — zagadnienie 1"
+    text: "Zagadnienie „2.8.1. Tkanka nabłonkowa” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 1"
+    text: "Zagadnienie „2.8.2. Tkanka łączna wiotka” jest elementem zagadnienia „2.8.1. Tkanka nabłonkowa”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 2"
+    text: "Zagadnienie „2.8.2. Tkanka łączna wiotka” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 2"
+    text: "Zagadnienie „2.8.3. Tkanka łączna zbita włóknista” jest elementem zagadnienia „2.8.2. Tkanka łączna wiotka”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 3"
+    text: "Zagadnienie „2.8.3. Tkanka łączna zbita włóknista” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 3"
+    text: "Zagadnienie „2.8.4. Tkanka łączna zbita sprężysta” jest elementem zagadnienia „2.8.3. Tkanka łączna zbita włóknista”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 4"
+    text: "Zagadnienie „2.8.4. Tkanka łączna zbita sprężysta” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 4"
+    text: "Zagadnienie „2.8.5. Tkanka chrzęstna: szklista, sprężysta, włóknista” jest elementem zagadnienia „2.8.4. Tkanka łączna zbita sprężysta”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 5"
+    text: "Zagadnienie „2.8.5. Tkanka chrzęstna: szklista, sprężysta, włóknista” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 5"
+    text: "Zagadnienie „2.8.6. Tkanka kostna” jest elementem zagadnienia „2.8.5. Tkanka chrzęstna: szklista, sprężysta, włóknista”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 6"
+    text: "Zagadnienie „2.8.6. Tkanka kostna” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 6"
+    text: "Zagadnienie „2.8.7. Tkanka tłuszczowa” jest elementem zagadnienia „2.8.6. Tkanka kostna”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 7"
+    text: "Zagadnienie „2.8.7. Tkanka tłuszczowa” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 7"
+    text: "Zagadnienie „2.8.8. Tkanka mięśniowa: poprzecznie prążkowana, gładka, sercowa” jest elementem zagadnienia „2.8.7. Tkanka tłuszczowa”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 8"
+    text: "Zagadnienie „2.8.8. Tkanka mięśniowa: poprzecznie prążkowana, gładka, sercowa” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 8"
+    text: "Zagadnienie „2.8.9. Tkanka nerwowa” jest elementem zagadnienia „2.8.8. Tkanka mięśniowa: poprzecznie prążkowana, gładka, sercowa”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 9"
+    text: "Zagadnienie „2.8.9. Tkanka nerwowa” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: truefalse
+    name: "2.8 — rozgraniczenie 9"
+    text: "Zagadnienie „2.8.10. Właściwości biomechaniczne tkanek w kontekście masażu” jest elementem zagadnienia „2.8.9. Tkanka nerwowa”, a nie tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: false
+  - type: truefalse
+    name: "2.8 — zagadnienie 10"
+    text: "Zagadnienie „2.8.10. Właściwości biomechaniczne tkanek w kontekście masażu” wchodzi w zakres tematu „Budowa tkanek organizmu człowieka” (2.8)."
+    answer: true
+  - type: multichoice
+    name: "2.8 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Budowa tkanek organizmu człowieka” (2.8)?"
+    answers:
+      - text: "2.8.1. Tkanka nabłonkowa"  fraction: 100
+      - text: "2.1.3. Przepisy dotyczące wykonywania zadań zawodowych"  fraction: 0
+      - text: "3.14.4. Przeciwwskazania: infekcje, otwarte rany, niewydolność krążenia, lęk przed wodą, padaczka bez nadzoru"  fraction: 0
+      - text: "5.4.3. Drobne przeciążenia"  fraction: 0

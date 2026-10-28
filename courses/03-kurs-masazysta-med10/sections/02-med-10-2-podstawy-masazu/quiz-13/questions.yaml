@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.13. Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.13 — zagadnienie 1"
+    text: "Zagadnienie „2.13.1. Drogi oddechowe i płuca” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 1"
+    text: "Zagadnienie „2.13.2. Mechanika oddychania: przepona, żebra, mięśnie pomocnicze” jest elementem zagadnienia „2.13.1. Drogi oddechowe i płuca”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 2"
+    text: "Zagadnienie „2.13.2. Mechanika oddychania: przepona, żebra, mięśnie pomocnicze” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 2"
+    text: "Zagadnienie „2.13.3. Wymiana gazowa i wentylacja” jest elementem zagadnienia „2.13.2. Mechanika oddychania: przepona, żebra, mięśnie pomocnicze”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 3"
+    text: "Zagadnienie „2.13.3. Wymiana gazowa i wentylacja” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 3"
+    text: "Zagadnienie „2.13.4. Przewód pokarmowy i gruczoły trawienne” jest elementem zagadnienia „2.13.3. Wymiana gazowa i wentylacja”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 4"
+    text: "Zagadnienie „2.13.4. Przewód pokarmowy i gruczoły trawienne” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 4"
+    text: "Zagadnienie „2.13.5. Perystaltyka i wchłanianie” jest elementem zagadnienia „2.13.4. Przewód pokarmowy i gruczoły trawienne”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 5"
+    text: "Zagadnienie „2.13.5. Perystaltyka i wchłanianie” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 5"
+    text: "Zagadnienie „2.13.6. Nerki i drogi moczowe” jest elementem zagadnienia „2.13.5. Perystaltyka i wchłanianie”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 6"
+    text: "Zagadnienie „2.13.6. Nerki i drogi moczowe” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 6"
+    text: "Zagadnienie „2.13.7. Narządy płciowe — aspekty anatomiczne istotne dla masażu” jest elementem zagadnienia „2.13.6. Nerki i drogi moczowe”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 7"
+    text: "Zagadnienie „2.13.7. Narządy płciowe — aspekty anatomiczne istotne dla masażu” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 7"
+    text: "Zagadnienie „2.13.8. Gruczoły dokrewne i hormony” jest elementem zagadnienia „2.13.7. Narządy płciowe — aspekty anatomiczne istotne dla masażu”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 8"
+    text: "Zagadnienie „2.13.8. Gruczoły dokrewne i hormony” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 8"
+    text: "Zagadnienie „2.13.9. Wpływ hormonów na tkanki i samopoczucie” jest elementem zagadnienia „2.13.8. Gruczoły dokrewne i hormony”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 9"
+    text: "Zagadnienie „2.13.9. Wpływ hormonów na tkanki i samopoczucie” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: truefalse
+    name: "2.13 — rozgraniczenie 9"
+    text: "Zagadnienie „2.13.10. Bezpieczeństwo masażu w chorobach tych układów” jest elementem zagadnienia „2.13.9. Wpływ hormonów na tkanki i samopoczucie”, a nie tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: false
+  - type: truefalse
+    name: "2.13 — zagadnienie 10"
+    text: "Zagadnienie „2.13.10. Bezpieczeństwo masażu w chorobach tych układów” wchodzi w zakres tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)."
+    answer: true
+  - type: multichoice
+    name: "2.13 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Układy oddechowy, pokarmowy, moczowo-płciowy i wewnątrzwydzielniczy” (2.13)?"
+    answers:
+      - text: "2.13.1. Drogi oddechowe i płuca"  fraction: 100
+      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"  fraction: 0
+      - text: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"  fraction: 0
+      - text: "5.8.7. Kobiety w ciąży w sporcie — ograniczenia"  fraction: 0

@@ -1,0 +1,61 @@
+# Metadane kursu Moodle
+format_version: "1.0"
+course:
+  full_name: "Kwalifikacyjny kurs zawodowy w zawodzie masażysta (kwalifikacja MED.10)"
+  short_name: "KKZ-MED10-MASAŻYSTA"
+  idnumber: "MED.10"
+  category: "Kursy zawodowe"
+  visible: 1
+  format: "topics"
+  lang: "pl"
+  show_grades: 1
+  news_items: 3
+description:
+  format: "markdown"
+  markdown_file: "course.md"
+  summary_plain: >-
+    Kwalifikacyjny kurs zawodowy w zawodzie masażysta (MED.10):
+    11 modułów, 139 tematów,
+    1393 zagadnień szczegółowych, załączniki A-M.
+editor: "tinymce"
+sections:
+  - id: "00"
+    name: "Ogłoszenia i administracja kursu"
+  - id: "01"
+    name: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+  - id: "02"
+    name: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+  - id: "03"
+    name: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+  - id: "04"
+    name: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+  - id: "05"
+    name: "Moduł 5: MED.10.5. WYKONYWANIE MASAŻU W SPORCIE"
+  - id: "06"
+    name: "Moduł 6: MED.10.6. WYKONYWANIE MASAŻU PROZDROWOTNEGO"
+  - id: "07"
+    name: "Moduł 7: MED.10.7. JĘZYK OBCEGO ZAWODOWY"
+  - id: "08"
+    name: "Moduł 8: MED.10.8. KOMPETENCJE PERSONALNE I SPOŁECZNE"
+  - id: "09"
+    name: "Moduł 9: MED.10.9. ORGANIZACJA PRACY MAŁYCH ZESPOŁÓW"
+  - id: "10"
+    name: "Moduł 10: Praktyka zawodowa"
+  - id: "11"
+    name: "Moduł 11: Przygotowanie do egzaminu potwierdzającego kwalifikację"
+  - id: "12"
+    name: "Załączniki A-M"
+metadata:
+  author: "Zespół dydaktyczny kursu masażu"
+  version: "1.0.0"
+  created: "2026-10-28"
+  modified: "2026-10-28"
+  license: "CC BY-SA 4.0"
+  language: "pl"
+  level: "qualifying-vocational"
+  audience: "Kandydaci do kwalifikacji MED.10 – masażysta"
+  keywords: ["masaż", "MED.10", "kurs zawodowy", "rehabilitacja", "profilaktyka"]
+  ethical_compliance:
+    respects_human_dignity: true
+    truthful_medical_content: true
+    within_scope_of_competence: true

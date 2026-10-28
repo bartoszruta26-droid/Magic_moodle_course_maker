@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.3. Miejsce i rola zawodu w systemie ochrony zdrowia"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.3 — zagadnienie 1"
+    text: "Zagadnienie „2.3.1. Podmiot leczniczy publiczny i niepubliczny” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 1"
+    text: "Zagadnienie „2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y” jest elementem zagadnienia „2.3.1. Podmiot leczniczy publiczny i niepubliczny”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 2"
+    text: "Zagadnienie „2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 2"
+    text: "Zagadnienie „2.3.3. Gabinety masażu i działalności lecznicze” jest elementem zagadnienia „2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 3"
+    text: "Zagadnienie „2.3.3. Gabinety masażu i działalności lecznicze” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 3"
+    text: "Zagadnienie „2.3.4. Sportowe ośrodki medyczne i kluby” jest elementem zagadnienia „2.3.3. Gabinety masażu i działalności lecznicze”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 4"
+    text: "Zagadnienie „2.3.4. Sportowe ośrodki medyczne i kluby” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 4"
+    text: "Zagadnienie „2.3.5. Opieka długoterminowa i paliatywna” jest elementem zagadnienia „2.3.4. Sportowe ośrodki medyczne i kluby”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 5"
+    text: "Zagadnienie „2.3.5. Opieka długoterminowa i paliatywna” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 5"
+    text: "Zagadnienie „2.3.6. Rola masażysty w zespole terapeutycznym” jest elementem zagadnienia „2.3.5. Opieka długoterminowa i paliatywna”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 6"
+    text: "Zagadnienie „2.3.6. Rola masażysty w zespole terapeutycznym” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 6"
+    text: "Zagadnienie „2.3.7. Rola masażysty w profilaktyce zdrowotnej” jest elementem zagadnienia „2.3.6. Rola masażysty w zespole terapeutycznym”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 7"
+    text: "Zagadnienie „2.3.7. Rola masażysty w profilaktyce zdrowotnej” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 7"
+    text: "Zagadnienie „2.3.8. Miejsce zawodu w Unii Europejskiej” jest elementem zagadnienia „2.3.7. Rola masażysty w profilaktyce zdrowotnej”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 8"
+    text: "Zagadnienie „2.3.8. Miejsce zawodu w Unii Europejskiej” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 8"
+    text: "Zagadnienie „2.3.9. uznawanie kwalifikacji zawodowych” jest elementem zagadnienia „2.3.8. Miejsce zawodu w Unii Europejskiej”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 9"
+    text: "Zagadnienie „2.3.9. uznawanie kwalifikacji zawodowych” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: truefalse
+    name: "2.3 — rozgraniczenie 9"
+    text: "Zagadnienie „2.3.10. Standardy jakości usług zdrowotnych” jest elementem zagadnienia „2.3.9. uznawanie kwalifikacji zawodowych”, a nie tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: false
+  - type: truefalse
+    name: "2.3 — zagadnienie 10"
+    text: "Zagadnienie „2.3.10. Standardy jakości usług zdrowotnych” wchodzi w zakres tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)."
+    answer: true
+  - type: multichoice
+    name: "2.3 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Miejsce i rola zawodu w systemie ochrony zdrowia” (2.3)?"
+    answers:
+      - text: "2.3.1. Podmiot leczniczy publiczny i niepubliczny"  fraction: 100
+      - text: "1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne"  fraction: 0
+      - text: "3.13.9. Dokumentacja zakresu ruchu i bólu"  fraction: 0
+      - text: "5.3.8. Masaż w podróży i po podróży"  fraction: 0

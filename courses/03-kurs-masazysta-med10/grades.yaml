@@ -1,0 +1,72 @@
+# Konfiguracja oceniania (kategoria: masażysta MED.10)
+scale:
+  type: "value"
+  min: 0
+  max: 100
+items:
+  - name: "Moduł 1: MED.10.1. BEZPIECZEŃSTWO I HIGIENA PRACY"
+    itemname: "modul-01"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 2: MED.10.2. PODSTAWY MASAŻU"
+    itemname: "modul-02"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 3
+  - name: "Moduł 3: MED.10.3. PODSTAWY MASAŻU W MEDYCYNIE"
+    itemname: "modul-03"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 3
+  - name: "Moduł 4: MED.10.4. WYKONYWANIE MASAŻU W MEDYCYNIE"
+    itemname: "modul-04"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 3
+  - name: "Moduł 5: MED.10.5. WYKONYWANIE MASAŻU W SPORCIE"
+    itemname: "modul-05"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 6: MED.10.6. WYKONYWANIE MASAŻU PROZDROWOTNEGO"
+    itemname: "modul-06"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 7: MED.10.7. JĘZYK OBCEGO ZAWODOWY"
+    itemname: "modul-07"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 8: MED.10.8. KOMPETENCJE PERSONALNE I SPOŁECZNE"
+    itemname: "modul-08"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 9: MED.10.9. ORGANIZACJA PRACY MAŁYCH ZESPOŁÓW"
+    itemname: "modul-09"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 1
+  - name: "Moduł 10: Praktyka zawodowa"
+    itemname: "modul-10"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 2
+  - name: "Moduł 11: Przygotowanie do egzaminu potwierdzającego kwalifikację"
+    itemname: "modul-11"
+    itemtype: "manual"
+    itemmodule: "quiz"
+    grademax: 100
+    weight: 2

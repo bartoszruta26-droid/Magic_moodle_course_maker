@@ -1,0 +1,80 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "6.8. Masaż prozdrowotny bez przyrządów"
+category: masaz
+questions:
+  - type: truefalse
+    name: "6.8 — zagadnienie 1"
+    text: "Zagadnienie „6.8.1. Dłonie, przedramiona, kciuki” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 1"
+    text: "Zagadnienie „6.8.3. Brak sprzętu jako przewaga dostępności” jest elementem zagadnienia „6.8.1. Dłonie, przedramiona, kciuki”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 2"
+    text: "Zagadnienie „6.8.3. Brak sprzętu jako przewaga dostępności” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 2"
+    text: "Zagadnienie „6.8.4. Bezpieczeństwo w warunkach domowych” jest elementem zagadnienia „6.8.3. Brak sprzętu jako przewaga dostępności”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 3"
+    text: "Zagadnienie „6.8.4. Bezpieczeństwo w warunkach domowych” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 3"
+    text: "Zagadnienie „6.8.5. Higiena otoczenia” jest elementem zagadnienia „6.8.4. Bezpieczeństwo w warunkach domowych”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 4"
+    text: "Zagadnienie „6.8.5. Higiena otoczenia” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 4"
+    text: "Zagadnienie „6.8.6. Oświetlenie i temperatura” jest elementem zagadnienia „6.8.5. Higiena otoczenia”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 5"
+    text: "Zagadnienie „6.8.6. Oświetlenie i temperatura” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 5"
+    text: "Zagadnienie „6.8.7. Pozycja pacjenta” jest elementem zagadnienia „6.8.6. Oświetlenie i temperatura”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 6"
+    text: "Zagadnienie „6.8.7. Pozycja pacjenta” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 6"
+    text: "Zagadnienie „6.8.8. Komunikacja” jest elementem zagadnienia „6.8.7. Pozycja pacjenta”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 7"
+    text: "Zagadnienie „6.8.8. Komunikacja” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 7"
+    text: "Zagadnienie „6.8.9. Przeciwwskazania” jest elementem zagadnienia „6.8.8. Komunikacja”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 8"
+    text: "Zagadnienie „6.8.9. Przeciwwskazania” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: truefalse
+    name: "6.8 — rozgraniczenie 8"
+    text: "Zagadnienie „6.8.10. Etyka: nie masuj w warunkach niebezpiecznych” jest elementem zagadnienia „6.8.9. Przeciwwskazania”, a nie tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: false
+  - type: truefalse
+    name: "6.8 — zagadnienie 9"
+    text: "Zagadnienie „6.8.10. Etyka: nie masuj w warunkach niebezpiecznych” wchodzi w zakres tematu „Masaż prozdrowotny bez przyrządów” (6.8)."
+    answer: true
+  - type: multichoice
+    name: "6.8 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Masaż prozdrowotny bez przyrządów” (6.8)?"
+    answers:
+      - text: "6.8.1. Dłonie, przedramiona, kciuki"  fraction: 100
+      - text: "2.1.7. Przeciwdziałanie przemocy i wykorzystywaniu"  fraction: 0
+      - text: "3.14.7. Ryzyko poślizgnięcia"  fraction: 0
+      - text: "5.4.6. Stan zapalny — przeciwwskazanie"  fraction: 0

@@ -1,0 +1,49 @@
+// Quiz: 8.1. Wysoka jakość usług masażu — moduł 8 (08-med-10-8-kompetencje-personalne-i-spoleczne)
+// Format GIFT — składnia: docs/03-QUESTION-FORMATS.md
+
+::tf-s08-81-q1:: Zagadnienie „8.1.1. Definicja jakości w opiece zdrowotnej” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q1b:: Zagadnienie „8.1.2. Empatia jako zdolność rozumienia, nie użalania się” jest elementem zagadnienia „8.1.1. Definicja jakości w opiece zdrowotnej”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q2:: Zagadnienie „8.1.2. Empatia jako zdolność rozumienia, nie użalania się” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q2b:: Zagadnienie „8.1.3. Komunikacja jako narzędzie bezpieczeństwa” jest elementem zagadnienia „8.1.2. Empatia jako zdolność rozumienia, nie użalania się”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q3:: Zagadnienie „8.1.3. Komunikacja jako narzędzie bezpieczeństwa” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q3b:: Zagadnienie „8.1.4. Higiena osobista i wizerunek zawodu” jest elementem zagadnienia „8.1.3. Komunikacja jako narzędzie bezpieczeństwa”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q4:: Zagadnienie „8.1.4. Higiena osobista i wizerunek zawodu” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q4b:: Zagadnienie „8.1.5. Punktualność i szacunek dla czasu pacjenta” jest elementem zagadnienia „8.1.4. Higiena osobista i wizerunek zawodu”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q5:: Zagadnienie „8.1.5. Punktualność i szacunek dla czasu pacjenta” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q5b:: Zagadnienie „8.1.6. Uporządkowanie stanowiska pracy” jest elementem zagadnienia „8.1.5. Punktualność i szacunek dla czasu pacjenta”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q6:: Zagadnienie „8.1.6. Uporządkowanie stanowiska pracy” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q6b:: Zagadnienie „8.1.7. Spójność działania i słowa” jest elementem zagadnienia „8.1.6. Uporządkowanie stanowiska pracy”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q7:: Zagadnienie „8.1.7. Spójność działania i słowa” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q7b:: Zagadnienie „8.1.8. Odpowiedzialność za efekt edukacyjny” jest elementem zagadnienia „8.1.7. Spójność działania i słowa”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q8:: Zagadnienie „8.1.8. Odpowiedzialność za efekt edukacyjny” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q8b:: Zagadnienie „8.1.9. Ciągłe doskonalenie” jest elementem zagadnienia „8.1.8. Odpowiedzialność za efekt edukacyjny”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q9:: Zagadnienie „8.1.9. Ciągłe doskonalenie” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::tf-s08-81-q9b:: Zagadnienie „8.1.10. Jakość jako forma miłości bliźniego” jest elementem zagadnienia „8.1.9. Ciągłe doskonalenie”, a nie tematu „Wysoka jakość usług masażu” (8.1). {FALSE} //
+
+::tf-s08-81-q10:: Zagadnienie „8.1.10. Jakość jako forma miłości bliźniego” wchodzi w zakres tematu „Wysoka jakość usług masażu” (8.1). {TRUE} //
+
+::mc-s08-81:: Które zagadnienie należy bezpośrednio do tematu „Wysoka jakość usług masażu” (8.1)? {
+    = 8.1.1. Definicja jakości w opiece zdrowotnej
+    ~ 8.1.2. Empatia jako zdolność rozumienia, nie użalania się
+    ~ 8.1.3. Komunikacja jako narzędzie bezpieczeństwa
+    ~ 2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia
+    ~ 3.14.2. Temperatura wody i jej wpływ
+    ~ 5.4.1. Napięcie mięśniowe po treningu
+}

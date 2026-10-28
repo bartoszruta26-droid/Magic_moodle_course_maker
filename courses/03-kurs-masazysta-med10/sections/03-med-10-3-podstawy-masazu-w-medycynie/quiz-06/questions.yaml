@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "3.6. Zaburzenia układu oddechowego"
+category: masaz
+questions:
+  - type: truefalse
+    name: "3.6 — zagadnienie 1"
+    text: "Zagadnienie „3.6.1. Przewlekłe zapalenie oskrzeli” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 1"
+    text: "Zagadnienie „3.6.2. Astma oskrzelowa” jest elementem zagadnienia „3.6.1. Przewlekłe zapalenie oskrzeli”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 2"
+    text: "Zagadnienie „3.6.2. Astma oskrzelowa” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 2"
+    text: "Zagadnienie „3.6.3. POChP” jest elementem zagadnienia „3.6.2. Astma oskrzelowa”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 3"
+    text: "Zagadnienie „3.6.3. POChP” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 3"
+    text: "Zagadnienie „3.6.4. Rozstrzenie oskrzeli” jest elementem zagadnienia „3.6.3. POChP”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 4"
+    text: "Zagadnienie „3.6.4. Rozstrzenie oskrzeli” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 4"
+    text: "Zagadnienie „3.6.5. Rozedma płuc” jest elementem zagadnienia „3.6.4. Rozstrzenie oskrzeli”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 5"
+    text: "Zagadnienie „3.6.5. Rozedma płuc” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 5"
+    text: "Zagadnienie „3.6.6. Stan po zapaleniu płuc” jest elementem zagadnienia „3.6.5. Rozedma płuc”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 6"
+    text: "Zagadnienie „3.6.6. Stan po zapaleniu płuc” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 6"
+    text: "Zagadnienie „3.6.7. Stan po zapaleniu opłucnej” jest elementem zagadnienia „3.6.6. Stan po zapaleniu płuc”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 7"
+    text: "Zagadnienie „3.6.7. Stan po zapaleniu opłucnej” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 7"
+    text: "Zagadnienie „3.6.8. Stan po operacjach klatki piersiowej” jest elementem zagadnienia „3.6.7. Stan po zapaleniu opłucnej”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 8"
+    text: "Zagadnienie „3.6.8. Stan po operacjach klatki piersiowej” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 8"
+    text: "Zagadnienie „3.6.9. Zaburzenia wentylacji i odkrztuszania” jest elementem zagadnienia „3.6.8. Stan po operacjach klatki piersiowej”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 9"
+    text: "Zagadnienie „3.6.9. Zaburzenia wentylacji i odkrztuszania” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: truefalse
+    name: "3.6 — rozgraniczenie 9"
+    text: "Zagadnienie „3.6.10. Bezpieczeństwo masażu przy duszności i niewydolności oddechowej” jest elementem zagadnienia „3.6.9. Zaburzenia wentylacji i odkrztuszania”, a nie tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: false
+  - type: truefalse
+    name: "3.6 — zagadnienie 10"
+    text: "Zagadnienie „3.6.10. Bezpieczeństwo masażu przy duszności i niewydolności oddechowej” wchodzi w zakres tematu „Zaburzenia układu oddechowego” (3.6)."
+    answer: true
+  - type: multichoice
+    name: "3.6 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Zaburzenia układu oddechowego” (3.6)?"
+    answers:
+      - text: "3.6.1. Przewlekłe zapalenie oskrzeli"  fraction: 100
+      - text: "2.1.2. Kwalifikacja MED.10 jako podstawa kształcenia"  fraction: 0
+      - text: "3.14.3. Wskazania: ból, obrzęk, ograniczenie ruchu, regeneracja"  fraction: 0
+      - text: "5.4.2. Zakwaszenie i zmęczenie — rozumiane funkcjonalnie"  fraction: 0

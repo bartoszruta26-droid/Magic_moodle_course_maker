@@ -1,0 +1,88 @@
+# Pytania quizu w formacie YAML (odpowiadają questions.gift)
+quiz: "2.22. Normy i procedury oceny zgodności"
+category: masaz
+questions:
+  - type: truefalse
+    name: "2.22 — zagadnienie 1"
+    text: "Zagadnienie „2.22.1. Pojęcie normalizacji krajowej” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 1"
+    text: "Zagadnienie „2.22.2. Norma krajowa, europejska, międzynarodowa” jest elementem zagadnienia „2.22.1. Pojęcie normalizacji krajowej”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 2"
+    text: "Zagadnienie „2.22.2. Norma krajowa, europejska, międzynarodowa” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 2"
+    text: "Zagadnienie „2.22.3. Oznaczenia norm” jest elementem zagadnienia „2.22.2. Norma krajowa, europejska, międzynarodowa”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 3"
+    text: "Zagadnienie „2.22.3. Oznaczenia norm” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 3"
+    text: "Zagadnienie „2.22.4. Procedury oceny zgodności” jest elementem zagadnienia „2.22.3. Oznaczenia norm”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 4"
+    text: "Zagadnienie „2.22.4. Procedury oceny zgodności” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 4"
+    text: "Zagadnienie „2.22.5. Certyfikacja wyrobów i usług” jest elementem zagadnienia „2.22.4. Procedury oceny zgodności”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 5"
+    text: "Zagadnienie „2.22.5. Certyfikacja wyrobów i usług” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 5"
+    text: "Zagadnienie „2.22.6. Znak CE — wyroby medyczne i sprzęt” jest elementem zagadnienia „2.22.5. Certyfikacja wyrobów i usług”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 6"
+    text: "Zagadnienie „2.22.6. Znak CE — wyroby medyczne i sprzęt” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 6"
+    text: "Zagadnienie „2.22.7. Deklaracja właściwości użytkowych” jest elementem zagadnienia „2.22.6. Znak CE — wyroby medyczne i sprzęt”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 7"
+    text: "Zagadnienie „2.22.7. Deklaracja właściwości użytkowych” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 7"
+    text: "Zagadnienie „2.22.8. Instrukcje obsługi urządzeń do masażu” jest elementem zagadnienia „2.22.7. Deklaracja właściwości użytkowych”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 8"
+    text: "Zagadnienie „2.22.8. Instrukcje obsługi urządzeń do masażu” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 8"
+    text: "Zagadnienie „2.22.9. Przeglądy techniczne sprzętu” jest elementem zagadnienia „2.22.8. Instrukcje obsługi urządzeń do masażu”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 9"
+    text: "Zagadnienie „2.22.9. Przeglądy techniczne sprzętu” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: truefalse
+    name: "2.22 — rozgraniczenie 9"
+    text: "Zagadnienie „2.22.10. Odpowiedzialność za używanie sprzętu niezgodnie z przeznaczeniem” jest elementem zagadnienia „2.22.9. Przeglądy techniczne sprzętu”, a nie tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: false
+  - type: truefalse
+    name: "2.22 — zagadnienie 10"
+    text: "Zagadnienie „2.22.10. Odpowiedzialność za używanie sprzętu niezgodnie z przeznaczeniem” wchodzi w zakres tematu „Normy i procedury oceny zgodności” (2.22)."
+    answer: true
+  - type: multichoice
+    name: "2.22 — przyporządkowanie zagadnienia"
+    text: "Które zagadnienie należy bezpośrednio do tematu „Normy i procedury oceny zgodności” (2.22)?"
+    answers:
+      - text: "2.22.1. Pojęcie normalizacji krajowej"  fraction: 100
+      - text: "2.5.7. Udostępnianie dokumentacji pacjentowi i uprawnionym podmiotom"  fraction: 0
+      - text: "3.18.8. Reakcje niepożądane: siniaki, ból, osłabienie"  fraction: 0
+      - text: "5.8.7. Kobiety w ciąży w sporcie — ograniczenia"  fraction: 0
