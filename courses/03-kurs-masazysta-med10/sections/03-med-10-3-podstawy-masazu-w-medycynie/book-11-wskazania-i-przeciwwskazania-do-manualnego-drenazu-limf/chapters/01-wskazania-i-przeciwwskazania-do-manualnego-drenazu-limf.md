@@ -21,95 +21,71 @@ Temat „3.11. Wskazania i przeciwwskazania do manualnego drenażu limfatycznego
 
 ## Zagadnienia szczegółowe
 
-### 3.11.1 3.11.1. Obrzęk limfatyczny pierwotny i wtórny
+### 3.11.1. Obrzęk limfatyczny pierwotny i wtórny
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.1. Obrzęk limfatyczny pierwotny i wtórny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk to nadmiar płynu w przestrzeni międzykomórkowej. Mechanizmy (prawo Starlinga): wzrost ciśnienia hydrostatycznego (niewydolność żylna lub serca), spadek ciśnienia onkotycznego (hipoalbuminemia — wątroba, nerki, niedożywienie), wzrost przepuszczalności kapilar (zapalenie, oparzenie, alergia) oraz niewydolność pompy limfatycznej (pierwotna — np. hipoplazja wrodzona; wtórna — po operacji, radioterapii, infekcji). Różnicowanie: sercowy — symetryczny, kostkowy, narasta wieczorem, z dusznością; żylny — asymetria, przebarwienia; limfatyczny — zgrubienie skóry, znak Stemmera (+), zaczyna się od palców; nerkowy — worki pod oczami rano, białkomocz. Masażysta nie leczy przyczyny: rozpoznaje typ, kieruje do lekarza, a w stabilnym obrzęku limfatycznym wykonuje elementy złożonej terapii przeciwobrzękowej zgodnie z zleceniem.
 
-### 3.11.2 3.11.2. Obrzęk pourazowy i pooperacyjny
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.2. Obrzęk pourazowy i pooperacyjny
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.2. Obrzęk pourazowy i pooperacyjny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-### 3.11.3 3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Węzły chłonne powierzchowne — palpacja w granicach kompetencji: grupy istotne: podpotyliczne, szyjne przednie/podne, nad-/podobojczykowe, pachowe, łokciowe, pachwinowe. Prawidłowo: ruchome, do 1 cm, niewyczuwalne boleśnie. Masażysta NIE stawia diagnozy onkologicznej; węzły powiększone twarde, niezmienne, >2 cm, nad-/podobojczykowe, z gorączką/nocnymi potami/utrata masy ciała = czerwona flaga → pilne skierowanie do lekarza. Przy drenażu limfatycznym: BEZ masażu regionu z aktywną infekcją węzłów, ostrożnie po limfadenektomii (zmieniona anatomia, ryzyko wtórnego obrzęku — protokół CTP, zgoda lekarza). Dokumentuj observation (wielkość, bolesność, jedno-/obustronność) jako opis, nie interpretację. Delikatność nacisku: tkanka limfatyczna nie znosi siły.
 
-### 3.11.4 3.11.4. Obrzęk żylny i mieszany
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.4. Obrzęk żylny i mieszany
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.4. Obrzęk żylny i mieszany” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-### 3.11.5 3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.5. Lipodema i lipowolemoza — ostrożnie, w granicach kompetencji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 3.11.6 3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.6. Przeciwwskazania: ostra niewydolność serca, zakrzepica, ostry stan zapalny, nowotwór aktywny bez zgody lekarza” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
 
-### 3.11.7 3.11.7. Ocena stopnia obrzęku
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.7. Ocena stopnia obrzęku
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.7. Ocena stopnia obrzęku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-### 3.11.8 3.11.8. Kwalifikacja do drenażu
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.11.8. Kwalifikacja do drenażu
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.8. Kwalifikacja do drenażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-### 3.11.9 3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.11.9. Zasady bezpieczeństwa przy węzłach usuniętych
 
-### 3.11.10 3.11.10. Dokumentacja reakcji na drenaż
+Węzły chłonne powierzchowne — palpacja w granicach kompetencji: grupy istotne: podpotyliczne, szyjne przednie/podne, nad-/podobojczykowe, pachowe, łokciowe, pachwinowe. Prawidłowo: ruchome, do 1 cm, niewyczuwalne boleśnie. Masażysta NIE stawia diagnozy onkologicznej; węzły powiększone twarde, niezmienne, >2 cm, nad-/podobojczykowe, z gorączką/nocnymi potami/utrata masy ciała = czerwona flaga → pilne skierowanie do lekarza. Przy drenażu limfatycznym: BEZ masażu regionu z aktywną infekcją węzłów, ostrożnie po limfadenektomii (zmieniona anatomia, ryzyko wtórnego obrzęku — protokół CTP, zgoda lekarza). Dokumentuj observation (wielkość, bolesność, jedno-/obustronność) jako opis, nie interpretację. Delikatność nacisku: tkanka limfatyczna nie znosi siły.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.11.10. Dokumentacja reakcji na drenaż” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.11.10. Dokumentacja reakcji na drenaż
+
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycjabezpieczna, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +104,9 @@ Temat 3.11 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.11.2. Obrzęk pourazowy i pooperacyjny.
 3. Omów zagadnienie: 3.11.3. Stan po mastektomii i usunięciu węzłów chłonnych.
 4. Omów zagadnienie: 3.11.4. Obrzęk żylny i mieszany.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

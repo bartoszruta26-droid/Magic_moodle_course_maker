@@ -72,9 +72,6 @@ modules:
   - type: book
     ref: book-22-normy-i-procedury-oceny-zgodnosci
     name: "2.22. Normy i procedury oceny zgodności"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.2"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 2.1. Prawne i etyczne uwarunkowania zawodu masażysty"

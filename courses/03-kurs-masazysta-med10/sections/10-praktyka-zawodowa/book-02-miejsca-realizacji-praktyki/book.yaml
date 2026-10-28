@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-miejsca-realizacji-praktyki.md"
       hidden: false
+
+    - title: "10.2.1. Zakłady opieki zdrowotnej"
+      subchapter: true
+      content_file: "chapters/02-zaklady-opieki-zdrowotnej.md"
+      hidden: false
+    - title: "10.2.2. Poradnie rehabilitacyjne"
+      subchapter: true
+      content_file: "chapters/03-poradnie-rehabilitacyjne.md"
+      hidden: false
+    - title: "10.2.3. Oddziały szpitalne — za zgodą i nadzorem"
+      subchapter: true
+      content_file: "chapters/04-oddzialy-szpitalne-za-zgoda-i-nadzorem.md"
+      hidden: false
+    - title: "10.2.4. Hospicja i zakłady opiekuńczo-lecznicze"
+      subchapter: true
+      content_file: "chapters/05-hospicja-i-zaklady-opiekunczo-lecznicze.md"
+      hidden: false
+    - title: "10.2.5. Domy pomocy społecznej"
+      subchapter: true
+      content_file: "chapters/06-domy-pomocy-spolecznej.md"
+      hidden: false
+    - title: "10.2.6. Gabinety masażu leczniczego"
+      subchapter: true
+      content_file: "chapters/07-gabinety-masazu-leczniczego.md"
+      hidden: false
+    - title: "10.2.7. Ośrodki sportowe i kluby"
+      subchapter: true
+      content_file: "chapters/08-osrodki-sportowe-i-kluby.md"
+      hidden: false
+    - title: "10.2.8. Ośrodki rehabilitacji"
+      subchapter: true
+      content_file: "chapters/09-osrodki-rehabilitacji.md"
+      hidden: false
+    - title: "10.2.9. Podmioty niepubliczne"
+      subchapter: true
+      content_file: "chapters/10-podmioty-niepubliczne.md"
+      hidden: false
+    - title: "10.2.10. Wymogi prawne miejsca praktyki"
+      subchapter: true
+      content_file: "chapters/11-wymogi-prawne-miejsca-praktyki.md"
+      hidden: false
   completion:
     enabled: true
     type: view

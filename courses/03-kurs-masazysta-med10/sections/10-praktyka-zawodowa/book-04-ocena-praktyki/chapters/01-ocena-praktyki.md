@@ -21,95 +21,69 @@ Temat „10.4. Ocena praktyki” realizuje 10 zagadnień szczegółowych ze spis
 
 ## Zagadnienia szczegółowe
 
-### 10.4.1 10.4.1. Dziennik praktyk
+### 10.4.1. Dziennik praktyk
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Praktyka zawodowa: cele SMART na każdy blok (np. „samodzielnie przeprowadzam kwalifikację do masażu klasycznego wg karty C.1 z opiekunem ”), dziennik z refleksją (co widziałem— czego się nauczyłem— co zrobię inaczej), portfolio (studia przypadków bez danych osobowych), ocena opiekuna+autorefleksja. Etyka praktyki: punktualność, poufność, otwartość na uwagi, zero skrótów bezpieczeństwa.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.1. Dziennik praktyk” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 10.4.2 10.4.2. Karta oceny opiekuna praktyk
+### 10.4.2. Karta oceny opiekuna praktyk
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.2. Karta oceny opiekuna praktyk” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 10.4.3 10.4.3. Kryteria oceny umiejętności
+### 10.4.3. Kryteria oceny umiejętności
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.3. Kryteria oceny umiejętności” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Reakcje pacjenta w trakcie zabiegu — monitoring i decyzje: prawidłowe: ciepło, przekrwienie różowe, rozluźnienie oddechu, senność, ULGA. Ostrzegawcze: ból >4, zimno/dreszcz, bladłość, nudności (hipotonia), tachykardia, zawrót, płacz/irytacja (przebodźcowanie), wysypka/świąd (alergia preparatu!), duszność. Alarmowe: ból w klatce, asymetria neuro, obrzęk łydki bolesny → STOP + E.1–E.15 + 112 wg potrzeby. Procedura: przerwij bodziec, pozycjabezpieczna, ocena ABC, woda/ciepło, obserwacja 10–15 min, dokumentacja (co, kiedy, wartość, reakcja), decyzja o kontynuacji/odwołaniu, informacja lekarza przy wsk. Ćwiczenia symulacyjne semestralnie. Reakcja to dana, nie wina pacjenta — ucz się jej czytać.
 
-### 10.4.4 10.4.4. Kryteria oceny postawy etycznej
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 10.4.4. Kryteria oceny postawy etycznej
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.4. Kryteria oceny postawy etycznej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 10.4.5 10.4.5. Kryteria oceny bezpieczeństwa
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 10.4.5. Kryteria oceny bezpieczeństwa
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.5. Kryteria oceny bezpieczeństwa” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 10.4.6 10.4.6. Ocena współpracy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 10.4.6. Ocena współpracy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.6. Ocena współpracy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 10.4.7 10.4.7. Ocena dokumentacji
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 10.4.7. Ocena dokumentacji
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.7. Ocena dokumentacji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-### 10.4.8 10.4.8. Informacja zwrotna
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 10.4.8. Informacja zwrotna
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.8. Informacja zwrotna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Informacja zwrotna (feedback) w zespole i wobec pacjenta: modele: SBI (Situation-Behavior-Impact) dla zachowań („Na transferze o 14:00 nie zabezpieczyłeś biodra pana K. — ryzyko upadku; proszę stosować pas”), kanapka krytykowana (fakt-fakt-prośba). Zasady: promptly (<48 h), konkretnie, prywatnie przy krytyce, publicznie przy pochwałach, z pytaniem o perspektywę („jak Ty to widzisz?”). Feedback OD pacjenta: ankieta, skrzynka, rozmowa domykająca; analizuj trendy, odpowiadaj rzeczowo. Samofeedback: nagrania, dziennik. Błędy: ogólniki („bądź bardziej dokładny”), ocena osoby, kumulacja żali. Kultura feedbacku skraca krzywą uczenia i buduje zaufanie — narzędzie sprawiedliwości i miłości w pracy.
 
-### 10.4.9 10.4.9. Działania naprawcze
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 10.4.9. Działania naprawcze
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.9. Działania naprawcze” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 10.4.10 10.4.10. Zaliczenie praktyki
+Ochrona przed upadkiem: ryzyka — wysoki stół bez asekuracji, zawroty po masażu głowy/szyi, hipotonia ortostatyczna (leki, odwodnienie), seniorzy, neuropatia, omdlenia prodromalne. Zapobieganie: hamulec stołu, niska wysokość przy transferach, podest, asekuracja ramieniem przy wstawaniu, 2–3 min leżenia + siad na brzegu przed pionizacją, wodę pod rękę, buty nieślizgające, oświetlenie po zabiegu, toaletę przed. Po masażu relaksacyjnym ostrzeż: „może zakręcić się w głowie — wstawaj powoli”. Zarejestruj każdy near-miss; analiza przyczyn systemowych (pośpiech grafiku?). Upadek 70+ = złamanie szyjki kości udowej i dramat rodziny — twoje 90 sekund asekuracji ma cenę życia w godności.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „10.4.10. Zaliczenie praktyki” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 10.4.10. Zaliczenie praktyki
+
+Praktyka zawodowa: cele SMART na każdy blok (np. „samodzielnie przeprowadzam kwalifikację do masażu klasycznego wg karty C.1 z opiekunem ”), dziennik z refleksją (co widziałem— czego się nauczyłem— co zrobię inaczej), portfolio (studia przypadków bez danych osobowych), ocena opiekuna+autorefleksja. Etyka praktyki: punktualność, poufność, otwartość na uwagi, zero skrótów bezpieczeństwa.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +102,9 @@ Temat 10.4 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 10.4.2. Karta oceny opiekuna praktyk.
 3. Omów zagadnienie: 10.4.3. Kryteria oceny umiejętności.
 4. Omów zagadnienie: 10.4.4. Kryteria oceny postawy etycznej.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

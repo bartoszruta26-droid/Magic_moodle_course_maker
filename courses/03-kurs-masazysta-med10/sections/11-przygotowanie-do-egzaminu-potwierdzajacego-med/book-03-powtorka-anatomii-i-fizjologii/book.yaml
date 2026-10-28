@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-powtorka-anatomii-i-fizjologii.md"
       hidden: false
+
+    - title: "11.3.1. Kości, stawy, mięśnie"
+      subchapter: true
+      content_file: "chapters/02-kosci-stawy-miesnie.md"
+      hidden: false
+    - title: "11.3.2. Powięź"
+      subchapter: true
+      content_file: "chapters/03-powiez.md"
+      hidden: false
+    - title: "11.3.3. Układ nerwowy"
+      subchapter: true
+      content_file: "chapters/04-uklad-nerwowy.md"
+      hidden: false
+    - title: "11.3.4. Układ krążenia"
+      subchapter: true
+      content_file: "chapters/05-uklad-krazenia.md"
+      hidden: false
+    - title: "11.3.5. Układ limfatyczny"
+      subchapter: true
+      content_file: "chapters/06-uklad-limfatyczny.md"
+      hidden: false
+    - title: "11.3.6. Układ oddechowy"
+      subchapter: true
+      content_file: "chapters/07-uklad-oddechowy.md"
+      hidden: false
+    - title: "11.3.7. Układ pokarmowy"
+      subchapter: true
+      content_file: "chapters/08-uklad-pokarmowy.md"
+      hidden: false
+    - title: "11.3.8. Układ moczowo-płciowy"
+      subchapter: true
+      content_file: "chapters/09-uklad-moczowo-plciowy.md"
+      hidden: false
+    - title: "11.3.9. Skóra"
+      subchapter: true
+      content_file: "chapters/10-skora.md"
+      hidden: false
+    - title: "11.3.10. Palpacja i lokalizacja struktur"
+      subchapter: true
+      content_file: "chapters/11-palpacja-i-lokalizacja-struktur.md"
+      hidden: false
   completion:
     enabled: true
     type: view

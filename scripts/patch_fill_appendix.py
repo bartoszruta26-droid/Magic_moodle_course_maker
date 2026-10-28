@@ -116,10 +116,10 @@ rep('6. **Zabiegi chirurgiczne w planie:** odstaw zioła wpływające na krzepni
 rep('7. **Surowce toksyczne:** napar z nasienników? → absolutny zakaz: tojad, konwalia (glikozydy), bieluń, wroniec, napar z pestek moreli/cyjanidry; «zioła» z nieznanego źródła — metale ciężkie, pestycydy, adulteracja.',
     '7. **Surowce toksyczne — absolutny zakaz:** tojad, konwalia (glikozydy nasercowe), bieluń, wroniec, nektar/napar z pestek moreli i wiśni (cyjanidry); «zioła» z nieznanego źródła — ryzyko metali ciężkich, pestycydów i domieszek (adulteracja).')
 
-rep('- **Du Mai (GV)** — linia pośrodkowa tyłu: GV20 Baihui (ciemieniuszko), GV14 Dazhui (poniżej C7).\n- Przykłady常用 punktów kończynowych:',
+rep('- **Du Mai (GV)** — linia pośrodkowa tyłu: GV20 Baihui (ciemieniuszko), GV14 Dazhui (poniżej C7).\n- Przykładypowszechnie stosowane punktów kończynowych:',
     '- **Du Mai (GV)** — linia pośrodkowa tyłu: GV20 Baihui (ciemieniowo), GV14 Dazhui (poniżej C7).\n- Przykłady często stosowanych punktów kończynowych:')
 
-rep('2. **Płat środkowy/język** — leżenie tyłem, uniesienie boków tułowia? → pozycja: leżenie na zdrowym boku, łóżko uniesione 20–30°, poduszka pod klatkę侧.',
+rep('2. **Płat środkowy/język** — leżenie tyłem, uniesienie boków tułowia? → pozycja: leżenie na zdrowym boku, łóżko uniesione 20–30°, poduszka pod klatkęstrona.',
     '2. **Płat środkowy / jęzik lingualny (języczek)** — leżenie na zdrowym boku z rotacją tułowia o ¼ obrotu ku przodowi, łóżko uniesione 20–30°, poduszka zabezpieczająca plecy.')
 
 rep('3. **Płat dolny segmenty apikalne** — leżenie przodem z miednicą wyżej niż głowa (Trendelenburg odwrócony 20–30°), poduszka pod brzuchem.',
@@ -142,10 +142,10 @@ rep('NAGRODA/FEEDBACK (natychmiastowy): .............. (nie «self-punishment»)
 
 rep('rękawiczki nitinolowe? → nitrylowe jednorazowe', 'rękawiczki nitrylowe jednorazowe')
 
-rep('3. **Narzędzia:** narzędzia jednorazowe (skalpele — ZAKAZ użycia w usługach; nożyczki do paznokci, frez podologiczny — sterylizacja autoklawem tylko przez wykwalifikowanych, dla nas: dezynfekция高水平 preparatem medycznym + wymienne końcówki).',
+rep('3. **Narzędzia:** narzędzia jednorazowe (skalpele — ZAKAZ użycia w usługach; nożyczki do paznokci, frez podologiczny — sterylizacja autoklawem tylko przez wykwalifikowanych, dla nas: dezynfekцияwysoki poziom preparatem medycznym + wymienne końcówki).',
     '3. **Narzędzia:** narzędzia jednorazowe tam gdzie to możliwe (skalpele — ZAKAZ użycia w usługach; nożyczki do paznokci, frez podologiczny — sterylizacja autoklawem wyłącznie przez wykwalifikowanych; dla nas: dezynfekcja preparatem medycznym klasy SRR + wymienne końcówki).')
 
-rep('**Historycznie:** felczer执行ował płukanie («wlew doodbytniczy», «detoksykacja»)\nprzy zatruciach; aparatura: syfon, irygator Esmarcha.',
+rep('**Historycznie:** felczerwykonanieował płukanie («wlew doodbytniczy», «detoksykacja»)\nprzy zatruciach; aparatura: syfon, irygator Esmarcha.',
     '**Historycznie:** felczer wykonywał płukanie («wlew doodbytniczy», «detoksykacja»)\nprzy zatruciach; aparatura: syfon, irygator Esmarcha.')
 
 rep('— medycznie zbędne i ryzykowne (elektrolity, perferacja przy patologii,\nmikrobiom); «kawa» lewatywy (Gerson) — BRAK dowodów, opisywane przypadki\nśmierci (hiponatremia, oparzenia) → nie oferuj.',
@@ -193,7 +193,7 @@ Współpraca: reumatolog (CRP, aktywność DAS28), fizjoterapeuta.""",
 Rozszerzenie H.2: pozycja leżąca przodem z niską poduszką pod biodrami (szara
 lordozy), czas 35–45 min; kolejność: lędźwiowo-krzyżowa → piersiowa → szyjna →
 klatka przód → biodra. U osób z zaawansowaną kifozą — pozycja boczna z
-podparciem głowy. Zakaz: manipulacji高速 (thrust) C-spine; any nagły ból promieniujący do rąk/nóg → neurolog.""",
+podparciem głowy. Zakaz: manipulacjiwysoka prędkość (thrust) C-spine; any nagły ból promieniujący do rąk/nóg → neurolog.""",
     "h-18": """# H.18. Choroba zwyrodnieniowa kręgosłupa — masaż rozluźniający → wzmacniający
 
 Rozszerzenie H.3: cykl 6-tygodniowy: tydzień 1–2 — techniki rozluźniające
@@ -249,7 +249,7 @@ medycznymi/fizjoterapeutycznymi.""",
 
 Rozszerzenie H.10: NDT-Bobath, PNF (Kabata), Brunnstrom, Rood — techniki
 wykonywane przez certyfikowanych fizjoterapeutów; NATUROPATHA role:
-pozycjonowanie przeciw przykurczom, instruktaż przenoszenia/pad安全 dla rodziny,
+pozycjonowanie przeciw przykurczom, instruktaż przenoszenia/padbezpieczna dla rodziny,
 masaż relaksacyjny strony zdrowej (przeciążonej), walka z zmęczeniem (pacing),
 edukacja wtórna prewencja udaru (RR, cukier, lipidogram, papierosy — lekarz).""",
     "h-26": """# H.26. Choroby przewodu pokarmowego — zaparcia spastyczne i wiotkie
@@ -258,7 +258,7 @@ Rozszerzenie H.11: rozróżnienie obserwacyjne (za lekarzem!): spastyczne —
 ból kurczowy, «owcza» stolce, napięta sigmoida → technika ROZLUZNIAJĄCA:
 delikatne głaskanie + ciepły okład + oddech przeponowy; wiotkie — osłabiony
 perystaltyka (seniorzy, hipotonia) → TECHNIKA STYMULUJĄCA: rozcieranie wg
-okrężnicy,轻 uciski punktu ST25 Tianshu (2 cun od pępka bocznie), ćwiczenia
+okrężnicy,delikatnie uciski punktu ST25 Tianshu (2 cun od pępka bocznie), ćwiczenia
 «vacuum» łagodne, nawodnienie + błonnik rozpuszczalny (psyllium — dowody dobre).
 Alarm: krew smolista, chudnięcie → gastrolog.""",
     "h-27": """# H.27. Choroby układu moczowego — kamica: rozcieranie koliste
@@ -779,7 +779,7 @@ pozycjonowanie przeciw przykurczom (barierki, kliny, orteza AFO).
 **Metody neurofizjologiczne (kontekst — wykonuje certyfikowany fizjoterapeuta):**
 NDT-Bobath (hamowanie wzorców spastyczności + torowanie prawidłowych),
 PNF-Kabata (diagonale D1/D2, rhythmic initiation), Brunnstrom (etapy
-współruchów → izolacja), Rood (bodźce: brushing,快速 włókien — facylitacja;
+współruchów → izolacja), Rood (bodźce: brushing,szybko włókien — facylitacja;
 ciężar/wibracja — hamowanie). Nasza rola: asysta w przenoszeniu (pivot,
 slide-board), układanie w łóżku 2×/2 h, mirror therapy (dowody RCT: ROM/ból),
 instruktaż rodziny (asekuracja, upadki), walka z zmęczeniem (pacing),

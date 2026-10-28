@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-dzialanie-masazu-na-organizm-czlowieka.md"
       hidden: false
+
+    - title: "3.17.1. Działanie miejscowe na skórę"
+      subchapter: true
+      content_file: "chapters/02-dzialanie-miejscowe-na-skore.md"
+      hidden: false
+    - title: "3.17.2. Działanie na tkankę podskórną"
+      subchapter: true
+      content_file: "chapters/03-dzialanie-na-tkanke-podskorna.md"
+      hidden: false
+    - title: "3.17.3. Działanie na mięśnie"
+      subchapter: true
+      content_file: "chapters/04-dzialanie-na-miesnie.md"
+      hidden: false
+    - title: "3.17.4. Działanie na powięź"
+      subchapter: true
+      content_file: "chapters/05-dzialanie-na-powiez.md"
+      hidden: false
+    - title: "3.17.5. Działanie na stawy i więzadła"
+      subchapter: true
+      content_file: "chapters/06-dzialanie-na-stawy-i-wiezadla.md"
+      hidden: false
+    - title: "3.17.6. Działanie na naczynia krwionośne"
+      subchapter: true
+      content_file: "chapters/07-dzialanie-na-naczynia-krwionosne.md"
+      hidden: false
+    - title: "3.17.7. Działanie na układ limfatyczny"
+      subchapter: true
+      content_file: "chapters/08-dzialanie-na-uklad-limfatyczny.md"
+      hidden: false
+    - title: "3.17.8. Działanie na układ nerwowy somatyczny"
+      subchapter: true
+      content_file: "chapters/09-dzialanie-na-uklad-nerwowy-somatyczny.md"
+      hidden: false
+    - title: "3.17.9. Działanie na układ autonomiczny"
+      subchapter: true
+      content_file: "chapters/10-dzialanie-na-uklad-autonomiczny.md"
+      hidden: false
+    - title: "3.17.10. Działanie ogólnoustrojowe: relaksacja, regeneracja, modulacja bólu"
+      subchapter: true
+      content_file: "chapters/11-dzialanie-ogolnoustrojowe-relaksacja-regeneracja-mod.md"
+      hidden: false
   completion:
     enabled: true
     type: view

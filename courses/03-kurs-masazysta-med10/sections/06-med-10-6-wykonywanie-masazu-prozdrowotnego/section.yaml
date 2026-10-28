@@ -36,9 +36,6 @@ modules:
   - type: book
     ref: book-10-bezpieczenstwo-masazu-prozdrowotnego
     name: "6.10. Bezpieczeństwo masażu prozdrowotnego"
-  - type: book
-    ref: book-01
-    name: "Podręcznik: MED.10.6"
   - type: quiz
     ref: quiz-01
     name: "Quiz: 6.1. Pojęcie masażu prozdrowotnego"

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-tworzenie-wypowiedzi-ustnych-i-pisemnych.md"
       hidden: false
+
+    - title: "7.7.1. Giving simple instructions during massage"
+      subchapter: true
+      content_file: "chapters/02-giving-simple-instructions-during-massage.md"
+      hidden: false
+    - title: "7.7.2. Explaining aftercare"
+      subchapter: true
+      content_file: "chapters/03-explaining-aftercare.md"
+      hidden: false
+    - title: "7.7.3. Writing short emails"
+      subchapter: true
+      content_file: "chapters/04-writing-short-emails.md"
+      hidden: false
+    - title: "7.7.4. Completing forms"
+      subchapter: true
+      content_file: "chapters/05-completing-forms.md"
+      hidden: false
+    - title: "7.7.5. Preparing CV and cover letter"
+      subchapter: true
+      content_file: "chapters/06-preparing-cv-and-cover-letter.md"
+      hidden: false
+    - title: "7.7.6. Describing professional experience"
+      subchapter: true
+      content_file: "chapters/07-describing-professional-experience.md"
+      hidden: false
+    - title: "7.7.7. Presenting a case safely and anonymously"
+      subchapter: true
+      content_file: "chapters/08-presenting-a-case-safely-and-anonymously.md"
+      hidden: false
+    - title: "7.7.8. Using formal and informal register appropriately"
+      subchapter: true
+      content_file: "chapters/09-using-formal-and-informal-register-appropriately.md"
+      hidden: false
+    - title: "7.7.9. Speaking clearly and slowly"
+      subchapter: true
+      content_file: "chapters/10-speaking-clearly-and-slowly.md"
+      hidden: false
+    - title: "7.7.10. Avoiding medical overstatement"
+      subchapter: true
+      content_file: "chapters/11-avoiding-medical-overstatement.md"
+      hidden: false
   completion:
     enabled: true
     type: view

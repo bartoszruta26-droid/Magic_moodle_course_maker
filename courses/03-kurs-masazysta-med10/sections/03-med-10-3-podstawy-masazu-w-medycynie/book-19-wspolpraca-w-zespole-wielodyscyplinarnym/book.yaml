@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wspolpraca-w-zespole-wielodyscyplinarnym.md"
       hidden: false
+
+    - title: "3.19.1. Lekarz specjalista"
+      subchapter: true
+      content_file: "chapters/02-lekarz-specjalista.md"
+      hidden: false
+    - title: "3.19.2. Fizjoterapeuta"
+      subchapter: true
+      content_file: "chapters/03-fizjoterapeuta.md"
+      hidden: false
+    - title: "3.19.3. Pielęgniarka i opiekun medyczny"
+      subchapter: true
+      content_file: "chapters/04-pielegniarka-i-opiekun-medyczny.md"
+      hidden: false
+    - title: "3.19.4. Psycholog i psychiatra"
+      subchapter: true
+      content_file: "chapters/05-psycholog-i-psychiatra.md"
+      hidden: false
+    - title: "3.19.5. Terapeuta zajęciowy"
+      subchapter: true
+      content_file: "chapters/06-terapeuta-zajeciowy.md"
+      hidden: false
+    - title: "3.19.6. Dietetyk"
+      subchapter: true
+      content_file: "chapters/07-dietetyk.md"
+      hidden: false
+    - title: "3.19.7. Trener medyczny i trener sportowy"
+      subchapter: true
+      content_file: "chapters/08-trener-medyczny-i-trener-sportowy.md"
+      hidden: false
+    - title: "3.19.8. Opiekun osoby starszej lub niepełnosprawnej"
+      subchapter: true
+      content_file: "chapters/09-opiekun-osoby-starszej-lub-niepelnosprawnej.md"
+      hidden: false
+    - title: "3.19.9. Rola masażysty w zespole"
+      subchapter: true
+      content_file: "chapters/10-rola-masazysty-w-zespole.md"
+      hidden: false
+    - title: "3.19.10. Komunikacja: przekazywanie obserwacji bez przekraczania kompetencji"
+      subchapter: true
+      content_file: "chapters/11-komunikacja-przekazywanie-obserwacji-bez-przekraczan.md"
+      hidden: false
   completion:
     enabled: true
     type: view

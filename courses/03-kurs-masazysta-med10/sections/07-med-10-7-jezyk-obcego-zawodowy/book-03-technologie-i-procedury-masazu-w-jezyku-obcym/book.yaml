@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-technologie-i-procedury-masazu-w-jezyku-obcym.md"
       hidden: false
+
+    - title: "7.3.1. Effleurage, petrissage, friction, tapotement, vibration"
+      subchapter: true
+      content_file: "chapters/02-effleurage-petrissage-friction-tapotement-vibration.md"
+      hidden: false
+    - title: "7.3.2. Classical massage, medical massage, sports massage"
+      subchapter: true
+      content_file: "chapters/03-classical-massage-medical-massage-sports-massage.md"
+      hidden: false
+    - title: "7.3.3. Lymphatic drainage"
+      subchapter: true
+      content_file: "chapters/04-lymphatic-drainage.md"
+      hidden: false
+    - title: "7.3.4. Connective tissue massage"
+      subchapter: true
+      content_file: "chapters/05-connective-tissue-massage.md"
+      hidden: false
+    - title: "7.3.5. Segmental massage"
+      subchapter: true
+      content_file: "chapters/06-segmental-massage.md"
+      hidden: false
+    - title: "7.3.6. Trigger point therapy"
+      subchapter: true
+      content_file: "chapters/07-trigger-point-therapy.md"
+      hidden: false
+    - title: "7.3.7. Reflexology"
+      subchapter: true
+      content_file: "chapters/08-reflexology.md"
+      hidden: false
+    - title: "7.3.8. Deep tissue work — within legal scope"
+      subchapter: true
+      content_file: "chapters/09-deep-tissue-work-within-legal-scope.md"
+      hidden: false
+    - title: "7.3.9. Contraindications and precautions"
+      subchapter: true
+      content_file: "chapters/10-contraindications-and-precautions.md"
+      hidden: false
+    - title: "7.3.10. Explaining procedure step by step"
+      subchapter: true
+      content_file: "chapters/11-explaining-procedure-step-by-step.md"
+      hidden: false
   completion:
     enabled: true
     type: view

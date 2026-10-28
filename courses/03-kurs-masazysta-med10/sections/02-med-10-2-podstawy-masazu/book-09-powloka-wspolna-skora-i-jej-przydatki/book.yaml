@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-powloka-wspolna-skora-i-jej-przydatki.md"
       hidden: false
+
+    - title: "2.9.1. Naskórek: warstwy"
+      subchapter: true
+      content_file: "chapters/02-naskorek-warstwy.md"
+      hidden: false
+    - title: "2.9.2. Skóra właściwa: warstwa brodawkowata i siateczkowata"
+      subchapter: true
+      content_file: "chapters/03-skora-wlasciwa-warstwa-brodawkowata-i-siateczkowata.md"
+      hidden: false
+    - title: "2.9.3. Tkanka podskórna"
+      subchapter: true
+      content_file: "chapters/04-tkanka-podskorna.md"
+      hidden: false
+    - title: "2.9.4. Przydatki skóry: włosy, paznokcie, gruczoły potowe, łojowe"
+      subchapter: true
+      content_file: "chapters/05-przydatki-skory-wlosy-paznokcie-gruczoly-potowe-lojo.md"
+      hidden: false
+    - title: "2.9.5. Unerwienie skóry"
+      subchapter: true
+      content_file: "chapters/06-unerwienie-skory.md"
+      hidden: false
+    - title: "2.9.6. Unaczynienie skóry"
+      subchapter: true
+      content_file: "chapters/07-unaczynienie-skory.md"
+      hidden: false
+    - title: "2.9.7. Funkcje skóry: ochronna, termoregulacyjna, czuciowa, metaboliczna"
+      subchapter: true
+      content_file: "chapters/08-funkcje-skory-ochronna-termoregulacyjna-czuciowa-met.md"
+      hidden: false
+    - title: "2.9.8. Wpływ masażu na skórę"
+      subchapter: true
+      content_file: "chapters/09-wplyw-masazu-na-skore.md"
+      hidden: false
+    - title: "2.9.9. Skóra sucha, cienka, wrażliwa, naczyniowa"
+      subchapter: true
+      content_file: "chapters/10-skora-sucha-cienka-wrazliwa-naczyniowa.md"
+      hidden: false
+    - title: "2.9.10. Przeciwwskazania skórne do masażu"
+      subchapter: true
+      content_file: "chapters/11-przeciwwskazania-skorne-do-masazu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

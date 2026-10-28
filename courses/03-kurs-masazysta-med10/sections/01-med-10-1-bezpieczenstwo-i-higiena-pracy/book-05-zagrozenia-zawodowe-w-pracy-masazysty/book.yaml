@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zagrozenia-zawodowe-w-pracy-masazysty.md"
       hidden: false
+
+    - title: "1.5.1. Czynniki fizyczne: hałas, drgania, temperatura, wilgotność"
+      subchapter: true
+      content_file: "chapters/02-czynniki-fizyczne-halas-drgania-temperatura-wilgotno.md"
+      hidden: false
+    - title: "1.5.2. Czynniki chemiczne: środki dezynfekcyjne, oleje, kremy, aerozole"
+      subchapter: true
+      content_file: "chapters/03-czynniki-chemiczne-srodki-dezynfekcyjne-oleje-kremy-.md"
+      hidden: false
+    - title: "1.5.3. Czynniki biologiczne: bakterie, wirusy, grzyby, pasożyty"
+      subchapter: true
+      content_file: "chapters/04-czynniki-biologiczne-bakterie-wirusy-grzyby-pasozyty.md"
+      hidden: false
+    - title: "1.5.4. Czynniki psychofizyczne: stres, obciążenie postawy, praca zmianowa"
+      subchapter: true
+      content_file: "chapters/05-czynniki-psychofizyczne-stres-obciazenie-postawy-pra.md"
+      hidden: false
+    - title: "1.5.5. Czynniki ergonomiczne: przeciążenia układu mięśniowo-powięziowego masażysty"
+      subchapter: true
+      content_file: "chapters/06-czynniki-ergonomiczne-przeciazenia-ukladu-miesniowo-.md"
+      hidden: false
+    - title: "1.5.6. Zagrożenia związane z kontaktem z krwią i płynami ustrojowymi"
+      subchapter: true
+      content_file: "chapters/07-zagrozenia-zwiazane-z-kontaktem-z-krwia-i-plynami-us.md"
+      hidden: false
+    - title: "1.5.7. Zagrożenia epidemiczne i patogeny alarmowe"
+      subchapter: true
+      content_file: "chapters/08-zagrozenia-epidemiczne-i-patogeny-alarmowe.md"
+      hidden: false
+    - title: "1.5.8. Wirusowe zapalenie wątroby typu A, B, C — zasady profilaktyki"
+      subchapter: true
+      content_file: "chapters/09-wirusowe-zapalenie-watroby-typu-a-b-c-zasady-profila.md"
+      hidden: false
+    - title: "1.5.9. HIV/AIDS — fakty, mity, postępowanie, ochrona godności pacjenta"
+      subchapter: true
+      content_file: "chapters/10-hiv-aids-fakty-mity-postepowanie-ochrona-godnosci-pa.md"
+      hidden: false
+    - title: "1.5.10. Gruźlica, COVID-19, grypa i inne choroby zakaźne — podstawowe zasady bezpieczeństwa"
+      subchapter: true
+      content_file: "chapters/11-gruzlica-covid-19-grypa-i-inne-choroby-zakazne-podst.md"
+      hidden: false
   completion:
     enabled: true
     type: view

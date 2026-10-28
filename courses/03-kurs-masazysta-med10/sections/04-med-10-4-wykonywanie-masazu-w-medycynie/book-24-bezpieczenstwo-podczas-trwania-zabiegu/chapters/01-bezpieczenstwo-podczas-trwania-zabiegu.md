@@ -21,95 +21,67 @@ Temat „4.24. Bezpieczeństwo podczas trwania zabiegu” realizuje 10 zagadnie�
 
 ## Zagadnienia szczegółowe
 
-### 4.24.1 4.24.1. Ciągła obserwacja oddechu, koloru skóry, potliwości
+### 4.24.1. Ciągła obserwacja oddechu, koloru skóry, potliwości
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.1. Ciągła obserwacja oddechu, koloru skóry, potliwości” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.2 4.24.2. Pytanie o ból w skali 0–10
+### 4.24.2. Pytanie o ból w skali 0–10
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Pytanie o ból w skali 0–10 (NRS) jako standard kontroli intra-zabiegowej: zadaj przy zmianie techniki/obszaru i co 5–10 min; interpretacja: 0–3 akceptowalne (ból „dobry” — rozciągnięcie, zmęczenie), 4–6 granica — skoryguj siłę/timp, >6 STOP dla tej techniki (obrona tkanek, ryzyko). U dzieci: skale twarzowe (Wong-Baker); u seniorów z poznaniem: behawioralne (grimasy, oddech). Ważne rozróżnienie: ból tkankowy vs neuropatyczny (palący, elektryczny) — ten drugi = przerwij i notuj. Pytanie otwarte uzupełniające: „jakiego rodzaju to wrażenie?”. Kalibracja wspólna: „zero = brak, dziesięć = najgorszy jaki pan pamięta”. Regularne NRS przed/po i w dniu następnym tworzą dane o skuteczności serii — uczciwość ku klientowi i nauce.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.2. Pytanie o ból w skali 0–10” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.3 4.24.3. Szanowanie słowa „stop”
+### 4.24.3. Szanowanie słowa „stop”
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.3. Szanowanie słowa „stop”” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.4 4.24.4. Unikanie nagłych ruchów
+### 4.24.4. Unikanie nagłych ruchów
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Unikanie nagłych ruchów pacjenta i terapeuty: zapowiadaj każdą zmianę („teraz przejdę do łydki, obrócę Pani stopę”), nie stawiaj kończyn „w locie”, techniki szybko-amplitudowe (oklepywanie, wibracja) wprowadzaj po sygnale, przy spastyku/refleksach — wolniej i z asekuracją; stół z blokadą kół, narzędzia odłożone pewnie, kabel urządzenia za plecami. Nagły ruch klienta: zamroź własne dłonie (nie ciągnij), przyjmij pozycję neutralną, przerwij na oddech. Przyczyny odruchów: ból, lęk, hiperekspansja, mrówienie, wspomnienie traumy. Projektowanie bezpieczeństwa: sekwencje bez „niespodzianek”, demo przed pierwszym kontaktem z newralgiczną okolicą. Kultura przewidywalności = zaufanie ciała pacjenta twoim rękom.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.4. Unikanie nagłych ruchów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.5 4.24.5. Ochrona intymności
+### 4.24.5. Ochrona intymności
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ochrona intymności w gabinecie: drzwi zamknięte i zakomunikowane („nikt nie wejdzie”), okrycie całego ciała poza obrabianym rejonem (ręcznik „drzwi” przy pośladku/kolanach), zapowiedź każdej zmiany obszaru pracy, obecność osoby towarzyszącej na żądanie (lub asysty pracownika przy zabiegach wrażliwych), brak zdjęć/rejestracji bez pisemnej zgody z celem i okresem, kulturа słów (nazwy anatomiczne, nie żarty seksualizujące). Grupy szczególnie chronione: małoletni (obecność opiekuna, zasady dotyku „public zone only”), osoby po traumie seksualnej (prawo do zatrzymania, kobieta-terapeutka na żądanie), kultury wrażliwe na nagość. Złamanie zaufania = trauma i odpowiedzialność prawna. Intymność to dar — składany w twoje ręce.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.5. Ochrona intymności” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.6 4.24.6. Ochrona przed zimnem
+### 4.24.6. Ochrona przed zimnem
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ochrona przed wychłodzeniem: gabinet 22–24°C (termometr!), ogrzewanie punktowe (mata pod stołem, koc na części nieobrabiniane), czas ekspozycji skóry ≤ kilku minut per region, szybkie okrywanie po technice, ciepłe ręce masażysty (mycie w ciepłej wodzie, rozgrzanie dłoni), przy masażach długich — podgrzewane podkłady; pacjenci wrażliwi (seniorzy, dzieci, niedowaga, β-blokery, choroba Raynauda — zimno = skurcz naczyń i ból!) — priorytet ciepła. Objawy: gęsia skórka, drżenie, skulenie, marudzenie „proszę skracać”. Zimno obniża korzyści masażu (napięcieodruchowe). Komfort termiczny jest elementem sztuki, nie fanaberią — piękno troski widać w kocu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.6. Ochrona przed zimnem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.7 4.24.7. Ochrona przed upadkiem
+### 4.24.7. Ochrona przed upadkiem
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ochrona przed upadkiem: ryzyka — wysoki stół bez asekuracji, zawroty po masażu głowy/szyi, hipotonia ortostatyczna (leki, odwodnienie), seniorzy, neuropatia, omdlenia prodromalne. Zapobieganie: hamulec stołu, niska wysokość przy transferach, podest, asekuracja ramieniem przy wstawaniu, 2–3 min leżenia + siad na brzegu przed pionizacją, wodę pod rękę, buty nieślizgające, oświetlenie po zabiegu, toaletę przed. Po masażu relaksacyjnym ostrzeż: „może zakręcić się w głowie — wstawaj powoli”. Zarejestruj każdy near-miss; analiza przyczyn systemowych (pośpiech grafiku?). Upadek 70+ = złamanie szyjki kości udowej i dramat rodziny — twoje 90 sekund asekuracji ma cenę życia w godności.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.7. Ochrona przed upadkiem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.8 4.24.8. Postępowanie przy omdleniu
+### 4.24.8. Postępowanie przy omdleniu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.8. Postępowanie przy omdleniu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.24.9 4.24.9. Postępowanie przy napadzie lęku
+### 4.24.9. Postępowanie przy napadzie lęku
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.9. Postępowanie przy napadzie lęku” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-### 4.24.10 4.24.10. Dokumentacja zdarzeń
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.24.10. Dokumentacja zdarzeń
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.24.10. Dokumentacja zdarzeń” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +100,9 @@ Temat 4.24 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.24.2. Pytanie o ból w skali 0–10.
 3. Omów zagadnienie: 4.24.3. Szanowanie słowa „stop”.
 4. Omów zagadnienie: 4.24.4. Unikanie nagłych ruchów.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

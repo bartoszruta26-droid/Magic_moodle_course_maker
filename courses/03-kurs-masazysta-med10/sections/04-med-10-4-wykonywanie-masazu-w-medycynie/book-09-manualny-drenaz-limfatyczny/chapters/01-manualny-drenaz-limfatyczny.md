@@ -26,140 +26,99 @@ Temat „4.9. Manualny drenaż limfatyczny” realizuje 15 zagadnień szczegół
 
 ## Zagadnienia szczegółowe
 
-### 4.9.1 4.9.1. Anatomia funkcjonalna układu chłonnego w praktyce
+### 4.9.1. Anatomia funkcjonalna układu chłonnego w praktyce
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.1. Anatomia funkcjonalna układu chłonnego w praktyce” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.9.2 4.9.2. Określenie obszaru drenowania
+### 4.9.2. Określenie obszaru drenowania
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.2. Określenie obszaru drenowania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.9.3 4.9.3. Kierunek odpływu chłonki
+### 4.9.3. Kierunek odpływu chłonki
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.3. Kierunek odpływu chłonki” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.9.4 4.9.4. Przygotowanie węzłów proksymalnych
+### 4.9.4. Przygotowanie węzłów proksymalnych
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Węzły chłonne powierzchowne — palpacja w granicach kompetencji: grupy istotne: podpotyliczne, szyjne przednie/podne, nad-/podobojczykowe, pachowe, łokciowe, pachwinowe. Prawidłowo: ruchome, do 1 cm, niewyczuwalne boleśnie. Masażysta NIE stawia diagnozy onkologicznej; węzły powiększone twarde, niezmienne, >2 cm, nad-/podobojczykowe, z gorączką/nocnymi potami/utrata masy ciała = czerwona flaga → pilne skierowanie do lekarza. Przy drenażu limfatycznym: BEZ masażu regionu z aktywną infekcją węzłów, ostrożnie po limfadenektomii (zmieniona anatomia, ryzyko wtórnego obrzęku — protokół CTP, zgoda lekarza). Dokumentuj observation (wielkość, bolesność, jedno-/obustronność) jako opis, nie interpretację. Delikatność nacisku: tkanka limfatyczna nie znosi siły.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.4. Przygotowanie węzłów proksymalnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.9.5 4.9.5. Techniki podstawowe: głaskanie, rozcieranie koliste, spiralne, uciski
+### 4.9.5. Techniki podstawowe: głaskanie, rozcieranie koliste, spiralne, uciski
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.5. Techniki podstawowe: głaskanie, rozcieranie koliste, spiralne, uciski” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.9.6 4.9.6. Drenaż twarzy
+### 4.9.6. Drenaż twarzy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Obrzęk limfatyczny (pierwotny lub wtórny — np. po limfadenektomii piersi) to zastój bogatobiałkowego chłonu: skóra twarda, dodatni znak Stemmera, brak dołka po ucisku w stadium późnym. Podstawa: Kompleksowa Terapia Przeciwobrzękowa (CTP/CDT) — manualny drenaż limfatyczny (delikatne chwyty pompowy, rotacyjny i kolisty, ciśnienie ~40 mmHg), bandaż wielowarstwowy o niskiej rozciągliwości, pielęgnacja skóry, ruch i ćwiczenia. Bezwzględnie należy wykluczyć aktywną chorobę nowotworową przed rozpoczęciem drenażu!
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.6. Drenaż twarzy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Węzły chłonne powierzchowne — palpacja w granicach kompetencji: grupy istotne: podpotyliczne, szyjne przednie/podne, nad-/podobojczykowe, pachowe, łokciowe, pachwinowe. Prawidłowo: ruchome, do 1 cm, niewyczuwalne boleśnie. Masażysta NIE stawia diagnozy onkologicznej; węzły powiększone twarde, niezmienne, >2 cm, nad-/podobojczykowe, z gorączką/nocnymi potami/utrata masy ciała = czerwona flaga → pilne skierowanie do lekarza. Przy drenażu limfatycznym: BEZ masażu regionu z aktywną infekcją węzłów, ostrożnie po limfadenektomii (zmieniona anatomia, ryzyko wtórnego obrzęku — protokół CTP, zgoda lekarza). Dokumentuj observation (wielkość, bolesność, jedno-/obustronność) jako opis, nie interpretację. Delikatność nacisku: tkanka limfatyczna nie znosi siły.
 
-### 4.9.7 4.9.7. Drenaż karku i głowy
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.9.7. Drenaż karku i głowy
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.7. Drenaż karku i głowy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 4.9.8 4.9.8. Drenaż grzbietu
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.9.8. Drenaż grzbietu
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.8. Drenaż grzbietu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-### 4.9.9 4.9.9. Drenaż klatki piersiowej
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.9.9. Drenaż klatki piersiowej
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.9. Drenaż klatki piersiowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-### 4.9.10 4.9.10. Drenaż brzucha
+Dotyk: mechanoreceptory skóry — Merkla (ciśnienie i tekstura, wolna adaptacja), Meissnera (ruch/suwak, szybka adaptacja), Paciniego (wibracja 200–300 Hz), Ruffiniego (rozciąganie, temperatura), wolne zakończenia nerwowe (ból, temperatura, świąd). Osobną kategorię stanowi dotyk afektywny (włókna C-tactile) — optymalnie pobudzany powolnym głaskaniem (~3 cm/s, temperatura zbliżona do skóry), co neurobiologicznie wiąże się z przyjemnością i poczuciem opieki (istotne w pracy z dziećmi, seniorami, osobami samotnymi). Propriocepcja: wrzeciona, narządy Golgiego, receptory torebkowe, błędnik (równowaga). Masaż dostarcza bodźców poprawiających kontrolę motoryczną i obraz ciała (body image) — wykorzystywane w integracji sensorycznej i po amputacjach (wspomaganie terapii lustra).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.10. Drenaż brzucha” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.9.10. Drenaż brzucha
 
-### 4.9.11 4.9.11. Drenaż kończyny górnej
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.11. Drenaż kończyny górnej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.9.11. Drenaż kończyny górnej
 
-### 4.9.12 4.9.12. Drenaż kończyny dolnej
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.12. Drenaż kończyny dolnej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.9.12. Drenaż kończyny dolnej
 
-### 4.9.13 4.9.13. Drenaż po usunięciu węzłów chłonnych
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.13. Drenaż po usunięciu węzłów chłonnych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.9.13. Drenaż po usunięciu węzłów chłonnych
 
-### 4.9.14 4.9.14. Zasada podwójnego opracowania stawów
+Węzły chłonne powierzchowne — palpacja w granicach kompetencji: grupy istotne: podpotyliczne, szyjne przednie/podne, nad-/podobojczykowe, pachowe, łokciowe, pachwinowe. Prawidłowo: ruchome, do 1 cm, niewyczuwalne boleśnie. Masażysta NIE stawia diagnozy onkologicznej; węzły powiększone twarde, niezmienne, >2 cm, nad-/podobojczykowe, z gorączką/nocnymi potami/utrata masy ciała = czerwona flaga → pilne skierowanie do lekarza. Przy drenażu limfatycznym: BEZ masażu regionu z aktywną infekcją węzłów, ostrożnie po limfadenektomii (zmieniona anatomia, ryzyko wtórnego obrzęku — protokół CTP, zgoda lekarza). Dokumentuj observation (wielkość, bolesność, jedno-/obustronność) jako opis, nie interpretację. Delikatność nacisku: tkanka limfatyczna nie znosi siły.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.14. Zasada podwójnego opracowania stawów” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.9.14. Zasada podwójnego opracowania stawów
 
-### 4.9.15 4.9.15. Tempo, ciśnienie i czas zabiegu
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.9.15. Tempo, ciśnienie i czas zabiegu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.9.15. Tempo, ciśnienie i czas zabiegu
+
+Czas trwania zabiegu masażu: jednostka: głaskanie 2–3 powtórzenia, region 5–10 min, kończyna 10–15, grzbiet 15–20, masaż pełny klasyczny 45–60 min; relaksacyjny 30–60; biurowy 10–20; sportowy predyspozycyjny 10–20, regeneracyjny 20–40; drenaż segmentu 20–45; Shantala 10–20; kamienie 45–75. Zasady: pierwszy zabieg krótszy (reakcja nieznana), senior/dziecko/chory 20–35 min, serie 10–15 zabiegów z przerwami i oceną efektu. Niedocenianie czasu = ryzyko: przegrzanie tkanki, przeciążenie krążenia, hipotonia, zmęczenie terapeuty → utrata precyzji. Przecenianie = brak adherencji i koszt. Czas licz realnie: wlicz transfer, wywiad, dokumentację (bufor 10 min). Karta odnotowuje plan vs wykonanie. Szanuj zegar — szanujesz pacjenta i siebie.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -178,3 +137,9 @@ Temat 4.9 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 4.9.2. Określenie obszaru drenowania.
 3. Omów zagadnienie: 4.9.3. Kierunek odpływu chłonki.
 4. Omów zagadnienie: 4.9.4. Przygotowanie węzłów proksymalnych.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

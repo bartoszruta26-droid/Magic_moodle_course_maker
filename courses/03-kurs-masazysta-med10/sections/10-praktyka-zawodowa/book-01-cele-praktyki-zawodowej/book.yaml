@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-cele-praktyki-zawodowej.md"
       hidden: false
+
+    - title: "10.1.1. Zastosowanie wiedzy w warunkach rzeczywistych"
+      subchapter: true
+      content_file: "chapters/02-zastosowanie-wiedzy-w-warunkach-rzeczywistych.md"
+      hidden: false
+    - title: "10.1.2. Kształtowanie postawy etycznej"
+      subchapter: true
+      content_file: "chapters/03-ksztaltowanie-postawy-etycznej.md"
+      hidden: false
+    - title: "10.1.3. Nauka współpracy z zespołem"
+      subchapter: true
+      content_file: "chapters/04-nauka-wspolpracy-z-zespolem.md"
+      hidden: false
+    - title: "10.1.4. Rozwijanie umiejętności palpacyjnych"
+      subchapter: true
+      content_file: "chapters/05-rozwijanie-umiejetnosci-palpacyjnych.md"
+      hidden: false
+    - title: "10.1.5. Rozwijanie umiejętności komunikacyjnych"
+      subchapter: true
+      content_file: "chapters/06-rozwijanie-umiejetnosci-komunikacyjnych.md"
+      hidden: false
+    - title: "10.1.6. Bezpieczne wykonywanie zabiegów pod nadzorem"
+      subchapter: true
+      content_file: "chapters/07-bezpieczne-wykonywanie-zabiegow-pod-nadzorem.md"
+      hidden: false
+    - title: "10.1.7. Dokumentowanie pracy"
+      subchapter: true
+      content_file: "chapters/08-dokumentowanie-pracy.md"
+      hidden: false
+    - title: "10.1.8. Refleksja nad własnymi ograniczeniami"
+      subchapter: true
+      content_file: "chapters/09-refleksja-nad-wlasnymi-ograniczeniami.md"
+      hidden: false
+    - title: "10.1.9. Przygotowanie do egzaminu MED.10"
+      subchapter: true
+      content_file: "chapters/10-przygotowanie-do-egzaminu-med-10.md"
+      hidden: false
+    - title: "10.1.10. Służba pacjentowi w prawdzie i miłości"
+      subchapter: true
+      content_file: "chapters/11-sluzba-pacjentowi-w-prawdzie-i-milosci.md"
+      hidden: false
   completion:
     enabled: true
     type: view

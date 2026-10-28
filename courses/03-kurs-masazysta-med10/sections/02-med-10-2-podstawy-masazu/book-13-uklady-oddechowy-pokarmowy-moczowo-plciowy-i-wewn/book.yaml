@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-uklady-oddechowy-pokarmowy-moczowo-plciowy-i-wewn.md"
       hidden: false
+
+    - title: "2.13.1. Drogi oddechowe i płuca"
+      subchapter: true
+      content_file: "chapters/02-drogi-oddechowe-i-pluca.md"
+      hidden: false
+    - title: "2.13.2. Mechanika oddychania: przepona, żebra, mięśnie pomocnicze"
+      subchapter: true
+      content_file: "chapters/03-mechanika-oddychania-przepona-zebra-miesnie-pomocnic.md"
+      hidden: false
+    - title: "2.13.3. Wymiana gazowa i wentylacja"
+      subchapter: true
+      content_file: "chapters/04-wymiana-gazowa-i-wentylacja.md"
+      hidden: false
+    - title: "2.13.4. Przewód pokarmowy i gruczoły trawienne"
+      subchapter: true
+      content_file: "chapters/05-przewod-pokarmowy-i-gruczoly-trawienne.md"
+      hidden: false
+    - title: "2.13.5. Perystaltyka i wchłanianie"
+      subchapter: true
+      content_file: "chapters/06-perystaltyka-i-wchlanianie.md"
+      hidden: false
+    - title: "2.13.6. Nerki i drogi moczowe"
+      subchapter: true
+      content_file: "chapters/07-nerki-i-drogi-moczowe.md"
+      hidden: false
+    - title: "2.13.7. Narządy płciowe — aspekty anatomiczne istotne dla masażu"
+      subchapter: true
+      content_file: "chapters/08-narzady-plciowe-aspekty-anatomiczne-istotne-dla-masa.md"
+      hidden: false
+    - title: "2.13.8. Gruczoły dokrewne i hormony"
+      subchapter: true
+      content_file: "chapters/09-gruczoly-dokrewne-i-hormony.md"
+      hidden: false
+    - title: "2.13.9. Wpływ hormonów na tkanki i samopoczucie"
+      subchapter: true
+      content_file: "chapters/10-wplyw-hormonow-na-tkanki-i-samopoczucie.md"
+      hidden: false
+    - title: "2.13.10. Bezpieczeństwo masażu w chorobach tych układów"
+      subchapter: true
+      content_file: "chapters/11-bezpieczenstwo-masazu-w-chorobach-tych-ukladow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

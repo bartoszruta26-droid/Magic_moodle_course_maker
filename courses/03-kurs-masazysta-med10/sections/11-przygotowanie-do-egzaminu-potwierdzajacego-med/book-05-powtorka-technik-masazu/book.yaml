@@ -14,6 +14,67 @@ book:
       subchapter: false
       content_file: "chapters/01-powtorka-technik-masazu.md"
       hidden: false
+
+    - title: "11.5.1. Masaż klasyczny"
+      subchapter: true
+      content_file: "chapters/02-masaz-klasyczny.md"
+      hidden: false
+    - title: "11.5.2. Masaż segmentarny"
+      subchapter: true
+      content_file: "chapters/03-masaz-segmentarny.md"
+      hidden: false
+    - title: "11.5.3. Manualny drenaż limfatyczny"
+      subchapter: true
+      content_file: "chapters/04-manualny-drenaz-limfatyczny.md"
+      hidden: false
+    - title: "11.5.4. Masaż łącznotkankowy"
+      subchapter: true
+      content_file: "chapters/05-masaz-lacznotkankowy.md"
+      hidden: false
+    - title: "11.5.5. Masaż okostnowy"
+      subchapter: true
+      content_file: "chapters/06-masaz-okostnowy.md"
+      hidden: false
+    - title: "11.5.6. Masaż punktowy"
+      subchapter: true
+      content_file: "chapters/07-masaz-punktowy.md"
+      hidden: false
+    - title: "11.5.7. Refleksoterapia stóp"
+      subchapter: true
+      content_file: "chapters/08-refleksoterapia-stop.md"
+      hidden: false
+    - title: "11.5.8. Masaż tensegracyjny"
+      subchapter: true
+      content_file: "chapters/09-masaz-tensegracyjny.md"
+      hidden: false
+    - title: "11.5.9. Masaż izometryczny"
+      subchapter: true
+      content_file: "chapters/10-masaz-izometryczny.md"
+      hidden: false
+    - title: "11.5.10. Masaż stawowy"
+      subchapter: true
+      content_file: "chapters/11-masaz-stawowy.md"
+      hidden: false
+    - title: "11.5.11. Masaż wodny"
+      subchapter: true
+      content_file: "chapters/12-masaz-wodny.md"
+      hidden: false
+    - title: "11.5.12. Shantala"
+      subchapter: true
+      content_file: "chapters/13-shantala.md"
+      hidden: false
+    - title: "11.5.13. Masaż w ciąży i połogu"
+      subchapter: true
+      content_file: "chapters/14-masaz-w-ciazy-i-pologu.md"
+      hidden: false
+    - title: "11.5.14. Masaż przyrządowy"
+      subchapter: true
+      content_file: "chapters/15-masaz-przyrzadowy.md"
+      hidden: false
+    - title: "11.5.15. Masaż sportowy i prozdrowotny"
+      subchapter: true
+      content_file: "chapters/16-masaz-sportowy-i-prozdrowotny.md"
+      hidden: false
   completion:
     enabled: true
     type: view

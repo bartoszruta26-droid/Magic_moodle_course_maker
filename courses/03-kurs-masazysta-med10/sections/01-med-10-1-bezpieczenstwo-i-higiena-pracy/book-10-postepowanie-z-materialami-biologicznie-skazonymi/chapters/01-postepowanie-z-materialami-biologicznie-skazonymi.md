@@ -21,95 +21,71 @@ Temat „1.10. Postępowanie z materiałami biologicznie skażonymi” realizuje
 
 ## Zagadnienia szczegółowe
 
-### 1.10.1 1.10.1. Krew, wydzieliny, pot, łojotok, zmiany skórne
+### 1.10.1. Krew, wydzieliny, pot, łojotok, zmiany skórne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Choroby skóry — przeciwwskazania miejscowe i ogólne: bezwzględnie nie masujemy zmian ropnych (liszajec, czyraki, róża — ogólnoustrojowe ryzyko), wirusowych aktywnych (half zoster w wysiewie, brodawki w dużej liczbie — rozsiew), grzybic (autoinokulacja, sprzęt!), pasożytów (świerzb — izolacja i leczenie, dezynfekcja tekstyliów 60°C). Łuszczyca/egzema w fazie stabilnej: masaż możliwy poza ogniskami, emolienty bezzapachowe, siła lekka (objaw Koebnera — uraz → nowa zmiana!). Czerniak/atypowy pieprzyk: nie „smarować” i nie drażnić — skierować dermatologa. Dokumentuj: lokalizacja, charakter, decyzja. Higiena: jednorazowe podkłady, dezynfekcja stołu, mycie rąk. Zasada: lepiej odmówić i wytłumaczyć niż zainfekować i zniszczyć zaufanie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.1. Krew, wydzieliny, pot, łojotok, zmiany skórne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 1.10.2 1.10.2. Odpady medyczne i komunalne
+### 1.10.2. Odpady medyczne i komunalne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.2. Odpady medyczne i komunalne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Choroby skóry — przeciwwskazania miejscowe i ogólne: bezwzględnie nie masujemy zmian ropnych (liszajec, czyraki, róża — ogólnoustrojowe ryzyko), wirusowych aktywnych (half zoster w wysiewie, brodawki w dużej liczbie — rozsiew), grzybic (autoinokulacja, sprzęt!), pasożytów (świerzb — izolacja i leczenie, dezynfekcja tekstyliów 60°C). Łuszczyca/egzema w fazie stabilnej: masaż możliwy poza ogniskami, emolienty bezzapachowe, siła lekka (objaw Koebnera — uraz → nowa zmiana!). Czerniak/atypowy pieprzyk: nie „smarować” i nie drażnić — skierować dermatologa. Dokumentuj: lokalizacja, charakter, decyzja. Higiena: jednorazowe podkłady, dezynfekcja stołu, mycie rąk. Zasada: lepiej odmówić i wytłumaczyć niż zainfekować i zniszczyć zaufanie.
 
-### 1.10.3 1.10.3. Pojemniki na ostre przedmioty — jeśli występują
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.10.3. Pojemniki na ostre przedmioty — jeśli występują
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.3. Pojemniki na ostre przedmioty — jeśli występują” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 1.10.4 1.10.4. Dezaktywacja i dezynfekcja powierzchni
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.10.4. Dezaktywacja i dezynfekcja powierzchni
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.4. Dezaktywacja i dezynfekcja powierzchni” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
 
-### 1.10.5 1.10.5. Pranie tekstyliów skażonych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 1.10.5. Pranie tekstyliów skażonych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.5. Pranie tekstyliów skażonych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Refleksoterapia stóp: mapa punktów rzutowych (paliczki— głowa, łuk— narządy klatki/p jamy brzusznej, pięta— miednica). Dowody naukowe wspierają efekt relaksacyjny i przeciwbólowy, NIE „leczenie chorób narządowych” przez nacisk. Bezpieczeństwo: cukrzyca (neuropatia + gojenie!— tylko delikatnie, codzienna kontrola stóp), zakrzepica żył głębokich stopy/łydki— zakaz, owrzodzenia— omijać. Opinie klientów o bóle punktów— zapisywać jako wskaźniki napięcia, nie diagnozy.
 
-### 1.10.6 1.10.6. Zasady postępowania po ekspozycji na czynnik zakaźny
+Środki dezynfekcyjne dopuszczone do użytku: wyłącznie preparaty wprowadzone do obrotu zgodnie z prawem, aktywne bakteriobójczo, prątkobójczo, wirusobójczo (HBV/HIV, koronawirusy) i — przy narzędziach — sporobójczo. Standard gabinetu: alkohol 60–70% do powierzchni szybkich, preparaty czwartorzędowe sole/WOP do blatów, dezynfekcja wysokopoziomowa sprzętu kontaktującego ze skórą zmienioną. Czas kontaktu (np. 30 s–5 min) jest częścią skuteczności — skracać go nie wolno. Sporządzanie roztworów wg tabeli producenta, datowanie pojemników roboczych, wymiana co zmianę.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.6. Zasady postępowania po ekspozycji na czynnik zakaźny” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.10.6. Zasady postępowania po ekspozycji na czynnik zakaźny
 
-### 1.10.7 1.10.7. Zgłaszanie zdarzenia niepożądanego
+Postępowanie po ekspozycji na czynnik zakaźny (zakłucie, skaleczenie, kontakt z krwią): natychmiast przerwij pracę, wyprowadź krwawienie pod bieżącą wodą z mydłem (nie zasysaj!), przemyj środkiem bakteriobójczym (alkohol 70%, octenidyna), sporządź protokół ekspozycji (data, godzina, źródło, mechanizm), zgłoś przełożonemu i udaj się do punktu konsultacyjnego chorób zakaźnych w ciągu 2–4 h (decyzja o profilaktyce pEEH HIV/WZW B/tężec). Terminowe działanie ratuje zdrowie — zwlekanie jest błędem systemowym.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.7. Zgłaszanie zdarzenia niepożądanego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.10.7. Zgłaszanie zdarzenia niepożądanego
 
-### 1.10.8 1.10.8. Dokumentacja incydentu
+Zgłaszanie zdarzeń niepożądanych (NOP): każde odchylenie (otarcie naskórka, krwiak, omdlenie, reakcja alergiczna, pomyłka w dokumentacji) wpisujemy do rejestru w dniu zdarzenia: opis faktów bez ocen, data/godzina, osoba zgłaszająca, podjęte działania, stan poszkodowanego, przyczyny prawdopodobne i proponowane korekty systemu. Analiza zespołowa (bez winienia jednostek) przekształca błąd w zabezpieczenie przyszłego pacjenta. Transparentność NOP to prawda wobec ludzi i fundament sprawiedliwej jakości.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.8. Dokumentacja incydentu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.10.8. Dokumentacja incydentu
 
-### 1.10.9 1.10.9. Profilaktyka poekspozycyjna we współpracy z lekarzem
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.9. Profilaktyka poekspozycyjna we współpracy z lekarzem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.10.9. Profilaktyka poekspozycyjna we współpracy z lekarzem
 
-### 1.10.10 1.10.10. Ochrona danych i godności pacjenta przy zdarzeniach biologicznych
+Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „1.10.10. Ochrona danych i godności pacjenta przy zdarzeniach biologicznych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 1.10.10. Ochrona danych i godności pacjenta przy zdarzeniach biologicznych
+
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+
+Promocja zdrowia wg Karty Ottawskiej (WHO 1986): proces umożliwiający ludziom zwiększenie kontroli nad swoim zdrowiem — zdrowa polityka publiczna, przyjazne środowiska, wzmocnienie społeczności, reorientacja usług, zdrowe wybory osobiste. Profilaktyka masażysty: pierwszorzędowa (edukacja ergonomii, aktywności, snu), wtórna (wczesne wykrywanie czerwonych flag → skierowanie), trzeciorzędowa (zapobieganie powikłaniom unieruchomienia, przykurczom, obrzękom limfatycznym, odleżynom). Narzędzia: materiały piśmienne, demonstracja ćwiczeń, follow-up w ramach regulaminu; 3 max. przekazy na wizytę (respekt, zrozumienie, zapamiętanie).
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +104,9 @@ Temat 1.10 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 1.10.2. Odpady medyczne i komunalne.
 3. Omów zagadnienie: 1.10.3. Pojemniki na ostre przedmioty — jeśli występują.
 4. Omów zagadnienie: 1.10.4. Dezaktywacja i dezynfekcja powierzchni.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

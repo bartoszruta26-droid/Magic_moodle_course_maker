@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-profilaktyczny.md"
       hidden: false
+
+    - title: "6.5.1. Profilaktyka bólów kręgosłupa"
+      subchapter: true
+      content_file: "chapters/02-profilaktyka-bolow-kregoslupa.md"
+      hidden: false
+    - title: "6.5.2. Profilaktyka napięcia barków i karku"
+      subchapter: true
+      content_file: "chapters/03-profilaktyka-napiecia-barkow-i-karku.md"
+      hidden: false
+    - title: "6.5.3. Profilaktyka obrzęków nóg"
+      subchapter: true
+      content_file: "chapters/04-profilaktyka-obrzekow-nog.md"
+      hidden: false
+    - title: "6.5.4. Profilaktyka przeciążeń kończyn górnych"
+      subchapter: true
+      content_file: "chapters/05-profilaktyka-przeciazen-konczyn-gornych.md"
+      hidden: false
+    - title: "6.5.5. Profilaktyka stóp i chodu"
+      subchapter: true
+      content_file: "chapters/06-profilaktyka-stop-i-chodu.md"
+      hidden: false
+    - title: "6.5.6. Edukacja posturalna"
+      subchapter: true
+      content_file: "chapters/07-edukacja-posturalna.md"
+      hidden: false
+    - title: "6.5.7. Ćwiczenia domowe — w granicach kompetencji"
+      subchapter: true
+      content_file: "chapters/08-cwiczenia-domowe-w-granicach-kompetencji.md"
+      hidden: false
+    - title: "6.5.8. Ergonomia pracy"
+      subchapter: true
+      content_file: "chapters/09-ergonomia-pracy.md"
+      hidden: false
+    - title: "6.5.9. Sen i regeneracja"
+      subchapter: true
+      content_file: "chapters/10-sen-i-regeneracja.md"
+      hidden: false
+    - title: "6.5.10. Kiedy skierować do lekarza"
+      subchapter: true
+      content_file: "chapters/11-kiedy-skierowac-do-lekarza.md"
+      hidden: false
   completion:
     enabled: true
     type: view

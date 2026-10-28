@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-pierwsza-pomoc-w-stanach-urazowych.md"
       hidden: false
+
+    - title: "1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie"
+      subchapter: true
+      content_file: "chapters/02-krwotok-zewnetrzny-ucisk-opaska-uniesienie.md"
+      hidden: false
+    - title: "1.13.2. Krwotok z nosa"
+      subchapter: true
+      content_file: "chapters/03-krwotok-z-nosa.md"
+      hidden: false
+    - title: "1.13.3. Złamanie: unieruchomienie, ból, wstrząs"
+      subchapter: true
+      content_file: "chapters/04-zlamanie-unieruchomienie-bol-wstrzas.md"
+      hidden: false
+    - title: "1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować"
+      subchapter: true
+      content_file: "chapters/05-zwichniecie-nie-nastawiac-unieruchomic-skierowac.md"
+      hidden: false
+    - title: "1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja"
+      subchapter: true
+      content_file: "chapters/06-skrecenie-chlodzenie-unieruchomienie-obserwacja.md"
+      hidden: false
+    - title: "1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc"
+      subchapter: true
+      content_file: "chapters/07-amputacja-przechowanie-czesci-ucisk-pilna-pomoc.md"
+      hidden: false
+    - title: "1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy"
+      subchapter: true
+      content_file: "chapters/08-zmiazdzenie-ryzyko-wstrzasu-nie-uwalniac-bez-pomocy.md"
+      hidden: false
+    - title: "1.13.8. Oparzenie termiczne, chemiczne, elektryczne"
+      subchapter: true
+      content_file: "chapters/09-oparzenie-termiczne-chemiczne-elektryczne.md"
+      hidden: false
+    - title: "1.13.9. Odmrożenie"
+      subchapter: true
+      content_file: "chapters/10-odmrozenie.md"
+      hidden: false
+    - title: "1.13.10. Ciało obce w drogach oddechowych"
+      subchapter: true
+      content_file: "chapters/11-cialo-obce-w-drogach-oddechowych.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-miejsce-i-rola-zawodu-w-systemie-ochrony-zdrowia.md"
       hidden: false
+
+    - title: "2.3.1. Podmiot leczniczy publiczny i niepubliczny"
+      subchapter: true
+      content_file: "chapters/02-podmiot-leczniczy-publiczny-i-niepubliczny.md"
+      hidden: false
+    - title: "2.3.2. Poradnie, szpitale, zakłady rehabilitacji, hospicja, DOM-y"
+      subchapter: true
+      content_file: "chapters/03-poradnie-szpitale-zaklady-rehabilitacji-hospicja-dom.md"
+      hidden: false
+    - title: "2.3.3. Gabinety masażu i działalności lecznicze"
+      subchapter: true
+      content_file: "chapters/04-gabinety-masazu-i-dzialalnosci-lecznicze.md"
+      hidden: false
+    - title: "2.3.4. Sportowe ośrodki medyczne i kluby"
+      subchapter: true
+      content_file: "chapters/05-sportowe-osrodki-medyczne-i-kluby.md"
+      hidden: false
+    - title: "2.3.5. Opieka długoterminowa i paliatywna"
+      subchapter: true
+      content_file: "chapters/06-opieka-dlugoterminowa-i-paliatywna.md"
+      hidden: false
+    - title: "2.3.6. Rola masażysty w zespole terapeutycznym"
+      subchapter: true
+      content_file: "chapters/07-rola-masazysty-w-zespole-terapeutycznym.md"
+      hidden: false
+    - title: "2.3.7. Rola masażysty w profilaktyce zdrowotnej"
+      subchapter: true
+      content_file: "chapters/08-rola-masazysty-w-profilaktyce-zdrowotnej.md"
+      hidden: false
+    - title: "2.3.8. Miejsce zawodu w Unii Europejskiej"
+      subchapter: true
+      content_file: "chapters/09-miejsce-zawodu-w-unii-europejskiej.md"
+      hidden: false
+    - title: "2.3.9. uznawanie kwalifikacji zawodowych"
+      subchapter: true
+      content_file: "chapters/10-uznawanie-kwalifikacji-zawodowych.md"
+      hidden: false
+    - title: "2.3.10. Standardy jakości usług zdrowotnych"
+      subchapter: true
+      content_file: "chapters/11-standardy-jakosci-uslug-zdrowotnych.md"
+      hidden: false
   completion:
     enabled: true
     type: view

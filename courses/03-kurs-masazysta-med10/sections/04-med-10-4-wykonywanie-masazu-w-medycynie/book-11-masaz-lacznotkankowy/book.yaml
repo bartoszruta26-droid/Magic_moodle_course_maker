@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-lacznotkankowy.md"
       hidden: false
+
+    - title: "4.11.1. Podstawy odruchowego działania na tkankę łączną"
+      subchapter: true
+      content_file: "chapters/02-podstawy-odruchowego-dzialania-na-tkanke-laczna.md"
+      hidden: false
+    - title: "4.11.2. Strefy masażu łącznotkankowego"
+      subchapter: true
+      content_file: "chapters/03-strefy-masazu-lacznotkankowego.md"
+      hidden: false
+    - title: "4.11.3. Techniki: fałd, przesunięcie, rolka"
+      subchapter: true
+      content_file: "chapters/04-techniki-fald-przesuniecie-rolka.md"
+      hidden: false
+    - title: "4.11.4. Reakcja tkanek"
+      subchapter: true
+      content_file: "chapters/05-reakcja-tkanek.md"
+      hidden: false
+    - title: "4.11.5. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/06-przeciwwskazania.md"
+      hidden: false
+    - title: "4.11.6. Kolejność opracowania"
+      subchapter: true
+      content_file: "chapters/07-kolejnosc-opracowania.md"
+      hidden: false
+    - title: "4.11.7. Dokumentacja"
+      subchapter: true
+      content_file: "chapters/08-dokumentacja.md"
+      hidden: false
+    - title: "4.11.8. Ryzyko siniaków"
+      subchapter: true
+      content_file: "chapters/09-ryzyko-siniakow.md"
+      hidden: false
+    - title: "4.11.9. Komunikacja z pacjentem"
+      subchapter: true
+      content_file: "chapters/10-komunikacja-z-pacjentem.md"
+      hidden: false
+    - title: "4.11.10. Zastosowanie w zespołach bólowych kręgosłupa"
+      subchapter: true
+      content_file: "chapters/11-zastosowanie-w-zespolach-bolowych-kregoslupa.md"
+      hidden: false
   completion:
     enabled: true
     type: view

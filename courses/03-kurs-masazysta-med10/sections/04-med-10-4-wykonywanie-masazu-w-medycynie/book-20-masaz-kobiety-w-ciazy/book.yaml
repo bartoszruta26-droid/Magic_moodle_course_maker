@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-kobiety-w-ciazy.md"
       hidden: false
+
+    - title: "4.20.1. Konsultacja lekarska i zgoda"
+      subchapter: true
+      content_file: "chapters/02-konsultacja-lekarska-i-zgoda.md"
+      hidden: false
+    - title: "4.20.2. Pozycje bezpieczne"
+      subchapter: true
+      content_file: "chapters/03-pozycje-bezpieczne.md"
+      hidden: false
+    - title: "4.20.3. Unikanie ucisku brzucha"
+      subchapter: true
+      content_file: "chapters/04-unikanie-ucisku-brzucha.md"
+      hidden: false
+    - title: "4.20.4. Obrzęki kończyn dolnych"
+      subchapter: true
+      content_file: "chapters/05-obrzeki-konczyn-dolnych.md"
+      hidden: false
+    - title: "4.20.5. Bóle kręgosłupa lędźwiowego"
+      subchapter: true
+      content_file: "chapters/06-bole-kregoslupa-ledzwiowego.md"
+      hidden: false
+    - title: "4.20.6. Napięcie karku i barków"
+      subchapter: true
+      content_file: "chapters/07-napiecie-karku-i-barkow.md"
+      hidden: false
+    - title: "4.20.7. Przeciwwskazania: krwawienie, łożysko przodujące, stan przedrzucawkowy, zakrzepica"
+      subchapter: true
+      content_file: "chapters/08-przeciwwskazania-krwawienie-lozysko-przodujace-stan-.md"
+      hidden: false
+    - title: "4.20.8. Sygnały alarmowe do przerwania"
+      subchapter: true
+      content_file: "chapters/09-sygnaly-alarmowe-do-przerwania.md"
+      hidden: false
+    - title: "4.20.9. Emocjonalne wsparcie bez przekraczania kompetencji"
+      subchapter: true
+      content_file: "chapters/10-emocjonalne-wsparcie-bez-przekraczania-kompetencji.md"
+      hidden: false
+    - title: "4.20.10. Dokumentacja i zalecenia"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-i-zalecenia.md"
+      hidden: false
   completion:
     enabled: true
     type: view

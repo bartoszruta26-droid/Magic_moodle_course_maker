@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-biurowy.md"
       hidden: false
+
+    - title: "6.7.1. Krzesło do masażu i pozycja siedząca"
+      subchapter: true
+      content_file: "chapters/02-krzeslo-do-masazu-i-pozycja-siedzaca.md"
+      hidden: false
+    - title: "6.7.2. Ubranie pacjenta"
+      subchapter: true
+      content_file: "chapters/03-ubranie-pacjenta.md"
+      hidden: false
+    - title: "6.7.3. Czas 10–20 minut"
+      subchapter: true
+      content_file: "chapters/04-czas-10-20-minut.md"
+      hidden: false
+    - title: "6.7.4. Techniki: barki, kark, głowa, ręce, plecy przez ubranie"
+      subchapter: true
+      content_file: "chapters/05-techniki-barki-kark-glowa-rece-plecy-przez-ubranie.md"
+      hidden: false
+    - title: "6.7.5. Bezpieczeństwo kręgosłupa szyjnego"
+      subchapter: true
+      content_file: "chapters/06-bezpieczenstwo-kregoslupa-szyjnego.md"
+      hidden: false
+    - title: "6.7.6. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/07-przeciwwskazania.md"
+      hidden: false
+    - title: "6.7.7. Higiena rąk i powierzchni"
+      subchapter: true
+      content_file: "chapters/08-higiena-rak-i-powierzchni.md"
+      hidden: false
+    - title: "6.7.8. Granice intymności"
+      subchapter: true
+      content_file: "chapters/09-granice-intymnosci.md"
+      hidden: false
+    - title: "6.7.9. Edukacja ergonomia"
+      subchapter: true
+      content_file: "chapters/10-edukacja-ergonomia.md"
+      hidden: false
+    - title: "6.7.10. Dokumentacja skrócona"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-skrocona.md"
+      hidden: false
   completion:
     enabled: true
     type: view

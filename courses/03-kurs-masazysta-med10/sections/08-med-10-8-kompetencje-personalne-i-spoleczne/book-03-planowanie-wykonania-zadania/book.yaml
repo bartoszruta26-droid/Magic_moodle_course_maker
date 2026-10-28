@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-planowanie-wykonania-zadania.md"
       hidden: false
+
+    - title: "8.3.1. Określenie celów zabiegu"
+      subchapter: true
+      content_file: "chapters/02-okreslenie-celow-zabiegu.md"
+      hidden: false
+    - title: "8.3.2. Estymacja czasu"
+      subchapter: true
+      content_file: "chapters/03-estymacja-czasu.md"
+      hidden: false
+    - title: "8.3.3. Kolejność czynności"
+      subchapter: true
+      content_file: "chapters/04-kolejnosc-czynnosci.md"
+      hidden: false
+    - title: "8.3.4. Przygotowanie materiałów"
+      subchapter: true
+      content_file: "chapters/05-przygotowanie-materialow.md"
+      hidden: false
+    - title: "8.3.5. Przewidzenie ryzyka"
+      subchapter: true
+      content_file: "chapters/06-przewidzenie-ryzyka.md"
+      hidden: false
+    - title: "8.3.6. Plan B przy reakcji pacjenta"
+      subchapter: true
+      content_file: "chapters/07-plan-b-przy-reakcji-pacjenta.md"
+      hidden: false
+    - title: "8.3.7. Dokumentowanie planu"
+      subchapter: true
+      content_file: "chapters/08-dokumentowanie-planu.md"
+      hidden: false
+    - title: "8.3.8. Ocena realizacji planu"
+      subchapter: true
+      content_file: "chapters/09-ocena-realizacji-planu.md"
+      hidden: false
+    - title: "8.3.9. Wnioski na kolejne zabiegi"
+      subchapter: true
+      content_file: "chapters/10-wnioski-na-kolejne-zabiegi.md"
+      hidden: false
+    - title: "8.3.10. Odpowiedzialność za czas i bezpieczeństwo"
+      subchapter: true
+      content_file: "chapters/11-odpowiedzialnosc-za-czas-i-bezpieczenstwo.md"
+      hidden: false
   completion:
     enabled: true
     type: view

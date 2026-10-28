@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-postawa-egzaminacyjna-w-duchu-prawdy-i-pokoju.md"
       hidden: false
+
+    - title: "11.10.1. Uczciwość wobec siebie"
+      subchapter: true
+      content_file: "chapters/02-uczciwosc-wobec-siebie.md"
+      hidden: false
+    - title: "11.10.2. Brak oszukiwania"
+      subchapter: true
+      content_file: "chapters/03-brak-oszukiwania.md"
+      hidden: false
+    - title: "11.10.3. Spokój i oddech"
+      subchapter: true
+      content_file: "chapters/04-spokoj-i-oddech.md"
+      hidden: false
+    - title: "11.10.4. Szacunek dla egzaminatora"
+      subchapter: true
+      content_file: "chapters/05-szacunek-dla-egzaminatora.md"
+      hidden: false
+    - title: "11.10.5. Przyznanie się do niewiedzy"
+      subchapter: true
+      content_file: "chapters/06-przyznanie-sie-do-niewiedzy.md"
+      hidden: false
+    - title: "11.10.6. Bezpieczeństwo pacjenta fikcyjnego i rzeczywistego"
+      subchapter: true
+      content_file: "chapters/07-bezpieczenstwo-pacjenta-fikcyjnego-i-rzeczywistego.md"
+      hidden: false
+    - title: "11.10.7. Pokora wobec błędu"
+      subchapter: true
+      content_file: "chapters/08-pokora-wobec-bledu.md"
+      hidden: false
+    - title: "11.10.8. Odpowiedzialność za przyszłych pacjentów"
+      subchapter: true
+      content_file: "chapters/09-odpowiedzialnosc-za-przyszlych-pacjentow.md"
+      hidden: false
+    - title: "11.10.9. Modlitwa lub refleksja wewnętrzna — jeśli sumienie pozwala"
+      subchapter: true
+      content_file: "chapters/10-modlitwa-lub-refleksja-wewnetrzna-jesli-sumienie-poz.md"
+      hidden: false
+    - title: "11.10.10. Cel: być godnym zaufania"
+      subchapter: true
+      content_file: "chapters/11-cel-byc-godnym-zaufania.md"
+      hidden: false
   completion:
     enabled: true
     type: view

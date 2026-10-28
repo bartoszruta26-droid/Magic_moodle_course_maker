@@ -21,95 +21,65 @@ Temat „8.8. Komunikacja interpersonalna” realizuje 10 zagadnień szczegóło
 
 ## Zagadnienia szczegółowe
 
-### 8.8.1 8.8.1. Aktywne słuchanie
+### 8.8.1. Aktywne słuchanie
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Aktywne słuchanie: filary — kontakt wzrokowy i postawa otwarta, nieprzerywanie, odzwierciedlanie emocji („wygląda, że ten ból Pana złości”), pytania otwarte na początku i domknięte dla konkretu, podsumowanie na koniec. W masażu słuchasz też ciałem: oddech, napięcie tkanek, ruch uchylania się — to dane równie ważne jak słowa. Bariery: własny monolog, rozproszenie (telefon), stereotypy („młodzi nie bolą”), pośpiech grafiku — temu przeciwstawia się brief 30 s przed zabiegiem i jedno pytanie otwarte („co dziś przeszkadza najbardziej?”). Efekt badany w komunikacji zdrowotnej: lepsza adherencja, mniej skarg, wcześniejsze wykrywanie alarmów. Słuchanie jest pierwszą techniką terapeutyczną — zanim dotkniesz.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.1. Aktywne słuchanie” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.2 8.8.2. Parafraza i klaryfikacja
+### 8.8.2. Parafraza i klaryfikacja
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Parafraza i klaryfikacja w rozmowie z pacjentem: parafraza streszcza treść („Rozumiem: ból nasila się wieczorem po pracy siedzącej, a rano ustępuje”) — sprawdza zrozumienie i pokazuje uwagę; klaryfikacja doprecyzowuje mgliste komunikaty („Co oznacza „mocno boli” — w skali 0–10? Gdzie dokładnie?”). Stosuj przy: wywiadzie (objawy, leki), uzgadnianie celu zabiegu, odbiorze obaw, reklamacjach. Błędy: sugerowanie odpowiedzi („chyba chodzi o stres?”), parafrazowanie ocen zamiast faktów, nadużywanie (co drugie zdanie = sztuczność). Ćwiczenie w parach: 5-minutowy wywiad, partner odtwarza 3 fakty + 1 emocję; feedback wg check-listy. Precyzja języka = precyzja decyzji terapeutycznej i bezpieczeństwo.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.2. Parafraza i klaryfikacja” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.3 8.8.3. Język zrozumiały dla pacjenta
+### 8.8.3. Język zrozumiały dla pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.3. Język zrozumiały dla pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.4 8.8.4. Dostosowanie do wieku i stanu zdrowia
+### 8.8.4. Dostosowanie do wieku i stanu zdrowia
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dostosowanie komunikacji i techniki do wieku i stanu zdrowia: dziecko — krótkie zdania, wybór, demonstracja na pluszaku, tempo zabawy; nastolatek — autonomia, poufność, język konkretów; dorosły — partnerstwo, cel i plan; senior — wolniej, głośniej jeśli potrzeba (badanie słuchu!), szacunek dla doświczenia, asekuracja ortostatyczna. Stan zdrowia: ból ostry — minimum bodźców werbalnych; duszność — krótkie komunikaty, przerwy na oddech; zaburzenia poznania — rutyna, jedno polecenie na raz; lęk — zapowiedź każdego etapu; niedosłuch/niewidomi — dotyk opisany, pismo duże, tłumacz PJM. Parametry zabiegu (siła, czas, pozycja) również kalibrujesz do wieku i kondycji — dokumentując decyzje. To sprawiedliwość praktyczna: ten sam cel, różne drogi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.4. Dostosowanie do wieku i stanu zdrowia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.5 8.8.5. Komunikacja z osobą lękową
+### 8.8.5. Komunikacja z osobą lękową
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.5. Komunikacja z osobą lękową” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.6 8.8.6. Komunikacja z osobą zniecierpliwioną
+### 8.8.6. Komunikacja z osobą zniecierpliwioną
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.6. Komunikacja z osobą zniecierpliwioną” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.7 8.8.7. Komunikacja z osobą w bólu
+### 8.8.7. Komunikacja z osobą w bólu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.7. Komunikacja z osobą w bólu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.8 8.8.8. Komunikacja z rodziną pacjenta
+### 8.8.8. Komunikacja z rodziną pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.8. Komunikacja z rodziną pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.9 8.8.9. Podstawy języka migowego — jeśli przewidziano
+### 8.8.9. Podstawy języka migowego — jeśli przewidziano
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.9. Podstawy języka migowego — jeśli przewidziano” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.8.10 8.8.10. Milczenie jako szacunek
+### 8.8.10. Milczenie jako szacunek
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Milczenie jako szacunek i narzędzie: cisza pozwala pacjentowi zebrać myśli przy trudnym wyznaniu, porządkuje obserwację terapeuty (słuchasz oddechu, tkanki), buduje rytm zabiegu relaksacyjnego (bodziec bez narracji). Zasady: nie wypełniaj każdej pauzy small-talkiem; wyjaśnij intencję („proszę odpocząć, wrócimy do pytania za moment”); milczenie nie znaczy obojętność — utrzymuj dostępność (kontakt wzrokowy przy pytaniu, dotyk ciągły). Sygnały do przerwania ciszy: lęk (pacjent szuka kontaktu), objawy alarmowe (weryfikujesz), drętwienie/ ból (wracasz do procedury). Kulturowo różna tolerancja ciszy — pytaj preferencji. Dojrzałość zawodowa: umieć nic nie mówić i być obecnym.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.8.10. Milczenie jako szacunek” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +98,9 @@ Temat 8.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.8.2. Parafraza i klaryfikacja.
 3. Omów zagadnienie: 8.8.3. Język zrozumiały dla pacjenta.
 4. Omów zagadnienie: 8.8.4. Dostosowanie do wieku i stanu zdrowia.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

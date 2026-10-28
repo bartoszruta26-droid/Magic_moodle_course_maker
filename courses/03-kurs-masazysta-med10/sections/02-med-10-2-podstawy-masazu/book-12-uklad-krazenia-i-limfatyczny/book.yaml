@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-uklad-krazenia-i-limfatyczny.md"
       hidden: false
+
+    - title: "2.12.1. Serce: budowa, cykl serca, rzut serca"
+      subchapter: true
+      content_file: "chapters/02-serce-budowa-cykl-serca-rzut-serca.md"
+      hidden: false
+    - title: "2.12.2. Tętnice, żyły, naczynia włosowate"
+      subchapter: true
+      content_file: "chapters/03-tetnice-zyly-naczynia-wlosowate.md"
+      hidden: false
+    - title: "2.12.3. Mikrokrążenie"
+      subchapter: true
+      content_file: "chapters/04-mikrokrazenie.md"
+      hidden: false
+    - title: "2.12.4. Powrót żylny: pompa mięśniowa, zastawki, gradient ciśnienia"
+      subchapter: true
+      content_file: "chapters/05-powrot-zylny-pompa-miesniowa-zastawki-gradient-cisni.md"
+      hidden: false
+    - title: "2.12.5. Ciśnienie tętnicze i jego znaczenie w masażu"
+      subchapter: true
+      content_file: "chapters/06-cisnienie-tetnicze-i-jego-znaczenie-w-masazu.md"
+      hidden: false
+    - title: "2.12.6. Układ limfatyczny: naczynia, pnie, przewody"
+      subchapter: true
+      content_file: "chapters/07-uklad-limfatyczny-naczynia-pnie-przewody.md"
+      hidden: false
+    - title: "2.12.7. Węzły chłonne regionalne"
+      subchapter: true
+      content_file: "chapters/08-wezly-chlonne-regionalne.md"
+      hidden: false
+    - title: "2.12.8. Chłonka: skład, przepływ, funkcja immunologiczna"
+      subchapter: true
+      content_file: "chapters/09-chlonka-sklad-przeplyw-funkcja-immunologiczna.md"
+      hidden: false
+    - title: "2.12.9. Obrzęk: mechanizmy powstawania"
+      subchapter: true
+      content_file: "chapters/10-obrzek-mechanizmy-powstawania.md"
+      hidden: false
+    - title: "2.12.10. Wpływ masażu i drenażu na krążenie krwi i chłonki"
+      subchapter: true
+      content_file: "chapters/11-wplyw-masazu-i-drenazu-na-krazenie-krwi-i-chlonki.md"
+      hidden: false
   completion:
     enabled: true
     type: view

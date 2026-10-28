@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-egzamin-pisemny-zakres-powtorkowy.md"
       hidden: false
+
+    - title: "11.9.1. Testy z BHP"
+      subchapter: true
+      content_file: "chapters/02-testy-z-bhp.md"
+      hidden: false
+    - title: "11.9.2. Testy z anatomii"
+      subchapter: true
+      content_file: "chapters/03-testy-z-anatomii.md"
+      hidden: false
+    - title: "11.9.3. Testy z fizjologii"
+      subchapter: true
+      content_file: "chapters/04-testy-z-fizjologii.md"
+      hidden: false
+    - title: "11.9.4. Testy z patologii"
+      subchapter: true
+      content_file: "chapters/05-testy-z-patologii.md"
+      hidden: false
+    - title: "11.9.5. Testy ze wskazań i przeciwwskazań"
+      subchapter: true
+      content_file: "chapters/06-testy-ze-wskazan-i-przeciwwskazan.md"
+      hidden: false
+    - title: "11.9.6. Testy z technik masażu"
+      subchapter: true
+      content_file: "chapters/07-testy-z-technik-masazu.md"
+      hidden: false
+    - title: "11.9.7. Testy z dokumentacji"
+      subchapter: true
+      content_file: "chapters/08-testy-z-dokumentacji.md"
+      hidden: false
+    - title: "11.9.8. Testy z etyki"
+      subchapter: true
+      content_file: "chapters/09-testy-z-etyki.md"
+      hidden: false
+    - title: "11.9.9. Testy z języka obcego zawodowego"
+      subchapter: true
+      content_file: "chapters/10-testy-z-jezyka-obcego-zawodowego.md"
+      hidden: false
+    - title: "11.9.10. Analiza błędów"
+      subchapter: true
+      content_file: "chapters/11-analiza-bledow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

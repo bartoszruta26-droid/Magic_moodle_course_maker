@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-planowanie-pracy-zespolu.md"
       hidden: false
+
+    - title: "9.1.1. Cele zespołu w gabinecie lub placówce"
+      subchapter: true
+      content_file: "chapters/02-cele-zespolu-w-gabinecie-lub-placowce.md"
+      hidden: false
+    - title: "9.1.2. Analiza przydzielonych zadań"
+      subchapter: true
+      content_file: "chapters/03-analiza-przydzielonych-zadan.md"
+      hidden: false
+    - title: "9.1.3. Harmonogram pracy"
+      subchapter: true
+      content_file: "chapters/04-harmonogram-pracy.md"
+      hidden: false
+    - title: "9.1.4. Podział obowiązków"
+      subchapter: true
+      content_file: "chapters/05-podzial-obowiazkow.md"
+      hidden: false
+    - title: "9.1.5. Monitorowanie realizacji"
+      subchapter: true
+      content_file: "chapters/06-monitorowanie-realizacji.md"
+      hidden: false
+    - title: "9.1.6. Raportowanie stanu prac"
+      subchapter: true
+      content_file: "chapters/07-raportowanie-stanu-prac.md"
+      hidden: false
+    - title: "9.1.7. Identyfikacja wąskich gardeł"
+      subchapter: true
+      content_file: "chapters/08-identyfikacja-waskich-gardel.md"
+      hidden: false
+    - title: "9.1.8. Bezpieczeństwo pacjenta w pracy zespołowej"
+      subchapter: true
+      content_file: "chapters/09-bezpieczenstwo-pacjenta-w-pracy-zespolowej.md"
+      hidden: false
+    - title: "9.1.9. Etyka współpracy"
+      subchapter: true
+      content_file: "chapters/10-etyka-wspolpracy.md"
+      hidden: false
+    - title: "9.1.10. Dokumentacja zespołowa"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-zespolowa.md"
+      hidden: false
   completion:
     enabled: true
     type: view

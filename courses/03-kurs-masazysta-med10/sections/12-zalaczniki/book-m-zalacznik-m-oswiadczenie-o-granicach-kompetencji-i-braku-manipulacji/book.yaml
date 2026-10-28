@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik M. Oświadczenie o granicach kompetencji i braku manipulacji"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik M. Oświadczenie o granicach kompetencji i braku manipulacji.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **M.1** Kurs nie uprawnia do wykonywania zawodu lekarza
+    - **M.2** Kurs nie uprawnia do samodzielnego leczenia chorób
+    - **M.3** Kurs nie uprawnia do diagnostyki medycznej wykraczającej poza ocenę zabiegową
+    - **M.4** Kurs nie uprawnia do wykonywania zabiegów inwazyjnych
+    - **M.5** Kurs nie uprawnia do stosowania terapii, których masażysta nie jest uprawniony wykonywać
+    - **M.6** Masażysta zobowiązuje się kierować dobro pacjenta ponad zysk
+    - **M.7** Masażysta zobowiązuje się nie straszyć, nie obiecywać cudów, nie wykorzystywać zależności
+    - **M.8** Masażysta zobowiązuje się współpracować z lekarzem i zespołem terapeutycznym
+    - **M.9** Masażysta zobowiązuje się chronić dane osobowe i godność pacjenta
+    - **M.10** Masażysta zobowiązuje się stale doskonalić w prawdzie, pięknie i sprawiedliwości
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "M.1. Kurs nie uprawnia do wykonywania zawodu lekarza"
+      subchapter: false
+      content_file: "chapters/M-1-kurs-nie-uprawnia-do-wykonywania-zawodu-lekarza.md"
+      hidden: false
+    - title: "M.2. Kurs nie uprawnia do samodzielnego leczenia chorób"
+      subchapter: false
+      content_file: "chapters/M-2-kurs-nie-uprawnia-do-samodzielnego-leczenia-chorob.md"
+      hidden: false
+    - title: "M.3. Kurs nie uprawnia do diagnostyki medycznej wykraczającej poza ocenę zabiegową"
+      subchapter: false
+      content_file: "chapters/M-3-kurs-nie-uprawnia-do-diagnostyki-medycznej-wykraczajacej-poz.md"
+      hidden: false
+    - title: "M.4. Kurs nie uprawnia do wykonywania zabiegów inwazyjnych"
+      subchapter: false
+      content_file: "chapters/M-4-kurs-nie-uprawnia-do-wykonywania-zabiegow-inwazyjnych.md"
+      hidden: false
+    - title: "M.5. Kurs nie uprawnia do stosowania terapii, których masażysta nie jest uprawniony wykonywać"
+      subchapter: false
+      content_file: "chapters/M-5-kurs-nie-uprawnia-do-stosowania-terapii-ktorych-masazysta-ni.md"
+      hidden: false
+    - title: "M.6. Masażysta zobowiązuje się kierować dobro pacjenta ponad zysk"
+      subchapter: false
+      content_file: "chapters/M-6-masazysta-zobowiazuje-sie-kierowac-dobro-pacjenta-ponad-zysk.md"
+      hidden: false
+    - title: "M.7. Masażysta zobowiązuje się nie straszyć, nie obiecywać cudów, nie wykorzystywać zależności"
+      subchapter: false
+      content_file: "chapters/M-7-masazysta-zobowiazuje-sie-nie-straszyc-nie-obiecywac-cudow-n.md"
+      hidden: false
+    - title: "M.8. Masażysta zobowiązuje się współpracować z lekarzem i zespołem terapeutycznym"
+      subchapter: false
+      content_file: "chapters/M-8-masazysta-zobowiazuje-sie-wspolpracowac-z-lekarzem-i-zespole.md"
+      hidden: false
+    - title: "M.9. Masażysta zobowiązuje się chronić dane osobowe i godność pacjenta"
+      subchapter: false
+      content_file: "chapters/M-9-masazysta-zobowiazuje-sie-chronic-dane-osobowe-i-godnosc-pac.md"
+      hidden: false
+    - title: "M.10. Masażysta zobowiązuje się stale doskonalić w prawdzie, pięknie i sprawiedliwości"
+      subchapter: false
+      content_file: "chapters/M-10-masazysta-zobowiazuje-sie-stale-doskonalic-w-prawdzie-piekni.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

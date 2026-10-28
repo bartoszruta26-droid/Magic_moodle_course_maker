@@ -866,7 +866,7 @@ lokalizacji punktów (cun-miara własna dłoni pacjenta):
 
 - **Ren Mai (VC)** — linia pośrodkowa przodu: VC6 Qihai, VC4 Guanyuan, VC12 Zhongwan (okolica żołądka), VC17 Danzhong (okolica serca).
 - **Du Mai (GV)** — linia pośrodkowa tyłu: GV20 Baihui (ciemieniuszko), GV14 Dazhui (poniżej C7).
-- Przykłady常用 punktów kończynowych: LI4 Hegu (grzbiet dłoni, przestrzeń między I a II kością śródręcza — ból głowy; tradycyjnie unikać w ciąży), ST36 Zusanli (poniżej guzowatości piszczeli — zmęczenie, przewód pokarmowy), SP6 Sanyinjiao (4 cun powyżej szczytu kostki przyśrodkowej — ginekologia; ciąża ostrożnie), LV3 Taichong (grzbiet stopy), GB20 Fengchi (dołek pod potylicą), BL23 Shenshu (przykręgosłupowo L1), PC6 Neiguan (2 cun ponad stawem nadgarstkowym — nudności: najlepiej udokumentowany!).
+- Przykładypowszechnie stosowane punktów kończynowych: LI4 Hegu (grzbiet dłoni, przestrzeń między I a II kością śródręcza — ból głowy; tradycyjnie unikać w ciąży), ST36 Zusanli (poniżej guzowatości piszczeli — zmęczenie, przewód pokarmowy), SP6 Sanyinjiao (4 cun powyżej szczytu kostki przyśrodkowej — ginekologia; ciąża ostrożnie), LV3 Taichong (grzbiet stopy), GB20 Fengchi (dołek pod potylicą), BL23 Shenshu (przykręgosłupowo L1), PC6 Neiguan (2 cun ponad stawem nadgarstkowym — nudności: najlepiej udokumentowany!).
 
 **Stanowisko kursu:** akupresura łagodzi nudności (PC6 — dane dobre) i może
 zmniejszać ból (dane umiarkowane); akupunktura sucha — niewielki, ale statystycznie
@@ -908,7 +908,7 @@ modela markerem zmywalnym jako ćwiczenie praktyczne.""",
 Rysunki pozycji (kąt łóżka/poduszki, czas 20–30 min, 2–3×/dobę, przed posiłkiem):
 
 1. **Płat górny** — pozycja siedząca pochylona do przodu (lub leżenie na plecach z poduszką pod udami 15°? standard: półsiedząc) — drenaż do oskrzeli głównych.
-2. **Płat środkowy/język** — leżenie tyłem, uniesienie boków tułowia? → pozycja: leżenie na zdrowym boku, łóżko uniesione 20–30°, poduszka pod klatkę侧.
+2. **Płat środkowy/język** — leżenie tyłem, uniesienie boków tułowia? → pozycja: leżenie na zdrowym boku, łóżko uniesione 20–30°, poduszka pod klatkęstrona.
 3. **Płat dolny segmenty apikalne** — leżenie przodem z miednicą wyżej niż głowa (Trendelenburg odwrócony 20–30°), poduszka pod brzuchem.
 4. **Płat dolny bazalne** — leżenie tyłem, nogi powyżej poziomu głowy (poduszki pod golenie, 30°).
 
@@ -994,7 +994,7 @@ mięśni, dodatni Lasègue) → neurolog/ortopeda; zespół ogona końskiego
 
 **Fazy i postępowanie:**
 
-1. **Faza ostra (dzień 1–7):** masaż LEKKO, poza obszarem bólu: kończyna dolna głaskanie odpływowe + ugniatanie uda (tolerowane), grzbiet Th部分 rozcieranie łagodne; pozycje odciążające (leżenie z podudzi na krześle, «90-90»), chód krótki częsty; LEKI i decyzje — lekarz.
+1. **Faza ostra (dzień 1–7):** masaż LEKKO, poza obszarem bólu: kończyna dolna głaskanie odpływowe + ugniatanie uda (tolerowane), grzbiet Thczęść rozcieranie łagodne; pozycje odciążające (leżenie z podudzi na krześle, «90-90»), chód krótki częsty; LEKI i decyzje — lekarz.
 2. **Faza podostra:** segmenty L2–S1 masaż przykręgosłupowy umiarkowany, pośladkowy średni i gruszkowaty (test! pseudorwa vs. korzeń), tył uda i podudzie (bez prowokacji bólu korzeniowego > 3/10).
 3. **Profilaktyka nawrotów:** trening mięśni głębokich (brzuch «drawing-in», multitify? → prostowniki), ergonomia dźwigania, ćwiczenia McKenzie'ego (extension prone press-ups — wg odpowiedzi directional preference), I.4? → I.8/postawa.
 
@@ -1228,7 +1228,7 @@ cukier, sen (bezdech? → polisomnografia).""",
     "i-4": """# I.4. Ćwiczenia w astmie i POChP
 
 **Astma (kontrolowana — PEF dzienniczek!):**
-- Rozgrzewka 10–15 min (zapobiega EIB — exercise-induced bronchoconstriction); interwałowy wysiłek lepiej tolerowany niż ciągły; pływanie chlor? — some敏感; nose breathing + warm humid air; leki reliever przed wysiłkiem wg planu lekarza.
+- Rozgrzewka 10–15 min (zapobiega EIB — exercise-induced bronchoconstriction); interwałowy wysiłek lepiej tolerowany niż ciągły; pływanie chlor? — somewrażliwy; nose breathing + warm humid air; leki reliever przed wysiłkiem wg planu lekarza.
 - Trening mięśni oddechowych IMT (30 cmH₂O, 2×30 oddechów/dzień) — dowody: ↓ duszność.
 - Oddech pursed-lips + przeponowy (technika «wdychaj nosem 2s, wydech przez zaciśnięte usta 4s»).
 
@@ -1431,7 +1431,7 @@ Dane wrażliwe — przechowywanie RODO-safe (papier w szafce / aplikacja szyfrow
 Model 6–12 spotkań (co 2–4 tyg., 45–60 min), pacjent: cukrzyca typu 2,
 nadciśnienie, POChP, RZS…
 
-1. **Spotkanie 1 — kontrakt i mapa choroby:** zrozumienie rozpoznania (用自己的 words), leki (adherence bariery: cena? zapominalstwo? strach NOP?), cele pacjenta.
+1. **Spotkanie 1 — kontrakt i mapa choroby:** zrozumienie rozpoznania (własnymi słowami), leki (adherence bariery: cena? zapominalstwo? strach NOP?), cele pacjenta.
 2. **Spotkanie 2 — samomonitoreng:** glucometer/BP domowy (technika pomiaru — demonstracja, powtórka), dziennik (J.4), «co oznaczają liczby — kiedy dzwonić do lekarza».
 3. **Spotkanie 3 — żywienie:** 24-h recall, jeden cel wymiany (np. słodki napój → woda z cytryną), etykiety, gotowanie razem (kitchen lesson).
 4. **Spotkanie 4 — ruch:** ocena barier, plan FITT (B.9), buty/ścieżka, «park walk» wspólny.
@@ -1509,7 +1509,7 @@ Standard gabinetu usługowego (Sanepid, RODO, BHP):
 
 1. **Ręce:** mycie 30 s + dezynfekcja (alkoholowy preparat, EN1500) przed i po KAŻDYM kliencie; rękawiczki nitinolowe? → nitrylowe jednorazowe przy kontakcie ze skórą zmienioną.
 2. **Pole zabiegu:** skóra czysta, sucha; dezynfekcja pola (oktenidyna/chlorheksydyna 0,5–2 %) przy opatrunku drobnych ran.
-3. **Narzędzia:** narzędzia jednorazowe (skalpele — ZAKAZ użycia w usługach; nożyczki do paznokci, frez podologiczny — sterylizacja autoklawem tylko przez wykwalifikowanych, dla nas: dezynfekcja高水平 preparatem medycznym + wymienne końcówki).
+3. **Narzędzia:** narzędzia jednorazowe (skalpele — ZAKAZ użycia w usługach; nożyczki do paznokci, frez podologiczny — sterylizacja autoklawem tylko przez wykwalifikowanych, dla nas: dezynfekcjawysoki poziom preparatem medycznym + wymienne końcówki).
 4. **Tekstylia:** ręczniki/prześcieradła jednorazowe lub 60 °C+; fartuch czysty na zmianę.
 5. **Odpady:** ostrza/igły → pojemnik UB (igloo); gazy z krwią → odpad medyczny (umowa z firmą utylizacyjną); chemia → segregacja.
 6. **Dokumentacja:** lista środków dezynfekujących (poświadczenia, daty), harmonogram przeglądów, ewidencja wypadków ekspozycyjnych (ukłucie → PRM/wypadkowy).
@@ -1556,7 +1556,7 @@ prosto (wbrew «zaokrąglaniu» — zapobiega wrastaniu).
 oględziny codzienne (lusterko/rodzina), sucho między palcami.""",
     "k-5": """# K.5. Technika płukania żołądka i lewatywy — HISTORYCZNIE i WSPÓŁCZEŚNIE
 
-**Historycznie:** felczer执行ował płukanie («wlew doodbytniczy», «detoksykacja»)
+**Historycznie:** felczerwykonanieował płukanie («wlew doodbytniczy», «detoksykacja»)
 przy zatruciach; aparatura: syfon, irygator Esmarcha.
 
 **Współcześnie (Polska):** płukanie żołądka jest PROCEDURĄ MEDYCZNĄ ratunkową

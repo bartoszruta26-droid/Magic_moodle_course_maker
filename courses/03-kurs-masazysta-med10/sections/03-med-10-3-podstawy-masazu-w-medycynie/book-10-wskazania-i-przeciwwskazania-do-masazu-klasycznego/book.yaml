@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-masazu-klasycznego.md"
       hidden: false
+
+    - title: "3.10.1. Wskazania ortopedyczne i reumatologiczne"
+      subchapter: true
+      content_file: "chapters/02-wskazania-ortopedyczne-i-reumatologiczne.md"
+      hidden: false
+    - title: "3.10.2. Wskazania neurologiczne"
+      subchapter: true
+      content_file: "chapters/03-wskazania-neurologiczne.md"
+      hidden: false
+    - title: "3.10.3. Wskazania kardiologiczne — tylko stabilne, za zgodą lekarza"
+      subchapter: true
+      content_file: "chapters/04-wskazania-kardiologiczne-tylko-stabilne-za-zgoda-lek.md"
+      hidden: false
+    - title: "3.10.4. Wskazania pulmonologiczne"
+      subchapter: true
+      content_file: "chapters/05-wskazania-pulmonologiczne.md"
+      hidden: false
+    - title: "3.10.5. Wskazania gastroenterologiczne"
+      subchapter: true
+      content_file: "chapters/06-wskazania-gastroenterologiczne.md"
+      hidden: false
+    - title: "3.10.6. Wskazania urologiczne i ginekologiczne"
+      subchapter: true
+      content_file: "chapters/07-wskazania-urologiczne-i-ginekologiczne.md"
+      hidden: false
+    - title: "3.10.7. Wskazania dermatologiczne — ograniczone"
+      subchapter: true
+      content_file: "chapters/08-wskazania-dermatologiczne-ograniczone.md"
+      hidden: false
+    - title: "3.10.8. Przeciwwskazania bezwzględne"
+      subchapter: true
+      content_file: "chapters/09-przeciwwskazania-bezwzgledne.md"
+      hidden: false
+    - title: "3.10.9. Przeciwwskazania względne"
+      subchapter: true
+      content_file: "chapters/10-przeciwwskazania-wzgledne.md"
+      hidden: false
+    - title: "3.10.10. Przeciwwskazania miejscowe"
+      subchapter: true
+      content_file: "chapters/11-przeciwwskazania-miejscowe.md"
+      hidden: false
   completion:
     enabled: true
     type: view

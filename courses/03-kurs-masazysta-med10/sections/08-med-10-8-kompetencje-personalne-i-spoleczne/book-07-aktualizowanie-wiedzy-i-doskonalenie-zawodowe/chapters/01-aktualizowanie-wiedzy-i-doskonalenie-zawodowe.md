@@ -21,95 +21,65 @@ Temat „8.7. Aktualizowanie wiedzy i doskonalenie zawodowe” realizuje 10 zaga
 
 ## Zagadnienia szczegółowe
 
-### 8.7.1 8.7.1. Analiza własnych kompetencji
+### 8.7.1. Analiza własnych kompetencji
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.1. Analiza własnych kompetencji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.2 8.7.2. Tendencje na rynku usług masażu
+### 8.7.2. Tendencje na rynku usług masażu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Tendencje rynkowe usług masażu: starzenie się społeczeństwa i choroby przewlekłe zwiększają popyt na rehabilitację i opiekę długoterminową; rośnie segment wellness/spa oraz masażu prozdrowotnego w miejscu pracy (programy antystresowe, masaż biurowy); telemonitoring i aplikacje wspierają edukację pacjenta, ale nie zastępują kwalifikacji do zabiegu. Kierunki: indywidualizacja (protokoły „ szyte na miarę”), dowody naukowe jako argument sprzedażowy, integracja z zespołami POZ i fizjoterapią, standardy jakości i bezpieczeństwa (akredytacje, OC zawodowe). Rynek pracy: deficyt wykwalifikowanych masażystów w placówkach stacjonarnych, duża konkurencja w sektorze komercyjnym — przewagą jest rzetelność, dyplom MED.10 i specjalizacja. Analizuj lokalnie: demografia, cena godziny, kanały pozyskania klienta, sezonowość; prognozuj ostrożnie i uczciwie — bez obiecywania „pewnych zarobków”.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.2. Tendencje na rynku usług masażu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.3 8.7.3. Krytyczna ocena nowinek
+### 8.7.3. Krytyczna ocena nowinek
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Krytyczna ocena nowinek zawodowych: każdy nowy „przełomowy” chwyt lub urządzenie weryfikuj pytaniami — kto badał (niezależne ośrodki czy producent?), jaka metoda (RCT, obserwacja, anegdota?), jaki efekt rzeczywisty (wielkość efektu, nie sam fakt istotności statystycznej?) i czy wniosek dotyczy populacji moich klientów. Źródła rzetelne: PubMed, Cochrane, przeglądy towarzystw naukowych (PTF, PTR), wytyczne ERC dla pierwszej pomocy. Marketing „detoksy”, „rozpuszczania knotów” czy „leczenia wszystkich chorób dotyku” jest fałszem — prawda wobec pacjenta jest obowiązkiem etycznym i prawnym (zakaz wprowadzania w błąd). Nowość wprowadzaj najpierw na sobie i ochotnikach pod superwizją, z protokołem i dokumentacją.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.3. Krytyczna ocena nowinek” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.4 8.7.4. Kształcenie ustawiczne
+### 8.7.4. Kształcenie ustawiczne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.4. Kształcenie ustawiczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.5 8.7.5. Kursy, warsztaty, konferencje
+### 8.7.5. Kursy, warsztaty, konferencje
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Formy doskonalenia zawodowego: kursy specjalistyczne (krótkie, praktyczne — np. drenaż limfatyczny I stopnia wg klasy Leduc, masaż tkanek głębokich) wybieraj po kadrze (udokumentowane kompetencje, numer szkolenia), programie (liczba godzin praktyki na osobę!) i certyfikacie weryfikowalnym; konferencje (PTF, PTR, sympozja rehabilitacyjne) dają orientację w dowodach i networking branżowy; warsztaty mistrzowskie — kontakt z doświadczeniem metodyków szkoły klasycznej i współczesnej. Budżet czasu i pieniędzy planuj w planie rozwoju (zasada 70:20:10 — praktyka : społeczność nauki : kurs formalny). Przed zapisem sprawdź regulamin, nagranie materiałów (zgody RODO) oraz czy kurs nie obiecuje uprawnień, których nie daje (np. „diagnoza”, „terapia chorób”) — to przekroczenie kompetencji MED.10.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.5. Kursy, warsztaty, konferencje” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.6 8.7.6. Piśmiennictwo fachowe
+### 8.7.6. Piśmiennictwo fachowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Piśmiennictwo fachowe masażysty: podręczniki akademickie fizjoterapii i balneologii (m.in. szkoła Kasperczykowej masażu klasycznego, opracowania z zakresu medycyny fizykalnej), anatomia palpacyjna (Benjamin, Hipp), atlasy anatomiczne, monografie o drenażu limfatycznym (Földi, Leduc), badania w czasopismach (Journal of Bodywork and Movement Therapies, Physiological Research, Advances in Physiology Education), dokumenty CIEP/MEiN dla podstawy programowej MED.10 oraz wytyczne ERC (pierwsza pomoc), WHO (aktywność fizyczna), GIS (higiena). Nawyk: przy każdej metodzie zadaj pytanie „skąd to wiemy?” i zapisuj źródło w nocie — buduje to bibliotekę poglądów krytycznych. Aktualizuj co najmniej raz w roku: wiedza sprzed dekady bywa dziś fałszywa (np. „masaż rozbija cellulit”, „kwas mlekowy znika przez rozciąganie”). Korzystaj z bibliotek uczelnianych i baz open-access.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.6. Piśmiennictwo fachowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.7 8.7.7. Mentoring i superwizja
+### 8.7.7. Mentoring i superwizja
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Mentoring i superwizja w pracy masażysty: mentor (praktyk z doświadczeniem) wspiera rozwój techniczny i zawodowy — ustalcie cele kwartalne, obserwację pracy na żywo lub wideo (za zgodą klienta, anonimizacja!), omówienie trudnych przypadków bez oceniania osoby. Superwizja (indywidualna lub grupowa) służy analizie sytuacji trudnych emocjonalnie: agresja klienta, pacjenci po przemocy, własne zmęczenie i granice. Korzyści udokumentowane w zawodach pomocowych: mniejsze wypalenie, lepsze decyzje kliniczne, wzrost pewności początkujących. Zasady: poufność przypadku (bez danych osobowych), konstruktywna informacja zwrotna modelem „fakt → wpływ → prośba/propozycja”, prawo mentee do odmiany tematu. Jakość relacji mentorskiej mierz liczbą wdrożonych zmian, nie godzinami spotkań.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.7. Mentoring i superwizja” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.8 8.7.8. Plan rozwoju zawodowego
+### 8.7.8. Plan rozwoju zawodowego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Plan rozwoju zawodowego (IDP) masażysty: diagnoja SWOT własnych kompetencji (techniki, anatomia, komunikacja, zarządzanie sobą w czasie), cele SMART na 12 miesięcy (np. „samodzielnie prowadzę serię 10 masaży leczniczych lędźwi z dokumentacją i oceną efektu wg skali”), dobór środków (kurs, mentoring, literatura, powtórki interleaving), harmonogram kwartalny z przeglądem co 90 dni i wskaźnikami (liczba wykonanych procedur, opinii opiekuna, wyników testów). Uwzględnij ścieżkę: masażysta → specjalista obszaru (sport, limfologia, praca z bólem przewlekłym) ± elementy zarządzania (MOD.3/POR.3 dla przedsiębiorczych). Plan jest aktem sprawiedliwości wobec siebie i przyszłych pacjentów — zaniedbany rozwój kosztuje czyjeś zdrowie. Zapisuj postępy w portfolio i wracaj do nich przed egzaminem i rekrutacjami.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.8. Plan rozwoju zawodowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.9 8.7.9. Etyka reklamy własnych kompetencji
+### 8.7.9. Etyka reklamy własnych kompetencji
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.9. Etyka reklamy własnych kompetencji” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 8.7.10 8.7.10. Uczciwość wobec pacjenta
+### 8.7.10. Uczciwość wobec pacjenta
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uczciwość wobec pacjenta fundamentem relacji terapeutycznej: mów prawdę o możliwościach masażu (ulga funkcjonalna, wsparcie regeneracji — nie „leczenie przyczynowe” chorób systemowych), o prawdopodobnych reakcjach pozabiegowych (tkliwość, siniak przy technikach głębokich), o swoich uprawnieniach (MED.10, brak diagnostyki), o cenach i czasie (cennik jawny, brak ukrytych dopłat). Nie wykorzystuj zależności chorego: zero namawiania do serii „na zapas”, pakietów presyjnych, straszenia pogorszeniem. Reklama zgodna z prawem: bez świadectw fałszywych („gwarantowany efekt”), bez porównujących z leczeniem lekarza. Gdy popełnisz błąd — przeproć, napraw, udokumentuj (kultura just culture). Pacjent obdarzony prawdą odwdzięza się zaufaniem — a piękno zawodu polega na tym zaufaniu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „8.7.10. Uczciwość wobec pacjenta” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +98,9 @@ Temat 8.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 8.7.2. Tendencje na rynku usług masażu.
 3. Omów zagadnienie: 8.7.3. Krytyczna ocena nowinek.
 4. Omów zagadnienie: 8.7.4. Kształcenie ustawiczne.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

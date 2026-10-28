@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-pojecie-masazu-prozdrowotnego.md"
       hidden: false
+
+    - title: "6.1.1. Zdrowie jako dobro i zadanie"
+      subchapter: true
+      content_file: "chapters/02-zdrowie-jako-dobro-i-zadanie.md"
+      hidden: false
+    - title: "6.1.2. Profilaktyka a terapia"
+      subchapter: true
+      content_file: "chapters/03-profilaktyka-a-terapia.md"
+      hidden: false
+    - title: "6.1.3. Relaksacja a leczenie"
+      subchapter: true
+      content_file: "chapters/04-relaksacja-a-leczenie.md"
+      hidden: false
+    - title: "6.1.4. Masaż prozdrowotny u osoby zdrowej"
+      subchapter: true
+      content_file: "chapters/05-masaz-prozdrowotny-u-osoby-zdrowej.md"
+      hidden: false
+    - title: "6.1.5. Masaż prozdrowotny u osoby z dolegliwościami funkcjonalnymi"
+      subchapter: true
+      content_file: "chapters/06-masaz-prozdrowotny-u-osoby-z-dolegliwosciami-funkcjo.md"
+      hidden: false
+    - title: "6.1.6. Granice: nie leczymy choroby niezdiagnozowanej"
+      subchapter: true
+      content_file: "chapters/07-granice-nie-leczymy-choroby-niezdiagnozowanej.md"
+      hidden: false
+    - title: "6.1.7. Edukacja pacjenta/klienta"
+      subchapter: true
+      content_file: "chapters/08-edukacja-pacjenta-klienta.md"
+      hidden: false
+    - title: "6.1.8. Odpowiedzialność za oczekiwania"
+      subchapter: true
+      content_file: "chapters/09-odpowiedzialnosc-za-oczekiwania.md"
+      hidden: false
+    - title: "6.1.9. Prawda o dowodach naukowych"
+      subchapter: true
+      content_file: "chapters/10-prawda-o-dowodach-naukowych.md"
+      hidden: false
+    - title: "6.1.10. Zakaz obietnic „detoksu”, „leczenia nowotworu”, „cudownego schudnięcia”"
+      subchapter: true
+      content_file: "chapters/11-zakaz-obietnic-detoksu-leczenia-nowotworu-cudownego-.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-bezpieczenstwo-w-kontakcie-z-pacjentem-szczegolnie-wraz.md"
       hidden: false
+
+    - title: "1.15.1. Dzieci i młodzież — zgoda opiekuna, granice dotyku"
+      subchapter: true
+      content_file: "chapters/02-dzieci-i-mlodziez-zgoda-opiekuna-granice-dotyku.md"
+      hidden: false
+    - title: "1.15.2. Osoby starsze — kruchość skóry, osteoporoza, leki"
+      subchapter: true
+      content_file: "chapters/03-osoby-starsze-kruchosc-skory-osteoporoza-leki.md"
+      hidden: false
+    - title: "1.15.3. Osoby z niepełnosprawnością — komunikacja i godność"
+      subchapter: true
+      content_file: "chapters/04-osoby-z-niepelnosprawnoscia-komunikacja-i-godnosc.md"
+      hidden: false
+    - title: "1.15.4. Osoby po traumie — zgoda, zapowiedź dotyku, prawo do przerwania"
+      subchapter: true
+      content_file: "chapters/05-osoby-po-traumie-zgoda-zapowiedz-dotyku-prawo-do-prz.md"
+      hidden: false
+    - title: "1.15.5. Osoby w ciąży — ograniczenia i konsultacja lekarska"
+      subchapter: true
+      content_file: "chapters/06-osoby-w-ciazy-ograniczenia-i-konsultacja-lekarska.md"
+      hidden: false
+    - title: "1.15.6. Osoby z chorobami nowotworowymi — tylko za zgodą lekarza"
+      subchapter: true
+      content_file: "chapters/07-osoby-z-chorobami-nowotworowymi-tylko-za-zgoda-lekar.md"
+      hidden: false
+    - title: "1.15.7. Osoby z obrzękiem limfatycznym — ostrożność i kwalifikacja"
+      subchapter: true
+      content_file: "chapters/08-osoby-z-obrzekiem-limfatycznym-ostroznosc-i-kwalifik.md"
+      hidden: false
+    - title: "1.15.8. Osoby z chorobami skóry — przeciwwskazania局部ne"
+      subchapter: true
+      content_file: "chapters/09-osoby-z-chorobami-skory-przeciwwskazania-ne.md"
+      hidden: false
+    - title: "1.15.9. Osoby z zaburzeniami czucia — ryzyko uszkodzeń"
+      subchapter: true
+      content_file: "chapters/10-osoby-z-zaburzeniami-czucia-ryzyko-uszkodzen.md"
+      hidden: false
+    - title: "1.15.10. Zasada: zgoda może być cofnięta w każdej chwili"
+      subchapter: true
+      content_file: "chapters/11-zasada-zgoda-moze-byc-cofnieta-w-kazdej-chwili.md"
+      hidden: false
   completion:
     enabled: true
     type: view

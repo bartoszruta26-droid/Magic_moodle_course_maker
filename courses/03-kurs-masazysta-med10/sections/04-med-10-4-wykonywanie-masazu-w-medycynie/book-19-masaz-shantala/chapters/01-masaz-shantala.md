@@ -21,95 +21,75 @@ Temat „4.19. Masaż Shantala” realizuje 10 zagadnień szczegółowych ze spi
 
 ## Zagadnienia szczegółowe
 
-### 4.19.1 4.19.1. Historia i sens kontaktu z niemowlęciem
+### 4.19.1. Historia i sens kontaktu z niemowlęciem
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.1. Historia i sens kontaktu z niemowlęciem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż Shantala (upowszechniony przez Frédéricka Leboyera, korzenie indyjskie) wykonuje rodzic: klatka piersiowa (dłonie od środka ku bokom — „otwieram książkę”), brzuch (ścieżki w kształcie liter I, odwróconego L i U — „I love U”, zgodnie z perystaltyką okrężnicy), nogi (udo → łydka → stopa; chwyt „dojenia”), ręce, twarz (brwi → usta → uszy — „uśmiech”), plecy (na przedramieniu rodzica — ruchy „pełzania”). Warunki: dziecko zdrowe, 30–45 minut po posiłku, temperatura pokoju 24–26°C, olej roślinny prasowany na zimno (wcześniej próba alergiczna!), kontakt wzrokowy i słowny, czas 10–20 minut, sygnały STOP: płacz, odwracanie głowy, niepokój (sen też kończy sesję). Korzyści: redukcja kolek (badania i metaanalizy — dowody umiarkowane), budowanie więzi, regulacja napięcia i snu. Przeciwwskazania: gorączka, wysypki, choroby serca/metaboliczne bez zgody pediatry, okolica szczepienia, padaczka niestabilna. Rodzic masuje — masażysta UCZY: to edukacja, nie terapia.
 
-### 4.19.2 4.19.2. Przygotowanie pomieszczenia i oleju
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.19.2. Przygotowanie pomieszczenia i oleju
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.2. Przygotowanie pomieszczenia i oleju” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Dna moczanowa to odkładanie kryształów moczanu sodu w stawach (napadowy, potworny ból, obrzęk, zaczerwienienie — często I staw palucha). Napad dna jest PRZECIWWSKAZANIEM bezwzględnym do masażu zajętej okolicy (nasilenie zapalenia). Po wyciszeniu farmakologicznym masaż można stosować ostrożnie, ucząc klienta profilaktyki dietetycznej i nawodnienia w granicach swoich kompetencji.
 
-### 4.19.3 4.19.3. Pozycja niemowlęcia
+ANS dzieli się na współczulny (część piersiowo-lędźwiowa, łańcuch przykręgosłupowy, mediator noradrenalina/adrenalina — reakcja walki lub ucieczki: tachykardia, rozszerzenie oskrzeli, hamowanie trawienia) i przywspółczulny (czaszkowo-krzyżowy: nerwy III, VII, IX, X oraz S2–S4; mediator acetylocholina — odpoczynek i trawienie: perystaltyka, wydzielanie, bradykardia). Równowaga wegetatywna warunkuje regenerację tkanek. Masaż klasyczny i relaksacyjny przesuwają balans w stronę przywspółczulnego (HRV↑, kortyzol↓, IgA↑ w badaniach psychoneuroimmunologicznych). Techniki segmentarne na odcinku piersiowym/lędźwiowym modulują łańcuch współczulny — dlatego wymagają ostrożności (ciąża, nadciśnienie, niewydolność serca).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.3. Pozycja niemowlęcia” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.19.3. Pozycja niemowlęcia
 
-### 4.19.4 4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz
+Shantala i masaż niemowlęcia: środowisko ciepłe (24-26°C), dziecko nakarmione ≥30-45 min wcześniej, kontakt wzrokowy i werbalny z rodzicem (to ON uczy się techniki, masażysta demonstruje). Kolejność klasyczna: klatka piersiowa → brzuch (godz. 9→3 wg kierunku perystaltyki) → nogi → ręce → plecy → twarz. Wskazania: kolka (dla przeszkolonych), napięcie mięśniowe fizjologiczne, bonding. Przeciwwskazania: gorączka, zmiany skórne, choroby metaboliczne/serca bez zgody pediatry; NIGDY nie masuj dziecka chorego bez kwalifikacji lekarskiej.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż Shantala (upowszechniony przez Frédéricka Leboyera, korzenie indyjskie) wykonuje rodzic: klatka piersiowa (dłonie od środka ku bokom — „otwieram książkę”), brzuch (ścieżki w kształcie liter I, odwróconego L i U — „I love U”, zgodnie z perystaltyką okrężnicy), nogi (udo → łydka → stopa; chwyt „dojenia”), ręce, twarz (brwi → usta → uszy — „uśmiech”), plecy (na przedramieniu rodzica — ruchy „pełzania”). Warunki: dziecko zdrowe, 30–45 minut po posiłku, temperatura pokoju 24–26°C, olej roślinny prasowany na zimno (wcześniej próba alergiczna!), kontakt wzrokowy i słowny, czas 10–20 minut, sygnały STOP: płacz, odwracanie głowy, niepokój (sen też kończy sesję). Korzyści: redukcja kolek (badania i metaanalizy — dowody umiarkowane), budowanie więzi, regulacja napięcia i snu. Przeciwwskazania: gorączka, wysypki, choroby serca/metaboliczne bez zgody pediatry, okolica szczepienia, padaczka niestabilna. Rodzic masuje — masażysta UCZY: to edukacja, nie terapia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.19.5 4.19.5. Delikatność i obserwacja dziecka
+### 4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.5. Delikatność i obserwacja dziecka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 4.19.6 4.19.6. Sygnały stresu dziecka
+### 4.19.5. Delikatność i obserwacja dziecka
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dna moczanowa to odkładanie kryształów moczanu sodu w stawach (napadowy, potworny ból, obrzęk, zaczerwienienie — często I staw palucha). Napad dna jest PRZECIWWSKAZANIEM bezwzględnym do masażu zajętej okolicy (nasilenie zapalenia). Po wyciszeniu farmakologicznym masaż można stosować ostrożnie, ucząc klienta profilaktyki dietetycznej i nawodnienia w granicach swoich kompetencji.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.6. Sygnały stresu dziecka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Ochrona środowiska w praktyce masażysty to gospodarka odpadami zgodnie z ustawą o odpadach: segregacja (komunalne, medyczne, opakowania, zużyty sprzęt elektryczny), rejestracja wytwórcy odpadów medycznych w bazie BDO, przekazywanie odpadów uprawnionemu odbiorcy z kartą przekazania, postępowanie ze środkami biobójczymi zgodnie z kartami charakterystyki (REACH/CLP) oraz ograniczanie jednorazowości tam, gdzie nie narusza to bezpieczeństwa infekcyjnego.
 
-### 4.19.7 4.19.7. Rola rodzica/opiekuna
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.19.6. Sygnały stresu dziecka
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.7. Rola rodzica/opiekuna” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
 
-### 4.19.8 4.19.8. Przeciwwskazania
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 4.19.7. Rola rodzica/opiekuna
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.8. Przeciwwskazania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-### 4.19.9 4.19.9. Higiena rąk masażysty
+ANS dzieli się na współczulny (część piersiowo-lędźwiowa, łańcuch przykręgosłupowy, mediator noradrenalina/adrenalina — reakcja walki lub ucieczki: tachykardia, rozszerzenie oskrzeli, hamowanie trawienia) i przywspółczulny (czaszkowo-krzyżowy: nerwy III, VII, IX, X oraz S2–S4; mediator acetylocholina — odpoczynek i trawienie: perystaltyka, wydzielanie, bradykardia). Równowaga wegetatywna warunkuje regenerację tkanek. Masaż klasyczny i relaksacyjny przesuwają balans w stronę przywspółczulnego (HRV↑, kortyzol↓, IgA↑ w badaniach psychoneuroimmunologicznych). Techniki segmentarne na odcinku piersiowym/lędźwiowym modulują łańcuch współczulny — dlatego wymagają ostrożności (ciąża, nadciśnienie, niewydolność serca).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.9. Higiena rąk masażysty” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.19.8. Przeciwwskazania
 
-### 4.19.10 4.19.10. Dokumentacja zgody i przebiegu
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „4.19.10. Dokumentacja zgody i przebiegu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 4.19.9. Higiena rąk masażysty
+
+Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 4.19.10. Dokumentacja zgody i przebiegu
+
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +108,9 @@ Temat 4.19 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 4.19.2. Przygotowanie pomieszczenia i oleju.
 3. Omów zagadnienie: 4.19.3. Pozycja niemowlęcia.
 4. Omów zagadnienie: 4.19.4. Etapy: brzuszek, klatka, kończyny górne, kończyny dolne, grzbiet, twarz.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

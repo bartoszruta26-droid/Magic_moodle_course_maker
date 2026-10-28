@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-rynek-uslug-zdrowotnych-i-medycznych.md"
       hidden: false
+
+    - title: "2.4.1. Standardy usług masażu"
+      subchapter: true
+      content_file: "chapters/02-standardy-uslug-masazu.md"
+      hidden: false
+    - title: "2.4.2. Prawa konsumenta i pacjenta"
+      subchapter: true
+      content_file: "chapters/03-prawa-konsumenta-i-pacjenta.md"
+      hidden: false
+    - title: "2.4.3. Reklama usług zdrowotnych — granice prawne"
+      subchapter: true
+      content_file: "chapters/04-reklama-uslug-zdrowotnych-granice-prawne.md"
+      hidden: false
+    - title: "2.4.4. Zakaz wprowadzania w błąd"
+      subchapter: true
+      content_file: "chapters/05-zakaz-wprowadzania-w-blad.md"
+      hidden: false
+    - title: "2.4.5. Cennik i przejrzystość usług"
+      subchapter: true
+      content_file: "chapters/06-cennik-i-przejrzystosc-uslug.md"
+      hidden: false
+    - title: "2.4.6. Umowa o świadczenie usług"
+      subchapter: true
+      content_file: "chapters/07-umowa-o-swiadczenie-uslug.md"
+      hidden: false
+    - title: "2.4.7. Skargi i reklamacje"
+      subchapter: true
+      content_file: "chapters/08-skargi-i-reklamacje.md"
+      hidden: false
+    - title: "2.4.8. Zarządzanie jakością"
+      subchapter: true
+      content_file: "chapters/09-zarzadzanie-jakoscia.md"
+      hidden: false
+    - title: "2.4.9. Audyt wewnętrzny i zewnętrzny"
+      subchapter: true
+      content_file: "chapters/10-audyt-wewnetrzny-i-zewnetrzny.md"
+      hidden: false
+    - title: "2.4.10. Etyczna konkurencja na rynku"
+      subchapter: true
+      content_file: "chapters/11-etyczna-konkurencja-na-rynku.md"
+      hidden: false
   completion:
     enabled: true
     type: view

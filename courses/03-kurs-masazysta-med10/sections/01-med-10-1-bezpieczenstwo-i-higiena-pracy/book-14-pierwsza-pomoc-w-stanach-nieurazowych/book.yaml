@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-pierwsza-pomoc-w-stanach-nieurazowych.md"
       hidden: false
+
+    - title: "1.14.1. Omdlenie"
+      subchapter: true
+      content_file: "chapters/02-omdlenie.md"
+      hidden: false
+    - title: "1.14.2. Zawroty głowy"
+      subchapter: true
+      content_file: "chapters/03-zawroty-glowy.md"
+      hidden: false
+    - title: "1.14.3. Duszność"
+      subchapter: true
+      content_file: "chapters/04-dusznosc.md"
+      hidden: false
+    - title: "1.14.4. Ból w klatce piersiowej — podejrzenie zawału"
+      subchapter: true
+      content_file: "chapters/05-bol-w-klatce-piersiowej-podejrzenie-zawalu.md"
+      hidden: false
+    - title: "1.14.5. Podejrzenie udaru — zasada FAST/BE-FAST"
+      subchapter: true
+      content_file: "chapters/06-podejrzenie-udaru-zasada-fast-be-fast.md"
+      hidden: false
+    - title: "1.14.6. Napad drgawkowy"
+      subchapter: true
+      content_file: "chapters/07-napad-drgawkowy.md"
+      hidden: false
+    - title: "1.14.7. Hipoglikemia u osoby z cukrzycą"
+      subchapter: true
+      content_file: "chapters/08-hipoglikemia-u-osoby-z-cukrzyca.md"
+      hidden: false
+    - title: "1.14.8. Hiperglikemia i kwasica — rozpoznanie zagrożenia"
+      subchapter: true
+      content_file: "chapters/09-hiperglikemia-i-kwasica-rozpoznanie-zagrozenia.md"
+      hidden: false
+    - title: "1.14.9. Reakcja alergiczna i wstrząs anafilaktyczny"
+      subchapter: true
+      content_file: "chapters/10-reakcja-alergiczna-i-wstrzas-anafilaktyczny.md"
+      hidden: false
+    - title: "1.14.10. Udar cieplny i wychłodzenie"
+      subchapter: true
+      content_file: "chapters/11-udar-cieplny-i-wychlodzenie.md"
+      hidden: false
   completion:
     enabled: true
     type: view

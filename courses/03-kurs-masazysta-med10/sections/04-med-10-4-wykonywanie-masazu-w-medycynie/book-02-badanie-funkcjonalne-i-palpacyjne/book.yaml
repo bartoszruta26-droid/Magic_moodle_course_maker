@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-badanie-funkcjonalne-i-palpacyjne.md"
       hidden: false
+
+    - title: "4.2.1. Zakres ruchu czynnego i biernego"
+      subchapter: true
+      content_file: "chapters/02-zakres-ruchu-czynnego-i-biernego.md"
+      hidden: false
+    - title: "4.2.2. Testy siły mięśniowej w skali Lovetta"
+      subchapter: true
+      content_file: "chapters/03-testy-sily-miesniowej-w-skali-lovetta.md"
+      hidden: false
+    - title: "4.2.3. Ocena chodu i wstawania"
+      subchapter: true
+      content_file: "chapters/04-ocena-chodu-i-wstawania.md"
+      hidden: false
+    - title: "4.2.4. Ocena równowagi i stabilności"
+      subchapter: true
+      content_file: "chapters/05-ocena-rownowagi-i-stabilnosci.md"
+      hidden: false
+    - title: "4.2.5. Palpacja mięśni i powięzi"
+      subchapter: true
+      content_file: "chapters/06-palpacja-miesni-i-powiezi.md"
+      hidden: false
+    - title: "4.2.6. Palpacja stawów i więzadeł"
+      subchapter: true
+      content_file: "chapters/07-palpacja-stawow-i-wiezadel.md"
+      hidden: false
+    - title: "4.2.7. Palpacja tkanek podskórnych"
+      subchapter: true
+      content_file: "chapters/08-palpacja-tkanek-podskornych.md"
+      hidden: false
+    - title: "4.2.8. Wykrywanie punktów spustowych"
+      subchapter: true
+      content_file: "chapters/09-wykrywanie-punktow-spustowych.md"
+      hidden: false
+    - title: "4.2.9. Wykrywanie zmian odruchowych w masażu segmentarnym"
+      subchapter: true
+      content_file: "chapters/10-wykrywanie-zmian-odruchowych-w-masazu-segmentarnym.md"
+      hidden: false
+    - title: "4.2.10. Ocena węzłów chłonnych superficialnych — bez diagnostyki nowotworowej"
+      subchapter: true
+      content_file: "chapters/11-ocena-wezlow-chlonnych-superficialnych-bez-diagnosty.md"
+      hidden: false
   completion:
     enabled: true
     type: view

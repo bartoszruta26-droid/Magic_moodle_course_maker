@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-kreatywnosc-i-otwartosc-na-zmiany.md"
       hidden: false
+
+    - title: "8.5.1. Sytuacje nietypowe w gabinecie"
+      subchapter: true
+      content_file: "chapters/02-sytuacje-nietypowe-w-gabinecie.md"
+      hidden: false
+    - title: "8.5.2. Pacjent z lękiem przed dotykiem"
+      subchapter: true
+      content_file: "chapters/03-pacjent-z-lekiem-przed-dotykiem.md"
+      hidden: false
+    - title: "8.5.3. Pacjent z bólem przewlekłym"
+      subchapter: true
+      content_file: "chapters/04-pacjent-z-bolem-przewleklym.md"
+      hidden: false
+    - title: "8.5.4. Pacjent z niepełnosprawnością komunikacyjną"
+      subchapter: true
+      content_file: "chapters/05-pacjent-z-niepelnosprawnoscia-komunikacyjna.md"
+      hidden: false
+    - title: "8.5.5. Awaria sprzętu"
+      subchapter: true
+      content_file: "chapters/06-awaria-sprzetu.md"
+      hidden: false
+    - title: "8.5.6. Zmiana zlecenia lekarskiego"
+      subchapter: true
+      content_file: "chapters/07-zmiana-zlecenia-lekarskiego.md"
+      hidden: false
+    - title: "8.5.7. Ograniczona przestrzeń pracy"
+      subchapter: true
+      content_file: "chapters/08-ograniczona-przestrzen-pracy.md"
+      hidden: false
+    - title: "8.5.8. Bezpieczne modyfikacje techniki"
+      subchapter: true
+      content_file: "chapters/09-bezpieczne-modyfikacje-techniki.md"
+      hidden: false
+    - title: "8.5.9. Ocena skuteczności działania"
+      subchapter: true
+      content_file: "chapters/10-ocena-skutecznosci-dzialania.md"
+      hidden: false
+    - title: "8.5.10. Pokora wobec granic własnej wiedzy"
+      subchapter: true
+      content_file: "chapters/11-pokora-wobec-granic-wlasnej-wiedzy.md"
+      hidden: false
   completion:
     enabled: true
     type: view

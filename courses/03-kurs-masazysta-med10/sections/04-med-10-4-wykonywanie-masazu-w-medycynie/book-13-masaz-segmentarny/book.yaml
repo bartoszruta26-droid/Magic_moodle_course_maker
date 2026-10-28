@@ -14,6 +14,67 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-segmentarny.md"
       hidden: false
+
+    - title: "4.13.1. Podstawy embriologiczne i neurofizjologiczne"
+      subchapter: true
+      content_file: "chapters/02-podstawy-embriologiczne-i-neurofizjologiczne.md"
+      hidden: false
+    - title: "4.13.2. Sklerotom, miotom, dermatom"
+      subchapter: true
+      content_file: "chapters/03-sklerotom-miotom-dermatom.md"
+      hidden: false
+    - title: "4.13.3. Sfery Heada i strefy Mackenziego"
+      subchapter: true
+      content_file: "chapters/04-sfery-heada-i-strefy-mackenziego.md"
+      hidden: false
+    - title: "4.13.4. Chwyty diagnostyczne: oglądanie, obmacywanie, opukiwanie, przesuwanie tkanek"
+      subchapter: true
+      content_file: "chapters/05-chwyty-diagnostyczne-ogladanie-obmacywanie-opukiwani.md"
+      hidden: false
+    - title: "4.13.5. Kresa diagnostyczna Dicke"
+      subchapter: true
+      content_file: "chapters/06-kresa-diagnostyczna-dicke.md"
+      hidden: false
+    - title: "4.13.6. Chwyty lecznicze grzbietu"
+      subchapter: true
+      content_file: "chapters/07-chwyty-lecznicze-grzbietu.md"
+      hidden: false
+    - title: "4.13.7. Chwyty lecznicze klatki piersiowej"
+      subchapter: true
+      content_file: "chapters/08-chwyty-lecznicze-klatki-piersiowej.md"
+      hidden: false
+    - title: "4.13.8. Chwyty lecznicze brzucha"
+      subchapter: true
+      content_file: "chapters/09-chwyty-lecznicze-brzucha.md"
+      hidden: false
+    - title: "4.13.9. Chwyty lecznicze miednicy"
+      subchapter: true
+      content_file: "chapters/10-chwyty-lecznicze-miednicy.md"
+      hidden: false
+    - title: "4.13.10. Chwyty lecznicze karku i głowy"
+      subchapter: true
+      content_file: "chapters/11-chwyty-lecznicze-karku-i-glowy.md"
+      hidden: false
+    - title: "4.13.11. Kolejność: od segmentów dolnych do górnych"
+      subchapter: true
+      content_file: "chapters/12-kolejnosc-od-segmentow-dolnych-do-gornych.md"
+      hidden: false
+    - title: "4.13.12. Czas i siła bodźca"
+      subchapter: true
+      content_file: "chapters/13-czas-i-sila-bodzca.md"
+      hidden: false
+    - title: "4.13.13. Przesunięcia odruchowe"
+      subchapter: true
+      content_file: "chapters/14-przesuniecia-odruchowe.md"
+      hidden: false
+    - title: "4.13.14. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/15-przeciwwskazania.md"
+      hidden: false
+    - title: "4.13.15. Zastosowanie w chorobach narządów wewnętrznych — w granicach zlecenia"
+      subchapter: true
+      content_file: "chapters/16-zastosowanie-w-chorobach-narzadow-wewnetrznych-w-gra.md"
+      hidden: false
   completion:
     enabled: true
     type: view

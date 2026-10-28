@@ -14,7 +14,6 @@ Moduł obejmuje podstawy masażu: wiadomości o masażu, anatomię i fizjologię
 
 | Nr tematu | Książka (book) | Quiz | Zadanie | Liczba zagadnień |
 |-----------|--------|------|---------|------------------|
-| 2.1 | book-01 | quiz-01 | assignment-01 | 10 |
 | 2.2 | book-02 | quiz-02 | assignment-02 | 10 |
 | 2.3 | book-03 | quiz-03 | assignment-03 | 10 |
 | 2.4 | book-04 | quiz-04 | assignment-04 | 10 |

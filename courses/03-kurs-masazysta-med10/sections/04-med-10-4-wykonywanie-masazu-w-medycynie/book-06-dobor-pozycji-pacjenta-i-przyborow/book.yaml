@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-dobor-pozycji-pacjenta-i-przyborow.md"
       hidden: false
+
+    - title: "4.6.1. Pozycja na brzuchu"
+      subchapter: true
+      content_file: "chapters/02-pozycja-na-brzuchu.md"
+      hidden: false
+    - title: "4.6.2. Pozycja na plecach"
+      subchapter: true
+      content_file: "chapters/03-pozycja-na-plecach.md"
+      hidden: false
+    - title: "4.6.3. Pozycja na boku"
+      subchapter: true
+      content_file: "chapters/04-pozycja-na-boku.md"
+      hidden: false
+    - title: "4.6.4. Pozycja siedząca"
+      subchapter: true
+      content_file: "chapters/05-pozycja-siedzaca.md"
+      hidden: false
+    - title: "4.6.5. Pozycja półsiedząca"
+      subchapter: true
+      content_file: "chapters/06-pozycja-polsiedzaca.md"
+      hidden: false
+    - title: "4.6.6. Pozycja drenażowa"
+      subchapter: true
+      content_file: "chapters/07-pozycja-drenazowa.md"
+      hidden: false
+    - title: "4.6.7. Pozycja w ciąży"
+      subchapter: true
+      content_file: "chapters/08-pozycja-w-ciazy.md"
+      hidden: false
+    - title: "4.6.8. Pozycja po operacjach"
+      subchapter: true
+      content_file: "chapters/09-pozycja-po-operacjach.md"
+      hidden: false
+    - title: "4.6.9. Kliny, wałki, półwałki, poduszki"
+      subchapter: true
+      content_file: "chapters/10-kliny-walki-polwalki-poduszki.md"
+      hidden: false
+    - title: "4.6.10. Bezpieczeństwo spadania i utraty równowagi"
+      subchapter: true
+      content_file: "chapters/11-bezpieczenstwo-spadania-i-utraty-rownowagi.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-tensegracyjny.md"
       hidden: false
+
+    - title: "4.16.1. Pojęcie tensegrity"
+      subchapter: true
+      content_file: "chapters/02-pojecie-tensegrity.md"
+      hidden: false
+    - title: "4.16.2. Linie powięziowe i łańcuchy anatomiczne"
+      subchapter: true
+      content_file: "chapters/03-linie-powieziowe-i-lancuchy-anatomiczne.md"
+      hidden: false
+    - title: "4.16.3. Techniki rozluźniania powięzi"
+      subchapter: true
+      content_file: "chapters/04-techniki-rozluzniania-powiezi.md"
+      hidden: false
+    - title: "4.16.4. Oddech i uwaga pacjenta"
+      subchapter: true
+      content_file: "chapters/05-oddech-i-uwaga-pacjenta.md"
+      hidden: false
+    - title: "4.16.5. Delikatne prowadzenie ruchu"
+      subchapter: true
+      content_file: "chapters/06-delikatne-prowadzenie-ruchu.md"
+      hidden: false
+    - title: "4.16.6. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/07-przeciwwskazania.md"
+      hidden: false
+    - title: "4.16.7. Ryzyko nadmiernej stymulacji"
+      subchapter: true
+      content_file: "chapters/08-ryzyko-nadmiernej-stymulacji.md"
+      hidden: false
+    - title: "4.16.8. Zastosowanie w bólach przewlekłych"
+      subchapter: true
+      content_file: "chapters/09-zastosowanie-w-bolach-przewleklych.md"
+      hidden: false
+    - title: "4.16.9. Współpraca z kinezyterapią"
+      subchapter: true
+      content_file: "chapters/10-wspolpraca-z-kinezyterapia.md"
+      hidden: false
+    - title: "4.16.10. Dokumentacja zmian zakresu ruchu"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-zmian-zakresu-ruchu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

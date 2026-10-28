@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-odpowiedzialnosc-za-podejmowane-dzialania.md"
       hidden: false
+
+    - title: "8.4.1. Reguły i procedury zabiegowe"
+      subchapter: true
+      content_file: "chapters/02-reguly-i-procedury-zabiegowe.md"
+      hidden: false
+    - title: "8.4.2. Obszary odpowiedzialności prawnej"
+      subchapter: true
+      content_file: "chapters/03-obszary-odpowiedzialnosci-prawnej.md"
+      hidden: false
+    - title: "8.4.3. Prawa pacjenta"
+      subchapter: true
+      content_file: "chapters/04-prawa-pacjenta.md"
+      hidden: false
+    - title: "8.4.4. Obowiązek informowania"
+      subchapter: true
+      content_file: "chapters/05-obowiazek-informowania.md"
+      hidden: false
+    - title: "8.4.5. Obowiązek dokumentowania"
+      subchapter: true
+      content_file: "chapters/06-obowiazek-dokumentowania.md"
+      hidden: false
+    - title: "8.4.6. Obowiązek zgłaszania zdarzeń niepożądanych"
+      subchapter: true
+      content_file: "chapters/07-obowiazek-zglaszania-zdarzen-niepozadanych.md"
+      hidden: false
+    - title: "8.4.7. Odpowiedzialność za sprzęt i środki"
+      subchapter: true
+      content_file: "chapters/08-odpowiedzialnosc-za-sprzet-i-srodki.md"
+      hidden: false
+    - title: "8.4.8. Odpowiedzialność za współpracowników"
+      subchapter: true
+      content_file: "chapters/09-odpowiedzialnosc-za-wspolpracownikow.md"
+      hidden: false
+    - title: "8.4.9. Odpowiedzialność wobec własnego zdrowia"
+      subchapter: true
+      content_file: "chapters/10-odpowiedzialnosc-wobec-wlasnego-zdrowia.md"
+      hidden: false
+    - title: "8.4.10. Rachunek sumienia zawodowy"
+      subchapter: true
+      content_file: "chapters/11-rachunek-sumienia-zawodowy.md"
+      hidden: false
   completion:
     enabled: true
     type: view

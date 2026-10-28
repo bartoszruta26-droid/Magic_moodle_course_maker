@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-masazu-shantala-polo.md"
       hidden: false
+
+    - title: "3.15.1. Shantala: masaż niemowlęcia jako kontakt i regulacja"
+      subchapter: true
+      content_file: "chapters/02-shantala-masaz-niemowlecia-jako-kontakt-i-regulacja.md"
+      hidden: false
+    - title: "3.15.2. Zgoda opiekuna i obecność rodzica"
+      subchapter: true
+      content_file: "chapters/03-zgoda-opiekuna-i-obecnosc-rodzica.md"
+      hidden: false
+    - title: "3.15.3. Przeciwwskazania u niemowlęcia: gorączka, infekcje, zmiany skórne, wcześniactwo bez zgody lekarza"
+      subchapter: true
+      content_file: "chapters/04-przeciwwskazania-u-niemowlecia-goraczka-infekcje-zmi.md"
+      hidden: false
+    - title: "3.15.4. Ciąża fizjologiczna: zasady bezpieczeństwa"
+      subchapter: true
+      content_file: "chapters/05-ciaza-fizjologiczna-zasady-bezpieczenstwa.md"
+      hidden: false
+    - title: "3.15.5. Ciąża zagrożona: bez masażu lub tylko za zgodą lekarza"
+      subchapter: true
+      content_file: "chapters/06-ciaza-zagrozona-bez-masazu-lub-tylko-za-zgoda-lekarz.md"
+      hidden: false
+    - title: "3.15.6. Pozycje bezpieczne: bok, półsiedząca, unikanie ucisku brzucha"
+      subchapter: true
+      content_file: "chapters/07-pozycje-bezpieczne-bok-polsiedzaca-unikanie-ucisku-b.md"
+      hidden: false
+    - title: "3.15.7. Połóg: regeneracja, obrzęk, ból krocza, blizna po cięciu cesarskim"
+      subchapter: true
+      content_file: "chapters/08-polog-regeneracja-obrzek-bol-krocza-blizna-po-cieciu.md"
+      hidden: false
+    - title: "3.15.8. Zakaz głębokiego masażu brzucha w ciąży i wczesnym połogu"
+      subchapter: true
+      content_file: "chapters/09-zakaz-glebokiego-masazu-brzucha-w-ciazy-i-wczesnym-p.md"
+      hidden: false
+    - title: "3.15.9. Uwaga na stany zakrzepowe w ciąży i połogu"
+      subchapter: true
+      content_file: "chapters/10-uwaga-na-stany-zakrzepowe-w-ciazy-i-pologu.md"
+      hidden: false
+    - title: "3.15.10. Godność, intymność i prawo do obecności osoby bliskiej"
+      subchapter: true
+      content_file: "chapters/11-godnosc-intymnosc-i-prawo-do-obecnosci-osoby-bliskie.md"
+      hidden: false
   completion:
     enabled: true
     type: view

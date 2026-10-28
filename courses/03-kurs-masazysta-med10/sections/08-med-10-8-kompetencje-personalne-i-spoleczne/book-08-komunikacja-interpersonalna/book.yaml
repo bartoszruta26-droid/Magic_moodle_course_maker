@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-komunikacja-interpersonalna.md"
       hidden: false
+
+    - title: "8.8.1. Aktywne słuchanie"
+      subchapter: true
+      content_file: "chapters/02-aktywne-sluchanie.md"
+      hidden: false
+    - title: "8.8.2. Parafraza i klaryfikacja"
+      subchapter: true
+      content_file: "chapters/03-parafraza-i-klaryfikacja.md"
+      hidden: false
+    - title: "8.8.3. Język zrozumiały dla pacjenta"
+      subchapter: true
+      content_file: "chapters/04-jezyk-zrozumialy-dla-pacjenta.md"
+      hidden: false
+    - title: "8.8.4. Dostosowanie do wieku i stanu zdrowia"
+      subchapter: true
+      content_file: "chapters/05-dostosowanie-do-wieku-i-stanu-zdrowia.md"
+      hidden: false
+    - title: "8.8.5. Komunikacja z osobą lękową"
+      subchapter: true
+      content_file: "chapters/06-komunikacja-z-osoba-lekowa.md"
+      hidden: false
+    - title: "8.8.6. Komunikacja z osobą zniecierpliwioną"
+      subchapter: true
+      content_file: "chapters/07-komunikacja-z-osoba-zniecierpliwiona.md"
+      hidden: false
+    - title: "8.8.7. Komunikacja z osobą w bólu"
+      subchapter: true
+      content_file: "chapters/08-komunikacja-z-osoba-w-bolu.md"
+      hidden: false
+    - title: "8.8.8. Komunikacja z rodziną pacjenta"
+      subchapter: true
+      content_file: "chapters/09-komunikacja-z-rodzina-pacjenta.md"
+      hidden: false
+    - title: "8.8.9. Podstawy języka migowego — jeśli przewidziano"
+      subchapter: true
+      content_file: "chapters/10-podstawy-jezyka-migowego-jesli-przewidziano.md"
+      hidden: false
+    - title: "8.8.10. Milczenie jako szacunek"
+      subchapter: true
+      content_file: "chapters/11-milczenie-jako-szacunek.md"
+      hidden: false
   completion:
     enabled: true
     type: view

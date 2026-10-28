@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-dokumentacja-zawodowa-w-jezyku-obcym.md"
       hidden: false
+
+    - title: "7.4.1. Consent form"
+      subchapter: true
+      content_file: "chapters/02-consent-form.md"
+      hidden: false
+    - title: "7.4.2. Intake questionnaire"
+      subchapter: true
+      content_file: "chapters/03-intake-questionnaire.md"
+      hidden: false
+    - title: "7.4.3. Treatment record"
+      subchapter: true
+      content_file: "chapters/04-treatment-record.md"
+      hidden: false
+    - title: "7.4.4. Progress notes"
+      subchapter: true
+      content_file: "chapters/05-progress-notes.md"
+      hidden: false
+    - title: "7.4.5. Referral note"
+      subchapter: true
+      content_file: "chapters/06-referral-note.md"
+      hidden: false
+    - title: "7.4.6. Incident report"
+      subchapter: true
+      content_file: "chapters/07-incident-report.md"
+      hidden: false
+    - title: "7.4.7. GDPR/data protection notice"
+      subchapter: true
+      content_file: "chapters/08-gdpr-data-protection-notice.md"
+      hidden: false
+    - title: "7.4.8. Appointment confirmation"
+      subchapter: true
+      content_file: "chapters/09-appointment-confirmation.md"
+      hidden: false
+    - title: "7.4.9. Invoice and receipt vocabulary"
+      subchapter: true
+      content_file: "chapters/10-invoice-and-receipt-vocabulary.md"
+      hidden: false
+    - title: "7.4.10. Filling forms accurately"
+      subchapter: true
+      content_file: "chapters/11-filling-forms-accurately.md"
+      hidden: false
   completion:
     enabled: true
     type: view

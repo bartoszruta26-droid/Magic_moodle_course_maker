@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zaburzenia-osrodkowego-obwodowego-i-wegetatywnego-nerw.md"
       hidden: false
+
+    - title: "3.4.1. Udar mózgu i niedowład połowiczy"
+      subchapter: true
+      content_file: "chapters/02-udar-mozgu-i-niedowlad-polowiczy.md"
+      hidden: false
+    - title: "3.4.2. Dziecięce porażenie mózgowe"
+      subchapter: true
+      content_file: "chapters/03-dzieciece-porazenie-mozgowe.md"
+      hidden: false
+    - title: "3.4.3. Stwardnienie rozsiane"
+      subchapter: true
+      content_file: "chapters/04-stwardnienie-rozsiane.md"
+      hidden: false
+    - title: "3.4.4. Choroba Parkinsona"
+      subchapter: true
+      content_file: "chapters/05-choroba-parkinsona.md"
+      hidden: false
+    - title: "3.4.5. Porażenia nerwów obwodowych"
+      subchapter: true
+      content_file: "chapters/06-porazenia-nerwow-obwodowych.md"
+      hidden: false
+    - title: "3.4.6. Neuralgie i nerwobóle"
+      subchapter: true
+      content_file: "chapters/07-neuralgie-i-nerwobole.md"
+      hidden: false
+    - title: "3.4.7. Zespoły cieśni"
+      subchapter: true
+      content_file: "chapters/08-zespoly-ciesni.md"
+      hidden: false
+    - title: "3.4.8. Polineuropatie"
+      subchapter: true
+      content_file: "chapters/09-polineuropatie.md"
+      hidden: false
+    - title: "3.4.9. Zaburzenia autonomiczne"
+      subchapter: true
+      content_file: "chapters/10-zaburzenia-autonomiczne.md"
+      hidden: false
+    - title: "3.4.10. Ból neuropatyczny i nadwrażliwość"
+      subchapter: true
+      content_file: "chapters/11-bol-neuropatyczny-i-nadwrazliwosc.md"
+      hidden: false
   completion:
     enabled: true
     type: view

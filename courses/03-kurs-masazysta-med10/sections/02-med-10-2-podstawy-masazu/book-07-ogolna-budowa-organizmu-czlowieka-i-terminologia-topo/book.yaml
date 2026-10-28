@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ogolna-budowa-organizmu-czlowieka-i-terminologia-topo.md"
       hidden: false
+
+    - title: "2.7.1. Podział ciała: głowa, szyja, tułów, kończyny"
+      subchapter: true
+      content_file: "chapters/02-podzial-ciala-glowa-szyja-tulow-konczyny.md"
+      hidden: false
+    - title: "2.7.2. Osi ciała: pionowa, pozioma, strzałkowa"
+      subchapter: true
+      content_file: "chapters/03-osi-ciala-pionowa-pozioma-strzalkowa.md"
+      hidden: false
+    - title: "2.7.3. Kierunki: przyśrodkowy, boczny, grzbietowy, brzusznny, górnny, dolny"
+      subchapter: true
+      content_file: "chapters/04-kierunki-przysrodkowy-boczny-grzbietowy-brzusznny-go.md"
+      hidden: false
+    - title: "2.7.4. Płaszczyzny anatomii"
+      subchapter: true
+      content_file: "chapters/05-plaszczyzny-anatomii.md"
+      hidden: false
+    - title: "2.7.5. Okolice ciała istotne dla masażu"
+      subchapter: true
+      content_file: "chapters/06-okolice-ciala-istotne-dla-masazu.md"
+      hidden: false
+    - title: "2.7.6. Strony ciała: prawa, lewa, obustronna"
+      subchapter: true
+      content_file: "chapters/07-strony-ciala-prawa-lewa-obustronna.md"
+      hidden: false
+    - title: "2.7.7. Terminologia łacińska i polska"
+      subchapter: true
+      content_file: "chapters/08-terminologia-lacinska-i-polska.md"
+      hidden: false
+    - title: "2.7.8. Dokumentowanie lokalizacji dolegliwości"
+      subchapter: true
+      content_file: "chapters/09-dokumentowanie-lokalizacji-dolegliwosci.md"
+      hidden: false
+    - title: "2.7.9. Komunikacja z pacjentem o miejscach bólu"
+      subchapter: true
+      content_file: "chapters/10-komunikacja-z-pacjentem-o-miejscach-bolu.md"
+      hidden: false
+    - title: "2.7.10. Szacunek dla ciała: język niepotszający, niedehumanizujący"
+      subchapter: true
+      content_file: "chapters/11-szacunek-dla-ciala-jezyk-niepotszajacy-niedehumanizu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

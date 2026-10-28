@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-przekazywanie-informacji-z-materialow-wizualnych-i-audi.md"
       hidden: false
+
+    - title: "7.9.1. Anatomy charts"
+      subchapter: true
+      content_file: "chapters/02-anatomy-charts.md"
+      hidden: false
+    - title: "7.9.2. Muscle maps"
+      subchapter: true
+      content_file: "chapters/03-muscle-maps.md"
+      hidden: false
+    - title: "7.9.3. Lymphatic pathways"
+      subchapter: true
+      content_file: "chapters/04-lymphatic-pathways.md"
+      hidden: false
+    - title: "7.9.4. Treatment flowcharts"
+      subchapter: true
+      content_file: "chapters/05-treatment-flowcharts.md"
+      hidden: false
+    - title: "7.9.5. Safety pictograms"
+      subchapter: true
+      content_file: "chapters/06-safety-pictograms.md"
+      hidden: false
+    - title: "7.9.6. Instructional videos"
+      subchapter: true
+      content_file: "chapters/07-instructional-videos.md"
+      hidden: false
+    - title: "7.9.7. Summarizing visual information"
+      subchapter: true
+      content_file: "chapters/08-summarizing-visual-information.md"
+      hidden: false
+    - title: "7.9.8. Translating key messages into Polish"
+      subchapter: true
+      content_file: "chapters/09-translating-key-messages-into-polish.md"
+      hidden: false
+    - title: "7.9.9. Presenting to a group"
+      subchapter: true
+      content_file: "chapters/10-presenting-to-a-group.md"
+      hidden: false
+    - title: "7.9.10. Maintaining confidentiality"
+      subchapter: true
+      content_file: "chapters/11-maintaining-confidentiality.md"
+      hidden: false
   completion:
     enabled: true
     type: view

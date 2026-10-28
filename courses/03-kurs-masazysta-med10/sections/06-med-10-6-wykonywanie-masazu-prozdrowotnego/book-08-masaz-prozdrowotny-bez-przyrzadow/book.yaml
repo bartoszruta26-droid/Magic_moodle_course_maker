@@ -14,6 +14,43 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-prozdrowotny-bez-przyrzadow.md"
       hidden: false
+
+    - title: "6.8.1. Dłonie, przedramiona, kciuki"
+      subchapter: true
+      content_file: "chapters/02-dlonie-przedramiona-kciuki.md"
+      hidden: false
+    - title: "6.8.3. Brak sprzętu jako przewaga dostępności"
+      subchapter: true
+      content_file: "chapters/03-brak-sprzetu-jako-przewaga-dostepnosci.md"
+      hidden: false
+    - title: "6.8.4. Bezpieczeństwo w warunkach domowych"
+      subchapter: true
+      content_file: "chapters/04-bezpieczenstwo-w-warunkach-domowych.md"
+      hidden: false
+    - title: "6.8.5. Higiena otoczenia"
+      subchapter: true
+      content_file: "chapters/05-higiena-otoczenia.md"
+      hidden: false
+    - title: "6.8.6. Oświetlenie i temperatura"
+      subchapter: true
+      content_file: "chapters/06-oswietlenie-i-temperatura.md"
+      hidden: false
+    - title: "6.8.7. Pozycja pacjenta"
+      subchapter: true
+      content_file: "chapters/07-pozycja-pacjenta.md"
+      hidden: false
+    - title: "6.8.8. Komunikacja"
+      subchapter: true
+      content_file: "chapters/08-komunikacja.md"
+      hidden: false
+    - title: "6.8.9. Przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/09-przeciwwskazania.md"
+      hidden: false
+    - title: "6.8.10. Etyka: nie masuj w warunkach niebezpiecznych"
+      subchapter: true
+      content_file: "chapters/10-etyka-nie-masuj-w-warunkach-niebezpiecznych.md"
+      hidden: false
   completion:
     enabled: true
     type: view

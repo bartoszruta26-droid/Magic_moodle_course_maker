@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-uslugi-swiadczone-w-zawodzie-i-obsluga-klienta.md"
       hidden: false
+
+    - title: "7.5.1. Offering services politely"
+      subchapter: true
+      content_file: "chapters/02-offering-services-politely.md"
+      hidden: false
+    - title: "7.5.2. Asking about pain level"
+      subchapter: true
+      content_file: "chapters/03-asking-about-pain-level.md"
+      hidden: false
+    - title: "7.5.3. Checking comfort and pressure"
+      subchapter: true
+      content_file: "chapters/04-checking-comfort-and-pressure.md"
+      hidden: false
+    - title: "7.5.4. Respecting boundaries"
+      subchapter: true
+      content_file: "chapters/05-respecting-boundaries.md"
+      hidden: false
+    - title: "7.5.5. Handling complaints"
+      subchapter: true
+      content_file: "chapters/06-handling-complaints.md"
+      hidden: false
+    - title: "7.5.6. Explaining cancellation policy"
+      subchapter: true
+      content_file: "chapters/07-explaining-cancellation-policy.md"
+      hidden: false
+    - title: "7.5.7. Telephone and email communication"
+      subchapter: true
+      content_file: "chapters/08-telephone-and-email-communication.md"
+      hidden: false
+    - title: "7.5.8. Communicating with minors and caregivers"
+      subchapter: true
+      content_file: "chapters/09-communicating-with-minors-and-caregivers.md"
+      hidden: false
+    - title: "7.5.9. Communicating with elderly patients"
+      subchapter: true
+      content_file: "chapters/10-communicating-with-elderly-patients.md"
+      hidden: false
+    - title: "7.5.10. Avoiding misleading claims"
+      subchapter: true
+      content_file: "chapters/11-avoiding-misleading-claims.md"
+      hidden: false
   completion:
     enabled: true
     type: view

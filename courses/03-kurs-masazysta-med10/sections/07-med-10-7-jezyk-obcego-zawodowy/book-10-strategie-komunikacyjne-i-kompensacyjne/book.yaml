@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-strategie-komunikacyjne-i-kompensacyjne.md"
       hidden: false
+
+    - title: "7.10.1. Using dictionaries"
+      subchapter: true
+      content_file: "chapters/02-using-dictionaries.md"
+      hidden: false
+    - title: "7.10.2. Using translation technology responsibly"
+      subchapter: true
+      content_file: "chapters/03-using-translation-technology-responsibly.md"
+      hidden: false
+    - title: "7.10.3. Recognizing international words"
+      subchapter: true
+      content_file: "chapters/04-recognizing-international-words.md"
+      hidden: false
+    - title: "7.10.4. Paraphrasing unknown terms"
+      subchapter: true
+      content_file: "chapters/05-paraphrasing-unknown-terms.md"
+      hidden: false
+    - title: "7.10.5. Using gestures carefully"
+      subchapter: true
+      content_file: "chapters/06-using-gestures-carefully.md"
+      hidden: false
+    - title: "7.10.6. Asking for repetition"
+      subchapter: true
+      content_file: "chapters/07-asking-for-repetition.md"
+      hidden: false
+    - title: "7.10.7. Confirming understanding"
+      subchapter: true
+      content_file: "chapters/08-confirming-understanding.md"
+      hidden: false
+    - title: "7.10.8. Avoiding false friends"
+      subchapter: true
+      content_file: "chapters/09-avoiding-false-friends.md"
+      hidden: false
+    - title: "7.10.9. Simplifying without demeaning"
+      subchapter: true
+      content_file: "chapters/10-simplifying-without-demeaning.md"
+      hidden: false
+    - title: "7.10.10. Learning continuously"
+      subchapter: true
+      content_file: "chapters/11-learning-continuously.md"
+      hidden: false
   completion:
     enabled: true
     type: view

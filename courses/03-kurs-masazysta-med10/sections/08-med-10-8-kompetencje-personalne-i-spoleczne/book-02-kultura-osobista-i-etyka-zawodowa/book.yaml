@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-kultura-osobista-i-etyka-zawodowa.md"
       hidden: false
+
+    - title: "8.2.1. Szacunek dla godności pacjenta"
+      subchapter: true
+      content_file: "chapters/02-szacunek-dla-godnosci-pacjenta.md"
+      hidden: false
+    - title: "8.2.2. Tajemnica zawodowa"
+      subchapter: true
+      content_file: "chapters/03-tajemnica-zawodowa.md"
+      hidden: false
+    - title: "8.2.3. Ochrona danych osobowych"
+      subchapter: true
+      content_file: "chapters/04-ochrona-danych-osobowych.md"
+      hidden: false
+    - title: "8.2.4. Ochrona własności intelektualnej"
+      subchapter: true
+      content_file: "chapters/05-ochrona-wlasnosci-intelektualnej.md"
+      hidden: false
+    - title: "8.2.5. Uczciwość wobec współpracowników"
+      subchapter: true
+      content_file: "chapters/06-uczciwosc-wobec-wspolpracownikow.md"
+      hidden: false
+    - title: "8.2.6. Zakaz plotkowania o pacjentach"
+      subchapter: true
+      content_file: "chapters/07-zakaz-plotkowania-o-pacjentach.md"
+      hidden: false
+    - title: "8.2.7. Zakaz wykorzystywania zależności"
+      subchapter: true
+      content_file: "chapters/08-zakaz-wykorzystywania-zaleznosci.md"
+      hidden: false
+    - title: "8.2.8. Kultura ciała i języka"
+      subchapter: true
+      content_file: "chapters/09-kultura-ciala-i-jezyka.md"
+      hidden: false
+    - title: "8.2.9. Asertywność bez agresji"
+      subchapter: true
+      content_file: "chapters/10-asertywnosc-bez-agresji.md"
+      hidden: false
+    - title: "8.2.10. Etyka w sytuacjach trudnych"
+      subchapter: true
+      content_file: "chapters/11-etyka-w-sytuacjach-trudnych.md"
+      hidden: false
   completion:
     enabled: true
     type: view

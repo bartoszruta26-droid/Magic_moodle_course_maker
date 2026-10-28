@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wskazania-i-przeciwwskazania-do-masazy-odruchowych.md"
       hidden: false
+
+    - title: "3.12.1. Masaż łącznotkankowy"
+      subchapter: true
+      content_file: "chapters/02-masaz-lacznotkankowy.md"
+      hidden: false
+    - title: "3.12.2. Masaż okostnowy"
+      subchapter: true
+      content_file: "chapters/03-masaz-okostnowy.md"
+      hidden: false
+    - title: "3.12.3. Masaż segmentarny"
+      subchapter: true
+      content_file: "chapters/04-masaz-segmentarny.md"
+      hidden: false
+    - title: "3.12.4. Masaż punktowy"
+      subchapter: true
+      content_file: "chapters/05-masaz-punktowy.md"
+      hidden: false
+    - title: "3.12.5. Refleksoterapia stóp"
+      subchapter: true
+      content_file: "chapters/06-refleksoterapia-stop.md"
+      hidden: false
+    - title: "3.12.6. Podstawa odruchowa: dermatomy, miotomy, sfery Heada, strefy Mackenziego"
+      subchapter: true
+      content_file: "chapters/07-podstawa-odruchowa-dermatomy-miotomy-sfery-heada-str.md"
+      hidden: false
+    - title: "3.12.7. Wskazania funkcjonalne i bólowe"
+      subchapter: true
+      content_file: "chapters/08-wskazania-funkcjonalne-i-bolowe.md"
+      hidden: false
+    - title: "3.12.8. Przeciwwskazania miejscowe i ogólne"
+      subchapter: true
+      content_file: "chapters/09-przeciwwskazania-miejscowe-i-ogolne.md"
+      hidden: false
+    - title: "3.12.9. Ryzyko nadmiernej stymulacji"
+      subchapter: true
+      content_file: "chapters/10-ryzyko-nadmiernej-stymulacji.md"
+      hidden: false
+    - title: "3.12.10. Zasada: nie traktować refleksoterapii jako diagnostyki pewnej choroby"
+      subchapter: true
+      content_file: "chapters/11-zasada-nie-traktowac-refleksoterapii-jako-diagnostyk.md"
+      hidden: false
   completion:
     enabled: true
     type: view

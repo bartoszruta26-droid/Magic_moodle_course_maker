@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-normy-i-procedury-oceny-zgodnosci.md"
       hidden: false
+
+    - title: "2.22.1. Pojęcie normalizacji krajowej"
+      subchapter: true
+      content_file: "chapters/02-pojecie-normalizacji-krajowej.md"
+      hidden: false
+    - title: "2.22.2. Norma krajowa, europejska, międzynarodowa"
+      subchapter: true
+      content_file: "chapters/03-norma-krajowa-europejska-miedzynarodowa.md"
+      hidden: false
+    - title: "2.22.3. Oznaczenia norm"
+      subchapter: true
+      content_file: "chapters/04-oznaczenia-norm.md"
+      hidden: false
+    - title: "2.22.4. Procedury oceny zgodności"
+      subchapter: true
+      content_file: "chapters/05-procedury-oceny-zgodnosci.md"
+      hidden: false
+    - title: "2.22.5. Certyfikacja wyrobów i usług"
+      subchapter: true
+      content_file: "chapters/06-certyfikacja-wyrobow-i-uslug.md"
+      hidden: false
+    - title: "2.22.6. Znak CE — wyroby medyczne i sprzęt"
+      subchapter: true
+      content_file: "chapters/07-znak-ce-wyroby-medyczne-i-sprzet.md"
+      hidden: false
+    - title: "2.22.7. Deklaracja właściwości użytkowych"
+      subchapter: true
+      content_file: "chapters/08-deklaracja-wlasciwosci-uzytkowych.md"
+      hidden: false
+    - title: "2.22.8. Instrukcje obsługi urządzeń do masażu"
+      subchapter: true
+      content_file: "chapters/09-instrukcje-obslugi-urzadzen-do-masazu.md"
+      hidden: false
+    - title: "2.22.9. Przeglądy techniczne sprzętu"
+      subchapter: true
+      content_file: "chapters/10-przeglady-techniczne-sprzetu.md"
+      hidden: false
+    - title: "2.22.10. Odpowiedzialność za używanie sprzętu niezgodnie z przeznaczeniem"
+      subchapter: true
+      content_file: "chapters/11-odpowiedzialnosc-za-uzywanie-sprzetu-niezgodnie-z-pr.md"
+      hidden: false
   completion:
     enabled: true
     type: view

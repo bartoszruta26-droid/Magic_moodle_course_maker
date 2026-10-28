@@ -15,6 +15,14 @@ book:
       subchapter: false
       content_file: "chapters/01-harmonogram-i-terminarz.md"
       hidden: false
+    - title: "Jak się uczyć z książek kursu — plan pracy własnej uczestnika"
+      subchapter: false
+      content_file: "chapters/02-jak-sie-uczyc-z-ksiazek-plan-pracy-wlasnej.md"
+      hidden: false
+    - title: "Kompendium dnia zajęć — check-listy, protokoły i nawyki profesjonalisty"
+      subchapter: false
+      content_file: "chapters/03-kompendium-dnia-zajec-check-listy-i-protokoly.md"
+      hidden: false
   completion:
     enabled: true
     type: view

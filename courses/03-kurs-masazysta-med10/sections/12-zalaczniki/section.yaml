@@ -6,45 +6,45 @@ summary:
   format: markdown
   markdown_file: section.md
 modules:
-  - type: label
-    ref: "label-01-zalacznik-a-mapa-efektow-ksztalcenia-med-10-na-moduly.md"
-    name: "Załącznik A: Mapa efektów kształcenia MED.10 na moduły kursu"
-  - type: label
-    ref: "label-02-zalacznik-b-regulaminy-i-procedury-wewnetrzne.md"
-    name: "Załącznik B: Regulaminy i procedury wewnętrzne"
-  - type: label
-    ref: "label-03-zalacznik-c-wzory-dokumentacji.md"
-    name: "Załącznik C: Wzory dokumentacji"
-  - type: label
-    ref: "label-04-zalacznik-d-wykaz-przeciwwskazan-bezwzglednych-i.md"
-    name: "Załącznik D: Wykaz przeciwwskazań bezwzględnych i względnych"
-  - type: label
-    ref: "label-05-zalacznik-e-wykaz-stanow-wymagajacych-pilnej.md"
-    name: "Załącznik E: Wykaz stanów wymagających pilnej konsultacji lekarskiej"
-  - type: label
-    ref: "label-06-zalacznik-f-check-listy-umiejetnosci-praktycznych.md"
-    name: "Załącznik F: Check-listy umiejętności praktycznych"
-  - type: label
-    ref: "label-07-zalacznik-g-slownik-terminow-medycznych-i-masazowych.md"
-    name: "Załącznik G: Słownik terminów medycznych i masażowych"
-  - type: label
-    ref: "label-08-zalacznik-h-wykaz-srodkow-poslizgowych-i-wspomagajacych.md"
-    name: "Załącznik H: Wykaz środków poślizgowych i wspomagających"
-  - type: label
-    ref: "label-09-zalacznik-i-procedury-aseptyki-i-antyseptyki.md"
-    name: "Załącznik I: Procedury aseptyki i antyseptyki"
-  - type: label
-    ref: "label-10-zalacznik-j-procedura-pierwszej-pomocy-i-bls.md"
-    name: "Załącznik J: Procedura pierwszej pomocy i BLS"
-  - type: label
-    ref: "label-11-zalacznik-k-kodeks-etyczny-masazysty.md"
-    name: "Załącznik K: Kodeks etyczny masażysty"
-  - type: label
-    ref: "label-12-zalacznik-l-literatura-i-materialy-zrodlowe.md"
-    name: "Załącznik L: Literatura i materiały źródłowe"
-  - type: label
-    ref: "label-13-zalacznik-m-oswiadczenie-o-granicach-kompetencji-i.md"
-    name: "Załącznik M: Oświadczenie o granicach kompetencji i braku manipulacji"
+  - type: book
+    ref: book-a-zalacznik-a-mapa-efektow-ksztalcenia-med-10-na-moduly-kursu
+    name: "Załącznik A"
+  - type: book
+    ref: book-b-zalacznik-b-regulaminy-i-procedury-wewnetrzne
+    name: "Załącznik B"
+  - type: book
+    ref: book-c-zalacznik-c-wzory-dokumentacji
+    name: "Załącznik C"
+  - type: book
+    ref: book-d-zalacznik-d-wykaz-przeciwwskazan-bezwzglednych-i-wzglednych
+    name: "Załącznik D"
+  - type: book
+    ref: book-e-zalacznik-e-wykaz-stanow-wymagajacych-pilnej-konsultacji-lekarskiej
+    name: "Załącznik E"
+  - type: book
+    ref: book-f-zalacznik-f-check-listy-umiejetnosci-praktycznych
+    name: "Załącznik F"
+  - type: book
+    ref: book-g-zalacznik-g-slownik-terminow-medycznych-i-masazowych
+    name: "Załącznik G"
+  - type: book
+    ref: book-h-zalacznik-h-wykaz-srodkow-poslizgowych-i-wspomagajacych
+    name: "Załącznik H"
+  - type: book
+    ref: book-i-zalacznik-i-procedury-aseptyki-i-antyseptyki
+    name: "Załącznik I"
+  - type: book
+    ref: book-j-zalacznik-j-procedura-pierwszej-pomocy-i-bls
+    name: "Załącznik J"
+  - type: book
+    ref: book-k-zalacznik-k-kodeks-etyczny-masazysty
+    name: "Załącznik K"
+  - type: book
+    ref: book-l-zalacznik-l-literatura-i-materialy-zrodlowe
+    name: "Załącznik L"
+  - type: book
+    ref: book-m-zalacznik-m-oswiadczenie-o-granicach-kompetencji-i-braku-manipulacji
+    name: "Załącznik M"
   - type: glossary
     ref: glossary-01
     name: "Słownik pojęć masażu (MED.10)"

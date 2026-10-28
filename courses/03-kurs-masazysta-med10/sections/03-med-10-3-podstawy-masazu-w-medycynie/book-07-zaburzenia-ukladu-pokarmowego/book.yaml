@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-zaburzenia-ukladu-pokarmowego.md"
       hidden: false
+
+    - title: "3.7.1. Choroba wrzodowa żołądka i dwunastnicy"
+      subchapter: true
+      content_file: "chapters/02-choroba-wrzodowa-zoladka-i-dwunastnicy.md"
+      hidden: false
+    - title: "3.7.2. Nieżyt żołądka"
+      subchapter: true
+      content_file: "chapters/03-niezyt-zoladka.md"
+      hidden: false
+    - title: "3.7.3. Zaburzenia motoryki przewodu pokarmowego"
+      subchapter: true
+      content_file: "chapters/04-zaburzenia-motoryki-przewodu-pokarmowego.md"
+      hidden: false
+    - title: "3.7.4. Zaparcia nawykowe"
+      subchapter: true
+      content_file: "chapters/05-zaparcia-nawykowe.md"
+      hidden: false
+    - title: "3.7.5. Biegunki przewlekłe"
+      subchapter: true
+      content_file: "chapters/06-biegunki-przewlekle.md"
+      hidden: false
+    - title: "3.7.6. Zespół jelita drażliwego"
+      subchapter: true
+      content_file: "chapters/07-zespol-jelita-drazliwego.md"
+      hidden: false
+    - title: "3.7.7. Choroby wątroby i dróg żółciowych"
+      subchapter: true
+      content_file: "chapters/08-choroby-watroby-i-drog-zolciowych.md"
+      hidden: false
+    - title: "3.7.8. Stan po operacjach jamy brzusznej"
+      subchapter: true
+      content_file: "chapters/09-stan-po-operacjach-jamy-brzusznej.md"
+      hidden: false
+    - title: "3.7.9. Przepukliny — ostrożność i przeciwwskazania"
+      subchapter: true
+      content_file: "chapters/10-przepukliny-ostroznosc-i-przeciwwskazania.md"
+      hidden: false
+    - title: "3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo"
+      subchapter: true
+      content_file: "chapters/11-masaz-brzucha-zasady-granice-bezpieczenstwo.md"
+      hidden: false
   completion:
     enabled: true
     type: view

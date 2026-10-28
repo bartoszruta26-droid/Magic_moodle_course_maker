@@ -21,95 +21,69 @@ Temat „7.8. Rozmowa w typowych sytuacjach zawodowych” realizuje 10 zagadnie�
 
 ## Zagadnienia szczegółowe
 
-### 7.8.1 7.8.1. Starting and ending conversation
+### 7.8.1. Starting and ending conversation
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.1. Starting and ending conversation” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 7.8.2 7.8.2. Obtaining consent
+### 7.8.2. Obtaining consent
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.2. Obtaining consent” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 7.8.3 7.8.3. Asking about pain and comfort
+### 7.8.3. Asking about pain and comfort
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż kosmetyczny twarzy: ruchy wg topografii mięśni mimiczych i linii skórnych, po demakijażu, przy bardzo małym poślizgu (ryzyko rozciągnięcia); trądzik ropowiczy i stany zapalne skóry — przeciwwskazanie miejscowe. Cellulit (fibroedematoadipopathy): techniki głębokiego rozcierania i rolkowania mogą poprawić mikrocyrkulację i wygląd skóry — edukuj klienta, że efekt jest warunkowy (dieta, nawodnienie, ruch) i nie zastępuje terapii medycznej przy obrzękach limfatycznych/patologicznych.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.3. Asking about pain and comfort” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 7.8.4 7.8.4. Responding to anxiety
+### 7.8.4. Responding to anxiety
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.4. Responding to anxiety” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 7.8.5 7.8.5. Refusing inappropriate requests
+### 7.8.5. Refusing inappropriate requests
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.5. Refusing inappropriate requests” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+ANS dzieli się na współczulny (część piersiowo-lędźwiowa, łańcuch przykręgosłupowy, mediator noradrenalina/adrenalina — reakcja walki lub ucieczki: tachykardia, rozszerzenie oskrzeli, hamowanie trawienia) i przywspółczulny (czaszkowo-krzyżowy: nerwy III, VII, IX, X oraz S2–S4; mediator acetylocholina — odpoczynek i trawienie: perystaltyka, wydzielanie, bradykardia). Równowaga wegetatywna warunkuje regenerację tkanek. Masaż klasyczny i relaksacyjny przesuwają balans w stronę przywspółczulnego (HRV↑, kortyzol↓, IgA↑ w badaniach psychoneuroimmunologicznych). Techniki segmentarne na odcinku piersiowym/lędźwiowym modulują łańcuch współczulny — dlatego wymagają ostrożności (ciąża, nadciśnienie, niewydolność serca).
 
-### 7.8.6 7.8.6. Reporting adverse reaction
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 7.8.6. Reporting adverse reaction
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.6. Reporting adverse reaction” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 7.8.7 7.8.7. Coordinating with reception or team
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 7.8.7. Coordinating with reception or team
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.7. Coordinating with reception or team” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
 
-### 7.8.8 7.8.8. Talking to a colleague
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 7.8.8. Talking to a colleague
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.8. Talking to a colleague” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Talk kosmetyczny (talcum): drobno zmielony krzemian magnezu, silnie pochłania wilgoć i zmniejsza tarcie powierzchniowe; historycznie stosowany przy masażu u dzieci i osób ze skłonnością do otarć skórnych. Obecnie stosowany ostrożnie: pył talkowy sprzyja wysuszeniu skóry i jest niebezpieczny przy inhalacji (ryzyko podrażnienia dróg oddechowych; talk wolny od azbestu to standard jakości). Nie stosować na uszkodzoną skórę ani błony śluzowe; alternatywy lżejsze: oliwki i mleczka emulsyjne. Przechowywać w zamkniętym pojemniku, dozować przez sitko poza stanowiskiem klienta.
 
-### 7.8.9 7.8.9. Talking to a supervisor
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 7.8.9. Talking to a supervisor
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.9. Talking to a supervisor” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Talk kosmetyczny (talcum): drobno zmielony krzemian magnezu, silnie pochłania wilgoć i zmniejsza tarcie powierzchniowe; historycznie stosowany przy masażu u dzieci i osób ze skłonnością do otarć skórnych. Obecnie stosowany ostrożnie: pył talkowy sprzyja wysuszeniu skóry i jest niebezpieczny przy inhalacji (ryzyko podrażnienia dróg oddechowych; talk wolny od azbestu to standard jakości). Nie stosować na uszkodzoną skórę ani błony śluzowe; alternatywy lżejsze: oliwki i mleczka emulsyjne. Przechowywać w zamkniętym pojemniku, dozować przez sitko poza stanowiskiem klienta.
 
-### 7.8.10 7.8.10. Using polite formulas
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 7.8.10. Using polite formulas
 
-- omówienie pojęcia, celów i miejsca zagadnienia „7.8.10. Using polite formulas” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
+
+Analiza przydzielonych zadań (job analysis) w praktyce: rozbij zadanie na: cel (jaki efekt dla pacjenta), kroki (SOP), zasoby (sprzęt, środki, czas), kompetencje (kto może: uprawnienia, szkolenia), ryzyka (BHP, infekcyjne, ergonomiczne) i kryteria ukończenia (checklista). Efekt: jasne instruktaże dla praktykantów, realne wyceny czasu, identyfikacja dubli i luk (np. nikt nie odpowiada za dezynfekcję lamp UV). Dokumentuj w karcie procesu; aktualizuj po incydencie. Analiza eliminuje „kulturę domyślania się” — matkę błędów. Dla zadań powtarzalnych: film instruktażowy 2 min + demo. Sprawiedliwość: ludzie oceniają wykonanie zadania zdefiniowanego, nie mglistego.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +102,9 @@ Temat 7.8 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 7.8.2. Obtaining consent.
 3. Omów zagadnienie: 7.8.3. Asking about pain and comfort.
 4. Omów zagadnienie: 7.8.4. Responding to anxiety.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

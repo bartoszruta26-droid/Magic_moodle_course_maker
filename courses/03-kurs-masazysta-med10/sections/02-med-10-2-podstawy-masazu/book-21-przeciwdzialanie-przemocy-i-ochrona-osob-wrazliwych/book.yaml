@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-przeciwdzialanie-przemocy-i-ochrona-osob-wrazliwych.md"
       hidden: false
+
+    - title: "2.21.1. Objawy przemocy fizycznej, psychicznej, seksualnej, ekonomicznej"
+      subchapter: true
+      content_file: "chapters/02-objawy-przemocy-fizycznej-psychicznej-seksualnej-eko.md"
+      hidden: false
+    - title: "2.21.2. Przemoc wobec dziecka"
+      subchapter: true
+      content_file: "chapters/03-przemoc-wobec-dziecka.md"
+      hidden: false
+    - title: "2.21.3. Przemoc wobec osoby starszej"
+      subchapter: true
+      content_file: "chapters/04-przemoc-wobec-osoby-starszej.md"
+      hidden: false
+    - title: "2.21.4. Przemoc wobec osoby z niepełnosprawnością"
+      subchapter: true
+      content_file: "chapters/05-przemoc-wobec-osoby-z-niepelnosprawnoscia.md"
+      hidden: false
+    - title: "2.21.5. Procedury zgłaszania podejrzenia przemocy"
+      subchapter: true
+      content_file: "chapters/06-procedury-zglaszania-podejrzenia-przemocy.md"
+      hidden: false
+    - title: "2.21.6. Nieinterrogowanie pacjenta"
+      subchapter: true
+      content_file: "chapters/07-nieinterrogowanie-pacjenta.md"
+      hidden: false
+    - title: "2.21.7. Ochrona dowodów i dokumentacja faktów"
+      subchapter: true
+      content_file: "chapters/08-ochrona-dowodow-i-dokumentacja-faktow.md"
+      hidden: false
+    - title: "2.21.8. Kierowanie do odpowiednich służb i instytucji"
+      subchapter: true
+      content_file: "chapters/09-kierowanie-do-odpowiednich-sluzb-i-instytucji.md"
+      hidden: false
+    - title: "2.21.9. Zachowanie tajemnicy w granicach prawa"
+      subchapter: true
+      content_file: "chapters/10-zachowanie-tajemnicy-w-granicach-prawa.md"
+      hidden: false
+    - title: "2.21.10. Etyka: nie być obojętnym wobec krzywdy"
+      subchapter: true
+      content_file: "chapters/11-etyka-nie-byc-obojetnym-wobec-krzywdy.md"
+      hidden: false
   completion:
     enabled: true
     type: view

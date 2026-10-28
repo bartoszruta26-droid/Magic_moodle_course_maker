@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-kobiety-w-pologu.md"
       hidden: false
+
+    - title: "4.21.1. Połóg fizjologiczny i powikłany"
+      subchapter: true
+      content_file: "chapters/02-polog-fizjologiczny-i-powiklany.md"
+      hidden: false
+    - title: "4.21.2. Obrzęk, ból krocza, hematoma — ostrożność"
+      subchapter: true
+      content_file: "chapters/03-obrzek-bol-krocza-hematoma-ostroznosc.md"
+      hidden: false
+    - title: "4.21.3. Blizna po cięciu cesarskim — tylko po zagojeniu i za zgodą lekarza"
+      subchapter: true
+      content_file: "chapters/04-blizna-po-cieciu-cesarskim-tylko-po-zagojeniu-i-za-z.md"
+      hidden: false
+    - title: "4.21.4. Regeneracja mięśni dna miednicy — współpraca z fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/05-regeneracja-miesni-dna-miednicy-wspolpraca-z-fizjote.md"
+      hidden: false
+    - title: "4.21.5. Masaż grzbietu i karku przy karmieniu"
+      subchapter: true
+      content_file: "chapters/06-masaz-grzbietu-i-karku-przy-karmieniu.md"
+      hidden: false
+    - title: "4.21.6. Drenaż obrzęków"
+      subchapter: true
+      content_file: "chapters/07-drenaz-obrzekow.md"
+      hidden: false
+    - title: "4.21.7. Przeciwwskazania: gorączka, zakrzepica, infekcja"
+      subchapter: true
+      content_file: "chapters/08-przeciwwskazania-goraczka-zakrzepica-infekcja.md"
+      hidden: false
+    - title: "4.21.8. Wsparcie emocjonalne matki"
+      subchapter: true
+      content_file: "chapters/09-wsparcie-emocjonalne-matki.md"
+      hidden: false
+    - title: "4.21.9. Bezpieczeństwo dziecka w czasie zabiegu"
+      subchapter: true
+      content_file: "chapters/10-bezpieczenstwo-dziecka-w-czasie-zabiegu.md"
+      hidden: false
+    - title: "4.21.10. Dokumentacja i skierowania"
+      subchapter: true
+      content_file: "chapters/11-dokumentacja-i-skierowania.md"
+      hidden: false
   completion:
     enabled: true
     type: view

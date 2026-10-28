@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-protokoly-masazu-sportowego.md"
       hidden: false
+
+    - title: "5.6.1. Przed treningiem: pobudzenie, rozgrzewka tkanek"
+      subchapter: true
+      content_file: "chapters/02-przed-treningiem-pobudzenie-rozgrzewka-tkanek.md"
+      hidden: false
+    - title: "5.6.2. Po treningu: odprowadzenie metabolitów, rozluźnienie"
+      subchapter: true
+      content_file: "chapters/03-po-treningu-odprowadzenie-metabolitow-rozluznienie.md"
+      hidden: false
+    - title: "5.6.3. Przed zawodami: szybko, pobudzająco, bez zmęczenia tkanki"
+      subchapter: true
+      content_file: "chapters/04-przed-zawodami-szybko-pobudzajaco-bez-zmeczenia-tkan.md"
+      hidden: false
+    - title: "5.6.4. Między startami: krótko, regeneracyjnie"
+      subchapter: true
+      content_file: "chapters/05-miedzy-startami-krotko-regeneracyjnie.md"
+      hidden: false
+    - title: "5.6.5. Po zawodach: drenaż, rozluźnienie, chłodzenie"
+      subchapter: true
+      content_file: "chapters/06-po-zawodach-drenaz-rozluznienie-chlodzenie.md"
+      hidden: false
+    - title: "5.6.6. W okresie startowym: podtrzymanie gotowości"
+      subchapter: true
+      content_file: "chapters/07-w-okresie-startowym-podtrzymanie-gotowosci.md"
+      hidden: false
+    - title: "5.6.7. W okresie roztrenowania: regeneracja głęboka"
+      subchapter: true
+      content_file: "chapters/08-w-okresie-roztrenowania-regeneracja-gleboka.md"
+      hidden: false
+    - title: "5.6.8. Przy podróży: obrzęk, sztywność, komfort"
+      subchapter: true
+      content_file: "chapters/09-przy-podrozy-obrzek-sztywnosc-komfort.md"
+      hidden: false
+    - title: "5.6.9. Przy kontuzji wczesnej: tylko za zgodą lekarza"
+      subchapter: true
+      content_file: "chapters/10-przy-kontuzji-wczesnej-tylko-za-zgoda-lekarza.md"
+      hidden: false
+    - title: "5.6.10. Przy powrocie do treningu: koordynacja z zespołem"
+      subchapter: true
+      content_file: "chapters/11-przy-powrocie-do-treningu-koordynacja-z-zespolem.md"
+      hidden: false
   completion:
     enabled: true
     type: view

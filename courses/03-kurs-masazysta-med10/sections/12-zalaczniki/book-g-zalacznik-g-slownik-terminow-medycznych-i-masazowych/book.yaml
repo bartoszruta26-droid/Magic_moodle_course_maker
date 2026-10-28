@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik G. Słownik terminów medycznych i masażowych"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik G. Słownik terminów medycznych i masażowych.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **G.1** Terminy anatomiczne
+    - **G.2** Terminy fizjologiczne
+    - **G.3** Terminy patologiczne
+    - **G.4** Terminy masażu klasycznego
+    - **G.5** Terminy drenażu limfatycznego
+    - **G.6** Terminy masaży odruchowych
+    - **G.7** Terminy fizykoterapii
+    - **G.8** Terminy kinezyterapii
+    - **G.9** Terminy prawne i etyczne
+    - **G.10** Terminy języka obcego zawodowego
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "G.1. Terminy anatomiczne"
+      subchapter: false
+      content_file: "chapters/G-1-terminy-anatomiczne.md"
+      hidden: false
+    - title: "G.2. Terminy fizjologiczne"
+      subchapter: false
+      content_file: "chapters/G-2-terminy-fizjologiczne.md"
+      hidden: false
+    - title: "G.3. Terminy patologiczne"
+      subchapter: false
+      content_file: "chapters/G-3-terminy-patologiczne.md"
+      hidden: false
+    - title: "G.4. Terminy masażu klasycznego"
+      subchapter: false
+      content_file: "chapters/G-4-terminy-masazu-klasycznego.md"
+      hidden: false
+    - title: "G.5. Terminy drenażu limfatycznego"
+      subchapter: false
+      content_file: "chapters/G-5-terminy-drenazu-limfatycznego.md"
+      hidden: false
+    - title: "G.6. Terminy masaży odruchowych"
+      subchapter: false
+      content_file: "chapters/G-6-terminy-masazy-odruchowych.md"
+      hidden: false
+    - title: "G.7. Terminy fizykoterapii"
+      subchapter: false
+      content_file: "chapters/G-7-terminy-fizykoterapii.md"
+      hidden: false
+    - title: "G.8. Terminy kinezyterapii"
+      subchapter: false
+      content_file: "chapters/G-8-terminy-kinezyterapii.md"
+      hidden: false
+    - title: "G.9. Terminy prawne i etyczne"
+      subchapter: false
+      content_file: "chapters/G-9-terminy-prawne-i-etyczne.md"
+      hidden: false
+    - title: "G.10. Terminy języka obcego zawodowego"
+      subchapter: false
+      content_file: "chapters/G-10-terminy-jezyka-obcego-zawodowego.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

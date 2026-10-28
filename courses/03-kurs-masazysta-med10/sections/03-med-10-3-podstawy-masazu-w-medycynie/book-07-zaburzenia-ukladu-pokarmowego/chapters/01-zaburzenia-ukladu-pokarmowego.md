@@ -21,95 +21,71 @@ Temat „3.7. Zaburzenia układu pokarmowego” realizuje 10 zagadnień szczegó
 
 ## Zagadnienia szczegółowe
 
-### 3.7.1 3.7.1. Choroba wrzodowa żołądka i dwunastnicy
+### 3.7.1. Choroba wrzodowa żołądka i dwunastnicy
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.1. Choroba wrzodowa żołądka i dwunastnicy” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.7.2 3.7.2. Nieżyt żołądka
+### 3.7.2. Nieżyt żołądka
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.2. Nieżyt żołądka” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.7.3 3.7.3. Zaburzenia motoryki przewodu pokarmowego
+### 3.7.3. Zaburzenia motoryki przewodu pokarmowego
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.3. Zaburzenia motoryki przewodu pokarmowego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.7.4 3.7.4. Zaparcia nawykowe
+### 3.7.4. Zaparcia nawykowe
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.4. Zaparcia nawykowe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Skóra (cutis): największy organ człowieka (1,5–2 m², grubość od ok. 0,5 mm na powiekach do 4 mm na podeszwie). Warstwy: naskórek (rogowy — martwe keratynocyty; warstwy żywe Malpighiego; melanocyty, komórki Langerhansa, Merkel), skóra właściwa (warstwa brodawkowata i siateczkowata — kolagen i elastyna, naczynia, nerwy) oraz tkanka podskórna (adipocyty i przegrody łącznotkankowe). Przydatki: włosy z mieszkami i gruczołami łojowymi, paznokcie (macierz!), gruczoły potowe ekrynowe i apokrynowe. Funkcje: bariera, termoregulacja (wazonokonstrykcja/wazodylatacja, pocenie), czucie (ciałka Meissnera, Krausego, Paciniego, Ruffiniego), gospodarka wodno-tłuszczowa, synteza witaminy D3. Masaż poprawia ukrwienie i elastyczność — ale przy zmianach chorobowych skóry obowiązuje Załącznik o przeciwwskazaniach.
 
-### 3.7.5 3.7.5. Biegunki przewlekłe
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.7.5. Biegunki przewlekłe
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.5. Biegunki przewlekłe” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-### 3.7.6 3.7.6. Zespół jelita drażliwego
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.7.6. Zespół jelita drażliwego
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.6. Zespół jelita drażliwego” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
 
-### 3.7.7 3.7.7. Choroby wątroby i dróg żółciowych
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.7.7. Choroby wątroby i dróg żółciowych
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.7. Choroby wątroby i dróg żółciowych” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż brzucha (deep sliding, techniki koliste zgodnie z perystaltyką — w kierunku zegara na okrężnicy) łagodzi zaparcia czynnościowe, wzdęcia i napięcie powłok. Przeciwwskazania: ostre stany chirurgiczne (ostre zapalenie wyrostka robaczkowego, zapalenie otrzewnej), przepuklina nieoperowana, ciąża, krwawienia z przewodu pokarmowego. Efekt wegetatywny: dominacja przywspółczulna (perystaltyka↑, wydzielanie↑) — dlatego masaż brzucha wykonuje się NIE wcześniej niż 1-1,5 h po posiłku.
 
-### 3.7.8 3.7.8. Stan po operacjach jamy brzusznej
+Skóra (cutis): największy organ człowieka (1,5–2 m², grubość od ok. 0,5 mm na powiekach do 4 mm na podeszwie). Warstwy: naskórek (rogowy — martwe keratynocyty; warstwy żywe Malpighiego; melanocyty, komórki Langerhansa, Merkel), skóra właściwa (warstwa brodawkowata i siateczkowata — kolagen i elastyna, naczynia, nerwy) oraz tkanka podskórna (adipocyty i przegrody łącznotkankowe). Przydatki: włosy z mieszkami i gruczołami łojowymi, paznokcie (macierz!), gruczoły potowe ekrynowe i apokrynowe. Funkcje: bariera, termoregulacja (wazonokonstrykcja/wazodylatacja, pocenie), czucie (ciałka Meissnera, Krausego, Paciniego, Ruffiniego), gospodarka wodno-tłuszczowa, synteza witaminy D3. Masaż poprawia ukrwienie i elastyczność — ale przy zmianach chorobowych skóry obowiązuje Załącznik o przeciwwskazaniach.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.8. Stan po operacjach jamy brzusznej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.7.8. Stan po operacjach jamy brzusznej
 
-### 3.7.9 3.7.9. Przepukliny — ostrożność i przeciwwskazania
+Po urazie lub operacji: fazy gojenia (hemostaza 0–24 h, zapalenie do 72 h, proliferacja do 6 tygodni, przebudowa 6 miesięcy–2 lata). Masaż: do zamknięcia rany — zakaz pracy na ranie; po epithelializacji (ok. 7–14 dni, usunięte szwy): mobilizacja blizny, rozcieranie poprzeczne, plastry silikonowe i taping (protokół bliznowy), praca z zrostami, stopniowy ROM, obrzęk — drenaż limfatyczny. Endoprotezy: biodro — podejście tylne: zakaz zgięcia >90° z przywiedzeniem i rotacją wewnętrzną przez ok. 3 miesiące; podejście przednie — ograniczenia odwrotne; kolano — priorytet pełnego prostowania, lód; bark odwrócony — limit rotacji. Zawsze: dokumentacja operacyjna i zalecenia chirurga; czerwone flagi: gorączka, wysięk, rozejście rany, bóle łydki (podejrzenie DVT) → pilna pomoc lekarska.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.9. Przepukliny — ostrożność i przeciwwskazania” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.7.9. Przepukliny — ostrożność i przeciwwskazania
 
-### 3.7.10 3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo
+Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Po urazie lub operacji: fazy gojenia (hemostaza 0–24 h, zapalenie do 72 h, proliferacja do 6 tygodni, przebudowa 6 miesięcy–2 lata). Masaż: do zamknięcia rany — zakaz pracy na ranie; po epithelializacji (ok. 7–14 dni, usunięte szwy): mobilizacja blizny, rozcieranie poprzeczne, plastry silikonowe i taping (protokół bliznowy), praca z zrostami, stopniowy ROM, obrzęk — drenaż limfatyczny. Endoprotezy: biodro — podejście tylne: zakaz zgięcia >90° z przywiedzeniem i rotacją wewnętrzną przez ok. 3 miesiące; podejście przednie — ograniczenia odwrotne; kolano — priorytet pełnego prostowania, lód; bark odwrócony — limit rotacji. Zawsze: dokumentacja operacyjna i zalecenia chirurga; czerwone flagi: gorączka, wysięk, rozejście rany, bóle łydki (podejrzenie DVT) → pilna pomoc lekarska.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 3.7.10. Masaż brzucha: zasady, granice, bezpieczeństwo
+
+Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +104,9 @@ Temat 3.7 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarza
 2. Omów zagadnienie: 3.7.2. Nieżyt żołądka.
 3. Omów zagadnienie: 3.7.3. Zaburzenia motoryki przewodu pokarmowego.
 4. Omów zagadnienie: 3.7.4. Zaparcia nawykowe.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

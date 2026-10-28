@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-portfolio-praktykant.md"
       hidden: false
+
+    - title: "10.5.1. Zestaw wykonanych zabiegów"
+      subchapter: true
+      content_file: "chapters/02-zestaw-wykonanych-zabiegow.md"
+      hidden: false
+    - title: "10.5.2. Studia przypadków anonimowe"
+      subchapter: true
+      content_file: "chapters/03-studia-przypadkow-anonimowe.md"
+      hidden: false
+    - title: "10.5.3. Check-listy umiejętności"
+      subchapter: true
+      content_file: "chapters/04-check-listy-umiejetnosci.md"
+      hidden: false
+    - title: "10.5.4. Refleksje etyczne"
+      subchapter: true
+      content_file: "chapters/05-refleksje-etyczne.md"
+      hidden: false
+    - title: "10.5.5. Dokumenty BHP"
+      subchapter: true
+      content_file: "chapters/06-dokumenty-bhp.md"
+      hidden: false
+    - title: "10.5.6. Zaświadczenia o szkoleniach"
+      subchapter: true
+      content_file: "chapters/07-zaswiadczenia-o-szkoleniach.md"
+      hidden: false
+    - title: "10.5.7. Opinie opiekuna"
+      subchapter: true
+      content_file: "chapters/08-opinie-opiekuna.md"
+      hidden: false
+    - title: "10.5.8. Plan rozwoju po praktyce"
+      subchapter: true
+      content_file: "chapters/09-plan-rozwoju-po-praktyce.md"
+      hidden: false
+    - title: "10.5.9. Oświadczenia o tajemnicy zawodowej"
+      subchapter: true
+      content_file: "chapters/10-oswiadczenia-o-tajemnicy-zawodowej.md"
+      hidden: false
+    - title: "10.5.10. Gotowość do egzaminu"
+      subchapter: true
+      content_file: "chapters/11-gotowosc-do-egzaminu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

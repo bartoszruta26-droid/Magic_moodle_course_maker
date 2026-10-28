@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-rozmowa-w-typowych-sytuacjach-zawodowych.md"
       hidden: false
+
+    - title: "7.8.1. Starting and ending conversation"
+      subchapter: true
+      content_file: "chapters/02-starting-and-ending-conversation.md"
+      hidden: false
+    - title: "7.8.2. Obtaining consent"
+      subchapter: true
+      content_file: "chapters/03-obtaining-consent.md"
+      hidden: false
+    - title: "7.8.3. Asking about pain and comfort"
+      subchapter: true
+      content_file: "chapters/04-asking-about-pain-and-comfort.md"
+      hidden: false
+    - title: "7.8.4. Responding to anxiety"
+      subchapter: true
+      content_file: "chapters/05-responding-to-anxiety.md"
+      hidden: false
+    - title: "7.8.5. Refusing inappropriate requests"
+      subchapter: true
+      content_file: "chapters/06-refusing-inappropriate-requests.md"
+      hidden: false
+    - title: "7.8.6. Reporting adverse reaction"
+      subchapter: true
+      content_file: "chapters/07-reporting-adverse-reaction.md"
+      hidden: false
+    - title: "7.8.7. Coordinating with reception or team"
+      subchapter: true
+      content_file: "chapters/08-coordinating-with-reception-or-team.md"
+      hidden: false
+    - title: "7.8.8. Talking to a colleague"
+      subchapter: true
+      content_file: "chapters/09-talking-to-a-colleague.md"
+      hidden: false
+    - title: "7.8.9. Talking to a supervisor"
+      subchapter: true
+      content_file: "chapters/10-talking-to-a-supervisor.md"
+      hidden: false
+    - title: "7.8.10. Using polite formulas"
+      subchapter: true
+      content_file: "chapters/11-using-polite-formulas.md"
+      hidden: false
   completion:
     enabled: true
     type: view

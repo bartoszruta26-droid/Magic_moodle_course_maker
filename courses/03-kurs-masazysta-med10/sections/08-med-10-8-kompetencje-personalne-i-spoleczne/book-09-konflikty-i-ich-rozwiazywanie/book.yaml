@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-konflikty-i-ich-rozwiazywanie.md"
       hidden: false
+
+    - title: "8.9.1. Przyczyny konfliktów z pacjentem"
+      subchapter: true
+      content_file: "chapters/02-przyczyny-konfliktow-z-pacjentem.md"
+      hidden: false
+    - title: "8.9.2. Przyczyny konfliktów ze współpracownikami"
+      subchapter: true
+      content_file: "chapters/03-przyczyny-konfliktow-ze-wspolpracownikami.md"
+      hidden: false
+    - title: "8.9.3. Fazy konfliktu"
+      subchapter: true
+      content_file: "chapters/04-fazy-konfliktu.md"
+      hidden: false
+    - title: "8.9.4. Skutki konfliktu dla jakości opieki"
+      subchapter: true
+      content_file: "chapters/05-skutki-konfliktu-dla-jakosci-opieki.md"
+      hidden: false
+    - title: "8.9.5. Asertywność"
+      subchapter: true
+      content_file: "chapters/06-asertywnosc.md"
+      hidden: false
+    - title: "8.9.6. Mediacja i rozmowa naprawcza"
+      subchapter: true
+      content_file: "chapters/07-mediacja-i-rozmowa-naprawcza.md"
+      hidden: false
+    - title: "8.9.7. Dokumentowanie konfliktu"
+      subchapter: true
+      content_file: "chapters/08-dokumentowanie-konfliktu.md"
+      hidden: false
+    - title: "8.9.8. Zasada: nie eskalować, nie upokarzać"
+      subchapter: true
+      content_file: "chapters/09-zasada-nie-eskalowac-nie-upokarzac.md"
+      hidden: false
+    - title: "8.9.9. Przepraszanie i przebaczanie w granicach profesjonalizmu"
+      subchapter: true
+      content_file: "chapters/10-przepraszanie-i-przebaczanie-w-granicach-profesjonal.md"
+      hidden: false
+    - title: "8.9.10. Ochrona dobra pacjenta ponad rację osobistą"
+      subchapter: true
+      content_file: "chapters/11-ochrona-dobra-pacjenta-ponad-racje-osobista.md"
+      hidden: false
   completion:
     enabled: true
     type: view

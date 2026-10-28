@@ -14,6 +14,67 @@ book:
       subchapter: false
       content_file: "chapters/01-wykonywanie-masazu-klasycznego-w-medycynie.md"
       hidden: false
+
+    - title: "4.7.1. Masaz konczyny gornej"
+      subchapter: true
+      content_file: "chapters/02-masaz-konczyny-gornej.md"
+      hidden: false
+    - title: "4.7.2. Masaz konczyny dolnej"
+      subchapter: true
+      content_file: "chapters/03-masaz-konczyny-dolnej.md"
+      hidden: false
+    - title: "4.7.3. Masaz grzbietu"
+      subchapter: true
+      content_file: "chapters/04-masaz-grzbietu.md"
+      hidden: false
+    - title: "4.7.4. Masaz kregoslupa szyjnego"
+      subchapter: true
+      content_file: "chapters/05-masaz-kregoslupa-szyjnego.md"
+      hidden: false
+    - title: "4.7.5. Masaz kregoslupa piersiowego"
+      subchapter: true
+      content_file: "chapters/06-masaz-kregoslupa-piersiowego.md"
+      hidden: false
+    - title: "4.7.6. Masaz kregoslupa ledzwiowego"
+      subchapter: true
+      content_file: "chapters/07-masaz-kregoslupa-ledzwiowego.md"
+      hidden: false
+    - title: "4.7.7. Masaz karku"
+      subchapter: true
+      content_file: "chapters/08-masaz-karku.md"
+      hidden: false
+    - title: "4.7.8. Masaz klatki piersiowej"
+      subchapter: true
+      content_file: "chapters/09-masaz-klatki-piersiowej.md"
+      hidden: false
+    - title: "4.7.9. Masaz powlok brzusznych"
+      subchapter: true
+      content_file: "chapters/10-masaz-powlok-brzusznych.md"
+      hidden: false
+    - title: "4.7.10. Masaz twarzy i glowy"
+      subchapter: true
+      content_file: "chapters/11-masaz-twarzy-i-glowy.md"
+      hidden: false
+    - title: "4.7.11. Masaz posladkow"
+      subchapter: true
+      content_file: "chapters/12-masaz-posladkow.md"
+      hidden: false
+    - title: "4.7.12. Wariant rozluzniajacy"
+      subchapter: true
+      content_file: "chapters/13-wariant-rozluzniajacy.md"
+      hidden: false
+    - title: "4.7.13. Wariant pobudzajacy"
+      subchapter: true
+      content_file: "chapters/14-wariant-pobudzajacy.md"
+      hidden: false
+    - title: "4.7.14. Wariant leczniczy wg zlecenia"
+      subchapter: true
+      content_file: "chapters/15-wariant-leczniczy-wg-zlecenia.md"
+      hidden: false
+    - title: "4.7.15. Zakonczenie zabiegu i odpoczynek pacjenta"
+      subchapter: true
+      content_file: "chapters/16-zakonczenie-zabiegu-i-odpoczynek-pacjenta.md"
+      hidden: false
   completion:
     enabled: true
     type: view

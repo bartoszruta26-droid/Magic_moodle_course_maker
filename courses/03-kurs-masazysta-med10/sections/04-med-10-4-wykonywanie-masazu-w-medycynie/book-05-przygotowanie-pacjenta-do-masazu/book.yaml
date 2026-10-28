@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-przygotowanie-pacjenta-do-masazu.md"
       hidden: false
+
+    - title: "4.5.1. Informowanie o przebiegu zabiegu"
+      subchapter: true
+      content_file: "chapters/02-informowanie-o-przebiegu-zabiegu.md"
+      hidden: false
+    - title: "4.5.2. Zgoda na zabieg i prawo odmowy"
+      subchapter: true
+      content_file: "chapters/03-zgoda-na-zabieg-i-prawo-odmowy.md"
+      hidden: false
+    - title: "4.5.3. Higiena pacjenta: czysta skóra, brak makijażu, zdjęcie biżuterii"
+      subchapter: true
+      content_file: "chapters/04-higiena-pacjenta-czysta-skora-brak-makijazu-zdjecie-.md"
+      hidden: false
+    - title: "4.5.4. Ubranie lub bielizna — szacunek dla intymności"
+      subchapter: true
+      content_file: "chapters/05-ubranie-lub-bielizna-szacunek-dla-intymnosci.md"
+      hidden: false
+    - title: "4.5.5. Wypróżnienie i nawodnienie przy zabiegach brzucha i drenażu"
+      subchapter: true
+      content_file: "chapters/06-wyproznienie-i-nawodnienie-przy-zabiegach-brzucha-i-.md"
+      hidden: false
+    - title: "4.5.6. Unikanie masażu bezpośrednio po obfitym posiłku"
+      subchapter: true
+      content_file: "chapters/07-unikanie-masazu-bezposrednio-po-obfitym-posilku.md"
+      hidden: false
+    - title: "4.5.7. Pozycja bezpieczna i komfortowa"
+      subchapter: true
+      content_file: "chapters/08-pozycja-bezpieczna-i-komfortowa.md"
+      hidden: false
+    - title: "4.5.8. Okrycie części nieobszukiwanych"
+      subchapter: true
+      content_file: "chapters/09-okrycie-czesci-nieobszukiwanych.md"
+      hidden: false
+    - title: "4.5.9. Zapowiedź dotyku i pytanie o zgodę"
+      subchapter: true
+      content_file: "chapters/10-zapowiedz-dotyku-i-pytanie-o-zgode.md"
+      hidden: false
+    - title: "4.5.10. Obserwacja lęku, bólu, dyskomfortu"
+      subchapter: true
+      content_file: "chapters/11-obserwacja-leku-bolu-dyskomfortu.md"
+      hidden: false
   completion:
     enabled: true
     type: view

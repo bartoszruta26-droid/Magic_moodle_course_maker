@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-ocena-pacjenta-na-potrzeby-wykonania-masazu.md"
       hidden: false
+
+    - title: "4.1.1. Wywiad: dane osobowe, wiek, płeć, zawód, tryb życia"
+      subchapter: true
+      content_file: "chapters/02-wywiad-dane-osobowe-wiek-plec-zawod-tryb-zycia.md"
+      hidden: false
+    - title: "4.1.2. Wywiad chorobowy: rozpoznanie, zlecenie, leki, choroby towarzyszące"
+      subchapter: true
+      content_file: "chapters/03-wywiad-chorobowy-rozpoznanie-zlecenie-leki-choroby-t.md"
+      hidden: false
+    - title: "4.1.3. Wywiad urazowy i operacyjny"
+      subchapter: true
+      content_file: "chapters/04-wywiad-urazowy-i-operacyjny.md"
+      hidden: false
+    - title: "4.1.4. Wywiad alergologiczny i skórny"
+      subchapter: true
+      content_file: "chapters/05-wywiad-alergologiczny-i-skorny.md"
+      hidden: false
+    - title: "4.1.5. Wywiad bólowy: lokalizacja, nasilenie, charakter, promieniowanie"
+      subchapter: true
+      content_file: "chapters/06-wywiad-bolowy-lokalizacja-nasilenie-charakter-promie.md"
+      hidden: false
+    - title: "4.1.6. Wywiad funkcjonalny: chód, sen, praca, aktywność"
+      subchapter: true
+      content_file: "chapters/07-wywiad-funkcjonalny-chod-sen-praca-aktywnosc.md"
+      hidden: false
+    - title: "4.1.7. Ocena postawy ciała w pozycji stojącej i leżącej"
+      subchapter: true
+      content_file: "chapters/08-ocena-postawy-ciala-w-pozycji-stojacej-i-lezacej.md"
+      hidden: false
+    - title: "4.1.8. Ocena budowy ciała: typ budowy, masa, wzrost, BMI orientacyjnie"
+      subchapter: true
+      content_file: "chapters/09-ocena-budowy-ciala-typ-budowy-masa-wzrost-bmi-orient.md"
+      hidden: false
+    - title: "4.1.9. Pomiary długości kończyn"
+      subchapter: true
+      content_file: "chapters/10-pomiary-dlugosci-konczyn.md"
+      hidden: false
+    - title: "4.1.10. Pomiary obwodów kończyn i obrzęku"
+      subchapter: true
+      content_file: "chapters/11-pomiary-obwodow-konczyn-i-obrzeku.md"
+      hidden: false
   completion:
     enabled: true
     type: view

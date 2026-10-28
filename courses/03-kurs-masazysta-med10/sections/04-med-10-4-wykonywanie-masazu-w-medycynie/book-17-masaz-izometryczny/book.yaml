@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-masaz-izometryczny.md"
       hidden: false
+
+    - title: "4.17.1. Zasada skurczu izometrycznego"
+      subchapter: true
+      content_file: "chapters/02-zasada-skurczu-izometrycznego.md"
+      hidden: false
+    - title: "4.17.2. Przygotowanie mięśnia"
+      subchapter: true
+      content_file: "chapters/03-przygotowanie-miesnia.md"
+      hidden: false
+    - title: "4.17.3. Czas skurczu i odpoczynku"
+      subchapter: true
+      content_file: "chapters/04-czas-skurczu-i-odpoczynku.md"
+      hidden: false
+    - title: "4.17.4. Progresja obciążenia"
+      subchapter: true
+      content_file: "chapters/05-progresja-obciazenia.md"
+      hidden: false
+    - title: "4.17.5. Kontrola oddechu — zakaz bezdechu"
+      subchapter: true
+      content_file: "chapters/06-kontrola-oddechu-zakaz-bezdechu.md"
+      hidden: false
+    - title: "4.17.6. Przeciwwskazania: nadciśnienie nieuregulowane, przepuklina, stan ostry"
+      subchapter: true
+      content_file: "chapters/07-przeciwwskazania-nadcisnienie-nieuregulowane-przepuk.md"
+      hidden: false
+    - title: "4.17.7. Zastosowanie w zanikach i osłabieniu"
+      subchapter: true
+      content_file: "chapters/08-zastosowanie-w-zanikach-i-oslabieniu.md"
+      hidden: false
+    - title: "4.17.8. Ryzyko przeciążenia"
+      subchapter: true
+      content_file: "chapters/09-ryzyko-przeciazenia.md"
+      hidden: false
+    - title: "4.17.9. Dokumentacja siły i powtórzeń"
+      subchapter: true
+      content_file: "chapters/10-dokumentacja-sily-i-powtorzen.md"
+      hidden: false
+    - title: "4.17.10. Zasada: wzmacnianie bez bólu obronnego"
+      subchapter: true
+      content_file: "chapters/11-zasada-wzmacnianie-bez-bolu-obronnego.md"
+      hidden: false
   completion:
     enabled: true
     type: view

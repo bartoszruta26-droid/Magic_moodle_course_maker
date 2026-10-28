@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-rozumienie-wypowiedzi-ustnych-i-pisemnych.md"
       hidden: false
+
+    - title: "7.6.1. Listening to patient symptoms"
+      subchapter: true
+      content_file: "chapters/02-listening-to-patient-symptoms.md"
+      hidden: false
+    - title: "7.6.2. Understanding doctor’s referral"
+      subchapter: true
+      content_file: "chapters/03-understanding-doctor-s-referral.md"
+      hidden: false
+    - title: "7.6.3. Understanding safety instructions"
+      subchapter: true
+      content_file: "chapters/04-understanding-safety-instructions.md"
+      hidden: false
+    - title: "7.6.4. Reading product labels"
+      subchapter: true
+      content_file: "chapters/05-reading-product-labels.md"
+      hidden: false
+    - title: "7.6.5. Reading technical manuals"
+      subchapter: true
+      content_file: "chapters/06-reading-technical-manuals.md"
+      hidden: false
+    - title: "7.6.6. Understanding warnings and contraindications"
+      subchapter: true
+      content_file: "chapters/07-understanding-warnings-and-contraindications.md"
+      hidden: false
+    - title: "7.6.7. Identifying key information"
+      subchapter: true
+      content_file: "chapters/08-identifying-key-information.md"
+      hidden: false
+    - title: "7.6.8. Sequencing instructions"
+      subchapter: true
+      content_file: "chapters/09-sequencing-instructions.md"
+      hidden: false
+    - title: "7.6.9. Recognizing urgency"
+      subchapter: true
+      content_file: "chapters/10-recognizing-urgency.md"
+      hidden: false
+    - title: "7.6.10. Asking clarification questions"
+      subchapter: true
+      content_file: "chapters/11-asking-clarification-questions.md"
+      hidden: false
   completion:
     enabled: true
     type: view

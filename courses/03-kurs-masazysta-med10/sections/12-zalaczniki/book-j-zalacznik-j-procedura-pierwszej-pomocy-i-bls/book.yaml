@@ -1,0 +1,69 @@
+# Aktywność typu book — załącznik kursu (konwersja label -> book)
+# Wygenerowano skryptem scripts/enrich_masaz_zalaczniki_books.py
+book:
+  name: "Załącznik J. Procedura pierwszej pomocy i BLS"
+  intro: |
+    Materiał referencyjny kursu masażysty — Załącznik J. Procedura pierwszej pomocy i BLS.
+    
+    Załącznik służy przez cały okres kształcenia: cytuj go w pracach, noś wydruk w teczce, wracaj przed każdym nowym modułem.
+    
+    ## Spis treści załącznika
+    
+    - **J.1** Ocena bezpieczeństwa
+    - **J.2** Ocena przytomności
+    - **J.3** Wezwanie pomocy
+    - **J.4** Udrożnienie dróg oddechowych
+    - **J.5** Ocena oddechu
+    - **J.6** Resuscytacja dorosłego
+    - **J.7** Resuscytacja dziecka
+    - **J.8** Resuscytacja niemowlęcia
+    - **J.9** AED
+    - **J.10** Pozycja bezpieczna i dokumentacja
+  intro_format: markdown
+  numbering: 1
+  customtitles: 0
+  revision: 1
+  chapters:
+    - title: "J.1. Ocena bezpieczeństwa"
+      subchapter: false
+      content_file: "chapters/J-1-ocena-bezpieczenstwa.md"
+      hidden: false
+    - title: "J.2. Ocena przytomności"
+      subchapter: false
+      content_file: "chapters/J-2-ocena-przytomnosci.md"
+      hidden: false
+    - title: "J.3. Wezwanie pomocy"
+      subchapter: false
+      content_file: "chapters/J-3-wezwanie-pomocy.md"
+      hidden: false
+    - title: "J.4. Udrożnienie dróg oddechowych"
+      subchapter: false
+      content_file: "chapters/J-4-udroznienie-drog-oddechowych.md"
+      hidden: false
+    - title: "J.5. Ocena oddechu"
+      subchapter: false
+      content_file: "chapters/J-5-ocena-oddechu.md"
+      hidden: false
+    - title: "J.6. Resuscytacja dorosłego"
+      subchapter: false
+      content_file: "chapters/J-6-resuscytacja-doroslego.md"
+      hidden: false
+    - title: "J.7. Resuscytacja dziecka"
+      subchapter: false
+      content_file: "chapters/J-7-resuscytacja-dziecka.md"
+      hidden: false
+    - title: "J.8. Resuscytacja niemowlęcia"
+      subchapter: false
+      content_file: "chapters/J-8-resuscytacja-niemowlecia.md"
+      hidden: false
+    - title: "J.9. AED"
+      subchapter: false
+      content_file: "chapters/J-9-aed.md"
+      hidden: false
+    - title: "J.10. Pozycja bezpieczna i dokumentacja"
+      subchapter: false
+      content_file: "chapters/J-10-pozycja-bezpieczna-i-dokumentacja.md"
+      hidden: false
+  completion:
+    enabled: true
+    type: view

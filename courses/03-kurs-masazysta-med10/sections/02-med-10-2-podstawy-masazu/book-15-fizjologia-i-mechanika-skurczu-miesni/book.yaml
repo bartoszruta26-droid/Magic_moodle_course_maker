@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-fizjologia-i-mechanika-skurczu-miesni.md"
       hidden: false
+
+    - title: "2.15.1. Skurcz izometryczny i izotoniczny"
+      subchapter: true
+      content_file: "chapters/02-skurcz-izometryczny-i-izotoniczny.md"
+      hidden: false
+    - title: "2.15.2. Skurcz koncentryczny i ekscentryczny"
+      subchapter: true
+      content_file: "chapters/03-skurcz-koncentryczny-i-ekscentryczny.md"
+      hidden: false
+    - title: "2.15.3. Napięcie spoczynkowe mięśnia"
+      subchapter: true
+      content_file: "chapters/04-napiecie-spoczynkowe-miesnia.md"
+      hidden: false
+    - title: "2.15.4. Zmęczenie mięśniowe"
+      subchapter: true
+      content_file: "chapters/05-zmeczenie-miesniowe.md"
+      hidden: false
+    - title: "2.15.5. Przykurcze i osłabienie"
+      subchapter: true
+      content_file: "chapters/06-przykurcze-i-oslabienie.md"
+      hidden: false
+    - title: "2.15.6. Włókna mięśniowe typu I i II"
+      subchapter: true
+      content_file: "chapters/07-wlokna-miesniowe-typu-i-i-ii.md"
+      hidden: false
+    - title: "2.15.7. Jednostki motoryczne i rekrutacja"
+      subchapter: true
+      content_file: "chapters/08-jednostki-motoryczne-i-rekrutacja.md"
+      hidden: false
+    - title: "2.15.8. Refleksy mięśniowe"
+      subchapter: true
+      content_file: "chapters/09-refleksy-miesniowe.md"
+      hidden: false
+    - title: "2.15.9. Wpływ masażu na napięcie mięśniowe"
+      subchapter: true
+      content_file: "chapters/10-wplyw-masazu-na-napiecie-miesniowe.md"
+      hidden: false
+    - title: "2.15.10. Wpływ masażu na regenerację pourazową i potreningową"
+      subchapter: true
+      content_file: "chapters/11-wplyw-masazu-na-regeneracje-pourazowa-i-potreningowa.md"
+      hidden: false
   completion:
     enabled: true
     type: view

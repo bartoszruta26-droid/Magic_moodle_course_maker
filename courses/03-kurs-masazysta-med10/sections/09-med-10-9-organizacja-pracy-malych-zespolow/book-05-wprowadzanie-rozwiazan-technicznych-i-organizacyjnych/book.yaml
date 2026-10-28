@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wprowadzanie-rozwiazan-technicznych-i-organizacyjnych.md"
       hidden: false
+
+    - title: "9.5.1. Analiza warunków pracy"
+      subchapter: true
+      content_file: "chapters/02-analiza-warunkow-pracy.md"
+      hidden: false
+    - title: "9.5.2. Poprawa ergonomii stanowiska"
+      subchapter: true
+      content_file: "chapters/03-poprawa-ergonomii-stanowiska.md"
+      hidden: false
+    - title: "9.5.3. Optymalizacja przepływu pacjentów"
+      subchapter: true
+      content_file: "chapters/04-optymalizacja-przeplywu-pacjentow.md"
+      hidden: false
+    - title: "9.5.4. Bezpieczne przechowywanie środków"
+      subchapter: true
+      content_file: "chapters/05-bezpieczne-przechowywanie-srodkow.md"
+      hidden: false
+    - title: "9.5.5. Modernizacja sprzętu"
+      subchapter: true
+      content_file: "chapters/06-modernizacja-sprzetu.md"
+      hidden: false
+    - title: "9.5.6. Standaryzacja procedur"
+      subchapter: true
+      content_file: "chapters/07-standaryzacja-procedur.md"
+      hidden: false
+    - title: "9.5.7. Szkolenia wewnętrzne"
+      subchapter: true
+      content_file: "chapters/08-szkolenia-wewnetrzne.md"
+      hidden: false
+    - title: "9.5.8. Wdrażanie zmian bez chaosu"
+      subchapter: true
+      content_file: "chapters/09-wdrazanie-zmian-bez-chaosu.md"
+      hidden: false
+    - title: "9.5.9. Ocena wpływu zmian na jakość"
+      subchapter: true
+      content_file: "chapters/10-ocena-wplywu-zmian-na-jakosc.md"
+      hidden: false
+    - title: "9.5.10. Poszanowanie godności pracowników i pacjentów"
+      subchapter: true
+      content_file: "chapters/11-poszanowanie-godnosci-pracownikow-i-pacjentow.md"
+      hidden: false
   completion:
     enabled: true
     type: view

@@ -21,95 +21,71 @@ Temat „3.13. Wskazania i przeciwwskazania do masażu tensegracyjnego, izometry
 
 ## Zagadnienia szczegółowe
 
-### 3.13.1 3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne
+### 3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Linie i płaszczyzny anatomiczne (strzałkowe, czołowe, poprzeczne; linie: wyrostków kolczystych, kątów łopatek, grzebieni biodrowych) porządkują opis położenia i plan zabiegu. Łańcuchy mięśniowo-powięziowe (Thomas Myers, „Anatomy Trains”): tylna powierzchowna (podeszwa – grzbiet – potylicza), przednia powierzchowna, boczna, spiralna, funkcjonalne oraz liniowe kończyn górnych — wyjaśniają przenoszenie napięcia i bólu między odległymi regionami (np. przykurcz rozcięgna podeszwowego a ból karku). Traktuj model jako użyteczną hipotezę terapeutyczną, nie dogmat — dowody są umiarkowane, ale globalne planowanie zabiegu bywa skuteczne.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.1. Masaż tensegracyjny: powięź, napięcia, linie anatomiczne” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.13.2 3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu
+### 3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż izometryczny (praca z napięciem bez ruchu — PIR/techniki izometryczne): metoda: pozycja końcowej bariery ruchomości → pacjent wykonuje napinanie badanego mięśnia 5–8 s (20–30% maks. siły) przeciw Twojej opozycji (bez ruchu!) → rozluźnienie 2–3 s → oddech → nowa bariera. Cykle 3–6. Fizjologia: autogeniczne hamowanie (narząd ścięgnisty Golgiego) + reciprocal inhibition (antagonista). Zastosowania: przykurcze (kaszlak?— raczej: pośladkowy średni, gruszkowaty, schylacze szyi, mięsień dźwigacz łopatki), bóle napięciowe. Przeciwwskazania: świeże zerwania, niestabilność, ostre stany zapalne, zaawansowana osteoporoza, przepuklina z radikulopatią ostrą. Klucz: siła mniejsza niż myślisz, kierunek dokładnie wzdłuż włókien, kontakt i oddech pacjenta sterowany. Technika wymaga zgody i wyjaśnienia celu — pacjent współpracuje świadomie; izometria uczy, że skuteczność nie potrzebuje brutalności.
 
-### 3.13.3 3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-### 3.13.4 3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+### 3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+Osteoporoza — utrata masy kostnej i pogorszenie mikroarchitektury kości — czyni tkanki podatnymi na złamania nawet przy minimalnym urazie. Zasada: żadnych gwałtownych ruchów, żadnego ucisku punktowego na wyrostki kolczyste i żebra, pozycje ułożone z pełnym podparciem. Masaż relaksacyjny o lekkiej/umiarkowanej sile, wykonany profesjonalnie zmniejsza lęk i napięcie mięśni ochraniających kręgosłup.
 
-### 3.13.5 3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana
+Linie i płaszczyzny anatomiczne (strzałkowe, czołowe, poprzeczne; linie: wyrostków kolczystych, kątów łopatek, grzebieni biodrowych) porządkują opis położenia i plan zabiegu. Łańcuchy mięśniowo-powięziowe (Thomas Myers, „Anatomy Trains”): tylna powierzchowna (podeszwa – grzbiet – potylicza), przednia powierzchowna, boczna, spiralna, funkcjonalne oraz liniowe kończyn górnych — wyjaśniają przenoszenie napięcia i bólu między odległymi regionami (np. przykurcz rozcięgna podeszwowego a ból karku). Traktuj model jako użyteczną hipotezę terapeutyczną, nie dogmat — dowody są umiarkowane, ale globalne planowanie zabiegu bywa skuteczne.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.13.5. Przeciwwskazania: niestabilność stawowa, ostry stan zapalny, świeży uraz, osteoporoza zaawansowana
 
-### 3.13.6 3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej
+Osteoporoza — utrata masy kostnej i pogorszenie mikroarchitektury kości — czyni tkanki podatnymi na złamania nawet przy minimalnym urazie. Zasada: żadnych gwałtownych ruchów, żadnego ucisku punktowego na wyrostki kolczyste i żebra, pozycje ułożone z pełnym podparciem. Masaż relaksacyjny o lekkiej/umiarkowanej sile, wykonany profesjonalnie zmniejsza lęk i napięcie mięśni ochraniających kręgosłup.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.13.6. Ryzyko uszkodzenia więzadeł i torebki stawowej
 
-### 3.13.7 3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu
+Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+### 3.13.7. Zasada: nie przekraczać fizjologicznego zakresu ruchu
 
-### 3.13.8 3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem
+Zespoły bólowe kręgosłupa obejmują dyskopatię (degeneracja krążka międzykręgowego z mozliwym uciskiem na korzeń nerwowy), bóle mięśniowo-powięziowe i niestabilność segmentarną. Różnicowanie jest zadaniem lekarza: objawy korzeniowe (ból promieniujący poniżej poziomu kolca biodrowego z zaburzeniami czucia lub odruchów), zespół ogona końskiego (zaburzenia czucia siodłowego, pęcherza — stan nagły!) wymagają natychmiastnej konsultacji. Masaż w zespołach bólowych stosujemy jako element terapii złożonej: techniki rozluźniające mięśnie przykręgosłupowe, bez intensywnych manipulacji na odcinku ostrym.
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.13.9 3.13.9. Dokumentacja zakresu ruchu i bólu
+### 3.13.8. Konieczność konsultacji z fizjoterapeutą lub lekarzem
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.9. Dokumentacja zakresu ruchu i bólu” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
-### 3.13.10 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
+### 3.13.9. Dokumentacja zakresu ruchu i bólu
 
-Zakres materiału (zgodnie ze spisem treści kursu):
+Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
 
-- omówienie pojęcia, celów i miejsca zagadnienia „3.13.10. Bezpieczeństwo pacjenta przed efektywnością” w pracy masażysty;
-- demonstracja i przećwiczenie właściwej metodyki postępowania;
-- identyfikacja sytuacji typowych oraz nietypowych (wymagających konsultacji lub skierowania do lekarza);
-- utrwalenie nawyku dokumentowania wykonanego działania (załącznik C).
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+
+### 3.13.10. Bezpieczeństwo pacjenta przed efektywnością
+
+Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
+
+**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
 
 ## Bezpieczeństwo i etyka
 
@@ -128,3 +104,9 @@ Temat 3.13 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 2. Omów zagadnienie: 3.13.2. Masaż izometryczny: wzmacnianie bez ruchu stawu.
 3. Omów zagadnienie: 3.13.3. Masaż stawowy: mobilizacja w granicach bólu i stabilności.
 4. Omów zagadnienie: 3.13.4. Wskazania: osłabienie, niestabilność, ograniczenie ruchu.
+
+## Struktura rozdziału
+
+Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
+
+<!-- subch-v1 -->

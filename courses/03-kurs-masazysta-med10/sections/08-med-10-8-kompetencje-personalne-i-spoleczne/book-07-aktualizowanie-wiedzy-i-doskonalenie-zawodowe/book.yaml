@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-aktualizowanie-wiedzy-i-doskonalenie-zawodowe.md"
       hidden: false
+
+    - title: "8.7.1. Analiza własnych kompetencji"
+      subchapter: true
+      content_file: "chapters/02-analiza-wlasnych-kompetencji.md"
+      hidden: false
+    - title: "8.7.2. Tendencje na rynku usług masażu"
+      subchapter: true
+      content_file: "chapters/03-tendencje-na-rynku-uslug-masazu.md"
+      hidden: false
+    - title: "8.7.3. Krytyczna ocena nowinek"
+      subchapter: true
+      content_file: "chapters/04-krytyczna-ocena-nowinek.md"
+      hidden: false
+    - title: "8.7.4. Kształcenie ustawiczne"
+      subchapter: true
+      content_file: "chapters/05-ksztalcenie-ustawiczne.md"
+      hidden: false
+    - title: "8.7.5. Kursy, warsztaty, konferencje"
+      subchapter: true
+      content_file: "chapters/06-kursy-warsztaty-konferencje.md"
+      hidden: false
+    - title: "8.7.6. Piśmiennictwo fachowe"
+      subchapter: true
+      content_file: "chapters/07-pismiennictwo-fachowe.md"
+      hidden: false
+    - title: "8.7.7. Mentoring i superwizja"
+      subchapter: true
+      content_file: "chapters/08-mentoring-i-superwizja.md"
+      hidden: false
+    - title: "8.7.8. Plan rozwoju zawodowego"
+      subchapter: true
+      content_file: "chapters/09-plan-rozwoju-zawodowego.md"
+      hidden: false
+    - title: "8.7.9. Etyka reklamy własnych kompetencji"
+      subchapter: true
+      content_file: "chapters/10-etyka-reklamy-wlasnych-kompetencji.md"
+      hidden: false
+    - title: "8.7.10. Uczciwość wobec pacjenta"
+      subchapter: true
+      content_file: "chapters/11-uczciwosc-wobec-pacjenta.md"
+      hidden: false
   completion:
     enabled: true
     type: view

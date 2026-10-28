@@ -14,6 +14,47 @@ book:
       subchapter: false
       content_file: "chapters/01-wprowadzenie-do-masazu-sportowego.md"
       hidden: false
+
+    - title: "5.1.1. Rola masażu w treningu i regeneracji"
+      subchapter: true
+      content_file: "chapters/02-rola-masazu-w-treningu-i-regeneracji.md"
+      hidden: false
+    - title: "5.1.2. Masaż sportowy jako wsparcie, nie leczenie kontuzji"
+      subchapter: true
+      content_file: "chapters/03-masaz-sportowy-jako-wsparcie-nie-leczenie-kontuzji.md"
+      hidden: false
+    - title: "5.1.3. Współpraca z trenerem, lekarzem sportowym, fizjoterapeutą"
+      subchapter: true
+      content_file: "chapters/04-wspolpraca-z-trenerem-lekarzem-sportowym-fizjoterape.md"
+      hidden: false
+    - title: "5.1.4. Granice: masażysta nie decyduje o starcie zawodnika"
+      subchapter: true
+      content_file: "chapters/05-granice-masazysta-nie-decyduje-o-starcie-zawodnika.md"
+      hidden: false
+    - title: "5.1.5. Etyka wobec zawodnika: prawda, brak presji, ochrona zdrowia"
+      subchapter: true
+      content_file: "chapters/06-etyka-wobec-zawodnika-prawda-brak-presji-ochrona-zdr.md"
+      hidden: false
+    - title: "5.1.6. Ochrona małoletnich sportowców"
+      subchapter: true
+      content_file: "chapters/07-ochrona-maloletnich-sportowcow.md"
+      hidden: false
+    - title: "5.1.7. Dokumentacja sportowa i RODO"
+      subchapter: true
+      content_file: "chapters/08-dokumentacja-sportowa-i-rodo.md"
+      hidden: false
+    - title: "5.1.8. Bezpieczeństwo w warunkach polowych"
+      subchapter: true
+      content_file: "chapters/09-bezpieczenstwo-w-warunkach-polowych.md"
+      hidden: false
+    - title: "5.1.9. Higiena w szatni, na zgrupowaniu, w podróży"
+      subchapter: true
+      content_file: "chapters/10-higiena-w-szatni-na-zgrupowaniu-w-podrozy.md"
+      hidden: false
+    - title: "5.1.10. Zasada: zdrowie zawodnika ponad wynik sportowy"
+      subchapter: true
+      content_file: "chapters/11-zasada-zdrowie-zawodnika-ponad-wynik-sportowy.md"
+      hidden: false
   completion:
     enabled: true
     type: view
