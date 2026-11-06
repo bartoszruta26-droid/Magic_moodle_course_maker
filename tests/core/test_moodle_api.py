@@ -317,3 +317,48 @@ def test_moodle_book_plugin_exposes_secure_moodle_41_endpoint():
     assert "require_capability('mod/book:edit', $modulecontext)" in plugin
     assert "5 * 1024 * 1024" in plugin
     assert "'local_magicmoodle_create_book'" in services
+
+
+def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
+    section = tmp_path / "sections" / "01"
+    bookdir = section / "book"
+    bookdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs książka\n  short_name: KBOOK\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: book\n    ref: book\n    name: Podręcznik\n",
+        encoding="utf-8",
+    )
+    (bookdir / "book.yaml").write_text(
+        "book:\n  chapters:\n    - title: Start\n      content: Treść rozdziału.\n",
+        encoding="utf-8",
+    )
+    course = load_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_activity"},
+                {"name": "local_magicmoodle_create_book"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "KBOOK"}, True)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_book(self, courseid, sectionnum, activity):
+            return {"modname": "book", "name": activity["name"], "created": True}
+
+        def create_activity(self, *args):
+            raise AssertionError("Book must use create_book, not create_activity")
+
+    result = publish_course(FakeClient(), course, 2)
+    assert result["activities_created"][0]["modname"] == "book"
