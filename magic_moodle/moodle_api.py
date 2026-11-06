@@ -275,6 +275,7 @@ class MoodleClient:
                 "submissiondrafts": activity.get("submissiondrafts", False),
                 "requiresubmissionstatement": activity.get("requiresubmissionstatement", False),
                 "completionenabled": activity.get("completionenabled", False),
+                "syncfields": activity.get("syncfields", ["name"]),
                 "idnumber": activity.get("idnumber", ""),
             },
         )
