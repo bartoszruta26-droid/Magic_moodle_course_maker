@@ -109,7 +109,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     warnings: list[str] = []
     for section_index, section in enumerate(course.sections):
         for activity in section.activities:
-            if activity.kind not in {"page", "label", "url", "book", "quiz", "assignment", "file"}:
+            if activity.kind not in {"page", "label", "url", "book", "quiz", "assignment", "file", "glossary"}:
                 warnings.append(
                     f"Sekcja {section_index}, '{activity.name}': typ '{activity.kind}' "
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
@@ -206,6 +206,62 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "completiontype": completiontype,
                     "questioncount": len(bank.questions),
                     "questiontypes": bank.by_type(),
+                })
+            if activity.kind == "glossary":
+                entries = activity.resource.get("entries", [])
+                if not isinstance(entries, list) or not entries or len(entries) > 500:
+                    warnings.append(f"Słownik '{activity.name}' musi zawierać od 1 do 500 haseł.")
+                    continue
+                planned_entries = []
+                seen_terms = set()
+                total_entry_bytes = 0
+                entries_invalid = False
+                for entry_index, entry in enumerate(entries):
+                    if not isinstance(entry, dict):
+                        warnings.append(f"Słownik '{activity.name}': entries[{entry_index}] musi być mapą.")
+                        entries_invalid = True
+                        continue
+                    term = entry.get("term")
+                    definition = entry.get("definition")
+                    entry_format = entry.get("format", "html")
+                    if (not isinstance(term, str) or not term.strip() or len(term.strip()) > 255
+                            or not isinstance(definition, str) or not definition.strip()):
+                        warnings.append(f"Słownik '{activity.name}': hasło {entry_index + 1} wymaga term i definition.")
+                        entries_invalid = True
+                        continue
+                    if entry_format not in {"html", "markdown", "plain"}:
+                        warnings.append(f"Słownik '{activity.name}': entries[{entry_index}].format musi być html, markdown lub plain.")
+                        entries_invalid = True
+                        continue
+                    term_key = term.strip().casefold()
+                    if term_key in seen_terms:
+                        warnings.append(f"Słownik '{activity.name}': powtórzone hasło '{term.strip()}'.")
+                        entries_invalid = True
+                        continue
+                    seen_terms.add(term_key)
+                    definition_html = (
+                        definition if entry_format == "html"
+                        else _markdown_to_html(definition)
+                    )
+                    total_entry_bytes += len(term.strip().encode("utf-8")) + len(definition_html.encode("utf-8"))
+                    if len(definition_html) > 100000 or total_entry_bytes > 5 * 1024 * 1024:
+                        warnings.append(f"Słownik '{activity.name}': treść haseł przekracza limit 5 MiB lub 100 000 znaków na definicję.")
+                        entries_invalid = True
+                        break
+                    planned_entries.append({
+                        "term": term.strip(),
+                        "definition": definition_html,
+                    })
+                if entries_invalid or len(planned_entries) != len(entries):
+                    continue
+                intro_source = activity.resource.get("intro", "")
+                if not isinstance(intro_source, str) or len(intro_source) > 20000:
+                    warnings.append(f"Słownik '{activity.name}': intro musi być tekstem do 20 000 znaków.")
+                    continue
+                item.update({
+                    "intro": _markdown_to_html(intro_source),
+                    "entries": planned_entries,
+                    "entrycount": len(planned_entries),
                 })
             if activity.kind == "file":
                 if len(activity.content) != 1:
@@ -452,6 +508,8 @@ def publish_course(
             required.add("local_magicmoodle_create_assignment")
         elif activity["type"] == "file":
             required.add("local_magicmoodle_create_resource")
+        elif activity["type"] == "glossary":
+            required.add("local_magicmoodle_create_glossary")
     missing = sorted(required - functions)
     if missing:
         raise MoodleAPIError(
@@ -476,6 +534,8 @@ def publish_course(
             result = client.create_assignment(course_id, activity["sectionnum"], activity)
         elif activity["type"] == "file":
             result = client.create_resource(course_id, activity["sectionnum"], activity)
+        elif activity["type"] == "glossary":
+            result = client.create_glossary(course_id, activity["sectionnum"], activity)
         else:
             result = client.create_activity(course_id, activity["sectionnum"], activity)
         activity_results.append(result)
