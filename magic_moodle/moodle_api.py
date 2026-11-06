@@ -192,6 +192,25 @@ class MoodleClient:
             {"courseid": courseid, "sectionnum": sectionnum, "name": name},
         )
 
+    def create_resource(
+        self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
+    ) -> dict[str, Any]:
+        """Upload a bounded base64 file and create a Moodle File resource."""
+        contentbase64 = activity.get("contentbase64")
+        if not isinstance(contentbase64, str) or not contentbase64:
+            raise MoodleAPIError("Aktywność File wymaga zawartości base64.")
+        return self.call(
+            "local_magicmoodle_create_resource",
+            {
+                "courseid": courseid,
+                "sectionnum": sectionnum,
+                "name": activity["name"],
+                "filename": activity["filename"],
+                "contentbase64": contentbase64,
+                "intro": activity.get("intro", ""),
+            },
+        )
+
     def create_assignment(
         self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
     ) -> dict[str, Any]:
