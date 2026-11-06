@@ -469,6 +469,7 @@ def test_create_quiz_calls_registered_moodle_service():
     assert call.call_args.args[1]["gift"] == gift
     assert call.call_args.args[1]["passingpercent"] == 60
     assert call.call_args.args[1]["completionenabled"] is True
+    assert call.call_args.args[1]["syncfields"] == ["name", "intro", "grade"]
     assert call.call_args.args[1]["completiontype"] == "grade"
 
 
@@ -638,6 +639,7 @@ def test_assignment_is_preflighted_with_submission_settings(tmp_path):
     assert assignment["submissiondrafts"] is True
     assert assignment["completionenabled"] is True
     assert assignment["intro"] == "<p>Opis zadania.</p>"
+    assert {"name", "intro", "submissiontype", "grade", "maxfiles", "maxbytes", "submissiondrafts", "requiresubmissionstatement", "completionenabled"}.issubset(set(assignment["syncfields"]))
 
 
 def test_assignment_preflight_rejects_invalid_submission_type(tmp_path):
@@ -676,6 +678,7 @@ def test_create_assignment_calls_registered_moodle_service():
             "maxfiles": 3,
             "maxbytes": 10485760,
             "completionenabled": True,
+            "syncfields": ["name", "intro", "grade"],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_assignment"
     assert call.call_args.args[1]["submissiontype"] == "both"
@@ -721,8 +724,13 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "add_moduleinfo($moduleinfo, $course)" in plugin
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
+    assert "get_moduleinfo_data($cm, $course);" in plugin
+    assert "update_moduleinfo($cm, $moduleinfo, $course);" in plugin
+    assert "assign_submission" in plugin
+    assert "submission plugins cannot be changed after student submissions exist" in plugin
+    assert "'updated' => true" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110613;" in version
+    assert "$plugin->version = 2026110614;" in version
 
 
 def _sample_file_course(tmp_path: Path):
