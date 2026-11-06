@@ -158,11 +158,11 @@ class create_activity extends \external_api {
                         if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
                             $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
                         }
+                        rebuild_course_cache($course->id, true);
                         $transaction->allow_commit();
                     } catch (\\Throwable $exception) {
                         $transaction->rollback($exception);
                     }
-                    rebuild_course_cache($course->id, true);
                     return [
                         'cmid' => (int)$existing->id,
                         'instanceid' => (int)$existing->instance,
