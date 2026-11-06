@@ -148,6 +148,33 @@ def _parse_one(name: str, text: str, body: str, line: int) -> Question:
             Answer(str(value), 100.0),
         ), tolerance=tolerance, source_line=line)
 
+    numeric = re.match(
+        r"^=\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+))(?:\s*:\s*([\d.]+)|\s*\.\.\s*([+-]?[\d.]+))?\s*$",
+        normalized,
+    )
+    if numeric:
+        value = float(numeric.group(1))
+        tolerance = float(numeric.group(2)) if numeric.group(2) else (
+            abs(float(numeric.group(3)) - value) if numeric.group(3) else 0.0
+        )
+        return Question(name, "numerical", text, (
+            Answer(str(value), 100.0),
+        ), tolerance=tolerance, source_line=line)
+
+    lines = [item.strip() for item in normalized.splitlines() if item.strip()]
+    if any(item.startswith("-=") for item in lines):
+        left = [item[1:].strip() for item in lines if item.startswith("=") and not item.startswith("==")]
+        right = [item[2:].strip() for item in lines if item.startswith("-=")]
+        if len(left) < 2 or len(left) != len(right):
+            raise GiftParseError(
+                f"Linia {line}: niestandardowy zestaw dopasowań wymaga równej liczby elementów po obu stronach."
+            )
+        return Question(
+            name, "matching", text,
+            pairs=tuple(MatchPair(a, b) for a, b in zip(left, right)),
+            source_line=line,
+        )
+
     short = re.match(r"(?i)^(SHORTANSWER|SA|SHORTANSWER_C|SAC)\s*:\s*(.*)$", normalized, re.S)
     if short:
         raw_answers = short.group(2).strip()
