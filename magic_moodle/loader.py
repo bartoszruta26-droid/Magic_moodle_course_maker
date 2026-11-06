@@ -41,6 +41,7 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
         "assignment": ("assignment.yaml", None),
         "glossary": ("glossary.yaml", "glossary"),
         "quiz": ("quiz.yaml", None),
+        "url": ("url.yaml", "url"),
     }
     if kind in config_names and target.is_dir():
         filename, root_key = config_names[kind]
