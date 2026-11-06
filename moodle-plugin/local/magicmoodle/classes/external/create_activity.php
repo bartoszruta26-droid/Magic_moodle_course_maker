@@ -34,6 +34,10 @@ class create_activity extends \external_api {
             'content' => $content,
             'externalurl' => $externalurl,
         ]);
+        if (strlen($params['idnumber']) > 100) {
+            throw new \\invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
+        }
+
         $course = get_course($params['courseid']);
         $context = context_course::instance($course->id);
         self::validate_context($context);
@@ -65,6 +69,9 @@ class create_activity extends \external_api {
                     && $existing->modname === $params['modname']
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                }
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
