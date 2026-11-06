@@ -300,15 +300,17 @@ def test_book_preflight_rejects_missing_chapter_file(tmp_path):
 
 def test_create_book_calls_registered_moodle_service():
     client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
-    chapters = [{"title": "Start", "content": "<p>Treść</p>", "subchapter": False}]
+    chapters = [{"sourceid": "chapter-001", "title": "Start", "content": "<p>Treść</p>", "subchapter": False}]
     with patch.object(client, "call", return_value={"created": True}) as call:
         client.create_book(7, 1, {
             "name": "Podręcznik",
             "chapters": chapters,
+            "chapterids": [{"sourceid": "chapter-001", "chapterid": 77}],
             "numbering": 1,
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_book"
     assert call.call_args.args[1]["chapters"] == chapters
+    assert call.call_args.args[1]["chapterids"] == [{"sourceid": "chapter-001", "chapterid": 77}]
     assert call.call_args.args[1]["numbering"] == 1
 
 
@@ -324,6 +326,9 @@ def test_moodle_book_plugin_exposes_secure_moodle_41_endpoint():
     assert "class create_book extends \\external_api" in plugin
     assert "require_capability('mod/book:edit', $modulecontext)" in plugin
     assert "5 * 1024 * 1024" in plugin
+    assert "\\mod_book\\event\\chapter_updated::create_from_chapter" in plugin
+    assert "'sourceid'" in plugin and "'chapterids'" in plugin
+    assert "get_moduleinfo_data($cm, $course);" in plugin
     assert "'local_magicmoodle_create_book'" in services
 
 
@@ -345,6 +350,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
         encoding="utf-8",
     )
     course = load_course(tmp_path)
+    sourceid = build_publish_plan(course, 2).activities[0]["chapters"][0]["sourceid"]
 
     class FakeClient:
         def site_info(self):
@@ -363,13 +369,18 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
             return {"section": sectionnum}
 
         def create_book(self, courseid, sectionnum, activity):
-            return {"modname": "book", "name": activity["name"], "created": True}
+            return {"modname": "book", "name": activity["name"], "created": True,
+                    "chapterids": [{"sourceid": activity["chapters"][0]["sourceid"], "chapterid": 55}]}
 
         def create_activity(self, *args):
             raise AssertionError("Book must use create_book, not create_activity")
 
     result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "book"
+    import json
+    state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
+    record = next(iter(state["activities_completed"].values()))
+    assert record["chapterids"] == [{"sourceid": sourceid, "chapterid": 55}]
 
 
 def _sample_quiz_course(tmp_path: Path):
@@ -711,7 +722,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110612;" in version
+    assert "$plugin->version = 2026110613;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -817,7 +828,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110612;" in version
+    assert "$plugin->version = 2026110613;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
@@ -972,7 +983,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "'entryids'" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110612;" in version
+    assert "$plugin->version = 2026110613;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
@@ -1401,3 +1412,32 @@ def test_publish_manifest_allows_content_change_with_stable_course_and_activity_
     assert client.lookup_calls == 1
     assert updated_state["identity_sha256"] == original_state["identity_sha256"]
     assert updated_state["plan_sha256"] != original_state["plan_sha256"]
+
+
+def test_book_chapter_explicit_source_id_survives_title_change(tmp_path):
+    section = tmp_path / "sections" / "01"
+    bookdir = section / "book"
+    bookdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs książka\n  short_name: BOOKIDENTITY\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: book\n    ref: book\n    name: Podręcznik\n",
+        encoding="utf-8",
+    )
+    bookfile = bookdir / "book.yaml"
+    bookfile.write_text(
+        "book:\n  chapters:\n    - source_id: chapter-intro\n"
+        "      title: Start\n      content: Treść\n",
+        encoding="utf-8",
+    )
+    first = build_publish_plan(load_course(tmp_path), 2).activities[0]["chapters"][0]["sourceid"]
+    bookfile.write_text(
+        "book:\n  chapters:\n    - source_id: chapter-intro\n"
+        "      title: Wprowadzenie\n      content: Zmieniona treść\n",
+        encoding="utf-8",
+    )
+    second = build_publish_plan(load_course(tmp_path), 2).activities[0]["chapters"][0]["sourceid"]
+    assert first == second == "chapter-intro"

@@ -448,6 +448,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     warnings.append(f"Książka '{activity.name}' musi zawierać od 1 do 200 rozdziałów.")
                     continue
                 planned_chapters = []
+                seen_chapter_sourceids = set()
                 total_chapter_bytes = 0
                 for chapter_index, chapter in enumerate(chapters):
                     if not isinstance(chapter, dict):
@@ -475,6 +476,19 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         )
                         continue
                     subchapter = subchapter_value
+                    chapter_sourceid = chapter.get("source_id", chapter.get("id"))
+                    if chapter_sourceid is None:
+                        chapter_sourceid = "title-" + hashlib.sha256(title.strip().casefold().encode("utf-8")).hexdigest()[:32]
+                    if (not isinstance(chapter_sourceid, str) or not chapter_sourceid.strip()
+                            or len(chapter_sourceid.strip()) > 100
+                            or not all(ch.isascii() and (ch.isalnum() or ch in "._-") for ch in chapter_sourceid.strip())):
+                        warnings.append(f"Książka '{activity.name}': chapters[{chapter_index}].source_id musi mieć 1–100 bezpiecznych znaków ASCII.")
+                        continue
+                    chapter_sourceid = chapter_sourceid.strip()
+                    if chapter_sourceid in seen_chapter_sourceids:
+                        warnings.append(f"Książka '{activity.name}': powtórzony source_id rozdziału '{chapter_sourceid}'.")
+                        continue
+                    seen_chapter_sourceids.add(chapter_sourceid)
                     total_chapter_bytes += len(_markdown_to_html(chapter_source).encode("utf-8"))
                     if total_chapter_bytes > 5 * 1024 * 1024:
                         warnings.append(
@@ -485,6 +499,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         warnings.append(f"Książka '{activity.name}': pierwszy rozdział nie może być podrozdziałem.")
                         continue
                     planned_chapters.append({
+                        "sourceid": chapter_sourceid,
                         "title": title.strip(),
                         "content": _markdown_to_html(chapter_source),
                         "subchapter": subchapter,
@@ -670,10 +685,10 @@ def publish_course(
             "activity_count": len(plan.activities),
             "activities": list(plan.activities),
         }
-    if any(activity["type"] == "glossary" for activity in plan.activities) and state_file is None:
+    if any(activity["type"] in {"glossary", "book"} for activity in plan.activities) and state_file is None:
         raise MoodleAPIError(
-            "Synchronizacja haseł Glossary wymaga --state-file, aby zachować mapowanie "
-            "source_id → entryid i bezpiecznie aktualizować istniejące wpisy."
+            "Synchronizacja Book i Glossary wymaga --state-file, aby zachować mapowania "
+            "source_id → identyfikatory rozdziałów i haseł."
         )
 
     site = client.site_info()
@@ -766,7 +781,11 @@ def publish_course(
         for position, activity in enumerate(plan.activities, start=1):
             try:
                 if activity["type"] == "book":
-                    result = client.create_book(course_id, activity["sectionnum"], activity)
+                    book_activity = dict(activity)
+                    if state is not None:
+                        previous = state["activities_completed"].get(activity["idnumber"], {})
+                        book_activity["chapterids"] = previous.get("chapterids", [])
+                    result = client.create_book(course_id, activity["sectionnum"], book_activity)
                 elif activity["type"] == "quiz":
                     result = client.create_quiz(course_id, activity["sectionnum"], activity)
                 elif activity["type"] == "assignment":
@@ -808,6 +827,7 @@ def publish_course(
                     "instanceid": result.get("instanceid") if isinstance(result, dict) else None,
                     "created": result.get("created") if isinstance(result, dict) else None,
                     **({"entryids": result.get("entryids", [])} if activity["type"] == "glossary" and isinstance(result, dict) else {}),
+                    **({"chapterids": result.get("chapterids", [])} if activity["type"] == "book" and isinstance(result, dict) else {}),
                 }
                 state["failed_step"] = None
                 state["failed_activity_idnumber"] = None

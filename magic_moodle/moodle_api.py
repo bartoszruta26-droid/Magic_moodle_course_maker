@@ -293,6 +293,7 @@ class MoodleClient:
                 "sectionnum": sectionnum,
                 "name": activity["name"],
                 "chapters": chapters,
+                "chapterids": activity.get("chapterids", []),
                 "numbering": activity.get("numbering", 1),
                 "idnumber": activity.get("idnumber", ""),
             },
