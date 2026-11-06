@@ -16,7 +16,6 @@ class create_assignment extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
-            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Assignment name'),
             'intro' => new \external_value(PARAM_RAW, 'Assignment description HTML', VALUE_DEFAULT, ''),
             'allowsubmissionsfromdate' => new \external_value(PARAM_INT, 'Submission start timestamp', VALUE_DEFAULT, 0),
@@ -29,6 +28,7 @@ class create_assignment extends \external_api {
             'submissiondrafts' => new \external_value(PARAM_BOOL, 'Require submit button', VALUE_DEFAULT, false),
             'requiresubmissionstatement' => new \external_value(PARAM_BOOL, 'Require submission statement', VALUE_DEFAULT, false),
             'completionenabled' => new \external_value(PARAM_BOOL, 'Enable completion on submission', VALUE_DEFAULT, false),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
