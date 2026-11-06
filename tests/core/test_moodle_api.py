@@ -464,12 +464,17 @@ def test_create_quiz_calls_registered_moodle_service():
             "questionsperpage": 1,
             "completionenabled": True,
             "completiontype": "grade",
+            "questioncount": 1,
+            "previousgiftsha256": "a" * 64,
+            "syncfields": ["name", "intro", "grade"],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_quiz"
     assert call.call_args.args[1]["gift"] == gift
     assert call.call_args.args[1]["passingpercent"] == 60
     assert call.call_args.args[1]["completionenabled"] is True
     assert call.call_args.args[1]["completiontype"] == "grade"
+    assert call.call_args.args[1]["questioncount"] == 1
+    assert call.call_args.args[1]["syncfields"] == ["name", "intro", "grade"]
 
 
 def test_publish_routes_quiz_to_native_gift_import_endpoint(tmp_path):
@@ -477,7 +482,7 @@ def test_publish_routes_quiz_to_native_gift_import_endpoint(tmp_path):
 
     class FakeClient:
         def site_info(self):
-            return {"functions": [
+            return {"siteurl": "https://moodle.example", "functions": [
                 {"name": "core_course_get_courses_by_field"},
                 {"name": "core_course_create_courses"},
                 {"name": "local_magicmoodle_update_section"},
@@ -492,13 +497,18 @@ def test_publish_routes_quiz_to_native_gift_import_endpoint(tmp_path):
 
         def create_quiz(self, courseid, sectionnum, activity):
             assert activity["questioncount"] == 2
-            return {"modname": "quiz", "name": activity["name"], "questioncount": 2}
+            return {"modname": "quiz", "name": activity["name"], "questioncount": 2,
+                    "created": True, "updated": False, "giftsha256": activity["giftsha256"]}
 
         def create_activity(self, *args):
             raise AssertionError("Quiz must use create_quiz")
 
-    result = publish_course(FakeClient(), course, 2)
+    result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "quiz"
+    import json
+    state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
+    record = next(iter(state["activities_completed"].values()))
+    assert record["giftsha256"] == build_publish_plan(course, 2).activities[0]["giftsha256"]
 
 
 def test_quiz_endpoint_uses_native_gift_import_and_quiz_slot_api():
@@ -514,6 +524,11 @@ def test_quiz_endpoint_uses_native_gift_import_and_quiz_slot_api():
     assert "importprocess()" in plugin
     assert "quiz_add_quiz_question" in plugin
     assert "quiz_update_sumgrades" in plugin
+    assert "get_moduleinfo_data($cm, $course);" in plugin
+    assert "update_moduleinfo($cm, $moduleinfo, $course);" in plugin
+    assert "previousgiftsha256" in plugin
+    assert "question-version synchronization is not enabled" in plugin
+    assert "'updated' => new" in plugin
     assert "completionusegrade" in plugin
     assert "completionpassgrade" in plugin
     assert "'local_magicmoodle_create_quiz'" in services
