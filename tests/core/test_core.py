@@ -127,3 +127,24 @@ def test_glossary_requires_terms_and_definitions(tmp_path: Path) -> None:
     )
     report = validate_course(load_course(root))
     assert any(item.code == "GLOSSARY_ENTRY_INVALID" for item in report.errors)
+
+
+def test_loads_quiz_configuration_with_repository_schema(tmp_path: Path) -> None:
+    root = make_course(tmp_path)
+    section = root / "sections" / "01-intro"
+    quiz = section / "quiz-01"
+    quiz.mkdir()
+    (quiz / "quiz.yaml").write_text(
+        "name: Test wiedzy\nquestions_file: questions.gift\ntime_limit: 600\nattempts: 2\n",
+        encoding="utf-8",
+    )
+    (quiz / "questions.gift").write_text("::Pytanie:: 2+2? {=4}", encoding="utf-8")
+    (section / "section.yaml").write_text(
+        "id: 1\nname: Wprowadzenie\nmodules:\n"
+        "  - type: quiz\n    ref: quiz-01\n    name: Test wiedzy\n",
+        encoding="utf-8",
+    )
+    activity = load_course(root).sections[0].activities[0]
+    assert activity.resource["name"] == "Test wiedzy"
+    assert activity.resource["questions_file"] == "questions.gift"
+    assert validate_course(load_course(root)).ok
