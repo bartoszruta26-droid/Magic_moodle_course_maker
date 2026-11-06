@@ -1061,3 +1061,45 @@ def test_moodle_client_rejects_invalid_timeout(timeout):
 def test_redirect_handler_refuses_redirects():
     handler = _NoRedirectHandler()
     assert handler.redirect_request(None, None, 307, "Temporary Redirect", {}, "https://attacker.example/") is None
+
+
+
+def test_disabling_tls_verification_is_rejected_for_remote_hosts():
+    with pytest.raises(MoodleAPIError, match="localhost"):
+        MoodleClient(MoodleConfig("https://moodle.example", "secret", verify_tls=False))
+
+
+def test_disabling_tls_verification_remains_available_for_local_development():
+    client = MoodleClient(MoodleConfig("https://localhost", "secret", verify_tls=False))
+    assert client.endpoint.startswith("https://localhost/")
+
+
+def test_http_error_body_redacts_moodle_token():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "sensitive-token"))
+    error = __import__("urllib.error").error.HTTPError(
+        client.endpoint, 500, "Server Error", {}, __import__("io").BytesIO(
+            b"failure sensitive-token detail"
+        )
+    )
+    with patch("urllib.request.build_opener", side_effect=error):
+        with pytest.raises(MoodleAPIError) as caught:
+            client.call("core_webservice_get_site_info")
+    assert "sensitive-token" not in str(caught.value)
+    assert "[REDACTED]" in str(caught.value)
+
+
+def test_moodle_json_error_message_redacts_token():
+    class Response:
+        def __enter__(self): return self
+        def __exit__(self, *args): pass
+        def read(self, size=-1):
+            return b'{"exception":"moodle_exception","errorcode":"bad","message":"token sensitive-token rejected"}'
+
+    client = MoodleClient(MoodleConfig("https://moodle.example", "sensitive-token"))
+    class Opener:
+        def open(self, *args, **kwargs): return Response()
+    with patch("urllib.request.build_opener", lambda *a, **k: Opener()):
+        with pytest.raises(MoodleAPIError) as caught:
+            client.call("core_webservice_get_site_info")
+    assert "sensitive-token" not in str(caught.value)
+    assert "[REDACTED]" in str(caught.value)

@@ -49,7 +49,12 @@ def validate_course(course: Course) -> ValidationReport:
 
     seen_ids: set[str] = set()
     for section in course.sections:
-        config = section.path / "section.yaml"
+        section_root = section.path.resolve()
+        if not section_root.is_relative_to(root):
+            report.add("error", "SECTION_OUTSIDE_COURSE", section.path,
+                       "Katalog sekcji wychodzi poza katalog kursu.")
+            continue
+        config = section_root / "section.yaml"
         if section.id in seen_ids:
             report.add("error", "DUPLICATE_SECTION_ID", config,
                        f"Powtórzony identyfikator sekcji: {section.id}.")
@@ -61,12 +66,12 @@ def validate_course(course: Course) -> ValidationReport:
                        "Brak opcjonalnego pliku section.md.")
 
         for activity in section.activities:
-            target = (section.path / activity.ref).resolve()
+            target = (section_root / activity.ref).resolve()
             if not target.exists():
                 report.add("error", "ACTIVITY_REF_MISSING", config,
                            f"Aktywność '{activity.name}' wskazuje nieistniejący zasób: {activity.ref}.")
                 continue
-            if not target.is_relative_to(section.path.resolve()):
+            if not target.is_relative_to(section_root):
                 report.add("error", "ACTIVITY_REF_OUTSIDE_SECTION", config,
                            f"Odwołanie '{activity.ref}' wychodzi poza katalog sekcji.")
                 continue
@@ -115,11 +120,21 @@ def validate_course(course: Course) -> ValidationReport:
 
     # Sprawdź składnię wszystkich plików YAML w kursie, z pominięciem kopii zapasowych.
     for path in root.rglob("*"):
+        if path.is_symlink():
+            if not path.resolve().is_relative_to(root):
+                report.add("error", "SYMLINK_OUTSIDE_COURSE", path,
+                           "Dowiązanie symboliczne wychodzi poza katalog kursu.")
+                continue
+            path = path.resolve()
         if not path.is_file() or path.suffix.lower() not in {".yaml", ".yml"}:
             continue
         if any(part.endswith((".bak", ".bak-v1", ".bak-gen")) for part in path.parts):
             continue
         try:
+            if path.stat().st_size > 2 * 1024 * 1024:
+                report.add("error", "YAML_TOO_LARGE", path,
+                           "Plik YAML przekracza limit 2 MiB.")
+                continue
             yaml.safe_load(path.read_text(encoding="utf-8"))
         except (OSError, UnicodeError, yaml.YAMLError) as exc:
             report.add("error", "YAML_INVALID", path, str(exc))

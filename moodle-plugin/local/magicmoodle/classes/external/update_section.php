@@ -37,9 +37,15 @@ class update_section extends \external_api {
             'course' => $course->id,
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
-        $section->name = $params['name'];
-        $DB->update_record('course_sections', $section);
-        rebuild_course_cache($course->id, true);
+        $transaction = $DB->start_delegated_transaction();
+        try {
+            $section->name = trim($params['name']);
+            $DB->update_record('course_sections', $section);
+            rebuild_course_cache($course->id, true);
+            $transaction->allow_commit();
+        } catch (\Throwable $exception) {
+            $transaction->rollback($exception);
+        }
 
         return [
             'courseid' => (int)$course->id,

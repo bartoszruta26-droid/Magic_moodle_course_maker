@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from .gift import Question, QuestionBank
+from .io_utils import atomic_write_text
 
 
 def _element(parent: ET.Element, name: str, text: str | None = None, **attrs: str) -> ET.Element:
@@ -121,6 +122,8 @@ def _append_question(root: ET.Element, question: Question) -> None:
 
 def to_moodle_xml(bank: QuestionBank, *, category: str = "$course$/top") -> str:
     """Zwraca dokument Moodle XML dla obsługiwanych typów pytań."""
+    if not isinstance(category, str) or not category.strip() or len(category) > 255:
+        raise ValueError("Kategoria Moodle XML musi być tekstem o długości 1–255 znaków.")
     root = ET.Element("quiz")
     category_node = _element(root, "question", type="category")
     category_name = _element(category_node, "category")
@@ -128,15 +131,20 @@ def to_moodle_xml(bank: QuestionBank, *, category: str = "$course$/top") -> str:
     for question in bank.questions:
         _append_question(root, question)
     ET.indent(root, space="  ")
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(
+    document = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(
         root, encoding="unicode", short_empty_elements=True
     ) + "\n"
+    if any(
+        ord(char) not in (9, 10, 13)
+        and not (32 <= ord(char) <= 0xD7FF or 0xE000 <= ord(char) <= 0xFFFD or 0x10000 <= ord(char) <= 0x10FFFF)
+        for char in document
+    ):
+        raise ValueError("Dane zawierają znak niedozwolony w XML 1.0.")
+    return document
 
 
 def export_moodle_xml(
     bank: QuestionBank, destination: str | Path, *, category: str = "$course$/top"
 ) -> Path:
     path = Path(destination)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(to_moodle_xml(bank, category=category), encoding="utf-8")
-    return path
+    return atomic_write_text(path, to_moodle_xml(bank, category=category))

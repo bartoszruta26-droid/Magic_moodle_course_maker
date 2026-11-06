@@ -5,10 +5,12 @@ This is an interchange/debugging format, not a Moodle MBZ backup.
 from __future__ import annotations
 
 import json
+import math
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
+from .io_utils import atomic_write_text
 from .models import Activity, Course
 
 
@@ -25,6 +27,8 @@ def _json_value(value: Any) -> Any:
         return {str(key): _json_value(item) for key, item in value.items()}
     if isinstance(value, (list, tuple)):
         return [_json_value(item) for item in value]
+    if isinstance(value, float) and not math.isfinite(value):
+        raise ValueError("Manifest JSON nie może zawierać NaN ani nieskończoności.")
     if value is None or isinstance(value, (str, int, float, bool)):
         return value
     raise TypeError(f"Nieobsługiwany typ danych w manifeście: {type(value).__name__}")
@@ -80,12 +84,11 @@ def to_course_json(course: Course) -> str:
         ensure_ascii=False,
         indent=2,
         sort_keys=False,
+        allow_nan=False,
     ) + "\n"
 
 
 def export_course_json(course: Course, destination: str | Path) -> Path:
     """Write a course manifest, creating the destination directory if needed."""
     path = Path(destination)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(to_course_json(course), encoding="utf-8")
-    return path
+    return atomic_write_text(path, to_course_json(course))

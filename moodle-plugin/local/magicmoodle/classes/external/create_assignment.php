@@ -102,99 +102,132 @@ class create_assignment extends \external_api {
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
 
-        $modinfo = get_fast_modinfo($course);
-        foreach ($modinfo->get_cms() as $existing) {
-            if (empty($existing->deletioninprogress) && $existing->modname === 'assign'
-                    && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
-                }
-                return [
-                    'cmid' => (int)$existing->id,
-                    'instanceid' => (int)$existing->instance,
-                    'modname' => 'assign',
-                    'name' => $params['name'],
-                    'created' => false,
-                ];
-            }
+        // Serialize all writes for this module type within the course to avoid check-then-create races.
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'assign');
+        $lockfactory = \core\lock\lock_config::get_lock_factory('local_magicmoodle');
+        $lock = $lockfactory->get_lock($lockkey, 30);
+        if (!$lock) {
+            throw new \moodle_exception('locktimeout', 'error');
         }
-
-        $moduleid = $DB->get_field('modules', 'id', ['name' => 'assign'], MUST_EXIST);
-        $moduleinfo = new \stdClass();
-        $moduleinfo->modulename = 'assign';
-        $moduleinfo->module = $moduleid;
-        $moduleinfo->course = $course->id;
-        $moduleinfo->section = $section->section;
-        $moduleinfo->name = trim($params['name']);
-        $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
-        $moduleinfo->introformat = FORMAT_HTML;
-        $moduleinfo->alwaysshowdescription = 1;
-        $moduleinfo->activity = '';
-        $moduleinfo->activityformat = FORMAT_HTML;
-        $moduleinfo->submissionattachments = 0;
-        $moduleinfo->submissiondrafts = $params['submissiondrafts'] ? 1 : 0;
-        $moduleinfo->requiresubmissionstatement = $params['requiresubmissionstatement'] ? 1 : 0;
-        $moduleinfo->sendnotifications = 0;
-        $moduleinfo->sendlatenotifications = 0;
-        $moduleinfo->sendstudentnotifications = 1;
-        $moduleinfo->allowsubmissionsfromdate = $from;
-        $moduleinfo->duedate = $due;
-        $moduleinfo->cutoffdate = $cutoff;
-        $moduleinfo->gradingduedate = 0;
-        $moduleinfo->grade = $params['grade'];
-        $moduleinfo->completionsubmit = $params['completionenabled'] ? 1 : 0;
-        $moduleinfo->teamsubmission = 0;
-        $moduleinfo->requireallteammemberssubmit = 0;
-        $moduleinfo->teamsubmissiongroupingid = 0;
-        $moduleinfo->blindmarking = 0;
-        $moduleinfo->hidegrader = 0;
-        $moduleinfo->attemptreopenmethod = 'none';
-        $moduleinfo->maxattempts = 1;
-        $moduleinfo->preventsubmissionnotingroup = 0;
-        $moduleinfo->markingworkflow = 0;
-        $moduleinfo->markingallocation = 0;
-        $moduleinfo->visible = 1;
-        $moduleinfo->groupmode = 0;
-        $moduleinfo->groupingid = 0;
-        $moduleinfo->availability = null;
-        $moduleinfo->completion = $params['completionenabled']
-            ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
-        $moduleinfo->completionview = 0;
-        $moduleinfo->completionexpected = 0;
-        $moduleinfo->showdescription = 0;
-        $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = $params['idnumber'];
-
-        $moduleinfo->assignsubmission_onlinetext_enabled =
-            in_array($params['submissiontype'], ['onlinetext', 'both'], true) ? 1 : 0;
-        $moduleinfo->assignsubmission_onlinetext_wordlimit = 0;
-        $moduleinfo->assignsubmission_onlinetext_wordlimit_enabled = 0;
-        $moduleinfo->assignsubmission_file_enabled =
-            in_array($params['submissiontype'], ['file', 'both'], true) ? 1 : 0;
-        $moduleinfo->assignsubmission_file_maxfiles = $params['maxfiles'];
-        $moduleinfo->assignsubmission_file_maxsizebytes = $params['maxbytes'];
-        $moduleinfo->assignsubmission_file_filetypes = '';
-
-        $moduleinfo->assignfeedback_comments_enabled = 1;
-        $moduleinfo->assignfeedback_comments_commentinline = 0;
-        $moduleinfo->assignfeedback_editpdf_enabled = 0;
-
-        $transaction = $DB->start_delegated_transaction();
         try {
-            $created = add_moduleinfo($moduleinfo, $course);
-            $transaction->allow_commit();
-        } catch (\Throwable $exception) {
-            $transaction->rollback($exception);
+            $modinfo = get_fast_modinfo($course);
+            if ($params['idnumber'] !== '') {
+                foreach ($modinfo->get_cms() as $candidate) {
+                    if (empty($candidate->deletioninprogress)
+                            && $candidate->modname === 'assign'
+                            && $candidate->idnumber === $params['idnumber']
+                            && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                        throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                    }
+                }
+            }
+            foreach ($modinfo->get_cms() as $existing) {
+                if (empty($existing->deletioninprogress) && $existing->modname === 'assign'
+                        && (int)$existing->sectionnum === (int)$params['sectionnum']
+                        && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                    if ($params['idnumber'] !== ''
+                            && $existing->name === $params['name']
+                            && !empty($existing->idnumber)
+                            && $existing->idnumber !== $params['idnumber']) {
+                        throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                    }
+                    if ($params['idnumber'] !== ''
+                            && $existing->idnumber === $params['idnumber']
+                            && $existing->name !== $params['name']) {
+                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                    }
+    
+                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    }
+                    return [
+                        'cmid' => (int)$existing->id,
+                        'instanceid' => (int)$existing->instance,
+                        'modname' => 'assign',
+                        'name' => $params['name'],
+                        'created' => false,
+                    ];
+                }
+            }
+    
+            $moduleid = $DB->get_field('modules', 'id', ['name' => 'assign'], MUST_EXIST);
+            $moduleinfo = new \stdClass();
+            $moduleinfo->modulename = 'assign';
+            $moduleinfo->module = $moduleid;
+            $moduleinfo->course = $course->id;
+            $moduleinfo->section = $section->section;
+            $moduleinfo->name = trim($params['name']);
+            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+            $moduleinfo->introformat = FORMAT_HTML;
+            $moduleinfo->alwaysshowdescription = 1;
+            $moduleinfo->activity = '';
+            $moduleinfo->activityformat = FORMAT_HTML;
+            $moduleinfo->submissionattachments = 0;
+            $moduleinfo->submissiondrafts = $params['submissiondrafts'] ? 1 : 0;
+            $moduleinfo->requiresubmissionstatement = $params['requiresubmissionstatement'] ? 1 : 0;
+            $moduleinfo->sendnotifications = 0;
+            $moduleinfo->sendlatenotifications = 0;
+            $moduleinfo->sendstudentnotifications = 1;
+            $moduleinfo->allowsubmissionsfromdate = $from;
+            $moduleinfo->duedate = $due;
+            $moduleinfo->cutoffdate = $cutoff;
+            $moduleinfo->gradingduedate = 0;
+            $moduleinfo->grade = $params['grade'];
+            $moduleinfo->completionsubmit = $params['completionenabled'] ? 1 : 0;
+            $moduleinfo->teamsubmission = 0;
+            $moduleinfo->requireallteammemberssubmit = 0;
+            $moduleinfo->teamsubmissiongroupingid = 0;
+            $moduleinfo->blindmarking = 0;
+            $moduleinfo->hidegrader = 0;
+            $moduleinfo->attemptreopenmethod = 'none';
+            $moduleinfo->maxattempts = 1;
+            $moduleinfo->preventsubmissionnotingroup = 0;
+            $moduleinfo->markingworkflow = 0;
+            $moduleinfo->markingallocation = 0;
+            $moduleinfo->visible = 1;
+            $moduleinfo->groupmode = 0;
+            $moduleinfo->groupingid = 0;
+            $moduleinfo->availability = null;
+            $moduleinfo->completion = $params['completionenabled']
+                ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
+            $moduleinfo->completionview = 0;
+            $moduleinfo->completionexpected = 0;
+            $moduleinfo->showdescription = 0;
+            $moduleinfo->visibleoncoursepage = 1;
+            $moduleinfo->cmidnumber = $params['idnumber'];
+    
+            $moduleinfo->assignsubmission_onlinetext_enabled =
+                in_array($params['submissiontype'], ['onlinetext', 'both'], true) ? 1 : 0;
+            $moduleinfo->assignsubmission_onlinetext_wordlimit = 0;
+            $moduleinfo->assignsubmission_onlinetext_wordlimit_enabled = 0;
+            $moduleinfo->assignsubmission_file_enabled =
+                in_array($params['submissiontype'], ['file', 'both'], true) ? 1 : 0;
+            $moduleinfo->assignsubmission_file_maxfiles = $params['maxfiles'];
+            $moduleinfo->assignsubmission_file_maxsizebytes = $params['maxbytes'];
+            $moduleinfo->assignsubmission_file_filetypes = '';
+    
+            $moduleinfo->assignfeedback_comments_enabled = 1;
+            $moduleinfo->assignfeedback_comments_commentinline = 0;
+            $moduleinfo->assignfeedback_editpdf_enabled = 0;
+    
+            $transaction = $DB->start_delegated_transaction();
+            try {
+                $created = add_moduleinfo($moduleinfo, $course);
+                $transaction->allow_commit();
+            } catch (\Throwable $exception) {
+                $transaction->rollback($exception);
+            }
+    
+            return [
+                'cmid' => (int)$created->coursemodule,
+                'instanceid' => (int)$created->instance,
+                'modname' => 'assign',
+                'name' => $params['name'],
+                'created' => true,
+            ];
+        } finally {
+            $lock->release();
         }
-
-        return [
-            'cmid' => (int)$created->coursemodule,
-            'instanceid' => (int)$created->instance,
-            'modname' => 'assign',
-            'name' => $params['name'],
-            'created' => true,
-        ];
     }
 
     public static function execute_returns() {

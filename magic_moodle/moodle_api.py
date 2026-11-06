@@ -78,8 +78,11 @@ class MoodleClient:
             raise MoodleAPIError("MOODLE_URL musi być pełnym adresem http(s).")
         if parts.username or parts.password or parts.query or parts.fragment:
             raise MoodleAPIError("MOODLE_URL nie może zawierać danych logowania, query ani fragmentu.")
-        if parts.scheme != "https" and parts.hostname not in {"localhost", "127.0.0.1", "::1"}:
+        local_hosts = {"localhost", "127.0.0.1", "::1"}
+        if parts.scheme != "https" and parts.hostname not in local_hosts:
             raise MoodleAPIError("Wymagane jest HTTPS dla hostów zdalnych; HTTP jest dozwolone wyłącznie dla localhost.")
+        if parts.scheme == "https" and not config.verify_tls and parts.hostname not in local_hosts:
+            raise MoodleAPIError("Wyłączenie weryfikacji TLS jest dozwolone wyłącznie dla localhost.")
         if not config.token:
             raise MoodleAPIError("Brak tokenu Moodle.")
         if isinstance(config.timeout, bool) or not math.isfinite(config.timeout) or config.timeout <= 0:
@@ -122,6 +125,8 @@ class MoodleClient:
                 raw = response.read(8 * 1024 * 1024 + 1)
         except urllib.error.HTTPError as exc:
             detail = exc.read(4096).decode("utf-8", errors="replace")
+            if self.config.token:
+                detail = detail.replace(self.config.token, "[REDACTED]")
             raise MoodleAPIError(
                 f"Moodle zwrócił HTTP {exc.code}; odpowiedź: {detail[:1000]}"
             ) from None
@@ -133,6 +138,8 @@ class MoodleClient:
             result = json.loads(raw.decode("utf-8"))
         except (UnicodeError, json.JSONDecodeError):
             preview = raw[:300].decode("utf-8", errors="replace")
+            if self.config.token:
+                preview = preview.replace(self.config.token, "[REDACTED]")
             raise MoodleAPIError(
                 f"Moodle nie zwrócił poprawnego JSON (możliwy błąd endpointu): {preview}"
             ) from None
@@ -140,7 +147,9 @@ class MoodleClient:
             result.get("exception") or result.get("errorcode")
         ):
             code = result.get("errorcode", "MOODLE_ERROR")
-            message = result.get("message", "Nieznany błąd Moodle.")
+            message = str(result.get("message", "Nieznany błąd Moodle."))
+            if self.config.token:
+                message = message.replace(self.config.token, "[REDACTED]")
             raise MoodleAPIError(f"{code}: {message}")
         return result
 

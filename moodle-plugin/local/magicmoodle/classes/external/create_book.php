@@ -76,87 +76,120 @@ class create_book extends \external_api {
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
 
-        $modinfo = get_fast_modinfo($course);
-        foreach ($modinfo->get_cms() as $existing) {
-            if (empty($existing->deletioninprogress) && $existing->modname === 'book'
-                    && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
-                }
-                return [
-                    'cmid' => (int)$existing->id,
-                    'instanceid' => (int)$existing->instance,
-                    'modname' => 'book',
-                    'name' => $params['name'],
-                    'created' => false,
-                    'chaptercount' => (int)$DB->count_records('book_chapters', ['bookid' => $existing->instance]),
-                ];
-            }
+        // Serialize all writes for this module type within the course to avoid check-then-create races.
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'book');
+        $lockfactory = \core\lock\lock_config::get_lock_factory('local_magicmoodle');
+        $lock = $lockfactory->get_lock($lockkey, 30);
+        if (!$lock) {
+            throw new \moodle_exception('locktimeout', 'error');
         }
-
-        $moduleid = $DB->get_field('modules', 'id', ['name' => 'book'], MUST_EXIST);
-        $moduleinfo = new \stdClass();
-        $moduleinfo->modulename = 'book';
-        $moduleinfo->module = $moduleid;
-        $moduleinfo->course = $course->id;
-        $moduleinfo->section = $section->section;
-        $moduleinfo->name = $params['name'];
-        $moduleinfo->intro = '';
-        $moduleinfo->introformat = FORMAT_HTML;
-        $moduleinfo->numbering = $params['numbering'];
-        $moduleinfo->navstyle = 1;
-        $moduleinfo->customtitles = 0;
-        $moduleinfo->visible = 1;
-        $moduleinfo->groupmode = 0;
-        $moduleinfo->groupingid = 0;
-        $moduleinfo->availability = null;
-        $moduleinfo->completion = COMPLETION_TRACKING_NONE;
-        $moduleinfo->completionview = 0;
-        $moduleinfo->completionexpected = 0;
-        $moduleinfo->showdescription = 0;
-        $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = $params['idnumber'];
-
-        $transaction = $DB->start_delegated_transaction();
         try {
-            $created = add_moduleinfo($moduleinfo, $course);
-            $book = $DB->get_record('book', ['id' => $created->instance], '*', MUST_EXIST);
-            $modulecontext = \context_module::instance($created->coursemodule);
-            require_capability('mod/book:edit', $modulecontext);
-            $now = time();
-
-            foreach ($params['chapters'] as $index => $chapterdata) {
-                $chapter = new \stdClass();
-                $chapter->bookid = $book->id;
-                $chapter->pagenum = $index + 1;
-                $chapter->subchapter = empty($chapterdata['subchapter']) ? 0 : 1;
-                $chapter->title = trim($chapterdata['title']);
-                $chapter->content = clean_text($chapterdata['content'], FORMAT_HTML);
-                $chapter->contentformat = FORMAT_HTML;
-                $chapter->hidden = 0;
-                $chapter->timecreated = $now;
-                $chapter->timemodified = $now;
-                $chapter->importsrc = '';
-                $chapter->id = $DB->insert_record('book_chapters', $chapter);
-                \mod_book\event\chapter_created::create_from_chapter($book, $modulecontext, $chapter)->trigger();
+            $modinfo = get_fast_modinfo($course);
+            if ($params['idnumber'] !== '') {
+                foreach ($modinfo->get_cms() as $candidate) {
+                    if (empty($candidate->deletioninprogress)
+                            && $candidate->modname === 'book'
+                            && $candidate->idnumber === $params['idnumber']
+                            && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                        throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                    }
+                }
             }
-
-            require_once($CFG->dirroot . '/mod/book/locallib.php');
-            book_preload_chapters($book);
-            $transaction->allow_commit();
-        } catch (\Throwable $exception) {
-            $transaction->rollback($exception);
+            foreach ($modinfo->get_cms() as $existing) {
+                if (empty($existing->deletioninprogress) && $existing->modname === 'book'
+                        && (int)$existing->sectionnum === (int)$params['sectionnum']
+                        && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                    if ($params['idnumber'] !== ''
+                            && $existing->name === $params['name']
+                            && !empty($existing->idnumber)
+                            && $existing->idnumber !== $params['idnumber']) {
+                        throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                    }
+                    if ($params['idnumber'] !== ''
+                            && $existing->idnumber === $params['idnumber']
+                            && $existing->name !== $params['name']) {
+                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                    }
+    
+                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    }
+                    return [
+                        'cmid' => (int)$existing->id,
+                        'instanceid' => (int)$existing->instance,
+                        'modname' => 'book',
+                        'name' => $params['name'],
+                        'created' => false,
+                        'chaptercount' => (int)$DB->count_records('book_chapters', ['bookid' => $existing->instance]),
+                    ];
+                }
+            }
+    
+            $moduleid = $DB->get_field('modules', 'id', ['name' => 'book'], MUST_EXIST);
+            $moduleinfo = new \stdClass();
+            $moduleinfo->modulename = 'book';
+            $moduleinfo->module = $moduleid;
+            $moduleinfo->course = $course->id;
+            $moduleinfo->section = $section->section;
+            $moduleinfo->name = $params['name'];
+            $moduleinfo->intro = '';
+            $moduleinfo->introformat = FORMAT_HTML;
+            $moduleinfo->numbering = $params['numbering'];
+            $moduleinfo->navstyle = 1;
+            $moduleinfo->customtitles = 0;
+            $moduleinfo->visible = 1;
+            $moduleinfo->groupmode = 0;
+            $moduleinfo->groupingid = 0;
+            $moduleinfo->availability = null;
+            $moduleinfo->completion = COMPLETION_TRACKING_NONE;
+            $moduleinfo->completionview = 0;
+            $moduleinfo->completionexpected = 0;
+            $moduleinfo->showdescription = 0;
+            $moduleinfo->visibleoncoursepage = 1;
+            $moduleinfo->cmidnumber = $params['idnumber'];
+    
+            $transaction = $DB->start_delegated_transaction();
+            try {
+                $created = add_moduleinfo($moduleinfo, $course);
+                $book = $DB->get_record('book', ['id' => $created->instance], '*', MUST_EXIST);
+                $modulecontext = \context_module::instance($created->coursemodule);
+                require_capability('mod/book:edit', $modulecontext);
+                $now = time();
+    
+                foreach ($params['chapters'] as $index => $chapterdata) {
+                    $chapter = new \stdClass();
+                    $chapter->bookid = $book->id;
+                    $chapter->pagenum = $index + 1;
+                    $chapter->subchapter = empty($chapterdata['subchapter']) ? 0 : 1;
+                    $chapter->title = trim($chapterdata['title']);
+                    $chapter->content = clean_text($chapterdata['content'], FORMAT_HTML);
+                    $chapter->contentformat = FORMAT_HTML;
+                    $chapter->hidden = 0;
+                    $chapter->timecreated = $now;
+                    $chapter->timemodified = $now;
+                    $chapter->importsrc = '';
+                    $chapter->id = $DB->insert_record('book_chapters', $chapter);
+                    \mod_book\event\chapter_created::create_from_chapter($book, $modulecontext, $chapter)->trigger();
+                }
+    
+                require_once($CFG->dirroot . '/mod/book/locallib.php');
+                book_preload_chapters($book);
+                $transaction->allow_commit();
+            } catch (\Throwable $exception) {
+                $transaction->rollback($exception);
+            }
+    
+            return [
+                'cmid' => (int)$created->coursemodule,
+                'instanceid' => (int)$created->instance,
+                'modname' => 'book',
+                'name' => $params['name'],
+                'created' => true,
+                'chaptercount' => count($params['chapters']),
+            ];
+        } finally {
+            $lock->release();
         }
-
-        return [
-            'cmid' => (int)$created->coursemodule,
-            'instanceid' => (int)$created->instance,
-            'modname' => 'book',
-            'name' => $params['name'],
-            'created' => true,
-            'chaptercount' => count($params['chapters']),
-        ];
     }
 
     public static function execute_returns() {

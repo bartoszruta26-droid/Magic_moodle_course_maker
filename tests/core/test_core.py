@@ -149,3 +149,95 @@ def test_loads_quiz_configuration_with_repository_schema(tmp_path: Path) -> None
     assert activity.resource["questions_file"] == "questions.gift"
     assert activity.content["questions.gift"] == "::Pytanie:: 2+2? {=4}"
     assert validate_course(load_course(root)).ok
+
+
+
+def test_rejects_symlinked_activity_config_outside_course(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    section = root / "sections" / "01-intro"
+    activity_dir = section / "book-01"
+    activity_dir.mkdir()
+    outside = tmp_path / "outside.yaml"
+    outside.write_text("book:" + chr(10) + "  chapters: []" + chr(10), encoding="utf-8")
+    try:
+        (activity_dir / "book.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    (section / "section.yaml").write_text(
+        "id: 1" + chr(10) + "name: Wprowadzenie" + chr(10) + "modules:" + chr(10)
+        + "  - type: book" + chr(10) + "    ref: book-01" + chr(10) + "    name: Podręcznik" + chr(10),
+        encoding="utf-8",
+    )
+    with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
+        load_course(root)
+
+
+def test_rejects_section_symlink_outside_course(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    outside = tmp_path / "outside-section"
+    outside.mkdir()
+    (outside / "section.yaml").write_text("id: 9" + chr(10) + "name: Obca" + chr(10) + "modules: []" + chr(10), encoding="utf-8")
+    try:
+        (root / "sections" / "external").symlink_to(outside, target_is_directory=True)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    with pytest.raises(CourseLoadError, match="dowiązanie symboliczne"):
+        load_course(root)
+
+
+def test_rejects_oversized_yaml_file(tmp_path: Path) -> None:
+    root = make_course(tmp_path)
+    (root / "course.yaml").write_text("x: " + ("a" * (2 * 1024 * 1024)), encoding="utf-8")
+    with pytest.raises(CourseLoadError, match="przekracza limit"):
+        load_course(root)
+
+
+
+def test_rejects_symlinked_section_config_outside_course(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    section = root / "sections" / "01-intro"
+    outside = tmp_path / "external-section.yaml"
+    outside.write_text("id: 9\\nname: Obca\\nmodules: []\\n", encoding="utf-8")
+    (section / "section.yaml").unlink()
+    try:
+        (section / "section.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
+        load_course(root)
+
+
+def test_rejects_symlinked_course_config_outside_root(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    outside = tmp_path / "external-course.yaml"
+    outside.write_text(
+        "course:" + chr(10) + "  full_name: Zewnętrzny" + chr(10) + "  short_name: EXT" + chr(10),
+        encoding="utf-8",
+    )
+    (root / "course.yaml").unlink()
+    try:
+        (root / "course.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
+        load_course(root)
+
+
+
+def test_validator_reports_symlink_to_external_yaml(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    outside = tmp_path / "outside.yaml"
+    outside.write_text("safe: true" + chr(10), encoding="utf-8")
+    try:
+        (root / "external.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    report = validate_course(load_course(root))
+    assert any(item.code == "SYMLINK_OUTSIDE_COURSE" for item in report.errors)
+
+
+def test_validator_rejects_oversized_yaml_files(tmp_path: Path) -> None:
+    root = make_course(tmp_path)
+    (root / "large.yaml").write_text("x: " + ("a" * (2 * 1024 * 1024)), encoding="utf-8")
+    report = validate_course(load_course(root))
+    assert any(item.code == "YAML_TOO_LARGE" for item in report.errors)
