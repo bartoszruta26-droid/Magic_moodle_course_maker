@@ -140,6 +140,7 @@ class create_activity extends \external_api {
                         'modname' => $params['modname'],
                         'name' => $params['name'],
                         'created' => false,
+                        'updated' => true,
                     ];
                 }
             }
@@ -205,6 +206,7 @@ class create_activity extends \external_api {
                 'modname' => $params['modname'],
                 'name' => $params['name'],
                 'created' => true,
+                'updated' => false,
             ];
         } finally {
             $lock->release();
