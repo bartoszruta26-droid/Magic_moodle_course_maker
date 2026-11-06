@@ -52,7 +52,7 @@ class create_book extends \external_api {
             throw new invalid_parameter_exception('A book must contain between 1 and 200 chapters.');
         }
         foreach ($params['chapters'] as $index => $chapter) {
-            if (trim($chapter['title']) === '' || core_text::strlen($chapter['title']) > 255) {
+            if (trim($chapter['title']) === '' || \\core_text::strlen($chapter['title']) > 255) {
                 throw new invalid_parameter_exception('Chapter titles must contain 1 to 255 characters.');
             }
             if ($index === 0 && !empty($chapter['subchapter'])) {
