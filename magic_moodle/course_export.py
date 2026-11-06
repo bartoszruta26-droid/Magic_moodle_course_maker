@@ -80,7 +80,7 @@ def to_course_json(course: Course) -> str:
         ensure_ascii=False,
         indent=2,
         sort_keys=False,
-    ) + "\\n"
+    ) + "\n"
 
 
 def export_course_json(course: Course, destination: str | Path) -> Path:
