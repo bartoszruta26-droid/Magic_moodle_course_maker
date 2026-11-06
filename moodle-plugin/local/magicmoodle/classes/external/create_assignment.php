@@ -28,6 +28,10 @@ class create_assignment extends \external_api {
             'submissiondrafts' => new \external_value(PARAM_BOOL, 'Require submit button', VALUE_DEFAULT, false),
             'requiresubmissionstatement' => new \external_value(PARAM_BOOL, 'Require submission statement', VALUE_DEFAULT, false),
             'completionenabled' => new \external_value(PARAM_BOOL, 'Enable completion on submission', VALUE_DEFAULT, false),
+            'syncfields' => new \external_multiple_structure(
+                new \external_value(PARAM_ALPHANUMEXT, 'Explicitly source-managed setting'),
+                'Settings to synchronize', VALUE_DEFAULT, ['name']
+            ),
             'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
@@ -36,7 +40,7 @@ class create_assignment extends \external_api {
         $courseid, $sectionnum, $name, $intro = '', $allowsubmissionsfromdate = 0,
         $duedate = 0, $cutoffdate = 0, $grade = 100, $submissiontype = 'both',
         $maxfiles = 5, $maxbytes = 10485760, $submissiondrafts = false,
-        $requiresubmissionstatement = false, $completionenabled = false, $idnumber = ''
+        $requiresubmissionstatement = false, $completionenabled = false, $syncfields = ['name'], $idnumber = ''
     ) {
         global $CFG, $DB;
 
@@ -56,7 +60,23 @@ class create_assignment extends \external_api {
             'submissiondrafts' => $submissiondrafts,
             'requiresubmissionstatement' => $requiresubmissionstatement,
             'completionenabled' => $completionenabled,
+            'syncfields' => $syncfields,
         ]);
+
+        $allowedfields = [
+            'name', 'intro', 'allowsubmissionsfromdate', 'duedate', 'cutoffdate',
+            'grade', 'submissiontype', 'maxfiles', 'maxbytes', 'submissiondrafts',
+            'requiresubmissionstatement', 'completionenabled',
+        ];
+        $syncfields = array_values(array_unique($params['syncfields']));
+        foreach ($syncfields as $field) {
+            if (!in_array($field, $allowedfields, true)) {
+                throw new invalid_parameter_exception('Unsupported Assignment synchronization field: ' . $field);
+            }
+        }
+        if (!in_array('name', $syncfields, true)) {
+            $syncfields[] = 'name';
+        }
 
         if (strlen($params['idnumber']) > 100) {
             throw new \invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
@@ -125,20 +145,94 @@ class create_assignment extends \external_api {
                 if (empty($existing->deletioninprogress) && $existing->modname === 'assign'
                         && (int)$existing->sectionnum === (int)$params['sectionnum']
                         && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                    if ($params['idnumber'] !== ''
-                            && $existing->name === $params['name']
-                            && !empty($existing->idnumber)
-                            && $existing->idnumber !== $params['idnumber']) {
+                    if ($params['idnumber'] !== '' && $existing->name === $params['name']
+                            && !empty($existing->idnumber) && $existing->idnumber !== $params['idnumber']) {
                         throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
                     }
-                    if ($params['idnumber'] !== ''
-                            && $existing->idnumber === $params['idnumber']
-                            && $existing->name !== $params['name']) {
-                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
-                    }
-    
-                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+
+                    $transaction = $DB->start_delegated_transaction();
+                    try {
+                        $cm = $DB->get_record('course_modules', [
+                            'id' => $existing->id,
+                            'course' => $course->id,
+                            'module' => $DB->get_field('modules', 'id', ['name' => 'assign'], MUST_EXIST),
+                        ], '*', MUST_EXIST);
+                        list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
+                            get_moduleinfo_data($cm, $course);
+                        $submissioncount = (int)$DB->count_records('assign_submission', [
+                            'assignment' => $existing->instance,
+                        ]);
+
+                        if (in_array('name', $syncfields, true)) {
+                            $moduleinfo->name = trim($params['name']);
+                        }
+                        if (in_array('intro', $syncfields, true)) {
+                            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+                            $moduleinfo->introformat = FORMAT_HTML;
+                        }
+                        foreach (['allowsubmissionsfromdate', 'duedate', 'cutoffdate'] as $datefield) {
+                            if (in_array($datefield, $syncfields, true)) {
+                                $moduleinfo->$datefield = $params[$datefield];
+                            }
+                        }
+                        if (in_array('grade', $syncfields, true)) {
+                            $moduleinfo->grade = $params['grade'];
+                        }
+                        if (in_array('submissiondrafts', $syncfields, true)) {
+                            $moduleinfo->submissiondrafts = $params['submissiondrafts'] ? 1 : 0;
+                        }
+                        if (in_array('requiresubmissionstatement', $syncfields, true)) {
+                            $moduleinfo->requiresubmissionstatement = $params['requiresubmissionstatement'] ? 1 : 0;
+                        }
+                        if (in_array('completionenabled', $syncfields, true)) {
+                            $moduleinfo->completion = $params['completionenabled']
+                                ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
+                            $moduleinfo->completionsubmit = $params['completionenabled'] ? 1 : 0;
+                        }
+
+                        $targettext = in_array($params['submissiontype'], ['onlinetext', 'both'], true);
+                        $targetfile = in_array($params['submissiontype'], ['file', 'both'], true);
+                        $submissionconfigchanged = false;
+                        if (in_array('submissiontype', $syncfields, true)) {
+                            $submissionconfigchanged = $submissionconfigchanged
+                                || ((bool)($moduleinfo->assignsubmission_onlinetext_enabled ?? false) !== $targettext)
+                                || ((bool)($moduleinfo->assignsubmission_file_enabled ?? false) !== $targetfile);
+                        }
+                        if (in_array('maxfiles', $syncfields, true)) {
+                            $submissionconfigchanged = $submissionconfigchanged
+                                || ((int)($moduleinfo->assignsubmission_file_maxfiles ?? 0) !== $params['maxfiles']);
+                        }
+                        if (in_array('maxbytes', $syncfields, true)) {
+                            $submissionconfigchanged = $submissionconfigchanged
+                                || ((int)($moduleinfo->assignsubmission_file_maxsizebytes ?? 0) !== $params['maxbytes']);
+                        }
+                        if ($submissioncount > 0 && $submissionconfigchanged) {
+                            throw new invalid_parameter_exception(
+                                'Assignment submission plugins cannot be changed after student submissions exist. '
+                                . 'Other settings can still be synchronized; resolve submission history separately.'
+                            );
+                        }
+                        if ($submissioncount === 0) {
+                            if (in_array('submissiontype', $syncfields, true)) {
+                                $moduleinfo->assignsubmission_onlinetext_enabled = $targettext ? 1 : 0;
+                                $moduleinfo->assignsubmission_file_enabled = $targetfile ? 1 : 0;
+                            }
+                            if (in_array('maxfiles', $syncfields, true)) {
+                                $moduleinfo->assignsubmission_file_maxfiles = $params['maxfiles'];
+                            }
+                            if (in_array('maxbytes', $syncfields, true)) {
+                                $moduleinfo->assignsubmission_file_maxsizebytes = $params['maxbytes'];
+                            }
+                        }
+
+                        if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                            $moduleinfo->cmidnumber = $params['idnumber'];
+                        }
+                        update_moduleinfo($cm, $moduleinfo, $course);
+                        rebuild_course_cache($course->id, true);
+                        $transaction->allow_commit();
+                    } catch (\Throwable $exception) {
+                        $transaction->rollback($exception);
                     }
                     return [
                         'cmid' => (int)$existing->id,
@@ -146,10 +240,12 @@ class create_assignment extends \external_api {
                         'modname' => 'assign',
                         'name' => $params['name'],
                         'created' => false,
+                        'updated' => true,
+                        'submissioncount' => $submissioncount,
                     ];
                 }
             }
-    
+
             $moduleid = $DB->get_field('modules', 'id', ['name' => 'assign'], MUST_EXIST);
             $moduleinfo = new \stdClass();
             $moduleinfo->modulename = 'assign';
@@ -224,6 +320,8 @@ class create_assignment extends \external_api {
                 'modname' => 'assign',
                 'name' => $params['name'],
                 'created' => true,
+                'updated' => false,
+                'submissioncount' => 0,
             ];
         } finally {
             $lock->release();
@@ -237,6 +335,8 @@ class create_assignment extends \external_api {
             'modname' => new \external_value(PARAM_TEXT, 'Module name'),
             'name' => new \external_value(PARAM_TEXT, 'Assignment name'),
             'created' => new \external_value(PARAM_BOOL, 'Whether a new assignment was created'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether an existing assignment was updated'),
+            'submissioncount' => new \external_value(PARAM_INT, 'Existing student submissions'),
         ]);
     }
 }
