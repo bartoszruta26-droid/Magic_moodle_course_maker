@@ -22,7 +22,7 @@ Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
 
 ## Instalacja pluginu
 
-Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj siedem funkcji pluginu do usługi zewnętrznej. Plugin w wersji 0.1.9 udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL, Book, Quiz, Assignment, Resource i Glossary z kontrolą kontekstu i uprawnień.
+Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj siedem funkcji pluginu do usługi zewnętrznej. Plugin w wersji 0.1.10 udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL, Book, Quiz, Assignment, Resource i Glossary z kontrolą kontekstu i uprawnień.
 
 ## Konfiguracja klienta
 
@@ -59,6 +59,6 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - Konto techniczne powinno mieć minimalne wymagane role i capabilities.
 - REST Moodle jest wywoływany metodą POST, z kodowaniem parametrów tablicowych Moodle.
 - Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs; przed ponownym uruchomieniem sprawdź kurs i jego aktywności.
-- Idempotencja obejmuje wyszukanie kursu po shortname oraz ponowne użycie aktywności o tej samej nazwie, typie i sekcji. Istniejąca aktywność Book jest pozostawiana bez zmian — synchronizacja treści istniejących aktywności będzie osobnym etapem.
+- Idempotencja obejmuje wyszukanie kursu po shortname oraz stabilne identyfikatory źródłowe `idnumber` wyliczane z kursu, sekcji, typu i ścieżki `ref`. Zmiana nazwy aktywności nie tworzy duplikatu; dla wcześniej utworzonych aktywności bez `idnumber` identyfikator jest uzupełniany przy ponownym odnalezieniu po nazwie. Istniejąca aktywność Book jest pozostawiana bez zmian — synchronizacja treści istniejących aktywności będzie osobnym etapem.
 - Wbudowane tworzenie aktywności obejmuje Page, Label, URL, Book, Quiz i Assignment. Synchronizacja treści już istniejących aktywności wymaga dalszego adaptera aktualizacji.
 - Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
