@@ -107,6 +107,18 @@ class create_assignment extends \external_api {
             if (empty($existing->deletioninprogress) && $existing->modname === 'assign'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                if ($params['idnumber'] !== ''
+                        && $existing->name === $params['name']
+                        && !empty($existing->idnumber)
+                        && $existing->idnumber !== $params['idnumber']) {
+                    throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                }
+                if ($params['idnumber'] !== ''
+                        && $existing->idnumber === $params['idnumber']
+                        && $existing->name !== $params['name']) {
+                    throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                }
+
                 if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
                     $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
                 }
