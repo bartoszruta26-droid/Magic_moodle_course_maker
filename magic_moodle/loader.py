@@ -85,6 +85,13 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
                     if path.is_file():
                         content[questions_file] = path.read_text(encoding="utf-8")
 
+    elif kind == "url" and target.is_file():
+        raw = _read_yaml(target)
+        nested = raw.get("url", raw)
+        if not isinstance(nested, dict):
+            raise CourseLoadError(f"{target}: konfiguracja URL musi być mapą.")
+        resource = nested
+
     elif kind in {"page", "label"} and target.is_file():
         content[target.name] = target.read_text(encoding="utf-8")
 
