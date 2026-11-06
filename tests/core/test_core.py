@@ -221,3 +221,23 @@ def test_rejects_symlinked_course_config_outside_root(tmp_path: Path) -> None:
         pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
     with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
         load_course(root)
+
+
+
+def test_validator_reports_symlink_to_external_yaml(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    outside = tmp_path / "outside.yaml"
+    outside.write_text("safe: true" + chr(10), encoding="utf-8")
+    try:
+        (root / "external.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    report = validate_course(load_course(root))
+    assert any(item.code == "SYMLINK_OUTSIDE_COURSE" for item in report.errors)
+
+
+def test_validator_rejects_oversized_yaml_files(tmp_path: Path) -> None:
+    root = make_course(tmp_path)
+    (root / "large.yaml").write_text("x: " + ("a" * (2 * 1024 * 1024)), encoding="utf-8")
+    report = validate_course(load_course(root))
+    assert any(item.code == "YAML_TOO_LARGE" for item in report.errors)
