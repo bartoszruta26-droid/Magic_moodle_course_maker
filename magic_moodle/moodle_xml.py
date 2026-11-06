@@ -59,7 +59,7 @@ def _convert_gift_cloze(text: str) -> str:
             parts.append(token)
         return "{1:" + kind + ":" + "".join(parts) + "}"
 
-    return re.sub(r"\\{([^{}]+)\\}", convert, text)
+    return re.sub(r"\{([^{}]+)\}", convert, text)
 
 
 def _append_question(root: ET.Element, question: Question) -> None:
