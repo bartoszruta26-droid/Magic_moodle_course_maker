@@ -231,5 +231,7 @@ class MoodleClient:
                 "passingpercent": activity.get("passingpercent", 0),
                 "shuffleanswers": activity.get("shuffleanswers", True),
                 "questionsperpage": activity.get("questionsperpage", 1),
+                "completionenabled": activity.get("completionenabled", False),
+                "completiontype": activity.get("completiontype", "grade"),
             },
         )
