@@ -17,7 +17,7 @@ Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
 
 ## Instalacja pluginu
 
-Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj trzy funkcje pluginu do usługi zewnętrznej. Plugin udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL i Book z kontrolą kontekstu i uprawnień.
+Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj cztery funkcje pluginu do usługi zewnętrznej. Plugin udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL, Book i Quiz z kontrolą kontekstu i uprawnień.
 
 ## Konfiguracja klienta
 
@@ -46,7 +46,7 @@ Następnie wykonaj publikację:
 python -m magic_moodle moodle-publish courses/03-kurs-masazysta-med10
 ```
 
-Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs otrzymuje kategorię wskazaną przez `MOODLE_CATEGORY_ID`, format i liczbę sekcji z konfiguracji. Sekcje otrzymują nazwy z repozytorium. Wbudowany adapter publikuje Page, Label, URL oraz Book. Dla aktywności URL plik YAML wskazany przez `ref` powinien zawierać `url: https://...` lub `externalurl: https://...`. Dla Book katalog wskazany przez `ref` zawiera `book.yaml` z obiektem `book` i listą `chapters`; każdy rozdział ma `title` oraz `content_file` (ścieżka względna względem katalogu książki) albo tekstowe `content`. Opcjonalne `subchapter: true` oznacza podrozdział, a `numbering` przyjmuje 0–3. Pierwszy rozdział musi być rozdziałem głównym; limit publikacji wynosi 200 rozdziałów, a łączny rozmiar ich treści 5 MiB. Inne typy aktywności zatrzymują publikację na etapie kontroli wstępnej — przed pierwszą zmianą zdalną.
+Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs otrzymuje kategorię wskazaną przez `MOODLE_CATEGORY_ID`, format i liczbę sekcji z konfiguracji. Sekcje otrzymują nazwy z repozytorium. Wbudowany adapter publikuje Page, Label, URL, Book oraz Quiz. Dla aktywności URL plik YAML wskazany przez `ref` powinien zawierać `url: https://...` lub `externalurl: https://...`. Dla Book katalog wskazany przez `ref` zawiera `book.yaml` z obiektem `book` i listą `chapters`; każdy rozdział ma `title` oraz `content_file` (ścieżka względna względem katalogu książki) albo tekstowe `content`. Opcjonalne `subchapter: true` oznacza podrozdział, a `numbering` przyjmuje 0–3. Pierwszy rozdział musi być rozdziałem głównym; limit publikacji wynosi 200 rozdziałów, a łączny rozmiar ich treści 5 MiB. Dla Quiz katalog wskazany przez `ref` zawiera `quiz.yaml` oraz plik GIFT wskazany przez `questions_file` (domyślnie `questions.gift`). Obsługiwane ustawienia obejmują `intro`, `time_limit` w sekundach, `attempts` (0 oznacza bez limitu), `grade`, `grade_passing` w procentach, `shuffle_answers` i `questions_per_page`. Import pytań odbywa się natywnym importerem GIFT Moodle do domyślnej kategorii banku pytań w kontekście kursu, a następnie pytania są dodawane do quizu. Limit wynosi 250 pytań i 2 MiB źródła GIFT na quiz. Próg zaliczenia jest zapisywany jako próg oceny w dzienniku ocen. Inne typy aktywności zatrzymują publikację na etapie kontroli wstępnej — przed pierwszą zmianą zdalną.
 
 ## Bezpieczeństwo i ograniczenia
 
@@ -55,5 +55,5 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - REST Moodle jest wywoływany metodą POST, z kodowaniem parametrów tablicowych Moodle.
 - Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs; przed ponownym uruchomieniem sprawdź kurs i jego aktywności.
 - Idempotencja obejmuje wyszukanie kursu po shortname oraz ponowne użycie aktywności o tej samej nazwie, typie i sekcji. Istniejąca aktywność Book jest pozostawiana bez zmian — synchronizacja treści istniejących aktywności będzie osobnym etapem.
-- Wbudowane tworzenie aktywności obejmuje Page, Label, URL i Book. Quiz, Assignment, Glossary i pliki wymagają dalszych adapterów oraz obsługi plików Moodle.
+- Wbudowane tworzenie aktywności obejmuje Page, Label, URL, Book i Quiz. Assignment, Glossary i pliki wymagają dalszych adapterów oraz obsługi plików Moodle.
 - Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
