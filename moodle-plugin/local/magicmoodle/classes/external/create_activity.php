@@ -3,6 +3,8 @@ namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
+// Moodle 4.1 uses the legacy global External API classes.
+require_once($CFG->libdir . '/externallib.php');
 require_once($CFG->dirroot . '/course/modlib.php');
 
 use context_course;
@@ -12,10 +14,10 @@ use core_external\external_single_structure;
 use core_external\external_value;
 use invalid_parameter_exception;
 
-class create_activity extends external_api {
+class create_activity extends \\external_api {
     public static function execute_parameters() {
-        return new external_function_parameters([
-            'courseid' => new external_value(PARAM_INT, 'Course id'),
+        return new \\external_function_parameters([
+            'courseid' => new \\external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new external_value(PARAM_INT, 'Zero-based section number'),
             'modname' => new external_value(PARAM_ALPHANUMEXT, 'Supported module: page or label'),
             'name' => new external_value(PARAM_TEXT, 'Activity name'),
@@ -112,7 +114,7 @@ class create_activity extends external_api {
     }
 
     public static function execute_returns() {
-        return new external_single_structure([
+        return new \\external_single_structure([
             'cmid' => new external_value(PARAM_INT, 'Course module id'),
             'instanceid' => new external_value(PARAM_INT, 'Module instance id'),
             'modname' => new external_value(PARAM_TEXT, 'Module name'),
