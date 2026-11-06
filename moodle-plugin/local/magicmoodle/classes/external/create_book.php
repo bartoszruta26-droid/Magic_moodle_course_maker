@@ -1,5 +1,5 @@
 <?php
-namespace local_magicmoodle\\external;
+namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
@@ -9,21 +9,21 @@ use invalid_parameter_exception;
 require_once($CFG->libdir . '/externallib.php');
 require_once($CFG->dirroot . '/course/modlib.php');
 
-class create_book extends \\external_api {
+class create_book extends \external_api {
     public static function execute_parameters() {
-        return new \\external_function_parameters([
-            'courseid' => new \\external_value(PARAM_INT, 'Course id'),
-            'sectionnum' => new \\external_value(PARAM_INT, 'Zero-based section number'),
-            'name' => new \\external_value(PARAM_TEXT, 'Book activity name'),
-            'chapters' => new \\external_multiple_structure(
-                new \\external_single_structure([
-                    'title' => new \\external_value(PARAM_TEXT, 'Chapter title'),
-                    'content' => new \\external_value(PARAM_RAW, 'Chapter HTML content'),
-                    'subchapter' => new \\external_value(PARAM_BOOL, 'Whether this is a subchapter', VALUE_DEFAULT, false),
+        return new \external_function_parameters([
+            'courseid' => new \external_value(PARAM_INT, 'Course id'),
+            'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'name' => new \external_value(PARAM_TEXT, 'Book activity name'),
+            'chapters' => new \external_multiple_structure(
+                new \external_single_structure([
+                    'title' => new \external_value(PARAM_TEXT, 'Chapter title'),
+                    'content' => new \external_value(PARAM_RAW, 'Chapter HTML content'),
+                    'subchapter' => new \external_value(PARAM_BOOL, 'Whether this is a subchapter', VALUE_DEFAULT, false),
                 ]),
                 'Book chapters'
             ),
-            'numbering' => new \\external_value(PARAM_INT, 'Book numbering: 0 none, 1 numbers, 2 bullets, 3 indented', VALUE_DEFAULT, 1),
+            'numbering' => new \external_value(PARAM_INT, 'Book numbering: 0 none, 1 numbers, 2 bullets, 3 indented', VALUE_DEFAULT, 1),
         ]);
     }
 
@@ -82,7 +82,7 @@ class create_book extends \\external_api {
         }
 
         $moduleid = $DB->get_field('modules', 'id', ['name' => 'book'], MUST_EXIST);
-        $moduleinfo = new \\stdClass();
+        $moduleinfo = new \stdClass();
         $moduleinfo->modulename = 'book';
         $moduleinfo->module = $moduleid;
         $moduleinfo->course = $course->id;
@@ -108,11 +108,11 @@ class create_book extends \\external_api {
         try {
             $created = add_moduleinfo($moduleinfo, $course);
             $book = $DB->get_record('book', ['id' => $created->instance], '*', MUST_EXIST);
-            $modulecontext = \\context_module::instance($created->coursemodule);
+            $modulecontext = \context_module::instance($created->coursemodule);
             $now = time();
 
             foreach ($params['chapters'] as $index => $chapterdata) {
-                $chapter = new \\stdClass();
+                $chapter = new \stdClass();
                 $chapter->bookid = $book->id;
                 $chapter->pagenum = $index + 1;
                 $chapter->subchapter = empty($chapterdata['subchapter']) ? 0 : 1;
@@ -124,13 +124,13 @@ class create_book extends \\external_api {
                 $chapter->timemodified = $now;
                 $chapter->importsrc = '';
                 $chapter->id = $DB->insert_record('book_chapters', $chapter);
-                \\mod_book\\event\\chapter_created::create_from_chapter($book, $modulecontext, $chapter)->trigger();
+                \mod_book\event\chapter_created::create_from_chapter($book, $modulecontext, $chapter)->trigger();
             }
 
             require_once($CFG->dirroot . '/mod/book/locallib.php');
             book_preload_chapters($book);
             $transaction->allow_commit();
-        } catch (\\Throwable $exception) {
+        } catch (\Throwable $exception) {
             $transaction->rollback($exception);
         }
 
@@ -145,13 +145,13 @@ class create_book extends \\external_api {
     }
 
     public static function execute_returns() {
-        return new \\external_single_structure([
-            'cmid' => new \\external_value(PARAM_INT, 'Course module id'),
-            'instanceid' => new \\external_value(PARAM_INT, 'Book instance id'),
-            'modname' => new \\external_value(PARAM_TEXT, 'Module name'),
-            'name' => new \\external_value(PARAM_TEXT, 'Book name'),
-            'created' => new \\external_value(PARAM_BOOL, 'Whether a new book was created'),
-            'chaptercount' => new \\external_value(PARAM_INT, 'Number of chapters'),
+        return new \external_single_structure([
+            'cmid' => new \external_value(PARAM_INT, 'Course module id'),
+            'instanceid' => new \external_value(PARAM_INT, 'Book instance id'),
+            'modname' => new \external_value(PARAM_TEXT, 'Module name'),
+            'name' => new \external_value(PARAM_TEXT, 'Book name'),
+            'created' => new \external_value(PARAM_BOOL, 'Whether a new book was created'),
+            'chaptercount' => new \external_value(PARAM_INT, 'Number of chapters'),
         ]);
     }
 }
