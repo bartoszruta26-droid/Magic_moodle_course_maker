@@ -525,23 +525,41 @@ def publish_course(
     course_id = int(remote_course["id"])
     section_results = []
     for index, section in enumerate(course.sections):
-        section_results.append(
-            client.update_section(course_id, index, section.name)
-        )
+        try:
+            section_results.append(
+                client.update_section(course_id, index, section.name)
+            )
+        except Exception as exc:
+            raise MoodleAPIError(
+                f"Publikacja przerwana podczas aktualizacji sekcji {index} ('{section.name}'). "
+                f"Kurs '{course.short_name}' został już utworzony lub odnaleziony. "
+                f"Można ponowić publikację po usunięciu przyczyny błędu. Szczegóły: {exc}"
+            ) from exc
+
     activity_results = []
-    for activity in plan.activities:
-        if activity["type"] == "book":
-            result = client.create_book(course_id, activity["sectionnum"], activity)
-        elif activity["type"] == "quiz":
-            result = client.create_quiz(course_id, activity["sectionnum"], activity)
-        elif activity["type"] == "assignment":
-            result = client.create_assignment(course_id, activity["sectionnum"], activity)
-        elif activity["type"] == "file":
-            result = client.create_resource(course_id, activity["sectionnum"], activity)
-        elif activity["type"] == "glossary":
-            result = client.create_glossary(course_id, activity["sectionnum"], activity)
-        else:
-            result = client.create_activity(course_id, activity["sectionnum"], activity)
+    for position, activity in enumerate(plan.activities, start=1):
+        try:
+            if activity["type"] == "book":
+                result = client.create_book(course_id, activity["sectionnum"], activity)
+            elif activity["type"] == "quiz":
+                result = client.create_quiz(course_id, activity["sectionnum"], activity)
+            elif activity["type"] == "assignment":
+                result = client.create_assignment(course_id, activity["sectionnum"], activity)
+            elif activity["type"] == "file":
+                result = client.create_resource(course_id, activity["sectionnum"], activity)
+            elif activity["type"] == "glossary":
+                result = client.create_glossary(course_id, activity["sectionnum"], activity)
+            else:
+                result = client.create_activity(course_id, activity["sectionnum"], activity)
+        except Exception as exc:
+            raise MoodleAPIError(
+                f"Publikacja przerwana na aktywności {position}/{len(plan.activities)}: "
+                f"'{activity['name']}' (typ {activity['type']}, idnumber {activity['idnumber']}). "
+                f"Poprzednio obsłużono {len(activity_results)} aktywności. "
+                "Po usunięciu przyczyny można bezpiecznie ponowić całe polecenie; "
+                "kurs i już utworzone aktywności zostaną rozpoznane po identyfikatorach źródłowych. "
+                f"Szczegóły: {exc}"
+            ) from exc
         activity_results.append(result)
     return {
         "dry_run": False,
