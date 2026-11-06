@@ -200,8 +200,9 @@ class create_quiz extends \external_api {
             throw new \moodle_exception('cannotcreatetempfile', 'error');
         }
 
-        $transaction = $DB->start_delegated_transaction();
+        $transaction = null;
         try {
+            $transaction = $DB->start_delegated_transaction();
             $created = add_moduleinfo($moduleinfo, $course);
             $quiz = $DB->get_record('quiz', ['id' => $created->instance], '*', MUST_EXIST);
 
