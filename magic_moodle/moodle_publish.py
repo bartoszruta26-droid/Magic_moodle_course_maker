@@ -299,7 +299,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         sourceid = "term-" + hashlib.sha256(term_key.encode("utf-8")).hexdigest()[:32]
                     if (not isinstance(sourceid, str) or not sourceid.strip()
                             or len(sourceid.strip()) > 100
-                            or not all(ch.isalnum() or ch in "._-" for ch in sourceid.strip())):
+                            or not all(ch.isascii() and (ch.isalnum() or ch in "._-") for ch in sourceid.strip())):
                         warnings.append(f"Słownik '{activity.name}': entries[{entry_index}].source_id musi mieć 1–100 bezpiecznych znaków.")
                         entries_invalid = True
                         continue
