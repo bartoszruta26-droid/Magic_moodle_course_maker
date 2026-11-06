@@ -78,6 +78,14 @@ jobs:
         working-directory: /tmp/moodle
         run: php admin/cli/upgrade.php --non-interactive
 
+      - name: Configure Moodle PHPUnit data root
+        working-directory: /tmp/moodle
+        run: |
+          cat >> config.php <<'EOF'
+          $CFG->phpunit_dataroot = '/tmp/moodledata_phpunit';
+          $CFG->phpunit_prefix = 'phpu_';
+          EOF
+
       - name: Initialize Moodle PHPUnit test database
         working-directory: /tmp/moodle
         run: php admin/tool/phpunit/cli/init.php --drop
