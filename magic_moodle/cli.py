@@ -6,6 +6,7 @@ import json
 import sys
 from pathlib import Path
 
+from .course_export import export_course_json
 from .gift import GiftParseError, parse_gift, validate_question_bank
 from .loader import CourseLoadError, load_course
 from .moodle_xml import export_moodle_xml
@@ -20,6 +21,13 @@ def _parser() -> argparse.ArgumentParser:
         cmd = commands.add_parser(name, help=f"{'Pokaż' if name == 'inspect' else 'Zweryfikuj'} strukturę kursu")
         cmd.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
         cmd.add_argument("--json", action="store_true", help="Wynik w formacie JSON")
+
+    course_export = commands.add_parser(
+        "course-export-json",
+        help="Eksportuj strukturę i treści kursu do manifestu JSON (nie jest to plik MBZ)",
+    )
+    course_export.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
+    course_export.add_argument("destination", type=Path, help="Docelowy plik JSON")
 
     gift_validate = commands.add_parser("gift-validate", help="Sprawdź składnię i typy pytań GIFT")
     gift_validate.add_argument("source", type=Path, help="Plik GIFT")
@@ -87,6 +95,19 @@ def main(argv: list[str] | None = None) -> int:
         print(f"BŁĄD: {exc}", file=sys.stderr)
         return 2
 
+    if args.command == "course-export-json":
+        try:
+            output = export_course_json(course, args.destination)
+        except (OSError, TypeError, ValueError) as exc:
+            print(f"BŁĄD eksportu kursu: {exc}", file=sys.stderr)
+            return 2
+        print(
+            f"Wyeksportowano manifest kursu: {output} "
+            f"({course.section_count} sekcji, {course.activity_count} aktywności). "
+            "To format pośredni, nie pakiet Moodle MBZ."
+        )
+        return 0
+
     if args.command == "inspect":
         result = {
             "name": course.full_name, "short_name": course.short_name,
@@ -96,8 +117,8 @@ def main(argv: list[str] | None = None) -> int:
         if args.json:
             print(json.dumps(result, ensure_ascii=False, indent=2))
         else:
-            print(f"Kurs: {course.full_name}\nNazwa skrócona: {course.short_name}")
-            print(f"Sekcje: {course.section_count}\nAktywności: {course.activity_count}")
+            print(f"Kurs: {course.full_name}\\nNazwa skrócona: {course.short_name}")
+            print(f"Sekcje: {course.section_count}\\nAktywności: {course.activity_count}")
             for kind, count in course.activity_types.items():
                 print(f"  - {kind}: {count}")
         return 0
@@ -112,7 +133,7 @@ def main(argv: list[str] | None = None) -> int:
     else:
         for item in report.findings:
             print(f"{item.severity.upper():7} {item.code}: {item.path}: {item.message}")
-        print(f"\nWynik: {'POPRAWNY' if report.ok else 'BŁĘDY'}; "
+        print(f"\\nWynik: {'POPRAWNY' if report.ok else 'BŁĘDY'}; "
               f"błędy: {len(report.errors)}, ostrzeżenia: {len(report.warnings)}")
     return 0 if report.ok else 1
 
