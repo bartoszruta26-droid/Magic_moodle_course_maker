@@ -831,3 +831,12 @@ def test_existing_med10_assignment_yaml_is_supported_by_publisher():
     assert assignment["maxfiles"] == 3
     assert assignment["grade"] == 100
     assert assignment["intro"]
+
+
+def test_full_med10_course_has_no_moodle_publish_preflight_warnings():
+    root = Path(__file__).parents[2] / "courses/03-kurs-masazysta-med10"
+    course = load_course(root)
+    plan = build_publish_plan(course, 2)
+    assert not plan.warnings, "\\n".join(plan.warnings[:30])
+    assert len(plan.activities) > 300
+    assert {item["type"] for item in plan.activities} >= {"book", "quiz", "assignment"}
