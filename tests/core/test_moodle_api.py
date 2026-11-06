@@ -401,6 +401,8 @@ def test_quiz_activity_is_preflighted_with_gift_and_settings(tmp_path):
     assert quiz["attempts"] == 2
     assert quiz["passingpercent"] == 60
     assert quiz["shuffleanswers"] is True
+    assert quiz["completionenabled"] is True
+    assert quiz["completiontype"] == "grade"
     assert "<p>Weryfikacja podstaw.</p>" == quiz["intro"]
 
 
@@ -440,10 +442,14 @@ def test_create_quiz_calls_registered_moodle_service():
             "passingpercent": 60,
             "shuffleanswers": True,
             "questionsperpage": 1,
+            "completionenabled": True,
+            "completiontype": "grade",
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_quiz"
     assert call.call_args.args[1]["gift"] == gift
     assert call.call_args.args[1]["passingpercent"] == 60
+    assert call.call_args.args[1]["completionenabled"] is True
+    assert call.call_args.args[1]["completiontype"] == "grade"
 
 
 def test_publish_routes_quiz_to_native_gift_import_endpoint(tmp_path):
@@ -488,6 +494,8 @@ def test_quiz_endpoint_uses_native_gift_import_and_quiz_slot_api():
     assert "importprocess()" in plugin
     assert "quiz_add_quiz_question" in plugin
     assert "quiz_update_sumgrades" in plugin
+    assert "completionusegrade" in plugin
+    assert "completionpassgrade" in plugin
     assert "'local_magicmoodle_create_quiz'" in services
 
 
