@@ -212,7 +212,7 @@ def _parse_one(name: str, text: str, body: str, line: int) -> Question:
         if len(pairs) < 2:
             raise GiftParseError(f"Linia {line}: pytanie dopasowujące wymaga co najmniej dwóch par.")
         return Question(name, "matching", text, pairs=tuple(pairs), source_line=line)
-    if len(answers) == 1 and answers[0].fraction == 100.0:
+    if answers and all(answer.fraction == 100.0 for answer in answers):
         return Question(name, "shortanswer", text, answers, source_line=line)
     return Question(name, "multichoice", text, answers, source_line=line)
 
