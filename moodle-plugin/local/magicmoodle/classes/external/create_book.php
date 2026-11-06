@@ -76,8 +76,8 @@ class create_book extends \external_api {
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
 
-        $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
-        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'book' . '|' . $identity);
+        // Serialize all writes for this module type within the course to avoid check-then-create races.
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'book');
         $lockfactory = \core\lock\lock_config::get_lock_factory('local_magicmoodle');
         $lock = $lockfactory->get_lock($lockkey, 30);
         if (!$lock) {
