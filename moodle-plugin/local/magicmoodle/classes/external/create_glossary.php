@@ -41,6 +41,10 @@ class create_glossary extends \external_api {
             'entries' => $entries,
         ]);
 
+        if (strlen($params['idnumber']) > 100) {
+            throw new \\invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
+        }
+
         $course = get_course($params['courseid']);
         $coursecontext = context_course::instance($course->id);
         self::validate_context($coursecontext);
@@ -83,6 +87,9 @@ class create_glossary extends \external_api {
             if (empty($existing->deletioninprogress) && $existing->modname === 'glossary'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                }
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
