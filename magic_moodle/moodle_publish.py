@@ -26,29 +26,75 @@ def _course_payload(course: Course, category_id: int) -> dict[str, Any]:
     config = course.metadata.get("course", {})
     if not isinstance(config, dict):
         raise MoodleAPIError("course.yaml: pole course musi być mapą.")
-    try:
-        category_id = int(category_id)
-    except (TypeError, ValueError) as exc:
-        raise MoodleAPIError("categoryid musi być dodatnim identyfikatorem liczbowym Moodle.") from exc
+
+    if isinstance(category_id, bool) or not isinstance(category_id, (int, str)):
+        raise MoodleAPIError("categoryid musi być dodatnim identyfikatorem liczbowym Moodle.")
+    if isinstance(category_id, str) and not category_id.strip().isdigit():
+        raise MoodleAPIError("categoryid musi być dodatnim identyfikatorem liczbowym Moodle.")
+    category_id = int(category_id)
     if category_id < 1:
         raise MoodleAPIError("categoryid musi być dodatni.")
-    visible = config.get("visible", 1)
+
+    fullname = course.full_name.strip() if isinstance(course.full_name, str) else ""
+    shortname = course.short_name.strip() if isinstance(course.short_name, str) else ""
+    if not fullname or len(fullname) > 255 or any(ord(char) < 32 for char in fullname):
+        raise MoodleAPIError("course.full_name musi zawierać od 1 do 255 znaków bez znaków sterujących.")
+    if not shortname or len(shortname) > 100 or any(ord(char) < 32 for char in shortname):
+        raise MoodleAPIError("course.short_name musi zawierać od 1 do 100 znaków bez znaków sterujących.")
+    if not isinstance(course.description, str) or len(course.description) > 100000:
+        raise MoodleAPIError("Opis kursu musi być tekstem o długości do 100 000 znaków.")
+
+    course_format = config.get("format", "topics")
+    if not isinstance(course_format, str) or not course_format or len(course_format) > 50:
+        raise MoodleAPIError("course.format musi być niepustą nazwą formatu Moodle do 50 znaków.")
+    if not all(char.isalnum() or char == "_" for char in course_format) or not course_format[0].isalpha():
+        raise MoodleAPIError("course.format zawiera niedozwolone znaki.")
+
+    def binary_option(key: str, default: int) -> int:
+        value = config.get(key, default)
+        if isinstance(value, bool):
+            return int(value)
+        if isinstance(value, int) and value in {0, 1}:
+            return value
+        raise MoodleAPIError(f"course.{key} musi mieć wartość 0, 1 lub logiczną.")
+
+    visible = binary_option("visible", 1)
+    showgrades = binary_option("show_grades", 1)
+    newsitems = config.get("news_items", 5)
+    if isinstance(newsitems, bool) or not isinstance(newsitems, int) or not 0 <= newsitems <= 10:
+        raise MoodleAPIError("course.news_items musi być liczbą całkowitą od 0 do 10.")
+
+    lang = config.get("lang", "pl")
+    if not isinstance(lang, str) or not lang or len(lang) > 20:
+        raise MoodleAPIError("course.lang musi być kodem języka o długości 1–20 znaków.")
+    if not all(char.isalnum() or char in {"_", "-"} for char in lang):
+        raise MoodleAPIError("course.lang zawiera niedozwolone znaki.")
+
+    numsections = max(course.section_count - 1, 0)
+    if numsections > 52:
+        raise MoodleAPIError("Kurs przekracza limit 52 sekcji tematycznych obsługiwany przez publikator.")
+
     payload = {
-        "fullname": course.full_name,
-        "shortname": course.short_name,
+        "fullname": fullname,
+        "shortname": shortname,
         "categoryid": category_id,
         "summary": _markdown_to_html(course.description),
         "summaryformat": 1,
-        "format": config.get("format", "topics"),
-        "numsections": max(course.section_count - 1, 0),
-        "visible": int(visible),
-        "lang": config.get("lang", "pl"),
-        "showgrades": int(config.get("show_grades", 1)),
-        "newsitems": int(config.get("news_items", 5)),
+        "format": course_format,
+        "numsections": numsections,
+        "visible": visible,
+        "lang": lang,
+        "showgrades": showgrades,
+        "newsitems": newsitems,
     }
     idnumber = config.get("idnumber")
-    if idnumber:
-        payload["idnumber"] = str(idnumber)
+    if idnumber not in (None, ""):
+        if isinstance(idnumber, bool) or not isinstance(idnumber, (str, int)):
+            raise MoodleAPIError("course.idnumber musi być tekstem lub liczbą całkowitą.")
+        idnumber = str(idnumber).strip()
+        if len(idnumber) > 100 or any(ord(char) < 32 for char in idnumber):
+            raise MoodleAPIError("course.idnumber może mieć maksymalnie 100 znaków bez znaków sterujących.")
+        payload["idnumber"] = idnumber
     return payload
 
 
