@@ -4,6 +4,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+import base64
 import yaml
 
 from .models import Activity, Course, Section
@@ -90,6 +91,11 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
                     path = _safe_path(target, questions_file, str(config_path))
                     if path.is_file():
                         content[questions_file] = path.read_text(encoding="utf-8")
+
+    elif kind == "file" and target.is_file():
+        if target.stat().st_size > 5 * 1024 * 1024:
+            raise CourseLoadError(f"{target}: plik przekracza limit 5 MiB.")
+        content[target.name] = base64.b64encode(target.read_bytes()).decode("ascii")
 
     elif kind == "url" and target.is_file():
         raw = _read_yaml(target)
