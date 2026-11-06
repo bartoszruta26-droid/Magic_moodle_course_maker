@@ -1168,6 +1168,8 @@ def test_publish_state_manifest_records_progress_without_secrets(tmp_path):
     state = json.loads(state_text)
     assert result["state_file"] == str(state_file)
     assert state["format"] == "magic-moodle-publish-state"
+    assert state["version"] == 2
+    assert state["identity_sha256"]
     assert state["status"] == "complete"
     assert state["course_id"] == 42
     assert state["sections_completed"] == [0]
@@ -1193,13 +1195,13 @@ def test_publish_state_manifest_resumes_only_against_same_remote_course(tmp_path
     assert state["status"] == "complete"
 
 
-def test_publish_state_manifest_rejects_changed_plan_before_remote_writes(tmp_path):
+def test_publish_state_manifest_rejects_changed_course_identity_before_remote_writes(tmp_path):
     from dataclasses import replace
 
     course = _sample_course(tmp_path / "course")
     state_file = tmp_path / "publish.json"
     publish_course(_StatefulPublishClient(), course, 2, state_file=state_file)
-    changed = replace(course, full_name="Zmieniony kurs")
+    changed = replace(course, short_name="INNY_KURS")
     client = _StatefulPublishClient()
     with pytest.raises(MoodleAPIError, match="innego kursu, planu lub serwera"):
         publish_course(client, changed, 2, state_file=state_file)
@@ -1224,7 +1226,7 @@ def test_publish_state_manifest_persists_partial_failure_for_safe_retry(tmp_path
 
 
 
-def test_publish_state_manifest_fingerprint_includes_section_names(tmp_path):
+def test_publish_state_manifest_allows_section_content_updates_with_same_identity(tmp_path):
     from dataclasses import replace
 
     course = _sample_course(tmp_path / "course")
@@ -1233,10 +1235,12 @@ def test_publish_state_manifest_fingerprint_includes_section_names(tmp_path):
     section = course.sections[0]
     changed = replace(course, sections=(replace(section, name="Zmieniona sekcja"),))
     client = _StatefulPublishClient()
-    with pytest.raises(MoodleAPIError, match="innego kursu, planu lub serwera"):
-        publish_course(client, changed, 2, state_file=state_file)
+    result = publish_course(client, changed, 2, state_file=state_file)
+    state = json.loads(state_file.read_text(encoding="utf-8"))
     assert client.ensure_calls == 0
-    assert client.lookup_calls == 0
+    assert client.lookup_calls == 1
+    assert result["course_created"] is False
+    assert state["status"] == "complete"
 
 
 
