@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .gift import GiftParseError, parse_gift, validate_question_bank
 from .loader import CourseLoadError, load_course
-from .moodle_xml import export_moodle_xml
+from .moodle_xml import export_moodle_xml\nfrom .question_bank import load_question_bank
 from .validation import validate_course
 
 
