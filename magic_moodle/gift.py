@@ -94,7 +94,11 @@ def _extract_questions(source: str) -> list[tuple[str, str, int, str]]:
             raise GiftParseError(f"Linia {line}: pytanie '{match.group(1)}' nie ma zamkniętego bloku odpowiedzi.")
         prefix = fragment[:opening].strip()
         body = fragment[opening + 1:closing].strip()
-        # Tekst po zamknięciu klamry to zwykle komentarz // lub białe znaki.
+        suffix = fragment[closing + 1:].strip()
+        if suffix and not suffix.startswith("//"):
+            # GIFT missingword/cloze: odpowiedzi są osadzone w treści pytania.
+            prefix = fragment.strip()
+            body = "__CLOZE__"
         line = source.count("\n", 0, match.start()) + 1
         result.append((match.group(1).strip(), prefix, line, body))
     return result
@@ -125,6 +129,12 @@ def _parse_answers(body: str) -> tuple[Answer, ...]:
 
 
 def _parse_one(name: str, text: str, body: str, line: int) -> Question:
+    if body.strip() == "__CLOZE__":
+        return Question(name, "multianswer", text, source_line=line)
+    if re.search(r"\{[a-zA-Z][a-zA-Z0-9_]*\}", body) and body.strip().startswith("="):
+        raise GiftParseError(
+            f"Linia {line}: pytanie obliczeniowe z zestawem danych nie jest jeszcze obsługiwane."
+        )
     normalized = body.strip()
     upper = normalized.upper()
     if upper.startswith("TRUE") or upper.startswith("FALSE"):
