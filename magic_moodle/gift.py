@@ -64,7 +64,7 @@ def _extract_questions(source: str) -> list[tuple[str, str, int, str]]:
         if not source.strip():
             return []
         raise GiftParseError("Brak nagłówków pytań ::nazwa::; parser wymaga nazwanych pytań.")
-    result: list[tuple[str, str, int]] = []
+    result: list[tuple[str, str, int, str]] = []
     for index, match in enumerate(matches):
         start = match.end()
         end_limit = matches[index + 1].start() if index + 1 < len(matches) else len(source)
