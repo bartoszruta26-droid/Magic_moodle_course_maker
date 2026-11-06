@@ -199,3 +199,28 @@ def test_parses_legacy_med10_weighted_distractor() -> None:
     assert question.qtype == "multichoice"
     assert question.answers[1].text == "Częściowo punktowana odpowiedź"
     assert question.answers[1].fraction == 50
+
+
+
+def test_question_bank_rejects_oversized_gift_file(tmp_path):
+    from magic_moodle.question_bank import load_question_bank
+
+    source = tmp_path / "large.gift"
+    source.write_text("x" * (5 * 1024 * 1024 + 1), encoding="utf-8")
+    with pytest.raises(GiftParseError, match="przekracza limit 5 MiB"):
+        load_question_bank(source)
+
+
+def test_question_bank_rejects_symlinked_gift_outside_directory(tmp_path):
+    from magic_moodle.question_bank import load_question_bank
+
+    bankdir = tmp_path / "bank"
+    bankdir.mkdir()
+    outside = tmp_path / "outside.gift"
+    outside.write_text("::q:: Pytanie? {=Tak ~Nie}", encoding="utf-8")
+    try:
+        (bankdir / "linked.gift").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    with pytest.raises(GiftParseError, match="wychodzi poza katalog banku"):
+        load_question_bank(bankdir)
