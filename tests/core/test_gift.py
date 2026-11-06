@@ -120,3 +120,14 @@ def test_xml_escapes_question_text_and_answer_content() -> None:
     root = ET.fromstring(to_moodle_xml(bank))
     assert "2 < 3" in root.findtext(".//questiontext/text")
     assert "Tak & oczywiście" in root.findtext(".//answer/text")
+
+
+def test_loads_real_med10_question_bank() -> None:
+    from pathlib import Path
+
+    from magic_moodle.question_bank import load_question_bank
+
+    repository = Path(__file__).resolve().parents[2]
+    bank = load_question_bank(repository / "courses" / "03-kurs-masazysta-med10" / "question-bank")
+    assert len(bank.questions) > 20
+    assert {"essay", "matching", "multichoice", "shortanswer", "truefalse"} <= set(bank.by_type())
