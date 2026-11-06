@@ -10,6 +10,15 @@ def test_inside_rejects_parent_traversal(tmp_path: Path):
     assert not server._inside(base.parent / "outside", base)
 
 
+def test_allowed_host_blocks_dns_rebinding():
+    assert server._is_allowed_host("127.0.0.1:8765")
+    assert server._is_allowed_host("localhost:8765")
+    assert server._is_allowed_host("[::1]:8765")
+    assert not server._is_allowed_host("attacker.example:8765")
+    assert not server._is_allowed_host("127.0.0.1.evil.example:8765")
+    assert not server._is_allowed_host(None)
+
+
 def test_list_courses_reads_course_metadata(tmp_path: Path, monkeypatch):
     course = tmp_path / "sample"
     course.mkdir()
