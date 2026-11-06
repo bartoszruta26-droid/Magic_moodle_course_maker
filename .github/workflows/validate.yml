@@ -1,0 +1,22 @@
+name: Validate course repository
+
+on:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - name: Validate MED.10 course structure
+        run: python -m magic_moodle inspect courses/03-kurs-masazysta-med10
+      - name: Run core regression tests
+        run: python -m pytest -q
