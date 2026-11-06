@@ -19,6 +19,7 @@ class create_quiz extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Quiz name'),
             'intro' => new \external_value(PARAM_RAW, 'Quiz introduction HTML', VALUE_DEFAULT, ''),
             'gift' => new \external_value(PARAM_RAW, 'GIFT source text'),
@@ -36,13 +37,14 @@ class create_quiz extends \external_api {
     public static function execute(
         $courseid, $sectionnum, $name, $intro, $gift, $timelimit = 0,
         $attempts = 1, $grade = 10, $passingpercent = 0, $shuffleanswers = true,
-        $questionsperpage = 1, $completionenabled = false, $completiontype = 'grade'
+        $questionsperpage = 1, $completionenabled = false, $completiontype = 'grade', $idnumber = ''
     ) {
         global $CFG, $DB;
 
         $params = self::validate_parameters(self::execute_parameters(), [
             'courseid' => $courseid,
             'sectionnum' => $sectionnum,
+            'idnumber' => $idnumber,
             'name' => $name,
             'intro' => $intro,
             'gift' => $gift,
@@ -94,7 +96,7 @@ class create_quiz extends \external_api {
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress) && $existing->modname === 'quiz'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && $existing->name === $params['name']) {
+                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
@@ -158,7 +160,7 @@ class create_quiz extends \external_api {
         $moduleinfo->completionexpected = 0;
         $moduleinfo->showdescription = 0;
         $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = '';
+        $moduleinfo->cmidnumber = $params['idnumber'];
 
         $tempdir = make_temp_directory('local_magicmoodle');
         $giftfile = tempnam($tempdir, 'gift');
