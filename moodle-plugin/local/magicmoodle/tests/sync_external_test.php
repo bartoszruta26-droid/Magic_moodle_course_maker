@@ -102,7 +102,7 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
                 );
                 $this->fail('Expected the injected database failure to abort the transaction.');
             } catch (\Throwable $exception) {
-                $this->assertNotSame('Expected the injected database failure to abort the transaction.', $exception->getMessage());
+                $this->assertStringContainsString('forced integration rollback', $exception->getMessage());
             }
         } finally {
             $DB->execute("DROP TRIGGER IF EXISTS {$trigger}");
