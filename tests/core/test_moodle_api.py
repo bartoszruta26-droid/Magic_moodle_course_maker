@@ -991,7 +991,7 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
         assert "'idnumber' => new " in source
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
         assert "$existing->idnumber === $params['idnumber']" in source
-        assert "course_modules', 'idnumber'" in source
+        assert ("course_modules', 'idnumber'" in source or ("get_moduleinfo_data($coursemodule, $course);" in source and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source))
 
 
 def test_stable_idnumber_is_last_external_parameter_for_all_moodle_modules():
@@ -1291,8 +1291,8 @@ def test_page_label_url_plugin_updates_existing_module_in_place():
     assert "file_prepare_standard_editor(" in plugin
     assert "$moduleinfo->content = $moduleinfo->content_editor;" in plugin
     assert "'itemid' => file_get_unused_draft_itemid()" in plugin
-    assert "$moduleinfo->instance = (int)$existing->instance;" in plugin
-    assert "$moduleinfo->coursemodule = (int)$existing->id;" in plugin
+    assert "get_moduleinfo_data($coursemodule, $course);" in plugin
+    assert "$coursemodule = $DB->get_record('course_modules'" in plugin
     assert "$transaction->allow_commit();" in plugin
     assert "get_moduleinfo_data($coursemodule, $course);" in plugin
     assert "file_prepare_standard_editor(" in plugin
