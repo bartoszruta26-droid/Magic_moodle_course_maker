@@ -18,11 +18,11 @@ class create_resource extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
-            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Resource activity name'),
             'filename' => new \external_value(PARAM_FILE, 'File name'),
             'contentbase64' => new \external_value(PARAM_RAW, 'Base64 encoded file content'),
             'intro' => new \external_value(PARAM_RAW, 'Resource introduction HTML', VALUE_DEFAULT, ''),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
