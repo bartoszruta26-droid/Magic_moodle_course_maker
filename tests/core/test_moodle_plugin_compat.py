@@ -67,3 +67,21 @@ def test_section_update_rebuilds_course_cache_inside_transaction():
     assert "rebuild_course_cache($course->id, true);" in source
     assert source.index("start_delegated_transaction()") < source.index("rebuild_course_cache")
     assert source.index("rebuild_course_cache") < source.index("allow_commit()")
+
+
+
+def test_create_endpoints_serialize_writes_by_source_identity():
+    endpoints = (
+        "create_activity.php",
+        "create_assignment.php",
+        "create_book.php",
+        "create_glossary.php",
+        "create_quiz.php",
+        "create_resource.php",
+    )
+    for filename in endpoints:
+        source = (PLUGIN / "classes" / "external" / filename).read_text(encoding="utf-8")
+        assert "lock_config::get_lock_factory('local_magicmoodle')" in source
+        assert "get_lock($lockkey, 30)" in source
+        assert "$lock->release();" in source
+        assert "hash('sha256'" in source
