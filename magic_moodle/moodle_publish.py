@@ -767,7 +767,13 @@ def publish_course(
             "course": remote_course,
             "course_created": created,
             "sections_updated": len(section_results),
+            # Keep the legacy key for callers; the new keys make synchronization outcomes explicit.
             "activities_created": activity_results,
+            "activities_processed": activity_results,
+            "activities_updated": [
+                item for item in activity_results
+                if isinstance(item, dict) and item.get("updated") is True
+            ],
             "state_file": str(state_path) if state_path is not None else None,
         }
     except MoodleAPIError:

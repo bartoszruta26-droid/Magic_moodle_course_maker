@@ -8,6 +8,7 @@ use invalid_parameter_exception;
 
 require_once($CFG->libdir . '/externallib.php');
 require_once($CFG->dirroot . '/course/modlib.php');
+require_once($CFG->dirroot . '/mod/page/locallib.php');
 
 class create_activity extends \external_api {
     public static function execute_parameters() {
@@ -94,14 +95,44 @@ class create_activity extends \external_api {
                             && $existing->idnumber !== $params['idnumber']) {
                         throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
                     }
-                    if ($params['idnumber'] !== ''
-                            && $existing->idnumber === $params['idnumber']
-                            && $existing->name !== $params['name']) {
-                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
-                    }
     
-                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    // Re-publishing a source activity is an update, not a no-op.
+                    // Keep the existing course-module and module-instance identifiers.
+                    $transaction = $DB->start_delegated_transaction();
+                    try {
+                        $safecontent = clean_text($params['content'], FORMAT_HTML);
+                        $coursemodule = $DB->get_record('course_modules', [
+                            'id' => $existing->id,
+                            'course' => $course->id,
+                        ], '*', MUST_EXIST);
+                        // Seed fields from Moodle edit data so settings omitted locally are preserved.
+                        list($coursemodule, $modulecontext, $module, $moduleinfo, $courseSection) =
+                            get_moduleinfo_data($coursemodule, $course);
+                        $moduleinfo->name = $params['name'];
+                        if ($params['idnumber'] !== '') {
+                            $moduleinfo->cmidnumber = $params['idnumber'];
+                        }
+
+                        if ($params['modname'] === 'page') {
+                            $editoroptions = page_get_editor_options($modulecontext);
+                            $moduleinfo = file_prepare_standard_editor(
+                                $moduleinfo, 'content', $editoroptions, $modulecontext, 'mod_page', 'content', $moduleinfo->id
+                            );
+                            $moduleinfo->content = $moduleinfo->content_editor;
+                            $moduleinfo->content['text'] = $safecontent;
+                            $moduleinfo->content['format'] = FORMAT_HTML;
+                            $moduleinfo->contentformat = FORMAT_HTML;
+                        } else if ($params['modname'] === 'label') {
+                            $moduleinfo->intro = $safecontent;
+                            $moduleinfo->introformat = FORMAT_HTML;
+                        } else {
+                            $moduleinfo->externalurl = $params['externalurl'];
+                        }
+
+                        update_moduleinfo($coursemodule, $moduleinfo, $course);
+                        $transaction->allow_commit();
+                    } catch (\Throwable $exception) {
+                        $transaction->rollback($exception);
                     }
                     return [
                         'cmid' => (int)$existing->id,
@@ -109,6 +140,7 @@ class create_activity extends \external_api {
                         'modname' => $params['modname'],
                         'name' => $params['name'],
                         'created' => false,
+                        'updated' => true,
                     ];
                 }
             }
@@ -136,7 +168,11 @@ class create_activity extends \external_api {
             $moduleinfo->cmidnumber = $params['idnumber'];
     
             if ($params['modname'] === 'page') {
-                $moduleinfo->content = $safecontent;
+                $moduleinfo->content = [
+                    'text' => $safecontent,
+                    'format' => FORMAT_HTML,
+                    'itemid' => file_get_unused_draft_itemid(),
+                ];
                 $moduleinfo->contentformat = FORMAT_HTML;
                 $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
                 $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
@@ -170,6 +206,7 @@ class create_activity extends \external_api {
                 'modname' => $params['modname'],
                 'name' => $params['name'],
                 'created' => true,
+                'updated' => false,
             ];
         } finally {
             $lock->release();
@@ -183,6 +220,7 @@ class create_activity extends \external_api {
             'modname' => new \external_value(PARAM_TEXT, 'Module name'),
             'name' => new \external_value(PARAM_TEXT, 'Activity name'),
             'created' => new \external_value(PARAM_BOOL, 'Whether a new activity was created'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether an existing activity was updated'),
         ]);
     }
 }

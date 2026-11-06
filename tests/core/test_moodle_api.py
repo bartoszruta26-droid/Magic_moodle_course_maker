@@ -711,7 +711,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110610;" in version
+    assert "$plugin->version = 2026110611;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -817,7 +817,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110610;" in version
+    assert "$plugin->version = 2026110611;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
@@ -961,7 +961,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "\\mod_glossary_external::add_entry" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110610;" in version
+    assert "$plugin->version = 2026110611;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
@@ -991,7 +991,7 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
         assert "'idnumber' => new " in source
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
         assert "$existing->idnumber === $params['idnumber']" in source
-        assert "course_modules', 'idnumber'" in source
+        assert ("course_modules', 'idnumber'" in source or ("get_moduleinfo_data($coursemodule, $course);" in source and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source))
 
 
 def test_stable_idnumber_is_last_external_parameter_for_all_moodle_modules():
@@ -1264,3 +1264,75 @@ def test_course_payload_rejects_overlong_course_names(tmp_path):
     course = _sample_course(tmp_path)
     with pytest.raises(MoodleAPIError, match="short_name"):
         build_publish_plan(replace(course, short_name="X" * 101), 2)
+
+
+def test_create_activity_sends_stable_idnumber_for_repeatable_sync():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    with patch.object(client, "call", return_value={"created": False, "cmid": 91}) as call:
+        result = client.create_activity(7, 1, {
+            "type": "page",
+            "name": "Zmieniona nazwa strony",
+            "content": "<p>Zmieniona treść</p>",
+            "idnumber": "mm-source-identity",
+        })
+    assert result["created"] is False
+    assert call.call_args.args[0] == "local_magicmoodle_create_activity"
+    assert call.call_args.args[1]["idnumber"] == "mm-source-identity"
+    assert call.call_args.args[1]["content"] == "<p>Zmieniona treść</p>"
+
+
+def test_page_label_url_plugin_updates_existing_module_in_place():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_activity.php"
+    ).read_text(encoding="utf-8")
+    assert "update_moduleinfo($coursemodule, $moduleinfo, $course);" in plugin
+    assert "This source idnumber already belongs to an activity with a different name" not in plugin
+    assert "file_prepare_standard_editor(" in plugin
+    assert "$moduleinfo->content = $moduleinfo->content_editor;" in plugin
+    assert "'itemid' => file_get_unused_draft_itemid()" in plugin
+    assert "get_moduleinfo_data($coursemodule, $course);" in plugin
+    assert "$coursemodule = $DB->get_record('course_modules'" in plugin
+    assert "$transaction->allow_commit();" in plugin
+    assert "get_moduleinfo_data($coursemodule, $course);" in plugin
+    assert "file_prepare_standard_editor(" in plugin
+    assert "$moduleinfo->visible = 1;" not in plugin[plugin.index("// Re-publishing a source activity is an update"):plugin.index("update_moduleinfo($coursemodule, $moduleinfo, $course);")]
+
+
+def test_publish_reports_existing_basic_activity_as_updated(tmp_path):
+    course = _sample_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_activity"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "TEST"}, False)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_activity(self, courseid, sectionnum, activity):
+            return {
+                "cmid": 91, "instanceid": 81, "modname": "page",
+                "name": activity["name"], "created": False, "updated": True,
+            }
+
+    result = publish_course(FakeClient(), course, 2)
+    assert len(result["activities_processed"]) == 1
+    assert result["activities_updated"][0]["cmid"] == 91
+
+
+def test_basic_activity_endpoint_exposes_update_outcome():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_activity.php"
+    ).read_text(encoding="utf-8")
+    assert "'updated' => true" in plugin
+    assert "'updated' => false" in plugin
+    assert "'updated' => new \\external_value(PARAM_BOOL" in plugin
