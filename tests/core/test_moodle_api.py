@@ -589,19 +589,19 @@ def _sample_assignment_course(tmp_path: Path):
     assignmentdir = section / "assignment-01"
     assignmentdir.mkdir(parents=True)
     (tmp_path / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs testowy\\n  short_name: ASSIGNTEST\\n",
+        "course:\n  full_name: Kurs testowy\n  short_name: ASSIGNTEST\n",
         encoding="utf-8",
     )
     (section / "section.yaml").write_text(
-        "id: '01'\\nname: Prace\\nmodules:\\n"
-        "  - type: assignment\\n    ref: assignment-01\\n    name: Praca zaliczeniowa\\n",
+        "id: '01'\nname: Prace\nmodules:\n"
+        "  - type: assignment\n    ref: assignment-01\n    name: Praca zaliczeniowa\n",
         encoding="utf-8",
     )
     (assignmentdir / "assignment.yaml").write_text(
-        "intro: Opis zadania.\\nsubmission_type: both\\n"
-        "grade: 100\\nmax_files: 3\\nmax_file_size: 10485760\\n"
-        "completion:\\n  enabled: true\\n"
-        "submission_drafts: true\\nrequire_submission_statement: false\\n",
+        "intro: Opis zadania.\nsubmission_type: both\n"
+        "grade: 100\nmax_files: 3\nmax_file_size: 10485760\n"
+        "completion:\n  enabled: true\n"
+        "submission_drafts: true\nrequire_submission_statement: false\n",
         encoding="utf-8",
     )
     return load_course(tmp_path)
