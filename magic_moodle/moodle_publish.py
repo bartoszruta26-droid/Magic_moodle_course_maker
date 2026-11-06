@@ -106,19 +106,33 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     warnings: list[str] = []
     for section_index, section in enumerate(course.sections):
         for activity in section.activities:
-            if activity.kind not in {"page", "label"}:
+            if activity.kind not in {"page", "label", "url"}:
                 warnings.append(
                     f"Sekcja {section_index}, '{activity.name}': typ '{activity.kind}' "
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
                 )
                 continue
             source = "\n\n".join(activity.content.values())
-            activities.append({
+            item = {
                 "sectionnum": section_index,
                 "type": activity.kind,
                 "name": activity.name,
                 "content": _markdown_to_html(source),
-            })
+            }
+            if activity.kind == "url":
+                target_url = (
+                    activity.resource.get("externalurl")
+                    or activity.resource.get("url")
+                    or activity.config.get("externalurl")
+                    or activity.config.get("url")
+                )
+                if not isinstance(target_url, str) or not target_url.strip():
+                    warnings.append(
+                        f"Aktywność URL '{activity.name}' nie zawiera pola externalurl/url."
+                    )
+                    continue
+                item["externalurl"] = target_url.strip()
+            activities.append(item)
     return PublishPlan(payload, tuple(activities), tuple(warnings))
 
 
