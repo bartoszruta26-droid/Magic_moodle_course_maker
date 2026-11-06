@@ -66,7 +66,10 @@ def _append_question(root: ET.Element, question: Question) -> None:
     node = _element(root, "question", type=question.qtype)
     name = _element(node, "name")
     _element(name, "text", question.name)
-    _text_field(\n        node, "questiontext",\n        _convert_gift_cloze(question.text) if question.qtype == "multianswer" else question.text,\n    )
+    _text_field(
+        node, "questiontext",
+        _convert_gift_cloze(question.text) if question.qtype == "multianswer" else question.text,
+    )
     _text_field(node, "generalfeedback", question.general_feedback)
     _element(node, "defaultgrade", "1.0000000")
     _element(node, "penalty", "0.3333333")
