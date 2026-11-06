@@ -70,3 +70,31 @@ Testy jednostkowe i kontrola składni nie potwierdzają zachowania update_module
 - Moodle 4.1 — Glossary: https://phpdoc.moodledev.io/4.1/d4/d48/group__mod__glossary.html
 - Moodle 4.1 — Glossary update_entry: https://phpdoc.moodledev.io/4.1/d3/dcd/classmod__glossary_1_1external_1_1update__entry.html
 - Moodle 4.1 — update_moduleinfo/get_moduleinfo_data: https://wimski.org/api/4.1/dc/da2/modlib_8php.html
+
+## Etap 2 — Glossary (wdrażany)
+
+### Zakres implementacji
+
+- Każde hasło otrzymuje stabilny `sourceid`. Preferowane pole w lokalnym YAML to `source_id` (akceptowane jest również `id`).
+- Dla zgodności ze starszymi kursami bez `source_id` publikator generuje identyfikator na podstawie znormalizowanego terminu. Taki identyfikator pozostaje stabilny tylko dopóki termin się nie zmienia; przy planowanej zmianie terminu należy jawnie ustawić `source_id`.
+- Manifest w wersji 2 przechowuje mapowanie `sourceid → entryid` w rekordzie aktywności Glossary.
+- Zmiana terminu lub definicji aktualizuje wpis przez natywne `\\mod_glossary\\external\\update_entry::execute`, zachowując `entryid`.
+- Nowe hasła są dodawane przez `mod_glossary_external::add_entry()`; zwrócone identyfikatory są zapisywane w manifeście.
+- Wpisy usunięte ze źródła nie są automatycznie kasowane w Moodle. Ich mapowania pozostają w manifeście, aby późniejsze przywrócenie źródłowego `source_id` nie utworzyło duplikatu.
+- Jeśli istniejący słownik zawiera hasła, ale nie ma mapowania w manifeście, endpoint odmawia synchronizacji zamiast dopisywać duplikaty.
+- Jeśli mapowany wpis ma załączniki lub pliki osadzone, endpoint odmawia automatycznej aktualizacji do czasu wdrożenia pełnej obsługi zachowania tych plików.
+- Aktualizacja zachowuje aliasy, kategorie oraz ustawienia automatycznego linkowania, jeśli są włączone.
+
+### Manifest i zmiany treści
+
+Manifest v2 wiąże się z witryną Moodle, nazwą skróconą kursu i skrótem tożsamości aktywności (typ, stabilny `idnumber`, sekcja). Skrót treści jest aktualizowany po pomyślnym odnalezieniu tego samego kursu. Dzięki temu można ponownie opublikować zmienioną treść przy zachowaniu mapowań elementów podrzędnych. Zmiana tożsamości kursu lub aktywności nadal powoduje odrzucenie manifestu.
+
+Manifest v1 jest migrowany do v2 tylko wtedy, gdy jego dotychczasowy skrót pełnego planu nadal pasuje. Starszy manifest bez mapowania haseł nie jest automatycznie uzupełniany przez zgadywanie.
+
+### Zakres nadal otwarty
+
+Book nie jest jeszcze synchronizowany. Aktualizacja rozdziałów wymaga analogicznego mapowania `source_id → chapter id`, zachowania ukrycia, kolejności i ustawień rozdziałów oraz bezpiecznej obsługi plików osadzonych. Do czasu wdrożenia tego adaptera istniejący Book pozostaje bez zmian.
+
+### Ograniczenia testów
+
+Testy statyczne i jednostkowe nie potwierdzają jeszcze aktualizacji wpisów w działającym Moodle 4.1. W szczególności wymagane są testy rzeczywistego API `update_entry`, wycofania transakcji po błędzie pośrednim, aliasów/kategorii, załączników oraz współbieżności.
