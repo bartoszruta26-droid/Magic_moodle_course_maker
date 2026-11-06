@@ -495,7 +495,7 @@ def _load_or_create_publish_state(
 ) -> dict[str, Any]:
     if path.is_symlink():
         raise MoodleAPIError("Plik manifestu publikacji nie może być dowiązaniem symbolicznym.")
-    site_root = site.get("wwwroot")
+    site_root = site.get("siteurl") or site.get("wwwroot")
     if not isinstance(site_root, str) or not site_root.strip():
         raise MoodleAPIError("Moodle nie zwrócił wwwroot; nie można bezpiecznie powiązać manifestu z witryną.")
     site_fingerprint = hashlib.sha256(site_root.rstrip("/").encode("utf-8")).hexdigest()
