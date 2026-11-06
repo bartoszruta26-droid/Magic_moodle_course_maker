@@ -58,7 +58,7 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - Token jest pobierany wyłącznie ze zmiennej środowiskowej; nigdy nie umieszczaj go w YAML, CLI ani repozytorium.
 - Konto techniczne powinno mieć minimalne wymagane role i capabilities.
 - REST Moodle jest wywoływany metodą POST, z kodowaniem parametrów tablicowych Moodle.
-- Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs; przed ponownym uruchomieniem sprawdź kurs i jego aktywności.
+- Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs. Komunikat błędu wskazuje sekcję lub aktywność, pozycję w kolejce, identyfikator `idnumber` i liczbę wcześniej obsłużonych aktywności. Po usunięciu przyczyny można ponowić całe polecenie: kurs i aktywności są rozpoznawane idempotentnie, więc wcześniej utworzone elementy nie są duplikowane.
 - Idempotencja obejmuje wyszukanie kursu po shortname oraz stabilne identyfikatory źródłowe `idnumber` wyliczane z kursu, sekcji, typu i ścieżki `ref`. Zmiana nazwy aktywności nie tworzy duplikatu; dla wcześniej utworzonych aktywności bez `idnumber` identyfikator jest uzupełniany przy ponownym odnalezieniu po nazwie. Istniejąca aktywność Book jest pozostawiana bez zmian — synchronizacja treści istniejących aktywności będzie osobnym etapem.
 - Wbudowane tworzenie aktywności obejmuje Page, Label, URL, Book, Quiz i Assignment. Synchronizacja treści już istniejących aktywności wymaga dalszego adaptera aktualizacji.
 - Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
