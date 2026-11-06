@@ -246,9 +246,25 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     if float(activity.resource["grade_passing"]) != float(completion["min_score"]):
                         warnings.append(f"Quiz '{activity.name}': grade_passing i completion.min_score muszą być zgodne.")
                         continue
+                syncfields = ["name"]
+                if "intro" in activity.resource or "markdown_file" in activity.resource:
+                    syncfields.append("intro")
+                for sourcefield, targetfield in (
+                    ("time_limit", "timelimit"),
+                    ("attempts", "attempts"),
+                    ("grade", "grade"),
+                    ("grade_passing", "passingpercent"),
+                    ("shuffle_answers", "shuffleanswers"),
+                    ("questions_per_page", "questionsperpage"),
+                ):
+                    if sourcefield in activity.resource:
+                        syncfields.append(targetfield)
+                if "completion" in activity.resource:
+                    syncfields.append("completion")
                 item.update({
                     "intro": _markdown_to_html(intro),
                     "gift": gift_source,
+                    "giftsha256": hashlib.sha256(gift_source.encode("utf-8")).hexdigest(),
                     "timelimit": timelimit,
                     "attempts": attempts,
                     "grade": float(grade),
@@ -259,6 +275,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "completiontype": completiontype,
                     "questioncount": len(bank.questions),
                     "questiontypes": bank.by_type(),
+                    "syncfields": syncfields,
                 })
             if activity.kind == "glossary":
                 entries = activity.resource.get("entries", [])
@@ -707,10 +724,10 @@ def publish_course(
             "activity_count": len(plan.activities),
             "activities": list(plan.activities),
         }
-    if any(activity["type"] in {"glossary", "book", "file"} for activity in plan.activities) and state_file is None:
+    if any(activity["type"] in {"glossary", "book", "file", "quiz"} for activity in plan.activities) and state_file is None:
         raise MoodleAPIError(
-            "Synchronizacja Book, Glossary i Resource wymaga --state-file, aby zachować mapowania "
-            "source_id oraz identyfikatory plików zarządzanych przez publikator."
+            "Synchronizacja Book, Glossary, Resource i Quiz wymaga --state-file, aby zachować mapowania "
+            "elementów podrzędnych oraz skróty treści zarządzanych przez publikator."
         )
 
     site = client.site_info()
@@ -809,7 +826,11 @@ def publish_course(
                         book_activity["chapterids"] = previous.get("chapterids", [])
                     result = client.create_book(course_id, activity["sectionnum"], book_activity)
                 elif activity["type"] == "quiz":
-                    result = client.create_quiz(course_id, activity["sectionnum"], activity)
+                    quiz_activity = dict(activity)
+                    if state is not None:
+                        previous = state["activities_completed"].get(activity["idnumber"], {})
+                        quiz_activity["previousgiftsha256"] = previous.get("giftsha256", "")
+                    result = client.create_quiz(course_id, activity["sectionnum"], quiz_activity)
                 elif activity["type"] == "assignment":
                     result = client.create_assignment(course_id, activity["sectionnum"], activity)
                 elif activity["type"] == "file":
@@ -856,6 +877,7 @@ def publish_course(
                     **({"entryids": result.get("entryids", [])} if activity["type"] == "glossary" and isinstance(result, dict) else {}),
                     **({"chapterids": result.get("chapterids", [])} if activity["type"] == "book" and isinstance(result, dict) else {}),
                     **({"filename": result.get("filename"), "sha256": result.get("sha256")} if activity["type"] == "file" and isinstance(result, dict) else {}),
+                    **({"giftsha256": result.get("giftsha256")} if activity["type"] == "quiz" and isinstance(result, dict) else {}),
                 }
                 state["failed_step"] = None
                 state["failed_activity_idnumber"] = None
