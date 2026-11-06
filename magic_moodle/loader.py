@@ -77,6 +77,12 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
                     path = _safe_path(target, markdown_file, str(config_path))
                     if path.is_file():
                         content[markdown_file] = path.read_text(encoding="utf-8")
+            elif kind == "quiz":
+                questions_file = resource.get("questions_file")
+                if isinstance(questions_file, str):
+                    path = _safe_path(target, questions_file, str(config_path))
+                    if path.is_file():
+                        content[questions_file] = path.read_text(encoding="utf-8")
 
     elif kind in {"page", "label"} and target.is_file():
         content[target.name] = target.read_text(encoding="utf-8")
