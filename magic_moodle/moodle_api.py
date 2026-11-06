@@ -252,6 +252,7 @@ class MoodleClient:
                 "intro": activity.get("intro", ""),
                 "previousfilename": activity.get("previousfilename", ""),
                 "previoussha256": activity.get("previoussha256", ""),
+                "syncfields": activity.get("syncfields", ["name", "file"]),
                 "idnumber": activity.get("idnumber", ""),
             },
         )
