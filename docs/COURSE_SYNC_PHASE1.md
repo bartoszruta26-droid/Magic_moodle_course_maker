@@ -93,8 +93,23 @@ Manifest v1 jest migrowany do v2 tylko wtedy, gdy jego dotychczasowy skrót peł
 
 ### Zakres nadal otwarty
 
-Book nie jest jeszcze synchronizowany. Aktualizacja rozdziałów wymaga analogicznego mapowania `source_id → chapter id`, zachowania ukrycia, kolejności i ustawień rozdziałów oraz bezpiecznej obsługi plików osadzonych. Do czasu wdrożenia tego adaptera istniejący Book pozostaje bez zmian.
+Book jest teraz synchronizowany w miejscu przez mapowanie `source_id → chapter id`. Aktualizacja zachowuje identyfikator rozdziału, pole `hidden`, `timecreated` i `importsrc`, a także ustawia nową kolejność, tytuł, treść i relację podrozdziału. Zmiana rozdziału zawierającego pliki osadzone jest odrzucana do czasu wdrożenia pełnej obsługi File API. Rozdziały usunięte ze źródła pozostają w Moodle i w mapowaniu manifestu — publikator nie kasuje danych automatycznie.
 
 ### Ograniczenia testów
 
 Testy statyczne i jednostkowe nie potwierdzają jeszcze aktualizacji wpisów w działającym Moodle 4.1. W szczególności wymagane są testy rzeczywistego API `update_entry`, wycofania transakcji po błędzie pośrednim, aliasów/kategorii, załączników oraz współbieżności.
+
+
+## Etap 3 — Book (wdrażany)
+
+- Każdy rozdział ma stabilny `sourceid`; preferowane jest jawne pole `source_id` (akceptowane jest również `id`). W kursach starszych bez takiego pola publikator generuje identyfikator z tytułu. Zmiana tytułu wymaga jawnego `source_id`, jeśli ma zachować istniejący `chapterid`.
+- Manifest v2 przechowuje mapowanie `sourceid → chapterid` w rekordzie aktywności Book.
+- Istniejące rozdziały są aktualizowane przez Moodle DML w transakcji, z zachowaniem ich identyfikatorów i pól niezdefiniowanych lokalnie; emitowane jest zdarzenie `mod_book\\event\\chapter_updated`.
+- Nowe rozdziały są dodawane, a mapowania zwracane i zapisywane w manifeście.
+- Rozdziały usunięte ze źródła nie są automatycznie usuwane. Ich mapowania są zachowywane, aby późniejsze przywrócenie `source_id` ponownie wykorzystało ten sam obiekt.
+- Jeśli istniejący Book zawiera rozdziały, ale nie ma mapowania w manifeście, endpoint odmawia synchronizacji zamiast tworzyć duplikaty.
+- Jeśli mapowany rozdział ma pliki w obszarze `mod_book/chapter`, aktualizacja jest odrzucana. Wymagana jest obsługa edytora i File API dla plików osadzonych.
+
+### Walidacja integracyjna Book
+
+Wymagane testy na Moodle 4.1: aktualizacja treści i zmiana kolejności bez zmiany `chapterid`, zachowanie ukrycia rozdziału, zdarzenia `chapter_updated`, wycofanie po błędzie w drugim rozdziale, zachowanie plików (obecnie testowane przez fail-closed), oraz ponowienie publikacji po awarii z zachowaniem mapowania.
