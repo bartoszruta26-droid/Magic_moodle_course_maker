@@ -3,12 +3,10 @@ namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
-
 use context_course;
 use invalid_parameter_exception;
-require_once($CFG->libdir . '/externallib.php');
 
-// Moodle 4.1 uses the legacy global External API classes.
+require_once($CFG->libdir . '/externallib.php');
 
 class update_section extends \external_api {
     public static function execute_parameters() {
@@ -43,7 +41,11 @@ class update_section extends \external_api {
         $DB->update_record('course_sections', $section);
         rebuild_course_cache($course->id, true);
 
-        return ['courseid' => (int)$course->id, 'sectionnum' => (int)$params['sectionnum'], 'updated' => true];
+        return [
+            'courseid' => (int)$course->id,
+            'sectionnum' => (int)$params['sectionnum'],
+            'updated' => true,
+        ];
     }
 
     public static function execute_returns() {
