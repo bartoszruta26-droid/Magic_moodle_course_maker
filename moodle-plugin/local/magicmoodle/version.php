@@ -2,7 +2,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_magicmoodle';
-$plugin->version = 2026110602;
+$plugin->version = 2026110603;
 $plugin->requires = 2022112800; // Moodle 4.1.0+ (including 4.1.8).
 $plugin->maturity = MATURITY_ALPHA;
-$plugin->release = '0.1.2';
+$plugin->release = '0.1.3';
