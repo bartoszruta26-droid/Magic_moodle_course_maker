@@ -704,3 +704,109 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
     assert "$plugin->version = 2026110607;" in version
+
+
+def _sample_file_course(tmp_path: Path):
+    section = tmp_path / "sections" / "01"
+    filesdir = section / "files"
+    filesdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs plików\n  short_name: FILETEST\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: file\n    ref: files/manual.pdf\n    name: Instrukcja PDF\n",
+        encoding="utf-8",
+    )
+    (filesdir / "manual.pdf").write_bytes(b"%PDF-1.4\\x00sample binary content")
+    return load_course(tmp_path)
+
+
+def test_file_resource_is_loaded_as_base64_and_preflighted(tmp_path):
+    import base64
+    plan = build_publish_plan(_sample_file_course(tmp_path), 2)
+    assert not plan.warnings
+    item = plan.activities[0]
+    assert item["type"] == "file"
+    assert item["filename"] == "manual.pdf"
+    assert base64.b64decode(item["contentbase64"]) == b"%PDF-1.4\\x00sample binary content"
+    assert item["filesize"] == len(b"%PDF-1.4\\x00sample binary content")
+
+
+def test_file_resource_preflight_rejects_path_like_filename(tmp_path):
+    course = _sample_file_course(tmp_path)
+    from dataclasses import replace
+    section = course.sections[0]
+    activity = section.activities[0]
+    changed = replace(activity, content={"../manual.pdf": activity.content["manual.pdf"]})
+    course = replace(course, sections=(replace(section, activities=(changed,)),))
+    plan = build_publish_plan(course, 2)
+    assert any("nieprawidłowa nazwa pliku" in warning for warning in plan.warnings)
+
+
+def test_file_resource_preflight_rejects_invalid_base64(tmp_path):
+    course = _sample_file_course(tmp_path)
+    from dataclasses import replace
+    section = course.sections[0]
+    activity = section.activities[0]
+    changed = replace(activity, content={"manual.pdf": "%%%not-base64%%%"})
+    course = replace(course, sections=(replace(section, activities=(changed,)),))
+    plan = build_publish_plan(course, 2)
+    assert any("nieprawidłowe kodowanie base64" in warning for warning in plan.warnings)
+
+
+def test_create_resource_calls_registered_moodle_service():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    with patch.object(client, "call", return_value={"created": True}) as call:
+        client.create_resource(7, 1, {
+            "name": "Instrukcja PDF",
+            "filename": "manual.pdf",
+            "contentbase64": "JVBERi0xLjQ=",
+            "intro": "<p>Dokument</p>",
+        })
+    assert call.call_args.args[0] == "local_magicmoodle_create_resource"
+    assert call.call_args.args[1]["filename"] == "manual.pdf"
+    assert call.call_args.args[1]["contentbase64"] == "JVBERi0xLjQ="
+
+
+def test_publish_routes_file_to_moodle_resource_endpoint(tmp_path):
+    course = _sample_file_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_resource"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "FILETEST"}, True)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_resource(self, courseid, sectionnum, activity):
+            assert activity["filename"] == "manual.pdf"
+            return {"modname": "resource", "name": activity["name"], "created": True}
+
+        def create_activity(self, *args):
+            raise AssertionError("File must use create_resource")
+
+    result = publish_course(FakeClient(), course, 2)
+    assert result["activities_created"][0]["modname"] == "resource"
+
+
+def test_file_resource_endpoint_is_registered_and_limited():
+    root = Path(__file__).parents[2] / "moodle-plugin/local/magicmoodle"
+    plugin = (root / "classes/external/create_resource.php").read_text(encoding="utf-8")
+    services = (root / "db/services.php").read_text(encoding="utf-8")
+    version = (root / "version.php").read_text(encoding="utf-8")
+    assert "class create_resource extends \\\\external_api" in plugin
+    assert "base64_decode($params['contentbase64'], true)" in plugin
+    assert "5 * 1024 * 1024" in plugin
+    assert "file_get_unused_draft_itemid()" in plugin
+    assert "'local_magicmoodle_create_resource'" in services
+    assert "$plugin->version = 2026110608;" in version
