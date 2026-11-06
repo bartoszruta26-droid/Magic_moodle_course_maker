@@ -213,7 +213,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     continue
                 filename, encoded = next(iter(activity.content.items()))
                 if (not isinstance(filename, str) or not filename.strip()
-                        or filename in {".", ".."} or "/" in filename or "\\\\" in filename
+                        or filename in {".", ".."} or "/" in filename or chr(92) in filename
                         or len(filename) > 255):
                     warnings.append(f"Plik '{activity.name}': nieprawidłowa nazwa pliku.")
                     continue
