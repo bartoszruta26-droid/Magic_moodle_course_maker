@@ -39,7 +39,7 @@ class ValidationReport:
 
 def validate_course(course: Course) -> ValidationReport:
     report = ValidationReport()
-    root = course.root
+    root = course.root.resolve()
 
     if not (root / "course.yaml").is_file():
         report.add("error", "COURSE_CONFIG_MISSING", root, "Brak course.yaml.")
@@ -61,20 +61,52 @@ def validate_course(course: Course) -> ValidationReport:
                        "Brak opcjonalnego pliku section.md.")
 
         for activity in section.activities:
-            target = section.path / activity.ref
+            target = (section.path / activity.ref).resolve()
             if not target.exists():
                 report.add("error", "ACTIVITY_REF_MISSING", config,
                            f"Aktywność '{activity.name}' wskazuje nieistniejący zasób: {activity.ref}.")
                 continue
-            if not target.resolve().is_relative_to(section.path.resolve()):
+            if not target.is_relative_to(section.path.resolve()):
                 report.add("error", "ACTIVITY_REF_OUTSIDE_SECTION", config,
                            f"Odwołanie '{activity.ref}' wychodzi poza katalog sekcji.")
                 continue
-            if activity.kind == "book" and target.is_dir():
-                book_config = target / "book.yaml"
-                if not book_config.is_file():
+
+            if activity.kind == "book":
+                if not activity.resource:
                     report.add("warning", "BOOK_CONFIG_MISSING", target,
-                               "Katalog Book nie zawiera book.yaml.")
+                               "Nie wczytano konfiguracji book.yaml.")
+                chapters = activity.resource.get("chapters", [])
+                for index, chapter in enumerate(chapters if isinstance(chapters, list) else []):
+                    chapter_file = chapter.get("content_file") if isinstance(chapter, dict) else None
+                    if not isinstance(chapter_file, str) or chapter_file not in activity.content:
+                        report.add("error", "BOOK_CHAPTER_CONTENT_MISSING", target,
+                                   f"Brak treści rozdziału nr {index + 1} ({chapter_file!r}).")
+
+            elif activity.kind == "assignment":
+                if not activity.resource:
+                    report.add("warning", "ASSIGNMENT_CONFIG_MISSING", target,
+                               "Nie wczytano konfiguracji assignment.yaml.")
+                if not activity.content:
+                    report.add("warning", "ASSIGNMENT_INSTRUCTIONS_MISSING", target,
+                               "Brak pliku instrukcji wskazanego przez markdown_file.")
+
+            elif activity.kind == "glossary":
+                entries = activity.resource.get("entries")
+                if not isinstance(entries, list) or not entries:
+                    report.add("error", "GLOSSARY_ENTRIES_MISSING", target,
+                               "Słownik musi zawierać niepustą listę entries.")
+                else:
+                    for index, entry in enumerate(entries):
+                        if not isinstance(entry, dict) or not all(
+                            isinstance(entry.get(key), str) and entry[key].strip()
+                            for key in ("term", "definition")
+                        ):
+                            report.add("error", "GLOSSARY_ENTRY_INVALID", target,
+                                       f"Niepoprawny wpis słownika nr {index + 1}; wymagane są term i definition.")
+
+            elif activity.kind == "quiz" and not activity.resource:
+                report.add("warning", "QUIZ_CONFIG_MISSING", target,
+                           "Nie wczytano konfiguracji quiz.yaml.")
 
     # Sprawdź składnię wszystkich plików YAML w kursie, z pominięciem kopii zapasowych.
     for path in root.rglob("*"):
