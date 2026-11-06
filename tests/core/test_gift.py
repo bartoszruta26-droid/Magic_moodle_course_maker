@@ -131,6 +131,8 @@ def test_loads_real_med10_question_bank() -> None:
     bank = load_question_bank(repository / "courses" / "03-kurs-masazysta-med10" / "question-bank")
     assert len(bank.questions) > 20
     assert {"essay", "matching", "multichoice", "shortanswer", "truefalse"} <= set(bank.by_type())
+    xml = to_moodle_xml(bank, category="$course$/MED.10")
+    assert len(ET.fromstring(xml).findall("question")) == len(bank.questions) + 1
 
 
 def test_parses_legacy_med10_matching_layout() -> None:
