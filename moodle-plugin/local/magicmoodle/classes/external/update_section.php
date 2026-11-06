@@ -43,7 +43,7 @@ class update_section extends \external_api {
             $DB->update_record('course_sections', $section);
             rebuild_course_cache($course->id, true);
             $transaction->allow_commit();
-        } catch (\\Throwable $exception) {
+        } catch (\Throwable $exception) {
             $transaction->rollback($exception);
         }
 
