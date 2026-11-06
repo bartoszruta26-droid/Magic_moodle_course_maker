@@ -1412,3 +1412,32 @@ def test_publish_manifest_allows_content_change_with_stable_course_and_activity_
     assert client.lookup_calls == 1
     assert updated_state["identity_sha256"] == original_state["identity_sha256"]
     assert updated_state["plan_sha256"] != original_state["plan_sha256"]
+
+
+def test_book_chapter_explicit_source_id_survives_title_change(tmp_path):
+    section = tmp_path / "sections" / "01"
+    bookdir = section / "book"
+    bookdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\\n  full_name: Kurs książka\\n  short_name: BOOKIDENTITY\\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\\nname: Materiały\\nmodules:\\n"
+        "  - type: book\\n    ref: book\\n    name: Podręcznik\\n",
+        encoding="utf-8",
+    )
+    bookfile = bookdir / "book.yaml"
+    bookfile.write_text(
+        "book:\\n  chapters:\\n    - source_id: chapter-intro\\n"
+        "      title: Start\\n      content: Treść\\n",
+        encoding="utf-8",
+    )
+    first = build_publish_plan(load_course(tmp_path), 2).activities[0]["chapters"][0]["sourceid"]
+    bookfile.write_text(
+        "book:\\n  chapters:\\n    - source_id: chapter-intro\\n"
+        "      title: Wprowadzenie\\n      content: Zmieniona treść\\n",
+        encoding="utf-8",
+    )
+    second = build_publish_plan(load_course(tmp_path), 2).activities[0]["chapters"][0]["sourceid"]
+    assert first == second == "chapter-intro"
