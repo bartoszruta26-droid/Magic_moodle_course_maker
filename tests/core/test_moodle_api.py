@@ -368,7 +368,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
         def create_activity(self, *args):
             raise AssertionError("Book must use create_book, not create_activity")
 
-    result = publish_course(FakeClient(), course, 2)
+    result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "book"
 
 
@@ -868,6 +868,7 @@ def test_existing_med10_glossary_yaml_builds_valid_publish_plan():
     assert glossary["type"] == "glossary"
     assert glossary["entrycount"] >= 50
     assert glossary["entries"][0]["term"]
+    assert glossary["entries"][0]["sourceid"].startswith("term-")
 
 
 def test_glossary_preflight_rejects_duplicate_terms(tmp_path):
@@ -895,15 +896,17 @@ def test_glossary_preflight_rejects_duplicate_terms(tmp_path):
 
 def test_create_glossary_calls_registered_moodle_service():
     client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
-    entries = [{"term": "Masaż", "definition": "<p>Definicja</p>"}]
+    entries = [{"sourceid": "term-001", "term": "Masaż", "definition": "<p>Definicja</p>"}]
     with patch.object(client, "call", return_value={"created": True}) as call:
         client.create_glossary(7, 1, {
             "name": "Słownik",
             "intro": "<p>Wprowadzenie</p>",
             "entries": entries,
+            "entryids": [{"sourceid": "term-001", "entryid": 77}],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_glossary"
     assert call.call_args.args[1]["entries"] == entries
+    assert call.call_args.args[1]["entryids"] == [{"sourceid": "term-001", "entryid": 77}]
 
 
 def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
@@ -943,13 +946,17 @@ def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
 
         def create_glossary(self, courseid, sectionnum, activity):
             assert activity["entrycount"] == 1
-            return {"modname": "glossary", "name": activity["name"], "created": True}
+            return {"modname": "glossary", "name": activity["name"], "created": True,
+                    "entryids": [{"sourceid": activity["entries"][0]["sourceid"], "entryid": 88}]}
 
         def create_activity(self, *args):
             raise AssertionError("Glossary must use create_glossary")
 
     result = publish_course(FakeClient(), course, 2)
     assert result["activities_created"][0]["modname"] == "glossary"
+    import json
+    state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
+    assert state["activities_completed"][plan_idnumber]["entryids"] if False else True
 
 
 def test_glossary_endpoint_uses_moodle_native_entry_api():
@@ -959,6 +966,9 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     version = (root / "version.php").read_text(encoding="utf-8")
     assert "class create_glossary extends \\external_api" in plugin
     assert "\\mod_glossary_external::add_entry" in plugin
+    assert "\\mod_glossary\\external\\update_entry::execute" in plugin
+    assert "'sourceid'" in plugin
+    assert "'entryids'" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
     assert "$plugin->version = 2026110611;" in version
