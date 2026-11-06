@@ -229,7 +229,9 @@ class create_quiz extends \external_api {
                                 'itemnumber' => 0,
                             ]);
                             if ($gradeitem) {
-                                $newgradepass = (float)$params['grade'] * (float)$params['passingpercent'] / 100;
+                                $effectivegrade = in_array('grade', $syncfields, true)
+                                    ? (float)$params['grade'] : (float)$quiz->grade;
+                                $newgradepass = $effectivegrade * (float)$params['passingpercent'] / 100;
                                 if ($attemptcount > 0 && (float)$gradeitem->gradepass !== $newgradepass) {
                                     throw new invalid_parameter_exception(
                                         'Quiz passing grade cannot be changed after student attempts exist; grade history is protected.'
