@@ -1,6 +1,7 @@
 """Preflight and publish supported course content to a Moodle site."""
 from __future__ import annotations
 
+import base64
 from dataclasses import dataclass
 from typing import Any
 from urllib.parse import urlsplit
@@ -108,7 +109,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     warnings: list[str] = []
     for section_index, section in enumerate(course.sections):
         for activity in section.activities:
-            if activity.kind not in {"page", "label", "url", "book", "quiz", "assignment"}:
+            if activity.kind not in {"page", "label", "url", "book", "quiz", "assignment", "file"}:
                 warnings.append(
                     f"Sekcja {section_index}, '{activity.name}': typ '{activity.kind}' "
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
@@ -118,7 +119,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 "sectionnum": section_index,
                 "type": activity.kind,
                 "name": activity.name,
-                "content": _markdown_to_html("\n\n".join(activity.content.values())),
+                "content": "" if activity.kind == "file" else _markdown_to_html("\n\n".join(activity.content.values())),
             }
             if activity.kind == "quiz":
                 questions_file = activity.resource.get("questions_file", "questions.gift")
@@ -205,6 +206,37 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "completiontype": completiontype,
                     "questioncount": len(bank.questions),
                     "questiontypes": bank.by_type(),
+                })
+            if activity.kind == "file":
+                if len(activity.content) != 1:
+                    warnings.append(f"Plik '{activity.name}': aktywność musi wskazywać dokładnie jeden plik.")
+                    continue
+                filename, encoded = next(iter(activity.content.items()))
+                if (not isinstance(filename, str) or not filename.strip()
+                        or filename in {".", ".."} or "/" in filename or "\\\\" in filename
+                        or len(filename) > 255):
+                    warnings.append(f"Plik '{activity.name}': nieprawidłowa nazwa pliku.")
+                    continue
+                if not isinstance(encoded, str):
+                    warnings.append(f"Plik '{activity.name}': zawartość pliku musi być zakodowana base64.")
+                    continue
+                try:
+                    filebytes = base64.b64decode(encoded, validate=True)
+                except (ValueError, base64.binascii.Error):
+                    warnings.append(f"Plik '{activity.name}': nieprawidłowe kodowanie base64.")
+                    continue
+                if not filebytes or len(filebytes) > 5 * 1024 * 1024:
+                    warnings.append(f"Plik '{activity.name}': rozmiar musi mieścić się w zakresie 1 B–5 MiB.")
+                    continue
+                intro_source = activity.resource.get("intro", "")
+                if not isinstance(intro_source, str) or len(intro_source) > 20000:
+                    warnings.append(f"Plik '{activity.name}': intro musi być tekstem do 20 000 znaków.")
+                    continue
+                item.update({
+                    "filename": filename,
+                    "contentbase64": encoded,
+                    "intro": _markdown_to_html(intro_source),
+                    "filesize": len(filebytes),
                 })
             if activity.kind == "assignment":
                 intro_source = activity.resource.get("intro", "")
@@ -411,6 +443,8 @@ def publish_course(
             required.add("local_magicmoodle_create_quiz")
         elif activity["type"] == "assignment":
             required.add("local_magicmoodle_create_assignment")
+        elif activity["type"] == "file":
+            required.add("local_magicmoodle_create_resource")
     missing = sorted(required - functions)
     if missing:
         raise MoodleAPIError(
@@ -433,6 +467,8 @@ def publish_course(
             result = client.create_quiz(course_id, activity["sectionnum"], activity)
         elif activity["type"] == "assignment":
             result = client.create_assignment(course_id, activity["sectionnum"], activity)
+        elif activity["type"] == "file":
+            result = client.create_resource(course_id, activity["sectionnum"], activity)
         else:
             result = client.create_activity(course_id, activity["sectionnum"], activity)
         activity_results.append(result)
