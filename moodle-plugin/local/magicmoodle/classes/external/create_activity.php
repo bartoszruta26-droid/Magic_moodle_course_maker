@@ -105,38 +105,25 @@ class create_activity extends \external_api {
                     // Keep the existing course-module and module-instance identifiers.
                     $transaction = $DB->start_delegated_transaction();
                     try {
-                        $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
                         $safecontent = clean_text($params['content'], FORMAT_HTML);
-                        $moduleinfo = new \stdClass();
-                        $moduleinfo->modulename = $params['modname'];
-                        $moduleinfo->module = $moduleid;
-                        $moduleinfo->course = $course->id;
-                        $moduleinfo->section = $section->section;
-                        $moduleinfo->instance = (int)$existing->instance;
-                        $moduleinfo->coursemodule = (int)$existing->id;
+                        $coursemodule = $DB->get_record('course_modules', [
+                            'id' => $existing->id,
+                            'course' => $course->id,
+                        ], '*', MUST_EXIST);
+                        // Seed fields from Moodle edit data so settings omitted locally are preserved.
+                        list($coursemodule, $modulecontext, $module, $moduleinfo, $courseSection) =
+                            get_moduleinfo_data($coursemodule, $course);
                         $moduleinfo->name = $params['name'];
-                        $moduleinfo->intro = '';
-                        $moduleinfo->introformat = FORMAT_HTML;
-                        $moduleinfo->visible = 1;
-                        $moduleinfo->groupmode = 0;
-                        $moduleinfo->groupingid = 0;
-                        $moduleinfo->availability = null;
-                        $moduleinfo->completion = COMPLETION_TRACKING_NONE;
-                        $moduleinfo->completionview = 0;
-                        $moduleinfo->completionexpected = 0;
-                        $moduleinfo->showdescription = 0;
-                        $moduleinfo->visibleoncoursepage = 1;
-                        $moduleinfo->cmidnumber = $params['idnumber'] !== ''
-                            ? $params['idnumber'] : (string)$existing->idnumber;
+                        if ($params['idnumber'] !== '') {
+                            $moduleinfo->cmidnumber = $params['idnumber'];
+                        }
 
                         if ($params['modname'] === 'page') {
-                            $page = $DB->get_record('page', ['id' => $existing->instance], '*', MUST_EXIST);
-                            $modulecontext = \context_module::instance($existing->id);
                             $editoroptions = page_get_editor_options($modulecontext);
-                            $page = file_prepare_standard_editor(
-                                $page, 'content', $editoroptions, $modulecontext, 'mod_page', 'content', $page->id
+                            $moduleinfo = file_prepare_standard_editor(
+                                $moduleinfo, 'content', $editoroptions, $modulecontext, 'mod_page', 'content', $moduleinfo->id
                             );
-                            $moduleinfo->content = $page->content_editor;
+                            $moduleinfo->content = $moduleinfo->content_editor;
                             $moduleinfo->content['text'] = $safecontent;
                             $moduleinfo->content['format'] = FORMAT_HTML;
                             $moduleinfo->contentformat = FORMAT_HTML;
@@ -159,15 +146,10 @@ class create_activity extends \external_api {
                             $moduleinfo->printintro = 0;
                         }
 
-                        $coursemodule = $DB->get_record('course_modules', [
-                            'id' => $existing->id,
-                            'course' => $course->id,
-                        ], '*', MUST_EXIST);
                         update_moduleinfo($coursemodule, $moduleinfo, $course);
                         if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
                             $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
                         }
-                        rebuild_course_cache($course->id, true);
                         $transaction->allow_commit();
                     } catch (\Throwable $exception) {
                         $transaction->rollback($exception);
