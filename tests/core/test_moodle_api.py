@@ -950,7 +950,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     services = (root / "db/services.php").read_text(encoding="utf-8")
     version = (root / "version.php").read_text(encoding="utf-8")
     assert "class create_glossary extends \\external_api" in plugin
-    assert "\\\\mod_glossary_external::add_entry" in plugin
+    assert "\\mod_glossary_external::add_entry" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
     assert "$plugin->version = 2026110609;" in version
