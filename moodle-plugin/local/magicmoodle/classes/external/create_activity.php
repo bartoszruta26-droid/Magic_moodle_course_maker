@@ -14,6 +14,7 @@ class create_activity extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'modname' => new \external_value(PARAM_ALPHANUMEXT, 'Supported module: page, label or url'),
             'name' => new \external_value(PARAM_TEXT, 'Activity name'),
             'content' => new \external_value(PARAM_RAW, 'HTML content', VALUE_DEFAULT, ''),
@@ -21,12 +22,13 @@ class create_activity extends \external_api {
         ]);
     }
 
-    public static function execute($courseid, $sectionnum, $modname, $name, $content = '', $externalurl = '') {
+    public static function execute($courseid, $sectionnum, $modname, $name, $content = '', $externalurl = '', $idnumber = '') {
         global $DB;
 
         $params = self::validate_parameters(self::execute_parameters(), [
             'courseid' => $courseid,
             'sectionnum' => $sectionnum,
+            'idnumber' => $idnumber,
             'modname' => $modname,
             'name' => $name,
             'content' => $content,
@@ -62,7 +64,7 @@ class create_activity extends \external_api {
             if (empty($existing->deletioninprogress)
                     && $existing->modname === $params['modname']
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && $existing->name === $params['name']) {
+                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
@@ -93,7 +95,7 @@ class create_activity extends \external_api {
         $moduleinfo->completionexpected = 0;
         $moduleinfo->showdescription = 0;
         $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = '';
+        $moduleinfo->cmidnumber = $params['idnumber'];
 
         if ($params['modname'] === 'page') {
             $moduleinfo->content = $safecontent;
