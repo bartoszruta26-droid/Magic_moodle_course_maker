@@ -12,7 +12,9 @@
    - `local_magicmoodle_update_section`
    - `local_magicmoodle_create_activity`
    - `local_magicmoodle_create_book`
-   - `local_magicmoodle_create_quiz`\n   - `local_magicmoodle_create_assignment`\n   - `local_magicmoodle_create_resource`
+   - `local_magicmoodle_create_quiz`
+   - `local_magicmoodle_create_assignment`
+   - `local_magicmoodle_create_resource`
 
 Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
 **Administracja witryną → Serwer → Usługi sieciowe**. Funkcje zewnętrzne i uprawnienia konta muszą być jawnie przyznane. Plugin jest zgodny z mechanizmem External API w Moodle 4.1: klasy są ładowane z `lib/externallib.php` i używana jest globalna klasa `external_api`. W Moodle 4.2 przeniesiono te klasy do przestrzeni nazw `core_external`, dlatego kodu z nowszych przykładów nie można bezpośrednio zastosować do Moodle 4.1. Zob. [dokumentację Moodle 4.1 – Function Definitions](https://noeldemartin.github.io/moodledevdocs/docs/4.1/apis/subsystems/external/functions) oraz [zmiany w Moodle 4.2](https://noeldemartin.github.io/moodledevdocs/docs/4.2/devupdate).
