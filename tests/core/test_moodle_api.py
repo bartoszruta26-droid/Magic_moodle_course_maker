@@ -810,3 +810,24 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "file_get_unused_draft_itemid()" in plugin
     assert "'local_magicmoodle_create_resource'" in services
     assert "$plugin->version = 2026110608;" in version
+
+
+def test_existing_med10_assignment_yaml_is_supported_by_publisher():
+    root = Path(__file__).parents[2] / "courses/03-kurs-masazysta-med10"
+    course = load_course(root)
+    selected = next(
+        (activity, section)
+        for section in course.sections
+        for activity in section.activities
+        if activity.kind == "assignment"
+    )
+    activity, section = selected
+    from dataclasses import replace
+    isolated = replace(course, sections=(replace(section, activities=(activity,)),))
+    plan = build_publish_plan(isolated, 2)
+    assert not plan.warnings
+    assignment = plan.activities[0]
+    assert assignment["submissiontype"] == "both"
+    assert assignment["maxfiles"] == 3
+    assert assignment["grade"] == 100
+    assert assignment["intro"]
