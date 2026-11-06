@@ -14,11 +14,11 @@ class create_activity extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
-            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'modname' => new \external_value(PARAM_ALPHANUMEXT, 'Supported module: page, label or url'),
             'name' => new \external_value(PARAM_TEXT, 'Activity name'),
             'content' => new \external_value(PARAM_RAW, 'HTML content', VALUE_DEFAULT, ''),
             'externalurl' => new \external_value(PARAM_URL, 'Target URL for URL activity', VALUE_DEFAULT, ''),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
