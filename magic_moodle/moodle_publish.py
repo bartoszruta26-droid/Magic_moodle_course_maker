@@ -484,7 +484,7 @@ def _publish_plan_fingerprint(plan: PublishPlan) -> str:
 
 def _write_publish_state(path: Path, state: dict[str, Any]) -> None:
     try:
-        content = json.dumps(state, ensure_ascii=False, indent=2, allow_nan=False) + "\\n"
+        content = json.dumps(state, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
         atomic_write_text(path, content)
     except (OSError, TypeError, ValueError) as exc:
         raise MoodleAPIError(f"Nie można bezpiecznie zapisać manifestu publikacji: {exc}") from exc
