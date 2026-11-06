@@ -14,14 +14,14 @@ use core_external\external_single_structure;
 use core_external\external_value;
 use invalid_parameter_exception;
 
-class create_activity extends \\external_api {
+class create_activity extends \external_api {
     public static function execute_parameters() {
-        return new \\external_function_parameters([
-            'courseid' => new \\external_value(PARAM_INT, 'Course id'),
-            'sectionnum' => new external_value(PARAM_INT, 'Zero-based section number'),
-            'modname' => new external_value(PARAM_ALPHANUMEXT, 'Supported module: page or label'),
-            'name' => new external_value(PARAM_TEXT, 'Activity name'),
-            'content' => new external_value(PARAM_RAW, 'HTML content'),
+        return new \external_function_parameters([
+            'courseid' => new \external_value(PARAM_INT, 'Course id'),
+            'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'modname' => new \external_value(PARAM_ALPHANUMEXT, 'Supported module: page or label'),
+            'name' => new \external_value(PARAM_TEXT, 'Activity name'),
+            'content' => new \external_value(PARAM_RAW, 'HTML content'),
         ]);
     }
 
@@ -114,12 +114,12 @@ class create_activity extends \\external_api {
     }
 
     public static function execute_returns() {
-        return new \\external_single_structure([
-            'cmid' => new external_value(PARAM_INT, 'Course module id'),
-            'instanceid' => new external_value(PARAM_INT, 'Module instance id'),
-            'modname' => new external_value(PARAM_TEXT, 'Module name'),
-            'name' => new external_value(PARAM_TEXT, 'Activity name'),
-            'created' => new external_value(PARAM_BOOL, 'Whether a new activity was created'),
+        return new \external_single_structure([
+            'cmid' => new \external_value(PARAM_INT, 'Course module id'),
+            'instanceid' => new \external_value(PARAM_INT, 'Module instance id'),
+            'modname' => new \external_value(PARAM_TEXT, 'Module name'),
+            'name' => new \external_value(PARAM_TEXT, 'Activity name'),
+            'created' => new \external_value(PARAM_BOOL, 'Whether a new activity was created'),
         ]);
     }
 }
