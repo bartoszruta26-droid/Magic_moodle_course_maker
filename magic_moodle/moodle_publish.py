@@ -299,7 +299,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         sourceid = "term-" + hashlib.sha256(term_key.encode("utf-8")).hexdigest()[:32]
                     if (not isinstance(sourceid, str) or not sourceid.strip()
                             or len(sourceid.strip()) > 100
-                            or not all(ch.isalnum() or ch in "._:-" for ch in sourceid.strip())):
+                            or not all(ch.isalnum() or ch in "._-" for ch in sourceid.strip())):
                         warnings.append(f"Słownik '{activity.name}': entries[{entry_index}].source_id musi mieć 1–100 bezpiecznych znaków.")
                         entries_invalid = True
                         continue
@@ -670,6 +670,11 @@ def publish_course(
             "activity_count": len(plan.activities),
             "activities": list(plan.activities),
         }
+    if any(activity["type"] == "glossary" for activity in plan.activities) and state_file is None:
+        raise MoodleAPIError(
+            "Synchronizacja haseł Glossary wymaga --state-file, aby zachować mapowanie "
+            "source_id → entryid i bezpiecznie aktualizować istniejące wpisy."
+        )
 
     site = client.site_info()
     functions = {
