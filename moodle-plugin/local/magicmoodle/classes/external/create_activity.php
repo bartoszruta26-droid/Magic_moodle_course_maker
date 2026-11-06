@@ -127,11 +127,6 @@ class create_activity extends \external_api {
                             $moduleinfo->content['text'] = $safecontent;
                             $moduleinfo->content['format'] = FORMAT_HTML;
                             $moduleinfo->contentformat = FORMAT_HTML;
-                            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
-                            $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
-                            $moduleinfo->printheading = 1;
-                            $moduleinfo->printintro = 0;
-                            $moduleinfo->printlastmodified = 0;
                         } else if ($params['modname'] === 'label') {
                             $moduleinfo->intro = $safecontent;
                             $moduleinfo->introformat = FORMAT_HTML;
