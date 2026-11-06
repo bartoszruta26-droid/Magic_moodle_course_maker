@@ -168,3 +168,19 @@ def test_moodle_xml_converts_gift_cloze_to_embedded_answer_syntax() -> None:
     assert question.attrib["type"] == "multianswer"
     question_text = question.findtext("./questiontext/text")
     assert "{1:MULTICHOICE:=prawdę~%0%wolność}" in question_text
+
+
+def test_all_med10_quiz_gift_files_parse_and_validate() -> None:
+    from pathlib import Path
+
+    repository = Path(__file__).resolve().parents[2]
+    course = repository / "courses" / "03-kurs-masazysta-med10"
+    files = sorted(course.glob("sections/**/questions.gift"))
+    assert files
+    total = 0
+    for path in files:
+        bank = parse_gift(path.read_text(encoding="utf-8"), source_name=str(path))
+        errors = validate_question_bank(bank)
+        assert not errors, "\\n".join(errors)
+        total += len(bank.questions)
+    assert total > 100
