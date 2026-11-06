@@ -69,9 +69,14 @@ class create_assignment extends \external_api {
         if (!in_array($params['submissiontype'], ['onlinetext', 'file', 'both'], true)) {
             throw new invalid_parameter_exception('submissiontype must be onlinetext, file, or both.');
         }
+        $siteuploadlimit = (int)$CFG->maxbytes;
+        $courseuploadlimit = (int)$course->maxbytes;
+        $effectiveuploadlimit = ($courseuploadlimit > 0)
+            ? min($siteuploadlimit, $courseuploadlimit) : $siteuploadlimit;
         if ($params['maxfiles'] < 1 || $params['maxfiles'] > 20
-                || $params['maxbytes'] < 1 || $params['maxbytes'] > 104857600) {
-            throw new invalid_parameter_exception('File submission limits are outside supported bounds.');
+                || $params['maxbytes'] < 1 || $params['maxbytes'] > 104857600
+                || ($effectiveuploadlimit > 0 && $params['maxbytes'] > $effectiveuploadlimit)) {
+            throw new invalid_parameter_exception('File submission limits exceed the supported site or course upload limit.');
         }
         if ($params['grade'] <= 0 || $params['grade'] > 10000) {
             throw new invalid_parameter_exception('Assignment grade must be greater than zero and at most 10000.');
