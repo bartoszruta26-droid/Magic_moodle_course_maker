@@ -703,7 +703,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110608;" in version
+    assert "$plugin->version = 2026110609;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -809,7 +809,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110608;" in version
+    assert "$plugin->version = 2026110609;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
