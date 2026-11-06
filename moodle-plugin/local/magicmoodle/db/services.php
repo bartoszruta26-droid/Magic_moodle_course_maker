@@ -16,6 +16,13 @@ $functions = [
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities',
     ],
+    'local_magicmoodle_create_assignment' => [
+        'classname' => '\\\\local_magicmoodle\\\\external\\\\create_assignment',
+        'description' => 'Create an Assignment activity with submission types, grading and due dates.',
+        'type' => 'write',
+        'ajax' => false,
+        'capabilities' => 'moodle/course:manageactivities, mod/assign:addinstance',
+    ],
     'local_magicmoodle_create_quiz' => [
         'classname' => '\\local_magicmoodle\\external\\create_quiz',
         'description' => 'Create a Quiz activity, import GIFT questions and add them to the quiz.',
