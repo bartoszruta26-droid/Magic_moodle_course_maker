@@ -124,7 +124,8 @@ def validate_course(course: Course) -> ValidationReport:
             if not path.resolve().is_relative_to(root):
                 report.add("error", "SYMLINK_OUTSIDE_COURSE", path,
                            "Dowiązanie symboliczne wychodzi poza katalog kursu.")
-            continue
+                continue
+            path = path.resolve()
         if not path.is_file() or path.suffix.lower() not in {".yaml", ".yml"}:
             continue
         if any(part.endswith((".bak", ".bak-v1", ".bak-gen")) for part in path.parts):
