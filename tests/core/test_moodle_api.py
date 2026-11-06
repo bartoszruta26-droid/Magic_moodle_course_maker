@@ -745,7 +745,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "submission plugins cannot be changed after student submissions exist" in plugin
     assert "'updated' => true" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110615;" in version
+    assert "$plugin->version = 2026110616;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -867,7 +867,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "'updated' => new" in plugin
     assert "'sha256' => new" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110615;" in version
+    assert "$plugin->version = 2026110616;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
@@ -1022,7 +1022,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "'entryids'" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110615;" in version
+    assert "$plugin->version = 2026110616;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
