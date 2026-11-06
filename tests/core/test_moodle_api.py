@@ -793,7 +793,7 @@ def test_create_resource_calls_registered_moodle_service():
             "contentbase64": "JVBERi0xLjQ=",
             "intro": "<p>Dokument</p>",
             "previousfilename": "manual.pdf",
-            "previoussha256": "a".repeat(64),
+            "previoussha256": "a" * 64,
             "syncfields": ["name", "file", "intro"],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_resource"
@@ -1007,7 +1007,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "'entryids'" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110613;" in version
+    assert "$plugin->version = 2026110615;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
