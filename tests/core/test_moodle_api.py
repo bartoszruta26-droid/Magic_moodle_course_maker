@@ -362,3 +362,142 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
 
     result = publish_course(FakeClient(), course, 2)
     assert result["activities_created"][0]["modname"] == "book"
+
+
+def _sample_quiz_course(tmp_path: Path):
+    section = tmp_path / "sections" / "01"
+    quizdir = section / "quiz-01"
+    quizdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs testowy\n  short_name: QUIZTEST\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Testowanie\nmodules:\n"
+        "  - type: quiz\n    ref: quiz-01\n    name: Test wiedzy\n",
+        encoding="utf-8",
+    )
+    (quizdir / "quiz.yaml").write_text(
+        "name: Test wiedzy\nintro: Weryfikacja podstaw.\n"
+        "time_limit: 600\nattempts: 2\ngrade_passing: 60\n"
+        "shuffle_answers: true\nquestions_file: questions.gift\n",
+        encoding="utf-8",
+    )
+    (quizdir / "questions.gift").write_text(
+        "::q1:: Czy Moodle obsługuje import GIFT? {TRUE}\n\n"
+        "::q2:: Wybierz właściwy protokół. {=HTTPS ~HTTP}\n",
+        encoding="utf-8",
+    )
+    return load_course(tmp_path)
+
+
+def test_quiz_activity_is_preflighted_with_gift_and_settings(tmp_path):
+    plan = build_publish_plan(_sample_quiz_course(tmp_path), 2)
+    assert not plan.warnings
+    quiz = plan.activities[0]
+    assert quiz["type"] == "quiz"
+    assert quiz["questioncount"] == 2
+    assert quiz["timelimit"] == 600
+    assert quiz["attempts"] == 2
+    assert quiz["passingpercent"] == 60
+    assert quiz["shuffleanswers"] is True
+    assert "<p>Weryfikacja podstaw.</p>" == quiz["intro"]
+
+
+def test_quiz_preflight_rejects_missing_gift_file(tmp_path):
+    course = _sample_quiz_course(tmp_path)
+    from dataclasses import replace
+    old = course.sections[0]
+    activity = old.activities[0]
+    changed = replace(activity, content={})
+    course = replace(course, sections=(replace(old, activities=(changed,)),))
+    plan = build_publish_plan(course, 2)
+    assert any("brak pliku pytań" in warning for warning in plan.warnings)
+
+
+def test_quiz_preflight_rejects_invalid_gift(tmp_path):
+    course = _sample_quiz_course(tmp_path)
+    from dataclasses import replace
+    old = course.sections[0]
+    activity = old.activities[0]
+    changed = replace(activity, content={"questions.gift": "::broken:: Brak odpowiedzi"})
+    course = replace(course, sections=(replace(old, activities=(changed,)),))
+    plan = build_publish_plan(course, 2)
+    assert any("błąd GIFT" in warning for warning in plan.warnings)
+
+
+def test_create_quiz_calls_registered_moodle_service():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    gift = "::q1:: Pytanie testowe? {TRUE}"
+    with patch.object(client, "call", return_value={"created": True}) as call:
+        client.create_quiz(7, 1, {
+            "name": "Test wiedzy",
+            "intro": "<p>Wprowadzenie</p>",
+            "gift": gift,
+            "timelimit": 600,
+            "attempts": 2,
+            "grade": 10,
+            "passingpercent": 60,
+            "shuffleanswers": True,
+            "questionsperpage": 1,
+        })
+    assert call.call_args.args[0] == "local_magicmoodle_create_quiz"
+    assert call.call_args.args[1]["gift"] == gift
+    assert call.call_args.args[1]["passingpercent"] == 60
+
+
+def test_publish_routes_quiz_to_native_gift_import_endpoint(tmp_path):
+    course = _sample_quiz_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_quiz"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "QUIZTEST"}, True)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_quiz(self, courseid, sectionnum, activity):
+            assert activity["questioncount"] == 2
+            return {"modname": "quiz", "name": activity["name"], "questioncount": 2}
+
+        def create_activity(self, *args):
+            raise AssertionError("Quiz must use create_quiz")
+
+    result = publish_course(FakeClient(), course, 2)
+    assert result["activities_created"][0]["modname"] == "quiz"
+
+
+def test_quiz_endpoint_uses_native_gift_import_and_quiz_slot_api():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_quiz.php"
+    ).read_text(encoding="utf-8")
+    services = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/db/services.php"
+    ).read_text(encoding="utf-8")
+    assert "new \\qformat_gift()" in plugin
+    assert "importprocess()" in plugin
+    assert "quiz_add_quiz_question" in plugin
+    assert "quiz_update_sumgrades" in plugin
+    assert "'local_magicmoodle_create_quiz'" in services
+
+
+def test_existing_med10_quiz_gift_is_accepted_by_preflight_parser():
+    from magic_moodle.gift import parse_gift, validate_question_bank
+    giftfile = (
+        Path(__file__).parents[2]
+        / "courses/03-kurs-masazysta-med10/sections/"
+          "01-med-10-1-bezpieczenstwo-i-higiena-pracy/quiz-01/questions.gift"
+    )
+    bank = parse_gift(giftfile.read_text(encoding="utf-8"), source_name=str(giftfile))
+    assert bank.questions
+    assert not validate_question_bank(bank)
