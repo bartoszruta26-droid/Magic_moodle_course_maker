@@ -530,7 +530,7 @@ Pełna dokumentacja techniczna znajduje się w katalogu `docs/`:
 
 Rdzeń zawiera klienta Moodle REST API oraz polecenie `moodle-publish`.
 Publikacja tworzy lub odnajduje kurs po nazwie skróconej, aktualizuje nazwy
-sekcji i tworzy obsługiwane aktywności Page/Label. Wymaga lokalnego pluginu
+sekcji i tworzy obsługiwane aktywności Page/Label/URL. Wymaga lokalnego pluginu
 Moodle `local_magicmoodle`; pozostałe typy aktywności są jawnie blokowane
 na etapie kontroli wstępnej, dopóki nie zostaną dodane odpowiednie adaptery.
 
