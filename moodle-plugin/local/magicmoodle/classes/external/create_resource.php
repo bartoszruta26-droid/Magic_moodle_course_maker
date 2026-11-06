@@ -57,6 +57,13 @@ class create_resource extends \external_api {
         if ($filecontent === false || strlen($filecontent) < 1 || strlen($filecontent) > 5 * 1024 * 1024) {
             throw new invalid_parameter_exception('Resource content must be valid base64 containing 1 byte to 5 MiB.');
         }
+        $siteuploadlimit = (int)$CFG->maxbytes;
+        $courseuploadlimit = (int)$course->maxbytes;
+        $effectiveuploadlimit = ($courseuploadlimit > 0)
+            ? min($siteuploadlimit, $courseuploadlimit) : $siteuploadlimit;
+        if ($effectiveuploadlimit > 0 && strlen($filecontent) > $effectiveuploadlimit) {
+            throw new invalid_parameter_exception('Resource file exceeds the Moodle site or course upload limit.');
+        }
 
         $section = $DB->get_record('course_sections', [
             'course' => $course->id,
