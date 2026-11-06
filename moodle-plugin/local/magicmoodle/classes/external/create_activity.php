@@ -100,9 +100,69 @@ class create_activity extends \external_api {
                         throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
                     }
     
-                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    // Re-publishing a source activity is an update, not a no-op.
+                    // Keep the existing course-module and module-instance identifiers.
+                    $transaction = $DB->start_delegated_transaction();
+                    try {
+                        $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
+                        $safecontent = clean_text($params['content'], FORMAT_HTML);
+                        $moduleinfo = new \\stdClass();
+                        $moduleinfo->modulename = $params['modname'];
+                        $moduleinfo->module = $moduleid;
+                        $moduleinfo->course = $course->id;
+                        $moduleinfo->section = $section->section;
+                        $moduleinfo->instance = (int)$existing->instance;
+                        $moduleinfo->coursemodule = (int)$existing->id;
+                        $moduleinfo->name = $params['name'];
+                        $moduleinfo->intro = '';
+                        $moduleinfo->introformat = FORMAT_HTML;
+                        $moduleinfo->visible = 1;
+                        $moduleinfo->groupmode = 0;
+                        $moduleinfo->groupingid = 0;
+                        $moduleinfo->availability = null;
+                        $moduleinfo->completion = COMPLETION_TRACKING_NONE;
+                        $moduleinfo->completionview = 0;
+                        $moduleinfo->completionexpected = 0;
+                        $moduleinfo->showdescription = 0;
+                        $moduleinfo->visibleoncoursepage = 1;
+                        $moduleinfo->cmidnumber = $params['idnumber'] !== ''
+                            ? $params['idnumber'] : (string)$existing->idnumber;
+
+                        if ($params['modname'] === 'page') {
+                            $moduleinfo->content = $safecontent;
+                            $moduleinfo->contentformat = FORMAT_HTML;
+                            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
+                            $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
+                            $moduleinfo->printheading = 1;
+                            $moduleinfo->printintro = 0;
+                            $moduleinfo->printlastmodified = 0;
+                        } else if ($params['modname'] === 'label') {
+                            $moduleinfo->intro = $safecontent;
+                            $moduleinfo->introformat = FORMAT_HTML;
+                        } else {
+                            $moduleinfo->externalurl = $params['externalurl'];
+                            $moduleinfo->parameters = '';
+                            $moduleinfo->popupwidth = 800;
+                            $moduleinfo->popupheight = 600;
+                            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
+                            $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
+                            $moduleinfo->printheading = 1;
+                            $moduleinfo->printintro = 0;
+                        }
+
+                        $coursemodule = $DB->get_record('course_modules', [
+                            'id' => $existing->id,
+                            'course' => $course->id,
+                        ], '*', MUST_EXIST);
+                        update_moduleinfo($coursemodule, $moduleinfo, $course);
+                        if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                            $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                        }
+                        $transaction->allow_commit();
+                    } catch (\\Throwable $exception) {
+                        $transaction->rollback($exception);
                     }
+                    rebuild_course_cache($course->id, true);
                     return [
                         'cmid' => (int)$existing->id,
                         'instanceid' => (int)$existing->instance,
