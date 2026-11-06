@@ -18,8 +18,8 @@ jeszcze generowania plików MBZ lub publikowania do Moodle.
 - Assignment: `assignment.yaml` oraz opcjonalny plik instrukcji
   wskazany przez `markdown_file`.
 - Glossary: `glossary.yaml` z listą wpisów `term` / `definition`.
-- Quiz: rozpoznawana jest konfiguracja `quiz.yaml`; jej pełna walidacja
-  i mapowanie pytań będą osobnym przyrostem.
+- Quiz: konfiguracja `quiz.yaml` i wskazany plik pytań są wczytywane do
+  `Activity.resource` i `Activity.content`.
 - Page i label: treść pliku wskazanego przez `ref`.
 
 Wczytane metadane aktywności są dostępne w `Activity.resource`, a treści
@@ -45,12 +45,30 @@ rozdziałów Book, instrukcje Assignment, strukturę wpisów Glossary oraz
 składnię plików YAML. Walidacja nie naprawia plików automatycznie i nie
 usuwa danych.
 
+## Eksport całego kursu — manifest pośredni
+
+Moduł `magic_moodle.course_export` buduje deterministyczny manifest JSON
+obejmujący metadane kursu, opis, sekcje, aktywności, konfiguracje zasobów
+oraz treści plików już wczytane przez loader. Manifest nie zawiera
+bezwzględnych ścieżek systemowych. Wartości daty i czasu z YAML są
+serializowane w formacie ISO 8601. Nieobsługiwany typ danych powoduje
+jawny błąd zamiast utraty informacji.
+
+```bash
+python -m magic_moodle course-export-json \\
+  courses/03-kurs-masazysta-med10 build/med10-course-manifest.json
+```
+
+To format pośredni do kontroli, migracji i dalszego mapowania zasobów.
+Nie jest importowalnym kursem Moodle, Moodle XML ani kopią zapasową MBZ.
+Nie zastępuje testu importu na instancji Moodle.
+
 ## Następne przyrosty
 
-1. Pełny model Quiz i banku pytań (GIFT/YAML) wraz z walidacją typów pytań.
-2. Adaptery eksportowe Moodle XML i GIFT.
-3. Budowanie kopii zapasowej przez mechanizm zgodny z Moodle.
-4. Testy integracyjne na instancji Moodle o jawnie określonej wersji.
+1. Rozszerzenie modelu aktywności o pełne, jawne schematy konfiguracji.
+2. Mapowanie typów aktywności i plików do struktury kopii zapasowej Moodle.
+3. Generator MBZ zgodny z konkretnymi wersjami Moodle oraz test importu.
+4. Dopiero po testach integracyjnych — opcjonalna publikacja przez Moodle Web Services.
 
 
 ## Silnik pytań i eksport Moodle XML
