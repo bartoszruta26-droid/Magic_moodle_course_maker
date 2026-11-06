@@ -302,3 +302,18 @@ def test_create_book_calls_registered_moodle_service():
     assert call.call_args.args[0] == "local_magicmoodle_create_book"
     assert call.call_args.args[1]["chapters"] == chapters
     assert call.call_args.args[1]["numbering"] == 1
+
+
+def test_moodle_book_plugin_exposes_secure_moodle_41_endpoint():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_book.php"
+    ).read_text(encoding="utf-8")
+    services = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/db/services.php"
+    ).read_text(encoding="utf-8")
+    assert "class create_book extends \\external_api" in plugin
+    assert "require_capability('mod/book:edit', $modulecontext)" in plugin
+    assert "5 * 1024 * 1024" in plugin
+    assert "'local_magicmoodle_create_book'" in services
