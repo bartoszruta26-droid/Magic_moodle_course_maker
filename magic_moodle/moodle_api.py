@@ -250,6 +250,9 @@ class MoodleClient:
                 "filename": activity["filename"],
                 "contentbase64": contentbase64,
                 "intro": activity.get("intro", ""),
+                "previousfilename": activity.get("previousfilename", ""),
+                "previoussha256": activity.get("previoussha256", ""),
+                "syncfields": activity.get("syncfields", ["name", "file"]),
                 "idnumber": activity.get("idnumber", ""),
             },
         )
@@ -275,6 +278,7 @@ class MoodleClient:
                 "submissiondrafts": activity.get("submissiondrafts", False),
                 "requiresubmissionstatement": activity.get("requiresubmissionstatement", False),
                 "completionenabled": activity.get("completionenabled", False),
+                "syncfields": activity.get("syncfields", ["name"]),
                 "idnumber": activity.get("idnumber", ""),
             },
         )

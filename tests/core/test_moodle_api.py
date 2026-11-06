@@ -638,6 +638,7 @@ def test_assignment_is_preflighted_with_submission_settings(tmp_path):
     assert assignment["submissiondrafts"] is True
     assert assignment["completionenabled"] is True
     assert assignment["intro"] == "<p>Opis zadania.</p>"
+    assert {"name", "intro", "submissiontype", "grade", "maxfiles", "maxbytes", "submissiondrafts", "requiresubmissionstatement", "completionenabled"}.issubset(set(assignment["syncfields"]))
 
 
 def test_assignment_preflight_rejects_invalid_submission_type(tmp_path):
@@ -676,11 +677,13 @@ def test_create_assignment_calls_registered_moodle_service():
             "maxfiles": 3,
             "maxbytes": 10485760,
             "completionenabled": True,
+            "syncfields": ["name", "intro", "grade"],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_assignment"
     assert call.call_args.args[1]["submissiontype"] == "both"
     assert call.call_args.args[1]["maxfiles"] == 3
     assert call.call_args.args[1]["completionenabled"] is True
+    assert call.call_args.args[1]["syncfields"] == ["name", "intro", "grade"]
 
 
 def test_publish_routes_assignment_to_assignment_endpoint(tmp_path):
@@ -721,8 +724,13 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "add_moduleinfo($moduleinfo, $course)" in plugin
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
+    assert "get_moduleinfo_data($cm, $course);" in plugin
+    assert "update_moduleinfo($cm, $moduleinfo, $course);" in plugin
+    assert "assign_submission" in plugin
+    assert "submission plugins cannot be changed after student submissions exist" in plugin
+    assert "'updated' => true" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110613;" in version
+    assert "$plugin->version = 2026110615;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -751,6 +759,7 @@ def test_file_resource_is_loaded_as_base64_and_preflighted(tmp_path):
     assert item["filename"] == "manual.pdf"
     assert base64.b64decode(item["contentbase64"]) == b"%PDF-1.4\x00sample binary content"
     assert item["filesize"] == len(b"%PDF-1.4\x00sample binary content")
+    assert item["syncfields"] == ["name", "file"]
 
 
 def test_file_resource_preflight_rejects_path_like_filename(tmp_path):
@@ -783,10 +792,15 @@ def test_create_resource_calls_registered_moodle_service():
             "filename": "manual.pdf",
             "contentbase64": "JVBERi0xLjQ=",
             "intro": "<p>Dokument</p>",
+            "previousfilename": "manual.pdf",
+            "previoussha256": "a" * 64,
+            "syncfields": ["name", "file", "intro"],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_resource"
     assert call.call_args.args[1]["filename"] == "manual.pdf"
     assert call.call_args.args[1]["contentbase64"] == "JVBERi0xLjQ="
+    assert call.call_args.args[1]["previousfilename"] == "manual.pdf"
+    assert call.call_args.args[1]["syncfields"] == ["name", "file", "intro"]
 
 
 def test_publish_routes_file_to_moodle_resource_endpoint(tmp_path):
@@ -794,7 +808,7 @@ def test_publish_routes_file_to_moodle_resource_endpoint(tmp_path):
 
     class FakeClient:
         def site_info(self):
-            return {"functions": [
+            return {"siteurl": "https://moodle.example", "functions": [
                 {"name": "core_course_get_courses_by_field"},
                 {"name": "core_course_create_courses"},
                 {"name": "local_magicmoodle_update_section"},
@@ -809,13 +823,18 @@ def test_publish_routes_file_to_moodle_resource_endpoint(tmp_path):
 
         def create_resource(self, courseid, sectionnum, activity):
             assert activity["filename"] == "manual.pdf"
-            return {"modname": "resource", "name": activity["name"], "created": True}
+            return {"modname": "resource", "name": activity["name"], "created": True,
+                    "filename": activity["filename"], "sha256": "b" * 64}
 
         def create_activity(self, *args):
             raise AssertionError("File must use create_resource")
 
-    result = publish_course(FakeClient(), course, 2)
+    result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "resource"
+    import json
+    state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
+    record = next(iter(state["activities_completed"].values()))
+    assert record["filename"] == "manual.pdf" and record["sha256"] == "b" * 64
 
 
 def test_file_resource_endpoint_is_registered_and_limited():
@@ -827,8 +846,13 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "base64_decode($params['contentbase64'], true)" in plugin
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
+    assert "file_prepare_draft_area(" in plugin
+    assert "previoussha256" in plugin and "hash_equals" in plugin
+    assert "IGNORE_FILE_MERGE" in plugin
+    assert "'updated' => new" in plugin
+    assert "'sha256' => new" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110613;" in version
+    assert "$plugin->version = 2026110615;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
@@ -983,7 +1007,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "'entryids'" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110613;" in version
+    assert "$plugin->version = 2026110615;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):

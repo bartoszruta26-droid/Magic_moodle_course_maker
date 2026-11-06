@@ -113,3 +113,26 @@ Testy statyczne i jednostkowe nie potwierdzają jeszcze aktualizacji wpisów w d
 ### Walidacja integracyjna Book
 
 Wymagane testy na Moodle 4.1: aktualizacja treści i zmiana kolejności bez zmiany `chapterid`, zachowanie ukrycia rozdziału, zdarzenia `chapter_updated`, wycofanie po błędzie w drugim rozdziale, zachowanie plików (obecnie testowane przez fail-closed), oraz ponowienie publikacji po awarii z zachowaniem mapowania.
+
+
+## Etap 4 — Assignment i Resource (wdrażany)
+
+### Assignment
+
+- Istniejące zadanie jest odnajdywane po stabilnym `idnumber` i aktualizowane przez `get_moduleinfo_data()` oraz `update_moduleinfo()`.
+- Adapter używa maski `syncfields`, dzięki czemu aktualizuje wyłącznie pola jawnie zdefiniowane w źródle. Pozostałe ustawienia Moodle są pobierane z istniejącego modułu i zachowywane.
+- Obsługiwane pola źródłowe: nazwa, opis, daty, ocena, typ przesyłania, limity plików, przycisk zatwierdzenia, oświadczenie o samodzielności i ukończenie aktywności.
+- Adapter nigdy nie usuwa zgłoszeń ani ocen. Jeśli istnieją zgłoszenia studentów, zmiana aktywnych wtyczek przesyłania lub limitów plików jest odrzucana, gdy zmieniałaby konfigurację. Pozostałe jawnie zarządzane ustawienia mogą być aktualizowane.
+
+### Resource
+
+- Manifest przechowuje nazwę pliku i SHA-256 ostatnio opublikowanego pliku źródłowego.
+- Przed aktualizacją endpoint weryfikuje, czy plik w Moodle nadal ma poprzedni skrót. Ręczna zmiana pliku, brak mapowania starszego zasobu albo konflikt nazwy pliku zatrzymują synchronizację.
+- Podmiana odbywa się przez Moodle File API: bieżący obszar plików jest kopiowany do draft area, usuwany jest wyłącznie plik zarządzany przez źródło, a pozostałe pliki są zachowywane. Nowy plik zostaje ustawiony jako główny.
+- Ustawienia wyświetlania i inne pola, których źródło nie definiuje, są zachowywane przez pobranie kanonicznych danych modułu przed aktualizacją.
+
+### Ograniczenia i testy wymagane na Moodle 4.1
+
+- Assignment: sprawdzić zmianę opisu, terminów, oceny i completion przy istniejących zgłoszeniach; potwierdzić, że próby, zgłoszenia i oceny pozostają nietknięte. Zweryfikować blokadę zmiany wtyczek i limitów po pojawieniu się zgłoszeń.
+- Resource: sprawdzić podmianę pliku o tej samej i innej nazwie, zachowanie dodatkowych plików, sortowanie pliku głównego, konflikt po ręcznej zmianie pliku oraz rollback po błędzie zapisu.
+- Testy CI kontrolują kontrakt, walidację, składnię PHP i logikę manifestu, ale nie zastępują integracyjnej instancji Moodle.

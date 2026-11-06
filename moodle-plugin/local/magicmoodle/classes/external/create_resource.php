@@ -22,11 +22,17 @@ class create_resource extends \external_api {
             'filename' => new \external_value(PARAM_FILE, 'File name'),
             'contentbase64' => new \external_value(PARAM_RAW, 'Base64 encoded file content'),
             'intro' => new \external_value(PARAM_RAW, 'Resource introduction HTML', VALUE_DEFAULT, ''),
+            'previousfilename' => new \external_value(PARAM_FILE, 'Previously managed file name', VALUE_DEFAULT, ''),
+            'previoussha256' => new \external_value(PARAM_ALPHANUMEXT, 'Previous managed file SHA-256', VALUE_DEFAULT, ''),
+            'syncfields' => new \external_multiple_structure(
+                new \external_value(PARAM_ALPHANUMEXT, 'Explicitly source-managed setting'),
+                'Settings to synchronize', VALUE_DEFAULT, ['name', 'file']
+            ),
             'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
-    public static function execute($courseid, $sectionnum, $name, $filename, $contentbase64, $intro = '', $idnumber = '') {
+    public static function execute($courseid, $sectionnum, $name, $filename, $contentbase64, $intro = '', $previousfilename = '', $previoussha256 = '', $syncfields = ['name', 'file'], $idnumber = '') {
         global $CFG, $DB, $USER;
 
         $params = self::validate_parameters(self::execute_parameters(), [
@@ -37,8 +43,25 @@ class create_resource extends \external_api {
             'filename' => $filename,
             'contentbase64' => $contentbase64,
             'intro' => $intro,
+            'previousfilename' => $previousfilename,
+            'previoussha256' => $previoussha256,
+            'syncfields' => $syncfields,
         ]);
 
+        $allowedfields = ['name', 'intro', 'file'];
+        $syncfields = array_values(array_unique($params['syncfields']));
+        foreach ($syncfields as $field) {
+            if (!in_array($field, $allowedfields, true)) {
+                throw new invalid_parameter_exception('Unsupported Resource synchronization field: ' . $field);
+            }
+        }
+        if (!in_array('name', $syncfields, true) || !in_array('file', $syncfields, true)) {
+            throw new invalid_parameter_exception('Resource synchronization requires name and file fields.');
+        }
+        if ($params['previoussha256'] !== ''
+                && !preg_match('/^[a-f0-9]{64}$/', $params['previoussha256'])) {
+            throw new invalid_parameter_exception('Previous Resource SHA-256 must be a lowercase hexadecimal digest.');
+        }
         if (strlen($params['idnumber']) > 100) {
             throw new \invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
         }
@@ -99,20 +122,118 @@ class create_resource extends \external_api {
                 if (empty($existing->deletioninprogress) && $existing->modname === 'resource'
                         && (int)$existing->sectionnum === (int)$params['sectionnum']
                         && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                    if ($params['idnumber'] !== ''
-                            && $existing->name === $params['name']
-                            && !empty($existing->idnumber)
-                            && $existing->idnumber !== $params['idnumber']) {
+                    if ($params['idnumber'] !== '' && $existing->name === $params['name']
+                            && !empty($existing->idnumber) && $existing->idnumber !== $params['idnumber']) {
                         throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
                     }
-                    if ($params['idnumber'] !== ''
-                            && $existing->idnumber === $params['idnumber']
-                            && $existing->name !== $params['name']) {
-                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+
+                    $transaction = $DB->start_delegated_transaction();
+                    $draftitemid = null;
+                    $fs = get_file_storage();
+                    $usercontext = context_user::instance($USER->id);
+                    try {
+                        $cm = $DB->get_record('course_modules', [
+                            'id' => $existing->id,
+                            'course' => $course->id,
+                            'module' => $DB->get_field('modules', 'id', ['name' => 'resource'], MUST_EXIST),
+                        ], '*', MUST_EXIST);
+                        list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
+                            get_moduleinfo_data($cm, $course);
+                        $modulecontext = \context_module::instance($existing->id);
+                        $existingfiles = $fs->get_area_files(
+                            $modulecontext->id, 'mod_resource', 'content', 0, 'id', false
+                        );
+                        $oldfile = null;
+                        if ($params['previousfilename'] !== '') {
+                            if ($params['previoussha256'] === '') {
+                                throw new invalid_parameter_exception('A prior Resource file mapping without a digest cannot be updated safely.');
+                            }
+                            $oldfile = $fs->get_file(
+                                $modulecontext->id, 'mod_resource', 'content', 0, '/', $params['previousfilename']
+                            );
+                            if (!$oldfile) {
+                                throw new invalid_parameter_exception('The previously managed Resource file is missing. Refusing to overwrite an unknown file.');
+                            }
+                            $remotehash = hash('sha256', $oldfile->get_content());
+                            if (!hash_equals($params['previoussha256'], $remotehash)) {
+                                throw new invalid_parameter_exception('The previously managed Resource file changed in Moodle since the last publication. Resolve this content conflict before synchronizing.');
+                            }
+                        } else if (!empty($existingfiles)) {
+                            throw new invalid_parameter_exception(
+                                'This existing Resource has files but no manifest mapping. Refusing to replace an unmanaged file.'
+                            );
+                        }
+
+                        $contenthash = hash('sha256', $filecontent);
+                        $contentchanged = !$oldfile
+                            || $params['previousfilename'] !== $filename
+                            || !hash_equals($remotehash, $contenthash);
+                        if ($contentchanged) {
+                            $draftitemid = file_get_unused_draft_itemid();
+                            $fileoptions = [
+                                'subdirs' => true,
+                                'maxfiles' => -1,
+                                'maxbytes' => $effectiveuploadlimit,
+                            ];
+                            file_prepare_draft_area(
+                                $draftitemid, $modulecontext->id, 'mod_resource', 'content', 0, $fileoptions
+                            );
+                            if ($params['previousfilename'] !== '') {
+                                $draftold = $fs->get_file(
+                                    $usercontext->id, 'user', 'draft', $draftitemid, '/', $params['previousfilename']
+                                );
+                                if (!$draftold) {
+                                    throw new invalid_parameter_exception('The managed Resource file was not copied to the draft area.');
+                                }
+                                $draftold->delete();
+                            }
+                            if ($fs->get_file($usercontext->id, 'user', 'draft', $draftitemid, '/', $filename)) {
+                                throw new invalid_parameter_exception(
+                                    'The new Resource filename already belongs to another file in this activity. Refusing to overwrite it.'
+                                );
+                            }
+                            $fs->create_file_from_string([
+                                'contextid' => $usercontext->id,
+                                'component' => 'user',
+                                'filearea' => 'draft',
+                                'itemid' => $draftitemid,
+                                'filepath' => '/',
+                                'filename' => $filename,
+                                'userid' => $USER->id,
+                            ], $filecontent);
+                            $moduleinfo->files = $draftitemid;
+                            $moduleinfo->mainfile = $filename;
+                        } else {
+                            $moduleinfo->files = IGNORE_FILE_MERGE;
+                        }
+
+                        $moduleinfo->name = trim($params['name']);
+                        if (in_array('intro', $syncfields, true)) {
+                            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+                            $moduleinfo->introformat = FORMAT_HTML;
+                        }
+                        if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                            $moduleinfo->cmidnumber = $params['idnumber'];
+                        }
+                        update_moduleinfo($cm, $moduleinfo, $course);
+                        file_set_sortorder(
+                            $modulecontext->id, 'mod_resource', 'content', 0, '/', $filename, 1
+                        );
+                        rebuild_course_cache($course->id, true);
+                        $transaction->allow_commit();
+                    } catch (\Throwable $exception) {
+                        $transaction->rollback($exception);
+                    } finally {
+                        if ($draftitemid !== null) {
+                            $fs->delete_area_files($usercontext->id, 'user', 'draft', $draftitemid);
+                        }
                     }
-    
-                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+
+                    $storedfile = $fs->get_file(
+                        $modulecontext->id, 'mod_resource', 'content', 0, '/', $filename
+                    );
+                    if (!$storedfile) {
+                        throw new \moodle_exception('filenotfound', 'error', '', $filename);
                     }
                     return [
                         'cmid' => (int)$existing->id,
@@ -120,18 +241,14 @@ class create_resource extends \external_api {
                         'modname' => 'resource',
                         'name' => $params['name'],
                         'filename' => $filename,
-                        'filesize' => (int)$DB->get_field('files', 'filesize', [
-                            'contextid' => \context_module::instance($existing->id)->id,
-                            'component' => 'mod_resource',
-                            'filearea' => 'content',
-                            'itemid' => 0,
-                            'filename' => $filename,
-                        ]),
+                        'filesize' => (int)$storedfile->get_filesize(),
+                        'sha256' => hash('sha256', $storedfile->get_content()),
                         'created' => false,
+                        'updated' => true,
                     ];
                 }
             }
-    
+
             $moduleid = $DB->get_field('modules', 'id', ['name' => 'resource'], MUST_EXIST);
             $draftitemid = null;
             $usercontext = context_user::instance($USER->id);
@@ -201,8 +318,12 @@ class create_resource extends \external_api {
                 'modname' => 'resource',
                 'name' => $params['name'],
                 'filename' => $filename,
-                'filesize' => $storedsize,
+                'filesize' => (int)$fs->get_file(
+                    $modulecontext->id, 'mod_resource', 'content', 0, '/', $filename
+                )->get_filesize(),
+                'sha256' => hash('sha256', $filecontent),
                 'created' => true,
+                'updated' => false,
             ];
         } finally {
             $lock->release();
@@ -217,7 +338,9 @@ class create_resource extends \external_api {
             'name' => new \external_value(PARAM_TEXT, 'Resource name'),
             'filename' => new \external_value(PARAM_FILE, 'Stored filename'),
             'filesize' => new \external_value(PARAM_INT, 'Stored file size in bytes'),
+            'sha256' => new \external_value(PARAM_ALPHANUMEXT, 'Managed file SHA-256'),
             'created' => new \external_value(PARAM_BOOL, 'Whether a new resource was created'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether an existing resource was updated'),
         ]);
     }
 }

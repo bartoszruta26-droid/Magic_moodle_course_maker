@@ -364,6 +364,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "contentbase64": encoded,
                     "intro": _markdown_to_html(intro_source),
                     "filesize": len(filebytes),
+                    "syncfields": ["name", "file"] + (["intro"] if "intro" in activity.resource else []),
                 })
             if activity.kind == "assignment":
                 intro_source = activity.resource.get("intro", "")
@@ -431,6 +432,26 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 if not isinstance(submissiondrafts, bool) or not isinstance(requiresstatement, bool):
                     warnings.append(f"Zadanie '{activity.name}': submission_drafts i require_submission_statement muszą być wartościami logicznymi.")
                     continue
+                syncfields = ["name"]
+                if "intro" in activity.resource or markdown_file:
+                    syncfields.append("intro")
+                for datefield in ("allowsubmissionsfromdate", "duedate", "cutoffdate"):
+                    if datefield in activity.resource:
+                        syncfields.append(datefield)
+                if "grade" in activity.resource or "grademax" in activity.resource:
+                    syncfields.append("grade")
+                if "submission_type" in activity.resource or "submission_types" in activity.resource:
+                    syncfields.append("submissiontype")
+                if "max_files" in activity.resource or "max_attachments" in activity.resource:
+                    syncfields.append("maxfiles")
+                if "max_file_size" in activity.resource:
+                    syncfields.append("maxbytes")
+                if "submission_drafts" in activity.resource:
+                    syncfields.append("submissiondrafts")
+                if "require_submission_statement" in activity.resource:
+                    syncfields.append("requiresubmissionstatement")
+                if "completion" in activity.resource and "enabled" in completion:
+                    syncfields.append("completionenabled")
                 item.update({
                     "intro": _markdown_to_html(intro_source),
                     "submissiontype": submissiontype,
@@ -440,6 +461,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "submissiondrafts": submissiondrafts,
                     "requiresubmissionstatement": requiresstatement,
                     "completionenabled": completionenabled,
+                    "syncfields": syncfields,
                     **date_fields,
                 })
             if activity.kind == "book":
@@ -685,10 +707,10 @@ def publish_course(
             "activity_count": len(plan.activities),
             "activities": list(plan.activities),
         }
-    if any(activity["type"] in {"glossary", "book"} for activity in plan.activities) and state_file is None:
+    if any(activity["type"] in {"glossary", "book", "file"} for activity in plan.activities) and state_file is None:
         raise MoodleAPIError(
-            "Synchronizacja Book i Glossary wymaga --state-file, aby zachować mapowania "
-            "source_id → identyfikatory rozdziałów i haseł."
+            "Synchronizacja Book, Glossary i Resource wymaga --state-file, aby zachować mapowania "
+            "source_id oraz identyfikatory plików zarządzanych przez publikator."
         )
 
     site = client.site_info()
@@ -791,7 +813,12 @@ def publish_course(
                 elif activity["type"] == "assignment":
                     result = client.create_assignment(course_id, activity["sectionnum"], activity)
                 elif activity["type"] == "file":
-                    result = client.create_resource(course_id, activity["sectionnum"], activity)
+                    resource_activity = dict(activity)
+                    if state is not None:
+                        previous = state["activities_completed"].get(activity["idnumber"], {})
+                        resource_activity["previousfilename"] = previous.get("filename", "")
+                        resource_activity["previoussha256"] = previous.get("sha256", "")
+                    result = client.create_resource(course_id, activity["sectionnum"], resource_activity)
                 elif activity["type"] == "glossary":
                     glossary_activity = dict(activity)
                     if state is not None:
@@ -828,6 +855,7 @@ def publish_course(
                     "created": result.get("created") if isinstance(result, dict) else None,
                     **({"entryids": result.get("entryids", [])} if activity["type"] == "glossary" and isinstance(result, dict) else {}),
                     **({"chapterids": result.get("chapterids", [])} if activity["type"] == "book" and isinstance(result, dict) else {}),
+                    **({"filename": result.get("filename"), "sha256": result.get("sha256")} if activity["type"] == "file" and isinstance(result, dict) else {}),
                 }
                 state["failed_step"] = None
                 state["failed_activity_idnumber"] = None
