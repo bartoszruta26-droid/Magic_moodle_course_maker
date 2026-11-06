@@ -18,3 +18,5 @@ jobs:
       - run: python -m pip install -e ".[dev]"
       - run: python -m pytest -q
       - run: python -m compileall -q magic_moodle
+      - name: Smoke test existing MED.10 course structure
+        run: python -m magic_moodle inspect courses/03-kurs-masazysta-med10
