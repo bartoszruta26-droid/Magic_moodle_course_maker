@@ -5,9 +5,9 @@ The interface binds to localhost by default and never publishes to Moodle.
 """
 from __future__ import annotations
 
+import ipaddress
 import json
 import os
-import ipaddress
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlparse
@@ -23,6 +23,22 @@ PORT = int(os.environ.get("MAGIC_MOODLE_WEBUI_PORT", "8765"))
 
 def _inside(path: Path, base: Path) -> bool:
     return path.resolve().is_relative_to(base.resolve())
+
+
+def _allowed_hosts(host: str = HOST, port: int = PORT) -> set[str]:
+    """Return strict loopback Host authorities to mitigate DNS-rebinding access."""
+    port_text = str(port)
+    configured = f"[{host}]:{port_text}" if ":" in host else f"{host}:{port_text}"
+    return {
+        configured.lower(),
+        f"127.0.0.1:{port_text}",
+        f"localhost:{port_text}",
+        f"[::1]:{port_text}",
+    }
+
+
+def _is_allowed_host(value: str | None, host: str = HOST, port: int = PORT) -> bool:
+    return bool(value) and value.strip().lower() in _allowed_hosts(host, port)
 
 
 def list_courses() -> list[dict[str, str]]:
@@ -53,19 +69,31 @@ def list_courses() -> list[dict[str, str]]:
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "MagicMoodleWebUI/0.1"
+    server_version = "MagicMoodleWebUI/0.2"
+
+    def _security_headers(self) -> None:
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("X-Frame-Options", "DENY")
+        self.send_header("Referrer-Policy", "no-referrer")
+        self.send_header(
+            "Content-Security-Policy",
+            "default-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'",
+        )
+        self.send_header("Cache-Control", "no-store")
 
     def _json(self, payload: object, status: int = 200) -> None:
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
-        self.send_header("Cache-Control", "no-store")
-        self.send_header("X-Content-Type-Options", "nosniff")
+        self._security_headers()
         self.end_headers()
         self.wfile.write(body)
 
     def do_GET(self) -> None:  # noqa: N802
+        if not _is_allowed_host(self.headers.get("Host")):
+            return self._json({"error": "Niedozwolony nagłówek Host."}, 403)
+
         parsed = urlparse(self.path)
         if parsed.path == "/api/health":
             return self._json({"ok": True})
@@ -81,8 +109,8 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 course = load_course(course_path)
                 report = validate_course(course)
-            except (CourseLoadError, OSError, ValueError) as exc:
-                return self._json({"error": str(exc)}, 422)
+            except (CourseLoadError, OSError, ValueError):
+                return self._json({"error": "Nie udało się wczytać lub zwalidować kursu."}, 422)
             return self._json({
                 "course": {
                     "name": course.full_name,
@@ -110,7 +138,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", content_type)
         self.send_header("Content-Length", str(len(body)))
-        self.send_header("X-Content-Type-Options", "nosniff")
+        self._security_headers()
         self.end_headers()
         self.wfile.write(body)
 
@@ -124,12 +152,17 @@ def main() -> None:
             raise SystemExit("WebUI jest lokalny i może nasłuchiwać wyłącznie na adresie loopback.")
     except ValueError as exc:
         raise SystemExit("MAGIC_MOODLE_WEBUI_HOST musi być adresem IP loopback.") from exc
+    if not 1 <= PORT <= 65535:
+        raise SystemExit("MAGIC_MOODLE_WEBUI_PORT musi mieścić się w zakresie 1–65535.")
     if not ROOT.is_dir():
         raise SystemExit(f"Katalog kursów nie istnieje: {ROOT}")
     server = ThreadingHTTPServer((HOST, PORT), Handler)
     print(f"Magic Moodle WebUI: http://{HOST}:{PORT}")
     print(f"Katalog kursów: {ROOT}")
-    server.serve_forever()
+    try:
+        server.serve_forever()
+    finally:
+        server.server_close()
 
 
 if __name__ == "__main__":
