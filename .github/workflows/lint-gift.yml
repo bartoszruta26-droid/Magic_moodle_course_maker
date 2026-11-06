@@ -1,0 +1,20 @@
+name: Validate GIFT question bank
+
+on:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e .
+      - name: Validate MED.10 question bank
+        run: python -m magic_moodle bank-validate courses/03-kurs-masazysta-med10/question-bank
