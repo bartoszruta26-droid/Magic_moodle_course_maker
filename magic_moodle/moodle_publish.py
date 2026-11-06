@@ -151,7 +151,8 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 timelimit = activity.resource.get("time_limit", 0)
                 attempts = activity.resource.get("attempts", 1)
                 grade = activity.resource.get("grade", 10)
-                passingpercent = activity.resource.get("grade_passing", 0)
+                completion = activity.resource.get("completion", {})
+                passingpercent = activity.resource.get("grade_passing", completion.get("min_score", 0) if isinstance(completion, dict) else 0)
                 questionsperpage = activity.resource.get("questions_per_page", 1)
                 shuffleanswers = activity.resource.get("shuffle_answers", True)
                 if isinstance(timelimit, bool) or not isinstance(timelimit, int) or not 0 <= timelimit <= 86400:
@@ -172,6 +173,25 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 if not isinstance(shuffleanswers, (bool, int)) or shuffleanswers not in (0, 1, False, True):
                     warnings.append(f"Quiz '{activity.name}': shuffle_answers musi być wartością logiczną.")
                     continue
+                completion = activity.resource.get("completion", {})
+                if not isinstance(completion, dict):
+                    warnings.append(f"Quiz '{activity.name}': completion musi być mapą.")
+                    continue
+                completionenabled = completion.get("enabled", False)
+                completiontype = completion.get("type", "grade")
+                if not isinstance(completionenabled, bool):
+                    warnings.append(f"Quiz '{activity.name}': completion.enabled musi być wartością logiczną.")
+                    continue
+                if completiontype not in {"grade", "view"}:
+                    warnings.append(f"Quiz '{activity.name}': completion.type musi mieć wartość grade lub view.")
+                    continue
+                if completionenabled and completiontype == "grade" and passingpercent <= 0:
+                    warnings.append(f"Quiz '{activity.name}': ukończenie według oceny wymaga dodatniego grade_passing lub completion.min_score.")
+                    continue
+                if "grade_passing" in activity.resource and "min_score" in completion:
+                    if float(activity.resource["grade_passing"]) != float(completion["min_score"]):
+                        warnings.append(f"Quiz '{activity.name}': grade_passing i completion.min_score muszą być zgodne.")
+                        continue
                 item.update({
                     "intro": _markdown_to_html(intro),
                     "gift": gift_source,
@@ -181,6 +201,8 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "passingpercent": float(passingpercent),
                     "shuffleanswers": bool(shuffleanswers),
                     "questionsperpage": questionsperpage,
+                    "completionenabled": completionenabled,
+                    "completiontype": completiontype,
                     "questioncount": len(bank.questions),
                     "questiontypes": bank.by_type(),
                 })
