@@ -528,6 +528,8 @@ def test_quiz_endpoint_uses_native_gift_import_and_quiz_slot_api():
     assert "update_moduleinfo($cm, $moduleinfo, $course);" in plugin
     assert "previousgiftsha256" in plugin
     assert "question-version synchronization is not enabled" in plugin
+    assert "grade history is protected" in plugin
+    assert "quiz_attempts" in plugin
     assert "'updated' => new" in plugin
     assert "completionusegrade" in plugin
     assert "completionpassgrade" in plugin
@@ -1480,3 +1482,9 @@ def test_book_chapter_explicit_source_id_survives_title_change(tmp_path):
     )
     second = build_publish_plan(load_course(tmp_path), 2).activities[0]["chapters"][0]["sourceid"]
     assert first == second == "chapter-intro"
+
+
+def test_quiz_publish_requires_manifest_for_gift_identity(tmp_path):
+    course = _sample_quiz_course(tmp_path)
+    with pytest.raises(MoodleAPIError, match="Quiz wymaga --state-file"):
+        publish_course(object(), course, 2)
