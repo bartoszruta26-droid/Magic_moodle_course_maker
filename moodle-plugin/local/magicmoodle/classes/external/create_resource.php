@@ -131,44 +131,44 @@ class create_resource extends \external_api {
         $transaction = $DB->start_delegated_transaction();
         try {
             $draftitemid = file_get_unused_draft_itemid();
-        $fs->create_file_from_string([
-            'contextid' => $usercontext->id,
-            'component' => 'user',
-            'filearea' => 'draft',
-            'itemid' => $draftitemid,
-            'filepath' => '/',
-            'filename' => $filename,
-            'userid' => $USER->id,
-        ], $filecontent);
+            $fs->create_file_from_string([
+                'contextid' => $usercontext->id,
+                'component' => 'user',
+                'filearea' => 'draft',
+                'itemid' => $draftitemid,
+                'filepath' => '/',
+                'filename' => $filename,
+                'userid' => $USER->id,
+            ], $filecontent);
 
-        $moduleinfo = new \stdClass();
-        $moduleinfo->modulename = 'resource';
-        $moduleinfo->module = $moduleid;
-        $moduleinfo->course = $course->id;
-        $moduleinfo->section = $section->section;
-        $moduleinfo->name = trim($params['name']);
-        $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
-        $moduleinfo->introformat = FORMAT_HTML;
-        $moduleinfo->files = $draftitemid;
-        $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
-        $moduleinfo->popupwidth = 800;
-        $moduleinfo->popupheight = 600;
-        $moduleinfo->printintro = 1;
-        $moduleinfo->showsize = 1;
-        $moduleinfo->showtype = 1;
-        $moduleinfo->showdate = 0;
-        $moduleinfo->filterfiles = 1;
-        $moduleinfo->revision = 1;
-        $moduleinfo->visible = 1;
-        $moduleinfo->groupmode = 0;
-        $moduleinfo->groupingid = 0;
-        $moduleinfo->availability = null;
-        $moduleinfo->completion = COMPLETION_TRACKING_NONE;
-        $moduleinfo->completionview = 0;
-        $moduleinfo->completionexpected = 0;
-        $moduleinfo->showdescription = 0;
-        $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = $params['idnumber'];
+            $moduleinfo = new \stdClass();
+            $moduleinfo->modulename = 'resource';
+            $moduleinfo->module = $moduleid;
+            $moduleinfo->course = $course->id;
+            $moduleinfo->section = $section->section;
+            $moduleinfo->name = trim($params['name']);
+            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+            $moduleinfo->introformat = FORMAT_HTML;
+            $moduleinfo->files = $draftitemid;
+            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
+            $moduleinfo->popupwidth = 800;
+            $moduleinfo->popupheight = 600;
+            $moduleinfo->printintro = 1;
+            $moduleinfo->showsize = 1;
+            $moduleinfo->showtype = 1;
+            $moduleinfo->showdate = 0;
+            $moduleinfo->filterfiles = 1;
+            $moduleinfo->revision = 1;
+            $moduleinfo->visible = 1;
+            $moduleinfo->groupmode = 0;
+            $moduleinfo->groupingid = 0;
+            $moduleinfo->availability = null;
+            $moduleinfo->completion = COMPLETION_TRACKING_NONE;
+            $moduleinfo->completionview = 0;
+            $moduleinfo->completionexpected = 0;
+            $moduleinfo->showdescription = 0;
+            $moduleinfo->visibleoncoursepage = 1;
+            $moduleinfo->cmidnumber = $params['idnumber'];
 
             $created = add_moduleinfo($moduleinfo, $course);
             $transaction->allow_commit();
