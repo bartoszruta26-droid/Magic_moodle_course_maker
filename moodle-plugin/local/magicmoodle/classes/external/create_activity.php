@@ -3,10 +3,9 @@ namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
-// Moodle 4.1 uses the legacy global External API classes.
-
 use context_course;
 use invalid_parameter_exception;
+
 require_once($CFG->libdir . '/externallib.php');
 require_once($CFG->dirroot . '/course/modlib.php');
 
@@ -15,13 +14,14 @@ class create_activity extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
-            'modname' => new \external_value(PARAM_ALPHANUMEXT, 'Supported module: page or label'),
+            'modname' => new \external_value(PARAM_ALPHANUMEXT, 'Supported module: page, label or url'),
             'name' => new \external_value(PARAM_TEXT, 'Activity name'),
-            'content' => new \external_value(PARAM_RAW, 'HTML content'),
+            'content' => new \external_value(PARAM_RAW, 'HTML content', VALUE_DEFAULT, ''),
+            'externalurl' => new \external_value(PARAM_URL, 'Target URL for URL activity', VALUE_DEFAULT, ''),
         ]);
     }
 
-    public static function execute($courseid, $sectionnum, $modname, $name, $content) {
+    public static function execute($courseid, $sectionnum, $modname, $name, $content = '', $externalurl = '') {
         global $DB;
 
         $params = self::validate_parameters(self::execute_parameters(), [
@@ -30,24 +30,33 @@ class create_activity extends \external_api {
             'modname' => $modname,
             'name' => $name,
             'content' => $content,
+            'externalurl' => $externalurl,
         ]);
         $course = get_course($params['courseid']);
         $context = context_course::instance($course->id);
         self::validate_context($context);
         require_capability('moodle/course:manageactivities', $context);
 
-        if (!in_array($params['modname'], ['page', 'label'], true)) {
-            throw new invalid_parameter_exception('Only page and label modules are supported.');
+        if (!in_array($params['modname'], ['page', 'label', 'url'], true)) {
+            throw new invalid_parameter_exception('Only page, label and url modules are supported.');
         }
         if ($params['sectionnum'] < 0 || trim($params['name']) === '') {
             throw new invalid_parameter_exception('Invalid section number or empty activity name.');
         }
+        if ($params['modname'] === 'url') {
+            $parts = parse_url($params['externalurl']);
+            if (empty($parts['scheme']) || !in_array(strtolower($parts['scheme']), ['http', 'https'], true)
+                    || empty($parts['host'])) {
+                throw new invalid_parameter_exception('URL activity requires an absolute HTTP or HTTPS URL.');
+            }
+        }
+
         $section = $DB->get_record('course_sections', [
             'course' => $course->id,
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
 
-        // Idempotency: an identical module name/type in the same section is not duplicated.
+        // Idempotency: same module type/name/section is reused, never duplicated.
         $modinfo = get_fast_modinfo($course);
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress)
@@ -94,9 +103,15 @@ class create_activity extends \external_api {
             $moduleinfo->printheading = 1;
             $moduleinfo->printintro = 0;
             $moduleinfo->printlastmodified = 0;
-        } else {
+        } else if ($params['modname'] === 'label') {
             $moduleinfo->intro = $safecontent;
             $moduleinfo->introformat = FORMAT_HTML;
+        } else {
+            $moduleinfo->externalurl = $params['externalurl'];
+            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
+            $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
+            $moduleinfo->printheading = 1;
+            $moduleinfo->printintro = 0;
         }
 
         $created = add_moduleinfo($moduleinfo, $course);
