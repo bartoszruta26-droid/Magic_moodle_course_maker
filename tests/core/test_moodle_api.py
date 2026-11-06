@@ -350,6 +350,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
         encoding="utf-8",
     )
     course = load_course(tmp_path)
+    sourceid = build_publish_plan(course, 2).activities[0]["chapters"][0]["sourceid"]
 
     class FakeClient:
         def site_info(self):
@@ -379,7 +380,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
     import json
     state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
     record = next(iter(state["activities_completed"].values()))
-    assert record["chapterids"] == [{"sourceid": activity_sourceid, "chapterid": 55}]
+    assert record["chapterids"] == [{"sourceid": sourceid, "chapterid": 55}]
 
 
 def _sample_quiz_course(tmp_path: Path):
