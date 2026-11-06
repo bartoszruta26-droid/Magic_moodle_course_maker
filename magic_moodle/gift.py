@@ -194,6 +194,9 @@ def _parse_one(name: str, text: str, body: str, line: int) -> Question:
             answers = tuple(Answer(value, 100.0) for value in values if value)
         else:
             answers = _parse_answers(raw_answers)
+            if not answers and raw_answers.startswith("#"):
+                value = raw_answers[1:].strip()
+                answers = (Answer(value, 100.0),) if value else ()
         return Question(name, "shortanswer", text, answers, source_line=line)
 
     if normalized in {"", "}"}:
