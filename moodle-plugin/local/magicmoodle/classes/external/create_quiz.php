@@ -1,5 +1,5 @@
 <?php
-namespace local_magicmoodle\\external;
+namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
@@ -14,20 +14,20 @@ require_once($CFG->dirroot . '/mod/quiz/locallib.php');
 require_once($CFG->dirroot . '/question/format.php');
 require_once($CFG->dirroot . '/question/format/gift/format.php');
 
-class create_quiz extends \\external_api {
+class create_quiz extends \external_api {
     public static function execute_parameters() {
-        return new \\external_function_parameters([
-            'courseid' => new \\external_value(PARAM_INT, 'Course id'),
-            'sectionnum' => new \\external_value(PARAM_INT, 'Zero-based section number'),
-            'name' => new \\external_value(PARAM_TEXT, 'Quiz name'),
-            'intro' => new \\external_value(PARAM_RAW, 'Quiz introduction HTML', VALUE_DEFAULT, ''),
-            'gift' => new \\external_value(PARAM_RAW, 'GIFT source text'),
-            'timelimit' => new \\external_value(PARAM_INT, 'Time limit in seconds', VALUE_DEFAULT, 0),
-            'attempts' => new \\external_value(PARAM_INT, 'Allowed attempts; zero means unlimited', VALUE_DEFAULT, 1),
-            'grade' => new \\external_value(PARAM_FLOAT, 'Maximum quiz grade', VALUE_DEFAULT, 10),
-            'passingpercent' => new \\external_value(PARAM_FLOAT, 'Passing threshold as percent', VALUE_DEFAULT, 0),
-            'shuffleanswers' => new \\external_value(PARAM_BOOL, 'Shuffle answers', VALUE_DEFAULT, true),
-            'questionsperpage' => new \\external_value(PARAM_INT, 'Questions per page', VALUE_DEFAULT, 1),
+        return new \external_function_parameters([
+            'courseid' => new \external_value(PARAM_INT, 'Course id'),
+            'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'name' => new \external_value(PARAM_TEXT, 'Quiz name'),
+            'intro' => new \external_value(PARAM_RAW, 'Quiz introduction HTML', VALUE_DEFAULT, ''),
+            'gift' => new \external_value(PARAM_RAW, 'GIFT source text'),
+            'timelimit' => new \external_value(PARAM_INT, 'Time limit in seconds', VALUE_DEFAULT, 0),
+            'attempts' => new \external_value(PARAM_INT, 'Allowed attempts; zero means unlimited', VALUE_DEFAULT, 1),
+            'grade' => new \external_value(PARAM_FLOAT, 'Maximum quiz grade', VALUE_DEFAULT, 10),
+            'passingpercent' => new \external_value(PARAM_FLOAT, 'Passing threshold as percent', VALUE_DEFAULT, 0),
+            'shuffleanswers' => new \external_value(PARAM_BOOL, 'Shuffle answers', VALUE_DEFAULT, true),
+            'questionsperpage' => new \external_value(PARAM_INT, 'Questions per page', VALUE_DEFAULT, 1),
         ]);
     }
 
@@ -60,7 +60,7 @@ class create_quiz extends \\external_api {
         require_capability('moodle/question:add', $coursecontext);
 
         if ($params['sectionnum'] < 0 || trim($params['name']) === ''
-                || \\core_text::strlen($params['name']) > 255) {
+                || \core_text::strlen($params['name']) > 255) {
             throw new invalid_parameter_exception('Invalid section number or quiz name.');
         }
         if (!is_string($params['gift']) || trim($params['gift']) === ''
@@ -99,7 +99,7 @@ class create_quiz extends \\external_api {
         }
 
         $moduleid = $DB->get_field('modules', 'id', ['name' => 'quiz'], MUST_EXIST);
-        $moduleinfo = new \\stdClass();
+        $moduleinfo = new \stdClass();
         $moduleinfo->modulename = 'quiz';
         $moduleinfo->module = $moduleid;
         $moduleinfo->course = $course->id;
@@ -154,7 +154,7 @@ class create_quiz extends \\external_api {
             if ($giftfile && is_file($giftfile)) {
                 unlink($giftfile);
             }
-            throw new \\moodle_exception('cannotcreatetempfile', 'error');
+            throw new \moodle_exception('cannotcreatetempfile', 'error');
         }
 
         $transaction = $DB->start_delegated_transaction();
@@ -164,10 +164,10 @@ class create_quiz extends \\external_api {
 
             $category = question_make_default_categories([$coursecontext]);
             if (!$category) {
-                throw new \\moodle_exception('cannotfinddefaultcategory', 'question');
+                throw new \moodle_exception('cannotfinddefaultcategory', 'question');
             }
 
-            $format = new \\qformat_gift();
+            $format = new \qformat_gift();
             $format->setCategory($category);
             $format->setCourse($course);
             $format->setFilename($giftfile);
@@ -182,7 +182,7 @@ class create_quiz extends \\external_api {
                 ob_end_clean();
             }
             if (!$imported || $format->importerrors > 0 || empty($format->questionids)) {
-                throw new \\moodle_exception('importparseerror', 'question');
+                throw new \moodle_exception('importparseerror', 'question');
             }
             if (count($format->questionids) > 250) {
                 throw new invalid_parameter_exception('A single quiz is limited to 250 imported questions.');
@@ -196,7 +196,7 @@ class create_quiz extends \\external_api {
 
             if ($params['passingpercent'] > 0) {
                 require_once($CFG->libdir . '/gradelib.php');
-                $gradeitem = \\grade_item::fetch([
+                $gradeitem = \grade_item::fetch([
                     'itemtype' => 'mod',
                     'itemmodule' => 'quiz',
                     'iteminstance' => $quiz->id,
@@ -209,7 +209,7 @@ class create_quiz extends \\external_api {
             }
 
             $transaction->allow_commit();
-        } catch (\\Throwable $exception) {
+        } catch (\Throwable $exception) {
             $transaction->rollback($exception);
         } finally {
             if (is_file($giftfile)) {
@@ -229,14 +229,14 @@ class create_quiz extends \\external_api {
     }
 
     public static function execute_returns() {
-        return new \\external_single_structure([
-            'cmid' => new \\external_value(PARAM_INT, 'Course module id'),
-            'instanceid' => new \\external_value(PARAM_INT, 'Quiz instance id'),
-            'modname' => new \\external_value(PARAM_TEXT, 'Module name'),
-            'name' => new \\external_value(PARAM_TEXT, 'Quiz name'),
-            'created' => new \\external_value(PARAM_BOOL, 'Whether a new quiz was created'),
-            'questioncount' => new \\external_value(PARAM_INT, 'Number of quiz questions'),
-            'categoryid' => new \\external_value(PARAM_INT, 'Question category id'),
+        return new \external_single_structure([
+            'cmid' => new \external_value(PARAM_INT, 'Course module id'),
+            'instanceid' => new \external_value(PARAM_INT, 'Quiz instance id'),
+            'modname' => new \external_value(PARAM_TEXT, 'Module name'),
+            'name' => new \external_value(PARAM_TEXT, 'Quiz name'),
+            'created' => new \external_value(PARAM_BOOL, 'Whether a new quiz was created'),
+            'questioncount' => new \external_value(PARAM_INT, 'Number of quiz questions'),
+            'categoryid' => new \external_value(PARAM_INT, 'Question category id'),
         ]);
     }
 }
