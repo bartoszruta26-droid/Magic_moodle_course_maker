@@ -16,6 +16,13 @@ $functions = [
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities',
     ],
+    'local_magicmoodle_create_resource' => [
+        'classname' => '\\local_magicmoodle\\external\\create_resource',
+        'description' => 'Upload one file and create a Moodle File resource activity.',
+        'type' => 'write',
+        'ajax' => false,
+        'capabilities' => 'moodle/course:manageactivities, mod/resource:addinstance',
+    ],
     'local_magicmoodle_create_assignment' => [
         'classname' => '\\local_magicmoodle\\external\\create_assignment',
         'description' => 'Create an Assignment activity with submission types, grading and due dates.',
