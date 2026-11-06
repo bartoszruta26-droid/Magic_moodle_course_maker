@@ -17,7 +17,7 @@ $functions = [
         'capabilities' => 'moodle/course:manageactivities',
     ],
     'local_magicmoodle_create_assignment' => [
-        'classname' => '\\\\local_magicmoodle\\\\external\\\\create_assignment',
+        'classname' => '\\local_magicmoodle\\external\\create_assignment',
         'description' => 'Create an Assignment activity with submission types, grading and due dates.',
         'type' => 'write',
         'ajax' => false,
