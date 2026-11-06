@@ -17,7 +17,7 @@ Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
 
 ## Instalacja pluginu
 
-Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj dwie funkcje pluginu do usługi zewnętrznej. Plugin udostępnia bezpieczne funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page i Label z kontrolą kontekstu i uprawnień.
+Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj dwie funkcje pluginu do usługi zewnętrznej. Plugin udostępnia bezpieczne funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label i URL z kontrolą kontekstu i uprawnień.
 
 ## Konfiguracja klienta
 
@@ -46,7 +46,7 @@ Następnie wykonaj publikację:
 python -m magic_moodle moodle-publish courses/03-kurs-masazysta-med10
 ```
 
-Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs otrzymuje kategorię wskazaną przez `MOODLE_CATEGORY_ID`, format i liczbę sekcji z konfiguracji. Sekcje otrzymują nazwy z repozytorium. Wbudowany adapter publikuje Page i Label. Inne typy aktywności zatrzymują publikację na etapie kontroli wstępnej — przed pierwszą zmianą zdalną.
+Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs otrzymuje kategorię wskazaną przez `MOODLE_CATEGORY_ID`, format i liczbę sekcji z konfiguracji. Sekcje otrzymują nazwy z repozytorium. Wbudowany adapter publikuje Page, Label i URL. Dla aktywności URL plik YAML wskazany przez `ref` powinien zawierać `url: https://...` lub `externalurl: https://...`. Inne typy aktywności zatrzymują publikację na etapie kontroli wstępnej — przed pierwszą zmianą zdalną.
 
 ## Bezpieczeństwo i ograniczenia
 
@@ -55,5 +55,5 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - REST Moodle jest wywoływany metodą POST, z kodowaniem parametrów tablicowych Moodle.
 - Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs; przed ponownym uruchomieniem sprawdź kurs i jego aktywności.
 - Idempotencja obejmuje wyszukanie kursu po shortname. Ponowne uruchomienie może dodać ponownie aktywności — przed kolejnym przebiegiem należy je zweryfikować.
-- Wbudowane tworzenie aktywności obejmuje na razie wyłącznie Page i Label. Quiz, Assignment, Book, Glossary, pliki i zasoby URL wymagają dalszych adapterów oraz obsługi plików Moodle.
+- Wbudowane tworzenie aktywności obejmuje na razie Page, Label i URL. Quiz, Assignment, Book, Glossary, pliki i zasoby URL wymagają dalszych adapterów oraz obsługi plików Moodle.
 - Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
