@@ -703,7 +703,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110609;" in version
+    assert "$plugin->version = 2026110610;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -809,7 +809,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110609;" in version
+    assert "$plugin->version = 2026110610;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
@@ -953,7 +953,7 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "\\mod_glossary_external::add_entry" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110609;" in version
+    assert "$plugin->version = 2026110610;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
@@ -984,3 +984,19 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
         assert "$existing->idnumber === $params['idnumber']" in source
         assert "course_modules', 'idnumber'" in source
+
+
+def test_stable_idnumber_is_last_external_parameter_for_all_moodle_modules():
+    root = Path(__file__).parents[2] / "moodle-plugin/local/magicmoodle/classes/external"
+    names = [
+        "create_activity.php", "create_book.php", "create_quiz.php",
+        "create_assignment.php", "create_resource.php", "create_glossary.php",
+    ]
+    for name in names:
+        source = (root / name).read_text(encoding="utf-8")
+        start = source.index("public static function execute_parameters()")
+        end = source.index("public static function execute(", start)
+        params = source[start:end]
+        assert params.rfind("'idnumber'") > params.rfind("'sectionnum'")
+        signature = source[end:source.index("{", end)]
+        assert "$idnumber = ''" in signature
