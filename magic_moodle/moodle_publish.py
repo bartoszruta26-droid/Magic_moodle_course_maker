@@ -107,19 +107,60 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     warnings: list[str] = []
     for section_index, section in enumerate(course.sections):
         for activity in section.activities:
-            if activity.kind not in {"page", "label", "url"}:
+            if activity.kind not in {"page", "label", "url", "book"}:
                 warnings.append(
                     f"Sekcja {section_index}, '{activity.name}': typ '{activity.kind}' "
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
                 )
                 continue
-            source = "\n\n".join(activity.content.values())
             item = {
                 "sectionnum": section_index,
                 "type": activity.kind,
                 "name": activity.name,
-                "content": _markdown_to_html(source),
+                "content": _markdown_to_html("\n\n".join(activity.content.values())),
             }
+            if activity.kind == "book":
+                chapters = activity.resource.get("chapters", [])
+                if not isinstance(chapters, list) or not chapters or len(chapters) > 200:
+                    warnings.append(f"Książka '{activity.name}' musi zawierać od 1 do 200 rozdziałów.")
+                    continue
+                planned_chapters = []
+                for chapter_index, chapter in enumerate(chapters):
+                    if not isinstance(chapter, dict):
+                        warnings.append(f"Książka '{activity.name}': chapters[{chapter_index}] musi być mapą.")
+                        continue
+                    title = chapter.get("title")
+                    if not isinstance(title, str) or not title.strip() or len(title.strip()) > 255:
+                        warnings.append(f"Książka '{activity.name}': rozdział {chapter_index + 1} ma nieprawidłowy tytuł.")
+                        continue
+                    content_file = chapter.get("content_file")
+                    if content_file:
+                        chapter_source = activity.content.get(content_file)
+                        if chapter_source is None:
+                            warnings.append(f"Książka '{activity.name}': brak pliku rozdziału '{content_file}'.")
+                            continue
+                    else:
+                        chapter_source = chapter.get("content", "")
+                    if not isinstance(chapter_source, str):
+                        warnings.append(f"Książka '{activity.name}': treść rozdziału '{title}' musi być tekstem.")
+                        continue
+                    subchapter = bool(chapter.get("subchapter", False))
+                    if chapter_index == 0 and subchapter:
+                        warnings.append(f"Książka '{activity.name}': pierwszy rozdział nie może być podrozdziałem.")
+                        continue
+                    planned_chapters.append({
+                        "title": title.strip(),
+                        "content": _markdown_to_html(chapter_source),
+                        "subchapter": subchapter,
+                    })
+                numbering = activity.resource.get("numbering", 1)
+                if isinstance(numbering, bool) or not isinstance(numbering, int) or numbering not in {0, 1, 2, 3}:
+                    warnings.append(f"Książka '{activity.name}': numbering musi mieć wartość 0, 1, 2 lub 3.")
+                    continue
+                if len(planned_chapters) != len(chapters):
+                    continue
+                item["chapters"] = planned_chapters
+                item["numbering"] = numbering
             if activity.kind == "url":
                 target_url = (
                     activity.resource.get("externalurl")
@@ -191,6 +232,7 @@ def publish_course(
         "core_course_create_courses",
         "local_magicmoodle_update_section",
         "local_magicmoodle_create_activity",
+        "local_magicmoodle_create_book",
     }
     missing = sorted(required - functions)
     if missing:
@@ -208,9 +250,14 @@ def publish_course(
         )
     activity_results = []
     for activity in plan.activities:
-        activity_results.append(
-            client.create_activity(course_id, activity["sectionnum"], activity)
-        )
+        if activity["type"] == "book":
+            activity_results.append(
+                client.create_book(course_id, activity["sectionnum"], activity)
+            )
+        else:
+            activity_results.append(
+                client.create_activity(course_id, activity["sectionnum"], activity)
+            )
     return {
         "dry_run": False,
         "course": remote_course,
