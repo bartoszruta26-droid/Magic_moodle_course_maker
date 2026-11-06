@@ -35,11 +35,38 @@ def _answer(
         _element(node, "tolerance", f"{tolerance:g}")
 
 
+def _convert_gift_cloze(text: str) -> str:
+    """Konwertuje proste luki GIFT na składnię Cloze używaną przez Moodle XML."""
+    import re
+
+    def convert(match: re.Match[str]) -> str:
+        body = match.group(1).strip()
+        from .gift import _parse_answers
+
+        answers = _parse_answers(body)
+        if not answers:
+            raise ValueError(f"Nie można przekonwertować luki GIFT: {{{body}}}")
+        has_distractors = any(answer.fraction < 100 for answer in answers)
+        kind = "MULTICHOICE" if has_distractors else "SHORTANSWER"
+        parts = []
+        for answer in answers:
+            if answer.fraction >= 100:
+                token = "=" + answer.text
+            else:
+                token = f"~%{answer.fraction:g}%" + answer.text
+            if answer.feedback:
+                token += "#" + answer.feedback
+            parts.append(token)
+        return "{1:" + kind + ":" + "".join(parts) + "}"
+
+    return re.sub(r"\\{([^{}]+)\\}", convert, text)
+
+
 def _append_question(root: ET.Element, question: Question) -> None:
     node = _element(root, "question", type=question.qtype)
     name = _element(node, "name")
     _element(name, "text", question.name)
-    _text_field(node, "questiontext", question.text)
+    _text_field(\n        node, "questiontext",\n        _convert_gift_cloze(question.text) if question.qtype == "multianswer" else question.text,\n    )
     _text_field(node, "generalfeedback", question.general_feedback)
     _element(node, "defaultgrade", "1.0000000")
     _element(node, "penalty", "0.3333333")
