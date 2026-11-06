@@ -157,3 +157,14 @@ def test_recognizes_embedded_missingword_question() -> None:
     ).questions[0]
     assert question.qtype == "multianswer"
     assert "{=prawdę" in question.text
+
+
+def test_moodle_xml_converts_gift_cloze_to_embedded_answer_syntax() -> None:
+    bank = parse_gift(
+        '::cloze:: "Poznacie {=prawdę ~%0%wolność}, a prawda was wyzwoli."'
+    )
+    root = ET.fromstring(to_moodle_xml(bank))
+    question = root.findall("question")[1]
+    assert question.attrib["type"] == "multianswer"
+    question_text = question.findtext("./questiontext/text")
+    assert "{1:MULTICHOICE:=prawdę~%0%wolność}" in question_text
