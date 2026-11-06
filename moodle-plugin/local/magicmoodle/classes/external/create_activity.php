@@ -220,6 +220,7 @@ class create_activity extends \external_api {
             'modname' => new \external_value(PARAM_TEXT, 'Module name'),
             'name' => new \external_value(PARAM_TEXT, 'Activity name'),
             'created' => new \external_value(PARAM_BOOL, 'Whether a new activity was created'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether an existing activity was updated'),
         ]);
     }
 }
