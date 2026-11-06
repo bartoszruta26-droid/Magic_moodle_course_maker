@@ -242,21 +242,21 @@ def test_book_activity_is_loaded_and_prepared_for_moodle(tmp_path):
     bookdir = section / "book"
     bookdir.mkdir(parents=True)
     (tmp_path / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs książka\\n  short_name: KBOOK\\n",
+        "course:\n  full_name: Kurs książka\n  short_name: KBOOK\n",
         encoding="utf-8",
     )
     (section / "section.yaml").write_text(
-        "id: '01'\\nname: Materiały\\nmodules:\\n"
-        "  - type: book\\n    ref: book\\n    name: Podręcznik\\n",
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: book\n    ref: book\n    name: Podręcznik\n",
         encoding="utf-8",
     )
     (bookdir / "book.yaml").write_text(
-        "book:\\n  numbering: 1\\n  chapters:\\n"
-        "    - title: Wprowadzenie\\n      content_file: intro.md\\n"
-        "    - title: Podstawy\\n      content_file: basics.md\\n      subchapter: true\\n",
+        "book:\n  numbering: 1\n  chapters:\n"
+        "    - title: Wprowadzenie\n      content_file: intro.md\n"
+        "    - title: Podstawy\n      content_file: basics.md\n      subchapter: true\n",
         encoding="utf-8",
     )
-    (bookdir / "intro.md").write_text("# Start\\n\\nTreść pierwsza.", encoding="utf-8")
+    (bookdir / "intro.md").write_text("# Start\n\nTreść pierwsza.", encoding="utf-8")
     (bookdir / "basics.md").write_text("Treść **drugiego** rozdziału.", encoding="utf-8")
 
     plan = build_publish_plan(load_course(tmp_path), 2)
@@ -264,7 +264,7 @@ def test_book_activity_is_loaded_and_prepared_for_moodle(tmp_path):
     book = plan.activities[0]
     assert book["type"] == "book"
     assert book["numbering"] == 1
-    assert book["chapters"][0]["content"] == "<h2>Start</h2>\\n<p>Treść pierwsza.</p>"
+    assert book["chapters"][0]["content"] == "<h2>Start</h2>\n<p>Treść pierwsza.</p>"
     assert book["chapters"][1]["subchapter"] is True
     assert "<strong>drugiego</strong>" in book["chapters"][1]["content"]
 
@@ -274,16 +274,16 @@ def test_book_preflight_rejects_missing_chapter_file(tmp_path):
     bookdir = section / "book"
     bookdir.mkdir(parents=True)
     (tmp_path / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs książka\\n  short_name: KBOOK\\n",
+        "course:\n  full_name: Kurs książka\n  short_name: KBOOK\n",
         encoding="utf-8",
     )
     (section / "section.yaml").write_text(
-        "id: '01'\\nname: Materiały\\nmodules:\\n"
-        "  - type: book\\n    ref: book\\n    name: Podręcznik\\n",
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: book\n    ref: book\n    name: Podręcznik\n",
         encoding="utf-8",
     )
     (bookdir / "book.yaml").write_text(
-        "book:\\n  chapters:\\n    - title: Brak\\n      content_file: missing.md\\n",
+        "book:\n  chapters:\n    - title: Brak\n      content_file: missing.md\n",
         encoding="utf-8",
     )
     plan = build_publish_plan(load_course(tmp_path), 2)
