@@ -147,4 +147,5 @@ def test_loads_quiz_configuration_with_repository_schema(tmp_path: Path) -> None
     activity = load_course(root).sections[0].activities[0]
     assert activity.resource["name"] == "Test wiedzy"
     assert activity.resource["questions_file"] == "questions.gift"
+    assert activity.content["questions.gift"] == "::Pytanie:: 2+2? {=4}"
     assert validate_course(load_course(root)).ok
