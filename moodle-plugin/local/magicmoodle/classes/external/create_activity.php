@@ -1,5 +1,5 @@
 <?php
-namespace local_magicmoodle\\external;
+namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
@@ -12,11 +12,6 @@ use external_function_parameters;
 use external_single_structure;
 use external_value;
 use invalid_parameter_exception;
-use PARAM_ALPHANUMEXT;
-use PARAM_INT;
-use PARAM_RAW;
-use PARAM_TEXT;
-use PARAM_BOOL;
 
 class create_activity extends external_api {
     public static function execute_parameters() {
@@ -74,7 +69,7 @@ class create_activity extends external_api {
 
         $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
 
-        $moduleinfo = new \\stdClass();
+        $moduleinfo = new \stdClass();
         $moduleinfo->modulename = $params['modname'];
         $moduleinfo->module = $moduleid;
         $moduleinfo->course = $course->id;
