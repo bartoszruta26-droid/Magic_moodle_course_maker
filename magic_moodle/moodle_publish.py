@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Any
+from urllib.parse import urlsplit
 
 from .models import Course
 from .moodle_api import MoodleAPIError, MoodleClient
@@ -131,7 +132,25 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         f"Aktywność URL '{activity.name}' nie zawiera pola externalurl/url."
                     )
                     continue
-                item["externalurl"] = target_url.strip()
+                normalized_url = target_url.strip()
+                try:
+                    parsed_url = urlsplit(normalized_url)
+                    valid_url = (
+                        parsed_url.scheme.lower() in {"http", "https"}
+                        and bool(parsed_url.hostname)
+                        and not any(character.isspace() for character in normalized_url)
+                    )
+                    if parsed_url.port is not None:
+                        valid_url = valid_url and 1 <= parsed_url.port <= 65535
+                except ValueError:
+                    valid_url = False
+                if not valid_url:
+                    warnings.append(
+                        f"Aktywność URL '{activity.name}' ma nieprawidłowy adres: "
+                        "wymagany jest bezwzględny adres HTTP lub HTTPS."
+                    )
+                    continue
+                item["externalurl"] = normalized_url
             activities.append(item)
     return PublishPlan(payload, tuple(activities), tuple(warnings))
 
