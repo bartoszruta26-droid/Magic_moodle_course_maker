@@ -53,3 +53,23 @@ def test_manifest_rejects_unserializable_metadata(tmp_path):
     import pytest
     with pytest.raises(TypeError, match="Nieobsługiwany typ"):
         course_manifest(broken)
+
+
+
+def test_manifest_rejects_non_finite_json_numbers(tmp_path):
+    from dataclasses import replace
+    import pytest
+
+    course = _course(tmp_path)
+    invalid = replace(course, metadata={"custom": float("nan")})
+    with pytest.raises(ValueError, match="NaN"):
+        to_course_json(invalid)
+
+
+def test_export_replaces_destination_without_leaving_temporary_files(tmp_path):
+    destination = tmp_path / "generated" / "manifest.json"
+    destination.parent.mkdir()
+    destination.write_text("old", encoding="utf-8")
+    export_course_json(_course(tmp_path), destination)
+    assert json.loads(destination.read_text(encoding="utf-8"))["course"]["short_name"] == "TEST"
+    assert list(destination.parent.glob(".manifest.json.*.tmp")) == []
