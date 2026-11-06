@@ -212,6 +212,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     warnings.append(f"Książka '{activity.name}' musi zawierać od 1 do 200 rozdziałów.")
                     continue
                 planned_chapters = []
+                total_chapter_bytes = 0
                 for chapter_index, chapter in enumerate(chapters):
                     if not isinstance(chapter, dict):
                         warnings.append(f"Książka '{activity.name}': chapters[{chapter_index}] musi być mapą.")
@@ -231,7 +232,19 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     if not isinstance(chapter_source, str):
                         warnings.append(f"Książka '{activity.name}': treść rozdziału '{title}' musi być tekstem.")
                         continue
-                    subchapter = bool(chapter.get("subchapter", False))
+                    subchapter_value = chapter.get("subchapter", False)
+                    if not isinstance(subchapter_value, bool):
+                        warnings.append(
+                            f"Książka '{activity.name}': chapters[{chapter_index}].subchapter musi być wartością logiczną."
+                        )
+                        continue
+                    subchapter = subchapter_value
+                    total_chapter_bytes += len(_markdown_to_html(chapter_source).encode("utf-8"))
+                    if total_chapter_bytes > 5 * 1024 * 1024:
+                        warnings.append(
+                            f"Książka '{activity.name}': łączny rozmiar treści rozdziałów przekracza limit 5 MiB."
+                        )
+                        break
                     if chapter_index == 0 and subchapter:
                         warnings.append(f"Książka '{activity.name}': pierwszy rozdział nie może być podrozdziałem.")
                         continue
