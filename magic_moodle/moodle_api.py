@@ -166,9 +166,9 @@ class MoodleClient:
     def create_activity(
         self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
     ) -> dict[str, Any]:
-        """Create page/label through the companion local_magicmoodle plugin."""
+        """Create page, label or URL through the companion local_magicmoodle plugin."""
         kind = str(activity.get("type", "")).lower()
-        if kind not in {"page", "label"}:
+        if kind not in {"page", "label", "url"}:
             raise MoodleAPIError(
                 f"Aktywność '{kind}' wymaga osobnego adaptera Moodle; nie zostanie pominięta."
             )
@@ -180,6 +180,7 @@ class MoodleClient:
                 "modname": kind,
                 "name": activity["name"],
                 "content": activity.get("content", ""),
+                "externalurl": activity.get("externalurl", ""),
             },
         )
 
