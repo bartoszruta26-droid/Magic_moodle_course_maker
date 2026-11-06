@@ -186,3 +186,16 @@ def test_all_med10_quiz_gift_files_parse_and_validate() -> None:
         assert not errors, "\\n".join(errors)
         total += len(bank.questions)
     assert total > 100
+
+
+def test_parses_legacy_med10_weighted_distractor() -> None:
+    question = parse_gift(
+        """::weighted:: Wybierz odpowiedź. {
+=Poprawna
+~0.5# Częściowo punktowana odpowiedź
+~ Zwykły dystraktor
+}"""
+    ).questions[0]
+    assert question.qtype == "multichoice"
+    assert question.answers[1].text == "Częściowo punktowana odpowiedź"
+    assert question.answers[1].fraction == 50
