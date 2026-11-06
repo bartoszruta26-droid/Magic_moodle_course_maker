@@ -246,12 +246,19 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 if not isinstance(intro_source, str) or len(intro_source) > 100000:
                     warnings.append(f"Zadanie '{activity.name}': intro musi być tekstem do 100 000 znaków.")
                     continue
-                submissiontype = activity.resource.get("submission_type", "both")
+                submissiontype = activity.resource.get("submission_type")
+                if submissiontype is None:
+                    configured_types = activity.resource.get("submission_types", ["file", "onlinetext"])
+                    if (not isinstance(configured_types, list) or not configured_types
+                            or any(value not in {"onlinetext", "file"} for value in configured_types)):
+                        warnings.append(f"Zadanie '{activity.name}': submission_types musi być niepustą listą wartości file/onlinetext.")
+                        continue
+                    submissiontype = "both" if set(configured_types) == {"file", "onlinetext"} else configured_types[0]
                 if submissiontype not in {"onlinetext", "file", "both"}:
                     warnings.append(f"Zadanie '{activity.name}': submission_type musi mieć wartość onlinetext, file lub both.")
                     continue
-                grade = activity.resource.get("grade", 100)
-                maxfiles = activity.resource.get("max_files", 5)
+                grade = activity.resource.get("grade", activity.resource.get("grademax", 100))
+                maxfiles = activity.resource.get("max_files", activity.resource.get("max_attachments", 5))
                 maxbytes = activity.resource.get("max_file_size", 10 * 1024 * 1024)
                 if isinstance(grade, bool) or not isinstance(grade, (int, float)) or not 0 < grade <= 10000:
                     warnings.append(f"Zadanie '{activity.name}': grade musi być większe od 0 i nie większe niż 10000.")
