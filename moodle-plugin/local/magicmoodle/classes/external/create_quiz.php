@@ -98,10 +98,10 @@ class create_quiz extends \external_api {
         // Reuse an existing quiz with the same name and section; never re-import questions.
         $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
         $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'quiz' . '|' . $identity);
-        $lockfactory = \\core\\lock\\lock_config::get_lock_factory('local_magicmoodle');
+        $lockfactory = \core\lock\lock_config::get_lock_factory('local_magicmoodle');
         $lock = $lockfactory->get_lock($lockkey, 30);
         if (!$lock) {
-            throw new \\moodle_exception('locktimeout', 'error');
+            throw new \moodle_exception('locktimeout', 'error');
         }
         try {
             $modinfo = get_fast_modinfo($course);
