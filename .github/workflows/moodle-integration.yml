@@ -41,6 +41,7 @@ jobs:
           php-version: "8.1"
           extensions: curl, gd, intl, mbstring, mysqli, soap, sodium, xml, zip
           coverage: none
+          ini-values: max_input_vars=5000
 
       - name: Clone Moodle 4.1 stable
         run: git clone --depth 1 --branch MOODLE_401_STABLE https://github.com/moodle/moodle.git /tmp/moodle
