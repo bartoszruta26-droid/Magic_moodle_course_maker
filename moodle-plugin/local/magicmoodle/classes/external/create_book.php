@@ -14,6 +14,7 @@ class create_book extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Book activity name'),
             'chapters' => new \external_multiple_structure(
                 new \external_single_structure([
@@ -27,12 +28,13 @@ class create_book extends \external_api {
         ]);
     }
 
-    public static function execute($courseid, $sectionnum, $name, $chapters, $numbering = 1) {
+    public static function execute($courseid, $sectionnum, $name, $chapters, $numbering = 1, $idnumber = '') {
         global $DB;
 
         $params = self::validate_parameters(self::execute_parameters(), [
             'courseid' => $courseid,
             'sectionnum' => $sectionnum,
+            'idnumber' => $idnumber,
             'name' => $name,
             'chapters' => $chapters,
             'numbering' => $numbering,
@@ -74,7 +76,7 @@ class create_book extends \external_api {
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress) && $existing->modname === 'book'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && $existing->name === $params['name']) {
+                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
@@ -107,7 +109,7 @@ class create_book extends \external_api {
         $moduleinfo->completionexpected = 0;
         $moduleinfo->showdescription = 0;
         $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = '';
+        $moduleinfo->cmidnumber = $params['idnumber'];
 
         $transaction = $DB->start_delegated_transaction();
         try {
