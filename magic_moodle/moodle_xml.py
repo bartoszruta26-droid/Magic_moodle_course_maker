@@ -83,7 +83,7 @@ def _append_question(root: ET.Element, question: Question) -> None:
         _element(node, "attachmentsrequired", "0")
         _text_field(node, "graderinfo", "")
         _text_field(node, "responsetemplate", "")
-    elif question.qtype == "description":
+    elif question.qtype in {"description", "multianswer"}:
         pass
     else:
         raise ValueError(f"Nieobsługiwany typ pytania Moodle XML: {question.qtype}")
