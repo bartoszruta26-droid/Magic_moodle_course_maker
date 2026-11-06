@@ -300,15 +300,17 @@ def test_book_preflight_rejects_missing_chapter_file(tmp_path):
 
 def test_create_book_calls_registered_moodle_service():
     client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
-    chapters = [{"title": "Start", "content": "<p>Treść</p>", "subchapter": False}]
+    chapters = [{"sourceid": "chapter-001", "title": "Start", "content": "<p>Treść</p>", "subchapter": False}]
     with patch.object(client, "call", return_value={"created": True}) as call:
         client.create_book(7, 1, {
             "name": "Podręcznik",
             "chapters": chapters,
+            "chapterids": [{"sourceid": "chapter-001", "chapterid": 77}],
             "numbering": 1,
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_book"
     assert call.call_args.args[1]["chapters"] == chapters
+    assert call.call_args.args[1]["chapterids"] == [{"sourceid": "chapter-001", "chapterid": 77}]
     assert call.call_args.args[1]["numbering"] == 1
 
 
@@ -324,6 +326,9 @@ def test_moodle_book_plugin_exposes_secure_moodle_41_endpoint():
     assert "class create_book extends \\external_api" in plugin
     assert "require_capability('mod/book:edit', $modulecontext)" in plugin
     assert "5 * 1024 * 1024" in plugin
+    assert "\\mod_book\\event\\chapter_updated::create_from_chapter" in plugin
+    assert "'sourceid'" in plugin and "'chapterids'" in plugin
+    assert "get_moduleinfo_data($cm, $course);" in plugin
     assert "'local_magicmoodle_create_book'" in services
 
 
@@ -363,13 +368,18 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
             return {"section": sectionnum}
 
         def create_book(self, courseid, sectionnum, activity):
-            return {"modname": "book", "name": activity["name"], "created": True}
+            return {"modname": "book", "name": activity["name"], "created": True,
+                    "chapterids": [{"sourceid": activity["chapters"][0]["sourceid"], "chapterid": 55}]}
 
         def create_activity(self, *args):
             raise AssertionError("Book must use create_book, not create_activity")
 
     result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "book"
+    import json
+    state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
+    record = next(iter(state["activities_completed"].values()))
+    assert record["chapterids"] == [{"sourceid": activity_sourceid, "chapterid": 55}]
 
 
 def _sample_quiz_course(tmp_path: Path):
