@@ -55,5 +55,5 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - REST Moodle jest wywoływany metodą POST, z kodowaniem parametrów tablicowych Moodle.
 - Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs; przed ponownym uruchomieniem sprawdź kurs i jego aktywności.
 - Idempotencja obejmuje wyszukanie kursu po shortname. Ponowne uruchomienie może dodać ponownie aktywności — przed kolejnym przebiegiem należy je zweryfikować.
-- Wbudowane tworzenie aktywności obejmuje na razie Page, Label i URL. Quiz, Assignment, Book, Glossary, pliki i zasoby URL wymagają dalszych adapterów oraz obsługi plików Moodle.
+- Wbudowane tworzenie aktywności obejmuje na razie Page, Label i URL. Quiz, Assignment, Book, Glossary i pliki wymagają dalszych adapterów oraz obsługi plików Moodle.
 - Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
