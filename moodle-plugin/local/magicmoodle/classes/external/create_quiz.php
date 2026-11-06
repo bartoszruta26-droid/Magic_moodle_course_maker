@@ -30,6 +30,12 @@ class create_quiz extends \external_api {
             'questionsperpage' => new \external_value(PARAM_INT, 'Questions per page', VALUE_DEFAULT, 1),
             'completionenabled' => new \external_value(PARAM_BOOL, 'Enable activity completion', VALUE_DEFAULT, false),
             'completiontype' => new \external_value(PARAM_ALPHANUMEXT, 'Completion condition: grade or view', VALUE_DEFAULT, 'grade'),
+            'questioncount' => new \external_value(PARAM_INT, 'Expected number of GIFT questions', VALUE_DEFAULT, 0),
+            'previousgiftsha256' => new \external_value(PARAM_ALPHANUMEXT, 'Previous GIFT SHA-256', VALUE_DEFAULT, ''),
+            'syncfields' => new \external_multiple_structure(
+                new \external_value(PARAM_ALPHANUMEXT, 'Explicitly source-managed setting'),
+                'Settings to synchronize', VALUE_DEFAULT, ['name']
+            ),
             'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
@@ -37,7 +43,7 @@ class create_quiz extends \external_api {
     public static function execute(
         $courseid, $sectionnum, $name, $intro, $gift, $timelimit = 0,
         $attempts = 1, $grade = 10, $passingpercent = 0, $shuffleanswers = true,
-        $questionsperpage = 1, $completionenabled = false, $completiontype = 'grade', $idnumber = ''
+        $questionsperpage = 1, $completionenabled = false, $completiontype = 'grade', $questioncount = 0, $previousgiftsha256 = '', $syncfields = ['name'], $idnumber = ''
     ) {
         global $CFG, $DB;
 
@@ -56,8 +62,31 @@ class create_quiz extends \external_api {
             'questionsperpage' => $questionsperpage,
             'completionenabled' => $completionenabled,
             'completiontype' => $completiontype,
+            'questioncount' => $questioncount,
+            'previousgiftsha256' => $previousgiftsha256,
+            'syncfields' => $syncfields,
         ]);
 
+        $allowedfields = [
+            'name', 'intro', 'timelimit', 'attempts', 'grade', 'passingpercent',
+            'shuffleanswers', 'questionsperpage', 'completion',
+        ];
+        $syncfields = array_values(array_unique($params['syncfields']));
+        foreach ($syncfields as $field) {
+            if (!in_array($field, $allowedfields, true)) {
+                throw new invalid_parameter_exception('Unsupported Quiz synchronization field: ' . $field);
+            }
+        }
+        if (!in_array('name', $syncfields, true)) {
+            $syncfields[] = 'name';
+        }
+        if ($params['questioncount'] < 1 || $params['questioncount'] > 250) {
+            throw new invalid_parameter_exception('Quiz question count must be between 1 and 250.');
+        }
+        if ($params['previousgiftsha256'] !== ''
+                && !preg_match('/^[a-f0-9]{64}$/', $params['previousgiftsha256'])) {
+            throw new invalid_parameter_exception('Previous GIFT SHA-256 must be a lowercase hexadecimal digest.');
+        }
         if (strlen($params['idnumber']) > 100) {
             throw new \invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
         }
@@ -119,33 +148,120 @@ class create_quiz extends \external_api {
                 if (empty($existing->deletioninprogress) && $existing->modname === 'quiz'
                         && (int)$existing->sectionnum === (int)$params['sectionnum']
                         && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                    if ($params['idnumber'] !== ''
-                            && $existing->name === $params['name']
-                            && !empty($existing->idnumber)
-                            && $existing->idnumber !== $params['idnumber']) {
+                    if ($params['idnumber'] !== '' && $existing->name === $params['name']
+                            && !empty($existing->idnumber) && $existing->idnumber !== $params['idnumber']) {
                         throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
                     }
-                    if ($params['idnumber'] !== ''
-                            && $existing->idnumber === $params['idnumber']
-                            && $existing->name !== $params['name']) {
-                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+
+                    $quiz = $DB->get_record('quiz', ['id' => $existing->instance], '*', MUST_EXIST);
+                    $questioncount = (int)$DB->count_records('quiz_slots', ['quizid' => $quiz->id]);
+                    if ($questioncount !== $params['questioncount']) {
+                        throw new invalid_parameter_exception(
+                            'The existing quiz question count differs from the source. '
+                            . 'Question-bank synchronization is not enabled; refusing to alter slots or question identities.'
+                        );
                     }
-    
-                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    if ($questioncount > 0) {
+                        if ($params['previousgiftsha256'] === '') {
+                            throw new invalid_parameter_exception(
+                                'This existing quiz has questions but no prior GIFT digest in the publish manifest. '
+                                . 'Refusing to assume that its question content matches the source.'
+                            );
+                        }
+                        $currentgifthash = hash('sha256', $params['gift']);
+                        if (!hash_equals($params['previousgiftsha256'], $currentgifthash)) {
+                            throw new invalid_parameter_exception(
+                                'GIFT question content changed. Quiz question-version synchronization is not enabled; '
+                                . 'existing questions and attempts were left untouched.'
+                            );
+                        }
                     }
+
+                    $transaction = $DB->start_delegated_transaction();
+                    try {
+                        $cm = $DB->get_record('course_modules', [
+                            'id' => $existing->id,
+                            'course' => $course->id,
+                            'module' => $DB->get_field('modules', 'id', ['name' => 'quiz'], MUST_EXIST),
+                        ], '*', MUST_EXIST);
+                        list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
+                            get_moduleinfo_data($cm, $course);
+                        $attemptcount = (int)$DB->count_records('quiz_attempts', [
+                            'quiz' => $quiz->id,
+                            'preview' => 0,
+                        ]);
+
+                        if (in_array('name', $syncfields, true)) {
+                            $moduleinfo->name = trim($params['name']);
+                        }
+                        if (in_array('intro', $syncfields, true)) {
+                            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+                            $moduleinfo->introformat = FORMAT_HTML;
+                        }
+                        foreach (['timelimit', 'attempts', 'shuffleanswers', 'questionsperpage'] as $field) {
+                            if (in_array($field, $syncfields, true)) {
+                                $moduleinfo->$field = $params[$field];
+                            }
+                        }
+                        if (in_array('grade', $syncfields, true)) {
+                            if ($attemptcount > 0 && (float)$quiz->grade !== (float)$params['grade']) {
+                                throw new invalid_parameter_exception(
+                                    'Quiz maximum grade cannot be changed after student attempts exist; grade history is protected.'
+                                );
+                            }
+                            $moduleinfo->grade = $params['grade'];
+                        }
+                        if (in_array('completion', $syncfields, true)) {
+                            $moduleinfo->completion = $params['completionenabled']
+                                ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
+                            $moduleinfo->completionview = ($params['completionenabled'] && $params['completiontype'] === 'view') ? 1 : 0;
+                            $moduleinfo->completionusegrade = ($params['completionenabled'] && $params['completiontype'] === 'grade') ? 1 : 0;
+                            $moduleinfo->completionpassgrade = $moduleinfo->completionusegrade;
+                        }
+                        update_moduleinfo($cm, $moduleinfo, $course);
+
+                        if (in_array('passingpercent', $syncfields, true)) {
+                            require_once($CFG->libdir . '/gradelib.php');
+                            $gradeitem = \grade_item::fetch([
+                                'itemtype' => 'mod',
+                                'itemmodule' => 'quiz',
+                                'iteminstance' => $quiz->id,
+                                'itemnumber' => 0,
+                            ]);
+                            if ($gradeitem) {
+                                $newgradepass = (float)$params['grade'] * (float)$params['passingpercent'] / 100;
+                                if ($attemptcount > 0 && (float)$gradeitem->gradepass !== $newgradepass) {
+                                    throw new invalid_parameter_exception(
+                                        'Quiz passing grade cannot be changed after student attempts exist; grade history is protected.'
+                                    );
+                                }
+                                $gradeitem->gradepass = $newgradepass;
+                                $gradeitem->update();
+                            }
+                        }
+                        if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                            $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                        }
+                        rebuild_course_cache($course->id, true);
+                        $transaction->allow_commit();
+                    } catch (\Throwable $exception) {
+                        $transaction->rollback($exception);
+                    }
+
                     return [
                         'cmid' => (int)$existing->id,
                         'instanceid' => (int)$existing->instance,
                         'modname' => 'quiz',
                         'name' => $params['name'],
                         'created' => false,
-                        'questioncount' => (int)$DB->count_records('quiz_slots', ['quizid' => $existing->instance]),
+                        'updated' => true,
+                        'questioncount' => $questioncount,
                         'categoryid' => 0,
+                        'giftsha256' => hash('sha256', $params['gift']),
                     ];
                 }
             }
-    
+
             $moduleid = $DB->get_field('modules', 'id', ['name' => 'quiz'], MUST_EXIST);
             $moduleinfo = new \stdClass();
             $moduleinfo->modulename = 'quiz';
@@ -279,8 +395,10 @@ class create_quiz extends \external_api {
                 'modname' => 'quiz',
                 'name' => $params['name'],
                 'created' => true,
+                'updated' => false,
                 'questioncount' => count($format->questionids),
                 'categoryid' => (int)$category->id,
+                'giftsha256' => hash('sha256', $params['gift']),
             ];
         } finally {
             $lock->release();
@@ -294,8 +412,10 @@ class create_quiz extends \external_api {
             'modname' => new \external_value(PARAM_TEXT, 'Module name'),
             'name' => new \external_value(PARAM_TEXT, 'Quiz name'),
             'created' => new \external_value(PARAM_BOOL, 'Whether a new quiz was created'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether an existing quiz was updated'),
             'questioncount' => new \external_value(PARAM_INT, 'Number of quiz questions'),
             'categoryid' => new \external_value(PARAM_INT, 'Question category id'),
+            'giftsha256' => new \external_value(PARAM_ALPHANUMEXT, 'Source GIFT SHA-256'),
         ]);
     }
 }
