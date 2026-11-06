@@ -510,3 +510,26 @@ def test_existing_med10_quiz_gift_is_accepted_by_preflight_parser():
     bank = parse_gift(giftfile.read_text(encoding="utf-8"), source_name=str(giftfile))
     assert bank.questions
     assert not validate_question_bank(bank)
+
+
+def test_existing_med10_quiz_config_builds_a_valid_publish_plan():
+    root = Path(__file__).parents[2] / "courses/03-kurs-masazysta-med10"
+    course = load_course(root)
+    selected = next(
+        (activity, section)
+        for section in course.sections
+        for activity in section.activities
+        if activity.kind == "quiz"
+    )
+    activity, section = selected
+    from dataclasses import replace
+    isolated = replace(
+        course,
+        sections=(replace(section, activities=(activity,)),),
+    )
+    plan = build_publish_plan(isolated, 2)
+    assert not plan.warnings
+    assert plan.activities[0]["type"] == "quiz"
+    assert plan.activities[0]["completionenabled"] is True
+    assert plan.activities[0]["passingpercent"] == 60
+    assert plan.activities[0]["questioncount"] > 0
