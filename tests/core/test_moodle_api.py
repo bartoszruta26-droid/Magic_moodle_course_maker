@@ -1293,4 +1293,6 @@ def test_page_label_url_plugin_updates_existing_module_in_place():
     assert "$moduleinfo->instance = (int)$existing->instance;" in plugin
     assert "$moduleinfo->coursemodule = (int)$existing->id;" in plugin
     assert "$transaction->allow_commit();" in plugin
-    assert "rebuild_course_cache($course->id, true);" in plugin
+    assert "get_moduleinfo_data($coursemodule, $course);" in plugin
+    assert "file_prepare_standard_editor(" in plugin
+    assert "$moduleinfo->visible = 1;" not in plugin[plugin.index("// Re-publishing a source activity is an update"):plugin.index("update_moduleinfo($coursemodule, $moduleinfo, $course);")]
