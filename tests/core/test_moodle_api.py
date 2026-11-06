@@ -837,6 +837,120 @@ def test_full_med10_course_has_no_moodle_publish_preflight_warnings():
     root = Path(__file__).parents[2] / "courses/03-kurs-masazysta-med10"
     course = load_course(root)
     plan = build_publish_plan(course, 2)
-    assert not plan.warnings, "\\n".join(plan.warnings[:30])
+    assert not plan.warnings, "\n".join(plan.warnings[:30])
     assert len(plan.activities) > 300
     assert {item["type"] for item in plan.activities} >= {"book", "quiz", "assignment"}
+
+
+def test_existing_med10_glossary_yaml_builds_valid_publish_plan():
+    root = Path(__file__).parents[2] / "courses/03-kurs-masazysta-med10"
+    course = load_course(root)
+    selected = next(
+        (activity, section)
+        for section in course.sections
+        for activity in section.activities
+        if activity.kind == "glossary"
+    )
+    activity, section = selected
+    from dataclasses import replace
+    isolated = replace(course, sections=(replace(section, activities=(activity,)),))
+    plan = build_publish_plan(isolated, 2)
+    assert not plan.warnings
+    glossary = plan.activities[0]
+    assert glossary["type"] == "glossary"
+    assert glossary["entrycount"] >= 50
+    assert glossary["entries"][0]["term"]
+
+
+def test_glossary_preflight_rejects_duplicate_terms(tmp_path):
+    section = tmp_path / "sections" / "01"
+    glossarydir = section / "glossary"
+    glossarydir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs słownikowy\n  short_name: GLOSSARYTEST\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Słownik\nmodules:\n"
+        "  - type: glossary\n    ref: glossary\n    name: Słownik\n",
+        encoding="utf-8",
+    )
+    (glossarydir / "glossary.yaml").write_text(
+        "glossary:\n  entries:\n"
+        "    - term: Masaż\n      definition: Definicja pierwsza\n"
+        "    - term: masaż\n      definition: Definicja druga\n",
+        encoding="utf-8",
+    )
+    plan = build_publish_plan(load_course(tmp_path), 2)
+    assert any("powtórzone hasło" in warning for warning in plan.warnings)
+
+
+def test_create_glossary_calls_registered_moodle_service():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    entries = [{"term": "Masaż", "definition": "<p>Definicja</p>"}]
+    with patch.object(client, "call", return_value={"created": True}) as call:
+        client.create_glossary(7, 1, {
+            "name": "Słownik",
+            "intro": "<p>Wprowadzenie</p>",
+            "entries": entries,
+        })
+    assert call.call_args.args[0] == "local_magicmoodle_create_glossary"
+    assert call.call_args.args[1]["entries"] == entries
+
+
+def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
+    section = tmp_path / "sections" / "01"
+    glossarydir = section / "glossary"
+    glossarydir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs słownikowy\n  short_name: GLOSSARYTEST\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Słownik\nmodules:\n"
+        "  - type: glossary\n    ref: glossary\n    name: Słownik\n",
+        encoding="utf-8",
+    )
+    (glossarydir / "glossary.yaml").write_text(
+        "glossary:\n  entries:\n"
+        "    - term: Masaż\n      definition: Definicja\n",
+        encoding="utf-8",
+    )
+    course = load_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_glossary"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "GLOSSARYTEST"}, True)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_glossary(self, courseid, sectionnum, activity):
+            assert activity["entrycount"] == 1
+            return {"modname": "glossary", "name": activity["name"], "created": True}
+
+        def create_activity(self, *args):
+            raise AssertionError("Glossary must use create_glossary")
+
+    result = publish_course(FakeClient(), course, 2)
+    assert result["activities_created"][0]["modname"] == "glossary"
+
+
+def test_glossary_endpoint_uses_moodle_native_entry_api():
+    root = Path(__file__).parents[2] / "moodle-plugin/local/magicmoodle"
+    plugin = (root / "classes/external/create_glossary.php").read_text(encoding="utf-8")
+    services = (root / "db/services.php").read_text(encoding="utf-8")
+    version = (root / "version.php").read_text(encoding="utf-8")
+    assert "class create_glossary extends \\external_api" in plugin
+    assert "\\\\mod_glossary_external::add_entry" in plugin
+    assert "500" in plugin
+    assert "'local_magicmoodle_create_glossary'" in services
+    assert "$plugin->version = 2026110609;" in version
