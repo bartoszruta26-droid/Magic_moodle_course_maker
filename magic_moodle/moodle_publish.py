@@ -431,6 +431,26 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 if not isinstance(submissiondrafts, bool) or not isinstance(requiresstatement, bool):
                     warnings.append(f"Zadanie '{activity.name}': submission_drafts i require_submission_statement muszą być wartościami logicznymi.")
                     continue
+                syncfields = ["name"]
+                if "intro" in activity.resource or markdown_file:
+                    syncfields.append("intro")
+                for datefield in ("allowsubmissionsfromdate", "duedate", "cutoffdate"):
+                    if datefield in activity.resource:
+                        syncfields.append(datefield)
+                if "grade" in activity.resource or "grademax" in activity.resource:
+                    syncfields.append("grade")
+                if "submission_type" in activity.resource or "submission_types" in activity.resource:
+                    syncfields.append("submissiontype")
+                if "max_files" in activity.resource or "max_attachments" in activity.resource:
+                    syncfields.append("maxfiles")
+                if "max_file_size" in activity.resource:
+                    syncfields.append("maxbytes")
+                if "submission_drafts" in activity.resource:
+                    syncfields.append("submissiondrafts")
+                if "require_submission_statement" in activity.resource:
+                    syncfields.append("requiresubmissionstatement")
+                if "completion" in activity.resource and "enabled" in completion:
+                    syncfields.append("completionenabled")
                 item.update({
                     "intro": _markdown_to_html(intro_source),
                     "submissiontype": submissiontype,
@@ -440,6 +460,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "submissiondrafts": submissiondrafts,
                     "requiresubmissionstatement": requiresstatement,
                     "completionenabled": completionenabled,
+                    "syncfields": syncfields,
                     **date_fields,
                 })
             if activity.kind == "book":
