@@ -1002,7 +1002,13 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
         assert "'idnumber' => new " in source
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
         assert "->idnumber === $params['idnumber']" in source
-        assert ("course_modules', 'idnumber'" in source or ("get_moduleinfo_data($coursemodule, $course);" in source and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source))
+        assert (
+            "course_modules', 'idnumber'" in source
+            or ("get_moduleinfo_data($coursemodule, $course);" in source
+                and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source)
+            or ("get_moduleinfo_data($cm, $course);" in source
+                and "update_moduleinfo($cm, $moduleinfo, $course);" in source)
+        )
 
 
 def test_stable_idnumber_is_last_external_parameter_for_all_moodle_modules():
