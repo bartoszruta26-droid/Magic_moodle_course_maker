@@ -216,6 +216,9 @@ class create_resource extends \external_api {
                             $moduleinfo->cmidnumber = $params['idnumber'];
                         }
                         update_moduleinfo($cm, $moduleinfo, $course);
+                        file_set_sortorder(
+                            $modulecontext->id, 'mod_resource', 'content', 0, '/', $filename, 1
+                        );
                         rebuild_course_cache($course->id, true);
                         $transaction->allow_commit();
                     } catch (\Throwable $exception) {
