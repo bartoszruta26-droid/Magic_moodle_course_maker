@@ -530,7 +530,7 @@ Pełna dokumentacja techniczna znajduje się w katalogu `docs/`:
 
 Rdzeń zawiera klienta Moodle REST API oraz polecenie `moodle-publish`.
 Publikacja tworzy lub odnajduje kurs po nazwie skróconej, aktualizuje nazwy
-sekcji i tworzy aktywności Page, Label, URL, Book, Quiz, Assignment oraz pliki
+sekcji i tworzy aktywności Page, Label, URL, Book, Quiz, Assignment, Glossary oraz pliki
 Resource. Wymaga lokalnego pluginu Moodle `local_magicmoodle`.
 
 Szczegółowa instalacja, konfiguracja tokenu i użycie:
@@ -547,7 +547,7 @@ Publikacja wymaga zmiennych środowiskowych `MOODLE_URL`,
 
 ## Publikacja w Moodle 4.1.x
 
-Projekt zawiera klienta REST i lokalny plugin `local_magicmoodle` zgodny z Moodle 4.1.x (w tym 4.1.8). Obsługiwane aktywności: Page, Label, URL, Book, Quiz, Assignment oraz Resource. Adapter Quiz tworzy aktywność, importuje pytania z pliku GIFT natywnym importerem Moodle, dodaje je do quizu i ustawia próg zaliczenia w dzienniku ocen. Adapter Assignment konfiguruje terminy, ocenę oraz przesyłanie tekstu i plików. Adapter Resource przesyła pojedyncze pliki kursowe przez Moodle File API (limit 5 MiB).
+Projekt zawiera klienta REST i lokalny plugin `local_magicmoodle` zgodny z Moodle 4.1.x (w tym 4.1.8). Obsługiwane aktywności: Page, Label, URL, Book, Quiz, Assignment, Glossary oraz Resource. Adapter Quiz tworzy aktywność, importuje pytania z pliku GIFT natywnym importerem Moodle, dodaje je do quizu i ustawia próg zaliczenia w dzienniku ocen. Adapter Assignment konfiguruje terminy, ocenę oraz przesyłanie tekstu i plików. Adapter Resource przesyła pojedyncze pliki kursowe przez Moodle File API (limit 5 MiB).
 
 Szczegółowa konfiguracja usługi REST, tokenu, pluginu i formatu `quiz.yaml` znajduje się w [dokumentacji publikacji Moodle](docs/MOODLE-REST.md).
 
