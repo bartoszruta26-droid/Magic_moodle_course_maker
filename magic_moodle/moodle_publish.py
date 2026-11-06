@@ -468,10 +468,10 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     return PublishPlan(payload, tuple(activities), tuple(warnings))
 
 
-def _publish_plan_fingerprint(plan: PublishPlan) -> str:
+def _publish_plan_fingerprint(plan: PublishPlan, course: Course) -> str:
     try:
         encoded = json.dumps(
-            {"course": plan.course, "activities": plan.activities},
+            {"course": plan.course, "activities": plan.activities,\n             "sections": [{"id": section.id, "name": section.name} for section in course.sections]},
             ensure_ascii=False,
             sort_keys=True,
             separators=(",", ":"),
@@ -499,7 +499,7 @@ def _load_or_create_publish_state(
     if not isinstance(site_root, str) or not site_root.strip():
         raise MoodleAPIError("Moodle nie zwrócił wwwroot; nie można bezpiecznie powiązać manifestu z witryną.")
     site_fingerprint = hashlib.sha256(site_root.rstrip("/").encode("utf-8")).hexdigest()
-    plan_fingerprint = _publish_plan_fingerprint(plan)
+    plan_fingerprint = _publish_plan_fingerprint(plan, course)
     if path.exists():
         try:
             if path.stat().st_size > 1024 * 1024:
