@@ -533,3 +533,52 @@ def test_existing_med10_quiz_config_builds_a_valid_publish_plan():
     assert plan.activities[0]["completionenabled"] is True
     assert plan.activities[0]["passingpercent"] == 60
     assert plan.activities[0]["questioncount"] > 0
+
+
+def test_book_preflight_rejects_combined_chapter_content_over_five_mib(tmp_path):
+    section = tmp_path / "sections" / "01"
+    bookdir = section / "book"
+    bookdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs książka\n  short_name: KBOOK\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: book\n    ref: book\n    name: Podręcznik\n",
+        encoding="utf-8",
+    )
+    (bookdir / "book.yaml").write_text(
+        "book:\n  chapters:\n"
+        "    - title: Duży rozdział\n      content_file: large.md\n",
+        encoding="utf-8",
+    )
+    (bookdir / "large.md").write_text("x" * (5 * 1024 * 1024 + 1), encoding="utf-8")
+    plan = build_publish_plan(load_course(tmp_path), 2)
+    assert any("przekracza limit 5 MiB" in warning for warning in plan.warnings)
+    with pytest.raises(MoodleAPIError, match="zatrzymana przed zmianami"):
+        publish_course(object(), load_course(tmp_path), 2)
+
+
+def test_book_preflight_rejects_non_boolean_subchapter(tmp_path):
+    section = tmp_path / "sections" / "01"
+    bookdir = section / "book"
+    bookdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs książka\n  short_name: KBOOK\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Materiały\nmodules:\n"
+        "  - type: book\n    ref: book\n    name: Podręcznik\n",
+        encoding="utf-8",
+    )
+    (bookdir / "book.yaml").write_text(
+        "book:\n  chapters:\n"
+        "    - title: Start\n      content: Treść\n"
+        "    - title: Błędny podrozdział\n      content: Treść\n"
+        "      subchapter: 'false'\n",
+        encoding="utf-8",
+    )
+    plan = build_publish_plan(load_course(tmp_path), 2)
+    assert any("subchapter musi być wartością logiczną" in warning for warning in plan.warnings)
