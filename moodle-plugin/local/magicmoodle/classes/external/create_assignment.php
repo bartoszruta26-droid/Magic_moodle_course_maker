@@ -1,5 +1,5 @@
 <?php
-namespace local_magicmoodle\\external;
+namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
@@ -11,23 +11,23 @@ require_once($CFG->dirroot . '/course/modlib.php');
 require_once($CFG->dirroot . '/mod/assign/lib.php');
 require_once($CFG->dirroot . '/mod/assign/locallib.php');
 
-class create_assignment extends \\external_api {
+class create_assignment extends \external_api {
     public static function execute_parameters() {
-        return new \\external_function_parameters([
-            'courseid' => new \\external_value(PARAM_INT, 'Course id'),
-            'sectionnum' => new \\external_value(PARAM_INT, 'Zero-based section number'),
-            'name' => new \\external_value(PARAM_TEXT, 'Assignment name'),
-            'intro' => new \\external_value(PARAM_RAW, 'Assignment description HTML', VALUE_DEFAULT, ''),
-            'allowsubmissionsfromdate' => new \\external_value(PARAM_INT, 'Submission start timestamp', VALUE_DEFAULT, 0),
-            'duedate' => new \\external_value(PARAM_INT, 'Due timestamp', VALUE_DEFAULT, 0),
-            'cutoffdate' => new \\external_value(PARAM_INT, 'Final submission cutoff timestamp', VALUE_DEFAULT, 0),
-            'grade' => new \\external_value(PARAM_FLOAT, 'Maximum grade', VALUE_DEFAULT, 100),
-            'submissiontype' => new \\external_value(PARAM_ALPHANUMEXT, 'onlinetext, file, or both', VALUE_DEFAULT, 'both'),
-            'maxfiles' => new \\external_value(PARAM_INT, 'Maximum submitted files', VALUE_DEFAULT, 5),
-            'maxbytes' => new \\external_value(PARAM_INT, 'Maximum bytes per submitted file', VALUE_DEFAULT, 10485760),
-            'submissiondrafts' => new \\external_value(PARAM_BOOL, 'Require submit button', VALUE_DEFAULT, false),
-            'requiresubmissionstatement' => new \\external_value(PARAM_BOOL, 'Require submission statement', VALUE_DEFAULT, false),
-            'completionenabled' => new \\external_value(PARAM_BOOL, 'Enable completion on submission', VALUE_DEFAULT, false),
+        return new \external_function_parameters([
+            'courseid' => new \external_value(PARAM_INT, 'Course id'),
+            'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'name' => new \external_value(PARAM_TEXT, 'Assignment name'),
+            'intro' => new \external_value(PARAM_RAW, 'Assignment description HTML', VALUE_DEFAULT, ''),
+            'allowsubmissionsfromdate' => new \external_value(PARAM_INT, 'Submission start timestamp', VALUE_DEFAULT, 0),
+            'duedate' => new \external_value(PARAM_INT, 'Due timestamp', VALUE_DEFAULT, 0),
+            'cutoffdate' => new \external_value(PARAM_INT, 'Final submission cutoff timestamp', VALUE_DEFAULT, 0),
+            'grade' => new \external_value(PARAM_FLOAT, 'Maximum grade', VALUE_DEFAULT, 100),
+            'submissiontype' => new \external_value(PARAM_ALPHANUMEXT, 'onlinetext, file, or both', VALUE_DEFAULT, 'both'),
+            'maxfiles' => new \external_value(PARAM_INT, 'Maximum submitted files', VALUE_DEFAULT, 5),
+            'maxbytes' => new \external_value(PARAM_INT, 'Maximum bytes per submitted file', VALUE_DEFAULT, 10485760),
+            'submissiondrafts' => new \external_value(PARAM_BOOL, 'Require submit button', VALUE_DEFAULT, false),
+            'requiresubmissionstatement' => new \external_value(PARAM_BOOL, 'Require submission statement', VALUE_DEFAULT, false),
+            'completionenabled' => new \external_value(PARAM_BOOL, 'Enable completion on submission', VALUE_DEFAULT, false),
         ]);
     }
 
@@ -63,7 +63,7 @@ class create_assignment extends \\external_api {
         require_capability('mod/assign:addinstance', $coursecontext);
 
         if ($params['sectionnum'] < 0 || trim($params['name']) === ''
-                || \\core_text::strlen($params['name']) > 255) {
+                || \core_text::strlen($params['name']) > 255) {
             throw new invalid_parameter_exception('Invalid section number or assignment name.');
         }
         if (!in_array($params['submissiontype'], ['onlinetext', 'file', 'both'], true)) {
@@ -107,7 +107,7 @@ class create_assignment extends \\external_api {
         }
 
         $moduleid = $DB->get_field('modules', 'id', ['name' => 'assign'], MUST_EXIST);
-        $moduleinfo = new \\stdClass();
+        $moduleinfo = new \stdClass();
         $moduleinfo->modulename = 'assign';
         $moduleinfo->module = $moduleid;
         $moduleinfo->course = $course->id;
@@ -169,7 +169,7 @@ class create_assignment extends \\external_api {
         try {
             $created = add_moduleinfo($moduleinfo, $course);
             $transaction->allow_commit();
-        } catch (\\Throwable $exception) {
+        } catch (\Throwable $exception) {
             $transaction->rollback($exception);
         }
 
@@ -183,12 +183,12 @@ class create_assignment extends \\external_api {
     }
 
     public static function execute_returns() {
-        return new \\external_single_structure([
-            'cmid' => new \\external_value(PARAM_INT, 'Course module id'),
-            'instanceid' => new \\external_value(PARAM_INT, 'Assignment instance id'),
-            'modname' => new \\external_value(PARAM_TEXT, 'Module name'),
-            'name' => new \\external_value(PARAM_TEXT, 'Assignment name'),
-            'created' => new \\external_value(PARAM_BOOL, 'Whether a new assignment was created'),
+        return new \external_single_structure([
+            'cmid' => new \external_value(PARAM_INT, 'Course module id'),
+            'instanceid' => new \external_value(PARAM_INT, 'Assignment instance id'),
+            'modname' => new \external_value(PARAM_TEXT, 'Module name'),
+            'name' => new \external_value(PARAM_TEXT, 'Assignment name'),
+            'created' => new \external_value(PARAM_BOOL, 'Whether a new assignment was created'),
         ]);
     }
 }
