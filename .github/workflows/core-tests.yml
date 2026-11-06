@@ -1,0 +1,28 @@
+name: Core tests
+
+on:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m pytest -q
+      - run: python -m compileall -q magic_moodle
+      - name: Smoke test existing MED.10 course structure
+        run: python -m magic_moodle inspect courses/03-kurs-masazysta-med10
+      - name: Validate MED.10 GIFT question bank
+        run: python -m magic_moodle bank-validate courses/03-kurs-masazysta-med10/question-bank
+      - name: Export MED.10 question bank to Moodle XML
+        run: python -m magic_moodle bank-to-xml courses/03-kurs-masazysta-med10/question-bank build/med10-question-bank.xml --category '$course$/MED.10'
+      - name: Verify generated Moodle XML
+        run: python -c "import xml.etree.ElementTree as ET; r=ET.parse('build/med10-question-bank.xml').getroot(); assert len(r.findall('question')) > 20"
