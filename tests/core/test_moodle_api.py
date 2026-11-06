@@ -582,3 +582,125 @@ def test_book_preflight_rejects_non_boolean_subchapter(tmp_path):
     )
     plan = build_publish_plan(load_course(tmp_path), 2)
     assert any("subchapter musi być wartością logiczną" in warning for warning in plan.warnings)
+
+
+def _sample_assignment_course(tmp_path: Path):
+    section = tmp_path / "sections" / "01"
+    assignmentdir = section / "assignment-01"
+    assignmentdir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\\n  full_name: Kurs testowy\\n  short_name: ASSIGNTEST\\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\\nname: Prace\\nmodules:\\n"
+        "  - type: assignment\\n    ref: assignment-01\\n    name: Praca zaliczeniowa\\n",
+        encoding="utf-8",
+    )
+    (assignmentdir / "assignment.yaml").write_text(
+        "intro: Opis zadania.\\nsubmission_type: both\\n"
+        "grade: 100\\nmax_files: 3\\nmax_file_size: 10485760\\n"
+        "completion:\\n  enabled: true\\n"
+        "submission_drafts: true\\nrequire_submission_statement: false\\n",
+        encoding="utf-8",
+    )
+    return load_course(tmp_path)
+
+
+def test_assignment_is_preflighted_with_submission_settings(tmp_path):
+    plan = build_publish_plan(_sample_assignment_course(tmp_path), 2)
+    assert not plan.warnings
+    assignment = plan.activities[0]
+    assert assignment["type"] == "assignment"
+    assert assignment["submissiontype"] == "both"
+    assert assignment["grade"] == 100
+    assert assignment["maxfiles"] == 3
+    assert assignment["maxbytes"] == 10485760
+    assert assignment["submissiondrafts"] is True
+    assert assignment["completionenabled"] is True
+    assert assignment["intro"] == "<p>Opis zadania.</p>"
+
+
+def test_assignment_preflight_rejects_invalid_submission_type(tmp_path):
+    course = _sample_assignment_course(tmp_path)
+    from dataclasses import replace
+    section = course.sections[0]
+    activity = section.activities[0]
+    changed = replace(activity, resource={**activity.resource, "submission_type": "shell"})
+    course = replace(course, sections=(replace(section, activities=(changed,)),))
+    plan = build_publish_plan(course, 2)
+    assert any("submission_type" in warning for warning in plan.warnings)
+
+
+def test_assignment_preflight_rejects_dates_out_of_order(tmp_path):
+    course = _sample_assignment_course(tmp_path)
+    from dataclasses import replace
+    section = course.sections[0]
+    activity = section.activities[0]
+    changed = replace(activity, resource={
+        **activity.resource, "allowsubmissionsfromdate": 200,
+        "duedate": 100, "cutoffdate": 300,
+    })
+    course = replace(course, sections=(replace(section, activities=(changed,)),))
+    plan = build_publish_plan(course, 2)
+    assert any("daty otwarcia" in warning for warning in plan.warnings)
+
+
+def test_create_assignment_calls_registered_moodle_service():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    with patch.object(client, "call", return_value={"created": True}) as call:
+        client.create_assignment(7, 1, {
+            "name": "Praca zaliczeniowa",
+            "intro": "<p>Opis</p>",
+            "submissiontype": "both",
+            "grade": 100,
+            "maxfiles": 3,
+            "maxbytes": 10485760,
+            "completionenabled": True,
+        })
+    assert call.call_args.args[0] == "local_magicmoodle_create_assignment"
+    assert call.call_args.args[1]["submissiontype"] == "both"
+    assert call.call_args.args[1]["maxfiles"] == 3
+    assert call.call_args.args[1]["completionenabled"] is True
+
+
+def test_publish_routes_assignment_to_assignment_endpoint(tmp_path):
+    course = _sample_assignment_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_assignment"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "ASSIGNTEST"}, True)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_assignment(self, courseid, sectionnum, activity):
+            assert activity["submissiontype"] == "both"
+            return {"modname": "assign", "name": activity["name"], "created": True}
+
+        def create_activity(self, *args):
+            raise AssertionError("Assignment must use create_assignment")
+
+    result = publish_course(FakeClient(), course, 2)
+    assert result["activities_created"][0]["modname"] == "assign"
+
+
+def test_assignment_endpoint_is_registered_for_moodle_41():
+    root = Path(__file__).parents[2] / "moodle-plugin/local/magicmoodle"
+    plugin = (root / "classes/external/create_assignment.php").read_text(encoding="utf-8")
+    services = (root / "db/services.php").read_text(encoding="utf-8")
+    version = (root / "version.php").read_text(encoding="utf-8")
+    assert "class create_assignment extends \\\\external_api" in plugin
+    assert "add_moduleinfo($moduleinfo, $course)" in plugin
+    assert "assignsubmission_onlinetext_enabled" in plugin
+    assert "assignsubmission_file_enabled" in plugin
+    assert "'local_magicmoodle_create_assignment'" in services
+    assert "$plugin->version = 2026110607;" in version
