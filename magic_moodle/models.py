@@ -12,6 +12,8 @@ class Activity:
     ref: str
     name: str
     config: dict[str, Any] = field(default_factory=dict)
+    resource: dict[str, Any] = field(default_factory=dict)
+    content: dict[str, str] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -38,3 +40,11 @@ class Course:
     @property
     def section_count(self) -> int:
         return len(self.sections)
+
+    @property
+    def activity_types(self) -> dict[str, int]:
+        counts: dict[str, int] = {}
+        for section in self.sections:
+            for activity in section.activities:
+                counts[activity.kind] = counts.get(activity.kind, 0) + 1
+        return dict(sorted(counts.items()))
