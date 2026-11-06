@@ -117,8 +117,8 @@ def main(argv: list[str] | None = None) -> int:
         if args.json:
             print(json.dumps(result, ensure_ascii=False, indent=2))
         else:
-            print(f"Kurs: {course.full_name}\\nNazwa skrócona: {course.short_name}")
-            print(f"Sekcje: {course.section_count}\\nAktywności: {course.activity_count}")
+            print(f"Kurs: {course.full_name}\nNazwa skrócona: {course.short_name}")
+            print(f"Sekcje: {course.section_count}\nAktywności: {course.activity_count}")
             for kind, count in course.activity_types.items():
                 print(f"  - {kind}: {count}")
         return 0
@@ -133,7 +133,7 @@ def main(argv: list[str] | None = None) -> int:
     else:
         for item in report.findings:
             print(f"{item.severity.upper():7} {item.code}: {item.path}: {item.message}")
-        print(f"\\nWynik: {'POPRAWNY' if report.ok else 'BŁĘDY'}; "
+        print(f"\nWynik: {'POPRAWNY' if report.ok else 'BŁĘDY'}; "
               f"błędy: {len(report.errors)}, ostrzeżenia: {len(report.warnings)}")
     return 0 if report.ok else 1
 
