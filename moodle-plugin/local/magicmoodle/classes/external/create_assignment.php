@@ -163,6 +163,7 @@ class create_assignment extends \external_api {
         $moduleinfo->assignsubmission_file_filetypes = '';
 
         $moduleinfo->assignfeedback_comments_enabled = 1;
+        $moduleinfo->assignfeedback_comments_commentinline = 0;
         $moduleinfo->assignfeedback_editpdf_enabled = 0;
 
         $transaction = $DB->start_delegated_transaction();
