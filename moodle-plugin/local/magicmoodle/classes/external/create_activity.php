@@ -54,6 +54,24 @@ class create_activity extends external_api {
             'course' => $course->id,
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
+
+        // Idempotency: an identical module name/type in the same section is not duplicated.
+        $modinfo = get_fast_modinfo($course);
+        foreach ($modinfo->get_cms() as $existing) {
+            if (!$existing->deletioninprogress
+                    && $existing->modname === $params['modname']
+                    && (int)$existing->sectionnum === (int)$params['sectionnum']
+                    && $existing->name === $params['name']) {
+                return [
+                    'cmid' => (int)$existing->id,
+                    'instanceid' => (int)$existing->instance,
+                    'modname' => $params['modname'],
+                    'name' => $params['name'],
+                    'created' => false,
+                ];
+            }
+        }
+
         $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
 
         $moduleinfo = new \\stdClass();
@@ -94,6 +112,7 @@ class create_activity extends external_api {
             'instanceid' => (int)$created->instance,
             'modname' => $params['modname'],
             'name' => $params['name'],
+            'created' => true,
         ];
     }
 
@@ -103,6 +122,7 @@ class create_activity extends external_api {
             'instanceid' => new external_value(PARAM_INT, 'Module instance id'),
             'modname' => new external_value(PARAM_TEXT, 'Module name'),
             'name' => new external_value(PARAM_TEXT, 'Activity name'),
+            'created' => new external_value(PARAM_BOOL, 'Whether a new activity was created'),
         ]);
     }
 }
