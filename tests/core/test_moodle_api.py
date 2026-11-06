@@ -1226,3 +1226,41 @@ def test_publish_state_manifest_fingerprint_includes_section_names(tmp_path):
         publish_course(client, changed, 2, state_file=state_file)
     assert client.ensure_calls == 0
     assert client.lookup_calls == 0
+
+
+
+@pytest.mark.parametrize("value", [2, -1, "yes", None])
+def test_course_payload_rejects_invalid_visibility_values(tmp_path, value):
+    from dataclasses import replace
+
+    course = _sample_course(tmp_path)
+    metadata = dict(course.metadata)
+    metadata["course"] = {**metadata.get("course", {}), "visible": value}
+    with pytest.raises(MoodleAPIError, match="course.visible"):
+        build_publish_plan(replace(course, metadata=metadata), 2)
+
+
+@pytest.mark.parametrize("category_id", [True, False, 0, -1, 2.5, "x"])
+def test_course_payload_rejects_invalid_category_ids(tmp_path, category_id):
+    course = _sample_course(tmp_path)
+    with pytest.raises(MoodleAPIError, match="categoryid"):
+        build_publish_plan(course, category_id)
+
+
+@pytest.mark.parametrize("news_items", [-1, 11, True, "5"])
+def test_course_payload_rejects_invalid_news_item_counts(tmp_path, news_items):
+    from dataclasses import replace
+
+    course = _sample_course(tmp_path)
+    metadata = dict(course.metadata)
+    metadata["course"] = {**metadata.get("course", {}), "news_items": news_items}
+    with pytest.raises(MoodleAPIError, match="news_items"):
+        build_publish_plan(replace(course, metadata=metadata), 2)
+
+
+def test_course_payload_rejects_overlong_course_names(tmp_path):
+    from dataclasses import replace
+
+    course = _sample_course(tmp_path)
+    with pytest.raises(MoodleAPIError, match="short_name"):
+        build_publish_plan(replace(course, short_name="X" * 101), 2)
