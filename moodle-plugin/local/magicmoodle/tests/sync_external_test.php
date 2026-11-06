@@ -234,6 +234,10 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         );
         $this->assertTrue($created['created']);
         $slotsbefore = $DB->get_records('quiz_slots', ['quizid' => $created['instanceid']], 'slot ASC');
+        $student = $this->getDataGenerator()->create_user();
+        $quizgenerator = $this->getDataGenerator()->get_plugin_generator('mod_quiz');
+        $attempt = $quizgenerator->create_attempt($created['instanceid'], $student->id);
+        $this->assertNotEmpty($attempt->id);
 
         $updated = create_quiz::execute(
             $course->id, 1, 'Quiz po zmianie', '<p>Nowy opis</p>', $gift, 600, 2, 10, 0,
