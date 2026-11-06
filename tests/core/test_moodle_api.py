@@ -698,7 +698,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     plugin = (root / "classes/external/create_assignment.php").read_text(encoding="utf-8")
     services = (root / "db/services.php").read_text(encoding="utf-8")
     version = (root / "version.php").read_text(encoding="utf-8")
-    assert "class create_assignment extends \\\\external_api" in plugin
+    assert "class create_assignment extends \\external_api" in plugin
     assert "add_moduleinfo($moduleinfo, $course)" in plugin
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
