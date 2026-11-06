@@ -95,11 +95,6 @@ class create_activity extends \external_api {
                             && $existing->idnumber !== $params['idnumber']) {
                         throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
                     }
-                    if ($params['idnumber'] !== ''
-                            && $existing->idnumber === $params['idnumber']
-                            && $existing->name !== $params['name']) {
-                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
-                    }
     
                     // Re-publishing a source activity is an update, not a no-op.
                     // Keep the existing course-module and module-instance identifiers.
