@@ -1,0 +1,130 @@
+"""Read-only local WebUI for inspecting and validating course projects.
+
+Run with: python -m webui.server
+The interface binds to localhost by default and never publishes to Moodle.
+"""
+from __future__ import annotations
+
+import json
+import os
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
+from urllib.parse import unquote, urlparse
+
+from magic_moodle.loader import CourseLoadError, load_course
+from magic_moodle.validation import validate_course
+
+ROOT = Path(os.environ.get("MAGIC_MOODLE_COURSES", "courses")).resolve()
+STATIC = Path(__file__).with_name("static").resolve()
+HOST = os.environ.get("MAGIC_MOODLE_WEBUI_HOST", "127.0.0.1")
+PORT = int(os.environ.get("MAGIC_MOODLE_WEBUI_PORT", "8765"))
+
+
+def _inside(path: Path, base: Path) -> bool:
+    return path.resolve().is_relative_to(base.resolve())
+
+
+def list_courses() -> list[dict[str, str]]:
+    courses = []
+    if not ROOT.is_dir():
+        return courses
+    for config in sorted(ROOT.glob("*/course.yaml")):
+        if not _inside(config, ROOT):
+            continue
+        try:
+            course = load_course(config.parent)
+            courses.append({
+                "id": config.parent.name,
+                "name": course.full_name,
+                "short_name": course.short_name,
+                "sections": str(course.section_count),
+                "activities": str(course.activity_count),
+            })
+        except (CourseLoadError, OSError, ValueError):
+            courses.append({
+                "id": config.parent.name,
+                "name": config.parent.name,
+                "short_name": "",
+                "sections": "—",
+                "activities": "—",
+            })
+    return courses
+
+
+class Handler(BaseHTTPRequestHandler):
+    server_version = "MagicMoodleWebUI/0.1"
+
+    def _json(self, payload: object, status: int = 200) -> None:
+        body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-store")
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_GET(self) -> None:  # noqa: N802
+        parsed = urlparse(self.path)
+        if parsed.path == "/api/health":
+            return self._json({"ok": True, "courses_root": str(ROOT)})
+        if parsed.path == "/api/courses":
+            return self._json({"courses": list_courses()})
+        if parsed.path.startswith("/api/courses/") and parsed.path.endswith("/validate"):
+            course_id = unquote(parsed.path[len("/api/courses/"):-len("/validate")]).strip("/")
+            if not course_id or course_id in {".", ".."} or "/" in course_id or "\\" in course_id:
+                return self._json({"error": "Nieprawidłowy identyfikator kursu."}, 400)
+            course_path = (ROOT / course_id).resolve()
+            if not _inside(course_path, ROOT) or not (course_path / "course.yaml").is_file():
+                return self._json({"error": "Nie znaleziono kursu."}, 404)
+            try:
+                course = load_course(course_path)
+                report = validate_course(course)
+            except (CourseLoadError, OSError, ValueError) as exc:
+                return self._json({"error": str(exc)}, 422)
+            return self._json({
+                "course": {
+                    "name": course.full_name,
+                    "short_name": course.short_name,
+                    "sections": course.section_count,
+                    "activities": course.activity_count,
+                    "activity_types": course.activity_types,
+                },
+                "ok": report.ok,
+                "errors": [item.__dict__ for item in report.errors],
+                "warnings": [item.__dict__ for item in report.warnings],
+            })
+        if parsed.path == "/" or parsed.path == "/index.html":
+            return self._static("index.html", "text/html; charset=utf-8")
+        if parsed.path in {"/app.js", "/styles.css"}:
+            kind = "text/javascript; charset=utf-8" if parsed.path.endswith(".js") else "text/css; charset=utf-8"
+            return self._static(parsed.path.lstrip("/"), kind)
+        return self._json({"error": "Nie znaleziono zasobu."}, 404)
+
+    def _static(self, name: str, content_type: str) -> None:
+        path = (STATIC / name).resolve()
+        if not _inside(path, STATIC) or not path.is_file():
+            return self._json({"error": "Nie znaleziono zasobu."}, 404)
+        body = path.read_bytes()
+        self.send_response(200)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def log_message(self, fmt: str, *args: object) -> None:
+        print(f"[WebUI] {self.address_string()} - {fmt % args}")
+
+
+def main() -> None:
+    if not ROOT.is_dir():
+        raise SystemExit(f"Katalog kursów nie istnieje: {ROOT}")
+    server = ThreadingHTTPServer((HOST, PORT), Handler)
+    print(f"Magic Moodle WebUI: http://{HOST}:{PORT}")
+    print(f"Katalog kursów: {ROOT}")
+    server.serve_forever()
+
+
+if __name__ == "__main__":
+    main()
