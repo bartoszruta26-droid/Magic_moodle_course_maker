@@ -198,11 +198,11 @@ class create_assignment extends \external_api {
                                 || ((bool)($moduleinfo->assignsubmission_onlinetext_enabled ?? false) !== $targettext)
                                 || ((bool)($moduleinfo->assignsubmission_file_enabled ?? false) !== $targetfile);
                         }
-                        if (in_array('maxfiles', $syncfields, true)) {
+                        if (!empty($moduleinfo->assignsubmission_file_enabled) && in_array('maxfiles', $syncfields, true)) {
                             $submissionconfigchanged = $submissionconfigchanged
                                 || ((int)($moduleinfo->assignsubmission_file_maxfiles ?? 0) !== $params['maxfiles']);
                         }
-                        if (in_array('maxbytes', $syncfields, true)) {
+                        if (!empty($moduleinfo->assignsubmission_file_enabled) && in_array('maxbytes', $syncfields, true)) {
                             $submissionconfigchanged = $submissionconfigchanged
                                 || ((int)($moduleinfo->assignsubmission_file_maxsizebytes ?? 0) !== $params['maxbytes']);
                         }
