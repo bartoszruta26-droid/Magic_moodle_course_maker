@@ -192,6 +192,24 @@ class MoodleClient:
             {"courseid": courseid, "sectionnum": sectionnum, "name": name},
         )
 
+    def create_glossary(
+        self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
+    ) -> dict[str, Any]:
+        """Create a Moodle Glossary and import its terms."""
+        entries = activity.get("entries")
+        if not isinstance(entries, list) or not entries:
+            raise MoodleAPIError("Aktywność Glossary wymaga co najmniej jednego hasła.")
+        return self.call(
+            "local_magicmoodle_create_glossary",
+            {
+                "courseid": courseid,
+                "sectionnum": sectionnum,
+                "name": activity["name"],
+                "intro": activity.get("intro", ""),
+                "entries": entries,
+            },
+        )
+
     def create_resource(
         self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
     ) -> dict[str, Any]:
