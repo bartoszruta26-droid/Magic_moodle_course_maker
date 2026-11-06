@@ -47,7 +47,7 @@ class create_resource extends \external_api {
         if ($params['sectionnum'] < 0 || trim($params['name']) === ''
                 || \core_text::strlen($params['name']) > 255
                 || $filename === '' || $filename === '.' || $filename === '..'
-                || strpos($filename, '/') !== false || strpos($filename, '\\\\') !== false) {
+                || strpos($filename, '/') !== false || strpos($filename, '\\') !== false) {
             throw new invalid_parameter_exception('Invalid resource section, name or filename.');
         }
         if (!is_string($params['contentbase64']) || strlen($params['contentbase64']) > 7 * 1024 * 1024) {
