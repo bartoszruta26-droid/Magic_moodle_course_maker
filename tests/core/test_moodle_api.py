@@ -9,7 +9,7 @@ import pytest
 
 from magic_moodle.loader import load_course
 from magic_moodle.moodle_api import (
-    MoodleAPIError, MoodleClient, MoodleConfig, _flatten,
+    MoodleAPIError, MoodleClient, MoodleConfig, _NoRedirectHandler, _flatten,
 )
 from magic_moodle.moodle_publish import build_publish_plan, publish_course
 
@@ -34,18 +34,24 @@ def test_moodle_client_posts_token_and_function():
             return b'{"sitename":"Test Moodle","functions":[]}'
 
     captured = {}
-    def fake_urlopen(request, **kwargs):
-        captured["url"] = request.full_url
-        captured["body"] = parse_qs(request.data.decode())
-        return Response()
+    class Opener:
+        def open(self, request, **kwargs):
+            captured["url"] = request.full_url
+            captured["body"] = parse_qs(request.data.decode())
+            return Response()
+
+    def fake_build_opener(*handlers):
+        captured["redirect_handler"] = handlers[0]
+        return Opener()
 
     client = MoodleClient(MoodleConfig("https://moodle.example/moodle", "secret"))
-    with patch("urllib.request.urlopen", fake_urlopen):
+    with patch("urllib.request.build_opener", fake_build_opener):
         result = client.site_info()
     assert result["sitename"] == "Test Moodle"
     assert captured["url"].endswith("/moodle/webservice/rest/server.php")
     assert captured["body"]["wstoken"] == ["secret"]
     assert captured["body"]["wsfunction"] == ["core_webservice_get_site_info"]
+    assert isinstance(captured["redirect_handler"], _NoRedirectHandler)
 
 
 def test_moodle_error_payload_is_raised():
@@ -55,7 +61,9 @@ def test_moodle_error_payload_is_raised():
         def read(self, size=-1): return b'{"exception":"moodle_exception","errorcode":"invalidtoken","message":"Bad token"}'
 
     client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
-    with patch("urllib.request.urlopen", lambda *a, **k: Response()):
+    class Opener:
+        def open(self, *args, **kwargs): return Response()
+    with patch("urllib.request.build_opener", lambda *a, **k: Opener()):
         with pytest.raises(MoodleAPIError, match="invalidtoken"):
             client.call("core_webservice_get_site_info")
 
@@ -1042,3 +1050,14 @@ def test_partial_publish_failure_reports_resume_identity_and_progress(tmp_path):
     assert "idnumber mm-" in message
     assert "Poprzednio obsłużono 1 aktywności" in message
     assert "bezpiecznie ponowić" in message
+
+
+@pytest.mark.parametrize("timeout", [0, -1, float("inf"), float("nan")])
+def test_moodle_client_rejects_invalid_timeout(timeout):
+    with pytest.raises(MoodleAPIError, match="MOODLE_TIMEOUT"):
+        MoodleClient(MoodleConfig("https://moodle.example", "secret", timeout=timeout))
+
+
+def test_redirect_handler_refuses_redirects():
+    handler = _NoRedirectHandler()
+    assert handler.redirect_request(None, None, 307, "Temporary Redirect", {}, "https://attacker.example/") is None

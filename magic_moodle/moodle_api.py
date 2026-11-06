@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import os
 import ssl
 import urllib.error
@@ -14,6 +15,13 @@ from urllib.parse import urlsplit, urlunsplit
 
 class MoodleAPIError(RuntimeError):
     """Transport, authentication or Moodle application-level error."""
+
+
+class _NoRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """Never forward a Moodle token-bearing POST to a redirect target."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
 
 
 def _flatten(value: Any, prefix: str = "") -> list[tuple[str, str]]:
@@ -74,6 +82,8 @@ class MoodleClient:
             raise MoodleAPIError("Wymagane jest HTTPS dla hostów zdalnych; HTTP jest dozwolone wyłącznie dla localhost.")
         if not config.token:
             raise MoodleAPIError("Brak tokenu Moodle.")
+        if isinstance(config.timeout, bool) or not math.isfinite(config.timeout) or config.timeout <= 0:
+            raise MoodleAPIError("MOODLE_TIMEOUT musi być skończoną liczbą większą od zera.")
         self.config = config
         base_path = parts.path.rstrip("/")
         endpoint = base_path + "/webservice/rest/server.php"
@@ -104,9 +114,11 @@ class MoodleClient:
         if self.endpoint.startswith("https://") and not self.config.verify_tls:
             context = ssl._create_unverified_context()
         try:
-            with urllib.request.urlopen(
-                request, timeout=self.config.timeout, context=context
-            ) as response:
+            opener = urllib.request.build_opener(
+                _NoRedirectHandler(),
+                urllib.request.HTTPSHandler(context=context),
+            )
+            with opener.open(request, timeout=self.config.timeout) as response:
                 raw = response.read(8 * 1024 * 1024 + 1)
         except urllib.error.HTTPError as exc:
             detail = exc.read(4096).decode("utf-8", errors="replace")
