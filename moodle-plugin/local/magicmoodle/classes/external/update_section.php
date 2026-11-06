@@ -14,12 +14,12 @@ use invalid_parameter_exception;
 // Moodle 4.1 uses the legacy global External API classes.
 require_once($CFG->libdir . '/externallib.php');
 
-class update_section extends \\external_api {
+class update_section extends \external_api {
     public static function execute_parameters() {
-        return new \\external_function_parameters([
-            'courseid' => new \\external_value(PARAM_INT, 'Course id'),
-            'sectionnum' => new external_value(PARAM_INT, 'Zero-based section number'),
-            'name' => new external_value(PARAM_TEXT, 'Section name'),
+        return new \external_function_parameters([
+            'courseid' => new \external_value(PARAM_INT, 'Course id'),
+            'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'name' => new \external_value(PARAM_TEXT, 'Section name'),
         ]);
     }
 
@@ -51,10 +51,10 @@ class update_section extends \\external_api {
     }
 
     public static function execute_returns() {
-        return new \\external_single_structure([
-            'courseid' => new external_value(PARAM_INT, 'Course id'),
-            'sectionnum' => new external_value(PARAM_INT, 'Section number'),
-            'updated' => new external_value(PARAM_BOOL, 'Whether section was updated'),
+        return new \external_single_structure([
+            'courseid' => new \external_value(PARAM_INT, 'Course id'),
+            'sectionnum' => new \external_value(PARAM_INT, 'Section number'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether section was updated'),
         ]);
     }
 }
