@@ -3,7 +3,6 @@ namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
-require_once($CFG->libdir . '/externallib.php');
 
 use context_course;
 use core_external\external_api;
