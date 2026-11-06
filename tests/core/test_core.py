@@ -158,14 +158,14 @@ def test_rejects_symlinked_activity_config_outside_course(tmp_path: Path) -> Non
     activity_dir = section / "book-01"
     activity_dir.mkdir()
     outside = tmp_path / "outside.yaml"
-    outside.write_text("book:\\n  chapters: []\\n", encoding="utf-8")
+    outside.write_text("book:" + chr(10) + "  chapters: []" + chr(10), encoding="utf-8")
     try:
         (activity_dir / "book.yaml").symlink_to(outside)
     except OSError:
         pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
     (section / "section.yaml").write_text(
-        "id: 1\\nname: Wprowadzenie\\nmodules:\\n"
-        "  - type: book\\n    ref: book-01\\n    name: Podręcznik\\n",
+        "id: 1" + chr(10) + "name: Wprowadzenie" + chr(10) + "modules:" + chr(10)
+        + "  - type: book" + chr(10) + "    ref: book-01" + chr(10) + "    name: Podręcznik" + chr(10),
         encoding="utf-8",
     )
     with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
@@ -176,7 +176,7 @@ def test_rejects_section_symlink_outside_course(tmp_path: Path) -> None:
     root = make_course(tmp_path / "course")
     outside = tmp_path / "outside-section"
     outside.mkdir()
-    (outside / "section.yaml").write_text("id: 9\\nname: Obca\\nmodules: []\\n", encoding="utf-8")
+    (outside / "section.yaml").write_text("id: 9" + chr(10) + "name: Obca" + chr(10) + "modules: []" + chr(10), encoding="utf-8")
     try:
         (root / "sections" / "external").symlink_to(outside, target_is_directory=True)
     except OSError:
@@ -211,7 +211,7 @@ def test_rejects_symlinked_course_config_outside_root(tmp_path: Path) -> None:
     root = make_course(tmp_path / "course")
     outside = tmp_path / "external-course.yaml"
     outside.write_text(
-        "course:\\n  full_name: Zewnętrzny\\n  short_name: EXT\\n",
+        "course:" + chr(10) + "  full_name: Zewnętrzny" + chr(10) + "  short_name: EXT" + chr(10),
         encoding="utf-8",
     )
     (root / "course.yaml").unlink()
