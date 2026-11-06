@@ -364,6 +364,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "contentbase64": encoded,
                     "intro": _markdown_to_html(intro_source),
                     "filesize": len(filebytes),
+                    "syncfields": ["name", "file"] + (["intro"] if "intro" in activity.resource else []),
                 })
             if activity.kind == "assignment":
                 intro_source = activity.resource.get("intro", "")
