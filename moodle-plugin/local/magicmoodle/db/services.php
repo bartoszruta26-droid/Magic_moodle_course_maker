@@ -18,7 +18,7 @@ $functions = [
     ],
     'local_magicmoodle_create_glossary' => [
         'classname' => '\\local_magicmoodle\\external\\create_glossary',
-        'description' => 'Create a Glossary activity and import its term definitions.',
+        'description' => 'Create or update a Glossary activity and synchronize source-mapped term definitions.',
         'type' => 'write',
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities, mod/glossary:addinstance, mod/glossary:write',

@@ -267,6 +267,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     continue
                 planned_entries = []
                 seen_terms = set()
+                seen_sourceids = set()
                 total_entry_bytes = 0
                 entries_invalid = False
                 for entry_index, entry in enumerate(entries):
@@ -292,6 +293,22 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         entries_invalid = True
                         continue
                     seen_terms.add(term_key)
+                    sourceid = entry.get("source_id", entry.get("id"))
+                    if sourceid is None:
+                        # Backward-compatible identity: stable while the term is unchanged.
+                        sourceid = "term-" + hashlib.sha256(term_key.encode("utf-8")).hexdigest()[:32]
+                    if (not isinstance(sourceid, str) or not sourceid.strip()
+                            or len(sourceid.strip()) > 100
+                            or not all(ch.isascii() and (ch.isalnum() or ch in "._-") for ch in sourceid.strip())):
+                        warnings.append(f"Słownik '{activity.name}': entries[{entry_index}].source_id musi mieć 1–100 bezpiecznych znaków.")
+                        entries_invalid = True
+                        continue
+                    sourceid = sourceid.strip()
+                    if sourceid in seen_sourceids:
+                        warnings.append(f"Słownik '{activity.name}': powtórzony source_id '{sourceid}'.")
+                        entries_invalid = True
+                        continue
+                    seen_sourceids.add(sourceid)
                     definition_html = (
                         definition if entry_format == "html"
                         else _markdown_to_html(definition)
@@ -302,6 +319,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         entries_invalid = True
                         break
                     planned_entries.append({
+                        "sourceid": sourceid,
                         "term": term.strip(),
                         "definition": definition_html,
                     })
@@ -514,6 +532,27 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     return PublishPlan(payload, tuple(activities), tuple(warnings))
 
 
+def _publish_plan_identity_fingerprint(plan: PublishPlan, course: Course) -> str:
+    """Fingerprint stable course/activity identities, excluding editable content."""
+    identity = {
+        "course_shortname": course.short_name,
+        "sections": [section.id for section in course.sections],
+        "activities": [
+            {
+                "idnumber": activity["idnumber"],
+                "type": activity["type"],
+                "sectionnum": activity["sectionnum"],
+            }
+            for activity in plan.activities
+        ],
+    }
+    try:
+        encoded = json.dumps(identity, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    except (TypeError, ValueError) as exc:
+        raise MoodleAPIError("Nie można utworzyć skrótu tożsamości publikacji.") from exc
+    return hashlib.sha256(encoded).hexdigest()
+
+
 def _publish_plan_fingerprint(plan: PublishPlan, course: Course) -> str:
     try:
         encoded = json.dumps(
@@ -558,12 +597,14 @@ def _load_or_create_publish_state(
             raise MoodleAPIError("Istniejący manifest publikacji jest uszkodzony lub nieczytelny.") from exc
         if not isinstance(state, dict):
             raise MoodleAPIError("Manifest publikacji ma niepoprawny format.")
+        identity_fingerprint = _publish_plan_identity_fingerprint(plan, course)
         if (
             state.get("format") != "magic-moodle-publish-state"
-            or state.get("version") != 1
+            or state.get("version") not in {1, 2}
             or state.get("course_shortname") != course.short_name
-            or state.get("plan_sha256") != plan_fingerprint
             or state.get("moodle_site_sha256") != site_fingerprint
+            or (state.get("version") == 2 and state.get("identity_sha256") != identity_fingerprint)
+            or (state.get("version") == 1 and state.get("plan_sha256") != plan_fingerprint)
         ):
             raise MoodleAPIError(
                 "Manifest publikacji dotyczy innego kursu, planu lub serwera Moodle. "
@@ -578,11 +619,15 @@ def _load_or_create_publish_state(
             state.get("activities_completed"), dict
         ):
             raise MoodleAPIError("Manifest publikacji zawiera nieprawidłowy zapis postępu.")
+        if state.get("version") == 1:
+            state["version"] = 2
+            state["identity_sha256"] = identity_fingerprint
         return state
 
     state = {
         "format": "magic-moodle-publish-state",
-        "version": 1,
+        "version": 2,
+        "identity_sha256": _publish_plan_identity_fingerprint(plan, course),
         "course_shortname": course.short_name,
         "plan_sha256": plan_fingerprint,
         "moodle_site_sha256": site_fingerprint,
@@ -625,6 +670,11 @@ def publish_course(
             "activity_count": len(plan.activities),
             "activities": list(plan.activities),
         }
+    if any(activity["type"] == "glossary" for activity in plan.activities) and state_file is None:
+        raise MoodleAPIError(
+            "Synchronizacja haseł Glossary wymaga --state-file, aby zachować mapowanie "
+            "source_id → entryid i bezpiecznie aktualizować istniejące wpisy."
+        )
 
     site = client.site_info()
     functions = {
@@ -678,6 +728,9 @@ def publish_course(
         if state is not None:
             state["course_id"] = course_id
             state["course_created"] = bool(created)
+            # Content may change between runs; identity remains bound to this course/site.
+            state["plan_sha256"] = _publish_plan_fingerprint(plan, course)
+            state["identity_sha256"] = _publish_plan_identity_fingerprint(plan, course)
             state["status"] = "in_progress"
             state["failed_step"] = None
             state["last_error_type"] = None
@@ -721,7 +774,11 @@ def publish_course(
                 elif activity["type"] == "file":
                     result = client.create_resource(course_id, activity["sectionnum"], activity)
                 elif activity["type"] == "glossary":
-                    result = client.create_glossary(course_id, activity["sectionnum"], activity)
+                    glossary_activity = dict(activity)
+                    if state is not None:
+                        previous = state["activities_completed"].get(activity["idnumber"], {})
+                        glossary_activity["entryids"] = previous.get("entryids", [])
+                    result = client.create_glossary(course_id, activity["sectionnum"], glossary_activity)
                 else:
                     result = client.create_activity(course_id, activity["sectionnum"], activity)
             except Exception as exc:
@@ -750,6 +807,7 @@ def publish_course(
                     "cmid": result.get("cmid") if isinstance(result, dict) else None,
                     "instanceid": result.get("instanceid") if isinstance(result, dict) else None,
                     "created": result.get("created") if isinstance(result, dict) else None,
+                    **({"entryids": result.get("entryids", [])} if activity["type"] == "glossary" and isinstance(result, dict) else {}),
                 }
                 state["failed_step"] = None
                 state["failed_activity_idnumber"] = None

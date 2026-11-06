@@ -230,6 +230,7 @@ class MoodleClient:
                 "intro": activity.get("intro", ""),
                 "idnumber": activity.get("idnumber", ""),
                 "entries": entries,
+                "entryids": activity.get("entryids", []),
             },
         )
 

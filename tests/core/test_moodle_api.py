@@ -348,7 +348,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
 
     class FakeClient:
         def site_info(self):
-            return {"functions": [
+            return {"siteurl": "https://moodle.example", "functions": [
                 {"name": "core_course_get_courses_by_field"},
                 {"name": "core_course_create_courses"},
                 {"name": "local_magicmoodle_update_section"},
@@ -368,7 +368,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
         def create_activity(self, *args):
             raise AssertionError("Book must use create_book, not create_activity")
 
-    result = publish_course(FakeClient(), course, 2)
+    result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "book"
 
 
@@ -711,7 +711,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110611;" in version
+    assert "$plugin->version = 2026110612;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -817,7 +817,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
     assert "'local_magicmoodle_create_resource'" in services
-    assert "$plugin->version = 2026110611;" in version
+    assert "$plugin->version = 2026110612;" in version
 
 
 def test_existing_med10_assignment_yaml_is_supported_by_publisher():
@@ -868,6 +868,7 @@ def test_existing_med10_glossary_yaml_builds_valid_publish_plan():
     assert glossary["type"] == "glossary"
     assert glossary["entrycount"] >= 50
     assert glossary["entries"][0]["term"]
+    assert glossary["entries"][0]["sourceid"].startswith("term-")
 
 
 def test_glossary_preflight_rejects_duplicate_terms(tmp_path):
@@ -895,15 +896,17 @@ def test_glossary_preflight_rejects_duplicate_terms(tmp_path):
 
 def test_create_glossary_calls_registered_moodle_service():
     client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
-    entries = [{"term": "Masaż", "definition": "<p>Definicja</p>"}]
+    entries = [{"sourceid": "term-001", "term": "Masaż", "definition": "<p>Definicja</p>"}]
     with patch.object(client, "call", return_value={"created": True}) as call:
         client.create_glossary(7, 1, {
             "name": "Słownik",
             "intro": "<p>Wprowadzenie</p>",
             "entries": entries,
+            "entryids": [{"sourceid": "term-001", "entryid": 77}],
         })
     assert call.call_args.args[0] == "local_magicmoodle_create_glossary"
     assert call.call_args.args[1]["entries"] == entries
+    assert call.call_args.args[1]["entryids"] == [{"sourceid": "term-001", "entryid": 77}]
 
 
 def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
@@ -928,7 +931,7 @@ def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
 
     class FakeClient:
         def site_info(self):
-            return {"functions": [
+            return {"siteurl": "https://moodle.example", "functions": [
                 {"name": "core_course_get_courses_by_field"},
                 {"name": "core_course_create_courses"},
                 {"name": "local_magicmoodle_update_section"},
@@ -943,13 +946,18 @@ def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
 
         def create_glossary(self, courseid, sectionnum, activity):
             assert activity["entrycount"] == 1
-            return {"modname": "glossary", "name": activity["name"], "created": True}
+            return {"modname": "glossary", "name": activity["name"], "created": True,
+                    "entryids": [{"sourceid": activity["entries"][0]["sourceid"], "entryid": 88}]}
 
         def create_activity(self, *args):
             raise AssertionError("Glossary must use create_glossary")
 
-    result = publish_course(FakeClient(), course, 2)
+    result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "glossary"
+    import json
+    state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
+    record = next(iter(state["activities_completed"].values()))
+    assert record["entryids"] == [{"sourceid": "term-" + __import__("hashlib").sha256("masaż".encode()).hexdigest()[:32], "entryid": 88}]
 
 
 def test_glossary_endpoint_uses_moodle_native_entry_api():
@@ -959,9 +967,12 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     version = (root / "version.php").read_text(encoding="utf-8")
     assert "class create_glossary extends \\external_api" in plugin
     assert "\\mod_glossary_external::add_entry" in plugin
+    assert "\\mod_glossary\\external\\update_entry::execute" in plugin
+    assert "'sourceid'" in plugin
+    assert "'entryids'" in plugin
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
-    assert "$plugin->version = 2026110611;" in version
+    assert "$plugin->version = 2026110612;" in version
 
 
 def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
@@ -990,8 +1001,14 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
         source = (root / name).read_text(encoding="utf-8")
         assert "'idnumber' => new " in source
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
-        assert "$existing->idnumber === $params['idnumber']" in source
-        assert ("course_modules', 'idnumber'" in source or ("get_moduleinfo_data($coursemodule, $course);" in source and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source))
+        assert "->idnumber === $params['idnumber']" in source
+        assert (
+            "course_modules', 'idnumber'" in source
+            or ("get_moduleinfo_data($coursemodule, $course);" in source
+                and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source)
+            or ("get_moduleinfo_data($cm, $course);" in source
+                and "update_moduleinfo($cm, $moduleinfo, $course);" in source)
+        )
 
 
 def test_stable_idnumber_is_last_external_parameter_for_all_moodle_modules():
@@ -1157,6 +1174,8 @@ def test_publish_state_manifest_records_progress_without_secrets(tmp_path):
     state = json.loads(state_text)
     assert result["state_file"] == str(state_file)
     assert state["format"] == "magic-moodle-publish-state"
+    assert state["version"] == 2
+    assert state["identity_sha256"]
     assert state["status"] == "complete"
     assert state["course_id"] == 42
     assert state["sections_completed"] == [0]
@@ -1182,13 +1201,13 @@ def test_publish_state_manifest_resumes_only_against_same_remote_course(tmp_path
     assert state["status"] == "complete"
 
 
-def test_publish_state_manifest_rejects_changed_plan_before_remote_writes(tmp_path):
+def test_publish_state_manifest_rejects_changed_course_identity_before_remote_writes(tmp_path):
     from dataclasses import replace
 
     course = _sample_course(tmp_path / "course")
     state_file = tmp_path / "publish.json"
     publish_course(_StatefulPublishClient(), course, 2, state_file=state_file)
-    changed = replace(course, full_name="Zmieniony kurs")
+    changed = replace(course, short_name="INNY_KURS")
     client = _StatefulPublishClient()
     with pytest.raises(MoodleAPIError, match="innego kursu, planu lub serwera"):
         publish_course(client, changed, 2, state_file=state_file)
@@ -1213,7 +1232,7 @@ def test_publish_state_manifest_persists_partial_failure_for_safe_retry(tmp_path
 
 
 
-def test_publish_state_manifest_fingerprint_includes_section_names(tmp_path):
+def test_publish_state_manifest_allows_section_content_updates_with_same_identity(tmp_path):
     from dataclasses import replace
 
     course = _sample_course(tmp_path / "course")
@@ -1222,10 +1241,12 @@ def test_publish_state_manifest_fingerprint_includes_section_names(tmp_path):
     section = course.sections[0]
     changed = replace(course, sections=(replace(section, name="Zmieniona sekcja"),))
     client = _StatefulPublishClient()
-    with pytest.raises(MoodleAPIError, match="innego kursu, planu lub serwera"):
-        publish_course(client, changed, 2, state_file=state_file)
+    result = publish_course(client, changed, 2, state_file=state_file)
+    state = json.loads(state_file.read_text(encoding="utf-8"))
     assert client.ensure_calls == 0
-    assert client.lookup_calls == 0
+    assert client.lookup_calls == 1
+    assert result["course_created"] is False
+    assert state["status"] == "complete"
 
 
 
@@ -1336,3 +1357,47 @@ def test_basic_activity_endpoint_exposes_update_outcome():
     assert "'updated' => true" in plugin
     assert "'updated' => false" in plugin
     assert "'updated' => new \\external_value(PARAM_BOOL" in plugin
+
+
+def test_glossary_publish_requires_manifest_for_entry_identity(tmp_path):
+    section = tmp_path / "sections" / "01"
+    glossarydir = section / "glossary"
+    glossarydir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs słownikowy\n  short_name: GLOSSARYSAFE\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\nname: Słownik\nmodules:\n"
+        "  - type: glossary\n    ref: glossary\n    name: Słownik\n",
+        encoding="utf-8",
+    )
+    (glossarydir / "glossary.yaml").write_text(
+        "glossary:\n  entries:\n    - term: Masaż\n      definition: Definicja\n",
+        encoding="utf-8",
+    )
+    course = load_course(tmp_path)
+    with pytest.raises(MoodleAPIError, match="wymaga --state-file"):
+        publish_course(object(), course, 2)
+
+
+def test_publish_manifest_allows_content_change_with_stable_course_and_activity_identity(tmp_path):
+    from dataclasses import replace
+    import json
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "publish.json"
+    publish_course(_StatefulPublishClient(), course, 2, state_file=state_file)
+    original_state = json.loads(state_file.read_text(encoding="utf-8"))
+    section = course.sections[0]
+    activity = section.activities[0]
+    changed_activity = replace(activity, name="Zmieniona nazwa strony")
+    changed_course = replace(
+        course,
+        sections=(replace(section, activities=(changed_activity,)),),
+    )
+    client = _StatefulPublishClient()
+    publish_course(client, changed_course, 2, state_file=state_file)
+    updated_state = json.loads(state_file.read_text(encoding="utf-8"))
+    assert client.lookup_calls == 1
+    assert updated_state["identity_sha256"] == original_state["identity_sha256"]
+    assert updated_state["plan_sha256"] != original_state["plan_sha256"]
