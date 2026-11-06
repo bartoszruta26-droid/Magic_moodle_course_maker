@@ -1264,3 +1264,30 @@ def test_course_payload_rejects_overlong_course_names(tmp_path):
     course = _sample_course(tmp_path)
     with pytest.raises(MoodleAPIError, match="short_name"):
         build_publish_plan(replace(course, short_name="X" * 101), 2)
+
+
+def test_create_activity_sends_stable_idnumber_for_repeatable_sync():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    with patch.object(client, "call", return_value={"created": False, "cmid": 91}) as call:
+        result = client.create_activity(7, 1, {
+            "type": "page",
+            "name": "Zmieniona nazwa strony",
+            "content": "<p>Zmieniona treść</p>",
+            "idnumber": "mm-source-identity",
+        })
+    assert result["created"] is False
+    assert call.call_args.args[0] == "local_magicmoodle_create_activity"
+    assert call.call_args.args[1]["idnumber"] == "mm-source-identity"
+    assert call.call_args.args[1]["content"] == "<p>Zmieniona treść</p>"
+
+
+def test_page_label_url_plugin_updates_existing_module_in_place():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_activity.php"
+    ).read_text(encoding="utf-8")
+    assert "update_moduleinfo($coursemodule, $moduleinfo, $course);" in plugin
+    assert "$moduleinfo->instance = (int)$existing->instance;" in plugin
+    assert "$moduleinfo->coursemodule = (int)$existing->id;" in plugin
+    assert "$transaction->allow_commit();" in plugin
+    assert "rebuild_course_cache($course->id, true);" in plugin
