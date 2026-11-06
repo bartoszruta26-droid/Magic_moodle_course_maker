@@ -131,3 +131,29 @@ def test_loads_real_med10_question_bank() -> None:
     bank = load_question_bank(repository / "courses" / "03-kurs-masazysta-med10" / "question-bank")
     assert len(bank.questions) > 20
     assert {"essay", "matching", "multichoice", "shortanswer", "truefalse"} <= set(bank.by_type())
+
+
+def test_parses_legacy_med10_matching_layout() -> None:
+    bank = parse_gift(
+        """::legacy-match:: Połącz elementy. {
+=Moduł A
+=Moduł B
+=Moduł C
+-=Temat A
+-=Temat B
+-=Temat C
+}"""
+    )
+    question = bank.questions[0]
+    assert question.qtype == "matching"
+    assert [(pair.question, pair.answer) for pair in question.pairs] == [
+        ("Moduł A", "Temat A"), ("Moduł B", "Temat B"), ("Moduł C", "Temat C")
+    ]
+
+
+def test_recognizes_embedded_missingword_question() -> None:
+    question = parse_gift(
+        '::cloze:: "Poznacie {=prawdę ~wolność ~mądrość}, a prawda was wyzwoli."'
+    ).questions[0]
+    assert question.qtype == "multianswer"
+    assert "{=prawdę" in question.text
