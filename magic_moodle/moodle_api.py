@@ -228,6 +228,7 @@ class MoodleClient:
                 "filename": activity["filename"],
                 "contentbase64": contentbase64,
                 "intro": activity.get("intro", ""),
+                "idnumber": activity.get("idnumber", ""),
             },
         )
 
