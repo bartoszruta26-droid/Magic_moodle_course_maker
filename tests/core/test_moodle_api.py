@@ -1210,3 +1210,19 @@ def test_publish_state_manifest_persists_partial_failure_for_safe_retry(tmp_path
     assert state["failed_step"] == "activity:1"
     assert state["course_id"] == 42
     assert state["last_error_type"] == "MoodleAPIError"
+
+
+
+def test_publish_state_manifest_fingerprint_includes_section_names(tmp_path):
+    from dataclasses import replace
+
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "publish.json"
+    publish_course(_StatefulPublishClient(), course, 2, state_file=state_file)
+    section = course.sections[0]
+    changed = replace(course, sections=(replace(section, name="Zmieniona sekcja"),))
+    client = _StatefulPublishClient()
+    with pytest.raises(MoodleAPIError, match="innego kursu, planu lub serwera"):
+        publish_course(client, changed, 2, state_file=state_file)
+    assert client.ensure_calls == 0
+    assert client.lookup_calls == 0
