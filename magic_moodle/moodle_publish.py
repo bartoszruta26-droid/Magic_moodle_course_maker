@@ -3,11 +3,14 @@ from __future__ import annotations
 
 import base64
 import hashlib
+import json
+from pathlib import Path
 from dataclasses import dataclass
 from typing import Any
 from urllib.parse import urlsplit
 
 from .gift import GiftParseError, parse_gift, validate_question_bank
+from .io_utils import atomic_write_text
 from .models import Course
 from .moodle_api import MoodleAPIError, MoodleClient
 
@@ -465,17 +468,104 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     return PublishPlan(payload, tuple(activities), tuple(warnings))
 
 
+def _publish_plan_fingerprint(plan: PublishPlan, course: Course) -> str:
+    try:
+        encoded = json.dumps(
+            {"course": plan.course, "activities": plan.activities,
+             "sections": [{"id": section.id, "name": section.name} for section in course.sections]},
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+            allow_nan=False,
+        ).encode("utf-8")
+    except (TypeError, ValueError) as exc:
+        raise MoodleAPIError("Nie można utworzyć skrótu planu publikacji.") from exc
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def _write_publish_state(path: Path, state: dict[str, Any]) -> None:
+    try:
+        content = json.dumps(state, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
+        atomic_write_text(path, content)
+    except (OSError, TypeError, ValueError) as exc:
+        raise MoodleAPIError(f"Nie można bezpiecznie zapisać manifestu publikacji: {exc}") from exc
+
+
+def _load_or_create_publish_state(
+    path: Path, plan: PublishPlan, site: dict[str, Any], course: Course
+) -> dict[str, Any]:
+    if path.is_symlink():
+        raise MoodleAPIError("Plik manifestu publikacji nie może być dowiązaniem symbolicznym.")
+    site_root = site.get("siteurl") or site.get("wwwroot")
+    if not isinstance(site_root, str) or not site_root.strip():
+        raise MoodleAPIError("Moodle nie zwrócił wwwroot; nie można bezpiecznie powiązać manifestu z witryną.")
+    site_fingerprint = hashlib.sha256(site_root.rstrip("/").encode("utf-8")).hexdigest()
+    plan_fingerprint = _publish_plan_fingerprint(plan, course)
+    if path.exists():
+        try:
+            if path.stat().st_size > 1024 * 1024:
+                raise MoodleAPIError("Manifest publikacji przekracza limit 1 MiB.")
+            state = json.loads(path.read_text(encoding="utf-8"))
+        except MoodleAPIError:
+            raise
+        except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+            raise MoodleAPIError("Istniejący manifest publikacji jest uszkodzony lub nieczytelny.") from exc
+        if not isinstance(state, dict):
+            raise MoodleAPIError("Manifest publikacji ma niepoprawny format.")
+        if (
+            state.get("format") != "magic-moodle-publish-state"
+            or state.get("version") != 1
+            or state.get("course_shortname") != course.short_name
+            or state.get("plan_sha256") != plan_fingerprint
+            or state.get("moodle_site_sha256") != site_fingerprint
+        ):
+            raise MoodleAPIError(
+                "Manifest publikacji dotyczy innego kursu, planu lub serwera Moodle. "
+                "Wybierz nowy plik stanu albo świadomie usuń poprzedni."
+            )
+        course_id = state.get("course_id")
+        if course_id is not None and (
+            isinstance(course_id, bool) or not isinstance(course_id, int) or course_id < 1
+        ):
+            raise MoodleAPIError("Manifest publikacji zawiera nieprawidłowy identyfikator kursu.")
+        if not isinstance(state.get("sections_completed"), list) or not isinstance(
+            state.get("activities_completed"), dict
+        ):
+            raise MoodleAPIError("Manifest publikacji zawiera nieprawidłowy zapis postępu.")
+        return state
+
+    state = {
+        "format": "magic-moodle-publish-state",
+        "version": 1,
+        "course_shortname": course.short_name,
+        "plan_sha256": plan_fingerprint,
+        "moodle_site_sha256": site_fingerprint,
+        "status": "started",
+        "course_id": None,
+        "course_created": None,
+        "sections_completed": [],
+        "activities_completed": {},
+        "failed_step": None,
+        "failed_activity_idnumber": None,
+        "last_error_type": None,
+    }
+    _write_publish_state(path, state)
+    return state
+
+
 def publish_course(
     client: MoodleClient,
     course: Course,
     category_id: int,
     *,
     dry_run: bool = False,
+    state_file: str | Path | None = None,
 ) -> dict[str, Any]:
-    """Create/reuse a course, then publish page/label modules in section order.
+    """Publish a course and optionally persist a secret-free, resumable progress manifest.
 
-    All activity types are checked before any remote write to avoid partial
-    publication caused by an unsupported module type.
+    Re-running with the same manifest replays idempotent operations. Completed
+    steps are recorded for auditability but are deliberately rechecked against
+    Moodle rather than blindly skipped.
     """
     plan = build_publish_plan(course, category_id)
     if plan.warnings:
@@ -521,50 +611,127 @@ def publish_course(
             + ". Sprawdź konfigurację usługi zewnętrznej Moodle."
         )
 
-    remote_course, created = client.ensure_course(plan.course)
-    course_id = int(remote_course["id"])
-    section_results = []
-    for index, section in enumerate(course.sections):
-        try:
-            section_results.append(
-                client.update_section(course_id, index, section.name)
-            )
-        except Exception as exc:
-            raise MoodleAPIError(
-                f"Publikacja przerwana podczas aktualizacji sekcji {index} ('{section.name}'). "
-                f"Kurs '{course.short_name}' został już utworzony lub odnaleziony. "
-                f"Można ponowić publikację po usunięciu przyczyny błędu. Szczegóły: {exc}"
-            ) from exc
+    state_path = Path(state_file).expanduser() if state_file is not None else None
+    state = (
+        _load_or_create_publish_state(state_path, plan, site, course)
+        if state_path is not None else None
+    )
 
-    activity_results = []
-    for position, activity in enumerate(plan.activities, start=1):
-        try:
-            if activity["type"] == "book":
-                result = client.create_book(course_id, activity["sectionnum"], activity)
-            elif activity["type"] == "quiz":
-                result = client.create_quiz(course_id, activity["sectionnum"], activity)
-            elif activity["type"] == "assignment":
-                result = client.create_assignment(course_id, activity["sectionnum"], activity)
-            elif activity["type"] == "file":
-                result = client.create_resource(course_id, activity["sectionnum"], activity)
-            elif activity["type"] == "glossary":
-                result = client.create_glossary(course_id, activity["sectionnum"], activity)
-            else:
-                result = client.create_activity(course_id, activity["sectionnum"], activity)
-        except Exception as exc:
-            raise MoodleAPIError(
-                f"Publikacja przerwana na aktywności {position}/{len(plan.activities)}: "
-                f"'{activity['name']}' (typ {activity['type']}, idnumber {activity['idnumber']}). "
-                f"Poprzednio obsłużono {len(activity_results)} aktywności. "
-                "Po usunięciu przyczyny można bezpiecznie ponowić całe polecenie; "
-                "kurs i już utworzone aktywności zostaną rozpoznane po identyfikatorach źródłowych. "
-                f"Szczegóły: {exc}"
-            ) from exc
-        activity_results.append(result)
-    return {
-        "dry_run": False,
-        "course": remote_course,
-        "course_created": created,
-        "sections_updated": len(section_results),
-        "activities_created": activity_results,
-    }
+    try:
+        if state is not None and state.get("course_id") is not None:
+            remote_course = client.get_course_by_shortname(plan.course["shortname"])
+            if not remote_course or int(remote_course.get("id", 0)) != state["course_id"]:
+                raise MoodleAPIError(
+                    "Kurs zapisany w manifeście nie istnieje już pod oczekiwaną nazwą skróconą. "
+                    "Nie utworzono nowego kursu automatycznie."
+                )
+            created = False
+        else:
+            remote_course, created = client.ensure_course(plan.course)
+        course_id = int(remote_course["id"])
+        if state is not None:
+            state["course_id"] = course_id
+            state["course_created"] = bool(created)
+            state["status"] = "in_progress"
+            state["failed_step"] = None
+            state["last_error_type"] = None
+            _write_publish_state(state_path, state)
+
+        section_results = []
+        for index, section in enumerate(course.sections):
+            try:
+                result = client.update_section(course_id, index, section.name)
+            except Exception as exc:
+                if state is not None:
+                    state["status"] = "partial"
+                    state["failed_step"] = f"section:{index}"
+                    state["last_error_type"] = type(exc).__name__
+                    try:
+                        _write_publish_state(state_path, state)
+                    except MoodleAPIError:
+                        pass
+                raise MoodleAPIError(
+                    f"Publikacja przerwana podczas aktualizacji sekcji {index} ('{section.name}'). "
+                    f"Kurs '{course.short_name}' został już utworzony lub odnaleziony. "
+                    f"Można ponowić publikację po usunięciu przyczyny błędu. Szczegóły: {exc}"
+                ) from exc
+            section_results.append(result)
+            if state is not None:
+                if index not in state["sections_completed"]:
+                    state["sections_completed"].append(index)
+                state["failed_step"] = None
+                state["last_error_type"] = None
+                _write_publish_state(state_path, state)
+
+        activity_results = []
+        for position, activity in enumerate(plan.activities, start=1):
+            try:
+                if activity["type"] == "book":
+                    result = client.create_book(course_id, activity["sectionnum"], activity)
+                elif activity["type"] == "quiz":
+                    result = client.create_quiz(course_id, activity["sectionnum"], activity)
+                elif activity["type"] == "assignment":
+                    result = client.create_assignment(course_id, activity["sectionnum"], activity)
+                elif activity["type"] == "file":
+                    result = client.create_resource(course_id, activity["sectionnum"], activity)
+                elif activity["type"] == "glossary":
+                    result = client.create_glossary(course_id, activity["sectionnum"], activity)
+                else:
+                    result = client.create_activity(course_id, activity["sectionnum"], activity)
+            except Exception as exc:
+                if state is not None:
+                    state["status"] = "partial"
+                    state["failed_step"] = f"activity:{position}"
+                    state["failed_activity_idnumber"] = activity["idnumber"]
+                    state["last_error_type"] = type(exc).__name__
+                    try:
+                        _write_publish_state(state_path, state)
+                    except MoodleAPIError:
+                        pass
+                raise MoodleAPIError(
+                    f"Publikacja przerwana na aktywności {position}/{len(plan.activities)}: "
+                    f"'{activity['name']}' (typ {activity['type']}, idnumber {activity['idnumber']}). "
+                    f"Poprzednio obsłużono {len(activity_results)} aktywności. "
+                    "Po usunięciu przyczyny można bezpiecznie ponowić całe polecenie; "
+                    "kurs i już utworzone aktywności zostaną rozpoznane po identyfikatorach źródłowych. "
+                    f"Szczegóły: {exc}"
+                ) from exc
+            activity_results.append(result)
+            if state is not None:
+                state["activities_completed"][activity["idnumber"]] = {
+                    "type": activity["type"],
+                    "name": activity["name"],
+                    "cmid": result.get("cmid") if isinstance(result, dict) else None,
+                    "instanceid": result.get("instanceid") if isinstance(result, dict) else None,
+                    "created": result.get("created") if isinstance(result, dict) else None,
+                }
+                state["failed_step"] = None
+                state["failed_activity_idnumber"] = None
+                state["last_error_type"] = None
+                _write_publish_state(state_path, state)
+
+        if state is not None:
+            state["status"] = "complete"
+            state["failed_step"] = None
+            state["failed_activity_idnumber"] = None
+            state["last_error_type"] = None
+            _write_publish_state(state_path, state)
+        return {
+            "dry_run": False,
+            "course": remote_course,
+            "course_created": created,
+            "sections_updated": len(section_results),
+            "activities_created": activity_results,
+            "state_file": str(state_path) if state_path is not None else None,
+        }
+    except MoodleAPIError:
+        raise
+    except Exception as exc:
+        if state is not None:
+            state["status"] = "partial"
+            state["last_error_type"] = type(exc).__name__
+            try:
+                _write_publish_state(state_path, state)
+            except MoodleAPIError:
+                pass
+        raise MoodleAPIError(f"Nieoczekiwany błąd publikacji Moodle: {type(exc).__name__}") from exc

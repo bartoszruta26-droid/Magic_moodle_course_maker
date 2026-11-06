@@ -38,6 +38,8 @@ def _parser() -> argparse.ArgumentParser:
     moodle_publish.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
     moodle_publish.add_argument("--category-id", type=int, default=None, help="Id kategorii Moodle")
     moodle_publish.add_argument("--dry-run", action="store_true", help="Pokaż plan bez połączenia z Moodle")
+    moodle_publish.add_argument("--state-file", type=Path, default=None,
+                                help="Zapisuj postęp publikacji do bezpiecznego manifestu JSON (bez tokenu)")
     moodle_publish.add_argument("--json", action="store_true", help="Wynik w formacie JSON")
 
     gift_validate = commands.add_parser("gift-validate", help="Sprawdź składnię i typy pytań GIFT")
@@ -78,7 +80,7 @@ def main(argv: list[str] | None = None) -> int:
                 result = publish_course(None, course, category_id, dry_run=True)
             else:
                 client = MoodleClient(MoodleConfig.from_env())
-                result = publish_course(client, course, category_id)
+                result = publish_course(client, course, category_id, state_file=args.state_file)
             if args.json:
                 print(json.dumps(result, ensure_ascii=False, indent=2))
             else:
