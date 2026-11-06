@@ -192,6 +192,30 @@ class MoodleClient:
             {"courseid": courseid, "sectionnum": sectionnum, "name": name},
         )
 
+    def create_assignment(
+        self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
+    ) -> dict[str, Any]:
+        """Create an Assignment with configured submission plugins and deadlines."""
+        return self.call(
+            "local_magicmoodle_create_assignment",
+            {
+                "courseid": courseid,
+                "sectionnum": sectionnum,
+                "name": activity["name"],
+                "intro": activity.get("intro", ""),
+                "allowsubmissionsfromdate": activity.get("allowsubmissionsfromdate", 0),
+                "duedate": activity.get("duedate", 0),
+                "cutoffdate": activity.get("cutoffdate", 0),
+                "grade": activity.get("grade", 100),
+                "submissiontype": activity.get("submissiontype", "both"),
+                "maxfiles": activity.get("maxfiles", 5),
+                "maxbytes": activity.get("maxbytes", 10485760),
+                "submissiondrafts": activity.get("submissiondrafts", False),
+                "requiresubmissionstatement": activity.get("requiresubmissionstatement", False),
+                "completionenabled": activity.get("completionenabled", False),
+            },
+        )
+
     def create_book(
         self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
     ) -> dict[str, Any]:
