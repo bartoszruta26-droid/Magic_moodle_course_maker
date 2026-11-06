@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>Magic Moodle · Pracownia kursów</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">M</span><div><strong>MAGIC MOODLE</strong><small>COURSE MAKER</small></div></div>
+    <div class="side-label">PRACOWNIA</div>
+    <button class="nav active"><span>▦</span> Przegląd kursów</button>
+    <div class="side-label">NARZĘDZIA</div>
+    <div class="nav muted"><span>✦</span> Projektant treści <em>Wkrótce</em></div>
+    <div class="nav muted"><span>✓</span> Walidator</div>
+    <div class="nav muted"><span>⇧</span> Publikacja Moodle <em>Wkrótce</em></div>
+    <div class="sidebar-foot"><span class="dot"></span> Tryb lokalny · bez publikacji</div>
+  </aside>
+  <main>
+    <header><div><p class="eyebrow">ŚRODOWISKO ROBOCZE</p><h1>Przegląd kursów</h1><p class="sub">Zarządzaj strukturą, kontroluj jakość i przygotowuj materiały do Moodle.</p></div><div class="header-status"><span class="dot"></span> Interfejs lokalny</div></header>
+    <section class="metrics">
+      <article class="metric"><span class="metric-icon">▤</span><div><small>PROJEKTY KURSÓW</small><strong id="course-count">—</strong></div></article>
+      <article class="metric"><span class="metric-icon">◫</span><div><small>SEKCJE</small><strong id="section-count">—</strong></div></article>
+      <article class="metric"><span class="metric-icon">◇</span><div><small>AKTYWNOŚCI</small><strong id="activity-count">—</strong></div></article>
+      <article class="metric"><span class="metric-icon green">✓</span><div><small>STATUS API</small><strong class="small-value" id="api-status">Łączenie…</strong></div></article>
+    </section>
+    <section class="workspace">
+      <div class="panel course-panel">
+        <div class="panel-head"><div><h2>Twoje kursy</h2><p>Projekty wykryte w katalogu kursów</p></div><span class="count" id="list-count">0</span></div>
+        <div class="search"><span>⌕</span><input id="search" placeholder="Szukaj kursu…" autocomplete="off"></div>
+        <div id="courses" class="course-list"><div class="empty">Wczytywanie projektów…</div></div>
+      </div>
+      <div class="panel detail-panel">
+        <div class="panel-head"><div><h2>Kontrola jakości</h2><p>Raport walidacji wybranego projektu</p></div><span class="tag">READ ONLY</span></div>
+        <div id="detail" class="detail-empty"><div class="empty-icon">◎</div><strong>Wybierz kurs</strong><p>Wybierz projekt z listy, aby zobaczyć jego strukturę i wynik walidacji.</p></div>
+      </div>
+    </section>
+    <footer><span>MAGIC MOODLE COURSE MAKER</span><span>WebUI 0.1 · Lokalna pracownia</span></footer>
+  </main>
+  <script src="/app.js" defer></script>
+</body>
+</html>

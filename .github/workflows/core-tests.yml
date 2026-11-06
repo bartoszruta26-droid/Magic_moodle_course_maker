@@ -2,7 +2,7 @@ name: Core tests
 
 on:
   push:
-    branches: [main, "feature/**"]
+    branches: [main, "feature/**", "audit/**"]
   pull_request:
   workflow_dispatch:
 
@@ -17,7 +17,9 @@ jobs:
           cache: pip
       - run: python -m pip install -e ".[dev]"
       - run: python -m pytest -q
-      - run: python -m compileall -q magic_moodle
+      - run: python -m compileall -q magic_moodle webui
+      - name: Check WebUI JavaScript syntax
+        run: node --check webui/static/app.js
       - name: Smoke test existing MED.10 course structure
         run: python -m magic_moodle inspect courses/03-kurs-masazysta-med10
       - name: Validate MED.10 GIFT question bank

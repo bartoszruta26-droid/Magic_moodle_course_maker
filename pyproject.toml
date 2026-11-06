@@ -15,9 +15,10 @@ dev = ["pytest>=8,<9", "ruff>=0.6,<1"]
 
 [project.scripts]
 magic-moodle = "magic_moodle.cli:main"
+magic-moodle-webui = "webui.server:main"
 
 [tool.setuptools.packages.find]
-include = ["magic_moodle*"]
+include = ["magic_moodle*", "webui*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests/core"]
