@@ -703,7 +703,7 @@ def test_assignment_endpoint_is_registered_for_moodle_41():
     assert "assignsubmission_onlinetext_enabled" in plugin
     assert "assignsubmission_file_enabled" in plugin
     assert "'local_magicmoodle_create_assignment'" in services
-    assert "$plugin->version = 2026110607;" in version
+    assert "$plugin->version = 2026110608;" in version
 
 
 def _sample_file_course(tmp_path: Path):
@@ -804,7 +804,7 @@ def test_file_resource_endpoint_is_registered_and_limited():
     plugin = (root / "classes/external/create_resource.php").read_text(encoding="utf-8")
     services = (root / "db/services.php").read_text(encoding="utf-8")
     version = (root / "version.php").read_text(encoding="utf-8")
-    assert "class create_resource extends \\\\external_api" in plugin
+    assert "class create_resource extends \\external_api" in plugin
     assert "base64_decode($params['contentbase64'], true)" in plugin
     assert "5 * 1024 * 1024" in plugin
     assert "file_get_unused_draft_itemid()" in plugin
