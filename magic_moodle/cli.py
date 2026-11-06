@@ -25,27 +25,38 @@ def _parser() -> argparse.ArgumentParser:
     gift_validate.add_argument("source", type=Path, help="Plik GIFT")
     gift_validate.add_argument("--json", action="store_true")
 
-    gift_export = commands.add_parser("gift-to-xml", help="Konwertuj bank GIFT do Moodle XML")
+    gift_export = commands.add_parser("gift-to-xml", help="Konwertuj pojedynczy plik GIFT do Moodle XML")
     gift_export.add_argument("source", type=Path, help="Wejściowy plik GIFT")
     gift_export.add_argument("destination", type=Path, help="Wyjściowy plik XML")
     gift_export.add_argument("--category", default="$course$/top", help="Kategoria banku pytań Moodle")
 
+    bank_validate = commands.add_parser("bank-validate", help="Zweryfikuj wszystkie pliki GIFT w banku")
+    bank_validate.add_argument("source", type=Path, help="Plik GIFT lub katalog question-bank")
+    bank_validate.add_argument("--json", action="store_true")
+
+    bank_export = commands.add_parser("bank-to-xml", help="Eksportuj cały bank GIFT do Moodle XML")
+    bank_export.add_argument("source", type=Path, help="Katalog question-bank lub plik GIFT")
+    bank_export.add_argument("destination", type=Path, help="Wyjściowy plik XML")
+    bank_export.add_argument("--category", default="$course$/top", help="Kategoria banku pytań Moodle")
     return parser
 
 
 def _load_bank(path: Path):
     source = path.read_text(encoding="utf-8-sig")
     bank = parse_gift(source, source_name=str(path))
-    errors = validate_question_bank(bank)
-    return bank, errors
+    return bank, validate_question_bank(bank)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
 
-    if args.command in {"gift-validate", "gift-to-xml"}:
+    if args.command in {"gift-validate", "gift-to-xml", "bank-validate", "bank-to-xml"}:
         try:
-            bank, errors = _load_bank(args.source)
+            if args.command.startswith("bank-"):
+                bank = load_question_bank(args.source)
+                errors = []
+            else:
+                bank, errors = _load_bank(args.source)
         except (OSError, UnicodeError, GiftParseError) as exc:
             print(f"BŁĄD GIFT: {exc}", file=sys.stderr)
             return 2
@@ -53,7 +64,7 @@ def main(argv: list[str] | None = None) -> int:
             for error in errors:
                 print(f"BŁĄD: {error}", file=sys.stderr)
             return 1
-        if args.command == "gift-validate":
+        if args.command in {"gift-validate", "bank-validate"}:
             result = {"ok": True, "questions": len(bank.questions), "types": bank.by_type()}
             if args.json:
                 print(json.dumps(result, ensure_ascii=False, indent=2))
