@@ -469,7 +469,6 @@ def test_create_quiz_calls_registered_moodle_service():
     assert call.call_args.args[1]["gift"] == gift
     assert call.call_args.args[1]["passingpercent"] == 60
     assert call.call_args.args[1]["completionenabled"] is True
-    assert call.call_args.args[1]["syncfields"] == ["name", "intro", "grade"]
     assert call.call_args.args[1]["completiontype"] == "grade"
 
 
@@ -684,6 +683,7 @@ def test_create_assignment_calls_registered_moodle_service():
     assert call.call_args.args[1]["submissiontype"] == "both"
     assert call.call_args.args[1]["maxfiles"] == 3
     assert call.call_args.args[1]["completionenabled"] is True
+    assert call.call_args.args[1]["syncfields"] == ["name", "intro", "grade"]
 
 
 def test_publish_routes_assignment_to_assignment_endpoint(tmp_path):
