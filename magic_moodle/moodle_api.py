@@ -71,7 +71,7 @@ class MoodleClient:
         if parts.username or parts.password or parts.query or parts.fragment:
             raise MoodleAPIError("MOODLE_URL nie może zawierać danych logowania, query ani fragmentu.")
         if parts.scheme != "https" and parts.hostname not in {"localhost", "127.0.0.1", "::1"}:
-            raise MoodleAPIError("Połączenia HTTP są dozwolone wyłącznie dla localhost.")
+            raise MoodleAPIError("Wymagane jest HTTPS dla hostów zdalnych; HTTP jest dozwolone wyłącznie dla localhost.")
         if not config.token:
             raise MoodleAPIError("Brak tokenu Moodle.")
         self.config = config
