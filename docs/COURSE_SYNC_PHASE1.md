@@ -136,3 +136,15 @@ Wymagane testy na Moodle 4.1: aktualizacja treści i zmiana kolejności bez zmia
 - Assignment: sprawdzić zmianę opisu, terminów, oceny i completion przy istniejących zgłoszeniach; potwierdzić, że próby, zgłoszenia i oceny pozostają nietknięte. Zweryfikować blokadę zmiany wtyczek i limitów po pojawieniu się zgłoszeń.
 - Resource: sprawdzić podmianę pliku o tej samej i innej nazwie, zachowanie dodatkowych plików, sortowanie pliku głównego, konflikt po ręcznej zmianie pliku oraz rollback po błędzie zapisu.
 - Testy CI kontrolują kontrakt, walidację, składnię PHP i logikę manifestu, ale nie zastępują integracyjnej instancji Moodle.
+
+## Etap 5 — Quiz (wdrażany, synchronizacja ustawień)
+
+- Manifest przechowuje SHA-256 źródła GIFT. Ponowna publikacja istniejącego Quiz wymaga zgodnego skrótu GIFT i zgodnej liczby slotów pytań.
+- Adapter aktualizuje ustawienia Quiz przez get_moduleinfo_data() i update_moduleinfo(), zachowując istniejące sloty pytań, próby i odpowiedzi studentów.
+- Nazwa, opis, limit czasu, liczba prób, tasowanie odpowiedzi, liczba pytań na stronie i ustawienia ukończenia są aktualizowane tylko wtedy, gdy źródło jawnie nimi zarządza.
+- Zmiana maksymalnej oceny lub progu zaliczenia jest blokowana, gdy istnieją próby studentów, aby nie zmieniać historii ocen.
+- Zmiana treści GIFT jest obecnie odrzucana. Nie usuwamy ani nie odtwarzamy pytań. Pełna synchronizacja treści wymaga adaptera wersjonowania pytań Moodle Question Bank, który tworzy nowe wersje istniejących pytań z zachowaniem ich question bank entry i historycznych wersji użytych przez próby.
+
+### Ograniczenia Quiz
+
+Manifest wiąże Quiz z poprzednim skrótem GIFT, ale nie wykrywa ręcznej edycji treści pytania w Moodle, jeżeli liczba slotów pozostaje taka sama. Przed pełną synchronizacją pytań trzeba dodać odczyt i skrót zdalnych wersji pytań oraz testy na próbach rzeczywistych. Do tego czasu zmiany pytań wykonuje się kontrolowaną procedurą poza automatycznym publikowaniem.

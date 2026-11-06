@@ -326,6 +326,9 @@ class MoodleClient:
                 "questionsperpage": activity.get("questionsperpage", 1),
                 "completionenabled": activity.get("completionenabled", False),
                 "completiontype": activity.get("completiontype", "grade"),
+                "questioncount": activity.get("questioncount", 0),
+                "previousgiftsha256": activity.get("previousgiftsha256", ""),
+                "syncfields": activity.get("syncfields", ["name"]),
                 "idnumber": activity.get("idnumber", ""),
             },
         )

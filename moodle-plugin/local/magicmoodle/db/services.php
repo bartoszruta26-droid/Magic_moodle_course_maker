@@ -39,7 +39,7 @@ $functions = [
     ],
     'local_magicmoodle_create_quiz' => [
         'classname' => '\\local_magicmoodle\\external\\create_quiz',
-        'description' => 'Create a Quiz activity, import GIFT questions and add them to the quiz.',
+        'description' => 'Create or update Quiz settings while preserving question slots, attempts and grade history; GIFT import is used only for new quizzes.',
         'type' => 'write',
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities, mod/quiz:addinstance, moodle/question:add',
