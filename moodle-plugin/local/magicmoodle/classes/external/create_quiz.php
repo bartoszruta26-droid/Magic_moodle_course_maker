@@ -97,6 +97,16 @@ class create_quiz extends \external_api {
 
         // Reuse an existing quiz with the same name and section; never re-import questions.
         $modinfo = get_fast_modinfo($course);
+        if ($params['idnumber'] !== '') {
+            foreach ($modinfo->get_cms() as $candidate) {
+                if (empty($candidate->deletioninprogress)
+                        && $candidate->modname === 'quiz'
+                        && $candidate->idnumber === $params['idnumber']
+                        && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                    throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                }
+            }
+        }
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress) && $existing->modname === 'quiz'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
