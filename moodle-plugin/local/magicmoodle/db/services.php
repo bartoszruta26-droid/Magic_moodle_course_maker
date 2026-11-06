@@ -16,6 +16,13 @@ $functions = [
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities',
     ],
+    'local_magicmoodle_create_quiz' => [
+        'classname' => '\\local_magicmoodle\\external\\create_quiz',
+        'description' => 'Create a Quiz activity, import GIFT questions and add them to the quiz.',
+        'type' => 'write',
+        'ajax' => false,
+        'capabilities' => 'moodle/course:manageactivities, mod/quiz:addinstance, moodle/question:add',
+    ],
     'local_magicmoodle_create_activity' => [
         'classname' => '\\local_magicmoodle\\external\\create_activity',
         'description' => 'Create a Page, Label or URL activity in a course section.',
