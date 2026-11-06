@@ -524,3 +524,24 @@ Pełna dokumentacja techniczna znajduje się w katalogu `docs/`:
 - `02-CONTENT-FORMATS.md` – Formaty metadanych, sekcji i aktywności
 - `03-QUESTION-FORMATS.md` – Specyfikacja formatów pytań (GIFT, YAML, XML)
 - `04-AUTOMATION-AND-ETHICS.md` – Automatyzacja, CI/CD i zasady etyczne
+
+
+## Zdalna publikacja do Moodle
+
+Rdzeń zawiera klienta Moodle REST API oraz polecenie `moodle-publish`.
+Publikacja tworzy lub odnajduje kurs po nazwie skróconej, aktualizuje nazwy
+sekcji i tworzy obsługiwane aktywności Page/Label. Wymaga lokalnego pluginu
+Moodle `local_magicmoodle`; pozostałe typy aktywności są jawnie blokowane
+na etapie kontroli wstępnej, dopóki nie zostaną dodane odpowiednie adaptery.
+
+Szczegółowa instalacja, konfiguracja tokenu i użycie:
+[`docs/MOODLE-REST.md`](docs/MOODLE-REST.md).
+
+Szybka kontrola bez połączenia z serwerem:
+
+```bash
+python -m magic_moodle moodle-publish courses/03-kurs-masazysta-med10 --dry-run
+```
+
+Publikacja wymaga zmiennych środowiskowych `MOODLE_URL`,
+`MOODLE_TOKEN` i `MOODLE_CATEGORY_ID`. Tokenów nie zapisuj w repozytorium.
