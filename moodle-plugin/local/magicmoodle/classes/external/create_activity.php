@@ -108,6 +108,9 @@ class create_activity extends \external_api {
             $moduleinfo->introformat = FORMAT_HTML;
         } else {
             $moduleinfo->externalurl = $params['externalurl'];
+            $moduleinfo->parameters = '';
+            $moduleinfo->popupwidth = 800;
+            $moduleinfo->popupheight = 600;
             $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
             $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
             $moduleinfo->printheading = 1;
