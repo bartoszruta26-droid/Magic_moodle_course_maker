@@ -81,6 +81,18 @@ class create_resource extends \external_api {
             if (empty($existing->deletioninprogress) && $existing->modname === 'resource'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                if ($params['idnumber'] !== ''
+                        && $existing->name === $params['name']
+                        && !empty($existing->idnumber)
+                        && $existing->idnumber !== $params['idnumber']) {
+                    throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                }
+                if ($params['idnumber'] !== ''
+                        && $existing->idnumber === $params['idnumber']
+                        && $existing->name !== $params['name']) {
+                    throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                }
+
                 if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
                     $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
                 }
@@ -103,9 +115,12 @@ class create_resource extends \external_api {
         }
 
         $moduleid = $DB->get_field('modules', 'id', ['name' => 'resource'], MUST_EXIST);
-        $draftitemid = file_get_unused_draft_itemid();
+        $draftitemid = null;
         $usercontext = context_user::instance($USER->id);
         $fs = get_file_storage();
+        $transaction = $DB->start_delegated_transaction();
+        try {
+            $draftitemid = file_get_unused_draft_itemid();
         $fs->create_file_from_string([
             'contextid' => $usercontext->id,
             'component' => 'user',
@@ -145,14 +160,14 @@ class create_resource extends \external_api {
         $moduleinfo->visibleoncoursepage = 1;
         $moduleinfo->cmidnumber = $params['idnumber'];
 
-        $transaction = $DB->start_delegated_transaction();
-        try {
             $created = add_moduleinfo($moduleinfo, $course);
             $transaction->allow_commit();
         } catch (\Throwable $exception) {
             $transaction->rollback($exception);
         } finally {
-            $fs->delete_area_files($usercontext->id, 'user', 'draft', $draftitemid);
+            if ($draftitemid !== null) {
+                $fs->delete_area_files($usercontext->id, 'user', 'draft', $draftitemid);
+            }
         }
 
         $modulecontext = \context_module::instance($created->coursemodule);
