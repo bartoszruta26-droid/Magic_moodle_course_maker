@@ -65,10 +65,10 @@ class create_activity extends \external_api {
         // Idempotency: same module type/name/section is reused, never duplicated.
         $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
         $lockkey = 'activity_' . hash('sha256', $course->id . '|' . $params['modname'] . '|' . $identity);
-        $lockfactory = \\core\\lock\\lock_config::get_lock_factory('local_magicmoodle');
+        $lockfactory = \core\lock\lock_config::get_lock_factory('local_magicmoodle');
         $lock = $lockfactory->get_lock($lockkey, 30);
         if (!$lock) {
-            throw new \\moodle_exception('locktimeout', 'error');
+            throw new \moodle_exception('locktimeout', 'error');
         }
         try {
             $modinfo = get_fast_modinfo($course);
