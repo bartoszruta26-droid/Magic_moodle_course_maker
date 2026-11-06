@@ -952,7 +952,7 @@ def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
         def create_activity(self, *args):
             raise AssertionError("Glossary must use create_glossary")
 
-    result = publish_course(FakeClient(), course, 2)
+    result = publish_course(FakeClient(), course, 2, state_file=tmp_path / "publish.json")
     assert result["activities_created"][0]["modname"] == "glossary"
     import json
     state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
