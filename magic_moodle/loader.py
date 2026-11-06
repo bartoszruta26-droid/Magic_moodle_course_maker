@@ -14,9 +14,19 @@ class CourseLoadError(ValueError):
     """Błąd odczytu lub struktury danych kursu."""
 
 
+def _read_text(path: Path, *, max_bytes: int = 5 * 1024 * 1024) -> str:
+    """Read bounded UTF-8 text to avoid unbounded local-file memory use."""
+    try:
+        if path.stat().st_size > max_bytes:
+            raise CourseLoadError(f"{path}: plik przekracza limit {max_bytes} B.")
+        return path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        raise CourseLoadError(f"Nie można odczytać {path}: {exc}") from exc
+
+
 def _read_yaml(path: Path) -> dict[str, Any]:
     try:
-        data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        data = yaml.safe_load(_read_text(path, max_bytes=2 * 1024 * 1024))
     except (OSError, UnicodeError, yaml.YAMLError) as exc:
         raise CourseLoadError(f"Nie można odczytać {path}: {exc}") from exc
     if not isinstance(data, dict):
@@ -25,9 +35,15 @@ def _read_yaml(path: Path) -> dict[str, Any]:
 
 
 def _safe_path(base: Path, relative: str, label: str) -> Path:
-    """Rozwiązuje ścieżkę i odrzuca odwołania poza katalogiem bazowym."""
-    candidate = (base / relative).resolve()
-    if not candidate.is_relative_to(base.resolve()):
+    """Resolve a relative path and reject absolute paths and symlink escapes."""
+    if not isinstance(relative, str) or not relative or "\\x00" in relative:
+        raise CourseLoadError(f"{label}: ścieżka musi być niepustym tekstem.")
+    supplied = Path(relative)
+    if supplied.is_absolute():
+        raise CourseLoadError(f"{label}: ścieżka bezwzględna jest niedozwolona: {relative}")
+    base_resolved = base.resolve()
+    candidate = (base_resolved / supplied).resolve()
+    if not candidate.is_relative_to(base_resolved):
         raise CourseLoadError(f"{label}: ścieżka wychodzi poza dozwolony katalog: {relative}")
     return candidate
 
@@ -46,7 +62,7 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
     }
     if kind in config_names and target.is_dir():
         filename, root_key = config_names[kind]
-        config_path = target / filename
+        config_path = _safe_path(target, filename, "Konfiguracja aktywności")
         if config_path.is_file():
             raw = _read_yaml(config_path)
             nested = raw.get(root_key) if root_key else raw
@@ -78,19 +94,19 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
                             )
                         path = _safe_path(target, chapter_file, str(config_path))
                         if path.is_file():
-                            content[chapter_file] = path.read_text(encoding="utf-8")
+                            content[chapter_file] = _read_text(path)
             elif kind == "assignment":
                 markdown_file = resource.get("markdown_file")
                 if isinstance(markdown_file, str):
                     path = _safe_path(target, markdown_file, str(config_path))
                     if path.is_file():
-                        content[markdown_file] = path.read_text(encoding="utf-8")
+                        content[markdown_file] = _read_text(path)
             elif kind == "quiz":
                 questions_file = resource.get("questions_file")
                 if isinstance(questions_file, str):
                     path = _safe_path(target, questions_file, str(config_path))
                     if path.is_file():
-                        content[questions_file] = path.read_text(encoding="utf-8")
+                        content[questions_file] = _read_text(path, max_bytes=2 * 1024 * 1024)
 
     elif kind == "file" and target.is_file():
         if target.stat().st_size > 5 * 1024 * 1024:
@@ -108,7 +124,7 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
             raise CourseLoadError(f"{target}: konfiguracja URL musi zawierać tekstowy adres URL lub mapę.")
 
     elif kind in {"page", "label"} and target.is_file():
-        content[target.name] = target.read_text(encoding="utf-8")
+        content[target.name] = _read_text(target)
 
     return resource, content
 
@@ -132,10 +148,15 @@ def load_course(root: str | Path) -> Course:
     if not isinstance(short_name, str) or not short_name.strip():
         raise CourseLoadError("course.short_name musi być niepustym tekstem.")
 
-    sections_root = root / "sections"
+    sections_root = _safe_path(root, "sections", "Katalog sekcji")
     sections: list[Section] = []
     if sections_root.exists():
-        for section_path in sorted(p for p in sections_root.iterdir() if p.is_dir()):
+        if not sections_root.is_dir():
+            raise CourseLoadError("Katalog sections musi być katalogiem.")
+        for section_entry in sorted(p for p in sections_root.iterdir() if p.is_dir()):
+            section_path = section_entry.resolve()
+            if not section_path.is_relative_to(sections_root):
+                raise CourseLoadError(f"Sekcja {section_entry.name}: dowiązanie symboliczne wychodzi poza katalog sections.")
             config_path = section_path / "section.yaml"
             if not config_path.is_file():
                 continue
@@ -175,7 +196,7 @@ def load_course(root: str | Path) -> Course:
         if isinstance(markdown_file, str):
             description_path = _safe_path(root, markdown_file, "description.markdown_file")
             if description_path.is_file():
-                description = description_path.read_text(encoding="utf-8")
+                description = _read_text(description_path)
 
     return Course(
         root=root, full_name=full_name.strip(), short_name=short_name.strip(),
