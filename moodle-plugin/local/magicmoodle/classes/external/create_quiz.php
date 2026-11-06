@@ -254,7 +254,10 @@ class create_quiz extends \external_api {
 
             $transaction->allow_commit();
         } catch (\Throwable $exception) {
-            $transaction->rollback($exception);
+            if ($transaction !== null) {
+                $transaction->rollback($exception);
+            }
+            throw $exception;
         } finally {
             if (is_file($giftfile)) {
                 unlink($giftfile);
