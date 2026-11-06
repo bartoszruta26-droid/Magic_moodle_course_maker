@@ -51,8 +51,9 @@ class create_activity extends \external_api {
         }
         if ($params['modname'] === 'url') {
             $parts = parse_url($params['externalurl']);
-            if (empty($parts['scheme']) || !in_array(strtolower($parts['scheme']), ['http', 'https'], true)
-                    || empty($parts['host'])) {
+            if (!is_array($parts) || empty($parts['scheme'])
+                    || !in_array(strtolower($parts['scheme']), ['http', 'https'], true)
+                    || empty($parts['host']) || isset($parts['user']) || isset($parts['pass'])) {
                 throw new invalid_parameter_exception('URL activity requires an absolute HTTP or HTTPS URL.');
             }
         }
