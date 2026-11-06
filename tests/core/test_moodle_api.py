@@ -1289,7 +1289,7 @@ def test_page_label_url_plugin_updates_existing_module_in_place():
     assert "update_moduleinfo($coursemodule, $moduleinfo, $course);" in plugin
     assert "This source idnumber already belongs to an activity with a different name" not in plugin
     assert "file_prepare_standard_editor(" in plugin
-    assert "$moduleinfo->content = $page->content_editor;" in plugin
+    assert "$moduleinfo->content = $moduleinfo->content_editor;" in plugin
     assert "'itemid' => file_get_unused_draft_itemid()" in plugin
     assert "$moduleinfo->instance = (int)$existing->instance;" in plugin
     assert "$moduleinfo->coursemodule = (int)$existing->id;" in plugin
