@@ -1351,3 +1351,47 @@ def test_basic_activity_endpoint_exposes_update_outcome():
     assert "'updated' => true" in plugin
     assert "'updated' => false" in plugin
     assert "'updated' => new \\external_value(PARAM_BOOL" in plugin
+
+
+def test_glossary_publish_requires_manifest_for_entry_identity(tmp_path):
+    section = tmp_path / "sections" / "01"
+    glossarydir = section / "glossary"
+    glossarydir.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\\n  full_name: Kurs słownikowy\\n  short_name: GLOSSARYSAFE\\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\\nname: Słownik\\nmodules:\\n"
+        "  - type: glossary\\n    ref: glossary\\n    name: Słownik\\n",
+        encoding="utf-8",
+    )
+    (glossarydir / "glossary.yaml").write_text(
+        "glossary:\\n  entries:\\n    - term: Masaż\\n      definition: Definicja\\n",
+        encoding="utf-8",
+    )
+    course = load_course(tmp_path)
+    with pytest.raises(MoodleAPIError, match="wymaga --state-file"):
+        publish_course(object(), course, 2)
+
+
+def test_publish_manifest_allows_content_change_with_stable_course_and_activity_identity(tmp_path):
+    from dataclasses import replace
+    import json
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "publish.json"
+    publish_course(_StatefulPublishClient(), course, 2, state_file=state_file)
+    original_state = json.loads(state_file.read_text(encoding="utf-8"))
+    section = course.sections[0]
+    activity = section.activities[0]
+    changed_activity = replace(activity, name="Zmieniona nazwa strony")
+    changed_course = replace(
+        course,
+        sections=(replace(section, activities=(changed_activity,)),),
+    )
+    client = _StatefulPublishClient()
+    publish_course(client, changed_course, 2, state_file=state_file)
+    updated_state = json.loads(state_file.read_text(encoding="utf-8"))
+    assert client.lookup_calls == 1
+    assert updated_state["identity_sha256"] == original_state["identity_sha256"]
+    assert updated_state["plan_sha256"] != original_state["plan_sha256"]
