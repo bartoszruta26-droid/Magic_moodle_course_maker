@@ -1000,3 +1000,45 @@ def test_stable_idnumber_is_last_external_parameter_for_all_moodle_modules():
         assert params.rfind("'idnumber'") > params.rfind("'sectionnum'")
         signature = source[end:source.index("{", end)]
         assert "$idnumber = ''" in signature
+
+
+def test_partial_publish_failure_reports_resume_identity_and_progress(tmp_path):
+    course = _sample_course(tmp_path)
+    from dataclasses import replace
+    from magic_moodle.models import Activity
+    section = course.sections[0]
+    second = Activity("page", "second.md", "Druga strona")
+    changed = replace(section, activities=(section.activities[0], second))
+    course = replace(course, sections=(changed,))
+
+    class FailingClient:
+        def __init__(self):
+            self.calls = 0
+
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_activity"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "TEST"}, True)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_activity(self, courseid, sectionnum, activity):
+            self.calls += 1
+            if self.calls == 2:
+                raise MoodleAPIError("symulowany błąd Moodle")
+            return {"created": True}
+
+    with pytest.raises(MoodleAPIError) as error:
+        publish_course(FailingClient(), course, 2)
+    message = str(error.value)
+    assert "2/2" in message
+    assert "idnumber mm-" in message
+    assert "Poprzednio obsłużono 1 aktywności" in message
+    assert "bezpiecznie ponowić" in message
