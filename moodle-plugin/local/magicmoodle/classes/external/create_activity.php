@@ -69,6 +69,18 @@ class create_activity extends \external_api {
                     && $existing->modname === $params['modname']
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                if ($params['idnumber'] !== ''
+                        && $existing->name === $params['name']
+                        && !empty($existing->idnumber)
+                        && $existing->idnumber !== $params['idnumber']) {
+                    throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                }
+                if ($params['idnumber'] !== ''
+                        && $existing->idnumber === $params['idnumber']
+                        && $existing->name !== $params['name']) {
+                    throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                }
+
                 if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
                     $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
                 }
@@ -126,7 +138,13 @@ class create_activity extends \external_api {
             $moduleinfo->printintro = 0;
         }
 
-        $created = add_moduleinfo($moduleinfo, $course);
+        $transaction = $DB->start_delegated_transaction();
+        try {
+            $created = add_moduleinfo($moduleinfo, $course);
+            $transaction->allow_commit();
+        } catch (\\Throwable $exception) {
+            $transaction->rollback($exception);
+        }
         return [
             'cmid' => (int)$created->coursemodule,
             'instanceid' => (int)$created->instance,
