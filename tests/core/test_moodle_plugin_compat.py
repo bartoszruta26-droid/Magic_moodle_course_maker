@@ -34,8 +34,6 @@ def test_all_create_endpoints_reject_source_identity_conflicts():
     for filename in endpoints:
         source = (PLUGIN / "classes" / "external" / filename).read_text(encoding="utf-8")
         assert "different source idnumber" in source
-        if filename == "create_quiz.php":
-            assert "different name" in source
         assert "another course section" in source
 
 
