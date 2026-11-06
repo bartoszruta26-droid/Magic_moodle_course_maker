@@ -85,3 +85,17 @@ def test_create_endpoints_serialize_writes_by_source_identity():
         assert "get_lock($lockkey, 30)" in source
         assert "$lock->release();" in source
         assert "hash('sha256'" in source
+
+
+
+def test_url_endpoint_rejects_embedded_credentials():
+    source = (PLUGIN / "classes" / "external" / "create_activity.php").read_text(encoding="utf-8")
+    assert "isset($parts['user'])" in source
+    assert "isset($parts['pass'])" in source
+    assert "!is_array($parts)" in source
+
+
+def test_quiz_endpoint_checks_complete_temporary_gift_write():
+    source = (PLUGIN / "classes" / "external" / "create_quiz.php").read_text(encoding="utf-8")
+    assert "$giftbytes = $giftfile === false ? false : file_put_contents" in source
+    assert "$giftbytes !== strlen($params['gift'])" in source
