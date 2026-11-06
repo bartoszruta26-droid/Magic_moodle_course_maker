@@ -20,7 +20,7 @@ def _text_field(parent: ET.Element, name: str, value: str, fmt: str = "html") ->
     return field
 
 
-def _answer(parent: ET.Element, text: str, fraction: float, feedback: str = "") -> None:
+def _answer(parent: ET.Element, text: str, fraction: float, feedback: str = "", tolerance: float | None = None) -> None:
     node = _element(parent, "answer", fraction=f"{fraction:g}", format="html")
     _element(node, "text", text)
     if feedback:
