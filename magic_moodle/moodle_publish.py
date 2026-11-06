@@ -471,7 +471,8 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
 def _publish_plan_fingerprint(plan: PublishPlan, course: Course) -> str:
     try:
         encoded = json.dumps(
-            {"course": plan.course, "activities": plan.activities,\n             "sections": [{"id": section.id, "name": section.name} for section in course.sections]},
+            {"course": plan.course, "activities": plan.activities,
+             "sections": [{"id": section.id, "name": section.name} for section in course.sections]},
             ensure_ascii=False,
             sort_keys=True,
             separators=(",", ":"),
