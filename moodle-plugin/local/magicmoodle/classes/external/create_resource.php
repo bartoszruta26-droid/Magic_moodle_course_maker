@@ -18,6 +18,7 @@ class create_resource extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Resource activity name'),
             'filename' => new \external_value(PARAM_FILE, 'File name'),
             'contentbase64' => new \external_value(PARAM_RAW, 'Base64 encoded file content'),
@@ -25,12 +26,13 @@ class create_resource extends \external_api {
         ]);
     }
 
-    public static function execute($courseid, $sectionnum, $name, $filename, $contentbase64, $intro = '') {
+    public static function execute($courseid, $sectionnum, $name, $filename, $contentbase64, $intro = '', $idnumber = '') {
         global $CFG, $DB, $USER;
 
         $params = self::validate_parameters(self::execute_parameters(), [
             'courseid' => $courseid,
             'sectionnum' => $sectionnum,
+            'idnumber' => $idnumber,
             'name' => $name,
             'filename' => $filename,
             'contentbase64' => $contentbase64,
@@ -74,7 +76,7 @@ class create_resource extends \external_api {
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress) && $existing->modname === 'resource'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && $existing->name === $params['name']) {
+                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
@@ -134,7 +136,7 @@ class create_resource extends \external_api {
         $moduleinfo->completionexpected = 0;
         $moduleinfo->showdescription = 0;
         $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = '';
+        $moduleinfo->cmidnumber = $params['idnumber'];
 
         $transaction = $DB->start_delegated_transaction();
         try {
