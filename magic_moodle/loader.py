@@ -1,4 +1,4 @@
-"""Wczytywanie istniejącego formatu katalogów kursów z repozytorium."""
+"""Wczytywanie istniejącego formatu katalogów kursu z repozytorium."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -16,15 +16,76 @@ class CourseLoadError(ValueError):
 def _read_yaml(path: Path) -> dict[str, Any]:
     try:
         data = yaml.safe_load(path.read_text(encoding="utf-8"))
-    except (OSError, yaml.YAMLError) as exc:
+    except (OSError, UnicodeError, yaml.YAMLError) as exc:
         raise CourseLoadError(f"Nie można odczytać {path}: {exc}") from exc
     if not isinstance(data, dict):
         raise CourseLoadError(f"{path}: oczekiwano dokumentu YAML będącego mapą.")
     return data
 
 
+def _safe_path(base: Path, relative: str, label: str) -> Path:
+    """Rozwiązuje ścieżkę i odrzuca odwołania poza katalogiem bazowym."""
+    candidate = (base / relative).resolve()
+    if not candidate.is_relative_to(base.resolve()):
+        raise CourseLoadError(f"{label}: ścieżka wychodzi poza dozwolony katalog: {relative}")
+    return candidate
+
+
+def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[dict[str, Any], dict[str, str]]:
+    target = _safe_path(section_path, ref, "Aktywność")
+    resource: dict[str, Any] = {}
+    content: dict[str, str] = {}
+
+    config_names = {
+        "book": ("book.yaml", "book"),
+        "assignment": ("assignment.yaml", None),
+        "glossary": ("glossary.yaml", "glossary"),
+        "quiz": ("quiz.yaml", "quiz"),
+    }
+    if kind in config_names and target.is_dir():
+        filename, root_key = config_names[kind]
+        config_path = target / filename
+        if config_path.is_file():
+            raw = _read_yaml(config_path)
+            nested = raw.get(root_key) if root_key else raw
+            if not isinstance(nested, dict):
+                raise CourseLoadError(
+                    f"{config_path}: oczekiwano mapy"
+                    + (f" w polu '{root_key}'." if root_key else ".")
+                )
+            resource = nested
+
+            if kind == "book":
+                chapters = resource.get("chapters", [])
+                if not isinstance(chapters, list):
+                    raise CourseLoadError(f"{config_path}: 'chapters' musi być listą.")
+                for index, chapter in enumerate(chapters):
+                    if not isinstance(chapter, dict):
+                        raise CourseLoadError(f"{config_path}: chapters[{index}] musi być mapą.")
+                    chapter_file = chapter.get("content_file")
+                    if chapter_file:
+                        if not isinstance(chapter_file, str):
+                            raise CourseLoadError(
+                                f"{config_path}: chapters[{index}].content_file musi być tekstem."
+                            )
+                        path = _safe_path(target, chapter_file, str(config_path))
+                        if path.is_file():
+                            content[chapter_file] = path.read_text(encoding="utf-8")
+            elif kind == "assignment":
+                markdown_file = resource.get("markdown_file")
+                if isinstance(markdown_file, str):
+                    path = _safe_path(target, markdown_file, str(config_path))
+                    if path.is_file():
+                        content[markdown_file] = path.read_text(encoding="utf-8")
+
+    elif kind in {"page", "label"} and target.is_file():
+        content[target.name] = target.read_text(encoding="utf-8")
+
+    return resource, content
+
+
 def load_course(root: str | Path) -> Course:
-    """Wczytuje course.yaml i sekcje wskazane w katalogu sections/."""
+    """Wczytuje course.yaml, sekcje i rozpoznane zasoby aktywności."""
     root = Path(root).resolve()
     course_file = root / "course.yaml"
     if not course_file.is_file():
@@ -68,7 +129,11 @@ def load_course(root: str | Path) -> Course:
                     raise CourseLoadError(
                         f"{config_path}: modules[{index}] wymaga niepustych pól type, ref i name."
                     )
-                activities.append(Activity(kind=kind, ref=ref, name=name, config=item))
+                resource, activity_content = _load_activity_resource(section_path, kind, ref)
+                activities.append(Activity(
+                    kind=kind, ref=ref, name=name, config=item,
+                    resource=resource, content=activity_content,
+                ))
             sections.append(Section(
                 id=section_id, name=section_name, path=section_path,
                 activities=tuple(activities),
@@ -79,7 +144,7 @@ def load_course(root: str | Path) -> Course:
     if isinstance(description_config, dict):
         markdown_file = description_config.get("markdown_file")
         if isinstance(markdown_file, str):
-            description_path = root / markdown_file
+            description_path = _safe_path(root, markdown_file, "description.markdown_file")
             if description_path.is_file():
                 description = description_path.read_text(encoding="utf-8")
 
