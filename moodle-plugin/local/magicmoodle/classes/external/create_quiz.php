@@ -28,6 +28,8 @@ class create_quiz extends \external_api {
             'passingpercent' => new \external_value(PARAM_FLOAT, 'Passing threshold as percent', VALUE_DEFAULT, 0),
             'shuffleanswers' => new \external_value(PARAM_BOOL, 'Shuffle answers', VALUE_DEFAULT, true),
             'questionsperpage' => new \external_value(PARAM_INT, 'Questions per page', VALUE_DEFAULT, 1),
+            'completionenabled' => new \external_value(PARAM_BOOL, 'Enable activity completion', VALUE_DEFAULT, false),
+            'completiontype' => new \external_value(PARAM_ALPHANUMEXT, 'Completion condition: grade or view', VALUE_DEFAULT, 'grade'),
         ]);
     }
 
