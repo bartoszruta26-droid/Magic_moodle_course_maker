@@ -246,11 +246,11 @@ class create_glossary extends \external_api {
                             'glossaryid' => $glossary->id,
                         ], '*', MUST_EXIST);
                         $fs = get_file_storage();
-                        $hasattachments = $fs->file_exists(
-                            $modulecontext->id, 'mod_glossary', 'attachment', $entryid, '/', '.'
-                        ) || $fs->file_exists(
-                            $modulecontext->id, 'mod_glossary', 'inlineattachment', $entryid, '/', '.'
-                        );
+                        $hasattachments = !empty($fs->get_area_files(
+                            $modulecontext->id, 'mod_glossary', 'attachment', $entryid, 'id', false
+                        )) || !empty($fs->get_area_files(
+                            $modulecontext->id, 'mod_glossary', 'inlineattachment', $entryid, 'id', false
+                        ));
                         if ($hasattachments) {
                             throw new invalid_parameter_exception(
                                 'A mapped glossary entry contains attachments or inline files. '
@@ -265,11 +265,15 @@ class create_glossary extends \external_api {
                         );
                         $options = [
                             ['name' => 'aliases', 'value' => implode(', ', $aliases)],
-                            ['name' => 'categories', 'value' => implode(',', $categories)],
-                            ['name' => 'usedynalink', 'value' => (int)$entryrecord->usedynalink],
-                            ['name' => 'casesensitive', 'value' => (int)$entryrecord->casesensitive],
-                            ['name' => 'fullmatch', 'value' => (int)$entryrecord->fullmatch],
                         ];
+                        if (!empty($categories)) {
+                            $options[] = ['name' => 'categories', 'value' => implode(',', $categories)];
+                        }
+                        if (!empty($glossary->usedynalink)) {
+                            $options[] = ['name' => 'usedynalink', 'value' => (int)$entryrecord->usedynalink];
+                            $options[] = ['name' => 'casesensitive', 'value' => (int)$entryrecord->casesensitive];
+                            $options[] = ['name' => 'fullmatch', 'value' => (int)$entryrecord->fullmatch];
+                        }
                         \mod_glossary\external\update_entry::execute(
                             $entryid, $term, $definition, FORMAT_HTML, $options
                         );
