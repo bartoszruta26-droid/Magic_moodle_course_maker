@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from typing import Any
 from urllib.parse import urlsplit
 
+from .gift import GiftParseError, parse_gift, validate_question_bank
 from .models import Course
 from .moodle_api import MoodleAPIError, MoodleClient
 
@@ -107,7 +108,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     warnings: list[str] = []
     for section_index, section in enumerate(course.sections):
         for activity in section.activities:
-            if activity.kind not in {"page", "label", "url", "book"}:
+            if activity.kind not in {"page", "label", "url", "book", "quiz"}:
                 warnings.append(
                     f"Sekcja {section_index}, '{activity.name}': typ '{activity.kind}' "
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
@@ -119,6 +120,70 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 "name": activity.name,
                 "content": _markdown_to_html("\n\n".join(activity.content.values())),
             }
+            if activity.kind == "quiz":
+                questions_file = activity.resource.get("questions_file", "questions.gift")
+                if not isinstance(questions_file, str) or not questions_file.strip():
+                    warnings.append(f"Quiz '{activity.name}': questions_file musi wskazywać plik GIFT.")
+                    continue
+                gift_source = activity.content.get(questions_file)
+                if not isinstance(gift_source, str) or not gift_source.strip():
+                    warnings.append(f"Quiz '{activity.name}': brak pliku pytań '{questions_file}'.")
+                    continue
+                if len(gift_source.encode("utf-8")) > 2 * 1024 * 1024:
+                    warnings.append(f"Quiz '{activity.name}': plik GIFT przekracza limit 2 MiB.")
+                    continue
+                try:
+                    bank = parse_gift(gift_source, source_name=questions_file)
+                    bank_errors = validate_question_bank(bank)
+                except GiftParseError as exc:
+                    warnings.append(f"Quiz '{activity.name}': błąd GIFT: {exc}")
+                    continue
+                if bank_errors:
+                    warnings.extend(f"Quiz '{activity.name}': {error}" for error in bank_errors)
+                    continue
+                if not bank.questions or len(bank.questions) > 250:
+                    warnings.append(f"Quiz '{activity.name}' musi zawierać od 1 do 250 pytań.")
+                    continue
+                intro = activity.resource.get("intro", "")
+                if not isinstance(intro, str) or len(intro) > 20000:
+                    warnings.append(f"Quiz '{activity.name}': intro musi być tekstem do 20 000 znaków.")
+                    continue
+                timelimit = activity.resource.get("time_limit", 0)
+                attempts = activity.resource.get("attempts", 1)
+                grade = activity.resource.get("grade", 10)
+                passingpercent = activity.resource.get("grade_passing", 0)
+                questionsperpage = activity.resource.get("questions_per_page", 1)
+                shuffleanswers = activity.resource.get("shuffle_answers", True)
+                if isinstance(timelimit, bool) or not isinstance(timelimit, int) or not 0 <= timelimit <= 86400:
+                    warnings.append(f"Quiz '{activity.name}': time_limit musi mieścić się w zakresie 0–86400 sekund.")
+                    continue
+                if isinstance(attempts, bool) or not isinstance(attempts, int) or not 0 <= attempts <= 10:
+                    warnings.append(f"Quiz '{activity.name}': attempts musi być liczbą całkowitą 0–10.")
+                    continue
+                if isinstance(grade, bool) or not isinstance(grade, (int, float)) or not 0 < grade <= 1000:
+                    warnings.append(f"Quiz '{activity.name}': grade musi być większe od 0 i nie większe niż 1000.")
+                    continue
+                if isinstance(passingpercent, bool) or not isinstance(passingpercent, (int, float)) or not 0 <= passingpercent <= 100:
+                    warnings.append(f"Quiz '{activity.name}': grade_passing musi być procentem 0–100.")
+                    continue
+                if isinstance(questionsperpage, bool) or not isinstance(questionsperpage, int) or not 0 <= questionsperpage <= 50:
+                    warnings.append(f"Quiz '{activity.name}': questions_per_page musi być liczbą całkowitą 0–50.")
+                    continue
+                if not isinstance(shuffleanswers, (bool, int)) or shuffleanswers not in (0, 1, False, True):
+                    warnings.append(f"Quiz '{activity.name}': shuffle_answers musi być wartością logiczną.")
+                    continue
+                item.update({
+                    "intro": _markdown_to_html(intro),
+                    "gift": gift_source,
+                    "timelimit": timelimit,
+                    "attempts": attempts,
+                    "grade": float(grade),
+                    "passingpercent": float(passingpercent),
+                    "shuffleanswers": bool(shuffleanswers),
+                    "questionsperpage": questionsperpage,
+                    "questioncount": len(bank.questions),
+                    "questiontypes": bank.by_type(),
+                })
             if activity.kind == "book":
                 chapters = activity.resource.get("chapters", [])
                 if not isinstance(chapters, list) or not chapters or len(chapters) > 200:
@@ -231,9 +296,14 @@ def publish_course(
         "core_course_get_courses_by_field",
         "core_course_create_courses",
         "local_magicmoodle_update_section",
-        "local_magicmoodle_create_activity",
-        "local_magicmoodle_create_book",
     }
+    for activity in plan.activities:
+        if activity["type"] in {"page", "label", "url"}:
+            required.add("local_magicmoodle_create_activity")
+        elif activity["type"] == "book":
+            required.add("local_magicmoodle_create_book")
+        elif activity["type"] == "quiz":
+            required.add("local_magicmoodle_create_quiz")
     missing = sorted(required - functions)
     if missing:
         raise MoodleAPIError(
@@ -251,13 +321,12 @@ def publish_course(
     activity_results = []
     for activity in plan.activities:
         if activity["type"] == "book":
-            activity_results.append(
-                client.create_book(course_id, activity["sectionnum"], activity)
-            )
+            result = client.create_book(course_id, activity["sectionnum"], activity)
+        elif activity["type"] == "quiz":
+            result = client.create_quiz(course_id, activity["sectionnum"], activity)
         else:
-            activity_results.append(
-                client.create_activity(course_id, activity["sectionnum"], activity)
-            )
+            result = client.create_activity(course_id, activity["sectionnum"], activity)
+        activity_results.append(result)
     return {
         "dry_run": False,
         "course": remote_course,
