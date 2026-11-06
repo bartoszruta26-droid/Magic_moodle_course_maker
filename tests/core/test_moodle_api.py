@@ -103,3 +103,35 @@ def test_publish_stops_before_writes_for_unsupported_activity(tmp_path):
         Activity("quiz", "quiz", "Test"),)),))
     with pytest.raises(MoodleAPIError, match="zatrzymana przed zmianami"):
         publish_course(object(), changed, 2, dry_run=False)
+
+
+def test_publish_plan_uses_moodle_general_section_numbering_and_html_summary(tmp_path):
+    section = tmp_path / "sections" / "00"
+    section.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs\n  short_name: KURS\n"
+        "  format: topics\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "course.md").write_text("# Opis\n\nTreść kursu.", encoding="utf-8")
+    (tmp_path / "sections" / "00" / "section.yaml").write_text(
+        "id: '00'\nname: Ogólne\nmodules: []\n", encoding="utf-8"
+    )
+    (tmp_path / "course.yaml").write_text(
+        "course:\n  full_name: Kurs\n  short_name: KURS\n  format: topics\n"
+        "description:\n  markdown_file: course.md\n",
+        encoding="utf-8",
+    )
+    plan = build_publish_plan(load_course(tmp_path), 4)
+    assert plan.course["numsections"] == 0
+    assert plan.course["summary"] == "<h2>Opis</h2>\n<p>Treść kursu.</p>"
+
+
+def test_ensure_course_reuses_existing_shortname():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    with patch.object(client, "get_course_by_shortname", return_value={"id": 42, "shortname": "KURS"}):
+        with patch.object(client, "create_course") as create:
+            course, created = client.ensure_course({"shortname": "KURS"})
+    assert course["id"] == 42
+    assert created is False
+    create.assert_not_called()
