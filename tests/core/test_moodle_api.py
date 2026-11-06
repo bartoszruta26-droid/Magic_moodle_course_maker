@@ -204,3 +204,34 @@ def test_create_url_activity_sends_target_url_to_plugin():
     assert call.call_args.args[0] == "local_magicmoodle_create_activity"
     assert call.call_args.args[1]["modname"] == "url"
     assert call.call_args.args[1]["externalurl"] == "https://docs.moodle.org/401/"
+
+
+def test_invalid_url_is_rejected_during_preflight(tmp_path):
+    section = tmp_path / "sections" / "01"
+    section.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        """course:
+  full_name: Kurs URL
+  short_name: KURL
+""",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        """id: '01'
+name: Zasoby
+modules:
+  - type: url
+    ref: source.yaml
+    name: Niebezpieczny adres
+""",
+        encoding="utf-8",
+    )
+    (section / "source.yaml").write_text(
+        """url: javascript:alert(1)
+""",
+        encoding="utf-8",
+    )
+    plan = build_publish_plan(load_course(tmp_path), 2)
+    assert any("nieprawidłowy adres" in warning for warning in plan.warnings)
+    with pytest.raises(MoodleAPIError, match="zatrzymana przed zmianami"):
+        publish_course(object(), load_course(tmp_path), 2)
