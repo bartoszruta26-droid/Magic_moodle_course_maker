@@ -1,0 +1,86 @@
+name: Moodle 4.1 integration tests
+
+on:
+  pull_request:
+    paths:
+      - "moodle-plugin/local/magicmoodle/**"
+      - ".github/workflows/moodle-integration.yml"
+  push:
+    branches: [main]
+    paths:
+      - "moodle-plugin/local/magicmoodle/**"
+      - ".github/workflows/moodle-integration.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  moodle-phpunit:
+    runs-on: ubuntu-latest
+    services:
+      mariadb:
+        image: mariadb:10.6
+        env:
+          MARIADB_ROOT_PASSWORD: root
+          MARIADB_DATABASE: moodle
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="healthcheck.sh --connect --innodb_initialized"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=15
+
+    steps:
+      - name: Checkout plugin source
+        uses: actions/checkout@v4
+
+      - name: Set up PHP for Moodle 4.1
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+          extensions: curl, gd, intl, mbstring, mysqli, soap, sodium, xml, zip
+          coverage: none
+
+      - name: Clone Moodle 4.1 stable
+        run: git clone --depth 1 --branch MOODLE_401_STABLE https://github.com/moodle/moodle.git /tmp/moodle
+
+      - name: Install Moodle Composer dependencies
+        working-directory: /tmp/moodle
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Install local_magicmoodle plugin
+        run: mkdir -p /tmp/moodle/local && cp -R moodle-plugin/local/magicmoodle /tmp/moodle/local/magicmoodle
+
+      - name: Install Moodle 4.1
+        working-directory: /tmp/moodle
+        run: |
+          php admin/cli/install.php \
+            --non-interactive \
+            --agree-license \
+            --lang=en \
+            --wwwroot=http://localhost \
+            --dataroot=/tmp/moodledata \
+            --dbtype=mariadb \
+            --dbhost=127.0.0.1 \
+            --dbname=moodle \
+            --dbuser=root \
+            --dbpass=root \
+            --fullname="Moodle Integration Tests" \
+            --shortname=MOODLETEST \
+            --adminuser=admin \
+            --adminpass='MoodleTest123!' \
+            --adminemail=admin@example.invalid \
+            --supportemail=admin@example.invalid
+
+      - name: Upgrade installed plugins
+        working-directory: /tmp/moodle
+        run: php admin/cli/upgrade.php --non-interactive
+
+      - name: Initialize Moodle PHPUnit test database
+        working-directory: /tmp/moodle
+        run: php admin/tool/phpunit/cli/init.php --drop
+
+      - name: Run local_magicmoodle integration suite
+        working-directory: /tmp/moodle
+        run: vendor/bin/phpunit --testsuite local_magicmoodle
