@@ -132,19 +132,9 @@ class create_activity extends \external_api {
                             $moduleinfo->introformat = FORMAT_HTML;
                         } else {
                             $moduleinfo->externalurl = $params['externalurl'];
-                            $moduleinfo->parameters = '';
-                            $moduleinfo->popupwidth = 800;
-                            $moduleinfo->popupheight = 600;
-                            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
-                            $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
-                            $moduleinfo->printheading = 1;
-                            $moduleinfo->printintro = 0;
                         }
 
                         update_moduleinfo($coursemodule, $moduleinfo, $course);
-                        if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                            $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
-                        }
                         $transaction->allow_commit();
                     } catch (\Throwable $exception) {
                         $transaction->rollback($exception);
