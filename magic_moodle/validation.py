@@ -104,9 +104,14 @@ def validate_course(course: Course) -> ValidationReport:
                             report.add("error", "GLOSSARY_ENTRY_INVALID", target,
                                        f"Niepoprawny wpis słownika nr {index + 1}; wymagane są term i definition.")
 
-            elif activity.kind == "quiz" and not activity.resource:
-                report.add("warning", "QUIZ_CONFIG_MISSING", target,
-                           "Nie wczytano konfiguracji quiz.yaml.")
+            elif activity.kind == "quiz":
+                if not activity.resource:
+                    report.add("warning", "QUIZ_CONFIG_MISSING", target,
+                               "Nie wczytano konfiguracji quiz.yaml.")
+                questions_file = activity.resource.get("questions_file")
+                if not isinstance(questions_file, str) or questions_file not in activity.content:
+                    report.add("error", "QUIZ_QUESTIONS_MISSING", target,
+                               "Brak pliku pytań wskazanego przez questions_file.")
 
     # Sprawdź składnię wszystkich plików YAML w kursie, z pominięciem kopii zapasowych.
     for path in root.rglob("*"):
