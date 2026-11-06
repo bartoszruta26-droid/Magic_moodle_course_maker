@@ -108,7 +108,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     warnings: list[str] = []
     for section_index, section in enumerate(course.sections):
         for activity in section.activities:
-            if activity.kind not in {"page", "label", "url", "book", "quiz"}:
+            if activity.kind not in {"page", "label", "url", "book", "quiz", "assignment"}:
                 warnings.append(
                     f"Sekcja {section_index}, '{activity.name}': typ '{activity.kind}' "
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
@@ -205,6 +205,76 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "completiontype": completiontype,
                     "questioncount": len(bank.questions),
                     "questiontypes": bank.by_type(),
+                })
+            if activity.kind == "assignment":
+                intro_source = activity.resource.get("intro", "")
+                markdown_file = activity.resource.get("markdown_file")
+                if markdown_file:
+                    intro_source = activity.content.get(markdown_file, intro_source)
+                if not isinstance(intro_source, str) or len(intro_source) > 100000:
+                    warnings.append(f"Zadanie '{activity.name}': intro musi być tekstem do 100 000 znaków.")
+                    continue
+                submissiontype = activity.resource.get("submission_type", "both")
+                if submissiontype not in {"onlinetext", "file", "both"}:
+                    warnings.append(f"Zadanie '{activity.name}': submission_type musi mieć wartość onlinetext, file lub both.")
+                    continue
+                grade = activity.resource.get("grade", 100)
+                maxfiles = activity.resource.get("max_files", 5)
+                maxbytes = activity.resource.get("max_file_size", 10 * 1024 * 1024)
+                if isinstance(grade, bool) or not isinstance(grade, (int, float)) or not 0 < grade <= 10000:
+                    warnings.append(f"Zadanie '{activity.name}': grade musi być większe od 0 i nie większe niż 10000.")
+                    continue
+                if isinstance(maxfiles, bool) or not isinstance(maxfiles, int) or not 1 <= maxfiles <= 20:
+                    warnings.append(f"Zadanie '{activity.name}': max_files musi mieścić się w zakresie 1–20.")
+                    continue
+                if isinstance(maxbytes, bool) or not isinstance(maxbytes, int) or not 1 <= maxbytes <= 100 * 1024 * 1024:
+                    warnings.append(f"Zadanie '{activity.name}': max_file_size musi mieścić się w zakresie 1 B–100 MiB.")
+                    continue
+                date_fields = {}
+                date_invalid = False
+                for source_key, target_key in (
+                    ("allowsubmissionsfromdate", "allowsubmissionsfromdate"),
+                    ("duedate", "duedate"),
+                    ("cutoffdate", "cutoffdate"),
+                ):
+                    value = activity.resource.get(source_key, 0)
+                    if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+                        warnings.append(f"Zadanie '{activity.name}': {source_key} musi być nieujemnym znacznikiem czasu Unix.")
+                        date_invalid = True
+                        break
+                    date_fields[target_key] = value
+                if date_invalid:
+                    continue
+                start = date_fields["allowsubmissionsfromdate"]
+                due = date_fields["duedate"]
+                cutoff = date_fields["cutoffdate"]
+                if ((start and due and due <= start) or (due and cutoff and cutoff < due)
+                        or (start and cutoff and cutoff < start)):
+                    warnings.append(f"Zadanie '{activity.name}': daty otwarcia, terminu i zamknięcia są w nieprawidłowej kolejności.")
+                    continue
+                completion = activity.resource.get("completion", {})
+                if not isinstance(completion, dict):
+                    warnings.append(f"Zadanie '{activity.name}': completion musi być mapą.")
+                    continue
+                completionenabled = completion.get("enabled", False)
+                if not isinstance(completionenabled, bool):
+                    warnings.append(f"Zadanie '{activity.name}': completion.enabled musi być wartością logiczną.")
+                    continue
+                submissiondrafts = activity.resource.get("submission_drafts", False)
+                requiresstatement = activity.resource.get("require_submission_statement", False)
+                if not isinstance(submissiondrafts, bool) or not isinstance(requiresstatement, bool):
+                    warnings.append(f"Zadanie '{activity.name}': submission_drafts i require_submission_statement muszą być wartościami logicznymi.")
+                    continue
+                item.update({
+                    "intro": _markdown_to_html(intro_source),
+                    "submissiontype": submissiontype,
+                    "grade": float(grade),
+                    "maxfiles": maxfiles,
+                    "maxbytes": maxbytes,
+                    "submissiondrafts": submissiondrafts,
+                    "requiresubmissionstatement": requiresstatement,
+                    "completionenabled": completionenabled,
+                    **date_fields,
                 })
             if activity.kind == "book":
                 chapters = activity.resource.get("chapters", [])
