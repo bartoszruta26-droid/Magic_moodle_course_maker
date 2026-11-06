@@ -96,183 +96,194 @@ class create_quiz extends \external_api {
         ], '*', MUST_EXIST);
 
         // Reuse an existing quiz with the same name and section; never re-import questions.
-        $modinfo = get_fast_modinfo($course);
-        if ($params['idnumber'] !== '') {
-            foreach ($modinfo->get_cms() as $candidate) {
-                if (empty($candidate->deletioninprogress)
-                        && $candidate->modname === 'quiz'
-                        && $candidate->idnumber === $params['idnumber']
-                        && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
-                    throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
-                }
-            }
+        $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'quiz' . '|' . $identity);
+        $lockfactory = \\core\\lock\\lock_config::get_lock_factory('local_magicmoodle');
+        $lock = $lockfactory->get_lock($lockkey, 30);
+        if (!$lock) {
+            throw new \\moodle_exception('locktimeout', 'error');
         }
-        foreach ($modinfo->get_cms() as $existing) {
-            if (empty($existing->deletioninprogress) && $existing->modname === 'quiz'
-                    && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                if ($params['idnumber'] !== ''
-                        && $existing->name === $params['name']
-                        && !empty($existing->idnumber)
-                        && $existing->idnumber !== $params['idnumber']) {
-                    throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
-                }
-                if ($params['idnumber'] !== ''
-                        && $existing->idnumber === $params['idnumber']
-                        && $existing->name !== $params['name']) {
-                    throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
-                }
-
-                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
-                }
-                return [
-                    'cmid' => (int)$existing->id,
-                    'instanceid' => (int)$existing->instance,
-                    'modname' => 'quiz',
-                    'name' => $params['name'],
-                    'created' => false,
-                    'questioncount' => (int)$DB->count_records('quiz_slots', ['quizid' => $existing->instance]),
-                    'categoryid' => 0,
-                ];
-            }
-        }
-
-        $moduleid = $DB->get_field('modules', 'id', ['name' => 'quiz'], MUST_EXIST);
-        $moduleinfo = new \stdClass();
-        $moduleinfo->modulename = 'quiz';
-        $moduleinfo->module = $moduleid;
-        $moduleinfo->course = $course->id;
-        $moduleinfo->section = $section->section;
-        $moduleinfo->name = trim($params['name']);
-        $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
-        $moduleinfo->introformat = FORMAT_HTML;
-        $moduleinfo->timeopen = 0;
-        $moduleinfo->timeclose = 0;
-        $moduleinfo->timelimit = $params['timelimit'];
-        $moduleinfo->overduehandling = 'autosubmit';
-        $moduleinfo->graceperiod = 0;
-        $moduleinfo->grade = $params['grade'];
-        $moduleinfo->attempts = $params['attempts'];
-        $moduleinfo->grademethod = 1;
-        $moduleinfo->questionsperpage = $params['questionsperpage'];
-        $moduleinfo->navmethod = 'free';
-        $moduleinfo->shuffleanswers = $params['shuffleanswers'] ? 1 : 0;
-        $moduleinfo->preferredbehaviour = 'deferredfeedback';
-        $moduleinfo->canredoquestions = 0;
-        $moduleinfo->attemptonlast = 0;
-        $moduleinfo->quizpassword = '';
-        $moduleinfo->decimalpoints = 2;
-        $moduleinfo->questiondecimalpoints = -1;
-        $moduleinfo->showuserpicture = 0;
-        $moduleinfo->browsersecurity = '-';
-        $moduleinfo->feedbackboundarycount = -1;
-
-        // Review settings: no answers during the attempt; show review after closing.
-        foreach (['attempt', 'correctness', 'marks', 'specificfeedback',
-                'generalfeedback', 'rightanswer', 'overallfeedback'] as $field) {
-            $moduleinfo->{$field . 'during'} = 0;
-            $moduleinfo->{$field . 'immediately'} = 0;
-            $moduleinfo->{$field . 'open'} = 0;
-            $moduleinfo->{$field . 'closed'} = 1;
-        }
-
-        $moduleinfo->visible = 1;
-        $moduleinfo->groupmode = 0;
-        $moduleinfo->groupingid = 0;
-        $moduleinfo->availability = null;
-        $moduleinfo->completion = $params['completionenabled']
-            ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
-        $moduleinfo->completionview = ($params['completionenabled'] && $params['completiontype'] === 'view') ? 1 : 0;
-        $moduleinfo->completionusegrade = ($params['completionenabled'] && $params['completiontype'] === 'grade') ? 1 : 0;
-        $moduleinfo->completionpassgrade = $moduleinfo->completionusegrade;
-        $moduleinfo->completionexpected = 0;
-        $moduleinfo->showdescription = 0;
-        $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = $params['idnumber'];
-
-        $tempdir = make_temp_directory('local_magicmoodle');
-        $giftfile = tempnam($tempdir, 'gift');
-        if ($giftfile === false || file_put_contents($giftfile, $params['gift']) === false) {
-            if ($giftfile && is_file($giftfile)) {
-                unlink($giftfile);
-            }
-            throw new \moodle_exception('cannotcreatetempfile', 'error');
-        }
-
-        $transaction = null;
         try {
-            $transaction = $DB->start_delegated_transaction();
-            $created = add_moduleinfo($moduleinfo, $course);
-            $quiz = $DB->get_record('quiz', ['id' => $created->instance], '*', MUST_EXIST);
-
-            $category = question_make_default_categories([$coursecontext]);
-            if (!$category) {
-                throw new \moodle_exception('cannotfinddefaultcategory', 'question');
-            }
-
-            $format = new \qformat_gift();
-            $format->setCategory($category);
-            $format->setCourse($course);
-            $format->setFilename($giftfile);
-            $format->setRealfilename('questions.gift');
-            $format->setStoponerror(true);
-            $format->set_display_progress(false);
-
-            ob_start();
-            try {
-                $imported = $format->importprocess();
-            } finally {
-                ob_end_clean();
-            }
-            if (!$imported || $format->importerrors > 0 || empty($format->questionids)) {
-                throw new \moodle_exception('importparseerror', 'question');
-            }
-            if (count($format->questionids) > 250) {
-                throw new invalid_parameter_exception('A single quiz is limited to 250 imported questions.');
-            }
-
-            foreach ($format->questionids as $questionid) {
-                quiz_add_quiz_question((int)$questionid, $quiz);
-            }
-            quiz_update_sumgrades($quiz);
-            quiz_set_grade((float)$params['grade'], $quiz);
-
-            if ($params['passingpercent'] > 0) {
-                require_once($CFG->libdir . '/gradelib.php');
-                $gradeitem = \grade_item::fetch([
-                    'itemtype' => 'mod',
-                    'itemmodule' => 'quiz',
-                    'iteminstance' => $quiz->id,
-                    'itemnumber' => 0,
-                ]);
-                if ($gradeitem) {
-                    $gradeitem->gradepass = (float)$params['grade'] * (float)$params['passingpercent'] / 100;
-                    $gradeitem->update();
+            $modinfo = get_fast_modinfo($course);
+            if ($params['idnumber'] !== '') {
+                foreach ($modinfo->get_cms() as $candidate) {
+                    if (empty($candidate->deletioninprogress)
+                            && $candidate->modname === 'quiz'
+                            && $candidate->idnumber === $params['idnumber']
+                            && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                        throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                    }
                 }
             }
-
-            $transaction->allow_commit();
-        } catch (\Throwable $exception) {
-            if ($transaction !== null) {
-                $transaction->rollback($exception);
+            foreach ($modinfo->get_cms() as $existing) {
+                if (empty($existing->deletioninprogress) && $existing->modname === 'quiz'
+                        && (int)$existing->sectionnum === (int)$params['sectionnum']
+                        && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                    if ($params['idnumber'] !== ''
+                            && $existing->name === $params['name']
+                            && !empty($existing->idnumber)
+                            && $existing->idnumber !== $params['idnumber']) {
+                        throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                    }
+                    if ($params['idnumber'] !== ''
+                            && $existing->idnumber === $params['idnumber']
+                            && $existing->name !== $params['name']) {
+                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                    }
+    
+                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    }
+                    return [
+                        'cmid' => (int)$existing->id,
+                        'instanceid' => (int)$existing->instance,
+                        'modname' => 'quiz',
+                        'name' => $params['name'],
+                        'created' => false,
+                        'questioncount' => (int)$DB->count_records('quiz_slots', ['quizid' => $existing->instance]),
+                        'categoryid' => 0,
+                    ];
+                }
             }
-            throw $exception;
+    
+            $moduleid = $DB->get_field('modules', 'id', ['name' => 'quiz'], MUST_EXIST);
+            $moduleinfo = new \stdClass();
+            $moduleinfo->modulename = 'quiz';
+            $moduleinfo->module = $moduleid;
+            $moduleinfo->course = $course->id;
+            $moduleinfo->section = $section->section;
+            $moduleinfo->name = trim($params['name']);
+            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+            $moduleinfo->introformat = FORMAT_HTML;
+            $moduleinfo->timeopen = 0;
+            $moduleinfo->timeclose = 0;
+            $moduleinfo->timelimit = $params['timelimit'];
+            $moduleinfo->overduehandling = 'autosubmit';
+            $moduleinfo->graceperiod = 0;
+            $moduleinfo->grade = $params['grade'];
+            $moduleinfo->attempts = $params['attempts'];
+            $moduleinfo->grademethod = 1;
+            $moduleinfo->questionsperpage = $params['questionsperpage'];
+            $moduleinfo->navmethod = 'free';
+            $moduleinfo->shuffleanswers = $params['shuffleanswers'] ? 1 : 0;
+            $moduleinfo->preferredbehaviour = 'deferredfeedback';
+            $moduleinfo->canredoquestions = 0;
+            $moduleinfo->attemptonlast = 0;
+            $moduleinfo->quizpassword = '';
+            $moduleinfo->decimalpoints = 2;
+            $moduleinfo->questiondecimalpoints = -1;
+            $moduleinfo->showuserpicture = 0;
+            $moduleinfo->browsersecurity = '-';
+            $moduleinfo->feedbackboundarycount = -1;
+    
+            // Review settings: no answers during the attempt; show review after closing.
+            foreach (['attempt', 'correctness', 'marks', 'specificfeedback',
+                    'generalfeedback', 'rightanswer', 'overallfeedback'] as $field) {
+                $moduleinfo->{$field . 'during'} = 0;
+                $moduleinfo->{$field . 'immediately'} = 0;
+                $moduleinfo->{$field . 'open'} = 0;
+                $moduleinfo->{$field . 'closed'} = 1;
+            }
+    
+            $moduleinfo->visible = 1;
+            $moduleinfo->groupmode = 0;
+            $moduleinfo->groupingid = 0;
+            $moduleinfo->availability = null;
+            $moduleinfo->completion = $params['completionenabled']
+                ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
+            $moduleinfo->completionview = ($params['completionenabled'] && $params['completiontype'] === 'view') ? 1 : 0;
+            $moduleinfo->completionusegrade = ($params['completionenabled'] && $params['completiontype'] === 'grade') ? 1 : 0;
+            $moduleinfo->completionpassgrade = $moduleinfo->completionusegrade;
+            $moduleinfo->completionexpected = 0;
+            $moduleinfo->showdescription = 0;
+            $moduleinfo->visibleoncoursepage = 1;
+            $moduleinfo->cmidnumber = $params['idnumber'];
+    
+            $tempdir = make_temp_directory('local_magicmoodle');
+            $giftfile = tempnam($tempdir, 'gift');
+            if ($giftfile === false || file_put_contents($giftfile, $params['gift']) === false) {
+                if ($giftfile && is_file($giftfile)) {
+                    unlink($giftfile);
+                }
+                throw new \moodle_exception('cannotcreatetempfile', 'error');
+            }
+    
+            $transaction = null;
+            try {
+                $transaction = $DB->start_delegated_transaction();
+                $created = add_moduleinfo($moduleinfo, $course);
+                $quiz = $DB->get_record('quiz', ['id' => $created->instance], '*', MUST_EXIST);
+    
+                $category = question_make_default_categories([$coursecontext]);
+                if (!$category) {
+                    throw new \moodle_exception('cannotfinddefaultcategory', 'question');
+                }
+    
+                $format = new \qformat_gift();
+                $format->setCategory($category);
+                $format->setCourse($course);
+                $format->setFilename($giftfile);
+                $format->setRealfilename('questions.gift');
+                $format->setStoponerror(true);
+                $format->set_display_progress(false);
+    
+                ob_start();
+                try {
+                    $imported = $format->importprocess();
+                } finally {
+                    ob_end_clean();
+                }
+                if (!$imported || $format->importerrors > 0 || empty($format->questionids)) {
+                    throw new \moodle_exception('importparseerror', 'question');
+                }
+                if (count($format->questionids) > 250) {
+                    throw new invalid_parameter_exception('A single quiz is limited to 250 imported questions.');
+                }
+    
+                foreach ($format->questionids as $questionid) {
+                    quiz_add_quiz_question((int)$questionid, $quiz);
+                }
+                quiz_update_sumgrades($quiz);
+                quiz_set_grade((float)$params['grade'], $quiz);
+    
+                if ($params['passingpercent'] > 0) {
+                    require_once($CFG->libdir . '/gradelib.php');
+                    $gradeitem = \grade_item::fetch([
+                        'itemtype' => 'mod',
+                        'itemmodule' => 'quiz',
+                        'iteminstance' => $quiz->id,
+                        'itemnumber' => 0,
+                    ]);
+                    if ($gradeitem) {
+                        $gradeitem->gradepass = (float)$params['grade'] * (float)$params['passingpercent'] / 100;
+                        $gradeitem->update();
+                    }
+                }
+    
+                $transaction->allow_commit();
+            } catch (\Throwable $exception) {
+                if ($transaction !== null) {
+                    $transaction->rollback($exception);
+                }
+                throw $exception;
+            } finally {
+                if (is_file($giftfile)) {
+                    unlink($giftfile);
+                }
+            }
+    
+            return [
+                'cmid' => (int)$created->coursemodule,
+                'instanceid' => (int)$created->instance,
+                'modname' => 'quiz',
+                'name' => $params['name'],
+                'created' => true,
+                'questioncount' => count($format->questionids),
+                'categoryid' => (int)$category->id,
+            ];
         } finally {
-            if (is_file($giftfile)) {
-                unlink($giftfile);
-            }
+            $lock->release();
         }
-
-        return [
-            'cmid' => (int)$created->coursemodule,
-            'instanceid' => (int)$created->instance,
-            'modname' => 'quiz',
-            'name' => $params['name'],
-            'created' => true,
-            'questioncount' => count($format->questionids),
-            'categoryid' => (int)$category->id,
-        ];
     }
 
     public static function execute_returns() {
