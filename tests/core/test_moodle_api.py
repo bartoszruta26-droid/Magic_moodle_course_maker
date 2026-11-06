@@ -954,3 +954,33 @@ def test_glossary_endpoint_uses_moodle_native_entry_api():
     assert "500" in plugin
     assert "'local_magicmoodle_create_glossary'" in services
     assert "$plugin->version = 2026110609;" in version
+
+
+def test_publish_plan_assigns_stable_source_idnumbers(tmp_path):
+    course = _sample_course(tmp_path)
+    plan = build_publish_plan(course, 2)
+    original = plan.activities[0]["idnumber"]
+    assert original.startswith("mm-")
+    assert len(original) == 35
+
+    from dataclasses import replace
+    section = course.sections[0]
+    activity = section.activities[0]
+    renamed = replace(activity, name="Zmieniona nazwa")
+    renamed_course = replace(course, sections=(replace(section, activities=(renamed,)),))
+    renamed_plan = build_publish_plan(renamed_course, 2)
+    assert renamed_plan.activities[0]["idnumber"] == original
+
+
+def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
+    root = Path(__file__).parents[2] / "moodle-plugin/local/magicmoodle/classes/external"
+    names = [
+        "create_activity.php", "create_book.php", "create_quiz.php",
+        "create_assignment.php", "create_resource.php", "create_glossary.php",
+    ]
+    for name in names:
+        source = (root / name).read_text(encoding="utf-8")
+        assert "'idnumber' => new \\\\external_value" in source
+        assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
+        assert "$existing->idnumber === $params['idnumber']" in source
+        assert "course_modules', 'idnumber'" in source
