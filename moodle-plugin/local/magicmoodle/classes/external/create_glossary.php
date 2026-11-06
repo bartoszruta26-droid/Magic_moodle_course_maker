@@ -150,6 +150,12 @@ class create_glossary extends \external_api {
                         'module' => $DB->get_field('modules', 'id', ['name' => 'glossary'], MUST_EXIST),
                     ], '*', MUST_EXIST);
                     $glossary = $DB->get_record('glossary', ['id' => $existing->instance], '*', MUST_EXIST);
+                    if (empty($mapping) && $DB->record_exists('glossary_entries', ['glossaryid' => $glossary->id])) {
+                        throw new invalid_parameter_exception(
+                            'This existing glossary has entries but no source-id mapping manifest. '
+                            . 'Refusing to create duplicates; reconcile the legacy entries first.'
+                        );
+                    }
                     list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                         get_moduleinfo_data($cm, $course);
                     $moduleinfo->name = trim($params['name']);
@@ -235,8 +241,37 @@ class create_glossary extends \external_api {
                     $definition = clean_text($entry['definition'], FORMAT_HTML);
                     if (isset($mapping[$sourceid])) {
                         $entryid = $mapping[$sourceid];
+                        $entryrecord = $DB->get_record('glossary_entries', [
+                            'id' => $entryid,
+                            'glossaryid' => $glossary->id,
+                        ], '*', MUST_EXIST);
+                        $fs = get_file_storage();
+                        $hasattachments = $fs->file_exists(
+                            $modulecontext->id, 'mod_glossary', 'attachment', $entryid, '/', '.'
+                        ) || $fs->file_exists(
+                            $modulecontext->id, 'mod_glossary', 'inlineattachment', $entryid, '/', '.'
+                        );
+                        if ($hasattachments) {
+                            throw new invalid_parameter_exception(
+                                'A mapped glossary entry contains attachments or inline files. '
+                                . 'File-preserving glossary editor synchronization is required before updating this entry.'
+                            );
+                        }
+                        $aliases = $DB->get_fieldset_select(
+                            'glossary_alias', 'alias', 'entryid = ?', [$entryid]
+                        );
+                        $categories = $DB->get_fieldset_select(
+                            'glossary_entries_categories', 'categoryid', 'entryid = ?', [$entryid]
+                        );
+                        $options = [
+                            ['name' => 'aliases', 'value' => implode(', ', $aliases)],
+                            ['name' => 'categories', 'value' => implode(',', $categories)],
+                            ['name' => 'usedynalink', 'value' => (int)$entryrecord->usedynalink],
+                            ['name' => 'casesensitive', 'value' => (int)$entryrecord->casesensitive],
+                            ['name' => 'fullmatch', 'value' => (int)$entryrecord->fullmatch],
+                        ];
                         \mod_glossary\external\update_entry::execute(
-                            $entryid, $term, $definition, FORMAT_HTML, []
+                            $entryid, $term, $definition, FORMAT_HTML, $options
                         );
                         $updatedcount++;
                     } else {
