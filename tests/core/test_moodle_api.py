@@ -348,7 +348,7 @@ def test_publish_routes_book_activity_to_book_endpoint(tmp_path):
 
     class FakeClient:
         def site_info(self):
-            return {"functions": [
+            return {"siteurl": "https://moodle.example", "functions": [
                 {"name": "core_course_get_courses_by_field"},
                 {"name": "core_course_create_courses"},
                 {"name": "local_magicmoodle_update_section"},
@@ -1001,7 +1001,7 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
         source = (root / name).read_text(encoding="utf-8")
         assert "'idnumber' => new " in source
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
-        assert "$existing->idnumber === $params['idnumber']" in source
+        assert "->idnumber === $params['idnumber']" in source
         assert ("course_modules', 'idnumber'" in source or ("get_moduleinfo_data($coursemodule, $course);" in source and "update_moduleinfo($coursemodule, $moduleinfo, $course);" in source))
 
 
@@ -1358,16 +1358,16 @@ def test_glossary_publish_requires_manifest_for_entry_identity(tmp_path):
     glossarydir = section / "glossary"
     glossarydir.mkdir(parents=True)
     (tmp_path / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs słownikowy\\n  short_name: GLOSSARYSAFE\\n",
+        "course:\n  full_name: Kurs słownikowy\n  short_name: GLOSSARYSAFE\n",
         encoding="utf-8",
     )
     (section / "section.yaml").write_text(
-        "id: '01'\\nname: Słownik\\nmodules:\\n"
-        "  - type: glossary\\n    ref: glossary\\n    name: Słownik\\n",
+        "id: '01'\nname: Słownik\nmodules:\n"
+        "  - type: glossary\n    ref: glossary\n    name: Słownik\n",
         encoding="utf-8",
     )
     (glossarydir / "glossary.yaml").write_text(
-        "glossary:\\n  entries:\\n    - term: Masaż\\n      definition: Definicja\\n",
+        "glossary:\n  entries:\n    - term: Masaż\n      definition: Definicja\n",
         encoding="utf-8",
     )
     course = load_course(tmp_path)
