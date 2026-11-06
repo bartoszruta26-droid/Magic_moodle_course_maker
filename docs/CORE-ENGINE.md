@@ -58,7 +58,7 @@ usuwa danych.
 Moduł `magic_moodle.gift` udostępnia model `QuestionBank`, `Question`,
 `Answer` i parser `parse_gift()`. Obsługiwane typy: multichoice (w tym
 wielokrotny wybór i ujemne punktowanie), true/false, shortanswer, numerical,
-matching, essay oraz description. Parser rozpoznaje standardowe pary
+matching, essay, description oraz proste pytania Cloze/multianswer (luki osadzone w treści). Parser rozpoznaje standardowe pary
 dopasowania GIFT oraz starszy wariant banku MED.10, w którym listy lewej
 i prawej strony są zapisane osobno i łączone według kolejności.
 
