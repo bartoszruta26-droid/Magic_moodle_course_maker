@@ -527,7 +527,7 @@ def test_quiz_endpoint_uses_native_gift_import_and_quiz_slot_api():
     assert "get_moduleinfo_data($cm, $course);" in plugin
     assert "update_moduleinfo($cm, $moduleinfo, $course);" in plugin
     assert "previousgiftsha256" in plugin
-    assert "question-version synchronization is not enabled" in plugin
+    assert "Question-bank synchronization is not enabled" in plugin
     assert "grade history is protected" in plugin
     assert "quiz_attempts" in plugin
     assert "'updated' => new" in plugin
