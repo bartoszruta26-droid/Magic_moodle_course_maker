@@ -76,126 +76,137 @@ class create_resource extends \external_api {
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
 
-        $modinfo = get_fast_modinfo($course);
-        if ($params['idnumber'] !== '') {
-            foreach ($modinfo->get_cms() as $candidate) {
-                if (empty($candidate->deletioninprogress)
-                        && $candidate->modname === 'resource'
-                        && $candidate->idnumber === $params['idnumber']
-                        && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
-                    throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
-                }
-            }
+        $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'resource' . '|' . $identity);
+        $lockfactory = \\core\\lock\\lock_config::get_lock_factory('local_magicmoodle');
+        $lock = $lockfactory->get_lock($lockkey, 30);
+        if (!$lock) {
+            throw new \\moodle_exception('locktimeout', 'error');
         }
-        foreach ($modinfo->get_cms() as $existing) {
-            if (empty($existing->deletioninprogress) && $existing->modname === 'resource'
-                    && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                if ($params['idnumber'] !== ''
-                        && $existing->name === $params['name']
-                        && !empty($existing->idnumber)
-                        && $existing->idnumber !== $params['idnumber']) {
-                    throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
-                }
-                if ($params['idnumber'] !== ''
-                        && $existing->idnumber === $params['idnumber']
-                        && $existing->name !== $params['name']) {
-                    throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
-                }
-
-                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
-                }
-                return [
-                    'cmid' => (int)$existing->id,
-                    'instanceid' => (int)$existing->instance,
-                    'modname' => 'resource',
-                    'name' => $params['name'],
-                    'filename' => $filename,
-                    'filesize' => (int)$DB->get_field('files', 'filesize', [
-                        'contextid' => \context_module::instance($existing->id)->id,
-                        'component' => 'mod_resource',
-                        'filearea' => 'content',
-                        'itemid' => 0,
-                        'filename' => $filename,
-                    ]),
-                    'created' => false,
-                ];
-            }
-        }
-
-        $moduleid = $DB->get_field('modules', 'id', ['name' => 'resource'], MUST_EXIST);
-        $draftitemid = null;
-        $usercontext = context_user::instance($USER->id);
-        $fs = get_file_storage();
-        $transaction = $DB->start_delegated_transaction();
         try {
-            $draftitemid = file_get_unused_draft_itemid();
-            $fs->create_file_from_string([
-                'contextid' => $usercontext->id,
-                'component' => 'user',
-                'filearea' => 'draft',
-                'itemid' => $draftitemid,
-                'filepath' => '/',
-                'filename' => $filename,
-                'userid' => $USER->id,
-            ], $filecontent);
-
-            $moduleinfo = new \stdClass();
-            $moduleinfo->modulename = 'resource';
-            $moduleinfo->module = $moduleid;
-            $moduleinfo->course = $course->id;
-            $moduleinfo->section = $section->section;
-            $moduleinfo->name = trim($params['name']);
-            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
-            $moduleinfo->introformat = FORMAT_HTML;
-            $moduleinfo->files = $draftitemid;
-            $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
-            $moduleinfo->popupwidth = 800;
-            $moduleinfo->popupheight = 600;
-            $moduleinfo->printintro = 1;
-            $moduleinfo->showsize = 1;
-            $moduleinfo->showtype = 1;
-            $moduleinfo->showdate = 0;
-            $moduleinfo->filterfiles = 1;
-            $moduleinfo->revision = 1;
-            $moduleinfo->visible = 1;
-            $moduleinfo->groupmode = 0;
-            $moduleinfo->groupingid = 0;
-            $moduleinfo->availability = null;
-            $moduleinfo->completion = COMPLETION_TRACKING_NONE;
-            $moduleinfo->completionview = 0;
-            $moduleinfo->completionexpected = 0;
-            $moduleinfo->showdescription = 0;
-            $moduleinfo->visibleoncoursepage = 1;
-            $moduleinfo->cmidnumber = $params['idnumber'];
-
-            $created = add_moduleinfo($moduleinfo, $course);
-            $transaction->allow_commit();
-        } catch (\Throwable $exception) {
-            $transaction->rollback($exception);
-        } finally {
-            if ($draftitemid !== null) {
-                $fs->delete_area_files($usercontext->id, 'user', 'draft', $draftitemid);
+            $modinfo = get_fast_modinfo($course);
+            if ($params['idnumber'] !== '') {
+                foreach ($modinfo->get_cms() as $candidate) {
+                    if (empty($candidate->deletioninprogress)
+                            && $candidate->modname === 'resource'
+                            && $candidate->idnumber === $params['idnumber']
+                            && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                        throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                    }
+                }
             }
+            foreach ($modinfo->get_cms() as $existing) {
+                if (empty($existing->deletioninprogress) && $existing->modname === 'resource'
+                        && (int)$existing->sectionnum === (int)$params['sectionnum']
+                        && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                    if ($params['idnumber'] !== ''
+                            && $existing->name === $params['name']
+                            && !empty($existing->idnumber)
+                            && $existing->idnumber !== $params['idnumber']) {
+                        throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                    }
+                    if ($params['idnumber'] !== ''
+                            && $existing->idnumber === $params['idnumber']
+                            && $existing->name !== $params['name']) {
+                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                    }
+    
+                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    }
+                    return [
+                        'cmid' => (int)$existing->id,
+                        'instanceid' => (int)$existing->instance,
+                        'modname' => 'resource',
+                        'name' => $params['name'],
+                        'filename' => $filename,
+                        'filesize' => (int)$DB->get_field('files', 'filesize', [
+                            'contextid' => \context_module::instance($existing->id)->id,
+                            'component' => 'mod_resource',
+                            'filearea' => 'content',
+                            'itemid' => 0,
+                            'filename' => $filename,
+                        ]),
+                        'created' => false,
+                    ];
+                }
+            }
+    
+            $moduleid = $DB->get_field('modules', 'id', ['name' => 'resource'], MUST_EXIST);
+            $draftitemid = null;
+            $usercontext = context_user::instance($USER->id);
+            $fs = get_file_storage();
+            $transaction = $DB->start_delegated_transaction();
+            try {
+                $draftitemid = file_get_unused_draft_itemid();
+                $fs->create_file_from_string([
+                    'contextid' => $usercontext->id,
+                    'component' => 'user',
+                    'filearea' => 'draft',
+                    'itemid' => $draftitemid,
+                    'filepath' => '/',
+                    'filename' => $filename,
+                    'userid' => $USER->id,
+                ], $filecontent);
+    
+                $moduleinfo = new \stdClass();
+                $moduleinfo->modulename = 'resource';
+                $moduleinfo->module = $moduleid;
+                $moduleinfo->course = $course->id;
+                $moduleinfo->section = $section->section;
+                $moduleinfo->name = trim($params['name']);
+                $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+                $moduleinfo->introformat = FORMAT_HTML;
+                $moduleinfo->files = $draftitemid;
+                $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
+                $moduleinfo->popupwidth = 800;
+                $moduleinfo->popupheight = 600;
+                $moduleinfo->printintro = 1;
+                $moduleinfo->showsize = 1;
+                $moduleinfo->showtype = 1;
+                $moduleinfo->showdate = 0;
+                $moduleinfo->filterfiles = 1;
+                $moduleinfo->revision = 1;
+                $moduleinfo->visible = 1;
+                $moduleinfo->groupmode = 0;
+                $moduleinfo->groupingid = 0;
+                $moduleinfo->availability = null;
+                $moduleinfo->completion = COMPLETION_TRACKING_NONE;
+                $moduleinfo->completionview = 0;
+                $moduleinfo->completionexpected = 0;
+                $moduleinfo->showdescription = 0;
+                $moduleinfo->visibleoncoursepage = 1;
+                $moduleinfo->cmidnumber = $params['idnumber'];
+    
+                $created = add_moduleinfo($moduleinfo, $course);
+                $transaction->allow_commit();
+            } catch (\Throwable $exception) {
+                $transaction->rollback($exception);
+            } finally {
+                if ($draftitemid !== null) {
+                    $fs->delete_area_files($usercontext->id, 'user', 'draft', $draftitemid);
+                }
+            }
+    
+            $modulecontext = \context_module::instance($created->coursemodule);
+            $storedfiles = $fs->get_area_files($modulecontext->id, 'mod_resource', 'content', 0, 'sortorder', false);
+            $storedsize = 0;
+            foreach ($storedfiles as $storedfile) {
+                $storedsize += $storedfile->get_filesize();
+            }
+    
+            return [
+                'cmid' => (int)$created->coursemodule,
+                'instanceid' => (int)$created->instance,
+                'modname' => 'resource',
+                'name' => $params['name'],
+                'filename' => $filename,
+                'filesize' => $storedsize,
+                'created' => true,
+            ];
+        } finally {
+            $lock->release();
         }
-
-        $modulecontext = \context_module::instance($created->coursemodule);
-        $storedfiles = $fs->get_area_files($modulecontext->id, 'mod_resource', 'content', 0, 'sortorder', false);
-        $storedsize = 0;
-        foreach ($storedfiles as $storedfile) {
-            $storedsize += $storedfile->get_filesize();
-        }
-
-        return [
-            'cmid' => (int)$created->coursemodule,
-            'instanceid' => (int)$created->instance,
-            'modname' => 'resource',
-            'name' => $params['name'],
-            'filename' => $filename,
-            'filesize' => $storedsize,
-            'created' => true,
-        ];
     }
 
     public static function execute_returns() {
