@@ -16,6 +16,7 @@ class create_assignment extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Assignment name'),
             'intro' => new \external_value(PARAM_RAW, 'Assignment description HTML', VALUE_DEFAULT, ''),
             'allowsubmissionsfromdate' => new \external_value(PARAM_INT, 'Submission start timestamp', VALUE_DEFAULT, 0),
@@ -35,13 +36,14 @@ class create_assignment extends \external_api {
         $courseid, $sectionnum, $name, $intro = '', $allowsubmissionsfromdate = 0,
         $duedate = 0, $cutoffdate = 0, $grade = 100, $submissiontype = 'both',
         $maxfiles = 5, $maxbytes = 10485760, $submissiondrafts = false,
-        $requiresubmissionstatement = false, $completionenabled = false
+        $requiresubmissionstatement = false, $completionenabled = false, $idnumber = ''
     ) {
         global $CFG, $DB;
 
         $params = self::validate_parameters(self::execute_parameters(), [
             'courseid' => $courseid,
             'sectionnum' => $sectionnum,
+            'idnumber' => $idnumber,
             'name' => $name,
             'intro' => $intro,
             'allowsubmissionsfromdate' => $allowsubmissionsfromdate,
@@ -100,7 +102,7 @@ class create_assignment extends \external_api {
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress) && $existing->modname === 'assign'
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && $existing->name === $params['name']) {
+                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
                 return [
                     'cmid' => (int)$existing->id,
                     'instanceid' => (int)$existing->instance,
@@ -155,7 +157,7 @@ class create_assignment extends \external_api {
         $moduleinfo->completionexpected = 0;
         $moduleinfo->showdescription = 0;
         $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = '';
+        $moduleinfo->cmidnumber = $params['idnumber'];
 
         $moduleinfo->assignsubmission_onlinetext_enabled =
             in_array($params['submissiontype'], ['onlinetext', 'both'], true) ? 1 : 0;
