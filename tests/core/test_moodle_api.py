@@ -380,7 +380,8 @@ def _sample_quiz_course(tmp_path: Path):
     (quizdir / "quiz.yaml").write_text(
         "name: Test wiedzy\nintro: Weryfikacja podstaw.\n"
         "time_limit: 600\nattempts: 2\ngrade_passing: 60\n"
-        "shuffle_answers: true\nquestions_file: questions.gift\n",
+        "shuffle_answers: true\nquestions_file: questions.gift\n"
+        "completion:\n  enabled: true\n  type: grade\n  min_score: 60\n",
         encoding="utf-8",
     )
     (quizdir / "questions.gift").write_text(
