@@ -64,6 +64,16 @@ class create_activity extends \external_api {
 
         // Idempotency: same module type/name/section is reused, never duplicated.
         $modinfo = get_fast_modinfo($course);
+        if ($params['idnumber'] !== '') {
+            foreach ($modinfo->get_cms() as $candidate) {
+                if (empty($candidate->deletioninprogress)
+                        && $candidate->modname === $params['modname']
+                        && $candidate->idnumber === $params['idnumber']
+                        && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                    throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                }
+            }
+        }
         foreach ($modinfo->get_cms() as $existing) {
             if (empty($existing->deletioninprogress)
                     && $existing->modname === $params['modname']
