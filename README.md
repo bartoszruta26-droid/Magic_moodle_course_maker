@@ -545,3 +545,17 @@ python -m magic_moodle moodle-publish courses/03-kurs-masazysta-med10 --dry-run
 
 Publikacja wymaga zmiennych środowiskowych `MOODLE_URL`,
 `MOODLE_TOKEN` i `MOODLE_CATEGORY_ID`. Tokenów nie zapisuj w repozytorium.
+
+## Publikacja w Moodle 4.1.x
+
+Projekt zawiera klienta REST i lokalny plugin `local_magicmoodle` zgodny z Moodle 4.1.x (w tym 4.1.8). Obsługiwane aktywności: Page, Label, URL, Book oraz Quiz. Adapter Quiz tworzy aktywność, importuje pytania z pliku GIFT natywnym importerem Moodle, dodaje je do quizu i ustawia próg zaliczenia w dzienniku ocen.
+
+Szczegółowa konfiguracja usługi REST, tokenu, pluginu i formatu `quiz.yaml` znajduje się w [dokumentacji publikacji Moodle](docs/MOODLE-REST.md).
+
+Przed publikacją wykonaj plan bez połączenia z serwerem:
+
+```bash
+python -m magic_moodle moodle-publish courses/03-kurs-masazysta-med10 --dry-run
+```
+
+Dane dostępowe przechowuj w zmiennych środowiskowych `MOODLE_URL`, `MOODLE_TOKEN` i `MOODLE_CATEGORY_ID`; tokenu nie zapisuj w repozytorium.
