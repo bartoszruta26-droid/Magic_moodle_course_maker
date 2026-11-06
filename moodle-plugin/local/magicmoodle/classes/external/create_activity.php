@@ -107,7 +107,7 @@ class create_activity extends \external_api {
                     try {
                         $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
                         $safecontent = clean_text($params['content'], FORMAT_HTML);
-                        $moduleinfo = new \\stdClass();
+                        $moduleinfo = new \stdClass();
                         $moduleinfo->modulename = $params['modname'];
                         $moduleinfo->module = $moduleid;
                         $moduleinfo->course = $course->id;
@@ -131,7 +131,7 @@ class create_activity extends \external_api {
 
                         if ($params['modname'] === 'page') {
                             $page = $DB->get_record('page', ['id' => $existing->instance], '*', MUST_EXIST);
-                            $modulecontext = \\context_module::instance($existing->id);
+                            $modulecontext = \context_module::instance($existing->id);
                             $editoroptions = page_get_editor_options($modulecontext);
                             $page = file_prepare_standard_editor(
                                 $page, 'content', $editoroptions, $modulecontext, 'mod_page', 'content', $page->id
@@ -169,7 +169,7 @@ class create_activity extends \external_api {
                         }
                         rebuild_course_cache($course->id, true);
                         $transaction->allow_commit();
-                    } catch (\\Throwable $exception) {
+                    } catch (\Throwable $exception) {
                         $transaction->rollback($exception);
                     }
                     return [
