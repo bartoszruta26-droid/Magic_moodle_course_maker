@@ -53,7 +53,7 @@ class create_activity extends external_api {
         // Idempotency: an identical module name/type in the same section is not duplicated.
         $modinfo = get_fast_modinfo($course);
         foreach ($modinfo->get_cms() as $existing) {
-            if (empty($existing->deletioninprogress) === false ? false : true
+            if (empty($existing->deletioninprogress)
                     && $existing->modname === $params['modname']
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && $existing->name === $params['name']) {
