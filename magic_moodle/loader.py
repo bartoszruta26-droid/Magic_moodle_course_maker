@@ -132,7 +132,7 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
 def load_course(root: str | Path) -> Course:
     """Wczytuje course.yaml, sekcje i rozpoznane zasoby aktywności."""
     root = Path(root).resolve()
-    course_file = root / "course.yaml"
+    course_file = _safe_path(root, "course.yaml", "Konfiguracja kursu")
     if not course_file.is_file():
         raise CourseLoadError(f"Brak pliku {course_file}")
 
@@ -157,7 +157,7 @@ def load_course(root: str | Path) -> Course:
             section_path = section_entry.resolve()
             if not section_path.is_relative_to(sections_root):
                 raise CourseLoadError(f"Sekcja {section_entry.name}: dowiązanie symboliczne wychodzi poza katalog sections.")
-            config_path = section_path / "section.yaml"
+            config_path = _safe_path(section_path, "section.yaml", "Konfiguracja sekcji")
             if not config_path.is_file():
                 continue
             section_raw = _read_yaml(config_path)
