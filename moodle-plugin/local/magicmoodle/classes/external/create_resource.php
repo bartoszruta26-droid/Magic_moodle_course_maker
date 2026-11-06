@@ -315,8 +315,12 @@ class create_resource extends \external_api {
                 'modname' => 'resource',
                 'name' => $params['name'],
                 'filename' => $filename,
-                'filesize' => $storedsize,
+                'filesize' => (int)$fs->get_file(
+                    $modulecontext->id, 'mod_resource', 'content', 0, '/', $filename
+                )->get_filesize(),
+                'sha256' => hash('sha256', $filecontent),
                 'created' => true,
+                'updated' => false,
             ];
         } finally {
             $lock->release();
@@ -331,7 +335,9 @@ class create_resource extends \external_api {
             'name' => new \external_value(PARAM_TEXT, 'Resource name'),
             'filename' => new \external_value(PARAM_FILE, 'Stored filename'),
             'filesize' => new \external_value(PARAM_INT, 'Stored file size in bytes'),
+            'sha256' => new \external_value(PARAM_ALPHANUMEXT, 'Managed file SHA-256'),
             'created' => new \external_value(PARAM_BOOL, 'Whether a new resource was created'),
+            'updated' => new \external_value(PARAM_BOOL, 'Whether an existing resource was updated'),
         ]);
     }
 }
