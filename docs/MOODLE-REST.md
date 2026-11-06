@@ -2,7 +2,7 @@
 
 ## Wymagania
 
-1. Moodle 4.2 lub nowszy z włączonym protokołem REST.
+1. Moodle 4.1.x (w tym 4.1.8) z włączonym protokołem REST.
 2. Utworzona usługa zewnętrzna, token dla dedykowanego konta technicznego i uprawnienia do tworzenia kursów oraz aktywności.
 3. Zainstalowany lokalny plugin `local_magicmoodle` z katalogu `moodle-plugin/local/magicmoodle`.
 4. Dozwolone funkcje usługi:
@@ -13,7 +13,7 @@
    - `local_magicmoodle_create_activity`
 
 Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
-**Administracja witryną → Serwer → Usługi sieciowe**. Funkcje zewnętrzne i uprawnienia konta muszą być jawnie przyznane. Zob. [Moodle Web Services](https://moodledev.io/docs/5.3/apis/subsystems/external) oraz [Using web services](https://docs.moodle.org/500/en/How_to_create_and_enable_a_web_service).
+**Administracja witryną → Serwer → Usługi sieciowe**. Funkcje zewnętrzne i uprawnienia konta muszą być jawnie przyznane. Plugin jest zgodny z mechanizmem External API w Moodle 4.1: klasy są ładowane z `lib/externallib.php` i używana jest globalna klasa `external_api`. W Moodle 4.2 przeniesiono te klasy do przestrzeni nazw `core_external`, dlatego kodu z nowszych przykładów nie można bezpośrednio zastosować do Moodle 4.1. Zob. [dokumentację Moodle 4.1 – Function Definitions](https://noeldemartin.github.io/moodledevdocs/docs/4.1/apis/subsystems/external/functions) oraz [zmiany w Moodle 4.2](https://noeldemartin.github.io/moodledevdocs/docs/4.2/devupdate).
 
 ## Instalacja pluginu
 
@@ -56,4 +56,4 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs; przed ponownym uruchomieniem sprawdź kurs i jego aktywności.
 - Idempotencja obejmuje wyszukanie kursu po shortname. Ponowne uruchomienie może dodać ponownie aktywności — przed kolejnym przebiegiem należy je zweryfikować.
 - Wbudowane tworzenie aktywności obejmuje na razie wyłącznie Page i Label. Quiz, Assignment, Book, Glossary, pliki i zasoby URL wymagają dalszych adapterów oraz obsługi plików Moodle.
-- Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle.
+- Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
