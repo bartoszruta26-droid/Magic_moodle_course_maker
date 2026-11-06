@@ -956,7 +956,8 @@ def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
     assert result["activities_created"][0]["modname"] == "glossary"
     import json
     state = json.loads((tmp_path / "publish.json").read_text(encoding="utf-8"))
-    assert state["activities_completed"][plan_idnumber]["entryids"] if False else True
+    record = next(iter(state["activities_completed"].values()))
+    assert record["entryids"] == [{"sourceid": "term-" + __import__("hashlib").sha256("masaż".encode()).hexdigest()[:32], "entryid": 88}]
 
 
 def test_glossary_endpoint_uses_moodle_native_entry_api():
