@@ -57,7 +57,7 @@ class create_book extends \external_api {
             if ($totalsize > 5 * 1024 * 1024) {
                 throw new invalid_parameter_exception('Combined chapter content exceeds the 5 MiB limit.');
             }
-            if (trim($chapter['title']) === '' || \\core_text::strlen($chapter['title']) > 255) {
+            if (trim($chapter['title']) === '' || \core_text::strlen($chapter['title']) > 255) {
                 throw new invalid_parameter_exception('Chapter titles must contain 1 to 255 characters.');
             }
             if ($index === 0 && !empty($chapter['subchapter'])) {
