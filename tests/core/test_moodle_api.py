@@ -158,7 +158,7 @@ modules:
         encoding="utf-8",
     )
     (section / "source.yaml").write_text(
-        "url: https://docs.moodle.org/401/\\n",
+        """url: https://docs.moodle.org/401/""",
         encoding="utf-8",
     )
     plan = build_publish_plan(load_course(tmp_path), 2)
@@ -187,7 +187,7 @@ modules:
 """,
         encoding="utf-8",
     )
-    (section / "source.yaml").write_text("title: Bez adresu\\n", encoding="utf-8")
+    (section / "source.yaml").write_text("""title: Bez adresu""", encoding="utf-8")
     plan = build_publish_plan(load_course(tmp_path), 2)
     assert any("nie zawiera pola externalurl/url" in warning for warning in plan.warnings)
 
