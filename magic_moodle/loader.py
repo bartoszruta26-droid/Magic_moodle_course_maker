@@ -49,12 +49,18 @@ def _load_activity_resource(section_path: Path, kind: str, ref: str) -> tuple[di
         if config_path.is_file():
             raw = _read_yaml(config_path)
             nested = raw.get(root_key) if root_key else raw
-            if not isinstance(nested, dict):
+            if kind == "url" and isinstance(nested, str):
+                resource = {"url": nested}
+                nested = None
+            if nested is None and kind == "url":
+                pass
+            elif not isinstance(nested, dict):
                 raise CourseLoadError(
                     f"{config_path}: oczekiwano mapy"
                     + (f" w polu '{root_key}'." if root_key else ".")
                 )
-            resource = nested
+            else:
+                resource = nested
 
             if kind == "book":
                 chapters = resource.get("chapters", [])
