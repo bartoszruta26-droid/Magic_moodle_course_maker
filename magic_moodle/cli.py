@@ -32,12 +32,15 @@ def main(argv: list[str] | None = None) -> int:
         result = {
             "name": course.full_name, "short_name": course.short_name,
             "sections": course.section_count, "activities": course.activity_count,
+            "activity_types": course.activity_types,
         }
         if args.json:
             print(json.dumps(result, ensure_ascii=False, indent=2))
         else:
             print(f"Kurs: {course.full_name}\nNazwa skrócona: {course.short_name}")
             print(f"Sekcje: {course.section_count}\nAktywności: {course.activity_count}")
+            for kind, count in course.activity_types.items():
+                print(f"  - {kind}: {count}")
         return 0
 
     report = validate_course(course)
