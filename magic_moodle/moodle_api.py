@@ -209,3 +209,27 @@ class MoodleClient:
                 "numbering": activity.get("numbering", 1),
             },
         )
+
+    def create_quiz(
+        self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
+    ) -> dict[str, Any]:
+        """Create a Moodle Quiz and import its GIFT questions through Moodle's importer."""
+        gift = activity.get("gift")
+        if not isinstance(gift, str) or not gift.strip():
+            raise MoodleAPIError("Quiz wymaga niepustego źródła GIFT.")
+        return self.call(
+            "local_magicmoodle_create_quiz",
+            {
+                "courseid": courseid,
+                "sectionnum": sectionnum,
+                "name": activity["name"],
+                "intro": activity.get("intro", ""),
+                "gift": gift,
+                "timelimit": activity.get("timelimit", 0),
+                "attempts": activity.get("attempts", 1),
+                "grade": activity.get("grade", 10),
+                "passingpercent": activity.get("passingpercent", 0),
+                "shuffleanswers": activity.get("shuffleanswers", True),
+                "questionsperpage": activity.get("questionsperpage", 1),
+            },
+        )
