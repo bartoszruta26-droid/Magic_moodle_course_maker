@@ -122,6 +122,17 @@ def _parse_answers(body: str) -> tuple[Answer, ...]:
         if weighted:
             fraction = float(weighted.group(1))
             raw = weighted.group(2).strip()
+        else:
+            # Zgodność z historycznymi plikami MED.10: ~0.5#treść oznacza
+            # odpowiedź z wagą 0.5 (czyli 50%) i treścią po znaku #.
+            legacy_weight = re.match(
+                r"^([+-]?(?:\d+(?:\.\d*)?|\.\d+))#\s*(.+)$", raw, re.S
+            )
+            if marker.group(1) == "~" and legacy_weight:
+                fraction = float(legacy_weight.group(1))
+                if -1.0 <= fraction <= 1.0:
+                    fraction *= 100.0
+                raw = legacy_weight.group(2).strip()
         text, feedback = _split_feedback(raw)
         if text:
             answers.append(Answer(text=text, fraction=fraction, feedback=feedback))
