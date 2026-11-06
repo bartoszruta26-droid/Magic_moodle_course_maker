@@ -409,6 +409,8 @@ def publish_course(
             required.add("local_magicmoodle_create_book")
         elif activity["type"] == "quiz":
             required.add("local_magicmoodle_create_quiz")
+        elif activity["type"] == "assignment":
+            required.add("local_magicmoodle_create_assignment")
     missing = sorted(required - functions)
     if missing:
         raise MoodleAPIError(
@@ -429,6 +431,8 @@ def publish_course(
             result = client.create_book(course_id, activity["sectionnum"], activity)
         elif activity["type"] == "quiz":
             result = client.create_quiz(course_id, activity["sectionnum"], activity)
+        elif activity["type"] == "assignment":
+            result = client.create_assignment(course_id, activity["sectionnum"], activity)
         else:
             result = client.create_activity(course_id, activity["sectionnum"], activity)
         activity_results.append(result)
