@@ -141,16 +141,16 @@ def test_url_activity_is_loaded_and_added_to_publish_plan(tmp_path):
     section = tmp_path / "sections" / "01"
     section.mkdir(parents=True)
     (tmp_path / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs URL\\n  short_name: KURL\\n",
+        "course:\n  full_name: Kurs URL\n  short_name: KURL\n",
         encoding="utf-8",
     )
     (section / "section.yaml").write_text(
-        "id: '01'\\nname: Zasoby\\nmodules:\\n"
-        "  - type: url\\n    ref: source.yaml\\n    name: Dokumentacja\\n",
+        "id: '01'\nname: Zasoby\nmodules:\n"
+        "  - type: url\n    ref: source.yaml\n    name: Dokumentacja\n",
         encoding="utf-8",
     )
     (section / "source.yaml").write_text(
-        "url: https://docs.moodle.org/401/\\n",
+        "url: https://docs.moodle.org/401/\n",
         encoding="utf-8",
     )
     plan = build_publish_plan(load_course(tmp_path), 2)
@@ -163,15 +163,15 @@ def test_url_activity_without_target_stops_preflight(tmp_path):
     section = tmp_path / "sections" / "01"
     section.mkdir(parents=True)
     (tmp_path / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs URL\\n  short_name: KURL\\n",
+        "course:\n  full_name: Kurs URL\n  short_name: KURL\n",
         encoding="utf-8",
     )
     (section / "section.yaml").write_text(
-        "id: '01'\\nname: Zasoby\\nmodules:\\n"
-        "  - type: url\\n    ref: source.yaml\\n    name: Brak adresu\\n",
+        "id: '01'\nname: Zasoby\nmodules:\n"
+        "  - type: url\n    ref: source.yaml\n    name: Brak adresu\n",
         encoding="utf-8",
     )
-    (section / "source.yaml").write_text("title: Bez adresu\\n", encoding="utf-8")
+    (section / "source.yaml").write_text("title: Bez adresu\n", encoding="utf-8")
     plan = build_publish_plan(load_course(tmp_path), 2)
     assert any("nie zawiera pola externalurl/url" in warning for warning in plan.warnings)
 
