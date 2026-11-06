@@ -10,7 +10,7 @@ $functions = [
         'capabilities' => 'moodle/course:update',
     ],
     'local_magicmoodle_create_book' => [
-        'classname' => '\\\\local_magicmoodle\\\\external\\\\create_book',
+        'classname' => '\\local_magicmoodle\\external\\create_book',
         'description' => 'Create a Book activity and its chapters in a course section.',
         'type' => 'write',
         'ajax' => false,
