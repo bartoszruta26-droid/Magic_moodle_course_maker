@@ -152,7 +152,7 @@ class create_activity extends \external_api {
         try {
             $created = add_moduleinfo($moduleinfo, $course);
             $transaction->allow_commit();
-        } catch (\\Throwable $exception) {
+        } catch (\Throwable $exception) {
             $transaction->rollback($exception);
         }
         return [
