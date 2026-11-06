@@ -1103,3 +1103,110 @@ def test_moodle_json_error_message_redacts_token():
             client.call("core_webservice_get_site_info")
     assert "sensitive-token" not in str(caught.value)
     assert "[REDACTED]" in str(caught.value)
+
+
+
+class _StatefulPublishClient:
+    def __init__(self, *, fail_activity=False):
+        self.fail_activity = fail_activity
+        self.ensure_calls = 0
+        self.lookup_calls = 0
+        self.activity_calls = 0
+
+    def site_info(self):
+        return {
+            "siteurl": "https://moodle.example",
+            "functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_activity"},
+            ],
+        }
+
+    def ensure_course(self, payload):
+        self.ensure_calls += 1
+        return ({"id": 42, "shortname": payload["shortname"]}, True)
+
+    def get_course_by_shortname(self, shortname):
+        self.lookup_calls += 1
+        return {"id": 42, "shortname": shortname}
+
+    def update_section(self, courseid, sectionnum, name):
+        return {"section": sectionnum}
+
+    def create_activity(self, courseid, sectionnum, activity):
+        self.activity_calls += 1
+        if self.fail_activity:
+            raise MoodleAPIError("symulowana awaria")
+        return {
+            "cmid": 100 + self.activity_calls,
+            "instanceid": 200 + self.activity_calls,
+            "created": self.activity_calls == 1,
+        }
+
+
+def test_publish_state_manifest_records_progress_without_secrets(tmp_path):
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "state" / "publish.json"
+    client = _StatefulPublishClient()
+    result = publish_course(client, course, 2, state_file=state_file)
+
+    import json
+    state_text = state_file.read_text(encoding="utf-8")
+    state = json.loads(state_text)
+    assert result["state_file"] == str(state_file)
+    assert state["format"] == "magic-moodle-publish-state"
+    assert state["status"] == "complete"
+    assert state["course_id"] == 42
+    assert state["sections_completed"] == [0]
+    assert len(state["activities_completed"]) == 1
+    assert "token" not in state_text.lower()
+
+
+def test_publish_state_manifest_resumes_only_against_same_remote_course(tmp_path):
+    from dataclasses import replace
+    import json
+
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "publish.json"
+    first = _StatefulPublishClient()
+    publish_course(first, course, 2, state_file=state_file)
+    resumed = _StatefulPublishClient()
+    result = publish_course(resumed, course, 2, state_file=state_file)
+
+    state = json.loads(state_file.read_text(encoding="utf-8"))
+    assert resumed.lookup_calls == 1
+    assert resumed.ensure_calls == 0
+    assert result["course_created"] is False
+    assert state["status"] == "complete"
+
+
+def test_publish_state_manifest_rejects_changed_plan_before_remote_writes(tmp_path):
+    from dataclasses import replace
+
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "publish.json"
+    publish_course(_StatefulPublishClient(), course, 2, state_file=state_file)
+    changed = replace(course, full_name="Zmieniony kurs")
+    client = _StatefulPublishClient()
+    with pytest.raises(MoodleAPIError, match="innego kursu, planu lub serwera"):
+        publish_course(client, changed, 2, state_file=state_file)
+    assert client.ensure_calls == 0
+    assert client.lookup_calls == 0
+    assert client.activity_calls == 0
+
+
+def test_publish_state_manifest_persists_partial_failure_for_safe_retry(tmp_path):
+    import json
+
+    course = _sample_course(tmp_path / "course")
+    state_file = tmp_path / "publish.json"
+    client = _StatefulPublishClient(fail_activity=True)
+    with pytest.raises(MoodleAPIError, match="bezpiecznie ponowić"):
+        publish_course(client, course, 2, state_file=state_file)
+    state = json.loads(state_file.read_text(encoding="utf-8"))
+    assert state["status"] == "partial"
+    assert state["failed_step"] == "activity:1"
+    assert state["course_id"] == 42
+    assert state["last_error_type"] == "MoodleAPIError"
