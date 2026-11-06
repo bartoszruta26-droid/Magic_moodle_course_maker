@@ -14,7 +14,7 @@ class CourseLoadError(ValueError):
     """Błąd odczytu lub struktury danych kursu."""
 
 
-def _read_text(path: Path, *, max_bytes: int = 5 * 1024 * 1024) -> str:
+def _read_text(path: Path, *, max_bytes: int = 10 * 1024 * 1024) -> str:
     """Read bounded UTF-8 text to avoid unbounded local-file memory use."""
     try:
         if path.stat().st_size > max_bytes:
