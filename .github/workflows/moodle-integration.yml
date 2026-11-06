@@ -86,6 +86,12 @@ jobs:
           $CFG->phpunit_prefix = 'phpu_';
           EOF
 
+      - name: Install locale required by Moodle PHPUnit
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y locales
+          sudo locale-gen en_AU.UTF-8
+
       - name: Initialize Moodle PHPUnit test database
         working-directory: /tmp/moodle
         run: php admin/tool/phpunit/cli/init.php --drop
