@@ -116,7 +116,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     "nie jest jeszcze obsługiwany przez wbudowany adapter REST."
                 )
                 continue
-            source_identity = f"{course.short_name}\\0{section.id}\\0{activity.kind}\\0{activity.ref}"
+            source_identity = f"{course.short_name}|{section.id}|{activity.kind}|{activity.ref}"
             source_idnumber = "mm-" + hashlib.sha256(source_identity.encode("utf-8")).hexdigest()[:32]
             item = {
                 "sectionnum": section_index,
