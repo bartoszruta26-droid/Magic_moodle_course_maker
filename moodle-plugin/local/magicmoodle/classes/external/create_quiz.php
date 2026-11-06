@@ -34,7 +34,7 @@ class create_quiz extends \external_api {
     public static function execute(
         $courseid, $sectionnum, $name, $intro, $gift, $timelimit = 0,
         $attempts = 1, $grade = 10, $passingpercent = 0, $shuffleanswers = true,
-        $questionsperpage = 1
+        $questionsperpage = 1, $completionenabled = false, $completiontype = 'grade'
     ) {
         global $CFG, $DB;
 
@@ -50,6 +50,8 @@ class create_quiz extends \external_api {
             'passingpercent' => $passingpercent,
             'shuffleanswers' => $shuffleanswers,
             'questionsperpage' => $questionsperpage,
+            'completionenabled' => $completionenabled,
+            'completiontype' => $completiontype,
         ]);
 
         $course = get_course($params['courseid']);
@@ -74,7 +76,9 @@ class create_quiz extends \external_api {
                 || $params['attempts'] < 0 || $params['attempts'] > 10
                 || $params['grade'] <= 0 || $params['grade'] > 1000
                 || $params['passingpercent'] < 0 || $params['passingpercent'] > 100
-                || $params['questionsperpage'] < 0 || $params['questionsperpage'] > 50) {
+                || $params['questionsperpage'] < 0 || $params['questionsperpage'] > 50
+                || !in_array($params['completiontype'], ['grade', 'view'], true)
+                || ($params['completionenabled'] && $params['completiontype'] === 'grade' && $params['passingpercent'] <= 0)) {
             throw new invalid_parameter_exception('Quiz settings are outside supported limits.');
         }
 
@@ -144,8 +148,11 @@ class create_quiz extends \external_api {
         $moduleinfo->groupmode = 0;
         $moduleinfo->groupingid = 0;
         $moduleinfo->availability = null;
-        $moduleinfo->completion = COMPLETION_TRACKING_NONE;
-        $moduleinfo->completionview = 0;
+        $moduleinfo->completion = $params['completionenabled']
+            ? COMPLETION_TRACKING_AUTOMATIC : COMPLETION_TRACKING_NONE;
+        $moduleinfo->completionview = ($params['completionenabled'] && $params['completiontype'] === 'view') ? 1 : 0;
+        $moduleinfo->completionusegrade = ($params['completionenabled'] && $params['completiontype'] === 'grade') ? 1 : 0;
+        $moduleinfo->completionpassgrade = $moduleinfo->completionusegrade;
         $moduleinfo->completionexpected = 0;
         $moduleinfo->showdescription = 0;
         $moduleinfo->visibleoncoursepage = 1;
