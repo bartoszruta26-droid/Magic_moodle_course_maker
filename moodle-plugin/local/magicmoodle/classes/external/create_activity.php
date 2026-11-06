@@ -53,7 +53,7 @@ class create_activity extends external_api {
         // Idempotency: an identical module name/type in the same section is not duplicated.
         $modinfo = get_fast_modinfo($course);
         foreach ($modinfo->get_cms() as $existing) {
-            if (!$existing->deletioninprogress
+            if (empty($existing->deletioninprogress) === false ? false : true
                     && $existing->modname === $params['modname']
                     && (int)$existing->sectionnum === (int)$params['sectionnum']
                     && $existing->name === $params['name']) {
@@ -67,7 +67,7 @@ class create_activity extends external_api {
             }
         }
 
-        $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
+        $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);\n        $safecontent = clean_text($params['content'], FORMAT_HTML);
 
         $moduleinfo = new \stdClass();
         $moduleinfo->modulename = $params['modname'];
@@ -89,7 +89,7 @@ class create_activity extends external_api {
         $moduleinfo->cmidnumber = '';
 
         if ($params['modname'] === 'page') {
-            $moduleinfo->content = $params['content'];
+            $moduleinfo->content = $safecontent;
             $moduleinfo->contentformat = FORMAT_HTML;
             $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
             $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
@@ -97,7 +97,7 @@ class create_activity extends external_api {
             $moduleinfo->printintro = 0;
             $moduleinfo->printlastmodified = 0;
         } else {
-            $moduleinfo->intro = $params['content'];
+            $moduleinfo->intro = $safecontent;
             $moduleinfo->introformat = FORMAT_HTML;
         }
 
