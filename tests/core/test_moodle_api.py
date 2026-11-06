@@ -931,7 +931,7 @@ def test_publish_routes_glossary_to_native_glossary_endpoint(tmp_path):
 
     class FakeClient:
         def site_info(self):
-            return {"functions": [
+            return {"siteurl": "https://moodle.example", "functions": [
                 {"name": "core_course_get_courses_by_field"},
                 {"name": "core_course_create_courses"},
                 {"name": "local_magicmoodle_update_section"},
