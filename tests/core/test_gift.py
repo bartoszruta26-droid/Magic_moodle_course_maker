@@ -228,7 +228,7 @@ def test_question_bank_rejects_symlinked_gift_outside_directory(tmp_path):
 
 
 def test_moodle_xml_rejects_xml_10_control_characters():
-    bank = parse_gift("::control:: Invalid\\x01 character? {=Yes ~No}")
+    bank = parse_gift("::control:: Invalid" + chr(1) + " character? {=Yes ~No}")
     with pytest.raises(ValueError, match="XML 1.0"):
         to_moodle_xml(bank)
 
