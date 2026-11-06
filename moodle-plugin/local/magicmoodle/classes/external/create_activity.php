@@ -35,7 +35,7 @@ class create_activity extends \external_api {
             'externalurl' => $externalurl,
         ]);
         if (strlen($params['idnumber']) > 100) {
-            throw new \\invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
+            throw new \invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
         }
 
         $course = get_course($params['courseid']);
