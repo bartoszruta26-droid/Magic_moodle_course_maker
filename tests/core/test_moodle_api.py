@@ -1297,3 +1297,42 @@ def test_page_label_url_plugin_updates_existing_module_in_place():
     assert "get_moduleinfo_data($coursemodule, $course);" in plugin
     assert "file_prepare_standard_editor(" in plugin
     assert "$moduleinfo->visible = 1;" not in plugin[plugin.index("// Re-publishing a source activity is an update"):plugin.index("update_moduleinfo($coursemodule, $moduleinfo, $course);")]
+
+
+def test_publish_reports_existing_basic_activity_as_updated(tmp_path):
+    course = _sample_course(tmp_path)
+
+    class FakeClient:
+        def site_info(self):
+            return {"functions": [
+                {"name": "core_course_get_courses_by_field"},
+                {"name": "core_course_create_courses"},
+                {"name": "local_magicmoodle_update_section"},
+                {"name": "local_magicmoodle_create_activity"},
+            ]}
+
+        def ensure_course(self, payload):
+            return ({"id": 42, "shortname": "TEST"}, False)
+
+        def update_section(self, courseid, sectionnum, name):
+            return {"section": sectionnum}
+
+        def create_activity(self, courseid, sectionnum, activity):
+            return {
+                "cmid": 91, "instanceid": 81, "modname": "page",
+                "name": activity["name"], "created": False, "updated": True,
+            }
+
+    result = publish_course(FakeClient(), course, 2)
+    assert len(result["activities_processed"]) == 1
+    assert result["activities_updated"][0]["cmid"] == 91
+
+
+def test_basic_activity_endpoint_exposes_update_outcome():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_activity.php"
+    ).read_text(encoding="utf-8")
+    assert "'updated' => true" in plugin
+    assert "'updated' => false" in plugin
+    assert "'updated' => new \\external_value(PARAM_BOOL" in plugin
