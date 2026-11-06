@@ -17,7 +17,7 @@ Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
 
 ## Instalacja pluginu
 
-Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj dwie funkcje pluginu do usługi zewnętrznej. Plugin udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL i Book z kontrolą kontekstu i uprawnień.
+Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj trzy funkcje pluginu do usługi zewnętrznej. Plugin udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL i Book z kontrolą kontekstu i uprawnień.
 
 ## Konfiguracja klienta
 
