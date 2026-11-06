@@ -6,7 +6,9 @@ import json
 import sys
 from pathlib import Path
 
+from .gift import GiftParseError, parse_gift, validate_question_bank
 from .loader import CourseLoadError, load_course
+from .moodle_xml import export_moodle_xml
 from .validation import validate_course
 
 
@@ -17,11 +19,56 @@ def _parser() -> argparse.ArgumentParser:
         cmd = commands.add_parser(name, help=f"{'Pokaż' if name == 'inspect' else 'Zweryfikuj'} strukturę kursu")
         cmd.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
         cmd.add_argument("--json", action="store_true", help="Wynik w formacie JSON")
+
+    gift_validate = commands.add_parser("gift-validate", help="Sprawdź składnię i typy pytań GIFT")
+    gift_validate.add_argument("source", type=Path, help="Plik GIFT")
+    gift_validate.add_argument("--json", action="store_true")
+
+    gift_export = commands.add_parser("gift-to-xml", help="Konwertuj bank GIFT do Moodle XML")
+    gift_export.add_argument("source", type=Path, help="Wejściowy plik GIFT")
+    gift_export.add_argument("destination", type=Path, help="Wyjściowy plik XML")
+    gift_export.add_argument("--category", default="$course$/top", help="Kategoria banku pytań Moodle")
+
     return parser
+
+
+def _load_bank(path: Path):
+    source = path.read_text(encoding="utf-8-sig")
+    bank = parse_gift(source, source_name=str(path))
+    errors = validate_question_bank(bank)
+    return bank, errors
 
 
 def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
+
+    if args.command in {"gift-validate", "gift-to-xml"}:
+        try:
+            bank, errors = _load_bank(args.source)
+        except (OSError, UnicodeError, GiftParseError) as exc:
+            print(f"BŁĄD GIFT: {exc}", file=sys.stderr)
+            return 2
+        if errors:
+            for error in errors:
+                print(f"BŁĄD: {error}", file=sys.stderr)
+            return 1
+        if args.command == "gift-validate":
+            result = {"ok": True, "questions": len(bank.questions), "types": bank.by_type()}
+            if args.json:
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+            else:
+                print(f"Poprawny bank: {len(bank.questions)} pytań")
+                for kind, count in bank.by_type().items():
+                    print(f"  - {kind}: {count}")
+            return 0
+        try:
+            output = export_moodle_xml(bank, args.destination, category=args.category)
+        except (OSError, ValueError) as exc:
+            print(f"BŁĄD eksportu: {exc}", file=sys.stderr)
+            return 2
+        print(f"Wyeksportowano {len(bank.questions)} pytań do: {output}")
+        return 0
+
     try:
         course = load_course(args.course)
     except CourseLoadError as exc:
