@@ -96,8 +96,8 @@ class create_quiz extends \external_api {
         ], '*', MUST_EXIST);
 
         // Reuse an existing quiz with the same name and section; never re-import questions.
-        $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
-        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'quiz' . '|' . $identity);
+        // Serialize all writes for this module type within the course to avoid check-then-create races.
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'quiz');
         $lockfactory = \core\lock\lock_config::get_lock_factory('local_magicmoodle');
         $lock = $lockfactory->get_lock($lockkey, 30);
         if (!$lock) {
