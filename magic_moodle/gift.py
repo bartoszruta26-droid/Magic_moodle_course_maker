@@ -57,7 +57,7 @@ def _strip_comments(source: str) -> str:
     return source
 
 
-def _extract_questions(source: str) -> list[tuple[str, str, int]]:
+def _extract_questions(source: str) -> list[tuple[str, str, int, str]]:
     """Wydziela pytania po nagłówkach ::name::, respektując klamry i ucieczki."""
     matches = list(_HEADER.finditer(source))
     if not matches:
@@ -150,11 +150,13 @@ def _parse_one(name: str, text: str, body: str, line: int) -> Question:
 
     short = re.match(r"(?i)^(SHORTANSWER|SA|SHORTANSWER_C|SAC)\s*:\s*(.*)$", normalized, re.S)
     if short:
-        answers = _parse_answers(short.group(2))
-        if not answers:
-            # Akceptuj wariant repozytorium: ~#odpowiedź | odpowiedź
-            values = [part.strip() for part in short.group(2).split("|") if part.strip()]
-            answers = tuple(Answer(value.lstrip("~=# ").strip(), 100.0) for value in values)
+        raw_answers = short.group(2).strip()
+        if "|" in raw_answers:
+            # Repozytorium zawiera listę odpowiedzi rozdzielonych pionową kreską.
+            values = [part.strip().lstrip("~=# ").strip() for part in raw_answers.split("|")]
+            answers = tuple(Answer(value, 100.0) for value in values if value)
+        else:
+            answers = _parse_answers(raw_answers)
         return Question(name, "shortanswer", text, answers, source_line=line)
 
     if normalized in {"", "}"}:
