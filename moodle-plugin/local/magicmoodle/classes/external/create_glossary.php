@@ -82,118 +82,129 @@ class create_glossary extends \external_api {
             'section' => $params['sectionnum'],
         ], '*', MUST_EXIST);
 
-        $modinfo = get_fast_modinfo($course);
-        if ($params['idnumber'] !== '') {
-            foreach ($modinfo->get_cms() as $candidate) {
-                if (empty($candidate->deletioninprogress)
-                        && $candidate->modname === 'glossary'
-                        && $candidate->idnumber === $params['idnumber']
-                        && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
-                    throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
-                }
-            }
+        $identity = $params['idnumber'] !== '' ? $params['idnumber'] : $params['name'];
+        $lockkey = 'activity_' . hash('sha256', $course->id . '|' . 'glossary' . '|' . $identity);
+        $lockfactory = \\core\\lock\\lock_config::get_lock_factory('local_magicmoodle');
+        $lock = $lockfactory->get_lock($lockkey, 30);
+        if (!$lock) {
+            throw new \\moodle_exception('locktimeout', 'error');
         }
-        foreach ($modinfo->get_cms() as $existing) {
-            if (empty($existing->deletioninprogress) && $existing->modname === 'glossary'
-                    && (int)$existing->sectionnum === (int)$params['sectionnum']
-                    && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
-                if ($params['idnumber'] !== ''
-                        && $existing->name === $params['name']
-                        && !empty($existing->idnumber)
-                        && $existing->idnumber !== $params['idnumber']) {
-                    throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
-                }
-                if ($params['idnumber'] !== ''
-                        && $existing->idnumber === $params['idnumber']
-                        && $existing->name !== $params['name']) {
-                    throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
-                }
-
-                if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
-                    $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
-                }
-                return [
-                    'cmid' => (int)$existing->id,
-                    'instanceid' => (int)$existing->instance,
-                    'modname' => 'glossary',
-                    'name' => $params['name'],
-                    'created' => false,
-                    'entrycount' => (int)$DB->count_records('glossary_entries', ['glossaryid' => $existing->instance]),
-                ];
-            }
-        }
-
-        $moduleid = $DB->get_field('modules', 'id', ['name' => 'glossary'], MUST_EXIST);
-        $moduleinfo = new \stdClass();
-        $moduleinfo->modulename = 'glossary';
-        $moduleinfo->module = $moduleid;
-        $moduleinfo->course = $course->id;
-        $moduleinfo->section = $section->section;
-        $moduleinfo->name = trim($params['name']);
-        $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
-        $moduleinfo->introformat = FORMAT_HTML;
-        $moduleinfo->globalglossary = 0;
-        $moduleinfo->mainglossary = 0;
-        $moduleinfo->defaultapproval = 1;
-        $moduleinfo->editalways = 0;
-        $moduleinfo->allowduplicatedentries = 0;
-        $moduleinfo->allowcomments = 0;
-        $moduleinfo->usedynalink = 0;
-        $moduleinfo->displayformat = 'dictionary';
-        $moduleinfo->approvaldisplayformat = 'default';
-        $moduleinfo->entbypage = 50;
-        $moduleinfo->showalphabet = 1;
-        $moduleinfo->showall = 1;
-        $moduleinfo->showspecial = 1;
-        $moduleinfo->allowprintview = 1;
-        $moduleinfo->rsstype = 0;
-        $moduleinfo->rssarticles = 0;
-        $moduleinfo->assessed = 0;
-        $moduleinfo->assesstimestart = 0;
-        $moduleinfo->assesstimefinish = 0;
-        $moduleinfo->scale = 0;
-        $moduleinfo->visible = 1;
-        $moduleinfo->groupmode = 0;
-        $moduleinfo->groupingid = 0;
-        $moduleinfo->availability = null;
-        $moduleinfo->completion = COMPLETION_TRACKING_NONE;
-        $moduleinfo->completionview = 0;
-        $moduleinfo->completionexpected = 0;
-        $moduleinfo->completionentries = 0;
-        $moduleinfo->completionentriesenabled = 0;
-        $moduleinfo->showdescription = 0;
-        $moduleinfo->visibleoncoursepage = 1;
-        $moduleinfo->cmidnumber = $params['idnumber'];
-
-        $transaction = $DB->start_delegated_transaction();
         try {
-            $created = add_moduleinfo($moduleinfo, $course);
-            $glossary = $DB->get_record('glossary', ['id' => $created->instance], '*', MUST_EXIST);
-            $modulecontext = \context_module::instance($created->coursemodule);
-            require_capability('mod/glossary:write', $modulecontext);
-
-            foreach ($params['entries'] as $entry) {
-                \mod_glossary_external::add_entry(
-                    (int)$glossary->id,
-                    trim($entry['term']),
-                    clean_text($entry['definition'], FORMAT_HTML),
-                    FORMAT_HTML,
-                    []
-                );
+            $modinfo = get_fast_modinfo($course);
+            if ($params['idnumber'] !== '') {
+                foreach ($modinfo->get_cms() as $candidate) {
+                    if (empty($candidate->deletioninprogress)
+                            && $candidate->modname === 'glossary'
+                            && $candidate->idnumber === $params['idnumber']
+                            && (int)$candidate->sectionnum !== (int)$params['sectionnum']) {
+                        throw new invalid_parameter_exception('This source idnumber already exists in another course section. Move/update the existing activity explicitly instead of creating a duplicate.');
+                    }
+                }
             }
-            $transaction->allow_commit();
-        } catch (\Throwable $exception) {
-            $transaction->rollback($exception);
+            foreach ($modinfo->get_cms() as $existing) {
+                if (empty($existing->deletioninprogress) && $existing->modname === 'glossary'
+                        && (int)$existing->sectionnum === (int)$params['sectionnum']
+                        && ($existing->name === $params['name'] || ($params['idnumber'] !== '' && $existing->idnumber === $params['idnumber']))) {
+                    if ($params['idnumber'] !== ''
+                            && $existing->name === $params['name']
+                            && !empty($existing->idnumber)
+                            && $existing->idnumber !== $params['idnumber']) {
+                        throw new invalid_parameter_exception('An activity with this name already has a different source idnumber. Refusing to reuse it.');
+                    }
+                    if ($params['idnumber'] !== ''
+                            && $existing->idnumber === $params['idnumber']
+                            && $existing->name !== $params['name']) {
+                        throw new invalid_parameter_exception('This source idnumber already belongs to an activity with a different name. An explicit update is required.');
+                    }
+    
+                    if ($params['idnumber'] !== '' && empty($existing->idnumber)) {
+                        $DB->set_field('course_modules', 'idnumber', $params['idnumber'], ['id' => $existing->id]);
+                    }
+                    return [
+                        'cmid' => (int)$existing->id,
+                        'instanceid' => (int)$existing->instance,
+                        'modname' => 'glossary',
+                        'name' => $params['name'],
+                        'created' => false,
+                        'entrycount' => (int)$DB->count_records('glossary_entries', ['glossaryid' => $existing->instance]),
+                    ];
+                }
+            }
+    
+            $moduleid = $DB->get_field('modules', 'id', ['name' => 'glossary'], MUST_EXIST);
+            $moduleinfo = new \stdClass();
+            $moduleinfo->modulename = 'glossary';
+            $moduleinfo->module = $moduleid;
+            $moduleinfo->course = $course->id;
+            $moduleinfo->section = $section->section;
+            $moduleinfo->name = trim($params['name']);
+            $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
+            $moduleinfo->introformat = FORMAT_HTML;
+            $moduleinfo->globalglossary = 0;
+            $moduleinfo->mainglossary = 0;
+            $moduleinfo->defaultapproval = 1;
+            $moduleinfo->editalways = 0;
+            $moduleinfo->allowduplicatedentries = 0;
+            $moduleinfo->allowcomments = 0;
+            $moduleinfo->usedynalink = 0;
+            $moduleinfo->displayformat = 'dictionary';
+            $moduleinfo->approvaldisplayformat = 'default';
+            $moduleinfo->entbypage = 50;
+            $moduleinfo->showalphabet = 1;
+            $moduleinfo->showall = 1;
+            $moduleinfo->showspecial = 1;
+            $moduleinfo->allowprintview = 1;
+            $moduleinfo->rsstype = 0;
+            $moduleinfo->rssarticles = 0;
+            $moduleinfo->assessed = 0;
+            $moduleinfo->assesstimestart = 0;
+            $moduleinfo->assesstimefinish = 0;
+            $moduleinfo->scale = 0;
+            $moduleinfo->visible = 1;
+            $moduleinfo->groupmode = 0;
+            $moduleinfo->groupingid = 0;
+            $moduleinfo->availability = null;
+            $moduleinfo->completion = COMPLETION_TRACKING_NONE;
+            $moduleinfo->completionview = 0;
+            $moduleinfo->completionexpected = 0;
+            $moduleinfo->completionentries = 0;
+            $moduleinfo->completionentriesenabled = 0;
+            $moduleinfo->showdescription = 0;
+            $moduleinfo->visibleoncoursepage = 1;
+            $moduleinfo->cmidnumber = $params['idnumber'];
+    
+            $transaction = $DB->start_delegated_transaction();
+            try {
+                $created = add_moduleinfo($moduleinfo, $course);
+                $glossary = $DB->get_record('glossary', ['id' => $created->instance], '*', MUST_EXIST);
+                $modulecontext = \context_module::instance($created->coursemodule);
+                require_capability('mod/glossary:write', $modulecontext);
+    
+                foreach ($params['entries'] as $entry) {
+                    \mod_glossary_external::add_entry(
+                        (int)$glossary->id,
+                        trim($entry['term']),
+                        clean_text($entry['definition'], FORMAT_HTML),
+                        FORMAT_HTML,
+                        []
+                    );
+                }
+                $transaction->allow_commit();
+            } catch (\Throwable $exception) {
+                $transaction->rollback($exception);
+            }
+    
+            return [
+                'cmid' => (int)$created->coursemodule,
+                'instanceid' => (int)$created->instance,
+                'modname' => 'glossary',
+                'name' => $params['name'],
+                'created' => true,
+                'entrycount' => count($params['entries']),
+            ];
+        } finally {
+            $lock->release();
         }
-
-        return [
-            'cmid' => (int)$created->coursemodule,
-            'instanceid' => (int)$created->instance,
-            'modname' => 'glossary',
-            'name' => $params['name'],
-            'created' => true,
-            'entrycount' => count($params['entries']),
-        ];
     }
 
     public static function execute_returns() {
