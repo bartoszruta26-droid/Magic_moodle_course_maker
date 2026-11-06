@@ -181,6 +181,7 @@ class MoodleClient:
                 "name": activity["name"],
                 "content": activity.get("content", ""),
                 "externalurl": activity.get("externalurl", ""),
+                "idnumber": activity.get("idnumber", ""),
             },
         )
 
@@ -206,6 +207,7 @@ class MoodleClient:
                 "sectionnum": sectionnum,
                 "name": activity["name"],
                 "intro": activity.get("intro", ""),
+                "idnumber": activity.get("idnumber", ""),
                 "entries": entries,
             },
         )
@@ -250,6 +252,7 @@ class MoodleClient:
                 "submissiondrafts": activity.get("submissiondrafts", False),
                 "requiresubmissionstatement": activity.get("requiresubmissionstatement", False),
                 "completionenabled": activity.get("completionenabled", False),
+                "idnumber": activity.get("idnumber", ""),
             },
         )
 
@@ -268,6 +271,7 @@ class MoodleClient:
                 "name": activity["name"],
                 "chapters": chapters,
                 "numbering": activity.get("numbering", 1),
+                "idnumber": activity.get("idnumber", ""),
             },
         )
 
@@ -294,5 +298,6 @@ class MoodleClient:
                 "questionsperpage": activity.get("questionsperpage", 1),
                 "completionenabled": activity.get("completionenabled", False),
                 "completiontype": activity.get("completiontype", "grade"),
+                "idnumber": activity.get("idnumber", ""),
             },
         )
