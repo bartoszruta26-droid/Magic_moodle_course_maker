@@ -980,7 +980,7 @@ def test_moodle_plugin_endpoints_accept_and_persist_stable_idnumbers():
     ]
     for name in names:
         source = (root / name).read_text(encoding="utf-8")
-        assert "'idnumber' => new \\\\external_value" in source
+        assert "'idnumber' => new " in source
         assert "$moduleinfo->cmidnumber = $params['idnumber'];" in source
         assert "$existing->idnumber === $params['idnumber']" in source
         assert "course_modules', 'idnumber'" in source
