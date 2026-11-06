@@ -250,6 +250,8 @@ class MoodleClient:
                 "filename": activity["filename"],
                 "contentbase64": contentbase64,
                 "intro": activity.get("intro", ""),
+                "previousfilename": activity.get("previousfilename", ""),
+                "previoussha256": activity.get("previoussha256", ""),
                 "idnumber": activity.get("idnumber", ""),
             },
         )
