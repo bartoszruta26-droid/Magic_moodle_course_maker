@@ -22,11 +22,17 @@ class create_resource extends \external_api {
             'filename' => new \external_value(PARAM_FILE, 'File name'),
             'contentbase64' => new \external_value(PARAM_RAW, 'Base64 encoded file content'),
             'intro' => new \external_value(PARAM_RAW, 'Resource introduction HTML', VALUE_DEFAULT, ''),
+            'previousfilename' => new \external_value(PARAM_FILE, 'Previously managed file name', VALUE_DEFAULT, ''),
+            'previoussha256' => new \external_value(PARAM_ALPHANUMEXT, 'Previous managed file SHA-256', VALUE_DEFAULT, ''),
+            'syncfields' => new \external_multiple_structure(
+                new \external_value(PARAM_ALPHANUMEXT, 'Explicitly source-managed setting'),
+                'Settings to synchronize', VALUE_DEFAULT, ['name', 'file']
+            ),
             'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
-    public static function execute($courseid, $sectionnum, $name, $filename, $contentbase64, $intro = '', $idnumber = '') {
+    public static function execute($courseid, $sectionnum, $name, $filename, $contentbase64, $intro = '', $previousfilename = '', $previoussha256 = '', $syncfields = ['name', 'file'], $idnumber = '') {
         global $CFG, $DB, $USER;
 
         $params = self::validate_parameters(self::execute_parameters(), [
@@ -37,8 +43,25 @@ class create_resource extends \external_api {
             'filename' => $filename,
             'contentbase64' => $contentbase64,
             'intro' => $intro,
+            'previousfilename' => $previousfilename,
+            'previoussha256' => $previoussha256,
+            'syncfields' => $syncfields,
         ]);
 
+        $allowedfields = ['name', 'intro', 'file'];
+        $syncfields = array_values(array_unique($params['syncfields']));
+        foreach ($syncfields as $field) {
+            if (!in_array($field, $allowedfields, true)) {
+                throw new invalid_parameter_exception('Unsupported Resource synchronization field: ' . $field);
+            }
+        }
+        if (!in_array('name', $syncfields, true) || !in_array('file', $syncfields, true)) {
+            throw new invalid_parameter_exception('Resource synchronization requires name and file fields.');
+        }
+        if ($params['previoussha256'] !== ''
+                && !preg_match('/^[a-f0-9]{64}$/', $params['previoussha256'])) {
+            throw new invalid_parameter_exception('Previous Resource SHA-256 must be a lowercase hexadecimal digest.');
+        }
         if (strlen($params['idnumber']) > 100) {
             throw new \invalid_parameter_exception('Activity idnumber must not exceed 100 characters.');
         }
