@@ -22,7 +22,7 @@ Konfiguracja usługi i tokenu odbywa się po stronie administratora Moodle:
 
 ## Instalacja pluginu
 
-Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj siedem funkcji pluginu do usługi zewnętrznej. Plugin w wersji 0.1.10 udostępnia funkcje do aktualizacji nazwy sekcji oraz tworzenia aktywności Page, Label, URL, Book, Quiz, Assignment, Resource i Glossary z kontrolą kontekstu i uprawnień.
+Skopiuj katalog `moodle-plugin/local/magicmoodle` do `<moodle>/local/magicmoodle`, a następnie zaloguj się jako administrator i przejdź do powiadomień, aby wykonać instalację. Dodaj siedem funkcji pluginu do usługi zewnętrznej. Plugin w wersji 0.1.11 udostępnia funkcje do aktualizacji nazwy sekcji oraz synchronizacji Page, Label i URL, a także tworzenia aktywności Page, Label, URL, Book, Quiz, Assignment, Resource i Glossary z kontrolą kontekstu i uprawnień.
 
 ## Konfiguracja klienta
 
@@ -59,6 +59,6 @@ Klient sprawdza istnienie kursu po `shortname` i nie tworzy duplikatu. Nowy kurs
 - Konto techniczne powinno mieć minimalne wymagane role i capabilities.
 - REST Moodle jest wywoływany metodą POST, z kodowaniem parametrów tablicowych Moodle.
 - Operacja nie jest transakcją rozproszoną. Błąd w trakcie publikacji może pozostawić częściowo utworzony kurs. Komunikat błędu wskazuje sekcję lub aktywność, pozycję w kolejce, identyfikator `idnumber` i liczbę wcześniej obsłużonych aktywności. Po usunięciu przyczyny można ponowić całe polecenie: kurs i aktywności są rozpoznawane idempotentnie, więc wcześniej utworzone elementy nie są duplikowane.
-- Idempotencja obejmuje wyszukanie kursu po shortname oraz stabilne identyfikatory źródłowe `idnumber` wyliczane z kursu, sekcji, typu i ścieżki `ref`. Zmiana nazwy aktywności nie tworzy duplikatu; dla wcześniej utworzonych aktywności bez `idnumber` identyfikator jest uzupełniany przy ponownym odnalezieniu po nazwie. Istniejąca aktywność Book jest pozostawiana bez zmian — synchronizacja treści istniejących aktywności będzie osobnym etapem.
-- Wbudowane tworzenie aktywności obejmuje Page, Label, URL, Book, Quiz i Assignment. Synchronizacja treści już istniejących aktywności wymaga dalszego adaptera aktualizacji.
+- Idempotencja obejmuje wyszukanie kursu po shortname oraz stabilne identyfikatory źródłowe `idnumber` wyliczane z kursu, sekcji, typu i ścieżki `ref`. Zmiana nazwy aktywności nie tworzy duplikatu; dla wcześniej utworzonych aktywności bez `idnumber` identyfikator jest uzupełniany przy ponownym odnalezieniu po nazwie. Ponowna publikacja Page, Label i URL aktualizuje istniejący obiekt przez update_moduleinfo, zachowując cmid i instanceid. Aktualizacja jest wykonywana w transakcji Moodle, a cache kursu jest przebudowywany przed zatwierdzeniem. Book, Glossary, Quiz, Assignment i Resource są na tym etapie nadal tylko odnajdywane idempotentnie — ich treść i ustawienia nie są jeszcze synchronizowane.
+- Wbudowane tworzenie aktywności obejmuje Page, Label, URL, Book, Quiz, Assignment, Glossary i Resource. Synchronizacja istniejących aktywności jest wdrażana etapami; zakres obsługiwany w wersji 0.1.11 to Page, Label i URL.
 - Testy automatyczne używają atrap HTTP; rzeczywista publikacja wymaga testu na osobnej instancji Moodle 4.1.8.
