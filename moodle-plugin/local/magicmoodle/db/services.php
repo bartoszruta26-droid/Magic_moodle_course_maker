@@ -16,6 +16,13 @@ $functions = [
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities',
     ],
+    'local_magicmoodle_create_glossary' => [
+        'classname' => '\\local_magicmoodle\\external\\create_glossary',
+        'description' => 'Create a Glossary activity and import its term definitions.',
+        'type' => 'write',
+        'ajax' => false,
+        'capabilities' => 'moodle/course:manageactivities, mod/glossary:addinstance, mod/glossary:write',
+    ],
     'local_magicmoodle_create_resource' => [
         'classname' => '\\local_magicmoodle\\external\\create_resource',
         'description' => 'Upload one file and create a Moodle File resource activity.',
