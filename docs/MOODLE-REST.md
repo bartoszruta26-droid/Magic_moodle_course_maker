@@ -2,7 +2,7 @@
 
 ## Wymagania
 
-1. Moodle 4.1 lub nowszy z włączonym protokołem REST.
+1. Moodle 4.2 lub nowszy z włączonym protokołem REST.
 2. Utworzona usługa zewnętrzna, token dla dedykowanego konta technicznego i uprawnienia do tworzenia kursów oraz aktywności.
 3. Zainstalowany lokalny plugin `local_magicmoodle` z katalogu `moodle-plugin/local/magicmoodle`.
 4. Dozwolone funkcje usługi:
