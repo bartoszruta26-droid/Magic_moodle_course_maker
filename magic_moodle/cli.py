@@ -3,12 +3,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
 from .course_export import export_course_json
 from .gift import GiftParseError, parse_gift, validate_question_bank
 from .loader import CourseLoadError, load_course
+from .moodle_api import MoodleAPIError, MoodleClient, MoodleConfig
+from .moodle_publish import build_publish_plan, publish_course
 from .moodle_xml import export_moodle_xml
 from .question_bank import load_question_bank
 from .validation import validate_course
@@ -28,6 +31,14 @@ def _parser() -> argparse.ArgumentParser:
     )
     course_export.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
     course_export.add_argument("destination", type=Path, help="Docelowy plik JSON")
+
+    moodle_publish = commands.add_parser(
+        "moodle-publish", help="Utwórz kurs i opublikuj obsługiwane aktywności przez Moodle REST API"
+    )
+    moodle_publish.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
+    moodle_publish.add_argument("--category-id", type=int, default=None, help="Id kategorii Moodle")
+    moodle_publish.add_argument("--dry-run", action="store_true", help="Pokaż plan bez połączenia z Moodle")
+    moodle_publish.add_argument("--json", action="store_true", help="Wynik w formacie JSON")
 
     gift_validate = commands.add_parser("gift-validate", help="Sprawdź składnię i typy pytań GIFT")
     gift_validate.add_argument("source", type=Path, help="Plik GIFT")
@@ -57,6 +68,28 @@ def _load_bank(path: Path):
 
 def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
+
+    if args.command == "moodle-publish":
+        try:
+            course = load_course(args.course)
+            category_id = args.category_id or int(os.environ.get("MOODLE_CATEGORY_ID", "0"))
+            plan = build_publish_plan(course, category_id)
+            if args.dry_run:
+                result = publish_course(None, course, category_id, dry_run=True)
+            else:
+                client = MoodleClient(MoodleConfig.from_env())
+                result = publish_course(client, course, category_id)
+            if args.json:
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+            else:
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+                if plan.warnings:
+                    for warning in plan.warnings:
+                        print(f"OSTRZEŻENIE: {warning}", file=sys.stderr)
+            return 0
+        except (CourseLoadError, MoodleAPIError, OSError, ValueError) as exc:
+            print(f"BŁĄD publikacji Moodle: {exc}", file=sys.stderr)
+            return 2
 
     if args.command in {"gift-validate", "gift-to-xml", "bank-validate", "bank-to-xml"}:
         try:
