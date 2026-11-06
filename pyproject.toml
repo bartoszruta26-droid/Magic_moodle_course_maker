@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "magic-moodle-course-maker"
-version = "0.1.0"
-description = "Uniwersalny rdzeń do analizy i walidacji kursów Moodle"
+version = "0.2.0"
+description = "Uniwersalny rdzeń do generowania i publikacji kursów Moodle"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["PyYAML>=6.0,<7"]
