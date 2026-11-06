@@ -8,6 +8,7 @@ use invalid_parameter_exception;
 
 require_once($CFG->libdir . '/externallib.php');
 require_once($CFG->dirroot . '/course/modlib.php');
+require_once($CFG->dirroot . '/mod/page/locallib.php');
 
 class create_activity extends \external_api {
     public static function execute_parameters() {
@@ -129,7 +130,15 @@ class create_activity extends \external_api {
                             ? $params['idnumber'] : (string)$existing->idnumber;
 
                         if ($params['modname'] === 'page') {
-                            $moduleinfo->content = $safecontent;
+                            $page = $DB->get_record('page', ['id' => $existing->instance], '*', MUST_EXIST);
+                            $modulecontext = \\context_module::instance($existing->id);
+                            $editoroptions = page_get_editor_options($modulecontext);
+                            $page = file_prepare_standard_editor(
+                                $page, 'content', $editoroptions, $modulecontext, 'mod_page', 'content', $page->id
+                            );
+                            $moduleinfo->content = $page->content_editor;
+                            $moduleinfo->content['text'] = $safecontent;
+                            $moduleinfo->content['format'] = FORMAT_HTML;
                             $moduleinfo->contentformat = FORMAT_HTML;
                             $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
                             $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
@@ -196,7 +205,11 @@ class create_activity extends \external_api {
             $moduleinfo->cmidnumber = $params['idnumber'];
     
             if ($params['modname'] === 'page') {
-                $moduleinfo->content = $safecontent;
+                $moduleinfo->content = [
+                    'text' => $safecontent,
+                    'format' => FORMAT_HTML,
+                    'itemid' => file_get_unused_draft_itemid(),
+                ];
                 $moduleinfo->contentformat = FORMAT_HTML;
                 $moduleinfo->display = RESOURCELIB_DISPLAY_AUTO;
                 $moduleinfo->displayoptions = serialize(['printheading' => 1, 'printintro' => 0]);
