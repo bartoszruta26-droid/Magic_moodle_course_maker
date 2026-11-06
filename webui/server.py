@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+import ipaddress
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlparse
@@ -67,7 +68,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self) -> None:  # noqa: N802
         parsed = urlparse(self.path)
         if parsed.path == "/api/health":
-            return self._json({"ok": True, "courses_root": str(ROOT)})
+            return self._json({"ok": True})
         if parsed.path == "/api/courses":
             return self._json({"courses": list_courses()})
         if parsed.path.startswith("/api/courses/") and parsed.path.endswith("/validate"):
@@ -118,6 +119,11 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main() -> None:
+    try:
+        if not ipaddress.ip_address(HOST).is_loopback:
+            raise SystemExit("WebUI jest lokalny i może nasłuchiwać wyłącznie na adresie loopback.")
+    except ValueError as exc:
+        raise SystemExit("MAGIC_MOODLE_WEBUI_HOST musi być adresem IP loopback.") from exc
     if not ROOT.is_dir():
         raise SystemExit(f"Katalog kursów nie istnieje: {ROOT}")
     server = ThreadingHTTPServer((HOST, PORT), Handler)
