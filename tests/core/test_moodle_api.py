@@ -719,7 +719,7 @@ def _sample_file_course(tmp_path: Path):
         "  - type: file\n    ref: files/manual.pdf\n    name: Instrukcja PDF\n",
         encoding="utf-8",
     )
-    (filesdir / "manual.pdf").write_bytes(b"%PDF-1.4\\x00sample binary content")
+    (filesdir / "manual.pdf").write_bytes(b"%PDF-1.4\x00sample binary content")
     return load_course(tmp_path)
 
 
@@ -730,8 +730,8 @@ def test_file_resource_is_loaded_as_base64_and_preflighted(tmp_path):
     item = plan.activities[0]
     assert item["type"] == "file"
     assert item["filename"] == "manual.pdf"
-    assert base64.b64decode(item["contentbase64"]) == b"%PDF-1.4\\x00sample binary content"
-    assert item["filesize"] == len(b"%PDF-1.4\\x00sample binary content")
+    assert base64.b64decode(item["contentbase64"]) == b"%PDF-1.4\x00sample binary content"
+    assert item["filesize"] == len(b"%PDF-1.4\x00sample binary content")
 
 
 def test_file_resource_preflight_rejects_path_like_filename(tmp_path):
