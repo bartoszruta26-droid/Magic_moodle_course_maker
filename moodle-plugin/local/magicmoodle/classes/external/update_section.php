@@ -1,5 +1,5 @@
 <?php
-namespace local_magicmoodle\\external;
+namespace local_magicmoodle\external;
 
 defined('MOODLE_INTERNAL') || die();
 
@@ -11,11 +11,6 @@ use external_function_parameters;
 use external_single_structure;
 use external_value;
 use invalid_parameter_exception;
-use moodle_exception;
-use PARAM_INT;
-use PARAM_TEXT;
-use PARAM_BOOL;
-use VALUE_REQUIRED;
 
 class update_section extends external_api {
     public static function execute_parameters() {
