@@ -58,6 +58,9 @@ class create_quiz extends \external_api {
         require_capability('moodle/course:manageactivities', $coursecontext);
         require_capability('mod/quiz:addinstance', $coursecontext);
         require_capability('moodle/question:add', $coursecontext);
+        if (!has_any_capability(['moodle/question:usemine', 'moodle/question:useall'], $coursecontext)) {
+            throw new invalid_parameter_exception('The service account must be allowed to use questions in the course context.');
+        }
 
         if ($params['sectionnum'] < 0 || trim($params['name']) === ''
                 || \core_text::strlen($params['name']) > 255) {
