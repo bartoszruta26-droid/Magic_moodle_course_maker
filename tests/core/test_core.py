@@ -190,3 +190,34 @@ def test_rejects_oversized_yaml_file(tmp_path: Path) -> None:
     (root / "course.yaml").write_text("x: " + ("a" * (2 * 1024 * 1024)), encoding="utf-8")
     with pytest.raises(CourseLoadError, match="przekracza limit"):
         load_course(root)
+
+
+
+def test_rejects_symlinked_section_config_outside_course(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    section = root / "sections" / "01-intro"
+    outside = tmp_path / "external-section.yaml"
+    outside.write_text("id: 9\\nname: Obca\\nmodules: []\\n", encoding="utf-8")
+    (section / "section.yaml").unlink()
+    try:
+        (section / "section.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
+        load_course(root)
+
+
+def test_rejects_symlinked_course_config_outside_root(tmp_path: Path) -> None:
+    root = make_course(tmp_path / "course")
+    outside = tmp_path / "external-course.yaml"
+    outside.write_text(
+        "course:\\n  full_name: Zewnętrzny\\n  short_name: EXT\\n",
+        encoding="utf-8",
+    )
+    (root / "course.yaml").unlink()
+    try:
+        (root / "course.yaml").symlink_to(outside)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+    with pytest.raises(CourseLoadError, match="poza dozwolony katalog"):
+        load_course(root)
