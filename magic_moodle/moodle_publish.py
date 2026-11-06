@@ -261,6 +261,8 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         syncfields.append(targetfield)
                 if "completion" in activity.resource:
                     syncfields.append("completion")
+                    if "min_score" in completion:
+                        syncfields.append("passingpercent")
                 item.update({
                     "intro": _markdown_to_html(intro),
                     "gift": gift_source,
