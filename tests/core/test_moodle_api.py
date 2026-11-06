@@ -135,3 +135,56 @@ def test_ensure_course_reuses_existing_shortname():
     assert course["id"] == 42
     assert created is False
     create.assert_not_called()
+
+
+def test_url_activity_is_loaded_and_added_to_publish_plan(tmp_path):
+    section = tmp_path / "sections" / "01"
+    section.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\\n  full_name: Kurs URL\\n  short_name: KURL\\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\\nname: Zasoby\\nmodules:\\n"
+        "  - type: url\\n    ref: source.yaml\\n    name: Dokumentacja\\n",
+        encoding="utf-8",
+    )
+    (section / "source.yaml").write_text(
+        "url: https://docs.moodle.org/401/\\n",
+        encoding="utf-8",
+    )
+    plan = build_publish_plan(load_course(tmp_path), 2)
+    assert not plan.warnings
+    assert plan.activities[0]["type"] == "url"
+    assert plan.activities[0]["externalurl"] == "https://docs.moodle.org/401/"
+
+
+def test_url_activity_without_target_stops_preflight(tmp_path):
+    section = tmp_path / "sections" / "01"
+    section.mkdir(parents=True)
+    (tmp_path / "course.yaml").write_text(
+        "course:\\n  full_name: Kurs URL\\n  short_name: KURL\\n",
+        encoding="utf-8",
+    )
+    (section / "section.yaml").write_text(
+        "id: '01'\\nname: Zasoby\\nmodules:\\n"
+        "  - type: url\\n    ref: source.yaml\\n    name: Brak adresu\\n",
+        encoding="utf-8",
+    )
+    (section / "source.yaml").write_text("title: Bez adresu\\n", encoding="utf-8")
+    plan = build_publish_plan(load_course(tmp_path), 2)
+    assert any("nie zawiera pola externalurl/url" in warning for warning in plan.warnings)
+
+
+def test_create_url_activity_sends_target_url_to_plugin():
+    client = MoodleClient(MoodleConfig("https://moodle.example", "secret"))
+    with patch.object(client, "call", return_value={"created": True}) as call:
+        client.create_activity(7, 1, {
+            "type": "url",
+            "name": "Dokumentacja",
+            "content": "",
+            "externalurl": "https://docs.moodle.org/401/",
+        })
+    assert call.call_args.args[0] == "local_magicmoodle_create_activity"
+    assert call.call_args.args[1]["modname"] == "url"
+    assert call.call_args.args[1]["externalurl"] == "https://docs.moodle.org/401/"
