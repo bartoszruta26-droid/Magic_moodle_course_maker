@@ -191,3 +191,21 @@ class MoodleClient:
             "local_magicmoodle_update_section",
             {"courseid": courseid, "sectionnum": sectionnum, "name": name},
         )
+
+    def create_book(
+        self, courseid: int, sectionnum: int, activity: Mapping[str, Any]
+    ) -> dict[str, Any]:
+        """Create a Moodle Book activity with ordered chapters."""
+        chapters = activity.get("chapters")
+        if not isinstance(chapters, list) or not chapters:
+            raise MoodleAPIError("Aktywność Book wymaga co najmniej jednego rozdziału.")
+        return self.call(
+            "local_magicmoodle_create_book",
+            {
+                "courseid": courseid,
+                "sectionnum": sectionnum,
+                "name": activity["name"],
+                "chapters": chapters,
+                "numbering": activity.get("numbering", 1),
+            },
+        )
