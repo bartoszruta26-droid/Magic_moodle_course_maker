@@ -67,7 +67,8 @@ class create_activity extends external_api {
             }
         }
 
-        $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);\n        $safecontent = clean_text($params['content'], FORMAT_HTML);
+        $moduleid = $DB->get_field('modules', 'id', ['name' => $params['modname']], MUST_EXIST);
+        $safecontent = clean_text($params['content'], FORMAT_HTML);
 
         $moduleinfo = new \stdClass();
         $moduleinfo->modulename = $params['modname'];
