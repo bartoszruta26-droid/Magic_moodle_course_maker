@@ -201,7 +201,8 @@ class create_quiz extends \external_api {
     
             $tempdir = make_temp_directory('local_magicmoodle');
             $giftfile = tempnam($tempdir, 'gift');
-            if ($giftfile === false || file_put_contents($giftfile, $params['gift']) === false) {
+            $giftbytes = $giftfile === false ? false : file_put_contents($giftfile, $params['gift']);
+            if ($giftfile === false || $giftbytes !== strlen($params['gift'])) {
                 if ($giftfile && is_file($giftfile)) {
                     unlink($giftfile);
                 }
