@@ -26,3 +26,8 @@ jobs:
         run: python -m magic_moodle bank-to-xml courses/03-kurs-masazysta-med10/question-bank build/med10-question-bank.xml --category '$course$/MED.10'
       - name: Verify generated Moodle XML
         run: python -c "import xml.etree.ElementTree as ET; r=ET.parse('build/med10-question-bank.xml').getroot(); assert len(r.findall('question')) > 20"
+      - name: Lint Moodle local plugin PHP
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y php-cli
+          find moodle-plugin/local/magicmoodle -name '*.php' -print0 | xargs -0 -n1 php -l
