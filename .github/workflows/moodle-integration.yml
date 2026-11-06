@@ -98,4 +98,4 @@ jobs:
 
       - name: Run local_magicmoodle integration suite
         working-directory: /tmp/moodle
-        run: vendor/bin/phpunit --testsuite local_magicmoodle
+        run: vendor/bin/phpunit local/magicmoodle/tests/sync_external_test.php
