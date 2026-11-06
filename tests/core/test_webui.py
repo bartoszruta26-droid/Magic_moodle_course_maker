@@ -45,4 +45,3 @@ def test_list_courses_handles_invalid_course(tmp_path: Path, monkeypatch):
     assert len(result) == 1
     assert result[0]["id"] == "broken"
     assert result[0]["sections"] == "—"
-}
