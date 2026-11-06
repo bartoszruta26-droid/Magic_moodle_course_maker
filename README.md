@@ -532,7 +532,6 @@ Rdzeń zawiera klienta Moodle REST API oraz polecenie `moodle-publish`.
 Publikacja tworzy lub odnajduje kurs po nazwie skróconej, aktualizuje nazwy
 sekcji i tworzy aktywności Page, Label, URL, Book, Quiz, Assignment oraz pliki
 Resource. Wymaga lokalnego pluginu Moodle `local_magicmoodle`.
-na etapie kontroli wstępnej, dopóki nie zostaną dodane odpowiednie adaptery.
 
 Szczegółowa instalacja, konfiguracja tokenu i użycie:
 [`docs/MOODLE-REST.md`](docs/MOODLE-REST.md).
