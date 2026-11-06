@@ -114,6 +114,7 @@ class create_book extends \external_api {
             $created = add_moduleinfo($moduleinfo, $course);
             $book = $DB->get_record('book', ['id' => $created->instance], '*', MUST_EXIST);
             $modulecontext = \context_module::instance($created->coursemodule);
+            require_capability('mod/book:edit', $modulecontext);
             $now = time();
 
             foreach ($params['chapters'] as $index => $chapterdata) {
