@@ -16,7 +16,6 @@ class create_glossary extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
-            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Glossary name'),
             'intro' => new \external_value(PARAM_RAW, 'Glossary introduction HTML', VALUE_DEFAULT, ''),
             'entries' => new \external_multiple_structure(
@@ -26,6 +25,7 @@ class create_glossary extends \external_api {
                 ]),
                 'Glossary entries'
             ),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
