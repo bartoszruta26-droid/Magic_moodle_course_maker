@@ -224,3 +224,16 @@ def test_question_bank_rejects_symlinked_gift_outside_directory(tmp_path):
         pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
     with pytest.raises(GiftParseError, match="wychodzi poza katalog banku"):
         load_question_bank(bankdir)
+
+
+
+def test_moodle_xml_rejects_xml_10_control_characters():
+    bank = parse_gift("::control:: Invalid\\x01 character? {=Yes ~No}")
+    with pytest.raises(ValueError, match="XML 1.0"):
+        to_moodle_xml(bank)
+
+
+def test_moodle_xml_rejects_invalid_category():
+    bank = parse_gift("::q:: Question? {=Yes ~No}")
+    with pytest.raises(ValueError, match="Kategoria Moodle XML"):
+        to_moodle_xml(bank, category="")
