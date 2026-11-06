@@ -25,14 +25,14 @@ $functions = [
     ],
     'local_magicmoodle_create_resource' => [
         'classname' => '\\local_magicmoodle\\external\\create_resource',
-        'description' => 'Upload one file and create a Moodle File resource activity.',
+        'description' => 'Create or update a Resource activity using manifest-bound file identity and Moodle File API.',
         'type' => 'write',
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities, mod/resource:addinstance',
     ],
     'local_magicmoodle_create_assignment' => [
         'classname' => '\\local_magicmoodle\\external\\create_assignment',
-        'description' => 'Create an Assignment activity with submission types, grading and due dates.',
+        'description' => 'Create or update an Assignment while protecting existing submissions and unmanaged settings.',
         'type' => 'write',
         'ajax' => false,
         'capabilities' => 'moodle/course:manageactivities, mod/assign:addinstance',
