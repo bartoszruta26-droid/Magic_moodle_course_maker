@@ -19,7 +19,6 @@ class create_quiz extends \external_api {
         return new \external_function_parameters([
             'courseid' => new \external_value(PARAM_INT, 'Course id'),
             'sectionnum' => new \external_value(PARAM_INT, 'Zero-based section number'),
-            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
             'name' => new \external_value(PARAM_TEXT, 'Quiz name'),
             'intro' => new \external_value(PARAM_RAW, 'Quiz introduction HTML', VALUE_DEFAULT, ''),
             'gift' => new \external_value(PARAM_RAW, 'GIFT source text'),
@@ -31,6 +30,7 @@ class create_quiz extends \external_api {
             'questionsperpage' => new \external_value(PARAM_INT, 'Questions per page', VALUE_DEFAULT, 1),
             'completionenabled' => new \external_value(PARAM_BOOL, 'Enable activity completion', VALUE_DEFAULT, false),
             'completiontype' => new \external_value(PARAM_ALPHANUMEXT, 'Completion condition: grade or view', VALUE_DEFAULT, 'grade'),
+            'idnumber' => new \external_value(PARAM_ALPHANUMEXT, 'Stable source identifier', VALUE_DEFAULT, ''),
         ]);
     }
 
