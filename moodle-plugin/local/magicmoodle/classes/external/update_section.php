@@ -5,14 +5,10 @@ defined('MOODLE_INTERNAL') || die();
 
 
 use context_course;
-use core_external\external_api;
-use core_external\external_function_parameters;
-use core_external\external_single_structure;
-use core_external\external_value;
 use invalid_parameter_exception;
+require_once($CFG->libdir . '/externallib.php');
 
 // Moodle 4.1 uses the legacy global External API classes.
-require_once($CFG->libdir . '/externallib.php');
 
 class update_section extends \external_api {
     public static function execute_parameters() {
