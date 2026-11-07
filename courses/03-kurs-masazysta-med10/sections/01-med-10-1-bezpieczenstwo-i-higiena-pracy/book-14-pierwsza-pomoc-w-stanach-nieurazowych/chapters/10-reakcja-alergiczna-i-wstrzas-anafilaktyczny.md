@@ -1,55 +1,57 @@
 # 1.14.9. Reakcja alergiczna i wstrząs anafilaktyczny
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Anafilaksja jest ciężką, szybko rozwijającą się reakcją nadwrażliwości, która może zagrażać życiu. Pierwsza pomoc wymaga wczesnego rozpoznania, natychmiastowego wezwania zespołu ratownictwa medycznego oraz szybkiego użycia adrenaliny w autowstrzykiwaczu, jeżeli jest dostępny i osoba udzielająca pomocy potrafi go użyć. Leki przeciwhistaminowe nie zastępują adrenaliny.
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+## Objawy sugerujące anafilaksję
 
-## Istota zagadnienia — ujęcie systematyczne
+Podejrzewaj anafilaksję, zwłaszcza po kontakcie z możliwym alergenem (np. pokarmem lub jadem owada), gdy pojawiają się:
+- świst krtaniowy, chrypka, obrzęk języka lub gardła, świszczący oddech albo trudności w oddychaniu;
+- uogólniona pokrzywka, zaczerwienienie, świąd lub obrzęk;
+- bladość, zimna i wilgotna skóra, osłabienie, zawroty głowy lub uczucie omdlenia;
+- ból brzucha, wymioty lub biegunka.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+Objawy skórne mogą nie występować. Nie czekaj na ich pojawienie się, jeśli występują nagłe zaburzenia oddychania lub krążenia po prawdopodobnym kontakcie z alergenem.
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+## Postępowanie krok po kroku
 
-## Metodyka postępowania — krok po kroku
+1. Przerwij zabieg i usuń możliwe źródło ekspozycji, jeżeli można to zrobić natychmiast i bezpiecznie. Nie opóźniaj wezwania pomocy.
+2. Zadzwoń pod 112 lub 999. Powiedz, że podejrzewasz anafilaksję. Włącz tryb głośnomówiący i postępuj według wskazówek dyspozytora.
+3. Pomóż osobie użyć jej własnego autowstrzykiwacza z adrenaliną, jeśli jest dostępny. Adrenalinę podaje się domięśniowo w zewnętrzną część uda, zgodnie z instrukcją urządzenia. Może ją podać sama osoba albo przeszkolony pomocnik.
+4. Zapewnij pozycję leżącą. Przy nasilonych trudnościach w oddychaniu osoba może siedzieć z wyprostowanymi nogami, jeśli taka pozycja ułatwia oddychanie. Nie pozwalaj jej wstawać, chodzić ani nagle zmieniać pozycji.
+5. Pozostań z poszkodowanym i stale obserwuj oddech oraz świadomość. Jeśli objawy utrzymują się po 5 minutach, druga dawka adrenaliny może być potrzebna — użyj kolejnego dostępnego autowstrzykiwacza zgodnie z zaleceniem dyspozytora i instrukcją urządzenia.
+6. Jeśli osoba traci przytomność i nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
+7. Nawet po poprawie stanu konieczna jest pilna ocena medyczna. Nie odwołuj wezwania ZRM.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Pozycjonowanie i bezpieczeństwo
 
-## Scenariusz sytuacyjny (studium przypadku)
+- Osoba z podejrzeniem anafilaksji powinna pozostać w pozycji leżącej, o ile nie występują trudności w oddychaniu wymagające pozycji siedzącej z nogami wyprostowanymi.
+- Nie pozwalaj osobie z objawami anafilaksji wstawać lub chodzić, nawet jeśli poczuje chwilową poprawę.
+- Nie podawaj niczego doustnie osobie z zaburzeniami świadomości lub trudnościami w połykaniu.
+- Nie zastępuj adrenaliny lekami przeciwhistaminowymi ani glikokortykosteroidami. Nie opóźniaj adrenaliny, oczekując na działanie innych leków.
+- Tlen może być podawany wyłącznie przez osobę przeszkoloną, jeśli jest wskazany i dostępny.
+- Nie pozostawiaj poszkodowanego samego. Przygotuj opakowanie użytego autowstrzykiwacza do przekazania ratownikom.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Rola masażysty
 
-## Najczęstsze błędy początkujących
+Masażysta przerywa zabieg, wzywa ZRM, pomaga użyć własnego autowstrzykiwacza poszkodowanego w granicach przeszkolenia i monitoruje jego stan. Nie wykonuje diagnostyki alergologicznej i nie dobiera samodzielnie leków. Po przyjeździe ZRM przekazuje informacje o możliwym alergenie, czasie początku objawów, zastosowanej adrenalinie i reakcji na nią.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Ćwiczenie praktyczne
 
-## Pytania utrwalające
+Na urządzeniu treningowym przećwicz rozpoznanie objawów anafilaksji, wezwanie 112/999, prawidłowe przygotowanie i użycie treningowego autowstrzykiwacza w zewnętrzną część uda, bezpieczne ułożenie poszkodowanego i obserwację do przyjazdu ZRM.
 
-1. Omów mechanizmy leżące u podstaw: Reakcja alergiczna i wstrząs anafilaktyczny. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Pytania kontrolne
 
-## Słowniczek minimalny
+1. Jakie objawy mogą wskazywać na anafilaksję?
+2. Dlaczego nie należy czekać na wystąpienie objawów skórnych?
+3. Gdzie podaje się adrenalinę z autowstrzykiwacza?
+4. Jak należy ułożyć osobę z anafilaksją i dlaczego nie wolno jej pozwalać chodzić?
+5. Kiedy może być potrzebna kolejna dawka adrenaliny?
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+## Źródła
 
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
