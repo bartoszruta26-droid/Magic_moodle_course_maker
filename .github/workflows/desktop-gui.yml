@@ -1,0 +1,65 @@
+name: Desktop GUI
+
+on:
+  push:
+    branches: [main, "feature/**"]
+    paths:
+      - "desktopgui/**"
+      - "magic_moodle/application/**"
+      - "tests/core/test_desktopgui.py"
+      - ".github/workflows/desktop-gui.yml"
+  pull_request:
+    paths:
+      - "desktopgui/**"
+      - "magic_moodle/application/**"
+      - "tests/core/test_desktopgui.py"
+      - ".github/workflows/desktop-gui.yml"
+  workflow_dispatch:
+
+jobs:
+  desktop-smoke:
+    runs-on: ubuntu-latest
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install DesktopGUI dependencies
+        run: python -m pip install -e ".[desktop]"
+      - name: Build and inspect desktop window
+        run: |
+          python - <<'PY'
+          import os
+          import tempfile
+          from pathlib import Path
+
+          from PySide6.QtWidgets import QApplication, QPushButton
+          from desktopgui.app import _build_window
+
+          with tempfile.TemporaryDirectory() as temporary:
+              root = Path(temporary)
+              course = root / "sample"
+              course.mkdir()
+              (course / "course.yaml").write_text(
+                  "course:\\n  full_name: Kurs GUI\\n  short_name: GUI\\n",
+                  encoding="utf-8",
+              )
+              section = course / "sections" / "intro"
+              section.mkdir(parents=True)
+              (section / "section.yaml").write_text(
+                  "id: intro\\nname: Wprowadzenie\\nmodules: []\\n",
+                  encoding="utf-8",
+              )
+              os.environ["MAGIC_MOODLE_COURSES"] = temporary
+              app = QApplication([])
+              window = _build_window()
+              assert window.course_list.count() == 1
+              assert "Kurs GUI" in window.details.toPlainText()
+              labels = [button.text() for button in window.findChildren(QPushButton)]
+              assert "Edytuj wersję roboczą" in labels
+              window.close()
+              app.quit()
+          PY
