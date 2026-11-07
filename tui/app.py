@@ -92,7 +92,7 @@ def _build_app():
             if not visible:
                 self._selected_id = None
                 self.query_one("#detail", Static).update(
-                    "Brak kursów pasujących do wyszukiwania.", markup=False
+                    "Brak kursów pasujących do wyszukiwania."
                 )
 
         def on_input_changed(self, event: Input.Changed) -> None:
@@ -116,12 +116,12 @@ def _build_app():
                 course, report = self.service.validate(self._selected_id)
             except CourseNotFoundError:
                 self.query_one("#detail", Static).update(
-                    "Nie znaleziono wybranego kursu.", markup=False
+                    "Nie znaleziono wybranego kursu."
                 )
                 return
             except (CourseLoadError, OSError, ValueError):
                 self.query_one("#detail", Static).update(
-                    "Nie udało się wczytać lub zwalidować kursu.", markup=False
+                    "Nie udało się wczytać lub zwalidować kursu."
                 )
                 return
 
@@ -139,7 +139,7 @@ def _build_app():
                     f"[{finding.severity.upper()}] {finding.code}: "
                     f"{finding.path}: {finding.message}"
                 )
-            self.query_one("#detail", Static).update("\n".join(lines), markup=False)
+            self.query_one("#detail", Static).update("\n".join(lines))
 
         def action_refresh(self) -> None:
             self.refresh_courses()
