@@ -1,55 +1,71 @@
-# 1.14.8. Hiperglikemia i kwasica — rozpoznanie zagrożenia
+# 1.14.8. Hiperglikemia i cukrzycowa kwasica ketonowa — rozpoznanie zagrożenia
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Hiperglikemia oznacza podwyższone stężenie glukozy we krwi. Sama w sobie nie zawsze jest stanem nagłym, ale może towarzyszyć ciężkiemu powikłaniu — cukrzycowej kwasicy ketonowej (DKA), która wymaga pilnego leczenia szpitalnego. Pierwsza pomoc polega na rozpoznaniu objawów alarmowych, wezwaniu pomocy i unikaniu działań, które mogłyby zaszkodzić.
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+## Objawy hiperglikemii
 
-## Istota zagadnienia — ujęcie systematyczne
+Możliwe objawy narastają stopniowo i obejmują:
+- wzmożone pragnienie i częste oddawanie moczu;
+- osłabienie, zmęczenie i niewyraźne widzenie;
+- suchość w ustach i odwodnienie;
+- pogorszenie samopoczucia.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Objawy sugerujące cukrzycową kwasicę ketonową
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+Podejrzewaj DKA, gdy występują:
+- nudności, wymioty lub ból brzucha;
+- głęboki, przyspieszony lub nietypowy oddech;
+- charakterystyczny owocowy lub acetonowy zapach oddechu;
+- nasilone pragnienie i częste oddawanie moczu;
+- senność, splątanie lub zaburzenia świadomości.
 
-## Metodyka postępowania — krok po kroku
+DKA najczęściej występuje w cukrzycy typu 1, ale może rozwinąć się także w cukrzycy typu 2. Nie należy zakładać, że dotyczy wyłącznie osób z rozpoznaną cukrzycą.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Postępowanie krok po kroku
 
-## Scenariusz sytuacyjny (studium przypadku)
+1. Przerwij masaż lub inną aktywność. Zapewnij osobie bezpieczne miejsce do odpoczynku.
+2. Jeśli występują wymioty, ból brzucha, głęboki lub przyspieszony oddech, owocowy zapach oddechu, senność lub splątanie, natychmiast zadzwoń pod 112 lub 999. Przekaż podejrzenie cukrzycowej kwasicy ketonowej.
+3. Pozostań z osobą i obserwuj świadomość oraz oddech. Nie pozwalaj jej prowadzić pojazdu ani podejmować wysiłku.
+4. Jeśli osoba ma własny glukometr lub miernik ketonów i potrafi go użyć, może wykonać pomiar, ale nie opóźniaj wezwania pomocy ani transportu z powodu oczekiwania na wynik.
+5. Przytomna osoba, która bezpiecznie połyka i nie wymiotuje, może pić wodę małymi łykami. Nie zmuszaj do picia i nie podawaj płynów doustnie przy zaburzeniach świadomości lub połykaniu.
+6. Nie podawaj cukru ani słodzonych napojów w celu leczenia hiperglikemii. Nie podawaj insuliny ani innych leków i nie zmieniaj dawek — korekty leczenia należą do indywidualnego planu pacjenta i zespołu diabetologicznego.
+7. Jeżeli osoba ma ustalony plan postępowania na wypadek choroby i potrafi go samodzielnie stosować, może postępować według niego, ale objawy DKA wymagają pilnej pomocy medycznej.
+8. Jeśli osoba traci przytomność, ale oddycha prawidłowo, ułóż ją w pozycji bezpiecznej, o ile nie ma urazu. Jeśli nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Wyniki pomiaru ketonów — informacja dla osoby z własnym planem leczenia
 
-## Najczęstsze błędy początkujących
+Jeżeli osoba dysponuje własnym miernikiem i zna zasady interpretacji wyniku, wynik ketonów we krwi powyżej 3,0 mmol/l lub w moczu powyżej 2+ wskazuje na wysokie ryzyko DKA i wymaga natychmiastowej pomocy w szpitalu. Objawy DKA same w sobie są wskazaniem do pilnej oceny, nawet jeśli wynik pomiaru jest niedostępny lub nieznany. Indywidualne progi i plan postępowania mogą się różnić — nie zastępuj zaleceń zespołu diabetologicznego ogólnym schematem.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Czego nie robić
 
-## Pytania utrwalające
+- Nie próbuj obniżać glikemii wysiłkiem fizycznym ani masażem.
+- Nie podawaj insuliny, leków przeciwcukrzycowych ani dodatkowych dawek bez upoważnienia i indywidualnego planu.
+- Nie podawaj słodkich napojów ani glukozy przy podejrzeniu hiperglikemii.
+- Nie podawaj niczego doustnie osobie z zaburzeniami świadomości, wymiotami z ryzykiem zachłyśnięcia lub trudnościami w połykaniu.
+- Nie bagatelizuj głębokiego oddechu, wymiotów, bólu brzucha, owocowego zapachu oddechu ani narastającej senności.
 
-1. Omów mechanizmy leżące u podstaw: Hiperglikemia i kwasica — rozpoznanie zagrożenia. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Rola masażysty
 
-## Słowniczek minimalny
+Masażysta przerywa zabieg, rozpoznaje objawy alarmowe, wzywa ZRM i monitoruje stan. Nie rozpoznaje DKA na podstawie samego wyglądu, nie interpretuje samodzielnie wyników jako diagnozy i nie modyfikuje leczenia przeciwcukrzycowego. Ratownikom przekazuje zaobserwowane objawy, czas ich wystąpienia, znaną cukrzycę, przyjmowane leki oraz wyniki pomiarów, jeśli zostały wykonane.
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+## Ćwiczenie praktyczne
 
----
+Przećwicz scenariusz: osoba z cukrzycą zgłasza silne pragnienie, nudności, ból brzucha i głęboki oddech. Uczestnik ma przerwać zabieg, rozpoznać objawy alarmowe, wezwać 112/999, nie podawać cukru ani insuliny, monitorować oddech i przekazać ratownikom dostępne informacje.
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+## Pytania kontrolne
+
+1. Jakie objawy mogą wskazywać na hiperglikemię?
+2. Jakie objawy sugerują cukrzycową kwasicę ketonową?
+3. Dlaczego DKA wymaga pilnej pomocy szpitalnej?
+4. Dlaczego masażysta nie powinien podawać insuliny ani zmieniać dawek leków?
+5. Jak postępować, gdy osoba z podejrzeniem DKA traci przytomność?
+
+## Źródła
+
+- NHS. Diabetic ketoacidosis (DKA). https://www.nhs.uk/conditions/diabetic-ketoacidosis/
+- NHS. High blood sugar (hyperglycaemia). https://www.nhs.uk/conditions/high-blood-sugar-hyperglycaemia/
+- Diabetes UK. Diabetic ketoacidosis. https://www.diabetes.org.uk/about-diabetes/looking-after-diabetes/complications/diabetic-ketoacidosis
 
 <!-- subch-v2 -->
