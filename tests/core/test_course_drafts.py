@@ -139,3 +139,25 @@ def test_get_rejects_unknown_or_malformed_draft_id(tmp_path: Path) -> None:
         service.get("../outside")
     with pytest.raises(CourseDraftNotFoundError):
         service.get("00000000-0000-0000-0000-000000000000")
+
+
+def test_get_rejects_corrupt_draft_document(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+    service = CourseDraftService(courses)
+    draft = service.create("sample")
+    path = courses / ".magic_moodle" / "drafts" / f"{draft.draft_id}.json"
+    path.write_text("[]", encoding="utf-8")
+
+    with pytest.raises(CourseDraftNotFoundError):
+        service.get(draft.draft_id)
+
+
+def test_update_rejects_boolean_revision(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+    service = CourseDraftService(courses)
+    draft = service.create("sample")
+
+    with pytest.raises(CourseDraftValidationError):
+        service.update(draft.draft_id, expected_revision=True, changes={"full_name": "Niepoprawne"})
