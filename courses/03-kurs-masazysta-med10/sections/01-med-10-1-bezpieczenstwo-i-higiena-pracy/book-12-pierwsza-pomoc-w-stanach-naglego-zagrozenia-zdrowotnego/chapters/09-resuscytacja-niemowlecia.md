@@ -1,61 +1,63 @@
 # 1.12.8. Resuscytacja niemowlęcia
 
-*Rozdział szczegółowy (podrozdział) tematu 1.12 — Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego*
+*Pierwsza pomoc u niemowlęcia od ukończenia okresu noworodkowego do 1. roku życia. Resuscytację noworodka bezpośrednio po porodzie prowadzi się według odrębnych wytycznych Newborn Life Support.*
 
-## Dlaczego to ważne
+## Cel i zakres
 
-Shantala i masaż niemowlęcia: środowisko ciepłe (24-26°C), dziecko nakarmione ≥30-45 min wcześniej, kontakt wzrokowy i werbalny z rodzicem (to ON uczy się techniki, masażysta demonstruje). Kolejność klasyczna: klatka piersiowa → brzuch (godz. 9→3 wg kierunku perystaltyki) → nogi → ręce → plecy → twarz. Wskazania: kolka (dla przeszkolonych), napięcie mięśniowe fizjologiczne, bonding. Przeciwwskazania: gorączka, zmiany skórne, choroby metaboliczne/serca bez zgody pediatry; NIGDY nie masuj dziecka chorego bez kwalifikacji lekarskiej.
+Celem rozdziału jest przygotowanie do rozpoznania zatrzymania krążenia u niemowlęcia, wezwania pomocy, rozpoczęcia podstawowych czynności resuscytacyjnych oraz użycia AED. Algorytm PBLS nie jest algorytmem resuscytacji noworodka w sali porodowej.
 
-Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+## Rozpoznanie i wezwanie pomocy
 
-## Rozwinięcie zagadnienia
+1. Zadbaj o bezpieczeństwo własne i niemowlęcia.
+2. Sprawdź reakcję na głos i delikatny bodziec dotykowy. Nie stosuj bodźców bólowych.
+3. Jeżeli niemowlę nie reaguje, natychmiast wezwij pomoc pod numerem 112 lub 999, najlepiej przez telefon w trybie głośnomówiącym. Poproś drugą osobę o przyniesienie AED.
+4. Udrożnij drogi oddechowe, utrzymując głowę w pozycji neutralnej lub z niewielkim odchyleniem. Unikaj nadmiernego odgięcia, które może zamknąć drogi oddechowe.
+5. Przez maksymalnie 10 sekund oceniaj oddech i oznaki życia. Oddech agonalny lub nieregularne westchnienia nie są prawidłowym oddechem. Nie opóźniaj RKO przez poszukiwanie tętna.
 
-Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+## Oddechy ratownicze
 
-## Istota zagadnienia — ujęcie systematyczne
+1. Wykonaj pięć początkowych oddechów ratowniczych.
+2. Obejmij swoimi ustami usta i nos niemowlęcia. Każdy oddech podawaj łagodnie przez około 1 sekundę, tylko do widocznego uniesienia klatki piersiowej.
+3. Pozwól klatce opaść przed kolejnym oddechem.
+4. Jeżeli klatka się nie unosi, popraw pozycję głowy i uniesienie żuchwy. Usuń wyłącznie łatwo dostępne, widoczne ciało obce. Nie wykonuj ślepego wygarniania palcem.
+5. Jeżeli wentylacja nie jest możliwa lub nie możesz jej wykonać, rozpocznij uciskanie klatki piersiowej i dodaj oddechy, gdy tylko będzie to możliwe.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Uciski klatki piersiowej
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+1. Ułóż niemowlę na plecach, na twardym podłożu, jeżeli jest natychmiast dostępne.
+2. Uciskaj dolną połowę mostka techniką dwóch kciuków z objęciem klatki piersiowej dłońmi. ERC 2025 zaleca tę technikę we wszystkich sytuacjach, również przy jednym ratowniku.
+3. Uciskaj z częstością 100–120 razy na minutę, na głębokość co najmniej jednej trzeciej wymiaru przednio-tylnego klatki piersiowej.
+4. Po każdym ucisku pozwól klatce całkowicie się rozprężyć. Nie opieraj ciężaru dłoni na klatce między uciskami.
+5. Stosuj stosunek 15:2, jeżeli jesteś przeszkolony w PBLS na poziomie kursu ERC lub równoważnym. W pozostałych przypadkach stosuj 30:2 zgodnie z instrukcjami dyspozytora.
+6. Kontynuuj RKO, ograniczając przerwy do minimum, aż do pojawienia się wyraźnych oznak życia, przejęcia czynności przez ZRM, polecenia dyspozytora lub sytuacji, w której dalsze działanie staje się niebezpieczne.
 
-## Metodyka postępowania — krok po kroku
+## Użycie AED u niemowlęcia
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+- Jeżeli dostępne jest AED, użyj go jak najszybciej, postępując zgodnie z poleceniami urządzenia.
+- Jeżeli urządzenie ma tryb pediatryczny, włącz go u niemowlęcia. Jeżeli go nie ma lub AED nie zawiera odrębnych instrukcji dla dzieci, użyj trybu standardowego dla dorosłych, zamiast rezygnować z defibrylacji.
+- U niemowląt i dzieci o masie ciała poniżej 25 kg zalecane jest ułożenie elektrod przednio-tylne. Upewnij się, że elektrody się nie stykają.
+- Podczas analizy rytmu i wyładowania nikt nie dotyka niemowlęcia. Po wyładowaniu natychmiast wróć do RKO, zgodnie z poleceniami AED.
+- Gdy jest tylko jeden ratownik, priorytetem pozostają wezwanie pomocy i rozpoczęcie RKO, a nie oddalanie się w celu poszukiwania AED.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Granice kompetencji i bezpieczeństwo
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Osoba udzielająca pierwszej pomocy wykonuje czynności zgodnie z przeszkoleniem i poleceniami dyspozytora. Nie stosuje leków ani zaawansowanych procedur medycznych bez odpowiednich uprawnień. Nie należy mylić resuscytacji niemowlęcia po wypisie do domu z resuscytacją noworodka bezpośrednio po porodzie.
 
-## Najczęstsze błędy początkujących
+## Ćwiczenie praktyczne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+Na fantomie niemowlęcia przećwicz: rozpoznanie braku reakcji, udrożnienie dróg oddechowych w pozycji neutralnej, pięć oddechów ratowniczych metodą usta–usta i nos, uciski techniką dwóch kciuków z objęciem klatki piersiowej, sekwencję 15:2 i 30:2 oraz użycie treningowego AED z elektrodami pediatrycznymi.
 
-## Pytania utrwalające
+## Pytania kontrolne
 
-1. Omów mechanizmy leżące u podstaw: Resuscytacja niemowlęcia. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+1. Dlaczego głowa niemowlęcia powinna pozostawać w pozycji neutralnej lub z niewielkim odchyleniem?
+2. Jak wykonuje się oddechy ratownicze u niemowlęcia?
+3. Jaką technikę uciskania klatki piersiowej zaleca ERC 2025?
+4. Jak dobiera się stosunek ucisków do oddechów?
+5. Czym różni się PBLS u niemowlęcia od resuscytacji noworodka bezpośrednio po porodzie?
 
-## Słowniczek minimalny
+## Źródła
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djakow J, McBeth Turner N, Skellett S, Buysse CMP, Cardona F, de Lucas N, et al. European Resuscitation Council Guidelines 2025: Paediatric Life Support. Resuscitation. 2025;215(Suppl 1):110767. doi:10.1016/j.resuscitation.2025.110767.
+- European Resuscitation Council. Guidelines 2025: Paediatric Life Support. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
