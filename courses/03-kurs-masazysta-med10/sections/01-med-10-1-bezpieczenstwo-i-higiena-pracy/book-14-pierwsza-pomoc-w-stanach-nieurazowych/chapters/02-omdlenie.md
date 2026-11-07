@@ -1,55 +1,61 @@
-# 1.14.1. Omdlenie
+# 1.14.1. Omdlenie — rozpoznanie i pierwsza pomoc
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Omdlenie (krótkotrwała utrata przytomności) jest objawem, a nie rozpoznaniem przyczyny. Może mieć łagodny mechanizm odruchowy, ale bywa związane z zaburzeniami rytmu serca, krwawieniem, urazem lub innym stanem nagłym. Osoba udzielająca pierwszej pomocy nie powinna zakładać, że każde omdlenie jest niegroźne.
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+## Objawy poprzedzające omdlenie
 
-## Istota zagadnienia — ujęcie systematyczne
+Osoba może zgłaszać zawroty głowy, nudności, uczucie gorąca, osłabienie, potliwość lub zaburzenia widzenia. Może być blada, mieć zimną i wilgotną skórę oraz tracić równowagę. Przerwij zabieg i zapobiegaj upadkowi.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Postępowanie, gdy osoba czuje, że zemdleje
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+1. Pomóż jej bezpiecznie położyć się na plecach. Jeśli nie może się położyć, niech usiądzie z głową pochyloną w dół.
+2. Jeśli nie ma urazu ani innych przeciwwskazań, można lekko unieść nogi.
+3. Zapewnij dostęp powietrza, poluzuj ciasną odzież i poproś osoby postronne o odsunięcie się.
+4. Obserwuj stan i nie pozwalaj osobie gwałtownie wstawać. Po ustąpieniu objawów powinna stopniowo przechodzić do pozycji siedzącej, a następnie stojącej. Jeśli objawy wracają, ponownie ją połóż.
+5. Nie podawaj płynów ani jedzenia, dopóki osoba nie jest w pełni przytomna i nie połyka bezpiecznie.
 
-## Metodyka postępowania — krok po kroku
+## Postępowanie po utracie przytomności
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+1. Zabezpiecz miejsce zdarzenia i sprawdź reakcję osoby, delikatnie potrząsając za ramiona i głośno pytając, czy wszystko w porządku.
+2. Jeśli osoba nie reaguje, wołaj o pomoc, udrożnij drogi oddechowe i przez maksymalnie 10 sekund oceniaj, czy oddycha prawidłowo.
+3. Jeśli nie oddycha prawidłowo lub występuje oddech agonalny, zadzwoń pod 112 lub 999, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
+4. Jeśli osoba pozostaje nieprzytomna, ale oddycha prawidłowo, ułóż ją w pozycji bezpiecznej, o ile nie ma urazu ani innego powodu, by ograniczyć przemieszczanie. Stale kontroluj oddech i poziom reakcji.
+5. Jeśli osoba szybko odzyskała przytomność, pozostaw ją w pozycji leżącej, obserwuj i pomóż jej powoli usiąść dopiero po ustąpieniu objawów.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Kiedy natychmiast wezwać 112 lub 999
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Wezwij pomoc, jeżeli osoba:
+- nie odzyskuje przytomności w ciągu 1 minuty;
+- nie odzyskała pełnej sprawności, ma zaburzenia mowy lub ruchu;
+- odczuwa ból w klatce piersiowej albo kołatanie, trzepotanie lub nieregularne bicie serca;
+- doznała poważnego urazu podczas upadku;
+- ma drgawki lub utrzymujące się zaburzenia oddychania;
+- zemdlała podczas wysiłku fizycznego lub w pozycji leżącej.
 
-## Najczęstsze błędy początkujących
+Nawet po szybkim odzyskaniu przytomności osoba po omdleniu powinna uzyskać ocenę medyczną, aby ustalić możliwą przyczynę, zwłaszcza gdy był to pierwszy epizod lub omdlenia się powtarzają.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Rola masażysty
 
-## Pytania utrwalające
+Masażysta natychmiast przerywa zabieg, zabezpiecza osobę przed upadkiem, ocenia reakcję i oddech oraz w razie wskazań wzywa ZRM. Nie zakłada, że przyczyną jest „spadek ciśnienia”, odwodnienie lub stres. Nie wykonuje dalszego masażu ani nie pozwala na samodzielne prowadzenie pojazdu bez oceny stanu. Przekazuje ratownikom czas zdarzenia, objawy poprzedzające, czas utraty przytomności, czas odzyskania świadomości i ewentualne urazy.
 
-1. Omów mechanizmy leżące u podstaw: Omdlenie. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Ćwiczenie praktyczne
 
-## Słowniczek minimalny
+Przećwicz trzy scenariusze: osoba zgłasza objawy przedomdleniowe, osoba na krótko traci przytomność i szybko odzyskuje reakcję, osoba pozostaje nieprzytomna, ale oddycha prawidłowo. W każdym przypadku oceń bezpieczeństwo, reakcję, oddech i potrzebę wezwania 112/999.
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+## Pytania kontrolne
 
----
+1. Dlaczego omdlenie należy traktować jako objaw, a nie gotowe rozpoznanie?
+2. Jak pomóc osobie z objawami przedomdleniowymi?
+3. Jak postępować, gdy osoba jest nieprzytomna, ale oddycha prawidłowo?
+4. Jakie objawy i okoliczności wymagają natychmiastowego wezwania 112/999?
+5. Dlaczego osoba po omdleniu nie powinna gwałtownie wstawać?
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+## Źródła
+
+- NHS. Fainting. https://www.nhs.uk/symptoms/fainting/
+- European Resuscitation Council. Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752.
+- British Red Cross. Learn first aid for someone unresponsive and breathing. https://www.redcross.org.uk/first-aid/learn-first-aid/unresponsive-and-breathing
 
 <!-- subch-v2 -->
