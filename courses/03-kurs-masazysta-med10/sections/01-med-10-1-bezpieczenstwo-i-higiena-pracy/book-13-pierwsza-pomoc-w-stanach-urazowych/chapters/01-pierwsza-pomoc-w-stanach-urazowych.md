@@ -2,115 +2,111 @@
 
 ## Wprowadzenie
 
-Moduł wprowadza w bezpieczeństwo i higienę pracy masażysty: przepisy prawa pracy, zagrożenia zawodowe, ergonomię stanowiska, aseptykę oraz pierwszą pomoc. To fundament, na którym opiera się cała dalsza praktyka zawodowa — bo troska o bliźniego zaczyna się od troski o jego bezpieczeństwo.
+Celem tego tematu jest przygotowanie osoby wykonującej masaż do rozpoznawania urazów i stanów nagłych, zabezpieczenia miejsca zdarzenia, wezwania pomocy oraz udzielenia pierwszej pomocy w granicach przeszkolenia. Masażysta nie zastępuje zespołu ratownictwa medycznego ani lekarza: nie stawia rozpoznań, nie nastawia złamań lub zwichnięć i nie prowadzi leczenia urazów.
 
-Temat „1.13. Pierwsza pomoc w stanach urazowych” realizuje 10 zagadnień szczegółowych ze spisu treści kursu. Opanowanie ich jest warunkiem zaliczenia modułu i niezbędnym przygotowaniem do części praktycznej egzaminu potwierdzającego kwalifikację MED.10.
+Temat obejmuje dziesięć zagadnień szczegółowych. Rozdział zbiorczy porządkuje ich zakres; szczegółowe algorytmy znajdują się w odpowiednich podrozdziałach.
 
-## Cele szczegółowe — po tym temacie uczestnik potrafi:
+## Cele kształcenia
 
-- Rozpoznajesz strukturę, mechanizm i kolejność czynności opisanych w tym zagadnieniu — **1.13.1 1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie**.
-- Omawiasz przebieg postępowania krok po kroku, wskazując etapy kluczowe dla bezpieczeństwa klienta — **1.13.2 1.13.2. Krwotok z nosa**.
-- Wykonujesz ćwiczenie praktyczne w warunkach szkolnych, przestrzegając zasad higieny i ergonomii — **1.13.3 1.13.3. Złamanie: unieruchomienie, ból, wstrząs**.
-- Analizujesz przykłady z literatury zawodowej i omawiasz wnioski na forum grupy — **1.13.4 1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować**.
-- Stosujesz zdobytą wiedzę w planowaniu działania, uwzględniając przeciwwskazania i granice kompetencji — **1.13.5 1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja**.
-- Oceniasz jakość własnego wykonania według check-listy i formułujesz plan doskonalenia — **1.13.6 1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc**.
-- Rozpoznajesz strukturę, mechanizm i kolejność czynności opisanych w tym zagadnieniu — **1.13.7 1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy**.
-- Omawiasz przebieg postępowania krok po kroku, wskazując etapy kluczowe dla bezpieczeństwa klienta — **1.13.8 1.13.8. Oparzenie termiczne, chemiczne, elektryczne**.
-- Wykonujesz ćwiczenie praktyczne w warunkach szkolnych, przestrzegając zasad higieny i ergonomii — **1.13.9 1.13.9. Odmrożenie**.
-- Analizujesz przykłady z literatury zawodowej i omawiasz wnioski na forum grupy — **1.13.10 1.13.10. Ciało obce w drogach oddechowych**.
+Po ukończeniu tematu uczestnik potrafi:
+- ocenić bezpieczeństwo miejsca zdarzenia i rozpoznać sytuacje wymagające wezwania 112 lub 999;
+- rozpoznać krwotok zagrażający życiu i zastosować bezpośredni ucisk, opatrunek hemostatyczny lub opaskę uciskową zgodnie z przeszkoleniem;
+- udzielić pierwszej pomocy przy krwawieniu z nosa;
+- zabezpieczyć podejrzenie złamania, zwichnięcia lub skręcenia bez nastawiania i bez wymuszania ruchu;
+- postępować przy amputacji urazowej i urazie zmiażdżeniowym;
+- rozróżnić oparzenia termiczne, chemiczne i elektryczne oraz zastosować właściwe działania ochronne;
+- rozpoznać odmrożenie i ocenić ryzyko hipotermii oraz ponownego zamarznięcia;
+- rozpoznać zadławienie i zastosować algorytm odpowiedni dla dorosłego, dziecka lub niemowlęcia;
+- monitorować reakcję i oddech poszkodowanego do przybycia pomocy;
+- przekazać ratownikom rzeczowe informacje o mechanizmie urazu, objawach, czasie zdarzenia i wykonanych czynnościach.
+
+## Zasady ogólne postępowania
+
+1. **Bezpieczeństwo.** Nie narażaj siebie ani innych. Nie wchodź do strefy pożaru, porażenia prądem, niestabilnej konstrukcji, ruchu pojazdów ani innego zagrożenia.
+2. **Wezwanie pomocy.** W stanie zagrażającym życiu dzwoń pod 112 lub 999. Włącz tryb głośnomówiący i wykonuj polecenia dyspozytora. Jeśli są inne osoby, przydziel konkretne zadania.
+3. **Priorytety.** Najpierw zajmij się bezpośrednim zagrożeniem życia: ciężkim krwotokiem, niedrożnością dróg oddechowych, nieprawidłowym oddechem i objawami wstrząsu. Nie opóźniaj wezwania pomocy, aby wykonać czynności drugorzędne.
+4. **Zakres kompetencji.** Używaj wyłącznie sprzętu i leków, których stosowania zostałeś przeszkolony. Nie wykonuj zaawansowanych procedur, nie podawaj cudzych leków i nie podejmuj samodzielnej diagnostyki.
+5. **Obserwacja.** Monitoruj reakcję, oddech, krwawienie i zmianę stanu. Jeśli osoba staje się nieprzytomna i nie oddycha prawidłowo, rozpocznij właściwy algorytm RKO i użyj AED, jeśli jest dostępne.
+6. **Godność i dokumentacja.** Chroń prywatność, zapewnij możliwie komfortowe warunki i po zdarzeniu udokumentuj fakty: czas, mechanizm, objawy, wezwanie pomocy i wykonane czynności.
 
 ## Zagadnienia szczegółowe
 
-### 1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie
+### 1.13.1. Krwotok zewnętrzny — ucisk, opatrunek hemostatyczny i opaska uciskowa
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
-
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+Rozpoznawanie krwotoku zagrażającego życiu, bezpośredni ucisk, użycie opatrunku hemostatycznego i prawidłowe zastosowanie fabrycznej opaski uciskowej. Uniesienie kończyny nie zastępuje ucisku ani opaski, jeśli są wskazane.
 
 ### 1.13.2. Krwotok z nosa
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Pozycja siedząca z pochyleniem głowy do przodu oraz nieprzerwany ucisk miękkiej części nosa. Rozpoznawanie krwawienia wymagającego pilnej oceny medycznej.
 
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+### 1.13.3. Podejrzenie złamania
 
-### 1.13.3. Złamanie: unieruchomienie, ból, wstrząs
+Ograniczenie ruchu, podtrzymanie kończyny w pozycji zastanej, osłonięcie złamania otwartego i rozpoznawanie objawów zaburzenia ukrwienia. Bez prostowania i nastawiania.
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+### 1.13.4. Podejrzenie zwichnięcia
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Podtrzymanie stawu w pozycji najmniej bolesnej, chłodzenie przez tkaninę i pilna ocena medyczna. Bez prób nastawiania, trakcji i manipulacji.
 
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+### 1.13.5. Podejrzenie skręcenia
 
-### 1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować
+Odpoczynek, podparcie, chłodzenie i obserwacja. Rozpoznawanie objawów mogących wskazywać na złamanie lub zaburzenie ukrwienia.
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+### 1.13.6. Amputacja urazowa
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Priorytet tamowania krwawienia, zabezpieczenie rany oraz prawidłowe owinięcie, szczelne zapakowanie i pośrednie chłodzenie amputowanej części. Czynności te nie mogą opóźniać pomocy poszkodowanemu.
 
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+### 1.13.7. Uraz zmiażdżeniowy
 
-### 1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja
+Ocena bezpieczeństwa i wezwanie wyspecjalizowanej pomocy, bezpieczne usunięcie siły ucisku, jeśli jest to możliwe, kontrola krwawienia i pilna ocena szpitalna. Brak widocznej rany lub bólu nie wyklucza poważnego urazu.
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+### 1.13.8. Oparzenie termiczne, chemiczne i elektryczne
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
-
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
-
-### 1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc
-
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
-
-Ochrona przeciwpożarowa opiera się na zasadzie wzajemności: technika (drogi ewakuacyjne, oznakowanie, podręczny sprzęt gaśniczy — kontrola gaśnic co 12 miesięcy, hydrantów wewnętrznych raz w roku; przeglądy instalacji z protokołem) i organizacja (instrukcja bezpieczeństwa pożarowego, wyznaczenie osób do zwalczania pożaru i ewakuacji, szkolenie pracowników w dniu zatrudnienia i następnie co 2 lata). Plan ewakuacji gabinetu musi uwzględniać osoby leżące na stole masażnym: priorytetem jest ewakuacja ludzi, potem mienia; punkt zbiórki weryfikowany listą obecności.
-
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
-
-### 1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy
-
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
-
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
-
-### 1.13.8. Oparzenie termiczne, chemiczne, elektryczne
-
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
-
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+Odrębne algorytmy dla trzech mechanizmów: chłodzenie oparzenia termicznego, ochrona ratownika i dekontaminacja przy oparzeniu chemicznym oraz bezpieczne odłączenie źródła prądu przed dotknięciem poszkodowanego.
 
 ### 1.13.9. Odmrożenie
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+Ochrona przed dalszym wychłodzeniem, ocena współistniejącej hipotermii, decyzja o ogrzewaniu zależna od ryzyka ponownego zamarznięcia oraz zabezpieczenie tkanek przed urazem. Bez pocierania i bez bezpośrednich źródeł ciepła.
 
-Ochrona przeciwpożarowa opiera się na zasadzie wzajemności: technika (drogi ewakuacyjne, oznakowanie, podręczny sprzęt gaśniczy — kontrola gaśnic co 12 miesięcy, hydrantów wewnętrznych raz w roku; przeglądy instalacji z protokołem) i organizacja (instrukcja bezpieczeństwa pożarowego, wyznaczenie osób do zwalczania pożaru i ewakuacji, szkolenie pracowników w dniu zatrudnienia i następnie co 2 lata). Plan ewakuacji gabinetu musi uwzględniać osoby leżące na stole masażnym: priorytetem jest ewakuacja ludzi, potem mienia; punkt zbiórki weryfikowany listą obecności.
+### 1.13.10. Zadławienie — ciało obce w drogach oddechowych
 
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+Rozpoznawanie skutecznego i nieskutecznego kaszlu oraz odrębne algorytmy dla dorosłych, dzieci powyżej 1. roku życia i niemowląt. Zakaz ślepego wygarniania palcem i przejście do RKO po utracie przytomności.
 
-### 1.13.10. Ciało obce w drogach oddechowych
+## Ćwiczenia praktyczne
 
-Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
+Ćwiczenia wykonuje się na fantomach, trenażerach i sprzęcie szkoleniowym. Uczestnik powinien przećwiczyć:
+- wezwanie 112/999 i przekazanie informacji dyspozytorowi;
+- bezpośredni ucisk, opatrunek hemostatyczny i fabryczną opaskę uciskową;
+- ułożenie osoby z krwotokiem z nosa;
+- podtrzymanie kończyny z podejrzeniem złamania, zwichnięcia lub skręcenia;
+- zabezpieczenie amputowanej części i symulację postępowania przy urazie zmiażdżeniowym;
+- chłodzenie oparzenia, dekontaminację i symulację bezpiecznego odłączenia zasilania;
+- ocenę odmrożenia i ryzyka hipotermii;
+- algorytm zadławienia u dorosłego, dziecka i niemowlęcia;
+- ocenę reakcji i oddechu oraz przejście do RKO, jeśli jest wskazane.
 
-**Zakres ćwiczeń:** demonstracja → praca w parach → autorefleksja wg check-listy (Załącznik F) → udokumentowanie w karcie zabiegu (Załącznik C).
+## Najczęstsze błędy
 
-## Bezpieczeństwo i etyka
+- rozpoczynanie działań bez oceny bezpieczeństwa miejsca;
+- opóźnianie wezwania pomocy w celu wykonania pomiarów lub szukania sprzętu;
+- nastawianie, prostowanie lub wymuszanie ruchu uszkodzonej kończyny;
+- rutynowe stosowanie opaski uciskowej bez krwawienia zagrażającego życiu;
+- stosowanie jednego algorytmu zadławienia u dorosłych, dzieci i niemowląt;
+- ślepe wygarnianie palcem z jamy ustnej;
+- używanie lodu bezpośrednio na skórę, pocieranie odmrożeń lub nakładanie tłuszczów na oparzenia;
+- przekraczanie kompetencji i podawanie leków bez wskazań oraz przeszkolenia.
 
-- Przed przystąpieniem do działania zweryfikuj występowanie przeciwwskazań (bezwzględnych i względnych) — w razie wątpliwości skonsultuj się z lekarzem kierującym.
-- Działaj wyłącznie w granicach kompetencji masażysty: nie rozpoznajesz chorób, nie stawiasz rozpoznań i nie modyfikujesz zaleceń lekarskich na własną rękę.
-- Stosuj zasady aseptyki i antyseptyki oraz higieny stanowiska pracy zgodnie z procedurami zakładowymi (załącznik I).
-- Szanuj godność, prywatność i autonomię klienta: uzyskaj świadomą zgodę, dbaj o poufność danych i komfort termiczny podczas zabiegu.
+## Ocena osiągnięć
+
+Uczestnik zalicza temat, gdy potrafi prawidłowo rozpoznać sytuację nagłą, wezwać pomoc, wykonać właściwe czynności pierwszej pomocy na trenażerze, wskazać działania zakazane i wyjaśnić granice kompetencji masażysty. Ocenie podlega kolejność działań, bezpieczeństwo, komunikacja i jakość wykonania — nie szybkość kosztem poprawności.
 
 ## Podsumowanie
 
-Temat 1.13 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarzanie materiału, ćwiczenia w parach oraz rzetelna samoocena według check-list (załącznik F) prowadzą do biegłości, która służy realnemu dobru drugiego człowieka — zgodnie z zasadą „primum non nocere”.
+Pierwsza pomoc urazowa wymaga szybkiego rozpoznania zagrożenia, bezpiecznego działania i wczesnego wezwania profesjonalnej pomocy. Masażysta ma udzielać pomocy zgodnie z aktualnymi wytycznymi, własnym przeszkoleniem i zasadą ochrony życia oraz zdrowia, a następnie przekazać poszkodowanego zespołowi ratownictwa medycznego.
 
-**Pytania utrwalające:**
+## Źródła ogólne
 
-1. Omów zagadnienie: 1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie.
-2. Omów zagadnienie: 1.13.2. Krwotok z nosa.
-3. Omów zagadnienie: 1.13.3. Złamanie: unieruchomienie, ból, wstrząs.
-4. Omów zagadnienie: 1.13.4. Zwichnięcie: nie nastawiać, unieruchomić, skierować.
+- European Resuscitation Council. Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752.
+- International Federation of Red Cross and Red Crescent Societies. International First Aid, Resuscitation and Education Guidelines 2025.
+- American Heart Association and American Red Cross. 2024 Guidelines for First Aid.
 
-## Struktura rozdziału
-
-Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
-
-<!-- subch-v1 -->
+<!-- subch-v2 -->
