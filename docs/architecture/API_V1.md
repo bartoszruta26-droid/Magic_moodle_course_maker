@@ -27,7 +27,8 @@ Token jest wymagany do tworzenia i aktualizowania wersji roboczych. Jeśli nie u
 | POST | `/api/v1/courses/{course_id}/validation` | Raport walidacji |
 | POST | `/api/v1/courses/{course_id}/drafts` | Utworzenie wersji roboczej |
 | GET | `/api/v1/drafts/{draft_id}` | Odczyt wersji roboczej |
-| PATCH | `/api/v1/drafts/{draft_id}` | Aktualizacja wersji roboczej |
+| PATCH | `/api/v1/drafts/{draft_id}` | Aktualizacja wersji roboczej (klienci desktop/web) |
+| POST | `/api/v1/drafts/{draft_id}/update` | Równoważna aktualizacja dla klientów mobilnych korzystających z HttpURLConnection |
 | GET | `/api/v1/drafts/{draft_id}/preview` | Podgląd zmian i walidacja |
 
 Aktualizacja wymaga treści JSON o kształcie:
