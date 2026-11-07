@@ -90,7 +90,7 @@ def _build_app():
         #draft-dialog { width: 84%; height: 90%; border: round $primary; background: $surface; padding: 1; }
         #draft-scroll { height: 1fr; }
         #draft-description { height: 8; }
-        #draft-actions { height: auto; align-horizontal: right; }
+        #draft-actions { height: auto; }
         """
         BINDINGS = [
             ("q", "quit", "Wyjście"),
