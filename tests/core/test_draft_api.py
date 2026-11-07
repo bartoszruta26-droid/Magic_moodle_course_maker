@@ -170,3 +170,54 @@ def test_api_post_draft_update_alias_supports_android_clients(tmp_path: Path) ->
         )
         assert status == 200
         assert updated["data"]["revision"] == 2
+
+
+def test_api_lists_draft_history_and_restores_revision(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+
+    with running_server(CourseApplicationService(courses), token="draft-secret") as base:
+        _, created = request_json(
+            f"{base}/api/v1/courses/sample/drafts",
+            method="POST",
+            payload={},
+            token="draft-secret",
+        )
+        draft_id = created["data"]["draft_id"]
+        request_json(
+            f"{base}/api/v1/drafts/{draft_id}/update",
+            method="POST",
+            payload={"expected_revision": 1, "changes": {"full_name": "Kurs druga rewizja"}},
+            token="draft-secret",
+        )
+
+        status, listing = request_json(
+            f"{base}/api/v1/courses/sample/drafts",
+            token="draft-secret",
+        )
+        assert status == 200
+        assert listing["data"][0]["draft_id"] == draft_id
+        assert listing["data"][0]["revision"] == 2
+
+        status, history = request_json(
+            f"{base}/api/v1/drafts/{draft_id}/history",
+            token="draft-secret",
+        )
+        assert status == 200
+        assert [item["revision"] for item in history["data"]] == [1, 2]
+
+        status, restored = request_json(
+            f"{base}/api/v1/drafts/{draft_id}/restore",
+            method="POST",
+            payload={"expected_revision": 2, "target_revision": 1},
+            token="draft-secret",
+        )
+        assert status == 200
+        assert restored["data"]["revision"] == 3
+
+        status, preview = request_json(
+            f"{base}/api/v1/drafts/{draft_id}/preview",
+            token="draft-secret",
+        )
+        assert status == 200
+        assert preview["data"]["course"]["course"]["full_name"] == "Kurs API"
