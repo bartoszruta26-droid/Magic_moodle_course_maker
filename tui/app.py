@@ -34,7 +34,7 @@ def _build_app():
         #course-table { height: 1fr; }
         #detail { height: 1fr; border: round $secondary; padding: 1; }
         #validate { width: 100%; }
-        #export { width: 100%; }
+        #export { width: 100%; }\n        #bank-validate { width: 100%; }\n        #bank-export { width: 100%; }
         #export { width: 100%; }
         """
         BINDINGS = [
@@ -65,7 +65,7 @@ def _build_app():
                         markup=False,
                     )
                     yield Button("Waliduj wybrany kurs", id="validate", variant="primary")
-                    yield Button("Eksportuj manifest JSON", id="export")
+                    yield Button("Eksportuj manifest JSON", id="export")\n                    yield Button("Waliduj bank pytań", id="bank-validate")\n                    yield Button("Eksportuj bank do Moodle XML", id="bank-export")
             yield Footer()
 
         def on_mount(self) -> None:
@@ -146,6 +146,52 @@ def _build_app():
 
         def action_validate_selected(self) -> None:
             self.show_selected_course()
+
+        def action_validate_bank(self) -> None:
+            if not self._selected_id:
+                self.query_one("#detail", Static).update(
+                    "Najpierw wybierz kurs, którego bank pytań chcesz sprawdzić."
+                )
+                return
+            try:
+                bank = self.service.get_question_bank(self._selected_id)
+            except (CourseNotFoundError, FileNotFoundError, OSError, ValueError):
+                self.query_one("#detail", Static).update(
+                    "Walidacja banku nie powiodła się. Sprawdź pliki GIFT i ich składnię."
+                )
+                return
+            lines = [
+                f"Bank pytań: {len(bank.questions)} pytań",
+                "Rozkład typów:",
+            ]
+            lines.extend(f"  {kind}: {count}" for kind, count in bank.by_type().items())
+            self.query_one("#detail", Static).update("\\n".join(lines))
+
+        def action_export_bank(self) -> None:
+            if not self._selected_id:
+                self.query_one("#detail", Static).update(
+                    "Najpierw wybierz kurs, którego bank pytań chcesz eksportować."
+                )
+                return
+            export_root = Path(
+                os.environ.get(
+                    "MAGIC_MOODLE_EXPORTS",
+                    str(self.service.courses_root.parent / "exports"),
+                )
+            ).expanduser()
+            destination = export_root / f"{self._selected_id}.questions.xml"
+            try:
+                output = self.service.export_question_bank_xml(
+                    self._selected_id, destination
+                )
+            except (CourseNotFoundError, FileNotFoundError, OSError, ValueError):
+                self.query_one("#detail", Static).update(
+                    "Eksport Moodle XML nie powiódł się. Sprawdź bank pytań i kategorię."
+                )
+                return
+            self.query_one("#detail", Static).update(
+                f"Bank pytań wyeksportowany do Moodle XML:\\n{output}"
+            )
 
         def action_export_selected(self) -> None:
             if not self._selected_id:
