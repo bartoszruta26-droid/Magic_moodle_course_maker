@@ -1,55 +1,59 @@
 # 1.12.9. Użycie AED — zasady i bezpieczeństwo
 
-*Rozdział szczegółowy (podrozdział) tematu 1.12 — Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego*
+## Cel i zakres
 
-## Dlaczego to ważne
+Automatyczny defibrylator zewnętrzny (AED) analizuje rytm serca i, jeżeli wykryje rytm wymagający defibrylacji, zaleca wyładowanie. Urządzenie jest przeznaczone do użycia przez osoby postępujące zgodnie z komunikatami głosowymi i wizualnymi. AED nie zastępuje RKO: należy możliwie szybko podłączyć urządzenie, ograniczając przerwy w uciskaniu klatki piersiowej.
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+## Algorytm użycia AED
 
-## Istota zagadnienia — ujęcie systematyczne
+1. Upewnij się, że miejsce jest bezpieczne. Wezwij pomoc pod numerem 112 lub 999 i rozpocznij RKO, jeśli osoba jest nieprzytomna i nie oddycha prawidłowo.
+2. Poproś drugą osobę o przyniesienie AED, jeżeli jest dostępne. Nie przerywaj niepotrzebnie uciskania klatki piersiowej.
+3. Włącz AED i wykonuj polecenia urządzenia.
+4. Odsłoń klatkę piersiową. W razie potrzeby szybko osusz miejsca, w których będą przyklejone elektrody. Usuń plastry lecznicze z miejsc ich przyklejenia, używając rękawic, jeśli są dostępne. Nie opóźniaj defibrylacji przez czynności, które nie są konieczne.
+5. Przyklej elektrody zgodnie z rysunkami na opakowaniu. Upewnij się, że elektrody dobrze przylegają do skóry i nie stykają się ze sobą.
+6. Gdy AED analizuje rytm, głośno poleć wszystkim odsunięcie się i sprawdź wzrokowo, czy nikt nie dotyka poszkodowanego.
+7. Jeżeli urządzenie zaleci wyładowanie, upewnij się, że nikt nie dotyka poszkodowanego, i naciśnij przycisk wyładowania, jeśli AED tego wymaga.
+8. Bezpośrednio po wyładowaniu natychmiast wróć do RKO. Jeżeli wyładowanie nie jest zalecane, również natychmiast wróć do RKO.
+9. Kontynuuj zgodnie z poleceniami AED do przybycia ZRM, pojawienia się wyraźnych oznak życia lub polecenia przerwania.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## AED u niemowląt i dzieci
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+- U niemowląt i dzieci o masie ciała poniżej 25 kg (orientacyjnie poniżej 8 lat) włącz tryb pediatryczny, jeżeli urządzenie go posiada.
+- U większych dzieci i nastolatków użyj trybu standardowego dla dorosłych.
+- Jeżeli tryb pediatryczny lub elektrody pediatryczne nie są dostępne, użyj AED w trybie standardowym dla dorosłych. Nie rezygnuj z użycia AED wyłącznie z powodu braku trybu pediatrycznego.
+- U niemowląt i dzieci poniżej 25 kg stosuj ułożenie przednio-tylne: elektrodę przednią umieść na środku klatki piersiowej, nieco na lewo od mostka, a tylną na plecach między łopatkami.
+- U dzieci powyżej 25 kg i nastolatków można zastosować ułożenie przednio-boczne lub przednio-tylne. W ułożeniu przednio-bocznym jedna elektroda znajduje się poniżej prawego obojczyka, druga w lewej okolicy pachowej.
+- Elektrody nie mogą się stykać. Jeżeli są zbyt duże, wybierz ułożenie przednio-tylne.
 
-## Metodyka postępowania — krok po kroku
+## Bezpieczeństwo i sytuacje szczególne
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+- Nikt nie dotyka poszkodowanego podczas analizy rytmu ani wyładowania.
+- Po wyładowaniu nie sprawdzaj rutynowo tętna. Wróć do uciskania klatki piersiowej zgodnie z poleceniem AED.
+- Nie nakładaj elektrod bezpośrednio na plastry lecznicze ani na wszczepiony generator urządzenia; zachowaj odstęp i postępuj według instrukcji producenta AED.
+- W przypadku mokrej klatki piersiowej szybko osusz miejsca przyklejenia elektrod. Nie używaj AED w sposób narażający ratownika na kontakt z wodą lub przewodzącą powierzchnią.
+- W przypadku owłosienia uniemożliwiającego przyleganie elektrod postępuj według instrukcji urządzenia; nie opóźniaj niepotrzebnie RKO.
+- Nie dotykaj poszkodowanego podczas analizy i wyładowania, również wtedy, gdy prowadzisz wentylację.
+- Jeżeli jesteś sam, priorytetem jest wezwanie pomocy i rozpoczęcie RKO. Nie opuszczaj poszkodowanego, aby szukać AED, jeżeli opóźniłoby to te czynności.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Organizacja AED w gabinecie masażu
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Jeżeli w miejscu pracy znajduje się AED, personel powinien znać jego lokalizację, sposób dostępu, procedurę wezwania pomocy i podział zadań. Należy okresowo sprawdzać gotowość urządzenia zgodnie z instrukcją producenta: wskaźnik stanu, termin ważności elektrod i baterii oraz kompletność wyposażenia. Nie należy ustalać uniwersalnego miesięcznego testu, jeśli producent przewiduje inny harmonogram.
 
-## Najczęstsze błędy początkujących
+## Ćwiczenie praktyczne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+Na treningowym AED przećwicz włączenie urządzenia, przygotowanie klatki piersiowej, prawidłowe rozmieszczenie elektrod u dorosłego, dziecka i niemowlęcia, bezpieczne odsunięcie wszystkich osób podczas analizy i wyładowania oraz natychmiastowy powrót do RKO.
 
-## Pytania utrwalające
+## Pytania kontrolne
 
-1. Omów mechanizmy leżące u podstaw: Użycie AED — zasady i bezpieczeństwo. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+1. Dlaczego AED nie zastępuje RKO?
+2. Co należy zrobić po komunikacie „wyładowanie niezalecane”?
+3. Jak zmienia się tryb AED i ułożenie elektrod u dziecka o masie poniżej 25 kg?
+4. Co zrobić, jeśli AED nie ma trybu pediatrycznego?
+5. Dlaczego nie wolno dotykać poszkodowanego podczas analizy rytmu i wyładowania?
 
-## Słowniczek minimalny
+## Źródła
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djakow J, McBeth Turner N, Skellett S, Buysse CMP, Cardona F, de Lucas N, et al. European Resuscitation Council Guidelines 2025: Paediatric Life Support. Resuscitation. 2025;215(Suppl 1):110767. doi:10.1016/j.resuscitation.2025.110767.
+- European Resuscitation Council. Guidelines 2025: Paediatric Life Support. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
