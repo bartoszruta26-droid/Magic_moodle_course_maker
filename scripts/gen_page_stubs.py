@@ -81,7 +81,7 @@ def main(argv=None) -> int:
             for t in mod.topics:
                 page = next((p for p in pages
                              if PAGE_RE.match(p.name)
-                             and PAGE_RE.match(p.name).group(1) == f"{t.order:02d}"),
+                             and int(PAGE_RE.match(p.name).group(1)) == t.order),
                             None)
                 if page is None:
                     continue
