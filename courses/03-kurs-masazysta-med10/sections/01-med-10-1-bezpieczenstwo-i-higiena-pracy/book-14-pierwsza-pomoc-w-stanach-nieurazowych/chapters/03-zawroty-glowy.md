@@ -1,55 +1,62 @@
-# 1.14.2. Zawroty głowy
+# 1.14.2. Zawroty głowy — bezpieczeństwo i pierwsza pomoc
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Zawroty głowy są objawem o różnych możliwych przyczynach. Osoba może odczuwać wirowanie otoczenia (zawroty układowe), niestabilność, oszołomienie lub wrażenie zbliżającego się omdlenia. Pierwsza pomoc nie polega na ustalaniu przyczyny, lecz na zapobieganiu upadkowi, przerwaniu czynności mogących zagrażać bezpieczeństwu i rozpoznaniu objawów alarmowych.
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+## Postępowanie bez objawów alarmowych
 
-## Istota zagadnienia — ujęcie systematyczne
+1. Przerwij masaż i inne czynności. Zabezpiecz osobę przed upadkiem i pomóż jej usiąść lub położyć się w bezpiecznym miejscu.
+2. Zalecaj pozostanie w pozycji siedzącej lub leżącej do czasu ustąpienia zawrotów. Nie pozwalaj gwałtownie wstawać ani chodzić bez asekuracji.
+3. Zapewnij spokojne otoczenie i ogranicz ruchy głowy, jeśli nasilają objawy. Usuń przeszkody z otoczenia.
+4. Obserwuj świadomość, mowę, ruchy kończyn i oddech. Zapytaj, kiedy objawy się rozpoczęły, czy pojawiły się nagle i czy występują inne dolegliwości.
+5. Po ustąpieniu objawów osoba powinna wstawać stopniowo. Jeśli zawroty powracają, ponownie ją posadź lub połóż.
+6. Nie pozwalaj prowadzić pojazdu, obsługiwać urządzeń ani wracać do masażu lub ćwiczeń, dopóki objawy trwają.
+7. Jeżeli osoba jest w pełni przytomna i może bezpiecznie połykać, może przyjąć wodę, jeśli odczuwa pragnienie. Nie podawaj płynów osobie z zaburzeniami świadomości lub połykania.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Objawy alarmowe — natychmiast 112 lub 999
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+Wezwij pomoc, jeśli zawrotom głowy towarzyszy:
+- nagła asymetria twarzy, osłabienie lub drętwienie jednej strony ciała, zaburzenia mowy, widzenia lub koordynacji — podejrzenie udaru;
+- nagły, silny ból głowy, utrata przytomności, drgawki lub splątanie;
+- ból lub ucisk w klatce piersiowej, duszność albo kołatanie serca z osłabieniem;
+- niemożność utrzymania pozycji stojącej lub chodzenia o nagłym początku, zwłaszcza z innymi objawami neurologicznymi;
+- poważny uraz po upadku albo szybkie pogarszanie się stanu.
 
-## Metodyka postępowania — krok po kroku
+Przy podejrzeniu udaru zanotuj godzinę początku objawów lub ostatni znany moment bez objawów. Nie czekaj, czy zawroty same ustąpią.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Czego nie robić
 
-## Scenariusz sytuacyjny (studium przypadku)
+- Nie zakładaj, że przyczyną jest „błędnik”, stres, odwodnienie lub niskie ciśnienie.
+- Nie wykonuj manipulacji szyjnych, gwałtownych ruchów głowy ani prób samodzielnego „nastawiania błędnika”.
+- Nie podawaj leków, alkoholu ani cudzych preparatów.
+- Nie zmuszaj osoby do chodzenia, wykonywania ćwiczeń równoważnych ani kontynuowania masażu.
+- Nie opóźniaj wezwania pomocy przy objawach alarmowych w celu wykonania pomiarów lub wywiadu.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Dalsza ocena medyczna
 
-## Najczęstsze błędy początkujących
+Nowe, nawracające, utrzymujące się lub niewyjaśnione zawroty głowy wymagają konsultacji medycznej, nawet jeśli nie występują objawy alarmowe. Pierwszy epizod, zmiana charakteru objawów lub współistniejące zaburzenia słuchu, widzenia czy równowagi powinny zostać przekazane do oceny przez odpowiedniego specjalistę.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Rola masażysty
 
-## Pytania utrwalające
+Masażysta przerywa zabieg, zapobiega upadkowi, obserwuje stan i wzywa pomoc, jeśli występują objawy alarmowe. Nie rozpoznaje przyczyny zawrotów głowy, nie prowadzi leczenia przedsionkowego i nie wykonuje manipulacji w ostrym epizodzie. Informuje o potrzebie konsultacji, jeśli objawy są nowe, nawracające lub utrzymują się.
 
-1. Omów mechanizmy leżące u podstaw: Zawroty głowy. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Ćwiczenie praktyczne
 
-## Słowniczek minimalny
+Przećwicz scenariusz: klient zgłasza nagłe zawroty głowy podczas masażu. Uczestnik ma przerwać zabieg, bezpiecznie posadzić lub położyć osobę, ocenić objawy alarmowe, wykonać test FAST w zakresie obserwacji i wezwać 112/999, jeśli pojawiają się objawy udaru lub inne czerwone flagi.
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+## Pytania kontrolne
 
----
+1. Dlaczego zawroty głowy należy traktować jako objaw, a nie rozpoznanie?
+2. Jak zapobiec upadkowi podczas ostrego epizodu?
+3. Jakie objawy towarzyszące wymagają wezwania 112/999?
+4. Dlaczego nie należy wykonywać manipulacji szyjnych ani ćwiczeń równoważnych w ostrym epizodzie?
+5. Kiedy osoba z zawrotami głowy wymaga konsultacji medycznej, nawet bez objawów alarmowych?
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+## Źródła
+
+- NHS. Dizziness. https://www.nhs.uk/symptoms/dizziness/
+- NHS. Fainting. https://www.nhs.uk/symptoms/fainting/
+- European Resuscitation Council. Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752.
 
 <!-- subch-v2 -->
