@@ -68,6 +68,9 @@ private fun MagicMoodleApp(
     var courses by remember { mutableStateOf<List<CourseSummary>>(emptyList()) }
     var isLoading by remember { mutableStateOf(false) }
     var errorMessage by remember { mutableStateOf<String?>(null) }
+    var selectedDetails by remember { mutableStateOf<CourseDetails?>(null) }
+    var selectedValidation by remember { mutableStateOf<CourseValidation?>(null) }
+    var detailsLoading by remember { mutableStateOf(false) }
     val scope = rememberCoroutineScope()
 
     MaterialTheme {
@@ -164,6 +167,8 @@ private fun MagicMoodleApp(
                                 errorMessage = null
                                 try {
                                     courses = ApiClient(savedServerUrl, apiToken).listCourses()
+                                    selectedDetails = null
+                                    selectedValidation = null
                                     statusMessage = "Pobrano kursów: ${courses.size}"
                                 } catch (error: ApiException) {
                                     courses = emptyList()
@@ -188,9 +193,13 @@ private fun MagicMoodleApp(
                         )
                     }
 
-                    if (isLoading) {
+                    if (isLoading || detailsLoading) {
                         CircularProgressIndicator()
-                    } else if (courses.isEmpty() && errorMessage == null) {
+                    }
+                    selectedDetails?.let { details ->
+                        CourseDetailsCard(details, selectedValidation)
+                    }
+                    if (!isLoading && courses.isEmpty() && errorMessage == null) {
                         Text(
                             text = "Brak pobranych kursów. Wybierz „Pobierz kursy”, aby odczytać dane z API.",
                             style = MaterialTheme.typography.bodyMedium,
@@ -201,7 +210,25 @@ private fun MagicMoodleApp(
                             verticalArrangement = Arrangement.spacedBy(8.dp),
                         ) {
                             items(courses, key = { it.id }) { course ->
-                                CourseCard(course)
+                                CourseCard(course) {
+                                    scope.launch {
+                                        detailsLoading = true
+                                        errorMessage = null
+                                        selectedDetails = null
+                                        selectedValidation = null
+                                        try {
+                                            val client = ApiClient(savedServerUrl, apiToken)
+                                            selectedDetails = client.getCourseDetails(course.id)
+                                            selectedValidation = client.validateCourse(course.id)
+                                            statusMessage = "Pobrano szczegóły i raport walidacji."
+                                        } catch (error: ApiException) {
+                                            errorMessage = error.message
+                                            statusMessage = "Nie udało się pobrać szczegółów kursu."
+                                        } finally {
+                                            detailsLoading = false
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -218,7 +245,7 @@ private fun MagicMoodleApp(
 }
 
 @Composable
-private fun CourseCard(course: CourseSummary) {
+private fun CourseCard(course: CourseSummary, onOpen: () -> Unit) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(
             modifier = Modifier.padding(16.dp),
@@ -235,6 +262,54 @@ private fun CourseCard(course: CourseSummary) {
                     "Kurs wymaga kontroli — wystąpił błąd odczytu.",
                     color = MaterialTheme.colorScheme.error,
                 )
+            }
+            TextButton(onClick = onOpen) {
+                Text("Szczegóły i walidacja")
+            }
+        }
+    }
+}
+
+@Composable
+private fun CourseDetailsCard(
+    details: CourseDetails,
+    validation: CourseValidation?,
+) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
+            Text(details.name, style = MaterialTheme.typography.titleMedium)
+            if (details.description.isNotBlank()) {
+                Text(details.description, style = MaterialTheme.typography.bodyMedium)
+            }
+            Text(
+                "Sekcje: ${details.sections.size} · Aktywności: ${details.activityCount}",
+                style = MaterialTheme.typography.bodySmall,
+            )
+            details.sections.take(8).forEach { section ->
+                Text("• ${section.name} — ${section.activityCount} aktywności")
+            }
+            if (details.sections.size > 8) {
+                Text("Pozostałe sekcje: ${details.sections.size - 8}")
+            }
+            validation?.let { report ->
+                Text(
+                    if (report.ok) "Walidacja: poprawna" else "Walidacja: wymaga poprawy",
+                    color = if (report.ok) MaterialTheme.colorScheme.primary
+                    else MaterialTheme.colorScheme.error,
+                    style = MaterialTheme.typography.titleSmall,
+                )
+                Text("Błędy: ${report.errors.size} · Ostrzeżenia: ${report.warnings.size}")
+                (report.errors + report.warnings).take(8).forEach { finding ->
+                    Text(
+                        "[${finding.severity}] ${finding.code}: ${finding.message}",
+                        style = MaterialTheme.typography.bodySmall,
+                    )
+                }
+                val remaining = report.errors.size + report.warnings.size - 8
+                if (remaining > 0) Text("Pozostałe uwagi: $remaining")
             }
         }
     }
