@@ -240,7 +240,7 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $quizgenerator = $this->getDataGenerator()->get_plugin_generator('mod_quiz');
         $attempt = $quizgenerator->create_attempt($created['instanceid'], $student->id);
         $this->assertNotEmpty($attempt->id);
-        $this->assertSame($student->id, (int)$attempt->userid);
+        $this->assertSame((int)$student->id, (int)$attempt->userid);
         $this->assertSame(0, (int)$attempt->preview);
         $this->setAdminUser();
 
