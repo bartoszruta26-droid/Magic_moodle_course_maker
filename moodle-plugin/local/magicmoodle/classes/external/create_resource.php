@@ -139,6 +139,7 @@ class create_resource extends \external_api {
                         ], '*', MUST_EXIST);
                         list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                             get_moduleinfo_data($cm, $course);
+                        $cm->modname = 'resource';
                         $modulecontext = \context_module::instance($existing->id);
                         $existingfiles = $fs->get_area_files(
                             $modulecontext->id, 'mod_resource', 'content', 0, 'id', false
