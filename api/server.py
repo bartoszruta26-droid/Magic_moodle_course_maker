@@ -177,12 +177,23 @@ def create_server(
             if path.startswith(draft_prefix):
                 suffix = path[len(draft_prefix):]
                 is_preview = suffix.endswith("/preview")
-                draft_id = suffix[:-len("/preview")] if is_preview else suffix
+                is_history = suffix.endswith("/history")
+                if is_preview:
+                    draft_id = suffix[:-len("/preview")]
+                elif is_history:
+                    draft_id = suffix[:-len("/history")]
+                else:
+                    draft_id = suffix
                 if not draft_id or "/" in draft_id:
                     self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
                     return
                 try:
-                    data = draft_service.preview(draft_id) if is_preview else asdict(draft_service.get(draft_id))
+                    if is_preview:
+                        data = draft_service.preview(draft_id)
+                    elif is_history:
+                        data = [asdict(item) for item in draft_service.history(draft_id)]
+                    else:
+                        data = asdict(draft_service.get(draft_id))
                 except Exception as error:
                     self._draft_error(error)
                     return
@@ -193,7 +204,16 @@ def create_server(
             if path.startswith(prefix):
                 suffix = path[len(prefix):]
                 if suffix.endswith("/drafts"):
-                    self._error(405, "METHOD_NOT_ALLOWED", "Utworzenie wersji roboczej wymaga POST.")
+                    course_id = suffix[:-len("/drafts")]
+                    if not course_id or "/" in course_id:
+                        self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                        return
+                    try:
+                        drafts = [asdict(item) for item in draft_service.list_for_course(course_id)]
+                    except Exception as error:
+                        self._draft_error(error)
+                        return
+                    self._send(200, {"data": drafts, "meta": {"api_version": "1"}})
                     return
                 course_id = suffix
                 if not course_id or "/" in course_id:
@@ -246,7 +266,8 @@ def create_server(
                 return
             is_draft_creation = path.startswith(f"{API_PREFIX}/courses/") and path.endswith("/drafts")
             is_draft_update = path.startswith(f"{API_PREFIX}/drafts/") and path.endswith("/update")
-            if not self._authorized(write=is_draft_creation or is_draft_update):
+            is_draft_restore = path.startswith(f"{API_PREFIX}/drafts/") and path.endswith("/restore")
+            if not self._authorized(write=is_draft_creation or is_draft_update or is_draft_restore):
                 return
             validation_prefix = f"{API_PREFIX}/courses/"
             validation_suffix = "/validation"
@@ -322,6 +343,34 @@ def create_server(
                     self._draft_error(error)
                     return
                 self._send(200, {"data": asdict(updated), "meta": {"api_version": "1"}})
+                return
+            restore_prefix = f"{API_PREFIX}/drafts/"
+            restore_suffix = "/restore"
+            if path.startswith(restore_prefix) and path.endswith(restore_suffix):
+                body = self._read_json_body()
+                if body is None:
+                    return
+                draft_id = path[len(restore_prefix):-len(restore_suffix)]
+                if not draft_id or "/" in draft_id:
+                    self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                    return
+                if set(body) != {"expected_revision", "target_revision"}:
+                    self._error(
+                        400,
+                        "INVALID_DRAFT_RESTORE",
+                        "Wymagane są wyłącznie pola expected_revision i target_revision.",
+                    )
+                    return
+                try:
+                    restored = draft_service.restore(
+                        draft_id,
+                        expected_revision=body["expected_revision"],
+                        target_revision=body["target_revision"],
+                    )
+                except Exception as error:
+                    self._draft_error(error)
+                    return
+                self._send(200, {"data": asdict(restored), "meta": {"api_version": "1"}})
                 return
             self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
 

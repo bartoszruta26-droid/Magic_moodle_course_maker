@@ -109,44 +109,87 @@ class CourseDraftService:
         payload = {"format": _DRAFT_FORMAT, "format_version": _DRAFT_VERSION, **asdict(draft)}
         return json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
 
+    @staticmethod
+    def _deserialize_payload(payload: Any, expected_draft_id: str) -> CourseDraft:
+        if not isinstance(payload, dict):
+            raise ValueError("invalid draft document")
+        if payload.get("format") != _DRAFT_FORMAT or payload.get("format_version") != _DRAFT_VERSION:
+            raise ValueError("unsupported draft format")
+        draft = CourseDraft(
+            draft_id=CourseDraftService._validate_draft_id(payload["draft_id"]),
+            course_id=payload["course_id"],
+            revision=payload["revision"],
+            created_at=payload["created_at"],
+            updated_at=payload["updated_at"],
+            base_digest=payload["base_digest"],
+            changes=payload["changes"],
+        )
+        if (
+            draft.draft_id != CourseDraftService._validate_draft_id(expected_draft_id)
+            or not isinstance(draft.course_id, str)
+            or not draft.course_id
+            or type(draft.revision) is not int
+            or draft.revision < 1
+            or not isinstance(draft.created_at, str)
+            or not isinstance(draft.updated_at, str)
+            or not isinstance(draft.base_digest, str)
+            or len(draft.base_digest) != 64
+            or not isinstance(draft.changes, dict)
+        ):
+            raise ValueError("invalid draft fields")
+        return draft
+
     def _read(self, draft_id: str) -> CourseDraft:
         path = self._draft_path(draft_id)
         try:
             if path.stat().st_size > _MAX_DRAFT_BYTES:
                 raise CourseDraftNotFoundError("Plik wersji roboczej przekracza dopuszczalny rozmiar.")
             payload = json.loads(path.read_text(encoding="utf-8"))
-            if not isinstance(payload, dict):
-                raise ValueError("invalid draft document")
-            if payload.get("format") != _DRAFT_FORMAT or payload.get("format_version") != _DRAFT_VERSION:
-                raise ValueError("unsupported draft format")
-            draft = CourseDraft(
-                draft_id=self._validate_draft_id(payload["draft_id"]),
-                course_id=payload["course_id"],
-                revision=payload["revision"],
-                created_at=payload["created_at"],
-                updated_at=payload["updated_at"],
-                base_digest=payload["base_digest"],
-                changes=payload["changes"],
-            )
-            if (
-                draft.draft_id != self._validate_draft_id(draft_id)
-                or not isinstance(draft.course_id, str)
-                or not draft.course_id
-                or type(draft.revision) is not int
-                or draft.revision < 1
-                or not isinstance(draft.created_at, str)
-                or not isinstance(draft.updated_at, str)
-                or not isinstance(draft.base_digest, str)
-                or len(draft.base_digest) != 64
-            ):
-                raise ValueError("invalid draft fields")
-            if not isinstance(draft.changes, dict):
-                raise ValueError("invalid draft changes")
-            return draft
+            return self._deserialize_payload(payload, draft_id)
         except CourseDraftError:
             raise
         except (OSError, UnicodeError, ValueError, KeyError, TypeError) as exc:
             raise CourseDraftNotFoundError("Nie znaleziono poprawnej wersji roboczej.") from exc
+
+    def _history_dir(self, draft_id: str) -> Path:
+        normalized = self._validate_draft_id(draft_id)
+        root = self._drafts_dir()
+        candidate = root / f"{normalized}.history"
+        candidate.mkdir(parents=True, exist_ok=True)
+        resolved = candidate.resolve()
+        if not resolved.is_relative_to(root):
+            raise CourseDraftValidationError("Katalog historii wychodzi poza katalog wersji roboczych.")
+        return resolved
+
+    def _snapshot_path(self, draft_id: str, revision: int) -> Path:
+        if type(revision) is not int or revision < 1:
+            raise CourseDraftNotFoundError("Nie znaleziono rewizji wersji roboczej.")
+        directory = self._history_dir(draft_id)
+        path = directory / f"{revision:08d}.json"
+        if not path.resolve().is_relative_to(directory):
+            raise CourseDraftNotFoundError("Nie znaleziono rewizji wersji roboczej.")
+        return path
+
+    def _write_snapshot(self, draft: CourseDraft) -> None:
+        atomic_write_text(
+            self._snapshot_path(draft.draft_id, draft.revision),
+            self._serialize(draft),
+        )
+
+    def _read_snapshot(self, draft_id: str, revision: int) -> CourseDraft:
+        path = self._snapshot_path(draft_id, revision)
+        try:
+            if path.stat().st_size > _MAX_DRAFT_BYTES:
+                raise CourseDraftNotFoundError("Migawka rewizji przekracza dopuszczalny rozmiar.")
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            draft = self._deserialize_payload(payload, draft_id)
+            if draft.revision != revision:
+                raise ValueError("snapshot revision mismatch")
+            return draft
+        except CourseDraftError:
+            raise
+        except (OSError, UnicodeError, ValueError, KeyError, TypeError) as exc:
+            raise CourseDraftNotFoundError("Nie znaleziono rewizji wersji roboczej.") from exc
 
     def create(self, course_id: str) -> CourseDraft:
         from magic_moodle.application.queries import CourseApplicationService
@@ -163,6 +206,7 @@ class CourseDraftService:
             changes={},
         )
         with self._lock:
+            self._write_snapshot(draft)
             atomic_write_text(self._draft_path(draft.draft_id), self._serialize(draft))
         return draft
 
@@ -245,8 +289,102 @@ class CourseDraftService:
             )
             # Validate section/activity identifiers before persisting the new revision.
             self._apply(source_course, updated)
+            self._write_snapshot(updated)
             atomic_write_text(self._draft_path(updated.draft_id), self._serialize(updated))
             return updated
+
+    def list_for_course(self, course_id: str) -> list[CourseDraft]:
+        """List current drafts for a course, newest update first."""
+        drafts: list[CourseDraft] = []
+        with self._lock:
+            for path in self._drafts_dir().glob("*.json"):
+                try:
+                    draft = self._read(path.stem)
+                except CourseDraftNotFoundError:
+                    continue
+                if draft.course_id == course_id:
+                    drafts.append(draft)
+        return sorted(drafts, key=lambda item: item.updated_at, reverse=True)
+
+    def history(self, draft_id: str) -> list[CourseDraft]:
+        """Return immutable snapshots in ascending revision order."""
+        with self._lock:
+            current = self._read(draft_id)
+            directory = self._history_dir(current.draft_id)
+            snapshots: dict[int, CourseDraft] = {}
+            for path in directory.glob("*.json"):
+                try:
+                    revision = int(path.stem)
+                    if revision > current.revision:
+                        continue
+                    snapshot = self._read_snapshot(current.draft_id, revision)
+                    if snapshot.course_id == current.course_id and snapshot.base_digest == current.base_digest:
+                        snapshots[revision] = snapshot
+                except (ValueError, CourseDraftNotFoundError):
+                    continue
+            if current.revision not in snapshots:
+                # Backfill the current revision for drafts created before history support.
+                self._write_snapshot(current)
+                snapshots[current.revision] = current
+            return [snapshots[number] for number in sorted(snapshots)]
+
+    def restore(
+        self,
+        draft_id: str,
+        *,
+        expected_revision: int,
+        target_revision: int,
+    ) -> CourseDraft:
+        """Restore a prior snapshot as a new revision; never rewind the revision counter."""
+        if type(target_revision) is not int or target_revision < 1:
+            raise CourseDraftValidationError("Rewizja docelowa musi być dodatnią liczbą całkowitą.")
+        current = self.get(draft_id)
+        if current.revision != expected_revision:
+            raise CourseDraftConflictError(
+                f"Nieaktualna rewizja. Bieżąca rewizja: {current.revision}."
+            )
+        if target_revision > current.revision:
+            raise CourseDraftNotFoundError("Nie znaleziono rewizji wersji roboczej.")
+        target = self._read_snapshot(draft_id, target_revision)
+        if target.course_id != current.course_id or target.base_digest != current.base_digest:
+            raise CourseDraftConflictError("Rewizja docelowa pochodzi z innej wersji bazowej kursu.")
+
+        from magic_moodle.application.queries import CourseApplicationService
+
+        source_course = CourseApplicationService(self.courses_root).get_course(current.course_id)
+        if _course_digest(source_course) != current.base_digest:
+            raise CourseDraftConflictError(
+                "Kurs źródłowy zmienił się od utworzenia wersji roboczej. Utwórz nową wersję."
+            )
+        target_course = self._apply(source_course, target)
+        current_section_keys = set(current.changes.get("section_names", {}))
+        target_section_keys = set(target.changes.get("section_names", {}))
+        current_activity_keys = set(current.changes.get("activity_names", {}))
+        target_activity_keys = set(target.changes.get("activity_names", {}))
+        section_keys = current_section_keys | target_section_keys
+        activity_keys = current_activity_keys | target_activity_keys
+        section_names = {
+            section.id: section.name
+            for section in target_course.sections
+            if section.id in section_keys
+        }
+        activity_names = {
+            f"{section.id}{_ACTIVITY_KEY_SEPARATOR}{activity.ref}": activity.name
+            for section in target_course.sections
+            for activity in section.activities
+            if f"{section.id}{_ACTIVITY_KEY_SEPARATOR}{activity.ref}" in activity_keys
+        }
+        return self.update(
+            draft_id,
+            expected_revision=expected_revision,
+            changes={
+                "full_name": target_course.full_name,
+                "short_name": target_course.short_name,
+                "description": target_course.description,
+                "section_names": section_names,
+                "activity_names": activity_names,
+            },
+        )
 
     def _apply(self, course: Course, draft: CourseDraft) -> Course:
         changes = draft.changes

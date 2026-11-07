@@ -161,3 +161,86 @@ def test_update_rejects_boolean_revision(tmp_path: Path) -> None:
 
     with pytest.raises(CourseDraftValidationError):
         service.update(draft.draft_id, expected_revision=True, changes={"full_name": "Niepoprawne"})
+
+
+def test_draft_history_keeps_immutable_revisions_and_lists_by_course(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+    make_course(courses / "other")
+    service = CourseDraftService(courses)
+
+    first = service.create("sample")
+    second = service.update(
+        first.draft_id,
+        expected_revision=1,
+        changes={"full_name": "Kurs druga rewizja"},
+    )
+    third = service.update(
+        first.draft_id,
+        expected_revision=2,
+        changes={"section_names": {"intro": "Zaawansowane"}},
+    )
+    other = service.create("other")
+
+    history = service.history(first.draft_id)
+    assert [item.revision for item in history] == [1, 2, 3]
+    assert history[0].changes == {}
+    assert history[1].changes["full_name"] == "Kurs druga rewizja"
+    assert history[2].changes["section_names"]["intro"] == "Zaawansowane"
+    assert [item.draft_id for item in service.list_for_course("sample")] == [first.draft_id]
+    assert [item.draft_id for item in service.list_for_course("other")] == [other.draft_id]
+    assert second.revision == 2
+    assert third.revision == 3
+
+
+def test_restore_prior_revision_creates_new_revision_and_reverts_overlay(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    course = make_course(courses / "sample")
+    original_course_yaml = (course / "course.yaml").read_text(encoding="utf-8")
+    service = CourseDraftService(courses)
+    first = service.create("sample")
+    second = service.update(
+        first.draft_id,
+        expected_revision=1,
+        changes={
+            "full_name": "Kurs zmieniony",
+            "description": "Nowy opis",
+            "section_names": {"intro": "Nowa sekcja"},
+            "activity_names": {"intro|page.md": "Nowa aktywność"},
+        },
+    )
+    third = service.update(
+        first.draft_id,
+        expected_revision=2,
+        changes={"full_name": "Kurs trzeciej rewizji"},
+    )
+
+    restored = service.restore(
+        first.draft_id,
+        expected_revision=third.revision,
+        target_revision=1,
+    )
+    preview = service.preview(first.draft_id)
+
+    assert restored.revision == 4
+    assert preview["course"]["course"]["full_name"] == "Kurs bazowy"
+    assert preview["course"]["course"]["short_name"] == "BASE"
+    assert preview["course"]["course"]["description"] == "Opis bazowy"
+    assert preview["course"]["sections"][0]["name"] == "Wprowadzenie"
+    assert preview["course"]["sections"][0]["activities"][0]["name"] == "Strona bazowa"
+    assert (course / "course.yaml").read_text(encoding="utf-8") == original_course_yaml
+    assert [item.revision for item in service.history(first.draft_id)] == [1, 2, 3, 4]
+    assert second.revision == 2
+
+
+def test_restore_requires_current_revision_and_existing_snapshot(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+    service = CourseDraftService(courses)
+    draft = service.create("sample")
+    service.update(draft.draft_id, expected_revision=1, changes={"full_name": "Zmiana"})
+
+    with pytest.raises(CourseDraftConflictError):
+        service.restore(draft.draft_id, expected_revision=1, target_revision=1)
+    with pytest.raises(CourseDraftNotFoundError):
+        service.restore(draft.draft_id, expected_revision=2, target_revision=99)
