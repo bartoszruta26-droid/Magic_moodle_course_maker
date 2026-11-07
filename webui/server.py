@@ -188,14 +188,39 @@ class Handler(BaseHTTPRequestHandler):
                 return
             suffix = parsed.path[len(draft_prefix):]
             is_preview = suffix.endswith("/preview")
-            draft_id = suffix[:-len("/preview")] if is_preview else suffix
+            is_history = suffix.endswith("/history")
+            if is_preview:
+                draft_id = suffix[:-len("/preview")]
+            elif is_history:
+                draft_id = suffix[:-len("/history")]
+            else:
+                draft_id = suffix
             if not draft_id or "/" in draft_id:
                 return self._error("Nie znaleziono wersji roboczej.", 404, "DRAFT_NOT_FOUND")
             try:
-                result = _draft_service().preview(draft_id) if is_preview else asdict(_draft_service().get(draft_id))
+                if is_preview:
+                    result = _draft_service().preview(draft_id)
+                elif is_history:
+                    result = [asdict(item) for item in _draft_service().history(draft_id)]
+                else:
+                    result = asdict(_draft_service().get(draft_id))
             except Exception as error:
                 return self._draft_error(error)
             return self._json({"data": result})
+        courses_prefix = "/api/courses/"
+        drafts_suffix = "/drafts"
+        if parsed.path.startswith(courses_prefix) and parsed.path.endswith(drafts_suffix):
+            if not self._authorize_draft():
+                return
+            course_id = unquote(parsed.path[len(courses_prefix):-len(drafts_suffix)])
+            if not course_id or "/" in course_id or "\\" in course_id:
+                return self._error("Nieprawidłowy identyfikator kursu.", 400, "INVALID_COURSE_ID")
+            try:
+                drafts = [asdict(item) for item in _draft_service().list_for_course(course_id)]
+            except Exception as error:
+                return self._draft_error(error)
+            return self._json({"data": drafts})
+
         if parsed.path.startswith("/api/courses/") and parsed.path.endswith("/validate"):
             course_id = unquote(parsed.path[len("/api/courses/"):-len("/validate")]).strip("/")
             if not course_id or course_id in {".", ".."} or "/" in course_id or "\\" in course_id:
@@ -231,24 +256,47 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         if parsed.query or parsed.fragment:
             return self._error("Parametry zapytania nie są obsługiwane.", 400, "UNEXPECTED_QUERY")
-        prefix, suffix = "/api/courses/", "/drafts"
-        if not parsed.path.startswith(prefix) or not parsed.path.endswith(suffix):
+        create_prefix, create_suffix = "/api/courses/", "/drafts"
+        restore_prefix, restore_suffix = "/api/drafts/", "/restore"
+        is_create = parsed.path.startswith(create_prefix) and parsed.path.endswith(create_suffix)
+        is_restore = parsed.path.startswith(restore_prefix) and parsed.path.endswith(restore_suffix)
+        if not (is_create or is_restore):
             return self._error("Nie znaleziono zasobu.", 404, "NOT_FOUND")
         if not self._authorize_draft(write=True):
             return
-        course_id = unquote(parsed.path[len(prefix):-len(suffix)])
-        if not course_id or "/" in course_id or "\\" in course_id:
-            return self._error("Nieprawidłowy identyfikator kursu.", 400, "INVALID_COURSE_ID")
-        body = self._read_json_body(allow_empty=True)
+        body = self._read_json_body(allow_empty=is_create)
         if body is None:
             return
-        if body:
-            return self._error("Utworzenie wersji roboczej nie przyjmuje pól.", 400, "UNEXPECTED_FIELDS")
+        if is_create:
+            course_id = unquote(parsed.path[len(create_prefix):-len(create_suffix)])
+            if not course_id or "/" in course_id or "\\\\" in course_id:
+                return self._error("Nieprawidłowy identyfikator kursu.", 400, "INVALID_COURSE_ID")
+            if body:
+                return self._error("Utworzenie wersji roboczej nie przyjmuje pól.", 400, "UNEXPECTED_FIELDS")
+            try:
+                draft = _draft_service().create(course_id)
+            except Exception as error:
+                return self._draft_error(error)
+            return self._json({"data": asdict(draft)}, 201)
+
+        draft_id = parsed.path[len(restore_prefix):-len(restore_suffix)]
+        if not draft_id or "/" in draft_id:
+            return self._error("Nie znaleziono wersji roboczej.", 404, "DRAFT_NOT_FOUND")
+        if set(body) != {"expected_revision", "target_revision"}:
+            return self._error(
+                "Wymagane są wyłącznie pola expected_revision i target_revision.",
+                400,
+                "INVALID_DRAFT_RESTORE",
+            )
         try:
-            draft = _draft_service().create(course_id)
+            restored = _draft_service().restore(
+                draft_id,
+                expected_revision=body["expected_revision"],  # type: ignore[arg-type]
+                target_revision=body["target_revision"],  # type: ignore[arg-type]
+            )
         except Exception as error:
             return self._draft_error(error)
-        return self._json({"data": asdict(draft)}, 201)
+        return self._json({"data": asdict(restored)})
 
     def do_PATCH(self) -> None:  # noqa: N802
         if not self._check_host():
