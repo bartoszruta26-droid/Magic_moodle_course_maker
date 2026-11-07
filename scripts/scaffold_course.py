@@ -77,7 +77,9 @@ class Plan:
 
 def topic_stem(order: int, title: str) -> str:
     """Czlon 'NN-slug' wspolny dla strony / quizu / zadania danego tematu."""
-    return f"{order:02d}-{slugify(title)}"
+    # Nazwa tematu w TOC zaczyna się od numeru N.M.; slug zawiera sam tytuł.
+    clean_title = re.sub(r"^\d{1,2}\.\d{1,2}\.?\s*", "", title).strip()
+    return f"{order:02d}-{slugify(clean_title)}"
 
 
 def scaffold_modules(course: Course, base: Path, plan: Plan,
@@ -225,7 +227,8 @@ def main(argv=None) -> int:
         if not target.is_absolute():
             target = ROOT / target
         problems = check_structure(course, target)
-        print(f"Kontrola struktury: {target.relative_to(ROOT)} vs {args.toc.name}")
+        display_target = target.relative_to(ROOT) if target.is_relative_to(ROOT) else target
+        print(f"Kontrola struktury: {display_target} vs {args.toc.name}")
         if problems:
             for pr in problems:
                 print("  BRAK:", pr)
@@ -243,7 +246,7 @@ def main(argv=None) -> int:
     course = parse_course(args.toc)
     print(f"Zrodlo   : {args.toc}")
     print(f"Tytul    : {course.name}")
-    print(f"Kurs     : {base.relative_to(ROOT)}")
+    print(f"Kurs     : {base.relative_to(ROOT) if base.is_relative_to(ROOT) else base}")
     print(f"Struktura: {len(course.modules)} modulow, {course.topic_count} tematom, "
           f"{course.subtopic_count} podtematom, {len(course.attachments)} zalacznikow, "
           f"{len(course.front)} sekcji wstepnych\n")

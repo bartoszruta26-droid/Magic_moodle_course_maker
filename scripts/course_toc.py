@@ -351,7 +351,7 @@ def parse_course(path: str | Path) -> Course:
         if msub and cur_topic is not None and msub.group(1).startswith(cur_topic.num + "."):
             # podtemat: tytul bez numeru (linia to "N.M.K. Tytuł") — dawniej
             # zapisywano cala linie, co dawalo podwojenia "4.8.1 4.8.1. Tytuł"
-            sub_title = flat[msub.end(1):].lstrip(". \t")
+            sub_title = msub.group(2).strip()
             cur_topic.subtopics.append(Subtopic(num=msub.group(1), title=sub_title))
             continue
         # wariant naprawczy (kurs masażu): w spisie treści przy temacie 4.7

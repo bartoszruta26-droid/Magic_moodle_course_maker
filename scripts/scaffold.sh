@@ -32,6 +32,7 @@ python3 scripts/scaffold_course.py --toc "$TOC" --base "$BASE"
 python3 scripts/gen_page_stubs.py  --toc "$TOC" --base "$BASE"
 python3 scripts/gen_quiz_templates.py --toc "$TOC" --base "$BASE"
 
-# 4. kontrola struktury wzgledem spisu tresci
-python3 scripts/scaffold_course.py --toc "$TOC" --base "$BASE" --check || true
+# 4. kontrola struktury wzgledem spisu tresci.
+# Nie ignoruj bledu: przy set -e skrypt ma zakonczyc sie niepowodzeniem.
+python3 scripts/scaffold_course.py --toc "$TOC" --base "$BASE" --check
 echo "Kurs szkicowy gotowy: $BASE"
