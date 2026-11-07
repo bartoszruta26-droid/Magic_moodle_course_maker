@@ -170,7 +170,7 @@ class create_resource extends \external_api {
                             || $params['previousfilename'] !== $filename
                             || !hash_equals($remotehash, $contenthash);
                         if ($contentchanged) {
-                            $draftitemid = file_get_unused_draft_itemid();
+                            $draftitemid = 0; // file_prepare_draft_area() creates a fresh area and copies existing files.
                             $fileoptions = [
                                 'subdirs' => true,
                                 'maxfiles' => -1,
