@@ -1,55 +1,87 @@
-# 1.13.10. Ciało obce w drogach oddechowych
+# 1.13.10. Zadławienie — ciało obce w drogach oddechowych
 
-*Rozdział szczegółowy (podrozdział) tematu 1.13 — Pierwsza pomoc w stanach urazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Zadławienie może prowadzić do częściowej lub całkowitej niedrożności dróg oddechowych i zatrzymania krążenia. Postępowanie zależy od skuteczności kaszlu, wieku osoby i poziomu świadomości. Algorytm dla dorosłych i dzieci powyżej 1. roku życia różni się od algorytmu dla niemowląt.
 
-Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
+## Rozpoznanie
 
-## Istota zagadnienia — ujęcie systematyczne
+Podejrzewaj zadławienie, gdy podczas jedzenia lub zabawy osoba nagle zaczyna kaszleć, krztusić się, ma trudności z mówieniem, oddychaniem lub wydawaniem dźwięków. Może chwytać się za szyję, mieć siniejące usta lub szybko tracić siły.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+### Skuteczny kaszel — łagodna niedrożność
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+Jeśli osoba może głośno i skutecznie kaszleć, mówić lub oddychać:
+- zachęcaj ją do kaszlu;
+- obserwuj, czy kaszel pozostaje skuteczny;
+- nie wykonuj uderzeń w plecy ani ucisków, dopóki kaszel jest skuteczny.
 
-## Metodyka postępowania — krok po kroku
+### Nieskuteczny kaszel — ciężka niedrożność
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+Jeśli osoba nie może mówić, oddychać lub kaszel jest cichy, słaby albo zanika:
+- natychmiast wezwij pomoc pod numerem 112 lub 999; jeśli jest druga osoba, poleć jej wykonanie telefonu;
+- rozpocznij odpowiednie czynności zależnie od wieku i świadomości.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Osoba dorosła i dziecko powyżej 1. roku życia — przytomne
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+1. Pochyl osobę do przodu, podtrzymując klatkę piersiową.
+2. Wykonaj do pięciu mocnych uderzeń nasadą dłoni między łopatkami. Po każdym uderzeniu sprawdź, czy ciało obce zostało usunięte. Przerwij, gdy niedrożność ustąpi.
+3. Jeśli uderzenia w plecy nie pomogły, wykonaj do pięciu uciśnięć nadbrzusza: stań za osobą, obejmij ją ramionami, zaciśnij pięść i umieść ją między pępkiem a dolnym końcem mostka. Chwyć pięść drugą dłonią i wykonaj szybki ruch do siebie i ku górze.
+4. Jeśli niedrożność nadal się utrzymuje, naprzemiennie wykonuj do pięciu uderzeń w plecy i do pięciu uciśnięć nadbrzusza.
+5. Przerwij czynności natychmiast po skutecznym usunięciu przeszkody, gdy powróci skuteczny kaszel lub prawidłowy oddech.
+6. Jeśli osoba straci przytomność, ostrożnie opuść ją na podłoże, wezwij lub ponownie potwierdź wezwanie pomocy i rozpocznij RKO zgodnie z algorytmem dla dorosłego lub dziecka. Przed próbą oddechów ratowniczych otwórz usta i usuń wyłącznie ciało obce, które jest wyraźnie widoczne i łatwe do uchwycenia.
 
-## Najczęstsze błędy początkujących
+## Niemowlę poniżej 1. roku życia — przytomne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+1. Wezwij pomoc lub poleć drugiej osobie zadzwonić pod 112/999.
+2. Ułóż niemowlę na przedramieniu twarzą w dół, z głową podtrzymywaną i położoną niżej niż tułów. Podtrzymuj głowę i żuchwę, nie uciskając miękkich tkanek szyi.
+3. Wykonaj do pięciu ostrych uderzeń nasadą dłoni między łopatkami. Po każdym sprawdź, czy przeszkoda została usunięta.
+4. Jeśli uderzenia w plecy nie pomogły, odwróć niemowlę na plecy, podtrzymując głowę, i wykonaj do pięciu uciśnięć klatki piersiowej techniką dwóch kciuków obejmujących klatkę piersiową. Uciskaj mostek w dolnej połowie, nie nadbrzusze.
+5. Naprzemiennie wykonuj do pięciu uderzeń w plecy i do pięciu uciśnięć klatki piersiowej, aż do usunięcia przeszkody lub utraty przytomności.
+6. Nie wykonuj u niemowlęcia uciśnięć nadbrzusza.
 
-## Pytania utrwalające
+## Osoba nieprzytomna
 
-1. Omów mechanizmy leżące u podstaw: Ciało obce w drogach oddechowych. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+- Jeśli osoba traci przytomność, bezpiecznie połóż ją na podłożu i wezwij 112/999, jeśli pomoc nie została jeszcze wezwana.
+- **Dorosły:** rozpocznij RKO zgodnie z algorytmem dorosłego. Przed oddechami otwieraj usta i sprawdzaj, czy ciało obce jest widoczne. Usuwaj tylko widoczną przeszkodę.
+- **Dziecko lub niemowlę:** otwórz drogi oddechowe i rozpocznij resuscytację pediatryczną od pięciu początkowych oddechów ratowniczych, następnie kontynuuj PBLS zgodnie z przeszkoleniem i wskazówkami dyspozytora.
+- Nie wykonuj ślepego wygarniania palcem. Nie próbuj usuwać przeszkody, której nie widzisz.
+- Kontynuuj RKO do przybycia pomocy, odzyskania oznak życia lub polecenia dyspozytora.
 
-## Słowniczek minimalny
+## Po ustąpieniu zadławienia
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+Każda osoba, u której zastosowano uciśnięcia nadbrzusza lub uciśnięcia klatki piersiowej w celu usunięcia przeszkody, powinna zostać oceniona przez personel medyczny, nawet jeśli objawy ustąpiły. Po manewrach mogą wystąpić urazy wewnętrzne lub pozostać fragment ciała obcego. Pilna ocena jest również wskazana, jeśli utrzymuje się kaszel, duszność, ból, świszczący oddech lub trudności w połykaniu.
 
----
+## Czego nie robić
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Nie wykonuj uderzeń w plecy ani uciśnięć, jeśli osoba skutecznie kaszle.
+- Nie wykonuj u niemowlęcia uciśnięć nadbrzusza.
+- Nie wkładaj palców do ust na ślepo i nie wykonuj powtarzanych prób wygarniania.
+- Nie podawaj wody, jedzenia ani leków w celu „przepchnięcia” przeszkody.
+- Nie opóźniaj wezwania pomocy przy ciężkiej niedrożności.
+- Nie pozostawiaj osoby samej po skutecznym usunięciu przeszkody, jeśli występują objawy lub zastosowano uciśnięcia.
+
+## Rola masażysty
+
+Masażysta przerywa zabieg, rozpoznaje ciężką niedrożność, wzywa 112/999 i wykonuje wyłącznie manewry pierwszej pomocy, w których jest przeszkolony. Nie wykonuje zaawansowanych procedur usuwania ciała obcego. Po zdarzeniu przekazuje ratownikom czas i przebieg zadławienia, zastosowane manewry oraz informację, czy przeszkoda została usunięta.
+
+## Ćwiczenie praktyczne
+
+Na fantomie przećwicz odrębnie algorytm dla dorosłego, dziecka powyżej 1. roku życia i niemowlęcia: rozpoznanie skutecznego i nieskutecznego kaszlu, uderzenia w plecy, odpowiednio uciśnięcia nadbrzusza lub klatki piersiowej, wezwanie pomocy oraz przejście do RKO po utracie przytomności. Nie ćwicz manewrów uciskowych na żywej osobie.
+
+## Pytania kontrolne
+
+1. Jak odróżnić skuteczny kaszel od ciężkiej niedrożności dróg oddechowych?
+2. Jaka jest kolejność postępowania u dorosłego i dziecka powyżej 1. roku życia?
+3. Czym różni się algorytm u niemowlęcia?
+4. Dlaczego nie wolno wykonywać ślepego wygarniania palcem?
+5. Jak rozpocząć RKO po utracie przytomności u dorosłego, a jak u dziecka lub niemowlęcia?
+6. Dlaczego po uciśnięciach nadbrzusza lub klatki piersiowej potrzebna jest ocena medyczna?
+
+## Źródła
+
+- Djakow J, McBeth Turner N, Skellett S, Buysse CMP, Cardona F, de Lucas N, et al. European Resuscitation Council Guidelines 2025: Paediatric Life Support. Resuscitation. 2025;215(Suppl 1):110767. doi:10.1016/j.resuscitation.2025.110767.
+- European Resuscitation Council. Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752.
+- Resuscitation Council UK. Adult choking algorithm 2025. https://www.resus.org.uk/sites/default/files/2025-10/Adult%20choking%20algorithm%202025%20.pdf
+- Resuscitation Council UK. Paediatric choking algorithm 2025. https://www.resus.org.uk/sites/default/files/2025-10/Paediatric%20choking%20algorithm%202025.pdf
 
 <!-- subch-v2 -->
