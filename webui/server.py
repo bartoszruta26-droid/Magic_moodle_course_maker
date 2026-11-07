@@ -269,7 +269,7 @@ class Handler(BaseHTTPRequestHandler):
             return
         if is_create:
             course_id = unquote(parsed.path[len(create_prefix):-len(create_suffix)])
-            if not course_id or "/" in course_id or "\\\\" in course_id:
+            if not course_id or "/" in course_id or "\\" in course_id:
                 return self._error("Nieprawidłowy identyfikator kursu.", 400, "INVALID_COURSE_ID")
             if body:
                 return self._error("Utworzenie wersji roboczej nie przyjmuje pól.", 400, "UNEXPECTED_FIELDS")
