@@ -41,7 +41,7 @@ jobs:
           from pathlib import Path
 
           from PySide6.QtCore import QTimer
-          from PySide6.QtWidgets import QApplication, QDialogButtonBox, QLineEdit, QMessageBox, QPushButton
+          from PySide6.QtWidgets import QApplication, QLineEdit, QMessageBox, QPushButton
           from desktopgui.app import _build_window
 
           with tempfile.TemporaryDirectory() as temporary:
@@ -73,14 +73,15 @@ jobs:
                   assert dialog is not None
                   fields = dialog.findChildren(QLineEdit)
                   fields[0].setText("Kurs GUI po edycji")
-                  buttons = dialog.findChild(QDialogButtonBox)
-                  QTimer.singleShot(
-                      0,
-                      lambda: app.activeModalWidget().accept()
-                      if isinstance(app.activeModalWidget(), QMessageBox)
-                      else None,
-                  )
-                  buttons.button(QDialogButtonBox.StandardButton.Save).click()
+                  def dismiss_notice():
+                      active = app.activeModalWidget()
+                      if isinstance(active, QMessageBox):
+                          active.accept()
+                      else:
+                          QTimer.singleShot(10, dismiss_notice)
+
+                  QTimer.singleShot(10, dismiss_notice)
+                  dialog.accept()
 
               QTimer.singleShot(0, edit_and_accept)
               window.edit_course_draft()
