@@ -116,6 +116,8 @@ class CourseDraftService:
             if path.stat().st_size > _MAX_DRAFT_BYTES:
                 raise CourseDraftNotFoundError("Plik wersji roboczej przekracza dopuszczalny rozmiar.")
             payload = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(payload, dict):
+                raise ValueError("invalid draft document")
             if payload.get("format") != _DRAFT_FORMAT or payload.get("format_version") != _DRAFT_VERSION:
                 raise ValueError("unsupported draft format")
             draft = CourseDraft(
@@ -127,7 +129,17 @@ class CourseDraftService:
                 base_digest=payload["base_digest"],
                 changes=payload["changes"],
             )
-            if not isinstance(draft.course_id, str) or not isinstance(draft.revision, int):
+            if (
+                draft.draft_id != self._validate_draft_id(draft_id)
+                or not isinstance(draft.course_id, str)
+                or not draft.course_id
+                or type(draft.revision) is not int
+                or draft.revision < 1
+                or not isinstance(draft.created_at, str)
+                or not isinstance(draft.updated_at, str)
+                or not isinstance(draft.base_digest, str)
+                or len(draft.base_digest) != 64
+            ):
                 raise ValueError("invalid draft fields")
             if not isinstance(draft.changes, dict):
                 raise ValueError("invalid draft changes")
@@ -166,11 +178,13 @@ class CourseDraftService:
         expected_revision: int,
         changes: dict[str, Any],
     ) -> CourseDraft:
-        if not isinstance(expected_revision, int) or expected_revision < 1:
+        if type(expected_revision) is not int or expected_revision < 1:
             raise CourseDraftValidationError("Wymagana jest dodatnia rewizja wersji roboczej.")
         if not isinstance(changes, dict) or not changes:
             raise CourseDraftValidationError("Zmiany muszą być niepustym obiektem JSON.")
 
+        if any(not isinstance(key, str) for key in changes):
+            raise CourseDraftValidationError("Nazwy pól zmian muszą być tekstem.")
         allowed = {"full_name", "short_name", "description", "section_names", "activity_names"}
         unknown = set(changes) - allowed
         if unknown:
