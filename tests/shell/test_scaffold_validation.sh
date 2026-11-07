@@ -5,7 +5,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
-mkdir -p "$TMP/bin" "$TMP/courses"
+mkdir -p "$TMP/bin" "$TMP/courses/01-existing"
 : > "$TMP/toc.txt"
 
 cat > "$TMP/bin/python3" <<'MOCK'
