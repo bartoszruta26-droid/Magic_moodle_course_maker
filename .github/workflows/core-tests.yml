@@ -12,7 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check Bash script syntax
-        run: bash -n scripts/scaffold.sh
+        run: |
+          bash -n scripts/scaffold.sh
+          bash -n tests/shell/test_scaffold_validation.sh
+      - name: Test scaffold validation failure handling
+        run: bash tests/shell/test_scaffold_validation.sh
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
