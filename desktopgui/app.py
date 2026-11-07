@@ -148,7 +148,7 @@ def _build_window():
                     f"[{finding.severity.upper()}] {finding.code}: "
                     f"{finding.path}: {finding.message}"
                 )
-            self.details.setPlainText("\\n".join(lines))
+            self.details.setPlainText("\n".join(lines))
             self.statusBar().showMessage(f"Zweryfikowano kurs: {course.short_name}")
 
         def _export_root(self) -> Path:
@@ -185,7 +185,7 @@ def _build_window():
             except (CourseNotFoundError, FileNotFoundError, OSError, ValueError) as exc:
                 QMessageBox.critical(self, "Błąd banku pytań", str(exc))
                 return
-            summary = "\\n".join(
+            summary = "\n".join(
                 [f"Liczba pytań: {len(bank.questions)}"]
                 + [f"{kind}: {count}" for kind, count in bank.by_type().items()]
             )
