@@ -159,6 +159,7 @@ class create_assignment extends \external_api {
                         ], '*', MUST_EXIST);
                         list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                             get_moduleinfo_data($cm, $course);
+                        $moduleinfo->modname = 'assign';
                         $submissioncount = (int)$DB->count_records('assign_submission', [
                             'assignment' => $existing->instance,
                         ]);
