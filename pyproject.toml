@@ -11,14 +11,16 @@ requires-python = ">=3.10"
 dependencies = ["PyYAML>=6.0,<7"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8,<9", "ruff>=0.6,<1"]
+dev = ["pytest>=8,<9", "ruff>=0.6,<1", "textual>=0.80,<2"]
+tui = ["textual>=0.80,<2"]
 
 [project.scripts]
 magic-moodle = "magic_moodle.cli:main"
 magic-moodle-webui = "webui.server:main"
+magic-moodle-tui = "tui.app:main"
 
 [tool.setuptools.packages.find]
-include = ["magic_moodle*", "webui*"]
+include = ["magic_moodle*", "webui*", "tui*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests/core"]

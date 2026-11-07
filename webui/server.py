@@ -12,8 +12,8 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from magic_moodle.loader import CourseLoadError, load_course
-from magic_moodle.validation import validate_course
+from magic_moodle.application import CourseApplicationService, CourseNotFoundError
+from magic_moodle.loader import CourseLoadError
 
 ROOT = Path(os.environ.get("MAGIC_MOODLE_COURSES", "courses")).resolve()
 STATIC = Path(__file__).with_name("static").resolve()
@@ -42,30 +42,18 @@ def _is_allowed_host(value: str | None, host: str = HOST, port: int = PORT) -> b
 
 
 def list_courses() -> list[dict[str, str]]:
-    courses = []
-    if not ROOT.is_dir():
-        return courses
-    for config in sorted(ROOT.glob("*/course.yaml")):
-        if not _inside(config, ROOT):
-            continue
-        try:
-            course = load_course(config.parent)
-            courses.append({
-                "id": config.parent.name,
-                "name": course.full_name,
-                "short_name": course.short_name,
-                "sections": str(course.section_count),
-                "activities": str(course.activity_count),
-            })
-        except (CourseLoadError, OSError, ValueError):
-            courses.append({
-                "id": config.parent.name,
-                "name": config.parent.name,
-                "short_name": "",
-                "sections": "—",
-                "activities": "—",
-            })
-    return courses
+    """Keep the existing WebUI response shape while delegating to the app core."""
+    summaries = CourseApplicationService(ROOT).list_courses()
+    return [
+        {
+            "id": item.id,
+            "name": item.name,
+            "short_name": item.short_name,
+            "sections": str(item.sections) if item.sections is not None else "—",
+            "activities": str(item.activities) if item.activities is not None else "—",
+        }
+        for item in summaries
+    ]
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -103,12 +91,10 @@ class Handler(BaseHTTPRequestHandler):
             course_id = unquote(parsed.path[len("/api/courses/"):-len("/validate")]).strip("/")
             if not course_id or course_id in {".", ".."} or "/" in course_id or "\\" in course_id:
                 return self._json({"error": "Nieprawidłowy identyfikator kursu."}, 400)
-            course_path = (ROOT / course_id).resolve()
-            if not _inside(course_path, ROOT) or not (course_path / "course.yaml").is_file():
-                return self._json({"error": "Nie znaleziono kursu."}, 404)
             try:
-                course = load_course(course_path)
-                report = validate_course(course)
+                course, report = CourseApplicationService(ROOT).validate(course_id)
+            except CourseNotFoundError:
+                return self._json({"error": "Nie znaleziono kursu."}, 404)
             except (CourseLoadError, OSError, ValueError):
                 return self._json({"error": "Nie udało się wczytać lub zwalidować kursu."}, 422)
             return self._json({
