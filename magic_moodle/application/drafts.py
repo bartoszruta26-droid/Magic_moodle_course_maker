@@ -317,7 +317,9 @@ class CourseDraftService:
                     revision = int(path.stem)
                     if revision > current.revision:
                         continue
-                    snapshots[revision] = self._read_snapshot(current.draft_id, revision)
+                    snapshot = self._read_snapshot(current.draft_id, revision)
+                    if snapshot.course_id == current.course_id and snapshot.base_digest == current.base_digest:
+                        snapshots[revision] = snapshot
                 except (ValueError, CourseDraftNotFoundError):
                     continue
             if current.revision not in snapshots:
@@ -341,6 +343,8 @@ class CourseDraftService:
             raise CourseDraftConflictError(
                 f"Nieaktualna rewizja. Bieżąca rewizja: {current.revision}."
             )
+        if target_revision > current.revision:
+            raise CourseDraftNotFoundError("Nie znaleziono rewizji wersji roboczej.")
         target = self._read_snapshot(draft_id, target_revision)
         if target.course_id != current.course_id or target.base_digest != current.base_digest:
             raise CourseDraftConflictError("Rewizja docelowa pochodzi z innej wersji bazowej kursu.")
