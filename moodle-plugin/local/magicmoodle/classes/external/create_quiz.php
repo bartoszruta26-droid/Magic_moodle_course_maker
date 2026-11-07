@@ -186,7 +186,7 @@ class create_quiz extends \external_api {
                         ], '*', MUST_EXIST);
                         list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                             get_moduleinfo_data($cm, $course);
-                        $moduleinfo->modname = 'quiz';
+                        $cm->modname = 'quiz';
                         $moduleinfo->quizpassword = $moduleinfo->quizpassword ?? '';
                         $attemptcount = (int)$DB->count_records('quiz_attempts', [
                             'quiz' => $quiz->id,
