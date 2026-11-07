@@ -40,7 +40,6 @@ jobs:
           import tempfile
           from pathlib import Path
 
-          from PySide6.QtCore import QTimer
           from PySide6.QtWidgets import QApplication, QPushButton
           from desktopgui.app import _build_window
 
@@ -67,6 +66,8 @@ jobs:
               labels = [button.text() for button in window.findChildren(QPushButton)]
               assert "Edytuj wersję roboczą" in labels
               window.close()
-              QTimer.singleShot(0, app.quit)
-              app.exec()
+              # Terminate after assertions; Qt platform teardown can block on headless runners.
+              import sys
+              sys.stdout.flush()
+              os._exit(0)
           PY
