@@ -1,55 +1,68 @@
 # 1.12.7. Resuscytacja dziecka
 
-*Rozdział szczegółowy (podrozdział) tematu 1.12 — Pierwsza pomoc w stanach nagłego zagrożenia zdrowotnego*
+*Pierwsza pomoc u dziecka w wieku od 1. roku życia do okresu dojrzewania. Algorytm należy odróżniać od resuscytacji noworodka bezpośrednio po porodzie.*
 
-## Dlaczego to ważne
+## Cel i zakres
 
-Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+Celem rozdziału jest przygotowanie osoby udzielającej pierwszej pomocy do rozpoznania zatrzymania krążenia u dziecka, wezwania zespołu ratownictwa medycznego, rozpoczęcia resuscytacji oraz użycia AED. Opis obejmuje podstawowe czynności pierwszej pomocy, a nie zaawansowane procedury medyczne.
 
-## Istota zagadnienia — ujęcie systematyczne
+Wytyczne ERC 2025 podkreślają znaczenie wczesnego wezwania pomocy, pięciu początkowych oddechów ratowniczych oraz skutecznej wentylacji, ponieważ zatrzymanie krążenia u dzieci często ma związek z niewydolnością oddechową lub krążeniową.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Rozpoznanie i wezwanie pomocy
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+1. Zadbaj o bezpieczeństwo własne, dziecka i otoczenia.
+2. Sprawdź reakcję dziecka, używając głosu i delikatnego bodźca dotykowego. Nie stosuj bodźców bólowych.
+3. Jeżeli dziecko nie reaguje, natychmiast wezwij pomoc pod numerem 112 lub 999, najlepiej w trybie głośnomówiącym. Poproś drugą osobę o wezwanie ZRM i przyniesienie AED.
+4. Udrożnij drogi oddechowe przez odgięcie głowy i uniesienie żuchwy. U dziecka w wieku powyżej 1 roku dobierz zakres odgięcia do budowy ciała.
+5. Przez maksymalnie 10 sekund oceniaj oddech i oznaki życia. Pojedyncze westchnienia, oddech agonalny lub oddech nieregularny nie są prawidłowym oddechem.
+6. Jeżeli masz wątpliwości, czy oddech jest prawidłowy, postępuj tak, jak przy jego braku. Nie opóźniaj rozpoczęcia RKO przez poszukiwanie tętna.
 
-## Metodyka postępowania — krok po kroku
+## Resuscytacja krążeniowo-oddechowa
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+1. Wykonaj pięć początkowych oddechów ratowniczych. Każdy oddech powinien trwać około 1 sekundy i powodować widoczne uniesienie klatki piersiowej. Po każdym oddechu pozwól klatce opaść.
+2. Jeżeli klatka piersiowa się nie unosi, popraw udrożnienie dróg oddechowych. Usuń wyłącznie widoczne ciało obce, które można łatwo wyjąć. Nie wykonuj ślepego wygarniania palcem.
+3. Rozpocznij uciskanie dolnej połowy mostka na twardym podłożu, jeśli jest ono natychmiast dostępne. Nie opóźniaj RKO, aby szukać idealnego podłoża.
+4. U dziecka stosuj technikę jednej lub dwóch rąk, zależnie od wielkości dziecka i możliwości uzyskania skutecznych ucisków.
+5. Uciskaj z częstością 100–120 razy na minutę i na głębokość co najmniej jednej trzeciej wymiaru przednio-tylnego klatki piersiowej. Po każdym ucisku pozwól klatce całkowicie się rozprężyć. Nie przekraczaj głębokości 6 cm.
+6. Stosuj stosunek 15 uciśnięć do 2 oddechów, jeżeli jesteś przeszkolony w PBLS na poziomie kursu ERC lub równoważnym. W pozostałych przypadkach stosuj 30:2 zgodnie z instrukcjami dyspozytora. Jeżeli nie możesz lub nie chcesz wykonywać oddechów, prowadź nieprzerwane uciskanie klatki piersiowej i postępuj według wskazówek dyspozytora.
+7. Ogranicz przerwy w uciskaniu do minimum. Nie przerywaj RKO, chyba że pojawią się wyraźne oznaki życia, dalsze działania staną się niebezpieczne, ratownicy przejmą czynności lub AED wyda polecenie przerwania.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## AED u dziecka
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+- Użyj AED możliwie szybko. Jeżeli są dwie osoby, jedna prowadzi RKO, a druga wzywa pomoc, przynosi i podłącza AED.
+- Jeżeli jesteś sam, priorytetem jest wezwanie pomocy i rozpoczęcie RKO; nie oddalaj się od dziecka, aby szukać AED, jeżeli opóźni to te czynności.
+- Włącz tryb pediatryczny, jeżeli jest dostępny, u niemowląt i dzieci o masie ciała poniżej 25 kg (orientacyjnie poniżej 8 lat). U większych dzieci i nastolatków stosuj tryb standardowy dla dorosłych.
+- Jeżeli AED nie ma trybu pediatrycznego ani odrębnych instrukcji dla dzieci, użyj trybu standardowego dla dorosłych.
+- U dzieci o masie poniżej 25 kg preferuj ułożenie przednio-tylne elektrod: jedna elektroda na przedniej powierzchni klatki piersiowej, druga na plecach między łopatkami. U większych dzieci i nastolatków można zastosować ułożenie przednio-boczne lub przednio-tylne; elektrody nie mogą się stykać.
+- Nie dotykaj dziecka podczas analizy rytmu i wyładowania. Po wyładowaniu natychmiast wróć do RKO, zgodnie z komunikatami AED.
 
-## Najczęstsze błędy początkujących
+## Szczególne zasady bezpieczeństwa
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+- Utrata przytomności z brakiem prawidłowego oddechu wymaga natychmiastowego działania.
+- Nie opóźniaj RKO z powodu zdejmowania całej odzieży; odsłoń tylko tyle klatki piersiowej, ile jest konieczne do prawidłowego uciskania i przyklejenia elektrod.
+- Nie stosuj u dziecka automatycznie parametrów głębokości przeznaczonych dla dorosłych. Głębokość ucisku dostosuj do wymiaru klatki piersiowej.
+- Nie wykonuj zaawansowanych procedur ani nie podawaj leków, jeśli nie masz odpowiednich uprawnień, przeszkolenia i wyposażenia.
+- Po odzyskaniu oznak życia zapewnij drożność dróg oddechowych, stale obserwuj oddech i oczekuj na ZRM. Jeśli dziecko pozostaje nieprzytomne, ale oddycha prawidłowo, ułóż je w pozycji bezpiecznej, o ile nie ma podejrzenia urazu wymagającego ograniczenia ruchów.
 
-## Pytania utrwalające
+## Rola masażysty
 
-1. Omów mechanizmy leżące u podstaw: Resuscytacja dziecka. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+Masażysta przerywa zabieg, zabezpiecza miejsce, wzywa pomoc i udziela pierwszej pomocy w granicach przeszkolenia. Nie podejmuje samodzielnej diagnostyki przyczyn zatrzymania krążenia. W gabinecie należy z góry określić dostęp do telefonu, apteczki i AED, jeśli jest dostępne, oraz podział zadań między osoby obecne.
 
-## Słowniczek minimalny
+## Ćwiczenie praktyczne
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+Na fantomie dziecka przećwicz: rozpoznanie braku reakcji i nieprawidłowego oddechu, wezwanie pomocy, pięć oddechów ratowniczych, uciski jedną lub dwiema rękami, sekwencję 15:2 i 30:2 oraz użycie treningowego AED. Instruktor ocenia jakość ucisków, pełny powrót klatki piersiowej, skuteczność wentylacji i minimalizowanie przerw.
 
----
+## Pytania kontrolne
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+1. Jakie cechy odróżniają prawidłowy oddech od oddechu agonalnego?
+2. Dlaczego w algorytmie pediatrycznym wykonuje się pięć początkowych oddechów?
+3. Kiedy stosuje się stosunek 15:2, a kiedy 30:2?
+4. Jak dobrać głębokość i technikę uciskania klatki piersiowej dziecka?
+5. Jak użyć AED u dziecka o masie ciała poniżej 25 kg?
+
+## Źródła
+
+- Djakow J, McBeth Turner N, Skellett S, Buysse CMP, Cardona F, de Lucas N, et al. European Resuscitation Council Guidelines 2025: Paediatric Life Support. Resuscitation. 2025;215(Suppl 1):110767. doi:10.1016/j.resuscitation.2025.110767.
+- European Resuscitation Council. Guidelines 2025: Paediatric Life Support. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
