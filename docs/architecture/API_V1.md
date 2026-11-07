@@ -25,8 +25,11 @@ Token jest wymagany do tworzenia i aktualizowania wersji roboczych. Jeśli nie u
 | GET | `/api/v1/courses` | Lista kursów |
 | GET | `/api/v1/courses/{course_id}` | Szczegóły kursu i sekcji |
 | POST | `/api/v1/courses/{course_id}/validation` | Raport walidacji |
+| GET | `/api/v1/courses/{course_id}/drafts` | Lista wersji roboczych kursu |
 | POST | `/api/v1/courses/{course_id}/drafts` | Utworzenie wersji roboczej |
 | GET | `/api/v1/drafts/{draft_id}` | Odczyt wersji roboczej |
+| GET | `/api/v1/drafts/{draft_id}/history` | Historia rewizji |
+| POST | `/api/v1/drafts/{draft_id}/restore` | Przywrócenie rewizji jako nowej rewizji |
 | PATCH | `/api/v1/drafts/{draft_id}` | Aktualizacja wersji roboczej (klienci desktop/web) |
 | POST | `/api/v1/drafts/{draft_id}/update` | Równoważna aktualizacja dla klientów mobilnych korzystających z HttpURLConnection |
 | GET | `/api/v1/drafts/{draft_id}/preview` | Podgląd zmian i walidacja |
@@ -59,6 +62,8 @@ Odpowiedź sukcesu zawiera `data` i `meta.api_version`. Błędy mają `error.cod
 - pliki wersji roboczych są przechowywane w `.magic_moodle/drafts/` pod katalogiem kursów;
 - każda wersja ma identyfikator UUID, numer rewizji, znaczniki czasu i skrót bazowego modelu kursu;
 - zapis JSON odbywa się atomowo;
+- każda rewizja jest przechowywana jako osobna migawka w katalogu historii;
+- przywrócenie starszej rewizji tworzy nowy numer rewizji i nie usuwa historii;
 - aktualizacja wymaga zgodności `expected_revision`;
 - podgląd nakłada dozwolone zmiany na kanoniczny model kursu i uruchamia walidator;
 - jeśli kurs źródłowy zmienił się po utworzeniu wersji roboczej, zapis i podgląd wykrywają konflikt;
