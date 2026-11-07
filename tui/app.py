@@ -74,7 +74,7 @@ def _build_app():
             self._summaries = self.service.list_courses()
             query = self.query_one("#search", Input).value.strip().casefold()
             table = self.query_one("#course-table", DataTable)
-            table.clear()
+            table.clear(columns=False)
             visible = [
                 item for item in self._summaries
                 if query in f"{item.name} {item.short_name}".casefold()
