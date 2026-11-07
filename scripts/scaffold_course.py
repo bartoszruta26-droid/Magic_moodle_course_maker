@@ -77,7 +77,9 @@ class Plan:
 
 def topic_stem(order: int, title: str) -> str:
     """Czlon 'NN-slug' wspolny dla strony / quizu / zadania danego tematu."""
-    return f"{order:02d}-{slugify(title)}"
+    # Nazwa tematu w TOC zaczyna się od numeru N.M.; slug zawiera sam tytuł.
+    clean_title = re.sub(r"^\d{1,2}\.\d{1,2}\.?\s*", "", title).strip()
+    return f"{order:02d}-{slugify(clean_title)}"
 
 
 def scaffold_modules(course: Course, base: Path, plan: Plan,
