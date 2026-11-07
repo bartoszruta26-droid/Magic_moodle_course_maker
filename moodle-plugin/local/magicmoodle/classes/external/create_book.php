@@ -160,6 +160,7 @@ class create_book extends \external_api {
                     }
                     list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                         get_moduleinfo_data($cm, $course);
+                    $moduleinfo->modname = 'book';
                     $moduleinfo->name = trim($params['name']);
                     $moduleinfo->numbering = $params['numbering'];
                     if ($params['idnumber'] !== '') {
