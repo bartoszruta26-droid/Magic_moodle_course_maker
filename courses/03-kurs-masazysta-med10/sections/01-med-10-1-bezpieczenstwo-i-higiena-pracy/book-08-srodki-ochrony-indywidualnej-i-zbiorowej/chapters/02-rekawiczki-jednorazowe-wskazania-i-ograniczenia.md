@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Rękawiczki jednorazowe stosuje się wtedy, gdy można racjonalnie przewidzieć kontakt z krwią, innymi płynami ustrojowymi, błonami śluzowymi, skórą nieciągłą lub materiałem potencjalnie zakaźnym. W masażu wykonywanym na nieuszkodzonej skórze ich użycie nie jest automatycznie wymagane — decyzję podejmuje się na podstawie oceny ryzyka i obowiązujących procedur. Rękawiczki nie zastępują higieny rąk: należy ją wykonać przed ich założeniem i po zdjęciu. Rękawiczki zmienia się między pacjentami, po zakończeniu czynności, po uszkodzeniu lub zabrudzeniu oraz przy przejściu od obszaru skażonego do czystego. Są przeznaczone do jednorazowego użycia; nie należy ich myć, dezynfekować ani używać ponownie. Ćwiczenie: przećwicz bezpieczne zdejmowanie rękawiczek tak, aby ograniczyć ryzyko kontaktu skóry z ich zewnętrzną powierzchnią.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
