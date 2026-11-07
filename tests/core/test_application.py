@@ -109,3 +109,50 @@ def test_export_json_rejects_invalid_course_identifier(tmp_path: Path) -> None:
     service = CourseApplicationService(tmp_path / "courses")
     with pytest.raises(CourseNotFoundError):
         service.export_json("../outside", tmp_path / "manifest.json")
+
+
+def test_question_bank_load_and_xml_export(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    course = make_course(courses / "sample")
+    bank_dir = course / "question-bank" / "multichoice"
+    bank_dir.mkdir(parents=True)
+    (bank_dir / "set-01.gift").write_text(
+        "::q1::Która odpowiedź jest prawidłowa? {=Poprawna ~Błędna}\n",
+        encoding="utf-8",
+    )
+    service = CourseApplicationService(courses)
+
+    bank = service.get_question_bank("sample")
+    destination = tmp_path / "exports" / "sample.questions.xml"
+    output = service.export_question_bank_xml("sample", destination)
+
+    assert len(bank.questions) == 1
+    assert bank.by_type() == {"multichoice": 1}
+    assert output == destination
+    assert 'type="category"' in destination.read_text(encoding="utf-8")
+    assert "Która odpowiedź jest prawidłowa?" in destination.read_text(encoding="utf-8")
+
+
+def test_question_bank_requires_existing_course_bank(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+    with pytest.raises(FileNotFoundError):
+        CourseApplicationService(courses).get_question_bank("sample")
+
+
+def test_question_bank_rejects_symlink_escape(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    course = make_course(courses / "sample")
+    outside = tmp_path / "outside-bank"
+    outside.mkdir()
+    (outside / "set.gift").write_text(
+        "::q1::Pytanie? {=Tak ~Nie}\\n",
+        encoding="utf-8",
+    )
+    try:
+        (course / "question-bank").symlink_to(outside, target_is_directory=True)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+
+    with pytest.raises(ValueError, match="poza katalog"):
+        CourseApplicationService(courses).get_question_bank("sample")

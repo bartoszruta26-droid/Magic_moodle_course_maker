@@ -63,3 +63,38 @@ def test_tui_export_button_writes_manifest(tmp_path: Path, monkeypatch) -> None:
             assert json.loads(manifest.read_text(encoding="utf-8"))["course"]["full_name"] == "Kurs eksportowy"
 
     asyncio.run(exercise())
+
+
+def test_tui_question_bank_actions_validate_and_export(tmp_path: Path, monkeypatch) -> None:
+    import asyncio
+    import xml.etree.ElementTree as ET
+
+    courses = tmp_path / "courses"
+    course = courses / "sample"
+    course.mkdir(parents=True)
+    (course / "course.yaml").write_text(
+        "course:\n  full_name: Kurs z bankiem\n  short_name: BANK\n",
+        encoding="utf-8",
+    )
+    bank_dir = course / "question-bank"
+    bank_dir.mkdir()
+    (bank_dir / "set-01.gift").write_text(
+        "::q1::Pytanie testowe? {=Tak ~Nie}\n",
+        encoding="utf-8",
+    )
+    exports = tmp_path / "exports"
+    monkeypatch.setenv("MAGIC_MOODLE_COURSES", str(courses))
+    monkeypatch.setenv("MAGIC_MOODLE_EXPORTS", str(exports))
+    app = _build_app()
+
+    async def exercise() -> None:
+        async with app.run_test() as pilot:
+            await pilot.pause()
+            app._selected_id = "sample"
+            await pilot.click("#bank-export")
+            await pilot.pause()
+            xml_file = exports / "sample.questions.xml"
+            assert xml_file.is_file()
+            assert ET.parse(xml_file).getroot().tag == "quiz"
+
+    asyncio.run(exercise())

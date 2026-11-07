@@ -7,7 +7,10 @@ from pathlib import Path
 
 from magic_moodle.course_export import export_course_json
 from magic_moodle.loader import CourseLoadError, load_course
+from magic_moodle.gift import QuestionBank
 from magic_moodle.models import Course
+from magic_moodle.moodle_xml import export_moodle_xml
+from magic_moodle.question_bank import load_question_bank
 from magic_moodle.validation import ValidationReport, validate_course
 
 
@@ -113,3 +116,25 @@ class CourseApplicationService:
         """Export a course to the documented intermediate JSON manifest format."""
         course = self.get_course(course_id)
         return export_course_json(course, destination)
+
+    def get_question_bank(self, course_id: str) -> QuestionBank:
+        """Load and validate the course-level GIFT question bank."""
+        course_path = self._course_path(course_id)
+        bank_path = course_path / "question-bank"
+        resolved_bank_path = bank_path.resolve()
+        if not resolved_bank_path.is_relative_to(course_path):
+            raise ValueError("Katalog question-bank wychodzi poza katalog kursu.")
+        if not resolved_bank_path.is_dir():
+            raise FileNotFoundError("Kurs nie zawiera katalogu question-bank.")
+        return load_question_bank(resolved_bank_path)
+
+    def export_question_bank_xml(
+        self,
+        course_id: str,
+        destination: str | Path,
+        *,
+        category: str = "$course$/top",
+    ) -> Path:
+        """Export the validated course question bank to Moodle XML."""
+        bank = self.get_question_bank(course_id)
+        return export_moodle_xml(bank, destination, category=category)
