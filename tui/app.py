@@ -165,7 +165,7 @@ def _build_app():
                 "Rozkład typów:",
             ]
             lines.extend(f"  {kind}: {count}" for kind, count in bank.by_type().items())
-            self.query_one("#detail", Static).update("\\n".join(lines))
+            self.query_one("#detail", Static).update("\n".join(lines))
 
         def action_export_bank(self) -> None:
             if not self._selected_id:
@@ -190,7 +190,7 @@ def _build_app():
                 )
                 return
             self.query_one("#detail", Static).update(
-                f"Bank pytań wyeksportowany do Moodle XML:\\n{output}"
+                f"Bank pytań wyeksportowany do Moodle XML:\n{output}"
             )
 
         def action_export_selected(self) -> None:
