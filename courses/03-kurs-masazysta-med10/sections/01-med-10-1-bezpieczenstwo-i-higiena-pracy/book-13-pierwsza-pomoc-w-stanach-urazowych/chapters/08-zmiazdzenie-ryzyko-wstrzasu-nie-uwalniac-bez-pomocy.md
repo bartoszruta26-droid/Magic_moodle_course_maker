@@ -1,55 +1,67 @@
-# 1.13.7. Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy
+# 1.13.7. Uraz zmiażdżeniowy — bezpieczne uwolnienie, krwawienie i pilna ocena szpitalna
 
-*Rozdział szczegółowy (podrozdział) tematu 1.13 — Pierwsza pomoc w stanach urazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Uraz zmiażdżeniowy powstaje wskutek ucisku części ciała przez ciężki przedmiot, maszynę, gruz, pojazd lub długotrwały ucisk własną masą ciała. Może prowadzić do krwawienia, uszkodzenia mięśni i narządów oraz zespołu zmiażdżenia, który może wywołać ciężkie zaburzenia metaboliczne, niewydolność nerek i zaburzenia rytmu serca. Objawy mogą być początkowo skąpe, a ból lub widoczna rana mogą nie występować.
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+## Rozpoznanie zagrożenia
 
-## Istota zagadnienia — ujęcie systematyczne
+Podejrzewaj uraz zmiażdżeniowy, jeśli część ciała była ściśnięta lub przygnieciona, również wtedy, gdy ucisk wywierała masa własnego ciała u osoby unieruchomionej. Zwróć uwagę na:
+- ból, obrzęk, zasinienie, rany lub krwawienie;
+- drętwienie, osłabienie lub utratę czucia;
+- bladość, zimny pot, osłabienie, splątanie lub omdlenie;
+- pogorszenie oddychania lub stanu świadomości;
+- brak widocznych obrażeń mimo istotnego mechanizmu ucisku.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+Brak bólu lub widocznej rany nie wyklucza poważnego urazu.
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+## Postępowanie krok po kroku
 
-## Metodyka postępowania — krok po kroku
+1. **Bezpieczeństwo.** Nie wchodź do niestabilnego budynku, strefy pracy maszyny, pod pojazd ani w inne miejsce, w którym możesz zostać przygnieciony. Nie podejmuj samodzielnego podnoszenia ciężkich elementów, jeśli zagraża to Tobie lub poszkodowanemu.
+2. **Wezwanie pomocy.** Jak najszybciej zadzwoń pod 112 lub 999. Przekaż, że osoba została przygnieciona, wskaż rodzaj i położenie przedmiotu, czas ucisku, dostęp do poszkodowanego i zagrożenia w otoczeniu. Włącz tryb głośnomówiący i wykonuj polecenia dyspozytora.
+3. **Uwolnienie.** Jeśli można to zrobić bezpiecznie i fizycznie, usuń siłę ucisku możliwie szybko. Jeśli wymaga to specjalistycznego sprzętu, podnoszenia ciężkich elementów lub wejścia do strefy zagrożenia, pozostaw uwolnienie wyszkolonym służbom ratowniczym. Nie opóźniaj bezpiecznego uwolnienia przez oczekiwanie na arbitralny czas ucisku.
+4. **Krwawienie.** Po uzyskaniu bezpiecznego dostępu oceń krwawienie. Tamuj krwotok bezpośrednim uciskiem, opatrunkiem hemostatycznym lub opaską uciskową zgodnie z algorytmem krwotoku zagrażającego życiu. Nie zakładaj rutynowo opaski uciskowej wyłącznie po to, aby opóźnić uwolnienie kończyny lub zapobiec zespołowi zmiażdżenia.
+5. **Inne obrażenia.** Ogranicz niepotrzebne ruchy, osłoń rany czystym opatrunkiem i nie nastawiaj deformacji. Podejrzewaj także urazy głowy, klatki piersiowej, brzucha, miednicy i kręgosłupa, zależnie od mechanizmu.
+6. **Ochrona przed wychłodzeniem.** Osłoń poszkodowanego suchym materiałem i odizoluj od zimnego podłoża. Nie stosuj intensywnego ogrzewania kończyn.
+7. **Monitorowanie.** Stale obserwuj świadomość i oddech. Jeśli osoba przestaje reagować i nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
+8. **Transport do szpitala.** Każda osoba po istotnym urazie zmiażdżeniowym wymaga pilnej oceny szpitalnej, nawet jeśli po uwolnieniu czuje się dobrze i nie ma widocznych obrażeń. Powikłania mogą ujawnić się z opóźnieniem.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Ważne rozróżnienia
 
-## Scenariusz sytuacyjny (studium przypadku)
+- Uwolnienie siły ucisku powinno nastąpić możliwie szybko, jeśli jest bezpieczne i możliwe dla osób udzielających pomocy.
+- W przypadku uwięzienia pod gruzem, ciężkim pojazdem lub maszyną, gdy uwolnienie wymaga sprzętu i koordynacji, priorytetem jest wezwanie wyspecjalizowanych służb i zapewnienie bezpieczeństwa miejsca.
+- Nie należy stosować rutynowo opaski uciskowej przed uwolnieniem w celu „zablokowania” krążenia. Opaska jest wskazana przy rzeczywistym lub przewidywanym krwawieniu zagrażającym życiu z kończyny, zgodnie z algorytmem tamowania krwotoków.
+- Osoba po długotrwałym ucisku wymaga oceny medycznej także wtedy, gdy uraz powstał wskutek własnej masy ciała, np. podczas długotrwałej nieprzytomności lub unieruchomienia.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Czego nie robić
 
-## Najczęstsze błędy początkujących
+- Nie wchodź w strefę zagrożenia i nie ryzykuj kolejnego przygniecenia.
+- Nie próbuj samodzielnie podnosić ciężkich elementów bez bezpiecznego sprzętu i przeszkolenia.
+- Nie zakładaj opaski uciskowej rutynowo tylko z powodu zmiażdżenia.
+- Nie podawaj leków, płynów ani jedzenia osobie z zaburzeniami świadomości lub ryzykiem pilnego leczenia.
+- Nie zakładaj, że brak bólu lub widocznej rany oznacza brak poważnego uszkodzenia.
+- Nie pozostawiaj poszkodowanego samego i nie rezygnuj z transportu do szpitala po chwilowej poprawie.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Rola masażysty
 
-## Pytania utrwalające
+Masażysta przerywa zabieg, zapewnia bezpieczeństwo miejsca, wzywa 112/999 i podejmuje tylko działania pierwszej pomocy w granicach przeszkolenia. Nie wykonuje samodzielnej ekstrykacji z ciężkich konstrukcji, nie podaje płynów dożylnych ani leków i nie próbuje zapobiegać zespołowi zmiażdżenia metodami poza kompetencjami. Po zdarzeniu przekazuje ratownikom czas i mechanizm ucisku, czas uwolnienia, krwawienie, objawy i wykonane czynności.
 
-1. Omów mechanizmy leżące u podstaw: Zmiażdżenie: ryzyko wstrząsu, nie uwalniać bez pomocy. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Ćwiczenie praktyczne
 
-## Słowniczek minimalny
+Przećwicz dwa scenariusze: bezpieczne uwolnienie kończyny przy lekkim przedmiocie oraz uwięzienie pod ciężkim elementem wymagające służb ratowniczych. Uczestnik ma ocenić bezpieczeństwo, wezwać pomoc, określić, czy uwolnienie jest bezpieczne i możliwe, rozpoznać krwawienie zagrażające życiu i monitorować stan poszkodowanego.
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+## Pytania kontrolne
 
----
+1. Dlaczego uraz zmiażdżeniowy może być poważny mimo braku bólu lub widocznej rany?
+2. Kiedy można bezpiecznie usunąć siłę ucisku, a kiedy należy czekać na wyspecjalizowane służby?
+3. Dlaczego nie stosuje się rutynowo opaski uciskowej przed uwolnieniem?
+4. Jakie działania należy podjąć po uzyskaniu dostępu do poszkodowanego?
+5. Dlaczego każdy istotny uraz zmiażdżeniowy wymaga pilnej oceny szpitalnej?
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+## Źródła
+
+- Australian and New Zealand Committee on Resuscitation (ANZCOR). Guideline 9.1.7: First Aid Management of Crush Injury. Current 17 March 2026. https://www.anzcor.org/home/first-aid/guideline-9-1-7-first-aid-management-of-crush-injury/
+- Resuscitation Council UK. Guidelines 2025: First Aid Guidelines. https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines
+- Wood F, et al. Early management of crush injury and crush syndrome: a Faculty of Pre-Hospital Care consensus statement. Emergency Medicine Journal. 2025. doi:10.1136/emermed-2025-215431.
 
 <!-- subch-v2 -->
