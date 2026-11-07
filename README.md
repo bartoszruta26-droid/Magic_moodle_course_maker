@@ -1,6 +1,8 @@
-# Qwen Moodle Course Generator
+# Magic Moodle Course Maker
 
-Repozytorium do automatycznego generowania kompletnych kursów Moodle przy wykorzystaniu agentów AI (Qwen Code i Qwen Coder). Projekt umożliwia tworzenie, walidację i eksport kursów w formacie gotowym do importu do platformy Moodle, wykorzystując wyłącznie skrypty Bash, C, C#, C++, Apache2 i PHP.
+Repozytorium do projektowania, walidacji, eksportu i publikacji kursów Moodle. Aktualny rdzeń aplikacyjny jest rozwijany w Pythonie (pakiet `magic_moodle`) i udostępnia wspólne usługi aplikacyjne dla interfejsów CLI, TUI, Desktop GUI, WebUI oraz lokalnego REST API. Dodatkowe narzędzia i konwertery historyczne (Bash, PHP, C/C++) pozostają w repozytorium, ale nie definiują już samodzielnie architektury całego produktu.
+
+Wersja źródłowa kursu jest przechowywana w uporządkowanych plikach YAML, Markdown i GIFT. Rdzeń odpowiada za wczytywanie, walidację, przygotowanie wersji roboczych, eksport oraz publikację obsługiwanych aktywności przez Moodle REST API. Interfejsy użytkownika powinny korzystać ze wspólnych usług `magic_moodle.application`, zamiast implementować niezależną logikę biznesową.
 
 ## 📚 Struktura Repozytorium
 
