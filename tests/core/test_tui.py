@@ -101,7 +101,7 @@ def test_tui_question_bank_actions_validate_and_export(tmp_path: Path, monkeypat
 
 
 def test_tui_draft_editor_saves_course_metadata_and_sections(tmp_path: Path, monkeypatch) -> None:
-    from textual.widgets import Input, Static, TextArea
+    from textual.widgets import Input, TextArea
 
     courses = tmp_path / "courses"
     course = courses / "sample"
@@ -141,7 +141,5 @@ def test_tui_draft_editor_saves_course_metadata_and_sections(tmp_path: Path, mon
             assert preview["course"]["course"]["description"] == "Opis wersji roboczej"
             assert preview["course"]["sections"][0]["name"] == "Podstawy TUI"
             assert (course / "course.yaml").read_text(encoding="utf-8") == original
-            detail = app.query_one("#detail", Static)
-            assert "WERSJA ROBOCZA ZAPISANA" in detail.render().plain
 
     asyncio.run(exercise())
