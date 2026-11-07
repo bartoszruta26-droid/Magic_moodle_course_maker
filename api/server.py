@@ -7,7 +7,6 @@ import ipaddress
 import json
 import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from threading import Thread
 from typing import Any
 from urllib.parse import unquote, urlsplit
 
