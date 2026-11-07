@@ -17,6 +17,8 @@ jobs:
           cache: pip
       - run: python -m pip install -e ".[dev]"
       - run: python -m pytest -q
+      - name: Smoke test Textual TUI
+        run: python -c "from tui.app import _build_app; app = _build_app(); assert app.title == 'Magic Moodle Course Maker'"
       - run: python -m compileall -q magic_moodle webui
       - name: Check WebUI JavaScript syntax
         run: node --check webui/static/app.js
