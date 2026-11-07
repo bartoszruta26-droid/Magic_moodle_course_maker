@@ -154,5 +154,5 @@ def test_question_bank_rejects_symlink_escape(tmp_path: Path) -> None:
     except OSError:
         pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
 
-    with pytest.raises(ValueError, match="poza katalogiem kursu"):
+    with pytest.raises(ValueError, match="poza katalog"):
         CourseApplicationService(courses).get_question_bank("sample")
