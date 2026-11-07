@@ -1,61 +1,56 @@
-# 1.14.3. Duszność
+# 1.14.3. Duszność — pierwsza pomoc
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Duszność jest subiektywnym uczuciem trudności w oddychaniu i może być objawem stanu zagrażającego życiu. Przyczyną mogą być między innymi zaostrzenie astmy, reakcja anafilaktyczna, choroba serca, zakażenie, ciało obce w drogach oddechowych lub inne nagłe zaburzenie. Osoba udzielająca pierwszej pomocy nie ustala samodzielnie rozpoznania.
 
-Przewlekła obturacyjna choroba płuc i astma: masaż klatki piersiowej wspomaga oddychanie przez rozluźnienie mięśni pomocniczych (pochyłe, mostkowo-obojczykowo-sutkowe, międzyżebrowe), techniki wibracyjne i oklepywanie ułatwiające odkrztuszanie (po inhalacji, w czasie <10 s serie). Pozycja półsiedząca, tempo wolne, kontrola saturacji jeśli dostępna; duszność spoczynkowa = przerwać i wezwać pomoc.
+## Objawy alarmowe
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+Zwróć uwagę na:
+- nasilony wysiłek oddechowy, bardzo szybki lub wyraźnie spowolniony oddech;
+- trudność w wypowiedzeniu pełnego zdania z powodu braku tchu;
+- sinienie ust, paznokci lub skóry;
+- świst, stridor, nagłą chrypkę lub obrzęk języka i gardła;
+- ból lub ucisk w klatce piersiowej, zimny pot, bladość, splątanie lub omdlenie;
+- nagłe pogorszenie stanu, osłabienie reakcji albo nieprawidłowy oddech.
 
-## Rozwinięcie zagadnienia
+## Postępowanie krok po kroku
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+1. Przerwij zabieg i zapewnij bezpieczeństwo. Pomóż osobie przyjąć pozycję, w której oddycha jej się najłatwiej; zwykle jest to pozycja siedząca lub półsiedząca. Nie zmuszaj do leżenia, jeśli nasila to duszność.
+2. Przy nasilonej, nagłej lub szybko pogarszającej się duszności, sinieniu, zaburzeniach świadomości, bólu w klatce piersiowej lub podejrzeniu anafilaksji natychmiast zadzwoń pod 112 lub 999.
+3. Pozostań z osobą, ogranicz wysiłek i uspokajaj ją. Poluzuj ciasną odzież. Nie pozwalaj jej chodzić ani samodzielnie prowadzić pojazdu.
+4. Jeżeli osoba choruje na astmę i ma własny lek doraźny, pomóż jej użyć przepisanego inhalatora zgodnie z jej planem leczenia. Jeśli dostępna jest komora inhalacyjna i osoba potrafi jej użyć, zastosuj ją zgodnie z instrukcją.
+5. Jeżeli podejrzewasz anafilaksję, postępuj według algorytmu pierwszej pomocy w anafilaksji: natychmiast wezwij pomoc i pomóż użyć własnego autowstrzykiwacza z adrenaliną zgodnie z instrukcją urządzenia.
+6. Tlen podawaj wyłącznie, jeśli jesteś przeszkolony w jego stosowaniu i osoba wykazuje objawy hipoksji; używaj sprzętu zgodnie z procedurą i zakresem kompetencji.
+7. Stale obserwuj świadomość i oddech. Jeśli osoba przestaje reagować i nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
 
-## Istota zagadnienia — ujęcie systematyczne
+## Czego nie robić
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+- Nie zakładaj, że każda duszność jest napadem lęku lub astmy.
+- Nie podawaj cudzych leków ani nie zmieniaj dawek leków pacjenta.
+- Nie zmuszaj osoby z dusznością do pozycji leżącej.
+- Nie podawaj jedzenia, napojów ani leków doustnych osobie z zaburzeniami świadomości lub trudnościami w połykaniu.
+- Nie opóźniaj wezwania ZRM w celu wykonania pomiarów, szukania dokumentacji lub obserwowania, czy objawy same ustąpią.
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+## Rola masażysty
 
-## Metodyka postępowania — krok po kroku
+Masażysta przerywa zabieg, wzywa pomoc w przypadku objawów alarmowych, pomaga przy użyciu własnego leku pacjenta zgodnie z przeszkoleniem i monitoruje stan. Nie rozpoznaje przyczyny duszności, nie prowadzi farmakoterapii i nie wykonuje zabiegów manualnych w celu „rozluźnienia” klatki piersiowej w trakcie ostrego epizodu.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Ćwiczenie praktyczne
 
-## Scenariusz sytuacyjny (studium przypadku)
+Przećwicz trzy scenariusze: nagła duszność z bólem w klatce piersiowej, zaostrzenie astmy u osoby posiadającej własny inhalator oraz duszność z obrzękiem języka i pokrzywką. Uczestnik ma rozpoznać objawy alarmowe, dobrać pozycję, wezwać pomoc i zastosować wyłącznie działania zgodne z przeszkoleniem.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Pytania kontrolne
 
-## Najczęstsze błędy początkujących
+1. Jakie objawy duszności wymagają natychmiastowego wezwania 112/999?
+2. Dlaczego nie należy zmuszać osoby z dusznością do leżenia?
+3. Jak pomóc osobie z astmą użyć jej własnego inhalatora?
+4. Kiedy można podać tlen w ramach pierwszej pomocy?
+5. Co należy zrobić, jeśli osoba z dusznością przestaje reagować i nie oddycha prawidłowo?
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Źródła
 
-## Pytania utrwalające
-
-1. Omów mechanizmy leżące u podstaw: Duszność. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
-
-## Słowniczek minimalny
-
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
