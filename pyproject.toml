@@ -13,14 +13,16 @@ dependencies = ["PyYAML>=6.0,<7"]
 [project.optional-dependencies]
 dev = ["pytest>=8,<9", "ruff>=0.6,<1", "textual>=0.80,<2"]
 tui = ["textual>=0.80,<2"]
+desktop = ["PySide6>=6.7,<7"]
 
 [project.scripts]
 magic-moodle = "magic_moodle.cli:main"
 magic-moodle-webui = "webui.server:main"
 magic-moodle-tui = "tui.app:main"
+magic-moodle-desktop = "desktopgui.app:main"
 
 [tool.setuptools.packages.find]
-include = ["magic_moodle*", "webui*", "tui*"]
+include = ["magic_moodle*", "webui*", "tui*", "desktopgui*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests/core"]
