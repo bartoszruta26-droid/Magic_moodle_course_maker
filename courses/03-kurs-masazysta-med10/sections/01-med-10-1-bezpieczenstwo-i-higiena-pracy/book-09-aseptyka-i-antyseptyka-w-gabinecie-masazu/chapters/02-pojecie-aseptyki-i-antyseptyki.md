@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+**Aseptyka** obejmuje działania zapobiegające zanieczyszczeniu jałowego pola, materiałów lub tkanek drobnoustrojami. **Antyseptyka** polega na stosowaniu odpowiednich środków przeciwdrobnoustrojowych na żywych tkankach, przede wszystkim na skórze; preparat musi być przeznaczony do danego miejsca i sposobu użycia. **Dezynfekcja** dotyczy przedmiotów i powierzchni nieożywionych, a jej skuteczność zależy m.in. od właściwego doboru produktu, stężenia, sposobu aplikacji i czasu kontaktu wskazanego przez producenta. W gabinecie masażu podstawą jest higiena rąk, czyste wyposażenie, wymiana tekstyliów między klientami oraz bezpieczne postępowanie z materiałami zanieczyszczonymi. Żaden preparat ani pojedyncza czynność nie zastępuje całościowej procedury higienicznej.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
