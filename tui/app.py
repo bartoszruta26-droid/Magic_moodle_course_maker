@@ -150,7 +150,7 @@ def _build_app():
         def action_export_selected(self) -> None:
             if not self._selected_id:
                 self.query_one("#detail", Static).update(
-                    "Najpierw wybierz kurs do eksportu.", markup=False
+                    "Najpierw wybierz kurs do eksportu."
                 )
                 return
             export_root = Path(
@@ -165,12 +165,10 @@ def _build_app():
             except (CourseNotFoundError, CourseLoadError, OSError, TypeError, ValueError):
                 self.query_one("#detail", Static).update(
                     "Eksport nie powiódł się. Sprawdź kurs i uprawnienia katalogu eksportowego.",
-                    markup=False,
                 )
                 return
             self.query_one("#detail", Static).update(
                 f"Manifest JSON zapisany pomyślnie:\n{output}",
-                markup=False,
             )
 
     return MagicMoodleTui()
