@@ -86,9 +86,7 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $DB->execute("DROP TRIGGER IF EXISTS {$trigger}");
         $DB->execute(
             "CREATE TRIGGER {$trigger} BEFORE UPDATE ON {$table} FOR EACH ROW "
-            . "BEGIN IF NEW.title = 'FAIL_ROLLBACK' THEN "
-            . "SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'forced integration rollback'; "
-            . "END IF; END"
+            . "SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'forced integration rollback'"
         );
 
         try {
