@@ -1,4 +1,4 @@
-"""Local, read-only HTTP API for native and browser clients."""
+"""Local HTTP API v1 for course inspection and isolated draft editing."""
 
 from __future__ import annotations
 
@@ -6,15 +6,24 @@ import hmac
 import ipaddress
 import json
 import os
+from dataclasses import asdict
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any
 from urllib.parse import unquote, urlsplit
 
-from magic_moodle.application import CourseApplicationService, CourseNotFoundError
+from magic_moodle.application import (
+    CourseApplicationService,
+    CourseDraftConflictError,
+    CourseDraftNotFoundError,
+    CourseDraftService,
+    CourseDraftValidationError,
+    CourseNotFoundError,
+)
 from magic_moodle.loader import CourseLoadError
 
 
 API_PREFIX = "/api/v1"
+_MAX_REQUEST_BYTES = 256 * 1024
 
 
 def _finding_payload(finding: Any) -> dict[str, str]:
@@ -33,7 +42,7 @@ def create_server(
     port: int = 8766,
     token: str = "",
 ) -> ThreadingHTTPServer:
-    """Create an API server bound to loopback; remote access belongs behind TLS proxy."""
+    """Create a loopback API; write operations require an explicitly configured token."""
     normalized_host = host.strip().lower()
     if normalized_host != "localhost":
         try:
@@ -47,12 +56,13 @@ def create_server(
     if not 0 <= port <= 65535:
         raise ValueError("Port API musi należeć do zakresu 0–65535.")
 
+    draft_service = CourseDraftService(service.courses_root)
+
     class Handler(BaseHTTPRequestHandler):
         server_version = "MagicMoodleAPI/1"
         sys_version = ""
 
         def log_message(self, format: str, *args: Any) -> None:
-            # Do not log authorization headers or request bodies.
             super().log_message(format, *args)
 
         def _send(self, status: int, payload: dict[str, Any]) -> None:
@@ -68,16 +78,26 @@ def create_server(
         def _error(self, status: int, code: str, message: str) -> None:
             self._send(status, {"error": {"code": code, "message": message}})
 
-        def _authorized(self) -> bool:
+        def _authorized(self, *, write: bool = False) -> bool:
+            if write and not token:
+                self._error(
+                    503,
+                    "WRITE_AUTH_NOT_CONFIGURED",
+                    "Operacje edycji wymagają skonfigurowania MAGIC_MOODLE_API_TOKEN.",
+                )
+                return False
             if not token:
                 return True
             header = self.headers.get("Authorization", "")
             scheme, separator, supplied = header.partition(" ")
-            return (
+            if not (
                 bool(separator)
                 and scheme.lower() == "bearer"
                 and hmac.compare_digest(supplied, token)
-            )
+            ):
+                self._error(401, "UNAUTHORIZED", "Wymagany jest prawidłowy token Bearer.")
+                return False
+            return True
 
         def _request_path(self) -> str | None:
             if len(self.path) > 2048:
@@ -89,9 +109,49 @@ def create_server(
                 return None
             return unquote(parsed.path)
 
+        def _read_json_body(self, *, allow_empty: bool = False) -> dict[str, Any] | None:
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+            except ValueError:
+                self._error(400, "INVALID_CONTENT_LENGTH", "Nieprawidłowy Content-Length.")
+                return None
+            if length < 0 or length > _MAX_REQUEST_BYTES:
+                self._error(413, "BODY_TOO_LARGE", "Treść żądania przekracza limit 256 KiB.")
+                return None
+            if length == 0:
+                if allow_empty:
+                    return {}
+                self._error(400, "BODY_REQUIRED", "Wymagana jest treść JSON.")
+                return None
+            if self.headers.get_content_type() != "application/json":
+                self._error(415, "UNSUPPORTED_MEDIA_TYPE", "Wymagany jest Content-Type: application/json.")
+                return None
+            try:
+                payload = json.loads(self.rfile.read(length).decode("utf-8"))
+            except (UnicodeError, json.JSONDecodeError):
+                self._error(400, "INVALID_JSON", "Treść żądania nie jest poprawnym JSON.")
+                return None
+            if not isinstance(payload, dict):
+                self._error(400, "INVALID_JSON_SHAPE", "Treść JSON musi być obiektem.")
+                return None
+            return payload
+
+        def _draft_error(self, error: Exception) -> None:
+            if isinstance(error, CourseDraftConflictError):
+                self._error(409, "DRAFT_CONFLICT", str(error))
+            elif isinstance(error, CourseDraftNotFoundError):
+                self._error(404, "DRAFT_NOT_FOUND", "Nie znaleziono wersji roboczej.")
+            elif isinstance(error, CourseNotFoundError):
+                self._error(404, "COURSE_NOT_FOUND", "Nie znaleziono kursu.")
+            elif isinstance(error, CourseDraftValidationError):
+                self._error(422, "DRAFT_INVALID", str(error))
+            elif isinstance(error, (CourseLoadError, OSError, ValueError)):
+                self._error(422, "COURSE_LOAD_FAILED", "Nie udało się wczytać kursu.")
+            else:
+                self._error(500, "INTERNAL_ERROR", "Wystąpił wewnętrzny błąd API.")
+
         def do_GET(self) -> None:
             if not self._authorized():
-                self._error(401, "UNAUTHORIZED", "Wymagany jest prawidłowy token Bearer.")
                 return
             path = self._request_path()
             if path is None:
@@ -113,9 +173,29 @@ def create_server(
                 ]
                 self._send(200, {"data": courses, "meta": {"api_version": "1"}})
                 return
+            draft_prefix = f"{API_PREFIX}/drafts/"
+            if path.startswith(draft_prefix):
+                suffix = path[len(draft_prefix):]
+                is_preview = suffix.endswith("/preview")
+                draft_id = suffix[:-len("/preview")] if is_preview else suffix
+                if not draft_id or "/" in draft_id:
+                    self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                    return
+                try:
+                    data = draft_service.preview(draft_id) if is_preview else asdict(draft_service.get(draft_id))
+                except Exception as error:
+                    self._draft_error(error)
+                    return
+                self._send(200, {"data": data, "meta": {"api_version": "1"}})
+                return
+
             prefix = f"{API_PREFIX}/courses/"
             if path.startswith(prefix):
-                course_id = path[len(prefix):]
+                suffix = path[len(prefix):]
+                if suffix.endswith("/drafts"):
+                    self._error(405, "METHOD_NOT_ALLOWED", "Utworzenie wersji roboczej wymaga POST.")
+                    return
+                course_id = suffix
                 if not course_id or "/" in course_id:
                     self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
                     return
@@ -161,48 +241,94 @@ def create_server(
             self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
 
         def do_POST(self) -> None:
-            if not self._authorized():
-                self._error(401, "UNAUTHORIZED", "Wymagany jest prawidłowy token Bearer.")
+            if not self._authorized(write=True):
                 return
             path = self._request_path()
             if path is None:
                 return
-            try:
-                body_length = int(self.headers.get("Content-Length", "0"))
-            except ValueError:
-                self._error(400, "INVALID_CONTENT_LENGTH", "Nieprawidłowy Content-Length.")
-                return
-            if body_length != 0:
-                self._error(400, "BODY_NOT_ALLOWED", "To żądanie nie przyjmuje treści.")
-                return
-            prefix = f"{API_PREFIX}/courses/"
-            suffix = "/validation"
-            if not path.startswith(prefix) or not path.endswith(suffix):
-                self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
-                return
-            course_id = path[len(prefix):-len(suffix)]
-            if not course_id or "/" in course_id:
-                self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
-                return
-            try:
-                _, report = service.validate(course_id)
-            except CourseNotFoundError:
-                self._error(404, "COURSE_NOT_FOUND", "Nie znaleziono kursu.")
-                return
-            except (CourseLoadError, OSError, ValueError):
-                self._error(422, "COURSE_VALIDATION_FAILED", "Nie udało się zwalidować kursu.")
-                return
-            self._send(
-                200,
-                {
-                    "data": {
-                        "ok": report.ok,
-                        "errors": [_finding_payload(item) for item in report.errors],
-                        "warnings": [_finding_payload(item) for item in report.warnings],
+            validation_prefix = f"{API_PREFIX}/courses/"
+            validation_suffix = "/validation"
+            if path.startswith(validation_prefix) and path.endswith(validation_suffix):
+                body = self._read_json_body(allow_empty=True)
+                if body is None:
+                    return
+                course_id = path[len(validation_prefix):-len(validation_suffix)]
+                if not course_id or "/" in course_id:
+                    self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                    return
+                try:
+                    _, report = service.validate(course_id)
+                except Exception as error:
+                    self._draft_error(error)
+                    return
+                self._send(
+                    200,
+                    {
+                        "data": {
+                            "ok": report.ok,
+                            "errors": [_finding_payload(item) for item in report.errors],
+                            "warnings": [_finding_payload(item) for item in report.warnings],
+                        },
+                        "meta": {"api_version": "1"},
                     },
-                    "meta": {"api_version": "1"},
-                },
-            )
+                )
+                return
+
+            create_suffix = "/drafts"
+            if path.startswith(validation_prefix) and path.endswith(create_suffix):
+                body = self._read_json_body(allow_empty=True)
+                if body is None:
+                    return
+                course_id = path[len(validation_prefix):-len(create_suffix)]
+                if not course_id or "/" in course_id:
+                    self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                    return
+                if body:
+                    self._error(400, "UNEXPECTED_FIELDS", "Utworzenie wersji roboczej nie przyjmuje pól.")
+                    return
+                try:
+                    draft = draft_service.create(course_id)
+                except Exception as error:
+                    self._draft_error(error)
+                    return
+                self._send(201, {"data": asdict(draft), "meta": {"api_version": "1"}})
+                return
+            self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+
+        def do_PATCH(self) -> None:
+            if not self._authorized(write=True):
+                return
+            path = self._request_path()
+            if path is None:
+                return
+            prefix = f"{API_PREFIX}/drafts/"
+            if not path.startswith(prefix):
+                self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                return
+            draft_id = path[len(prefix):]
+            if not draft_id or "/" in draft_id:
+                self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                return
+            body = self._read_json_body()
+            if body is None:
+                return
+            if set(body) != {"expected_revision", "changes"}:
+                self._error(
+                    400,
+                    "INVALID_DRAFT_UPDATE",
+                    "Wymagane są wyłącznie pola expected_revision i changes.",
+                )
+                return
+            try:
+                updated = draft_service.update(
+                    draft_id,
+                    expected_revision=body["expected_revision"],
+                    changes=body["changes"],
+                )
+            except Exception as error:
+                self._draft_error(error)
+                return
+            self._send(200, {"data": asdict(updated), "meta": {"api_version": "1"}})
 
     class ApiServer(ThreadingHTTPServer):
         daemon_threads = True
