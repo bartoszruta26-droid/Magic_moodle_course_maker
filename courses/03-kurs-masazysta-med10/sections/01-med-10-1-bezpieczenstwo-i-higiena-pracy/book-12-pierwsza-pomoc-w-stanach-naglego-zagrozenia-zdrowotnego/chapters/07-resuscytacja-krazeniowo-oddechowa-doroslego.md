@@ -4,13 +4,19 @@
 
 ## Dlaczego to ważne
 
-Niewydolność serca (dekompensacja = przeciwwskazanie BEZWZGLĘDNE do masażu) objawia się dusznością wysiłkową/spoczynkową, obrzękami kostek, kaszlem nocnym. W stabilnej niewydolności (za zgodą kardiologa) wskazany jest delikatny manualny drenaż limfatyczny, półsiedząca pozycja, krótkie sesje. Każdy masaż u pacjenta kardiologicznego planujemy z lekarzem prowadzącym; objawy świeże (ból w klatce, duszność) = STOP i 112.
-
-Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+Nagła utrata przytomności u dorosłego wymaga natychmiastowego wezwania pomocy i oceny oddechu. Jeżeli osoba jest nieprzytomna i oddycha nieprawidłowo — w tym wykonuje pojedyncze, nieregularne westchnienia agonalne — należy podejrzewać zatrzymanie krążenia i rozpocząć resuscytację. W aktualnych wytycznych ERC 2025 zaleca się wezwanie służb ratunkowych od razu po stwierdzeniu braku reakcji; dyspozytor może prowadzić osobę udzielającą pomocy przez kolejne czynności. RKO jest działaniem ratunkowym, a nie techniką masażu leczniczego.
 
 ## Rozwinięcie zagadnienia
 
-Pierwsza pomoc wg wytycznych ERC: ocena bezpieczeństwa miejsca → sprawdzenie przytomności (mów, dotknij) → oddech (patrz, słuchaj, czuj ≤10 s) → wezwij 112/999 i poproś o AED → RKO 30:2 (ugniatania na głębokość 5–6 cm, tempo 100–120/min, pełny powrót klatki) → defibrylacja AED możliwie najszybciej. W gabinecie masażu: nagłą utratę przytomności bez prawidłowego oddechu traktuj jako zatrzymanie krążenia — przerwij masaż, przełóż pacjenta na twarde podłoże (miękki stół uniemożliwia skuteczne uciśnięcia), rozpocznij resuscytację i nie zostawiaj poszkodowanego do przyjazdu PRM.
+1. **Zadbaj o bezpieczeństwo.** Sprawdź, czy podejście do poszkodowanego nie naraża Ciebie ani innych osób.
+2. **Sprawdź reakcję.** Zawołaj do poszkodowanego i delikatnie potrząśnij za ramiona. Jeśli nie reaguje, głośno wezwij pomoc i zadzwoń pod 112 lub 999, najlepiej w trybie głośnomówiącym. Poproś drugą osobę o przyniesienie AED.
+3. **Oceń oddech.** Udrożnij drogi oddechowe i oceń, czy oddech jest prawidłowy. Pojedyncze westchnienia, charczenie lub nieregularne łapanie powietrza nie są prawidłowym oddechem. Jeśli masz wątpliwości, postępuj zgodnie z poleceniami dyspozytora i rozpocznij RKO.
+4. **Wykonuj uciśnięcia klatki piersiowej.** Ułóż nasadę dłoni na środku klatki piersiowej, na dolnej połowie mostka; drugą dłoń połóż na pierwszej. Uciskaj z częstością 100–120 razy na minutę, na głębokość 5–6 cm, pozwalając klatce piersiowej całkowicie się rozprężyć po każdym uciśnięciu i ograniczając przerwy.
+5. **Wykonuj oddechy ratownicze, jeśli jesteś przeszkolony i możesz je bezpiecznie prowadzić.** Stosuj cykle 30 uciśnięć i 2 oddechów. Jeżeli nie jesteś przeszkolony lub nie możesz wykonywać oddechów, prowadź nieprzerwane uciśnięcia klatki piersiowej zgodnie z instrukcjami dyspozytora.
+6. **Użyj AED natychmiast po jego dostarczeniu.** Włącz urządzenie, odsłoń klatkę piersiową, przyklej elektrody zgodnie z rysunkami i komunikatami urządzenia. Podczas analizy rytmu i wyładowania nikt nie może dotykać poszkodowanego. Po komunikacie urządzenia natychmiast wróć do RKO i postępuj zgodnie z kolejnymi poleceniami AED.
+7. **Kontynuuj działania.** Prowadź RKO do chwili przejęcia działań przez zespół ratownictwa medycznego, powrotu oznak życia, wystąpienia zagrożenia dla ratownika lub wyczerpania sił uniemożliwiającego dalsze działanie.
+
+**Ważne w gabinecie masażu:** nie trać czasu na przenoszenie osoby z miękkiego stołu na podłogę. ERC 2025 zaleca rozpoczęcie uciśnięć na miejscu, także na miękkim podłożu; w razie potrzeby należy uciskać głębiej, aby uzyskać odpowiednią głębokość. Jeśli to możliwe, użyj funkcji szybkiego obniżenia stołu lub podparcia zgodnego z konstrukcją urządzenia, ale nie opóźniaj rozpoczęcia RKO. Nie zostawiaj poszkodowanego bez pomocy tylko po to, by szukać sprzętu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -32,30 +38,34 @@ Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
 
 ## Scenariusz sytuacyjny (studium przypadku)
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Podczas zabiegu osoba nagle traci przytomność i nie oddycha prawidłowo. Kursant ma za zadanie przerwać zabieg, zadbać o bezpieczeństwo, wezwać pomoc pod numerem 112 lub 999, poprosić o AED i rozpocząć RKO zgodnie z aktualnym przeszkoleniem oraz instrukcjami dyspozytora. Ćwiczenie ocenia rozpoznanie nieprawidłowego oddechu, czas do pierwszego wezwania pomocy, jakość uciśnięć, użycie AED i ciągłość działań.
 
 ## Najczęstsze błędy początkujących
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+- Opóźnianie wezwania pomocy w celu długiego badania poszkodowanego.
+- Uznawanie westchnień agonalnych lub nieregularnego łapania powietrza za prawidłowy oddech.
+- Zbyt płytkie lub zbyt wolne uciśnięcia, opieranie ciężaru na klatce piersiowej między uciśnięciami i niepotrzebne przerwy.
+- Odkładanie rozpoczęcia RKO do czasu znalezienia twardej podłogi lub przeniesienia poszkodowanego ze stołu.
+- Dotykanie poszkodowanego podczas analizy rytmu lub wyładowania AED.
+- Rezygnowanie z uciśnięć w oczekiwaniu na przyjazd zespołu ratownictwa medycznego.
 
 ## Pytania utrwalające
 
-1. Omów mechanizmy leżące u podstaw: Resuscytacja krążeniowo-oddechowa dorosłego. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+1. Jak rozpoznać utratę przytomności i nieprawidłowy oddech, w tym oddech agonalny?
+2. Jakie informacje należy przekazać dyspozytorowi numeru 112 lub 999?
+3. Jakie są zalecane parametry uciśnięć klatki piersiowej u dorosłego?
+4. Jak bezpiecznie użyć AED i kiedy wznowić RKO?
+5. Dlaczego nie należy opóźniać rozpoczęcia uciśnięć przez przenoszenie poszkodowanego z miękkiego stołu na podłogę?
 
 ## Słowniczek minimalny
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+- **RKO** — resuscytacja krążeniowo-oddechowa.
+- **AED** — automatyczny defibrylator zewnętrzny.
+- **Oddech agonalny** — nieprawidłowe, zwykle nieregularne westchnienia lub łapanie powietrza, które nie oznaczają prawidłowego oddychania.
+- **PRM** — Państwowe Ratownictwo Medyczne.
 
 ---
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+**Pamiętaj:** prawda — opieraj się na aktualnych wytycznych i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
