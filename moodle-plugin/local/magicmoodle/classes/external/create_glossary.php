@@ -158,6 +158,7 @@ class create_glossary extends \external_api {
                     }
                     list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                         get_moduleinfo_data($cm, $course);
+                    $moduleinfo->modname = 'glossary';
                     $moduleinfo->name = trim($params['name']);
                     $moduleinfo->intro = clean_text($params['intro'], FORMAT_HTML);
                     $moduleinfo->introformat = FORMAT_HTML;
