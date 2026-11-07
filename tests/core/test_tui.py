@@ -68,18 +68,19 @@ def test_tui_export_button_writes_manifest(tmp_path: Path, monkeypatch) -> None:
 def test_tui_question_bank_actions_validate_and_export(tmp_path: Path, monkeypatch) -> None:
     import asyncio
     import xml.etree.ElementTree as ET
+    from textual.widgets import Static
 
     courses = tmp_path / "courses"
     course = courses / "sample"
     course.mkdir(parents=True)
     (course / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs z bankiem\\n  short_name: BANK\\n",
+        "course:\n  full_name: Kurs z bankiem\n  short_name: BANK\n",
         encoding="utf-8",
     )
     bank_dir = course / "question-bank"
     bank_dir.mkdir()
     (bank_dir / "set-01.gift").write_text(
-        "::q1::Pytanie testowe? {=Tak ~Nie}\\n",
+        "::q1::Pytanie testowe? {=Tak ~Nie}\n",
         encoding="utf-8",
     )
     exports = tmp_path / "exports"
