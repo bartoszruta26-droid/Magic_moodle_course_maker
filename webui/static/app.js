@@ -92,7 +92,11 @@ function renderDraftEditor(preview) {
   const revision = document.createElement("span");
   revision.className = "tag";
   revision.textContent = "REWIZJA " + draft.revision;
-  header.append(title, revision);
+  const historyButton = document.createElement("button");
+  historyButton.className = "secondary-button";
+  historyButton.textContent = "Historia";
+  historyButton.addEventListener("click", () => loadDraftHistory(draft));
+  header.append(title, revision, historyButton);
   editor.append(header);
 
   const form = document.createElement("form");
@@ -158,6 +162,7 @@ function renderDraftEditor(preview) {
         payload: {expected_revision: draft.revision, changes},
       });
       const updated = await request("/api/drafts/" + encodeURIComponent(draft.draft_id) + "/preview");
+      $("detail").replaceChildren();
       renderDraftEditor(updated.data);
     } catch (error) {
       status.textContent = error.message;
@@ -180,6 +185,122 @@ function renderDraftEditor(preview) {
   if (warnings) validation.append(warnings);
   editor.append(validation);
   $("detail").append(editor);
+}
+
+async function loadDrafts(courseId) {
+  try {
+    const result = await request("/api/courses/" + encodeURIComponent(courseId) + "/drafts");
+    const panel = document.createElement("section");
+    panel.className = "draft-history";
+    const heading = document.createElement("h3");
+    heading.textContent = "Zapisane wersje robocze";
+    panel.append(heading);
+    if (!result.data.length) {
+      const empty = document.createElement("p");
+      empty.className = "empty";
+      empty.textContent = "Ten kurs nie ma jeszcze zapisanych wersji roboczych.";
+      panel.append(empty);
+    }
+    for (const draft of result.data) {
+      const row = document.createElement("div");
+      row.className = "history-row";
+      const details = document.createElement("div");
+      const label = document.createElement("strong");
+      label.textContent = "Rewizja " + draft.revision;
+      const date = document.createElement("small");
+      date.textContent = new Date(draft.updated_at).toLocaleString("pl-PL");
+      details.append(label, date);
+      const actions = document.createElement("div");
+      actions.className = "history-actions";
+      const open = document.createElement("button");
+      open.className = "secondary-button";
+      open.textContent = "Otwórz";
+      open.addEventListener("click", async () => {
+        try {
+          const preview = await request("/api/drafts/" + encodeURIComponent(draft.draft_id) + "/preview");
+          $("detail").replaceChildren();
+          renderDraftEditor(preview.data);
+        } catch (error) {
+          showDraftError(error.message);
+        }
+      });
+      const history = document.createElement("button");
+      history.className = "secondary-button";
+      history.textContent = "Historia";
+      history.addEventListener("click", () => loadDraftHistory(draft));
+      actions.append(open, history);
+      row.append(details, actions);
+      panel.append(row);
+    }
+    $("detail").replaceChildren(panel);
+  } catch (error) {
+    showDraftError(error.message);
+  }
+}
+
+async function loadDraftHistory(draft) {
+  try {
+    const result = await request("/api/drafts/" + encodeURIComponent(draft.draft_id) + "/history");
+    const panel = document.createElement("section");
+    panel.className = "draft-history";
+    const heading = document.createElement("h3");
+    heading.textContent = "Historia wersji roboczej";
+    panel.append(heading);
+    const back = document.createElement("button");
+    back.className = "secondary-button";
+    back.textContent = "Otwórz bieżącą rewizję";
+    back.addEventListener("click", async () => {
+      const preview = await request("/api/drafts/" + encodeURIComponent(draft.draft_id) + "/preview");
+      $("detail").replaceChildren();
+      renderDraftEditor(preview.data);
+    });
+    panel.append(back);
+    for (const revision of result.data) {
+      const row = document.createElement("div");
+      row.className = "history-row";
+      const details = document.createElement("div");
+      const label = document.createElement("strong");
+      label.textContent = "Rewizja " + revision.revision;
+      const changes = document.createElement("small");
+      changes.textContent = Object.keys(revision.changes || {}).join(", ") || "Wersja początkowa";
+      details.append(label, changes);
+      const actions = document.createElement("div");
+      actions.className = "history-actions";
+      if (revision.revision !== draft.revision) {
+        const restore = document.createElement("button");
+        restore.className = "secondary-button";
+        restore.textContent = "Przywróć";
+        restore.addEventListener("click", async () => {
+          restore.disabled = true;
+          try {
+            await request("/api/drafts/" + encodeURIComponent(draft.draft_id) + "/restore", {
+              method: "POST",
+              payload: {expected_revision: draft.revision, target_revision: revision.revision},
+            });
+            const preview = await request("/api/drafts/" + encodeURIComponent(draft.draft_id) + "/preview");
+            $("detail").replaceChildren();
+            renderDraftEditor(preview.data);
+          } catch (error) {
+            restore.disabled = false;
+            showDraftError(error.message);
+          }
+        });
+        actions.append(restore);
+      }
+      row.append(details, actions);
+      panel.append(row);
+    }
+    $("detail").replaceChildren(panel);
+  } catch (error) {
+    showDraftError(error.message);
+  }
+}
+
+function showDraftError(message) {
+  const error = document.createElement("div");
+  error.className = "status-line bad";
+  error.textContent = message;
+  $("detail").append(error);
 }
 
 async function createDraft(courseId, button) {
@@ -245,6 +366,11 @@ async function selectCourse(id) {
     editButton.textContent = "Utwórz wersję roboczą";
     editButton.addEventListener("click", () => createDraft(id, editButton));
     box.append(editButton);
+    const draftsButton = document.createElement("button");
+    draftsButton.className = "secondary-button";
+    draftsButton.textContent = "Zapisane wersje robocze";
+    draftsButton.addEventListener("click", () => loadDrafts(id));
+    box.append(draftsButton);
     $("detail").replaceChildren(box);
   } catch (error) {
     $("detail").textContent = "Nie udało się zweryfikować kursu: " + error.message;
