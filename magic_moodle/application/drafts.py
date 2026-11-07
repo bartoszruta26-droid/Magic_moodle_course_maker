@@ -13,7 +13,6 @@ from typing import Any
 
 from magic_moodle.course_export import course_manifest, to_course_json
 from magic_moodle.io_utils import atomic_write_text
-from magic_moodle.loader import CourseLoadError
 from magic_moodle.models import Course
 from magic_moodle.validation import validate_course
 
