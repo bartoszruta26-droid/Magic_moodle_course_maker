@@ -16,13 +16,13 @@ from magic_moodle.application import CourseApplicationService
 def make_course(root: Path) -> None:
     root.mkdir(parents=True)
     (root / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs API\\n  short_name: API\\n",
+        "course:\n  full_name: Kurs API\n  short_name: API\n",
         encoding="utf-8",
     )
     section = root / "sections" / "01-intro"
     section.mkdir(parents=True)
     (section / "section.yaml").write_text(
-        "id: intro\\nname: Wprowadzenie\\nmodules: []\\n",
+        "id: intro\nname: Wprowadzenie\nmodules: []\n",
         encoding="utf-8",
     )
 
