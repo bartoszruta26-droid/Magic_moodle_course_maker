@@ -47,3 +47,19 @@ if [[ "$OUTPUT" == *"Kurs szkicowy gotowy:"* ]]; then
 fi
 
 printf '%s\n' "OK: błąd końcowej walidacji jest propagowany."
+
+ 
+# Test rzeczywistego TOC: generator i walidator muszą używać tej samej nazwy
+# strony, bez podwójnego numeru N.M. w slug.
+REAL_TMP="$(mktemp -d)"
+trap 'rm -rf "$TMP" "$REAL_TMP"' EXIT
+REAL_BASE="$REAL_TMP/course"
+mkdir -p "$REAL_BASE"
+python3 "$ROOT/scripts/scaffold_course.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE"
+python3 "$ROOT/scripts/gen_page_stubs.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE"
+python3 "$ROOT/scripts/gen_quiz_templates.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE"
+python3 "$ROOT/scripts/scaffold_course.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE" --check
+if find "$REAL_BASE/sections" -type f -name 'page-*-*-*.md' | grep -q .; then
+  printf 'Wygenerowano nazwy stron z podwójnym numerem tematu.\n' >&2
+  exit 1
+fi
