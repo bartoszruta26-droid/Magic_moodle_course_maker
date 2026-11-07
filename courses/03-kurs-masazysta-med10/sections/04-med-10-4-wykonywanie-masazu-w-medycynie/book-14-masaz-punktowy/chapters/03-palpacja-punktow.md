@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Punkty trigger miofasj (TrPs): węzły napięciowe w pasmie mięśniowym z bólem promienującym typowo dla mięśnia. Techniki: ischemiczna kompresja 30-90 s (ból „dobry”, malejący), spray & stretch wyłącznie po stosownym szkoleniu, sucha igła— WYŁĄCZNIE lekarz/fizjoterapeuta z uprawnieniami, masażysta NIE kłuje. Edukuj: nawyki (ergonomia, sen, stres), bo TrP nawraca bez zmiany przyczyn.
+Palpacja systematyczna: warstwy od skóry do głębi (skóra → podskórna → mięsień → przyczep → staw), porównuj strony, idź od obszaru swobodnego do bolesnego; szukaj: temperatury, napięcia, obrzęku (przesuwalny falujący), punktów spustowych (pasmo + promieniowanie), przeskakiwania, oporu końcowego (end-feel: tkankowy sprężysty OK; ostry ból lub «pusto» = stop). Kresa diagnostyczna Dicke'a — ćwiczenie liniowe na plecach dla kalibracji dłoni. Opisuj w karcie OBIEKTYWNIE («wzrost napięcia m. czworobocznego L, tkliwość 6/10»).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

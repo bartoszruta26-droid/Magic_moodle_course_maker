@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Klauzula informacyjna RODO (GDPR / data protection notice) informuje pacjenta: kto jest administratorem, w jakim celu i na jakiej podstawie przetwarzamy dane zdrowotne (art. 9 ust. 2 lit. h RODO — opieka zdrowotna), przez jak długo, komu je przekazujemy i jakie ma prawa (dostęp, sprostowanie, ograniczenie). Praktyka: klauzula wisząca w gabinecie + zgoda pisemna lub elektroniczna; dane poza dokumentacją medyczną (np. zdjęcia) wyłącznie za odrębną zgodą. Ćwiczenie: wskaż w swoim regulaminie pięć elementów klauzuli informacyjnej i uzupełnij brakujące.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

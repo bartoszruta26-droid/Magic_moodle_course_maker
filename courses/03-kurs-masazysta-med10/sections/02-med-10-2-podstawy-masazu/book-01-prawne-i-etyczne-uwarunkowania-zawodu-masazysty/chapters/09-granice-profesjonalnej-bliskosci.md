@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
-
-Profesjonalna bliskość to intymność funkcjonalna, nie osobista: dotyk celowany, okrycie ciała poza obszarem zabiegu, rozmowa o pacjencie a nie o jego życiu prywatnym, brak żartów dwuznacznych, brak prezentów i relacji towarzyskich z klientem (konflikt interesów), jasne zasady przy kliencie trudnym emocjonalnie (druga osoba w gabinecie na prośbę którejkolwiek strony). Test uczciwości: czy Twoje zachowanie obroni się, gdy zostanie nagrane i przeczytane przez pacjenta oraz sąd?
+Komunikacja i konflikty — warsztat praktyczny: model LEARN (Listen — Empathize — Apologize for experience — Resolve — Notify/documentation), komunikat «Ja» zamiast oskarżeń, rozmowa reklamacyjna nie przy innych klientach; prośby niestosowne («mocniej mimo bólu», granice cielesne): spokojna ODMOWA + jasna granica + dokumentacja + ewentualne zakończenie współpracy; eskalacja: przełożony → regulamin → ścieżka prawna. Ćwiczenie scenki: «klient żąda masażu przy gorączce» — przećwicz 3 wersje odmowy: bez winy i bez uległości.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

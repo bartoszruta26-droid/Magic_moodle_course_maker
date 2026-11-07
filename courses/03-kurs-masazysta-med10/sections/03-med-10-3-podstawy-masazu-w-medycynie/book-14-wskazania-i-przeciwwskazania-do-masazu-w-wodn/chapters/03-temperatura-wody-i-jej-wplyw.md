@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Temperatura wody w hydroterapii i kąpieli częściowej: letnia 30–36°C, obojętna 34–37°C (relaks), ciepła 37–39°C (rogrzewanie — ostrożnie!), chłodna <26°C (kompresja, urazy). Praktyka: ZAWSZE mierz termometrem wodnym, nie łokciem; sprawdź reakcję krążeniową pacjenta (tętno, kolor skóry) po 3 min i co 5 min; przeciwwskazania gorączki i zaburzeń czucia. Ćwiczenie: przygotuj kąpiel dłoni w dwóch temperaturach i opisz różnice odczuć oraz wskazań.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

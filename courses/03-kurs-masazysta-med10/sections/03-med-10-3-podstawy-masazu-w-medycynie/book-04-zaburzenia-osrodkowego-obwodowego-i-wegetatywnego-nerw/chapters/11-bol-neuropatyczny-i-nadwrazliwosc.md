@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
+Neurologia praktycznie: spastyczność → techniki hamujące, wolne, pozycje utrzymywane; wiotkość/rdzeniowe → ochrona stawów luźnych, bez agresywnych trakcji; neuropatia (cukrzycowa!) → upośledzone czucie = utracona sygnalizacja bólu → mniejsza siła, częstsza kontrola skóry, zakaz technik «przez ból»; pourazowe uszkodzenie rdzenia — autonomiczna dysrefleksja (nagły ból głowy, nadciśnienie, czerwienienie) = NATYCHMIAST przerwać, pozycja siedząca, pomoc lekarska. Reguła: zgoda lekarza i fizjoterapeuty, dokumentacja zmian między sesjami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

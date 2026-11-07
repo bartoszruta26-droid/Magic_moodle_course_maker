@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Higiena stóp to codzienny obowiązek masażysty pracującego także stopami (np. masaż głęboki z użyciem stóp) oraz osoba stojąca cały dzień przy stole: mycie i staranne osuszanie przestrzeni międzypalcowych, skarpetki ze świeżego materiału zmieniane w ciągu dnia, obuwie serwisowe łatwe do dezynfekcji, obserwacja naskórka pod kątem zmian grzybiczych (świąd, złuszcwanie, przebarwienie paznokcia). Praktyka: przy podejrzeniu grzybicy stóp leczymy się zanim wrócimy do kontaktu z pacjentem — to wymóg sprawiedliwości: nie przenosimy własnego zagrożenia na cudze zdrowie. Ćwiczenie: prowadź dziennik kontroli stóp przez 2 tygodnie praktyk i omów wyniki z opiekunem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

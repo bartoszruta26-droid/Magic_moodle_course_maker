@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Mapy mięśni (analogiczne do atlasu anatomicznego) wykorzystujemy do planowania: zaznaczasz mięsień, przyczepy, przebieg włókien i «pole projekcji bólu»; dzięki temu ruch masażu idzie wzdłuż włókien, a nie przeciw nim. Praktyka: przed pierwszym zabiegiem nowej okolicy — 5 minut z mapą: gdzie nerwy i naczynia, których nie uciskamy. Ćwiczenie: na wydrukowanej mapie narysuj strzałkami kierunki drenażu i głaskań dla kończyny górnej.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

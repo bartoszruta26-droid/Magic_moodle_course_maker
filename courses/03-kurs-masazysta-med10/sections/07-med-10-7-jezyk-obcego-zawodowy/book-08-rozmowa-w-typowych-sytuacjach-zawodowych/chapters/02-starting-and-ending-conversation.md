@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Rozpoczynanie i kończenie rozmowy: otwarcie — powitanie, imię, cel wizyty, ramy czasowe; zamknięcie — podsumowanie («pracowaliśmy nad barkiem, efekt: mniejsze napięcie»), zalecenia 3 punkty, ustalenie terminu, podziękowanie. Praktyka: pierwsze 60 sekund decyduje o poczuciu bezpieczeństwa pacjenta; ostatnie 60 sekund — o poczuciu zaopiekowania. Zadanie: przećwicz pary «open/close» dla trzech sytuacji: pierwsza wizyta, stały klient, osoba zdenerwowana.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Powierzchnie w gabinecie muszą być gładkie, zmywalne, odporne na środki dezynfekcyjne i pozbawione szczelin (stół z ekoskóry medycznej bez przetarć, blaty bez rys, brak tapet tekstylnych w strefie zabiegowej). Praktyka: test «chlapania» — rozlej symbolicznie wodę i sprawdź, czy wszystko da się osuszyć w 30 sekund; raz w tygodniu audyt powierzchni pod kątem spękań (niszczą dezynfekcję i chowają biofilm). Ćwiczenie: wypełnij kartę oceny nawierzchni stanowiska i wskaż jedną powierzchnię do wymiany wraz z uzasadnieniem kosztu/ryzyka.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

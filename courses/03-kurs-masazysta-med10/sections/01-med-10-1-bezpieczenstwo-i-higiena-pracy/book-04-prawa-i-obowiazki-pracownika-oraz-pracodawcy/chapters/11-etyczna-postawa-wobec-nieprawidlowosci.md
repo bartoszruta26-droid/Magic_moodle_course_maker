@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Etyczna postawa wobec nieprawidłowości oznacza: zauważ → udokumentuj → zgłoś po linii (przełożony, właściciel, służba BHP), nie czekając aż «ktoś inny» zareaguje; dotyczy to skracania zabiegów kosztem jakości, używania przeterminowanych środków, pracy «na czarno». Praktyka: notatka faktograficzna (data, miejsce, obserwacja, wpływ na pacjenta), rozmowa bez oceniania osoby; gdy reakcji brak — ścieżka sygnalisty lub PPIS/PIP. Ćwiczenie: napisz trzy zdania zgłoszenia tej samej nieprawidłowości różnymi kanałami i oceń ryzyka.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

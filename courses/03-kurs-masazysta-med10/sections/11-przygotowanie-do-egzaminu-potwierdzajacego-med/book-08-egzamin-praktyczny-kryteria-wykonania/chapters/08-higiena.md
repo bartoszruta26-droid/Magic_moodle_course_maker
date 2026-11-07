@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Higiena (podsumowanie kryteriów egzaminacyjnych) obejmuje trzy obiegi: ręce masażysty (mycie + dezynfekcja wg WHO, krótkie paznokcie, brak biżuterii), stanowisko (dezynfekcja stołu i powierzchni wysokiego kontaktu między klientami, świeże tekstylia) oraz otoczenie (odzież robocza, porządek, wentylacja, gospodarowanie odpadami). Praktyka: egzaminator patrzy, czy procedury wykonujesz automatycznie nawet pod presją czasu — ćwicz je tak, by «z głowy nie schodziły». Ćwiczenie: wejdź w symulację zabiegu z losowym zdarzeniem (rozlany olej, alarm telefonu) i zachowaj pełny łańcuch higieny.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

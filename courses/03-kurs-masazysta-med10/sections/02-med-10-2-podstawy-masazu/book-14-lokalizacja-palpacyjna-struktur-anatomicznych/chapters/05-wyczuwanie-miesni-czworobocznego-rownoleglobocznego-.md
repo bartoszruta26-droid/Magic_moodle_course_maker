@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Czworoboczny grzbietu (trapezius): część zstępująca (potylica → obojczyk — unoszenie barku i głowy), poprzeczna (C7–Th3 → bark — cofanie łopatki), wstępująca (Th4–Th12 → bark — unoszenie z rotacją łopatki); punkty spustowe dają ból głowy pochodzenia karkowego i „kapturowy” ból barku. Równoległoboczny większy i mniejszy (wyrostki Th1–Th5 → przyśrodkowy brzeg łopatki): cofanie i addukcja łopatki; test: opór przy świadomym ściągnięciu łopatek; TrP — ból między łopatkami. Dźwigacz łopatki (C1–C4 → górny kąt łopatki): unoszenie i pochylanie łopatki; TrP — ból potylicy i ograniczenie rotacji szyi. Sekwencja masażu: głaskanie → rozcieranie → ugniatanie (chwyt fałdu) → precyzyjne naciski przyczepów kostnych (potylica, krawędź obojczyka) → trakcja ramienia w dół dla wydlużenia; pozycje: leżenie przodem z ręką pod tułowiem, bok, siedzenie z tułowiem pochylonym do przodu.
+Palpacja systematyczna: warstwy od skóry do głębi (skóra → podskórna → mięsień → przyczep → staw), porównuj strony, idź od obszaru swobodnego do bolesnego; szukaj: temperatury, napięcia, obrzęku (przesuwalny falujący), punktów spustowych (pasmo + promieniowanie), przeskakiwania, oporu końcowego (end-feel: tkankowy sprężysty OK; ostry ból lub «pusto» = stop). Kresa diagnostyczna Dicke'a — ćwiczenie liniowe na plecach dla kalibracji dłoni. Opisuj w karcie OBIEKTYWNIE («wzrost napięcia m. czworobocznego L, tkliwość 6/10»).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

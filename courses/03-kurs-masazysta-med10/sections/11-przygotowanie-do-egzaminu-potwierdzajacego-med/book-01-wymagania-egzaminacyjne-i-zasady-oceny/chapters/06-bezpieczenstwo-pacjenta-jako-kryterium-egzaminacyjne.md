@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Przygotowanie do egzaminu MED.10: część pisemna (test— wiedza: anatomia, patologia, przeciwwskazania, procedury) i praktyczna (stanowisko: ocena klienta, plan, wykonanie, dokumentacja, BHP). Strategie: mapy myśli na każdy rodzaj masażu, trening czasu (symulacje 1:1 z arkuszem), samoocena wg check-list F, powtórki naprzemienne (interleaving) w rytmie 1/3/7/21 dnia.
-
-Pierwszy priorytet masażysty: primum non nocere. Oznacza to kwalifikację przed każdym zabiegiem (wywiad, stan dnia, leki, przeciwwskazania), zgodę świadomą, plan z kryteriami przerwania, monitoring subiektywny i obiektywny w trakcie, dokumentację po zabiegu oraz gotowość do wezwania pomocy (numery alarmowe 112/999). Bezpieczeństwo pacjenta obejmuje też ochronę danych (RODO), ochronę godności (okrycie, intymność) i rzetelność przekazu — bez obietnic leczniczych spoza kompetencji.
+Bezpieczeństwo (podsumowanie): kwalifikacja, higiena, ergonomia, granice kompetencji, gotowość ratunkowa — filary, które sprawdzane są codziennie. Ćwiczenie: napisz swoją «dekalog bezpieczeństwa» i przyklej w szafce.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

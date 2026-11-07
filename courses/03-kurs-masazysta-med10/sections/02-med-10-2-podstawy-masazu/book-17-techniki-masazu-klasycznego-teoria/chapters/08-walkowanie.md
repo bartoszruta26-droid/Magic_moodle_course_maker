@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Wibracja i roztrząsanie: pionowa (drżenie na przyczepach — hamuje tonus), podłużna (wzdłuż mięśnia — rozprowadza bodziec), poprzeczna (w pobliżu pni nerwowych OSTROŻNIE), bezpośrednia palcami lub pośrednia przez ręcznik; częstotliwość niska rozluźnia, wysoka pobudza. Ćwiczenie praktyczne: tremor na m. czworobocznym górnym 20–40 s z kontrolą miny pacjenta; wibracja aparatem — tylko wg instrukcji producenta i z pominięciem kości wystających.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

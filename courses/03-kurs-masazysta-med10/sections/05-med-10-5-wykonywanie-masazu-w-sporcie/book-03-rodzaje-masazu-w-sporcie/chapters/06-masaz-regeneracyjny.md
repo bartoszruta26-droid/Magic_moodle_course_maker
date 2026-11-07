@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż sportowy wg celu: PODTRZYMUJĄCY (regularny, umiarkowany), PRZEDSTARTOWY (5–15 min, szybki, pobudzający, rozgrzewka), MIĘDZYSTARTOWY (krótki odpoczynek + regeneracja), REGENERACYJNY (24–48 h po wysiłku, głęboki umiarkowanie + odpływ), ROZGRZEWKOWY (dynamiczny, krótki), SCHŁADZAJĄCY (spokojny odpływ + rozciąganie). Ćwiczenie: przeprowadź 10-min wersję przedstartową i schładzającą na tej samej kończynie i porównaj ROM/tętno.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

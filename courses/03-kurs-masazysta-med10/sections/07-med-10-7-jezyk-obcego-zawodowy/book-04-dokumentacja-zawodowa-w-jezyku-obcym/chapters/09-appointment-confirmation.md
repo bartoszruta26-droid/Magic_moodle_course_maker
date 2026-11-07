@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Potwierdzenie wizyty (appointment confirmation) to profesjonalizm i bezpieczeństwo: SMS/mail z datą, godziną, adresem, informacją co zabrać i zasadą odwołania («please cancel at least 24 h in advance»). Praktyka: ton uprzejmy, jasny, bez żargonu; przypomnienie o posiłku/nawodnieniu przed masażem głębokim zmniejsza ryzyko osłabienia. Zadanie: napisz dwa warianty potwierdzenia — standard i dla pacjenta po raz pierwszy — i oceń, który lepiej redukuje lęk.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

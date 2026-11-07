@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Nieleczone żylaki i zakrzepica żył głębokich (DVT) to klasyka bezpieczeństwa: przy DVT — BEZWZGLĘDNY zakaz masażu kończyny i całego ciała w ostrej fazie (ryzyko zatorowości płucnej!). Objawy DVT: asymetryczny obrzęk łydki, ból przy zgięciu grzbietowym stopy (Homans), ocieplenie, przebarwienie. Żylaki powierzchniowe: głaskanie kierunkowe ku sercu, BEZ ugniatania nad workowatymi poszerzeniami, bandażowanie kompresyjne po zabiegu wg zaleceń chirurga naczyniowego.
+Choroba zakrzepowo-zatorowa: podejrzenie zakrzepicy (jednostronny obrzęk łydki, ból spoczynkowy, ciepło, nasilenie przy zgięciu grzbietowym stopy) = ZERO masażu, pilna konsultacja (USG Doppler, decyzja o anticoagulation). Żylaki istniejące: nie masuj NAD nimi (ryzyko oderwania skrzepliny, krwawienie), wokół — lekkie głaskanie odpływowe; po zabiegach flebologicznych — zgoda lekarza i ustalony czas. Edukacja pacjenta: wyroby uciskowe wg zlecenia, ruch, nawodnienie.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

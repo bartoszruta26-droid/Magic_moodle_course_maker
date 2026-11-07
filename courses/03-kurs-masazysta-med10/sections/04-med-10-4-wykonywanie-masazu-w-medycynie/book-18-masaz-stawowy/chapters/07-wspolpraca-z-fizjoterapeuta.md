@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Współpraca z fizjoterapeutą konkretna: przekazujesz notatkę «co zrobiono, jak zareagował pacjent, jaki ROM/ból dziś», przyjmujesz jego zalecenia dotyczące obciążeń i unikasz dublowania terapii. Przy braku kontaktu — dzwoń/mail, nie «domyślaj się». Ćwiczenie: napisz 5-zdaniową informację dla fizjoterapeuty o pacjencie po rekonstrukcji więzadła krzyżowego przedniego (ACL), u którego masujesz łydkę.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

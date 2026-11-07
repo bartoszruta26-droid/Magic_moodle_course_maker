@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Bezpieczeństwo masażu przy chorobach wielonarządowych: decyduje stabilność choroby i aktualne leczenie (leki przeciwkrzepliwe = mniejsza siła i brak głębokiego ugniatania; niewydolność serca = pozycja półsiedząca, krótszy czas; cukrzyca = unikanie urazów skóry). Praktyka: zawsze kieruj się zleceniem i «czerwonymi flagami» (załącznik «czerwone flagi» kursu). Zadanie: dla pacjenta z z nadciśnieniem leczonym farmakologicznie i acenokumarolem wypisz 5 modyfikacji masażu kończyn.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

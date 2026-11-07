@@ -66,3 +66,5 @@ Prawda o granicach zawodowych chroni pacjenta i Ciebie. Szacunek dla cudzej komp
 ## Refleksja na koniec
 
 Ręce uczą się wolniej niż głowa — i to jest sprawiedliwe. Nie porównuj swojego tempa z innymi; porównuj swoje dzisiejsze wykonanie z wczorajszym. Cierpliwość wobec siebie jest warunkiem cierpliwości wobec pacjenta.
+
+<!-- subch-v10 -->

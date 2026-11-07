@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż relaksacyjny aktywuje przywspółczulny układ nerwowy: obniża kortyzol, tętno i ciśnienie, poprawia jakość snu (przeglądy systematyczne i metaanalizy wskazują na umiarkowany efekt w bólu przewlekłym i lęku). Protokół: tempo wolne (~1 ruch/2 s), jednostajna presja, ciepło dłoni, cisza lub muzyka ok. 50–60 uderzeń/min, światło przygaszone, brak rozmowy po 5 min. Kontrapunkt etyczny: relaks NIE jest pretekstem do przekraczania granic intymności — okrycie zawsze na miejscu.
-
-Masaż Shantala (upowszechniony przez Frédéricka Leboyera, korzenie indyjskie) wykonuje rodzic: klatka piersiowa (dłonie od środka ku bokom — „otwieram książkę”), brzuch (ścieżki w kształcie liter I, odwróconego L i U — „I love U”, zgodnie z perystaltyką okrężnicy), nogi (udo → łydka → stopa; chwyt „dojenia”), ręce, twarz (brwi → usta → uszy — „uśmiech”), plecy (na przedramieniu rodzica — ruchy „pełzania”). Warunki: dziecko zdrowe, 30–45 minut po posiłku, temperatura pokoju 24–26°C, olej roślinny prasowany na zimno (wcześniej próba alergiczna!), kontakt wzrokowy i słowny, czas 10–20 minut, sygnały STOP: płacz, odwracanie głowy, niepokój (sen też kończy sesję). Korzyści: redukcja kolek (badania i metaanalizy — dowody umiarkowane), budowanie więzi, regulacja napięcia i snu. Przeciwwskazania: gorączka, wysypki, choroby serca/metaboliczne bez zgody pediatry, okolica szczepienia, padaczka niestabilna. Rodzic masuje — masażysta UCZY: to edukacja, nie terapia.
+Masaż Shantala i niemowląt — praktyka: pokój ciepły (24–26°C), dziecko nie głodne i nie zaraz po karmieniu (>30–45 min), kontakt wzrokowy, zgoda i obecność rodzica; sekwencja: klatka → brzuszek (zgodnie z perystaltyką, «I love you») → nogi → ręce → plecy → buzia; dotyk pewny, rytmiczny, z pauzami na reakcję dziecka. SYGNAŁY STOP: płacz trwały, wyginanie, sztywnienie karku, zmiana koloru skóry. Choroba, dermatitis, gorączka — pediatra najpierw. Rodzic uczy się techniki NA TOBIE, potem z Twoją asystą na dziecku.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

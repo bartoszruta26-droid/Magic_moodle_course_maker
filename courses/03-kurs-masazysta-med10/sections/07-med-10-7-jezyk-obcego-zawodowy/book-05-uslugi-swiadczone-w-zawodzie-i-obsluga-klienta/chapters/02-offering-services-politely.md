@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Uprzejme oferowanie usług: «Would you like to add a warm oil for your shoulders? It’s optional.» — propozycja bez nacisku, z jasną ceną i czasem. Praktyka: formułuj wybór zamknięty z wyjaśnieniem korzyści i granic kompetencji; nachalna dokupiona usługa („up-selling” pod presją) jest nieetyczna i psuje zaufanie. Ćwiczenie: przeprowadź trzy propozycje usługi w parach (olejek, dłonie, dodatkowe 10 minut) i oceń, czy klient poczuł wolność decyzji.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

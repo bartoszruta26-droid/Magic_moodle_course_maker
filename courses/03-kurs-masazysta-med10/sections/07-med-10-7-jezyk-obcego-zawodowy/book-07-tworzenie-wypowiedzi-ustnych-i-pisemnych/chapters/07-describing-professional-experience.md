@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Mówienie o doświadczeniu zawodowym: konkrety zamiast chwalipięctwa — «prowadzę gabinet od 3 lat, wykonuję ok. 600 zabiegów miesięcznie, specjalizuję się w masażu sportowym i MLD po szkoleniu X». Praktyka: cytuj ukończone kursy z liczbą godzin i zakres stosowanych technik; nie przypisuj sobie kompetencji medycznych. Zadanie: przygotuj 60-sekundową autoprezentację PL/EN na rozmowę o pracę w sanatorium.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+BHP w praktyce masażysty: ocena ryzyka stanowiska (obciążenie statyczne kręgosłupa, przeciążenia kciuków i nadgarstków, kontakt biologiczny, poślizgi, chemia środków dezynfekcyjnych) → działania profilaktyczne (ergonomia stołu, rotacja technik, rękawiczki, maty, wentylacja); badania lekarskie przedzatrudnieniowe i okresowe, szkolenia BHP (wstępne + okresowe), wypadki przy pracy — protokół i zgłoszenie (ZUS/KRUS); organy nadzoru: PIP i PSSE. Obowiązek zgłaszania zagrożeń i prawo odmowy pracy w stanie bezpośredniego zagrożenia życia to Twoja tarcza i Twój dług wobec współpracowników.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

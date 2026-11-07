@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Materiały edukacyjne dla pacjenta muszą być rzetelne, proste i w granicach kompetencji masażysty: jednostronicowe karty z rysunkiem ćwiczenia (pozycja, powtórzenia, częstotliwość), zasady ergonomii dnia (praca przy biurku, dźwiganie), nawodnienia i snu; źródła: WHO, NFZ, towarzystwa naukowe — nigdy «blog cudów». Praktyka: dostosuj formę do pacjenta (duża czcionka dla seniora, wersja elektroniczna dla młodego), wydruk trzymaj w segregatorze gabinetu, każdą kartę omów na głos i sprawdź zrozumienie metodą teach-back. Zadanie kursanta: opracuj komplet 3 kart edukacyjnych dla osoby z bólem odcinka szyjnego i przeprowadź na nich demonstrację wizyty.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

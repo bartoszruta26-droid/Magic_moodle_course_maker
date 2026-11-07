@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Cukrzyca w gabinecie — bezpieczeństwo praktyczne: pytaj o ostatni posiłek, insulinę, glikemię; hipoglikemia (zimny pot, drżenie, splątanie) przytomnego pacjenta → podaj cukier prosty (sok/glukoza), kontrola po 15 min; kwasica ketonowa (oddech głęboki i szybki, owocowy zapach, senność) = 112. Stopa cukrzycowa: ŻADNYCH intensywnych technik, ocena czucia monofilamentem (za szkoleniem) i tętna, edukacja codziennych oględzin stóp; wszelkie rany — diabetolog/podolog, nie gabinet masażu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

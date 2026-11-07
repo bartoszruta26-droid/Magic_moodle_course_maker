@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Palpacja systematyczna: warstwy od skóry do głębi (skóra → podskórna → mięsień → przyczep → staw), porównuj strony, idź od obszaru swobodnego do bolesnego; szukaj: temperatury, napięcia, obrzęku (przesuwalny falujący), punktów spustowych (pasmo + promieniowanie), przeskakiwania, oporu końcowego (end-feel: tkankowy sprężysty OK; ostry ból lub «pusto» = stop). Kresa diagnostyczna Dicke'a — ćwiczenie liniowe na plecach dla kalibracji dłoni. Opisuj w karcie OBIEKTYWNIE («wzrost napięcia m. czworobocznego L, tkliwość 6/10»).
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Krótkie e-maile zawodowe: temat = rzeczownik + data («Rescheduling — Thu 17:00»), nagłówek «Dzień dobry», treść w 3 zdaniach (fakt, propozycja, pytanie), podpis z imieniem, stanowiskiem, telefonem. Praktyka: bez tajemnic zdrowotnych w mailu otwartym — dane medyczne przez kanał zabezpieczony lub zaproszenie do gabinetu; wysyłka po ponownym przeczytaniu. Zadanie: napisz trzy e-maile: potwierdzenie, przełożenie, przeprosiny za odwołanie — i oceń je wg zasady «jedna sprawa, jeden mail».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

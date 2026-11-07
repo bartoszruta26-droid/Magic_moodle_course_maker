@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Pouczenie po zabiegu (aftercare explanation): max 3 przekazy, proste zdania, forma pisemna: «pij wodę, unikaj intensywnego wysiłku dziś, napięte miejsca mogą być tkliwe 24 h — to normalne; ból ostry — zadzwoń». Praktyka: teach-back — poproś, by pacjent własnymi słowami powtórzył zalecenia; dodaj sygnał alarmowy («co powinno Cię zaniepokoić»). Ćwiczenie: napisz kartę aftercare dla masażu głębokich tkanek w wersji PL i EN.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Kodeks pracy w praktyce masażysty-etata: umowa na piśmie w dniu rozpoczęcia pracy, normy czasu (podstawowa 8 h/dobę, średnio 40 h/tydzień), przerwa 15 min przy dobowym wymiarze >6 h, urlop 26 dni za pełny etat, badania profilaktyczne i szkolenia BHP płatne pracodawcy. Zadanie kursanta: przeczytaj wzór umowy i znajdź zapisy o wynagrodzeniu, wypoczynku i odpowiedzialności porządkowej — sporządź notatkę dla siebie jako przyszłego pracownika.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

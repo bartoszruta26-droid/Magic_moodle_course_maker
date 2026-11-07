@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Higiena w gabinecie: mycie rąk wg WHO („5 moments”), dezynfekcja preparatem alkoholowym 30 s (krótka procedura), powierzchnie kontaktu wysokiego— dezynfekcja między klientami (chustki dezynfekcyjne z zachowaniem czasu kontaktu!), tekstylia jednorazowo lub 60°C. Łańcuch infekcji: patogen— rezerwuar— wrota— gospodarz; masażysta przerywa go na każdym ogniwie. Dokumentacja higieny jest audytowalna (sanepid, praktyki).
+Organizacja stanowiska masażysty praktycznie: stół na wysokości talii (łokcie ~90°), dostęp do pacjenta z obu stron, oświetlenie ciepłe i regulowane, temperatura 22–26°C bez przeciągów, środki i ręczniki w zasięgu (bez sięgania «zza pleców»), droga ewakuacyjna wolna. Warunki domowe i podróżne: mata na podłodze lub krzesło masażowe, uporządkowane kable, poszanowanie prywatności domowników; brak stołu to wyzwanie mobilności, nie wymówka dla ergonomii. Raz w miesiącu zrób audyt zdjęcia własnego stanowiska.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

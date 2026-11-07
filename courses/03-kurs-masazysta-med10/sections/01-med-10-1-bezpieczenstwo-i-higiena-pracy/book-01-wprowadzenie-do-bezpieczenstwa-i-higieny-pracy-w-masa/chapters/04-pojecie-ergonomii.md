@@ -4,9 +4,7 @@
 
 ## Dlaczego to ważne
 
-Ergonomia stanowiska: wysokość stołu do poziomu nadgarstka masażysty przy zgięciu łokcia ~120°, stabilna baza nóg, transfer klienta z asystą lub po instruktażu, przerwy mikro co 30 min pracy ciągłej. Narzędzia: krzesło siedzące przy pracy na twarz/dłonie. Profilaktyka urazów przewlekłych dłoni/karku/lędźwi— bo Twoje zdrowie jest zasobem publicznym jakości usług.
-
-Ergonomia dostosowuje narzędzia, stanowisko i organizację pracy do antropometrycznych, fizjologicznych i psychofizycznych możliwości człowieka. Cel: praca bez dominującego zmęczenia i bez choroby. U masażysty oznacza to regulowany stół na wysokości nadgarstka (przy zgięciu łokcia ok. 120°), neutralną pozycję kręgosłupa, podparcie stóp, sekwencje ruchów przenoszących siłę z masy ciała, a nie z małych stawów dłoni, oraz mikroprzerwy co 30 minut.
+Ergonomia to nauka dopasowania pracy do człowieka — dla masażysty warunek kilkudziesięciu lat zawodu. Praktyczne ustawienia: wysokość stołu na poziomie nadgarstków zgiętego luźno nawieszonego ramienia (zwykle 60–80 cm), łokcie blisko tułowia (~90°), stopy płasko, ciężar ciała na obu nogach, zmiana pozycji co zabieg; pacjent: kliny pod kostki/mostek, twarz swobodna. Kursant co 15 minut samokontroli: czy ramiona nie są uniesione, czy nie pracuje «na wyprostowanych rękach». Zadanie: nagraj siebie podczas masażu karku i oceń postawę wg check-listy ergonomii.
 
 ## Rozwinięcie zagadnienia
 
@@ -59,3 +57,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

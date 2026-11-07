@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Choroby przewlekłe: cukrzyca (neuropatia — brak bólu alarmowego!, retinopatia, nefropatia, angiopatia, stopa cukrzycowa — codzienna inspekcja, zakaz intensywnego ciepła), POChP i astma (pozycja półsiedząca, monitorowanie duszności), niewydolność serca (obrzęki, ortopnea), przewlekła choroba nerek (przetoka tętniczo-żylna — zakaz ucisku i pomiaru ciśnienia na tej kończynie!), nowotwór (aktywna choroba — zgoda onkologa; radioterapia — chroniona skóra; chemioterapia — immunosupresja i małopłytkowość: zakaz głębokiego masażu; limfedema — złożona terapia przeciwobrzękowa), padaczka (regularność, aura = przerwać), HIV (standardowe środki ostrożności i empatia, zero stygmatyzacji). Niepełnosprawność: ruchowa (spastyczność, przykurcze, pozycjonowanie, transfer z wózka), intelektualna (komunikacja prosta, zgoda opiekuna, rutyna), sensoryczna (osoby niewidome — opis słowny dotyku; głuche — kontakt wzrokowy, tłumacz PJM). Zasada sprawiedliwości: „Nic o nas bez nas” — podmiotowość, dostępność architektoniczna, rozsądne ceny.
+Praca z osobą niesamodzielną i jej opiekunem: asysta drugiej osoby przy transferach, zgoda prawna/opiekuna przy osobach ubezwłasnowolnionych i małoletnich (asystent obecny, poufność w granicach prawa), komunikacja alternatywna (gest, tablica piktogramów), obserwacja nietypowych sygnałów bólu (wokalizacja, odwracanie głowy, odmowa pozycji); odciąż opiekuna — naucz go 2 technik «na krzesło». Sprawiedliwość: pełna godność i ten sam standard bezpieczeństwa dla każdego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

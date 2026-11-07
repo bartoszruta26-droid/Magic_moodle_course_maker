@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Masaż karku i odcinka szyjnego — bezpieczeństwo praktyczne: przy trójkącie tętniczym szyi i m. mostkowo-obojczykowo-sutkowym tylko bardzo delikatne głaskania/rozcierania (odruchy naczyniowo-wegetatywne!); punkty pracy: czworoboczny górny (kompresja punktu spustowego 30–60 s), dźwigacz łopatki, mięśnie podpotyliczne (utrzymanie, nie miażdżenie); objawy korzeniowe (drętwienie do palców ręki, osłabienie chwytu) = STOP i lekarz. Pozycja: półsiedząca z oparciem lub leżenie tylne z ręcznikiem pod głową.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

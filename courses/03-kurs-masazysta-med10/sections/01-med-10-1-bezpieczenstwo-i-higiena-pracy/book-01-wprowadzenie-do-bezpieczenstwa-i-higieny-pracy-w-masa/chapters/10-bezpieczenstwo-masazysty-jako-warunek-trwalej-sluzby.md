@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Trwała służba wymaga sprawnego terapeuty: profilaktyka obciążeń statycznych i dynamicznych (kręgosłup lędźwiowy, odcinek szyjny, nadgarstki — zespoły przeciążeniowe), rozgrzewka dłoni przed serią zabiegów, limity liczby masaży głębokich w dniu, rotacja technik i klientów, ergonomia transferu pacjenta, odpoczynek między sesjami. Zmęczony masażysta traci precyzję nacisku i czujność — dlatego dbałość o siebie jest elementem etyki zawodowej, nie egoizmem.
+Masażysta służy pacjentowi własnym ciałem i rękoma — ich ochrona jest warunkiem trwałości zawodu: limit zabiegów intensywnych w dniu, rozgrzewka dłoni przed serią, rozciąganie przedramion po pracy, sen regeneracyjny, wcześniejsza reakcja na ból ścięgien («nie przepracować, tylko przeleczyć»). Praktyka: wprowadź osobisty limit «maks. X głębokich masaży dziennie» i grafik z buforem; zapisuj samopoczucie układu ruchu w dzienniczku. Ćwiczenie: zaprojektuj swój plan dnia pracy chroniący ręce i kręgosłup — skonsultuj z opiekunem praktyk.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Profilaktyka odleżyn u osób unieruchomionych: ocena ryzyka (skala Braden), zmiana pozycji co 2–3 h z odciążeniem punktów kostnych (pięty, krętarze, kość ogonowa), utrzymanie czystej i suchej skóry (nawilżanie emolientem, bariery przy nietrzymaniu), odżywianie (białko, kalorie, woda), materace przeciwodleżynowe, oglądanie skóry codziennie. Rozcierania i głęboki ucisk na nieblednącą zaczerwienioną skórę (I stopień odleżyny) są zakazane — nasilają uszkodzenie. Praktyka: mapa «punktów kostnych» w karcie pacjenta. Zadanie: ułóż grafik zmian pozycji i podpór dla leżącego seniora na dobę.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

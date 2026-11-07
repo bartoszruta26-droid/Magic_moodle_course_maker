@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż łącznotkankowy (Dicke/Breuer) praktycznie: chwyty na fałdzie skóry i tkanki podskórnej — przesunięcie, «wciągnięcie» i przytrzymanie do oporu, pułapka → cofnięcie; strefy reflektoryczne grzbietu odcinkowego ↔ narządy; reakcja tkanek: ocieplenie, «rozpuszczenie» zgrubień, przejściowy ślad (norma, nie siniak!); przeciwwskazania: gorączka, ostre stany zapalne trzewne, żylaki w polu, skóra atroficzna (sterydoterapia!). Ćwiczenie: «find barrier» na karku partnera — 3× po 30 s i opis odczuć obu stron.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

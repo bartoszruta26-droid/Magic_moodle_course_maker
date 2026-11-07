@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Parametry środowiska gabinetu: temperatura zalecana 20–24°C (przy masażu relaksacyjnym 22–24, po rozbieraniu pacjent odczuwa chłód!), wilgotność 40–60%, wentylacja zapewniająca wymianę powietrza (usuwa opary olejków i dezynfekcji), oświetlenie regulowane (zabiegowe ± ogólne, ciepłe barwy do relaksu), hałas <50 dB poza muzyką tła. Praktyka: przy złym samopoczuciu pracowników lub częstych infekcjach dróg oddechowych klientów sprawdź te liczby przyrządami. Ćwiczenie: wykonaj pomiar temperatury/wilgotności/licznika luksów w sali ćwiczeń i porównaj z wymaganiami.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Przygotowanie do egzaminu MED.10: część pisemna (test— wiedza: anatomia, patologia, przeciwwskazania, procedury) i praktyczna (stanowisko: ocena klienta, plan, wykonanie, dokumentacja, BHP). Strategie: mapy myśli na każdy rodzaj masażu, trening czasu (symulacje 1:1 z arkuszem), samoocena wg check-list F, powtórki naprzemienne (interleaving) w rytmie 1/3/7/21 dnia.
+Przygotowanie do egzaminu MED.10 — plan praktyczny: część pisemna: powtórki naprzemienne (anatomia↔patologia↔procedury) w rytmie 1/3/7/21 dnia, testy bankowe ≥30 pytań na quiz; część praktyczna: symulacje 1:1 z arkuszem oceniania (stoper, karta kwalifikacji, stanowisko «na brudno» → «na czysto»), przećwicz 3 pełne zabiegi okoliczne + kwalifikację «na głos» + sytuację awaryjną (omdlenie w scenariuszu); postawa: spokojna pewność wynikająca z powtarzalności procedury, nie z improwizacji. Pokora wobec błędu = punkt startu poprawy.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

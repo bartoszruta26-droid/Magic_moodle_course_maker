@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Przeciwwskazania bezwzględne (masaż odstępujemy CAŁKOWICIE): gorączka i ostra infekcja, zakrzepica żył głębokich i zatorowość płucna, Zdekompensowana niewydolność krążenia, aktywne nowotwory złośliwe bez zgody lekarza prowadzącego, świeże urazy z krwawieniem, choroby zakaźne ogólnoustrojowo, stan po alkoholu/narkotykach u klienta. Praktyka: zapisz przyczynę odmowy, wydaj pisemne skierowanie, zachowaj życzliwy ton («dbam o Pana/Pani bezpieczeństwo») — odmowa jest aktem profesji i miłości bliźniego.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

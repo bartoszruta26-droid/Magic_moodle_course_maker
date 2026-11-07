@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Tkanka bliznowata dojrzewa miesiącami: kolagen typu III zastępowany jest przez typ I, włókna układają się wzdłuż linii naprężeń. Masaż blizny (począwszy od w pełni zepitelializowanej rany, zwykle ≥3-4 tyg. po zamknięciu) zapobiega zrostom, poprawia elastyczność i znosi ból. Techniki: poprzeczne rozcieranie, rozciąganie skóry, pracujące fałdy; zasada — praca do granicy komfortu, nigdy „przez” ostry ból.
+Połóg — masaż za zgodą położnika: ocena samopoczucia, blizna po cc (minimum 4–6 tygodni, świeżą omijać), test diastasis linea alba (bez «crunchów» — praca oddechowa), laktacja (bez ucisku gruczołu; zastój — delikatny drenaż po szkoleniu MLD), nastrój matki (baby blues vs depresja — kieruj do specjalisty), obrzęki nóg — pozycja boku z uniesieniem kończyn. Wsparcie emocjonalne matki: obecność, spokojne słowa, pauzy w tempie. Notuj uwagi dla zespołu opieki.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

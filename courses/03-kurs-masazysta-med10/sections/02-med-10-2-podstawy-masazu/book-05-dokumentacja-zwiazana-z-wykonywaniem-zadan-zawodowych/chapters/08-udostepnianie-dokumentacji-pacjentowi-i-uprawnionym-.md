@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Dokumentacja masażysty: karta pacjenta (wywiad, przeciwwskazania, kwalifikacja), karta zabiegowa (czas, techniki, reakcje), zgody (zabieg, RODO), skierowania i karty zdarzeń niepożądanych. Standard: wpisy niezwłoczne, czytelne, datowane, podpisane; przechowywanie zabezpieczone; prawo pacjenta do kopii (ustawa o prawach pacjenta). To nie formalność— to obrona dobra pacjenta i Ciebie samego.
+Urządzenia: sklerotom/dermatom (wibracja punktowa) — praca wg włókien, krótkie serie; miotom (oklepywanie mechaniczne) — przez podkład, nie na kostach/nerkach; wibratory — czas aplikacji maks. 5–7 min/okolica, przeciwwskazania jak przy termoelektryce. Ćwiczenie: wykonaj 3-min sekwencję wibracji na mm. czworoboczny i oceń tonus przed/po.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

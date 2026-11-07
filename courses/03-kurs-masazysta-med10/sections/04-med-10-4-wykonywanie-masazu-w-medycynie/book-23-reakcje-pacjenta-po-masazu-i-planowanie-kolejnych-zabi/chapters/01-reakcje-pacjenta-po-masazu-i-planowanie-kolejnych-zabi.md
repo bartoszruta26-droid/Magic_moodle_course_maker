@@ -118,3 +118,5 @@ Temat 4.23 wiąże wiedzę teoretyczną z praktyką manualną. Regularne powtarz
 Szczegółowe opracowania zagadnień tego tematu znajdują się w podrozdziałach niniejszej książki (lista po lewej). Rozdział zbiorczy służy powtórce i przeglądowi programu.
 
 <!-- subch-v1 -->
+
+<!-- subch-v10 -->

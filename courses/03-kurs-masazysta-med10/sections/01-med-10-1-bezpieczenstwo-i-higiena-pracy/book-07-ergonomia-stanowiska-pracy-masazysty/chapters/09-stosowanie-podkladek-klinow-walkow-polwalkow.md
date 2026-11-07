@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Podkładki, kliny, wałki i półwałki stabilizują pozycję i otwierają okolice: wałek pod kostkami przy leżeniu przodem odciąża lędźwie, klin między kolanami w pozycji bocznej utrzymuje miednicę, półwałek pod klatką piersiową umożliwia swobodny oddech, podparcie pod czołem likwiduje skręt szyi. Praktyka: każda podpora sprawdzana dociskiem (nie może się zsunąć w trakcie ruchu), wysokości dobrane tak, by kończyna wisiała swobodnie. Zadanie: ustaw pozycję do masażu kończyny dolnej u osoby z bólem krzyża i opisz funkcję każdej podpory jednym zdaniem.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

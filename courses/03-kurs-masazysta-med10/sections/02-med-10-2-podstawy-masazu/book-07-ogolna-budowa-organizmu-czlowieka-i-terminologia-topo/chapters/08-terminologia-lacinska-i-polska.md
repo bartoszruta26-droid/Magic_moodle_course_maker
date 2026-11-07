@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Komunikacja zawodowa: język prosty (max. 1 nowe pojęcie + wyjaśnienie), aktywne słuchanie (parafraza, pytania otwarte), informacja zwrotna o odczuciach („proszę mówić: za mocno / dobrze”), kulturowa wrażliwość (dotyk, skromność, płeć terapeuty). Bariera językowa: tłumacz/rysunki/piktogramy; w module języka obcego— standardowe frazy zabiegowe PL/EN/DE.
+Słownictwo zawodu: ucz się terminów w zdaniach praktyki (musculus trapezius pars descendens — «górna część czworobocznego, od potylicy do barku»); łacina/polski/EN równolegle dla najważniejszych 100 struktur. Ćwiczenie: fiszki 10 struktur grzbietu z rysunkiem i nazwą EN.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

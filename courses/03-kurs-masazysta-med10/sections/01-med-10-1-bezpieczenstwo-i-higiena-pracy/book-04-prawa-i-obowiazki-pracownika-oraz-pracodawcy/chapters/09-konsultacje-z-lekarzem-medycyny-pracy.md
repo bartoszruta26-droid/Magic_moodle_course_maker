@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Medycyna pracy orzeka zdolność do wykonywania zawodu: badania wstępne (przed podjęciem pracy), okresowe (zwykle co 1–5 lat wg orzeczenia) i kontrolne (po zwolnieniu >30 dni). Masażysta zgłasza lekarzowi rzeczywisty profil pracy — obciążenie kończyn górnych, kontakt z chemią, pracę w kontakcie fizycznym. Praktyka: przeciwwskazania do zawodu (np. zaawansowane choroby skóry rąk, niektóre padaczki) omów otwarcie; orzeczenie przechowuj. Ćwiczenie: przygotuj listę pytań do lekarza medycyny pracy przed badaniem wstępnym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

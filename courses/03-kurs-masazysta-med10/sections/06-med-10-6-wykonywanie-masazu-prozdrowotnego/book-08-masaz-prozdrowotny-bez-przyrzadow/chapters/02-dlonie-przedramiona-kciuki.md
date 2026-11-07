@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż dłoni i palców — mini-protokół 8–10 min: głaskanie grzbietu i części dłoniowej, rozcieranie przestrzeni międzypaliczkowych, delikatne «pociąganie» palców z rotacją (bez trzasków!), praca szczypcowa mięśni międzykostnych i kłębków, nadgarstek: rozluźnienie zginaczy i prostowników; objawy nerwu pośrodkowego (drętwienie kciuka–palców 1–3, nocne) = kieruj do lekarza/fizjoterapeuty (zespół cieśni nadgarstka różnicować!). Ćwiczenie: profilaktyka ZNT dla pracownika biurkowego — nauka przerw mikro i pozycji «neutral wrist».
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

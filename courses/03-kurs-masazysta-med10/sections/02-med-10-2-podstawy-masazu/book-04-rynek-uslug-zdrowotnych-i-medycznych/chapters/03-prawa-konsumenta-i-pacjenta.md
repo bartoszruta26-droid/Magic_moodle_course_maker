@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Prawa konsumenta (rzetelna informacja, jawna cena, reklamacja, 14-dniowe odstąpienie przy umowach zawieranych poza lokalem — gdy dotyczy) i prawa pacjenta (UDPP: świadoma zgoda, intymność, poufność, informacja o zdrowiu, dostęp do dokumentacji) nakładają się w gabinecie. Praktyka: cennik widoczny, zgoda na zabieg, procedura reklamacji, wydanie kopii dokumentacji na wniosek. Zadanie: napisz regulamin gabinetu zawierający 8 praw pacjenta i 6 uprawnień konsumenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

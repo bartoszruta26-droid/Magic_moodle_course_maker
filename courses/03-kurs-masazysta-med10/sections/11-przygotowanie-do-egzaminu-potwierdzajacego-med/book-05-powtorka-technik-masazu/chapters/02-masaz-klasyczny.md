@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Masaż klasyczny (egzaminacyjne powtórzenie całości): kolejność głaskanie → rozcieranie → ugniatanie → wałowanie → wibracje, kierunek dosercowy na kończynach, tempo i siła dawane wg celu (relaks/leczenie), obręb barku i pośladki jako ogniwa łączące tułów z kończynami. Praktyka egzaminacyjna: ćwicz pełne okolice na czas (grzbiet 20 min, kończyna 10–12 min) z zachowaniem kwalifikacji, zgody, ergonomii i dokumentacji — komisja ocenia proces, nie tylko ręce. Zadanie: nagraj dwa przebiegi tego samego fragmentu miesiąc po miesiącu i porównaj płynność oraz zużycie energii własnego ciała.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

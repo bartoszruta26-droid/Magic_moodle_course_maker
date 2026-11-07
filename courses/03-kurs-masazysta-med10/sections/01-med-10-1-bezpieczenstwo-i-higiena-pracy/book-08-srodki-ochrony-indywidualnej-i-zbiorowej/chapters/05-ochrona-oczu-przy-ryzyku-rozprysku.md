@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Ochrona oczu: okulary/face shield przy pracy z aerozolami dezynfekcyjnymi, myciu wanien pod ciśnieniem, zabiegach z dużą ilością płynów/oliwek, przy kaszlu pacjenta w twarz (rzadko, ale bywa). Praktyka: płukanie oka solą fizjologiczną po skażeniu chemicznym, pilna wizyta lekarska przy oparzeniu chemicznym rogówki. Ćwiczenie: zorganizuj stanowisko do dezynfekcji z «okiem» — przećwicz prawidłowe spryskiwanie i czas kontaktu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

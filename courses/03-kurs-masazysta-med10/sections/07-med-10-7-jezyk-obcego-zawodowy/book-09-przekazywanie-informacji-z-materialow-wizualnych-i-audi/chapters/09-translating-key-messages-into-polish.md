@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Tłumaczenie kluczowych komunikatów na polski: priorytet ma ZNACZENIE, nie dosłowność — «informed consent» = świadoma zgoda (nie «uzgodniona wiedza»); przy trudnym terminie dodaj krótki odpowiednik potoczny. Praktyka: buduj słowniczek gabinetowy PL↔EN (50 fraz: pozycje, techniki, ostrzeżenia); tłumacząc pacjentowi, mów jego językiem i tempem. Zadanie: przetłumacz 10 zdań z anglojęzycznej ulotki preparatu i oceń ryzyko błędu w każdym.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Granice kompetencji masażysty: oceniasz potrzeby zabiegowe, NIE rozpoznajesz chorób; rekomendujesz konsultację, NIE zmieniasz leczenia; dbasz o autonomię klienta (informowana zgoda, prawo przerwania zabiegu w każdej chwili, obecność osoby towarzyszącej gdy chce). Piękno zawodu: dotyk jako służba— czysty intencyjnie, profesjonalny technicznie, sprawiedliwie dostępny dla każdego niezależnie od ceny usługi.
+Współpraca w granicach kompetencji przebiega praktycznie: pisemne skierowanie/zlecenie lekarskie (rozpoznanie, obszar, przeciwwskazania), notatka dla fizjoterapeuty (co zrobiono, reakcja pacjenta, ROM), konsultacja dietetyka przy celach metabolicznych pacjenta. Złota reguła: masażysta NIE zmienia zlecenia — zgłasza obserwacje i pyta. Ćwiczenie: napisz jednozdaniową, rzeczową informację zwrotną do lekarza o niepokojącym wzorcu bólu pacjenta.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

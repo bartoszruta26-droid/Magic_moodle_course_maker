@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Intymność w gabinecie: parawana/rolowana zasłona tam, gdzie jest ruch osób; drzwi zamknięte na czas zabiegu; telefon wyciszony; rozmowy o pacjencie wyłącznie z nim lub w jego imieniu — nigdy przy innych klientach. Praktyka: okrywanie ręcznikiem «odsłaniam tylko pracowaną okolicę»; przed wejściem osoby trzeciej pukanie i pytanie o zgodę. Ćwiczenie: odegraj scenkę wejścia recepcjonistki w trakcie masażu pośladka — poprawne procedury.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Terminologia topograficzna jest praktycznym językiem gabinetu: położenie opisujemy względem płaszczyzn (strzałkowa, czołowa, poprzeczna) i osi, relacjami proximalis/distalis, superficialis/profundalis, przyśrodkowo-bocznie. Ćwiczenie kursanta: na modelu i na żywym pacjencie lokalizuj punkty kostne (wyrostki kolczyste C7–Th1, kolce biodrowe przednie górne, kłykcie) — to «mapa drogowa» bezpiecznych linii masażu oraz pomiarów długości i obwodów kończyn.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

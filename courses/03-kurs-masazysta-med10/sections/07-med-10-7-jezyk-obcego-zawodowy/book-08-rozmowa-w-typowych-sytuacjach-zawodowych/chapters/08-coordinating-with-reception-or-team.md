@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Organizacja pracy małego zespołu: analiza zadania (co, kto, kiedy, czym), macierz kompetencji, przywódzenie sytuacyjne (instrukcja→sprzedaż→partycypacja→delegowanie), spotkania operacyjne max. 15 min (stand-up), retrospektywa po cyklu. Jakość: standardy SOP + check-listy + audyty krzyżowe; konflikt rozwiązuje się faktem, nie opinią.
+Współpraca z recepcją i zespołem: wspólne cele (terminowość, bezpieczeństwo, satysfakcja pacjenta), jasny podział ról, kodeks komunikatów («spóźnienie >10 min = SMS do klienta»), briefing 5 min na początku zmiany. Praktyka: jeden wspólny grafik z buforem; masażysta zgłasza gotowość/niegotowość do zabiegu, recepcja nie «dopinuje» bez pytania. Ćwiczenie: przeprowadź poranny briefing w pozorowanej parze.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->

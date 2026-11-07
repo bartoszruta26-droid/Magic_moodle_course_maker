@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Promocja zdrowia i edukacja pacjenta: przekaz 3 informacji max. na wizytę (respekt, zrozumienie, zapamiętanie), materiały piśmienne, demonstracja ćwiczeń domowych, nawyki (nawodnienie, ergonomia, aktywność 150 min/tydz. wg WHO). Masażysta jako doradca stylu życia— nie moralizator; sprawiedliwość: ta sama jakość edukacji dla każdego, niezależnie od statusu.
+Profilaktyka poekspozycyjna (PPE) po kontakcie z materiałem potencjalnie zakaźnym (zakłucie, skaleczenie, pryskanie na śluzówki): natychmiast — zmyć wodą z mydłem / przepłukać śluzówki fizjologicznym roztworem soli, rany nie rozszerzać ani intensywnie uciskać, zgłosić przełożonemu, trafić do punktu ostrej ekspozycji w ciągu 2 h (im szybciej, tym skuteczniej — decyzja o leczeniu antyretrowirusowym — decyzja do 72 h). Praktyka: mieć adres telefonu punktu wklejony w regulamin i kartę wypadku. Zadanie: przeprowadź symulację «zakłucie igłą» od zdarzenia do wpisu w rejestrze.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
@@ -53,3 +53,5 @@ Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik te
 **Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
 
 <!-- subch-v2 -->
+
+<!-- subch-v10 -->
