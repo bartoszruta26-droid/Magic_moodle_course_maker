@@ -129,7 +129,7 @@ def test_question_bank_load_and_xml_export(tmp_path: Path) -> None:
     assert len(bank.questions) == 1
     assert bank.by_type() == {"multichoice": 1}
     assert output == destination
-    assert "<question type=\\"category\\"".replace("\\\\", "\\") in destination.read_text(encoding="utf-8")
+    assert 'type="category"' in destination.read_text(encoding="utf-8")
     assert "Która odpowiedź jest prawidłowa?" in destination.read_text(encoding="utf-8")
 
 
