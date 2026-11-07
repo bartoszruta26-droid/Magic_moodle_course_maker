@@ -57,6 +57,7 @@ jobs:
               app = QApplication([])
               window = _build_window()
               assert window.course_list.count() == 1
+              window.course_list.setCurrentRow(0)
               assert "Kurs GUI" in window.details.toPlainText()
               labels = [button.text() for button in window.findChildren(QPushButton)]
               assert "Edytuj wersję roboczą" in labels
