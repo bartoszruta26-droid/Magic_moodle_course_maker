@@ -7,12 +7,15 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import kotlinx.serialization.json.contentOrNull
+import kotlinx.serialization.json.put
 
 data class CourseSummary(
     val id: String,
@@ -51,6 +54,21 @@ data class CourseValidation(
     val warnings: List<ValidationFinding>,
 )
 
+data class CourseDraft(
+    val draftId: String,
+    val courseId: String,
+    val revision: Int,
+)
+
+data class DraftPreview(
+    val draft: CourseDraft,
+    val fullName: String,
+    val shortName: String,
+    val description: String,
+    val sections: List<CourseSection>,
+    val validation: CourseValidation,
+)
+
 class ApiException(
     val statusCode: Int?,
     override val message: String,
@@ -74,10 +92,58 @@ class ApiClient(
         )
     }
 
+    suspend fun createDraft(courseId: String): CourseDraft = withContext(Dispatchers.IO) {
+        parseCourseDraftJson(
+            requestJson(
+                "/courses/${encodePathSegment(courseId)}/drafts",
+                "POST",
+                buildJsonObject {},
+            ).toString(),
+        )
+    }
+
+    suspend fun previewDraft(draftId: String): DraftPreview = withContext(Dispatchers.IO) {
+        parseDraftPreviewJson(
+            requestJson("/drafts/${encodePathSegment(draftId)}/preview", "GET").toString(),
+        )
+    }
+
+    suspend fun updateDraft(
+        draftId: String,
+        expectedRevision: Int,
+        fullName: String,
+        shortName: String,
+        description: String,
+        sectionNames: Map<String, String>,
+    ): CourseDraft = withContext(Dispatchers.IO) {
+        val changes = buildJsonObject {
+            put("full_name", JsonPrimitive(fullName))
+            put("short_name", JsonPrimitive(shortName))
+            put("description", JsonPrimitive(description))
+            put(
+                "section_names",
+                buildJsonObject {
+                    sectionNames.forEach { (id, name) -> put(id, JsonPrimitive(name)) }
+                },
+            )
+        }
+        val payload = buildJsonObject {
+            put("expected_revision", JsonPrimitive(expectedRevision))
+            put("changes", changes)
+        }
+        parseCourseDraftJson(
+            requestJson(
+                "/drafts/${encodePathSegment(draftId)}/update",
+                "POST",
+                payload,
+            ).toString(),
+        )
+    }
+
     internal fun listCoursesBlocking(): List<CourseSummary> =
         parseCourseListJson(requestJson("/courses", "GET").toString())
 
-    private fun requestJson(path: String, method: String): JsonObject {
+    private fun requestJson(path: String, method: String, body: JsonObject? = null): JsonObject {
         val endpoint = baseUrl.trimEnd('/') + path
         val connection = URL(endpoint).openConnection() as HttpURLConnection
         try {
@@ -87,6 +153,13 @@ class ApiClient(
             connection.setRequestProperty("Accept", "application/json")
             if (bearerToken.isNotBlank()) {
                 connection.setRequestProperty("Authorization", "Bearer $bearerToken")
+            }
+            if (body != null) {
+                connection.doOutput = true
+                connection.setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                connection.outputStream.use { output ->
+                    output.write(body.toString().toByteArray(Charsets.UTF_8))
+                }
             }
 
             val status = connection.responseCode
@@ -130,14 +203,7 @@ internal fun parseCourseListJson(body: String): List<CourseSummary> {
 internal fun parseCourseDetailsJson(body: String): CourseDetails {
     val data = parseRoot(body)["data"]?.jsonObject
         ?: throw ApiException(null, "Odpowiedź API nie zawiera szczegółów kursu.")
-    val sections = data["sections"]?.jsonArray.orEmpty().map { element ->
-        val section = element.jsonObject
-        CourseSection(
-            id = section.string("id"),
-            name = section.string("name"),
-            activityCount = section.intOrNull("activity_count") ?: 0,
-        )
-    }
+    val sections = parseSections(data["sections"]?.jsonArray.orEmpty())
     val statistics = data["statistics"]?.jsonObject
     return CourseDetails(
         id = data.string("id"),
@@ -152,12 +218,62 @@ internal fun parseCourseDetailsJson(body: String): CourseDetails {
 internal fun parseCourseValidationJson(body: String): CourseValidation {
     val data = parseRoot(body)["data"]?.jsonObject
         ?: throw ApiException(null, "Odpowiedź API nie zawiera raportu walidacji.")
-    return CourseValidation(
+    return parseValidationObject(data)
+}
+
+internal fun parseCourseDraftJson(body: String): CourseDraft {
+    val data = parseRoot(body)["data"]?.jsonObject
+        ?: throw ApiException(null, "Odpowiedź API nie zawiera wersji roboczej.")
+    return CourseDraft(
+        draftId = data.string("draft_id"),
+        courseId = data.string("course_id"),
+        revision = data.intOrNull("revision")
+            ?: throw ApiException(null, "Wersja robocza nie zawiera numeru rewizji."),
+    )
+}
+
+internal fun parseDraftPreviewJson(body: String): DraftPreview {
+    val data = parseRoot(body)["data"]?.jsonObject
+        ?: throw ApiException(null, "Odpowiedź API nie zawiera podglądu wersji roboczej.")
+    val draftData = data["draft"]?.jsonObject
+        ?: throw ApiException(null, "Podgląd nie zawiera metadanych wersji roboczej.")
+    val course = data["course"]?.jsonObject
+        ?: throw ApiException(null, "Podgląd nie zawiera kursu.")
+    val courseData = course["course"]?.jsonObject
+        ?: throw ApiException(null, "Podgląd nie zawiera metadanych kursu.")
+    val validation = data["validation"]?.jsonObject
+        ?: throw ApiException(null, "Podgląd nie zawiera walidacji.")
+    return DraftPreview(
+        draft = CourseDraft(
+            draftId = draftData.string("draft_id"),
+            courseId = draftData.string("course_id"),
+            revision = draftData.intOrNull("revision")
+                ?: throw ApiException(null, "Wersja robocza nie zawiera numeru rewizji."),
+        ),
+        fullName = courseData.string("full_name"),
+        shortName = courseData.string("short_name"),
+        description = courseData.string("description"),
+        sections = parseSections(course["sections"]?.jsonArray.orEmpty()),
+        validation = parseValidationObject(validation),
+    )
+}
+
+private fun parseSections(items: kotlinx.serialization.json.JsonArray): List<CourseSection> =
+    items.map { element ->
+        val section = element.jsonObject
+        CourseSection(
+            id = section.string("id"),
+            name = section.string("name"),
+            activityCount = section.intOrNull("activity_count") ?: 0,
+        )
+    }
+
+private fun parseValidationObject(data: JsonObject): CourseValidation =
+    CourseValidation(
         ok = data.booleanOrNull("ok") ?: false,
         errors = data["errors"]?.jsonArray.orEmpty().map { parseFinding(it.jsonObject) },
         warnings = data["warnings"]?.jsonArray.orEmpty().map { parseFinding(it.jsonObject) },
     )
-}
 
 private fun parseFinding(item: JsonObject) = ValidationFinding(
     severity = item.string("severity"),
