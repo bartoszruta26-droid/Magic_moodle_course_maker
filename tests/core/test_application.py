@@ -138,3 +138,21 @@ def test_question_bank_requires_existing_course_bank(tmp_path: Path) -> None:
     make_course(courses / "sample")
     with pytest.raises(FileNotFoundError):
         CourseApplicationService(courses).get_question_bank("sample")
+
+
+def test_question_bank_rejects_symlink_escape(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    course = make_course(courses / "sample")
+    outside = tmp_path / "outside-bank"
+    outside.mkdir()
+    (outside / "set.gift").write_text(
+        "::q1::Pytanie? {=Tak ~Nie}\\n",
+        encoding="utf-8",
+    )
+    try:
+        (course / "question-bank").symlink_to(outside, target_is_directory=True)
+    except OSError:
+        pytest.skip("System plików nie pozwala tworzyć dowiązań symbolicznych.")
+
+    with pytest.raises(ValueError, match="poza katalogiem kursu"):
+        CourseApplicationService(courses).get_question_bank("sample")
