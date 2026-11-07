@@ -217,12 +217,21 @@ class CourseDraftService:
                     merged[key] = {**merged.get(key, {}), **value}
                 else:
                     merged[key] = value
+            from magic_moodle.application.queries import CourseApplicationService
+
+            source_course = CourseApplicationService(self.courses_root).get_course(current.course_id)
+            if _course_digest(source_course) != current.base_digest:
+                raise CourseDraftConflictError(
+                    "Kurs źródłowy zmienił się od utworzenia wersji roboczej. Utwórz nową wersję."
+                )
             updated = replace(
                 current,
                 revision=current.revision + 1,
                 updated_at=_utc_now(),
                 changes=merged,
             )
+            # Validate section/activity identifiers before persisting the new revision.
+            self._apply(source_course, updated)
             atomic_write_text(self._draft_path(updated.draft_id), self._serialize(updated))
             return updated
 
