@@ -212,7 +212,6 @@ async function selectCourse(id) {
     const box = document.createElement("div");
     const title = document.createElement("h2");
     title.textContent = course.name;
-    title.style.fontFamily = "Manrope";
     const subtitle = document.createElement("p");
     subtitle.className = "sub";
     subtitle.textContent = course.short_name;
