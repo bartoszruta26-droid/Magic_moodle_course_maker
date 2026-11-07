@@ -1,61 +1,65 @@
-# 1.13.5. Skręcenie: chłodzenie, unieruchomienie, obserwacja
+# 1.13.5. Podejrzenie skręcenia — odpoczynek, podparcie i chłodzenie
 
-*Rozdział szczegółowy (podrozdział) tematu 1.13 — Pierwsza pomoc w stanach urazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Skręcenie jest urazem struktur stawu, najczęściej więzadeł. W pierwszej pomocy nie zawsze można odróżnić skręcenie od złamania lub zwichnięcia. Jeśli występują wątpliwości, należy traktować uraz ostrożnie i zapewnić ocenę medyczną. Celem pierwszej pomocy jest ograniczenie bólu i dalszego uszkodzenia, a nie rozpoznanie stopnia uszkodzenia.
 
-Ocena urazu należy do lekarza (badanie fizykalne ± RTG/USG/MRI). Masażysta rozpoznaje CZERWONE FLAGI: deformacja, brak możliwości obciążenia, narastający obrzęk, krwiak, podejrzenie uszkodzenia więzadłowego → unieruchomienie, chłodzenie, skierowanie. Masować zaczynamy dopiero po zagojeniu/zrostaniu i zgodzie lekarza — najpierw okolica proksymalna i dystalna, potem tkanki bliznowate wg procedur.
+## Objawy
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+Możliwe objawy obejmują:
+- ból w okolicy stawu, nasilający się przy ruchu lub obciążaniu;
+- obrzęk i krwiak;
+- ograniczenie zakresu ruchu;
+- tkliwość i trudność w używaniu kończyny;
+- w cięższym urazie deformację, niemożność obciążenia lub zaburzenia czucia i ukrwienia.
 
-## Rozwinięcie zagadnienia
+## Postępowanie krok po kroku
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+1. Przerwij aktywność i pomóż osobie odpocząć. Nie pozwalaj kontynuować ćwiczeń ani obciążać bolesnego stawu.
+2. Podtrzymaj uszkodzoną część w wygodnej pozycji i ogranicz ruch, który nasila ból. Można zastosować miękkie podparcie.
+3. Przyłóż zimny pakiet lub okład owinięty w tkaninę na okres do 20 minut. Nie przykładaj lodu bezpośrednio do skóry. Przerwij chłodzenie, jeśli staje się ono bardzo bolesne lub skóra nadmiernie się wychładza.
+4. Jeśli osoba dobrze toleruje taką pozycję, można delikatnie unieść kończynę, aby ograniczyć obrzęk. Nie wykonuj ruchu, który nasila ból lub zmienia ustawienie stawu.
+5. Bandaż elastyczny może być użyty do podparcia i komfortu wyłącznie przez osobę przeszkoloną. Nie zaciskaj go i kontroluj kolor, temperaturę, czucie oraz komfort części kończyny poniżej bandaża. Poluzuj lub zdejmij bandaż, jeśli pojawi się drętwienie, sinienie, bladość, ochłodzenie lub narastający ból.
+6. Zapewnij ocenę medyczną, jeśli ból lub obrzęk są znaczne, osoba nie może obciążyć kończyny, występuje deformacja albo nie można wykluczyć złamania.
+7. Obserwuj, czy objawy nie nasilają się. W przypadku objawów zaburzenia ukrwienia, silnego bólu, deformacji lub objawów wstrząsu wezwij 112/999.
 
-## Istota zagadnienia — ujęcie systematyczne
+## Kiedy potrzebna jest pilna pomoc
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+Pilnej oceny medycznej wymaga uraz z:
+- niemożnością obciążenia lub używania kończyny;
+- silnym bólem albo dużym lub narastającym obrzękiem;
+- widoczną deformacją lub podejrzeniem zwichnięcia albo złamania;
+- bladością, sinieniem, ochłodzeniem, drętwieniem lub utratą czucia poniżej urazu;
+- objawami wstrząsu lub innymi poważnymi obrażeniami.
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+## Czego nie robić
 
-## Metodyka postępowania — krok po kroku
+- Nie próbuj sprawdzać stabilności stawu przez wymuszanie ruchu.
+- Nie nastawiaj stawu i nie prostuj deformacji.
+- Nie wykonuj masażu, rozcierania, intensywnego rozgrzewania ani manipulacji w ostrej fazie urazu.
+- Nie przykładaj lodu bezpośrednio do skóry.
+- Nie zakładaj ciasnego bandaża i nie pozostawiaj go bez kontroli krążenia.
+- Nie wracaj do aktywności tylko dlatego, że ból chwilowo się zmniejszył.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Rola masażysty
 
-## Scenariusz sytuacyjny (studium przypadku)
+Masażysta przerywa zabieg, ogranicza obciążanie i ruch bolesnego stawu, zapewnia wygodne podparcie oraz rozpoznaje objawy wymagające pilnej oceny medycznej. Nie rozpoznaje stopnia uszkodzenia więzadeł, nie wykonuje testów prowokacyjnych ani manipulacji w ostrym urazie. Powrót do masażu lub ćwiczeń wymaga odpowiedniej oceny stanu i uwzględnienia zaleceń medycznych.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Ćwiczenie praktyczne
 
-## Najczęstsze błędy początkujących
+Przećwicz scenariusz skręcenia stawu skokowego podczas wstawania z leżanki. Uczestnik ma przerwać aktywność, zapewnić odpoczynek i podparcie, zastosować zimny okład przez tkaninę, ocenić objawy alarmowe i podjąć decyzję o pilnej ocenie medycznej.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Pytania kontrolne
 
-## Pytania utrwalające
+1. Dlaczego w pierwszej pomocy nie należy zakładać, że każdy uraz stawu jest skręceniem?
+2. Jak bezpiecznie zastosować chłodzenie?
+3. Kiedy można zastosować bandaż elastyczny i jakie objawy wymagają jego poluzowania?
+4. Jakie objawy wskazują na możliwe złamanie lub zaburzenie ukrwienia?
+5. Dlaczego nie należy masować ani rozgrzewać świeżego urazu?
 
-1. Omów mechanizmy leżące u podstaw: Skręcenie: chłodzenie, unieruchomienie, obserwacja. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Źródła
 
-## Słowniczek minimalny
-
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- International Federation of Red Cross and Red Crescent Societies. International First Aid, Resuscitation and Education Guidelines 2025. https://www.ifrc.org/document/ifrc-international-first-aid-resuscitation-and-education-guidelines-2025
+- American Heart Association and American Red Cross. 2024 Guidelines for First Aid. https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines
 
 <!-- subch-v2 -->
