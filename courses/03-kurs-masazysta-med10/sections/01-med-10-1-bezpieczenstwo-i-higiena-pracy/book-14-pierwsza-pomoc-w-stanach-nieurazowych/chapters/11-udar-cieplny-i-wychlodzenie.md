@@ -1,61 +1,53 @@
-# 1.14.10. Udar cieplny i wychłodzenie
+# 1.14.10. Udar cieplny i wychłodzenie — pierwsza pomoc
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Udar cieplny i wychłodzenie są stanami potencjalnie zagrażającymi życiu. Pierwsza pomoc polega na rozpoznaniu zagrożenia, wezwaniu pomocy, przerwaniu ekspozycji na skrajne warunki oraz rozpoczęciu odpowiedniego chłodzenia lub ochrony przed dalszą utratą ciepła.
 
-Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
+## Udar cieplny — rozpoznanie
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+Podejrzewaj udar cieplny, gdy po przebywaniu w wysokiej temperaturze lub intensywnym wysiłku pojawiają się zaburzenia neurologiczne, takie jak splątanie, dezorientacja, pobudzenie, drgawki lub utrata przytomności. Stan może szybko się pogarszać. Nie czekaj na pomiar temperatury, jeśli objawy wskazują na stan nagły.
 
-## Rozwinięcie zagadnienia
+## Postępowanie przy podejrzeniu udaru cieplnego
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+1. Przerwij aktywność i przenieś osobę z dala od źródła ciepła do miejsca chłodniejszego lub zacienionego.
+2. Natychmiast wezwij 112 lub 999, szczególnie gdy występują zaburzenia świadomości, drgawki lub znaczne osłabienie.
+3. Zdejmij nadmiar odzieży i rozpocznij aktywne chłodzenie możliwie szybko. Wybierz metodę dostępną w miejscu zdarzenia i odpowiednią do warunków, np. zanurzenie tułowia i kończyn w chłodnej wodzie, chłodzenie mokrymi materiałami i wachlowanie albo zastosowanie zimnych okładów.
+4. Jeśli dostępny jest wiarygodny pomiar temperatury głębokiej, w przypadku udaru cieplnego wysiłkowego ERC zaleca chłodzenie całego ciała od szyi w dół w wodzie o temperaturze 1–26°C do obniżenia temperatury głębokiej poniżej 39°C. Jeżeli nie można uzyskać pomiaru temperatury głębokiej, kontynuuj chłodzenie przez 15 minut lub do ustąpienia objawów neurologicznych — zależnie od tego, co nastąpi wcześniej.
+5. Nie opóźniaj chłodzenia w oczekiwaniu na transport. Zasada ERC brzmi: najpierw chłodzenie, następnie transport. Chłodzenie kontynuuj w czasie transportu, jeśli jest to możliwe i bezpieczne.
+6. Stale obserwuj świadomość i oddech. Nie podawaj płynów doustnie osobie z zaburzeniami świadomości, drgawkami lub trudnościami w połykaniu.
+7. Jeśli osoba przestaje reagować i nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
 
-## Istota zagadnienia — ujęcie systematyczne
+## Wychłodzenie — rozpoznanie i zapobieganie dalszej utracie ciepła
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+Wychłodzenie może wystąpić po długotrwałym przebywaniu w zimnie, kontakcie z zimną wodą, wietrze lub mokrą odzieżą. Możliwe objawy obejmują dreszcze, osłabienie, niezborność ruchów, spowolnienie, splątanie i zaburzenia świadomości. Nasilenie objawów może być różne; w razie zaburzeń świadomości lub pogarszania się stanu wezwij 112/999.
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+1. Przenieś osobę do osłoniętego miejsca, jeśli można to zrobić bezpiecznie.
+2. Delikatnie usuń mokrą odzież i zastąp ją suchą, jeśli jest to możliwe.
+3. Odizoluj osobę od zimnego podłoża za pomocą koca, maty lub innego materiału izolacyjnego.
+4. Okryj ją suchymi kocami lub odzieżą i osłoń przed wiatrem.
+5. Monitoruj świadomość i oddech. Nie pozostawiaj osoby samej.
+6. Jeśli osoba jest nieprzytomna, ma zaburzenia świadomości lub stan się pogarsza, wezwij pomoc. Nie podawaj niczego doustnie osobie, która nie może bezpiecznie połykać.
 
-## Metodyka postępowania — krok po kroku
+## Rola masażysty
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+Masażysta przerywa zabieg, rozpoznaje zagrożenie, wzywa ZRM i podejmuje podstawowe działania ograniczające dalszą ekspozycję na ciepło lub zimno. Nie wykonuje masażu rozgrzewającego ani intensywnych manipulacji u osoby z podejrzeniem wychłodzenia lub udaru cieplnego. Nie opóźnia wezwania pomocy w celu wykonania pomiarów.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Ćwiczenie praktyczne
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Przećwicz dwa scenariusze: osoba z zaburzeniami zachowania po intensywnym wysiłku w upale oraz osoba z dreszczami i splątaniem po długotrwałej ekspozycji na zimno. W obu przypadkach uczestnik ma ocenić bezpieczeństwo, przerwać ekspozycję, wezwać pomoc, wdrożyć odpowiednie działania i monitorować oddech.
 
-## Najczęstsze błędy początkujących
+## Pytania kontrolne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+1. Jakie objawy neurologiczne mogą wskazywać na udar cieplny?
+2. Dlaczego nie należy opóźniać chłodzenia w oczekiwaniu na transport?
+3. Jakie metody chłodzenia można zastosować w pierwszej pomocy?
+4. Jak ograniczyć dalszą utratę ciepła u osoby wychłodzonej?
+5. Kiedy należy wezwać 112/999 i dlaczego nie wolno podawać płynów osobie z zaburzeniami świadomości?
 
-## Pytania utrwalające
+## Źródła
 
-1. Omów mechanizmy leżące u podstaw: Udar cieplny i wychłodzenie. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
-
-## Słowniczek minimalny
-
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
