@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Masaż stawowy (arthrum massage): pracy torebki, więzadeł i mięśni okołostawowych; techniki: głaskanie kierunkowe, rozcieranie okrężne wokół szpary, delikatne trakcje TYLKO po szkoleniu i przy braku przeciwwskazań. Ostry wysięk, gorąca opuchnięty staw = przeciwwskazanie miejscowe. Stawy endoprotezowane: żadnych manipulacji rotacyjnych ponad fizjologiczny zakres, informacja o typie protezy w karcie.
+Kwalifikacja masażysty obejmuje ocenę potrzeb zabiegowych i bezpieczeństwa w granicach posiadanych kompetencji; nie zastępuje rozpoznania choroby. Przed zabiegiem należy sprawdzić, czy planowana czynność mieści się w zakresie przygotowania zawodowego, ocenić zgłoszone objawy i przeciwwskazania, rozpoznać sygnały alarmowe wymagające konsultacji oraz uzyskać świadomą zgodę pacjenta. W razie wątpliwości masażysta wstrzymuje zabieg, modyfikuje go w granicach kompetencji albo kieruje pacjenta do właściwego specjalisty. Ćwiczenie: przeanalizuj 10 opisów przypadków i uzasadnij decyzję o wykonaniu, modyfikacji lub odroczeniu zabiegu.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
