@@ -66,7 +66,6 @@ def _build_app():
                     )
                     yield Button("Waliduj wybrany kurs", id="validate", variant="primary")
                     yield Button("Eksportuj manifest JSON", id="export")
-                    yield Button("Eksportuj manifest JSON", id="export")
             yield Footer()
 
         def on_mount(self) -> None:
