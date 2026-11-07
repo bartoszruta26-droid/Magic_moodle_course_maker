@@ -33,10 +33,7 @@ def _build_app():
         #main { width: 1fr; padding: 1; }
         #course-table { height: 1fr; }
         #detail { height: 1fr; border: round $secondary; padding: 1; }
-        #validate { width: 100%; }
-        #export { width: 100%; }
-        #bank-validate { width: 100%; }\n        #bank-export { width: 100%; }
-        #export { width: 100%; }
+        #validate, #export, #bank-validate, #bank-export { width: 100%; }
         """
         BINDINGS = [
             ("q", "quit", "Wyjście"),
