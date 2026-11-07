@@ -131,8 +131,8 @@ private fun MagicMoodleApp(
                 val preview = client.previewDraft(updated.draftId)
                 draftPreview = preview
                 draftEditorVisible = false
-                statusMessage = "Zapisano wersję roboczą, rewizja ${preview.draft.revision}. "
-                    + "Walidacja: ${if (preview.validation.ok) "poprawna" else "wymaga poprawy"}."
+                statusMessage = "Zapisano wersję roboczą, rewizja ${preview.draft.revision}. " +
+                    "Walidacja: ${if (preview.validation.ok) "poprawna" else "wymaga poprawy"}."
             } catch (error: ApiException) {
                 errorMessage = error.message
                 statusMessage = "Nie udało się zapisać wersji roboczej."
