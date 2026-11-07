@@ -34,7 +34,8 @@ def _build_app():
         #course-table { height: 1fr; }
         #detail { height: 1fr; border: round $secondary; padding: 1; }
         #validate { width: 100%; }
-        #export { width: 100%; }\n        #bank-validate { width: 100%; }\n        #bank-export { width: 100%; }
+        #export { width: 100%; }
+        #bank-validate { width: 100%; }\n        #bank-export { width: 100%; }
         #export { width: 100%; }
         """
         BINDINGS = [
@@ -65,7 +66,9 @@ def _build_app():
                         markup=False,
                     )
                     yield Button("Waliduj wybrany kurs", id="validate", variant="primary")
-                    yield Button("Eksportuj manifest JSON", id="export")\n                    yield Button("Waliduj bank pytań", id="bank-validate")\n                    yield Button("Eksportuj bank do Moodle XML", id="bank-export")
+                    yield Button("Eksportuj manifest JSON", id="export")
+                    yield Button("Waliduj bank pytań", id="bank-validate")
+                    yield Button("Eksportuj bank do Moodle XML", id="bank-export")
             yield Footer()
 
         def on_mount(self) -> None:
