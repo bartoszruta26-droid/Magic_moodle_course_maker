@@ -87,3 +87,25 @@ def test_get_course_rejects_symlink_escape(tmp_path: Path) -> None:
 
     with pytest.raises(CourseNotFoundError):
         CourseApplicationService(courses).get_course("escape")
+
+
+def test_export_json_uses_canonical_course_manifest(tmp_path: Path) -> None:
+    import json
+
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+    destination = tmp_path / "exports" / "sample.manifest.json"
+
+    result = CourseApplicationService(courses).export_json("sample", destination)
+
+    assert result == destination
+    manifest = json.loads(destination.read_text(encoding="utf-8"))
+    assert manifest["course"]["full_name"] == "Kurs testowy"
+    assert manifest["format"] == "magic-moodle-course-manifest"
+    assert str(courses) not in destination.read_text(encoding="utf-8")
+
+
+def test_export_json_rejects_invalid_course_identifier(tmp_path: Path) -> None:
+    service = CourseApplicationService(tmp_path / "courses")
+    with pytest.raises(CourseNotFoundError):
+        service.export_json("../outside", tmp_path / "manifest.json")
