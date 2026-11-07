@@ -20,9 +20,10 @@ magic-moodle = "magic_moodle.cli:main"
 magic-moodle-webui = "webui.server:main"
 magic-moodle-tui = "tui.app:main"
 magic-moodle-desktop = "desktopgui.app:main"
+magic-moodle-api = "api.server:main"
 
 [tool.setuptools.packages.find]
-include = ["magic_moodle*", "webui*", "tui*", "desktopgui*"]
+include = ["magic_moodle*", "webui*", "tui*", "desktopgui*", "api*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests/core"]
