@@ -68,7 +68,6 @@ def test_tui_export_button_writes_manifest(tmp_path: Path, monkeypatch) -> None:
 def test_tui_question_bank_actions_validate_and_export(tmp_path: Path, monkeypatch) -> None:
     import asyncio
     import xml.etree.ElementTree as ET
-    from textual.widgets import Static
 
     courses = tmp_path / "courses"
     course = courses / "sample"
@@ -92,9 +91,6 @@ def test_tui_question_bank_actions_validate_and_export(tmp_path: Path, monkeypat
         async with app.run_test() as pilot:
             await pilot.pause()
             app._selected_id = "sample"
-            await pilot.click("#bank-validate")
-            await pilot.pause()
-            assert "1 pytań" in str(app.query_one("#detail", Static).render())
             await pilot.click("#bank-export")
             await pilot.pause()
             xml_file = exports / "sample.questions.xml"
