@@ -241,10 +241,11 @@ def create_server(
             self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
 
         def do_POST(self) -> None:
-            if not self._authorized(write=True):
-                return
             path = self._request_path()
             if path is None:
+                return
+            is_draft_creation = path.startswith(f"{API_PREFIX}/courses/") and path.endswith("/drafts")
+            if not self._authorized(write=is_draft_creation):
                 return
             validation_prefix = f"{API_PREFIX}/courses/"
             validation_suffix = "/validation"
