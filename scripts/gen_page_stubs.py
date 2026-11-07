@@ -69,7 +69,7 @@ def main(argv=None) -> int:
             for t in mod.topics:
                 link = next((p.name for p in pages
                              if PAGE_RE.match(p.name)
-                             and PAGE_RE.match(p.name).group(1) == f"{t.order:02d}"),
+                             and int(PAGE_RE.match(p.name).group(1)) == t.order),
                             None)
                 arrow = f" -> [{link}](./{link})" if link else ""
                 lines.append(f"- {t.num} {t.clean_title}{arrow}")
