@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
+from magic_moodle.course_export import export_course_json
 from magic_moodle.loader import CourseLoadError, load_course
 from magic_moodle.models import Course
 from magic_moodle.validation import ValidationReport, validate_course
@@ -107,3 +108,8 @@ class CourseApplicationService:
         """Return the course and its canonical core validation report."""
         course = self.get_course(course_id)
         return course, validate_course(course)
+
+    def export_json(self, course_id: str, destination: str | Path) -> Path:
+        """Export a course to the documented intermediate JSON manifest format."""
+        course = self.get_course(course_id)
+        return export_course_json(course, destination)
