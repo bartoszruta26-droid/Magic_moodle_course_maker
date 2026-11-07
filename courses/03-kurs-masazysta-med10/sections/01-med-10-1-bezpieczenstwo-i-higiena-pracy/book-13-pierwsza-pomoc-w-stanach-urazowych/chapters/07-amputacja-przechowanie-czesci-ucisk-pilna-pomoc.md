@@ -1,55 +1,50 @@
-# 1.13.6. Amputacja: przechowanie części, ucisk, pilna pomoc
+# 1.13.6. Amputacja urazowa: tamowanie krwawienia i zabezpieczenie amputowanej części
 
-*Rozdział szczegółowy (podrozdział) tematu 1.13 — Pierwsza pomoc w stanach urazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Amputacja urazowa jest stanem nagłym. Priorytetem jest bezpieczeństwo miejsca zdarzenia, wezwanie zespołu ratownictwa medycznego i opanowanie krwawienia zagrażającego życiu. Zabezpieczenie amputowanej części jest ważne, ale nie może opóźniać tamowania krwotoku ani resuscytacji.
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+## Postępowanie krok po kroku
 
-## Istota zagadnienia — ujęcie systematyczne
+1. **Zabezpiecz miejsce zdarzenia.** Oceń zagrożenia i użyj rękawiczek, jeśli są dostępne.
+2. **Wezwij pomoc.** Zadzwoń pod 112 lub 999 albo poleć konkretnej osobie wykonanie telefonu. Przekaż, że doszło do amputacji urazowej i wskaż lokalizację zdarzenia.
+3. **Zatamuj krwawienie.** Zastosuj mocny, bezpośredni ucisk na miejsce krwawienia przy użyciu opatrunku lub czystego materiału. Jeżeli występuje zagrażające życiu krwawienie z kończyny, którego nie udaje się opanować uciskiem, użyj fabrycznej opaski uciskowej, jeśli jest dostępna i potrafisz jej użyć. Zapisz godzinę założenia. Nie luzuj ani nie zdejmuj opaski samodzielnie.
+4. **Zabezpiecz ranę.** Po opanowaniu krwawienia osłoń ranę jałowym opatrunkiem lub czystym materiałem. Nie próbuj oczyszczać chirurgicznie rany, dopasowywać ani ponownie mocować amputowanej części.
+5. **Odszukaj amputowaną część.** Zrób to, jeśli jest to bezpieczne i nie opóźnia pomocy poszkodowanemu. Chroń część przed zanieczyszczeniem i uszkodzeniem.
+6. **Owiń część.** Umieść ją w jałowym opatrunku lub czystej tkaninie lekko zwilżonej solą fizjologiczną albo czystą wodą.
+7. **Zabezpiecz w szczelnym opakowaniu.** Włóż owiniętą część do czystego, szczelnego worka lub pojemnika.
+8. **Schłodź pośrednio.** Umieść szczelne opakowanie w drugim worku lub pojemniku z lodem albo wodą z lodem. Jeżeli lód nie jest dostępny, można użyć pojemnika chłodzącego lub zimnych wkładów. Amputowana część nie może dotykać bezpośrednio lodu ani zamarzać.
+9. **Oznacz i przekaż.** Oznacz opakowanie danymi identyfikacyjnymi poszkodowanego oraz godziną zabezpieczenia, jeśli jest to możliwe. Przekaż amputowaną część razem z poszkodowanym do tego samego szpitala, możliwie szybko.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Zasady bezpieczeństwa
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+- Nie opóźniaj tamowania krwawienia ani RKO, aby szukać lub zabezpieczać amputowaną część.
+- Nie przykładaj amputowanej części bezpośrednio do lodu i nie zamrażaj jej.
+- Nie wkładaj części bezpośrednio do wody, środka dezynfekcyjnego ani alkoholu.
+- Nie próbuj samodzielnie odtwarzać ciągłości tkanek ani nastawiać odłamów kostnych.
+- Nie usuwaj z rany głęboko wbitych przedmiotów; stabilizuj je w miejscu i uciskaj wokół.
+- Zapobiegaj wychłodzeniu poszkodowanego, osłaniając go suchym materiałem lub kocem.
+- Obserwuj świadomość i oddech. Jeśli poszkodowany staje się nieprzytomny i nie oddycha prawidłowo, rozpocznij RKO zgodnie z aktualnymi wytycznymi i poleceniami dyspozytora.
 
-## Metodyka postępowania — krok po kroku
+## Rola masażysty
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+Masażysta przerywa zabieg, wzywa ZRM, podejmuje działania tamujące krwawienie i zabezpiecza amputowaną część w granicach przeszkolenia. Nie wykonuje procedur chirurgicznych, nie podejmuje prób replantacji i nie ocenia samodzielnie możliwości jej przeprowadzenia. Przekazuje ratownikom informacje o mechanizmie urazu, czasie zdarzenia, zastosowanych czynnościach oraz czasie założenia opaski uciskowej.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Ćwiczenie praktyczne
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Na materiale szkoleniowym przećwicz: wezwanie pomocy, bezpośredni ucisk, symulowane założenie opaski uciskowej, owinięcie części w wilgotny opatrunek, umieszczenie w szczelnym worku oraz pośrednie chłodzenie w drugim pojemniku. Oceń, czy czynności związane z amputowaną częścią nie opóźniają opanowania krwawienia.
 
-## Najczęstsze błędy początkujących
+## Pytania kontrolne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+1. Co jest priorytetem w pierwszej pomocy przy amputacji urazowej?
+2. Jak prawidłowo zabezpieczyć amputowaną część?
+3. Dlaczego nie wolno dopuścić do bezpośredniego kontaktu części z lodem?
+4. Dlaczego amputowaną część transportuje się razem z poszkodowanym?
+5. Jakie informacje należy przekazać zespołowi ratownictwa medycznego?
 
-## Pytania utrwalające
+## Źródła
 
-1. Omów mechanizmy leżące u podstaw: Amputacja: przechowanie części, ucisk, pilna pomoc. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
-
-## Słowniczek minimalny
-
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
