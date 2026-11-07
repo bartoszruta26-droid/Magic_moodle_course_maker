@@ -13,13 +13,18 @@ def _build_window():
         from PySide6.QtCore import Qt
         from PySide6.QtWidgets import (
             QFileDialog,
+            QDialog,
+            QDialogButtonBox,
+            QFormLayout,
             QHBoxLayout,
             QLabel,
+            QLineEdit,
             QListWidget,
             QListWidgetItem,
             QMainWindow,
             QMessageBox,
             QPushButton,
+            QScrollArea,
             QSplitter,
             QTextEdit,
             QVBoxLayout,
@@ -31,7 +36,13 @@ def _build_window():
             "python -m pip install '.[desktop]'"
         ) from exc
 
-    from magic_moodle.application import CourseApplicationService, CourseNotFoundError
+    from magic_moodle.application import (
+        CourseApplicationService,
+        CourseDraftConflictError,
+        CourseDraftService,
+        CourseDraftValidationError,
+        CourseNotFoundError,
+    )
     from magic_moodle.loader import CourseLoadError
 
     class MagicMoodleDesktop(QMainWindow):
@@ -43,6 +54,8 @@ def _build_window():
             self.resize(1180, 760)
             courses_root = Path(os.environ.get("MAGIC_MOODLE_COURSES", "courses"))
             self.service = CourseApplicationService(courses_root)
+            self.draft_service = CourseDraftService(self.service.courses_root)
+            self._draft = None
             self._selected_id: str | None = None
 
             splitter = QSplitter(Qt.Orientation.Horizontal)
@@ -69,6 +82,9 @@ def _build_window():
             validate_button = QPushButton("Waliduj kurs")
             validate_button.clicked.connect(self.show_selected_course)
             actions.addWidget(validate_button)
+            draft_button = QPushButton("Edytuj wersję roboczą")
+            draft_button.clicked.connect(self.edit_course_draft)
+            actions.addWidget(draft_button)
             export_button = QPushButton("Eksportuj manifest JSON")
             export_button.clicked.connect(self.export_manifest)
             actions.addWidget(export_button)
@@ -150,6 +166,117 @@ def _build_window():
                 )
             self.details.setPlainText("\n".join(lines))
             self.statusBar().showMessage(f"Zweryfikowano kurs: {course.short_name}")
+
+        def edit_course_draft(self) -> None:
+            course_id = self._require_selection()
+            if not course_id:
+                return
+            try:
+                if self._draft is None or self._draft.course_id != course_id:
+                    self._draft = self.draft_service.create(course_id)
+                preview = self.draft_service.preview(self._draft.draft_id)
+            except CourseDraftConflictError as exc:
+                self._draft = None
+                QMessageBox.warning(
+                    self,
+                    "Konflikt wersji roboczej",
+                    f"{exc} Utwórz nową wersję roboczą, aby kontynuować.",
+                )
+                return
+            except (CourseNotFoundError, CourseDraftValidationError, CourseLoadError, OSError, ValueError) as exc:
+                QMessageBox.critical(self, "Wersja robocza", str(exc))
+                return
+
+            course_data = preview["course"]["course"]
+            dialog = QDialog(self)
+            dialog.setWindowTitle("Edytor wersji roboczej kursu")
+            dialog.resize(760, 680)
+            outer = QVBoxLayout(dialog)
+            scroll = QScrollArea()
+            scroll.setWidgetResizable(True)
+            content = QWidget()
+            form = QFormLayout(content)
+
+            full_name = QLineEdit(course_data["full_name"])
+            short_name = QLineEdit(course_data["short_name"])
+            description = QTextEdit()
+            description.setPlainText(course_data.get("description", ""))
+            description.setMinimumHeight(110)
+            form.addRow("Nazwa kursu", full_name)
+            form.addRow("Nazwa skrócona", short_name)
+            form.addRow("Opis kursu", description)
+
+            section_fields = {}
+            for section in preview["course"]["sections"]:
+                field = QLineEdit(section["name"])
+                section_fields[section["id"]] = field
+                form.addRow(f"Sekcja: {section['id']}", field)
+
+            note = QLabel(
+                "Zmiany są zapisywane wyłącznie w wersji roboczej. "
+                "Pliki źródłowe kursu pozostają bez zmian. "
+                "Nazwy aktywności można edytować w WebUI."
+            )
+            note.setWordWrap(True)
+            form.addRow(note)
+            scroll.setWidget(content)
+            outer.addWidget(scroll)
+
+            buttons = QDialogButtonBox(
+                QDialogButtonBox.StandardButton.Save | QDialogButtonBox.StandardButton.Cancel
+            )
+            buttons.accepted.connect(dialog.accept)
+            buttons.rejected.connect(dialog.reject)
+            outer.addWidget(buttons)
+            if dialog.exec() != QDialog.DialogCode.Accepted:
+                return
+
+            changes = {
+                "full_name": full_name.text(),
+                "short_name": short_name.text(),
+                "description": description.toPlainText(),
+                "section_names": {
+                    section_id: field.text() for section_id, field in section_fields.items()
+                },
+            }
+            try:
+                self._draft = self.draft_service.update(
+                    self._draft.draft_id,
+                    expected_revision=self._draft.revision,
+                    changes=changes,
+                )
+                updated_preview = self.draft_service.preview(self._draft.draft_id)
+            except CourseDraftConflictError as exc:
+                self._draft = None
+                QMessageBox.warning(self, "Konflikt wersji roboczej", str(exc))
+                return
+            except (CourseDraftValidationError, CourseNotFoundError, CourseLoadError, OSError, ValueError) as exc:
+                QMessageBox.critical(self, "Nie zapisano wersji roboczej", str(exc))
+                return
+
+            validation = updated_preview["validation"]
+            self.details.setPlainText(
+                "\\n".join(
+                    [
+                        f"Wersja robocza: {self._draft.draft_id}",
+                        f"Rewizja: {self._draft.revision}",
+                        f"Nazwa: {updated_preview['course']['course']['full_name']}",
+                        f"Sekcje: {len(updated_preview['course']['sections'])}",
+                        f"Walidacja: {'POPRAWNA' if validation['ok'] else 'BŁĘDY'}",
+                        f"Błędy: {len(validation['errors'])}",
+                        f"Ostrzeżenia: {len(validation['warnings'])}",
+                        "",
+                        "Pliki źródłowe nie zostały zmienione.",
+                    ]
+                )
+            )
+            QMessageBox.information(
+                self,
+                "Zapisano wersję roboczą",
+                f"Zapisano rewizję {self._draft.revision}. "
+                f"Błędy walidacji: {len(validation['errors'])}; "
+                f"ostrzeżenia: {len(validation['warnings'])}.",
+            )
 
         def _export_root(self) -> Path:
             return Path(
