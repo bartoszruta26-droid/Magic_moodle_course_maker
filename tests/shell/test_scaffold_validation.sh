@@ -59,26 +59,27 @@ python3 "$ROOT/scripts/scaffold_course.py" --toc "$ROOT/kurs_masazu.txt" --base 
 python3 "$ROOT/scripts/gen_page_stubs.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE"
 python3 "$ROOT/scripts/gen_quiz_templates.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE"
 python3 "$ROOT/scripts/scaffold_course.py" --toc "$ROOT/kurs_masazu.txt" --base "$REAL_BASE" --check
-python3 - "$REAL_BASE" <<'PY'
+python3 - "$REAL_BASE" "$ROOT" <<'PY'
 from pathlib import Path
-import re
 import sys
 
 base = Path(sys.argv[1])
-for section in (base / "sections").iterdir():
-    if not section.is_dir():
-        continue
-    pages = list(section.glob("page-*.md"))
-    for page in pages:
-        match = re.match(r"page-(\\d{2})-(.+)\\.md$", page.name)
-        if match is None:
-            continue
-        slug = match.group(2)
-        assert not re.match(r"^\\d{1,2}-\\d{1,2}-", slug), page
-    section_file = section / "section.md"
-    if pages and section_file.exists():
-        text = section_file.read_text(encoding="utf-8")
-        for page in pages:
-            assert f"](.\\/{page.name})" in text, (section, page.name)
-print("OK: rzeczywisty TOC generuje zgodne nazwy stron i odnośniki.")
+root = Path(sys.argv[2])
+sys.path.insert(0, str(root / "scripts"))
+from course_toc import parse_course
+
+course = parse_course(root / "kurs_masazu.txt")
+for module in course.modules:
+    section = base / "sections" / module.dir_name
+    assert section.is_dir(), module.dir_name
+    overview = (section / "section.md").read_text(encoding="utf-8")
+    for topic in module.topics:
+        page = section / f"page-{topic.stem}.md"
+        assert page.is_file(), page
+        assert f"](./{page.name})" in overview, (section, page.name)
+        content = page.read_text(encoding="utf-8")
+        assert content.startswith(f"# {topic.num} {topic.clean_title}"), page
+        for subtopic in topic.subtopics:
+            assert f"## {subtopic.num} {subtopic.title}" in content, (page, subtopic.num)
+print("OK: nazwy stron, odnośniki i szkielety odpowiadają rzeczywistemu TOC.")
 PY
