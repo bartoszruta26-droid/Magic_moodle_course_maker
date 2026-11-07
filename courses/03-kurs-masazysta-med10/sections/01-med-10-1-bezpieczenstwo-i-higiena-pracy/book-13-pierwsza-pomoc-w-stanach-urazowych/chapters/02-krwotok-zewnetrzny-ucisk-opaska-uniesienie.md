@@ -1,55 +1,51 @@
-# 1.13.1. Krwotok zewnętrzny: ucisk, opaska, uniesienie
+# 1.13.1. Krwotok zewnętrzny: ucisk, opatrunek hemostatyczny i opaska uciskowa
 
-*Rozdział szczegółowy (podrozdział) tematu 1.13 — Pierwsza pomoc w stanach urazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Celem rozdziału jest przedstawienie pierwszej pomocy w przypadku krwawienia zewnętrznego, ze szczególnym uwzględnieniem krwotoku zagrażającego życiu. Najważniejsze jest szybkie rozpoznanie ciężkiego krwawienia, wezwanie pomocy i jego opanowanie. Nie należy opóźniać ucisku w celu poszukiwania sprzętu.
 
-Pierwsza pomoc urazowa: krwotok — ucisk bezpośredni, w razie potrzeby opaska uciskowa, uniesienie kończyny; rana — płukanie solą fizjologiczną, jałowy opatrunek, nie usuwać ciał wbitych; złamanie lub podejrzenie urazu — immobilizacja w zastanej pozycji (szyny, temblaki, poduszki), chłodzenie przez tkaninę 10–20 min, ewakuacja lub PRM zależnie od ciężkości; oparzenie — chłodzić letnią bieżącą wodą min. 20 min, nie nakładać tłuszczów, luźny jałowy opatrunek; zmiażdżenie — ryzyko zespołu zmiażdżenia, pilna pomoc. Zasada ogólna: nie prostuj, nie badaj „na siłę”, nie podawaj leków.
+## Rozpoznanie zagrożenia
 
-## Istota zagadnienia — ujęcie systematyczne
+Za krwotok zagrażający życiu należy uznać między innymi krwawienie obfite, szybko narastające, tryskające lub pulsujące, tworzące kałużę krwi, a także krwawienie, któremu towarzyszą cechy pogarszającego się stanu ogólnego: bladość, zimna i wilgotna skóra, osłabienie, splątanie, zaburzenia świadomości lub omdlenie. Nie czekaj na wystąpienie wszystkich objawów.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Postępowanie krok po kroku
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+1. **Bezpieczeństwo i wezwanie pomocy.** Oceń bezpieczeństwo miejsca zdarzenia. Załóż rękawiczki jednorazowe, jeśli są dostępne, ale nie opóźniaj pomocy przy krwotoku zagrażającym życiu. Wezwij 112 lub 999 albo poleć konkretnej osobie wykonanie telefonu. Włącz tryb głośnomówiący.
+2. **Ucisk bezpośredni.** Przyłóż jałowy opatrunek lub czysty materiał bezpośrednio do miejsca krwawienia i mocno, nieprzerwanie uciskaj. Nie odrywaj materiału w celu sprawdzania, czy krwawienie ustało.
+3. **Opatrunek hemostatyczny.** Jeżeli rana jest głęboka i jej lokalizacja pozwala na bezpieczne wypełnienie, można użyć opatrunku hemostatycznego zgodnie z instrukcją producenta i zakresem przeszkolenia. Materiał umieść bezpośrednio w ranie i utrzymuj mocny ucisk. Nie wypełniaj w ten sposób ran klatki piersiowej ani jam ciała.
+4. **Opatrunek uciskowy.** Gdy krwawienie zostanie opanowane, zabezpiecz miejsce opatrunkiem uciskowym. Obserwuj, czy krwawienie nie nawraca.
+5. **Opaska uciskowa.** Przy zagrażającym życiu krwawieniu z kończyny, którego nie udaje się opanować uciskiem bezpośrednim, zastosuj fabryczną opaskę uciskową, jeżeli jest dostępna i potrafisz jej użyć. Umieść ją 5–7 cm powyżej rany, nie na stawie. Dokręć do zatrzymania krwawienia. Zapisz godzinę założenia. Jeżeli krwawienie nadal trwa, może być konieczna druga opaska powyżej pierwszej.
+6. **Po założeniu opaski.** Nie luzuj i nie zdejmuj opaski samodzielnie. Jej zwolnienie należy do personelu medycznego. Nie przykrywaj jej w sposób uniemożliwiający ocenę i przekazanie informacji ratownikom.
+7. **Oczekiwanie na ZRM.** Utrzymuj poszkodowanego w bezpiecznej, wygodnej pozycji, ogranicz jego ruchy i chroń przed wychłodzeniem. Monitoruj świadomość i oddech. Jeśli poszkodowany przestaje reagować i nie oddycha prawidłowo, rozpocznij RKO zgodnie z aktualnymi wytycznymi i instrukcjami dyspozytora.
 
-## Metodyka postępowania — krok po kroku
+## Ważne ograniczenia
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+- Nie polegaj na samym uniesieniu kończyny jako metodzie tamowania krwotoku. Podstawą jest bezpośredni ucisk, a w odpowiednich przypadkach opatrunek hemostatyczny lub opaska uciskowa.
+- Nie usuwaj z rany wbitych przedmiotów. Uciskaj tkanki wokół przedmiotu, nie na nim, i wezwij pomoc.
+- Nie zdejmuj przesiąkniętego opatrunku, aby obejrzeć ranę. Kontynuuj ucisk i postępuj zgodnie z przeszkoleniem oraz wskazówkami dyspozytora.
+- Nie stosuj improwizowanych opasek z cienkiego sznurka, drutu ani podobnych materiałów.
+- U dzieci, których kończyna jest zbyt mała do skutecznego założenia opaski, stosuj bezpośredni ucisk, ewentualnie z opatrunkiem hemostatycznym, i pilnie wezwij pomoc.
+- Nie podawaj poszkodowanemu jedzenia, napojów ani leków doustnych w oczekiwaniu na pomoc.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Rola masażysty
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Masażysta przerywa zabieg, zabezpiecza miejsce, wzywa ZRM i podejmuje działania pierwszej pomocy w granicach przeszkolenia. Nie wykonuje diagnostyki przyczyny krwawienia ani zabiegów chirurgicznych. Po przekazaniu poszkodowanego ratownikom przekazuje zwięzłe informacje o mechanizmie urazu, czasie zdarzenia, zastosowanych działaniach i godzinie założenia opaski uciskowej.
 
-## Najczęstsze błędy początkujących
+## Ćwiczenie praktyczne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+Na trenażerze lub fantomie przećwicz: rozpoznanie krwotoku zagrażającego życiu, wezwanie pomocy, ucisk bezpośredni, użycie opatrunku hemostatycznego zgodnie z instrukcją oraz założenie fabrycznej opaski uciskowej. Instruktor ocenia skuteczność ucisku, lokalizację opaski, zapisanie czasu i zakaz jej luzowania.
 
-## Pytania utrwalające
+## Pytania kontrolne
 
-1. Omów mechanizmy leżące u podstaw: Krwotok zewnętrzny: ucisk, opaska, uniesienie. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+1. Jakie objawy mogą wskazywać na krwotok zagrażający życiu?
+2. Dlaczego ucisk bezpośredni jest podstawową czynnością tamującą krwawienie?
+3. Kiedy można zastosować opatrunek hemostatyczny?
+4. Gdzie umieszcza się opaskę uciskową i jakie informacje należy zapisać?
+5. Dlaczego opaski uciskowej nie wolno samodzielnie luzować ani zdejmować?
 
-## Słowniczek minimalny
+## Źródła
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
