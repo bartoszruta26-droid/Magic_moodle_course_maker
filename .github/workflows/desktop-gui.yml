@@ -40,7 +40,8 @@ jobs:
           import tempfile
           from pathlib import Path
 
-          from PySide6.QtWidgets import QApplication, QPushButton
+          from PySide6.QtCore import QTimer
+          from PySide6.QtWidgets import QApplication, QDialogButtonBox, QLineEdit, QMessageBox, QPushButton
           from desktopgui.app import _build_window
 
           with tempfile.TemporaryDirectory() as temporary:
@@ -60,11 +61,32 @@ jobs:
               os.environ["MAGIC_MOODLE_COURSES"] = temporary
               app = QApplication([])
               window = _build_window()
+              window.show()
               assert window.course_list.count() == 1
               window.course_list.setCurrentRow(0)
               assert "Kurs GUI" in window.details.toPlainText()
               labels = [button.text() for button in window.findChildren(QPushButton)]
               assert "Edytuj wersję roboczą" in labels
+
+              def edit_and_accept():
+                  dialog = app.activeModalWidget()
+                  assert dialog is not None
+                  fields = dialog.findChildren(QLineEdit)
+                  fields[0].setText("Kurs GUI po edycji")
+                  buttons = dialog.findChild(QDialogButtonBox)
+                  QTimer.singleShot(
+                      0,
+                      lambda: app.activeModalWidget().accept()
+                      if isinstance(app.activeModalWidget(), QMessageBox)
+                      else None,
+                  )
+                  buttons.button(QDialogButtonBox.StandardButton.Save).click()
+
+              QTimer.singleShot(0, edit_and_accept)
+              window.edit_course_draft()
+              assert window._draft.revision == 2
+              preview = window.draft_service.preview(window._draft.draft_id)
+              assert preview["course"]["course"]["full_name"] == "Kurs GUI po edycji"
               window.close()
               # Terminate after assertions; Qt platform teardown can block on headless runners.
               import sys
