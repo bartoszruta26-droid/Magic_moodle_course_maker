@@ -108,6 +108,10 @@ def _build_app():
                 self.action_validate_selected()
             elif event.button.id == "export":
                 self.action_export_selected()
+            elif event.button.id == "bank-validate":
+                self.action_validate_bank()
+            elif event.button.id == "bank-export":
+                self.action_export_bank()
 
         def show_selected_course(self) -> None:
             if not self._selected_id:
