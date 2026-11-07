@@ -71,7 +71,73 @@ private fun MagicMoodleApp(
     var selectedDetails by remember { mutableStateOf<CourseDetails?>(null) }
     var selectedValidation by remember { mutableStateOf<CourseValidation?>(null) }
     var detailsLoading by remember { mutableStateOf(false) }
+    var draftPreview by remember { mutableStateOf<DraftPreview?>(null) }
+    var draftEditorVisible by remember { mutableStateOf(false) }
+    var draftLoading by remember { mutableStateOf(false) }
+    var draftSaving by remember { mutableStateOf(false) }
+    var draftFullName by remember { mutableStateOf("") }
+    var draftShortName by remember { mutableStateOf("") }
+    var draftDescription by remember { mutableStateOf("") }
+    var draftSectionNames by remember { mutableStateOf<Map<String, String>>(emptyMap()) }
     val scope = rememberCoroutineScope()
+
+    fun openDraftEditor(courseId: String) {
+        scope.launch {
+            draftLoading = true
+            errorMessage = null
+            try {
+                val client = ApiClient(savedServerUrl, apiToken)
+                val existing = draftPreview?.takeIf { it.draft.courseId == courseId }
+                val preview = if (existing == null) {
+                    val created = client.createDraft(courseId)
+                    client.previewDraft(created.draftId)
+                } else {
+                    client.previewDraft(existing.draft.draftId)
+                }
+                draftPreview = preview
+                draftFullName = preview.fullName
+                draftShortName = preview.shortName
+                draftDescription = preview.description
+                draftSectionNames = preview.sections.associate { it.id to it.name }
+                draftEditorVisible = true
+                statusMessage = "Otwarto wersję roboczą, rewizja ${preview.draft.revision}."
+            } catch (error: ApiException) {
+                errorMessage = error.message
+                statusMessage = "Nie udało się otworzyć wersji roboczej."
+            } finally {
+                draftLoading = false
+            }
+        }
+    }
+
+    fun saveDraft() {
+        val current = draftPreview ?: return
+        scope.launch {
+            draftSaving = true
+            errorMessage = null
+            try {
+                val client = ApiClient(savedServerUrl, apiToken)
+                val updated = client.updateDraft(
+                    draftId = current.draft.draftId,
+                    expectedRevision = current.draft.revision,
+                    fullName = draftFullName,
+                    shortName = draftShortName,
+                    description = draftDescription,
+                    sectionNames = draftSectionNames,
+                )
+                val preview = client.previewDraft(updated.draftId)
+                draftPreview = preview
+                draftEditorVisible = false
+                statusMessage = "Zapisano wersję roboczą, rewizja ${preview.draft.revision}. "
+                    + "Walidacja: ${if (preview.validation.ok) "poprawna" else "wymaga poprawy"}."
+            } catch (error: ApiException) {
+                errorMessage = error.message
+                statusMessage = "Nie udało się zapisać wersji roboczej."
+            } finally {
+                draftSaving = false
+            }
+        }
+    }
 
     MaterialTheme {
         Scaffold(
@@ -123,7 +189,7 @@ private fun MagicMoodleApp(
                                 value = apiToken,
                                 onValueChange = { apiToken = it },
                                 modifier = Modifier.fillMaxWidth(),
-                                label = { Text("Token Bearer (opcjonalny)") },
+                                label = { Text("Token Bearer (wymagany do edycji)") },
                                 visualTransformation = PasswordVisualTransformation(),
                                 supportingText = {
                                     Text("Token pozostaje w pamięci bieżącej sesji i nie jest zapisywany.")
@@ -169,6 +235,8 @@ private fun MagicMoodleApp(
                                     courses = ApiClient(savedServerUrl, apiToken).listCourses()
                                     selectedDetails = null
                                     selectedValidation = null
+                                    draftPreview = null
+                                    draftEditorVisible = false
                                     statusMessage = "Pobrano kursów: ${courses.size}"
                                 } catch (error: ApiException) {
                                     courses = emptyList()
@@ -193,12 +261,37 @@ private fun MagicMoodleApp(
                         )
                     }
 
-                    if (isLoading || detailsLoading) {
+                    if (isLoading || detailsLoading || draftLoading || draftSaving) {
                         CircularProgressIndicator()
                     }
                     selectedDetails?.let { details ->
-                        CourseDetailsCard(details, selectedValidation)
+                        CourseDetailsCard(
+                            details = details,
+                            validation = selectedValidation,
+                            onEditDraft = { openDraftEditor(details.id) },
+                        )
                     }
+                    if (draftEditorVisible && draftPreview != null) {
+                        CourseDraftEditorCard(
+                            preview = draftPreview!!,
+                            fullName = draftFullName,
+                            onFullNameChange = { draftFullName = it },
+                            shortName = draftShortName,
+                            onShortNameChange = { draftShortName = it },
+                            description = draftDescription,
+                            onDescriptionChange = { draftDescription = it },
+                            sectionNames = draftSectionNames,
+                            onSectionNameChange = { id, value ->
+                                draftSectionNames = draftSectionNames + (id to value)
+                            },
+                            saving = draftSaving,
+                            onSave = { saveDraft() },
+                            onCancel = { draftEditorVisible = false },
+                        )
+                    } else {
+                        draftPreview?.let { DraftPreviewCard(it) }
+                    }
+
                     if (!isLoading && courses.isEmpty() && errorMessage == null) {
                         Text(
                             text = "Brak pobranych kursów. Wybierz „Pobierz kursy”, aby odczytać dane z API.",
@@ -216,6 +309,8 @@ private fun MagicMoodleApp(
                                         errorMessage = null
                                         selectedDetails = null
                                         selectedValidation = null
+                                        draftPreview = null
+                                        draftEditorVisible = false
                                         try {
                                             val client = ApiClient(savedServerUrl, apiToken)
                                             selectedDetails = client.getCourseDetails(course.id)
@@ -274,6 +369,7 @@ private fun CourseCard(course: CourseSummary, onOpen: () -> Unit) {
 private fun CourseDetailsCard(
     details: CourseDetails,
     validation: CourseValidation?,
+    onEditDraft: () -> Unit,
 ) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(
@@ -311,6 +407,99 @@ private fun CourseDetailsCard(
                 val remaining = report.errors.size + report.warnings.size - 8
                 if (remaining > 0) Text("Pozostałe uwagi: $remaining")
             }
+            Button(onClick = onEditDraft, modifier = Modifier.fillMaxWidth()) {
+                Text("Utwórz / edytuj wersję roboczą")
+            }
+        }
+    }
+}
+
+@Composable
+private fun CourseDraftEditorCard(
+    preview: DraftPreview,
+    fullName: String,
+    onFullNameChange: (String) -> Unit,
+    shortName: String,
+    onShortNameChange: (String) -> Unit,
+    description: String,
+    onDescriptionChange: (String) -> Unit,
+    sectionNames: Map<String, String>,
+    onSectionNameChange: (String, String) -> Unit,
+    saving: Boolean,
+    onSave: () -> Unit,
+    onCancel: () -> Unit,
+) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Text(
+                "Wersja robocza · rewizja ${preview.draft.revision}",
+                style = MaterialTheme.typography.titleMedium,
+            )
+            OutlinedTextField(
+                value = fullName,
+                onValueChange = onFullNameChange,
+                modifier = Modifier.fillMaxWidth(),
+                label = { Text("Nazwa kursu") },
+                singleLine = true,
+            )
+            OutlinedTextField(
+                value = shortName,
+                onValueChange = onShortNameChange,
+                modifier = Modifier.fillMaxWidth(),
+                label = { Text("Nazwa skrócona") },
+                singleLine = true,
+            )
+            OutlinedTextField(
+                value = description,
+                onValueChange = onDescriptionChange,
+                modifier = Modifier.fillMaxWidth(),
+                label = { Text("Opis kursu") },
+                minLines = 3,
+            )
+            Text("Nazwy sekcji", style = MaterialTheme.typography.titleSmall)
+            preview.sections.forEach { section ->
+                OutlinedTextField(
+                    value = sectionNames[section.id] ?: section.name,
+                    onValueChange = { onSectionNameChange(section.id, it) },
+                    modifier = Modifier.fillMaxWidth(),
+                    label = { Text(section.id) },
+                    singleLine = true,
+                )
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Button(onClick = onSave, enabled = !saving) {
+                    Text(if (saving) "Zapisywanie…" else "Zapisz wersję")
+                }
+                TextButton(onClick = onCancel, enabled = !saving) {
+                    Text("Anuluj")
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DraftPreviewCard(preview: DraftPreview) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
+            Text("Podgląd zapisanej wersji roboczej", style = MaterialTheme.typography.titleSmall)
+            Text("Rewizja: ${preview.draft.revision}")
+            Text(preview.fullName)
+            Text(
+                if (preview.validation.ok) "Walidacja: poprawna" else "Walidacja: wymaga poprawy",
+                color = if (preview.validation.ok) MaterialTheme.colorScheme.primary
+                else MaterialTheme.colorScheme.error,
+            )
+            Text(
+                "Błędy: ${preview.validation.errors.size} · Ostrzeżenia: ${preview.validation.warnings.size}",
+                style = MaterialTheme.typography.bodySmall,
+            )
         }
     }
 }
