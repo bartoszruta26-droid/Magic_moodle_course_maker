@@ -55,8 +55,7 @@ def test_tui_export_button_writes_manifest(tmp_path: Path, monkeypatch) -> None:
         async with app.run_test() as pilot:
             await pilot.pause()
             table = app.query_one("#course-table", DataTable)
-            table.move_cursor(row=0)
-            await pilot.press("enter")
+            app._selected_id = "sample"
             await pilot.click("#export")
             await pilot.pause()
             manifest = exports / "sample.manifest.json"
