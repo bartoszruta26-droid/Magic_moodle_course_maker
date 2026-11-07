@@ -245,7 +245,8 @@ def create_server(
             if path is None:
                 return
             is_draft_creation = path.startswith(f"{API_PREFIX}/courses/") and path.endswith("/drafts")
-            if not self._authorized(write=is_draft_creation):
+            is_draft_update = path.startswith(f"{API_PREFIX}/drafts/") and path.endswith("/update")
+            if not self._authorized(write=is_draft_creation or is_draft_update):
                 return
             validation_prefix = f"{API_PREFIX}/courses/"
             validation_suffix = "/validation"
@@ -293,6 +294,34 @@ def create_server(
                     self._draft_error(error)
                     return
                 self._send(201, {"data": asdict(draft), "meta": {"api_version": "1"}})
+                return
+            update_prefix = f"{API_PREFIX}/drafts/"
+            update_suffix = "/update"
+            if path.startswith(update_prefix) and path.endswith(update_suffix):
+                body = self._read_json_body()
+                if body is None:
+                    return
+                draft_id = path[len(update_prefix):-len(update_suffix)]
+                if not draft_id or "/" in draft_id:
+                    self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
+                    return
+                if set(body) != {"expected_revision", "changes"}:
+                    self._error(
+                        400,
+                        "INVALID_DRAFT_UPDATE",
+                        "Wymagane są wyłącznie pola expected_revision i changes.",
+                    )
+                    return
+                try:
+                    updated = draft_service.update(
+                        draft_id,
+                        expected_revision=body["expected_revision"],
+                        changes=body["changes"],
+                    )
+                except Exception as error:
+                    self._draft_error(error)
+                    return
+                self._send(200, {"data": asdict(updated), "meta": {"api_version": "1"}})
                 return
             self._error(404, "NOT_FOUND", "Nie znaleziono zasobu.")
 

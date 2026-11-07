@@ -2,7 +2,7 @@
 
 ## Status
 
-Klient natywny Android oparty na Kotlinie i Jetpack Compose. Aplikacja zapisuje adres API v1, pobiera listę kursów przez HTTPS i obsługuje opcjonalny token Bearer.
+Klient natywny Android oparty na Kotlinie i Jetpack Compose. Aplikacja zapisuje adres API v1, pobiera listę kursów, szczegóły i raporty walidacji oraz obsługuje wersje robocze kursów.
 
 ## Wymagania
 
@@ -30,14 +30,15 @@ Dla środowiska produkcyjnego należy używać HTTPS. Ruch HTTP może być dopus
 - brak danych demonstracyjnych udających prawdziwe kursy;
 - brak tokenów Moodle w aplikacji;
 - brak bezpośredniej integracji z Moodle REST;
-- brak synchronizacji i edycji offline;
-- brak publikacji kursu.
+- token Bearer jest wymagany do zapisu wersji roboczych i pozostaje wyłącznie w pamięci bieżącej sesji;
+- edycja obejmuje nazwę kursu, nazwę skróconą, opis i nazwy sekcji;
+- zapis wersji roboczej nie modyfikuje plików źródłowych kursu;
+- brak synchronizacji offline i publikacji kursu.
 
 ## Kolejny etap
 
-Po wdrożeniu i zabezpieczeniu API v1:
 1. bezpieczne przechowywanie tokenu API w Android Keystore;
 2. lokalna pamięć podręczna Room;
 3. synchronizacja WorkManager;
-4. edycja wersji roboczych i eksport;
+4. edycja nazw aktywności i historii wersji roboczych;
 5. jawne potwierdzanie operacji publikacji.

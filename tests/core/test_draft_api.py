@@ -148,3 +148,25 @@ def test_api_read_only_validation_still_works_without_write_token(tmp_path: Path
         )
         assert status == 200
         assert report["data"]["ok"] is True
+
+
+def test_api_post_draft_update_alias_supports_android_clients(tmp_path: Path) -> None:
+    courses = tmp_path / "courses"
+    make_course(courses / "sample")
+
+    with running_server(CourseApplicationService(courses), token="draft-secret") as base:
+        _, created = request_json(
+            f"{base}/api/v1/courses/sample/drafts",
+            method="POST",
+            payload={},
+            token="draft-secret",
+        )
+        draft_id = created["data"]["draft_id"]
+        status, updated = request_json(
+            f"{base}/api/v1/drafts/{draft_id}/update",
+            method="POST",
+            payload={"expected_revision": 1, "changes": {"full_name": "Kurs Android"}},
+            token="draft-secret",
+        )
+        assert status == 200
+        assert updated["data"]["revision"] == 2
