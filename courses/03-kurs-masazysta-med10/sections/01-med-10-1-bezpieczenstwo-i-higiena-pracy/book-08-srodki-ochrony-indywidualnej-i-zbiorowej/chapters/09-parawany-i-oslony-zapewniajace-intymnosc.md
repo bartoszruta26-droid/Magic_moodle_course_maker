@@ -4,7 +4,7 @@
 
 ## Dlaczego to ważne
 
-Zagadnienie realizuje podstawę programową kwalifikacji MED.10 „Wykonywanie masaży”: łączy znajomość anatomii i fizjologii z metodyką postępowania i etyką zawodową. Ćwicz je systematycznie: demonstracja instruktora → praca w parach → autorefleksja wg check-listy (Załącznik F) → powtórka w rytmie 1/3/7/21 dnia.
+Parawan, zasłona i odpowiednie okrycie pomagają chronić prywatność oraz poczucie bezpieczeństwa osoby korzystającej z masażu. Ustaw osłonę tak, aby ograniczała widoczność z miejsc ogólnodostępnych, ale nie blokowała drogi ewakuacyjnej ani dostępu do pacjenta w sytuacji nagłej. Przed rozpoczęciem zabiegu wyjaśnij sposób przygotowania, uzyskaj zgodę na odsłonięcie niezbędnej okolicy i zapewnij możliwość samodzielnego przygotowania się w warunkach intymności. W trakcie zabiegu odsłaniaj wyłącznie obszar aktualnie opracowywany, a pozostałe części ciała okrywaj. Przed wejściem osoby trzeciej zapukaj, przedstaw cel wejścia i uzyskaj zgodę pacjenta; informacje o pacjencie omawiaj dyskretnie, poza zasięgiem osób postronnych.
 
 ## Istota zagadnienia — ujęcie systematyczne
 
