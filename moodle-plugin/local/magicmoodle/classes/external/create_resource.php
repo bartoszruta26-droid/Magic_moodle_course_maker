@@ -139,6 +139,7 @@ class create_resource extends \external_api {
                         ], '*', MUST_EXIST);
                         list($cm, $modulecontext, $module, $moduleinfo, $courseSection) =
                             get_moduleinfo_data($cm, $course);
+                        $cm->modname = 'resource';
                         $modulecontext = \context_module::instance($existing->id);
                         $existingfiles = $fs->get_area_files(
                             $modulecontext->id, 'mod_resource', 'content', 0, 'id', false
@@ -169,7 +170,7 @@ class create_resource extends \external_api {
                             || $params['previousfilename'] !== $filename
                             || !hash_equals($remotehash, $contenthash);
                         if ($contentchanged) {
-                            $draftitemid = file_get_unused_draft_itemid();
+                            $draftitemid = 0; // file_prepare_draft_area() creates a fresh area and copies existing files.
                             $fileoptions = [
                                 'subdirs' => true,
                                 'maxfiles' => -1,
