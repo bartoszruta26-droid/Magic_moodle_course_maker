@@ -43,7 +43,7 @@ def test_tui_export_button_writes_manifest(tmp_path: Path, monkeypatch) -> None:
     course = courses / "sample"
     course.mkdir(parents=True)
     (course / "course.yaml").write_text(
-        "course:\\n  full_name: Kurs eksportowy\\n  short_name: EXP\\n",
+        "course:\n  full_name: Kurs eksportowy\n  short_name: EXP\n",
         encoding="utf-8",
     )
     exports = tmp_path / "exports"
