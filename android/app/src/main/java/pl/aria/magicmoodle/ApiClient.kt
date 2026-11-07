@@ -264,7 +264,7 @@ private fun parseSections(items: kotlinx.serialization.json.JsonArray): List<Cou
         CourseSection(
             id = section.string("id"),
             name = section.string("name"),
-            activityCount = section.intOrNull("activity_count") ?: 0,
+            activityCount = section.intOrNull("activity_count") ?: section["activities"]?.jsonArray?.size ?: 0,
         )
     }
 
