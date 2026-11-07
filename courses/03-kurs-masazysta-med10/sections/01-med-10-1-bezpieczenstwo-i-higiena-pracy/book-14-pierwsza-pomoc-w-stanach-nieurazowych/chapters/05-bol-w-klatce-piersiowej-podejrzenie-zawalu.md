@@ -1,55 +1,55 @@
-# 1.14.4. Ból w klatce piersiowej — podejrzenie zawału
+# 1.14.4. Ból w klatce piersiowej — podejrzenie ostrego zespołu wieńcowego
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Ból lub ucisk w klatce piersiowej może oznaczać ostry zespół wieńcowy, w tym zawał serca. Osoba udzielająca pierwszej pomocy nie rozpoznaje samodzielnie zawału. Jej zadaniem jest rozpoznać możliwe zagrożenie, wezwać zespół ratownictwa medycznego, zapewnić poszkodowanemu bezpieczne warunki i obserwować jego stan.
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+## Objawy alarmowe
 
-## Istota zagadnienia — ujęcie systematyczne
+Podejrzenie ostrego zespołu wieńcowego powinny wzbudzić między innymi:
+- ból, ucisk, gniecenie lub ciężar w klatce piersiowej;
+- ból promieniujący do ramienia, obu ramion, pleców, szyi, żuchwy lub nadbrzusza;
+- duszność, nudności, wymioty, zimne poty, bladość lub nagłe osłabienie;
+- zawroty głowy, omdlenie lub nagłe pogorszenie stanu ogólnego.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+Objawy mogą być nietypowe, zwłaszcza u osób starszych, kobiet i osób z cukrzycą. Nie należy czekać, aż ból będzie trwał określony czas ani aż pojawią się wszystkie objawy.
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+## Postępowanie krok po kroku
 
-## Metodyka postępowania — krok po kroku
+1. Przerwij masaż lub inną aktywność. Zapewnij bezpieczeństwo i pomóż osobie przyjąć wygodną pozycję — siedzącą lub półsiedzącą, jeśli ułatwia oddychanie; w razie osłabienia lub omdlenia dostosuj ułożenie do stanu i instrukcji dyspozytora.
+2. Natychmiast zadzwoń pod numer 112 lub 999. Podaj podejrzenie ostrego zespołu wieńcowego, dokładny adres, objawy i czas ich rozpoczęcia. Włącz tryb głośnomówiący i wykonuj polecenia dyspozytora.
+3. Pozostań z poszkodowanym. Ogranicz wysiłek, uspokajaj i obserwuj świadomość oraz oddech. Nie pozwalaj mu samodzielnie prowadzić pojazdu ani iść do placówki medycznej.
+4. Jeżeli osoba ma rozpoznaną dławicę piersiową i przepisany własny lek z nitrogliceryną, pomóż jej przyjąć go zgodnie z jej zaleceniami i instrukcją leku.
+5. U przytomnej osoby z podejrzeniem bólu pochodzenia sercowego można zachęcić do samodzielnego przyjęcia 150–500 mg kwasu acetylosalicylowego w postaci do rozgryzania lub rozpuszczania, jeśli nie ma znanej alergii na aspirynę. Nie zmuszaj do przyjęcia leku i postępuj zgodnie z zaleceniami dyspozytora. Nie podawaj niczego doustnie osobie z zaburzeniami świadomości lub trudnościami w połykaniu.
+6. Jeśli osoba straci przytomność i nie oddycha prawidłowo, natychmiast rozpocznij RKO i użyj AED, gdy tylko będzie dostępne. Postępuj według instrukcji dyspozytora i urządzenia.
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+## Czego nie robić
 
-## Scenariusz sytuacyjny (studium przypadku)
+- Nie bagatelizuj objawów jako „nerwobólu”, niestrawności lub skutku masażu.
+- Nie wykonuj masażu, rozciągania ani ćwiczeń w celu „rozluźnienia” bólu.
+- Nie podawaj cudzych leków, w tym nitrogliceryny, ani dodatkowych dawek leków bez wskazania.
+- Nie podawaj jedzenia, napojów ani leków doustnych osobie z zaburzeniami świadomości lub połykaniem.
+- Nie pozostawiaj poszkodowanego samego i nie opóźniaj wezwania ZRM w celu wykonania pomiarów lub zebrania pełnego wywiadu.
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+## Rola masażysty
 
-## Najczęstsze błędy początkujących
+Masażysta przerywa zabieg, wzywa pomoc i obserwuje poszkodowanego do przyjazdu ZRM. Nie stawia rozpoznania, nie interpretuje samodzielnie EKG i nie prowadzi farmakoterapii. Po przekazaniu pacjenta ratownikom przekazuje czas początku objawów, ich przebieg, znane choroby i leki oraz czynności wykonane w gabinecie.
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+## Ćwiczenie praktyczne
 
-## Pytania utrwalające
+Przećwicz scenariusz: klient zgłasza ucisk w klatce piersiowej, duszność i zimny pot. Uczestnik ma przerwać zabieg, wezwać 112/999, przekazać dyspozytorowi kluczowe informacje, zapewnić wygodną pozycję i obserwować stan do przyjazdu ZRM. Następnie przećwicz rozpoznanie utraty przytomności i rozpoczęcie RKO z użyciem AED.
 
-1. Omów mechanizmy leżące u podstaw: Ból w klatce piersiowej — podejrzenie zawału. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+## Pytania kontrolne
 
-## Słowniczek minimalny
+1. Jakie objawy mogą wskazywać na ostry zespół wieńcowy?
+2. Dlaczego nie należy czekać na upływ określonego czasu trwania bólu?
+3. Jakie informacje należy przekazać dyspozytorowi?
+4. Kiedy można rozważyć kwas acetylosalicylowy i jakie są ważne ograniczenia?
+5. Co należy zrobić, gdy poszkodowany przestaje reagować i nie oddycha prawidłowo?
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+## Źródła
 
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
