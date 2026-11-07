@@ -258,7 +258,7 @@ internal fun parseDraftPreviewJson(body: String): DraftPreview {
     )
 }
 
-private fun parseSections(items: kotlinx.serialization.json.JsonArray): List<CourseSection> =
+private fun parseSections(items: List<kotlinx.serialization.json.JsonElement>): List<CourseSection> =
     items.map { element ->
         val section = element.jsonObject
         CourseSection(
