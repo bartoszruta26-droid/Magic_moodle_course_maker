@@ -84,11 +84,12 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $table = $prefix . 'book_chapters';
         $trigger = 'local_mm_book_rollback_test';
         $DB->execute("DROP TRIGGER IF EXISTS {$trigger}");
+        // Moodle's database abstraction rejects multi-statement SQL. Use a
+        // single-statement trigger; the NOT NULL constraint raises an error
+        // only when the second chapter receives the sentinel title.
         $DB->execute(
             "CREATE TRIGGER {$trigger} BEFORE UPDATE ON {$table} FOR EACH ROW "
-            . "BEGIN IF NEW.title = 'FAIL_ROLLBACK' THEN "
-            . "SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'forced integration rollback'; "
-            . "END IF; END"
+            . "SET NEW.title = IF(NEW.title = 'FAIL_ROLLBACK', NULL, NEW.title)"
         );
 
         try {
@@ -102,7 +103,7 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
                 );
                 $this->fail('Expected the injected database failure to abort the transaction.');
             } catch (\Throwable $exception) {
-                $this->assertStringContainsString('forced integration rollback', $exception->getMessage());
+                $this->assertStringContainsString('cannot be null', strtolower($exception->getMessage()));
             }
         } finally {
             $DB->execute("DROP TRIGGER IF EXISTS {$trigger}");
@@ -234,10 +235,14 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         );
         $this->assertTrue($created['created']);
         $slotsbefore = $DB->get_records('quiz_slots', ['quizid' => $created['instanceid']], 'slot ASC');
-        $student = $this->getDataGenerator()->create_user();
+        $student = $this->getDataGenerator()->create_and_enrol($course, 'student');
+        $this->setUser($student);
         $quizgenerator = $this->getDataGenerator()->get_plugin_generator('mod_quiz');
         $attempt = $quizgenerator->create_attempt($created['instanceid'], $student->id);
         $this->assertNotEmpty($attempt->id);
+        $this->assertSame($student->id, (int)$attempt->userid);
+        $this->assertSame(0, (int)$attempt->preview);
+        $this->setAdminUser();
 
         $updated = create_quiz::execute(
             $course->id, 1, 'Quiz po zmianie', '<p>Nowy opis</p>', $gift, 600, 2, 10, 0,
