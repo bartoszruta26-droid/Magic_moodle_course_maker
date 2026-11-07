@@ -9,6 +9,7 @@ import os
 from dataclasses import asdict
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from threading import Lock
 from urllib.parse import unquote, urlparse
 
 from magic_moodle.application import (
@@ -64,8 +65,16 @@ def list_courses() -> list[dict[str, str]]:
     ]
 
 
+_DRAFT_SERVICES: dict[Path, CourseDraftService] = {}
+_DRAFT_SERVICES_LOCK = Lock()
+
+
 def _draft_service() -> CourseDraftService:
-    return CourseDraftService(ROOT)
+    root = ROOT.resolve()
+    with _DRAFT_SERVICES_LOCK:
+        if root not in _DRAFT_SERVICES:
+            _DRAFT_SERVICES[root] = CourseDraftService(root)
+        return _DRAFT_SERVICES[root]
 
 
 class Handler(BaseHTTPRequestHandler):
