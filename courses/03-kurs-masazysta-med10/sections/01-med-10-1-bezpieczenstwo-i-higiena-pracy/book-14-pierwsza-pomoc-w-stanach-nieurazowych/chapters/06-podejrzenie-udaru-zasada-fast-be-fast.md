@@ -1,61 +1,51 @@
-# 1.14.5. Podejrzenie udaru — zasada FAST/BE-FAST
+# 1.14.5. Podejrzenie udaru mózgu — rozpoznanie FAST i pilne wezwanie pomocy
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Udar mózgu jest stanem nagłym, w którym czas do rozpoczęcia leczenia ma zasadnicze znaczenie. Pierwsza pomoc polega na szybkim rozpoznaniu możliwych objawów, wezwaniu zespołu ratownictwa medycznego i obserwacji poszkodowanego. Osoba udzielająca pierwszej pomocy nie rozstrzyga, czy przyczyną jest udar niedokrwienny, krwotoczny ani inna choroba.
 
-Uszkodzenia nerwów obwodowych (parkinsonizm, stwardnienie rozsiane, porażenie pp.) wymagają indywidualnej kwalifikacji lekarskiej. Masaż: normalizuje napięcie mięśni (spastyczność — techniki wolne, hamujące; wiotkie — pobudzające, oklepywanie), poprawia trofikę tkanek unaczynionych zniesionymi nerwami, wspiera propriocepcję. UWAGA: przy zaburzeniach czucia klient nie zgłosi bólu — siła nacisku musi być asekuracyjnie niska.
+## Rozpoznanie — test FAST
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+- **F — Face (twarz):** poproś osobę o uśmiech lub pokazanie zębów. Zwróć uwagę na opadanie kącika ust lub asymetrię twarzy.
+- **A — Arms (ramiona):** poproś o uniesienie obu ramion i utrzymanie ich przez chwilę. Zwróć uwagę, czy jedno ramię opada lub nie daje się unieść.
+- **S — Speech (mowa):** poproś o powtórzenie prostego zdania. Zwróć uwagę na niewyraźną mowę, trudność w doborze słów lub niezrozumienie polecenia.
+- **T — Time (czas):** przy wystąpieniu choć jednego z tych objawów natychmiast zadzwoń pod 112 lub 999. Zapisz godzinę początku objawów albo ostatni moment, kiedy osoba była widziana bez objawów.
 
-## Rozwinięcie zagadnienia
+Mogą występować również nagłe zaburzenia widzenia, równowagi, koordynacji, czucia, silny nietypowy ból głowy lub zaburzenia świadomości. Brak klasycznych objawów FAST nie wyklucza udaru.
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+## Postępowanie krok po kroku
 
-## Istota zagadnienia — ujęcie systematyczne
+1. Przerwij masaż lub inną aktywność. Zapewnij bezpieczeństwo i pozostań z poszkodowanym.
+2. Natychmiast wezwij ZRM pod numerem 112 lub 999. Nie czekaj na ustąpienie objawów i nie organizuj samodzielnego transportu do szpitala.
+3. Przekaż dyspozytorowi zaobserwowane objawy, godzinę ich początku lub ostatni znany moment bez objawów, wiek poszkodowanego oraz lokalizację.
+4. Ułóż osobę w wygodnej i bezpiecznej pozycji. Nie zmuszaj jej do chodzenia ani stania. Jeżeli występują zaburzenia świadomości lub połykania, szczególnie uważnie obserwuj drożność dróg oddechowych i postępuj zgodnie z instrukcjami dyspozytora.
+5. Nie podawaj jedzenia, napojów ani leków doustnych, w tym aspiryny. Udar może zaburzać połykanie, a rodzaj udaru nie jest znany.
+6. Obserwuj świadomość i oddech. Jeśli osoba przestaje reagować i nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
+7. Jeżeli jesteś przeszkolony w użyciu tlenu, podawaj go wyłącznie w sytuacji wskazanej przez objawy hipoksji i zgodnie z zakresem przeszkolenia. Nie opóźniaj wezwania pomocy.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Objawy przemijające
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+Nawet jeżeli objawy ustąpią po kilku minutach, nadal wymagają pilnej oceny medycznej. Przemijające objawy neurologiczne mogą wskazywać na przemijający atak niedokrwienny (TIA) i poprzedzać udar. Nie odwołuj wezwania pomocy z powodu poprawy stanu.
 
-## Metodyka postępowania — krok po kroku
+## Rola masażysty
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+Masażysta natychmiast przerywa zabieg, wzywa ZRM, zapamiętuje lub zapisuje czas początku objawów i monitoruje stan poszkodowanego. Nie wykonuje masażu, manipulacji, ćwiczeń ani prób „rozruszania” osłabionej kończyny. Nie stawia rozpoznania i nie podaje leków. Ratownikom przekazuje obserwowane objawy, czas ich wystąpienia, znane choroby i przyjmowane leki, o ile informacje te są dostępne.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Ćwiczenie praktyczne
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+W parach przećwicz test FAST na podstawie scenariuszy z opadaniem kącika ust, osłabieniem jednej kończyny i zaburzeniami mowy. Następnie wykonaj telefon alarmowy w symulacji, przekazując objawy i czas ich początku. Ćwiczenie zakończ oceną oddechu i przygotowaniem do RKO.
 
-## Najczęstsze błędy początkujących
+## Pytania kontrolne
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+1. Co oznaczają litery FAST?
+2. Dlaczego należy zapisać godzinę początku objawów lub ostatni znany moment bez objawów?
+3. Dlaczego nie wolno czekać na samoistne ustąpienie objawów?
+4. Dlaczego nie podaje się jedzenia, napojów ani aspiryny?
+5. Jakie czynności wykonuje masażysta do czasu przyjazdu ZRM?
 
-## Pytania utrwalające
+## Źródła
 
-1. Omów mechanizmy leżące u podstaw: Podejrzenie udaru — zasada FAST/BE-FAST. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
-
-## Słowniczek minimalny
-
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
-
----
-
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
