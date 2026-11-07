@@ -143,3 +143,62 @@ def test_webui_requires_configured_token_for_draft_writes(tmp_path: Path, monkey
         httpd.shutdown()
         httpd.server_close()
         thread.join(timeout=2)
+
+
+def test_webui_lists_history_and_restores_draft_revision(tmp_path: Path, monkeypatch):
+    courses = tmp_path / "courses"
+    course = courses / "sample"
+    course.mkdir(parents=True)
+    (course / "course.yaml").write_text(
+        "course:\n  full_name: Kurs bazowy\n  short_name: BASE\n",
+        encoding="utf-8",
+    )
+    httpd, thread, base = _running_webui(monkeypatch, courses, "webui-secret")
+    try:
+        _, created = _webui_request(
+            f"{base}/api/courses/sample/drafts",
+            method="POST",
+            payload={},
+            token="webui-secret",
+        )
+        draft_id = created["data"]["draft_id"]
+        _webui_request(
+            f"{base}/api/drafts/{draft_id}",
+            method="PATCH",
+            payload={"expected_revision": 1, "changes": {"full_name": "Kurs zmieniony"}},
+            token="webui-secret",
+        )
+
+        status, listing = _webui_request(
+            f"{base}/api/courses/sample/drafts",
+            token="webui-secret",
+        )
+        assert status == 200
+        assert listing["data"][0]["revision"] == 2
+
+        status, history = _webui_request(
+            f"{base}/api/drafts/{draft_id}/history",
+            token="webui-secret",
+        )
+        assert status == 200
+        assert [item["revision"] for item in history["data"]] == [1, 2]
+
+        status, restored = _webui_request(
+            f"{base}/api/drafts/{draft_id}/restore",
+            method="POST",
+            payload={"expected_revision": 2, "target_revision": 1},
+            token="webui-secret",
+        )
+        assert status == 200
+        assert restored["data"]["revision"] == 3
+
+        status, preview = _webui_request(
+            f"{base}/api/drafts/{draft_id}/preview",
+            token="webui-secret",
+        )
+        assert status == 200
+        assert preview["data"]["course"]["course"]["full_name"] == "Kurs bazowy"
+    finally:
+        httpd.shutdown()
+        httpd.server_close()
+        thread.join(timeout=2)
