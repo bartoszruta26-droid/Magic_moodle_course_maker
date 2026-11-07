@@ -33,7 +33,8 @@ def _build_app():
         #main { width: 1fr; padding: 1; }
         #course-table { height: 1fr; }
         #detail { height: 1fr; border: round $secondary; padding: 1; }
-        #validate { width: 100%; }\n        #export { width: 100%; }
+        #validate { width: 100%; }
+        #export { width: 100%; }\n        #export { width: 100%; }
         """
         BINDINGS = [
             ("q", "quit", "Wyjście"),
@@ -62,7 +63,8 @@ def _build_app():
                         id="detail",
                         markup=False,
                     )
-                    yield Button("Waliduj wybrany kurs", id="validate", variant="primary")\n                    yield Button("Eksportuj manifest JSON", id="export")
+                    yield Button("Waliduj wybrany kurs", id="validate", variant="primary")
+                    yield Button("Eksportuj manifest JSON", id="export")\n                    yield Button("Eksportuj manifest JSON", id="export")
             yield Footer()
 
         def on_mount(self) -> None:
@@ -103,6 +105,8 @@ def _build_app():
         def on_button_pressed(self, event: Button.Pressed) -> None:
             if event.button.id == "validate":
                 self.action_validate_selected()
+            elif event.button.id == "export":
+                self.action_export_selected()
 
         def show_selected_course(self) -> None:
             if not self._selected_id:
@@ -141,6 +145,32 @@ def _build_app():
 
         def action_validate_selected(self) -> None:
             self.show_selected_course()
+
+        def action_export_selected(self) -> None:
+            if not self._selected_id:
+                self.query_one("#detail", Static).update(
+                    "Najpierw wybierz kurs do eksportu.", markup=False
+                )
+                return
+            export_root = Path(
+                os.environ.get(
+                    "MAGIC_MOODLE_EXPORTS",
+                    str(self.service.courses_root.parent / "exports"),
+                )
+            ).expanduser()
+            destination = export_root / f"{self._selected_id}.manifest.json"
+            try:
+                output = self.service.export_json(self._selected_id, destination)
+            except (CourseNotFoundError, CourseLoadError, OSError, TypeError, ValueError):
+                self.query_one("#detail", Static).update(
+                    "Eksport nie powiódł się. Sprawdź kurs i uprawnienia katalogu eksportowego.",
+                    markup=False,
+                )
+                return
+            self.query_one("#detail", Static).update(
+                f"Manifest JSON zapisany pomyślnie:\n{output}",
+                markup=False,
+            )
 
     return MagicMoodleTui()
 
