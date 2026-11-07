@@ -1,55 +1,53 @@
-# 1.14.7. Hipoglikemia u osoby z cukrzycą
+# 1.14.7. Hipoglikemia u osoby z cukrzycą — pierwsza pomoc
 
-*Rozdział szczegółowy (podrozdział) tematu 1.14 — Pierwsza pomoc w stanach nieurazowych*
+## Cel i zakres
 
-## Dlaczego to ważne
+Hipoglikemia oznacza zbyt niskie stężenie glukozy we krwi. Może prowadzić do zaburzeń zachowania, splątania, drgawek i utraty przytomności. W pierwszej pomocy najważniejsze jest rozpoznanie możliwego stanu, bezpieczne podanie cukru osobie przytomnej, która może połykać, oraz wezwanie pomocy w razie ciężkich objawów.
 
-Stany nieurazowe: omdlenie — pozycja leżąca z uniesionymi nogami, świeże powietrze, kontrola oddychania; napad drgawkowy — chronić głowę, nie wkładać nic do ust, pozycja boczna po ustąpieniu drgawek; podejrzenie udaru — test FAST (twarz, ramiona, mowa, czas), natychmiast 112; podejrzenie zawału — ból >15 min, duszność, pot — pozycja półsiedząca, spokój, 112; hipoglikemia u przytomnego cukrzyka — 15–20 g cukrów doustnie, kontrola po 15 min; astma — wygodna pozycja, inhalator pacjenta, 112 przy braku poprawy; reakcja anafilaktyczna — usunąć czynnik, wezwać PRM, adrenalina z autostrzykawki pacjenta, układanie zależne od objawów.
+## Objawy sugerujące hipoglikemię
 
-## Istota zagadnienia — ujęcie systematyczne
+Objawy mogą obejmować nagłe osłabienie, drżenie, potliwość, bladość, uczucie głodu, kołatanie serca, zawroty głowy, ból głowy, zaburzenia koncentracji, nietypowe zachowanie, splątanie, drgawki lub utratę przytomności. Szczególną czujność zachowaj u osoby z cukrzycą leczonej insuliną lub niektórymi lekami obniżającymi stężenie glukozy.
 
-Każdy element tego tematu rozkładamy na cztery warstwy kompetencji:
+## Postępowanie u osoby przytomnej, która bezpiecznie połyka
 
-1. **Wiedza (dlaczego)** — mechanizmy fizjologiczne i patofizjologiczne, definicje i klasyfikacje zgodne z literaturą akademicką (Załącznik L) oraz terminologią (Załącznik G).
-2. **Umiejętność (jak)** — kolejność czynności, dobór techniki, siły, tempa i czasu; ergonomia dłoni i ciała masażysty; kontrola efektu w trakcie i po zabiegu.
-3. **Bezpieczeństwo (czy wolno)** — kwalifikacja: wskazania, przeciwwskazania bezwzględne i względne (Załącznik D), sygnały alarmowe wymagające pilnej konsultacji lekarskiej (Załącznik E), procedura pierwszej pomocy gdy zawodzi organizm (Załącznik J).
-4. **Etyka i dokumentacja (dla kogo i na piśmie)** — świadoma zgoda, tajemnica zawodowa, RODO, wpis w karcie (Załącznik C); kodeks: prawda, piękno, sprawiedliwość (Załącznik K); granice kompetencji (Załącznik M).
+1. Przerwij zabieg i zapewnij osobie bezpieczne miejsce do odpoczynku.
+2. Jeśli to możliwe, zapytaj o cukrzycę, typowe objawy i indywidualny plan postępowania. Pomiar glikemii może pomóc, jeżeli glukometr jest dostępny i osoba potrafi go użyć, ale nie opóźniaj pomocy przy nasilonych objawach.
+3. Jeżeli podejrzewasz hipoglikemię, a osoba jest przytomna i może bezpiecznie połykać, podaj 15–20 g szybko przyswajalnej glukozy lub dekstrozy doustnie. Można użyć tabletek glukozowych zgodnie z informacją na opakowaniu.
+4. Jeżeli nie ma glukozy, można zastosować inny szybko przyswajalny cukier, np. słodzony napój lub sok. Nie używaj produktów „light” ani bez cukru.
+5. Jeżeli po 15 minutach objawy utrzymują się lub nie poprawiają się, ponownie podaj glukozę, jeśli osoba nadal jest przytomna i może połykać. W razie braku poprawy wezwij 112/999.
+6. Po poprawie osoba powinna zastosować się do własnego planu leczenia cukrzycy i, jeśli to właściwe, zjeść posiłek lub przekąskę, aby ograniczyć ryzyko nawrotu. Nie podejmuj za nią decyzji dotyczących zmiany dawek leków.
 
-## Metodyka postępowania — krok po kroku
+## Osoba z zaburzeniami świadomości lub nieprzytomna
 
-1. Przygotowanie stanowiska i siebie: higiena rąk (I.1/I.2), gotowe środki poślizgowe dobrane do skóry klienta (H), spokój i koncentracja.
-2. Wywiad ukierunkowany na to zagadnienie: chorobę, leki, ostatni zabieg, samopoczucie dnia; sprawdzenie listy przeciwwskazań.
-3. Kwalifikacja i uzgodnienie planu z klientem: cel zabiegu, obszary pracy, sygnał „stop”, przewidywane odczucia.
-4. Wykonanie techniki w prawidłowej kolejności i doborze parametrów (tempo, nacisk, czas), z bieżącą kontrolą reakcji klienta i własnej ergonomii.
-5. Zakończenie: pozycja pozioma 2-3 min, napicie wody, instruktaż domowy w granicach kompetencji.
-6. Dokumentacja karty zabiegu + obserwacje; ewentualne skierowanie (C.11) i wpis do dziennika praktyki.
+- Nie podawaj niczego doustnie osobie z zaburzeniami świadomości, drgawkami lub niezdolnej do bezpiecznego połykania — istnieje ryzyko zachłyśnięcia.
+- Natychmiast wezwij 112 lub 999.
+- Jeśli osoba ma przepisany glukagon w autowstrzykiwaczu lub postaci donosowej, może go użyć sama albo może go podać osoba przeszkolona, zgodnie z indywidualnym planem i instrukcją urządzenia.
+- Jeżeli osoba jest nieprzytomna, ale oddycha prawidłowo i nie ma podejrzenia urazu, ułóż ją w pozycji bezpiecznej i stale kontroluj oddech.
+- Jeżeli osoba nie oddycha prawidłowo, rozpocznij RKO i użyj AED, gdy tylko będzie dostępne.
 
-## Scenariusz sytuacyjny (studium przypadku)
+## Pomiar glikemii
 
-Do gabinetu zgłasza się osoba z dolegliwościami opisanymi w tym zagadnieniu. Zadanie masażysty: nie zgadywać diagnozy, lecz rzetelnie przeprowadzić kwalifikację. Jeśli obraz zawiera którykolwiek punkt bezwzględny — zabieg odstępujemy, sporządzamy skierowanie i informujemy o powodach spokojnie, bez straszenia. Jeśli przeciwwskazanie jest względne — modyfikujemy technikę, czas i pozycję, dokumentując decyzję. Po zabiegu pytamy o odczucia w skali liczbowej i zapisujemy je: to dane do oceny skuteczności i bezpieczeństwa.
+Jeżeli pomiar jest możliwy bez opóźniania leczenia, stężenie poniżej 4,0 mmol/l (70 mg/dl) przemawia za hipoglikemią. Po podaniu glukozy można powtórzyć pomiar po 15 minutach. Wynik pomiaru nie zastępuje oceny stanu poszkodowanego; ciężkie objawy wymagają wezwania pomocy niezależnie od dostępności glukometru.
 
-## Najczęstsze błędy początkujących
+## Rola masażysty
 
-- Pośpiech i pominięcie etapu wywiadu „bo klient stały” — każdy dzień przynosi nowe przeciwwskazania (leki, infekcje, zabiegi stomatologiczne, szczepienia).
-- Praca zbyt dużym naciskiem „im bardziej boli, tym lepiej” — ból nie jest miarą skuteczności; obowiązuje granica komfortu klienta.
-- Brak dokumentacji albo wpis „po godzinach” z pamięci — uchybienie prawne i jakościowe.
-- Wchodzenie w rolę diagnosty/terapeuty chorób systemowych — przekroczenie kompetencji (patrz Załącznik M).
-- Zaniedbanie własnej ergonomii — kontuzja masażysty to realne ryzyko i koszt społeczny zawodu.
+Masażysta przerywa zabieg, zapewnia bezpieczeństwo, ocenia przytomność i zdolność połykania, a następnie postępuje zgodnie z powyższym algorytmem oraz instrukcjami dyspozytora. Nie podaje cukru doustnie osobie z zaburzeniami świadomości. Nie zmienia dawek insuliny ani innych leków i nie rozpoznaje samodzielnie przyczyny zaburzeń glikemii.
 
-## Pytania utrwalające
+## Ćwiczenie praktyczne
 
-1. Omów mechanizmy leżące u podstaw: Hipoglikemia u osoby z cukrzycą. Co z tego wynika dla techniki masażu?
-2. Wymień przeciwwskazania bezwzględne i względne dotyczące tego zagadnienia oraz swoje postępowanie w razie ich stwierdzenia.
-3. Zaplanuj zabieg dla klienta z tym problemem: pozycja, środki, kolejność technik, czas, kryteria przerwania.
-4. Jak udokumentujesz kwalifikację, zgodę i przebieg? Do którego załącznika odsyłasz?
-5. Czego NIE wolno Ci powiedzieć klientowi o tym stanie zdrowia i jak sformułujesz bezpieczną, życzliwą informację?
+Przećwicz dwa scenariusze: przytomna osoba z drżeniem i potliwością, która może połykać, oraz osoba z zaburzeniami świadomości. W pierwszym scenariuszu przećwicz bezpieczne podanie glukozy i ponowną ocenę po 15 minutach; w drugim — wezwanie 112/999, zakaz podawania czegokolwiek doustnie, ocenę oddechu i przygotowanie do RKO.
 
-## Słowniczek minimalny
+## Pytania kontrolne
 
-Terminy kluczowe dla tego podrozdziału znajdziesz w Załączniku G (słownik terminów medycznych i masażowych). Ucz się ich w kontekście zdania, nie listy: „hiperemia czynna po głaskaniu odpływowym”, „spastyczność — techniki hamujące”, „limfangion — drenaż, nie ugniatanie”.
+1. Jakie objawy mogą wskazywać na hipoglikemię?
+2. Kiedy można podać glukozę doustnie?
+3. Dlaczego nie wolno podawać cukru osobie nieprzytomnej lub z zaburzeniami połykania?
+4. Kiedy należy powtórzyć podanie glukozy?
+5. Jakie są zasady użycia przepisanego glukagonu i kiedy należy wezwać 112/999?
 
----
+## Źródła
 
-**Pamiętaj:** prawda — opieraj się na aktualnej wiedzy i nie obiecuj rzeczy spoza kompetencji; piękno — czyń dotyk służbą godną drugiego człowieka; sprawiedliwość — ten sam standard bezpieczeństwa i troski dla każdego klienta, bez względu na cenę usługi, wiek, płeć, pochodzenie czy stan zdrowia.
+- Djärv T, Rogers J, Semeraro F, Brädde L, Cassan P, Cimpoesu D, et al. European Resuscitation Council Guidelines 2025: First Aid. Resuscitation. 2025;215(Suppl 1):110752. doi:10.1016/j.resuscitation.2025.110752.
+- European Resuscitation Council. Guidelines 2025: First Aid. Oficjalny dokument ERC.
 
 <!-- subch-v2 -->
