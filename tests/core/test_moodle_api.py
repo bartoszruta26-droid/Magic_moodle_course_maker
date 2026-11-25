@@ -88,7 +88,7 @@ def _sample_course(tmp_path: Path):
 def test_build_publish_plan_converts_markdown_and_has_no_side_effects(tmp_path):
     plan = build_publish_plan(_sample_course(tmp_path), 2)
     assert plan.course["categoryid"] == 2
-    assert plan.activities[0]["content"] == "<h2>Tytuł</h2>\n<p>Treść <strong>ważna</strong>.</p>"
+    assert plan.activities[0]["content"] == "<h1>Tytuł</h1>\n<p>Treść <strong>ważna</strong>.</p>"
     assert not plan.warnings
 
 
@@ -132,7 +132,7 @@ def test_publish_plan_uses_moodle_general_section_numbering_and_html_summary(tmp
     )
     plan = build_publish_plan(load_course(tmp_path), 4)
     assert plan.course["numsections"] == 0
-    assert plan.course["summary"] == "<h2>Opis</h2>\n<p>Treść kursu.</p>"
+    assert plan.course["summary"] == "<h1>Opis</h1>\n<p>Treść kursu.</p>"
 
 
 def test_ensure_course_reuses_existing_shortname():
@@ -272,7 +272,7 @@ def test_book_activity_is_loaded_and_prepared_for_moodle(tmp_path):
     book = plan.activities[0]
     assert book["type"] == "book"
     assert book["numbering"] == 1
-    assert book["chapters"][0]["content"] == "<h2>Start</h2>\n<p>Treść pierwsza.</p>"
+    assert book["chapters"][0]["content"] == "<h1>Start</h1>\n<p>Treść pierwsza.</p>"
     assert book["chapters"][1]["subchapter"] is True
     assert "<strong>drugiego</strong>" in book["chapters"][1]["content"]
 
