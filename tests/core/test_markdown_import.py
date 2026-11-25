@@ -248,7 +248,7 @@ def test_import_rejects_symlinked_local_assets(tmp_path):
 def test_import_rejects_backslashes_and_empty_normalized_asset_paths(tmp_path):
     source = _source_tree(tmp_path)
     (source.parent / "1_1_anatomia.md").write_text(
-        "[Backslash](folder\\\\file.txt)\n"
+        "[Backslash](folder\\file.txt)\n"
         "[Encoded backslash](folder%5Cfile.txt)\n"
         "[Current directory](.)\n",
         encoding="utf-8",
