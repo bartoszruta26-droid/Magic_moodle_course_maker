@@ -4,11 +4,13 @@ on:
   pull_request:
     paths:
       - "moodle-plugin/local/magicmoodle/**"
+      - "scripts/moodle/**"
       - ".github/workflows/moodle-integration.yml"
   push:
     branches: [main]
     paths:
       - "moodle-plugin/local/magicmoodle/**"
+      - "scripts/moodle/**"
       - ".github/workflows/moodle-integration.yml"
 
 permissions:
@@ -42,6 +44,9 @@ jobs:
           extensions: curl, gd, intl, mbstring, mysqli, soap, sodium, xml, zip
           coverage: none
           ini-values: max_input_vars=5000
+
+      - name: Check MBZ round-trip fixture PHP syntax
+        run: php -l "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php"
 
       - name: Clone Moodle 4.1 stable
         run: git clone --depth 1 --branch MOODLE_401_STABLE https://github.com/moodle/moodle.git /tmp/moodle
@@ -99,3 +104,83 @@ jobs:
       - name: Run local_magicmoodle integration suite
         working-directory: /tmp/moodle
         run: vendor/bin/phpunit local/magicmoodle/tests/sync_external_test.php
+      - name: Create an official Moodle 4.1 course backup
+        working-directory: /tmp/moodle
+        run: |
+          mkdir -p /tmp/moodle-mbz
+          FIXTURE_OUTPUT="$(MOODLE_ROOT=/tmp/moodle php "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php" create)"
+          echo "$FIXTURE_OUTPUT"
+          COURSE_ID="$(printf '%s\n' "$FIXTURE_OUTPUT" | sed -n 's/^MBZ_FIXTURE_COURSE_ID=//p')"
+          test -n "$COURSE_ID"
+          php admin/cli/backup.php --courseid="$COURSE_ID" --destination=/tmp/moodle-mbz
+          BACKUP_FILE="$(find /tmp/moodle-mbz -maxdepth 1 -type f -name '*.mbz' -print -quit)"
+          test -n "$BACKUP_FILE"
+          echo "$BACKUP_FILE" > /tmp/moodle-mbz/backup-path.txt
+          python3 - "$BACKUP_FILE" <<'PY'
+          import sys
+          import tarfile
+          import zipfile
+          import xml.etree.ElementTree as ET
+
+          archive_path = sys.argv[1]
+          required = {"moodle_backup.xml", "course/course.xml", "files.xml"}
+
+          if zipfile.is_zipfile(archive_path):
+              with zipfile.ZipFile(archive_path) as archive:
+                  bad_member = archive.testzip()
+                  if bad_member:
+                      raise SystemExit(f"Corrupt ZIP member: {bad_member}")
+                  names = set(archive.namelist())
+                  read_member = lambda name: archive.read(name)
+                  archive_format = "zip"
+                  xml_names = [name for name in names if name.lower().endswith(".xml")]
+                  missing = sorted(required - names)
+                  if missing:
+                      raise SystemExit(f"Missing required Moodle backup entries: {missing}")
+                  for name in xml_names:
+                      ET.fromstring(read_member(name))
+          else:
+              try:
+                  archive = tarfile.open(archive_path, mode="r:gz")
+              except (tarfile.TarError, OSError) as error:
+                  raise SystemExit(f"Unsupported or corrupt MBZ archive: {error}")
+              with archive:
+                  members = archive.getmembers()
+                  names = {member.name for member in members}
+                  missing = sorted(required - names)
+                  if missing:
+                      raise SystemExit(f"Missing required Moodle backup entries: {missing}")
+                  xml_names = [
+                      member.name for member in members
+                      if member.isfile() and member.name.lower().endswith(".xml")
+                  ]
+                  for name in xml_names:
+                      stream = archive.extractfile(name)
+                      if stream is None:
+                          raise SystemExit(f"Cannot read XML member: {name}")
+                      ET.fromstring(stream.read())
+                  archive_format = "tar.gz"
+
+          print(f"Validated {len(xml_names)} XML files in {archive_path} ({archive_format})")
+          with open("/tmp/moodle-mbz/archive-entries.txt", "w", encoding="utf-8") as report:
+              report.write("\n".join(sorted(names)) + "\n")
+          PY
+
+      - name: Restore the official backup into a new Moodle course
+        working-directory: /tmp/moodle
+        run: |
+          BEFORE_ID="$(php -r 'define("CLI_SCRIPT", true); require "config.php"; global $DB; echo (int)$DB->get_field_sql("SELECT MAX(id) FROM {course}");')"
+          BACKUP_FILE="$(cat /tmp/moodle-mbz/backup-path.txt)"
+          php admin/cli/restore_backup.php --file="$BACKUP_FILE" --categoryid=1
+          AFTER_ID="$(php -r 'define("CLI_SCRIPT", true); require "config.php"; global $DB; echo (int)$DB->get_field_sql("SELECT MAX(id) FROM {course}");')"
+          test "$AFTER_ID" -gt "$BEFORE_ID"
+          MOODLE_ROOT=/tmp/moodle MBZ_COURSE_ID="$AFTER_ID" php "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php" verify
+
+      - name: Upload Moodle MBZ round-trip evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: moodle-4.1-mbz-roundtrip-evidence
+          path: /tmp/moodle-mbz/
+          if-no-files-found: warn
+          retention-days: 7
