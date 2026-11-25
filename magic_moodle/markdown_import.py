@@ -250,15 +250,32 @@ def _rewrite_markdown_assets(
         updated = _rewrite_local_asset_url(raw_url, source_root, assets_root, report, copied)
         return match.group("prefix") + (f"<{updated}>" if wrapped else updated) + match.group("suffix")
 
-    rewritten = _LOCAL_MD_LINK_RE.sub(markdown_replace, markdown_text)
-
     def html_replace(match: re.Match) -> str:
         updated = _rewrite_local_asset_url(
             match.group("url"), source_root, assets_root, report, copied
         )
         return match.group("prefix") + match.group("quote") + updated + match.group("quote")
 
-    return _HTML_URL_ATTR_RE.sub(html_replace, rewritten)
+    output: list[str] = []
+    fence_char: str | None = None
+    fence_length = 0
+    for line in markdown_text.splitlines(keepends=True):
+        stripped = line.lstrip()
+        fence_match = re.match(r"^(\x60{3,}|~{3,})", stripped)
+        if fence_match:
+            marker = fence_match.group(1)
+            if fence_char is None:
+                fence_char, fence_length = marker[0], len(marker)
+            elif marker[0] == fence_char and len(marker) >= fence_length:
+                fence_char, fence_length = None, 0
+            output.append(line)
+            continue
+        if fence_char is not None:
+            output.append(line)
+            continue
+        rewritten = _LOCAL_MD_LINK_RE.sub(markdown_replace, line)
+        output.append(_HTML_URL_ATTR_RE.sub(html_replace, rewritten))
+    return "".join(output)
 
 def import_markdown_course(
     source: str | Path,
