@@ -103,6 +103,8 @@ def _markdown_to_html(source: str) -> str:
     from .markdown import render_markdown
 
     return render_markdown(source)
+
+
 def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     payload = _course_payload(course, category_id)
     activities: list[dict[str, Any]] = []
