@@ -4,10 +4,11 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Any
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 
 from .gift import GiftParseError, parse_gift, validate_question_bank
 from .io_utils import atomic_write_text
@@ -20,6 +21,109 @@ class PublishPlan:
     course: dict[str, Any]
     activities: tuple[dict[str, Any], ...]
     warnings: tuple[str, ...]
+
+
+def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]:
+    """Read only referenced, bounded binary assets without following symlinks."""
+    if activity_path.is_symlink():
+        raise MoodleAPIError("Katalog aktywności Book nie może być dowiązaniem symbolicznym.")
+    chapters_root = activity_path / "chapters"
+    assets_root = chapters_root / "assets"
+    if not chapters_root.exists() or not assets_root.exists():
+        return []
+    if chapters_root.is_symlink() or assets_root.is_symlink() or not assets_root.is_dir():
+        raise MoodleAPIError("Katalog zasobów Book musi być zwykłym katalogiem.")
+    references = set()
+    candidates = []
+    for match in re.finditer(
+        r"(?:src|href|poster|srcset)\s*=\s*([\"'])(.*?)\1",
+        html,
+        flags=re.IGNORECASE | re.DOTALL,
+    ):
+        candidates.extend(
+            part.strip().split()[0]
+            for part in match.group(2).split(",")
+            if part.strip()
+        )
+    candidates.extend(
+        match.group(1).strip().strip("\"'")
+        for match in re.finditer(r"url\(\s*([^)]*?)\s*\)", html, flags=re.IGNORECASE)
+    )
+    for raw in candidates:
+        parsed = urlsplit(raw)
+        if parsed.scheme or parsed.netloc or parsed.path.startswith(("/", "#")):
+            continue
+        clean = unquote(parsed.path)
+        if clean.startswith("assets/"):
+            references.add(clean)
+    files: list[dict[str, str]] = []
+    total = 0
+    for path in sorted(assets_root.rglob("*")):
+        if path.is_symlink():
+            raise MoodleAPIError("Zasoby Book nie mogą zawierać dowiązań symbolicznych.")
+        if path.is_dir():
+            continue
+        if not path.is_file():
+            raise MoodleAPIError("Zasób Book musi być zwykłym plikiem.")
+        relative = path.relative_to(assets_root)
+        if "assets/" + relative.as_posix() not in references:
+            continue
+        if any(part in {"", ".", ".."} or "\\" in part or "\x00" in part for part in relative.parts):
+            raise MoodleAPIError("Niebezpieczna ścieżka zasobu Book.")
+        if len(files) >= 100:
+            raise MoodleAPIError("Limit 100 plików zasobów Book został przekroczony.")
+        size = path.stat().st_size
+        if size > 2 * 1024 * 1024:
+            raise MoodleAPIError("Pojedynczy zasób Book przekracza limit 2 MiB.")
+        total += size
+        if total > 5 * 1024 * 1024:
+            raise MoodleAPIError("Łączny rozmiar zasobów Book przekracza limit 5 MiB.")
+        parent = relative.parent.as_posix()
+        files.append({
+            "filepath": "/assets/" if parent == "." else "/assets/" + parent + "/",
+            "filename": relative.name,
+            "contentbase64": base64.b64encode(path.read_bytes()).decode("ascii"),
+        })
+    return files
+
+
+def _rewrite_book_asset_urls(html: str, files: list[dict[str, str]]) -> str:
+    """Rewrite local references only when their bytes are included in this chapter."""
+    known = set()
+    for item in files:
+        folder = item["filepath"].strip("/")
+        known.add(item["filename"] if folder == "assets" else folder + "/" + item["filename"])
+
+    def rewrite(raw: str) -> str:
+        if raw.startswith(("http://", "https://", "//", "data:", "#", "mailto:", "tel:")):
+            return raw
+        clean = unquote(raw.split("#", 1)[0].split("?", 1)[0])
+        if clean not in known:
+            return raw
+        return "@@PLUGINFILE@@/" + raw
+
+    html = re.sub(
+        r"(?P<prefix>\bsrcset\s*=\s*)(?P<quote>[\"'])(?P<value>.*?)(?P=quote)",
+        lambda m: m.group("prefix") + m.group("quote") + ", ".join(
+            " ".join([rewrite(tokens[0])] + tokens[1:])
+            for tokens in [candidate.strip().split() for candidate in m.group("value").split(",")]
+            if tokens
+        ) + m.group("quote"),
+        html,
+        flags=re.IGNORECASE,
+    )
+    html = re.sub(
+        r"(?P<quote>[\"'])(?P<url>assets/[^\"']+)(?P=quote)",
+        lambda m: m.group("quote") + rewrite(m.group("url")) + m.group("quote"),
+        html,
+    )
+    html = re.sub(
+        r"url\((?P<quote>[\"']?)(?P<url>assets/[^)\"'\s]+)(?P=quote)\)",
+        lambda m: "url(" + m.group("quote") + rewrite(m.group("url")) + m.group("quote") + ")",
+        html,
+        flags=re.IGNORECASE,
+    )
+    return html
 
 
 def _course_payload(course: Course, category_id: int) -> dict[str, Any]:
@@ -443,6 +547,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 planned_chapters = []
                 seen_chapter_sourceids = set()
                 total_chapter_bytes = 0
+                total_asset_bytes = 0
                 for chapter_index, chapter in enumerate(chapters):
                     if not isinstance(chapter, dict):
                         warnings.append(f"Książka '{activity.name}': chapters[{chapter_index}] musi być mapą.")
@@ -482,7 +587,8 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         warnings.append(f"Książka '{activity.name}': powtórzony source_id rozdziału '{chapter_sourceid}'.")
                         continue
                     seen_chapter_sourceids.add(chapter_sourceid)
-                    total_chapter_bytes += len(_markdown_to_html(chapter_source).encode("utf-8"))
+                    chapter_html = _markdown_to_html(chapter_source)
+                    total_chapter_bytes += len(chapter_html.encode("utf-8"))
                     if total_chapter_bytes > 5 * 1024 * 1024:
                         warnings.append(
                             f"Książka '{activity.name}': łączny rozmiar treści rozdziałów przekracza limit 5 MiB."
@@ -491,11 +597,22 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     if chapter_index == 0 and subchapter:
                         warnings.append(f"Książka '{activity.name}': pierwszy rozdział nie może być podrozdziałem.")
                         continue
+                    try:
+                        chapter_files = _book_assets_payload(section.path / activity.ref, chapter_html)
+                        asset_bytes = sum(len(base64.b64decode(item["contentbase64"])) for item in chapter_files)
+                        total_asset_bytes += asset_bytes
+                        if total_chapter_bytes + total_asset_bytes > 5 * 1024 * 1024:
+                            raise MoodleAPIError("Łączny rozmiar treści i zasobów Book przekracza limit 5 MiB.")
+                        chapter_html = _rewrite_book_asset_urls(chapter_html, chapter_files)
+                    except (OSError, ValueError, KeyError) as exc:
+                        warnings.append(f"Książka '{activity.name}': błąd zasobów: {exc}")
+                        continue
                     planned_chapters.append({
                         "sourceid": chapter_sourceid,
                         "title": title.strip(),
-                        "content": _markdown_to_html(chapter_source),
+                        "content": chapter_html,
                         "subchapter": subchapter,
+                        "files": chapter_files,
                     })
                 numbering = activity.resource.get("numbering", 1)
                 if isinstance(numbering, bool) or not isinstance(numbering, int) or numbering not in {0, 1, 2, 3}:

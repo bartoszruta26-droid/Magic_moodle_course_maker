@@ -22,6 +22,14 @@ class create_book extends \external_api {
                     'title' => new \external_value(PARAM_TEXT, 'Chapter title'),
                     'content' => new \external_value(PARAM_RAW, 'Chapter HTML content'),
                     'subchapter' => new \external_value(PARAM_BOOL, 'Whether this is a subchapter', VALUE_DEFAULT, false),
+                    'files' => new \external_multiple_structure(
+                        new \external_single_structure([
+                            'filepath' => new \external_value(PARAM_RAW, 'Chapter asset filepath'),
+                            'filename' => new \external_value(PARAM_FILE, 'Chapter asset filename'),
+                            'contentbase64' => new \external_value(PARAM_RAW, 'Base64-encoded chapter asset'),
+                        ]),
+                        'Chapter assets', VALUE_OPTIONAL
+                    ),
                 ]),
                 'Book chapters'
             ),
@@ -40,7 +48,7 @@ class create_book extends \external_api {
     }
 
     public static function execute($courseid, $sectionnum, $name, $chapters, $chapterids = [], $numbering = 1, $idnumber = '') {
-        global $DB, $CFG;
+        global $DB, $CFG, $USER;
 
         $params = self::validate_parameters(self::execute_parameters(), [
             'courseid' => $courseid,
@@ -72,6 +80,7 @@ class create_book extends \external_api {
         }
 
         $totalsize = 0;
+        $assetstotalsize = 0;
         $seensourceids = [];
         foreach ($params['chapters'] as $index => $chapter) {
             $sourceid = trim($chapter['sourceid']);
@@ -88,6 +97,40 @@ class create_book extends \external_api {
             }
             if ($index === 0 && !empty($chapter['subchapter'])) {
                 throw new invalid_parameter_exception('The first book chapter cannot be a subchapter.');
+            }
+            if (isset($chapter['files']) && count($chapter['files']) > 100) {
+                throw new invalid_parameter_exception('A Book chapter cannot contain more than 100 files.');
+            }
+            $seenfiles = [];
+            foreach (($chapter['files'] ?? []) as $file) {
+                $filepath = $file['filepath'];
+                $filename = $file['filename'];
+                if (!preg_match('#^/assets(?:/[^/\\\\\x00]+)*/$#uD', $filepath)
+                        || strpos($filepath, '\\') !== false
+                        || $filename === '' || $filename === '.' || $filename === '..'
+                        || strpos($filename, '/') !== false || strpos($filename, '\\') !== false
+                        || strpos($filename, "\0") !== false
+                        || preg_match('/[%]|[\x00-\x1F]/', $filepath . $filename)) {
+                    throw new invalid_parameter_exception('Invalid Book chapter asset path or filename.');
+                }
+                foreach (explode('/', trim($filepath, '/')) as $segment) {
+                    if ($segment === '' || $segment === '.' || $segment === '..') {
+                        throw new invalid_parameter_exception('Invalid Book chapter asset path segment.');
+                    }
+                }
+                $filekey = $filepath . $filename;
+                if (isset($seenfiles[$filekey])) {
+                    throw new invalid_parameter_exception('Duplicate Book chapter asset path.');
+                }
+                $seenfiles[$filekey] = true;
+                $decoded = base64_decode($file['contentbase64'], true);
+                if ($decoded === false || strlen($decoded) > 2 * 1024 * 1024) {
+                    throw new invalid_parameter_exception('Invalid base64 or Book asset exceeds 2 MiB.');
+                }
+                $assetstotalsize += strlen($decoded);
+                if ($assetstotalsize + $totalsize > 5 * 1024 * 1024) {
+                    throw new invalid_parameter_exception('Combined Book chapter content and assets exceed the 5 MiB activity limit.');
+                }
             }
         }
 
@@ -215,6 +258,10 @@ class create_book extends \external_api {
                 }
 
                 $fs = get_file_storage();
+                // File API blobs are not rolled back with SQL. Keep complete snapshots
+                // until the delegated transaction commits, then compensate on failure.
+                $filesnapshots = [];
+                $createdfilekeys = [];
                 $resultmapping = $mapping;
                 $createdcount = 0;
                 $updatedcount = 0;
@@ -227,15 +274,6 @@ class create_book extends \external_api {
                             'id' => $chapterid,
                             'bookid' => $book->id,
                         ], '*', MUST_EXIST);
-                        $chapterfiles = $fs->get_area_files(
-                            $modulecontext->id, 'mod_book', 'chapter', $chapterid, 'id', false
-                        );
-                        if (!empty($chapterfiles)) {
-                            throw new invalid_parameter_exception(
-                                'A mapped Book chapter contains embedded files. '
-                                . 'File-preserving chapter editor synchronization is required before updating it.'
-                            );
-                        }
                         $chapter->pagenum = $index + 1;
                         $chapter->subchapter = empty($chapterdata['subchapter']) ? 0 : 1;
                         $chapter->title = trim($chapterdata['title']);
@@ -262,13 +300,100 @@ class create_book extends \external_api {
                         $resultmapping[$sourceid] = (int)$chapter->id;
                         $createdcount++;
                     }
+
+                    // Omitted files preserve manual/legacy assets; [] explicitly clears them.
+                    if (array_key_exists('files', $chapterdata)) {
+                        $chapterid = (int)$resultmapping[$sourceid];
+                        $existingfiles = $fs->get_area_files(
+                            $modulecontext->id, 'mod_book', 'chapter', $chapterid, 'id', false
+                        );
+                        foreach ($existingfiles as $existingfile) {
+                            $filesnapshots[] = [
+                                'record' => [
+                                    'contextid' => $existingfile->get_contextid(),
+                                    'component' => $existingfile->get_component(),
+                                    'filearea' => $existingfile->get_filearea(),
+                                    'itemid' => $existingfile->get_itemid(),
+                                    'filepath' => $existingfile->get_filepath(),
+                                    'filename' => $existingfile->get_filename(),
+                                    'userid' => $existingfile->get_userid(),
+                                    'license' => $existingfile->get_license(),
+                                    'author' => $existingfile->get_author(),
+                                    'source' => $existingfile->get_source(),
+                                    'sortorder' => $existingfile->get_sortorder(),
+                                    'timecreated' => $existingfile->get_timecreated(),
+                                    'timemodified' => $existingfile->get_timemodified(),
+                                ],
+                                'content' => $existingfile->get_content(),
+                            ];
+                            $existingfile->delete();
+                        }
+                        foreach ($chapterdata['files'] as $file) {
+                            $filerecord = [
+                                'contextid' => $modulecontext->id,
+                                'component' => 'mod_book',
+                                'filearea' => 'chapter',
+                                'itemid' => $chapterid,
+                                'filepath' => $file['filepath'],
+                                'filename' => $file['filename'],
+                                'userid' => $USER->id,
+                            ];
+                            $fs->create_file_from_string(
+                                $filerecord, base64_decode($file['contentbase64'], true)
+                            );
+                            $createdfilekeys[] = $filerecord;
+                        }
+                    }
                 }
 
                 book_preload_chapters($book);
                 rebuild_course_cache($course->id, true);
                 $transaction->allow_commit();
             } catch (\Throwable $exception) {
-                $transaction->rollback($exception);
+                try {
+                    $transaction->rollback($exception);
+                } catch (\Throwable $rollbackexception) {
+                    // The delegated rollback rethrows the original exception.
+                }
+                $compensationerrors = [];
+                foreach (array_reverse($createdfilekeys) as $filekey) {
+                    try {
+                        $newfile = $fs->get_file(
+                            $filekey['contextid'], $filekey['component'], $filekey['filearea'],
+                            $filekey['itemid'], $filekey['filepath'], $filekey['filename']
+                        );
+                        if ($newfile) {
+                            $newfile->delete();
+                        }
+                    } catch (\Throwable $compensationexception) {
+                        $compensationerrors[] = $compensationexception->getMessage();
+                    }
+                }
+                foreach ($filesnapshots as $snapshot) {
+                    try {
+                        $record = $snapshot['record'];
+                        // SQL rollback can restore a file metadata row whose filedir blob
+                        // was already deleted. Remove that stale row before recreating bytes.
+                        $stale = $fs->get_file(
+                            $record['contextid'], $record['component'], $record['filearea'],
+                            $record['itemid'], $record['filepath'], $record['filename']
+                        );
+                        if ($stale) {
+                            $stale->delete();
+                        }
+                        $fs->create_file_from_string($record, $snapshot['content']);
+                    } catch (\Throwable $compensationexception) {
+                        $compensationerrors[] = $compensationexception->getMessage();
+                    }
+                }
+                if (!empty($compensationerrors)) {
+                    throw new \moodle_exception(
+                        'Book synchronization failed and File API compensation was incomplete: '
+                        . implode('; ', $compensationerrors),
+                        'error'
+                    );
+                }
+                throw $exception;
             }
 
             return [

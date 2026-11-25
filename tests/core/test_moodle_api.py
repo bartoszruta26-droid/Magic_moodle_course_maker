@@ -1488,3 +1488,53 @@ def test_quiz_publish_requires_manifest_for_gift_identity(tmp_path):
     course = _sample_quiz_course(tmp_path)
     with pytest.raises(MoodleAPIError, match="Quiz wymaga --state-file"):
         publish_course(object(), course, 2)
+
+
+
+def test_book_assets_are_encoded_as_binary_and_urls_are_rewritten(tmp_path):
+    import base64
+    from magic_moodle.moodle_publish import _book_assets_payload, _rewrite_book_asset_urls
+
+    activity = tmp_path / "book"
+    assets = activity / "chapters" / "assets" / "diagrams"
+    assets.mkdir(parents=True)
+    binary = b"\x89PNG\r\n\x1a\n\x00\xff"
+    (assets / "scan.png").write_bytes(binary)
+    (assets / "remote.png").write_bytes(b"must not upload for an external URL")
+
+    files = _book_assets_payload(activity, '<img src="assets/diagrams/scan.png">')
+    assert files == [{
+        "filepath": "/assets/diagrams/",
+        "filename": "scan.png",
+        "contentbase64": base64.b64encode(binary).decode("ascii"),
+    }]
+    external_only = _book_assets_payload(
+        activity, '<a href="https://example.org/assets/remote.png">external</a>'
+    )
+    assert external_only == []
+    html = ('<img src="assets/diagrams/scan.png">'
+            '<a href="https://example.org/assets/remote.png">external</a>'
+            '<img srcset="assets/diagrams/scan.png 1x, https://example.org/x.png 2x">'
+            '<div style="background:url(assets/diagrams/scan.png)"></div>')
+    rewritten = _rewrite_book_asset_urls(html, files)
+    assert 'src="@@PLUGINFILE@@/assets/diagrams/scan.png"' in rewritten
+    assert 'assets/remote.png' in rewritten
+    assert '@@PLUGINFILE@@/assets/diagrams/scan.png 1x' in rewritten
+    assert 'https://example.org/x.png 2x' in rewritten
+    assert 'url(@@PLUGINFILE@@/assets/diagrams/scan.png)' in rewritten
+
+
+def test_book_assets_reject_symlinks(tmp_path):
+    from magic_moodle.moodle_publish import MoodleAPIError, _book_assets_payload
+
+    activity = tmp_path / "book"
+    assets = activity / "chapters" / "assets"
+    assets.mkdir(parents=True)
+    outside = tmp_path / "outside.bin"
+    outside.write_bytes(b"secret")
+    try:
+        (assets / "link.bin").symlink_to(outside)
+    except (OSError, NotImplementedError):
+        pytest.skip("Symlinks are unavailable on this platform.")
+    with pytest.raises(MoodleAPIError, match="dowiązań symbolicznych"):
+        _book_assets_payload(activity, '<img src="assets/link.bin">')

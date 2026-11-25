@@ -72,8 +72,20 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         }
 
         $course = $this->create_sync_course();
+        $oldasset = 'old chapter asset';
+        $newasset = 'replacement chapter asset';
         $chapters = [
-            ['sourceid' => 'chapter-one', 'title' => 'Pierwszy', 'content' => '<p>Stara 1</p>', 'subchapter' => false],
+            [
+                'sourceid' => 'chapter-one',
+                'title' => 'Pierwszy',
+                'content' => '<p>Stara 1</p>',
+                'subchapter' => false,
+                'files' => [[
+                    'filepath' => '/assets/',
+                    'filename' => 'old.txt',
+                    'contentbase64' => base64_encode($oldasset),
+                ]],
+            ],
             ['sourceid' => 'chapter-two', 'title' => 'Drugi', 'content' => '<p>Stara 2</p>', 'subchapter' => false],
         ];
         $created = create_book::execute(
@@ -94,7 +106,17 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
 
         try {
             $changed = [
-                ['sourceid' => 'chapter-one', 'title' => 'Pierwszy po zmianie', 'content' => '<p>Nowa 1</p>', 'subchapter' => false],
+                [
+                    'sourceid' => 'chapter-one',
+                    'title' => 'Pierwszy po zmianie',
+                    'content' => '<p>Nowa 1</p>',
+                    'subchapter' => false,
+                    'files' => [[
+                        'filepath' => '/assets/',
+                        'filename' => 'new.txt',
+                        'contentbase64' => base64_encode($newasset),
+                    ]],
+                ],
                 ['sourceid' => 'chapter-two', 'title' => 'FAIL_ROLLBACK', 'content' => '<p>Nowa 2</p>', 'subchapter' => false],
             ];
             try {
@@ -115,6 +137,15 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $this->assertSame('<p>Stara 1</p>', $first->content);
         $this->assertSame('Drugi', $second->title);
         $this->assertSame('<p>Stara 2</p>', $second->content);
+
+        $context = context_module::instance($created['cmid']);
+        $fs = get_file_storage();
+        $chapterid = $created['chapterids'][0]['chapterid'];
+        $oldfile = $fs->get_file($context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'old.txt');
+        $newfile = $fs->get_file($context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'new.txt');
+        $this->assertNotFalse($oldfile);
+        $this->assertSame($oldasset, $oldfile->get_content());
+        $this->assertFalse($newfile);
     }
 
     public function test_glossary_sync_preserves_entry_ids_and_updates_terms(): void {
@@ -257,4 +288,63 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $this->assertSame(array_keys($slotsbefore), $slotidsafter);
         $this->assertSame(1, $DB->count_records('quiz_attempts', ['quiz' => $created['instanceid'], 'preview' => 0]));
     }
+
+    public function test_book_chapter_assets_are_replaced_and_same_path_is_supported(): void {
+        $course = $this->create_sync_course();
+        $firstbytes = "old binary \x00 content";
+        $created = create_book::execute(
+            $course->id,
+            1,
+            'Book assets',
+            [[
+                'sourceid' => 'chapter-assets',
+                'title' => 'Assets',
+                'content' => '<p><img src="@@PLUGINFILE@@/assets/image.bin"></p>',
+                'subchapter' => false,
+                'files' => [[
+                    'filepath' => '/assets/',
+                    'filename' => 'image.bin',
+                    'contentbase64' => base64_encode($firstbytes),
+                ]],
+            ]],
+            [],
+            1,
+            'it-book-assets-same-path'
+        );
+
+        $context = context_module::instance($created['cmid']);
+        $chapterid = $created['chapterids'][0]['chapterid'];
+        $fs = get_file_storage();
+        $oldfile = $fs->get_file($context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'image.bin');
+        $this->assertNotFalse($oldfile);
+        $this->assertSame($firstbytes, $oldfile->get_content());
+
+        $secondbytes = "new binary \x00 content";
+        $updated = create_book::execute(
+            $course->id,
+            1,
+            'Book assets',
+            [[
+                'sourceid' => 'chapter-assets',
+                'title' => 'Assets updated',
+                'content' => '<p><img src="@@PLUGINFILE@@/assets/image.bin"></p>',
+                'subchapter' => false,
+                'files' => [[
+                    'filepath' => '/assets/',
+                    'filename' => 'image.bin',
+                    'contentbase64' => base64_encode($secondbytes),
+                ]],
+            ]],
+            $created['chapterids'],
+            1,
+            'it-book-assets-same-path'
+        );
+
+        $this->assertSame($created['chapterids'], $updated['chapterids']);
+        $replacement = $fs->get_file($context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'image.bin');
+        $this->assertNotFalse($replacement);
+        $this->assertSame($secondbytes, $replacement->get_content());
+    }
+
+
 }
