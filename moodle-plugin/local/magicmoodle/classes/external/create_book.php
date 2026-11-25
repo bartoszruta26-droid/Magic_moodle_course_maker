@@ -22,6 +22,14 @@ class create_book extends \external_api {
                     'title' => new \external_value(PARAM_TEXT, 'Chapter title'),
                     'content' => new \external_value(PARAM_RAW, 'Chapter HTML content'),
                     'subchapter' => new \external_value(PARAM_BOOL, 'Whether this is a subchapter', VALUE_DEFAULT, false),
+                    'files' => new \external_multiple_structure(
+                        new \external_single_structure([
+                            'filepath' => new \external_value(PARAM_RAW, 'Relative chapter file area path'),
+                            'filename' => new \external_value(PARAM_FILE, 'Chapter asset filename'),
+                            'contentbase64' => new \external_value(PARAM_RAW, 'Base64-encoded binary file content'),
+                        ]),
+                        'Chapter files', VALUE_DEFAULT, []
+                    ),
                 ]),
                 'Book chapters'
             ),
@@ -72,6 +80,7 @@ class create_book extends \external_api {
         }
 
         $totalsize = 0;
+        $assetstotalsize = 0;
         $seensourceids = [];
         foreach ($params['chapters'] as $index => $chapter) {
             $sourceid = trim($chapter['sourceid']);
@@ -88,6 +97,34 @@ class create_book extends \external_api {
             }
             if ($index === 0 && !empty($chapter['subchapter'])) {
                 throw new invalid_parameter_exception('The first book chapter cannot be a subchapter.');
+            }
+            if (count($chapter['files']) > 100) {
+                throw new invalid_parameter_exception('A Book chapter cannot contain more than 100 files.');
+            }
+            $seenfiles = [];
+            foreach ($chapter['files'] as $file) {
+                $filepath = $file['filepath'];
+                $filename = $file['filename'];
+                if (!preg_match('#^/assets(?:/[A-Za-z0-9._ -]+)*/$#D', $filepath)
+                        || strpos($filepath, '..') !== false || strpos($filepath, '\\') !== false
+                        || $filename === '' || $filename === '.' || $filename === '..'
+                        || strpos($filename, '/') !== false || strpos($filename, '\\') !== false
+                        || strpos($filename, "\0") !== false) {
+                    throw new invalid_parameter_exception('Invalid Book chapter asset path or filename.');
+                }
+                $filekey = $filepath . $filename;
+                if (isset($seenfiles[$filekey])) {
+                    throw new invalid_parameter_exception('Duplicate Book chapter asset path.');
+                }
+                $seenfiles[$filekey] = true;
+                $decoded = base64_decode($file['contentbase64'], true);
+                if ($decoded === false || strlen($decoded) > 2 * 1024 * 1024) {
+                    throw new invalid_parameter_exception('Invalid base64 or Book asset exceeds 2 MiB.');
+                }
+                $assetstotalsize += strlen($decoded);
+                if ($assetstotalsize > 5 * 1024 * 1024) {
+                    throw new invalid_parameter_exception('Book assets exceed the 5 MiB activity limit.');
+                }
             }
         }
 
@@ -227,15 +264,6 @@ class create_book extends \external_api {
                             'id' => $chapterid,
                             'bookid' => $book->id,
                         ], '*', MUST_EXIST);
-                        $chapterfiles = $fs->get_area_files(
-                            $modulecontext->id, 'mod_book', 'chapter', $chapterid, 'id', false
-                        );
-                        if (!empty($chapterfiles)) {
-                            throw new invalid_parameter_exception(
-                                'A mapped Book chapter contains embedded files. '
-                                . 'File-preserving chapter editor synchronization is required before updating it.'
-                            );
-                        }
                         $chapter->pagenum = $index + 1;
                         $chapter->subchapter = empty($chapterdata['subchapter']) ? 0 : 1;
                         $chapter->title = trim($chapterdata['title']);
@@ -261,6 +289,26 @@ class create_book extends \external_api {
                         \mod_book\event\chapter_created::create_from_chapter($book, $modulecontext, $chapter)->trigger();
                         $resultmapping[$sourceid] = (int)$chapter->id;
                         $createdcount++;
+                    }
+
+                    // Replace only this chapter's managed file area after the full payload was validated.
+                    $existingfiles = $fs->get_area_files(
+                        $modulecontext->id, 'mod_book', 'chapter', $chapter->id, 'id', false
+                    );
+                    foreach ($existingfiles as $existingfile) {
+                        $existingfile->delete();
+                    }
+                    foreach ($chapterdata['files'] as $file) {
+                        $decoded = base64_decode($file['contentbase64'], true);
+                        $filerecord = [
+                            'contextid' => $modulecontext->id,
+                            'component' => 'mod_book',
+                            'filearea' => 'chapter',
+                            'itemid' => (int)$chapter->id,
+                            'filepath' => $file['filepath'],
+                            'filename' => $file['filename'],
+                        ];
+                        $fs->create_file_from_string($filerecord, $decoded);
                     }
                 }
 
