@@ -408,7 +408,7 @@ Mechanizm patofizjologiczny opisuje sposób, w jaki proces chorobowy zaburza fun
 - **niedokrwienie** – niedostateczne dostarczanie krwi i tlenu do tkanki;
 - **krwawienie** – wynaczynienie krwi do struktur czaszki, kanału kręgowego lub tkanek;
 - **ucisk** – mechaniczne oddziaływanie na nerw, rdzeń, mózg lub inne struktury;
-- **zapalanie i autoimmunizacja** – odpowiedź zapalna lub immunologiczna skierowana przeciw tkankom albo związana z zakażeniem;
+- **zapalenie i autoimmunizacja** – odpowiedź zapalna lub immunologiczna skierowana przeciw tkankom albo związana z zakażeniem;
 - **zakażenie** – działanie drobnoustrojów i odpowiedzi organizmu;
 - **demielinizacja** – uszkodzenie osłonek mielinowych, które zaburza przewodzenie;
 - **neurodegeneracja** – postępująca utrata funkcji i/lub liczby określonych populacji komórek nerwowych;
@@ -618,7 +618,7 @@ PACJENT Z DOLEGLIWOŚCIAMI LUB NIEPRAWIDŁOWĄ OBSERWACJĄ
                              WYWIAD I BADANIE
                                      |
                                      v
-                          OPIS OBJAWÓW I OZNAC
+                          OPIS OBJAWÓW I OZNAK
                                      |
                                      v
                            WZORZEC / ZESPÓŁ
