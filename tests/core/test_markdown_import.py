@@ -142,3 +142,45 @@ def test_import_creates_book_subchapters_from_source_headings(tmp_path):
     assert [item["subchapter"] for item in chapters] == [False, True, True]
     assert len(activity.content) == 3
     assert "".join(activity.content[item["content_file"]] for item in chapters) == original
+
+def test_import_real_neurology_book_chapters_round_trip(tmp_path):
+    """Sprawdza wszystkie rzeczywiste pliki: strukturę Book i bezstratność importu."""
+    repository_root = Path(__file__).resolve().parents[2]
+    source_dir = repository_root / "courses/05-badanie-neurologiczne"
+    source = source_dir / "course.md"
+    destination = tmp_path / "neurology-book-import"
+
+    report = import_markdown_course(source, destination)
+    course = load_course(destination)
+
+    activities_by_ref = {
+        activity.ref: activity
+        for section in course.sections
+        for activity in section.activities
+    }
+    assert len(activities_by_ref) == 5
+    assert set(activities_by_ref) == {item["activity_ref"] for item in report["activities"]}
+
+    for imported in report["activities"]:
+        source_text = (source_dir / imported["source_file"]).read_text(encoding="utf-8")
+        activity = activities_by_ref[imported["activity_ref"]]
+        chapters = activity.resource["chapters"]
+
+        expected = split_markdown_chapters(source_text, activity.name)
+        assert len(chapters) == len(expected), imported["source_file"]
+        assert [chapter["title"] for chapter in chapters] == [
+            title for title, _, _ in expected
+        ], imported["source_file"]
+        assert [chapter["subchapter"] for chapter in chapters] == [
+            is_subchapter for _, _, is_subchapter in expected
+        ], imported["source_file"]
+
+        reconstructed = "".join(
+            activity.content[chapter["content_file"]]
+            for chapter in chapters
+        )
+        assert reconstructed == source_text, imported["source_file"]
+
+    assert course.section_count == 16
+    assert course.activity_count == 5
+    assert course.activity_types == {"book": 5}
