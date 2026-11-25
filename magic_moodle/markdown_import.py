@@ -157,10 +157,10 @@ def split_markdown_chapters(markdown_text: str, root_title: str) -> list[tuple[s
 
 
 _LOCAL_MD_LINK_RE = re.compile(
-    r"(?P<prefix>!?\\[[^\\]]*\\]\\()(?P<destination><[^>]*>|[^)\\s]+)(?P<suffix>[^)]*\\))"
+    r"(?P<prefix>!?\[[^\]]*\]\()(?P<destination><[^>]*>|[^)\s]+)(?P<suffix>[^)]*\))"
 )
 _HTML_URL_ATTR_RE = re.compile(
-    r"(?P<prefix>\\b(?:src|href|poster)\\s*=\\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
+    r"(?P<prefix>\b(?:src|href|poster)\s*=\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
     re.IGNORECASE,
 )
 
@@ -339,9 +339,14 @@ def import_markdown_course(
             source_text = _read_source(topic.source)
             chapter_parts = split_markdown_chapters(source_text, f"{topic.number}. {topic.title}")
             chapter_entries: list[dict] = []
+            asset_report = {"copied": [], "missing": [], "rejected": []}
+            copied_assets: dict[str, str] = {}
             for chapter_index, (chapter_title, chapter_text, is_subchapter) in enumerate(chapter_parts, start=1):
                 chapter_name = f"{chapter_index:02d}-{_slug(chapter_title)[:52]}.md"
-                (chapters_path / chapter_name).write_text(chapter_text, encoding="utf-8")
+                rewritten_text = _rewrite_markdown_assets(
+                    chapter_text, topic.source, chapters_path, asset_report, copied_assets
+                )
+                (chapters_path / chapter_name).write_text(rewritten_text, encoding="utf-8")
                 chapter_entries.append({
                     "title": chapter_title,
                     "subchapter": is_subchapter,
@@ -373,6 +378,7 @@ def import_markdown_course(
                 "title": topic.title,
                 "source_file": topic.source.name,
                 "activity_ref": activity_ref,
+                "assets": asset_report,
             })
             summary_lines.append(f"- {topic.number}. {topic.title}")
 
@@ -404,6 +410,17 @@ def import_markdown_course(
         "missing_topics": missing,
         "sections": section_summaries,
         "activities": imported,
+        "assets": {
+            "copied": sum(len(item["assets"]["copied"]) for item in imported),
+            "missing": [
+                {"topic": item["topic"], **asset}
+                for item in imported for asset in item["assets"]["missing"]
+            ],
+            "rejected": [
+                {"topic": item["topic"], **asset}
+                for item in imported for asset in item["assets"]["rejected"]
+            ],
+        },
         "quiz_policy": "No quizzes or answer keys are generated from headings or prose.",
         "mbz_status": "not_generated",
     }
