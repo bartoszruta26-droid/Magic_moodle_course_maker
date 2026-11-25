@@ -67,7 +67,7 @@ if ($mode === 'create') {
     $moduleinfo->completionexpected = 0;
     $cm = add_moduleinfo($moduleinfo, $course);
 
-    $context = context_module::instance($cm->id);
+    $context = context_module::instance($cm->coursemodule);
     get_file_storage()->create_file_from_string([
         'contextid' => $context->id,
         'component' => 'mod_page',
