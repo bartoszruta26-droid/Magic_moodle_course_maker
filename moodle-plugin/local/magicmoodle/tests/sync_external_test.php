@@ -159,6 +159,52 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $this->assertSame($secondbytes, $preserved->get_content());
     }
 
+    public function test_book_update_without_files_payload_preserves_existing_chapter_files(): void {
+        $course = $this->create_sync_course();
+        $bytes = "\x89PNG\r\n\x1a\nlegacy";
+        $created = create_book::execute(
+            $course->id,
+            1,
+            'Podręcznik kompatybilności',
+            [[
+                'sourceid' => 'chapter-one',
+                'title' => 'Pierwszy',
+                'content' => '<p>Treść</p>',
+                'subchapter' => false,
+                'files' => [[
+                    'filepath' => '/assets/',
+                    'filename' => 'legacy.png',
+                    'contentbase64' => base64_encode($bytes),
+                ]],
+            ]],
+            [],
+            1,
+            'it-book-assets-legacy'
+        );
+        $context = context_module::instance($created['cmid']);
+        $chapterid = $created['chapterids'][0]['chapterid'];
+        $updated = create_book::execute(
+            $course->id,
+            1,
+            'Podręcznik kompatybilności',
+            [[
+                'sourceid' => 'chapter-one',
+                'title' => 'Pierwszy po zmianie',
+                'content' => '<p>Nowa treść</p>',
+                'subchapter' => false,
+            ]],
+            $created['chapterids'],
+            1,
+            'it-book-assets-legacy'
+        );
+        $this->assertTrue($updated['updated']);
+        $file = get_file_storage()->get_file(
+            $context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'legacy.png'
+        );
+        $this->assertNotFalse($file);
+        $this->assertSame($bytes, $file->get_content());
+    }
+
     public function test_book_rejects_invalid_asset_paths_and_base64_before_writing(): void {
         $course = $this->create_sync_course();
         $invalidcases = [
