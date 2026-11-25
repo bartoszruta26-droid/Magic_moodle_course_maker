@@ -68,3 +68,19 @@ def test_generated_yaml_is_safe_and_explicit(tmp_path):
     section_file = next((destination / "sections").glob("*/section.yaml"))
     section = yaml.safe_load(section_file.read_text(encoding="utf-8"))
     assert [item["type"] for item in section["modules"]] == ["book"]
+
+def test_import_real_neurology_course_outline(tmp_path):
+    repository_root = Path(__file__).resolve().parents[2]
+    source = repository_root / "courses/05-badanie-neurologiczne/course.md"
+    destination = tmp_path / "neurology-import"
+
+    report = import_markdown_course(source, destination)
+    course = load_course(destination)
+
+    assert report["modules"] == 16
+    assert report["topics_in_outline"] == 155
+    assert report["activities_created"] == 6
+    assert len(report["missing_topics"]) == 149
+    assert course.section_count == 16
+    assert course.activity_count == 6
+    assert course.activity_types == {"book": 6}
