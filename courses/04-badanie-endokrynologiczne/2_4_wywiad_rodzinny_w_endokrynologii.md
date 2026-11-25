@@ -1395,17 +1395,17 @@ Progi mają charakter edukacyjny i mogą być dostosowane do zasad oceniania kur
 
 4. American Society for Reproductive Medicine. **Evidence-based guideline: Premature Ovarian Insufficiency.** 2025; dokument oparty na wytycznej opracowanej w 2024 r. Dostęp: https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-guideline-premature-ovarian-insufficiency--2024/.
 
-5. Stefan R. Bornstein, Bruno Allolio, Wiebke Arlt, Andreas Barthel, Andrew Don-Wauchope, Gary D. Hammer, Eystein S. Husebye, Deborah P. Merke, Monika M. Murad, Constantine A. Stratakis, and Olaf M. Dekkers. **Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline.** J Clin Endocrinol Metab. 2016;101(2):364–389. DOI: https://doi.org/10.1210/jc.2015-1710. Materiały wytycznych: https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency.
+5. Stefan R. Bornstein, Bruno Allolio, Wiebke Arlt, Andreas Barthel, Andrew Don-Wauchope, Gary D. Hammer, Eystein S. Husebye, Deborah P. Merke, M. Hassan Murad, Constantine A. Stratakis, and David J. Torpy. **Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline.** J Clin Endocrinol Metab. 2016;101(2):364–389. DOI: https://doi.org/10.1210/jc.2015-1710. Materiały wytycznych: https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency.
 
 6. Jacques W. M. Lenders, Quan-Yang Duh, Graeme Eisenhofer, Anne-Paule Gimenez-Roqueplo, Stefan K. G. Grebe, Mohammad Hassan Murad, Mitsuhide Naruse, Karel Pacak, and William F. Young Jr. **Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline.** J Clin Endocrinol Metab. 2014;99(6):1915–1942. DOI: https://doi.org/10.1210/jc.2014-1498.
 
 7. Jaydira Del Rivero, Alexandra Gangi, Justin P. Annes, Sina Jasim, Jason Keller, Michelle D. Lundholm, Julie M. Silverstein, Tanaz M. Vaghaiwalla, and Robert A. Wermers. **American Association of Clinical Endocrinology Consensus Statement on Management of Multiple Endocrine Neoplasia Type 1.** Endocr Pract. 2025;31(4):403–418. DOI: https://doi.org/10.1016/j.eprac.2025.02.001.
 
-8. Samuel A. Wells Jr, Sylvia L. Asa, Henning Dralle, Richard Elisei, David B. Evans, Robert F. Gagel, Nancy Lee, Andreas Machens, Julie F. Moley, Furio Pacini, Friedhelm Raue, Bruce Robinson, and Steven G. Waguespack. **Revised American Thyroid Association Guidelines for the Management of Medullary Thyroid Carcinoma.** Thyroid. 2015;25(6):567–610. DOI: https://doi.org/10.1089/thy.2014.0335.
+8. Samuel A. Wells Jr, Sylvia L. Asa, Henning Dralle, Rossella Elisei, Douglas B. Evans, Robert F. Gagel, Nancy Lee, Andreas Machens, Jeffrey F. Moley, Furio Pacini, Friedhelm Raue, Karin Frank-Raue, Bruce Robinson, M. Sara Rosenthal, Massimo Santoro, Martin Schlumberger, Manisha Shah, and Steven G. Waguespack. **Revised American Thyroid Association Guidelines for the Management of Medullary Thyroid Carcinoma.** Thyroid. 2015;25(6):567–610. DOI: https://doi.org/10.1089/thy.2014.0335.
 
 9. National Cancer Institute. **Genetics of Endocrine and Neuroendocrine Neoplasias (PDQ®) – Health Professional Version.** Dostęp: https://www.cancer.gov/types/thyroid/hp/medullary-thyroid-genetics-pdq.
 
-10. N. A. J. Thakker, R. A. Newey, M. Walls, and colleagues. **Clinical practice guidelines for multiple endocrine neoplasia type 1 (MEN1).** J Clin Endocrinol Metab. 2012;97(9):2990–3011. DOI: https://doi.org/10.1210/jc.2012-1230.
+10. Rajesh V. Thakker, Paul J. Newey, Gerard V. Walls, John Bilezikian, Henning Dralle, Peter R. Ebeling, Shlomo Melmed, Akihiro Sakurai, Francesco Tonelli, and Maria Luisa Brandi. **Clinical practice guidelines for multiple endocrine neoplasia type 1 (MEN1).** J Clin Endocrinol Metab. 2012;97(9):2990–3011. DOI: https://doi.org/10.1210/jc.2012-1230.
 
 11. Oxford University Hospitals NHS Foundation Trust. **Genetic testing for familial hyperparathyroidism (R151).** Informacje o wskazaniach i zakresie panelu genów. Dostęp: https://www.ouh.nhs.uk/services/referrals/genetics/genetics-laboratories/rare-disease-genomics/endocrine/r151/.
 
