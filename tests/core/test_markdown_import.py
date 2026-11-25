@@ -281,6 +281,7 @@ def test_import_rewrites_srcset_css_and_reference_markdown_assets(tmp_path):
         "[dokument]: <media/reference.pdf> \"Opis\"\n"
         "[Dokument][dokument]\n"
         '<img srcset="https://cdn.example.org/a.png 1x, media/small.png 2x">\n'
+        '<img srcset="data:image/png;base64,AAAA 1x, media/large.png 2x">\n'
     )
     (source_dir / "1_1_anatomia.md").write_text(original, encoding="utf-8")
 
@@ -298,6 +299,7 @@ def test_import_rewrites_srcset_css_and_reference_markdown_assets(tmp_path):
     assert "[dokument]: <assets/media/reference.pdf> \"Opis\"" in content
     assert "[Dokument][dokument]" in content
     assert "https://cdn.example.org/a.png 1x, assets/media/small.png 2x" in content
+    assert "data:image/png;base64,AAAA 1x, assets/media/large.png 2x" in content
     assert report["assets"]["copied"] == 4
 
     assets = (
