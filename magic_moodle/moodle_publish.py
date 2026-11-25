@@ -86,7 +86,11 @@ def _rewrite_book_asset_urls(html: str, files: list[dict[str, str]]) -> str:
 
     html = re.sub(
         r'(?P<quote>["\'])(?P<url>assets/[^"\']+)(?P=quote)',
-        lambda match: match.group("quote") + rewrite(match.group("url")) + match.group("quote"),
+        lambda match: match.group("quote") + re.sub(
+            r'assets/[^,\s"\']+',
+            lambda urlmatch: rewrite(urlmatch.group(0)),
+            match.group("url"),
+        ) + match.group("quote"),
         html,
     )
     html = re.sub(
