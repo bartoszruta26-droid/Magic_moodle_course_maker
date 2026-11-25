@@ -161,7 +161,18 @@ _LOCAL_MD_LINK_RE = re.compile(
     r"(?P<prefix>!?\[[^\]]*\]\()(?P<destination><[^>]*>|[^)\s]+)(?P<suffix>[^)]*\))"
 )
 _HTML_URL_ATTR_RE = re.compile(
-    r"(?P<prefix>\b(?:src|href|poster)\s*=\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
+    r"(?P<prefix>\\b(?:src|href|poster)\\s*=\\s*)(?P<quote>['\\"])(?P<url>.*?)(?P=quote)",
+    re.IGNORECASE,
+)
+_HTML_SRCSET_ATTR_RE = re.compile(
+    r"(?P<prefix>\\bsrcset\\s*=\\s*)(?P<quote>['\\"])(?P<url>.*?)(?P=quote)",
+    re.IGNORECASE,
+)
+_MARKDOWN_REFERENCE_RE = re.compile(
+    r"^(?P<prefix>\\s{0,3}\\[[^\\]]+\\]:\\s*)(?P<destination><[^>]*>|\\S+)(?P<suffix>.*)$"
+)
+_CSS_URL_RE = re.compile(
+    r"(?P<prefix>url\\(\\s*)(?P<quote>['\\"]?)(?P<url>.*?)(?P=quote)(?P<suffix>\\s*\\))",
     re.IGNORECASE,
 )
 
@@ -235,6 +246,39 @@ def _rewrite_local_asset_url(
     return urlunsplit(("", "", rewritten_path, parsed.query, parsed.fragment))
 
 
+def _rewrite_srcset(
+    value: str, source_root: Path, assets_root: Path, report: dict, copied: dict[str, str]
+) -> str:
+    """Przepisuje lokalne adresy w srcset, zachowując deskryptory wariantów."""
+    candidates: list[str] = []
+    for candidate in value.split(","):
+        item = candidate.strip()
+        if not item:
+            candidates.append(candidate)
+            continue
+        pieces = item.split(None, 1)
+        updated = _rewrite_local_asset_url(
+            pieces[0], source_root, assets_root, report, copied
+        )
+        candidates.append(updated + ((" " + pieces[1]) if len(pieces) > 1 else ""))
+    return ", ".join(candidates)
+
+
+def _rewrite_css_urls(
+    value: str, source_root: Path, assets_root: Path, report: dict, copied: dict[str, str]
+) -> str:
+    """Przepisuje lokalne url(...) w deklaracjach CSS."""
+    def replace(match: re.Match) -> str:
+        updated = _rewrite_local_asset_url(
+            match.group("url").strip(), source_root, assets_root, report, copied
+        )
+        return (
+            match.group("prefix") + match.group("quote") + updated
+            + match.group("quote") + match.group("suffix")
+        )
+    return _CSS_URL_RE.sub(replace, value)
+
+
 def _rewrite_markdown_assets(
     markdown_text: str,
     source_file: Path,
@@ -242,16 +286,24 @@ def _rewrite_markdown_assets(
     report: dict,
     copied: dict[str, str],
 ) -> str:
-    """Przepisuje lokalne odwołania Markdown i atrybuty HTML src/href/poster."""
+    """Przepisuje lokalne odwołania Markdown, HTML, srcset i CSS."""
     source_root = source_file.parent.resolve()
     assets_root = chapter_dir / "assets"
 
-    def markdown_replace(match: re.Match) -> str:
-        destination = match.group("destination")
+    def rewrite_destination(destination: str) -> str:
         wrapped = destination.startswith("<") and destination.endswith(">")
         raw_url = destination[1:-1] if wrapped else destination
-        updated = _rewrite_local_asset_url(raw_url, source_root, assets_root, report, copied)
-        return match.group("prefix") + (f"<{updated}>" if wrapped else updated) + match.group("suffix")
+        updated = _rewrite_local_asset_url(
+            raw_url, source_root, assets_root, report, copied
+        )
+        return f"<{updated}>" if wrapped else updated
+
+    def markdown_replace(match: re.Match) -> str:
+        return (
+            match.group("prefix")
+            + rewrite_destination(match.group("destination"))
+            + match.group("suffix")
+        )
 
     def html_replace(match: re.Match) -> str:
         updated = _rewrite_local_asset_url(
@@ -259,12 +311,19 @@ def _rewrite_markdown_assets(
         )
         return match.group("prefix") + match.group("quote") + updated + match.group("quote")
 
+    def srcset_replace(match: re.Match) -> str:
+        updated = _rewrite_srcset(
+            match.group("url"), source_root, assets_root, report, copied
+        )
+        return match.group("prefix") + match.group("quote") + updated + match.group("quote")
+
     output: list[str] = []
     fence_char: str | None = None
     fence_length = 0
+    in_style_block = False
     for line in markdown_text.splitlines(keepends=True):
         stripped = line.lstrip()
-        fence_match = re.match(r"^(\x60{3,}|~{3,})", stripped)
+        fence_match = re.match(r"^(`{3,}|~{3,})", stripped)
         if fence_match:
             marker = fence_match.group(1)
             if fence_char is None:
@@ -276,9 +335,37 @@ def _rewrite_markdown_assets(
         if fence_char is not None:
             output.append(line)
             continue
-        rewritten = _LOCAL_MD_LINK_RE.sub(markdown_replace, line)
-        output.append(_HTML_URL_ATTR_RE.sub(html_replace, rewritten))
+
+        rewritten = line
+        newline = "\r\n" if rewritten.endswith("\r\n") else (
+            "\n" if rewritten.endswith("\n") else ""
+        )
+        body = rewritten[:-len(newline)] if newline else rewritten
+        reference = _MARKDOWN_REFERENCE_RE.match(body)
+        if reference:
+            rewritten = (
+                reference.group("prefix")
+                + rewrite_destination(reference.group("destination"))
+                + reference.group("suffix")
+                + newline
+            )
+
+        rewritten = _LOCAL_MD_LINK_RE.sub(markdown_replace, rewritten)
+        rewritten = _HTML_SRCSET_ATTR_RE.sub(srcset_replace, rewritten)
+        rewritten = _HTML_URL_ATTR_RE.sub(html_replace, rewritten)
+
+        if re.search(r"<\s*style\b", rewritten, re.IGNORECASE):
+            in_style_block = True
+        if in_style_block or re.search(r"\bstyle\s*=", rewritten, re.IGNORECASE):
+            rewritten = _rewrite_css_urls(
+                rewritten, source_root, assets_root, report, copied
+            )
+        if re.search(r"</\s*style\s*>", rewritten, re.IGNORECASE):
+            in_style_block = False
+
+        output.append(rewritten)
     return "".join(output)
+
 
 def import_markdown_course(
     source: str | Path,
