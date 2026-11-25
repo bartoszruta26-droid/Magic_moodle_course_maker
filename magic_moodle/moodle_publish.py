@@ -46,7 +46,7 @@ def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]
             raise MoodleAPIError("Zasób Book musi być zwykłym plikiem.")
         relative = path.relative_to(assets_root)
         relative_name = relative.as_posix()
-        if relative_name not in references:
+        if "assets/" + relative_name not in references:
             continue
         if any(part in {"", ".", ".."} or "\\" in part or "\x00" in part for part in relative.parts):
             raise MoodleAPIError("Niebezpieczna ścieżka zasobu Book.")
