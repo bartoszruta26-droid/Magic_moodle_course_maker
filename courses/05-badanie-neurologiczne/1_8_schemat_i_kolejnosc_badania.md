@@ -95,7 +95,7 @@ Badanie ukierunkowane jest celowo zawężone do określonego problemu, np. podej
 
 ### 3.4. Schemat wyboru trybu
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Kontakt z pacjentem] --> B{Czy występuje zagrożenie życia lub gwałtowne pogorszenie?}
     B -- Tak --> C[ABCDE i wezwanie odpowiedniej pomocy]
@@ -107,7 +107,7 @@ flowchart TD
     G --> I[Podsumowanie i lokalizacja]
     H --> I
     I --> J[Plan dalszego postępowania i dokumentacja]
-\`\`\`
+```
 
 ---
 
@@ -145,7 +145,7 @@ Nie należy zmieniać pozycji pacjenta tylko po to, aby zachować sztywny schema
 
 ### 4.3. Schemat pozycyjny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Pacjent w pozycji bezpiecznej] --> B[Siedzenie: kontakt, mowa, nerwy czaszkowe]
     B --> C[Leżenie: siła, napięcie, czucie, odruchy]
@@ -158,7 +158,7 @@ flowchart TD
     E --> J[Podsumowanie]
     H --> J
     I --> J
-\`\`\`
+```
 
 ---
 
@@ -682,7 +682,7 @@ Najpierw należy wykluczyć majaczenie i ostre przyczyny somatyczne. Następnie 
 
 ### 18.4. Algorytm pełnego badania
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Przygotowanie i zgoda] --> B[Ocena ogólna i parametry życiowe]
     B --> C{Niestabilność lub objaw alarmowy?}
@@ -697,7 +697,7 @@ flowchart TD
     K --> L[Autonomiczne i oponowe – według wskazań]
     L --> M[Integracja wyników]
     M --> N[Dokumentacja i plan]
-\`\`\`
+```
 
 ---
 
