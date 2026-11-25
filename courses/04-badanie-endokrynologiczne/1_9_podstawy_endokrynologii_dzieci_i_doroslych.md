@@ -69,7 +69,7 @@ Nie wolno utożsamiać wieku kostnego z „wiekiem hormonalnym” ani na podstaw
 
 ### 2.3. Schemat interpretacji
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A[Wynik badania hormonalnego] --> B[Weryfikacja tożsamości i jakości próbki]
  B --> C[Wiek chronologiczny i ewentualna korekta]
@@ -81,7 +81,7 @@ flowchart TD
  H --> I{Czy wynik jest wiarygodny i klinicznie spójny?}
  I -->|Tak| J[Interpretacja w kontekście i dalszy plan]
  I -->|Nie| K[Weryfikacja, konsultacja, ewentualne powtórzenie]
-\`\`\`
+```
 
 **Wniosek:** nie należy rozpoczynać interpretacji od pytania „czy wynik mieści się w normie?”, lecz od pytania „jaki zakres i jakie znaczenie ma ten wynik dla konkretnej osoby w jej aktualnym stanie fizjologicznym?”.
 
@@ -739,7 +739,7 @@ Europejskie wspólne wytyczne ESPE/ESE z 2026 r. podkreślają potrzebę elastyc
 
 ### 13.4. Schemat przejścia
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A[Opieka pediatryczna] --> B[Wczesne rozpoznanie potrzeby przejścia]
  B --> C[Edukacja i ocena gotowości]
@@ -749,7 +749,7 @@ flowchart TD
  F --> G[Transfer odpowiedzialności]
  G --> H[Potwierdzenie pierwszej wizyty]
  H --> I[Kontrola ciągłości i korekta planu]
-\`\`\`
+```
 
 Nie należy uzależniać przejścia wyłącznie od ukończenia określonego wieku. Ważne są stabilność kliniczna, gotowość, dostępność opieki i charakter choroby. Proces powinien zapobiegać przerwaniu leczenia.
 
