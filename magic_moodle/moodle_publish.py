@@ -99,60 +99,10 @@ def _course_payload(course: Course, category_id: int) -> dict[str, Any]:
 
 
 def _markdown_to_html(source: str) -> str:
-    """Convert a safe Markdown subset without adding a third-party dependency."""
-    import html
-    import re
+    """Render Markdown przez wspólny, bezpieczny renderer projektu."""
+    from .markdown import render_markdown
 
-    def inline(value: str) -> str:
-        value = html.escape(value, quote=False)
-        value = re.sub(r"`([^`]+)`", r"<code>\1</code>", value)
-        value = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", value)
-        value = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", value)
-        return value
-
-    output: list[str] = []
-    paragraph: list[str] = []
-    in_list = False
-
-    def flush() -> None:
-        if paragraph:
-            output.append("<p>" + "<br>".join(inline(line) for line in paragraph) + "</p>")
-            paragraph.clear()
-
-    for raw_line in source.splitlines():
-        line = raw_line.strip()
-        if not line:
-            flush()
-            if in_list:
-                output.append("</ul>")
-                in_list = False
-            continue
-        if line.startswith("### "):
-            flush()
-            output.append("<h3>" + inline(line[4:]) + "</h3>")
-        elif line.startswith("## "):
-            flush()
-            output.append("<h2>" + inline(line[3:]) + "</h2>")
-        elif line.startswith("# "):
-            flush()
-            output.append("<h2>" + inline(line[2:]) + "</h2>")
-        elif line.startswith("- ") or line.startswith("* "):
-            flush()
-            if not in_list:
-                output.append("<ul>")
-                in_list = True
-            output.append("<li>" + inline(line[2:]) + "</li>")
-        else:
-            if in_list:
-                output.append("</ul>")
-                in_list = False
-            paragraph.append(line)
-    flush()
-    if in_list:
-        output.append("</ul>")
-    return "\n".join(output)
-
-
+    return render_markdown(source)
 def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
     payload = _course_payload(course, category_id)
     activities: list[dict[str, Any]] = []
