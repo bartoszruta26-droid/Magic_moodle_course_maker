@@ -103,7 +103,11 @@ jobs:
         working-directory: /tmp/moodle
         run: |
           mkdir -p /tmp/moodle-mbz
-          php admin/cli/backup.php --courseid=1 --destination=/tmp/moodle-mbz
+          FIXTURE_OUTPUT="$(MOODLE_ROOT=/tmp/moodle php "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php" create)"
+          echo "$FIXTURE_OUTPUT"
+          COURSE_ID="$(printf '%s\\n' "$FIXTURE_OUTPUT" | sed -n 's/^MBZ_FIXTURE_COURSE_ID=//p')"
+          test -n "$COURSE_ID"
+          php admin/cli/backup.php --courseid="$COURSE_ID" --destination=/tmp/moodle-mbz
           BACKUP_FILE="$(find /tmp/moodle-mbz -maxdepth 1 -type f -name '*.mbz' -print -quit)"
           test -n "$BACKUP_FILE"
           echo "$BACKUP_FILE" > /tmp/moodle-mbz/backup-path.txt
@@ -136,17 +140,7 @@ jobs:
           php admin/cli/restore_backup.php --file="$BACKUP_FILE" --categoryid=1
           AFTER_ID="$(php -r 'define("CLI_SCRIPT", true); require "config.php"; global $DB; echo (int)$DB->get_field_sql("SELECT MAX(id) FROM {course}");')"
           test "$AFTER_ID" -gt "$BEFORE_ID"
-          RESTORED_COURSE_ID="$AFTER_ID" php -r '
-            define("CLI_SCRIPT", true);
-            require "config.php";
-            global $DB;
-            $course = $DB->get_record("course", ["id" => (int)getenv("RESTORED_COURSE_ID")], "*", MUST_EXIST);
-            if (empty($course->fullname) || empty($course->shortname) || (int)$course->category !== 1) {
-                fwrite(STDERR, "Restored course metadata is incomplete.\\n");
-                exit(1);
-            }
-            echo "Restored course verified: id={$course->id}, shortname={$course->shortname}\\n";
-          '
+          MOODLE_ROOT=/tmp/moodle MBZ_COURSE_ID="$AFTER_ID" php "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php" verify
 
       - name: Upload Moodle MBZ round-trip evidence
         if: always()
