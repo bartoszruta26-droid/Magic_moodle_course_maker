@@ -1524,7 +1524,7 @@ def test_book_assets_reject_symlinks(tmp_path):
         (assets / "link.bin").symlink_to(outside)
     except (OSError, NotImplementedError):
         pytest.skip("Symlinks are unavailable on this platform.")
-    with pytest.raises(MoodleAPIError, match="dowiązania symbolicznego"):
+    with pytest.raises(MoodleAPIError, match="dowiązań symbolicznych"):
         _book_assets_payload(activity)
 
 
@@ -1545,8 +1545,8 @@ def test_moodle_book_plugin_validates_and_persists_chapter_files():
         Path(__file__).parents[2]
         / "moodle-plugin/local/magicmoodle/classes/external/create_book.php"
     ).read_text(encoding="utf-8")
-    assert "'files' => new \\\\external_multiple_structure(" in plugin
-    assert "'contentbase64' => new \\\\external_value(PARAM_RAW" in plugin
+    assert r"'files' => new \external_multiple_structure(" in plugin
+    assert r"'contentbase64' => new \external_value(PARAM_RAW" in plugin
     assert "base64_decode($file['contentbase64'], true)" in plugin
     assert "'component' => 'mod_book'" in plugin
     assert "'filearea' => 'chapter'" in plugin
