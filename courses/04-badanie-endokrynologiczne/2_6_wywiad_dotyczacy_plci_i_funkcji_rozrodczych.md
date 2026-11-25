@@ -1346,7 +1346,7 @@ Poniższe źródła stanowią podstawę aktualizacji treści. Zalecenia należy 
 
 1. American Society for Reproductive Medicine Practice Committee. **Current evaluation of amenorrhea: a committee opinion.** Fertility and Sterility. 2024;122:52–61. Dostęp: https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea
 
-2. Helena J. Teede, Marie L. Misso, Michael F. Costello, Robert J. Norman, Anuja Moran, Lisa Brennan, Jacqueline Boyle, Cheryce Harrison, Roger Hart, et al. **Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome.** Journal of Clinical Endocrinology & Metabolism. 2023;108(10):2447–2469. Dostęp: https://academic.oup.com/jcem/article/108/10/2447/7242360
+2. Helena J. Teede, Chau Thien Tay, Joop J. E. Laven, Anuja Dokras, Lisa J. Moran, Terhi T. Piltonen, Michael F. Costello, Jacky Boivin, Leanne M. Redman, Jacqueline A. Boyle, Robert J. Norman, Aya Mousa, Anju E. Joham; International PCOS Network. **Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome.** Journal of Clinical Endocrinology & Metabolism. 2023;108(10):2447–2469. DOI: 10.1210/clinem/dgad463. Dostęp: https://pubmed.ncbi.nlm.nih.gov/37580314/
 
 3. ESHRE, ASRM, CREWHIRL and IMS Guideline Group on POI. **Evidence-based guideline: premature ovarian insufficiency.** Human Reproduction Open. 2024;2024(4):hoae065. DOI: 10.1093/hropen/hoae065. Dostęp: https://doi.org/10.1093/hropen/hoae065
 
@@ -1356,13 +1356,13 @@ Poniższe źródła stanowią podstawę aktualizacji treści. Zalecenia należy 
 
 6. American Urological Association, American Society for Reproductive Medicine. **Diagnosis and Treatment of Infertility in Men: AUA/ASRM Guideline Part I.** Dostęp: https://www.asrm.org/practice-guidance/practice-committee-documents/diagnosis-and-treatment-of-infertility-in-men-auaasrm-guideline-part-i-2020/
 
-7. Shalender Bhasin, Gail A. Brito, Glenn R. Cunningham, Frances J. Hayes, Shalender Bhasin, et al. **Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline.** Journal of Clinical Endocrinology & Metabolism. 2018;103(5):1715–1744. DOI: 10.1210/jc.2018-00229. Dostęp: https://doi.org/10.1210/jc.2018-00229
+7. Shalender Bhasin, Juan P. Brito, Glenn R. Cunningham, Frances J. Hayes, Howard N. Hodis, Alvin M. Matsumoto, Peter J. Snyder, Ronald S. Swerdloff, Frederick C. Wu, Maria A. Yialamas. **Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline.** Journal of Clinical Endocrinology & Metabolism. 2018;103(5):1715–1744. DOI: 10.1210/jc.2018-00229. Dostęp: https://pubmed.ncbi.nlm.nih.gov/29562364/
 
 8. World Health Organization. **Medical eligibility criteria for contraceptive use. Sixth edition.** Geneva: WHO; 2025. ISBN 978-92-4-011558-3. Dostęp: https://www.who.int/publications/i/item/9789240115583
 
 9. American College of Obstetricians and Gynecologists. **Menstruation in Girls and Adolescents: Using the Menstrual Cycle as a Vital Sign.** Committee Opinion No. 651. Obstetrics & Gynecology. 2015;126:e143–e146. Dostęp: https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/12/menstruation-in-girls-and-adolescents-using-the-menstrual-cycle-as-a-vital-sign
 
-10. International Federation of Gynecology and Obstetrics. **FIGO systems for nomenclature and classification of causes of abnormal uterine bleeding in the reproductive years.** Materiały i aktualizacje FIGO dotyczące PALM–COEIN. Dostęp: https://www.figo.org/
+10. Malcolm G. Munro, Hilary O. D. Critchley, Ian S. Fraser, FIGO Menstrual Disorders Committee. **The two FIGO systems for normal and abnormal uterine bleeding symptoms and classification of causes of abnormal uterine bleeding in the reproductive years: 2018 revisions.** International Journal of Gynecology & Obstetrics. 2018;143(3):393–408. DOI: 10.1002/ijgo.12666. Dostęp: https://doi.org/10.1002/ijgo.12666
 
 11. National Institute for Health and Care Excellence. **Heavy menstrual bleeding: assessment and management. NICE guideline NG88.** Dostęp: https://www.nice.org.uk/guidance/ng88
 
@@ -1374,15 +1374,15 @@ Poniższe źródła stanowią podstawę aktualizacji treści. Zalecenia należy 
 
 15. Ministerstwo Zdrowia / pacjent.gov.pl. **Prawa każdego pacjenta – bez dyskryminacji.** Dostęp: https://pacjent.gov.pl/prawa-kazdego-pacjenta-bez-dyskryminacji
 
-16. World Health Organization. **Sexual health, human rights and the law.** Geneva: WHO; 2015. Dostęp: https://www.who.int/
+16. World Health Organization. **Sexual health, human rights and the law.** Geneva: WHO; 2015. ISBN 978-92-4-156498-4. Dostęp: https://www.who.int/publications/i/item/9789241564984
 
-17. World Health Organization. **Sexual health and its linkages to reproductive health: an operational approach.** Geneva: WHO; 2017. Dostęp: https://www.who.int/
+17. World Health Organization. **Sexual health and its linkages to reproductive health: an operational approach.** Geneva: WHO; 2017. ISBN 978-92-4-151288-6. Dostęp: https://www.who.int/publications/i/item/978924151288
 
 18. European Society of Human Reproduction and Embryology. **Guidelines and good practice recommendations in reproductive medicine.** Zasoby i aktualizacje ESHRE. Dostęp: https://www.eshre.eu/Guidelines-and-Legal
 
 19. European Association of Urology. **EAU Guidelines on Sexual and Reproductive Health.** Aktualna edycja wytycznych. Dostęp: https://uroweb.org/guidelines/sexual-and-reproductive-health
 
-20. American College of Obstetricians and Gynecologists. **Sexual Health.** Materiały kliniczne i edukacyjne dotyczące rozmowy o zdrowiu seksualnym. Dostęp: https://www.acog.org/
+20. American College of Obstetricians and Gynecologists. **Committee Opinion No. 706: Sexual Health.** Obstetrics & Gynecology. 2017;130(1):e42–e47. DOI: 10.1097/AOG.0000000000002161. Dostęp: https://pubmed.ncbi.nlm.nih.gov/28644338/
 
 21. Ustawa z dnia 6 listopada 2008 r. o prawach pacjenta i Rzeczniku Praw Pacjenta, z późniejszymi zmianami. ISAP – Internetowy System Aktów Prawnych. Dostęp: https://isap.sejm.gov.pl/
 
