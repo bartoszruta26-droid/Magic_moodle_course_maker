@@ -310,3 +310,19 @@ def test_import_rewrites_srcset_css_and_reference_markdown_assets(tmp_path):
     assert (assets / "large.png").read_bytes() == b"LARGE"
     assert (assets / "background image.png").read_bytes() == b"BACKGROUND"
     assert (assets / "reference.pdf").read_bytes() == b"REFERENCE"
+
+
+def test_import_reports_malformed_external_url_without_aborting(tmp_path):
+    source = _source_tree(tmp_path)
+    (source.parent / "1_1_anatomia.md").write_text(
+        "[Nieprawidłowy adres](http://[::1)\\n",
+        encoding="utf-8",
+    )
+
+    report = import_markdown_course(source, tmp_path / "generated-malformed-url")
+
+    assert report["assets"]["copied"] == 0
+    assert report["assets"]["missing"] == []
+    assert report["assets"]["rejected"] == [
+        {"topic": "1.1", "url": "http://[::1", "reason": "invalid_url"}
+    ]
