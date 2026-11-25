@@ -64,6 +64,131 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $this->assertSame('<p>Treść po zmianie</p>', $chapter->content);
     }
 
+    public function test_book_chapter_files_are_created_and_replaced_without_affecting_other_chapters(): void {
+        global $USER;
+
+        $course = $this->create_sync_course();
+        $firstbytes = "\x89PNG\r\n\x1a\nfirst";
+        $secondbytes = "\x89PNG\r\n\x1a\nsecond";
+        $created = create_book::execute(
+            $course->id,
+            1,
+            'Podręcznik z grafikami',
+            [
+                [
+                    'sourceid' => 'chapter-one',
+                    'title' => 'Pierwszy',
+                    'content' => '<p><img src="@@PLUGINFILE@@/assets/first.png"></p>',
+                    'subchapter' => false,
+                    'files' => [[
+                        'filepath' => '/assets/',
+                        'filename' => 'first.png',
+                        'contentbase64' => base64_encode($firstbytes),
+                    ]],
+                ],
+                [
+                    'sourceid' => 'chapter-two',
+                    'title' => 'Drugi',
+                    'content' => '<p><img src="@@PLUGINFILE@@/assets/second.png"></p>',
+                    'subchapter' => false,
+                    'files' => [[
+                        'filepath' => '/assets/',
+                        'filename' => 'second.png',
+                        'contentbase64' => base64_encode($secondbytes),
+                    ]],
+                ],
+            ],
+            [],
+            1,
+            'it-book-assets-001'
+        );
+
+        $context = context_module::instance($created['cmid']);
+        $fs = get_file_storage();
+        $firstchapterid = $created['chapterids'][0]['chapterid'];
+        $secondchapterid = $created['chapterids'][1]['chapterid'];
+        $firstfile = $fs->get_file($context->id, 'mod_book', 'chapter', $firstchapterid, '/assets/', 'first.png');
+        $secondfile = $fs->get_file($context->id, 'mod_book', 'chapter', $secondchapterid, '/assets/', 'second.png');
+        $this->assertNotFalse($firstfile);
+        $this->assertNotFalse($secondfile);
+        $this->assertSame($firstbytes, $firstfile->get_content());
+        $this->assertSame($secondbytes, $secondfile->get_content());
+
+        $replacementbytes = "\x89PNG\r\n\x1a\nreplacement";
+        $updated = create_book::execute(
+            $course->id,
+            1,
+            'Podręcznik z grafikami',
+            [
+                [
+                    'sourceid' => 'chapter-one',
+                    'title' => 'Pierwszy po zmianie',
+                    'content' => '<p><img src="@@PLUGINFILE@@/assets/replacement.png"></p>',
+                    'subchapter' => false,
+                    'files' => [[
+                        'filepath' => '/assets/',
+                        'filename' => 'replacement.png',
+                        'contentbase64' => base64_encode($replacementbytes),
+                    ]],
+                ],
+                [
+                    'sourceid' => 'chapter-two',
+                    'title' => 'Drugi',
+                    'content' => '<p><img src="@@PLUGINFILE@@/assets/second.png"></p>',
+                    'subchapter' => false,
+                    'files' => [[
+                        'filepath' => '/assets/',
+                        'filename' => 'second.png',
+                        'contentbase64' => base64_encode($secondbytes),
+                    ]],
+                ],
+            ],
+            $created['chapterids'],
+            1,
+            'it-book-assets-001'
+        );
+
+        $this->assertTrue($updated['updated']);
+        $this->assertSame($created['chapterids'], $updated['chapterids']);
+        $this->assertFalse($fs->file_exists($context->id, 'mod_book', 'chapter', $firstchapterid, '/assets/', 'first.png'));
+        $replacement = $fs->get_file($context->id, 'mod_book', 'chapter', $firstchapterid, '/assets/', 'replacement.png');
+        $preserved = $fs->get_file($context->id, 'mod_book', 'chapter', $secondchapterid, '/assets/', 'second.png');
+        $this->assertNotFalse($replacement);
+        $this->assertNotFalse($preserved);
+        $this->assertSame($replacementbytes, $replacement->get_content());
+        $this->assertSame($secondbytes, $preserved->get_content());
+    }
+
+    public function test_book_rejects_invalid_asset_paths_and_base64_before_writing(): void {
+        $course = $this->create_sync_course();
+        $invalidcases = [
+            ['filepath' => '/assets/../outside/', 'filename' => 'bad.bin', 'contentbase64' => base64_encode('x')],
+            ['filepath' => '/assets/', 'filename' => 'bad.bin', 'contentbase64' => '%%%not-base64%%%'],
+        ];
+        foreach ($invalidcases as $index => $file) {
+            try {
+                create_book::execute(
+                    $course->id,
+                    1,
+                    'Nieprawidłowe zasoby ' . $index,
+                    [[
+                        'sourceid' => 'chapter-invalid-' . $index,
+                        'title' => 'Rozdział',
+                        'content' => '<p>Treść</p>',
+                        'subchapter' => false,
+                        'files' => [$file],
+                    ]],
+                    [],
+                    1,
+                    'it-book-invalid-' . $index
+                );
+                $this->fail('Expected invalid Book asset payload to be rejected.');
+            } catch (invalid_parameter_exception $exception) {
+                $this->assertNotEmpty($exception->getMessage());
+            }
+        }
+    }
+
     public function test_book_update_rolls_back_all_chapters_after_mid_operation_database_failure(): void {
         global $DB;
 
