@@ -45,7 +45,6 @@ _EXTENSIONS = (
     "footnotes",
     "attr_list",
     "md_in_html",
-    "toc",
 )
 
 
