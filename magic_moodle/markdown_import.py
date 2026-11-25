@@ -190,7 +190,11 @@ def _rewrite_local_asset_url(
     value = raw_url.strip()
     if not value or value.startswith("#"):
         return raw_url
-    parsed = urlsplit(value)
+    try:
+        parsed = urlsplit(value)
+    except ValueError:
+        report["rejected"].append({"url": raw_url, "reason": "invalid_url"})
+        return raw_url
     if parsed.scheme or parsed.netloc or value.startswith("//"):
         return raw_url
     if not parsed.path:
