@@ -59,3 +59,16 @@ def test_preserves_polish_characters_and_math_source() -> None:
 def test_requires_text_input() -> None:
     with pytest.raises(TypeError):
         render_markdown(None)  # type: ignore[arg-type]
+
+
+def test_heading_offset_is_explicit_and_bounded() -> None:
+    rendered = render_markdown("# Tytuł\\n\\n###### Najniższy")
+    shifted = render_markdown("# Tytuł\\n\\n###### Najniższy", heading_offset=1)
+    assert "<h1>Tytuł</h1>" in rendered
+    assert "<h2>Tytuł</h2>" in shifted
+    assert "<h6>Najniższy</h6>" in shifted
+
+
+def test_rejects_invalid_heading_offset() -> None:
+    with pytest.raises(ValueError):
+        render_markdown("# Tytuł", heading_offset=6)
