@@ -1537,7 +1537,7 @@ def test_book_assets_enforce_file_count_and_size_limits(tmp_path):
     for index in range(101):
         (assets / f"{index}.bin").write_bytes(b"x")
     with pytest.raises(MoodleAPIError, match="100 plików"):
-        _book_assets_payload(activity, '<img src="assets/0.bin">')
+        _book_assets_payload(activity, ''.join(f'<img src="assets/{index}.bin">' for index in range(101)))
 
 
 def test_moodle_book_plugin_validates_and_persists_chapter_files():
