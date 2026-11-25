@@ -4,6 +4,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Any
@@ -24,10 +25,11 @@ class PublishPlan:
 
 def _book_assets_payload(activity_path: Path) -> list[dict[str, str]]:
     """Read bounded binary Book assets without following symlinks."""
-    assets_root = activity_path / "chapters" / "assets"
-    if not assets_root.exists():
+    chapters_root = activity_path / "chapters"
+    assets_root = chapters_root / "assets"
+    if not chapters_root.exists() or not assets_root.exists():
         return []
-    if assets_root.is_symlink() or not assets_root.is_dir():
+    if chapters_root.is_symlink() or assets_root.is_symlink() or not assets_root.is_dir():
         raise MoodleAPIError("Katalog zasobów Book musi być zwykłym katalogiem.")
     files: list[dict[str, str]] = []
     total = 0
@@ -560,6 +562,9 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     chapter_html = _markdown_to_html(chapter_source)
                     try:
                         chapter_files = _book_assets_payload(section.path / activity.ref)
+                        asset_bytes = sum(len(base64.b64decode(item["contentbase64"])) for item in chapter_files)
+                        if total_chapter_bytes + asset_bytes > 5 * 1024 * 1024:
+                            raise MoodleAPIError("Łączny rozmiar treści i zasobów Book przekracza limit 5 MiB.")
                         chapter_html = _rewrite_book_asset_urls(chapter_html, chapter_files)
                     except (OSError, ValueError, KeyError) as exc:
                         warnings.append(f"Książka '{activity.name}': błąd zasobów: {exc}")
