@@ -71,7 +71,7 @@ Nietolerancja ortostatyczna oznacza występowanie objawów podczas przyjmowania 
 
 ### 2.6. Hipotonia ortostatyczna
 
-Klasyczna hipotonia ortostatyczna to utrwalony spadek ciśnienia skurczowego o co najmniej 20 mmHg lub rozkurczowego o co najmniej 10 mmHg w ciągu 3 minut od przyjęcia pozycji stojącej albo podczas odpowiednio przeprowadzonego testu pochyleniowego. U osób z nadciśnieniem w pozycji leżącej w niektórych kryteriach rozważa się większy spadek, na przykład 30/15 mmHg; interpretacja zależy od kontekstu i przyjętych standardów.
+Klasyczna hipotonia ortostatyczna to utrwalony spadek ciśnienia skurczowego o co najmniej 20 mmHg lub rozkurczowego o co najmniej 10 mmHg w ciągu 3 minut od przyjęcia pozycji stojącej albo podczas odpowiednio przeprowadzonego testu pochyleniowego. U osób z nadciśnieniem w pozycji leżącej w niektórych kryteriach rozważa się większy spadek, na przykład 30/15 mmHg; interpretacja zależy od kontekstu i przyjętych standardów. Przejściowa hipotonia początkowa pojawia się w pierwszych około 15 sekundach pionizacji i zwykle wymaga ciągłego, uderzenie po uderzeniu pomiaru ciśnienia; standardowy mankiet może jej nie uchwycić. Hipotonia opóźniona ujawnia się po upływie 3 minut stania i może wymagać dłuższej, nadzorowanej obserwacji.
 
 Hipotonia ortostatyczna jest objawem lub znakiem klinicznym, a nie samodzielnym rozpoznaniem etiologicznym. Może wynikać z odwodnienia, krwawienia, leków, niewydolności serca, zaburzeń hormonalnych, odtrenowania lub niewydolności autonomicznej.
 
@@ -121,7 +121,7 @@ Włókna współczulne są ważne dla:
 
 Część przywspółczulna obejmuje włókna czaszkowe związane z nerwami III, VII, IX i X oraz włókna krzyżowe z segmentów S2–S4. Nerw błędny ma szczególne znaczenie dla regulacji serca i znacznej części przewodu pokarmowego. Ośrodki krzyżowe uczestniczą w kontroli pęcherza, dystalnej części jelita grubego i funkcji seksualnych.
 
-### 3.4. Jel itowy układ nerwowy i kontrola trzewna
+### 3.4. Jelitowy układ nerwowy i kontrola trzewna
 
 Jelitowy układ nerwowy obejmuje sploty śródmięśniowy i podśluzówkowy. Koordynuje motorykę, wydzielanie i miejscowy przepływ krwi, pozostając pod wpływem układu współczulnego, przywspółczulnego, hormonów i bodźców miejscowych. Zaburzenia motoryki przewodu pokarmowego nie muszą zatem wynikać wyłącznie z uszkodzenia nerwów autonomicznych.
 
@@ -230,7 +230,7 @@ W sytuacji, gdy pacjent nie może bezpiecznie stać, nie należy wymuszać prób
 
 Przy spadku ciśnienia prawidłowa odpowiedź obejmuje zwykle wzrost częstości rytmu serca. Niewielka lub nieobecna odpowiedź może wspierać podejrzenie niewydolności autonomicznej, ale beta-adrenolityki, niektóre blokery kanału wapniowego, zaburzenia przewodzenia, migotanie przedsionków, rozrusznik i inne czynniki mogą zaburzać interpretację.
 
-Wzrost tętna bez istotnego spadku ciśnienia może występować w różnych stanach, w tym w hipowolemii, odtrenowaniu, gorączce, niedokrwistości, nadczynności tarczycy, lęku lub zespole posturalnej tachykardii ortostatycznej (POTS). POTS wymaga spełnienia pełnego zestawu kryteriów klinicznych i wykluczenia innych przyczyn; nie wolno rozpoznawać go na podstawie samego przyrostu tętna.
+Wzrost tętna bez istotnego spadku ciśnienia może występować w różnych stanach, w tym w hipowolemii, odtrenowaniu, gorączce, niedokrwistości, nadczynności tarczycy, lęku lub zespole posturalnej tachykardii ortostatycznej (POTS). W często stosowanych kryteriach u dorosłych uwzględnia się utrwalony wzrost częstości rytmu serca o co najmniej 30/min w ciągu 10 minut pionizacji (u osób w wieku 12–19 lat co najmniej 40/min), bez spełnienia kryterium hipotonii ortostatycznej, przy przewlekłych objawach nietolerancji ortostatycznej i po wykluczeniu innych przyczyn tachykardii. Szczegółowe kryteria zależą od wytycznych i populacji. POTS nie wolno rozpoznawać na podstawie samego przyrostu tętna.
 
 ### 5.6. Hipotonia poposiłkowa
 
@@ -1067,7 +1067,7 @@ Dobre badanie podmiotowe nie polega na przypisaniu pacjentowi etykiety diagnosty
 2. American Autonomic Society, American Association of Neuromuscular & Electrodiagnostic Medicine. Utility and best practices for clinical diagnostic testing of the autonomic nervous system: A Consensus Statement. *Clinical Autonomic Research*. 2026. [https://doi.org/10.1007/s10286-026-01238-9](https://doi.org/10.1007/s10286-026-01238-9)
 3. Gibbons CH, Schmidt P, Biaggioni I, et al. The recommendations of a consensus panel for the screening, diagnosis, and treatment of neurogenic orthostatic hypotension and associated supine hypertension. *Journal of Neurology*. 2017. [https://pmc.ncbi.nlm.nih.gov/articles/PMC5533816/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5533816/)
 4. Juraschek SP, Biaggioni I, Cohen DL, et al. Orthostatic Hypotension in Adults With Hypertension: A Scientific Statement From the American Heart Association. *Hypertension*. 2024. [https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/)
-5. Cheshire WP, Freeman R, Gibbons CH, et al. Utility and best practices for clinical diagnostic testing of the autonomic nervous system. *Clinical Autonomic Research*. 2026. [https://link.springer.com/article/10.1007/s10286-026-01238-9](https://link.springer.com/article/10.1007/s10286-026-01238-9)
+5. The Consensus Committee of the American Autonomic Society and the American Academy of Neurology. Consensus statement on the definition of orthostatic hypotension, pure autonomic failure, and multiple system atrophy. *Neurology*. 1996;46(5):1470. [https://doi.org/10.1212/WNL.46.5.1470](https://doi.org/10.1212/WNL.46.5.1470)
 6. Hilz MJ, Wang R, Singer W. Validation of the Composite Autonomic Symptom Score 31 in the German language. *Neurological Sciences*. 2022;43:365–371. [https://doi.org/10.1007/s10072-021-05764-4](https://doi.org/10.1007/s10072-021-05764-4)
 7. Sletten DM, Suarez GA, Low PA, Mandrekar J, Singer W. COMPASS 31: A Refined and Abbreviated Composite Autonomic Symptom Score. *Mayo Clinic Proceedings*. 2012;87(12):1196–1201. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3541923/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3541923/)
 8. Gibbons CH, Illigens BM, Centi J, Freeman R. Validation of the Composite Autonomic Symptom Scale 31 (COMPASS-31) in patients with and without small-fiber polyneuropathy. *Journal of the Peripheral Nervous System*. 2015. [https://pmc.ncbi.nlm.nih.gov/articles/PMC4464987/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4464987/)
