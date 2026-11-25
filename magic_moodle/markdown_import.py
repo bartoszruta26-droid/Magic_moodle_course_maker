@@ -251,7 +251,7 @@ def _rewrite_srcset(
 ) -> str:
     """Przepisuje adresy srcset, nie rozcinając przecinki wewnątrz data URL."""
     candidate_re = re.compile(
-        r"(?P<url>data:[^\\s]+|[^,\\s]+)(?P<descriptor>\\s+[^,]+)?(?P<separator>\\s*,\\s*|$)",
+        r"(?P<url>data:[^\s]+|[^,\s]+)(?P<descriptor>\s+[^,]+)?(?P<separator>\s*,\s*|$)",
         re.IGNORECASE,
     )
     output: list[str] = []
