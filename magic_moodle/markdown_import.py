@@ -249,19 +249,24 @@ def _rewrite_local_asset_url(
 def _rewrite_srcset(
     value: str, source_root: Path, assets_root: Path, report: dict, copied: dict[str, str]
 ) -> str:
-    """Przepisuje lokalne adresy w srcset, zachowując deskryptory wariantów."""
-    candidates: list[str] = []
-    for candidate in value.split(","):
-        item = candidate.strip()
-        if not item:
-            candidates.append(candidate)
-            continue
-        pieces = item.split(None, 1)
+    """Przepisuje adresy srcset, nie rozcinając przecinki wewnątrz data URL."""
+    candidate_re = re.compile(
+        r"(?P<url>data:[^\\s]+|[^,\\s]+)(?P<descriptor>\\s+[^,]+)?(?P<separator>\\s*,\\s*|$)",
+        re.IGNORECASE,
+    )
+    output: list[str] = []
+    cursor = 0
+    for match in candidate_re.finditer(value):
+        output.append(value[cursor:match.start()])
         updated = _rewrite_local_asset_url(
-            pieces[0], source_root, assets_root, report, copied
+            match.group("url"), source_root, assets_root, report, copied
         )
-        candidates.append(updated + ((" " + pieces[1]) if len(pieces) > 1 else ""))
-    return ", ".join(candidates)
+        output.append(updated)
+        output.append(match.group("descriptor") or "")
+        output.append(match.group("separator") or "")
+        cursor = match.end()
+    output.append(value[cursor:])
+    return "".join(output)
 
 
 def _rewrite_css_urls(
