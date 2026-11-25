@@ -425,7 +425,7 @@ Od zewnątrz do wewnątrz wyróżnia się trzy strefy:
 | Warstwa | Główne produkty | Główna regulacja | Najważniejsza funkcja |
 |---|---|---|---|
 | Kłębkowata (zona glomerulosa) | Aldosteron | Angiotensyna II i stężenie potasu; ACTH ma mniejszą, zwykle przejściową rolę | Regulacja sodu, potasu, objętości płynów i ciśnienia |
-| Pas mowna (zona fasciculata) | Kortyzol | ACTH | Metabolizm, odpowiedź na stres, modulacja odporności i układu krążenia |
+| Pasmowata (zona fasciculata) | Kortyzol | ACTH | Metabolizm, odpowiedź na stres, modulacja odporności i układu krążenia |
 | Siatkowata (zona reticularis) | DHEA, DHEA-S, androstendion i inne steroidy | ACTH oraz regulacja enzymatyczna i rozwojowa | Źródło androgenów nadnerczowych |
 
 Pomocna mnemotechnika w języku angielskim to „GFR – salt, sugar, sex”: warstwa kłębkowata – sól, pasmowata – cukier, siatkowata – hormony płciowe. Należy traktować ją jako pomoc pamięciową, a nie pełny opis fizjologii.
