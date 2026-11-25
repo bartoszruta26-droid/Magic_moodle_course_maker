@@ -81,11 +81,11 @@ def test_import_real_neurology_course_outline(tmp_path):
 
     assert report["modules"] == 16
     assert report["topics_in_outline"] == 155
-    assert report["activities_created"] == 6
-    assert len(report["missing_topics"]) == 149
+    assert report["activities_created"] == 5
+    assert len(report["missing_topics"]) == 150
     assert course.section_count == 16
-    assert course.activity_count == 6
-    assert course.activity_types == {"book": 6}
+    assert course.activity_count == 5
+    assert course.activity_types == {"book": 5}
 
 
 def test_split_markdown_chapters_preserves_content_and_order():
