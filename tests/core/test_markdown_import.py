@@ -184,3 +184,60 @@ def test_import_real_neurology_book_chapters_round_trip(tmp_path):
     assert course.section_count == 16
     assert course.activity_count == 5
     assert course.activity_types == {"book": 5}
+
+def test_import_copies_and_rewrites_nested_local_assets(tmp_path):
+    source = _source_tree(tmp_path)
+    source_dir = source.parent
+    (source_dir / "media").mkdir()
+    (source_dir / "docs").mkdir()
+    (source_dir / "media" / "zdjęcie test.png").write_bytes(b"PNG-DATA")
+    (source_dir / "media" / "inline.png").write_bytes(b"INLINE-DATA")
+    (source_dir / "docs" / "załącznik.pdf").write_bytes(b"PDF-DATA")
+    original = (
+        "# Anatomia\n\n"
+        "![Zdjęcie](media/zdjęcie%20test.png?download=1#podpis)\n\n"
+        "[Dokument](docs/załącznik.pdf)\n\n"
+        '<img src="media/inline.png" alt="ilustracja">\n\n'
+        "[Zewnętrzny](https://example.org/obraz.png)\n\n"
+        "[Brakujący](missing.png)\n\n"
+        "[Poza katalogiem](../../outside.txt)\n"
+    )
+    (source_dir / "1_1_anatomia.md").write_text(original, encoding="utf-8")
+
+    destination = tmp_path / "generated-assets"
+    report = import_markdown_course(source, destination)
+    activity = load_course(destination).sections[0].activities[0]
+    chapters = activity.resource["chapters"]
+    content = "".join(activity.content[item["content_file"]] for item in chapters)
+
+    assert "assets/media/zdj%C4%99cie%20test.png?download=1#podpis" in content
+    assert "[Dokument](assets/docs/za%C5%82%C4%85cznik.pdf)" in content
+    assert 'src="assets/media/inline.png"' in content
+    assert "https://example.org/obraz.png" in content
+    assert "[Brakujący](missing.png)" in content
+    assert "[Poza katalogiem](../../outside.txt)" in content
+
+    asset_root = destination / "sections" / "01-modul-wstep" / activity.ref / "chapters" / "assets"
+    assert (asset_root / "media" / "zdjęcie test.png").read_bytes() == b"PNG-DATA"
+    assert (asset_root / "media" / "inline.png").read_bytes() == b"INLINE-DATA"
+    assert (asset_root / "docs" / "załącznik.pdf").read_bytes() == b"PDF-DATA"
+    assert report["assets"]["copied"] == 3
+    assert len(report["assets"]["missing"]) == 1
+    assert report["assets"]["rejected"][0]["reason"] == "path_traversal"
+
+
+def test_import_rejects_symlinked_local_assets(tmp_path):
+    source = _source_tree(tmp_path)
+    source_dir = source.parent
+    outside = tmp_path / "outside-secret.txt"
+    outside.write_text("not for import", encoding="utf-8")
+    (source_dir / "linked.txt").symlink_to(outside)
+    (source_dir / "1_1_anatomia.md").write_text(
+        "[Link](linked.txt)\n", encoding="utf-8"
+    )
+
+    report = import_markdown_course(source, tmp_path / "generated-symlink")
+    assert report["assets"]["copied"] == 0
+    assert report["assets"]["rejected"] == [
+        {"topic": "1.1", "url": "linked.txt", "reason": "symlink"}
+    ]
