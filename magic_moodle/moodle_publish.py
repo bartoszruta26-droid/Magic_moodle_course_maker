@@ -25,6 +25,8 @@ class PublishPlan:
 
 def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]:
     """Read bounded binary Book assets without following symlinks."""
+    if activity_path.is_symlink():
+        raise MoodleAPIError("Katalog aktywności Book nie może być dowiązaniem symbolicznym.")
     chapters_root = activity_path / "chapters"
     assets_root = chapters_root / "assets"
     if not chapters_root.exists() or not assets_root.exists():
