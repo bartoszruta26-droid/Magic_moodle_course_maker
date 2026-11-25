@@ -236,7 +236,7 @@ def import_markdown_course(
             yaml.safe_dump(section_config, allow_unicode=True, sort_keys=False),
             encoding="utf-8",
         )
-        (section_path / "section.md").write_text("\\n".join(summary_lines) + "\\n", encoding="utf-8")
+        (section_path / "section.md").write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
         section_summaries.append({
             "module": module.number,
             "title": module.title,
@@ -257,7 +257,7 @@ def import_markdown_course(
         "mbz_status": "not_generated",
     }
     (destination_path / "import-report.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     return report
