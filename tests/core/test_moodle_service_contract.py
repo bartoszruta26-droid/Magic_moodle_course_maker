@@ -36,11 +36,11 @@ def _php_parameter_names(source: str) -> set[str]:
     start = source.index("public static function execute_parameters()")
     end = source.index("public static function execute(", start)
     signature = source[start:end]
-    return set(re.findall(r"'([a-z][a-z0-9_]*)'\s*=>\s*new \\\\external_", signature))
+    return set(re.findall(r"'([a-z][a-z0-9_]*)'\s*=>\s*new \\external_", signature))
 
 
 def _python_payload_names(block: str) -> set[str]:
-    return set(re.findall(r'^\s{16}"([a-z][a-z0-9_]*)":', block, flags=re.MULTILINE))
+    return set(re.findall(r"""["']([a-z][a-z0-9_]*)["']\s*:""", block))
 
 
 def test_every_python_adapter_is_registered_to_the_matching_plugin_class():
@@ -49,8 +49,8 @@ def test_every_python_adapter_is_registered_to_the_matching_plugin_class():
         assert f"'{function_name}'" in SERVICES, f"{function_name} is absent from db/services.php"
         php = (EXTERNAL / filename).read_text(encoding="utf-8")
         class_name = filename.removesuffix(".php")
-        assert f"class {class_name} extends \\\\external_api" in php
-        assert f"\\\\local_magicmoodle\\\\external\\\\{class_name}" in SERVICES
+        assert f"class {class_name} extends \\external_api" in php
+        assert f"\\\\external\\\\{class_name}" in SERVICES
 
 
 def test_python_adapter_payload_keys_are_declared_by_moodle_php_contract():
