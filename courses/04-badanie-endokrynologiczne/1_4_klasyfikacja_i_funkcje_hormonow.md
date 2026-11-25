@@ -219,7 +219,7 @@ Typowa synteza hormonu peptydowego obejmuje kilka etapów:
 
 Schemat ogólny:
 
-\`\`\`text
+```text
 DNA
  │ transkrypcja
  ▼
@@ -239,7 +239,7 @@ ZIARNISTOŚĆ WYDZIELNICZA
  │ bodziec i egzocytoza
  ▼
 KREW LUB PRZESTRZEŃ MIĘDZYKOMÓRKOWA
-\`\`\`
+```
 
 Przykładem jest insulina. Najpierw powstaje preproinsulina, następnie proinsulina, a po odpowiednim cięciu – insulina i peptyd C. W komórkach beta trzustki insulina i peptyd C są uwalniane w zbliżonych ilościach molowych. Oznaczanie peptydu C może pomagać w ocenie endogennego wydzielania insuliny, ale wynik wymaga interpretacji w kontekście glikemii, czynności nerek, czasu pobrania i stosowanego leczenia.
 
@@ -293,7 +293,7 @@ Do głównych podgrup należą:
 
 Katecholaminy obejmują dopaminę, noradrenalinę i adrenalinę. Ich synteza rozpoczyna się od tyrozyny:
 
-\`\`\`text
+```text
 TYROZYNA
    │ hydroksylaza tyrozynowa
    ▼
@@ -307,7 +307,7 @@ NORADRENALINA
    │ metylotransferaza fenyloetanoloaminowa (PNMT)
    ▼
 ADRENALINA
-\`\`\`
+```
 
 Najważniejszym etapem regulacyjnym szlaku jest reakcja katalizowana przez hydroksylazę tyrozynową. W rdzeniu nadnerczy wysokie lokalne stężenie kortyzolu sprzyja ekspresji PNMT, co wspiera przekształcanie noradrenaliny w adrenalinę.
 
@@ -505,7 +505,7 @@ Po związaniu ligandu receptor może zmieniać ekspresję genów przez oddziały
 
 ### 1.4.31. Szlaki sygnałowe – schemat dydaktyczny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Hormon w przestrzeni zewnątrzkomórkowej"] --> B{"Typ receptora"}
     B --> C["Receptor błonowy GPCR"]
@@ -524,7 +524,7 @@ flowchart TD
     L --> O
     M --> O
     N --> O
-\`\`\`
+```
 
 Schemat przedstawia główne drogi, a nie kompletny katalog receptorów. Jeden hormon może aktywować więcej niż jeden szlak, a ten sam szlak może być wykorzystywany przez wiele różnych receptorów.
 
@@ -753,7 +753,7 @@ Wielohormonalna regulacja pozwala organizmowi dostosować odpowiedź do aktualne
 
 ### 1.4.48. Schemat integracji sygnałów hormonalnych
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Stan organizmu: posiłek, głód, wysiłek, stres, sen"] --> B["Układ nerwowy i czujniki metaboliczne"]
     B --> C["Trzustka"]
@@ -771,7 +771,7 @@ flowchart TD
     K --> L["Zmiana metabolizmu i dostępności energii"]
     L --> M["Informacja zwrotna do układów regulacyjnych"]
     M --> B
-\`\`\`
+```
 
 Schemat ma charakter poglądowy. Nie przedstawia wszystkich hormonów ani wszystkich kierunków regulacji. Jego celem jest pokazanie, że odpowiedź metaboliczna powstaje w wyniku integracji wielu sygnałów, a nie działania jednego izolowanego hormonu.
 
@@ -933,7 +933,7 @@ W sytuacji zagrożenia życia należy uruchomić właściwy tryb pilnej pomocy z
 
 ### 1.4.61. Mapa klasyfikacji chemicznej hormonów
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Hormony i sygnały hormonalne"] --> B["Pochodne cholesterolu"]
     A --> C["Peptydy i białka"]
@@ -953,11 +953,11 @@ flowchart TD
     E --> E1["Prostaglandyny"]
     E --> E2["Prostacyklina i tromboksany"]
     E --> E3["Leukotrieny i lipoksyny"]
-\`\`\`
+```
 
 ### 1.4.62. Od syntezy do odpowiedzi biologicznej
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
     A["Prekursor"] --> B["Synteza"]
     B --> C["Dojrzewanie"]
@@ -968,11 +968,11 @@ flowchart LR
     G --> H["Odpowiedź komórki"]
     H --> I["Efekt narządowy"]
     I --> J["Metabolizm i eliminacja"]
-\`\`\`
+```
 
 ### 1.4.63. Integracja regulacji apetytu
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Posiłek i stan energetyczny"] --> B["Przewód pokarmowy"]
     A --> C["Tkanka tłuszczowa"]
@@ -986,11 +986,11 @@ flowchart TD
     H --> I["Apetyt, sytość, wydatek energetyczny"]
     I --> J["Zachowania żywieniowe i bilans energii"]
     J --> A
-\`\`\`
+```
 
 ### 1.4.64. Wielopoziomowa ocena działania hormonu
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Nieprawidłowy objaw lub wynik"] --> B["Ocena kontekstu klinicznego"]
     B --> C["Synteza i wydzielanie"]
@@ -1001,7 +1001,7 @@ flowchart TD
     G --> H["Odpowiedź narządu"]
     H --> I["Metabolizm i klirens"]
     I --> J["Ocena przez osobę uprawnioną"]
-\`\`\`
+```
 
 ---
 
