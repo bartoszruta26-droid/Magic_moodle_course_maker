@@ -28,7 +28,7 @@ class create_book extends \external_api {
                             'filename' => new \external_value(PARAM_FILE, 'Chapter asset filename'),
                             'contentbase64' => new \external_value(PARAM_RAW, 'Base64-encoded binary file content'),
                         ]),
-                        'Chapter files', VALUE_DEFAULT, []
+                        'Chapter files', VALUE_OPTIONAL
                     ),
                 ]),
                 'Book chapters'
@@ -98,11 +98,11 @@ class create_book extends \external_api {
             if ($index === 0 && !empty($chapter['subchapter'])) {
                 throw new invalid_parameter_exception('The first book chapter cannot be a subchapter.');
             }
-            if (count($chapter['files']) > 100) {
+            if (isset($chapter['files']) && count($chapter['files']) > 100) {
                 throw new invalid_parameter_exception('A Book chapter cannot contain more than 100 files.');
             }
             $seenfiles = [];
-            foreach ($chapter['files'] as $file) {
+            foreach (($chapter['files'] ?? []) as $file) {
                 $filepath = $file['filepath'];
                 $filename = $file['filename'];
                 if (!preg_match('#^/assets(?:/[^/\\\\\x00]+)*/$#uD', $filepath)
@@ -300,24 +300,27 @@ class create_book extends \external_api {
                         $createdcount++;
                     }
 
-                    // Replace only this chapter's managed file area after the full payload was validated.
-                    $existingfiles = $fs->get_area_files(
-                        $modulecontext->id, 'mod_book', 'chapter', $chapter->id, 'id', false
-                    );
-                    foreach ($existingfiles as $existingfile) {
-                        $existingfile->delete();
-                    }
-                    foreach ($chapterdata['files'] as $file) {
-                        $decoded = base64_decode($file['contentbase64'], true);
-                        $filerecord = [
-                            'contextid' => $modulecontext->id,
-                            'component' => 'mod_book',
-                            'filearea' => 'chapter',
-                            'itemid' => (int)$chapter->id,
-                            'filepath' => $file['filepath'],
-                            'filename' => $file['filename'],
-                        ];
-                        $fs->create_file_from_string($filerecord, $decoded);
+                    // Omitted files preserve existing files for backwards-compatible callers.
+                    // An explicitly supplied empty list clears this chapter's managed file area.
+                    if (isset($chapterdata['files'])) {
+                        $existingfiles = $fs->get_area_files(
+                            $modulecontext->id, 'mod_book', 'chapter', $chapter->id, 'id', false
+                        );
+                        foreach ($existingfiles as $existingfile) {
+                            $existingfile->delete();
+                        }
+                        foreach ($chapterdata['files'] as $file) {
+                            $decoded = base64_decode($file['contentbase64'], true);
+                            $filerecord = [
+                                'contextid' => $modulecontext->id,
+                                'component' => 'mod_book',
+                                'filearea' => 'chapter',
+                                'itemid' => (int)$chapter->id,
+                                'filepath' => $file['filepath'],
+                                'filename' => $file['filename'],
+                            ];
+                            $fs->create_file_from_string($filerecord, $decoded);
+                        }
                     }
                 }
 
