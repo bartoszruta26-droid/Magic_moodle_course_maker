@@ -11,11 +11,11 @@ def _source_tree(tmp_path: Path) -> Path:
     source_dir = tmp_path / "source"
     source_dir.mkdir()
     (source_dir / "course.md").write_text(
-        "# Kurs testowy\\n\\n## Moduł 1. Wstęp\\n\\n"
-        "### 1.1. Anatomia\\n- punkt\\n\\n### 1.2. Fizjologia\\n",
+        "# Kurs testowy\n\n## Moduł 1. Wstęp\n\n"
+        "### 1.1. Anatomia\n- punkt\n\n### 1.2. Fizjologia\n",
         encoding="utf-8",
     )
-    (source_dir / "1_1_anatomia.md").write_text("# Anatomia\\n\\nTreść.\\n", encoding="utf-8")
+    (source_dir / "1_1_anatomia.md").write_text("# Anatomia\n\nTreść.\n", encoding="utf-8")
     return source_dir / "course.md"
 
 
