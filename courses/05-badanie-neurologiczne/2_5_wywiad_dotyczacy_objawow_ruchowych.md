@@ -812,7 +812,7 @@ Pilnej pomocy mogą wymagać:
 
 ### 16.8. Schemat postępowania przy czerwonych flagach
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Pacjent zgłasza nowy objaw ruchowy"] --> B{"Czy występuje nagły deficyt ogniskowy, zaburzenie świadomości lub oddychania?"}
     B -->|Tak| C["Przerwij rutynowy wywiad"]
@@ -824,7 +824,7 @@ flowchart TD
     G --> I["Dokumentuj objawy, czas, źródło informacji i podjęte działania"]
     E --> I
     H --> I
-\`\`\`
+```
 
 Schemat jest narzędziem edukacyjnym, a nie algorytmem zastępującym lokalne procedury ratunkowe. W razie wątpliwości co do bezpieczeństwa należy eskalować ocenę.
 
