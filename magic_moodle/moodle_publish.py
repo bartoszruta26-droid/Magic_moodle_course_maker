@@ -59,6 +59,35 @@ def _book_assets_payload(activity_path: Path) -> list[dict[str, str]]:
     return files
 
 
+def _rewrite_book_asset_urls(html: str, files: list[dict[str, str]]) -> str:
+    """Rewrite only local assets URLs whose files are included in the chapter payload."""
+    known = set()
+    for item in files:
+        folder = item["filepath"].strip("/")
+        relative = item["filename"] if folder == "assets" else folder + "/" + item["filename"]
+        known.add(relative)
+
+    def rewrite(raw: str) -> str:
+        if raw.startswith(("http://", "https://", "//", "data:", "#", "mailto:", "tel:")):
+            return raw
+        clean = raw.split("#", 1)[0].split("?", 1)[0]
+        if clean not in known:
+            return raw
+        return "@@PLUGINFILE@@/" + raw
+
+    html = re.sub(
+        r'(?P<quote>["\'])(?P<url>assets/[^"\']+)(?P=quote)',
+        lambda match: match.group("quote") + rewrite(match.group("url")) + match.group("quote"),
+        html,
+    )
+    html = re.sub(
+        r'url\((?P<quote>["\']?)(?P<url>assets/[^)"\'\s]+)(?P=quote)\)',
+        lambda match: "url(" + match.group("quote") + rewrite(match.group("url")) + match.group("quote") + ")",
+        html,
+    )
+    return html
+
+
 def _course_payload(course: Course, category_id: int) -> dict[str, Any]:
     config = course.metadata.get("course", {})
     if not isinstance(config, dict):
@@ -531,7 +560,8 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     chapter_html = _markdown_to_html(chapter_source)
                     try:
                         chapter_files = _book_assets_payload(section.path / activity.ref)
-                    except (OSError, ValueError) as exc:
+                        chapter_html = _rewrite_book_asset_urls(chapter_html, chapter_files)
+                    except (OSError, ValueError, KeyError) as exc:
                         warnings.append(f"Książka '{activity.name}': błąd zasobów: {exc}")
                         continue
                     planned_chapters.append({
