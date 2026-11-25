@@ -44,7 +44,7 @@ W `moodle_xml_export()` tworzony jest element:
 ET.SubElement(root, "info", component="core_course", subplugin=None)
 ```
 
-Atrybut `subplugin=None` jest przekazywany do `xml.etree.ElementTree`. Podczas serializacji dokumentu `ET.tostring(...)` wartości atrybutów muszą być tekstowe; wartość `None` powoduje błąd serializacji. Należy usunąć ten atrybut albo nadać mu poprawną wartość zgodną ze schematem Moodle. Dodać test regresyjny obejmujący faktyczną serializację.
+Atrybut `subplugin=None` jest przekazywany do `xml.etree.ElementTree`. Podczas serializacji dokumentu `ET.tostring(...)` wartości atrybutów muszą być tekstowe; wartość `None` powoduje `TypeError: cannot serialize None (type NoneType)`. Potwierdzono to uruchomieniem minimalnego reproduktora z dokładnie takim wywołaniem ElementTree. Nie uruchomiono jeszcze całego skryptu na rzeczywistym kursie. Należy usunąć ten atrybut albo nadać mu poprawną wartość zgodną ze schematem Moodle. Dodać test regresyjny obejmujący faktyczną serializację.
 
 ### B2. Archiwum ZIP nie ma struktury kopii zapasowej Moodle
 
