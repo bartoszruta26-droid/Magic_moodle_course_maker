@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import unicodedata
@@ -195,13 +196,12 @@ def _rewrite_local_asset_url(
         report["rejected"].append({"url": raw_url, "reason": "invalid_path"})
         return raw_url
 
-    relative = Path(decoded_path)
-    candidate = source_root / relative
-    try:
-        lexical_relative = candidate.relative_to(source_root)
-    except ValueError:
+    relative = Path(os.path.normpath(decoded_path))
+    if relative.is_absolute() or relative.parts[0] == "..":
         report["rejected"].append({"url": raw_url, "reason": "path_traversal"})
         return raw_url
+    candidate = source_root / relative
+    lexical_relative = relative
 
     cursor = source_root
     for component in lexical_relative.parts:
