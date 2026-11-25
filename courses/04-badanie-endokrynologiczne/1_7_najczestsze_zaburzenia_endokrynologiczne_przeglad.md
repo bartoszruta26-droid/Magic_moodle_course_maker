@@ -119,7 +119,7 @@ Zmiana może wywoływać objawy hormonalne, objawy uciskowe albo oba rodzaje dol
 ### Hiperprolaktynemia
 
 Hiperprolaktynemia oznacza podwyższone stężenie prolaktyny. Może być związana z:
-- prolactinoma;
+- prolaktinoma;
 - ciążą i laktacją;
 - lekami, między innymi niektórymi lekami przeciwpsychotycznymi i przeciwwymiotnymi;
 - niedoczynnością tarczycy;
@@ -130,7 +130,7 @@ Hiperprolaktynemia oznacza podwyższone stężenie prolaktyny. Może być związ
 
 Objawy obejmują mlekotok, zaburzenia miesiączkowania, niepłodność, obniżenie libido i hipogonadyzm. U mężczyzn mogą występować zaburzenia erekcji, obniżenie libido i niepłodność. U części pacjentów objawy są nieobecne.
 
-Wstępna ocena obejmuje weryfikację wyniku, analizę leków, wykluczenie ciąży, ocenę czynności tarczycy i nerek oraz – zależnie od sytuacji – ocenę makroprolaktyny i obrazowanie przysadki. Nie należy rozpoznawać prolactinoma wyłącznie na podstawie pojedynczego podwyższonego wyniku.
+Wstępna ocena obejmuje weryfikację wyniku, analizę leków, wykluczenie ciąży, ocenę czynności tarczycy i nerek oraz – zależnie od sytuacji – ocenę makroprolaktyny i obrazowanie przysadki. Nie należy rozpoznawać prolaktinoma wyłącznie na podstawie pojedynczego podwyższonego wyniku.
 
 ### Akromegalia i gigantyzm
 
@@ -1023,7 +1023,7 @@ D. Samodzielnie odstawić wszystkie leki
 
 - **Akromegalia:** choroba wynikająca z nadmiaru GH po zakończeniu wzrastania kości długich.
 - **ACTH:** hormon adrenokortykotropowy, pobudzający korę nadnerczy.
-- **Adrenalna niewydolność:** niedostateczna produkcja hormonów kory nadnerczy.
+- **Niewydolność nadnerczy:** niedostateczna produkcja hormonów kory nadnerczy.
 - **Aldosteronizm pierwotny:** nadmierne, nieadekwatne wydzielanie aldosteronu prowadzące do nadciśnienia i zaburzeń gospodarki potasowej.
 - **Apopleksja przysadki:** nagłe krwawienie lub zawał w obrębie przysadki, często z objawami neurologicznymi i hormonalnymi.
 - **AVP-D:** niedobór argininowej wazopresyny, tradycyjnie moczówka prosta ośrodkowa.
@@ -1037,7 +1037,7 @@ D. Samodzielnie odstawić wszystkie leki
 - **Hipokalcemia:** obniżone stężenie wapnia.
 - **Hipogonadyzm:** niedostateczna czynność gonad i/lub niedobór hormonów płciowych.
 - **Hipoglikemia:** zbyt niskie stężenie glukozy, oceniane w kontekście objawów i sytuacji klinicznej.
-- **Hipopituitaryzm:** niedobór jednego lub większej liczby hormonów przysadki.
+- **Niedoczynność przysadki (hipopituitaryzm):** niedobór jednego lub większej liczby hormonów przysadki.
 - **Hipoparatyroidyzm:** niedobór PTH.
 - **Hiperprolaktynemia:** podwyższone stężenie prolaktyny.
 - **Hirsutyzm:** nadmierne owłosienie typu męskiego u kobiet, zwykle związane z działaniem androgenów.
