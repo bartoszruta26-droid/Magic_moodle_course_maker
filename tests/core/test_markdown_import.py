@@ -4,7 +4,7 @@ import pytest
 import yaml
 
 from magic_moodle.loader import load_course
-from magic_moodle.markdown_import import MarkdownImportError, import_markdown_course, parse_outline
+from magic_moodle.markdown_import import (\n    MarkdownImportError, import_markdown_course, parse_outline, split_markdown_chapters,\n)
 
 
 def _source_tree(tmp_path: Path) -> Path:
@@ -84,3 +84,59 @@ def test_import_real_neurology_course_outline(tmp_path):
     assert course.section_count == 16
     assert course.activity_count == 6
     assert course.activity_types == {"book": 6}
+
+
+def test_split_markdown_chapters_preserves_content_and_order():
+    source = (
+        "# Temat główny\n\nWprowadzenie.\n\n"
+        "## Pierwszy podrozdział\n\nTreść pierwsza.\n\n"
+        "### Szczegół niższego poziomu\n\nTreść szczegółowa.\n\n"
+        "## Drugi podrozdział\n\nTreść druga.\n"
+    )
+    chapters = split_markdown_chapters(source, "1.1. Temat główny")
+    assert [item[0] for item in chapters] == [
+        "1.1. Temat główny", "Pierwszy podrozdział", "Drugi podrozdział"
+    ]
+    assert [item[2] for item in chapters] == [False, True, True]
+    assert "".join(item[1] for item in chapters) == source
+    assert "### Szczegół niższego poziomu" in chapters[1][1]
+
+
+def test_split_markdown_chapters_ignores_headings_inside_fenced_code():
+    source = (
+        "# Temat\n\nPrzed.\n\n"
+        "```markdown\n## To nie jest podrozdział\n```\n\n"
+        "## Rzeczywisty podrozdział\n\nTreść.\n"
+    )
+    chapters = split_markdown_chapters(source, "Temat")
+    assert len(chapters) == 2
+    assert chapters[1][0] == "Rzeczywisty podrozdział"
+    assert "".join(item[1] for item in chapters) == source
+
+
+def test_split_markdown_chapters_handles_empty_root_and_empty_subchapter():
+    source = "## Pusty pierwszy\n## Wypełniony\nTreść\n## Pusty ostatni\n"
+    chapters = split_markdown_chapters(source, "Temat")
+    assert len(chapters) == 4
+    assert chapters[0][1] == ""
+    assert chapters[1][1] == "## Pusty pierwszy\n"
+    assert chapters[3][1] == "## Pusty ostatni\n"
+
+
+def test_import_creates_book_subchapters_from_source_headings(tmp_path):
+    source = _source_tree(tmp_path)
+    topic_file = source.parent / "1_1_anatomia.md"
+    original = (
+        "# Anatomia\n\nWprowadzenie.\n\n"
+        "## Anatomia funkcjonalna\n\nTreść A.\n\n"
+        "## Znaczenie kliniczne\n\nTreść B.\n"
+    )
+    topic_file.write_text(original, encoding="utf-8")
+    destination = tmp_path / "generated"
+    import_markdown_course(source, destination)
+    course = load_course(destination)
+    activity = course.sections[0].activities[0]
+    chapters = activity.resource["chapters"]
+    assert [item["subchapter"] for item in chapters] == [False, True, True]
+    assert len(activity.content) == 3
+    assert "".join(activity.content[item["content_file"]] for item in chapters) == original
