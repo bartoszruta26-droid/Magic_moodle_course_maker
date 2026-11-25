@@ -161,18 +161,18 @@ _LOCAL_MD_LINK_RE = re.compile(
     r"(?P<prefix>!?\[[^\]]*\]\()(?P<destination><[^>]*>|[^)\s]+)(?P<suffix>[^)]*\))"
 )
 _HTML_URL_ATTR_RE = re.compile(
-    r"(?P<prefix>\\b(?:src|href|poster)\\s*=\\s*)(?P<quote>['\\"])(?P<url>.*?)(?P=quote)",
+    r"(?P<prefix>\b(?:src|href|poster)\s*=\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
     re.IGNORECASE,
 )
 _HTML_SRCSET_ATTR_RE = re.compile(
-    r"(?P<prefix>\\bsrcset\\s*=\\s*)(?P<quote>['\\"])(?P<url>.*?)(?P=quote)",
+    r"(?P<prefix>\bsrcset\s*=\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
     re.IGNORECASE,
 )
 _MARKDOWN_REFERENCE_RE = re.compile(
-    r"^(?P<prefix>\\s{0,3}\\[[^\\]]+\\]:\\s*)(?P<destination><[^>]*>|\\S+)(?P<suffix>.*)$"
+    r"^(?P<prefix>\s{0,3}\[[^\]]+\]:\s*)(?P<destination><[^>]*>|\S+)(?P<suffix>.*)$"
 )
 _CSS_URL_RE = re.compile(
-    r"(?P<prefix>url\\(\\s*)(?P<quote>['\\"]?)(?P<url>.*?)(?P=quote)(?P<suffix>\\s*\\))",
+    r"(?P<prefix>url\(\s*)(?P<quote>['\"]?)(?P<url>.*?)(?P=quote)(?P<suffix>\s*\))",
     re.IGNORECASE,
 )
 
