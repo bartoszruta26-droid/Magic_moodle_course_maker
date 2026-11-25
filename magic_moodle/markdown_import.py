@@ -5,15 +5,15 @@ import json
 import re
 import shutil
 import unicodedata
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from pathlib import Path
 
 import yaml
 
 
-MODULE_RE = re.compile(r"^##\\s+Moduł\\s+(\\d+)\\.\\s*(.+?)\\s*$", re.IGNORECASE)
-TOPIC_RE = re.compile(r"^###\\s+(\\d+)\\.(\\d+)\\.\\s*(.+?)\\s*$")
-SOURCE_RE = re.compile(r"^(\\d+)_(\\d+)_.*\\.md$", re.IGNORECASE)
+MODULE_RE = re.compile(r"^##\s+Moduł\s+(\d+)\.\s*(.+?)\s*$", re.IGNORECASE)
+TOPIC_RE = re.compile(r"^###\s+(\d+)\.(\d+)\.\s*(.+?)\s*$")
+SOURCE_RE = re.compile(r"^(\d+)_(\d+)_.*\.md$", re.IGNORECASE)
 MAX_SOURCE_BYTES = 10 * 1024 * 1024
 
 
