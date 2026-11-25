@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "moodle-plugin/local/magicmoodle/**"
+      - "scripts/moodle/**"
       - ".github/workflows/moodle-integration.yml"
   push:
     branches: [main]
@@ -98,14 +99,14 @@ jobs:
 
       - name: Run local_magicmoodle integration suite
         working-directory: /tmp/moodle
-        run: vendor/bin/phpunit local/magicmoodle/tests/sync_external_test.php\n
+        run: vendor/bin/phpunit local/magicmoodle/tests/sync_external_test.php
       - name: Create an official Moodle 4.1 course backup
         working-directory: /tmp/moodle
         run: |
           mkdir -p /tmp/moodle-mbz
           FIXTURE_OUTPUT="$(MOODLE_ROOT=/tmp/moodle php "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php" create)"
           echo "$FIXTURE_OUTPUT"
-          COURSE_ID="$(printf '%s\\n' "$FIXTURE_OUTPUT" | sed -n 's/^MBZ_FIXTURE_COURSE_ID=//p')"
+          COURSE_ID="$(printf '%s\n' "$FIXTURE_OUTPUT" | sed -n 's/^MBZ_FIXTURE_COURSE_ID=//p')"
           test -n "$COURSE_ID"
           php admin/cli/backup.php --courseid="$COURSE_ID" --destination=/tmp/moodle-mbz
           BACKUP_FILE="$(find /tmp/moodle-mbz -maxdepth 1 -type f -name '*.mbz' -print -quit)"
@@ -129,7 +130,7 @@ jobs:
                   ET.fromstring(archive.read(name))
               print(f"Validated {len(xml_files)} XML files in {archive_path}")
               with open("/tmp/moodle-mbz/archive-entries.txt", "w", encoding="utf-8") as report:
-                  report.write("\\n".join(sorted(names)) + "\\n")
+                  report.write("\n".join(sorted(names)) + "\n")
           PY
 
       - name: Restore the official backup into a new Moodle course
