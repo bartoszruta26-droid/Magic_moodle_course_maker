@@ -184,3 +184,145 @@ def test_import_real_neurology_book_chapters_round_trip(tmp_path):
     assert course.section_count == 16
     assert course.activity_count == 5
     assert course.activity_types == {"book": 5}
+
+def test_import_copies_and_rewrites_nested_local_assets(tmp_path):
+    source = _source_tree(tmp_path)
+    source_dir = source.parent
+    (source_dir / "media").mkdir()
+    (source_dir / "docs").mkdir()
+    (source_dir / "media" / "zdjęcie test.png").write_bytes(b"PNG-DATA")
+    (source_dir / "media" / "inline.png").write_bytes(b"INLINE-DATA")
+    (source_dir / "docs" / "załącznik.pdf").write_bytes(b"PDF-DATA")
+    original = (
+        "# Anatomia\n\n"
+        "![Zdjęcie](media/zdjęcie%20test.png?download=1#podpis)\n\n"
+        "[Dokument](docs/załącznik.pdf)\n\n"
+        '<img src="media/inline.png" alt="ilustracja">\n\n'
+        "[Zewnętrzny](https://example.org/obraz.png)\n\n"
+        "[Brakujący](missing.png)\n\n"
+        "[Poza katalogiem](../../outside.txt)\n\n"
+        "```markdown\n![Przykład kodu](not-an-asset.png)\n```\n"
+    )
+    (source_dir / "1_1_anatomia.md").write_text(original, encoding="utf-8")
+
+    destination = tmp_path / "generated-assets"
+    report = import_markdown_course(source, destination)
+    activity = load_course(destination).sections[0].activities[0]
+    chapters = activity.resource["chapters"]
+    content = "".join(activity.content[item["content_file"]] for item in chapters)
+
+    assert "assets/media/zdj%C4%99cie%20test.png?download=1#podpis" in content
+    assert "[Dokument](assets/docs/za%C5%82%C4%85cznik.pdf)" in content
+    assert 'src="assets/media/inline.png"' in content
+    assert "https://example.org/obraz.png" in content
+    assert "[Brakujący](missing.png)" in content
+    assert "[Poza katalogiem](../../outside.txt)" in content
+    assert "![Przykład kodu](not-an-asset.png)" in content
+
+    asset_root = destination / "sections" / "01-modul-wstep" / activity.ref / "chapters" / "assets"
+    assert (asset_root / "media" / "zdjęcie test.png").read_bytes() == b"PNG-DATA"
+    assert (asset_root / "media" / "inline.png").read_bytes() == b"INLINE-DATA"
+    assert (asset_root / "docs" / "załącznik.pdf").read_bytes() == b"PDF-DATA"
+    assert report["assets"]["copied"] == 3
+    assert len(report["assets"]["missing"]) == 1
+    assert report["assets"]["rejected"][0]["reason"] == "path_traversal"
+
+
+def test_import_rejects_symlinked_local_assets(tmp_path):
+    source = _source_tree(tmp_path)
+    source_dir = source.parent
+    outside = tmp_path / "outside-secret.txt"
+    outside.write_text("not for import", encoding="utf-8")
+    (source_dir / "linked.txt").symlink_to(outside)
+    (source_dir / "1_1_anatomia.md").write_text(
+        "[Link](linked.txt)\n", encoding="utf-8"
+    )
+
+    report = import_markdown_course(source, tmp_path / "generated-symlink")
+    assert report["assets"]["copied"] == 0
+    assert report["assets"]["rejected"] == [
+        {"topic": "1.1", "url": "linked.txt", "reason": "symlink"}
+    ]
+
+
+def test_import_rejects_backslashes_and_empty_normalized_asset_paths(tmp_path):
+    source = _source_tree(tmp_path)
+    (source.parent / "1_1_anatomia.md").write_text(
+        "[Backslash](folder\\file.txt)\n"
+        "[Encoded backslash](folder%5Cfile.txt)\n"
+        "[Current directory](.)\n",
+        encoding="utf-8",
+    )
+
+    report = import_markdown_course(source, tmp_path / "generated-invalid-paths")
+
+    assert report["assets"]["copied"] == 0
+    assert report["assets"]["missing"] == []
+    assert report["assets"]["rejected"] == [
+        {"topic": "1.1", "url": "folder\\file.txt", "reason": "absolute_or_backslash_path"},
+        {"topic": "1.1", "url": "folder%5Cfile.txt", "reason": "invalid_path"},
+        {"topic": "1.1", "url": ".", "reason": "invalid_path"},
+    ]
+
+
+def test_import_rewrites_srcset_css_and_reference_markdown_assets(tmp_path):
+    source = _source_tree(tmp_path)
+    source_dir = source.parent
+    (source_dir / "media").mkdir()
+    (source_dir / "media" / "small.png").write_bytes(b"SMALL")
+    (source_dir / "media" / "large.png").write_bytes(b"LARGE")
+    (source_dir / "media" / "background image.png").write_bytes(b"BACKGROUND")
+    (source_dir / "media" / "reference.pdf").write_bytes(b"REFERENCE")
+    original = (
+        "![Responsywne](placeholder.png)\n"
+        '<img srcset="media/small.png 1x, media/large.png 2x" alt="warianty">\n'
+        '<div style="background-image: url(\'media/background%20image.png\')"></div>\n'
+        "<style> .hero { background: url(media/large.png); } </style>\n"
+        "[dokument]: <media/reference.pdf> \"Opis\"\n"
+        "[Dokument][dokument]\n"
+        '<img srcset="https://cdn.example.org/a.png 1x, media/small.png 2x">\n'
+        '<img srcset="data:image/png;base64,AAAA 1x, media/large.png 2x">\n'
+    )
+    (source_dir / "1_1_anatomia.md").write_text(original, encoding="utf-8")
+
+    destination = tmp_path / "generated-rich-assets"
+    report = import_markdown_course(source, destination)
+    activity = load_course(destination).sections[0].activities[0]
+    content = "".join(
+        activity.content[item["content_file"]]
+        for item in activity.resource["chapters"]
+    )
+
+    assert 'srcset="assets/media/small.png 1x, assets/media/large.png 2x"' in content
+    assert "url('assets/media/background%20image.png')" in content
+    assert "url(assets/media/large.png)" in content
+    assert "[dokument]: <assets/media/reference.pdf> \"Opis\"" in content
+    assert "[Dokument][dokument]" in content
+    assert "https://cdn.example.org/a.png 1x, assets/media/small.png 2x" in content
+    assert "data:image/png;base64,AAAA 1x, assets/media/large.png 2x" in content
+    assert report["assets"]["copied"] == 4
+
+    assets = (
+        destination / "sections" / "01-modul-wstep"
+        / activity.ref / "chapters" / "assets" / "media"
+    )
+    assert (assets / "small.png").read_bytes() == b"SMALL"
+    assert (assets / "large.png").read_bytes() == b"LARGE"
+    assert (assets / "background image.png").read_bytes() == b"BACKGROUND"
+    assert (assets / "reference.pdf").read_bytes() == b"REFERENCE"
+
+
+def test_import_reports_malformed_external_url_without_aborting(tmp_path):
+    source = _source_tree(tmp_path)
+    (source.parent / "1_1_anatomia.md").write_text(
+        "[Nieprawidłowy adres](http://[::1)\\n",
+        encoding="utf-8",
+    )
+
+    report = import_markdown_course(source, tmp_path / "generated-malformed-url")
+
+    assert report["assets"]["copied"] == 0
+    assert report["assets"]["missing"] == []
+    assert report["assets"]["rejected"] == [
+        {"topic": "1.1", "url": "http://[::1", "reason": "invalid_url"}
+    ]

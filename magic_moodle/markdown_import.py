@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import unicodedata
@@ -155,6 +156,226 @@ def split_markdown_chapters(markdown_text: str, root_title: str) -> list[tuple[s
         parts.append((heading_title, "".join(lines[start:end]), True))
     return parts
 
+
+_LOCAL_MD_LINK_RE = re.compile(
+    r"(?P<prefix>!?\[[^\]]*\]\()(?P<destination><[^>]*>|[^)\s]+)(?P<suffix>[^)]*\))"
+)
+_HTML_URL_ATTR_RE = re.compile(
+    r"(?P<prefix>\b(?:src|href|poster)\s*=\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
+    re.IGNORECASE,
+)
+_HTML_SRCSET_ATTR_RE = re.compile(
+    r"(?P<prefix>\bsrcset\s*=\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
+    re.IGNORECASE,
+)
+_MARKDOWN_REFERENCE_RE = re.compile(
+    r"^(?P<prefix>\s{0,3}\[[^\]]+\]:\s*)(?P<destination><[^>]*>|\S+)(?P<suffix>.*)$"
+)
+_CSS_URL_RE = re.compile(
+    r"(?P<prefix>url\(\s*)(?P<quote>['\"]?)(?P<url>.*?)(?P=quote)(?P<suffix>\s*\))",
+    re.IGNORECASE,
+)
+
+
+def _rewrite_local_asset_url(
+    raw_url: str,
+    source_root: Path,
+    assets_root: Path,
+    report: dict,
+    copied: dict[str, str],
+) -> str:
+    """Kopiuje lokalny zasób do Book i zwraca bezpieczny URL względny."""
+    from urllib.parse import quote, unquote, urlsplit, urlunsplit
+
+    value = raw_url.strip()
+    if not value or value.startswith("#"):
+        return raw_url
+    try:
+        parsed = urlsplit(value)
+    except ValueError:
+        report["rejected"].append({"url": raw_url, "reason": "invalid_url"})
+        return raw_url
+    if parsed.scheme or parsed.netloc or value.startswith("//"):
+        return raw_url
+    if not parsed.path:
+        return raw_url
+    if parsed.path.startswith(("/", "\\")) or "\\" in parsed.path:
+        report["rejected"].append({"url": raw_url, "reason": "absolute_or_backslash_path"})
+        return raw_url
+    try:
+        decoded_path = unquote(parsed.path, errors="strict")
+    except (UnicodeDecodeError, ValueError):
+        report["rejected"].append({"url": raw_url, "reason": "invalid_url_encoding"})
+        return raw_url
+    if not decoded_path or "\x00" in decoded_path or "\\" in decoded_path:
+        report["rejected"].append({"url": raw_url, "reason": "invalid_path"})
+        return raw_url
+
+    relative = Path(os.path.normpath(decoded_path))
+    if not relative.parts or relative == Path("."):
+        report["rejected"].append({"url": raw_url, "reason": "invalid_path"})
+        return raw_url
+    if relative.is_absolute() or relative.parts[0] == "..":
+        report["rejected"].append({"url": raw_url, "reason": "path_traversal"})
+        return raw_url
+    candidate = source_root / relative
+    lexical_relative = relative
+
+    cursor = source_root
+    for component in lexical_relative.parts:
+        cursor = cursor / component
+        if cursor.is_symlink():
+            report["rejected"].append({"url": raw_url, "reason": "symlink"})
+            return raw_url
+
+    try:
+        resolved = candidate.resolve(strict=True)
+        resolved.relative_to(source_root)
+    except (OSError, ValueError):
+        report["missing"].append({"url": raw_url, "reason": "missing_or_outside_source"})
+        return raw_url
+    if not resolved.is_file():
+        report["missing"].append({"url": raw_url, "reason": "not_a_file"})
+        return raw_url
+
+    key = lexical_relative.as_posix()
+    if key not in copied:
+        target = assets_root / lexical_relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(resolved, target)
+        copied[key] = "assets/" + quote(key, safe="/-._~")
+        report["copied"].append({"source": key, "destination": copied[key]})
+
+    rewritten_path = copied[key]
+    return urlunsplit(("", "", rewritten_path, parsed.query, parsed.fragment))
+
+
+def _rewrite_srcset(
+    value: str, source_root: Path, assets_root: Path, report: dict, copied: dict[str, str]
+) -> str:
+    """Przepisuje adresy srcset, nie rozcinając przecinki wewnątrz data URL."""
+    candidate_re = re.compile(
+        r"(?P<url>data:[^\s]+|[^,\s]+)(?P<descriptor>\s+[^,]+)?(?P<separator>\s*,\s*|$)",
+        re.IGNORECASE,
+    )
+    output: list[str] = []
+    cursor = 0
+    for match in candidate_re.finditer(value):
+        output.append(value[cursor:match.start()])
+        updated = _rewrite_local_asset_url(
+            match.group("url"), source_root, assets_root, report, copied
+        )
+        output.append(updated)
+        output.append(match.group("descriptor") or "")
+        output.append(match.group("separator") or "")
+        cursor = match.end()
+    output.append(value[cursor:])
+    return "".join(output)
+
+
+def _rewrite_css_urls(
+    value: str, source_root: Path, assets_root: Path, report: dict, copied: dict[str, str]
+) -> str:
+    """Przepisuje lokalne url(...) w deklaracjach CSS."""
+    def replace(match: re.Match) -> str:
+        updated = _rewrite_local_asset_url(
+            match.group("url").strip(), source_root, assets_root, report, copied
+        )
+        return (
+            match.group("prefix") + match.group("quote") + updated
+            + match.group("quote") + match.group("suffix")
+        )
+    return _CSS_URL_RE.sub(replace, value)
+
+
+def _rewrite_markdown_assets(
+    markdown_text: str,
+    source_file: Path,
+    chapter_dir: Path,
+    report: dict,
+    copied: dict[str, str],
+) -> str:
+    """Przepisuje lokalne odwołania Markdown, HTML, srcset i CSS."""
+    source_root = source_file.parent.resolve()
+    assets_root = chapter_dir / "assets"
+
+    def rewrite_destination(destination: str) -> str:
+        wrapped = destination.startswith("<") and destination.endswith(">")
+        raw_url = destination[1:-1] if wrapped else destination
+        updated = _rewrite_local_asset_url(
+            raw_url, source_root, assets_root, report, copied
+        )
+        return f"<{updated}>" if wrapped else updated
+
+    def markdown_replace(match: re.Match) -> str:
+        return (
+            match.group("prefix")
+            + rewrite_destination(match.group("destination"))
+            + match.group("suffix")
+        )
+
+    def html_replace(match: re.Match) -> str:
+        updated = _rewrite_local_asset_url(
+            match.group("url"), source_root, assets_root, report, copied
+        )
+        return match.group("prefix") + match.group("quote") + updated + match.group("quote")
+
+    def srcset_replace(match: re.Match) -> str:
+        updated = _rewrite_srcset(
+            match.group("url"), source_root, assets_root, report, copied
+        )
+        return match.group("prefix") + match.group("quote") + updated + match.group("quote")
+
+    output: list[str] = []
+    fence_char: str | None = None
+    fence_length = 0
+    in_style_block = False
+    for line in markdown_text.splitlines(keepends=True):
+        stripped = line.lstrip()
+        fence_match = re.match(r"^(`{3,}|~{3,})", stripped)
+        if fence_match:
+            marker = fence_match.group(1)
+            if fence_char is None:
+                fence_char, fence_length = marker[0], len(marker)
+            elif marker[0] == fence_char and len(marker) >= fence_length:
+                fence_char, fence_length = None, 0
+            output.append(line)
+            continue
+        if fence_char is not None:
+            output.append(line)
+            continue
+
+        rewritten = line
+        newline = "\r\n" if rewritten.endswith("\r\n") else (
+            "\n" if rewritten.endswith("\n") else ""
+        )
+        body = rewritten[:-len(newline)] if newline else rewritten
+        reference = _MARKDOWN_REFERENCE_RE.match(body)
+        if reference:
+            rewritten = (
+                reference.group("prefix")
+                + rewrite_destination(reference.group("destination"))
+                + reference.group("suffix")
+                + newline
+            )
+
+        rewritten = _LOCAL_MD_LINK_RE.sub(markdown_replace, rewritten)
+        rewritten = _HTML_SRCSET_ATTR_RE.sub(srcset_replace, rewritten)
+        rewritten = _HTML_URL_ATTR_RE.sub(html_replace, rewritten)
+
+        if re.search(r"<\s*style\b", rewritten, re.IGNORECASE):
+            in_style_block = True
+        if in_style_block or re.search(r"\bstyle\s*=", rewritten, re.IGNORECASE):
+            rewritten = _rewrite_css_urls(
+                rewritten, source_root, assets_root, report, copied
+            )
+        if re.search(r"</\s*style\s*>", rewritten, re.IGNORECASE):
+            in_style_block = False
+
+        output.append(rewritten)
+    return "".join(output)
+
+
 def import_markdown_course(
     source: str | Path,
     destination: str | Path,
@@ -234,9 +455,14 @@ def import_markdown_course(
             source_text = _read_source(topic.source)
             chapter_parts = split_markdown_chapters(source_text, f"{topic.number}. {topic.title}")
             chapter_entries: list[dict] = []
+            asset_report = {"copied": [], "missing": [], "rejected": []}
+            copied_assets: dict[str, str] = {}
             for chapter_index, (chapter_title, chapter_text, is_subchapter) in enumerate(chapter_parts, start=1):
                 chapter_name = f"{chapter_index:02d}-{_slug(chapter_title)[:52]}.md"
-                (chapters_path / chapter_name).write_text(chapter_text, encoding="utf-8")
+                rewritten_text = _rewrite_markdown_assets(
+                    chapter_text, topic.source, chapters_path, asset_report, copied_assets
+                )
+                (chapters_path / chapter_name).write_text(rewritten_text, encoding="utf-8")
                 chapter_entries.append({
                     "title": chapter_title,
                     "subchapter": is_subchapter,
@@ -268,6 +494,7 @@ def import_markdown_course(
                 "title": topic.title,
                 "source_file": topic.source.name,
                 "activity_ref": activity_ref,
+                "assets": asset_report,
             })
             summary_lines.append(f"- {topic.number}. {topic.title}")
 
@@ -299,6 +526,17 @@ def import_markdown_course(
         "missing_topics": missing,
         "sections": section_summaries,
         "activities": imported,
+        "assets": {
+            "copied": sum(len(item["assets"]["copied"]) for item in imported),
+            "missing": [
+                {"topic": item["topic"], **asset}
+                for item in imported for asset in item["assets"]["missing"]
+            ],
+            "rejected": [
+                {"topic": item["topic"], **asset}
+                for item in imported for asset in item["assets"]["rejected"]
+            ],
+        },
         "quiz_policy": "No quizzes or answer keys are generated from headings or prose.",
         "mbz_status": "not_generated",
     }
