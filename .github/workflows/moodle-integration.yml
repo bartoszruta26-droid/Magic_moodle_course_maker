@@ -98,4 +98,61 @@ jobs:
 
       - name: Run local_magicmoodle integration suite
         working-directory: /tmp/moodle
-        run: vendor/bin/phpunit local/magicmoodle/tests/sync_external_test.php
+        run: vendor/bin/phpunit local/magicmoodle/tests/sync_external_test.php\n
+      - name: Create an official Moodle 4.1 course backup
+        working-directory: /tmp/moodle
+        run: |
+          mkdir -p /tmp/moodle-mbz
+          php admin/cli/backup.php --courseid=1 --destination=/tmp/moodle-mbz
+          BACKUP_FILE="$(find /tmp/moodle-mbz -maxdepth 1 -type f -name '*.mbz' -print -quit)"
+          test -n "$BACKUP_FILE"
+          echo "$BACKUP_FILE" > /tmp/moodle-mbz/backup-path.txt
+          unzip -t "$BACKUP_FILE"
+          python3 - "$BACKUP_FILE" <<'PY'
+          import sys
+          import zipfile
+          import xml.etree.ElementTree as ET
+
+          archive_path = sys.argv[1]
+          with zipfile.ZipFile(archive_path) as archive:
+              names = set(archive.namelist())
+              required = {"moodle_backup.xml", "course/course.xml", "files.xml"}
+              missing = sorted(required - names)
+              if missing:
+                  raise SystemExit(f"Missing required Moodle backup entries: {missing}")
+              xml_files = [name for name in names if name.lower().endswith(".xml")]
+              for name in xml_files:
+                  ET.fromstring(archive.read(name))
+              print(f"Validated {len(xml_files)} XML files in {archive_path}")
+              with open("/tmp/moodle-mbz/archive-entries.txt", "w", encoding="utf-8") as report:
+                  report.write("\\n".join(sorted(names)) + "\\n")
+          PY
+
+      - name: Restore the official backup into a new Moodle course
+        working-directory: /tmp/moodle
+        run: |
+          BEFORE_ID="$(php -r 'define("CLI_SCRIPT", true); require "config.php"; global $DB; echo (int)$DB->get_field_sql("SELECT MAX(id) FROM {course}");')"
+          BACKUP_FILE="$(cat /tmp/moodle-mbz/backup-path.txt)"
+          php admin/cli/restore_backup.php --file="$BACKUP_FILE" --categoryid=1
+          AFTER_ID="$(php -r 'define("CLI_SCRIPT", true); require "config.php"; global $DB; echo (int)$DB->get_field_sql("SELECT MAX(id) FROM {course}");')"
+          test "$AFTER_ID" -gt "$BEFORE_ID"
+          RESTORED_COURSE_ID="$AFTER_ID" php -r '
+            define("CLI_SCRIPT", true);
+            require "config.php";
+            global $DB;
+            $course = $DB->get_record("course", ["id" => (int)getenv("RESTORED_COURSE_ID")], "*", MUST_EXIST);
+            if (empty($course->fullname) || empty($course->shortname) || (int)$course->category !== 1) {
+                fwrite(STDERR, "Restored course metadata is incomplete.\\n");
+                exit(1);
+            }
+            echo "Restored course verified: id={$course->id}, shortname={$course->shortname}\\n";
+          '
+
+      - name: Upload Moodle MBZ round-trip evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: moodle-4.1-mbz-roundtrip-evidence
+          path: /tmp/moodle-mbz/
+          if-no-files-found: warn
+          retention-days: 7
