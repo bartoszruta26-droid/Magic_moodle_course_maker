@@ -155,6 +155,111 @@ def split_markdown_chapters(markdown_text: str, root_title: str) -> list[tuple[s
         parts.append((heading_title, "".join(lines[start:end]), True))
     return parts
 
+
+_LOCAL_MD_LINK_RE = re.compile(
+    r"(?P<prefix>!?\\[[^\\]]*\\]\\()(?P<destination><[^>]*>|[^)\\s]+)(?P<suffix>[^)]*\\))"
+)
+_HTML_URL_ATTR_RE = re.compile(
+    r"(?P<prefix>\\b(?:src|href|poster)\\s*=\\s*)(?P<quote>['\"])(?P<url>.*?)(?P=quote)",
+    re.IGNORECASE,
+)
+
+
+def _rewrite_local_asset_url(
+    raw_url: str,
+    source_root: Path,
+    assets_root: Path,
+    report: dict,
+    copied: dict[str, str],
+) -> str:
+    """Kopiuje lokalny zasób do Book i zwraca bezpieczny URL względny."""
+    from urllib.parse import quote, unquote, urlsplit, urlunsplit
+
+    value = raw_url.strip()
+    if not value or value.startswith("#"):
+        return raw_url
+    parsed = urlsplit(value)
+    if parsed.scheme or parsed.netloc or value.startswith("//"):
+        return raw_url
+    if not parsed.path:
+        return raw_url
+    if parsed.path.startswith(("/", "\\\\")) or "\\\\" in parsed.path:
+        report["rejected"].append({"url": raw_url, "reason": "absolute_or_backslash_path"})
+        return raw_url
+    try:
+        decoded_path = unquote(parsed.path, errors="strict")
+    except (UnicodeDecodeError, ValueError):
+        report["rejected"].append({"url": raw_url, "reason": "invalid_url_encoding"})
+        return raw_url
+    if not decoded_path or "\x00" in decoded_path:
+        report["rejected"].append({"url": raw_url, "reason": "invalid_path"})
+        return raw_url
+
+    relative = Path(decoded_path)
+    candidate = source_root / relative
+    try:
+        lexical_relative = candidate.relative_to(source_root)
+    except ValueError:
+        report["rejected"].append({"url": raw_url, "reason": "path_traversal"})
+        return raw_url
+
+    cursor = source_root
+    for component in lexical_relative.parts:
+        cursor = cursor / component
+        if cursor.is_symlink():
+            report["rejected"].append({"url": raw_url, "reason": "symlink"})
+            return raw_url
+
+    try:
+        resolved = candidate.resolve(strict=True)
+        resolved.relative_to(source_root)
+    except (OSError, ValueError):
+        report["missing"].append({"url": raw_url, "reason": "missing_or_outside_source"})
+        return raw_url
+    if not resolved.is_file():
+        report["missing"].append({"url": raw_url, "reason": "not_a_file"})
+        return raw_url
+
+    key = lexical_relative.as_posix()
+    if key not in copied:
+        target = assets_root / lexical_relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(resolved, target)
+        copied[key] = "assets/" + quote(key, safe="/-._~")
+        report["copied"].append({"source": key, "destination": copied[key]})
+
+    rewritten_path = copied[key]
+    return urlunsplit(("", "", rewritten_path, parsed.query, parsed.fragment))
+
+
+def _rewrite_markdown_assets(
+    markdown_text: str,
+    source_file: Path,
+    chapter_dir: Path,
+    report: dict,
+    copied: dict[str, str],
+) -> str:
+    """Przepisuje lokalne odwołania Markdown i atrybuty HTML src/href/poster."""
+    source_root = source_file.parent.resolve()
+    assets_root = chapter_dir / "assets"
+
+    def markdown_replace(match: re.Match) -> str:
+        destination = match.group("destination")
+        wrapped = destination.startswith("<") and destination.endswith(">")
+        raw_url = destination[1:-1] if wrapped else destination
+        updated = _rewrite_local_asset_url(raw_url, source_root, assets_root, report, copied)
+        return match.group("prefix") + (f"<{updated}>" if wrapped else updated) + match.group("suffix")
+
+    rewritten = _LOCAL_MD_LINK_RE.sub(markdown_replace, markdown_text)
+
+    def html_replace(match: re.Match) -> str:
+        updated = _rewrite_local_asset_url(
+            match.group("url"), source_root, assets_root, report, copied
+        )
+        return match.group("prefix") + match.group("quote") + updated + match.group("quote")
+
+    return _HTML_URL_ATTR_RE.sub(html_replace, rewritten)
+
 def import_markdown_course(
     source: str | Path,
     destination: str | Path,
