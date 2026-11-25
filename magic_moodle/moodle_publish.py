@@ -22,6 +22,43 @@ class PublishPlan:
     warnings: tuple[str, ...]
 
 
+def _book_assets_payload(activity_path: Path) -> list[dict[str, str]]:
+    """Read bounded binary Book assets without following symlinks."""
+    assets_root = activity_path / "chapters" / "assets"
+    if not assets_root.exists():
+        return []
+    if assets_root.is_symlink() or not assets_root.is_dir():
+        raise MoodleAPIError("Katalog zasobów Book musi być zwykłym katalogiem.")
+    files: list[dict[str, str]] = []
+    total = 0
+    for path in sorted(assets_root.rglob("*")):
+        if path.is_symlink():
+            raise MoodleAPIError("Zasoby Book nie mogą zawierać dowiązań symbolicznych.")
+        if path.is_dir():
+            continue
+        if not path.is_file():
+            raise MoodleAPIError("Zasób Book musi być zwykłym plikiem.")
+        relative = path.relative_to(assets_root)
+        if any(part in {"", ".", ".."} or "\\" in part or "\x00" in part for part in relative.parts):
+            raise MoodleAPIError("Niebezpieczna ścieżka zasobu Book.")
+        if len(files) >= 100:
+            raise MoodleAPIError("Limit 100 plików zasobów Book został przekroczony.")
+        size = path.stat().st_size
+        if size > 2 * 1024 * 1024:
+            raise MoodleAPIError("Pojedynczy zasób Book przekracza limit 2 MiB.")
+        total += size
+        if total > 5 * 1024 * 1024:
+            raise MoodleAPIError("Łączny rozmiar zasobów Book przekracza limit 5 MiB.")
+        parent = relative.parent.as_posix()
+        filepath = "/assets/" if parent == "." else "/assets/" + parent + "/"
+        files.append({
+            "filepath": filepath,
+            "filename": relative.name,
+            "contentbase64": base64.b64encode(path.read_bytes()).decode("ascii"),
+        })
+    return files
+
+
 def _course_payload(course: Course, category_id: int) -> dict[str, Any]:
     config = course.metadata.get("course", {})
     if not isinstance(config, dict):
@@ -491,11 +528,18 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                     if chapter_index == 0 and subchapter:
                         warnings.append(f"Książka '{activity.name}': pierwszy rozdział nie może być podrozdziałem.")
                         continue
+                    chapter_html = _markdown_to_html(chapter_source)
+                    try:
+                        chapter_files = _book_assets_payload(section.path / activity.ref)
+                    except (OSError, ValueError) as exc:
+                        warnings.append(f"Książka '{activity.name}': błąd zasobów: {exc}")
+                        continue
                     planned_chapters.append({
                         "sourceid": chapter_sourceid,
                         "title": title.strip(),
-                        "content": _markdown_to_html(chapter_source),
+                        "content": chapter_html,
                         "subchapter": subchapter,
+                        "files": chapter_files,
                     })
                 numbering = activity.resource.get("numbering", 1)
                 if isinstance(numbering, bool) or not isinstance(numbering, int) or numbering not in {0, 1, 2, 3}:
