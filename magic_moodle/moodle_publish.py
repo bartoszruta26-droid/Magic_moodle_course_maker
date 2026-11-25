@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Any
-from urllib.parse import quote, unquote, urlsplit
+from urllib.parse import unquote, urlsplit
 
 from .gift import GiftParseError, parse_gift, validate_question_bank
 from .io_utils import atomic_write_text
@@ -79,7 +79,7 @@ def _rewrite_book_asset_urls(html: str, files: list[dict[str, str]]) -> str:
     def rewrite(raw: str) -> str:
         if raw.startswith(("http://", "https://", "//", "data:", "#", "mailto:", "tel:")):
             return raw
-        clean = raw.split("#", 1)[0].split("?", 1)[0]
+        clean = unquote(raw.split("#", 1)[0].split("?", 1)[0])
         if clean not in known:
             return raw
         return "@@PLUGINFILE@@/" + raw
