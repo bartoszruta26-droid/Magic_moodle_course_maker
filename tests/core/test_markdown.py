@@ -8,6 +8,7 @@ from magic_moodle.markdown import markdown_to_html
 def test_renders_semantic_heading_levels_and_paragraphs():
     html = markdown_to_html("# Tytuł\n\n## Rozdział\n\n### Podrozdział\n\nTekst akapitu.")
     assert "<h1>Tytuł</h1>" in html
+    assert "id=" not in html
     assert "<h2>Rozdział</h2>" in html
     assert "<h3>Podrozdział</h3>" in html
     assert "<p>Tekst akapitu.</p>" in html
