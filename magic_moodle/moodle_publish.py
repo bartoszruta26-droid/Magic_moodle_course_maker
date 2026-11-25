@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Any
-from urllib.parse import urlsplit
+from urllib.parse import quote, unquote, urlsplit
 
 from .gift import GiftParseError, parse_gift, validate_question_bank
 from .io_utils import atomic_write_text
@@ -23,7 +23,7 @@ class PublishPlan:
     warnings: tuple[str, ...]
 
 
-def _book_assets_payload(activity_path: Path) -> list[dict[str, str]]:
+def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]:
     """Read bounded binary Book assets without following symlinks."""
     chapters_root = activity_path / "chapters"
     assets_root = chapters_root / "assets"
@@ -31,6 +31,10 @@ def _book_assets_payload(activity_path: Path) -> list[dict[str, str]]:
         return []
     if chapters_root.is_symlink() or assets_root.is_symlink() or not assets_root.is_dir():
         raise MoodleAPIError("Katalog zasobów Book musi być zwykłym katalogiem.")
+    references = set()
+    for raw in re.findall(r'assets/[^"\'\s<>)]+', html):
+        clean = raw.split("#", 1)[0].split("?", 1)[0]
+        references.add(unquote(clean))
     files: list[dict[str, str]] = []
     total = 0
     for path in sorted(assets_root.rglob("*")):
@@ -41,6 +45,9 @@ def _book_assets_payload(activity_path: Path) -> list[dict[str, str]]:
         if not path.is_file():
             raise MoodleAPIError("Zasób Book musi być zwykłym plikiem.")
         relative = path.relative_to(assets_root)
+        relative_name = relative.as_posix()
+        if relative_name not in references:
+            continue
         if any(part in {"", ".", ".."} or "\\" in part or "\x00" in part for part in relative.parts):
             raise MoodleAPIError("Niebezpieczna ścieżka zasobu Book.")
         if len(files) >= 100:
@@ -511,6 +518,7 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                 planned_chapters = []
                 seen_chapter_sourceids = set()
                 total_chapter_bytes = 0
+                total_asset_bytes = 0
                 for chapter_index, chapter in enumerate(chapters):
                     if not isinstance(chapter, dict):
                         warnings.append(f"Książka '{activity.name}': chapters[{chapter_index}] musi być mapą.")
@@ -561,9 +569,10 @@ def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
                         continue
                     chapter_html = _markdown_to_html(chapter_source)
                     try:
-                        chapter_files = _book_assets_payload(section.path / activity.ref)
+                        chapter_files = _book_assets_payload(section.path / activity.ref, chapter_html)
                         asset_bytes = sum(len(base64.b64decode(item["contentbase64"])) for item in chapter_files)
-                        if total_chapter_bytes + asset_bytes > 5 * 1024 * 1024:
+                        total_asset_bytes += asset_bytes
+                        if total_chapter_bytes + total_asset_bytes > 5 * 1024 * 1024:
                             raise MoodleAPIError("Łączny rozmiar treści i zasobów Book przekracza limit 5 MiB.")
                         chapter_html = _rewrite_book_asset_urls(chapter_html, chapter_files)
                     except (OSError, ValueError, KeyError) as exc:
