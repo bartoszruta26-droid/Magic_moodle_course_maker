@@ -243,3 +243,23 @@ def test_import_rejects_symlinked_local_assets(tmp_path):
     assert report["assets"]["rejected"] == [
         {"topic": "1.1", "url": "linked.txt", "reason": "symlink"}
     ]
+
+
+def test_import_rejects_backslashes_and_empty_normalized_asset_paths(tmp_path):
+    source = _source_tree(tmp_path)
+    (source.parent / "1_1_anatomia.md").write_text(
+        "[Backslash](folder\\\\file.txt)\n"
+        "[Encoded backslash](folder%5Cfile.txt)\n"
+        "[Current directory](.)\n",
+        encoding="utf-8",
+    )
+
+    report = import_markdown_course(source, tmp_path / "generated-invalid-paths")
+
+    assert report["assets"]["copied"] == 0
+    assert report["assets"]["missing"] == []
+    assert report["assets"]["rejected"] == [
+        {"topic": "1.1", "url": r"folder\\file.txt", "reason": "absolute_or_backslash_path"},
+        {"topic": "1.1", "url": "folder%5Cfile.txt", "reason": "invalid_path"},
+        {"topic": "1.1", "url": ".", "reason": "invalid_path"},
+    ]
