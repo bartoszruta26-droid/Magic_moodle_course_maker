@@ -1488,3 +1488,69 @@ def test_quiz_publish_requires_manifest_for_gift_identity(tmp_path):
     course = _sample_quiz_course(tmp_path)
     with pytest.raises(MoodleAPIError, match="Quiz wymaga --state-file"):
         publish_course(object(), course, 2)
+
+
+def test_book_assets_are_encoded_as_binary_and_paths_are_moodle_relative(tmp_path):
+    import base64
+    from magic_moodle.moodle_publish import _book_assets_payload, _rewrite_book_asset_urls
+
+    activity = tmp_path / "book"
+    assets = activity / "chapters" / "assets" / "diagrams"
+    assets.mkdir(parents=True)
+    payload = b"\x89PNG\r\n\x1a\n\x00\xff"
+    (assets / "scan.png").write_bytes(payload)
+
+    files = _book_assets_payload(activity)
+    assert files == [{
+        "filepath": "/assets/diagrams/",
+        "filename": "scan.png",
+        "contentbase64": base64.b64encode(payload).decode("ascii"),
+    }]
+    html = '<img src="assets/diagrams/scan.png"><a href="https://example.org/assets/x.png">zewnętrzny</a>'
+    rewritten = _rewrite_book_asset_urls(html, files)
+    assert 'src="@@PLUGINFILE@@/assets/diagrams/scan.png"' in rewritten
+    assert 'href="https://example.org/assets/x.png"' in rewritten
+
+
+def test_book_assets_reject_symlinks(tmp_path):
+    from magic_moodle.moodle_publish import MoodleAPIError, _book_assets_payload
+
+    activity = tmp_path / "book"
+    assets = activity / "chapters" / "assets"
+    assets.mkdir(parents=True)
+    outside = tmp_path / "outside.bin"
+    outside.write_bytes(b"secret")
+    try:
+        (assets / "link.bin").symlink_to(outside)
+    except (OSError, NotImplementedError):
+        pytest.skip("Symlinks are unavailable on this platform.")
+    with pytest.raises(MoodleAPIError, match="dowiązania symbolicznego"):
+        _book_assets_payload(activity)
+
+
+def test_book_assets_enforce_file_count_and_size_limits(tmp_path):
+    from magic_moodle.moodle_publish import MoodleAPIError, _book_assets_payload
+
+    activity = tmp_path / "book"
+    assets = activity / "chapters" / "assets"
+    assets.mkdir(parents=True)
+    for index in range(101):
+        (assets / f"{index}.bin").write_bytes(b"x")
+    with pytest.raises(MoodleAPIError, match="100 plików"):
+        _book_assets_payload(activity)
+
+
+def test_moodle_book_plugin_validates_and_persists_chapter_files():
+    plugin = (
+        Path(__file__).parents[2]
+        / "moodle-plugin/local/magicmoodle/classes/external/create_book.php"
+    ).read_text(encoding="utf-8")
+    assert "'files' => new \\\\external_multiple_structure(" in plugin
+    assert "'contentbase64' => new \\\\external_value(PARAM_RAW" in plugin
+    assert "base64_decode($file['contentbase64'], true)" in plugin
+    assert "'component' => 'mod_book'" in plugin
+    assert "'filearea' => 'chapter'" in plugin
+    assert "'itemid' => (int)$chapter->id" in plugin
+    assert "$fs->create_file_from_string($filerecord, $decoded);" in plugin
+    assert "$existingfile->delete();" in plugin
+    assert "File-preserving chapter editor synchronization is required" not in plugin
