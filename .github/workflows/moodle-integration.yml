@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - "moodle-plugin/local/magicmoodle/**"
+      - "scripts/moodle/**"
       - ".github/workflows/moodle-integration.yml"
 
 permissions:
@@ -43,6 +44,9 @@ jobs:
           extensions: curl, gd, intl, mbstring, mysqli, soap, sodium, xml, zip
           coverage: none
           ini-values: max_input_vars=5000
+
+      - name: Check MBZ round-trip fixture PHP syntax
+        run: php -l "$GITHUB_WORKSPACE/scripts/moodle/mbz_roundtrip.php"
 
       - name: Clone Moodle 4.1 stable
         run: git clone --depth 1 --branch MOODLE_401_STABLE https://github.com/moodle/moodle.git /tmp/moodle
