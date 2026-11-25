@@ -1510,6 +1510,11 @@ def test_book_assets_are_encoded_as_binary_and_paths_are_moodle_relative(tmp_pat
     rewritten = _rewrite_book_asset_urls(html, files)
     assert 'src="@@PLUGINFILE@@/assets/diagrams/scan.png"' in rewritten
     assert 'href="https://example.org/assets/x.png"' in rewritten
+    responsive = '<img srcset="assets/diagrams/scan.png 1x, https://example.org/remote.png 2x" style="background:url(assets/diagrams/scan.png)">'
+    responsive_rewritten = _rewrite_book_asset_urls(responsive, files)
+    assert '@@PLUGINFILE@@/assets/diagrams/scan.png 1x' in responsive_rewritten
+    assert 'https://example.org/remote.png 2x' in responsive_rewritten
+    assert 'url(@@PLUGINFILE@@/assets/diagrams/scan.png)' in responsive_rewritten
 
 
 def test_book_assets_reject_symlinks(tmp_path):
