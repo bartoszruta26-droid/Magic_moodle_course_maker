@@ -819,7 +819,7 @@ Wynik wywiadu należy połączyć z badaniem przedmiotowym i dokumentacją. W ra
 
 ### Schemat procesu
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Pacjent zgłasza ból] --> B{Czy występują czerwone flagi?}
     B -- Tak --> C[Pilna ocena i eskalacja]
@@ -829,7 +829,7 @@ flowchart TD
     F --> G[Wywiad lekowy i funkcjonalny]
     G --> H[Podsumowanie i weryfikacja]
     H --> I[Badanie przedmiotowe i dalsza decyzja osoby uprawnionej]
-\`\`\`
+```
 
 ---
 
