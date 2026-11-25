@@ -13,6 +13,7 @@ from .loader import CourseLoadError, load_course
 from .moodle_api import MoodleAPIError, MoodleClient, MoodleConfig
 from .moodle_publish import build_publish_plan, publish_course
 from .moodle_xml import export_moodle_xml
+from .markdown_import import MarkdownImportError, import_markdown_course
 from .question_bank import load_question_bank
 from .validation import validate_course
 
@@ -31,6 +32,15 @@ def _parser() -> argparse.ArgumentParser:
     )
     course_export.add_argument("course", type=Path, help="Katalog zawierający course.yaml")
     course_export.add_argument("destination", type=Path, help="Docelowy plik JSON")
+
+    markdown_import = commands.add_parser(
+        "import-md-course", help="Importuj konspekt Markdown do katalogowego modelu kursu"
+    )
+    markdown_import.add_argument("source", type=Path, help="Plik course.md ze spisem treści")
+    markdown_import.add_argument("destination", type=Path, help="Nowy katalog kursu wynikowego")
+    markdown_import.add_argument("--title", default=None, help="Pełna nazwa kursu")
+    markdown_import.add_argument("--short-name", default=None, help="Nazwa skrócona kursu")
+    markdown_import.add_argument("--json", action="store_true", help="Raport JSON")
 
     moodle_publish = commands.add_parser(
         "moodle-publish", help="Utwórz kurs i opublikuj obsługiwane aktywności przez Moodle REST API"
@@ -70,6 +80,26 @@ def _load_bank(path: Path):
 
 def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
+
+    if args.command == "import-md-course":
+        try:
+            result = import_markdown_course(
+                args.source, args.destination, title=args.title, short_name=args.short_name
+            )
+        except (MarkdownImportError, OSError, ValueError) as exc:
+            print(f"BŁĄD importu Markdown: {exc}", file=sys.stderr)
+            return 2
+        if args.json:
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+        else:
+            print(
+                f"Zaimportowano {result['activities_created']} aktywności Book w "
+                f"{result['modules']} sekcjach. Brakujące pliki treści: "
+                f"{len(result['missing_topics'])}. Raport: "
+                f"{args.destination / 'import-report.json'}"
+            )
+            print("Quizy nie zostały wygenerowane. Plik MBZ nie został utworzony.")
+        return 0
 
     if args.command == "moodle-publish":
         try:
