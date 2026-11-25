@@ -34,7 +34,7 @@ def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]
     if chapters_root.is_symlink() or assets_root.is_symlink() or not assets_root.is_dir():
         raise MoodleAPIError("Katalog zasobów Book musi być zwykłym katalogiem.")
     references = set()
-    for raw in re.findall(r'assets/[^"\\'\\s<>)]+', html):
+    for raw in re.findall(r"assets/[^\"'\s<>)]+", html):
         clean = raw.split("#", 1)[0].split("?", 1)[0]
         references.add(unquote(clean))
     files: list[dict[str, str]] = []
@@ -49,7 +49,7 @@ def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]
         relative = path.relative_to(assets_root)
         if "assets/" + relative.as_posix() not in references:
             continue
-        if any(part in {"", ".", ".."} or "\\" in part or "\\x00" in part for part in relative.parts):
+        if any(part in {"", ".", ".."} or "\\" in part or "\x00" in part for part in relative.parts):
             raise MoodleAPIError("Niebezpieczna ścieżka zasobu Book.")
         if len(files) >= 100:
             raise MoodleAPIError("Limit 100 plików zasobów Book został przekroczony.")
@@ -83,32 +83,23 @@ def _rewrite_book_asset_urls(html: str, files: list[dict[str, str]]) -> str:
             return raw
         return "@@PLUGINFILE@@/" + raw
 
-    def rewrite_srcset(match: re.Match[str]) -> str:
-        value = match.group("value")
-        parts = []
-        for candidate in value.split(","):
-            tokens = candidate.strip().split()
-            if tokens:
-                tokens[0] = rewrite(tokens[0])
-            parts.append(" ".join(tokens))
-        return match.group("prefix") + ", ".join(parts) + match.group("suffix")
-
     html = re.sub(
-        r'(?P<prefix>\\bsrcset\\s*=\\s*)(?P<quote>["\\'])(?P<value>.*?)(?P=quote)',
+        r"(?P<prefix>\bsrcset\s*=\s*)(?P<quote>[\"'])(?P<value>.*?)(?P=quote)",
         lambda m: m.group("prefix") + m.group("quote") + ", ".join(
-            " ".join([rewrite(part.split()[0])] + part.split()[1:])
-            for part in [candidate.strip() for candidate in m.group("value").split(",")] if part
+            " ".join([rewrite(tokens[0])] + tokens[1:])
+            for tokens in [candidate.strip().split() for candidate in m.group("value").split(",")]
+            if tokens
         ) + m.group("quote"),
         html,
         flags=re.IGNORECASE,
     )
     html = re.sub(
-        r'(?P<quote>["\\'])(?P<url>assets/[^"\\']+)(?P=quote)',
+        r"(?P<quote>[\"'])(?P<url>assets/[^\"']+)(?P=quote)",
         lambda m: m.group("quote") + rewrite(m.group("url")) + m.group("quote"),
         html,
     )
     html = re.sub(
-        r'url\\((?P<quote>["\\']?)(?P<url>assets/[^)"\\'\\s]+)(?P=quote)\\)',
+        r"url\((?P<quote>[\"']?)(?P<url>assets/[^)\"'\s]+)(?P=quote)\)",
         lambda m: "url(" + m.group("quote") + rewrite(m.group("url")) + m.group("quote") + ")",
         html,
         flags=re.IGNORECASE,
