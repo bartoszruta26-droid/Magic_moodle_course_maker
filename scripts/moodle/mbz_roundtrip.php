@@ -94,9 +94,9 @@ if ($mode === 'verify') {
         "SELECT cm.* FROM {course_modules} cm
            JOIN {modules} m ON m.id = cm.module
           WHERE cm.course = ? AND m.name = 'page'
-          ORDER BY cm.id DESC",
-        [$courseid],
-        IGNORE_MULTIPLE
+          ORDER BY cm.id DESC
+          LIMIT 1",
+        [$courseid]
     );
     if (!$cm) {
         throw new RuntimeException('Restored fixture Page activity was not found.');
