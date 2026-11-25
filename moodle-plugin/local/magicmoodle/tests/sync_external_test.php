@@ -72,8 +72,20 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         }
 
         $course = $this->create_sync_course();
+        $oldasset = 'old chapter asset';
+        $newasset = 'replacement chapter asset';
         $chapters = [
-            ['sourceid' => 'chapter-one', 'title' => 'Pierwszy', 'content' => '<p>Stara 1</p>', 'subchapter' => false],
+            [
+                'sourceid' => 'chapter-one',
+                'title' => 'Pierwszy',
+                'content' => '<p>Stara 1</p>',
+                'subchapter' => false,
+                'files' => [[
+                    'filepath' => '/assets/',
+                    'filename' => 'old.txt',
+                    'contentbase64' => base64_encode($oldasset),
+                ]],
+            ],
             ['sourceid' => 'chapter-two', 'title' => 'Drugi', 'content' => '<p>Stara 2</p>', 'subchapter' => false],
         ];
         $created = create_book::execute(
@@ -94,7 +106,17 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
 
         try {
             $changed = [
-                ['sourceid' => 'chapter-one', 'title' => 'Pierwszy po zmianie', 'content' => '<p>Nowa 1</p>', 'subchapter' => false],
+                [
+                    'sourceid' => 'chapter-one',
+                    'title' => 'Pierwszy po zmianie',
+                    'content' => '<p>Nowa 1</p>',
+                    'subchapter' => false,
+                    'files' => [[
+                        'filepath' => '/assets/',
+                        'filename' => 'new.txt',
+                        'contentbase64' => base64_encode($newasset),
+                    ]],
+                ],
                 ['sourceid' => 'chapter-two', 'title' => 'FAIL_ROLLBACK', 'content' => '<p>Nowa 2</p>', 'subchapter' => false],
             ];
             try {
@@ -115,6 +137,15 @@ final class local_magicmoodle_sync_external_test extends advanced_testcase {
         $this->assertSame('<p>Stara 1</p>', $first->content);
         $this->assertSame('Drugi', $second->title);
         $this->assertSame('<p>Stara 2</p>', $second->content);
+
+        $context = context_module::instance($created['cmid']);
+        $fs = get_file_storage();
+        $chapterid = $created['chapterids'][0]['chapterid'];
+        $oldfile = $fs->get_file($context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'old.txt');
+        $newfile = $fs->get_file($context->id, 'mod_book', 'chapter', $chapterid, '/assets/', 'new.txt');
+        $this->assertNotFalse($oldfile);
+        $this->assertSame($oldasset, $oldfile->get_content());
+        $this->assertFalse($newfile);
     }
 
     public function test_glossary_sync_preserves_entry_ids_and_updates_terms(): void {
