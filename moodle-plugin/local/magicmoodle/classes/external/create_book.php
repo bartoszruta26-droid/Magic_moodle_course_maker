@@ -127,6 +127,9 @@ class create_book extends \external_api {
                 }
             }
         }
+        if ($totalsize + $assetstotalsize > 5 * 1024 * 1024) {
+            throw new invalid_parameter_exception('Combined Book chapter content and assets exceed the 5 MiB activity limit.');
+        }
 
         $mapping = [];
         $seenchapterids = [];
