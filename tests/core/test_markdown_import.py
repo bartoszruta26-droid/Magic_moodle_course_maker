@@ -4,7 +4,9 @@ import pytest
 import yaml
 
 from magic_moodle.loader import load_course
-from magic_moodle.markdown_import import (\n    MarkdownImportError, import_markdown_course, parse_outline, split_markdown_chapters,\n)
+from magic_moodle.markdown_import import (
+    MarkdownImportError, import_markdown_course, parse_outline, split_markdown_chapters,
+)
 
 
 def _source_tree(tmp_path: Path) -> Path:
