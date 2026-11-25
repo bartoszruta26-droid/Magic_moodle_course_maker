@@ -62,8 +62,8 @@ def test_requires_text_input() -> None:
 
 
 def test_heading_offset_is_explicit_and_bounded() -> None:
-    rendered = render_markdown("# Tytuł\\n\\n###### Najniższy")
-    shifted = render_markdown("# Tytuł\\n\\n###### Najniższy", heading_offset=1)
+    rendered = render_markdown("# Tytuł\n\n###### Najniższy")
+    shifted = render_markdown("# Tytuł\n\n###### Najniższy", heading_offset=1)
     assert "<h1>Tytuł</h1>" in rendered
     assert "<h2>Tytuł</h2>" in shifted
     assert "<h6>Najniższy</h6>" in shifted
