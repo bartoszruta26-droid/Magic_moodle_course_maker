@@ -1182,7 +1182,7 @@ Maksymalnie 12 punktów. Próg zaliczenia powinien być określony przez organiz
 
 ### 26.1. Podręczniki i opracowania kliniczne
 
-1. Campbell WW. *DeJong's The Neurologic Examination*. 7th ed. Philadelphia: Wolters Kluwer; 2013. Informacje o strukturze wywiadu neurologicznego i znaczeniu chronologii objawów. Katalog wydawcy: https://shop.lww.com/DeJong-s-The-Neurologic-Examination/p/978160913拼
+1. Campbell WW. *DeJong's The Neurologic Examination*. 7th ed. Philadelphia: Wolters Kluwer; 2013. Informacje o strukturze wywiadu neurologicznego i znaczeniu chronologii objawów. Katalog wydawcy: https://search.worldcat.org/search?q=DeJong%27s%20The%20Neurologic%20Examination%207th%20edition
 2. Walker HK, Hall WD, Hurst JW, editors. *Clinical Methods: The History, Physical, and Laboratory Examinations*. 3rd ed. Boston: Butterworths; 1990. Rozdziały dotyczące badania neurologicznego i wywiadu: https://www.ncbi.nlm.nih.gov/books/NBK201/
 3. Merck Manual Professional Edition. *Approach to the Neurologic Patient*. https://www.merckmanuals.com/professional/neurologic-disorders/approach-to-the-neurologic-patient/approach-to-the-neurologic-patient
 4. NCBI Bookshelf. *Clinical Methods – The Neurologic Examination*. https://www.ncbi.nlm.nih.gov/books/NBK373/
