@@ -371,7 +371,17 @@ class create_book extends \external_api {
                 }
                 foreach ($filesnapshots as $snapshot) {
                     try {
-                        $fs->create_file_from_string($snapshot['record'], $snapshot['content']);
+                        $record = $snapshot['record'];
+                        // SQL rollback can restore a file metadata row whose filedir blob
+                        // was already deleted. Remove that stale row before recreating bytes.
+                        $stale = $fs->get_file(
+                            $record['contextid'], $record['component'], $record['filearea'],
+                            $record['itemid'], $record['filepath'], $record['filename']
+                        );
+                        if ($stale) {
+                            $stale->delete();
+                        }
+                        $fs->create_file_from_string($record, $snapshot['content']);
                     } catch (\Throwable $compensationexception) {
                         $compensationerrors[] = $compensationexception->getMessage();
                     }
