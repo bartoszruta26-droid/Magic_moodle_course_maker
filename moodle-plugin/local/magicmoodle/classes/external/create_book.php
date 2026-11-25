@@ -105,12 +105,18 @@ class create_book extends \external_api {
             foreach ($chapter['files'] as $file) {
                 $filepath = $file['filepath'];
                 $filename = $file['filename'];
-                if (!preg_match('#^/assets(?:/[A-Za-z0-9._ -]+)*/$#D', $filepath)
-                        || strpos($filepath, '..') !== false || strpos($filepath, '\\') !== false
+                if (!preg_match('#^/assets(?:/[^/\\\\\x00]+)*/$#uD', $filepath)
+                        || strpos($filepath, '\\') !== false
                         || $filename === '' || $filename === '.' || $filename === '..'
                         || strpos($filename, '/') !== false || strpos($filename, '\\') !== false
                         || strpos($filename, "\0") !== false) {
                     throw new invalid_parameter_exception('Invalid Book chapter asset path or filename.');
+                }
+                $pathsegments = explode('/', trim($filepath, '/'));
+                foreach ($pathsegments as $pathsegment) {
+                    if ($pathsegment === '' || $pathsegment === '.' || $pathsegment === '..') {
+                        throw new invalid_parameter_exception('Invalid Book chapter asset path segment.');
+                    }
                 }
                 $filekey = $filepath . $filename;
                 if (isset($seenfiles[$filekey])) {
