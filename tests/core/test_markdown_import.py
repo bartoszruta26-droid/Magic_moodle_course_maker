@@ -259,7 +259,7 @@ def test_import_rejects_backslashes_and_empty_normalized_asset_paths(tmp_path):
     assert report["assets"]["copied"] == 0
     assert report["assets"]["missing"] == []
     assert report["assets"]["rejected"] == [
-        {"topic": "1.1", "url": r"folder\\file.txt", "reason": "absolute_or_backslash_path"},
+        {"topic": "1.1", "url": "folder\\file.txt", "reason": "absolute_or_backslash_path"},
         {"topic": "1.1", "url": "folder%5Cfile.txt", "reason": "invalid_path"},
         {"topic": "1.1", "url": ".", "reason": "invalid_path"},
     ]
