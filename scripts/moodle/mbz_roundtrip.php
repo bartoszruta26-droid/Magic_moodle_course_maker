@@ -25,8 +25,9 @@ $mode = $argv[1] ?? '';
 $sentinel = 'MBZ_ROUNDTRIP_SENTINEL_2026';
 
 if ($mode === 'create') {
-    require_login();
     $admin = get_admin();
+    $USER = $admin;
+    require_once($CFG->libdir . '/resourcelib.php');
     if (!$admin) {
         throw new RuntimeException('Moodle administrator account is missing.');
     }
