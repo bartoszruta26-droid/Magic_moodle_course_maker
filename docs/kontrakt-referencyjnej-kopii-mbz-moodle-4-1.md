@@ -7,7 +7,7 @@
 
 ## 1. Decyzja architektoniczna
 
-Plik `.mbz` jest kopią zapasową utworzoną przez mechanizm kopii zapasowych Moodle, a nie dowolnym archiwum ZIP zawierającym kilka plików XML.
+Plik `.mbz` jest kopią zapasową utworzoną przez mechanizm kopii zapasowych Moodle. Zależnie od konfiguracji Moodle może być archiwum ZIP albo archiwum TAR skompresowanym gzip; rozszerzenie `.mbz` samo w sobie nie określa kontenera.
 
 Nie należy rozwijać generatora z PR #101 jako niezależnego, ręcznego serializatora całego formatu backupu. Źródłem prawdy dla struktury, metadanych, identyfikatorów, obszarów plików i zależności aktywności ma być kod Moodle w konkretnej wspieranej wersji.
 
@@ -45,7 +45,7 @@ W pierwszym przebiegu testu CI należy:
 
 1. utworzyć kurs wzorcowy w Moodle 4.1;
 2. uruchomić oficjalny backup kursu;
-3. sprawdzić ZIP (`unzip -t`);
+3. rozpoznać kontener (ZIP lub gzip/TAR), sprawdzić jego integralność i odczytywalność wszystkich wpisów;
 4. wypisać wszystkie ścieżki archiwum i zapisać je jako artefakt;
 5. odczytać `moodle_backup.xml` oraz wszystkie pliki XML;
 6. zebrać nazwy katalogów aktywności, identyfikatory instancji, identyfikatory modułów kursu i manifest plików;
@@ -84,7 +84,7 @@ Wybór wariantu wymaga sprawdzenia istniejącego endpointu `local_magicmoodle`, 
 | Model | Walidacja Course/Section/Activity | brak błędów krytycznych i nieznanych typów |
 | Publikacja | Utworzenie aktywności w Moodle | aktywności istnieją i mają oczekiwane powiązania |
 | Backup | Oficjalny backup Moodle | proces kończy się powodzeniem |
-| ZIP | Integralność archiwum | `unzip -t` bez błędów |
+| Kontener MBZ | Integralność archiwum ZIP lub gzip/TAR | wszystkie wpisy można odczytać bez błędów |
 | XML | Parsowanie wszystkich plików XML | wszystkie dokumenty są poprawne składniowo |
 | Pliki | Manifest i zawartość plików | każdy wpis ma odpowiadający plik i zgodny hash |
 | Restore | Przywrócenie do nowego kursu | Moodle kończy restore bez błędów |
@@ -94,7 +94,7 @@ Wybór wariantu wymaga sprawdzenia istniejącego endpointu `local_magicmoodle`, 
 | Quiz | Pytania i odpowiedzi | zachowane są wyłącznie jawne pytania i klucze |
 | Powtarzalność | Dwa eksporty tego samego kursu | semantycznie równoważny wynik, bez osieroconych danych |
 
-Test restore jest warunkiem akceptacji. Samo utworzenie ZIP, poprawność XML albo zielone testy jednostkowe nie wystarczają.
+Test restore jest warunkiem akceptacji. Samo utworzenie archiwum, poprawność XML albo zielone testy jednostkowe nie wystarczają.
 
 ## 6. Bezpieczeństwo i niezawodność
 
