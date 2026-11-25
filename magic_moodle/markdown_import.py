@@ -214,7 +214,6 @@ def import_markdown_course(
         section_name = f"{module.number:02d}-modul-{_slug(module.title)[:48]}"
         section_path = sections_root / section_name
         section_path.mkdir()
-        module_topics = [topic for topic in module.topics if topic.source is not None]
         activities: list[dict] = []
         summary_lines = [f"# {module.number}. {module.title}", "", "## Tematy ujęte w konspekcie", ""]
         for topic in module.topics:
