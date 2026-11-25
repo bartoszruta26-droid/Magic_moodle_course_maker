@@ -263,3 +263,48 @@ def test_import_rejects_backslashes_and_empty_normalized_asset_paths(tmp_path):
         {"topic": "1.1", "url": "folder%5Cfile.txt", "reason": "invalid_path"},
         {"topic": "1.1", "url": ".", "reason": "invalid_path"},
     ]
+
+
+def test_import_rewrites_srcset_css_and_reference_markdown_assets(tmp_path):
+    source = _source_tree(tmp_path)
+    source_dir = source.parent
+    (source_dir / "media").mkdir()
+    (source_dir / "media" / "small.png").write_bytes(b"SMALL")
+    (source_dir / "media" / "large.png").write_bytes(b"LARGE")
+    (source_dir / "media" / "background image.png").write_bytes(b"BACKGROUND")
+    (source_dir / "media" / "reference.pdf").write_bytes(b"REFERENCE")
+    original = (
+        "![Responsywne](placeholder.png)\n"
+        '<img srcset="media/small.png 1x, media/large.png 2x" alt="warianty">\n'
+        '<div style="background-image: url(\'media/background%20image.png\')"></div>\n'
+        "<style> .hero { background: url(media/large.png); } </style>\n"
+        "[dokument]: <media/reference.pdf> \"Opis\"\n"
+        "[Dokument][dokument]\n"
+        '<img srcset="https://cdn.example.org/a.png 1x, media/small.png 2x">\n'
+    )
+    (source_dir / "1_1_anatomia.md").write_text(original, encoding="utf-8")
+
+    destination = tmp_path / "generated-rich-assets"
+    report = import_markdown_course(source, destination)
+    activity = load_course(destination).sections[0].activities[0]
+    content = "".join(
+        activity.content[item["content_file"]]
+        for item in activity.resource["chapters"]
+    )
+
+    assert 'srcset="assets/media/small.png 1x, assets/media/large.png 2x"' in content
+    assert "url('assets/media/background%20image.png')" in content
+    assert "url(assets/media/large.png)" in content
+    assert "[dokument]: <assets/media/reference.pdf> \"Opis\"" in content
+    assert "[Dokument][dokument]" in content
+    assert "https://cdn.example.org/a.png 1x, assets/media/small.png 2x" in content
+    assert report["assets"]["copied"] == 4
+
+    assets = (
+        destination / "sections" / "01-modul-wstep"
+        / activity.ref / "chapters" / "assets" / "media"
+    )
+    assert (assets / "small.png").read_bytes() == b"SMALL"
+    assert (assets / "large.png").read_bytes() == b"LARGE"
+    assert (assets / "background image.png").read_bytes() == b"BACKGROUND"
+    assert (assets / "reference.pdf").read_bytes() == b"REFERENCE"
