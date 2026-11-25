@@ -122,8 +122,8 @@ class create_book extends \external_api {
                     throw new invalid_parameter_exception('Invalid base64 or Book asset exceeds 2 MiB.');
                 }
                 $assetstotalsize += strlen($decoded);
-                if ($assetstotalsize > 5 * 1024 * 1024) {
-                    throw new invalid_parameter_exception('Book assets exceed the 5 MiB activity limit.');
+                if ($assetstotalsize + $totalsize > 5 * 1024 * 1024) {
+                    throw new invalid_parameter_exception('Combined Book chapter content and assets exceed the 5 MiB activity limit.');
                 }
             }
         }
