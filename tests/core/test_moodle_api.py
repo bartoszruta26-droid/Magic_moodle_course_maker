@@ -1500,7 +1500,7 @@ def test_book_assets_are_encoded_as_binary_and_paths_are_moodle_relative(tmp_pat
     payload = b"\x89PNG\r\n\x1a\n\x00\xff"
     (assets / "scan.png").write_bytes(payload)
 
-    files = _book_assets_payload(activity)
+    files = _book_assets_payload(activity, '<img src="assets/diagrams/scan.png">')
     assert files == [{
         "filepath": "/assets/diagrams/",
         "filename": "scan.png",
@@ -1525,7 +1525,7 @@ def test_book_assets_reject_symlinks(tmp_path):
     except (OSError, NotImplementedError):
         pytest.skip("Symlinks are unavailable on this platform.")
     with pytest.raises(MoodleAPIError, match="dowiązań symbolicznych"):
-        _book_assets_payload(activity)
+        _book_assets_payload(activity, '<img src="assets/link.bin">')
 
 
 def test_book_assets_enforce_file_count_and_size_limits(tmp_path):
@@ -1537,7 +1537,7 @@ def test_book_assets_enforce_file_count_and_size_limits(tmp_path):
     for index in range(101):
         (assets / f"{index}.bin").write_bytes(b"x")
     with pytest.raises(MoodleAPIError, match="100 plików"):
-        _book_assets_payload(activity)
+        _book_assets_payload(activity, '<img src="assets/0.bin">')
 
 
 def test_moodle_book_plugin_validates_and_persists_chapter_files():
