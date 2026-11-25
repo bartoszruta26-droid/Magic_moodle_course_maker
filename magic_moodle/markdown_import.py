@@ -113,6 +113,48 @@ def parse_outline(source: Path) -> tuple[Module, ...]:
     return tuple(result)
 
 
+
+def split_markdown_chapters(markdown_text: str, root_title: str) -> list[tuple[str, str, bool]]:
+    """Dzieli treść na rozdział główny i podrozdziały wyznaczone nagłówkami H2.
+
+    Nagłówki H2 wewnątrz ogrodzonych bloków kodu pozostają zwykłą treścią.
+    H3 i niższe poziomy nie dzielą książki, dzięki czemu zachowują hierarchię
+    semantyczną wewnątrz podrozdziału. Fragmenty są zapisywane bez przepisywania
+    treści; ich konkatenacja jest identyczna z wejściem.
+    """
+    lines = markdown_text.splitlines(keepends=True)
+    boundaries: list[tuple[int, str]] = []
+    fence_char: str | None = None
+    fence_length = 0
+    for index, line in enumerate(lines):
+        stripped = line.lstrip()
+        fence_match = re.match(r"^(`{3,}|~{3,})", stripped)
+        if fence_match:
+            marker = fence_match.group(1)
+            char = marker[0]
+            if fence_char is None:
+                fence_char, fence_length = char, len(marker)
+            elif char == fence_char and len(marker) >= fence_length:
+                fence_char, fence_length = None, 0
+            continue
+        if fence_char is not None:
+            continue
+        heading = re.match(r"^##[ \t]+(.+?)\s*#*\s*(?:\r?\n)?$", line)
+        if heading:
+            boundaries.append((index, heading.group(1).strip()))
+    if not boundaries:
+        return [(root_title, markdown_text, False)]
+
+    parts: list[tuple[str, str, bool]] = []
+    first_start = 0
+    first_end = boundaries[0][0]
+    root_content = "".join(lines[first_start:first_end])
+    parts.append((root_title, root_content, False))
+    for position, (start, heading_title) in enumerate(boundaries):
+        end = boundaries[position + 1][0] if position + 1 < len(boundaries) else len(lines)
+        parts.append((heading_title, "".join(lines[start:end]), True))
+    return parts
+
 def import_markdown_course(
     source: str | Path,
     destination: str | Path,
@@ -172,7 +214,6 @@ def import_markdown_course(
         section_name = f"{module.number:02d}-modul-{_slug(module.title)[:48]}"
         section_path = sections_root / section_name
         section_path.mkdir()
-        module_topics = [topic for topic in module.topics if topic.source is not None]
         activities: list[dict] = []
         summary_lines = [f"# {module.number}. {module.title}", "", "## Tematy ujęte w konspekcie", ""]
         for topic in module.topics:
@@ -190,8 +231,18 @@ def import_markdown_course(
             activity_path = section_path / activity_ref
             chapters_path = activity_path / "chapters"
             chapters_path.mkdir(parents=True)
-            chapter_name = "01-tresc-tematu.md"
-            shutil.copy2(topic.source, chapters_path / chapter_name)
+            source_text = _read_source(topic.source)
+            chapter_parts = split_markdown_chapters(source_text, f"{topic.number}. {topic.title}")
+            chapter_entries: list[dict] = []
+            for chapter_index, (chapter_title, chapter_text, is_subchapter) in enumerate(chapter_parts, start=1):
+                chapter_name = f"{chapter_index:02d}-{_slug(chapter_title)[:52]}.md"
+                (chapters_path / chapter_name).write_text(chapter_text, encoding="utf-8")
+                chapter_entries.append({
+                    "title": chapter_title,
+                    "subchapter": is_subchapter,
+                    "content_file": f"chapters/{chapter_name}",
+                    "hidden": False,
+                })
             book_config = {
                 "book": {
                     "name": f"{topic.number}. {topic.title}",
@@ -199,12 +250,7 @@ def import_markdown_course(
                     "intro_format": "markdown",
                     "numbering": 1,
                     "customtitles": 0,
-                    "chapters": [{
-                        "title": f"{topic.number}. {topic.title}",
-                        "subchapter": False,
-                        "content_file": f"chapters/{chapter_name}",
-                        "hidden": False,
-                    }],
+                    "chapters": chapter_entries,
                 }
             }
             (activity_path / "book.yaml").write_text(
