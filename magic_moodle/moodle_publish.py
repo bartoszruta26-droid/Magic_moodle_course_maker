@@ -102,7 +102,7 @@ def _markdown_to_html(source: str) -> str:
     """Render Markdown przez wspólny, bezpieczny renderer projektu."""
     from .markdown import render_markdown
 
-    return render_markdown(source, heading_offset=1).rstrip("\\n")
+    return render_markdown(source, heading_offset=1).rstrip("\n")
 
 
 def build_publish_plan(course: Course, category_id: int) -> PublishPlan:
