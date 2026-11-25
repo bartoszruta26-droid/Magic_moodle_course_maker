@@ -184,7 +184,7 @@ def _rewrite_local_asset_url(
         return raw_url
     if not parsed.path:
         return raw_url
-    if parsed.path.startswith(("/", "\\\\")) or "\\\\" in parsed.path:
+    if parsed.path.startswith(("/", "\\")) or "\\" in parsed.path:
         report["rejected"].append({"url": raw_url, "reason": "absolute_or_backslash_path"})
         return raw_url
     try:
@@ -192,11 +192,14 @@ def _rewrite_local_asset_url(
     except (UnicodeDecodeError, ValueError):
         report["rejected"].append({"url": raw_url, "reason": "invalid_url_encoding"})
         return raw_url
-    if not decoded_path or "\x00" in decoded_path:
+    if not decoded_path or "\x00" in decoded_path or "\\" in decoded_path:
         report["rejected"].append({"url": raw_url, "reason": "invalid_path"})
         return raw_url
 
     relative = Path(os.path.normpath(decoded_path))
+    if not relative.parts or relative == Path("."):
+        report["rejected"].append({"url": raw_url, "reason": "invalid_path"})
+        return raw_url
     if relative.is_absolute() or relative.parts[0] == "..":
         report["rejected"].append({"url": raw_url, "reason": "path_traversal"})
         return raw_url
