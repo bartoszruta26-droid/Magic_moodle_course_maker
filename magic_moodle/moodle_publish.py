@@ -34,9 +34,28 @@ def _book_assets_payload(activity_path: Path, html: str) -> list[dict[str, str]]
     if chapters_root.is_symlink() or assets_root.is_symlink() or not assets_root.is_dir():
         raise MoodleAPIError("Katalog zasobów Book musi być zwykłym katalogiem.")
     references = set()
-    for raw in re.findall(r"assets/[^\"'\s<>)]+", html):
-        clean = raw.split("#", 1)[0].split("?", 1)[0]
-        references.add(unquote(clean))
+    candidates = []
+    for match in re.finditer(
+        r"(?:src|href|poster|srcset)\s*=\s*([\"'])(.*?)\1",
+        html,
+        flags=re.IGNORECASE | re.DOTALL,
+    ):
+        candidates.extend(
+            part.strip().split()[0]
+            for part in match.group(2).split(",")
+            if part.strip()
+        )
+    candidates.extend(
+        match.group(1).strip().strip("\"'")
+        for match in re.finditer(r"url\(\s*([^)]*?)\s*\)", html, flags=re.IGNORECASE)
+    )
+    for raw in candidates:
+        parsed = urlsplit(raw)
+        if parsed.scheme or parsed.netloc or parsed.path.startswith(("/", "#")):
+            continue
+        clean = unquote(parsed.path)
+        if clean.startswith("assets/"):
+            references.add(clean)
     files: list[dict[str, str]] = []
     total = 0
     for path in sorted(assets_root.rglob("*")):
