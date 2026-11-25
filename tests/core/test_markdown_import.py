@@ -200,7 +200,8 @@ def test_import_copies_and_rewrites_nested_local_assets(tmp_path):
         '<img src="media/inline.png" alt="ilustracja">\n\n'
         "[Zewnętrzny](https://example.org/obraz.png)\n\n"
         "[Brakujący](missing.png)\n\n"
-        "[Poza katalogiem](../../outside.txt)\n"
+        "[Poza katalogiem](../../outside.txt)\n\n"
+        "```markdown\n![Przykład kodu](not-an-asset.png)\n```\n"
     )
     (source_dir / "1_1_anatomia.md").write_text(original, encoding="utf-8")
 
@@ -216,6 +217,7 @@ def test_import_copies_and_rewrites_nested_local_assets(tmp_path):
     assert "https://example.org/obraz.png" in content
     assert "[Brakujący](missing.png)" in content
     assert "[Poza katalogiem](../../outside.txt)" in content
+    assert "![Przykład kodu](not-an-asset.png)" in content
 
     asset_root = destination / "sections" / "01-modul-wstep" / activity.ref / "chapters" / "assets"
     assert (asset_root / "media" / "zdjęcie test.png").read_bytes() == b"PNG-DATA"
