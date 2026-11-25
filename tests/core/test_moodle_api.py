@@ -1500,6 +1500,7 @@ def test_book_assets_are_encoded_as_binary_and_urls_are_rewritten(tmp_path):
     assets.mkdir(parents=True)
     binary = b"\x89PNG\r\n\x1a\n\x00\xff"
     (assets / "scan.png").write_bytes(binary)
+    (assets / "remote.png").write_bytes(b"must not upload for an external URL")
 
     files = _book_assets_payload(activity, '<img src="assets/diagrams/scan.png">')
     assert files == [{
@@ -1507,6 +1508,10 @@ def test_book_assets_are_encoded_as_binary_and_urls_are_rewritten(tmp_path):
         "filename": "scan.png",
         "contentbase64": base64.b64encode(binary).decode("ascii"),
     }]
+    external_only = _book_assets_payload(
+        activity, '<a href="https://example.org/assets/remote.png">external</a>'
+    )
+    assert external_only == []
     html = ('<img src="assets/diagrams/scan.png">'
             '<a href="https://example.org/assets/remote.png">external</a>'
             '<img srcset="assets/diagrams/scan.png 1x, https://example.org/x.png 2x">'
