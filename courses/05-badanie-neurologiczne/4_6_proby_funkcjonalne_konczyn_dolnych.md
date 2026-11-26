@@ -438,7 +438,7 @@ Podczas siadania przebieg jest kontrolowany w odwrotnej kolejności, ze szczegó
 2. Pacjent siedzi z plecami opartymi o oparcie, stopy na podłożu.
 3. Jeżeli protokół wymaga rąk skrzyżowanych na klatce piersiowej, nie pozwalaj na odpychanie się rękami.
 4. Po poleceniu pacjent wstaje całkowicie i ponownie siada pięć razy, możliwie szybko, ale bezpiecznie.
-5. Pomiar rozpoczyna się według przyjętej instrukcji i kończy po osiągnięciu pozycji stojącej po piątym powtórzeniu.
+5. W często stosowanym protokole 5xSTS pomiar rozpoczyna się na sygnał „start” i kończy, gdy po piątym pełnym wstaniu pośladki ponownie dotkną siedziska. Niektóre baterie, w tym wariant powtarzanego wstawania w SPPB, kończą pomiar po osiągnięciu pełnego stania po piątym wstaniu. Należy stosować jeden, z góry określony protokół i nie porównywać wyników uzyskanych przy różnych punktach końcowych.
 6. Zapisz czas, wysokość krzesła, użycie rąk, pomoc, objawy i jakość ruchu.
 
 W literaturze spotyka się różnice w szczegółach protokołu, w tym wysokości siedziska, sposobie ustawienia ramion i momencie rozpoczęcia oraz zakończenia pomiaru. W badaniu seryjnym należy stosować ten sam protokół.
@@ -1342,7 +1342,7 @@ Rzetelna ocena funkcjonalna nie polega na uzyskaniu jak największej liczby powt
 
 11. **Mañago MM, Hebert JR, Schenkman M.** Psychometric properties of a clinical strength assessment protocol in people with multiple sclerosis. *Int J MS Care*. 2017;19:253–262. DOI: [10.7224/1537-2073.2016-078](https://doi.org/10.7224/1537-2073.2016-078). Właściwości oceny funkcjonalnej mięśni u osób ze stwardnieniem rozsianym.
 
-12. **Ramari C, Hvid LG, de Araujo Claudio Dalgas U.** The importance of lower-extremity muscle strength for lower-limb functional capacity in multiple sclerosis: systematic review. *Ann Phys Rehabil Med*. 2020;63:123–137. DOI: [10.1016/j.rehab.2019.11.005](https://doi.org/10.1016/j.rehab.2019.11.005). Znaczenie siły kończyn dolnych dla sprawności funkcjonalnej w stwardnieniu rozsianym.
+12. **Ramari C, Hvid LG, de David AC, Dalgas U.** The importance of lower-extremity muscle strength for lower-limb functional capacity in multiple sclerosis: systematic review. *Ann Phys Rehabil Med*. 2020;63(2):123–137. DOI: [10.1016/j.rehab.2019.11.005](https://doi.org/10.1016/j.rehab.2019.11.005). Znaczenie siły kończyn dolnych dla sprawności funkcjonalnej w stwardnieniu rozsianym.
 
 13. **World Health Organization.** WHO Guidelines on Physical Activity and Sedentary Behaviour. Geneva: WHO; 2020. Zalecenia dotyczące aktywności fizycznej i zdrowia. [WHO](https://www.who.int/publications/i/item/9789240015128).
 
