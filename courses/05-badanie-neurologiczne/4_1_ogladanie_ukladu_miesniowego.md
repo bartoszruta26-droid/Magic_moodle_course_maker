@@ -805,8 +805,8 @@ Najważniejsze jest rzetelne oddzielenie obserwacji od hipotezy. Dokumentacja po
 13. **Denervation pseudo hypertrophy of the calf: An important cause of lower limb swelling.** Case report and review.  
     https://pmc.ncbi.nlm.nih.gov/articles/PMC8956883/
 
-14. **Evaluation of the Patient with Muscle Weakness.** AAFP – materiał uzupełniający dotyczący wzorców osłabienia i diagnostyki różnicowej.  
-    https://www.aafp.org/afp/2005/0401/p1327
+14. Newman G, Levin M. **How To Assess Muscle Strength.** MSD Manual Professional Edition. Aktualizacja: sierpień 2025.  
+    https://www.msdmanuals.com/professional/neurologic-disorders/neurologic-examination/how-to-assess-muscle-strength
 
 15. National Institute for Health and Care Excellence. **Motor neurone disease: assessment and management – full guideline resources.**  
     https://www.nice.org.uk/guidance/ng42
