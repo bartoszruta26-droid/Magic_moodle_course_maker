@@ -1394,7 +1394,7 @@ Dokumentacja jest częścią opieki nad pacjentem, a nie wyłącznie obowiązkie
 
 ### A. Podręczniki i opracowania neurologiczne
 
-1. Campbell WW, Barohn RJ, red. **DeJong's The Neurologic Examination.** 8th ed. Wolters Kluwer; 2020. Informacje wydawnicze: https://shop.lww.com/DeJong-s-The-Neurologic-Examination/p/978149638 ಅರ್ಜ? 
+1. Campbell WW, Barohn RJ, red. **DeJong's The Neurologic Examination.** 8th ed. Wolters Kluwer; 2020.
 2. Blumenfeld H. **Neuroanatomy Through Clinical Cases.** 3rd ed. Oxford University Press; 2021. https://global.oup.com/academic/product/neuroanatomy-through-clinical-cases-9780190880243
 3. Bickley LS, Szilagyi PG, Hoffman RM. **Bates' Guide to Physical Examination and History Taking.** Wolters Kluwer. Informacje wydawnicze: https://shop.lww.com/
 4. Walker HK. **The Neurologic Examination.** In: Walker HK, Hall WD, Hurst JW, eds. Clinical Methods: The History, Physical, and Laboratory Examinations. 3rd ed. Butterworths; 1990. NCBI Bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK376/
