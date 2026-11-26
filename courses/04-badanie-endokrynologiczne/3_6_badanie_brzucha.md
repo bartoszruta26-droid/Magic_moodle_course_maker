@@ -1181,7 +1181,7 @@ D. BSA
 Co oznacza WHtR 0,62 u dorosłego z BMI poniżej 35 kg/m² według klasyfikacji NICE?
 
 A. Wynik prawidłowy  
-B. Wysoką centralną adiposity  
+B. Wysokie centralne nagromadzenie tkanki tłuszczowej  
 C. Pewne rozpoznanie cukrzycy  
 D. Pewne rozpoznanie zespołu Cushinga
 
