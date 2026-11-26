@@ -1468,7 +1468,7 @@ D. Prawidłowy wygląd wyklucza chorobę endokrynologiczną
 
 Poniższe publikacje i wytyczne stanowią podstawę dydaktyczną. W praktyce należy sprawdzać aktualność zaleceń, ich zakres populacyjny oraz ewentualne aktualizacje.
 
-1. Durante C, Hegedüs L, Czarniecka A, Paschke R, Russ G, Schmitt F, Soffietti R, Tuttle RM, Zini M, Avenia N, Bagnasco M, Bartalena L, Beaulieu A, Benamour F, Borson-Chazot F, Boucek J, Boucai L, Brix TH, Cabanillas ME, Campennì A, Colombo C, Crescenzi A, D’Avanzo A, Duntas L, Elisei R, Filetti S, Frasoldati A, Fugazzola L, Gharib H, Giusti M, Graf D, Grani G, Gubbiotti MA, Kahaly GJ, Kloos RT, Kocjan T, Luster M, Maciel RMB, Malandrino P, Mian C, Netea-Maier R, Niedziela M, Papini E, Paschke R, Rago T, Reiners C, Robenshtok E, Sobrinho-Simões M, Sosa JA, Specht MC, Stang M, Sywak M, Valcavi R, Vanderpump M, Vitti P, Wémeau JL, Werner RA, Wiersinga WM, Zafon C. 2023 European Thyroid Association Clinical Practice Guidelines for thyroid nodule management. **Eur Thyroid J.** 2023;12(5):e230067. doi:10.1530/ETJ-23-0067. Dostęp: https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/
+1. Durante C, Hegedüs L, et al. 2023 European Thyroid Association Clinical Practice Guidelines for thyroid nodule management. **Eur Thyroid J.** 2023;12(5):e230067. doi:10.1530/ETJ-23-0067. Dostęp: https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/
 
 2. Ross DS, Burch HB, Cooper DS, Greenlee MC, Laurberg P, Maia AL, Rivkees SA, Samuels M, Sosa JA, Stan MN, Walter MA. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. **Thyroid.** 2016;26(10):1343–1421. doi:10.1089/thy.2016.0229. Dostęp: https://doi.org/10.1089/thy.2016.0229
 
@@ -1482,7 +1482,7 @@ Poniższe publikacje i wytyczne stanowią podstawę dydaktyczną. W praktyce nal
 
 7. Katznelson L, Laws ER Jr, Melmed S, Molitch ME, Murad MH, Utz A, Wass JAH. Acromegaly: An Endocrine Society Clinical Practice Guideline. **J Clin Endocrinol Metab.** 2014;99(11):3933–3951. doi:10.1210/jc.2014-2700. Dostęp: https://academic.oup.com/jcem/article/99/11/3933/2836347
 
-8. Endocrine Society. Acromegaly diagnosis. **J Clin Endocrinol Metab.** 2026;111(Suppl 1):S38–S50. doi:10.1210/clinem/dgag189. Dostęp: https://academic.oup.com/jcem/article/111/Supplement_1/S38/8665221
+8. Yogi-Morren D, Chanson P. Acromegaly diagnosis. **J Clin Endocrinol Metab.** 2026;111(Suppl 1):S38–S50. doi:10.1210/clinem/dgag189. Dostęp: https://academic.oup.com/jcem/article/111/Supplement_1/S38/8665221
 
 9. American Academy of Otolaryngology–Head and Neck Surgery Foundation. Clinical Practice Guideline: Evaluation of the Neck Mass in Adults. **Otolaryngol Head Neck Surg.** 2017;157(2 Suppl):S1–S30. doi:10.1177/0194599817722550. Dostęp: https://doi.org/10.1177/0194599817722550
 
