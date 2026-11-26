@@ -259,10 +259,10 @@ Przykład:
 - wzrost: 172 cm;
 - WHtR = 94 / 172 = 0,547.
 
-Wytyczne NICE NG246 z 2025 r. zalecają u dorosłych z BMI poniżej 35 kg/m² uwzględnianie WHtR jako dodatkowego wskaźnika centralnej adiposity. W tej klasyfikacji:
-- 0,40–0,49: zakres określany jako zdrowy pod względem centralnej adiposity;
-- 0,50–0,59: zwiększona centralna adiposity;
-- 0,60 lub więcej: wysoka centralna adiposity.
+Wytyczne NICE NG246 z 2025 r. zalecają u dorosłych z BMI poniżej 35 kg/m² uwzględnianie WHtR jako dodatkowego wskaźnika centralnego rozmieszczenia tkanki tłuszczowej. W tej klasyfikacji:
+- 0,40–0,49: zakres bez zwiększonego ryzyka związanego z centralnym rozmieszczeniem tkanki tłuszczowej;
+- 0,50–0,59: zwiększone centralne nagromadzenie tkanki tłuszczowej;
+- 0,60 lub więcej: wysokie centralne nagromadzenie tkanki tłuszczowej.
 
 Są to progi do oceny ryzyka, a nie samodzielne rozpoznania choroby. Należy uwzględniać wiek, ciążę, obrzęki, budowę ciała, pochodzenie etniczne, stan funkcjonalny i choroby współistniejące. NICE wskazuje, aby nie stosować WHtR jako podstawowego narzędzia klasyfikacji u osób z BMI co najmniej 35 kg/m².
 
@@ -282,7 +282,7 @@ W badaniu należy podać:
 
 BMI = masa ciała w kilogramach / wzrost w metrach do kwadratu.
 
-BMI nie określa bezpośrednio rozmieszczenia tłuszczu. U osoby z dużą masą mięśniową może zawyżać ocenę adiposity; u osoby starszej może nie odzwierciedlać utraty masy mięśniowej i zmian składu ciała. Obwód talii i WHtR uzupełniają ocenę, ale także mają ograniczenia.
+BMI nie określa bezpośrednio rozmieszczenia tłuszczu. U osoby z dużą masą mięśniową może zawyżać ocenę otyłości; u osoby starszej może nie odzwierciedlać utraty masy mięśniowej i zmian składu ciała. Obwód talii i WHtR uzupełniają ocenę, ale także mają ograniczenia.
 
 ### 8.7. Komunikacja bez stygmatyzacji
 
@@ -292,13 +292,13 @@ Nie przypisuj bólu, duszności, zaburzeń miesiączkowania ani zmęczenia wył�
 
 ## 9. Osłuchiwanie jamy brzusznej
 
-### 9.1. Dlaczego osłuchiwanie wykonuje się przed opukiwaniem i palp acją
+### 9.1. Dlaczego osłuchiwanie wykonuje się przed opukiwaniem i palpacją
 
 W typowym badaniu brzucha kolejność obejmuje:
 1. inspekcję;
 2. osłuchiwanie;
 3. opukiwanie;
-4. palp ację.
+4. palpację.
 
 Osłuchiwanie poprzedza manipulacje, ponieważ dotykanie i opukiwanie mogą zmienić aktywność jelit. Jest to standardowa kolejność dydaktyczna. W stanie nagłym nie wolno jednak opóźniać oceny ABCDE ani wezwania pomocy dla zachowania formalnej kolejności.
 
@@ -511,8 +511,8 @@ Nie należy określać stopnia stłuszczenia ani włóknienia wątroby na podsta
 ### 14.1. Badanie
 
 Właściwie przeszkolony lekarz może zastosować:
-- palp ację rozpoczynaną w prawym dolnym kwadrancie i prowadzoną ukośnie w kierunku lewego podżebrza;
-- palp ację podczas spokojnego wdechu;
+- palpację rozpoczynaną w prawym dolnym kwadrancie i prowadzoną ukośnie w kierunku lewego podżebrza;
+- palpację podczas spokojnego wdechu;
 - technikę dwuręczną lub pozycję na prawym boku w wybranych sytuacjach;
 - opukiwanie przestrzeni Traubego lub próbę Castell'a.
 
@@ -644,7 +644,7 @@ Nie należy wykonywać iniekcji ani zmieniać schematu leczenia na podstawie sam
 ### 18.1. Zespół Cushinga
 
 Możliwe cechy:
-- centralna adiposity;
+- centralne rozmieszczenie tkanki tłuszczowej;
 - szerokie czerwono-fioletowe rozstępy;
 - łatwe siniaczenie;
 - ścieńczenie skóry;
@@ -684,7 +684,7 @@ Nie należy próbować wyczuwać ani uciskać nadnerczy. Prawidłowe badanie brz
 
 ## 19. Ograniczenia oceny nadnerczy i narządów zaotrzewnowych
 
-Nadnercza są małymi gruczołami położonymi zaotrzewnowo, w sąsiedztwie górnych biegunów nerek, przepony, aorty i żyły głównej dolnej. Prawidłowych nadnerczy nie ocenia się wiarygodnie przez rutynową palp ację brzucha.
+Nadnercza są małymi gruczołami położonymi zaotrzewnowo, w sąsiedztwie górnych biegunów nerek, przepony, aorty i żyły głównej dolnej. Prawidłowych nadnerczy nie ocenia się wiarygodnie przez rutynową palpację brzucha.
 
 Zasady:
 - nie wykonuje się celowanej, głębokiej palpacji w celu „wyczucia nadnerczy”;
@@ -723,7 +723,7 @@ Pacjent w wieku 48 lat zgłasza przyrost masy ciała i senność po posiłkach. 
 3. Wymień czynniki ryzyka, które należy zebrać w wywiadzie.
 4. Wyjaśnij, dlaczego nie można rozpoznać zespołu metabolicznego wyłącznie na podstawie obwodu talii.
 
-**Omówienie:** wynik WHtR wskazuje na wysoką centralną adiposity według klasyfikacji NICE dla odpowiedniej grupy dorosłych, ale nie rozpoznaje cukrzycy ani zespołu metabolicznego. Potrzebna jest całościowa ocena ciśnienia, glikemii, lipidów, wywiadu, leków i chorób współistniejących.
+**Omówienie:** wynik WHtR wskazuje na wysokie centralne nagromadzenie tkanki tłuszczowej według klasyfikacji NICE dla odpowiedniej grupy dorosłych, ale nie rozpoznaje cukrzycy ani zespołu metabolicznego. Potrzebna jest całościowa ocena ciśnienia, glikemii, lipidów, wywiadu, leków i chorób współistniejących.
 
 ### Przypadek 2. Podejrzenie hiperkortyzolizmu
 
@@ -791,7 +791,7 @@ U pacjenta wykryto przypadkowo zmianę w okolicy nadnercza w badaniu TK wykonany
 2. Jakie dwa główne obszary diagnostyki są konieczne?
 3. Dlaczego nie należy próbować palpacyjnie „odszukać” nadnercza?
 
-**Omówienie:** nadnercza są położone zaotrzewnowo i nie są oceniane rutynową palp acją. Incydentaloma wymaga oceny obrazu radiologicznego i czynności hormonalnej zgodnie z aktualnymi wytycznymi. Biopsja nie jest rutynowa i wymaga wcześniejszego wykluczenia guza chromochłonnego.
+**Omówienie:** nadnercza są położone zaotrzewnowo i nie są oceniane rutynową palpacją. Incydentaloma wymaga oceny obrazu radiologicznego i czynności hormonalnej zgodnie z aktualnymi wytycznymi. Biopsja nie jest rutynowa i wymaga wcześniejszego wykluczenia guza chromochłonnego.
 
 ### Przypadek 8. Ostry ból i pulsująca masa
 
@@ -799,7 +799,7 @@ Pacjent w wieku 74 lat zgłasza nagły ból brzucha promieniujący do pleców. J
 
 **Zadania:**
 1. Jakie zagrożenie należy podejrzewać?
-2. Czy należy powtarzać palp ację masy?
+2. Czy należy powtarzać palpację masy?
 3. Jakie działanie jest najważniejsze?
 
 **Omówienie:** należy podejrzewać tętniaka aorty brzusznej z możliwym pęknięciem. Nie uciskać masy i nie wykonywać dalszego rutynowego badania. Należy natychmiast uruchomić postępowanie ratunkowe.
@@ -1013,7 +1013,7 @@ Dlaczego pomiar obwodu talii powinien być wykonywany według jednego protokołu
 ### Pytanie 3
 Czy WHtR równe 0,55 rozpoznaje zespół metaboliczny?
 
-**Odpowiedź:** Nie. Jest wskaźnikiem centralnej adiposity i ryzyka, a rozpoznanie zespołu metabolicznego wymaga oceny pozostałych kryteriów.
+**Odpowiedź:** Nie. Jest wskaźnikiem centralnego rozmieszczenia tkanki tłuszczowej i ryzyka, a rozpoznanie zespołu metabolicznego wymaga oceny pozostałych kryteriów.
 
 ### Pytanie 4
 Czy szerokie fioletowe rozstępy są swoiste dla zespołu Cushinga?
@@ -1021,7 +1021,7 @@ Czy szerokie fioletowe rozstępy są swoiste dla zespołu Cushinga?
 **Odpowiedź:** Nie są samodzielnie swoiste. Ich obecność, zwłaszcza wraz z innymi postępującymi cechami, zwiększa podejrzenie i uzasadnia ocenę lekarską.
 
 ### Pytanie 5
-Dlaczego osłuchiwanie wykonuje się przed palp acją?
+Dlaczego osłuchiwanie wykonuje się przed palpacją?
 
 **Odpowiedź:** Dotykanie i opukiwanie mogą zmieniać aktywność jelit, dlatego w rutynowym schemacie osłuchuje się przed manipulacją.
 
@@ -1048,7 +1048,7 @@ Czy wyczuwalny brzeg wątroby oznacza hepatomegalię?
 ### Pytanie 10
 Czy prawidłowa palpacja brzucha wyklucza guz nadnercza?
 
-**Odpowiedź:** Nie. Nadnercza są położone zaotrzewnowo i nie są wiarygodnie oceniane przez rutynową palp ację.
+**Odpowiedź:** Nie. Nadnercza są położone zaotrzewnowo i nie są wiarygodnie oceniane przez rutynową palpację.
 
 ### Pytanie 11
 Jakie objawy w połączeniu z bólem brzucha sugerują kwasicę ketonową?
@@ -1088,7 +1088,7 @@ Czy badanie fizykalne określa przyczynę wodobrzusza?
 ### Pytanie 18
 Co należy zrobić, gdy podczas badania pojawia się silny ból i obrona mięśniowa?
 
-**Odpowiedź:** Przerwać rutynową palp ację, ocenić stan pacjenta, nie prowokować kolejnych objawów i pilnie przekazać pacjenta do oceny lekarskiej.
+**Odpowiedź:** Przerwać rutynową palpację, ocenić stan pacjenta, nie prowokować kolejnych objawów i pilnie przekazać pacjenta do oceny lekarskiej.
 
 ### Pytanie 19
 Czy BMI i obwód talii mierzą tę samą cechę?
@@ -1194,7 +1194,7 @@ C. Pojedyncza blizna pooperacyjna
 D. Prawidłowy obwód talii
 
 ### Pytanie 6
-Dlaczego osłuchiwanie wykonuje się przed palp acją?
+Dlaczego osłuchiwanie wykonuje się przed palpacją?
 
 A. Aby uniknąć zmiany dźwięków jelitowych przez manipulację  
 B. Aby zwiększyć temperaturę skóry  
@@ -1244,7 +1244,7 @@ D. Zawsze guz wątroby
 ### Pytanie 12
 Jak należy postąpić przy pulsującej masie i nagłym bólu pleców z hipotensją?
 
-A. Powtórzyć głęboką palp ację  
+A. Powtórzyć głęboką palpację  
 B. Wykonać intensywny masaż brzucha  
 C. Nie uciskać masy i natychmiast uruchomić pomoc ratunkową  
 D. Zalecić kontrolę za miesiąc
@@ -1254,7 +1254,7 @@ Które stwierdzenie dotyczące nadnerczy jest prawidłowe?
 
 A. Prawidłowe nadnercza są rutynowo wyczuwalne  
 B. Brak wyczuwalnej masy wyklucza guz  
-C. Nadnercza są położone zaotrzewnowo i nie są wiarygodnie oceniane rutynową palp acją  
+C. Nadnercza są położone zaotrzewnowo i nie są wiarygodnie oceniane rutynową palpacją  
 D. Nadnercza bada się przez uciskanie obu boków brzucha
 
 ### Pytanie 14
@@ -1320,7 +1320,7 @@ D. Nie trzeba zapisywać ograniczeń badania
 | 1 | B | Standardowa kolejność to inspekcja, osłuchiwanie, opukiwanie i palpacja. |
 | 2 | C | Pomiar wykonuje się po naturalnym wydechu, bez wciągania brzucha. |
 | 3 | C | WHtR to stosunek obwodu talii do wzrostu. |
-| 4 | B | Według NICE 0,60 lub więcej oznacza wysoką centralną adiposity w odpowiedniej populacji. |
+| 4 | B | Według NICE 0,60 lub więcej oznacza wysokie centralne nagromadzenie tkanki tłuszczowej w odpowiedniej populacji. |
 | 5 | B | Zespół cech postępujących zwiększa podejrzenie hiperkortyzolizmu. |
 | 6 | A | Manipulacja może zmienić aktywność jelit. |
 | 7 | C | Szmery mogą być obecne także w niedrożności. |
@@ -1344,7 +1344,7 @@ D. Nie trzeba zapisywać ograniczeń badania
 - **Acanthosis nigricans** — rogowacenie ciemne; zmiana skórna często związana z insulinoopornością, ale nieswoista.
 - **Ascites / wodobrzusze** — nieprawidłowe nagromadzenie płynu w jamie otrzewnej.
 - **BMI** — wskaźnik masy ciała, obliczany jako masa w kilogramach podzielona przez kwadrat wzrostu w metrach.
-- **Centralna adiposity** — centralne rozmieszczenie tkanki tłuszczowej.
+- **Otyłość centralna** — centralne rozmieszczenie tkanki tłuszczowej.
 - **Hepatomegalia** — powiększenie wątroby.
 - **Lipohipertrofia** — miejscowe pogrubienie tkanki podskórnej w obszarze powtarzanych iniekcji.
 - **Lipoatrofia** — miejscowy ubytek tkanki tłuszczowej.
@@ -1390,7 +1390,7 @@ Najważniejsze zasady:
 7. Ansari P. Acute Abdominal Pain. MSD Manual Professional Edition. Ostatnia aktualizacja: lipiec 2024. https://www.msdmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/acute-abdominal-pain
 8. Reuben A. Examination of the abdomen. Clinical Liver Disease. 2016;7(6):143–150. doi:10.1002/cld.556. https://doi.org/10.1002/cld.556
 9. Grover SA, Barkun AN, Sackett DL. Does this patient have splenomegaly? JAMA. 1993;270(18):2218–2221. doi:10.1001/jama.270.18.2218.
-10. Simel DL, DeLong ER, Feussner JR, Weinberg JB, Crawford J. Efficacy of leukocyte count and differential in the diagnosis of splenomegaly. JAMA. 1991;265(10):1313–1318.
+10. Barkun AN, Camus M, Green L, Meagher T, Coupal L, De Stempel J, Grover SA. The bedside assessment of splenic enlargement. Am J Med. 1991;91(5):512–518. doi:10.1016/0002-9343(91)90188-4. https://doi.org/10.1016/0002-9343(91)90188-4.
 11. American Diabetes Association Professional Practice Committee. Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1). https://diabetesjournals.org/care/issue/49/Supplement_1
 12. European Association for the Study of the Liver. EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. J Hepatol. 2018;69(2):406–460. doi:10.1016/j.jhep.2018.03.024.
 13. European Association for the Study of the Liver. EASL Clinical Practice Guidelines on non-invasive tests for evaluation of liver disease severity and prognosis—2021 update. J Hepatol. 2021;75(3):659–689. doi:10.1016/j.jhep.2021.05.025.
