@@ -67,7 +67,7 @@ Przygotowanie rozpoczyna się przed wejściem pacjenta do gabinetu. Obejmuje ana
 
 ### 2.2. Schemat procesu
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A[Cel wizyty i dostępna dokumentacja] --> B[Przygotowanie gabinetu i sprzętu]
  B --> C[Identyfikacja pacjenta]
@@ -83,7 +83,7 @@ flowchart TD
  L --> M[Badanie w granicach kompetencji]
  M --> N[Ocena tolerancji i zakończenie]
  N --> O[Dokumentacja i plan dalszego postępowania]
-\`\`\`
+```
 
 Schemat ma charakter organizacyjny. W stanach nagłych obowiązuje lokalny algorytm ratunkowy i nie należy opóźniać wezwania pomocy przez realizację pełnej sekwencji badania planowego.
 
@@ -793,7 +793,7 @@ Pacjent ma duży obwód ramienia, a w gabinecie dostępny jest wyłącznie manki
 
 ### 18.1. Decyzja o rozpoczęciu badania
 
-\`\`\`text
+```text
 Czy pacjent został prawidłowo zidentyfikowany?
         |
         +-- NIE --> Wstrzymaj czynność, wyjaśnij tożsamość.
@@ -827,11 +827,11 @@ Czy gabinet, sprzęt, środki ochrony i ułożenie są bezpieczne?
         +-- NIE --> Popraw warunki lub odrocz badanie.
         |
         +-- TAK --> Rozpocznij badanie, obserwując tolerancję.
-\`\`\`
+```
 
 ### 18.2. Postępowanie przy odmowie
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A[Pacjent odmawia całości lub części badania] --> B[Zatrzymaj czynność]
  B --> C[Zapewnij osłonięcie i bezpieczną pozycję]
@@ -844,7 +844,7 @@ flowchart TD
  H -- Nie --> G
  G --> J[Omów możliwe alternatywy i dalsze kroki]
  J --> K[Udokumentuj odmowę i przekazaną informację]
-\`\`\`
+```
 
 ## 19. Najczęstsze błędy i sposoby zapobiegania
 
