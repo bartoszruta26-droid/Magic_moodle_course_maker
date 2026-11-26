@@ -931,7 +931,7 @@ W dokumentacji powinny znaleźć się:
 
 ### 20.5. Przykład opisu czynnościowego drżenia
 
-„Podczas badania stwierdza się zmienność częstotliwości i amplitudy drżenia. W próbie rytmicznego stukan ia palcem przeciwnej kończyny częstotliwość ruchu kończyny objawowej okresowo dostosowuje się do rytmu zadania. Podczas zadania poznawczego amplituda drżenia maleje. Obserwacje stanowią dodatnie cechy sugerujące czynnościowy komponent zaburzenia ruchowego; wymagają interpretacji w pełnym kontekście klinicznym.”
+„Podczas badania stwierdza się zmienność częstotliwości i amplitudy drżenia. W próbie rytmicznego stukania palcem przeciwnej kończyny częstotliwość ruchu kończyny objawowej okresowo dostosowuje się do rytmu zadania. Podczas zadania poznawczego amplituda drżenia maleje. Obserwacje stanowią dodatnie cechy sugerujące czynnościowy komponent zaburzenia ruchowego; wymagają interpretacji w pełnym kontekście klinicznym.”
 
 ## 21. Przykłady kliniczne
 
