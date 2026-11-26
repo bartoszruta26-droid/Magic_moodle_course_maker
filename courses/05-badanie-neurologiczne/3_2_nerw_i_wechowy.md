@@ -545,7 +545,7 @@ Test Sniffin’ Sticks wykorzystuje urządzenia przypominające pisaki, które u
 2. **D – discrimination (dyskryminacja)**: zdolność odróżniania zapachu różniącego się od pozostałych.
 3. **I – identification (identyfikacja)**: rozpoznawanie i nazywanie lub wybieranie zapachu spośród odpowiedzi.
 
-Wynik łączny TDI jest sumą trzech podskal. W standardowej wersji każda z nich ma zakres 0–16 punktów, a łączny wynik mieści się w przedziale 0–48 punktów.
+Wynik łączny TDI jest sumą trzech podskal. W standardowej wersji wynik progu (T) mieści się w zakresie 1–16 punktów, a wyniki dyskryminacji (D) i identyfikacji (I) – w zakresie 0–16 punktów każda; łączny wynik TDI mieści się zatem w przedziale 1–48 punktów.
 
 ### 9.3. Interpretacja TDI
 
