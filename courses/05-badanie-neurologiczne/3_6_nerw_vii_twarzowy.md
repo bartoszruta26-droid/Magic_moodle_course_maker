@@ -158,7 +158,7 @@ Gałęzie te zaopatrują mięśnie mimiczne czoła, okolicy oczodołu, nosa, pol
 
 ### 3.7. Schemat przebiegu i funkcji nerwu VII
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Kora ruchowa i sieci ekspresji twarzy"] --> B["Drogi korowo-jądrowe"]
     B --> C["Jądro ruchowe VII w moście"]
@@ -174,7 +174,7 @@ flowchart TD
     J --> M["Łzawienie i wydzielanie gruczołów błon śluzowych"]
     K --> N["Tłumienie drgań kosteczek słuchowych"]
     L --> O["Smak przednich 2/3 języka i ślina podżuchwowa/podjęzykowa"]
-\`\`\`
+```
 
 ### 3.8. Droga korowo-jądrowa i znaczenie unerwienia obustronnego
 
@@ -530,7 +530,7 @@ Uraz, zabieg w obrębie ślinianki przyusznej, guz, rana lub ucisk mogą zajmowa
 
 ### 10.5. Schemat lokalizacji
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Niedowład twarzy"] --> B["Ocena czasu początku i objawów towarzyszących"]
     B --> C{"Inne objawy ogniskowe lub nagły początek?"}
@@ -544,7 +544,7 @@ flowchart TD
     D --> K["Nie opóźniaj pilnego postępowania"]
     G --> K
     J --> K
-\`\`\`
+```
 
 ---
 
