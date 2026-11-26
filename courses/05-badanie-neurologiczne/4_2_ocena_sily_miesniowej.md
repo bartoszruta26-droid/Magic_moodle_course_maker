@@ -875,7 +875,7 @@ Nowe osłabienie kończyn z bólem kręgosłupa, poziomem czuciowym, zaburzeniam
 
 ### 14.6. Algorytm reakcji
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A[Stwierdzenie osłabienia] --> B{Początek nagły lub szybka progresja?}
  B -->|Tak| C[Ocena ABC, parametry życiowe i pilna eskalacja]
@@ -887,7 +887,7 @@ flowchart TD
  F --> H[Właściwa konsultacja lub diagnostyka]
  G --> I[Dokumentacja i plan dalszej oceny]
  C --> J[Postępowanie według procedur stanów nagłych]
-\`\`\`
+```
 
 ---
 
@@ -945,7 +945,7 @@ Opis należy dostosować do faktycznie zbadanych grup; nie wolno pisać „siła
 
 ### 15.7. Zalecany zapis skrócony
 
-\`\`\`text
+```text
 Data/godzina:
 Pozycja:
 Badany ruch:
@@ -958,7 +958,7 @@ Kompensacje:
 Czynniki ograniczające:
 Porównanie z poprzednim badaniem:
 Wnioski / plan:
-\`\`\`
+```
 
 ---
 
@@ -1085,7 +1085,7 @@ Przed zatwierdzeniem wpisu sprawdź:
 
 ## 19. Schemat decyzyjny badania siły
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A[Wybór badanego ruchu] --> B[Wywiad o bólu, urazie i ograniczeniach]
  B --> C[Ocena ruchu czynnego]
@@ -1103,7 +1103,7 @@ flowchart TD
  J --> M
  M --> N[Badanie mięśni powiązanych i pełna korelacja neurologiczna]
  N --> O[Dokumentacja i plan]
-\`\`\`
+```
 
 ## 20. Zintegrowana interpretacja wyniku
 
@@ -1122,7 +1122,7 @@ flowchart TD
 
 ### 20.2. Schemat integracji danych
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
  A[Siła mięśniowa] --> E[Wzorzec kliniczny]
  B[Czucie i ból] --> E
@@ -1132,7 +1132,7 @@ flowchart LR
  F --> G[Hipotezy etiologiczne]
  G --> H[Badania dodatkowe i konsultacje]
  H --> I[Plan postępowania i monitorowania]
-\`\`\`
+```
 
 ### 20.3. Przykładowa macierz orientacyjna
 
