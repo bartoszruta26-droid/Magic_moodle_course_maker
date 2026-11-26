@@ -512,6 +512,26 @@ Nie należy wykorzystywać jednego, długotrwałego zadania do rozstrzygania o e
 | Zaburzenia czucia | niepewność i pogorszenie kontroli bez wzroku | zależność od informacji wzrokowej i propriocepcji |
 | Spowolnienie psychoruchowe | wolne reakcje i mniejsza spontaniczność | brak typowego, powtarzalnego decrementu może przemawiać za innym mechanizmem |
 
+### 9.6. Schemat interpretacji próby ruchów seryjnych
+
+Poniższy schemat porządkuje tok rozumowania. Nie jest automatycznym algorytmem rozpoznania choroby; wskazuje, kiedy należy poszerzyć badanie i kiedy wynik wymaga konsultacji.
+
+~~~mermaid
+flowchart TD
+    A["Obserwowane spowolnienie lub mała amplituda"] --> B["Sprawdź rozumienie polecenia, ból, zakres ruchu i siłę"]
+    B --> C["Powtórz standaryzowaną próbę po obu stronach"]
+    C --> D{"Czy występuje powtarzalny decrement, hesytacje lub zatrzymania?"}
+    D -->|Nie| E["Rozważ inne przyczyny: ból, niedowład, ataksję, apraksję, sedację, zaburzenia poznawcze"]
+    D -->|Tak| F["Udokumentuj bradykinezję i oceń pozostałe cechy"]
+    F --> G{"Czy współistnieje sztywność lub drżenie spoczynkowe?"}
+    G -->|Nie| H["Brak podstaw do stwierdzenia zespołu parkinsonowskiego na podstawie tej próby"]
+    G -->|Tak| I["Obraz spełnia kliniczną definicję parkinsonizmu"]
+    I --> J["Oceń leki, dynamikę, objawy atypowe i czerwone flagi"]
+    J --> K{"Objawy alarmowe lub szybka progresja?"}
+    K -->|Tak| L["Pilna ocena lekarska / właściwa ścieżka pomocy"]
+    K -->|Nie| M["Skierowanie do specjalisty i dalsza diagnostyka etiologiczna"]
+~~~
+
 ## 10. Ocena akinezji, hipokinezji i automatyzmów
 
 ### 10.1. Inicjowanie ruchu
