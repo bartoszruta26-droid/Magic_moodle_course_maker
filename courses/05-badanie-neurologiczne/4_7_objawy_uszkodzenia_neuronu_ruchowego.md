@@ -142,7 +142,7 @@ Dlatego odruch nie jest prostym „testem siły”. Odruch osłabiony może wyni
 
 ### 3.6. Schemat drogi ruchowej
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Kora ruchowa i obszary przedruchowe] --> B[Wieniec promienisty]
     B --> C[Torebka wewnętrzna]
@@ -157,7 +157,7 @@ flowchart TD
     J --> K[Splot i nerw obwodowy]
     K --> L[Złącze nerwowo-mięśniowe]
     L --> M[Włókna mięśniowe]
-\`\`\`
+```
 
 **Uwaga:** złącze nerwowo-mięśniowe i mięsień są elementami wykonawczymi układu ruchowego, ale nie są dolnym neuronem ruchowym. Ich choroby mogą naśladować osłabienie pochodzenia neuronowego.
 
@@ -527,7 +527,7 @@ Wyniki należy interpretować w kontekście siły, czucia, napięcia, koordynacj
 
 ### 10.10. Zintegrowany algorytm rozumowania
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Osłabienie lub zaburzenie ruchu] --> B[Ustal początek i dynamikę]
     B --> C{Nagły początek lub szybkie pogorszenie?}
@@ -544,7 +544,7 @@ flowchart TD
     J --> L
     K --> L
     L --> M[Dokumentacja i plan dalszej diagnostyki]
-\`\`\`
+```
 
 Algorytm porządkuje badanie, ale nie zastępuje oceny stanu nagłego, lokalnych ścieżek ratunkowych ani decyzji lekarza.
 
@@ -671,7 +671,7 @@ W kryteriach tych:
 - dysfunkcja UMN może być wspierana przez wygórowane odruchy, odruchy patologiczne, spastyczność lub spowolnione i źle skoordynowane ruchy dowolne, których nie wyjaśnia osłabienie LMN ani parkinsonizm;
 - dysfunkcja LMN może być wykazana klinicznie przez osłabienie i zanik mięśni albo w EMG przez cechy przewlekłej zmiany neurogennej oraz aktywnego odnerwienia.
 
-Kryteria Gold Coast nie są narzędziem do samodzielnego rozpoznawania SLA/ALS przez osobę wykonującą badanie przesiewowe. Wymagają doświadczenia neurologicznego, oceny regionów opuszkowego, szyjnego, piersiowego i lędźwiowo-lędźwiowo-krzyżowego, interpretacji badań i wykluczenia alternatyw.
+Kryteria Gold Coast nie są narzędziem do samodzielnego rozpoznawania SLA/ALS przez osobę wykonującą badanie przesiewowe. Wymagają doświadczenia neurologicznego, oceny regionów opuszkowego, szyjnego, piersiowego i lędźwiowo-krzyżowego, interpretacji badań i wykluczenia alternatyw.
 
 ### 13.3. Badania uzupełniające w diagnostyce specjalistycznej
 
