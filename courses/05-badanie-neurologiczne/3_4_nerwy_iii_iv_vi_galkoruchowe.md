@@ -176,7 +176,7 @@ Uszkodzenie ośrodkowe może dawać zaburzenie ruchów obu oczu, mimo że same n
 
 Poniższy schemat przedstawia uproszczoną organizację spojrzenia w prawo. Nie obejmuje wszystkich połączeń korowych, móżdżkowych i przedsionkowych.
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
     A["Prawe czołowe pole gałkoruchowe"] --> B["Lewa PPRF / ośrodek sakkad poziomych"]
     B --> C["Lewe jądro nerwu VI"]
@@ -187,7 +187,7 @@ flowchart LR
     G --> H["Prawy mięsień prosty przyśrodkowy"]
     D --> I["Sprzężone spojrzenie w prawo"]
     H --> I
-\`\`\`
+```
 
 Uszkodzenie lewego jądra VI może uniemożliwić spojrzenie obu oczu w prawo. Uszkodzenie lewego nerwu VI po wyjściu z jądra powoduje natomiast przede wszystkim osłabienie odwodzenia lewego oka, bez koniecznego zniesienia adukcji prawego oka.
 
@@ -372,7 +372,7 @@ Porównać wysokość brzegu powieki górnej względem źrenicy, szerokość szp
 
 Cel prowadzi się po torze przypominającym literę H. W każdym skrajnym położeniu należy zatrzymać go na krótko, aby ocenić zakres, płynność i ewentualny oczopląs spojrzeniowy.
 
-\`\`\`text
+```text
        GÓRA-LEWO                 GÓRA-PRAWO
             \                       /
              \                     /
@@ -382,7 +382,7 @@ LEWO --------- + ----------------- PRAWO
        DÓŁ-LEWO                  DÓŁ-PRAWO
 
         Następnie powrót przez pozycję pierwotną.
-\`\`\`
+```
 
 Schemat jest pomocniczy. Ruch celu powinien być płynny, a pacjent nie może kompensować ograniczenia ruchu skrętem głowy.
 
@@ -749,7 +749,7 @@ Przy ograniczeniu ruchów oczu należy zadać cztery pytania:
 
 ### 17.3. Algorytm wstępnej lokalizacji
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Diplopia / ograniczenie ruchu / ptoza"] --> B["Ustal: jednooczna czy obuoczna"]
     B -->|Jednooczna| C["Ocena okulistyczna: rogówka, soczewka, siatkówka"]
@@ -763,7 +763,7 @@ flowchart TD
     H -->|Nie| J["Pełne badanie okulistyczne / neurologiczne według obrazu"]
     I --> K["Dokumentacja: czas, strona, ruch, źrenica, ból, objawy"]
     J --> K
-\`\`\`
+```
 
 Algorytm służy edukacji i porządkowaniu badania. Nie jest narzędziem do samodzielnego wykluczania tętniaka, udaru, zakażenia oczodołu ani wzrostu ciśnienia śródczaszkowego.
 
