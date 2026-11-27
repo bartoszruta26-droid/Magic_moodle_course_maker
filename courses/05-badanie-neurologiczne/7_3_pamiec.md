@@ -1412,7 +1412,7 @@ Poniższe pozycje stanowią podstawę do dalszej nauki. W razie rozbieżności n
     https://doi.org/10.12740/PP/24748
 
 17. Niedźwieńska Agnieszka, Neckar Jacek, Kabut Radosław, Wereszczyński Michał. Test Uczenia się Językowego Hopkinsa: polska adaptacja i normy dla seniorów. *Czasopismo Psychologiczne*. 2019;25(2):165–176.  
-    https://ruj.uj.edu.pl/handle/item/88207
+    https://ruj.uj.edu.pl/xmlui/handle/item/88207
 
 18. National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management in hospital and long-term care. NICE guideline CG103.  
     https://www.nice.org.uk/guidance/cg103
