@@ -514,7 +514,7 @@ Objawy ciężkie, drgawki, skurcz krtani, zaburzenia rytmu lub istotne obniżeni
 
 Niedoczynność przytarczyc (HypoPT) charakteryzuje się hipokalcemią i nieadekwatnie niskim stężeniem PTH. Często współistnieje hiperfosfatemia, ponieważ brak PTH zmniejsza wydalanie fosforanów przez nerki. Najczęstszą przyczyną u dorosłych jest uszkodzenie lub utrata funkcji przytarczyc po operacji szyi. Inne przyczyny obejmują choroby autoimmunologiczne, genetyczne, naciekowe i rzadziej polekowe.
 
-W aktualizacji wytycznych Europejskiego Towarzystwa Endokrynologicznego z 2025 r. przewlekłą pooperacyjną HypoPT definiuje się jako utrzymującą się ponad 12 miesięcy po zabiegu. Odzyskanie funkcji przytarczyc może jednak nastąpić także później, dlatego określenie „trwała” wymaga ostrożności i oceny przebiegu. W niesurgicalnej HypoPT bez oczywistej przyczyny zaleca się rozważyć badanie genetyczne i/lub badanie członków rodziny. Współczesne zalecenia kładą nacisk na indywidualizację celów, ocenę jakości życia, objawów, wapnia, fosforanów, magnezu, funkcji nerek i kalciurii oraz na rozważenie terapii zastępczej PTH u wybranych pacjentów mimo optymalnego leczenia konwencjonalnego.
+W aktualizacji wytycznych Europejskiego Towarzystwa Endokrynologicznego z 2025 r. przewlekłą pooperacyjną HypoPT definiuje się jako utrzymującą się ponad 12 miesięcy po zabiegu. Odzyskanie funkcji przytarczyc może jednak nastąpić także później, dlatego określenie „trwała” wymaga ostrożności i oceny przebiegu. W niedoczynności przytarczyc o przyczynie niechirurgicznej, bez oczywistego wyjaśnienia zaleca się rozważyć badanie genetyczne i/lub badanie członków rodziny. Współczesne zalecenia kładą nacisk na indywidualizację celów, ocenę jakości życia, objawów, wapnia, fosforanów, magnezu, funkcji nerek i kalciurii oraz na rozważenie terapii zastępczej PTH u wybranych pacjentów mimo optymalnego leczenia konwencjonalnego.
 
 Diagnostyka obejmuje:
 - wapń całkowity z albuminą lub wapń zjonizowany;
@@ -1232,9 +1232,9 @@ Poniższe publikacje stanowią podstawę merytoryczną rozdziału. Zalecenia nal
 
 16. Australian and New Zealand Bone and Mineral Society oraz Australasian Association of Clinical Biochemists. Materiały dotyczące oceny TmP/GFR i nerkowej gospodarki fosforanowej. https://www.anzbms.org.au/
 
-17. Global guidance for the recognition, diagnosis, and management of tumor-induced osteomalacia. *Journal of Internal Medicine*. DOI: https://doi.org/10.1111/joim.13593
+17. Suzanne M. Jan de Beur, Salvatore Minisola, Wei-Bo Xia, Bo Abrahamsen, Jean-Jacques Body, Maria Luisa Brandi, Roderick Clifton-Bligh, Michael Collins, Pablo Florenzano, Pascal Houillier, Yasuo Imanishi, Erik A. Imel, Aliya A. Khan, M. Carola Zillikens, Seiji Fukumoto. Global guidance for the recognition, diagnosis, and management of tumor-induced osteomalacia. *Journal of Internal Medicine*. 2023;293(3):309–328. DOI: https://doi.org/10.1111/joim.13593
 
-18. Interdisciplinary management of FGF23-related phosphate wasting syndromes: a consensus statement on the evaluation, diagnosis and care of patients with X-linked hypophosphataemia. *Nature Reviews Endocrinology*. DOI: https://doi.org/10.1038/s41574-022-00662-x
+18. Andrea Trombetti, Nasser Al-Daghri, Maria Luisa Brandi, Jorge B. Cannata-Andía, Etienne Cavalier, Manju Chandran, Catherine Chaussain, Lucia Cipullo, Cyrus Cooper, Dieter Haffner, Pol Harvengt, Nicholas C. Harvey, Muhammad Kassim Javaid, Famida Jiwa, John A. Kanis, Andrea Laslop, Michaël R. Laurent, Agnès Linglart, Andréa Marques, Gabriel T. Mindler, Salvatore Minisola, María Concepción Prieto Yerro, Mario Miguel Coelho da Silva Rosa, Lothar Seefried, Mila Vlaskovska, María Belén Zanchetta, René Rizzoli. Interdisciplinary management of FGF23-related phosphate wasting syndromes: a Consensus Statement on the evaluation, diagnosis and care of patients with X-linked hypophosphataemia. *Nature Reviews Endocrinology*. 2022;18(6):366–384. DOI: https://doi.org/10.1038/s41574-022-00662-x
 
 19. Kidney Disease: Improving Global Outcomes. KDIGO CKD-MBD guideline and supporting materials. https://kdigo.org/guidelines/ckd-mbd/
 
