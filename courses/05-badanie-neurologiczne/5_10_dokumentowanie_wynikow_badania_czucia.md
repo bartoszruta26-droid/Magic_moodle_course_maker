@@ -340,7 +340,7 @@ W dziewiątej edycji ISNCSCI z 2026 r. formularz obejmuje ocenę dotyku lekkiego
 - 2 – czucie prawidłowe;
 - NT – nie można zbadać.
 
-Formularz rozdziela wyniki prawej i lewej strony, sumy dla dotyku i ukłucia oraz pola komentarza, w którym opisuje się m.in. ból, stan niezwiązany z urazem rdzenia lub przyczynę wyniku NT. Należy zapisać wydanie standardu i korzystać z oficjalnego formularza. Nie wolno samodzielnie modyfikować formularza ASIA/ISCoS ani przenosić jego punktacji do zwykłego badania bez zaznaczenia, że jest to odrębny standard.
+Formularz rozdziela wyniki prawej i lewej strony, sumy dla dotyku i ukłucia oraz pola komentarza. W oznaczeniach mogą występować gwiazdki przy wynikach związanych z innym stanem niż uraz rdzenia; przy takim oznaczeniu należy podać powód i sposób uwzględnienia go w klasyfikacji zgodnie z instrukcją danej edycji. Należy zapisać wydanie standardu i korzystać z oficjalnego formularza. Nie wolno samodzielnie modyfikować formularza ASIA/ISCoS ani przenosić jego punktacji do zwykłego badania bez zaznaczenia, że jest to odrębny standard.
 
 ### 7.4. Nasilenie objawu a nasilenie deficytu
 
@@ -1080,11 +1080,10 @@ Poniższe źródła dobrano z uwzględnieniem standardów międzynarodowych, org
 13. World Health Organization. [ICF Checklist, Version 2.1a – Clinician Form](https://www.who.int/publications/m/item/icf-checklist).
 14. World Health Organization. [Clinician Documentation Hub – ICD-11, ICF and ICHI](https://www.who.int/standards/classifications/clinician-documentation-hub).
 15. World Health Organization. [WHODAS 2.0 – WHO Disability Assessment Schedule](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health/who-disability-assessment-schedule).
-16. Wang Y, et al. Psychometric properties of light touch-pressure somatosensory measures in adults with neurological disorders: A systematic review. *[PubMed – PMID 36794517](https://pubmed.ncbi.nlm.nih.gov/36794517/)*.
+16. Vora I, Kline DK, McCauley CA, Link A, Asiello JD, Gaudino SG, Reilly WJ, Keilty MS, Banks RE, Kimberley TJ. Psychometric properties of light touch-pressure somatosensory measures in adults with neurological disorders: A systematic review. *Clinical Rehabilitation*. 2023;37(8):1074–1086. DOI: [10.1177/02692155231152417](https://doi.org/10.1177/02692155231152417).
 17. Ustawa z dnia 6 listopada 2008 r. o prawach pacjenta i Rzeczniku Praw Pacjenta, w szczególności art. 20–25 i 26–29. [Elektroniczny Dziennik Ustaw – tekst jednolity Dz.U. 2024 poz. 581](https://eli.gov.pl/api/acts/DU/2024/581/text.html). Przy stosowaniu należy uwzględnić późniejsze nowelizacje.
 18. Rozporządzenie Ministra Zdrowia z dnia 6 kwietnia 2020 r. w sprawie rodzajów, zakresu i wzorów dokumentacji medycznej oraz sposobu jej przetwarzania, tekst jednolity ogłoszony obwieszczeniem z 4 września 2026 r., Dz.U. 2026 poz. 1391. [Oficjalny tekst PDF w systemie ELI / Sejm](https://api.sejm.gov.pl/eli/acts/DU/2026/1391/text.pdf).
 19. Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. (RODO). [EUR-Lex – tekst rozporządzenia](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
-20. Rossi F, Prato I, Mondelli M, Rosafio D, Cricco C, Pellicciari L, Giovannico G, Brindisino F, Cioeta M. From Bench to Bedside: Evaluating the Accuracy of Clinical Sensory Testing in Detecting Somatosensory Disorders. A Systematic Review. *Musculoskeletal Care*. DOI: [10.1002/msc.70287](https://doi.org/10.1002/msc.70287). Publikacja i jej data powinny być weryfikowane przed cytowaniem w aktualizowanych materiałach; nie należy wyciągać wniosków wykraczających poza zakres przeglądu.
 
 ### Materiały edukacyjne uzupełniające
 
