@@ -383,7 +383,7 @@ Nie wolno interpretować liczby faz bez uwzględnienia miejsca pomiaru, temperat
 
 ### 10.3. ABI i TBI
 
-Wskaźnik kostka–ramię (ABI) jest ilorazem ciśnienia skurczowego na poziomie kostki i najwyższego ciśnienia skurczowego na ramieniu, z uwzględnieniem protokołu pomiarowego. W cukrzycy zwapnienia błony środkowej tętnic mogą powodować nieściśliwość naczyń i fałszywie wysokie wartości ABI. W takich przypadkach pomocny jest wskaźnik paluch–ramię (TBI) oraz pomiar ciśnienia na paluchu.
+Wskaźnik kostka–ramię (ABI) jest ilorazem ciśnienia skurczowego na poziomie kostki i ciśnienia skurczowego na ramieniu, obliczanym według określonego protokołu. W praktyce istnieją różnice metodologiczne: część standardów wykorzystuje wyższą z wartości ciśnienia w tętnicy grzbietowej stopy i piszczelowej tylnej, natomiast protokół IWGDF dla osób z cukrzycą zaleca przy obliczaniu ABI dla każdej kończyny użycie niższej z tych dwóch wartości oraz najwyższego ciśnienia ramiennego. Takie podejście ogranicza ryzyko przeoczenia choroby dotyczącej tylko jednej z tętnic podudzia. W dokumentacji należy podać zastosowaną metodę i nie porównywać bezpośrednio wyników uzyskanych różnymi protokołami. W cukrzycy zwapnienia błony środkowej tętnic mogą powodować nieściśliwość naczyń i fałszywie wysokie wartości ABI. W takich przypadkach pomocny jest wskaźnik paluch–ramię (TBI) oraz pomiar ciśnienia na paluchu.
 
 | Badanie | Co ocenia | Główne ograniczenie |
 |---|---|---|
