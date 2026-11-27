@@ -1292,6 +1292,8 @@ D. Ponieważ pozycję ocenia się wyłącznie wzrokiem
 
 14. **American Spinal Injury Association (ASIA).** ISNCSCI Resources – aktualny arkusz klasyfikacji urazu rdzenia kręgowego i materiały szkoleniowe. [ASIA](https://asia-spinalinjury.org/isncsci-resources/).
 
+15. **Wolf K, Beume LA, Hohenhaus M, Harloff A.** The Rydel Seiffer tuning fork – Age and gender matter. *Clin Neurol Neurosurg.* 2022;221:107385. DOI: [10.1016/j.clineuro.2022.107385](https://doi.org/10.1016/j.clineuro.2022.107385). PMID: 35926295. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35926295/).
+
 ### Materiały edukacyjne do samodzielnego studiowania
 
 - [Khoo i wsp. – badanie sznurów tylnych, techniki przyłóżkowe i demonstracje](https://pmc.ncbi.nlm.nih.gov/articles/PMC10125238/).
