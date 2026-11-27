@@ -1391,7 +1391,7 @@ Celem jest zwiększenie samodzielności i bezpieczeństwa, a nie wyłącznie pop
 
 5. Henri-Bhargava A, Stuss DT, Freedman M. Clinical Assessment of Prefrontal Lobe Functions. *Continuum (Minneap Minn).* 2018;24(3):704–726. DOI: [10.1212/CON.0000000000000609](https://doi.org/10.1212/CON.0000000000000609).
 
-6. Herbet G, Zemmoura I, Duffau H. White matter tracts and executive functions: a review of causal and correlation evidence. *Brain.* 2024;147(2):352–371. DOI: [10.1093/brain/awad308](https://doi.org/10.1093/brain/awad308).
+6. Ribeiro M, Yordanova YN, Noblet V, Herbet G, Ricard D. White matter tracts and executive functions: a review of causal and correlation evidence. *Brain.* 2024;147(2):352–371. DOI: [10.1093/brain/awad308](https://doi.org/10.1093/brain/awad308).
 
 ### 24.2. Modele funkcji wykonawczych
 
@@ -1415,9 +1415,9 @@ Celem jest zwiększenie samodzielności i bezpieczeństwa, a nie wyłącznie pop
 
 15. Fernández AL. A comparison of normative data for the Trail Making Test from several countries: equivalence of norms and considerations for interpretation. *Scand J Psychol.* 2008;49(3):239–246. DOI: [10.1111/j.1467-9450.2008.00637.x](https://doi.org/10.1111/j.1467-9450.2008.00637.x).
 
-16. The most frequently used tests for assessing executive functions in aging. *Dement Neuropsychol.* 2015;9(2):149–155. Pełny tekst: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5619353/).
+16. Faria CA, Alves HVD, Charchat-Fichman H. The most frequently used tests for assessing executive functions in aging. *Dement Neuropsychol.* 2015;9(2):149–155. DOI: [10.1590/1980-57642015DN92000009](https://doi.org/10.1590/1980-57642015DN92000009). Pełny tekst: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5619353/).
 
-17. Pitfalls in research on ecological validity of novel executive function tests: a systematic review and a call to action. *Neuropsychol Rev.* 2024. PubMed: [PMID 38421761](https://pubmed.ncbi.nlm.nih.gov/38421761/).
+17. Suchy Y, Gereau Mora M, DesRuisseaux LA, Niermeyer MA, Lipio Brothers S. Pitfalls in research on ecological validity of novel executive function tests: a systematic review and a call to action. *Psychol Assess.* 2024;36(4):243–261. DOI: [10.1037/pas0001297](https://doi.org/10.1037/pas0001297). PubMed: [PMID 38421761](https://pubmed.ncbi.nlm.nih.gov/38421761/).
 
 ### 24.4. Wytyczne i zalecenia kliniczne
 
@@ -1435,7 +1435,7 @@ Celem jest zwiększenie samodzielności i bezpieczeństwa, a nie wyłącznie pop
 
 ### 24.5. Zagadnienia neurologiczne i choroby układowe
 
-24. Assessment of executive functions in Parkinson's disease: clinical review and recommendations. *Movement Disorders.* 2024. DOI: [10.1002/mds.30293](https://doi.org/10.1002/mds.30293).
+24. Biundo R, Bezdicek O, Cammisuli DM, Cholerton B, Dalrymple-Alford JC, Edelstyn N, et al; MDS Clinical Outcome Assessment Scientific Evaluation Committee. Attention/Working Memory and Executive Function in Parkinson's Disease: Review, Critique, and Recommendations. *Mov Disord.* 2025;40(9):1791–1804. DOI: [10.1002/mds.30293](https://doi.org/10.1002/mds.30293).
 
 25. Neuropsychological Assessment. StatPearls [Internet]. NCBI Bookshelf. [Rozdział przeglądowy](https://www.ncbi.nlm.nih.gov/books/NBK513310/).
 
