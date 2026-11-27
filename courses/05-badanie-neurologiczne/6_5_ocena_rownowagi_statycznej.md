@@ -1324,7 +1324,7 @@ W przypadku nagłej niestabilności, nowych objawów ogniskowych, zaburzeń świ
     https://pmc.ncbi.nlm.nih.gov/articles/PMC7288384/
 
 12. Wrisley DM, Whitney SL. **The effect of foot position on the modified Clinical Test of Sensory Interaction and Balance.** Arch Phys Med Rehabil. 2004;85(2):335–338.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=Wrisley+Whitney+modified+Clinical+Test+Sensory+Interaction+Balance+foot+position
+    https://pubmed.ncbi.nlm.nih.gov/14966723/
 
 13. Cohen HS. **Screening People on Standing Balance with Romberg Testing and Walking Balance with Tandem Walking.** J Vis Exp. 2023;(199):e65663.  
     https://doi.org/10.3791/65663
