@@ -162,3 +162,156 @@ Nie należy automatycznie zlecać wszystkich badań każdej osobie. Dobór panel
 
 **Fosforany:** najlepiej interpretować wynik z uwzględnieniem pory pobrania, posiłku i wieku. U dzieci trzeba stosować zakresy pediatryczne. Nie wolno oceniać wyniku dziecka na podstawie zakresu dla osoby dorosłej.
 
+## 3. PTH – oznaczanie i interpretacja
+
+### 3.1. Co mierzy oznaczenie PTH
+
+W praktyce najczęściej oznacza się intact PTH (iPTH). Testy różnią się przeciwciałami, rozpoznawanymi fragmentami i kalibracją. Wydolność nerek, niedobór witaminy D, hipomagnezemia, hiperkalcemia, leki oraz czas pobrania wpływają na wynik lub jego znaczenie.
+
+PTH zawsze należy interpretować **równocześnie z wapniem**. Samo stwierdzenie PTH w granicach zakresu referencyjnego nie oznacza prawidłowej odpowiedzi fizjologicznej.
+
+### 3.2. Wzorce interpretacyjne
+
+| Wapń | PTH | Najważniejsze kierunki różnicowania |
+|---|---|---|
+| Wysoki | Wysoki lub nieadekwatnie prawidłowy | Pierwotna nadczynność przytarczyc, FHH, lit, tiazydy, rzadziej inne przyczyny zależne od PTH |
+| Wysoki | Wyraźnie zahamowany | Przyczyny niezależne od PTH: nowotwory/PTHrP, nadmiar witaminy D, choroby ziarniniakowe, unieruchomienie, leki i inne |
+| Niski | Wysoki | Wtórna nadczynność przytarczyc, np. niedobór witaminy D, PChN, malabsorpcja; możliwa oporność na PTH |
+| Niski | Niski lub nieadekwatnie prawidłowy | Niedoczynność przytarczyc, ciężka hipomagnezemia, wybrane zaburzenia wrodzone lub pooperacyjne |
+| Prawidłowy | Utrwalony wzrost | Wymaga wykluczenia przyczyn wtórnych; dopiero potem można rozważać normokalcemiczną pierwotną nadczynność przytarczyc |
+
+### 3.3. Ograniczenia PTH
+
+- Wynik może być fałszywie niski lub wysoki wskutek interferencji immunochemicznej.
+- Biotyna może zakłócać część metod opartych na układzie biotyna–streptawidyna; wpływ zależy od platformy.
+- W PChN mogą gromadzić się fragmenty PTH rozpoznawane przez niektóre testy.
+- Wysokie stężenie wapnia powinno hamować PTH; wartość mieszcząca się w zakresie referencyjnym może być wtedy nieadekwatna.
+- PTH może zmieniać się w czasie, dlatego w rozpoznaniach przewlekłych liczy się powtarzalność i trend.
+- Nie należy porównywać bezkrytycznie wyników z różnych laboratoriów i różnych metod.
+
+## 4. Wapń całkowity, zjonizowany i albumina
+
+### 4.1. Wapń całkowity
+
+Wapń całkowity obejmuje frakcję zjonizowaną, związaną z białkami i skompleksowaną. Jego wynik jest łatwo dostępny i użyteczny w większości stabilnych sytuacji ambulatoryjnych. Nie jest jednak bezpośrednim pomiarem aktywnej biologicznie frakcji.
+
+Obniżenie albuminy może zmniejszyć wapń całkowity, mimo prawidłowego wapnia zjonizowanego. Z kolei zmiany pH mogą zmieniać wiązanie wapnia z albuminą i wpływać na wapń zjonizowany bez istotnej zmiany wapnia całkowitego.
+
+### 4.2. Wapń skorygowany względem albuminy
+
+W niektórych laboratoriach stosuje się orientacyjny wzór:
+
+- w jednostkach mmol/l: wapń skorygowany = wapń całkowity + 0,02 × (40 − albumina w g/l);
+- w jednostkach mg/dl: wapń skorygowany = wapń całkowity + 0,8 × (4,0 − albumina w g/dl).
+
+Wzory są przybliżeniem i mogą być niedokładne, zwłaszcza w ciężkim stanie ogólnym, PChN, zaburzeniach pH, znacznej hipoalbuminemii, paraproteinemii i u pacjentów intensywnej terapii. Nie należy mechanicznie stosować jednego wzoru do wszystkich metod i populacji. W razie wątpliwości, niezgodności kliniczno-laboratoryjnej lub istotnych zaburzeń białek preferuje się bezpośredni pomiar wapnia zjonizowanego.
+
+### 4.3. Wapń zjonizowany
+
+Wapń zjonizowany jest szczególnie przydatny, gdy:
+- występuje ciężka hipoalbuminemia;
+- pacjent jest w stanie krytycznym;
+- istnieją istotne zaburzenia kwasowo-zasadowe;
+- występuje PChN, paraproteinemia lub nietypowy rozkład białek;
+- wynik wapnia całkowitego nie odpowiada objawom;
+- podejrzewa się ostrą hipokalcemię lub hiperkalcemię.
+
+Wynik należy odczytywać razem z pH i warunkami pobrania. Próbka zanieczyszczona heparyną w nieodpowiednim stężeniu lub narażona na powietrze może dać wynik nieprawidłowy.
+
+## 5. Fosforany i magnez
+
+### 5.1. Fosforany nieorganiczne
+
+Stężenie fosforanów jest regulowane przez jelito, nerki, kości, PTH, FGF23 i witaminę D. Wzrost PTH oraz FGF23 nasila wydalanie fosforanów z moczem. Kalcytriol zwiększa ich wchłanianie jelitowe. W PChN upośledzone wydalanie fosforanów i adaptacyjny wzrost FGF23 oraz PTH prowadzą do złożonych zmian osi kostno-nerkowej.
+
+Fosforany należy interpretować z uwzględnieniem:
+- wieku i tempa wzrastania;
+- posiłku i pory dnia;
+- czynności nerek;
+- podaży fosforanów i stosowania preparatów wiążących;
+- zaburzeń kwasowo-zasadowych;
+- insuliny, katecholamin i przesunięć wewnątrzkomórkowych;
+- PTH, FGF23 i metabolitów witaminy D.
+
+### 5.2. Hipofosfatemia – główne mechanizmy
+
+1. Zmniejszona podaż lub wchłanianie: niedożywienie, przewlekła biegunka, zaburzenia wchłaniania, leki wiążące fosforany.
+2. Przesunięcie do komórek: zespół ponownego odżywienia, zasadowica oddechowa, leczenie insuliną, niektóre stany hipermetaboliczne.
+3. Zwiększona utrata nerkowa: nadmiar PTH lub FGF23, tubulopatie proksymalne, zespoły dziedziczne, osteomalacja indukowana guzem.
+4. Rzadziej: pozorna hipofosfatemia związana z interferencją analityczną.
+
+Przy utrwalonej hipofosfatemii kluczowe jest ustalenie, czy nerki prawidłowo oszczędzają fosforany. Jeżeli przy małym stężeniu fosforanów nerki nadal wydalają ich zbyt dużo, wskazuje to na nerkową utratę.
+
+### 5.3. Magnez
+
+Magnez jest niezbędny do wydzielania i działania PTH. Ciężka hipomagnezemia może powodować:
+- zmniejszenie wydzielania PTH;
+- oporność tkanek na PTH;
+- hipokalcemię trudną do skorygowania samym wapniem;
+- współistniejącą hipokaliemię i zaburzenia rytmu serca.
+
+Dlatego w niewyjaśnionej hipokalcemii oznaczenie magnezu jest obowiązkowym elementem rozumowania. Hipermagnezemia, zwłaszcza przy niewydolności nerek i ekspozycji na preparaty magnezu, również może zaburzać przewodnictwo nerwowo-mięśniowe.
+
+## 6. 25-OH-witamina D i 1,25-(OH)2-witamina D
+
+### 6.1. 25-OH-witamina D
+
+25-OH-D jest głównym krążącym metabolitem i najlepszym standardowym wskaźnikiem zaopatrzenia organizmu w witaminę D. Oznaczenie rozważa się szczególnie przy:
+- zaburzeniach gospodarki wapniowo-fosforanowej;
+- podejrzeniu krzywicy lub osteomalacji;
+- wtórnej nadczynności przytarczyc;
+- osteoporozie lub złamaniach w określonym kontekście klinicznym;
+- malabsorpcji, chorobach wątroby lub nerek;
+- stosowaniu leków wpływających na metabolizm witaminy D;
+- monitorowaniu leczenia rozpoznanego niedoboru w grupach ryzyka.
+
+Nie jest to badanie do powszechnego przesiewu wszystkich zdrowych dorosłych bez wskazań. Zalecenia Endocrine Society z 2024 r. dotyczące profilaktyki chorób nie rekomendują rutynowego oznaczania 25-OH-D u zdrowych populacji objętych tym dokumentem; nie znosi to wskazań do oznaczania u osób z rozpoznanym zaburzeniem mineralnym lub klinicznym ryzykiem niedoboru.
+
+W polskim konsensusie profilaktyki i leczenia niedoboru witaminy D z 2023 r. podano praktyczne przedziały interpretacyjne: ≤20 ng/ml jako niedobór, >20 do <30 ng/ml jako stan suboptymalny, a 30–50 ng/ml jako zakres uznany w tym dokumencie za optymalny. Przedziały te należy rozumieć w kontekście wskazań, metody, populacji i konkretnego celu klinicznego, a nie jako uniwersalny próg dla każdej choroby.
+
+Przelicznik: 1 ng/ml = 2,5 nmol/l.
+
+### 6.2. 1,25-(OH)2-witamina D
+
+Kalcytriol ma krótki okres półtrwania i jest ściśle regulowany. Nie służy do rutynowej oceny zapasów witaminy D. Może być:
+- obniżony w zaawansowanej PChN i przy niedoborze substratu;
+- podwyższony w niektórych chorobach ziarniniakowych i chłoniakach wskutek pozanerkowej aktywacji;
+- nieadekwatnie niski w zaburzeniach zależnych od FGF23;
+- zwiększony w niektórych dziedzicznych zaburzeniach metabolizmu witaminy D lub transportu fosforanów.
+
+Oznaczenie należy zlecać wtedy, gdy wynik odpowiada na konkretne pytanie diagnostyczne. Jednoczesne oznaczanie 25-OH-D i 1,25-(OH)2-D bez wskazania zwykle nie zwiększa wartości diagnostycznej.
+
+## 7. Fosfataza alkaliczna całkowita i kostna
+
+### 7.1. Fosfataza alkaliczna całkowita
+
+Fosfataza alkaliczna (ALP) pochodzi przede wszystkim z wątroby i kości, ale występują też inne izoenzymy. Zwiększona aktywność ALP może towarzyszyć:
+- nasilonej przebudowie kości;
+- krzywicy i osteomalacji;
+- chorobie Pageta;
+- gojeniu złamań;
+- przerzutom kostnym;
+- chorobom cholestatycznym wątroby;
+- fizjologicznemu wzrostowi u dzieci i młodzieży;
+- ciąży, zwłaszcza w późniejszym okresie.
+
+Podwyższona ALP całkowita nie jest równoznaczna z chorobą kości. W celu oceny pochodzenia wyniku można zestawić ALP z GGT, aminotransferazami, bilirubiną, PTH, wapniem, fosforanami i obrazem klinicznym. W wybranych przypadkach oznacza się izoenzymy lub kostną frakcję ALP.
+
+### 7.2. Kostna fosfataza alkaliczna (BALP)
+
+BALP jest markerem aktywności osteoblastów i tworzenia kości. Może być zwiększona przy nasilonej przebudowie kostnej, osteomalacji, niektórych postaciach nadczynności przytarczyc i w chorobach kości. W PChN niektóre markery kostne są mniej zależne od wydalania nerkowego niż inne, dlatego BALP może być użyteczna w wybranych sytuacjach CKD-MBD.
+
+Wynik należy interpretować w odniesieniu do wieku, płci, ciąży, funkcji nerek i metody oznaczenia.
+
+## 8. Kalcytonina
+
+Kalcytonina jest przede wszystkim markerem komórek C tarczycy i raka rdzeniastego tarczycy (MTC). Jej oznaczenie można rozważyć w odpowiednich sytuacjach, np.:
+- przy osobistym lub rodzinnym wywiadzie MTC;
+- w zespole MEN2;
+- przy guzku tarczycy o podejrzanym obrazie lub niejednoznacznej cytologii;
+- przed planowanym zabiegiem w określonych scenariuszach klinicznych, zgodnie z wytycznymi i lokalną praktyką.
+
+Wartość rutynowego oznaczania kalcytoniny u wszystkich osób z guzkami tarczycy pozostaje przedmiotem dyskusji. Europejskie zalecenia ETA 2023 wskazują sytuacje, w których oznaczenie jest szczególnie zasadne. Niewielkie podwyższenie nie jest samo w sobie rozpoznaniem MTC.
+
+Na stężenie kalcytoniny mogą wpływać m.in. metoda oznaczenia, palenie tytoniu, niewydolność nerek, leki zmniejszające kwaśność soku żołądkowego i inne czynniki. Wynik graniczny wymaga oceny laboratoryjnej i klinicznej, nie automatycznego rozpoznania nowotworu. Nie należy stosować kalcytoniny do rutynowego monitorowania osteoporozy ani jako zamiennika PTH.
+
