@@ -306,7 +306,7 @@ Nie wolno samowolnie zmieniać kolejności, liczby prób, lokalizacji, narzędzi
 W nieformalnym badaniu przyłóżkowym można przygotować sekwencję zrównoważoną, np.:
 - prawa dłoń;
 - lewa dłoń;
-- lewy przedramię;
+- lewe przedramię;
 - pozorowana przerwa bez bodźca;
 - prawe przedramię;
 - lewa stopa;
