@@ -857,7 +857,6 @@ D. Wyłącznie na podstawie jednego pomiaru PSV.
 - **EDV** – prędkość końcoworozkurczowa.
 - **ICA** – tętnica szyjna wewnętrzna.
 - **CCA** – tętnica szyjna wspólna.
-- **EDC** – w tym rozdziale nie stosuje się; skrót może oznaczać substancje zaburzające gospodarkę hormonalną w innych częściach kursu.
 - **Kąt insonacji** – kąt między wiązką ultradźwiękową a kierunkiem przepływu.
 - **Nyquist limit** – granica częstotliwości, powyżej której w próbkowaniu pojawia się aliasing.
 - **PAD** – choroba tętnic obwodowych.
