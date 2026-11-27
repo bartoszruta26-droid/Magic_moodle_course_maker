@@ -261,7 +261,16 @@ W starszych publikacjach wynik poniżej 45 punktów bywał wiązany ze zwiększo
 
 ### 5.7. Właściwości pomiarowe i zmiana w czasie
 
-BBS wykazuje dobrą lub bardzo dobrą rzetelność w wielu populacjach neurologicznych i geriatrycznych. Nie oznacza to jednak, że każdy wynik jest wolny od błędu. Donoghue i Stokes opisali w grupie osób starszych różne wartości MDC zależnie od wyniku początkowego: około 4–6 punktów w poszczególnych przedziałach. Inne populacje, w tym pacjenci po udarze i mieszkańcy placówek opiekuńczych, mogą mieć odmienne wartości.
+BBS wykazuje dobrą lub bardzo dobrą rzetelność w wielu populacjach neurologicznych i geriatrycznych. Nie oznacza to jednak, że każdy wynik jest wolny od błędu. Donoghue i Stokes opisali w grupie osób starszych następujące wartości MDC95 zależne od wyniku początkowego:
+
+| Wynik początkowy BBS | MDC95 w badanej grupie osób starszych |
+|---|---:|
+| 0–24 pkt | 4,6 pkt |
+| 25–34 pkt | 6,3 pkt |
+| 35–44 pkt | 4,9 pkt |
+| 45–56 pkt | 3,3 pkt |
+
+Wartości pochodzą z określonej próby osób starszych i nie są uniwersalnymi progami dla wszystkich rozpoznań. Inne populacje, w tym pacjenci po udarze i mieszkańcy placówek opiekuńczych, mogą mieć odmienne wartości MDC.
 
 W praktyce należy:
 
@@ -485,7 +494,7 @@ Wynik jakościowy może być ważniejszy niż sama liczba sekund, zwłaszcza gdy
 
 ### 8.6. Interpretacja i progi
 
-W wielu publikacjach przytaczano wartość 13,5 sekundy jako próg zwiększonego ryzyka upadku u osób starszych mieszkających w środowisku domowym. Przeglądy systematyczne wykazały jednak ograniczoną czułość i swoistość tego progu oraz brak podstaw do traktowania go jako uniwersalnego narzędzia przewidywania upadków. Barry i współautorzy wskazali, że TUG przy progu 13,5 sekundy ma ograniczoną zdolność identyfikowania przyszłych upadków i nie powinien być stosowany samodzielnie.
+W wielu publikacjach przytaczano wartość 13,5 sekundy jako próg zwiększonego ryzyka upadku u osób starszych mieszkających w środowisku domowym. Przegląd systematyczny i metaanaliza Barry'ego i współautorów wykazały jednak, że przy progu 13,5 sekundy łączna czułość wynosiła około 31%, a swoistość około 74%. Oznacza to, że próg może przeoczyć znaczną część osób, które upadną, i nie powinien być traktowany jako uniwersalne narzędzie przewidywania przyszłych upadków. Wynik TUG należy wykorzystywać do opisu mobilności i obserwacji chodu, a nie jako samodzielną klasyfikację ryzyka.
 
 Czas należy interpretować w odniesieniu do:
 
@@ -580,7 +589,7 @@ Maksymalna suma wynosi 24 punkty. Szczegółowe kryteria obejmują między innym
 
 ### 9.6. Interpretacja
 
-W starszych badaniach wynik poniżej 19/24 był wiązany ze zwiększonym ryzykiem upadków w określonych grupach osób starszych i pacjentów z zaburzeniami przedsionkowymi. Wartości te nie są uniwersalne. W bazie RehabMeasures podano między innymi, że próg poniżej 19 punktów w wybranej próbie osób starszych wykazywał umiarkowaną czułość i swoistość. W innych populacjach optymalne wartości mogą być odmienne.
+W starszych badaniach wynik poniżej 19/24 był wiązany ze zwiększonym ryzykiem upadków w określonych grupach osób starszych i pacjentów z zaburzeniami przedsionkowymi. W jednej z prób osób starszych podawano czułość około 59% i swoistość około 64%, a w innej, niewielkiej próbie prospektywnej – odpowiednio około 67% i 86%. Dane te pochodzą z konkretnych populacji i nie tworzą uniwersalnego progu. W innych rozpoznaniach i środowiskach optymalne wartości mogą być odmienne.
 
 DGI jest przydatny do opisu adaptacji chodu, ale nie powinien być używany jako samodzielna prognoza przyszłego upadku. Wysoki wynik nie wyklucza problemów w środowisku domowym, podczas zmęczenia, w nocy, na nierównym podłożu ani podczas podwójnego zadania.
 
@@ -1213,7 +1222,9 @@ Nie ma jednego testu najlepszego dla wszystkich. Dobór zależy od pytania klini
 
 11. Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta-analysis. *BMC Geriatrics*. 2014;14:14. DOI: [10.1186/1471-2318-14-14](https://doi.org/10.1186/1471-2318-14-14). [Pełny tekst](https://pmc.ncbi.nlm.nih.gov/articles/PMC3924230/).
 
-12. Shumway-Cook A, Woollacott M, Baldwin M. Dynamic Gait Index – podstawowe prace dotyczące oceny adaptacji chodu. Materiały i omówienie narzędzia: [Shirley Ryan AbilityLab – Dynamic Gait Index](https://www.sralab.org/rehabilitation-measures/dynamic-gait-index).
+12. Shumway-Cook A, Woollacott MH. *Motor Control: Theory and Practical Applications*. Baltimore: Williams & Wilkins; 1995. Opis Dynamic Gait Index znajduje się w części poświęconej ocenie funkcjonalnej kontroli chodu.
+
+
 
 13. Wrisley DM, Walker ML, Echternach JL, Strasnick B. Reliability of the dynamic gait index in people with vestibular disorders. *Archives of Physical Medicine and Rehabilitation*. 2003;84(10):1528–1533. DOI: [10.1016/S0003-9993(03)00274-0](https://doi.org/10.1016/S0003-9993(03)00274-0). [PubMed](https://pubmed.ncbi.nlm.nih.gov/14586922/).
 
