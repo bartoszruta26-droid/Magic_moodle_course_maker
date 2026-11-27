@@ -1030,8 +1030,8 @@ D. Jądro czerwienne
 Czym różni się dermatom od obszaru czuciowego nerwu obwodowego?
 
 A. Nie różnią się  
-B. Dermatome odpowiada jednemu korzeniowi, a nerw obwodowy zwykle zawiera włókna z kilku korzeni  
-C. Dermatome dotyczy tylko twarzy  
+B. Dermatom odpowiada jednemu korzeniowi, a nerw obwodowy zwykle zawiera włókna z kilku korzeni  
+C. Dermatom dotyczy tylko twarzy  
 D. Obszar nerwu obwodowego zawsze odpowiada jednemu miotomowi
 
 **Prawidłowa odpowiedź: B.** Korzenie i nerwy końcowe mają odmienną organizację po utworzeniu splotów.
