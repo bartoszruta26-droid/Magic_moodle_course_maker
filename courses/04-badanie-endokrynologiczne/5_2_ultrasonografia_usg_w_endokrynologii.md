@@ -323,7 +323,7 @@ ACR TI-RADS jest odrębnym systemem punktowym. Ocenia pięć grup cech: skład, 
 | Skład | Mieszany lito-torbielowaty | 1 |
 | Skład | Lity lub prawie całkowicie lity | 2 |
 | Echogeniczność | Anechogeniczny | 0 |
-| Echogeniczność | Hipo- lub hiperechogeniczny | 1 |
+| Echogeniczność | Hiperechogeniczny lub izoechogeniczny | 1 |
 | Echogeniczność | Hipoechogeniczny | 2 |
 | Echogeniczność | Znacznie hipoechogeniczny | 3 |
 | Kształt | Szerszy niż wyższy | 0 |
