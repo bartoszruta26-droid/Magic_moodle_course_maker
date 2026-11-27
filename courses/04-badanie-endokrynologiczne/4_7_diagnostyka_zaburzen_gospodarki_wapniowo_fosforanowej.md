@@ -376,6 +376,8 @@ W warunkach hipofosfatemii prawidłowa odpowiedź nerek polega na ograniczeniu w
 
 TmP/GFR (maksymalna zdolność zwrotnego wchłaniania fosforanów skorygowana względem filtracji kłębuszkowej) jest użyteczna w ocenie nerkowej gospodarki fosforanowej. Do obliczenia potrzebne są równoczesne próbki krwi i moczu, pobrane według ustalonego protokołu – często na czczo, z wykorzystaniem drugiej porannej próbki moczu. Stosuje się nomogramy lub zwalidowane algorytmy; wzór i zakres referencyjny zależą od metody.
 
+W niektórych algorytmach dla dorosłych najpierw oblicza się TRP = 1 − FEPO4/100. Jeżeli TRP ≤0,86, TmP/GFR = TRP × stężenie fosforanów w surowicy. Jeżeli TRP >0,86, stosuje się TmP/GFR = α × stężenie fosforanów w surowicy, gdzie α = 0,3 × TRP / (1 − 0,8 × TRP). Wynik ma te same jednostki co fosforany w surowicy. Jest to jeden z algorytmów obliczeniowych dla dorosłych; laboratorium powinno wskazać zwalidowaną metodę i właściwy zakres. U dzieci stosuje się zakresy i algorytmy uwzględniające wiek.
+
 Obniżony TmP/GFR w hipofosfatemii wskazuje na nerkową utratę fosforanów. Jeżeli potwierdzono utratę nerkową, dalsze różnicowanie obejmuje m.in. PTH, FGF23, 25-OH-D, 1,25-(OH)2-D, funkcję kanalików proksymalnych, leki i choroby dziedziczne. W zaawansowanej PChN interpretacja wskaźników wydalania fosforanów jest utrudniona.
 
 ## 10. Markery obrotu kostnego
@@ -660,7 +662,7 @@ Nie wolno zalecać samodzielnego odstawienia leku. Modyfikację leczenia podejmu
 | D | ↓ | ↑ | ↑ | N lub zmienne | PChN albo oporność na PTH – konieczne różnicowanie |
 | E | ↑ | ↓ | ↑ lub N | ↑ lub 1,25-D ↑ | Przyczyna niezależna od PTH, np. nadmiar witaminy D lub kalcytriolu |
 | F | ↓ | ↑ | ↓ | N lub ↓ | Niedobór witaminy D, malabsorpcja lub niedostateczna podaż Ca |
-| G | ↓ fosforany | Zmienne | ↓ | N/nieadekwatnie N | Nerkowa utrata fosforanów; oceń FGF23 i TmP/GFR |
+| G | N lub ↓ | Zmienne | ↓ | N/nieadekwatnie N | Nerkowa utrata fosforanów; oceń FGF23 i TmP/GFR |
 
 Strzałki przedstawiają kierunki typowe, a nie kryteria diagnostyczne. Rzeczywisty profil może być modyfikowany przez PChN, leczenie, wiek, posiłek i współistniejące choroby.
 
@@ -1238,7 +1240,7 @@ Poniższe publikacje stanowią podstawę merytoryczną rozdziału. Zalecenia nal
 
 19. Kidney Disease: Improving Global Outcomes. KDIGO CKD-MBD guideline and supporting materials. https://kdigo.org/guidelines/ckd-mbd/
 
-20. Bilezikian John P. i współautorzy. Aktualizacje i materiały Międzynarodowego Warsztatu dotyczącego pierwotnej nadczynności przytarczyc. Journal of Bone and Mineral Research; zasoby: https://www.asbmr.org/
+20. Scott M. Wilhelm, Tracy S. Wang, Daniel T. Ruan, James A. Lee, Sylvia L. Asa, Quan-Yang Duh, Gerard M. Doherty, Miguel F. Herrera, Janice L. Pasieka, Nancy D. Perrier, Shonni J. Silverberg, Carmen C. Solórzano, Cord Sturgeon, Mitchell E. Tublin, Robert Udelsman, Sally E. Carty. The American Association of Endocrine Surgeons Guidelines for Definitive Management of Primary Hyperparathyroidism. *JAMA Surgery*. 2016;151(10):959–968. DOI: https://doi.org/10.1001/jamasurg.2016.2310
 
 ## 27. Wskazówki dla prowadzącego
 
