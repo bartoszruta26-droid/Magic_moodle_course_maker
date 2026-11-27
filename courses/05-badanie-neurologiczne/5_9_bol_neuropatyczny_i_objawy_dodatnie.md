@@ -119,7 +119,7 @@ Można opisać hiperalgezję mechaniczną, termiczną lub punktową, ale nie nal
 
 Hiperalgezja pierwotna odnosi się do zwiększonej wrażliwości w miejscu uszkodzenia lub zapalenia, często związanej z sensytyzacją obwodową. Hiperalgezja wtórna może występować w tkankach otaczających obszar pierwotnego uszkodzenia i wiązać się ze zmianą przetwarzania w ośrodkowym układzie nerwowym. To rozróżnienie jest przydatne w nauce o bólu, lecz nie pozwala samo w sobie przypisać konkretnego mechanizmu u pojedynczego pacjenta.
 
-### 2.8. Hipopatia i hiperpatiа
+### 2.8. Hiperpatia i zaburzenia odpowiedzi na bodźce powtarzane
 
 Hiperpatia jest zespołem nieprawidłowo nasilonej reakcji bólowej, szczególnie na bodźce powtarzane, często z podwyższonym progiem wyzwolenia. Reakcja może być opóźniona, narastająca, rozlana lub utrzymująca się po zakończeniu bodźca. Termin ten jest mniej używany w codziennej dokumentacji niż allodynia i hiperalgezja, ale może być pomocny w opisie złożonego zaburzenia odpowiedzi czuciowej.
 
@@ -612,7 +612,7 @@ DN4 jest narzędziem składającym się z 10 pozycji ocenianych binarnie. Obejmu
 
 Łączny wynik mieści się w zakresie 0–10. W klasycznej wersji wynik co najmniej 4/10 wskazuje na prawdopodobny komponent neuropatyczny i uzasadnia pogłębioną ocenę. Nie jest to samodzielne potwierdzenie rozpoznania.
 
-Wersja wywiadowa I-DN4 obejmuje siedem pytań i nie zawiera badania czuciowego. Ma odrębny sposób punktacji i odrębny próg interpretacyjny. Nie wolno przenosić progu 4/10 z pełnego DN4 na wersję wywiadową.
+Wersja wywiadowa I-DN4 obejmuje siedem pytań i nie zawiera badania czuciowego. Ma odrębny sposób punktacji i odrębny próg interpretacyjny. W klasycznej wersji wywiadowej wynik co najmniej 3/7 jest traktowany jako przesiewowo dodatni; należy jednak sprawdzić instrukcję konkretnej, zatwierdzonej wersji językowej. Nie wolno przenosić progu 4/10 z pełnego DN4 na wersję wywiadową.
 
 **Praktyczne zastosowanie:**
 1. Wybierz jedną dolegliwość indeksową.
@@ -632,7 +632,7 @@ LANSS wymaga prawidłowego wykonania części badania. Nie należy zastępować 
 
 ### 9.4. S-LANSS
 
-S-LANSS jest wersją samoopisową, przeznaczoną do wypełniania przez pacjenta bez bezpośredniego badania klinicznego. Może być przydatna w monitorowaniu lub wstępnej selekcji, ale brak badania czuciowego ogranicza możliwość potwierdzenia zgodności objawów z obszarem układu somatosensorycznego.
+S-LANSS jest wersją samoopisową, przeznaczoną do wypełniania przez pacjenta bez bezpośredniego badania klinicznego. Może być przydatna w monitorowaniu lub wstępnej selekcji. W standardowej wersji punktacja wynosi 0–24, a próg 12/24 bywa stosowany do wskazania przewagi cech neuropatycznych; należy sprawdzić instrukcję konkretnej wersji. Brak badania czuciowego ogranicza możliwość potwierdzenia zgodności objawów z obszarem układu somatosensorycznego.
 
 Nie należy utożsamiać S-LANSS z pełną wersją LANSS. Trzeba zapisać dokładną nazwę wersji i stosować jej własne instrukcje.
 
@@ -730,6 +730,20 @@ flowchart TD
  J -->|Nie lub brak badania| H
  J -->|Tak| K[Ból neuropatyczny definitywny]
 ~~~
+
+### 10.7. Aktualna dyskusja naukowa dotycząca hierarchii dowodów
+
+System NeuPSIG z 2016 r. pozostaje szeroko stosowanym i użytecznym schematem porządkowania pewności rozpoznania. Nie należy jednak przedstawiać go jako niezmiennego, bezdyskusyjnego „złotego standardu”. W 2026 r. opublikowano stanowisko Bouhassiry i Attal, które krytycznie analizuje hierarchię od danych zgłaszanych przez pacjenta, przez badanie kliniczne, po testy potwierdzające uszkodzenie. Autorzy argumentują, że test wykazujący zmianę w układzie somatosensorycznym nie dowodzi sam przez się, iż właśnie ta zmiana jest przyczyną konkretnego bólu. Podkreślają również, że wyniki uznawane za obiektywne zależą od techniki, badanego, badającego, norm i jakości pomiaru.
+
+Finnerup i Gylfadottir w komentarzu z września 2026 r. wskazują na ryzyko nadmiernego polegania na samym fenotypie bólu i objawach klinicznych: osoba może mieć udokumentowaną neuropatię, a równocześnie doświadczać bólu nocyceptywnego z innej przyczyny, np. choroby stawu. W dyskusji uczestniczyli również Truini oraz ponownie Bouhassira i Attal w publikacjach z października i listopada 2026 r. Spór dotyczy przede wszystkim tego, jaką rolę testy wykazujące uszkodzenie powinny odgrywać w klasyfikacji bólu, a nie tego, czy badanie neurologiczne i diagnostyka przyczynowa są potrzebne.
+
+**Wniosek dydaktyczny:** stosuj stopniowanie NeuPSIG jako przejrzysty język kliniczny i badawczy, ale w dokumentacji oddzielaj trzy pytania:
+
+1. Czy pacjent ma ból o cechach neuropatycznych?
+2. Czy istnieje wiarygodna choroba lub uszkodzenie układu somatosensorycznego?
+3. Czy dostępne dane pozwalają przypisać właśnie temu uszkodzeniu zgłaszany ból, a nie współistniejącej przyczynie nocyceptywnej lub nocyplastycznej?
+
+Największą wiarygodność daje zgodność wielu niezależnych informacji: relacji pacjenta, topografii, badania, przebiegu czasowego i badań dodatkowych. Ani sam biomarker, ani sam kwestionariusz, ani sama etykieta choroby nie powinny zastępować takiej integracji. Do czasu przyjęcia i walidacji zaktualizowanego, uzgodnionego standardu należy jasno podawać, że użyto klasyfikacji NeuPSIG 2016, oraz uwzględniać jej ograniczenia.
 
 ### 10.6. Najczęstsze błędy w stosowaniu systemu
 
@@ -1342,7 +1356,7 @@ Rzetelna ocena bólu wymaga szacunku dla relacji pacjenta, precyzji w badaniu i 
 
 15. Satala CB, Onofrei (Popa) A, Vrînceanu O, Mihalache D. From amputation to persistent pain: a review of molecular and cellular processes in phantom limb pain. *Int J Mol Sci.* 2026;27(5):2107. doi:10.3390/ijms27052107. Dostęp: https://www.mdpi.com/1422-0067/27/5/2107
 
-16. Bouhassira D, Attal N. Diagnosis and assessment of neuropathic pain: the value of clinical signs and questionnaires. Materiały i publikacje dotyczące oceny bólu neuropatycznego. Wyszukiwanie bibliograficzne PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=Bouhassira+Attal+neuropathic+pain+diagnosis+assessment
+16. Attal N, Bouhassira D, Baron R. Diagnosis and assessment of neuropathic pain through questionnaires. *Lancet Neurol.* 2018;17(5):456–466. doi:10.1016/S1474-4422(18)30071-1. Dostęp: https://pubmed.ncbi.nlm.nih.gov/29598922/
 
 17. Deutsche Gesellschaft für Neurologie. **Guideline: Diagnosis and non-interventional therapy of neuropathic pain.** Dostęp: https://link.springer.com/article/10.1186/s42466-020-00063-3
 
@@ -1350,7 +1364,15 @@ Rzetelna ocena bólu wymaga szacunku dla relacji pacjenta, precyzji w badaniu i 
 
 19. National Institute for Health and Care Excellence. **Neuropathic pain in adults: pharmacological management in non-specialist settings (CG173).** Wytyczna dotycząca postępowania farmakologicznego; w niniejszym rozdziale wykorzystana pomocniczo dla zakresu oceny i kierowania. Dostęp: https://www.nice.org.uk/guidance/cg173
 
-20. International Association for the Study of Pain. **Global Year 2026 – Neuropathic Pain.** Materiały edukacyjne dla klinicystów, badaczy i pacjentów. Dostęp: https://www.iasp-pain.org/advocacy/global-year/neuropathic-pain/
+20. International Association for the Study of Pain. **Global Year 2026 – Neuropathic Pain.** Materiały edukacyjne dla klinicystów, badaczy i pacjentów. Dostęp: https://www.iasp-pain.org/resources/fact-sheets/an-overview-of-neuropathic-pain-and-its-impact/
+
+21. Bouhassira D, Attal N. Lesion Without Pain, Pain Without Certainty: A Critical Reappraisal of the NeuPSIG Diagnostic Algorithm for Neuropathic Pain. *Eur J Pain.* 2026;30(7):e70350. doi:10.1002/ejp.70350. Dostęp: https://pubmed.ncbi.nlm.nih.gov/42550034/
+
+22. Finnerup NB, Gylfadottir SS. Comment on “Lesion Without Pain, Pain Without Certainty: A Critical Reappraisal of the NeuPSIG Diagnostic Algorithm for Neuropathic Pain”. *Eur J Pain.* 2026;30(8):e70381. doi:10.1002/ejp.70381. Dostęp: https://pubmed.ncbi.nlm.nih.gov/42708623/
+
+23. Truini A. Objective Evidence in Neuropathic Pain Classification. *Eur J Pain.* 2026;30(9):e70421. doi:10.1002/ejp.70421. Dostęp: https://pubmed.ncbi.nlm.nih.gov/42862056/
+
+24. Bouhassira D, Attal N. Response to Andrea Truini: Diagnosing a Lesion or Diagnosing Neuropathic Pain? *Eur J Pain.* 2026;30(10):e70435. doi:10.1002/ejp.70435. Dostęp: https://pubmed.ncbi.nlm.nih.gov/42902819/
 
 ### Uwagi do bibliografii i stosowania narzędzi
 
