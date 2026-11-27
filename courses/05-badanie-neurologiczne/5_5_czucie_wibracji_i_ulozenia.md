@@ -153,7 +153,7 @@ Informacja dociera do pól somatosensorycznych płata ciemieniowego. Przetwarzan
 
 ### 3.8. Schemat funkcjonalny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Wrzecionka mięśniowe, narządy ścięgniste, receptory skóry i stawów"] --> B["Duże włókna aferentne Ia, Ib, II, Aβ"]
     B --> C["Zwój rdzeniowy i korzeń tylny"]
@@ -166,7 +166,7 @@ flowchart TD
     I --> J["Kora somatosensoryczna"]
     D --> K["Drogi rdzeniowo-móżdżkowe"]
     K --> L["Móżdżek: kontrola nieświadoma"]
-\`\`\`
+```
 
 ---
 
@@ -324,7 +324,7 @@ Jeżeli wibracja jest osłabiona na paluchu, należy zbadać bardziej proksymaln
 
 Schemat:
 
-\`\`\`text
+```text
 PALUCH
   │
   ├── czucie obecne i symetryczne → porównaj stronę przeciwną, zakończ ocenę przesiewową
@@ -340,7 +340,7 @@ KOSTKA PRZYŚRODKOWA
                   │
                   ▼
 GUZOWATOŚĆ PISZCZELI / KOLEJNY PUNKT PROKSYMALNY
-\`\`\`
+```
 
 Taki schemat nie służy do automatycznego rozpoznawania polineuropatii. Granica percepcji zależy również od techniki, miejsca, wieku, budowy tkanek i współpracy pacjenta.
 
@@ -1062,7 +1062,7 @@ Skróty nie są uniwersalnym standardem międzynarodowym. Warto stosować pełny
 
 ## 20. Algorytm postępowania przy nieprawidłowym wyniku
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Osłabiona wibracja lub nieprawidłowe czucie pozycji"] --> B["Powtórz próbę i sprawdź technikę, zrozumienie oraz warunki"]
     B --> C{"Wynik wiarygodny?"}
@@ -1078,7 +1078,7 @@ flowchart TD
     J --> L
     K --> L
     D --> M["Udokumentuj wynik jako nieocenialny lub ograniczony"]
-\`\`\`
+```
 
 ---
 
