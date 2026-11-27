@@ -235,7 +235,7 @@ W każdym uchu wewnętrznym znajdują się trzy kanały półkoliste:
 
 Ich płaszczyzny są zbliżone do wzajemnie prostopadłych, dzięki czemu populacje receptorów mogą kodować ruchy obrotowe głowy w różnych kierunkach. W bańce każdego kanału znajduje się grzebień bańkowy z komórkami rzęsatymi zanurzonymi w galaretkowatej kopułce.
 
-Podczas obrotu głowy bezwładność endolimfy powoduje względne przemieszczenie względem ścian kanału, odkształcenie kopułki i zgięcie stereociliów. Zmiana napięcia komórki rzęsatej moduluje częstość wyładowań aferentnych. Kanały są szczególnie ważne dla kodowania przyspieszeń kątowych i ruchów obrotowych.
+Podczas obrotu głowy bezwładność endolimfy powoduje względne przemieszczenie względem ścian kanału, odkształcenie kopułki i zgięcie stereociliów. Zmiana napięcia komórki rzęsatej moduluje częstość wyładowań aferentnych. Kanały półkoliste reagują mechanicznie na ruch obrotowy głowy; bezpośredni bodziec mechaniczny wiąże się z przyspieszeniem kątowym i względnym ruchem endolimfy, natomiast dynamika układu sprawia, że w typowym zakresie fizjologicznym aktywność aferentna dostarcza użytecznej informacji o prędkości kątowej.
 
 W warunkach fizjologicznych sygnał z obu błędników jest porównywany w układzie par kanałów pracujących na zasadzie pobudzenia po jednej stronie i względnego hamowania po drugiej. Asymetria aktywności może być źródłem sygnału o kierunku obrotu, ale interpretacja objawów wymaga uwzględnienia dynamiki, adaptacji i aktywności spoczynkowej receptorów.
 
@@ -1345,11 +1345,11 @@ Poniższe pozycje obejmują przeglądy naukowe, opracowania neuroanatomiczne i z
 
 16. Fitzpatrick Richard C., McCloskey David I. Proprioceptive, visual and vestibular thresholds for the perception of sway during standing in humans. Journal of Physiology. 1994;478(Pt 1):173–186. Wyszukiwanie bibliograficzne: https://pubmed.ncbi.nlm.nih.gov/?term=Fitzpatrick+McCloskey+proprioceptive+visual+vestibular+thresholds+1994
 
-17. Peterka Robert J. Sensorimotor integration in human postural control. Journal of Neurophysiology. 2002;88:1097–1118. DOI: https://doi.org/10.1152/jn.2002.88.3.1097
+17. Proske Uwe, Gandevia Simon C. The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force. Physiological Reviews. 2012;92(4):1651–1697. DOI: https://doi.org/10.1152/physrev.00048.2011
 
-18. MacKinnon Colum D. Sensorimotor anatomy of gait, balance, and falls. Handbook of Clinical Neurology. 2018;159:3–26. Pełny tekst autorski: https://pmc.ncbi.nlm.nih.gov/articles/PMC7069605/
+18. Takakusaki Kaoru. Neurophysiology of gait: from the spinal cord to the frontal lobe. Movement Disorders. 2013;28(11):1483–1491. DOI: https://doi.org/10.1002/mds.25669
 
-19. Society for Academic Emergency Medicine. GRACE-3: Acute Dizziness and Vertigo in the Emergency Department – materiały i zalecenia dla praktyki ratunkowej. https://www.saem.org/publications/grace/grace-3
+19. Hall Courtney D., Herdman Susan J., Whitney Susan L., Anson Eric R., Carender Wendy J., Hoppes Carrie W., Cass Stephen P., Christy Jennifer B., Cohen Helen S., Fife Terry D., Furman Joseph M., Shepard Neil T., Clendaniel Richard A., Dishman J. Donald, Goebel Joel A., Meldrum Dara, Ryan Cynthia, Wallace Richard L., Woodward Nakia J. Vestibular rehabilitation for peripheral vestibular hypofunction: an updated clinical practice guideline. Journal of Neurologic Physical Therapy. 2022;46(2):118–177. DOI: https://doi.org/10.1097/NPT.0000000000000382
 
 ### 24.1. Materiały edukacyjne
 
