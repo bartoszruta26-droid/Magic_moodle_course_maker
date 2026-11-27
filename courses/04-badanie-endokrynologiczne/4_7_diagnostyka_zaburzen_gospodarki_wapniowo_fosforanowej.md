@@ -539,3 +539,225 @@ Niektóre postacie są związane z cechami fenotypowymi, np. skróceniem kości 
 
 Ciężki niedobór magnezu może upośledzać wydzielanie PTH i powodować oporność obwodową na PTH. W takiej sytuacji hipokalcemia może utrzymywać się pomimo podawania wapnia i witaminy D. Właściwa ocena i korekta magnezu jest zatem istotnym elementem postępowania, ale sposób i tempo korekcji zależą od stanu klinicznego, funkcji nerek i nasilenia niedoboru.
 
+## 13. Pierwotna, wtórna i trzeciorzędowa nadczynność przytarczyc
+
+### 13.1. Pierwotna nadczynność przytarczyc
+
+PHPT wynika z autonomicznego lub nieadekwatnego wydzielania PTH, najczęściej w następstwie gruczolaka pojedynczego gruczołu, rzadziej wielogruczołowej hiperplazji lub raka przytarczyc. Typowo występują hiperkalcemia i PTH wysokie lub nieadekwatnie prawidłowe. Fosforany bywają obniżone, ale wynik nie jest stały.
+
+Ocena obejmuje nerki, kości i czynniki ryzyka. Obrazowanie lokalizacyjne nie jest testem diagnostycznym samej choroby. Kryteria kwalifikacji do leczenia operacyjnego ocenia lekarz na podstawie aktualnych wytycznych, wieku, stężenia wapnia, funkcji nerek, kamicy, gęstości mineralnej kości, złamań i innych elementów.
+
+### 13.2. Wtórna nadczynność przytarczyc
+
+Wtórny wzrost PTH jest odpowiedzią na przewlekły bodziec, np.:
+- niedobór witaminy D;
+- małą podaż wapnia lub zaburzenia wchłaniania;
+- przewlekłą chorobę nerek;
+- przewlekłą utratę wapnia;
+- niektóre zaburzenia gospodarki fosforanowej.
+
+W zależności od przyczyny wapń może być niski lub prawidłowy. W PChN często dochodzi do zmniejszenia syntezy kalcytriolu, retencji fosforanów i zmian w osi FGF23–PTH. Rozpoznanie wtórnej nadczynności wymaga oceny czynników modyfikowalnych, a nie samego stwierdzenia wysokiego PTH.
+
+### 13.3. Trzeciorzędowa nadczynność przytarczyc
+
+Trzeciorzędowa nadczynność przytarczyc może rozwinąć się po długotrwałej wtórnej stymulacji, szczególnie w zaawansowanej PChN. Dochodzi do autonomizacji wydzielania PTH, a w określonych sytuacjach pojawia się hiperkalcemia. Interpretacja wymaga uwzględnienia historii dializoterapii, przeszczepienia nerki, wcześniejszych wartości PTH, wapnia i fosforanów.
+
+### 13.4. Porównanie profili
+
+| Cecha | PHPT | Wtórna HPT | Trzeciorzędowa HPT |
+|---|---|---|---|
+| PTH | Wysoki lub nieadekwatnie prawidłowy | Wysoki | Zwykle znacznie wysoki |
+| Wapń | Często wysoki | Niski lub prawidłowy | Może być wysoki |
+| Fosforany | Często niskie lub nisko-prawidłowe | Zależne od przyczyny; w PChN często wysokie w zaawansowanych stadiach | Często wysokie przy zaawansowanej PChN, ale zależne od stanu nerek |
+| Kontekst | Gruczolak/hiperplazja, sporadycznie postać dziedziczna | Niedobór D, mała podaż Ca, malabsorpcja, PChN | Długotrwała wtórna HPT, zwykle zaawansowana PChN |
+| Klucz diagnostyczny | Potwierdzenie profilu i wykluczenie FHH | Identyfikacja i ocena przyczyny wtórnej | Historia PChN i utrwalonego wzrostu PTH z autonomizacją |
+
+## 14. Zaburzenia gospodarki fosforanowej w praktyce
+
+### 14.1. Hiperfosfatemia
+
+Najważniejsze mechanizmy:
+- zmniejszone wydalanie nerkowe, zwłaszcza w PChN;
+- zwiększony napływ fosforanów z komórek lub tkanek, np. w lizie komórek;
+- nadmierna podaż fosforanów lub stosowanie preparatów zawierających fosforany;
+- wybrane zaburzenia hormonalne i metaboliczne;
+- błąd analityczny lub hemoliza.
+
+W PChN interpretacja powinna opierać się na seryjnych oznaczeniach wapnia, fosforanów, PTH, ALP i 25-OH-D, a nie na jednym wyniku. Wytyczne KDIGO CKD-MBD zalecają rozpoczęcie monitorowania wapnia, fosforanów, PTH i aktywności ALP od stadium CKD G3a u dorosłych, z częstotliwością dostosowaną do nasilenia zaburzeń i progresji choroby.
+
+### 14.2. Hipofosfatemia i nerkowa utrata fosforanów
+
+Utrwalona hipofosfatemia może prowadzić do osłabienia mięśni, bólu kostnego, osteomalacji, zaburzeń mineralizacji, a w ciężkich ostrych przypadkach do niewydolności oddechowej, zaburzeń kurczliwości mięśnia sercowego, hemolizy lub zaburzeń neurologicznych.
+
+Schemat różnicowania:
+1. Potwierdź hipofosfatemię, uwzględnij wiek i porę pobrania.
+2. Oceń, czy jest ostra czy przewlekła, i zbierz wywiad żywieniowy, lekowy i dotyczący chorób przewodu pokarmowego.
+3. Oznacz równocześnie kreatyninę i fosforany w surowicy oraz moczu.
+4. Oceń FEPO4 lub TmP/GFR według zwalidowanego protokołu.
+5. Jeżeli występuje nerkowa utrata fosforanów, rozważ PTH, FGF23, 25-OH-D, 1,25-(OH)2-D, wodorowęglany i markery funkcji kanalika proksymalnego.
+6. W wybranych przypadkach skieruj pacjenta do ośrodka zajmującego się chorobami metabolicznymi kości i rozważ diagnostykę genetyczną lub obrazowanie ukierunkowane na przyczynę.
+
+~~~mermaid
+flowchart TD
+    A[Utrwalona hipofosfatemia] --> B[Potwierdź wynik i oceń przyczynę ostrą]
+    B --> C[Próbki równoczesne: krew i mocz]
+    C --> D[FEPO4 lub TmP/GFR]
+    D --> E{Czy występuje utrata nerkowa?}
+    E -->|Nie| F[Mała podaż, malabsorpcja, przesunięcie do komórek]
+    E -->|Tak| G[Oceń PTH, FGF23, 25-OH-D, 1,25-OH2-D]
+    G --> H[FGF23-zależna lub niezależna utrata]
+    H --> I[Diagnostyka specjalistyczna, ewentualnie genetyczna]
+~~~
+
+### 14.3. Osteomalacja indukowana guzem i zaburzenia FGF23
+
+Osteomalacja indukowana guzem jest rzadką przyczyną nabytej, często przewlekłej hipofosfatemii. Guzy mezenchymalne mogą wydzielać FGF23, powodując nerkową utratę fosforanów i nieadekwatnie małe stężenie kalcytriolu. Objawy obejmują ból kostny, osłabienie mięśni, trudności w chodzeniu i złamania.
+
+Rozpoznanie wymaga wykazania utrwalonej hipofosfatemii, nerkowej utraty fosforanów i odpowiedniego profilu hormonalnego. Oznaczenie FGF23 należy interpretować w odniesieniu do stężenia fosforanów i rodzaju testu. Lokalizacja guza oraz leczenie należą do zespołu specjalistycznego. W diagnostyce różnicowej trzeba uwzględnić dziedziczne hipofosfatemie, w tym XLH, oraz tubulopatie proksymalne, np. zespół Fanconiego.
+
+## 15. Szczególne sytuacje kliniczne
+
+### 15.1. Przewlekła choroba nerek
+
+W PChN zmieniają się filtracja fosforanów, synteza kalcytriolu, wydzielanie FGF23 i PTH oraz przebudowa kości. Pojęcie CKD-MBD obejmuje zaburzenia biochemiczne, zmiany kostne i zwapnienia pozaszkieletowe. Wyniki należy oceniać seryjnie i łącznie. Pojedyncza wartość PTH nie powinna być interpretowana jako uniwersalny cel terapeutyczny dla wszystkich pacjentów.
+
+### 15.2. Ciąża i laktacja
+
+W ciąży zmieniają się stężenia albuminy, metabolitów witaminy D i transport wapnia przez łożysko. Wapń całkowity może się obniżać wskutek hemodilucji i spadku albuminy, podczas gdy wapń zjonizowany pozostaje prawidłowy. Dlatego interpretacja wymaga uwzględnienia fizjologii ciąży i, gdy wskazane, pomiaru wapnia zjonizowanego lub odpowiednio interpretowanego wapnia skorygowanego.
+
+U pacjentek z niedoczynnością przytarczyc ciąża i laktacja wymagają ścisłej współpracy endokrynologa, położnika i pediatry oraz częstszego monitorowania wapnia. Nie należy samodzielnie zmieniać dawek wapnia, kalcytriolu ani innych preparatów.
+
+### 15.3. Dzieci i młodzież
+
+Wartości referencyjne wapnia, fosforanów, ALP i markerów obrotu kostnego zmieniają się wraz z wiekiem, wzrostem i dojrzewaniem. U dziecka z bólem kości, deformacją kończyn, zaburzeniami wzrastania lub opóźnieniem rozwoju należy rozważyć krzywicę, zaburzenia wchłaniania, choroby nerek i dziedziczne zaburzenia transportu fosforanów. Interpretacja wymaga pediatrycznych zakresów referencyjnych i konsultacji specjalistycznej.
+
+### 15.4. Leki i suplementy
+
+Wywiad powinien obejmować:
+- tiazydy i diuretyki pętlowe;
+- lit;
+- glikokortykosteroidy;
+- bisfosfoniany i denosumab;
+- preparaty wapnia i witaminy D, w tym kalcytriol i kalcyfediol;
+- leki przeciwpadaczkowe;
+- preparaty fosforanowe i leki wiążące fosforany;
+- preparaty zobojętniające i przeczyszczające zawierające magnez;
+- inhibitory pompy protonowej;
+- leki onkologiczne i immunologiczne;
+- suplementy wieloskładnikowe.
+
+Nie wolno zalecać samodzielnego odstawienia leku. Modyfikację leczenia podejmuje osoba uprawniona, z uwzględnieniem ryzyka klinicznego.
+
+## 16. Przykładowe profile laboratoryjne
+
+| Profil | Ca | PTH | Fosforany | 25-OH-D | Możliwa interpretacja |
+|---|---:|---:|---:|---:|---|
+| A | ↑ | ↑ lub nieadekwatnie N | Nisko lub N | N lub ↓ | PHPT – wymaga potwierdzenia i różnicowania z FHH |
+| B | N lub ↓ | ↑ | N lub ↓ | ↓ | Wtórna nadczynność przytarczyc w niedoborze witaminy D |
+| C | ↓ | ↓/N | ↑ | N lub zmienne | Niedoczynność przytarczyc, po ocenie magnezu i nerek |
+| D | ↓ | ↑ | ↑ | N lub zmienne | PChN albo oporność na PTH – konieczne różnicowanie |
+| E | ↑ | ↓ | ↑ lub N | ↑ lub 1,25-D ↑ | Przyczyna niezależna od PTH, np. nadmiar witaminy D lub kalcytriolu |
+| F | ↓ | ↑ | ↓ | N lub ↓ | Niedobór witaminy D, malabsorpcja lub niedostateczna podaż Ca |
+| G | ↓ fosforany | Zmienne | ↓ | N/nieadekwatnie N | Nerkowa utrata fosforanów; oceń FGF23 i TmP/GFR |
+
+Strzałki przedstawiają kierunki typowe, a nie kryteria diagnostyczne. Rzeczywisty profil może być modyfikowany przez PChN, leczenie, wiek, posiłek i współistniejące choroby.
+
+## 17. Przypadki kliniczne
+
+### Przypadek 1. Przypadkowo wykryta hiperkalcemia
+
+U 58-letniej osoby w badaniu kontrolnym stwierdzono podwyższony wapń całkowity. Albumina jest prawidłowa, kreatynina nieznacznie zwiększona, pacjent zgłasza okresowe zaparcia i wzmożone pragnienie.
+
+**Tok rozumowania:**
+1. Potwierdzić hiperkalcemię, ocenić objawy i nawodnienie.
+2. Oznaczyć PTH równocześnie z wapniem.
+3. Jeżeli PTH jest wysokie lub nieadekwatnie prawidłowe, rozważyć PHPT, FHH i wpływ leków.
+4. Ocenić fosforany, 25-OH-D, eGFR, wydalanie wapnia w moczu i ryzyko kamicy.
+5. Dopiero po potwierdzeniu biochemicznym rozpoznania i decyzji o operacji planować badania lokalizacyjne.
+
+**Błąd, którego należy unikać:** zlecanie scyntygrafii przytarczyc jako pierwszego badania potwierdzającego PHPT.
+
+### Przypadek 2. Niska kalcemia po operacji tarczycy
+
+Pacjentka zgłasza parestezje palców i okolicy ust kilka dni po całkowitej tyreoidektomii.
+
+**Tok rozumowania:**
+- ocena stanu ogólnego, objawów tężyczkowych i EKG zgodnie z procedurą;
+- pilne oznaczenie wapnia, najlepiej zjonizowanego lub właściwie skorygowanego, PTH, magnezu i fosforanów;
+- rozważenie pooperacyjnego uszkodzenia lub niedokrwienia przytarczyc;
+- pilne przekazanie do zespołu leczącego, jeśli występują objawy istotnej hipokalcemii.
+
+**Błąd, którego należy unikać:** uznanie parestezji za objaw nieistotny bez oceny wapnia i ryzyka zaburzeń rytmu.
+
+### Przypadek 3. Podwyższone PTH przy prawidłowym wapniu
+
+U osoby z otyłością i małą ekspozycją na światło słoneczne stwierdzono podwyższone PTH, prawidłowy wapń całkowity i obniżone 25-OH-D.
+
+**Tok rozumowania:**
+- ocenić wapń zjonizowany lub skorygowany, fosforany, magnez i eGFR;
+- przeanalizować podaż wapnia, wchłanianie i leki;
+- uwzględnić wtórną nadczynność przytarczyc związaną z niedoborem witaminy D;
+- po korekcie przyczyny wtórnej ponownie ocenić PTH zgodnie z decyzją lekarza.
+
+**Błąd, którego należy unikać:** rozpoznanie normokalcemicznej PHPT na podstawie jednego wyniku.
+
+### Przypadek 4. Hiperkalcemia i małe wydalanie wapnia
+
+U 34-letniej osoby stwierdzono łagodną hiperkalcemię, PTH w górnej części zakresu referencyjnego, a CCCR <0,01. Matka pacjenta ma podobne wyniki.
+
+**Tok rozumowania:**
+- sprawdzić wcześniejsze wyniki i rodzinne występowanie hiperkalcemii;
+- zweryfikować kompletność zbiórki moczu, eGFR, 25-OH-D, dietę i leki;
+- rozważyć FHH i poradnictwo genetyczne;
+- nie kwalifikować do operacji wyłącznie na podstawie hiperkalcemii i PTH.
+
+**Błąd, którego należy unikać:** automatyczne uznanie niskiego CCCR za definitywne rozpoznanie FHH albo PHPT.
+
+### Przypadek 5. Hipokalcemia i hiperfosfatemia
+
+U pacjenta z przewlekłą hipokalcemią stwierdzono wysokie fosforany i niskie PTH.
+
+**Tok rozumowania:**
+- potwierdzić wapń zjonizowany i ocenić magnez;
+- sprawdzić historię operacji szyi, choroby autoimmunologiczne i rodzinne;
+- ocenić funkcję nerek, 25-OH-D i wydalanie wapnia w moczu;
+- rozważyć niedoczynność przytarczyc.
+
+**Błąd, którego należy unikać:** interpretowanie PTH bez odniesienia do wapnia i magnezu.
+
+### Przypadek 6. Hipofosfatemia i ból kości
+
+U 46-letniej osoby występują bóle kości, osłabienie mięśni i trudności we wstawaniu z krzesła. Fosforany są trwale obniżone, ALP zwiększona.
+
+**Tok rozumowania:**
+- potwierdzić przewlekłość hipofosfatemii i ocenić wapń, PTH, 25-OH-D, 1,25-(OH)2-D;
+- ocenić wydalanie fosforanów i TmP/GFR;
+- przy utracie nerkowej rozważyć FGF23, tubulopatię proksymalną, przyczynę dziedziczną lub osteomalację indukowaną guzem;
+- skierować do specjalistycznego ośrodka.
+
+**Błąd, którego należy unikać:** przypisywanie każdego bólu kości niedoborowi witaminy D bez oceny fosforanów i nerkowej gospodarki fosforanowej.
+
+### Przypadek 7. PChN i narastający PTH
+
+U pacjenta z eGFR 24 ml/min/1,73 m² PTH stopniowo wzrasta, fosforany są podwyższone, a wapń w dolnej granicy normy.
+
+**Tok rozumowania:**
+- oceniać trend PTH, wapnia, fosforanów, ALP, 25-OH-D i eGFR;
+- przeanalizować podaż fosforanów, leki i czynniki modyfikowalne;
+- uwzględnić CKD-MBD i wtórną nadczynność przytarczyc;
+- decyzje o leczeniu prowadzić zespołowo, zgodnie z zaleceniami nefrologicznymi i endokrynologicznymi.
+
+**Błąd, którego należy unikać:** stosowanie jednego docelowego stężenia PTH dla wszystkich stadiów PChN.
+
+### Przypadek 8. Hipokalcemia oporna na suplementację
+
+U pacjenta po zabiegu operacyjnym utrzymuje się hipokalcemia mimo wdrożonego leczenia. Stwierdzono bardzo małe stężenie magnezu.
+
+**Tok rozumowania:**
+- rozpoznać możliwość upośledzenia wydzielania i działania PTH w hipomagnezemii;
+- ocenić EKG, funkcję nerek, potas i leki;
+- pilnie przekazać wynik zespołowi prowadzącemu;
+- monitorowanie i korektę elektrolitów prowadzić według zlecenia i procedury.
+
+**Błąd, którego należy unikać:** eskalowanie wyłącznie podaży wapnia bez oceny magnezu i przyczyny hipokalcemii.
+
