@@ -582,7 +582,7 @@ Jeżeli wynik jest skrajnie niezgodny z obrazem klinicznym, należy rozważyć p
 
 Poniższy schemat przedstawia ogólną logikę. Nie jest algorytmem zlecania wszystkich badań każdemu pacjentowi.
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Objawy, guz lub rozpoznany nowotwór endokrynny] --> B[Wywiad, badanie, ocena pilności]
     B --> C{Czy istnieje podejrzenie zespołu hormonalnego?}
@@ -601,7 +601,7 @@ flowchart TD
     L -->|Nie| N[Plan monitorowania lub dalszej diagnostyki]
     M --> N
     N --> O[Wielodyscyplinarna decyzja kliniczna]
-\`\`\`
+```
 
 ### 11.1. Minimalny zestaw pytań przed zleceniem markera
 
