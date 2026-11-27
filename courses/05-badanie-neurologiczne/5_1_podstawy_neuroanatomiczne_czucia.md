@@ -6,7 +6,7 @@ Badanie czucia jest kliniczną oceną działania układu somatosensorycznego –
 
 Niniejszy rozdział stanowi anatomiczno-kliniczną podstawę modułu 5. Koncentruje się na organizacji receptorów, neuronów pierwszego, drugiego i trzeciego rzędu, drogach sznurów tylnych i wstęgi przyśrodkowej, układzie przednio-bocznym, reprezentacji korowej, dermatomach oraz obszarach czucia nerwów obwodowych. Rozdział 1.2 przedstawia ogólną anatomię układu nerwowego, rozdział 1.3 – fizjologię przewodzenia i przetwarzania informacji, a rozdział 2.6 – wywiad dotyczący dolegliwości czuciowych. Tutaj te wiadomości zostają uporządkowane z perspektywy lokalizacji uszkodzenia i planowania badania przedmiotowego. Szczegółowa technika poszczególnych prób będzie rozwijana w kolejnych podrozdziałach modułu.
 
-**Zasada kliniczna:** modalność zaburzonego czucia i jego topografia są równie ważne. Utrata czucia wibracji i ułożenia kończyny nie prowadzi do tych samych hipotez lokalizacyjnych co izolowana utrata bólu i temperatury. Z kolei obszar niedoczulicy zgodny z dermatomem sugeruje inny poziom uszkodzenia niż obszar odpowiadający pojedynczemu nerwowi obwodowemu. Żaden z tych wzorców nie jest jednak samodzielnym rozpoznaniem etiologicznym.
+**Zasada kliniczna:** modalność zaburzonego czucia i jego topografia są równie ważne. Utrata czucia wibracji i ułożenia kończyny nie prowadzi do tych samych hipotez lokalizacyjnych co izolowana utrata bólu i temperatury. Z kolei obszar niedoczulicy zgodny z dermatomm sugeruje inny poziom uszkodzenia niż obszar odpowiadający pojedynczemu nerwowi obwodowemu. Żaden z tych wzorców nie jest jednak samodzielnym rozpoznaniem etiologicznym.
 
 ---
 
@@ -30,7 +30,7 @@ Po ukończeniu rozdziału uczestnik:
 8. wyjaśnia różnice w somatotopii sznurów tylnych i układu przednio-bocznego;
 9. rozróżnia reprezentację czucia tułowia i kończyn od reprezentacji czucia twarzy;
 10. opisuje udział pól 3a, 3b, 1 i 2 kory somatosensorycznej oraz obszarów asocjacyjnych;
-11. odróżnia dermatome od obszaru czuciowego pojedynczego nerwu obwodowego;
+11. odróżnia dermatom od obszaru czuciowego pojedynczego nerwu obwodowego;
 12. wskazuje orientacyjne punkty skórne dla najważniejszych korzeni rdzeniowych;
 13. rozpoznaje podstawowe wzorce lokalizacyjne, w tym zespół połowiczego uszkodzenia rdzenia, uszkodzenie spoidła białego przedniego i zespół skrzyżowany pnia mózgu;
 14. identyfikuje sytuacje, w których zaburzenia czucia wymagają pilnej diagnostyki;
@@ -464,7 +464,7 @@ Poniższa tabela przedstawia często używane kliniczne punkty orientacyjne. Nie
 
 ### 10.4. Punkty czuciowe ISNCSCI
 
-W ocenie urazów rdzenia kręgowego stosuje się ustandaryzowane punkty czuciowe dla 28 dermatomów po każdej stronie ciała, od C2 do S4–S5. W każdym punkcie ocenia się dotyk lekki oraz rozróżnianie bodźca ostrego i tępego, zgodnie z protokołem ISNCSCI. Punkty są określone względem łatwych do zidentyfikowania punktów anatomicznych.
+W ocenie urazów rdzenia kręgowego stosuje się ustandaryzowane punkty czuciowe dla 28 dermatomów po każdej stronie ciała, od C2 do S4–S5. W każdym punkcie ocenia się dotyk lekki oraz rozróżnianie bodźca ostrego i tępego, zgodnie z aktualną edycją ISNCSCI (9. wydanie z 2026 r.). Punkty są określone względem łatwych do zidentyfikowania punktów anatomicznych. Wydanie z 2019 r. pozostaje ważnym źródłem historycznym i naukowym, ale w praktyce należy korzystać z aktualnego arkusza i instrukcji ASIA/ISCoS.
 
 Przykładowe punkty:
 - C2 – co najmniej 1 cm bocznie od guzowatości potylicznej zewnętrznej;
@@ -488,7 +488,7 @@ Przykładowe punkty:
 - S3 – okolica guza kulszowego lub fałdu podpośladkowego;
 - S4–S5 – okolica okołoodbytowa.
 
-ISNCSCI jest standaryzowanym badaniem do klasyfikacji uszkodzeń rdzenia kręgowego, a nie uniwersalnym zamiennikiem pełnego badania neurologicznego. W jego ramach stosuje się określone punkty, skalę 0–2 i reguły klasyfikacji. Nie wolno przenosić punktacji lub kryteriów AIS na zwykłe badanie czucia bez spełnienia wymogów protokołu.
+ISNCSCI jest standaryzowanym badaniem do klasyfikacji uszkodzeń rdzenia kręgowego, a nie uniwersalnym zamiennikiem pełnego badania neurologicznego. W aktualnym wydaniu 9. z 2026 r. zachowano ocenę 28 punktów czuciowych po każdej stronie, z osobnym wynikiem dotyku lekkiego i ukłucia, oraz określone reguły dokumentacji i klasyfikacji. Należy korzystać z oficjalnego, aktualnego arkusza i podręcznika, ponieważ standard może być aktualizowany. Arkusz ISNCSCI 2026 jest objęty licencją CC BY-NC-ND 4.0; nie należy go modyfikować ani wykorzystywać w sposób sprzeczny z warunkami licencji. Nie wolno przenosić punktacji lub kryteriów AIS na zwykłe badanie czucia bez spełnienia wymogów protokołu.
 
 ### 10.5. Ograniczenia map dermatomalnych
 
@@ -814,7 +814,7 @@ SKÓRA / MIĘŚNIE / ŚCIĘGNA / STAWY
        +------+------+
        |             |
        v             v
-   SZNUry TYLNE   RÓG TYLNY
+   SZNURY TYLNE   RÓG TYLNY
        |             |
        v             v
    RDZEŃ           SPOIDŁO BIAŁE
@@ -1027,7 +1027,7 @@ D. Jądro czerwienne
 **Prawidłowa odpowiedź: A.** VPL odbiera znaczną część informacji somatycznej z ciała.
 
 ### Pytanie 5
-Czym różni się dermatome od obszaru czuciowego nerwu obwodowego?
+Czym różni się dermatom od obszaru czuciowego nerwu obwodowego?
 
 A. Nie różnią się  
 B. Dermatome odpowiada jednemu korzeniowi, a nerw obwodowy zwykle zawiera włókna z kilku korzeni  
@@ -1175,7 +1175,7 @@ Po ukończeniu rozdziału uczestnik powinien umieć:
 - [ ] wskazać skrzyżowanie włókien bólowych i termicznych w rdzeniu;
 - [ ] odróżnić VPL od VPM;
 - [ ] opisać organizację S1 i pola 3a, 3b, 1 i 2;
-- [ ] odróżnić dermatome od obszaru nerwu obwodowego;
+- [ ] odróżnić dermatom od obszaru nerwu obwodowego;
 - [ ] podać orientacyjne punkty czuciowe ISNCSCI;
 - [ ] rozpoznać wzorzec połowiczego uszkodzenia rdzenia;
 - [ ] rozpoznać obustronny segmentarny ubytek bólu i temperatury;
@@ -1198,17 +1198,18 @@ Poniższe pozycje dobrano ze względu na dostępność, wartość dydaktyczną i
 7. Purves D, Augustine GJ, Fitzpatrick D, Hall WC, LaMantia AS, McNamara JO, White LE, red. **Neuroscience. 2nd edition.** Sunderland (MA): Sinauer Associates; 2001. Rozdział: Central Pain Pathways: The Spinothalamic Tract. Dostęp: https://www.ncbi.nlm.nih.gov/books/NBK10967/
 8. Purves D, Augustine GJ, Fitzpatrick D, Hall WC, LaMantia AS, McNamara JO, White LE, red. **Neuroscience. 2nd edition.** Sunderland (MA): Sinauer Associates; 2001. Rozdział: The Somatic Sensory Cortex. Dostęp: https://www.ncbi.nlm.nih.gov/books/NBK11153/
 9. Kirshblum SC, Waring W, Biering-Sørensen F, Burns SP, Johansen M, Schmidt-Read M, et al. **International Standards for Neurological Classification of Spinal Cord Injury: Revised 2019.** Top Spinal Cord Inj Rehabil. 2021;27(2):1–22. DOI: 10.46292/sci2702-1. Dostęp: https://pmc.ncbi.nlm.nih.gov/articles/PMC8152171/
-10. ASIA / ISCoS International Standards Committee. **International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI).** Oficjalne materiały i aktualizacje: https://asia-spinalinjury.org/international-standards-neurological-classification-sci-isncsci-worksheet/
+10. American Spinal Injury Association (ASIA). **ISNCSCI Resources.** Oficjalna strona z aktualnym arkuszem, podręcznikiem i materiałami szkoleniowymi; dostęp: https://asia-spinalinjury.org/isncsci-resources/ . Informacje o licencji arkusza: https://asia-spinalinjury.org/international-standards-neurological-classification-sci-isncsci-worksheet/
 11. University of Texas Health Science Center at Houston, Department of Neurobiology and Anatomy. **Neuroanatomy Online – Spinothalamic Tract.** Materiał dydaktyczny do nauki przebiegu układu przednio-bocznego. Dostęp: https://nba.uth.tmc.edu/neuroanatomy/L3/Lab03p03_index.html
 12. StatPearls. **Stereognosis.** NCBI Bookshelf. Materiał dotyczący rozpoznawania przedmiotów przez dotyk i warunków oceny czucia korowego. Dostęp: https://www.ncbi.nlm.nih.gov/books/NBK556003/
 13. StatPearls. **Astereognosis.** NCBI Bookshelf. Materiał dotyczący zaburzeń rozpoznawania dotykowego i diagnostyki różnicowej. Dostęp: https://www.ncbi.nlm.nih.gov/books/NBK560773/
-14. International Standards Committee of ASIA and ISCoS. **The 2019 revision of the International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI)—What’s new?** Spinal Cord. 2019;57:815–817. Dostęp: https://www.nature.com/articles/s41393-019-0350-9
+14. International Standards Committee of ASIA and ISCoS. **The 2019 revision of the International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI)—What’s new?** Spinal Cord. 2019;57:815–817. Źródło dotyczące poprzedniej, ósmej edycji standardu. Dostęp: https://www.nature.com/articles/s41393-019-0350-9
+15. Rupp R, Biering-Sørensen F, Burns S, Franz S, Furlan J, Guest J, Jones L, Kirshblum S, Krassioukov A, McClure I, Rodriguez GM, Schmidt Read M, Schuld C, Snider B, Tansey KE, Walden K. **International Standards for Neurological Classification of Spinal Cord Injury: 9th edition 2026.** Top Spinal Cord Inj Rehabil. 2026;32(4):141–168. DOI: 10.46292/sci26-00067. Aktualny standard ISNCSCI. Dostęp: https://asia-spinalinjury.org/isncsci-resources/ oraz https://doi.org/10.46292/sci26-00067
 
 ### Materiały do nauki obrazowej
 
 - Schemat drogi sznurów tylnych i wstęgi przyśrodkowej: ilustracje w NCBI Bookshelf, pozycje 1 i 6.
 - Schemat drogi rdzeniowo-wzgórzowej: ilustracje w NCBI Bookshelf, pozycje 2 i 7.
-- Mapa punktów czuciowych ISNCSCI: oficjalny arkusz ASIA/ISCoS, pozycja 10.
+- Mapa punktów czuciowych ISNCSCI: aktualny oficjalny arkusz ASIA/ISCoS, 9. wydanie 2026, pozycja 10 i 15.
 - Materiały dydaktyczne dotyczące układu przednio-bocznego: University of Texas Houston, pozycja 11.
 - Rozpoznawanie przedmiotów dotykiem: StatPearls, pozycje 12–13.
 
