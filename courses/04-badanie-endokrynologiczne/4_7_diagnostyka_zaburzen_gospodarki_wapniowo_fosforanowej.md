@@ -761,3 +761,218 @@ U pacjenta po zabiegu operacyjnym utrzymuje się hipokalcemia mimo wdrożonego l
 
 **Błąd, którego należy unikać:** eskalowanie wyłącznie podaży wapnia bez oceny magnezu i przyczyny hipokalcemii.
 
+## 18. Bezpieczeństwo pacjenta i stany wymagające pilnej reakcji
+
+### 18.1. Objawy alarmowe
+
+Pilnej oceny medycznej wymagają w szczególności:
+- drgawki, tężyczka, skurcz krtani lub zaburzenia świadomości przy podejrzeniu hipokalcemii;
+- kołatanie serca, omdlenie lub zaburzenia rytmu przy istotnych zaburzeniach wapnia lub magnezu;
+- nasilone wymioty, odwodnienie, splątanie, znaczne osłabienie lub zaburzenia rytmu przy hiperkalcemii;
+- ciężka hipofosfatemia z osłabieniem mięśni oddechowych, niewydolnością krążenia lub objawami neurologicznymi;
+- podejrzenie przełomu hiperkalcemicznego, ciężkiej hipokalcemii lub innego ostrego zaburzenia elektrolitowego.
+
+W takich sytuacjach nie należy opóźniać przekazania pacjenta do odpowiedniego poziomu opieki w oczekiwaniu na pełny panel badań.
+
+### 18.2. Ryzyka związane z leczeniem i samodzielną modyfikacją preparatów
+
+Nadmierna podaż wapnia, witaminy D lub aktywnych metabolitów może prowadzić do hiperkalcemii, hiperkalciurii, kamicy i nefrokalcynozy. Nieprawidłowe stosowanie preparatów fosforanowych może wywołać hipokalcemię i zaburzenia elektrolitowe. Korekcja wapnia i fosforanów wymaga uwzględnienia funkcji nerek i ryzyka wytrącania soli wapniowo-fosforanowych.
+
+Nie należy:
+- samodzielnie zwiększać dawek wapnia, kalcytriolu, witaminy D lub fosforanów;
+- odstawiać przepisanych leków bez konsultacji;
+- stosować suplementacji w dużych dawkach bez rozpoznania wskazania;
+- interpretować wyniku laboratoryjnego jako samodzielnej podstawy do zabiegu;
+- wykonywać testów obciążeniowych lub prowokacyjnych poza właściwym nadzorem.
+
+### 18.3. Granice kompetencji zawodowych
+
+Osoba prowadząca badanie lub edukację może – zgodnie z kwalifikacjami – zebrać wywiad, wykonać dozwolone pomiary, sprawdzić kompletność dokumentacji, przekazać pacjentowi zasady przygotowania do badań i rozpoznać sygnały wymagające pilnej konsultacji. Samodzielne rozpoznawanie choroby, zlecanie badań, interpretacja kliniczna, kwalifikacja do leczenia lub zmiana farmakoterapii należą do osób uprawnionych w granicach ich kompetencji i przepisów.
+
+W dokumentacji należy rozdzielać:
+- dane zgłoszone przez pacjenta;
+- obiektywne wyniki pomiarów i badań;
+- interpretację osoby uprawnionej;
+- zalecenia i decyzje terapeutyczne;
+- informację o przekazaniu pilnego wyniku.
+
+## 19. Dokumentowanie diagnostyki
+
+### 19.1. Minimalny zestaw danych w opisie
+
+1. Data i godzina pobrania.
+2. Materiał biologiczny i metoda, jeśli jest znana.
+3. Wynik z jednostką i zakresem referencyjnym laboratorium.
+4. Wiek i istotny kontekst kliniczny.
+5. Równoczesne wyniki wapnia, albuminy, PTH, fosforanów, magnezu, kreatyniny i 25-OH-D – zależnie od wskazania.
+6. Informacja o lekach, suplementach i ostatnich zmianach leczenia.
+7. Informacja o jakości próbki i ewentualnych ograniczeniach przedanalitycznych.
+8. Wyniki poprzednie i dynamika zmian.
+9. Objawy alarmowe i sposób przekazania wyniku.
+10. Osoba odpowiedzialna za interpretację i dalszy plan.
+
+### 19.2. Przykładowa karta interpretacji
+
+| Pole | Zapis |
+|---|---|
+| Powód badania | Hiperkalcemia / hipokalcemia / nieprawidłowe PTH / zaburzenie fosforanów / inne |
+| Wapń całkowity | Wynik, jednostka, zakres |
+| Albumina | Wynik, jednostka |
+| Wapń zjonizowany | Wynik, pH próbki, jeśli dostępne |
+| PTH intact | Wynik, metoda i zakres |
+| Fosforany | Wynik, wiek i pora pobrania |
+| Magnez | Wynik i zakres |
+| 25-OH-D | Wynik, jednostka, metoda |
+| ALP / BALP | Wynik, możliwe źródło |
+| Kreatynina / eGFR | Wynik i stadium PChN, jeśli ustalone |
+| Mocz | Ca, kreatynina, fosforany, kompletność zbiórki |
+| Leki i suplementy | Nazwa, dawka, czas stosowania |
+| Wniosek osoby uprawnionej | Hipoteza, rozpoznanie różnicowe, dalszy plan |
+| Bezpieczeństwo | Objawy alarmowe, przekazanie pilnego wyniku |
+
+## 20. Algorytmy podsumowujące
+
+### 20.1. Uproszczony algorytm dla zaburzeń wapnia
+
+~~~text
+NIEPRAWIDŁOWY WAPŃ
+        |
+        v
+Potwierdź wynik; oceń albuminę i/lub wapń zjonizowany
+        |
+        v
+Oznacz PTH w odniesieniu do wapnia
+        |
+   +----+----+
+   |         |
+PTH nie     PTH wysokie lub
+zahamowany  nieadekwatnie prawidłowe
+   |         |
+   v         v
+Przyczyny   PHPT / FHH / wpływ leków /
+niezależne  wtórna lub trzeciorzędowa HPT
+od PTH      zależnie od kontekstu
+   |         |
+   v         v
+Badania     Fosforany, 25-OH-D, eGFR,
+ukierunkowane mocz, CCCR, wywiad rodzinny
+   |         |
+   +----+----+
+        |
+        v
+Ocena objawów, pilności i powikłań
+        |
+        v
+Interpretacja przez osobę uprawnioną
+~~~
+
+### 20.2. Uproszczony algorytm dla zaburzeń fosforanów
+
+~~~text
+NIEPRAWIDŁOWE FOSFORANY
+        |
+        v
+Uwzględnij wiek, porę pobrania, posiłek, hemolizę
+        |
+        v
+Oceń eGFR, wapń, PTH, magnez, witaminę D
+        |
+        v
+Przy hipofosfatemii: oceń wydalanie nerkowe
+        |
+        +--> nerki oszczędzają fosforany
+        |       |
+        |       +--> mała podaż / malabsorpcja /
+        |            przesunięcie do komórek
+        |
+        +--> nerki tracą fosforany
+                |
+                +--> PTH / FGF23 / tubulopatia /
+                     choroba dziedziczna / guz
+~~~
+
+## 21. Pytania kontrolne
+
+1. Dlaczego PTH należy interpretować równocześnie z wapniem?
+2. Czym różni się wapń całkowity od zjonizowanego?
+3. Kiedy korekcja wapnia względem albuminy może być niewiarygodna?
+4. Dlaczego 25-OH-witamina D jest podstawowym badaniem oceny zasobów witaminy D?
+5. W jakich sytuacjach oznacza się 1,25-(OH)2-witaminę D?
+6. Jak PTH wpływa na wydalanie fosforanów przez nerki?
+7. Jaką rolę w gospodarce fosforanowej pełni FGF23?
+8. Dlaczego ciężka hipomagnezemia może powodować hipokalcemię oporną na leczenie?
+9. Jakie cechy laboratoryjne przemawiają za niedoczynnością przytarczyc?
+10. Czym różni się niedoczynność przytarczyc od pseudohipoparatyreoidyzmu?
+11. Jakie są podstawowe profile PHPT i wtórnej nadczynności przytarczyc?
+12. Co oznacza CCCR <0,01 i dlaczego nie rozstrzyga samodzielnie o FHH?
+13. Dlaczego badania lokalizacyjne przytarczyc nie potwierdzają biochemicznego rozpoznania PHPT?
+14. Jakie mechanizmy mogą powodować hipofosfatemię?
+15. Co oznacza obniżony TmP/GFR przy hipofosfatemii?
+16. Jakie są ograniczenia markerów obrotu kostnego?
+17. Dlaczego ALP całkowita nie jest swoistym markerem kości?
+18. Kiedy oznaczenie kalcytoniny może być przydatne?
+19. Jak PChN wpływa na interpretację PTH i fosforanów?
+20. Jakie objawy zaburzeń wapnia wymagają pilnej oceny?
+
+### Odpowiedzi skrócone
+
+1. Ponieważ fizjologiczne znaczenie PTH zależy od stężenia wapnia; prawidłowy laboratoryjnie wynik może być nieadekwatny przy hiperkalcemii.
+2. Całkowity obejmuje frakcję związaną z białkami i skompleksowaną, a zjonizowany jest frakcją biologicznie czynną.
+3. W ciężkiej chorobie, PChN, zaburzeniach pH, znacznej hipoalbuminemii i paraproteinemii.
+4. Jest głównym krążącym metabolitem odzwierciedlającym zaopatrzenie organizmu w witaminę D.
+5. W wybranych zaburzeniach aktywacji lub działania witaminy D, chorobach ziarniniakowych, niektórych chłoniakach i zaburzeniach gospodarki fosforanowej.
+6. Zmniejsza zwrotne wchłanianie fosforanów w kanaliku proksymalnym.
+7. Zwiększa fosfaturię i ogranicza syntezę kalcytriolu.
+8. Upośledza wydzielanie PTH i wywołuje oporność obwodową na PTH.
+9. Hipokalcemia, nieadekwatnie niskie PTH, często hiperfosfatemia; należy ocenić magnez i nerki.
+10. W niedoczynności PTH jest niski lub nieadekwatnie prawidłowy, w PHP PTH jest zwykle podwyższony z powodu oporności tkanek.
+11. PHPT: hiperkalcemia z PTH wysokim lub nieadekwatnie prawidłowym; wtórna HPT: wzrost PTH w odpowiedzi na bodziec, np. niedobór D lub PChN.
+12. Zwiększa podejrzenie FHH, ale CCCR ma ograniczoną czułość i swoistość oraz zależy od funkcji nerek, diety, witaminy D i leków.
+13. Służą lokalizacji nieprawidłowej tkanki przed planowanym zabiegiem, a nie potwierdzeniu samej choroby.
+14. Mała podaż lub wchłanianie, przesunięcie do komórek, utrata nerkowa i interferencja analityczna.
+15. Sugeruje nieadekwatną nerkową utratę fosforanów.
+16. Zależą od wieku, rytmu dobowego, posiłku, funkcji nerek i metody; nie zastępują DXA ani oceny klinicznej.
+17. Pochodzi również z wątroby i innych tkanek.
+18. Przy podejrzeniu MTC, MEN2 i w wybranych sytuacjach dotyczących guzków tarczycy.
+19. Zmienia aktywację witaminy D, wydalanie fosforanów i metabolizm PTH; dodatkowo wpływa na kumulację fragmentów PTH.
+20. Drgawki, tężyczka, skurcz krtani, zaburzenia świadomości, omdlenie i zaburzenia rytmu.
+
+## 22. Ćwiczenia praktyczne
+
+### Ćwiczenie 1. Interpretacja PTH
+
+Otrzymujesz trzy profile:
+- A: Ca ↑, PTH ↑;
+- B: Ca ↓, PTH ↑;
+- C: Ca ↓, PTH ↓.
+
+Dla każdego profilu wskaż najbardziej prawdopodobną grupę mechanizmów i zaproponuj trzy badania uzupełniające. Uzasadnij, dlaczego PTH należy interpretować w relacji do wapnia.
+
+### Ćwiczenie 2. Wapń całkowity a albumina
+
+Pacjent ma obniżony wapń całkowity i znacznie obniżoną albuminę. Przygotuj plan weryfikacji, uwzględniając wapń zjonizowany, pH próbki, objawy i ograniczenia wzoru korekcyjnego.
+
+### Ćwiczenie 3. Różnicowanie PHPT i FHH
+
+Przeanalizuj przypadek łagodnej hiperkalcemii, PTH nieadekwatnie prawidłowego i CCCR <0,01. Wymień co najmniej pięć czynników, które mogą zaniżać wydalanie wapnia, i zaproponuj sposób dalszej weryfikacji.
+
+### Ćwiczenie 4. Hipokalcemia pooperacyjna
+
+Opracuj listę danych, które trzeba niezwłocznie przekazać zespołowi prowadzącemu u pacjenta z parestezjami po tyreoidektomii. Uwzględnij wapń zjonizowany, PTH, magnez, fosforany, EKG i objawy alarmowe.
+
+### Ćwiczenie 5. Hipofosfatemia
+
+Ułóż algorytm od potwierdzenia wyniku do oceny nerkowej utraty fosforanów. Wskaż, kiedy można rozważyć oznaczenie FGF23 i 1,25-(OH)2-witaminy D.
+
+### Ćwiczenie 6. Markery obrotu kostnego
+
+Porównaj P1NP i β-CTX-I. Zaproponuj standaryzację pobrania w monitorowaniu terapii oraz wymień czynniki utrudniające interpretację u chorego z PChN.
+
+### Ćwiczenie 7. Dokumentacja
+
+Wypełnij kartę interpretacji dla przykładowego pacjenta z hiperkalcemią. Oddziel dane obiektywne, hipotezy diagnostyczne i decyzje należące do lekarza.
+
+### Ćwiczenie 8. Komunikacja bezpieczeństwa
+
+Przygotuj krótką, rzeczową informację o pilnym wyniku hipokalcemii z objawami neurologicznymi. Uwzględnij czas, osobę powiadomioną, potwierdzenie odbioru i dalszy sposób postępowania zgodny z procedurą.
+
