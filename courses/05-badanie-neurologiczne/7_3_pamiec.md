@@ -136,7 +136,7 @@ Struktury te uczestniczą w wiązaniu elementów doświadczenia w spójną repre
 
 Uproszczony schemat przepływu informacji w formacji hipokampa:
 
-\`\`\`text
+```text
 Kora asocjacyjna
       |
       v
@@ -156,7 +156,7 @@ Podpora (subiculum)
       |
       v
 Kora śródwęchowa i inne obszary korowe
-\`\`\`
+```
 
 Schemat jest uproszczeniem. W rzeczywistości występują połączenia zwrotne, równoległe drogi wejściowe i liczne modulacje. Wewnętrzne obwody hipokampa wspierają rozdzielanie podobnych wzorców, ich kojarzenie i odtwarzanie.
 
@@ -177,7 +177,7 @@ Uszkodzenia struktur międzymózgowia mogą wywoływać zespół amnestyczny, cz
 
 Klasyczny obwód Papeza jest historycznym i dydaktycznym modelem połączeń limbicznych:
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     H["Formacja hipokampa"] --> F["Sklepienie"]
     F --> M["Ciała suteczkowate"]
@@ -186,7 +186,7 @@ flowchart TD
     A --> C["Zakręt obręczy"]
     C --> E["Kora śródwęchowa"]
     E --> H
-\`\`\`
+```
 
 Obwód Papeza pomaga zrozumieć, dlaczego uszkodzenie struktur skroniowych, podwzgórzowych lub wzgórzowych może prowadzić do zaburzeń pamięci. Nie jest jednak kompletnym opisem wszystkich sieci pamięciowych. Współczesna neurobiologia uwzględnia również połączenia z korą przedczołową, ciemieniową, wyspą, ciałem migdałowatym i strukturami podkorowymi.
 
@@ -829,7 +829,7 @@ W niektórych sytuacjach występują zaburzenia pamięci autobiograficznej zwią
 
 ### 9.20. Schemat różnicowania
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Skarga lub obserwowany deficyt pamięci"] --> B{"Początek nagły?"}
     B -->|Tak| C["Pilna ocena stanu ogólnego i neurologicznego"]
@@ -841,7 +841,7 @@ flowchart TD
     H --> I["Próby uczenia, odroczenia, przypominania i rozpoznawania"]
     I --> J["Dobierz badania laboratoryjne, obrazowe i neuropsychologiczne"]
     J --> K["Sformułuj rozpoznanie zespołowe i plan dalszego postępowania"]
-\`\`\`
+```
 
 ---
 
@@ -1235,7 +1235,7 @@ Co należy zrobić, gdy skargi rodziny są wyraźne, a wynik przesiewu prawidło
 
 ## 17. Algorytm postępowania – od skargi do planu diagnostycznego
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Zgłoszenie problemów z pamięcią"] --> B["Wywiad od pacjenta i informatora"]
     B --> C["Ustalenie początku, przebiegu i wpływu na funkcjonowanie"]
@@ -1252,7 +1252,7 @@ flowchart TD
     M --> N["Ocena funkcjonowania i bezpieczeństwa"]
     L --> N
     N --> O["Dokumentacja i plan kontroli"]
-\`\`\`
+```
 
 ---
 
@@ -1260,7 +1260,7 @@ flowchart TD
 
 ### 18.1. Rozdzielenie etapów pamięci
 
-\`\`\`text
+```text
 BODZIEC
   |
   v
@@ -1286,7 +1286,7 @@ WYDOBYWANIE <---- wskazówki / kontekst
   |
   v
 ODPOWIEDŹ I MONITOROWANIE
-\`\`\`
+```
 
 ### 18.2. Trzy sposoby oceny tego samego materiału
 
@@ -1412,7 +1412,7 @@ Poniższe pozycje stanowią podstawę do dalszej nauki. W razie rozbieżności n
     https://doi.org/10.12740/PP/24748
 
 17. Niedźwieńska Agnieszka, Neckar Jacek, Kabut Radosław, Wereszczyński Michał. Test Uczenia się Językowego Hopkinsa: polska adaptacja i normy dla seniorów. *Czasopismo Psychologiczne*. 2019;25(2):165–176.  
-    https://ruj.uj.edu.pl/entities/publication/8c5e6d6a-0b1a-4c86-9a4d-9e2f5c6a6d8a
+    https://ruj.uj.edu.pl/handle/item/88207
 
 18. National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management in hospital and long-term care. NICE guideline CG103.  
     https://www.nice.org.uk/guidance/cg103
@@ -1424,7 +1424,7 @@ Poniższe pozycje stanowią podstawę do dalszej nauki. W razie rozbieżności n
     https://www.merckmanuals.com/professional/neurologic-disorders/function-and-dysfunction-of-the-cerebral-lobes/transient-global-amnesia
 
 21. StatPearls Publishing. Wernicke-Korsakoff Syndrome. NCBI Bookshelf.  
-    https://www.ncbi.nlm.nih.gov/books/NBK430729/
+    https://www.ncbi.nlm.nih.gov/sites/books/NBK470344/
 
 22. American Psychological Association. Guidelines for psychological assessment and evaluation.  
     https://www.apa.org/about/policy/guidelines-psychological-assessment-evaluation.pdf
@@ -1434,9 +1434,6 @@ Poniższe pozycje stanowią podstawę do dalszej nauki. W razie rozbieżności n
 
 24. Rey André. L'examen clinique en psychologie. Paris: Presses Universitaires de France; 1964.  
     Informacje bibliograficzne i opis narzędzia RAVLT należy weryfikować w podręczniku konkretnej adaptacji.
-
-25. Niedźwieńska Agnieszka i współautorzy. Materiały naukowe dotyczące polskiej adaptacji testów pamięci werbalnej i norm dla osób starszych. Repozytorium Uniwersytetu Jagiellońskiego.  
-    https://ruj.uj.edu.pl/
 
 ### Uwagi dotyczące bibliografii
 
