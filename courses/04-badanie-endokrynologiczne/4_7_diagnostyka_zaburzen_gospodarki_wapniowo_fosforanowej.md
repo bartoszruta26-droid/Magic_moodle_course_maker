@@ -976,3 +976,308 @@ Wypełnij kartę interpretacji dla przykładowego pacjenta z hiperkalcemią. Odd
 
 Przygotuj krótką, rzeczową informację o pilnym wyniku hipokalcemii z objawami neurologicznymi. Uwzględnij czas, osobę powiadomioną, potwierdzenie odbioru i dalszy sposób postępowania zgodny z procedurą.
 
+## 23. Test sprawdzający
+
+W każdym pytaniu wybierz jedną najlepszą odpowiedź.
+
+**1. Najbardziej biologicznie aktywną frakcją wapnia w surowicy jest:**
+
+A. Wapń związany z albuminą  
+B. Wapń zjonizowany  
+C. Wapń skompleksowany z cytrynianem  
+D. Wapń całkowity  
+
+**2. PTH należy interpretować przede wszystkim w odniesieniu do:**
+
+A. Stężenia sodu  
+B. Stężenia wapnia  
+C. Stężenia hemoglobiny  
+D. Stężenia cholesterolu  
+
+**3. Podstawowym badaniem oceny zaopatrzenia organizmu w witaminę D jest:**
+
+A. 1,25-(OH)2-D  
+B. 25-OH-D  
+C. PTHrP  
+D. Kalcytonina  
+
+**4. Wtórna nadczynność przytarczyc może być następstwem:**
+
+A. Niedoboru witaminy D  
+B. Nadmiaru wapnia w diecie jako jedynej przyczyny  
+C. Nadczynności komórek C tarczycy  
+D. Izolowanego wzrostu albuminy  
+
+**5. Typowy profil niedoczynności przytarczyc obejmuje:**
+
+A. Hiperkalcemię i wysokie PTH  
+B. Hipokalcemię i nieadekwatnie niskie PTH  
+C. Hiperkalcemię i zahamowane PTH  
+D. Prawidłowy wapń i zawsze niskie fosforany  
+
+**6. W pseudohipoparatyreoidyzmie typowo występuje:**
+
+A. Hipokalcemia i wysokie PTH  
+B. Hiperkalcemia i niskie PTH  
+C. Hiperkalcemia i wysokie kalcytoniny  
+D. Hipokalcemia i brak jakiejkolwiek odpowiedzi PTH  
+
+**7. CCCR <0,01:**
+
+A. Zawsze potwierdza FHH  
+B. Zawsze potwierdza PHPT  
+C. Zwiększa podejrzenie FHH, ale wymaga interpretacji w kontekście  
+D. Wyklucza zaburzenia nerkowe  
+
+**8. Badania lokalizacyjne przytarczyc:**
+
+A. Zastępują oznaczenie PTH  
+B. Potwierdzają biochemicznie PHPT  
+C. Służą głównie do lokalizacji przed planowanym leczeniem operacyjnym  
+D. Są obowiązkowe u każdego pacjenta z prawidłowym wapniem  
+
+**9. PTH i FGF23 wpływają na fosforany przez:**
+
+A. Zwiększenie ich wydalania nerkowego  
+B. Całkowite zahamowanie filtracji kłębuszkowej  
+C. Zwiększenie syntezy albuminy  
+D. Zmniejszenie objętości kości  
+
+**10. Ciężka hipomagnezemia może:**
+
+A. Zwiększać wydzielanie PTH bez ograniczeń  
+B. Upośledzać wydzielanie i działanie PTH  
+C. Zawsze powodować hiperkalcemię  
+D. Nie wpływać na gospodarkę wapniową  
+
+**11. ALP całkowita:**
+
+A. Jest swoista wyłącznie dla kości  
+B. Pochodzi m.in. z wątroby i kości  
+C. Jest hormonem przytarczyc  
+D. Zastępuje PTH  
+
+**12. 1,25-(OH)2-witamina D:**
+
+A. Jest podstawowym badaniem przesiewowym niedoboru witaminy D  
+B. Nie ma żadnego znaczenia diagnostycznego  
+C. Ma wybrane wskazania, ale nie służy rutynowo do oceny zasobów witaminy D  
+D. Jest tym samym co 25-OH-D  
+
+**13. Przy hipofosfatemii obniżony TmP/GFR sugeruje:**
+
+A. Nerkową utratę fosforanów  
+B. Zawsze prawidłową reabsorpcję fosforanów  
+C. Wyłącznie niedobór wapnia  
+D. Wyłącznie nadmiar albuminy  
+
+**14. Markerem tworzenia kości jest:**
+
+A. β-CTX-I  
+B. P1NP  
+C. Troponina  
+D. NT-proBNP  
+
+**15. Markerem resorpcji kości jest:**
+
+A. β-CTX-I  
+B. TSH  
+C. Kortyzol  
+D. Albumina  
+
+**16. Kalcytonina jest szczególnie przydatna jako marker:**
+
+A. Raka rdzeniastego tarczycy w odpowiednich wskazaniach  
+B. Pierwotnej nadczynności przytarczyc  
+C. Niedoboru magnezu  
+D. Przewlekłej hipofosfatemii  
+
+**17. W PChN interpretacja PTH wymaga:**
+
+A. Pominięcia kreatyniny  
+B. Uwzględnienia stadium choroby, trendu i metody oznaczenia  
+C. Stosowania jednego celu dla wszystkich pacjentów  
+D. Oceniania wyłącznie pojedynczego wyniku  
+
+**18. Wapń zjonizowany jest szczególnie użyteczny, gdy:**
+
+A. Albumina i pH są zawsze prawidłowe  
+B. Występuje ciężka hipoalbuminemia lub zaburzenie kwasowo-zasadowe  
+C. Pacjent nie przyjmuje żadnych leków  
+D. Chodzi wyłącznie o ocenę cholesterolu  
+
+**19. Która sytuacja wymaga pilnej oceny?**
+
+A. Łagodna, stabilna zmiana ALP bez objawów  
+B. Drgawki i skurcz krtani przy podejrzeniu hipokalcemii  
+C. Prawidłowy wapń i prawidłowy PTH  
+D. Pojedynczy wynik 25-OH-D bez objawów i bez wskazania  
+
+**20. Najbardziej właściwe podejście do pojedynczego niezgodnego wyniku to:**
+
+A. Natychmiastowe rozpoznanie choroby  
+B. Zignorowanie wyniku  
+C. Weryfikacja kontekstu, jakości próbki, metody i potrzeby powtórzenia  
+D. Samodzielne rozpoczęcie leczenia przez osobę bez uprawnień  
+
+### Klucz odpowiedzi z uzasadnieniem
+
+| Pytanie | Odpowiedź | Uzasadnienie |
+|---:|:---:|---|
+| 1 | B | Wapń zjonizowany jest frakcją biologicznie czynną. |
+| 2 | B | PTH jest regulowany przede wszystkim przez wapń zjonizowany. |
+| 3 | B | 25-OH-D odzwierciedla zaopatrzenie organizmu w witaminę D. |
+| 4 | A | Niedobór witaminy D zmniejsza wchłanianie wapnia i może wtórnie zwiększać PTH. |
+| 5 | B | Brak prawidłowej odpowiedzi PTH prowadzi do hipokalcemii, często z hiperfosfatemią. |
+| 6 | A | Oporność tkanek na PTH powoduje wzrost PTH mimo hipokalcemii. |
+| 7 | C | CCCR jest wskaźnikiem pomocniczym z istotnym nakładaniem wyników. |
+| 8 | C | Obrazowanie lokalizuje tkankę przed operacją, nie potwierdza samego rozpoznania. |
+| 9 | A | Oba hormony mogą nasilać fosfaturię. |
+| 10 | B | Magnez jest konieczny dla prawidłowego wydzielania i działania PTH. |
+| 11 | B | ALP ma izoenzymy pochodzące z różnych tkanek. |
+| 12 | C | Kalcytriol ma wskazania ukierunkowane, nie jest rutynowym testem zasobów. |
+| 13 | A | Obniżony TmP/GFR przy hipofosfatemii sugeruje nieadekwatną utratę nerkową. |
+| 14 | B | P1NP jest markerem tworzenia kolagenu typu I. |
+| 15 | A | β-CTX-I odzwierciedla resorpcję kolagenu typu I. |
+| 16 | A | Kalcytonina jest markerem komórek C i MTC w odpowiednich wskazaniach. |
+| 17 | B | PChN wpływa na metabolizm PTH i interpretację wyników. |
+| 18 | B | Albumina i pH zmieniają relację wapnia całkowitego do zjonizowanego. |
+| 19 | B | Drgawki i skurcz krtani mogą świadczyć o ciężkiej, zagrażającej życiu hipokalcemii. |
+| 20 | C | Należy najpierw zweryfikować wynik i jego kontekst. |
+
+**Proponowana ocena dydaktyczna:**
+- 18–20 poprawnych: bardzo dobre opanowanie materiału;
+- 15–17: dobre opanowanie, wskazane powtórzenie różnicowania;
+- 12–14: częściowe opanowanie, konieczne ćwiczenia na profilach;
+- poniżej 12: zalecane ponowne przejście rozdziału i konsultacja z prowadzącym.
+
+Wynik testu nie jest kwalifikacją do samodzielnego diagnozowania ani leczenia pacjentów.
+
+## 24. Słownik pojęć
+
+- **ALP:** fosfataza alkaliczna; enzym pochodzący m.in. z wątroby i kości.
+- **BALP:** kostna frakcja fosfatazy alkalicznej.
+- **β-CTX-I:** C-końcowy telopeptyd kolagenu typu I, marker resorpcji kostnej.
+- **CaSR:** receptor wykrywający wapń, regulujący wydzielanie PTH i nerkowe postępowanie z wapniem.
+- **CCCR:** wskaźnik klirensu wapniowo-kreatyninowego.
+- **CKD-MBD:** zaburzenia mineralno-kostne związane z przewlekłą chorobą nerek.
+- **FGF23:** fibroblast growth factor 23, hormon regulujący gospodarkę fosforanową.
+- **FHH:** rodzinna hipokalciuryczna hiperkalcemia.
+- **HypoPT:** niedoczynność przytarczyc.
+- **iPTH:** intact PTH, oznaczenie nienaruszonej cząsteczki parathormonu w określonej metodzie.
+- **Kalcytriol:** 1,25-(OH)2-witamina D, aktywny metabolit witaminy D.
+- **P1NP/PINP:** N-końcowy propeptyd prokolagenu typu I, marker tworzenia kości.
+- **PChN:** przewlekła choroba nerek.
+- **PHPT:** pierwotna nadczynność przytarczyc.
+- **PTH:** parathormon.
+- **PTHrP:** peptyd podobny do PTH, mogący pośredniczyć w hiperkalcemii nowotworowej.
+- **PHP:** pseudohipoparatyreoidyzm, grupa zaburzeń oporności na PTH.
+- **TmP/GFR:** maksymalna zdolność zwrotnego wchłaniania fosforanów skorygowana względem filtracji kłębuszkowej.
+- **TRACP-5b:** kwaśna fosfataza oporna na winian, izoforma 5b, marker aktywności osteoklastów.
+- **Wapń całkowity:** suma frakcji zjonizowanej, związanej z białkami i skompleksowanej.
+- **Wapń zjonizowany:** biologicznie czynna, niezwiązana frakcja wapnia.
+- **Wtórna nadczynność przytarczyc:** kompensacyjny wzrost PTH w odpowiedzi na przewlekły bodziec.
+- **Trzeciorzędowa nadczynność przytarczyc:** autonomizacja wydzielania PTH po długotrwałej stymulacji, zwykle w przebiegu zaawansowanej PChN.
+
+## 25. Najważniejsze zasady do zapamiętania
+
+1. PTH zawsze interpretuj w odniesieniu do równoczesnego wapnia.
+2. Wapń całkowity nie zawsze odzwierciedla wapń biologicznie czynny.
+3. Wzory korekcji wapnia względem albuminy są przybliżeniem; w określonych sytuacjach preferuj wapń zjonizowany.
+4. 25-OH-D ocenia zaopatrzenie w witaminę D; 1,25-(OH)2-D ma wybrane wskazania diagnostyczne.
+5. Hipomagnezemia może być przyczyną hipokalcemii opornej na korekcję.
+6. Wysokie PTH nie oznacza automatycznie PHPT – najpierw wyklucz przyczyny wtórne.
+7. CCCR pomaga różnicować PHPT i FHH, ale nie rozstrzyga samodzielnie.
+8. Obrazowanie przytarczyc jest badaniem lokalizacyjnym, a nie biochemicznym testem potwierdzającym.
+9. Fosforany należy interpretować z uwzględnieniem wieku, pory pobrania, posiłku i funkcji nerek.
+10. Markery obrotu kostnego nie zastępują DXA ani całościowej oceny klinicznej.
+11. Ciężkie objawy hipokalcemii, hiperkalcemii i hipofosfatemii wymagają pilnej oceny.
+12. Decyzje diagnostyczne i terapeutyczne muszą pozostawać w granicach kompetencji zawodowych.
+
+## 26. Bibliografia i źródła zalecane
+
+Poniższe publikacje stanowią podstawę merytoryczną rozdziału. Zalecenia należy czytać w pełnym kontekście, zwłaszcza w odniesieniu do populacji, metody laboratoryjnej, siły rekomendacji i daty aktualizacji.
+
+1. John P. Bilezikian, Aliya A. Khan, Shonni J. Silverberg, Ghada El-Hajj Fuleihan, Claudio Marcocci, Salvatore Minisola, Nancy Perrier, Antonio Sitges-Serra, Rajesh V. Thakker, Gordon Guyatt, Michael Mannstadt, John T. Potts, Bart L. Clarke, Maria Luisa Brandi. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. *Journal of Bone and Mineral Research*. 2022;37(11):2293–2314. DOI: https://doi.org/10.1002/jbmr.4677
+
+2. Aliya A. Khan, John P. Bilezikian, Maria Luisa Brandi, Bart L. Clarke, Neil J. Gittoes, Janice L. Pasieka, Lars Rejnmark, Dolores M. Shoback, John T. Potts, Gordon H. Guyatt, Michael Mannstadt. Evaluation and Management of Hypoparathyroidism Summary Statement and Guidelines from the Second International Workshop. *Journal of Bone and Mineral Research*. 2022;37(12):2568–2585. DOI: https://doi.org/10.1002/jbmr.4691
+
+3. Aliya A. Khan, Lars Rejnmark, Maria Luisa Brandi, Bart L. Clarke, Neil J. Gittoes, Janice L. Pasieka, Dolores M. Shoback, John P. Bilezikian, Michael Mannstadt, Gordon H. Guyatt. Management of Hypoparathyroidism. *Journal of Bone and Mineral Research*. 2022. DOI: https://doi.org/10.1002/jbmr.4716
+
+4. Jens Bollerslev, Lars Rejnmark, Claudio Marcocci, Dolores M. Shoback, Antonio Sitges-Serra, Willem van Biesen, Olaf M. Dekkers, Maria Luisa Brandi, Bart L. Clarke, Neil J. Gittoes, David Goltzman, i współautorzy. European Society of Endocrinology Clinical Guideline: Treatment of Chronic Hypoparathyroidism in Adults. *European Journal of Endocrinology*. 2015;173(2):G1–G20. DOI: https://doi.org/10.1530/EJE-15-0628
+
+5. Jens Bollerslev, Lars Rejnmark, Andreas Zahn, Anja Heck, David Ovejero, Elena Bercovich, i współautorzy. European expert consensus on practical management of specific aspects of parathyroid disorders in adults and in pregnancy: recommendations of the ESE Educational Program of Parathyroid Disorders (PARAT 2021). *European Journal of Endocrinology*. 2022;186:R33–R63. DOI: https://doi.org/10.1530/EJE-21-1044
+
+6. Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Update Work Group. KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral and Bone Disorder (CKD-MBD). *Kidney International Supplements*. 2017;7(1):1–59. DOI: https://doi.org/10.1016/j.kisu.2017.04.001
+
+7. Marie B. Demay, Anastassios G. Pittas, Daniel D. Bikle, Dima L. Diab, Mairead E. Kiely, Marise Lazaretti-Castro, Paul Lips, Deborah M. Mitchell, M. Hassan Murad, Shelley Powers, Sudhaker D. Rao, Robert Scragg, John A. Tayek, Amy M. Valent, Judith M. E. Walsh, Christopher R. McCartney. Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. *The Journal of Clinical Endocrinology & Metabolism*. 2024;109(8):1907–1947. DOI: https://doi.org/10.1210/clinem/dgae290
+
+8. Paweł Płudowski i współautorzy. Guidelines for Preventing and Treating Vitamin D Deficiency: A 2023 Update in Poland. *Nutrients*. 2023;15(3):695. DOI: https://doi.org/10.3390/nu15030695
+
+9. Harjit Pal Bhattoa, Samuel Vasikaran, Ioulia Trifonidi, Georgia Kapoula, Giovanni Lombardi, Niklas Rye Jørgensen, Richard Pikner, Masakazu Miura, Roland Chapurlat, Mickael Hiligsmann, Mathias Haarhaus, Pieter Evenepoel, Hanne Skou Jørgensen, Markus Herrmann, Jean-Marc Kaufman, Patricia Clark, Şansın Tuzun, Nasser Al-Daghri, Stuart Silverman, Majed S. Alokail, Sif Ormarsdóttir, María Concepción Prieto Yerro, Radmila Matijević, Andrea Laslop, Mario Miguel Coelho da Silva Rosa, Leith Zakraoui, Nansa Burlet, Eugene McCloskey, Nicholas C. Harvey, Régis P. Radermecker, Maria Fusaro, Carla Torre, John A. Kanis, René Rizzoli, Jean-Yves Reginster, Konstantinos Makris, Etienne Cavalier. Update on the role of bone turnover markers in the diagnosis and management of osteoporosis: a consensus paper from ESCEO, IOF and IFCC. *Osteoporosis International*. 2025;36(4):579–608. DOI: https://doi.org/10.1007/s00198-025-07422-3
+
+10. European Thyroid Association. 2023 European Thyroid Association Clinical Practice Guidelines for thyroid nodule management. *European Thyroid Journal*. 2023. DOI: https://doi.org/10.1530/ETJ-23-0067
+
+11. International Osteoporosis Foundation i International Federation of Clinical Chemistry and Laboratory Medicine. IOF-IFCC Bone Marker Standards and reference marker recommendations. Materiały i aktualizacje: https://www.osteoporosis.foundation/health-professionals
+
+12. International Federation of Clinical Chemistry and Laboratory Medicine. Committee on Bone Metabolism. Informacje dotyczące standaryzacji markerów metabolizmu kostnego: https://www.ifcc.org/
+
+13. National Kidney Foundation. Chronic Kidney Disease–Mineral and Bone Disorder (CKD-MBD): materiały edukacyjne i odniesienia do zaleceń KDIGO. https://www.kidney.org/
+
+14. Medycyna Praktyczna. Pierwotna nadczynność przytarczyc – materiał edukacyjny dla pacjentów i lekarzy. https://www.mp.pl/pacjent/endokrynologia/choroby/168928
+
+15. National Institutes of Health, Office of Dietary Supplements. Vitamin D – Fact Sheet for Health Professionals. https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/
+
+16. Australian and New Zealand Bone and Mineral Society oraz Australasian Association of Clinical Biochemists. Materiały dotyczące oceny TmP/GFR i nerkowej gospodarki fosforanowej. https://www.anzbms.org.au/
+
+17. Global guidance for the recognition, diagnosis, and management of tumor-induced osteomalacia. *Journal of Internal Medicine*. DOI: https://doi.org/10.1111/joim.13593
+
+18. Interdisciplinary management of FGF23-related phosphate wasting syndromes: a consensus statement on the evaluation, diagnosis and care of patients with X-linked hypophosphataemia. *Nature Reviews Endocrinology*. DOI: https://doi.org/10.1038/s41574-022-00662-x
+
+19. Kidney Disease: Improving Global Outcomes. KDIGO CKD-MBD guideline and supporting materials. https://kdigo.org/guidelines/ckd-mbd/
+
+20. Bilezikian John P. i współautorzy. Aktualizacje i materiały Międzynarodowego Warsztatu dotyczącego pierwotnej nadczynności przytarczyc. Journal of Bone and Mineral Research; zasoby: https://www.asbmr.org/
+
+## 27. Wskazówki dla prowadzącego
+
+### 27.1. Proponowany przebieg zajęć
+
+1. **Wprowadzenie (15–20 min):** fizjologia PTH, witaminy D, FGF23 i kalcytoniny.
+2. **Interpretacja wapnia (20–30 min):** wapń całkowity, albumina, wapń zjonizowany, pH i ograniczenia wzorów korekcyjnych.
+3. **Profile hormonalne (30–40 min):** PTH przy hiperkalcemii i hipokalcemii; PHPT, FHH, wtórna i trzeciorzędowa HPT.
+4. **Fosforany i nerki (25–35 min):** FEPO4, TmP/GFR, FGF23, PChN i utrata nerkowa.
+5. **Markery kości (15–20 min):** ALP, BALP, P1NP, β-CTX-I i ograniczenia.
+6. **Przypadki kliniczne (30–45 min):** praca w małych grupach, uzasadnianie kolejnych kroków.
+7. **Test i podsumowanie (15–20 min):** omówienie błędów interpretacyjnych i bezpieczeństwa.
+
+### 27.2. Kryteria oceny umiejętności
+
+| Kryterium | Oczekiwane zachowanie |
+|---|---|
+| Dobór badań | Uzasadnia wybór parametrów na podstawie pytania klinicznego |
+| Interpretacja PTH | Odnosi wynik do równoczesnego stężenia wapnia |
+| Ocena wapnia | Rozróżnia wapń całkowity, skorygowany i zjonizowany |
+| Rozumowanie różnicowe | Rozdziela przyczyny zależne i niezależne od PTH |
+| Ocena fosforanów | Potrafi wskazać, kiedy rozważyć nerkową utratę |
+| Bezpieczeństwo | Rozpoznaje objawy alarmowe i właściwie eskaluje problem |
+| Dokumentacja | Oddziela wynik, hipotezę i decyzję terapeutyczną |
+| Granice kompetencji | Nie podejmuje decyzji wykraczających poza uprawnienia |
+
+### 27.3. Najczęstsze błędy dydaktyczne do omówienia
+
+- traktowanie prawidłowego zakresowo PTH jako zawsze prawidłowego;
+- automatyczne rozpoznawanie PHPT przy każdym wzroście PTH;
+- utożsamianie hipokalcemii całkowitej z hipokalcemią zjonizowaną;
+- używanie 1,25-(OH)2-D do oceny zwykłego niedoboru witaminy D;
+- nieuwzględnianie magnezu w hipokalcemii;
+- pomijanie wpływu PChN na PTH, fosforany i markery kostne;
+- traktowanie CCCR jako testu rozstrzygającego;
+- wykonywanie badań lokalizacyjnych przed biochemicznym potwierdzeniem PHPT;
+- uznawanie ALP całkowitej za swoistą dla kości;
+- interpretowanie markerów obrotu kostnego bez standaryzacji pobrania;
+- nieuwzględnianie wieku i fizjologii wzrastania u dzieci;
+- opóźnianie pilnej pomocy w ciężkich zaburzeniach wapnia.
+
+---
+
+**Zastrzeżenie aktualizacyjne:** wartości referencyjne, progi decyzyjne i algorytmy mogą różnić się między laboratoriami, metodami oraz grupami pacjentów. Przed zastosowaniem klinicznym należy sprawdzić aktualne wytyczne towarzystw naukowych, lokalne procedury i zakres kompetencji zawodowych. Materiał służy nauczaniu bezpiecznego rozumowania, a nie zastępowaniu indywidualnej decyzji klinicznej.
