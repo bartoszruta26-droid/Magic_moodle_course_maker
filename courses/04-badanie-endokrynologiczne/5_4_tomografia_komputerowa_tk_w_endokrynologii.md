@@ -732,7 +732,7 @@ W opisie powinny znaleźć się, jeśli są możliwe do oceny:
 
 ## 18. Algorytm podejmowania decyzji o TK
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A["Problem kliniczny lub wynik badania"] --> B["Czy istnieje uzasadnione pytanie obrazowe?"]
  B -->|Nie| C["Uzupełnij diagnostykę kliniczną i biochemiczną"]
@@ -745,7 +745,7 @@ flowchart TD
  I --> J["Opis radiologiczny i ocena ograniczeń"]
  J --> K["Korelacja z biochemią i obrazem klinicznym"]
  K --> L["Decyzja zespołu prowadzącego"]
-\`\`\`
+```
 
 ### 18.1. Zasada „najpierw pytanie, potem protokół”
 
