@@ -538,7 +538,7 @@ Poniższy schemat jest ramą organizacyjną dla przyłóżkowego badania czucia.
 
 ### Schemat ogólny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Ustalenie celu badania] --> B[Ocena gotowości i bezpieczeństwa]
     B --> C{Czy pacjent rozumie instrukcję?}
@@ -560,7 +560,7 @@ flowchart TD
     O -- Nie --> P[Zapis: wynik ograniczony lub nieocenialny]
     M --> Q[Dokumentacja i przekazanie wniosków]
     P --> Q
-\`\`\`
+```
 
 ---
 
@@ -1081,7 +1081,7 @@ W zapisie powinny znaleźć się:
 
 ## 22. Algorytm oceny jakości badania
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Pacjent gotowy do badania] --> B[Instrukcja i sposób odpowiedzi]
     B --> C{Zrozumienie potwierdzone?}
@@ -1102,7 +1102,7 @@ flowchart TD
     L --> O[Zestaw z wywiadem i pozostałym badaniem]
     F --> O
     O --> P[Dokumentacja, wnioski i ewentualne skierowanie]
-\`\`\`
+```
 
 ---
 
