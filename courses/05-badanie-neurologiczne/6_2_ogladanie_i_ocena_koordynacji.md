@@ -1113,9 +1113,8 @@ Poniższe pozycje obejmują konsensus kliniczny, badania walidacyjne skal, przeg
 11. Edlow Jonathan A., Hurwitz Sarah, Edlow Brian L. Diagnosis of DWI-negative acute ischemic stroke: A meta-analysis. *Neurology*. 2017;89(3):256–262. DOI: [10.1212/WNL.0000000000004120](https://doi.org/10.1212/WNL.0000000000004120). Źródło pomocne w zrozumieniu ograniczeń wczesnego obrazowania w wybranych udarach, zwłaszcza tylnego krążenia.
 12. Nouh Amre, Remke Jessica, Ruland Sean. Ischemic posterior circulation stroke: a review of anatomy, clinical presentations, diagnosis, and current management. *Frontiers in Neurology*. 2014;5:30. DOI: [10.3389/fneur.2014.00030](https://doi.org/10.3389/fneur.2014.00030).
 13. Roberts Leslie J., McVeigh Michael, Seiderer Linda, Harding Ian H., Corben Louise A., Delatycki Martin B., Szmulewicz David J. Overview of the Clinical Approach to Individuals With Cerebellar Ataxia and Neuropathy. *Neurology: Genetics*. 2022;8(5):e200021. DOI: [10.1212/NXG.0000000000200021](https://doi.org/10.1212/NXG.0000000000200021).
-14. Perez-Lloret Santiago, van de Warrenburg Bart, Rossi Malco, Rodríguez-Blázquez Carmen, Zesiewicz Theresa, Saute Jonas A. M., Durr Alexandra, Nishizawa Masatoyo, Martinez-Martin Pablo, Stebbins Glenn T., Schrag Anette, Skorvanek Matej, and members of the Movement Disorder Society Rating Scales Review Committee. Assessment of Ataxia Rating Scales and Cerebellar Functional Tests: Critique and Recommendations. *Movement Disorders*. 2021;36(2):283–297. DOI: [10.1002/mds.28313](https://doi.org/10.1002/mds.28313). Pozycja przywołana ponownie w kontekście ograniczeń narzędzi standaryzowanych; w wykazie bibliograficznym należy liczyć ją jako jedno źródło.
-15. National Institute for Health and Care Excellence. *Stroke and transient ischaemic attack in over 16s: diagnosis and initial management*. NICE guideline NG128. [Wytyczne](https://www.nice.org.uk/guidance/ng128).
-16. Canadian Stroke Best Practices. Stroke Awareness, Recognition, and Response. [Zalecenia dotyczące rozpoznawania i pilnej reakcji](https://www.strokebestpractices.ca/recommendations/acute-stroke-management/stroke-awareness-recognition-and-response).
+14. National Institute for Health and Care Excellence. *Stroke and transient ischaemic attack in over 16s: diagnosis and initial management*. NICE guideline NG128. [Wytyczne](https://www.nice.org.uk/guidance/ng128).
+15. Canadian Stroke Best Practices. Stroke Awareness, Recognition, and Response. [Zalecenia dotyczące rozpoznawania i pilnej reakcji](https://www.strokebestpractices.ca/recommendations/acute-stroke-management/stroke-awareness-recognition-and-response).
 
 ### Materiały edukacyjne i audiowizualne
 
@@ -1125,7 +1124,7 @@ Poniższe pozycje obejmują konsensus kliniczny, badania walidacyjne skal, przeg
 
 ### Uwagi do bibliografii
 
-Wykaz zawiera powtórne przywołanie publikacji Perez-Lloret i współautorów w celu wskazania jej znaczenia dla dwóch zagadnień. Jest to ta sama praca i nie należy liczyć jej jako odrębnego źródła. W praktycznej redakcji kursu bibliografię należy deduplikować, zachowując jedno pełne oznaczenie publikacji. Źródła internetowe należy sprawdzać pod kątem aktualizacji i dostępności.
+Każda publikacja została wymieniona w wykazie tylko raz. Źródła internetowe należy sprawdzać pod kątem aktualizacji i dostępności.
 
 ---
 
