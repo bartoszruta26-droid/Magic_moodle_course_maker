@@ -1343,9 +1343,9 @@ Cele powinny być funkcjonalne i mierzalne, na przykład:
 
 3. Haque S, Vaphiades MS, Lueck CJ. The Visual Agnosias and Related Disorders. *J Neuroophthalmol.* 2018;38(3):379–392. DOI: [10.1097/WNO.0000000000000556](https://doi.org/10.1097/WNO.0000000000000556).
 
-4. James TW, et al. Higher Cortical Visual Deficits. *Continuum (Minneap Minn).* Materiał przeglądowy dostępny w PubMed Central: [PMC10563980](https://pmc.ncbi.nlm.nih.gov/articles/PMC10563980/).
+4. Barton JJS. Higher Cortical Visual Deficits. *Continuum (Minneap Minn).* 2014;20(4, Neuro-ophthalmology):922–941. DOI: [10.1212/01.CON.0000453311.29519.67](https://doi.org/10.1212/01.CON.0000453311.29519.67). Pełny tekst: [PMC10563980](https://pmc.ncbi.nlm.nih.gov/articles/PMC10563980/).
 
-5. Cerebral Visual Loss. Przegląd kliniczny dostępny w PubMed Central: [PMC9795709](https://pmc.ncbi.nlm.nih.gov/articles/PMC9795709/).
+5. Barton JJS. Cerebral Visual Loss. *Ann Indian Acad Neurol.* 2022;25(Suppl 2):S106–S112. DOI: [10.4103/aian.aian_136_22](https://doi.org/10.4103/aian.aian_136_22). Pełny tekst: [PMC9795709](https://pmc.ncbi.nlm.nih.gov/articles/PMC9795709/).
 
 6. Balint Syndrome. *StatPearls [Internet].* NCBI Bookshelf: [NBK544347](https://www.ncbi.nlm.nih.gov/books/NBK544347/).
 
@@ -1359,9 +1359,9 @@ Cele powinny być funkcjonalne i mierzalne, na przykład:
 
 10. Vanbellingen T, et al. A new bedside test of gestures in stroke: the apraxia screen of TULIA (AST). *J Neurol Neurosurg Psychiatry.* 2011;82:389–392. DOI: [10.1136/jnnp.2010.213371](https://doi.org/10.1136/jnnp.2010.213371).
 
-11. Bieńkiewicz MMN, et al. Apraxia: Review and Update. *Front Neurol.* 2017. Pełny tekst: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5653618/).
+11. Park JE. Apraxia: Review and Update. *J Clin Neurol.* 2017;13(4):317–324. DOI: [10.3988/jcn.2017.13.4.317](https://doi.org/10.3988/jcn.2017.13.4.317). Pełny tekst: [PMC5653618](https://pmc.ncbi.nlm.nih.gov/articles/PMC5653618/).
 
-12. Goldenberg G. Apraxia: The Cognitive Side of Motor Control. *Oxford University Press.* Informacje o publikacji: [Oxford Academic](https://academic.oup.com/).
+12. Goldenberg G. *Apraxia: The Cognitive Side of Motor Control.* Oxford: Oxford University Press; 2013. ISBN 978-0-19-959151-0. [Opis wydawniczy](https://academic.oup.com/book/10634).
 
 13. Pantomime of tool use: looking beyond apraxia. *Brain Communications.* 2021;3(4):fcab263. DOI: [10.1093/braincomms/fcab263](https://doi.org/10.1093/braincomms/fcab263).
 
@@ -1373,9 +1373,9 @@ Cele powinny być funkcjonalne i mierzalne, na przykład:
 
 16. International multidisciplinary consensus recommendations for the screening and assessment of post-stroke spatial neglect using an online Delphi method. *Clinical Rehabilitation.* 2026. DOI: [10.1177/02692155261465653](https://doi.org/10.1177/02692155261465653).
 
-17. Chen P, Hreha K, Fortis P, Goedert KM, Barrett AM. Functional Assessment of Spatial Neglect: A Review of the Catherine Bergego Scale and an Introduction of the Kessler Foundation Neglect Assessment Process. Pełny tekst: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC3445290/).
+17. Chen P, Hreha K, Fortis P, Goedert KM, Barrett AM. Functional Assessment of Spatial Neglect: A Review of the Catherine Bergego Scale and an Introduction of the Kessler Foundation Neglect Assessment Process. *Top Stroke Rehabil.* 2012;19(5):423–435. DOI: [10.1310/tsr1905-423](https://doi.org/10.1310/tsr1905-423). Pełny tekst: [PMC3445290](https://pmc.ncbi.nlm.nih.gov/articles/PMC3445290/).
 
-18. Goedert KM, Chen P, Botticello A, et al. Conventional and Functional Assessment of Spatial Neglect: Clinical Practice Suggestions. Pełny tekst: [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6188804/).
+18. Pitteri M, Chen P, Passarini L, Albanese S, Meneghello F, Barrett AM. Conventional and Functional Assessment of Spatial Neglect: Clinical Practice Suggestions. *Neuropsychology.* 2018;32(7):835–842. DOI: [10.1037/neu0000469](https://doi.org/10.1037/neu0000469). Pełny tekst: [PMC6188804](https://pmc.ncbi.nlm.nih.gov/articles/PMC6188804/).
 
 19. Nishida D, Mizuno K, Tahara M, et al. Behavioral Assessment of Unilateral Spatial Neglect with the Catherine Bergego Scale Using the Kessler Foundation Neglect Assessment Process in Patients with Subacute Stroke during Rehabilitation in Japan. *Behavioural Neurology.* 2021;2021:8825192. DOI: [10.1155/2021/8825192](https://doi.org/10.1155/2021/8825192).
 
