@@ -588,7 +588,7 @@ Należy unikać określeń „urojone”, „wymyślone”, „udawane” i „p
 
 Poniższy schemat ma charakter dydaktyczny. Nie zastępuje oceny stanu nagłego ani pełnego badania neurologicznego.
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Pacjent zgłasza zaburzenia czucia"] --> B{"Nagły początek lub szybka progresja?"}
     B -->|Tak| C["Pilna ocena: udar, rdzeń, uraz, GBS, ucisk"]
@@ -611,7 +611,7 @@ flowchart TD
     L --> T["Pilne MRI rdzenia według wskazań"]
     M --> U["Pilne obrazowanie mózgu przy ostrym początku"]
     N --> V["Wyjaśnij rozpoznanie na podstawie dodatnich cech"]
-\`\`\`
+```
 
 ### 14.1. Reguła trzech zgodności
 
