@@ -350,6 +350,8 @@ W kategorii ognisk echogenicznych można sumować punkty za współistniejące r
 
 Próg oznacza maksymalny wymiar guzka, przy którym system zaleca rozważenie FNA lub kontroli. Nie jest to nakaz wykonania biopsji w oderwaniu od kontekstu. Węzły chłonne o podejrzanym obrazie, naciekanie pozatarczycowe, istotny wywiad rodzinny lub przebyta radioterapia mogą zmienić sposób postępowania.
 
+W klasycznym harmonogramie ACR TI-RADS kontrolne USG dla guzków spełniających kryterium obserwacji wykonuje się orientacyjnie: TR3 w 1., 3. i 5. roku; TR4 w 1., 2., 3. i 5. roku; TR5 co roku przez okres do 5 lat. Harmonogram należy stosować zgodnie z oryginalnym systemem i aktualną wersją zaleceń, z uwzględnieniem nowych objawów, zmian morfologii, wyników biopsji i indywidualnego ryzyka. Stabilność przez 5 lat może przemawiać za zakończeniem dalszej kontroli obrazowej w ramach ACR, ale nie znosi potrzeby ponownej oceny, jeśli pojawią się nowe wskazania kliniczne.
+
 ### 8.4. Przykład punktacji ACR
 
 Guzek lity, hipoechogeniczny, szerszy niż wyższy, o gładkich granicach, bez ognisk echogenicznych:
