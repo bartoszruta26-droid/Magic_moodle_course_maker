@@ -315,3 +315,227 @@ Wartość rutynowego oznaczania kalcytoniny u wszystkich osób z guzkami tarczyc
 
 Na stężenie kalcytoniny mogą wpływać m.in. metoda oznaczenia, palenie tytoniu, niewydolność nerek, leki zmniejszające kwaśność soku żołądkowego i inne czynniki. Wynik graniczny wymaga oceny laboratoryjnej i klinicznej, nie automatycznego rozpoznania nowotworu. Nie należy stosować kalcytoniny do rutynowego monitorowania osteoporozy ani jako zamiennika PTH.
 
+## 9. Wydalanie wapnia i fosforanów z moczem
+
+### 9.1. Wapń w moczu
+
+Wydalanie wapnia z moczem zależy od filtracji kłębuszkowej, zwrotnego wchłaniania w kanalikach, podaży wapnia i sodu, nawodnienia, witaminy D, PTH, leków oraz kompletności zbiórki.
+
+Oznaczenie dobowego wydalania wapnia może być przydatne:
+- w różnicowaniu PHPT i FHH;
+- przy kamicy nerkowej i hiperkalciurii;
+- w wybranych zaburzeniach metabolicznych kości;
+- w monitorowaniu wybranych pacjentów z przewlekłą niedoczynnością przytarczyc;
+- przy podejrzeniu nerkowej utraty wapnia.
+
+Wynik dobowej zbiórki należy ocenić razem z kreatyniną w moczu, masą ciała, płcią, dietą, sodem, funkcją nerek i przyjmowanymi lekami. Niekompletna zbiórka może istotnie zafałszować wynik.
+
+### 9.2. Wskaźnik klirensu wapniowo-kreatyninowego (CCCR)
+
+CCCR (calcium-to-creatinine clearance ratio) jest wskaźnikiem pomocniczym w różnicowaniu rodzinnej hipokalciurycznej hiperkalcemii (FHH) i pierwotnej nadczynności przytarczyc (PHPT).
+
+Wzór:
+
+**CCCR = (U-Ca × S-Cr) / (S-Ca × U-Cr)**
+
+gdzie:
+- U-Ca – stężenie wapnia w moczu;
+- S-Cr – stężenie kreatyniny w surowicy;
+- S-Ca – stężenie wapnia w surowicy;
+- U-Cr – stężenie kreatyniny w moczu.
+
+Jednostki należy dobrać tak, aby stężenia wapnia w surowicy i moczu były wyrażone w zgodnych jednostkach, a kreatynina w surowicy i moczu również w zgodnych jednostkach. W praktyce laboratorium lub zwalidowany kalkulator powinien potwierdzić sposób podstawienia danych. CCCR jest ilorazem bez jednostki.
+
+Orientacyjna interpretacja:
+- **<0,01:** zwiększa podejrzenie FHH;
+- **0,01–0,02:** strefa nakładania się wyników;
+- **>0,02:** częściej występuje w PHPT, ale nie stanowi samodzielnego potwierdzenia.
+
+Ważne ograniczenia:
+- CCCR ma ograniczoną czułość i swoistość; część chorych z PHPT ma wynik <0,01, a część pacjentów z FHH ma wynik wyższy.
+- Wskaźnik nie jest wiarygodnie zwalidowany w zaawansowanej niewydolności nerek, ciąży i niektórych innych stanach.
+- Niedobór witaminy D, mała podaż wapnia, tiazydy i lit mogą zmniejszać wydalanie wapnia.
+- W przypadku podejrzenia FHH należy zebrać wywiad rodzinny i przeanalizować wcześniejsze wyniki wapnia; w wybranych przypadkach rozważa się badanie genetyczne genów CASR, GNA11 i AP2S1.
+- Ujemny wynik badania genetycznego nie zawsze wyklucza FHH.
+
+Konsensus PARAT 2021 podkreśla ograniczoną czułość i swoistość progu CCCR <0,01 oraz wpływ PChN, niedoboru witaminy D, ciąży i tiazydów. Nie wolno podejmować decyzji o paratyreoidektomii wyłącznie na podstawie CCCR. Błędne rozpoznanie FHH jako PHPT może prowadzić do niepotrzebnego zabiegu.
+
+### 9.3. Wydalanie fosforanów
+
+W diagnostyce hipofosfatemii ocenia się, czy nerki prawidłowo oszczędzają fosforany. Przydatne są równoczesne oznaczenia fosforanów i kreatyniny w surowicy oraz moczu.
+
+Frakcyjne wydalanie fosforanów (FEPO4):
+
+**FEPO4 (%) = (U-P × S-Cr) / (S-P × U-Cr) × 100**
+
+gdzie U-P i S-P oznaczają odpowiednio fosforany w moczu i surowicy, a U-Cr i S-Cr – kreatyninę w moczu i surowicy.
+
+W warunkach hipofosfatemii prawidłowa odpowiedź nerek polega na ograniczeniu wydalania fosforanów. Utrzymujące się wydalanie mimo małego stężenia w surowicy sugeruje utratę nerkową. FEPO4 jest wskaźnikiem orientacyjnym i nie powinien być interpretowany w oderwaniu od filtracji kłębuszkowej, podaży fosforanów i warunków pobrania.
+
+### 9.4. TmP/GFR
+
+TmP/GFR (maksymalna zdolność zwrotnego wchłaniania fosforanów skorygowana względem filtracji kłębuszkowej) jest użyteczna w ocenie nerkowej gospodarki fosforanowej. Do obliczenia potrzebne są równoczesne próbki krwi i moczu, pobrane według ustalonego protokołu – często na czczo, z wykorzystaniem drugiej porannej próbki moczu. Stosuje się nomogramy lub zwalidowane algorytmy; wzór i zakres referencyjny zależą od metody.
+
+Obniżony TmP/GFR w hipofosfatemii wskazuje na nerkową utratę fosforanów. Jeżeli potwierdzono utratę nerkową, dalsze różnicowanie obejmuje m.in. PTH, FGF23, 25-OH-D, 1,25-(OH)2-D, funkcję kanalików proksymalnych, leki i choroby dziedziczne. W zaawansowanej PChN interpretacja wskaźników wydalania fosforanów jest utrudniona.
+
+## 10. Markery obrotu kostnego
+
+### 10.1. Podstawowe grupy markerów
+
+| Marker | Proces biologiczny | Przykładowe zastosowanie | Ważne ograniczenia |
+|---|---|---|---|
+| P1NP / PINP | Tworzenie kolagenu typu I, marker kościotworzenia | Monitorowanie odpowiedzi na wybrane terapie osteoporozy | Wynik zależny od metody; w zaawansowanej PChN może wzrastać z powodu retencji części form |
+| β-CTX-I | Resorpcja kolagenu typu I | Ocena zmian resorpcji, monitorowanie leczenia antyresorpcyjnego | Rytm dobowy, posiłek, funkcja nerek i warunki pobrania |
+| Kostna ALP (BALP) | Aktywność osteoblastów | Ocena tworzenia kości, wybrane sytuacje CKD-MBD | Może wzrastać w różnych chorobach przebudowy kostnej |
+| TRACP-5b | Aktywność osteoklastów | Wybrane sytuacje oceny resorpcji, w tym PChN | Dostępność i standaryzacja różnią się między laboratoriami |
+| Osteokalcyna | Białko związane z kościotworzeniem | Wybrane zastosowania badawcze i kliniczne | Zmienność i zależność od funkcji nerek oraz metody |
+
+### 10.2. Zasady wykorzystania markerów
+
+Markery obrotu kostnego:
+- nie zastępują densytometrii DXA;
+- nie rozpoznają samodzielnie osteoporozy;
+- nie mierzą bezpośrednio wytrzymałości kości;
+- mogą pomagać w monitorowaniu zmian biologicznych i przestrzegania leczenia;
+- wymagają porównywalnych warunków pobrania i tej samej metody, jeśli ocenia się trend.
+
+W przypadku β-CTX-I zaleca się zwrócić szczególną uwagę na porę pobrania i stan na czczo, ponieważ posiłek i rytm dobowy wpływają na wynik. W PChN standardowe markery mogą kumulować się wskutek ograniczonego wydalania; w zaawansowanej chorobie nerek większe znaczenie mogą mieć BALP, intact PINP i TRACP-5b, zależnie od dostępności i walidacji.
+
+Konsensus ESCEO/IOF/IFCC z 2025 r. podtrzymuje znaczenie PINP i β-CTX-I jako markerów referencyjnych w ocenie obrotu kostnego u osób z prawidłową funkcją nerek oraz wskazuje na potrzebę ostrożniejszej interpretacji w zaawansowanej PChN.
+
+## 11. Diagnostyka hiperkalcemii
+
+### 11.1. Pierwszy podział – zależność od PTH
+
+Po potwierdzeniu hiperkalcemii należy oznaczyć PTH w tym samym okresie diagnostycznym. Podział na hiperkalcemię zależną od PTH i niezależną od PTH jest podstawą dalszego postępowania.
+
+~~~mermaid
+flowchart TD
+    A[Potwierdzona hiperkalcemia] --> B[Oznacz PTH równocześnie z wapniem]
+    B --> C{PTH wysokie lub nieadekwatnie prawidłowe?}
+    C -->|Tak| D[PHPT, FHH, lit, tiazydy, rzadziej inne]
+    D --> E[Powtórz Ca/PTH, oceń 25-OH-D, eGFR, fosforany]
+    E --> F[Dobowe Ca w moczu i CCCR, wywiad rodzinny]
+    C -->|Nie, PTH zahamowane| G[Przyczyny niezależne od PTH]
+    G --> H[PTHrP, 25-OH-D, 1,25-OH2-D według wskazań]
+    H --> I[Ocena nowotworu, chorób ziarniniakowych, leków i innych przyczyn]
+~~~
+
+### 11.2. Hiperkalcemia zależna od PTH
+
+Najważniejsze możliwości:
+- pierwotna nadczynność przytarczyc;
+- rodzinna hipokalciuryczna hiperkalcemia;
+- wpływ litu i tiazydów;
+- trzeciorzędowa nadczynność przytarczyc w określonym kontekście przewlekłej stymulacji PTH;
+- rzadkie przyczyny.
+
+**Pierwotna nadczynność przytarczyc (PHPT)** jest rozpoznaniem biochemicznym. W typowej postaci stwierdza się podwyższony wapń skorygowany względem albuminy i podwyższone lub nieadekwatnie prawidłowe PTH, potwierdzone w powtórnych pomiarach. Piąty Międzynarodowy Warsztat zaleca potwierdzenie hiperkalcemicznej PHPT w co najmniej dwóch oznaczeniach oddzielonych co najmniej dwoma tygodniami, z uwzględnieniem kontekstu klinicznego.
+
+Ocena chorego po rozpoznaniu PHPT może obejmować:
+- wapń, albuminę, PTH i 25-OH-D;
+- fosforany, kreatyninę, eGFR lub klirens kreatyniny;
+- dobowe wydalanie wapnia i ocenę ryzyka kamicy;
+- badanie obrazowe nerek przy wskazaniach;
+- DXA kręgosłupa lędźwiowego, biodra i dalszej 1/3 kości promieniowej;
+- ocenę złamań kręgów, jeśli istnieją wskazania;
+- wywiad dotyczący kamicy, złamań, objawów i rodziny.
+
+**Ważne:** USG szyi, scyntygrafia przytarczyc i inne badania lokalizacyjne nie służą do potwierdzania samego rozpoznania PHPT. Wykonuje się je przede wszystkim wtedy, gdy rozważane jest leczenie operacyjne, aby zlokalizować nieprawidłową tkankę.
+
+### 11.3. Normokalcemiczna pierwotna nadczynność przytarczyc
+
+Można ją rozważać przy utrwalonym podwyższeniu PTH, prawidłowym wapniu całkowitym skorygowanym i prawidłowym wapniu zjonizowanym, potwierdzonych w powtarzanych badaniach przez okres co najmniej 3–6 miesięcy. Jest to rozpoznanie z wykluczenia.
+
+Przed jego postawieniem trzeba ocenić m.in.:
+- niedobór witaminy D;
+- niedostateczną podaż wapnia;
+- eGFR poniżej 60 ml/min/1,73 m²;
+- hiperkalciurię;
+- zaburzenia wchłaniania, w tym celiakię i choroby jelit;
+- leki, np. lit, diuretyki, leki przeciwresorpcyjne, inhibitory pompy protonowej i inne preparaty mogące wpływać na PTH.
+
+Pojedynczy podwyższony wynik PTH przy prawidłowym wapniu nie wystarcza do rozpoznania normokalcemicznej PHPT.
+
+### 11.4. Rodzinna hipokalciuryczna hiperkalcemia (FHH)
+
+FHH jest najczęściej łagodnym, dziedzicznym zaburzeniem regulacji CaSR, prowadzącym do przesunięcia punktu nastawczego dla wydzielania PTH i nerkowego wchłaniania wapnia. Typowo występuje łagodna, często wieloletnia hiperkalcemia, niekiedy z prawidłowym lub nieznacznie zwiększonym PTH i małym wydalaniem wapnia z moczem.
+
+W diagnostyce znaczenie mają:
+- wcześniejsze wyniki wapnia;
+- hiperkalcemia u krewnych;
+- CCCR;
+- funkcja nerek, witamina D, podaż wapnia i leki;
+- w wybranych sytuacjach badania genetyczne CASR, GNA11, AP2S1.
+
+CCCR <0,01 zwiększa podejrzenie FHH, lecz nie jest testem rozstrzygającym. Konsensus PARAT 2021 podkreśla ograniczoną czułość i swoistość tego progu oraz wpływ PChN, niedoboru witaminy D, ciąży i tiazydów. Decyzja o operacji nie może wynikać wyłącznie z niskiego CCCR.
+
+### 11.5. Hiperkalcemia niezależna od PTH
+
+Jeżeli PTH jest zahamowany, należy rozważyć m.in.:
+- hiperkalcemię związaną z nowotworem, w tym wydzielanie PTHrP;
+- osteolizę w przebiegu nowotworów;
+- nadmierne wytwarzanie 1,25-(OH)2-D w chorobach ziarniniakowych lub niektórych chłoniakach;
+- zatrucie witaminą D, oceniane głównie przez 25-OH-D;
+- zespół mleczno-alkaliczny i nadmierną podaż wapnia;
+- nadczynność tarczycy, niewydolność nadnerczy i inne przyczyny zależne od kontekstu;
+- unieruchomienie;
+- leki, w tym wybrane preparaty i suplementy.
+
+PTHrP nie jest badaniem przesiewowym w każdej hiperkalcemii. Należy je rozważyć, gdy obraz kliniczny i zahamowane PTH uzasadniają podejrzenie mechanizmu nowotworowego. Zakres dalszej diagnostyki zależy od wieku, objawów, badania fizykalnego i wcześniejszych rozpoznań.
+
+## 12. Diagnostyka hipokalcemii
+
+### 12.1. Potwierdzenie hipokalcemii
+
+Najpierw należy ustalić, czy obniżony wapń całkowity odzwierciedla rzeczywistą hipokalcemię. Przy hipoalbuminemii może występować pseudohipokalcemia, dlatego w niejasnych przypadkach należy ocenić wapń zjonizowany.
+
+Objawy hipokalcemii obejmują:
+- parestezje wokół ust i w palcach;
+- kurcze mięśni i bolesne skurcze;
+- tężyczkę;
+- objawy Chvostka i Trousseau, które nie są ani dostatecznie czułe, ani swoiste;
+- drgawki;
+- skurcz krtani;
+- wydłużenie odstępu QT i zaburzenia rytmu.
+
+Objawy ciężkie, drgawki, skurcz krtani, zaburzenia rytmu lub istotne obniżenie wapnia zjonizowanego wymagają pilnej oceny i postępowania w warunkach medycznych.
+
+### 12.2. Interpretacja PTH przy hipokalcemii
+
+| Wapń | PTH | Fosforany | Możliwy mechanizm |
+|---|---|---|---|
+| Niski | Niski lub nieadekwatnie prawidłowy | Często wysokie | Niedoczynność przytarczyc |
+| Niski | Wysoki | Niskie lub nisko-prawidłowe | Niedobór witaminy D, malabsorpcja, niedostateczna podaż wapnia |
+| Niski | Wysoki | Wysokie | PChN, oporność na PTH, wybrane zaburzenia aktywacji witaminy D |
+| Niski | Niski lub zmienny | Zmienne | Hipomagnezemia, zaburzenia pooperacyjne, wpływ leków lub innych czynników |
+
+### 12.3. Niedoczynność przytarczyc
+
+Niedoczynność przytarczyc (HypoPT) charakteryzuje się hipokalcemią i nieadekwatnie niskim stężeniem PTH. Często współistnieje hiperfosfatemia, ponieważ brak PTH zmniejsza wydalanie fosforanów przez nerki. Najczęstszą przyczyną u dorosłych jest uszkodzenie lub utrata funkcji przytarczyc po operacji szyi. Inne przyczyny obejmują choroby autoimmunologiczne, genetyczne, naciekowe i rzadziej polekowe.
+
+Diagnostyka obejmuje:
+- wapń całkowity z albuminą lub wapń zjonizowany;
+- PTH;
+- fosforany;
+- magnez;
+- kreatyninę i eGFR;
+- 25-OH-D;
+- dobowe wydalanie wapnia i kreatyniny w moczu;
+- w określonych sytuacjach obrazowanie nerek i ocenę powikłań.
+
+W przewlekłej niedoczynności przytarczyc ocenia się nie tylko wapń w surowicy, ale również ryzyko hiperkalciurii, kamicy, nefrokalcynozy i pogorszenia funkcji nerek. PTH nie jest zwykle parametrem służącym do rutynowego monitorowania skuteczności leczenia przewlekłej, potwierdzonej niedoczynności; ważniejsze są wapń, fosforany, magnez, funkcja nerek, 25-OH-D i wydalanie wapnia.
+
+### 12.4. Pseudohipoparatyreoidyzm i oporność na PTH
+
+Pseudohipoparatyreoidyzm (PHP) obejmuje zaburzenia odpowiedzi tkanek na PTH. Typowy profil biochemiczny to:
+- hipokalcemia;
+- hiperfosfatemia;
+- podwyższone PTH, ponieważ przytarczyce zachowują zdolność wydzielania hormonu, ale tkanki docelowe nie odpowiadają prawidłowo.
+
+Niektóre postacie są związane z cechami fenotypowymi, np. skróceniem kości śródręcza, niskim wzrostem lub innymi cechami oporności hormonalnej, lecz obraz kliniczny jest zmienny. Diagnostyka wymaga oceny specjalistycznej, a w wybranych przypadkach badań genetycznych i epigenetycznych. Nie należy utożsamiać PHP z niedoczynnością przytarczyc – mechanizm i profil PTH są odmienne.
+
+### 12.5. Znaczenie magnezu
+
+Ciężki niedobór magnezu może upośledzać wydzielanie PTH i powodować oporność obwodową na PTH. W takiej sytuacji hipokalcemia może utrzymywać się pomimo podawania wapnia i witaminy D. Właściwa ocena i korekta magnezu jest zatem istotnym elementem postępowania, ale sposób i tempo korekcji zależą od stanu klinicznego, funkcji nerek i nasilenia niedoboru.
+
