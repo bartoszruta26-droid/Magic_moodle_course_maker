@@ -96,7 +96,7 @@ Zmniejszanie szerokości podstawy podparcia zwiększa wymagania wobec kontroli p
 - **Niemiarodajna** – warunki lub współistniejące czynniki nie pozwalają wiarygodnie ocenić badanego zjawiska.
 - **Nieukończona** – pacjent nie wykonał całego zaplanowanego czasu lub wszystkich etapów.
 - **Przerwana ze względów bezpieczeństwa** – badający zakończył próbę, aby zapobiec upadkowi, urazowi lub pogorszeniu samopoczucia.
-- **Niewykonalna z przyczyn pozabalance'owych** – na przykład z powodu bólu, deformacji stóp, ograniczenia ruchomości, niedowładu albo niemożności przyjęcia wymaganej pozycji.
+- **Niewykonalna z przyczyn niezwiązanych bezpośrednio z równowagą** – na przykład z powodu bólu, deformacji stóp, ograniczenia ruchomości, niedowładu albo niemożności przyjęcia wymaganej pozycji.
 
 Nie należy wpisywać „wynik dodatni” zamiast opisu rzeczywistego powodu przerwania próby.
 
@@ -277,6 +277,25 @@ Próbę należy przerwać, gdy:
 ---
 
 ## 7. Ogólny protokół badania krok po kroku
+
+### Schemat decyzyjny dla próby Romberga
+
+Poniższy schemat porządkuje decyzję o przejściu do etapu z zamknięciem oczu. Nie zastępuje oceny klinicznej ani asekuracji.
+
+~~~mermaid
+flowchart TD
+    A[Ocena stanu wyjściowego] --> B{Stabilne stanie z oczami otwartymi?}
+    B -- Nie --> C[Nie wykonuj etapu z zamknięciem oczu]
+    C --> D[Opisz niestabilność i dobierz bezpieczniejszą ocenę]
+    B -- Tak --> E[Stopy złączone, oczy otwarte]
+    E --> F[Zapewnij bezpośrednią asekurację]
+    F --> G[Poproś o zamknięcie oczu]
+    G --> H{Wyraźne pogorszenie stabilności?}
+    H -- Tak --> I[Zakończ próbę i opisz wynik dodatni]
+    H -- Nie --> J[Zapisz brak istotnej zmiany w tym protokole]
+    I --> K[Zintegruj z czuciem i badaniem przedsionkowym]
+    J --> K
+~~~
 
 ### Krok 1. Określ pytanie kliniczne
 
@@ -1307,8 +1326,8 @@ W przypadku nagłej niestabilności, nowych objawów ogniskowych, zaburzeń świ
 12. Wrisley DM, Whitney SL. **The effect of foot position on the modified Clinical Test of Sensory Interaction and Balance.** Arch Phys Med Rehabil. 2004;85(2):335–338.  
     https://pubmed.ncbi.nlm.nih.gov/?term=Wrisley+Whitney+modified+Clinical+Test+Sensory+Interaction+Balance+foot+position
 
-13. Weber KP, MacDougall HG, Halmagyi GM, Curthoys IS. **The video head impulse test (vHIT).** In: relevant vestibular assessment literature; see also Petersen, Straumann and Weber, reference 7.  
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC3526948/
+13. Cohen HS. **Screening People on Standing Balance with Romberg Testing and Walking Balance with Tandem Walking.** J Vis Exp. 2023;(199):e65663.  
+    https://doi.org/10.3791/65663
 
 14. World Health Organization. **Step safely: strategies for preventing and managing falls across the life-course.** Geneva: WHO; 2021.  
     https://www.who.int/publications/i/item/978924002191-4
@@ -1319,8 +1338,8 @@ W przypadku nagłej niestabilności, nowych objawów ogniskowych, zaburzeń świ
 16. National Institute for Health and Care Excellence. **Stroke and transient ischaemic attack in over 16s: diagnosis and initial management. NICE guideline NG128.** London: NICE.  
     https://www.nice.org.uk/guidance/ng128
 
-17. American Academy of Neurology. **Evaluation of patients with dizziness and imbalance.** Clinical resources and practice guidance.  
-    https://www.aan.com/
+17. Shirley Ryan AbilityLab. **Modified Clinical Test of Sensory Interaction on Balance (mCTSIB).** Rehabilitation Measures Database.  
+    https://www.sralab.org/rehabilitation-measures/modified-clinical-test-sensory-interaction-balance
 
 18. National Institute on Aging. **Falls and fractures in older adults: causes and prevention.** Bethesda: National Institutes of Health.  
     https://www.nia.nih.gov/health/falls-and-falls-prevention
