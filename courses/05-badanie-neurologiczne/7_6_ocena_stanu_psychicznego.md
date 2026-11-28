@@ -1342,7 +1342,7 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, publikacji
 6. National Institute for Health and Care Excellence. **Delirium: prevention, diagnosis and management in hospital and long-term care. NICE guideline CG103.** 2010, aktualizacja 2023.  
    https://www.nice.org.uk/guidance/cg103
 
-7. Newman G, Levin M. **How To Assess Mental Status.** MSD Manual Professional Edition. Aktualizacja 2026.  
+7. Newman G. **How To Assess Mental Status.** MSD Manual Professional Edition. Aktualizacja 2026.  
    https://www.msdmanuals.com/professional/neurologic-disorders/neurologic-examination/how-to-assess-mental-status
 
 8. Merck Manual Professional Edition. **Initial Psychiatric Assessment.**  
