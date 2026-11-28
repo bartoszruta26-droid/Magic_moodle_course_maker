@@ -607,7 +607,7 @@ Odpowiedź odruchowa jest zmienna osobniczo. Zakres prawidłowy nie jest identyc
 
 ### 11.2. Wiarygodność między badającymi
 
-Badanie Litvan i współpracowników dotyczące skali NINDS wykazało znaczną do niemal doskonałej zgodność wewnątrzobserwatora oraz umiarkowaną do znaczącej zgodność między obserwatorami. Powtarzalność była lepsza dla odruchów kończyn dolnych niż górnych. Wynik ten wspiera stosowanie skali, ale nie oznacza, że ocena jest całkowicie obiektywna ani wolna od błędu.
+Badanie Litvan i współpracowników dotyczące skali NINDS wykazało znaczną do niemal doskonałej zgodność wewnątrzobserwatora oraz umiarkowaną do znaczącej zgodność między obserwatorami. Powtarzalność była lepsza dla odruchów kończyn dolnych niż górnych. Nie jest to jednak dowód pełnej obiektywności oceny. W badaniu Manschot i współpracowników zgodność między obserwatorami dla skal Mayo i NINDS nie przekraczała poziomu określanego jako słaby (najwyższa wartość kappa 0,35). W pracy Stam i van Crevel rozbieżności między badającymi obejmowały co najmniej dwa stopnie w 28% ocenianych odruchów, a rozpoznanie asymetrii różniło się między obserwatorami w 45% par odruchów. Wyniki tych badań nie muszą być sprzeczne: różniły się skalą, próbą, warunkami i sposobem oceny. Łącznie wskazują, że standaryzacja techniki, jawne określenie skali i opis słowny cech odpowiedzi są konieczne, a liczba bez komentarza może prowadzić do nieporozumień.
 
 ### 11.3. Ograniczenia skali porządkowej
 
@@ -1187,10 +1187,10 @@ Co powinno znaleźć się w dokumentacji klonusu?
    https://med.stanford.edu/stanfordmedicine25/the25.html
 
 9. Stam J, van Crevel H. Reliability of the clinical and electromyographic examination of tendon reflexes. *J Neurol*. 1990;237:427–431. Wskazanie bibliograficzne w korespondencji dotyczącej zgodności oceny odruchów.  
-   https://doi.org/10.1007/BF00314744
+   https://doi.org/10.1007/BF00314735
 
 10. Manschot S, van Passel L, Buskens E, Algra A, van Gijn J. Mayo and NINDS scales for assessment of tendon reflexes: between observer agreement and implications for communication. *J Neurol Neurosurg Psychiatry*. 1998;64(2):253–255.  
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC2170032/
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC2169960/
 
 11. DeMyer W. *Technique of the Neurologic Examination: A Programmed Text*. 5th ed. New York: McGraw-Hill; 2004.
 
