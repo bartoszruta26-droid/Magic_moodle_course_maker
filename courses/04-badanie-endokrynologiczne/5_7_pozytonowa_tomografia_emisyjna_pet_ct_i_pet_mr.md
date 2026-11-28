@@ -682,7 +682,7 @@ Leczenie może wpływać na metabolizm glukozy, ekspresję receptorów, aktywno�
 
 Poniższy schemat ma charakter dydaktyczny. Nie zastępuje indywidualnej kwalifikacji i lokalnych algorytmów.
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Pytanie kliniczne w endokrynologii"] --> B["Czy istnieje rozpoznanie lub uzasadnione podejrzenie NEN / PPGL / raka tarczycy?"]
     B -->|Nie| C["Rozważyć diagnostykę hormonalną i obrazowanie anatomiczne"]
@@ -699,7 +699,7 @@ flowchart TD
     J -->|Nie| L["Zintegrowana ocena stopnia zaawansowania i planu postępowania"]
     K --> L
     C --> L
-\`\`\`
+```
 
 ## 17. Przykłady kliniczne
 
