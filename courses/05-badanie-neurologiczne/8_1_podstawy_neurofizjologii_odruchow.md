@@ -1096,76 +1096,67 @@ Interpretacja kliniczna wymaga ostrożności. Odruch osłabiony może wskazywać
 
 ## 25. Bibliografia
 
-1. Knierim J. **Spinal Reflexes and Descending Motor Pathways.** Neuroscience Online: An Electronic Textbook for the Neurosciences. Department of Neurobiology and Anatomy, McGovern Medical School, The University of Texas Health Science Center at Houston. Ostatni przegląd: 7 lipca 2026 r.  
+1. Knierim James. **Spinal Reflexes and Descending Motor Pathways.** Neuroscience Online: An Electronic Textbook for the Neurosciences. Department of Neurobiology and Anatomy, McGovern Medical School, The University of Texas Health Science Center at Houston. Ostatni przegląd: 7 lipca 2026 r.  
    https://nba.uth.tmc.edu/neuroscience/m/s3/chapter02.html
 
-2. Purves D, Augustine GJ, Fitzpatrick D, Hall WC, LaMantia AS, McNamara JO, White LE, editors. **Neuroscience. 2nd ed.** Sunderland (MA): Sinauer Associates; 2001. Rozdział: The Spinal Cord Circuitry Underlying Muscle Stretch Reflexes.  
+2. Purves Dale, Augustine George J., Fitzpatrick David, Hall William C., LaMantia Anthony-Samuel, McNamara James O., White Leonard E., editors. **Neuroscience. 2nd ed.** Sunderland (MA): Sinauer Associates; 2001. Rozdział: The Spinal Cord Circuitry Underlying Muscle Stretch Reflexes.  
    https://www.ncbi.nlm.nih.gov/books/NBK10809/
 
-3. Rodriguez-Beato FY, De Jesus O. **Physiology, Deep Tendon Reflexes.** StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; aktualizacja 28 sierpnia 2023 r.  
+3. Rodriguez-Beato Freddie Y., De Jesus Orlando. **Physiology, Deep Tendon Reflexes.** StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; aktualizacja 28 sierpnia 2023 r.  
    https://www.ncbi.nlm.nih.gov/books/NBK562238/
 
-4. Santuz A, Akay T. **Muscle spindles and their role in maintaining robust locomotion.** J Physiol. 2023;601(2):275–285.  
+4. Santuz Alessandro, Akay Turgay. **Muscle spindles and their role in maintaining robust locomotion.** J Physiol. 2023;601(2):275–285.  
    https://doi.org/10.1113/JP282563
 
-5. Mukherjee A, Chakravarty A. **Spasticity Mechanisms – for the Clinician.** Front Neurol. 2010;1:149.  
+5. Mukherjee Angshuman, Chakravarty Ambar. **Spasticity Mechanisms – for the Clinician.** Front Neurol. 2010;1:149.  
    https://doi.org/10.3389/fneur.2010.00149
 
-6. McCall AA, Miller DM, Yates BJ. **Descending Influences on Vestibulospinal and Vestibulosympathetic Reflexes.** Front Neurol. 2017;8:112.  
+6. McCall Andrew A., Miller Derek M., Yates Bill J. **Descending Influences on Vestibulospinal and Vestibulosympathetic Reflexes.** Front Neurol. 2017;8:112.  
    https://doi.org/10.3389/fneur.2017.00112
 
-7. Fisher MA. **H reflexes and F waves. Fundamentals, normal and abnormal patterns.** Neurol Clin. 2002;20(2):339–360.  
+7. Fisher Morris A. **H reflexes and F waves. Fundamentals, normal and abnormal patterns.** Neurol Clin. 2002;20(2):339–360.  
    https://doi.org/10.1016/S0733-8619(01)00004-4
 
-8. Fisher MA. **AAEM Minimonograph #13: H reflexes and F waves: Physiology and clinical indications.** Muscle Nerve. 1992;15(11):1223–1233.  
+8. Fisher Morris A. **AAEM Minimonograph #13: H reflexes and F waves: Physiology and clinical indications.** Muscle Nerve. 1992;15(11):1223–1233.  
    https://doi.org/10.1002/mus.880151102
 
-9. Hallett M. **NINDS myotatic reflex scale.** Neurology. 1993;43(12):2723.  
+9. Hallett Mark. **NINDS myotatic reflex scale.** Neurology. 1993;43(12):2723.  
    https://pubmed.ncbi.nlm.nih.gov/7802740/
 
-10. Litvan I, Mangone CA, Werden W, Bueri JA, Estol CJ, Garcea DO, Rey RC, Sica RE, Hallett M, Bartko JJ. **Reliability of the NINDS Myotatic Reflex Scale.** Neurology. 1996;47(4):969–972.  
+10. Litvan I, Mangone C.A., Werden W., Bueri J.A., Estol C.J., Garcea D.O., Rey R.C., Sica R.E., Hallett M., Bartko J.J. **Reliability of the NINDS Myotatic Reflex Scale.** Neurology. 1996;47(4):969–972.  
     https://pubmed.ncbi.nlm.nih.gov/8857728/
 
-11. Burke D, Gandevia SC, McKeon B. **The afferent volleys responsible for spinal proprioceptive reflexes in man.** J Physiol. 1983;339:535–552.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=Burke+Gandevia+McKeon+afferent+volleys+spinal+proprioceptive+reflexes
+11. Burke David, Gandevia Simon C., McKeon Brian. **The afferent volleys responsible for spinal proprioceptive reflexes in man.** J Physiol. 1983;339:535–552.  
+    https://doi.org/10.1113/jphysiol.1983.sp014732
 
-12. Pierrot-Deseilligny E, Burke D. **The Circuitry of the Human Spinal Cord: Its Role in Motor Control and Movement Disorders.** Cambridge: Cambridge University Press; 2005.  
+12. Pierrot-Deseilligny E., Burke David. **The Circuitry of the Human Spinal Cord: Its Role in Motor Control and Movement Disorders.** Cambridge: Cambridge University Press; 2005.  
     https://doi.org/10.1017/CBO9780511545047
 
-13. Proske U, Gandevia SC. **The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force.** Physiol Rev. 2012;92(4):1651–1697.  
+13. Proske Uwe, Gandevia Simon C. **The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force.** Physiol Rev. 2012;92(4):1651–1697.  
     https://doi.org/10.1152/physrev.00048.2011
 
-14. Proske U, Gandevia SC. **The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force.** Physiol Rev. 2012;92(4):1651–1697. Rekord PubMed.  
-    https://pubmed.ncbi.nlm.nih.gov/23073629/
-
-15. Sherrington CS. **The Integrative Action of the Nervous System.** New Haven: Yale University Press; 1906. Klasyczne opracowanie integracji odruchowej.  
+14. Sherrington Charles Scott. **The Integrative Action of the Nervous System.** New Haven: Yale University Press; 1906. Klasyczne opracowanie integracji odruchowej.  
     https://archive.org/details/integrativeactio00sher
 
-16. Lance JW. **The control of muscle tone, reflexes, and movement: Robert Wartenberg Lecture.** Neurology. 1980;30(12):1303–1313.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=Lance+control+of+muscle+tone+reflexes+movement+1980
+15. Lance James W. **The control of muscle tone, reflexes, and movement: Robert Wartenberg Lecture.** Neurology. 1980;30(12):1303–1313.  
+    https://doi.org/10.1212/WNL.30.12.1303
 
-17. Matthews PBC. **Mammalian Muscle Receptors and Their Central Actions.** London: Edward Arnold; 1972. Klasyczna monografia dotycząca receptorów mięśniowych i ich połączeń ośrodkowych.
+16. Matthews Peter B.C. **Mammalian Muscle Receptors and Their Central Actions.** London: Edward Arnold; 1972. Monografia dotycząca receptorów mięśniowych i ich połączeń ośrodkowych.
 
-18. Banks RW. **The innervation of the muscle spindle: a personal history.** J Anat. 2015;227(2):115–135.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=Banks+innervation+muscle+spindle+personal+history+2015
+17. Banks Robert W. **The innervation of the muscle spindle: a personal history.** J Anat. 2015;227(2):115–135.  
+    https://doi.org/10.1111/joa.12297
 
-19. Santuz A, Akay T. **Muscle spindles and their role in maintaining robust locomotion.** Pełny tekst w PubMed Central.  
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC10483674/
+18. Burke David. **Clinical uses of H reflexes of upper and lower limb muscles.** Clin Neurophysiol Pract. 2016;1:9–17.  
+    https://doi.org/10.1016/j.cnp.2016.02.003
 
-20. McCall AA, Miller DM, Yates BJ. **Descending Influences on Vestibulospinal and Vestibulosympathetic Reflexes.** Pełny tekst w PubMed Central.  
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC5366978/
+19. Theodosiadou A., Henry M., Duchateau J., Baudry S. **Revisiting the use of Hoffmann reflex in motor control research on humans.** Eur J Appl Physiol. 2023;123(4):695–710.  
+    https://doi.org/10.1007/s00421-022-05119-7
 
-21. Rodriguez-Beato FY, De Jesus O. **Physiology, Deep Tendon Reflexes.** Pełny tekst w NCBI Bookshelf.  
-    https://www.ncbi.nlm.nih.gov/sites/books/NBK562238/
+20. Zehr E.P. **Considerations for use of the Hoffmann reflex in exercise studies.** Eur J Appl Physiol. 2002;86:455–468.  
+    https://doi.org/10.1007/s00421-002-0577-5
 
-22. The University of Texas Health Science Center at Houston. **Neuroscience Online – Motor Systems: Spinal Reflexes and Descending Motor Pathways.** Materiał dydaktyczny i interaktywne schematy.  
-    https://nba.uth.tmc.edu/neuroscience/m/s3/chapter02.html
-
-23. Fisher MA. **H reflexes and F waves. Fundamentals, normal and abnormal patterns.** Rekord bibliograficzny PubMed.  
-    https://pubmed.ncbi.nlm.nih.gov/12152439/
-
-24. National Library of Medicine. **Neuroscience. 2nd edition – The Spinal Cord Circuitry Underlying Muscle Stretch Reflexes.**  
-    https://www.ncbi.nlm.nih.gov/books/NBK10809/
+21. Stålberg Erik, van Dijk Hans, Falck Björn, Kimura Jun, Neuwirth Christian, Pitt Martin, Podnar Simon, Rubin Daniel I., Rutkove Steven, Sanders David B., Sonoo Masahiro, Tankisi Hülya, Zwarts Martin. **Standards for quantification of EMG and neurography.** Clin Neurophysiol. 2019;130(9):1688–1729.  
+    https://doi.org/10.1016/j.clinph.2019.05.008
 
 ### Uwagi dotyczące korzystania z bibliografii
 
