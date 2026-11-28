@@ -372,7 +372,7 @@ W polskim badaniu Magierskiej i współpracowników z 2012 r. zaproponowano okre
 
 ### 6.7. Prawa autorskie, szkolenie i wykorzystanie
 
-MoCA jest narzędziem chronionym. Oficjalna strona MoCA Cognition publikuje zasady użycia, szkolenia i certyfikacji. Według aktualnej strony uprawnień dostępnej w dniu 28 listopada 2026 r. szkolenie i certyfikacja są wymagane od osób, które chcą administrować, punktować lub interpretować test [20]. Warunki wykorzystania mogą zależeć od rodzaju działalności, finansowania i wersji produktu; przed wdrożeniem w placówce, kursie, publikacji lub oprogramowaniu trzeba sprawdzić bieżące warunki u właściciela praw. Nie wolno publikować pełnych arkuszy, instrukcji ani reprodukować zadań w materiałach dydaktycznych bez odpowiedniej podstawy prawnej.
+MoCA jest narzędziem chronionym. Oficjalna strona uprawnień MoCA Cognition nadal przedstawia wymóg szkolenia i certyfikacji w sposób szeroki. Należy jednak uwzględnić bardziej szczegółowe rozróżnienie w aktualnych Warunkach korzystania obowiązujących od 11 listopada 2026 r.: szkolenie i certyfikacja są opcjonalne dla pracownika ochrony zdrowia, który używa papierowej MoCA wyłącznie do wstępnej selekcji (triage), czyli do podjęcia decyzji o skierowaniu na dalszą ocenę na podstawie wyniku całkowitego i właściwego punktu odcięcia. Szkolenie i certyfikacja są wymagane, gdy użytkownik interpretuje wyniki, w tym wynik całkowity, zadania, podskale lub profile domenowe, z wyjątkiem sytuacji, gdy szkolenie nie jest jeszcze dostępne w danym języku [20]. W razie rozbieżności należy sprawdzić aktualne Warunki korzystania, instrukcję właściwej wersji i ewentualną odrębną umowę z właścicielem praw. Użycie poza standardową praktyką kliniczną, m.in. w badaniach sponsorowanych, programach komercyjnych, publikacjach, tłumaczeniach, adaptacjach lub oprogramowaniu, może wymagać odrębnej pisemnej zgody albo licencji. Nie wolno publikować pełnych arkuszy, instrukcji ani reprodukować zadań w materiałach dydaktycznych bez odpowiedniej podstawy prawnej.
 
 ---
 
@@ -588,7 +588,7 @@ Punktowanie zgodne z oficjalnym przewodnikiem przedstawia się następująco:
 | Uwaga – próba rozpoczęta, ale nieosiągająca kryterium lub odmowa | 1 |
 | Uwaga – brak możliwości rozpoczęcia z powodu stanu pacjenta | 2 |
 | Brak dowodów ostrej zmiany lub fluktuacji | 0 |
-| Obecna ostra zmiana lub fluktuacja | 4 |
+| Ostra zmiana lub fluktuacja w przebiegu ostatnich 2 tygodni, nadal obecna w ostatnich 24 godzinach | 4 |
 
 Szczegóły sformułowania poleceń, dopuszczalnych podpowiedzi i punktowania należy każdorazowo sprawdzić w aktualnym polskim formularzu i oficjalnym przewodniku. Tabela przedstawia strukturę punktacji, a nie zastępuje formularza.
 
