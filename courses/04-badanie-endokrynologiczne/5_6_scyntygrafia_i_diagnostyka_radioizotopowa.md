@@ -26,15 +26,15 @@ Po ukończeniu rozdziału uczestnik powinien:
 5. Wskazać typowe wskazania do scyntygrafii tarczycy i testu wychwytu radiojodu, z uwzględnieniem stężenia TSH, tyreotoksykozy, guzków autonomicznych i tkanki ektopowej.
 6. Zinterpretować podstawowe wzorce rozmieszczenia znacznika w chorobie Gravesa-Basedowa, autonomicznym guzku toksycznym, wolu wieloguzkowym toksycznym, zapaleniu tarczycy i tyreotoksykozie egzogennej.
 7. Wyjaśnić, dlaczego wynik „gorącego” lub „zimnego” guzka nie jest samodzielnym rozpoznaniem histopatologicznym i wymaga korelacji z USG oraz obrazem klinicznym.
-7. Wyjaśnić rolę 99mTc-sestamibi, obrazowania dwufazowego, metod odejmowania znaczników oraz SPECT/CT w przedoperacyjnej lokalizacji nadczynnej tkanki przytarczyc.
-8. Odróżnić potwierdzenie biochemiczne nadczynności przytarczyc od lokalizacji zmiany przed planowanym leczeniem operacyjnym.
-9. Opisać zastosowanie scyntygrafii receptorów somatostatynowych z 111In-pentetreotydem i wskazać, dlaczego PET z analogami somatostatyny znakowanymi 68Ga lub 64Cu jest obecnie preferowane, gdy jest dostępne i właściwe klinicznie.
-10. Omówić wybrane wskazania do 123I-MIBG w obrazowaniu guzów chromochłonnych i przyzwojaków oraz ograniczenia tej metody.
-11. Zebrać dane o lekach, suplementach, podaży jodu, wcześniejszym kontraście jodowym, amiodaronie, ciąży i laktacji przed badaniem.
-12. Wyjaśnić zasady uzasadnienia i optymalizacji ekspozycji, ochrony pacjenta, personelu i osób z otoczenia.
-13. Rozpoznać artefakty i czynniki powodujące wyniki fałszywie dodatnie lub fałszywie ujemne.
-14. Przygotować kompletne skierowanie i uporządkowany opis danych klinicznych potrzebnych pracowni medycyny nuklearnej.
-15. Rozpoznać sytuacje wymagające pilnego kontaktu z lekarzem kierującym lub lekarzem medycyny nuklearnej.
+8. Wyjaśnić rolę 99mTc-sestamibi, obrazowania dwufazowego, metod odejmowania znaczników oraz SPECT/CT w przedoperacyjnej lokalizacji nadczynnej tkanki przytarczyc.
+9. Odróżnić potwierdzenie biochemiczne nadczynności przytarczyc od lokalizacji zmiany przed planowanym leczeniem operacyjnym.
+10. Opisać zastosowanie scyntygrafii receptorów somatostatynowych z 111In-pentetreotydem i wskazać, dlaczego PET z analogami somatostatyny znakowanymi 68Ga lub 64Cu jest obecnie preferowane, gdy jest dostępne i właściwe klinicznie.
+11. Omówić wybrane wskazania do 123I-MIBG w obrazowaniu guzów chromochłonnych i przyzwojaków oraz ograniczenia tej metody.
+12. Zebrać dane o lekach, suplementach, podaży jodu, wcześniejszym kontraście jodowym, amiodaronie, ciąży i laktacji przed badaniem.
+13. Wyjaśnić zasady uzasadnienia i optymalizacji ekspozycji, ochrony pacjenta, personelu i osób z otoczenia.
+14. Rozpoznać artefakty i czynniki powodujące wyniki fałszywie dodatnie lub fałszywie ujemne.
+15. Przygotować kompletne skierowanie i uporządkowany opis danych klinicznych potrzebnych pracowni medycyny nuklearnej.
+16. Rozpoznać sytuacje wymagające pilnego kontaktu z lekarzem kierującym lub lekarzem medycyny nuklearnej.
 
 ### 1.3. Zakres kompetencji
 
@@ -175,11 +175,11 @@ Typowe badanie obejmuje następujące etapy:
 5. Kontrolę jakości i identyfikację radiofarmaceutyku.
 6. Podanie radiofarmaceutyku przez uprawniony personel.
 7. Odczekanie czasu potrzebnego do uzyskania odpowiedniego rozmieszczenia znacznika.
-7. Akwizycję obrazów planarnych, SPECT lub SPECT/CT.
-8. Kontrolę jakości obrazu i ewentualne uzupełnienie akwizycji.
-9. Interpretację przez uprawnionego lekarza medycyny nuklearnej.
-10. Sporządzenie opisu i przekazanie wyniku.
-11. Udzielenie pacjentowi indywidualnych zaleceń po badaniu.
+8. Akwizycję obrazów planarnych, SPECT lub SPECT/CT.
+9. Kontrolę jakości obrazu i ewentualne uzupełnienie akwizycji.
+10. Interpretację przez uprawnionego lekarza medycyny nuklearnej.
+11. Sporządzenie opisu i przekazanie wyniku.
+12. Udzielenie pacjentowi indywidualnych zaleceń po badaniu.
 
 ### 4.2. Dane kliniczne niezbędne do prawidłowej interpretacji
 
@@ -819,11 +819,11 @@ Opis badania powinien zawierać:
 5. Zakres i rodzaj akwizycji: planarnej, SPECT, SPECT/CT.
 6. Ocenę jakości technicznej.
 7. Opis biodystybucji i rozmieszczenia znacznika.
-7. Lokalizację ognisk nieprawidłowego wychwytu.
-8. Porównanie z wcześniejszymi badaniami, jeśli są dostępne.
-9. Wnioski odnoszące się do pytania klinicznego.
-10. Ograniczenia badania.
-11. Wskazanie, czy potrzebna jest korelacja z inną metodą.
+8. Lokalizację ognisk nieprawidłowego wychwytu.
+9. Porównanie z wcześniejszymi badaniami, jeśli są dostępne.
+10. Wnioski odnoszące się do pytania klinicznego.
+11. Ograniczenia badania.
+12. Wskazanie, czy potrzebna jest korelacja z inną metodą.
 
 ### 13.2. Przykładowe sformułowania
 
@@ -881,7 +881,7 @@ flowchart TD
 
 ### 14.2. Uproszczony algorytm lokalizacji nadczynnej przytarczycy
 
-```@mermaid
+```mermaid
 flowchart TD
     A[Hiperkalcemia lub nieprawidłowy PTH] --> B[Potwierdzenie rozpoznania biochemicznego]
     B --> C[Ocena przyczyn wtórnych i różnicowych]
@@ -898,7 +898,7 @@ flowchart TD
 
 ### 14.3. Uproszczony algorytm obrazowania NET
 
-```@mermaid
+```mermaid
 flowchart TD
     A[Podejrzenie lub rozpoznanie NET] --> B[Histopatologia, Ki-67 i stopień zróżnicowania]
     B --> C[TK/MRI i ocena kliniczna]
@@ -1081,19 +1081,19 @@ W opisie badania zapisano: „zimny guzek, prawdopodobnie rak tarczycy”.
 5. Dlaczego wychwyt pertechnetatu nie jest równoważny RAIU?
 6. Jak wygląda typowy wzorzec scyntygraficzny choroby Gravesa-Basedowa?
 7. Co oznacza autonomiczny guzek tarczycy?
-7. Jakie przyczyny mogą powodować niski wychwyt w tyreotoksykozie?
-8. Dlaczego amiodaron i kontrast jodowy mogą utrudniać interpretację?
-9. Dlaczego guzek zimny nie oznacza automatycznie raka?
-10. Na czym polega dwufazowa scyntygrafia przytarczyc z 99mTc-sestamibi?
-11. Jakie są zalety SPECT/CT w lokalizacji przytarczyc?
-12. Dlaczego ujemny wynik sestamibi nie wyklucza nadczynności przytarczyc?
-13. Jakie zmiany tarczycy mogą powodować fałszywie dodatni wychwyt sestamibi?
-14. Co obrazuje 111In-pentetreotyd?
-15. Dlaczego PET z analogami somatostatyny często zastępuje klasyczną scyntygrafię SSTR?
-16. Jak stopień zróżnicowania NET wpływa na wybór obrazowania receptorowego?
-17. Czym różni się 123I-MIBG diagnostyczny od 131I-MIBG terapeutycznego?
-18. Jakie informacje należy zebrać przed badaniem u kobiety karmiącej piersią?
-19. Jakie są podstawowe zasady uzasadnienia i optymalizacji ekspozycji medycznej?
+8. Jakie przyczyny mogą powodować niski wychwyt w tyreotoksykozie?
+9. Dlaczego amiodaron i kontrast jodowy mogą utrudniać interpretację?
+10. Dlaczego guzek zimny nie oznacza automatycznie raka?
+11. Na czym polega dwufazowa scyntygrafia przytarczyc z 99mTc-sestamibi?
+12. Jakie są zalety SPECT/CT w lokalizacji przytarczyc?
+13. Dlaczego ujemny wynik sestamibi nie wyklucza nadczynności przytarczyc?
+14. Jakie zmiany tarczycy mogą powodować fałszywie dodatni wychwyt sestamibi?
+15. Co obrazuje 111In-pentetreotyd?
+16. Dlaczego PET z analogami somatostatyny często zastępuje klasyczną scyntygrafię SSTR?
+17. Jak stopień zróżnicowania NET wpływa na wybór obrazowania receptorowego?
+18. Czym różni się 123I-MIBG diagnostyczny od 131I-MIBG terapeutycznego?
+19. Jakie informacje należy zebrać przed badaniem u kobiety karmiącej piersią?
+20. Jakie są podstawowe zasady uzasadnienia i optymalizacji ekspozycji medycznej?
 
 ## 18. Test sprawdzający
 
@@ -1426,13 +1426,13 @@ Progi są propozycją dydaktyczną, a nie formalnym standardem certyfikacji.
 5. Niski wychwyt wymaga uwzględnienia zapalenia, tyreotoksykozy egzogennej, nadmiaru jodu, amiodaronu i leczenia.
 6. Guzek zimny nie jest rozpoznaniem raka, a guzek gorący nie jest absolutną gwarancją łagodności.
 7. 99mTc-sestamibi służy przede wszystkim do lokalizacji nadczynnej tkanki przytarczyc po ustaleniu rozpoznania biochemicznego.
-7. Wynik ujemny sestamibi nie wyklucza nadczynności przytarczyc.
-8. Klasyczna scyntygrafia SSTR ma obecnie ograniczoną rolę tam, gdzie dostępne jest właściwe PET receptorowe.
-9. MIBG jest metodą selektywną, a jej przydatność zależy od biologii i genotypu PPGL.
-10. Leki, jod, kontrast, ciąża i laktacja muszą być ocenione przed badaniem.
-11. Każde badanie z użyciem promieniowania jonizującego wymaga uzasadnienia i optymalizacji.
-12. Wynik scyntygrafii należy interpretować w korelacji z biochemią, USG, TK/MRI, histopatologią i przebiegiem klinicznym.
-13. Decyzje dotyczące radiofarmaceutyków i ochrony radiologicznej należą do uprawnionego zespołu.
+8. Wynik ujemny sestamibi nie wyklucza nadczynności przytarczyc.
+9. Klasyczna scyntygrafia SSTR ma obecnie ograniczoną rolę tam, gdzie dostępne jest właściwe PET receptorowe.
+10. MIBG jest metodą selektywną, a jej przydatność zależy od biologii i genotypu PPGL.
+11. Leki, jod, kontrast, ciąża i laktacja muszą być ocenione przed badaniem.
+12. Każde badanie z użyciem promieniowania jonizującego wymaga uzasadnienia i optymalizacji.
+13. Wynik scyntygrafii należy interpretować w korelacji z biochemią, USG, TK/MRI, histopatologią i przebiegiem klinicznym.
+14. Decyzje dotyczące radiofarmaceutyków i ochrony radiologicznej należą do uprawnionego zespołu.
 
 ## 23. Bibliografia i źródła do dalszej nauki
 
