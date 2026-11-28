@@ -21,20 +21,20 @@ Po ukończeniu rozdziału uczestnik powinien:
 
 1. Wyjaśnić różnicę między obrazowaniem anatomicznym, czynnościowym i molekularnym oraz wskazać, jakie informacje wnosi scyntygrafia.
 2. Zdefiniować radiofarmaceutyk, radionuklid, aktywność, okres półtrwania fizycznego, biologicznego i efektywnego oraz dawkę pochłoniętą i skuteczną.
-3. Opisać podstawy rejestracji obrazu planarnnego, SPECT i SPECT/CT oraz znaczenie korekcji osłabienia i lokalizacji anatomicznej.
+3. Opisać podstawy rejestracji obrazu planarnego, SPECT i SPECT/CT oraz znaczenie korekcji osłabienia i lokalizacji anatomicznej.
 4. Rozróżnić właściwości 99mTc-pertechnetatu, 123I-jodku sodu i 131I-jodku sodu w obrazowaniu tarczycy.
 5. Wskazać typowe wskazania do scyntygrafii tarczycy i testu wychwytu radiojodu, z uwzględnieniem stężenia TSH, tyreotoksykozy, guzków autonomicznych i tkanki ektopowej.
 6. Zinterpretować podstawowe wzorce rozmieszczenia znacznika w chorobie Gravesa-Basedowa, autonomicznym guzku toksycznym, wolu wieloguzkowym toksycznym, zapaleniu tarczycy i tyreotoksykozie egzogennej.
 7. Wyjaśnić, dlaczego wynik „gorącego” lub „zimnego” guzka nie jest samodzielnym rozpoznaniem histopatologicznym i wymaga korelacji z USG oraz obrazem klinicznym.
-8. Wyjaśnić rolę 99mTc-sestamibi, obrazowania dwufazowego, metod odejmowania znaczników oraz SPECT/CT w przedoperacyjnej lokalizacji nadczynnej tkanki przytarczyc.
-9. Odróżnić potwierdzenie biochemiczne nadczynności przytarczyc od lokalizacji zmiany przed planowanym leczeniem operacyjnym.
-10. Opisać zastosowanie scyntygrafii receptorów somatostatynowych z 111In-pentetreotydem i wskazać, dlaczego PET z analogami somatostatyny znakowanymi 68Ga lub 64Cu jest obecnie preferowane, gdy jest dostępne i właściwe klinicznie.
-11. Omówić wybrane wskazania do 123I-MIBG w obrazowaniu guzów chromochłonnych i przyzwojaków oraz ograniczenia tej metody.
-12. Zebrać dane o lekach, suplementach, podaży jodu, wcześniejszym kontraście jodowym, amiodaronie, ciąży i laktacji przed badaniem.
-13. Wyjaśnić zasady uzasadnienia i optymalizacji ekspozycji, ochrony pacjenta, personelu i osób z otoczenia.
-14. Rozpoznać artefakty i czynniki powodujące wyniki fałszywie dodatnie lub fałszywie ujemne.
-15. Przygotować kompletne skierowanie i uporządkowany opis danych klinicznych potrzebnych pracowni medycyny nuklearnej.
-16. Rozpoznać sytuacje wymagające pilnego kontaktu z lekarzem kierującym lub lekarzem medycyny nuklearnej.
+7. Wyjaśnić rolę 99mTc-sestamibi, obrazowania dwufazowego, metod odejmowania znaczników oraz SPECT/CT w przedoperacyjnej lokalizacji nadczynnej tkanki przytarczyc.
+8. Odróżnić potwierdzenie biochemiczne nadczynności przytarczyc od lokalizacji zmiany przed planowanym leczeniem operacyjnym.
+9. Opisać zastosowanie scyntygrafii receptorów somatostatynowych z 111In-pentetreotydem i wskazać, dlaczego PET z analogami somatostatyny znakowanymi 68Ga lub 64Cu jest obecnie preferowane, gdy jest dostępne i właściwe klinicznie.
+10. Omówić wybrane wskazania do 123I-MIBG w obrazowaniu guzów chromochłonnych i przyzwojaków oraz ograniczenia tej metody.
+11. Zebrać dane o lekach, suplementach, podaży jodu, wcześniejszym kontraście jodowym, amiodaronie, ciąży i laktacji przed badaniem.
+12. Wyjaśnić zasady uzasadnienia i optymalizacji ekspozycji, ochrony pacjenta, personelu i osób z otoczenia.
+13. Rozpoznać artefakty i czynniki powodujące wyniki fałszywie dodatnie lub fałszywie ujemne.
+14. Przygotować kompletne skierowanie i uporządkowany opis danych klinicznych potrzebnych pracowni medycyny nuklearnej.
+15. Rozpoznać sytuacje wymagające pilnego kontaktu z lekarzem kierującym lub lekarzem medycyny nuklearnej.
 
 ### 1.3. Zakres kompetencji
 
@@ -123,7 +123,7 @@ Wyróżnia się:
 Dla procesów pierwszego rzędu zależność można zapisać:
 
 $$
-\\frac{1}{T_{ef}}=\\frac{1}{T_{fiz}}+\\frac{1}{T_{bio}}
+\frac{1}{T_{ef}}=\frac{1}{T_{fiz}}+\frac{1}{T_{bio}}
 $$
 
 Wartość ta jest uproszczeniem modelowym i nie oznacza, że wszystkie tkanki lub radiofarmaceutyki zachowują się jednorodnie.
@@ -175,11 +175,11 @@ Typowe badanie obejmuje następujące etapy:
 5. Kontrolę jakości i identyfikację radiofarmaceutyku.
 6. Podanie radiofarmaceutyku przez uprawniony personel.
 7. Odczekanie czasu potrzebnego do uzyskania odpowiedniego rozmieszczenia znacznika.
-8. Akwizycję obrazów planarnych, SPECT lub SPECT/CT.
-9. Kontrolę jakości obrazu i ewentualne uzupełnienie akwizycji.
-10. Interpretację przez uprawnionego lekarza medycyny nuklearnej.
-11. Sporządzenie opisu i przekazanie wyniku.
-12. Udzielenie pacjentowi indywidualnych zaleceń po badaniu.
+7. Akwizycję obrazów planarnych, SPECT lub SPECT/CT.
+8. Kontrolę jakości obrazu i ewentualne uzupełnienie akwizycji.
+9. Interpretację przez uprawnionego lekarza medycyny nuklearnej.
+10. Sporządzenie opisu i przekazanie wyniku.
+11. Udzielenie pacjentowi indywidualnych zaleceń po badaniu.
 
 ### 4.2. Dane kliniczne niezbędne do prawidłowej interpretacji
 
@@ -262,9 +262,9 @@ W uproszczeniu pomiar można przedstawić jako:
 
 $$
 RAIU(t)=
-\\frac{C_{szyja}(t)-C_{tło}(t)}
+\frac{C_{szyja}(t)-C_{tło}(t)}
 {C_{wzorzec}(t)-C_{tło,wzorzec}(t)}
-\\times 100\\%
+\times 100\%
 $$
 
 gdzie:
@@ -819,11 +819,11 @@ Opis badania powinien zawierać:
 5. Zakres i rodzaj akwizycji: planarnej, SPECT, SPECT/CT.
 6. Ocenę jakości technicznej.
 7. Opis biodystybucji i rozmieszczenia znacznika.
-8. Lokalizację ognisk nieprawidłowego wychwytu.
-9. Porównanie z wcześniejszymi badaniami, jeśli są dostępne.
-10. Wnioski odnoszące się do pytania klinicznego.
-11. Ograniczenia badania.
-12. Wskazanie, czy potrzebna jest korelacja z inną metodą.
+7. Lokalizację ognisk nieprawidłowego wychwytu.
+8. Porównanie z wcześniejszymi badaniami, jeśli są dostępne.
+9. Wnioski odnoszące się do pytania klinicznego.
+10. Ograniczenia badania.
+11. Wskazanie, czy potrzebna jest korelacja z inną metodą.
 
 ### 13.2. Przykładowe sformułowania
 
@@ -1081,19 +1081,19 @@ W opisie badania zapisano: „zimny guzek, prawdopodobnie rak tarczycy”.
 5. Dlaczego wychwyt pertechnetatu nie jest równoważny RAIU?
 6. Jak wygląda typowy wzorzec scyntygraficzny choroby Gravesa-Basedowa?
 7. Co oznacza autonomiczny guzek tarczycy?
-8. Jakie przyczyny mogą powodować niski wychwyt w tyreotoksykozie?
-9. Dlaczego amiodaron i kontrast jodowy mogą utrudniać interpretację?
-10. Dlaczego guzek zimny nie oznacza automatycznie raka?
-11. Na czym polega dwufazowa scyntygrafia przytarczyc z 99mTc-sestamibi?
-12. Jakie są zalety SPECT/CT w lokalizacji przytarczyc?
-13. Dlaczego ujemny wynik sestamibi nie wyklucza nadczynności przytarczyc?
-14. Jakie zmiany tarczycy mogą powodować fałszywie dodatni wychwyt sestamibi?
-15. Co obrazuje 111In-pentetreotyd?
-16. Dlaczego PET z analogami somatostatyny często zastępuje klasyczną scyntygrafię SSTR?
-17. Jak stopień zróżnicowania NET wpływa na wybór obrazowania receptorowego?
-18. Czym różni się 123I-MIBG diagnostyczny od 131I-MIBG terapeutycznego?
-19. Jakie informacje należy zebrać przed badaniem u kobiety karmiącej piersią?
-20. Jakie są podstawowe zasady uzasadnienia i optymalizacji ekspozycji medycznej?
+7. Jakie przyczyny mogą powodować niski wychwyt w tyreotoksykozie?
+8. Dlaczego amiodaron i kontrast jodowy mogą utrudniać interpretację?
+9. Dlaczego guzek zimny nie oznacza automatycznie raka?
+10. Na czym polega dwufazowa scyntygrafia przytarczyc z 99mTc-sestamibi?
+11. Jakie są zalety SPECT/CT w lokalizacji przytarczyc?
+12. Dlaczego ujemny wynik sestamibi nie wyklucza nadczynności przytarczyc?
+13. Jakie zmiany tarczycy mogą powodować fałszywie dodatni wychwyt sestamibi?
+14. Co obrazuje 111In-pentetreotyd?
+15. Dlaczego PET z analogami somatostatyny często zastępuje klasyczną scyntygrafię SSTR?
+16. Jak stopień zróżnicowania NET wpływa na wybór obrazowania receptorowego?
+17. Czym różni się 123I-MIBG diagnostyczny od 131I-MIBG terapeutycznego?
+18. Jakie informacje należy zebrać przed badaniem u kobiety karmiącej piersią?
+19. Jakie są podstawowe zasady uzasadnienia i optymalizacji ekspozycji medycznej?
 
 ## 18. Test sprawdzający
 
@@ -1279,7 +1279,7 @@ D. Oznacza brak przerzutów
 
 123I-MIBG jest:
 
-A. Analogue noradrenaliny używanym w wybranych wskazaniach PPGL  
+A. Analog noradrenaliny używanym w wybranych wskazaniach PPGL  
 B. Standardowym znacznikiem wszystkich guzków tarczycy  
 C. Radiofarmaceutykiem do pomiaru PTH  
 D. Środkiem kontrastowym MRI
@@ -1426,13 +1426,13 @@ Progi są propozycją dydaktyczną, a nie formalnym standardem certyfikacji.
 5. Niski wychwyt wymaga uwzględnienia zapalenia, tyreotoksykozy egzogennej, nadmiaru jodu, amiodaronu i leczenia.
 6. Guzek zimny nie jest rozpoznaniem raka, a guzek gorący nie jest absolutną gwarancją łagodności.
 7. 99mTc-sestamibi służy przede wszystkim do lokalizacji nadczynnej tkanki przytarczyc po ustaleniu rozpoznania biochemicznego.
-8. Wynik ujemny sestamibi nie wyklucza nadczynności przytarczyc.
-9. Klasyczna scyntygrafia SSTR ma obecnie ograniczoną rolę tam, gdzie dostępne jest właściwe PET receptorowe.
-10. MIBG jest metodą selektywną, a jej przydatność zależy od biologii i genotypu PPGL.
-11. Leki, jod, kontrast, ciąża i laktacja muszą być ocenione przed badaniem.
-12. Każde badanie z użyciem promieniowania jonizującego wymaga uzasadnienia i optymalizacji.
-13. Wynik scyntygrafii należy interpretować w korelacji z biochemią, USG, TK/MRI, histopatologią i przebiegiem klinicznym.
-14. Decyzje dotyczące radiofarmaceutyków i ochrony radiologicznej należą do uprawnionego zespołu.
+7. Wynik ujemny sestamibi nie wyklucza nadczynności przytarczyc.
+8. Klasyczna scyntygrafia SSTR ma obecnie ograniczoną rolę tam, gdzie dostępne jest właściwe PET receptorowe.
+9. MIBG jest metodą selektywną, a jej przydatność zależy od biologii i genotypu PPGL.
+10. Leki, jod, kontrast, ciąża i laktacja muszą być ocenione przed badaniem.
+11. Każde badanie z użyciem promieniowania jonizującego wymaga uzasadnienia i optymalizacji.
+12. Wynik scyntygrafii należy interpretować w korelacji z biochemią, USG, TK/MRI, histopatologią i przebiegiem klinicznym.
+13. Decyzje dotyczące radiofarmaceutyków i ochrony radiologicznej należą do uprawnionego zespołu.
 
 ## 23. Bibliografia i źródła do dalszej nauki
 
@@ -1442,17 +1442,16 @@ Progi są propozycją dydaktyczną, a nie formalnym standardem certyfikacji.
 4. Taïeb D, Hicks RJ, Hindié E, Guillet BA, Avram A, Ghedini P, Timmers HJ, Scott AT, Elojeimy S, Rubello D, Virgolini IJ, Fanti S, Balogova S, Pandit-Taskar N, Pacak K. European Association of Nuclear Medicine Practice Guideline/Society of Nuclear Medicine and Molecular Imaging Procedure Standard 2019 for radionuclide imaging of phaeochromocytoma and paraganglioma. *Eur J Nucl Med Mol Imaging*. 2019;46(10):2112–2137. doi: [10.1007/s00259-019-04398-1](https://doi.org/10.1007/s00259-019-04398-1). PMID: 31254038.
 5. Lenders JWM, Duh QY, Eisenhofer G, Gimenez-Roqueplo AP, Grebe SKG, Murad MH, Naruse M, Pacak K, Young WF Jr. Pheochromocytoma and paraganglioma: an Endocrine Society clinical practice guideline. *J Clin Endocrinol Metab*. 2014;99(6):1915–1942. doi: [10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498).
 6. Rao D, van Berkel A, Piscaer I, Young WF Jr, Gruber L, Deutschbein T, Fassnacht M, Beuschlein F, Spyroglou A, Prejbisz A, Hanus K, Eisenhofer G, Manelli M, Canu L, Lenders JWM, Bancos I, Timmers HJLM. Impact of 123I-MIBG scintigraphy on clinical decision-making in pheochromocytoma and paraganglioma. *J Clin Endocrinol Metab*. 2019;104(9):3812–3820. doi: [10.1210/jc.2018-02355](https://doi.org/10.1210/jc.2018-02355).
-7. Giovanella L, Avram AM, Fahey TJ, et al. (red. i autorzy wytycznych EANM/SNMMI). Uzupełniające materiały dotyczące radiojodowego testu wychwytu i obrazowania tarczycy – aktualne wersje i lokalne procedury EANM/SNMMI. Punkt odniesienia: wytyczne z 2019 r. wskazane w pozycji 1.
-8. Kos-Kudła B, Foltyn W, Malczewska A, Bednarczuk T, Bolanowski M, Borowska M, Chmielik E, Ćwikła JB, Gisterek I, Handkiewicz-Junak D, Hubalewska-Dydejczyk A, Jarząb B, Jarząb M, Junik R, Kajdaniuk D, Kamiński G, Kolasińska-Ćwikła A, Kowalska A, Królicki L, Krzakowski M, Kunikowska J, Kuśnierz K, Lewiński A, Liszka Ł, Londzin-Olesik M, Marek B, Nasierowska-Guttmejer A, Nowakowska-Duława E, Pavel ME, Pilch-Kowalczyk J, Reguła J, Rosiek V, Ruchała M, Rydzewska G, Siemińska L, Sowa-Staszczak A, Starzyńska T, Stojčev Z, Strzelczyk J, Studniarek M, Syrenicz A, Szczepkowski M, Wachuła E, Zajęcki W, Zemczak A, Zgliczyński W, Zieniewicz K. Update of the diagnostic and therapeutic guidelines for gastro-entero-pancreatic neuroendocrine neoplasms (recommended by the Polish Network of Neuroendocrine Tumours). *Endokrynol Pol*. 2022;73(3):387–454. doi: [10.5603/EP.a2022.0049](https://doi.org/10.5603/EP.a2022.0049).
-9. International Atomic Energy Agency. *Radiation Protection and Safety in Medical Uses of Ionizing Radiation*. Specific Safety Guide No. SSG-46. Vienna: IAEA; 2018. [Publikacja IAEA](https://www.iaea.org/publications/11102/radiation-protection-and-safety-in-medical-uses-of-ionizing-radiation).
-10. International Atomic Energy Agency. *Radiation Protection of Patients: Nuclear Medicine*. Materiały edukacyjne i aktualizowane zasoby dotyczące uzasadnienia, optymalizacji, ciąży i laktacji. [IAEA – Radiation Protection of Patients](https://www.iaea.org/resources/rpop).
-11. International Commission on Radiological Protection. *Radiation Dose to Patients from Radiopharmaceuticals: A Compendium of Current Information Related to Frequently Used Substances*. ICRP Publication 128. *Ann ICRP*. 2015;44(2 Suppl).
-12. Stabin MG. *Radiation Protection and Dosimetry: An Introduction to Health Physics*. New York: Springer; 2007.
-13. Saha GB. *Fundamentals of Nuclear Pharmacy*. 7th ed. Cham: Springer; 2018.
-14. Silberstein EB, Alavi A, Balon HR, Clarke SEM, Divgi C, Gelfand MJ, Goldsmith SJ, Jadvar H, Marcus CS, Martin WH, Parker JA, Royal HD, Sarkar SD, Stabin MG, Waxman AD. The SNMMI Practice Guideline for Parathyroid Scintigraphy 4.0. *J Nucl Med Technol*. 2012;40(2):111–118. Materiał historyczny i techniczny; interpretować w połączeniu z nowszymi wytycznymi EANM z 2021 r.
-15. National Library of Medicine. Sodium Pertechnetate Tc 99m. *Drugs and Lactation Database (LactMed)*. Last revision: 15 November 2024. [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK501578/).
-16. Excretion of radionuclides in human breast milk after nuclear medicine examinations: biokinetic and dosimetric data and recommendations on breastfeeding interruption. *Eur J Nucl Med Mol Imaging*. 2016. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26732471/).
-17. International Atomic Energy Agency. *Summary of the IAEA Technical Meeting on Radiation Protection of Paediatric and Pregnant Patients*. 2023. [IAEA](https://www.iaea.org/sites/default/files/23/03/summary-of-the-iaea-technical-meeting-on-radiation-protection-of-paediatric-and-pregnant-patients.pdf).
-18. European Association of Nuclear Medicine. Clinical practice guidelines, procedure standards and educational resources. [EANM](https://eanm.org/).
+7. Kos-Kudła B, Foltyn W, Malczewska A, Bednarczuk T, Bolanowski M, Borowska M, Chmielik E, Ćwikła JB, Gisterek I, Handkiewicz-Junak D, Hubalewska-Dydejczyk A, Jarząb B, Jarząb M, Junik R, Kajdaniuk D, Kamiński G, Kolasińska-Ćwikła A, Kowalska A, Królicki L, Krzakowski M, Kunikowska J, Kuśnierz K, Lewiński A, Liszka Ł, Londzin-Olesik M, Marek B, Nasierowska-Guttmejer A, Nowakowska-Duława E, Pavel ME, Pilch-Kowalczyk J, Reguła J, Rosiek V, Ruchała M, Rydzewska G, Siemińska L, Sowa-Staszczak A, Starzyńska T, Stojčev Z, Strzelczyk J, Studniarek M, Syrenicz A, Szczepkowski M, Wachuła E, Zajęcki W, Zemczak A, Zgliczyński W, Zieniewicz K. Update of the diagnostic and therapeutic guidelines for gastro-entero-pancreatic neuroendocrine neoplasms (recommended by the Polish Network of Neuroendocrine Tumours). *Endokrynol Pol*. 2022;73(3):387–454. doi: [10.5603/EP.a2022.0049](https://doi.org/10.5603/EP.a2022.0049).
+8. International Atomic Energy Agency. *Radiation Protection and Safety in Medical Uses of Ionizing Radiation*. Specific Safety Guide No. SSG-46. Vienna: IAEA; 2018. [Publikacja IAEA](https://www.iaea.org/publications/11102/radiation-protection-and-safety-in-medical-uses-of-ionizing-radiation).
+9. International Atomic Energy Agency. *Radiation Protection of Patients: Nuclear Medicine*. Materiały edukacyjne i aktualizowane zasoby dotyczące uzasadnienia, optymalizacji, ciąży i laktacji. [IAEA – Radiation Protection of Patients](https://www.iaea.org/resources/rpop).
+10. International Commission on Radiological Protection. *Radiation Dose to Patients from Radiopharmaceuticals: A Compendium of Current Information Related to Frequently Used Substances*. ICRP Publication 128. *Ann ICRP*. 2015;44(2 Suppl).
+11. Stabin MG. *Radiation Protection and Dosimetry: An Introduction to Health Physics*. New York: Springer; 2007.
+12. Saha GB. *Fundamentals of Nuclear Pharmacy*. 7th ed. Cham: Springer; 2018.
+13. Silberstein EB, Alavi A, Balon HR, Clarke SEM, Divgi C, Gelfand MJ, Goldsmith SJ, Jadvar H, Marcus CS, Martin WH, Parker JA, Royal HD, Sarkar SD, Stabin MG, Waxman AD. The SNMMI Practice Guideline for Parathyroid Scintigraphy 4.0. *J Nucl Med Technol*. 2012;40(2):111–118. Materiał historyczny i techniczny; interpretować w połączeniu z nowszymi wytycznymi EANM z 2021 r.
+14. National Library of Medicine. Sodium Pertechnetate Tc 99m. *Drugs and Lactation Database (LactMed)*. Last revision: 15 November 2024. [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK501578/).
+15. Excretion of radionuclides in human breast milk after nuclear medicine examinations: biokinetic and dosimetric data and recommendations on breastfeeding interruption. *Eur J Nucl Med Mol Imaging*. 2016. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26732471/).
+16. International Atomic Energy Agency. *Summary of the IAEA Technical Meeting on Radiation Protection of Paediatric and Pregnant Patients*. 2023. [IAEA](https://www.iaea.org/sites/default/files/23/03/summary-of-the-iaea-technical-meeting-on-radiation-protection-of-paediatric-and-pregnant-patients.pdf).
+17. European Association of Nuclear Medicine. Clinical practice guidelines, procedure standards and educational resources. [EANM](https://eanm.org/).
 
 **Uwaga bibliograficzna:** przed wykorzystaniem w procedurze klinicznej należy sprawdzić aktualność wersji wytycznych, charakterystykę konkretnego radiofarmaceutyku, krajowe przepisy i procedury lokalnej pracowni. Rozdział ma charakter edukacyjny i nie zastępuje aktualnych standardów wykonywania badań w medycynie nuklearnej.
