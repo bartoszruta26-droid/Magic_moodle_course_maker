@@ -1357,7 +1357,7 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, publikacji
 11. McKeith IG, Boeve BF, Dickson DW, Halliday G, Taylor JP, Weintraub D, Aarsland D, Galvin J, Attems J, Ballard CG, Bayston A, Beach TG, Blanc F, Bohnen N, Bonanni L, Bras J, Brundin P, Burn D, Chen-Plotkin A, Duda JE, El-Agnaf O, Feldman HH, Ferman TJ, Ffytche D, Fujishiro H, Gomperts SN, Graff-Radford NR, Honig LS, Iranzo A, Kantarci K, Kaufer D, Koga S, Kosaka K, Lee VM, Leverenz JB, Lippa C, Lunde A, Masellis M, Masliah E, McLean P, Mollenhauer B, Montine TJ, Moreno E, Mori E, Murray M, O’Brien JT, Orimo S, Postuma RB, Ramaswamy S, Ross OA, Salmon DP, Singleton A, Taylor A, Thomas A, Tiraboschi P, Toledo JB, Tsuang D, Walker Z, Yamada M. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. **Neurology.** 2017;89(1):88–100.  
     https://doi.org/10.1212/WNL.0000000000004058
 
-12. Robert P, Lanctôt KL, Agüera-Ortiz L, Aalten P, Bremond F, Defrancesco M, Hanon C, David R, Dubois B, Dujardin K, Husain M, König A, Levy R, Mantua V, Meulien D, Miller D, Moebius HJ, Rasmussen J, Miller D, Yesavage J, Zeghari R, Manera V. Is it time to revise the diagnostic criteria for apathy in brain disorders? The 2018 international consensus group. **Eur Psychiatry.** 2018;54:71–76.  
+12. Robert P, Lanctôt KL, Agüera-Ortiz L, Aalten P, Bremond F, Defrancesco M, Hanon C, David R, Dubois B, Dujardin K, Husain M, König A, Levy R, Mantua V, Meulien D, Miller D, Moebius HJ, Rasmussen J, Robert G, Ruthirakuhan M, Stella F, Yesavage J, Zeghari R, Manera V. Is it time to revise the diagnostic criteria for apathy in brain disorders? The 2018 international consensus group. **Eur Psychiatry.** 2018;54:71–76.  
     https://doi.org/10.1016/j.eurpsy.2018.07.008
 
 13. Lanctôt KL, Ismail Z, Bawa KK, Cummings JL, Husain M, Mortby ME, Robert P. Distinguishing apathy from depression: A review differentiating the behavioral, neuroanatomic, and treatment-related aspects of apathy from depression in neurocognitive disorders. **Int J Geriatr Psychiatry.** 2023;38(2):e5882.  
@@ -1366,11 +1366,11 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, publikacji
 14. Totuk O, Şahin Ş. Apathy in Neuropsychiatric Disorders: Clinical Characteristics, Neurobiological Mechanisms, and Therapeutic Strategies. **Behavioural Neurology.** 2025.  
     https://doi.org/10.1155/bn/3788122
 
-15. Husain M, Roiser JP. Neuroscience of apathy and anhedonia: a transdiagnostic approach. Wybrane przeglądy i prace dotyczące sieci motywacji i nagrody – punkt wyjścia do dalszej lektury.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=Husain+Roiser+apathy+anhedonia
+15. Husain M, Roiser JP. Neuroscience of apathy and anhedonia: a transdiagnostic approach. **Nat Rev Neurosci.** 2018;19(8):470–484.  
+    https://doi.org/10.1038/s41583-018-0029-9
 
-16. Lanctôt KL, Herrmann N, Mazzotta P. Role of serotonin in the behavioral and psychological symptoms of dementia. Prace przeglądowe dotyczące objawów neuropsychiatrycznych w chorobach mózgu.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=neuropsychiatric+symptoms+dementia+serotonin+review
+16. Costello H, Husain M, Roiser JP. Apathy and Motivation: Biological Basis and Drug Treatment. **Annu Rev Pharmacol Toxicol.** 2024;64:313–338.  
+    https://doi.org/10.1146/annurev-pharmtox-022423-014645
 
 17. Ślusarska BJ, Nowicki G, Piasecka H, Zarzycka D, Mazur A, Saran T, Bednarek A. Validation of the Polish language version of the Patient Health Questionnaire-9 in a population of adults aged 35–64. **Ann Agric Environ Med.** 2019;26(3):420–424.  
     https://doi.org/10.26444/aaem/99246
@@ -1390,8 +1390,8 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, publikacji
 22. Russo SJ, Nestler EJ. The brain reward circuitry in mood disorders. **Nat Rev Neurosci.** 2013;14:609–625.  
     https://doi.org/10.1038/nrn3381
 
-23. Price JL, Drevets WC. Neural circuits underlying the pathophysiology of mood disorders. **Trends Cogn Sci.** Przegląd neuroanatomicznych podstaw zaburzeń nastroju.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=Price+Drevets+neural+circuits+mood+disorders
+23. Price JL, Drevets WC. Neural circuits underlying the pathophysiology of mood disorders. **Trends Cogn Sci.** 2012;16(1):61–71.  
+    https://doi.org/10.1016/j.tics.2011.12.011
 
 24. National Institute for Health and Care Excellence. **Self-harm: rationale and impact – risk assessment tools and scales.**  
     https://www.nice.org.uk/guidance/ng225/chapter/Rationale-and-impact
