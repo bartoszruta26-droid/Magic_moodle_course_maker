@@ -799,7 +799,7 @@ Upadek jest zwykle wynikiem wielu czynników. Zaburzenia poznawcze mogą zwięks
 - dezorientację w nocy;
 - nieprzestrzeganie zaleceń wynikających z ograniczeń ruchowych.
 
-Trzeba równolegle ocenić siłę, chód, równowagę, czucie, wzrok, ciśnienie ortostatyczne, obuwie, stan stóp, ból, leki i warunki domowe. Sama obecność zaburzeń pamięci nie wystarcza do wyjaśnienia każdego upadku.
+Trzeba równolegle ocenić siłę, chód, równowagę, czucie, wzrok, ciśnienie ortostatyczne, obuwie, stan stóp, ból, leki i warunki domowe. Sama obecność zaburzeń pamięci nie wystarcza do wyjaśnienia każdego upadku. Aktualne wytyczne NICE NG249 z 29 kwietnia 2025 r. zalecają, aby nie używać skal predykcyjnych do przewidywania, kto upadnie; zamiast tego należy ustalać indywidualne czynniki ryzyka i wdrażać ukierunkowane postępowanie wieloczynnikowe. W kompleksowej ocenie, zależnie od sytuacji, uwzględnia się między innymi funkcje poznawcze i nastrój, majaczenie w odpowiednich warunkach, ciśnienie w pozycji leżącej i stojącej, odżywienie i nawodnienie, chód, równowagę, siłę, słuch, wzrok, choroby współistniejące i leki [25].
 
 ### 9.4. Analiza zdarzenia
 
@@ -1552,8 +1552,8 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, klasycznyc
 12. Washington University in St. Louis. *Clinical Dementia Rating (CDR) – information and training.*  
     https://knightadrc.wustl.edu/professionals-clinicians/cdr-dementia-staging-instrument/
 
-13. Galasko D, Bennett D, Sano M, Marson D, Kaye J, Edland SD. An inventory to assess activities of daily living for clinical trials in Alzheimer's disease. *Alzheimer Dis Assoc Disord.* 1997;11 Suppl 2:S33–S39.  
-    https://pubmed.ncbi.nlm.nih.gov/?term=An+inventory+to+assess+activities+of+daily+living+for+clinical+trials+in+Alzheimer%27s+disease
+13. Galasko D, Bennett D, Sano M, Ernesto C, Thomas R, Grundman M, Ferris S. An inventory to assess activities of daily living for clinical trials in Alzheimer's disease: the Alzheimer's Disease Cooperative Study. *Alzheimer Dis Assoc Disord.* 1997;11 Suppl 2:S33–S39. PMID: 9236950.  
+    https://pubmed.ncbi.nlm.nih.gov/9236950/
 
 14. Gélinas I, Gauthier L, McIntyre M, Gauthier S. Development of a functional measure for persons with Alzheimer's disease: the Disability Assessment for Dementia. *Am J Occup Ther.* 1999;53(5):471–481.  
     https://doi.org/10.5014/ajot.53.5.471
@@ -1570,8 +1570,8 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, klasycznyc
 18. American Academy of Neurology. *Practice Parameter update: Evaluation and management of driving risk in dementia.* *Neurology.* 2010;74(16):1316–1324.  
     https://doi.org/10.1212/WNL.0b013e3181da3b0f
 
-19. Iverson DJ, Gronseth GS, Reger MA, Classen S, Dubinsky RM, Rizzo M. Practice parameter update: evaluation and management of driving risk in dementia. *Neurology.* 2010;74(16):1316–1324.  
-    https://pubmed.ncbi.nlm.nih.gov/20385882/
+19. Allan CL, Behrman S, Baruch N, Ebmeier KP. Driving and dementia: a clinical update for mental health professionals. *Evid Based Ment Health.* 2016;19(4):110–113.  
+    https://doi.org/10.1136/eb-2016-102485
 
 20. Marson DC, Sawrie SM, Snyder S, McInturff B, Stalvey T, Boothe A, et al. Assessing financial capacity in patients with Alzheimer disease: a conceptual model and prototype instrument. *Arch Neurol.* 2000;57(6):877–884.  
     https://doi.org/10.1001/archneur.57.6.877
@@ -1588,8 +1588,8 @@ Poniższe źródła dobrano z uwzględnieniem wytycznych klinicznych, klasycznyc
 24. World Health Organization. *Medication Without Harm – Global Patient Safety Challenge.*  
     https://www.who.int/initiatives/medication-without-harm
 
-25. National Institute for Health and Care Excellence. *Falls in older people: assessing risk and prevention.* Clinical Guideline CG161.  
-    https://www.nice.org.uk/guidance/cg161
+25. National Institute for Health and Care Excellence. *Falls: assessment and prevention in older people and in people 50 and over at higher risk.* NICE Guideline NG249. Published 29 April 2025.  
+    https://www.nice.org.uk/guidance/ng249
 
 26. World Health Organization. *WHO global report on falls prevention in older age.* Geneva: WHO; 2007.  
     https://www.who.int/publications/i/item/9789241563536
