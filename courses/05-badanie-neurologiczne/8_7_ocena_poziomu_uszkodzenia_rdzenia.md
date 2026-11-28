@@ -55,7 +55,7 @@ Fizjoterapeuta lub inny członek zespołu może prowadzić ocenę funkcjonalną 
 
 Segment rdzenia to odcinek istoty szarej i białej, z którego obustronnie odchodzą korzenie nerwu rdzeniowego. Wyróżnia się 31 par nerwów rdzeniowych: 8 szyjnych, 12 piersiowych, 5 lędźwiowych, 5 krzyżowych i 1 guziczną. Segment rdzenia nie jest tym samym co kręg o identycznym oznaczeniu.
 
-### 2.2. Dermatome
+### 2.2. Dermatom
 
 Dermatom jest obszarem skóry, którego czucie jest w istotnym stopniu związane z aferentnymi włóknami jednego korzenia rdzeniowego. Granice dermatomów zachodzą na siebie, a mapy anatomiczne mogą nieznacznie różnić się pomiędzy źródłami. W ISNCSCI stosuje się nie dowolne badanie całej powierzchni skóry, lecz określone punkty kluczowe dla 28 dermatomów po każdej stronie ciała.
 
@@ -97,7 +97,7 @@ Określenie „całkowite” jest terminem klasyfikacji klinicznej, a nie dowode
 
 AIS jest skalą klasyfikującą stopień zachowania funkcji neurologicznych po uszkodzeniu rdzenia:
 
-- **AIS A – całkowite:** brak zachowania funkcji czuciowej i ruchowej w segmentach S4–S5.
+- **AIS A – całkowite:** brak zachowania czucia dotyku lekkiego i pin prick w S4–S5, brak DAP oraz brak VAC.
 - **AIS B – czuciowo niecałkowite:** zachowana funkcja czuciowa poniżej NLI obejmująca S4–S5, ale bez spełnienia kryteriów uszkodzenia ruchowo niecałkowitego; nie stwierdza się funkcji ruchowej zachowanej ponad trzy poziomy poniżej poziomu ruchowego po żadnej stronie.
 - **AIS C – ruchowo niecałkowite:** obecny dowolny skurcz zwieracza odbytu albo spełnione kryteria czuciowego uszkodzenia niecałkowitego wraz z zachowaniem funkcji ruchowej ponad trzy poziomy poniżej odpowiedniego poziomu ruchowego; mniej niż połowa funkcji mięśniowych kluczowych poniżej pojedynczego NLI ma siłę co najmniej 3.
 - **AIS D – ruchowo niecałkowite:** kryteria uszkodzenia ruchowo niecałkowitego są spełnione, a co najmniej połowa funkcji mięśniowych kluczowych poniżej pojedynczego NLI osiąga siłę co najmniej 3.
@@ -161,7 +161,7 @@ Uszkodzenie rdzenia może zatem powodować nie tylko niedowład i zaburzenia czu
 
 ### 3.6. Schemat anatomiczny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Mózg i pień mózgu"] --> B["Drogi zstępujące i wstępujące"]
     B --> C["Rdzeń kręgowy – segmenty"]
@@ -171,7 +171,7 @@ flowchart TD
     F --> G["Pęcherz, jelita, narządy płciowe, naczynia"]
     C --> H["Stożek rdzeniowy"]
     H --> I["Korzenie ogona końskiego"]
-\`\`\`
+```
 
 ---
 
@@ -502,7 +502,7 @@ Zalecana kolejność postępowania:
 
 ### 9.2. Schemat klasyfikacji
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Pełne badanie czuciowe i ruchowe"] --> B["Prawy i lewy poziom czuciowy"]
     B --> C["Prawy i lewy poziom ruchowy"]
@@ -519,7 +519,7 @@ flowchart TD
     I --> M
     K --> M
     L --> M
-\`\`\`
+```
 
 ### 9.3. Zasady ustalania NLI
 
@@ -547,7 +547,7 @@ ZPP opisuje najbardziej doogonowy segment, w którym zachowano jakąkolwiek funk
 - prawą ruchową ZPP;
 - lewą ruchową ZPP.
 
-Jeżeli występuje zachowanie czucia krzyżowego, czuciowa ZPP może być nieadekwatna (NA) zgodnie z regułami arkusza. Jeżeli występuje VAC, ruchowa ZPP jest NA. Jeżeli DAP jest obecne, czuciowe ZPP po obu stronach są NA. Jeżeli nie ma żadnej częściowo zachowanej funkcji poniżej poziomu, w odpowiednim polu wpisuje się poziom wyjściowy zgodnie z arkuszem.
+Jeżeli czucie dotyku lub pin prick w S4–S5 jest obecne po danej stronie, czuciowa ZPP po tej stronie jest NA. Jeżeli DAP jest obecne, czuciowe ZPP po obu stronach są NA. Jeżeli występuje VAC, ruchowa ZPP po obu stronach jest NA. Jeżeli nie ma żadnej częściowo zachowanej funkcji poniżej poziomu, w odpowiednim polu wpisuje się poziom wyjściowy zgodnie z arkuszem.
 
 ### 9.6. Wyniki sumaryczne
 
@@ -1023,7 +1023,7 @@ Pacjent po wypadku ma uraz rdzenia oraz złamanie kości przedramienia z unieruc
 
 ## 18. Algorytm praktyczny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Pacjent z podejrzeniem uszkodzenia rdzenia"] --> B["ABCDE, parametry życiowe, mechanizm i czas objawów"]
     B --> C{"Czy występuje niestabilność lub czerwone flagi?"}
@@ -1037,7 +1037,7 @@ flowchart TD
     J --> K["AIS i ZPP, jeśli możliwe"]
     K --> L["Dokumentacja, korelacja z MRI i plan opieki"]
     F --> L
-\`\`\`
+```
 
 ### 18.1. Minimalny zestaw danych do przekazania
 
