@@ -948,7 +948,7 @@ Kryteria:
 
 ## 21. Algorytm podsumowujący
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Przygotowanie pacjenta i stanowiska"] --> B["Ułożenie i rozluźnienie kończyny"]
     B --> C["Lokalizacja ścięgna"]
@@ -967,11 +967,11 @@ flowchart TD
     M --> N{"Czy występują czerwone flagi?"}
     N -->|"Tak"| O["Pilna ocena i właściwa ścieżka pomocy"]
     N -->|"Nie"| P["Dalsze postępowanie zgodne z obrazem klinicznym"]
-\`\`\`
+```
 
 ### 21.1. Schemat lokalizacji
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
     A["Odruchy osłabione"] --> B["Czy zmiana jest ogniskowa?"]
     B -->|"Tak"| C["Porównaj poziomy segmentarne i nerwy"]
@@ -983,7 +983,7 @@ flowchart LR
     H["Odruchy wzmożone"] --> I["Sprawdź rozprzestrzenianie, klonus i napięcie"]
     I --> J["Oceń drogi zstępujące i poziom uszkodzenia"]
     J --> G
-\`\`\`
+```
 
 ---
 
