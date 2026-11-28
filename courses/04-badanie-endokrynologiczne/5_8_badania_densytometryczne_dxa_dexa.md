@@ -1257,7 +1257,7 @@ D. Każdy pacjent wymaga corocznej DXA
 | Hipogonadyzm | Niedostateczna czynność gonad prowadząca do niedoboru hormonów płciowych |
 | PHPT | Pierwotna nadczynność przytarczyc |
 | CKD-MBD | Zaburzenia mineralne i kostne związane z przewlekłą chorobą nerek |
-| Adarealna BMD | Parametr projekcyjny, zależny również od rozmiaru kości |
+| Arealna BMD | Parametr projekcyjny, zależny również od rozmiaru kości |
 | Osteoanabolik | Lek stymulujący tworzenie tkanki kostnej |
 | Antyresorpcyjny | Lek ograniczający resorpcję kości |
 
