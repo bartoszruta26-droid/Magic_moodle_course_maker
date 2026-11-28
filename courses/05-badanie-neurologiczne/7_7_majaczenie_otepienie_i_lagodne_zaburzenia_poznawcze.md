@@ -479,7 +479,7 @@ W majaczeniu stan może zmieniać się w ciągu godzin. Powtarzaj ocenę zgodnie
 
 ### Schemat postępowania
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Nowa lub utrwalona skarga poznawcza"] --> B{"Czy początek był nagły lub występują fluktuacje?"}
     B -->|Tak| C["Ocena ABC, parametrów życiowych i czerwonych flag"]
@@ -496,7 +496,7 @@ flowchart TD
     L --> M
     G --> N["Po stabilizacji ponowna ocena funkcji poznawczych"]
     N --> M
-\`\`\`
+```
 
 ## 9. Narzędzia wykrywania majaczenia
 
@@ -519,6 +519,32 @@ flowchart TD
 | 4 pkt lub więcej | Możliwe majaczenie z zaburzeniem poznawczym lub bez niego; potrzebna ocena kliniczna |
 
 Szczegółowe punktowanie poszczególnych elementów należy prowadzić według aktualnego formularza i podręcznika 4AT, z uwzględnieniem wersji językowej. Wynik 4 lub większy nie oznacza automatycznie potwierdzonego majaczenia. Wysoki wynik może wynikać także z ciężkiego przewlekłego zaburzenia poznawczego, afazji, bariery językowej lub innych ograniczeń. Z kolei wynik niski nie wyklucza epizodu fluktuującego, jeżeli badanie wykonano w okresie względnej poprawy.
+
+### 9.2.1. Punktowanie poszczególnych elementów 4AT
+
+Poniższa tabela przedstawia strukturę punktacji zgodną z oficjalnym przewodnikiem 4AT. Przed zastosowaniem w praktyce należy korzystać z aktualnego, właściwego językowo formularza, a nie odtwarzać narzędzie z pamięci.
+
+| Element | Sposób oceny | Punkty |
+|---|---|---:|
+| Czujność | Prawidłowa czujność; ewentualna łagodna senność krótsza niż 10 sekund po obudzeniu, po której pacjent pozostaje przytomny | 0 |
+| Czujność | Wyraźnie nieprawidłowy poziom czujności, np. znaczna senność, trudność wybudzenia lub wyraźne pobudzenie | 4 |
+| AMT4 | Bez błędów w odpowiedziach dotyczących wieku, daty urodzenia, miejsca i aktualnego roku | 0 |
+| AMT4 | Jeden błąd | 1 |
+| AMT4 | Co najmniej dwa błędy albo niemożność przeprowadzenia próby z powodu stanu pacjenta | 2 |
+| Uwaga | Prawidłowe podanie co najmniej siedmiu miesięcy wstecz, począwszy od grudnia | 0 |
+| Uwaga | Pacjent rozpoczyna, ale podaje mniej niż siedem miesięcy poprawnie, albo odmawia rozpoczęcia | 1 |
+| Uwaga | Nie może rozpocząć próby, np. z powodu senności lub znacznego zaburzenia uwagi | 2 |
+| Ostry początek / fluktuacja | Brak wiarygodnych danych o ostrej zmianie lub fluktuacji w wymaganym przedziale czasu | 0 |
+| Ostry początek / fluktuacja | Istotna zmiana lub fluktuacja funkcji poznawczych, czujności albo innych funkcji psychicznych, która pojawiła się w ostatnich dwóch tygodniach i nadal była obecna w ciągu ostatnich 24 godzin | 4 |
+
+**Ważne szczegóły wykonania:**
+- W elemencie AMT4 pyta się o wiek, datę urodzenia, miejsce (np. nazwę szpitala lub budynku) i aktualny rok. Akceptuje się rozsądną identyfikację miejsca; nie jest wymagane podanie pełnej nazwy formalnej.
+- W próbie miesięcy wstecz można zastosować jedną podpowiedź wstępną: „Jaki miesiąc jest przed grudniem?”. Następnie pacjent podaje miesiące w kolejności odwrotnej.
+- Jeżeli pacjent z powodu senności, znacznego zaburzenia uwagi lub niemożności nawiązania komunikacji nie może wykonać elementu AMT4 albo próby uwagi, należy zastosować kategorię „niemożliwe do oceny” zgodnie z formularzem, a nie pozostawiać pustego pola.
+- Ostry początek lub fluktuację można ustalić na podstawie obserwacji personelu, wcześniejszej dokumentacji, relacji bliskich lub wiarygodnej wiedzy klinicysty. Brak opiekuna przy łóżku nie może automatycznie opóźniać rozpoznania i pomocy.
+- U osób z ciężkim, przewlekłym otępieniem nieprawidłowe wyniki elementów poznawczych mogą podnosić wynik 4AT także bez nowego majaczenia. W takich przypadkach szczególne znaczenie ma porównanie z wcześniejszym stanem i obserwacja w czasie.
+
+Źródło punktacji i instrukcji wykonania: oficjalny przewodnik użytkownika 4AT, dostępny pod adresem [https://www.the4at.com/userguide](https://www.the4at.com/userguide).
 
 ### 9.3. CAM – Confusion Assessment Method
 
