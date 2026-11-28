@@ -879,7 +879,7 @@ U pacjenta nie udaje się wywołać wyraźnego zgięcia ani wyprostu palców. Si
 
 ### 17.1. Algorytm badania odruchów powierzchownych
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A["Ustal wskazanie i uzyskaj zgodę"] --> B["Oceń skórę, ból, blizny i ograniczenia"]
  B --> C{"Czy badanie jest bezpieczne?"}
@@ -895,11 +895,11 @@ flowchart TD
  K --> L
  D --> L
  L --> M["Zaplanuj dalsze postępowanie zgodnie z pilnością"]
-\`\`\`
+```
 
 ### 17.2. Algorytm interpretacji odruchu podeszwowego
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A["Delikatne pobudzenie bocznej części podeszwy"] --> B{"Jaka jest odpowiedź?"}
  B -->|Zgięcie palców| C["Odpowiedź zgięciowa"]
@@ -914,11 +914,11 @@ flowchart TD
  H --> K
  I --> K
  J --> K
-\`\`\`
+```
 
 ### 17.3. Algorytm postępowania przy ostrym bólu moszny
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A["Nagły ból moszny lub jądra"] --> B["Podejrzenie skrętu jądra"]
  B --> C["Pilna ocena kliniczna i kontakt z urologią"]
@@ -928,7 +928,7 @@ flowchart TD
  E --> G["Dokumentuj objawy i czas początku"]
  F --> G
  G --> H["Nie uznawaj obecnego odruchu kremasterowego za wykluczenie skrętu"]
-\`\`\`
+```
 
 ---
 
