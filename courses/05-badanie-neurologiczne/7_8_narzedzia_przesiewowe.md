@@ -1336,7 +1336,6 @@ Co należy zrobić, gdy wynik testu jest prawidłowy, ale bliscy opisują wyraź
 
 16. Seitz David P. i współpracownicy. Mini-Cog for the detection of dementia within a primary care setting. *Cochrane Database of Systematic Reviews*. 2021;7:CD011415. [https://www.cochrane.org/evidence/CD011415_how-accurate-mini-cog-test-when-used-assess-dementia-general-practice](https://www.cochrane.org/evidence/CD011415_how-accurate-mini-cog-test-when-used-assess-dementia-general-practice).
 
-17. Meta-analysis of Mini-Cog accuracy for detection of dementia, mild cognitive impairment and cognitive impairment. PubMed: [https://pubmed.ncbi.nlm.nih.gov/38483857/](https://pubmed.ncbi.nlm.nih.gov/38483857/).
 
 17. Park Jung E. Multiple clock drawing scoring systems: simpler is better. *Journal of the American Geriatrics Society* / PubMed record. [https://pubmed.ncbi.nlm.nih.gov/23765914/](https://pubmed.ncbi.nlm.nih.gov/23765914/).
 
