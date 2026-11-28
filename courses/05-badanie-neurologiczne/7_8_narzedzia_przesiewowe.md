@@ -342,7 +342,7 @@ MoCA bywa przydatna, gdy podejrzewa się subtelne zaburzenia, które mogą nie z
 
 ### 6.3. Wersje i efekt uczenia się
 
-MoCA jest rozwijana w kolejnych wersjach. Oficjalne materiały wskazują między innymi wersję 8.1 oraz wersje równoległe, takie jak 8.2 i 8.3, które mogą ograniczać efekt zapamiętywania zadań przy powtarzaniu badania [20]. Wybór wersji powinien wynikać z oficjalnej instrukcji i celu badania. Nie należy samodzielnie konstruować wersji alternatywnych.
+MoCA jest rozwijana w kolejnych wersjach. Oficjalne materiały wskazują między innymi wersję 8.1 oraz wersje równoległe, takie jak 8.2 i 8.3, które mogą ograniczać efekt zapamiętywania zadań przy powtarzaniu badania [19]. Wybór wersji powinien wynikać z oficjalnej instrukcji i celu badania. Nie należy samodzielnie konstruować wersji alternatywnych.
 
 W badaniu powtarzanym należy zapisać numer wersji. Zmiana wersji może wpływać na porównywalność wyniku, nawet jeżeli wersje zostały zaprojektowane jako równoległe. Efekt ćwiczenia, znajomość procedury i wcześniejsza ekspozycja na test mogą poprawiać wynik bez rzeczywistej poprawy funkcji poznawczych.
 
@@ -372,7 +372,7 @@ W polskim badaniu Magierskiej i współpracowników z 2012 r. zaproponowano okre
 
 ### 6.7. Prawa autorskie, szkolenie i wykorzystanie
 
-MoCA jest narzędziem chronionym. Oficjalna strona uprawnień MoCA Cognition nadal przedstawia wymóg szkolenia i certyfikacji w sposób szeroki. Należy jednak uwzględnić bardziej szczegółowe rozróżnienie w aktualnych Warunkach korzystania obowiązujących od 11 listopada 2026 r.: szkolenie i certyfikacja są opcjonalne dla pracownika ochrony zdrowia, który używa papierowej MoCA wyłącznie do wstępnej selekcji (triage), czyli do podjęcia decyzji o skierowaniu na dalszą ocenę na podstawie wyniku całkowitego i właściwego punktu odcięcia. Szkolenie i certyfikacja są wymagane, gdy użytkownik interpretuje wyniki, w tym wynik całkowity, zadania, podskale lub profile domenowe, z wyjątkiem sytuacji, gdy szkolenie nie jest jeszcze dostępne w danym języku [20]. W razie rozbieżności należy sprawdzić aktualne Warunki korzystania, instrukcję właściwej wersji i ewentualną odrębną umowę z właścicielem praw. Użycie poza standardową praktyką kliniczną, m.in. w badaniach sponsorowanych, programach komercyjnych, publikacjach, tłumaczeniach, adaptacjach lub oprogramowaniu, może wymagać odrębnej pisemnej zgody albo licencji. Nie wolno publikować pełnych arkuszy, instrukcji ani reprodukować zadań w materiałach dydaktycznych bez odpowiedniej podstawy prawnej.
+MoCA jest narzędziem chronionym. Oficjalna strona uprawnień MoCA Cognition nadal przedstawia wymóg szkolenia i certyfikacji w sposób szeroki. Należy jednak uwzględnić bardziej szczegółowe rozróżnienie w aktualnych Warunkach korzystania obowiązujących od 11 listopada 2026 r.: szkolenie i certyfikacja są opcjonalne dla pracownika ochrony zdrowia, który używa papierowej MoCA wyłącznie do wstępnej selekcji (triage), czyli do podjęcia decyzji o skierowaniu na dalszą ocenę na podstawie wyniku całkowitego i właściwego punktu odcięcia. Szkolenie i certyfikacja są wymagane, gdy użytkownik interpretuje wyniki, w tym wynik całkowity, zadania, podskale lub profile domenowe, z wyjątkiem sytuacji, gdy szkolenie nie jest jeszcze dostępne w danym języku [19]. W razie rozbieżności należy sprawdzić aktualne Warunki korzystania, instrukcję właściwej wersji i ewentualną odrębną umowę z właścicielem praw. Użycie poza standardową praktyką kliniczną, m.in. w badaniach sponsorowanych, programach komercyjnych, publikacjach, tłumaczeniach, adaptacjach lub oprogramowaniu, może wymagać odrębnej pisemnej zgody albo licencji. Nie wolno publikować pełnych arkuszy, instrukcji ani reprodukować zadań w materiałach dydaktycznych bez odpowiedniej podstawy prawnej.
 
 ---
 
@@ -416,7 +416,7 @@ Wynik 0–2 wskazuje na większe prawdopodobieństwo istotnego zaburzenia poznaw
 
 Mini-Cog nie ocenia w sposób wyczerpujący wszystkich domen poznawczych. Wynik może być zniekształcony przez zaburzenia słuchu, wzroku, mowy, pamięci roboczej, praksji, sprawności manualnej, wykształcenia i znajomości zegara analogowego.
 
-W badaniu populacyjnym Borsona i współpracowników z 2003 r. Mini-Cog uzyskał zbliżoną czułość i swoistość do MMSE w określonej próbie [14]. Nie oznacza to jednak, że parametry te są stałe w każdym środowisku. Przegląd Cochrane dotyczący podstawowej opieki zdrowotnej wskazał ograniczoną liczbę badań, heterogeniczność i istotne ryzyko błędu, co nie pozwalało na pewne zalecenie rutynowego stosowania w tej populacji [16]. Nowsza metaanaliza obejmująca różne środowiska wykazała umiarkowaną trafność, ale jej wyniki zależały od rozpoznawanego poziomu zaburzenia i miejsca badania [17]. Wniosek praktyczny: Mini-Cog może być użytecznym krótkim elementem oceny, ale wynik musi być zestawiony z wywiadem i funkcjonowaniem.
+W badaniu populacyjnym Borsona i współpracowników z 2003 r. Mini-Cog uzyskał zbliżoną czułość i swoistość do MMSE w określonej próbie [14]. Nie oznacza to jednak, że parametry te są stałe w każdym środowisku. Przegląd Cochrane dotyczący podstawowej opieki zdrowotnej wskazał ograniczoną liczbę badań, heterogeniczność i istotne ryzyko błędu, co nie pozwalało na pewne zalecenie rutynowego stosowania w tej populacji [16]. Nowsza metaanaliza obejmująca różne środowiska wykazała umiarkowaną trafność, ale jej wyniki zależały od rozpoznawanego poziomu zaburzenia i miejsca badania [8]. Wniosek praktyczny: Mini-Cog może być użytecznym krótkim elementem oceny, ale wynik musi być zestawiony z wywiadem i funkcjonowaniem.
 
 ### 7.6. Prawa i materiały
 
@@ -478,7 +478,7 @@ Wyników uzyskanych różnymi wariantami nie należy bezpośrednio porównywać,
 
 ### 8.5. Systemy punktowania
 
-W literaturze opisano między innymi systemy Shulmana, Sunderlanda, Mendeza i Rouleau. Różnią się one liczbą kategorii, kryteriami błędów i progami. Nie istnieje jeden uniwersalny sposób punktowania, który można bezrefleksyjnie stosować we wszystkich populacjach. Przegląd Park i współpracowników wskazuje, że zwiększanie złożoności punktowania nie musi poprawiać trafności rozpoznawania zaburzeń, a prostsze systemy mogą być bardziej użyteczne w praktyce pierwszego kontaktu [18].
+W literaturze opisano między innymi systemy Shulmana, Sunderlanda, Mendeza i Rouleau. Różnią się one liczbą kategorii, kryteriami błędów i progami. Nie istnieje jeden uniwersalny sposób punktowania, który można bezrefleksyjnie stosować we wszystkich populacjach. Przegląd Park i współpracowników wskazuje, że zwiększanie złożoności punktowania nie musi poprawiać trafności rozpoznawania zaburzeń, a prostsze systemy mogą być bardziej użyteczne w praktyce pierwszego kontaktu [17].
 
 ### 8.6. Ograniczenia
 
@@ -560,7 +560,7 @@ Nie należy stosować jednego progu dla wszystkich osób. Oryginalna publikacja 
 
 ### 10.1. Przeznaczenie
 
-4AT (4 A’s Test) jest krótkim narzędziem do wykrywania możliwego majaczenia, zwłaszcza w warunkach ostrej opieki, ale może być używany również w innych środowiskach zgodnie z lokalną procedurą. Oficjalny przewodnik wskazuje, że test obejmuje cztery elementy, a jego wynik mieści się w zakresie 0–12 punktów [21].
+4AT (4 A’s Test) jest krótkim narzędziem do wykrywania możliwego majaczenia, zwłaszcza w warunkach ostrej opieki, ale może być używany również w innych środowiskach zgodnie z lokalną procedurą. Oficjalny przewodnik wskazuje, że test obejmuje cztery elementy, a jego wynik mieści się w zakresie 0–12 punktów [20].
 
 4AT nie potwierdza samodzielnie rozpoznania. Wynik dodatni powinien prowadzić do klinicznej oceny przyczyn i bezpieczeństwa. Ujemny wynik nie wyklucza majaczenia, zwłaszcza gdy objawy fluktuują albo informacja o zmianie względem stanu wyjściowego jest niepełna.
 
@@ -617,7 +617,7 @@ Wynik co najmniej 4 powinien uruchomić odpowiednią ocenę kliniczną. Nie nale
 
 ### 10.6. Pacjent niezdolny do wykonania zadań
 
-Ważną cechą 4AT jest możliwość punktowania elementów poznawczych jako niemożliwych do oceny w określonych sytuacjach, zamiast pomijania badania. W oficjalnym przewodniku brak możliwości wykonania zadań AMT4 i uwagi może skutkować przyznaniem po 2 punkty za każdy z tych elementów [21]. Dzięki temu wynik może wskazać potrzebę pilnej oceny także u pacjenta sennego lub niezdolnego do komunikacji.
+Ważną cechą 4AT jest możliwość punktowania elementów poznawczych jako niemożliwych do oceny w określonych sytuacjach, zamiast pomijania badania. W oficjalnym przewodniku brak możliwości wykonania zadań AMT4 i uwagi może skutkować przyznaniem po 2 punkty za każdy z tych elementów [20]. Dzięki temu wynik może wskazać potrzebę pilnej oceny także u pacjenta sennego lub niezdolnego do komunikacji.
 
 Nie wolno jednak automatycznie utożsamiać braku odpowiedzi z majaczeniem. Przyczyną mogą być m.in. afazja, ciężkie otępienie, zaburzenia słuchu, bariera językowa, sedacja, stan po napadzie lub inne zaburzenia neurologiczne. Kluczowe pozostają stan wyjściowy, dynamika objawów i ocena kliniczna.
 
@@ -634,11 +634,11 @@ Nie wolno jednak automatycznie utożsamiać braku odpowiedzi z majaczeniem. Przy
 
 ### 10.8. Dowody naukowe
 
-Metaanaliza Tieges i współpracowników opublikowana w 2021 r. obejmowała 17 badań i 3702 obserwacje; łączna czułość i swoistość 4AT wynosiły po 0,88, przy przedziałach ufności i zróżnicowaniu jakości badań [22]. Inna metaanaliza opublikowana w 2022 r. obejmująca 11 badań i 2789 uczestników oszacowała czułość i swoistość na 0,87 [23]. Wyniki te wspierają użyteczność narzędzia, ale nie oznaczają doskonałej trafności w każdym środowisku. Parametry zależą od populacji, miejsca badania, ciężkości otępienia, sposobu rekrutacji i jakości procedury.
+Metaanaliza Tieges i współpracowników opublikowana w 2021 r. obejmowała 17 badań i 3702 obserwacje; łączna czułość i swoistość 4AT wynosiły po 0,88, przy przedziałach ufności i zróżnicowaniu jakości badań [21]. Inna metaanaliza opublikowana w 2022 r. obejmująca 11 badań i 2789 uczestników oszacowała czułość i swoistość na 0,87 [22]. Wyniki te wspierają użyteczność narzędzia, ale nie oznaczają doskonałej trafności w każdym środowisku. Parametry zależą od populacji, miejsca badania, ciężkości otępienia, sposobu rekrutacji i jakości procedury.
 
 ### 10.9. Polska wersja
 
-Oficjalna strona 4AT udostępnia polską wersję formularza do pobrania [24]. Należy korzystać z aktualnego pliku, sprawdzić jego datę i stosować wersję językową zgodnie z instrukcją. Nie należy samodzielnie tłumaczyć lub zmieniać zadań uwagowych.
+Oficjalna strona 4AT udostępnia polską wersję formularza do pobrania [23]. Należy korzystać z aktualnego pliku, sprawdzić jego datę i stosować wersję językową zgodnie z instrukcją. Nie należy samodzielnie tłumaczyć lub zmieniać zadań uwagowych.
 
 ---
 
@@ -646,7 +646,7 @@ Oficjalna strona 4AT udostępnia polską wersję formularza do pobrania [24]. Na
 
 ### 11.1. Przeznaczenie
 
-CAM jest narzędziem opartym na algorytmie wykrywania majaczenia, opracowanym przez Sharon Inouye i współpracowników [25]. Wymaga oceny objawów na podstawie obserwacji, wywiadu i badania poznawczego. Nie jest jedynie listą pytań, którą można wypełnić bez znajomości stanu pacjenta.
+CAM jest narzędziem opartym na algorytmie wykrywania majaczenia, opracowanym przez Sharon Inouye i współpracowników [24]. Wymaga oceny objawów na podstawie obserwacji, wywiadu i badania poznawczego. Nie jest jedynie listą pytań, którą można wypełnić bez znajomości stanu pacjenta.
 
 ### 11.2. Cztery zasadnicze cechy algorytmu
 
@@ -687,13 +687,13 @@ flowchart TD
 
 ### 11.4. Szkolenie i jakość wykonania
 
-Przegląd Wei i współpracowników podkreślał znaczenie szkolenia i oparcia oceny CAM na obserwacjach uzyskanych podczas formalnego badania poznawczego [26]. Metaanaliza Shi i współpracowników wykazała wysoką swoistość, ale zmienną czułość, co oznacza, że ujemny wynik nie może samodzielnie wykluczać majaczenia [27].
+Przegląd Wei i współpracowników podkreślał znaczenie szkolenia i oparcia oceny CAM na obserwacjach uzyskanych podczas formalnego badania poznawczego [25]. Metaanaliza Shi i współpracowników wykazała wysoką swoistość, ale zmienną czułość, co oznacza, że ujemny wynik nie może samodzielnie wykluczać majaczenia [26].
 
 W praktyce należy używać oficjalnego formularza i materiałów szkoleniowych. Dostępne są wersje krótkie i długie, a także adaptacje do określonych środowisk. Nie wolno mieszać kryteriów z różnych odmian.
 
 ### 11.5. CAM-ICU
 
-CAM-ICU jest odmianą przeznaczoną dla pacjentów intensywnej terapii, w tym osób, które nie mogą swobodnie mówić, np. z powodu intubacji. Nie należy zastępować jej klasycznym CAM bez uwzględnienia warunków komunikacji. NICE zaleca w intensywnej terapii lub sali wybudzeń stosowanie CAM-ICU albo ICDSC zamiast 4AT [29].
+CAM-ICU jest odmianą przeznaczoną dla pacjentów intensywnej terapii, w tym osób, które nie mogą swobodnie mówić, np. z powodu intubacji. Nie należy zastępować jej klasycznym CAM bez uwzględnienia warunków komunikacji. NICE zaleca w intensywnej terapii lub sali wybudzeń stosowanie CAM-ICU albo ICDSC zamiast 4AT [28].
 
 ### 11.6. Ograniczenia
 
@@ -707,7 +707,7 @@ CAM-ICU jest odmianą przeznaczoną dla pacjentów intensywnej terapii, w tym os
 
 ### 11.7. Dostępność polskiej wersji
 
-Materiały CAM, w tym formularze i szkolenia, są udostępniane przez zasoby Delirium Central i American Delirium Society. Oficjalna strona zasobów wymienia również wersję polską CAM-long [28]. Przed zastosowaniem należy sprawdzić dostępność aktualnego formularza, jego status i warunki użycia.
+Materiały CAM, w tym formularze i szkolenia, są udostępniane przez zasoby Delirium Central i American Delirium Society. Oficjalna strona zasobów wymienia również wersję polską CAM-long [27]. Przed zastosowaniem należy sprawdzić dostępność aktualnego formularza, jego status i warunki użycia.
 
 ---
 
@@ -769,7 +769,7 @@ Prawidłowy wynik nie kończy diagnostyki, jeżeli pacjent lub bliscy opisują w
 - ograniczony zakres domen ocenianych przez narzędzie;
 - wpływ sytuacji i motywacji.
 
-NICE zaleca, aby nie wykluczać otępienia wyłącznie z powodu prawidłowego wyniku testu poznawczego [30].
+NICE zaleca, aby nie wykluczać otępienia wyłącznie z powodu prawidłowego wyniku testu poznawczego [29].
 
 ### 13.3. Wynik nieprawidłowy bez dowodów trwałego zaburzenia
 
@@ -810,7 +810,7 @@ Nie należy traktować niewielkiej różnicy punktów jako dowodu poprawy lub po
 
 ### 14.1. Wykształcenie i jakość edukacji
 
-Długość edukacji nie zawsze odzwierciedla rzeczywiste umiejętności czytania, pisania, liczenia i rozwiązywania problemów. Znaczenie ma także jakość nauczania, przerwy w edukacji, rodzaj wykonywanej pracy i możliwości intelektualne przed chorobą. W badaniu PolSenior uwzględnienie wieku i wykształcenia zmieniało oszacowanie częstości podejrzenia zaburzeń poznawczych w populacji [31]. To pokazuje, że interpretacja wyniku surowego bez kontekstu demograficznego może prowadzić do błędów.
+Długość edukacji nie zawsze odzwierciedla rzeczywiste umiejętności czytania, pisania, liczenia i rozwiązywania problemów. Znaczenie ma także jakość nauczania, przerwy w edukacji, rodzaj wykonywanej pracy i możliwości intelektualne przed chorobą. W badaniu PolSenior uwzględnienie wieku i wykształcenia zmieniało oszacowanie częstości podejrzenia zaburzeń poznawczych w populacji [30]. To pokazuje, że interpretacja wyniku surowego bez kontekstu demograficznego może prowadzić do błędów.
 
 ### 14.2. Język i wielojęzyczność
 
@@ -1195,7 +1195,7 @@ Dodatnia wartość predykcyjna wynosi w tym przykładzie około 38,6%, mimo że 
 
 ### 23.2. Przesiew populacyjny a poszukiwanie przypadku
 
-Należy odróżnić powszechne badanie osób bez objawów od oceny pacjenta, u którego występują skargi, obserwowane zmiany lub czynniki kliniczne. USPSTF w stanowisku z 2020 r. uznała, że dowody są niewystarczające do określenia bilansu korzyści i szkód powszechnego przesiewu bezobjawowych, mieszkających w społeczności osób w wieku co najmniej 65 lat [32]. Stanowisko to dotyczy konkretnej populacji i systemu opieki, ale przypomina, że samo istnienie testu nie uzasadnia automatycznego badania wszystkich osób bez wskazań. W praktyce należy zachować czujność na objawy, pytać o obawy pacjenta i bliskich oraz prowadzić ocenę, gdy istnieje uzasadnione podejrzenie.
+Należy odróżnić powszechne badanie osób bez objawów od oceny pacjenta, u którego występują skargi, obserwowane zmiany lub czynniki kliniczne. USPSTF w stanowisku z 2020 r. uznała, że dowody są niewystarczające do określenia bilansu korzyści i szkód powszechnego przesiewu bezobjawowych, mieszkających w społeczności osób w wieku co najmniej 65 lat [31]. Stanowisko to dotyczy konkretnej populacji i systemu opieki, ale przypomina, że samo istnienie testu nie uzasadnia automatycznego badania wszystkich osób bez wskazań. W praktyce należy zachować czujność na objawy, pytać o obawy pacjenta i bliskich oraz prowadzić ocenę, gdy istnieje uzasadnione podejrzenie.
 
 ---
 
@@ -1300,7 +1300,9 @@ Co należy zrobić, gdy wynik testu jest prawidłowy, ale bliscy opisują wyraź
 
 ---
 
+
 ## 27. Bibliografia
+
 
 1. Folstein Marshall F., Folstein Susan E., McHugh Paul R. “Mini-mental state”. A practical method for grading the cognitive state of patients for the clinician. *Journal of Psychiatric Research*. 1975;12(3):189–198. DOI: [10.1016/0022-3956(75)90026-6](https://doi.org/10.1016/0022-3956(75)90026-6). PubMed: [https://pubmed.ncbi.nlm.nih.gov/1202204/](https://pubmed.ncbi.nlm.nih.gov/1202204/).
 
@@ -1336,37 +1338,38 @@ Co należy zrobić, gdy wynik testu jest prawidłowy, ale bliscy opisują wyraź
 
 17. Meta-analysis of Mini-Cog accuracy for detection of dementia, mild cognitive impairment and cognitive impairment. PubMed: [https://pubmed.ncbi.nlm.nih.gov/38483857/](https://pubmed.ncbi.nlm.nih.gov/38483857/).
 
-18. Park Jung E. Multiple clock drawing scoring systems: simpler is better. *Journal of the American Geriatrics Society* / PubMed record. [https://pubmed.ncbi.nlm.nih.gov/23765914/](https://pubmed.ncbi.nlm.nih.gov/23765914/).
+17. Park Jung E. Multiple clock drawing scoring systems: simpler is better. *Journal of the American Geriatrics Society* / PubMed record. [https://pubmed.ncbi.nlm.nih.gov/23765914/](https://pubmed.ncbi.nlm.nih.gov/23765914/).
 
-19. Bellelli Giuseppe i współpracownicy. Validation of the 4AT, a new instrument for rapid delirium screening: a study in 234 hospitalised older people. *Age and Ageing*. 2014;43(4):496–502. DOI: [10.1093/ageing/afu021](https://doi.org/10.1093/ageing/afu021).
+18. Bellelli Giuseppe i współpracownicy. Validation of the 4AT, a new instrument for rapid delirium screening: a study in 234 hospitalised older people. *Age and Ageing*. 2014;43(4):496–502. DOI: [10.1093/ageing/afu021](https://doi.org/10.1093/ageing/afu021).
 
-20. MoCA Cognition. Official permissions, training and certification, versions and terms of use. [https://mocacognition.com/permission/](https://mocacognition.com/permission/) oraz [https://mocacognition.com/terms-of-use](https://mocacognition.com/terms-of-use). Zasady sprawdzono 28 listopada 2026 r.; mogą ulegać zmianom.
+19. MoCA Cognition. Official permissions, training and certification, versions and terms of use. [https://mocacognition.com/permission/](https://mocacognition.com/permission/) oraz [https://mocacognition.com/terms-of-use](https://mocacognition.com/terms-of-use). Zasady sprawdzono 28 listopada 2026 r.; mogą ulegać zmianom.
 
-21. 4AT. Official user guide and scoring. [https://www.the4at.com/userguide](https://www.the4at.com/userguide).
+20. 4AT. Official user guide and scoring. [https://www.the4at.com/userguide](https://www.the4at.com/userguide).
 
-22. Tieges Zoë i współpracownicy. Diagnostic accuracy of the 4AT for delirium detection in older adults: systematic review and meta-analysis. *Age and Ageing*. 2021;50(3):733–743. DOI: [10.1093/ageing/afaa224](https://doi.org/10.1093/ageing/afaa224).
+21. Tieges Zoë i współpracownicy. Diagnostic accuracy of the 4AT for delirium detection in older adults: systematic review and meta-analysis. *Age and Ageing*. 2021;50(3):733–743. DOI: [10.1093/ageing/afaa224](https://doi.org/10.1093/ageing/afaa224).
 
-23. Diagnostic accuracy of the 4AT for delirium: a systematic review and meta-analysis. *Asian Journal of Psychiatry*. 2022. PubMed: [https://pubmed.ncbi.nlm.nih.gov/36584541/](https://pubmed.ncbi.nlm.nih.gov/36584541/).
+22. Diagnostic accuracy of the 4AT for delirium: a systematic review and meta-analysis. *Asian Journal of Psychiatry*. 2022. PubMed: [https://pubmed.ncbi.nlm.nih.gov/36584541/](https://pubmed.ncbi.nlm.nih.gov/36584541/).
 
-24. 4AT. Oficjalna polska wersja formularza. [https://www.the4at.com/4at-polskie](https://www.the4at.com/4at-polskie).
+23. 4AT. Oficjalna polska wersja formularza. [https://www.the4at.com/4at-polskie](https://www.the4at.com/4at-polskie).
 
-25. Inouye Sharon K. i współpracownicy. Clarifying confusion: the Confusion Assessment Method. A new method for detection of delirium. *Annals of Internal Medicine*. 1990;113(12):941–948. [https://pubmed.ncbi.nlm.nih.gov/2240918/](https://pubmed.ncbi.nlm.nih.gov/2240918/).
+24. Inouye Sharon K. i współpracownicy. Clarifying confusion: the Confusion Assessment Method. A new method for detection of delirium. *Annals of Internal Medicine*. 1990;113(12):941–948. [https://pubmed.ncbi.nlm.nih.gov/2240918/](https://pubmed.ncbi.nlm.nih.gov/2240918/).
 
-26. Wei L. A. i współpracownicy. The Confusion Assessment Method: a systematic review of current usage. *Journal of the American Geriatrics Society*. 2008;56(5):823–830. [https://pubmed.ncbi.nlm.nih.gov/18384586/](https://pubmed.ncbi.nlm.nih.gov/18384586/).
+25. Wei L. A. i współpracownicy. The Confusion Assessment Method: a systematic review of current usage. *Journal of the American Geriatrics Society*. 2008;56(5):823–830. [https://pubmed.ncbi.nlm.nih.gov/18384586/](https://pubmed.ncbi.nlm.nih.gov/18384586/).
 
-27. Shi Qiyun i współpracownicy. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. *Neuropsychiatric Disease and Treatment*. 2013;9:1359–1370. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3788697/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3788697/).
+26. Shi Qiyun i współpracownicy. Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. *Neuropsychiatric Disease and Treatment*. 2013;9:1359–1370. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3788697/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3788697/).
 
-28. American Delirium Society / Delirium Central. CAM-short, CAM-long i materiały szkoleniowe, w tym wersje językowe. [https://www.deliriumcentral.org/delirium-instruments/](https://www.deliriumcentral.org/delirium-instruments/) oraz [https://americandeliriumsociety.org/Confusion-Assessment-Method-%28CAM-long%29](https://americandeliriumsociety.org/Confusion-Assessment-Method-%28CAM-long%29).
+27. American Delirium Society / Delirium Central. CAM-short, CAM-long i materiały szkoleniowe, w tym wersje językowe. [https://www.deliriumcentral.org/delirium-instruments/](https://www.deliriumcentral.org/delirium-instruments/) oraz [https://americandeliriumsociety.org/Confusion-Assessment-Method-%28CAM-long%29](https://americandeliriumsociety.org/Confusion-Assessment-Method-%28CAM-long%29).
 
-29. National Institute for Health and Care Excellence (NICE). Delirium: prevention, diagnosis and management in hospital and long-term care. Clinical guideline CG103, aktualizacja 18 stycznia 2023 r. [https://www.nice.org.uk/guidance/cg103/chapter/Recommendations](https://www.nice.org.uk/guidance/cg103/chapter/Recommendations).
+28. National Institute for Health and Care Excellence (NICE). Delirium: prevention, diagnosis and management in hospital and long-term care. Clinical guideline CG103, aktualizacja 18 stycznia 2023 r. [https://www.nice.org.uk/guidance/cg103/chapter/Recommendations](https://www.nice.org.uk/guidance/cg103/chapter/Recommendations).
 
-30. National Institute for Health and Care Excellence (NICE). Dementia: assessment, management and support for people living with dementia and their carers. Guideline NG97. [https://www.nice.org.uk/guidance/ng97/chapter/Recommendations](https://www.nice.org.uk/guidance/ng97/chapter/Recommendations).
+29. National Institute for Health and Care Excellence (NICE). Dementia: assessment, management and support for people living with dementia and their carers. Guideline NG97. [https://www.nice.org.uk/guidance/ng97/chapter/Recommendations](https://www.nice.org.uk/guidance/ng97/chapter/Recommendations).
 
-31. The assessment of cognitive impairment suspected of dementia in Polish elderly people: results of the population-based PolSenior Study. PubMed: [https://pubmed.ncbi.nlm.nih.gov/24937034/](https://pubmed.ncbi.nlm.nih.gov/24937034/).
+30. The assessment of cognitive impairment suspected of dementia in Polish elderly people: results of the population-based PolSenior Study. PubMed: [https://pubmed.ncbi.nlm.nih.gov/24937034/](https://pubmed.ncbi.nlm.nih.gov/24937034/).
 
-32. US Preventive Services Task Force. Screening for Cognitive Impairment in Older Adults: Recommendation Statement. *JAMA*. 2020;323(8):757–763. DOI: [10.1001/jama.2020.0435](https://doi.org/10.1001/jama.2020.0435). [https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening).
+31. US Preventive Services Task Force. Screening for Cognitive Impairment in Older Adults: Recommendation Statement. *JAMA*. 2020;323(8):757–763. DOI: [10.1001/jama.2020.0435](https://doi.org/10.1001/jama.2020.0435). [https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening).
 
-33. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). American Psychiatric Association Publishing; 2022. [https://www.psychiatry.org/psychiatrists/practice/dsm](https://www.psychiatry.org/psychiatrists/practice/dsm).
+32. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). American Psychiatric Association Publishing; 2022. [https://www.psychiatry.org/psychiatrists/practice/dsm](https://www.psychiatry.org/psychiatrists/practice/dsm).
+
 
 ### Materiały edukacyjne i instrukcje
 
